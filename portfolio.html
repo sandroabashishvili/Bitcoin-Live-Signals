@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en" data-theme="boss">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SmartSignalHub — Portfolio</title>
+<meta name="color-scheme" content="light dark" />
+<meta name="description" content="SmartSignalHub Portfolio — signal engines, MTF alignment, SL/TP, orderbook analytics, news, diagnostics, utilities." />
+<meta name="author" content="SmartSignalHub" />
+
+
+<link rel="icon" type="image/png" href="assets/favicon.png" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css" />
+
+
+<style>
+.portfolio-scope{ --gap:22px; --radius:14px; --shadow:var(--shadow); }
+
+
+.portfolio-hero{ display:grid; gap:12px; margin:12px auto 8px; padding:18px; background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); }
+.portfolio-hero h1{ font-size:clamp(1.4rem,1.1rem+1.4vw,2rem); font-weight:800; }
+.portfolio-hero p{ color:var(--muted); font-size:1.05rem; }
+.cta-row{ display:flex; flex-wrap:wrap; gap:10px; }
+.btn{ display:inline-flex; align-items:center; gap:.5rem; padding:10px 14px; border-radius:12px; font-weight:700; cursor:pointer; text-decoration:none; }
+.btn-primary{ background:linear-gradient(135deg,var(--accent),var(--accent-2)); color:var(--accent-contrast); border:none; }
+.btn-ghost{ background:var(--card); color:var(--fg); border:1px solid var(--line); }
+
+
+.filter-bar{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; margin:8px 0 0; }
+.chip{ border:1px solid var(--line); background:var(--card); padding:.4rem .7rem; border-radius:999px; font-weight:700; cursor:pointer; }
+.chip[aria-pressed="true"]{ background:linear-gradient(135deg,var(--accent),var(--accent-2)); color:var(--accent-contrast); border:none; }
+.search{ min-width:200px; padding:.55rem .7rem; border-radius:10px; border:1px solid var(--line); background:var(--card); }
+
+
+.portfolio-grid{ display:grid; gap:var(--gap); margin-top:16px; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); }
+
+
+.p-card{ display:flex; flex-direction:column; gap:14px; background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:18px; box-shadow:var(--shadow); transition:.22s ease transform,.22s ease box-shadow,.22s ease border-color; }
+.p-card:hover{ transform:translateY(-4px); box-shadow:0 10px 28px rgba(0,0,0,.22); border-color:color-mix(in oklab,var(--accent) 60%, var(--line) 40%); }
+
+
+.banner{ display:flex; align-items:center; justify-content:center; flex-direction:column; border-radius:12px; color:#fff; min-height:160px; font-weight:800; text-align:center; position:relative; overflow:hidden; transition: transform .25s ease; }
+.p-card:hover .banner{ transform: scale(1.03); }
+
+
+.banner .icon{ font-size:2.2rem; margin-bottom:8px; animation:bounce 3s infinite; }
+@keyframes bounce{ 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+
+
+.ind-banner{ background:linear-gradient(135deg,#2563eb,#3b82f6); }
+.mtf-banner{ background:linear-gradient(135deg,#0f6a2f,#3ca55c); }
+.logic-banner{ background:linear-gradient(135deg,#5b21b6,#9333ea); }
+.sltp-banner{ background:linear-gradient(135deg,#ff416c,#ff4b2b); }
+.order-banner{ background:linear-gradient(135deg,#f59e0b,#f97316); }
+.news-banner{ background:linear-gradient(135deg,#1e3a8a,#3b82f6); }
+.diag-banner{ background:linear-gradient(135deg,#374151,#6b7280); }
+.utils-banner{ background:linear-gradient(135deg,#047857,#10b981); }
+
+
+.p-card h2{ margin:0; font-size:1.25rem; font-weight:800; transition:color .2s ease; }
+.p-card:hover h2{ color:var(--accent); }
+.p-card p{ margin:0; color:var(--muted); }
+
+
+.badges{ display:flex; flex-wrap:wrap; gap:6px; margin-top:6px; }
+.badge{ display:inline-flex; align-items:center; gap:6px; padding:.22rem .56rem; border-radius:999px; font-weight:700; font-size:.86rem; border:1px solid var(--line); background: color-mix(in oklab, var(--card) 92%, transparent); transition:.2s ease background,.2s ease transform; }
+.badge:hover{ background:color-mix(in oklab,var(--accent) 20%,var(--card) 80%); transform:translateY(-2px); }
+
+
+.footer-row{ display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:auto; }
+.restricted{ color:#e74c3c; font-weight:700; font-size:.95rem; }
+
+
+@media (max-width: 768px){ .banner{ min-height:130px } }
+</style>
+</head>
+<body>
+<!-- HEADER (injected) -->
+<div id="header-placeholder"></div>
+
+
+<main id="content" class="container portfolio-scope" aria-label="Main content">
+
+    <!-- HERO -->
+    <section class="portfolio-hero" aria-label="Portfolio intro">
+      <h1>Our Portfolio</h1>
+      <p>
+        Explore the algorithmic heart of <b>SmartSignalHub</b>. Each module brings clarity and automation to trading —
+        from indicator engines and multi‑timeframe alignment to orderbook analytics and risk controls.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="index.html">See Live Dashboard</a>
+        <a class="btn btn-ghost" href="contact.html">Work with us</a>
+      </div>
+      <div class="filter-bar" role="toolbar" aria-label="Filter modules">
+        <button class="chip" data-filter="all" aria-pressed="true">All</button>
+        <button class="chip" data-filter="core">Core</button>
+        <button class="chip" data-filter="analytics">Analytics</button>
+        <button class="chip" data-filter="infra">Infrastructure</button>
+        <input class="search" id="modSearch" type="search" placeholder="Search modules…" aria-label="Search modules" />
+      </div>
+    </section>
+
+    <!-- GRID -->
+    <section class="portfolio-grid" id="grid" aria-label="Modules list">
+      <!-- Indicator Engine -->
+      <article class="p-card" data-cat="core" data-keywords="indicators ta momentum macd rsi ema">
+        <div class="banner ind-banner" aria-hidden="true">
+          <div class="icon">📈</div>
+          <div>Indicator Engine</div>
+        </div>
+        <h2>Indicator Engine</h2>
+        <p>Transforms raw market data into a clean indicator set (RSI, MACD, EMA, ATR, Ichimoku, VWAP) for consistent, testable strategies.</p>
+        <div class="badges">
+          <span class="badge">Python</span>
+          <span class="badge">Pandas</span>
+          <span class="badge">Backtest‑ready</span>
+        </div>
+        <div class="footer-row">
+          <span class="restricted">📌 Registered users only</span>
+        </div>
+      </article>
+
+      <!-- MTF Alignment -->
+      <article class="p-card" data-cat="core" data-keywords="mtf multi timeframe 5m 30m 4h alignment filters">
+        <div class="banner mtf-banner" aria-hidden="true">
+          <div class="icon">⏳</div>
+          <div>MTF Alignment</div>
+        </div>
+        <h2>Multi‑Timeframe Alignment Engine</h2>
+        <p>Synchronizes short‑term signals with macro trend (5m → 30m → 4h). Filters noise and raises conviction only on aligned setups.</p>
+        <div class="badges">
+          <span class="badge">Signal Filtering</span>
+          <span class="badge">Noise Control</span>
+        </div>
+        <div class="footer-row">
+          <span class="restricted">📌 Registered users only</span>
+        </div>
+      </article>
+
+      <!-- Signal Logic -->
+      <article class="p-card" data-cat="core" data-keywords="signal logic rules macd histogram atr vwap confirmation">
+        <div class="banner logic-banner" aria-hidden="true">
+          <div class="icon">🧠</div>
+          <div>Signal Logic</div>
+        </div>
+        <h2>Advanced Signal Logic</h2>
+        <p>Combines momentum checks, MACD histogram growth, ATR spike detection and VWAP bias to produce clear BUY/SELL decisions.</p>
+        <div class="badges">
+          <span class="badge">RRR‑aware</span>
+          <span class="badge">Explainable</span>
+        </div>
+        <div class="footer-row">
+          <span class="restricted">📌 Registered users only</span>
+        </div>
+      </article>
+
+      <!-- SL/TP -->
+      <article class="p-card" data-cat="core" data-keywords="risk sl tp stop loss take profit atr liquidity adaptive">
+        <div class="banner sltp-banner" aria-hidden="true">
+          <div class="icon">🎯</div>
+          <div>SL/TP Module</div>
+        </div>
+        <h2>Smart SL/TP Generator</h2>
+        <p>Adaptive risk engine that sets protective stops and realistic profit targets using ATR, liquidity zones and orderflow context.</p>
+        <div class="badges">
+          <span class="badge">Risk Control</span>
+          <span class="badge">Adaptive</span>
+        </div>
+        <div class="footer-row">
+          <span class="restricted">📌 Registered users only</span>
+        </div>
+      </article>
+
+      <!-- Orderbook -->
+      <article class="p-card" data-cat="analytics" data-keywords="orderbook liquidity buy sell imbalance spoofing delta">
+        <div class="banner order-banner" aria-hidden="true">
+          <div class="icon">📊</div>
+          <div>Orderbook</div>
+        </div>
+        <h2>Orderbook Analyzer</h2>
+        <p>Reveals support/resistance from liquidity, highlights spoofing risks and validates signals against real buy/sell pressure.</p>
+        <div class="badges">
+          <span class="badge">OB Delta</span>
+          <span class="badge">Market Microstructure</span>
+        </div>
+        <div class="footer-row">
+          <span class="restricted">📌 Registered users only</span>
+        </div>
+      </article>
+
+      <!-- News -->
+      <article class="p-card" data-cat="analytics" data-keywords="news generator feeds sentiment context headlines">
+        <div class="banner news-banner" aria-hidden="true">
+          <div class="icon">📰</div>
+          <div>News Generator</div>
+        </div>
+        <h2>Crypto News Generator</h2>
+        <p>Aggregates and reformats crypto headlines so traders can view technical signals alongside fresh market context.</p>
+        <div class="badges">
+          <span class="badge">Sentiment</span>
+          <span class="badge">Curation</span>
+        </div>
+        <div class="footer-row">
+          <span class="restricted">📌 Registered users only</span>
+        </div>
+      </article>
+
+      <!-- Diagnostics -->
+      <article class="p-card" data-cat="infra" data-keywords="diagnostics uptime monitors jobs pipelines alerts">
+        <div class="banner diag-banner" aria-hidden="true">
+          <div class="icon">🧪</div>
+          <div>Diagnostics</div>
+        </div>
+        <h2>System Diagnostics</h2>
+        <p>Watches engines, pipelines and logs for anomalies. Early alerts keep the signal flow reliable and transparent.</p>
+        <div class="badges">
+          <span class="badge">Health Checks</span>
+          <span class="badge">Alerts</span>
+        </div>
+        <div class="footer-row">
+          <span class="restricted">📌 Registered users only</span>
+        </div>
+      </article>
+
+      <!-- Utilities -->
+      <article class="p-card" data-cat="infra" data-keywords="utilities binance api candles io loaders normalizers">
+        <div class="banner utils-banner" aria-hidden="true">
+          <div class="icon">🧰</div>
+          <div>Utilities</div>
+        </div>
+        <h2>Utility Layer</h2>
+        <p>Clean Binance/API integrations, candle fetching, I/O helpers and normalization that everything else depends on.</p>
+        <div class="badges">
+          <span class="badge">API</span>
+          <span class="badge">Data</span>
+        </div>
+        <div class="footer-row">
+          <span class="restricted">📌 Registered users only</span>
+        </div>
+      </article>
+          
+      <!-- NEW: Capital Manager -->
+      <article class="p-card" data-cat="infra" data-keywords="risk capital kelly position sizing bankroll fees">
+        <div class="banner utils-banner" aria-hidden="true">
+          <div class="icon">💰</div>
+          <div>Capital Manager</div>
+        </div>
+        <h2>Capital Manager</h2>
+        <p>Account-level risk engine (fixed‑fraction & Kelly‑lite), fee-aware sizing, exposure caps, and daily capital logs.</p>
+        <div class="badges">
+          <span class="badge">Sizing</span>
+          <span class="badge">Exposure</span>
+        </div>
+        <div class="footer-row">
+          <span class="restricted">📌 Registered users only</span>
+        </div>
+      </article>
+
+      <!-- NEW: Regime Detector -->
+      <article class="p-card" data-cat="analytics" data-keywords="regime trend chop volatility state machine">
+        <div class="banner diag-banner" aria-hidden="true">
+          <div class="icon">🌡️</div>
+          <div>Regime Detector</div>
+        </div>
+        <h2>Market Regime Detector</h2>
+        <p>Classifies states (Trending / Ranging / High‑Vol) to route signals and adjust SL/TP & RRR policies automatically.</p>
+        <div class="badges">
+          <span class="badge">State Machine</span>
+          <span class="badge">ATR/ADX</span>
+        </div>
+        <div class="footer-row">
+          <span class="restricted">📌 Registered users only</span>
+        </div>
+      </article>
+
+      <!-- NEW: Position Sizer -->
+      <article class="p-card" data-cat="core" data-keywords="position size rrr rr bankroll risk percent pyramiding">
+        <div class="banner ind-banner" aria-hidden="true">
+          <div class="icon">📐</div>
+          <div>Position Sizer</div>
+        </div>
+        <h2>Position Sizer</h2>
+        <p>Converts SL distance + account risk into size, supports pyramiding rules and min‑notional constraints.</p>
+        <div class="badges">
+          <span class="badge">Risk %</span>
+          <span class="badge">Constraints</span>
+        </div>
+        <div class="footer-row">
+          <span class="restricted">📌 Registered users only</span>
+        </div>
+      </article>
+
+      <!-- NEW: Walk‑Forward Lab -->
+      <article class="p-card" data-cat="analytics" data-keywords="walk forward out of sample optimizer validation grid search">
+        <div class="banner news-banner" aria-hidden="true">
+          <div class="icon">🧪</div>
+          <div>Walk‑Forward Lab</div>
+        </div>
+        <h2>Walk‑Forward Optimizer</h2>
+        <p>Sliding‑window parameter tests with out‑of‑sample validation and stability charts for safer defaults.</p>
+        <div class="badges">
+          <span class="badge">WFO</span>
+          <span class="badge">Stability</span>
+        </div>
+        <div class="footer-row">
+          <span class="restricted">📌 Registered users only</span>
+        </div>
+      </article>
+
+      <!-- NEW: Signal Drift Watch -->
+      <article class="p-card" data-cat="infra" data-keywords="monitor drift data shift winrate latency watchdog alerts">
+        <div class="banner order-banner" aria-hidden="true">
+          <div class="icon">⏱️</div>
+          <div>Signal Drift Watch</div>
+        </div>
+        <h2>Signal Drift Watch</h2>
+        <p>Monitors win‑rate, latency and indicator distributions vs baselines; alerts on significant drift.</p>
+        <div class="badges">
+          <span class="badge">Alerts</span>
+          <span class="badge">SLOs</span>
+        </div>
+        <div class="footer-row">
+          <span class="restricted">📌 Registered users only</span>
+        </div>
+      </article>
+
+      <!-- NEW: Paper Trader -->
+      <article class="p-card" data-cat="core" data-keywords="paper trading simulator fills slippage fees execution backtest live">
+        <div class="banner sltp-banner" aria-hidden="true">
+          <div class="icon">🧾</div>
+          <div>Paper Trader</div>
+        </div>
+        <h2>Paper Trader</h2>
+        <p>Execution simulator with slippage/fee model; mirrors live signals into virtual fills for quick validation.</p>
+        <div class="badges">
+          <span class="badge">Simulator</span>
+          <span class="badge">Fills</span>
+        </div>
+        <div class="footer-row">
+          <span class="restricted">📌 Registered users only</span>
+        </div>
+      </article>
+
+      <!-- NEW: Correlation Scanner -->
+      <article class="p-card" data-cat="analytics" data-keywords="correlation cointegration beta hedge pairs basket">
+        <div class="banner logic-banner" aria-hidden="true">
+          <div class="icon">🔗</div>
+          <div>Correlation Scanner</div>
+        </div>
+        <h2>Correlation & Pairs</h2>
+        <p>Finds correlated/cointegrated assets for hedge entries and basket risk; flags regime breaks.</p>
+        <div class="badges">
+          <span class="badge">Pairs</span>
+          <span class="badge">Hedge</span>
+        </div>
+        <div class="footer-row">
+          <span class="restricted">📌 Registered users only</span>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- FOOTER (injected) -->
+  <div id="footer-placeholder"></div>
+
+
+<script src="assets/js/main.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+const chips = Array.from(document.querySelectorAll('.chip[data-filter]'));
+const search = document.getElementById('modSearch');
+const cards = Array.from(document.querySelectorAll('.p-card'));
+function apply(){
+const active = chips.find(c=>c.getAttribute('aria-pressed')==='true');
+const filter = active ? active.dataset.filter : 'all';
+const q=(search?.value||'').toLowerCase();
+cards.forEach(card=>{
+const cat=card.dataset.cat||'core';
+const kw=(card.dataset.keywords||'').toLowerCase();
+const okCat=(filter==='all')||(filter===cat);
+const okSearch=!q||kw.includes(q)||card.querySelector('h2').textContent.toLowerCase().includes(q);
+card.style.display=(okCat&&okSearch)?'':'none';
+});
+}
+chips.forEach(chip=>chip.addEventListener('click',()=>{chips.forEach(c=>c.setAttribute('aria-pressed','false'));chip.setAttribute('aria-pressed','true');apply();}));
+search?.addEventListener('input',apply);
+});
+</script>
+</body>
+</html>

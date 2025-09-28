@@ -1,0 +1,51 @@
+<!-- =========================================================
+  FILE: index.html (clean)
+========================================================= -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Base -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bitcoin Live Signals — SmartSignalHub</title>
+    <meta name="description" content="Real-time Bitcoin trade signals with TP/SL, multi-timeframe view, and transparent performance. AI-powered. Updates every 30 min." />
+    <meta name="color-scheme" content="light dark" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bitcoin Live Signals — SmartSignalHub" />
+    <meta property="og:description" content="Real-time Bitcoin trade signals with TP/SL, multi-timeframe view, and transparent performance. AI-powered. Updates every 30 min." />
+    <meta property="og:url" content="https://smartsignalhub.com/" />
+    <meta property="og:image" content="https://smartsignalhub.com/og/og-image.png" />
+    <meta property="og:site_name" content="SmartSignalHub" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bitcoin Live Signals — SmartSignalHub" />
+    <meta name="twitter:description" content="AI-powered Bitcoin signals with built-in TP/SL and multi-timeframe confirmation." />
+    <meta name="twitter:image" content="https://smartsignalhub.com/og/og-image.png" />
+
+    <!-- Preconnect/Preload (adjust per hosting) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- Base CSS (load early to avoid FOUC and enable mobile/theme instantly) -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Header include (server-side include if available) -->
+    <!--#include file="includes/header.html" -->
+  </head>
+  <body>
+    <div id="header-placeholder" role="banner"></div>
+
+    <main id="content" role="main" style="max-width:1320px;margin:0 auto;padding:20px;display:grid;gap:20px">
+      <equity-viewer></equity-viewer>
+      <volume-visualizer></volume-visualizer>
+    </main>
+
+    <div id="footer-placeholder" role="contentinfo"></div>
+    <!-- Footer include (server-side include if available) -->
+    <!--#include file="includes/footer.html" -->
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>

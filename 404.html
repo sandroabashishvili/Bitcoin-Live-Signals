@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" data-theme="boss">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>404 — Page Not Found</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Main styles -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <style>
+    .error-page {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .error-page h1 {
+      font-size: 5rem;
+      margin-bottom: 10px;
+      font-weight: 800;
+      color: var(--accent);
+    }
+    .error-page p {
+      color: var(--muted);
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <div id="header-placeholder"></div>
+
+  <!-- MAIN -->
+  <main id="content" class="container error-page" aria-label="Error page">
+    <h1>404</h1>
+    <p>Oops! The page you’re looking for doesn’t exist.</p>
+    <a class="btn btn-primary btn-sm" href="index.html">⬅ Back to Home</a>
+  </main>
+
+  <!-- FOOTER -->
+  <div id="footer-placeholder"></div>
+
+  <!-- JS -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    async function loadPartials() {
+      const header = await fetch("includes/header.html").then(r => r.text());
+      const footer = await fetch("includes/footer.html").then(r => r.text());
+      document.getElementById("header-placeholder").innerHTML = header;
+      document.getElementById("footer-placeholder").innerHTML = footer;
+    }
+    document.addEventListener("DOMContentLoaded", loadPartials);
+  </script>
+  <!-- Scripts -->
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

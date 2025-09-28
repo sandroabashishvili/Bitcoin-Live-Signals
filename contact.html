@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en" data-theme="boss">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SmartSignalHub — Contact</title>
+  <meta name="color-scheme" content="light dark" />
+
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <style>
+    .contact-section {
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      margin-top: 20px;
+    }
+    .contact-left {
+      flex: 1;
+      max-width: 720px;
+    }
+    .contact-right {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .contact-banner {
+      width: 100%;
+      max-width: 320px;
+      height: 320px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      text-align: center;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+    }
+    .contact-banner .icon {
+      font-size: 3rem;
+      margin-bottom: 12px;
+      animation: bounce 3s infinite;
+    }
+    .contact-banner .text {
+      font-size: 1.4rem;
+      letter-spacing: 1px;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .contact-intro {
+      margin-bottom: 18px;
+      color: var(--muted);
+      font-size: 1.1rem;
+      line-height: 1.7;
+      text-align: left;
+    }
+
+    .contact-wrapper {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .contact-form { display: flex; flex-direction: column; gap: 16px; }
+    .contact-form label { font-weight: 600; margin-bottom: 4px; display:block; }
+    .contact-form input, .contact-form textarea {
+      width: 100%; padding: 12px 14px;
+      border: 1px solid var(--line); border-radius: 10px;
+      font-size: 1rem; font-family: inherit;
+      transition: border-color .2s ease, box-shadow .2s ease;
+    }
+    .contact-form input:focus, .contact-form textarea:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(0,0,0,.05);
+      outline: none;
+    }
+    .contact-form textarea { resize: vertical; min-height: 120px; }
+
+    .contact-form button {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #fff;
+      border: none;
+      padding: 12px 18px;
+      border-radius: 10px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .contact-form button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .contact-direct {
+      margin-top: 14px;
+      text-align: left;
+      font-size: 1rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .contact-direct a { color: var(--accent); font-weight: 600; text-decoration: none; }
+    .contact-direct a:hover { text-decoration: underline; }
+
+    /* Mobile */
+    @media (max-width: 900px) {
+      .contact-section { flex-direction: column; gap: 24px; }
+      .contact-banner { max-width: 240px; height: 240px; margin: 0 auto; }
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <div id="header-placeholder"></div>
+
+  <!-- MAIN -->
+  <main id="content" class="container" aria-label="Main content">
+    <h1 class="page-title">Contact Us</h1>
+
+    <div class="contact-section">
+      <!-- Left -->
+      <div class="contact-left">
+        <p class="contact-intro">
+          Let’s build something great together! Whether you have a question, feedback,
+          or want to explore <strong>partnership & collaboration opportunities</strong>, we’d love to hear from you.
+          Tell us a bit about your idea and how we can help.
+        </p>
+
+        <div class="contact-wrapper">
+          <form class="contact-form">
+            <div>
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div>
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+            <div>
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit">📨 Send Message</button>
+          </form>
+        </div>
+
+        <!-- Direct contact -->
+        <p class="contact-direct">
+          Prefer direct contact?<br>
+          ✉️ Email: <a href="mailto:sandroabashishvili@gmail.com">sandroabashishvili@gmail.com</a><br>
+          📱 Phone: <a href="tel:+4915211084360">+49 1521 1084360</a>
+        </p>
+      </div>
+  </main>
+
+  <!-- FOOTER -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

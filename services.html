@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en" data-theme="boss">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SmartSignalHub — Services</title>
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Trading signals, backtesting, automations, dashboards, analytics, QA and consulting for crypto teams and traders." />
+  <meta name="author" content="SmartSignalHub" />
+
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <style>
+    .services-scope{ --gap:22px; }
+
+    .sv-hero{ background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:18px; box-shadow:var(--shadow); margin:12px 0; }
+    .sv-hero h1{ font-weight:800; font-size:clamp(1.4rem,1.1rem+1.4vw,2rem); margin:0 0 6px; }
+    .sv-hero p{ color:var(--muted); margin:0; font-size:1.05rem; }
+
+    .sv-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:var(--gap); margin-top:16px; }
+
+    .sv-card{ background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:22px; box-shadow:var(--shadow); display:flex; flex-direction:column; gap:12px; transition:.22s ease transform,.22s ease box-shadow,.22s ease border-color; }
+    .sv-card:hover{ transform:translateY(-4px); box-shadow:0 10px 28px rgba(0,0,0,.22); border-color:color-mix(in oklab,var(--accent) 60%, var(--line) 40%); }
+
+    .sv-icon{ font-size:2rem; }
+    .sv-title{ margin:0; font-weight:800; font-size:1.25rem; transition:color .2s ease; }
+    .sv-card:hover .sv-title{ color:var(--accent); }
+    .sv-desc{ margin:0; color:var(--muted); line-height:1.55; font-size:1.05rem; }
+
+    .badges{ display:flex; flex-wrap:wrap; gap:6px; }
+    .badge{ display:inline-flex; align-items:center; gap:6px; padding:.22rem .56rem; border-radius:999px; font-weight:700; font-size:.86rem; border:1px solid var(--line); background: color-mix(in oklab, var(--card) 92%, transparent); transition:.2s ease background,.2s ease transform; }
+    .badge:hover{ background:color-mix(in oklab,var(--accent) 20%,var(--card) 80%); transform:translateY(-2px); }
+  </style>
+</head>
+<body>
+  <div id="header-placeholder"></div>
+
+  <main id="content" class="container services-scope" aria-label="Main content">
+    <section class="sv-hero" aria-label="Services Intro">
+      <h1>What We Do</h1>
+      <p><b>SmartSignalHub</b> unites trading experience, clean engineering and actionable analytics. We build custom tools and automations for traders, quant teams, funds and crypto startups.</p>
+    </section>
+
+    <section class="sv-grid" id="svGrid" aria-label="Services list">
+      <article class="sv-card">
+        <div class="sv-icon">📈</div>
+        <h2 class="sv-title">Live Trading Signals</h2>
+        <p class="sv-desc">We deliver real‑time, data‑driven crypto trading signals. Each entry, target, and stop loss is pre‑defined so you can trade with confidence. Our signals combine multi‑timeframe indicators, risk‑adjusted logic, and continuous evaluation to ensure that you always know not just when to enter, but also how to protect your capital. Designed for traders, analysts, and communities who want clarity without hype.</p>
+        <div class="badges"><span class="badge">Real‑time</span><span class="badge">TP/SL</span><span class="badge">MTF</span></div>
+      </article>
+
+      <article class="sv-card">
+        <div class="sv-icon">🔎</div>
+        <h2 class="sv-title">Backtesting & Research</h2>
+        <p class="sv-desc">Before risking real money, every strategy should be proven. Our backtesting engine lets you simulate performance on any asset and timeframe. You’ll see win‑rates, drawdowns, and risk/reward ratios clearly laid out. We also provide custom research studies, giving teams deep insights into market behavior, indicator efficiency, and hidden edge opportunities.</p>
+        <div class="badges"><span class="badge">Research</span><span class="badge">Reports</span></div>
+      </article>
+
+      <article class="sv-card">
+        <div class="sv-icon">🤖</div>
+        <h2 class="sv-title">Automation & Bots</h2>
+        <p class="sv-desc">Automate your workflow with custom bots built in Python, JS, or PineScript. From simple alerting systems to full execution frameworks, we integrate exchange APIs, enforce risk controls, and add smart notifications. Every bot is tailored to your requirements, ensuring your strategies can run 24/7 with reliability and security at the core.</p>
+        <div class="badges"><span class="badge">Automation</span><span class="badge">APIs</span></div>
+      </article>
+
+      <article class="sv-card">
+        <div class="sv-icon">💻</div>
+        <h2 class="sv-title">Dashboards & Visual Apps</h2>
+        <p class="sv-desc">We build dashboards that bring data to life. From tracking your PnL to monitoring orderbook flows, our visual apps are fast, responsive, and mobile‑friendly. Each dashboard can be themed, extended with plugins, and connected to live data feeds so you always have a clear picture of your trading ecosystem.</p>
+        <div class="badges"><span class="badge">Dashboards</span><span class="badge">UI</span></div>
+      </article>
+
+      <article class="sv-card">
+        <div class="sv-icon">📊</div>
+        <h2 class="sv-title">Analytics & Reporting</h2>
+        <p class="sv-desc">Turn raw exchange data into actionable insights. We provide live KPIs, detailed trade breakdowns, and periodic reports in PDF/HTML formats. Using Python, Pandas, SQL, and ECharts, we make your data tell a story that supports better decisions and measurable growth.</p>
+        <div class="badges"><span class="badge">KPIs</span><span class="badge">Reports</span></div>
+      </article>
+
+      <article class="sv-card">
+        <div class="sv-icon">🧪</div>
+        <h2 class="sv-title">Exchange / API QA</h2>
+        <p class="sv-desc">Exchanges and fintech startups need bulletproof infrastructure. Our QA service stress‑tests APIs, validates schemas, and checks for performance and security gaps. With our diagnostics, you’ll catch bugs before your users do, saving time and reputation.</p>
+        <div class="badges"><span class="badge">QA</span><span class="badge">Security</span></div>
+      </article>
+
+      <article class="sv-card">
+        <div class="sv-icon">🤝</div>
+        <h2 class="sv-title">Custom Projects & Partnerships</h2>
+        <p class="sv-desc">Whether you’re a startup or an established fund, we partner with you to build MVPs, integrate new modules, or support ongoing research. You bring the vision, we deliver the technology. Together we can accelerate development and create platforms that last.</p>
+        <div class="badges"><span class="badge">MVP</span><span class="badge">R&D</span></div>
+      </article>
+
+      <article class="sv-card">
+        <div class="sv-icon">🌍</div>
+        <h2 class="sv-title">Consulting & Outsourcing</h2>
+        <p class="sv-desc">Upgrade your trading stack or automate internal workflows with our consulting services. We offer code reviews, workshops, and rapid prototyping under NDA‑friendly terms. Remote, flexible, and results‑focused, our consulting adapts to your needs.</p>
+        <div class="badges"><span class="badge">Consulting</span><span class="badge">Remote</span></div>
+      </article>
+
+      <article class="sv-card">
+        <div class="sv-icon">🚀</div>
+        <h2 class="sv-title">Premium Membership</h2>
+        <p class="sv-desc">Coming soon: a membership program with pro dashboards, exclusive signals, and advanced analytics reserved for subscribers. Get early access to our beta by invitation and shape the next generation of trading tools.</p>
+        <div class="badges"><span class="badge">Premium</span><span class="badge">Beta</span></div>
+      </article>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

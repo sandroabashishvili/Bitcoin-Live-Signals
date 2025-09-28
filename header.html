@@ -1,0 +1,46 @@
+<header class="site-header" aria-label="Site header">
+  <!-- Global assets (theme + libs + apps) -->
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+  <script type="module" src="assets/apps/equity-viewer.js"></script>
+  <script type="module" src="assets/apps/volume-visualizer.js"></script>
+
+  <div class="container header-row">
+    <!-- Logo -->
+    <a class="brand" href="index.html" aria-label="Home">
+      <img src="assets/favicon.png" alt="SmartSignalHub Logo" class="logo" width="28" height="28" loading="lazy" decoding="async" />
+      <span class="brand-title">SmartSignalHub</span>
+    </a>
+
+    <!-- Hamburger button -->
+    <button class="menu-toggle" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Primary menu">
+      <button class="menu-close" aria-label="Close menu">
+        <i class="fas fa-times"></i>
+      </button>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="news.html">News</a>
+      <a href="resources.html">Resources</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Theme switches -->
+    <div class="swatches" aria-label="Theme">
+      <div class="swatch" title="Boss" data-theme="boss"></div>
+      <div class="swatch" title="Ferrari" data-theme="ferrari"></div>
+      <div class="swatch" title="Bull" data-theme="bull"></div>
+      <div class="swatch" title="Joker" data-theme="joker"></div>
+    </div>
+  </div>
+
+  <!-- Overlay -->
+  <div class="menu-overlay"></div>
+</header>

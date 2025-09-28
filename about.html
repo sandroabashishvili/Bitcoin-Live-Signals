@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en" data-theme="boss">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — SmartSignalHub</title>
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="About SmartSignalHub — quant signals, risk management, dashboards and automation by Sandro. For traders, teams & exchanges." />
+  <meta name="keywords" content="SmartSignalHub, crypto signals, trading dashboard, automation, backtesting, risk management, trading bot, API integration" />
+  <meta name="author" content="SmartSignalHub" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <style>
+    .about-wrap { max-width: 1200px; margin: 0 auto; padding: 8px 16px; }
+    .about-hero { display: grid; gap: 18px; margin-bottom: 28px; text-align: left; }
+    .about-hero h1 { font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.2rem); font-weight: 800; }
+    .about-hero p { color: var(--muted); font-size: 1.07rem; }
+    .cta-row { display:flex; gap:14px; flex-wrap:wrap; margin-top:8px; }
+    .btn { display:inline-flex; align-items:center; gap:.5rem; padding:12px 18px; border-radius:12px; border:1px solid var(--line); font-weight:600; transition: transform .18s ease, box-shadow .18s ease; text-decoration:none; }
+    .btn:hover { transform: translateY(-3px); box-shadow: 0 8px 18px rgba(0,0,0,0.08); }
+    .btn-primary { background: linear-gradient(135deg,var(--accent),var(--accent-2)); color:var(--accent-contrast); border: none; }
+    .btn-ghost { background: var(--card); color: var(--fg); }
+    .info-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); transition: transform .18s ease, box-shadow .18s ease; }
+    .info-card:hover { transform: translateY(-4px); box-shadow: 0 10px 26px rgba(0,0,0,0.12); }
+    .about-grid { display: grid; gap: 18px; margin-top: 18px; grid-template-columns: repeat(2, 1fr); }
+    @media (max-width: 900px) { .about-grid { grid-template-columns: 1fr; } }
+    .emoji { display: inline-block; margin-right: 8px; font-size:1.2em; }
+    .pill-row { display:flex; flex-wrap:wrap; gap:10px; margin-top:12px; }
+    /* --- TECH PILL --- */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: var(--card);   /* ზუსტად ისეთი ფონი, როგორც .info-card-ზე ან .btn-ghost-ზეა */
+  color: var(--fg);
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition:
+    box-shadow 0.14s cubic-bezier(.4,0,.2,1),
+    transform 0.14s cubic-bezier(.4,0,.2,1);
+  cursor: pointer;
+  border: none;     /* ჩარჩო აღარ აქვს საერთოდ */
+  outline: none;
+}
+.pill:hover,
+.pill:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.13);
+  background: var(--card);  /* იგივე ფონი, არც ფონი იცვლება */
+  color: var(--fg);         /* ფერი არ იცვლება */
+}
+@media (prefers-color-scheme: dark) {
+  .pill {
+    background: var(--card); /* შენს თემაში --card ყველა რეჟიმზე სწორი ფერია */
+    color: var(--fg);
+  }
+}
+
+
+    .note { margin-top: 12px; font-size: .99rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <!-- HEADER (injected) -->
+  <div id="header-placeholder"></div>
+  <!-- MAIN CONTENT (აქ ჩასვი შენი ბლოკები) -->
+</body>
+</html>
+
+  <!-- HEADER (injected) -->
+  <div id="header-placeholder"></div>
+
+  <main id="content" class="container" aria-label="Main content">
+    <div class="about-wrap">
+
+      <!-- HERO -->
+      <section class="about-hero">
+        <h1>About Me & SmartSignalHub</h1>
+        <p>
+          I'm Sandro — a quant developer & systems-first trader.<br>
+          I build custom signal engines, analytics dashboards, and automations for traders, funds, and exchanges.<br>
+          My mission? <b>Clean logic, full transparency, and measurable results</b> — no hype, just working tools. <span style="font-size:1.2em"></span>
+        </p>
+        <div class="cta-row" role="navigation">
+          <a class="btn btn-primary" href="index.html">See Live Dashboard</a>
+          <a class="btn btn-ghost" href="contact.html">Work with me</a>
+        </div>
+      </section>
+
+      <!-- OFFER BLOCKS -->
+<section class="info-card" style="margin-top:18px;">
+  <h2 style="font-weight:800; font-size:1.45rem; margin-bottom:22px;">What I Offer</h2>
+  <div class="about-grid" role="list" style="gap:22px;">
+    <!-- Individuals -->
+    <div class="info-card" role="listitem" style="background:var(--panel);">
+      <h3 style="font-size:1.15rem; font-weight:700; margin-bottom:10px;">🧑‍💻 Individual Traders</h3>
+      <ul style="font-size:1.05rem; color:var(--fg); line-height:1.7; margin-left:1.2em;">
+        <li><b>Custom Signal Bots</b> – Telegram, dashboards, email. <span class="accent">Personalized for you.</span></li>
+        <li><b>Backtesting</b> – Send your strategy, get <span class="accent">real risk metrics</span> and improvement ideas.</li>
+        <li><b>1-on-1 Support</b> – Direct answers, quick code tweaks, onboarding.</li>
+      </ul>
+    </div>
+    <!-- Organizations -->
+    <div class="info-card" role="listitem" style="background:var(--panel);">
+      <h3 style="font-size:1.15rem; font-weight:700; margin-bottom:10px;">🏢 Teams & Companies</h3>
+      <ul style="font-size:1.05rem; color:var(--fg); line-height:1.7; margin-left:1.2em;">
+        <li><b>Dashboards & Reporting</b> – MVP or production, <span class="accent">fully tailored</span> for your needs.</li>
+        <li><b>Orderbook & Risk Analytics</b> – Live monitoring, automation, <span class="accent">REST API</span> and more.</li>
+        <li><b>Data Integrations</b> – Custom KPIs, <span class="accent">performance logs</span>, automated reporting.</li>
+      </ul>
+    </div>
+    <!-- Freelance -->
+    <div class="info-card" role="listitem" style="background:var(--panel);">
+      <h3 style="font-size:1.15rem; font-weight:700; margin-bottom:10px;">🧑‍💼 Freelance & B2B</h3>
+      <ul style="font-size:1.05rem; color:var(--fg); line-height:1.7; margin-left:1.2em;">
+        <li><b>Automation & Engineering</b> – Algo bots, data pipelines, <span class="accent">custom code</span>.</li>
+        <li><b>API Integration</b> – Binance, Bybit, Kucoin, <span class="accent">REST / WebSocket</span>.</li>
+        <li><b>Rapid Prototyping</b> – <span class="accent">Fast builds</span> for startups & quant teams.</li>
+      </ul>
+    </div>
+    <!-- Web Projects -->
+    <div class="info-card" role="listitem" style="background:var(--panel);">
+      <h3 style="font-size:1.15rem; font-weight:700; margin-bottom:10px;">🌐 Web Projects</h3>
+      <ul style="font-size:1.05rem; color:var(--fg); line-height:1.7; margin-left:1.2em;">
+        <li><b>Websites & Dashboards</b> – From landing pages to <span class="accent">full platforms</span>.</li>
+        <li><b>Feature Integration</b> – Analytics, widgets, payments, <span class="accent">trading modules</span>.</li>
+        <li><b>Testing & QA</b> – Code review, bug-fixing, <span class="accent">migration support</span>.</li>
+      </ul>
+    </div>
+  </div>
+  <div style="margin-top:18px; font-size:1.07rem; color:var(--muted);">
+    Not sure where your use case fits? <a href="contact.html" style="color:var(--accent);text-decoration:underline;">Contact me</a> for a custom solution or live demo.
+  </div>
+</section>
+
+
+      <!-- TECH SKILLS BLOCK -->
+      <section class="info-card" style="margin-top:20px;">
+  <h2>Tech Stack & Tools</h2>
+  <div class="pill-row">
+    <span class="pill">🐍 Python</span>
+    <span class="pill">📦 Pandas / NumPy</span>
+    <span class="pill">🖥️ JS (Custom Elements, Vanilla)</span>
+    <span class="pill">🌐 HTML / CSS</span>
+    <span class="pill">📊 Echarts / Plotly</span>
+    <span class="pill">📜 Pine Script</span>
+    <span class="pill">⚡ REST APIs, WebSockets</span>
+    <span class="pill">🔄 Automation, Scheduling</span>
+    <span class="pill">🔒 Security & Audit</span>
+  </div>
+  <p class="note">
+    I combine quantitative research, software engineering, and clean design.<br>
+    Every project is built with clarity, repeatability, and auditability in mind.
+  </p>
+</section>
+
+
+      <!-- PERFORMANCE BLOCK -->
+      <section class="info-card" style="margin-top:20px;">
+  <h2>Why SmartSignalHub?</h2>
+  <div class="about-grid" style="margin-top:12px;">
+    <div class="info-card" style="padding:18px;">
+      <h3 style="font-size:1.07rem;font-weight:700;">Transparency</h3>
+      <p style="color:var(--muted);font-size:1.04rem;line-height:1.6;">See every trade, logic and PnL. No black-box, no excuses — all data is open and auditable.</p>
+    </div>
+    <div class="info-card" style="padding:18px;">
+      <h3 style="font-size:1.07rem;font-weight:700;">Customization</h3>
+      <p style="color:var(--muted);font-size:1.04rem;line-height:1.6;">Personal, team or fund? All dashboards and bots are built-to-order, not “one-size-fits-all”.</p>
+    </div>
+    <div class="info-card" style="padding:18px;">
+      <h3 style="font-size:1.07rem;font-weight:700;">Real Results</h3>
+      <p style="color:var(--muted);font-size:1.04rem;line-height:1.6;">Live stats, win rate and drawdown always visible — you know exactly what works and what needs fixing.</p>
+    </div>
+    <div class="info-card" style="padding:18px;">
+      <h3 style="font-size:1.07rem;font-weight:700;">Direct Support</h3>
+      <p style="color:var(--muted);font-size:1.04rem;line-height:1.6;">You work with me directly, no middlemen, no delays. Feedback goes straight to code.</p>
+    </div>
+  </div>
+</section>
+
+
+      <!-- CALL TO ACTION -->
+      <section class="about-hero" style="margin-top:28px;">
+        <h2>Let's Work Together</h2>
+        <p>
+          Want to automate, analyze or improve your trading stack?  
+          See live demo or book a discovery call — I respond personally.<br>
+          <b>Open-source projects, paid builds & consulting — everything is possible.</b>
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="index.html">Try Demo</a>
+          <a class="btn btn-ghost" href="contact.html">Contact Me</a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

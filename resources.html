@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en" data-theme="boss">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SmartSignalHub — Resources</title>
+  <meta name="color-scheme" content="light dark" />
+
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <style>
+    /* —— All styles are locally scoped so global header/footer remain untouched —— */
+    .resources-scope{
+      --rs-max: var(--max);
+      --rs-radius: 12px;
+      --rs-shadow: 0 6px 18px rgba(0,0,0,.08);
+      --rs-gap: 14px;
+    }
+
+    .resources-scope .page-title{
+      font-size:1.35rem; margin:16px auto 6px;
+      max-width:var(--rs-max); padding:0 16px; font-weight:800;
+    }
+    .resources-scope .page-intro{
+      font-size:1rem; margin:0 auto 8px;
+      color: color-mix(in oklab, var(--fg) 70%, var(--muted) 30%);
+      max-width:var(--rs-max); padding:0 16px;
+    }
+
+    /* —— Top 2 cards (same width/gutters/hover as resource cards) —— */
+    .resources-scope .resources-header-grid{
+      max-width: var(--rs-max);
+      margin: 10px auto 0;
+      padding: 0 16px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: var(--rs-gap);
+    }
+    @media (min-width: 860px){
+      .resources-scope .resources-header-grid{ grid-template-columns: 1fr 1fr; }
+    }
+    .resources-scope .header-card{
+      display:flex; flex-direction:column; gap:10px;
+      padding:14px; background: var(--card);
+      border:1px solid var(--line); border-radius: var(--rs-radius);
+      box-shadow: var(--rs-shadow);
+      transition: transform .18s ease, box-shadow .18s ease;
+    }
+    .resources-scope .header-card:hover{
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.10);
+    }
+    .resources-scope .header-card h2{ font-size:1.06rem; margin:0; }
+
+    /* —— Chart frame: fixed visual rhythm; 3:2 + cover to hide inner black margins —— */
+    .resources-scope .chart-frame{
+      width:100%; aspect-ratio: 3/2; max-height: 220px;
+      display:block; overflow:hidden; border-radius:10px;
+      border:1px solid var(--line);
+      background: color-mix(in oklab, var(--card) 92%, transparent);
+    }
+.resources-scope .chart-img {
+  width:100%; height:100%;
+  object-fit: contain;
+  object-position: center;
+  background: var(--card); /* ჩარჩოს ფერი, რომ „ხარვეზი“ არ ჩანდეს */
+}
+
+    .resources-scope .chart-placeholder{
+      display:none; align-items:center; justify-content:center;
+      gap:6px; padding:14px; min-height:100px;
+      border-radius:10px; border:1px dashed var(--line);
+      color: var(--muted);
+    }
+
+    /* —— Chart meta: badges + better contrast —— */
+    .resources-scope .chart-meta{
+      display:flex; flex-wrap:wrap; align-items:center;
+      gap:6px 8px; margin-top:6px;
+      font-size:.95rem; line-height:1.5;
+      color: color-mix(in oklab, var(--fg) 88%, var(--muted) 12%);
+    }
+    .resources-scope .badge{
+      display:inline-flex; align-items:center; gap:6px;
+      padding:.22rem .56rem; border-radius:999px;
+      font-weight:700; font-size:.86rem;
+      border:1px solid var(--line);
+      color: color-mix(in oklab, var(--fg) 92%, #000 8%);
+      box-shadow: inset 0 -1px 0 rgba(0,0,0,.04);
+    }
+    .resources-scope .badge-cold   { background: color-mix(in oklab, #22d3ee 18%, var(--card) 82%); border-color: color-mix(in oklab, #22d3ee 35%, var(--line) 65%); }
+    .resources-scope .badge-neutral{ background: color-mix(in oklab, #9ca3af 20%, var(--card) 80%); border-color: color-mix(in oklab, #9ca3af 35%, var(--line) 65%); }
+    .resources-scope .badge-warm   { background: color-mix(in oklab, #f59e0b 18%, var(--card) 82%); border-color: color-mix(in oklab, #f59e0b 35%, var(--line) 65%); }
+    .resources-scope .badge-hot    { background: color-mix(in oklab, #ef4444 18%, var(--card) 82%); border-color: color-mix(in oklab, #ef4444 35%, var(--line) 65%); }
+    .resources-scope .meta-note{ margin-left:2px; opacity:.95; font-weight:600; }
+    .resources-scope .chart-meta a{ text-decoration: underline; text-underline-offset: 2px; }
+
+    /* Make badges feel interactive */
+.resources-scope .badge{
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.resources-scope .badge:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,.12);
+}
+.resources-scope .badge:active{
+  transform: translateY(-1px) scale(0.98);
+  box-shadow: 0 2px 6px rgba(0,0,0,.12) inset;
+}
+.resources-scope .badge:focus-visible{
+  outline: 2px solid color-mix(in oklab, var(--accent) 80%, transparent);
+  outline-offset: 2px;
+  border-color: color-mix(in oklab, var(--accent) 60%, var(--line) 40%);
+}
+
+/* optional: less motion for users who prefer it */
+@media (prefers-reduced-motion: reduce){
+  .resources-scope .badge{ transition: none; }
+}
+
+
+    /* —— Resource cards grid —— */
+    .resources-scope .resources-grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: var(--rs-gap);
+      margin: 16px auto 20px;
+      padding: 0 16px;
+      max-width: var(--rs-max);
+    }
+    .resources-scope .resource-card{
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--rs-radius);
+      padding: 16px;
+      text-align: left;
+      box-shadow: var(--rs-shadow);
+      transition: transform .18s ease, box-shadow .18s ease;
+      display: flex; flex-direction: column; gap: 8px;
+    }
+    .resources-scope .resource-card:hover{
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.10);
+    }
+    .resources-scope .resource-icon { font-size: 1.5rem; margin: 0 0 4px 0; display:inline-block; }
+    .resources-scope .resource-card h2 { margin:0 0 6px 0; font-size:1.05rem; font-weight:800; }
+    .resources-scope .resource-desc{ font-size:.93rem; color:var(--muted); line-height:1.55; margin-bottom:6px; }
+    .resources-scope .resource-card ul { list-style: none; padding-left: 0; margin: 0; }
+    .resources-scope .resource-card li { margin-bottom: 8px; font-size:.96rem; line-height:1.55; }
+    .resources-scope .resource-card a { color: var(--accent); font-weight: 600; text-decoration: none; }
+    .resources-scope .resource-card a:hover { text-decoration: underline; }
+
+    /* Subtle animations */
+    .resources-scope .spin { animation: spin 8s linear infinite; }
+    .resources-scope .bounce { animation: bounce 3.5s infinite; }
+    .resources-scope .pulse { animation: pulse 4.5s infinite; }
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(4deg); } }
+    @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+    @keyframes pulse { 0%, 100% { transform: scale(0.96); } 50% { transform: scale(1); } }
+
+    /* Dark-mode link color only inside this page scope */
+    :root[data-theme="dark"] .resources-scope .resource-card a,
+    :root:not([data-theme="light"]) .resources-scope .resource-card a { color: #8ab4ff; }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <div id="header-placeholder"></div>
+
+  <!-- MAIN -->
+  <main id="content" class="container" aria-label="Main content">
+    <div class="resources-scope">
+      <!-- Title at the very top -->
+      <h1 class="page-title">Best Crypto Tools — Compact Hub</h1>
+      <p class="page-intro">A curated set of links with short notes so you instantly know what to use and when.</p>
+
+      <!-- Top 2 charts -->
+      <section class="resources-header-grid">
+        <div class="header-card">
+          <h2>Fear &amp; Greed Index</h2>
+          <a class="chart-frame" href="https://alternative.me/crypto/fear-and-greed-index/" target="_blank" rel="noopener">
+            <img class="chart-img" src="assets/img/fng.png" alt="Fear and Greed Index"
+                 onerror="this.closest('.chart-frame').style.display='none';document.getElementById('fng-ph').style.display='flex'">
+          </a>
+          <div id="fng-ph" class="chart-placeholder">
+            Chart unavailable. <a href="https://alternative.me/crypto/fear-and-greed-index/" target="_blank" rel="noopener">View Live</a>
+          </div>
+          <p class="chart-meta">
+            <span class="badge badge-cold">0–25 · Fear</span>
+            <span class="badge badge-neutral">26–50 · Neutral</span>
+            <span class="badge badge-warm">51–75 · Greed</span>
+            <span class="badge badge-hot">76–100 · Extreme Greed</span>
+            <span class="meta-note">Use as context, not a standalone trigger.</span>
+          </p>
+        </div>
+
+        <div class="header-card">
+          <h2>Altseason Index</h2>
+          <a class="chart-frame" href="https://www.blockchaincenter.net/altcoin-season-index/" target="_blank" rel="noopener">
+            <img class="chart-img" src="assets/img/altseason.png" alt="Altcoin Season Index"
+                 onerror="this.closest('.chart-frame').style.display='none';document.getElementById('alt-ph').style.display='flex'">
+          </a>
+          <div id="alt-ph" class="chart-placeholder">
+            Chart unavailable. <a href="https://www.blockchaincenter.net/altcoin-season-index/" target="_blank" rel="noopener">View Live</a>
+          </div>
+          <p class="chart-meta">
+            <span class="badge badge-warm">&gt;75 · Altseason bias</span>
+            <span class="badge badge-neutral">&lt;25 · BTC dominance</span>
+            <span class="meta-note">Cross-check with BTC.D and liquidity metrics.</span>
+          </p>
+        </div>
+      </section>
+
+      <!-- Resource cards -->
+      <section class="resources-grid">
+        <div class="resource-card">
+          <h2>Cryptocurrency Exchanges</h2>
+          <p class="resource-desc">Centralized exchanges are the usual fiat on/off ramps. Compare fees, regulation, and on-ramp methods for your region.</p>
+          <ul>
+            <li><a href="https://www.binance.com" target="_blank"><strong>Binance</strong></a>: Deep liquidity, low fees, broad markets.</li>
+            <li><a href="https://www.coinbase.com" target="_blank"><strong>Coinbase</strong></a>: Clean UI and strong fiat rails for beginners.</li>
+            <li><a href="https://www.kraken.com" target="_blank"><strong>Kraken</strong></a>: Solid security, Pro terminal, robust API.</li>
+          </ul>
+        </div>
+
+        <div class="resource-card">
+          <h2>Price Monitoring</h2>
+          <p class="resource-desc">Always double-check prices across at least two sources. Use TradingView for charts; CMC/CG for aggregated market data.</p>
+          <ul>
+            <li><a href="https://coinmarketcap.com" target="_blank"><strong>CoinMarketCap</strong></a>: Aggregated prices, market caps, circulating supply.</li>
+            <li><a href="https://www.coingecko.com" target="_blank"><strong>CoinGecko</strong></a>: Alternative metrics, tokenomics, categories.</li>
+            <li><a href="https://www.tradingview.com" target="_blank"><strong>TradingView</strong></a>: Advanced charting, alerts, indicators.</li>
+          </ul>
+        </div>
+
+        <div class="resource-card">
+          <h2>News &amp; Analytics</h2>
+          <p class="resource-desc">Stay ahead of catalysts and narratives. Read across multiple outlets to reduce bias and catch early signals.</p>
+          <ul>
+            <li><a href="https://cryptoslate.com" target="_blank"><strong>CryptoSlate</strong></a>: News plus on-chain and market dashboards.</li>
+            <li><a href="https://cointelegraph.com" target="_blank"><strong>CoinTelegraph</strong></a>: Industry headlines and analysis.</li>
+            <li><a href="https://decrypt.co" target="_blank"><strong>Decrypt</strong></a>: Explainers on tech, trends, and regulation.</li>
+          </ul>
+        </div>
+
+        <div class="resource-card">
+          <h2>Education &amp; Research</h2>
+          <p class="resource-desc">Build your fundamentals: protocols, security models, and risk. Learn the why before you chase the yield.</p>
+          <ul>
+            <li><a href="https://academy.binance.com" target="_blank"><strong>Binance Academy</strong></a>: Free crypto and blockchain courses.</li>
+            <li><a href="https://ethereum.org" target="_blank"><strong>Ethereum.org</strong></a>: Core docs and ecosystem resources.</li>
+            <li><a href="https://www.cryptocompare.com" target="_blank"><strong>CryptoCompare</strong></a>: Data, comparisons, exchange reviews.</li>
+          </ul>
+        </div>
+
+        <div class="resource-card">
+          <h2>Security Tools</h2>
+          <p class="resource-desc">Treat security as a stack: hardware wallet + cautious approvals + on-chain data to verify flows.</p>
+          <ul>
+            <li><a href="https://www.ledger.com" target="_blank"><strong>Ledger</strong></a>: Hardware wallets for long-term storage.</li>
+            <li><a href="https://metamask.io" target="_blank"><strong>MetaMask</strong></a>: Browser wallet with dApp support.</li>
+            <li><a href="https://glassnode.com" target="_blank"><strong>Glassnode</strong></a>: On-chain analytics and alerts.</li>
+          </ul>
+        </div>
+
+        <div class="resource-card">
+          <h2>Communities &amp; Forums</h2>
+          <p class="resource-desc">Curate your feeds. Follow credible devs/analysts and keep a separate, low-noise research account.</p>
+          <ul>
+            <li><a href="https://www.reddit.com/r/cryptocurrency/" target="_blank"><strong>Reddit — r/Cryptocurrency</strong></a>: Broad community discussions.</li>
+            <li><a href="https://bitcointalk.org" target="_blank"><strong>BitcoinTalk</strong></a>: The classic forum for deep dives.</li>
+            <li><a href="https://discord.com" target="_blank"><strong>Discord</strong></a>: Join vetted crypto servers and project channels.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
