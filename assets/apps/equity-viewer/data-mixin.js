@@ -37,7 +37,10 @@ export function applyDataMixin(Cls){
     },
 
     // ---- NEW: multiple-bases helpers (docs/logs first, then /logs) ----
-    logsBases(){ return ['/docs/logs', '/logs']; },
+    logsBases(){
+      return ['logs', './logs', '../logs', '/logs'];
+    },
+
 
     async fetchFirstFromBases(fileNames){
       // fileNames: ['capital_log_2025-09-29.json', ...]
