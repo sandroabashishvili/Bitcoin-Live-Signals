@@ -375,13 +375,18 @@ class VolumeVisualizer extends HTMLElement {
       const y = new Date(d); y.setDate(y.getDate()-1);
 
       const candToday = [
-        `/logs/orderbook_30m_${this.ymd(d)}.json`,
-        `/logs/orderbook_${this.ymd(d)}.json`,
-      ];
+       `/docs/logs/orderbook_30m_${this.ymd(d)}.json`,
+       `/docs/logs/orderbook_${this.ymd(d)}.json`,
+       `/logs/orderbook_30m_${this.ymd(d)}.json`,
+       `/logs/orderbook_${this.ymd(d)}.json`,
+    ];
+
       const candYday = [
-        `/logs/orderbook_30m_${this.ymd(y)}.json`,
-        `/logs/orderbook_${this.ymd(y)}.json`,
-      ];
+       `/docs/logs/orderbook_30m_${this.ymd(y)}.json`,
+       `/docs/logs/orderbook_${this.ymd(y)}.json`,
+       `/logs/orderbook_30m_${this.ymd(y)}.json`,
+       `/logs/orderbook_${this.ymd(y)}.json`,
+    ];
 
       let data = null, used = null, source = 'today';
       try { data = await this.fetchJSONFirst(candToday); }
