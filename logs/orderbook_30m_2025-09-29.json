@@ -198,5 +198,10 @@
     "time": "2025-09-29 19:00",
     "buy_volume": 7.63,
     "sell_volume": 29.17
+  },
+  {
+    "time": "2025-09-29 19:30",
+    "buy_volume": 6.53,
+    "sell_volume": 23.89
   }
 ]
