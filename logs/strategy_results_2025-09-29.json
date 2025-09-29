@@ -2097,7 +2097,7 @@
       "position_size": 100.0,
       "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": false, \"macd_histogram\": true, \"trend_confirm\": true}",
       "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": false, \"adx_momentum\": true, \"order_dominance\": true, \"liquidity_zone\": false}",
-      "unrealized_pnl": 0.89,
+      "unrealized_pnl": 0.74,
       "Risk ($)": 0.68,
       "Reward ($)": 1.36,
       "return_pct": 0.0,
@@ -2149,7 +2149,7 @@
       "position_size": 100.0,
       "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": false, \"macd_histogram\": false, \"trend_confirm\": true}",
       "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": false, \"adx_momentum\": true, \"order_dominance\": true, \"liquidity_zone\": false}",
-      "unrealized_pnl": -0.29,
+      "unrealized_pnl": -0.44,
       "Risk ($)": 1.22,
       "Reward ($)": 3.05,
       "return_pct": 0.0,
@@ -2203,7 +2203,7 @@
       "position_size": 100.0,
       "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": false, \"macd_histogram\": true, \"trend_confirm\": true}",
       "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": false, \"adx_momentum\": true, \"order_dominance\": true, \"liquidity_zone\": false}",
-      "unrealized_pnl": 0.89,
+      "unrealized_pnl": 0.74,
       "Risk ($)": 0.68,
       "Reward ($)": 1.36,
       "return_pct": 0.0,
@@ -2229,7 +2229,7 @@
       "position_size": 100.0,
       "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": false, \"macd_histogram\": false, \"trend_confirm\": true}",
       "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": false, \"adx_momentum\": true, \"order_dominance\": true, \"liquidity_zone\": false}",
-      "unrealized_pnl": -0.29,
+      "unrealized_pnl": -0.44,
       "Risk ($)": 1.22,
       "Reward ($)": 3.05,
       "return_pct": 0.0,
@@ -4400,11 +4400,11 @@
     },
     {
       "Metric": "Unrealized PnL",
-      "Value": "+0.60"
+      "Value": "+0.30"
     },
     {
       "Metric": "Projected Balance",
-      "Value": "$2790.08"
+      "Value": "$2789.78"
     }
   ],
   "signal_status": {
