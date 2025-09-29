@@ -1,0 +1,262 @@
+[
+  {
+    "time": "2025-09-25 12:15",
+    "buy_volume": 26.46,
+    "sell_volume": 15.14
+  },
+  {
+    "time": "2025-09-25 12:29",
+    "buy_volume": 8.46,
+    "sell_volume": 36.05
+  },
+  {
+    "time": "2025-09-25 12:30",
+    "buy_volume": 27.49,
+    "sell_volume": 22.87
+  },
+  {
+    "time": "2025-09-25 12:59",
+    "buy_volume": 12.21,
+    "sell_volume": 16.44
+  },
+  {
+    "time": "2025-09-25 13:00",
+    "buy_volume": 32.54,
+    "sell_volume": 19.26
+  },
+  {
+    "time": "2025-09-25 13:29",
+    "buy_volume": 13.29,
+    "sell_volume": 21.04
+  },
+  {
+    "time": "2025-09-25 13:30",
+    "buy_volume": 11.85,
+    "sell_volume": 17.83
+  },
+  {
+    "time": "2025-09-25 13:59",
+    "buy_volume": 31.04,
+    "sell_volume": 8.12
+  },
+  {
+    "time": "2025-09-25 14:00",
+    "buy_volume": 9.38,
+    "sell_volume": 30.77
+  },
+  {
+    "time": "2025-09-25 14:15",
+    "buy_volume": 23.04,
+    "sell_volume": 7.73
+  },
+  {
+    "time": "2025-09-25 14:29",
+    "buy_volume": 6.86,
+    "sell_volume": 26.61
+  },
+  {
+    "time": "2025-09-25 14:30",
+    "buy_volume": 1.45,
+    "sell_volume": 48.79
+  },
+  {
+    "time": "2025-09-25 14:40",
+    "buy_volume": 16.46,
+    "sell_volume": 5.34
+  },
+  {
+    "time": "2025-09-25 14:59",
+    "buy_volume": 11.07,
+    "sell_volume": 16.03
+  },
+  {
+    "time": "2025-09-25 15:00",
+    "buy_volume": 22.77,
+    "sell_volume": 13.9
+  },
+  {
+    "time": "2025-09-25 15:10",
+    "buy_volume": 27.43,
+    "sell_volume": 6.76
+  },
+  {
+    "time": "2025-09-25 15:29",
+    "buy_volume": 26.33,
+    "sell_volume": 5.8
+  },
+  {
+    "time": "2025-09-25 15:29",
+    "buy_volume": 34.22,
+    "sell_volume": 8.48
+  },
+  {
+    "time": "2025-09-25 15:30",
+    "buy_volume": 7.96,
+    "sell_volume": 35.68
+  },
+  {
+    "time": "2025-09-25 15:59",
+    "buy_volume": 9.04,
+    "sell_volume": 25.82
+  },
+  {
+    "time": "2025-09-25 16:00",
+    "buy_volume": 18.83,
+    "sell_volume": 21.23
+  },
+  {
+    "time": "2025-09-25 16:24",
+    "buy_volume": 19.58,
+    "sell_volume": 46.77
+  },
+  {
+    "time": "2025-09-25 16:29",
+    "buy_volume": 38.99,
+    "sell_volume": 5.45
+  },
+  {
+    "time": "2025-09-25 16:30",
+    "buy_volume": 39.88,
+    "sell_volume": 4.6
+  },
+  {
+    "time": "2025-09-25 16:32",
+    "buy_volume": 27.4,
+    "sell_volume": 13.67
+  },
+  {
+    "time": "2025-09-25 16:48",
+    "buy_volume": 18.13,
+    "sell_volume": 18.41
+  },
+  {
+    "time": "2025-09-25 16:59",
+    "buy_volume": 15.48,
+    "sell_volume": 25.51
+  },
+  {
+    "time": "2025-09-25 17:00",
+    "buy_volume": 30.59,
+    "sell_volume": 15.74
+  },
+  {
+    "time": "2025-09-25 17:29",
+    "buy_volume": 39.13,
+    "sell_volume": 5.24
+  },
+  {
+    "time": "2025-09-25 17:30",
+    "buy_volume": 30.76,
+    "sell_volume": 9.91
+  },
+  {
+    "time": "2025-09-25 17:40",
+    "buy_volume": 25.6,
+    "sell_volume": 21.32
+  },
+  {
+    "time": "2025-09-25 17:59",
+    "buy_volume": 40.61,
+    "sell_volume": 1.32
+  },
+  {
+    "time": "2025-09-25 18:00",
+    "buy_volume": 41.03,
+    "sell_volume": 2.34
+  },
+  {
+    "time": "2025-09-25 18:29",
+    "buy_volume": 4.79,
+    "sell_volume": 28.92
+  },
+  {
+    "time": "2025-09-25 18:30",
+    "buy_volume": 9.56,
+    "sell_volume": 23.48
+  },
+  {
+    "time": "2025-09-25 18:59",
+    "buy_volume": 7.72,
+    "sell_volume": 31.55
+  },
+  {
+    "time": "2025-09-25 19:00",
+    "buy_volume": 14.07,
+    "sell_volume": 25.54
+  },
+  {
+    "time": "2025-09-25 19:29",
+    "buy_volume": 17.54,
+    "sell_volume": 34.2
+  },
+  {
+    "time": "2025-09-25 19:30",
+    "buy_volume": 33.43,
+    "sell_volume": 4.88
+  },
+  {
+    "time": "2025-09-25 19:59",
+    "buy_volume": 19.35,
+    "sell_volume": 7.6
+  },
+  {
+    "time": "2025-09-25 20:00",
+    "buy_volume": 13.33,
+    "sell_volume": 24.91
+  },
+  {
+    "time": "2025-09-25 20:29",
+    "buy_volume": 7.87,
+    "sell_volume": 33.94
+  },
+  {
+    "time": "2025-09-25 20:30",
+    "buy_volume": 16.64,
+    "sell_volume": 23.52
+  },
+  {
+    "time": "2025-09-25 20:59",
+    "buy_volume": 27.43,
+    "sell_volume": 20.49
+  },
+  {
+    "time": "2025-09-25 21:00",
+    "buy_volume": 39.7,
+    "sell_volume": 13.1
+  },
+  {
+    "time": "2025-09-25 21:29",
+    "buy_volume": 15.94,
+    "sell_volume": 23.07
+  },
+  {
+    "time": "2025-09-25 21:30",
+    "buy_volume": 24.81,
+    "sell_volume": 37.6
+  },
+  {
+    "time": "2025-09-25 21:59",
+    "buy_volume": 24.44,
+    "sell_volume": 43.5
+  },
+  {
+    "time": "2025-09-25 22:00",
+    "buy_volume": 37.98,
+    "sell_volume": 13.91
+  },
+  {
+    "time": "2025-09-25 22:30",
+    "buy_volume": 33.23,
+    "sell_volume": 22.26
+  },
+  {
+    "time": "2025-09-25 23:01",
+    "buy_volume": 12.7,
+    "sell_volume": 35.93
+  },
+  {
+    "time": "2025-09-25 23:30",
+    "buy_volume": 2.83,
+    "sell_volume": 38.33
+  }
+]
