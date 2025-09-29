@@ -2149,7 +2149,7 @@
       "position_size": 100.0,
       "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": false, \"macd_histogram\": false, \"trend_confirm\": true}",
       "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": false, \"adx_momentum\": true, \"order_dominance\": true, \"liquidity_zone\": false}",
-      "unrealized_pnl": -0.04,
+      "unrealized_pnl": 0.06,
       "Risk ($)": 1.22,
       "Reward ($)": 3.05,
       "return_pct": 0.0,
@@ -2203,7 +2203,7 @@
       "position_size": 100.0,
       "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": false, \"macd_histogram\": false, \"trend_confirm\": true}",
       "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": false, \"adx_momentum\": true, \"order_dominance\": true, \"liquidity_zone\": false}",
-      "unrealized_pnl": -0.04,
+      "unrealized_pnl": 0.06,
       "Risk ($)": 1.22,
       "Reward ($)": 3.05,
       "return_pct": 0.0,
@@ -4400,11 +4400,11 @@
     },
     {
       "Metric": "Unrealized PnL",
-      "Value": "-0.04"
+      "Value": "+0.06"
     },
     {
       "Metric": "Projected Balance",
-      "Value": "$2890.70"
+      "Value": "$2890.80"
     }
   ],
   "signal_status": {
