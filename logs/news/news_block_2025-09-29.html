@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="color-scheme" content="light dark" />
   <title>SmartSignalHub • Daily Crypto Highlights — September 29, 2025</title>
   <meta name="description" content="Daily crypto highlights for September 29, 2025 — curated by SmartSignalHub.">
   <meta property="og:title" content="Daily Crypto Highlights — September 29, 2025">
@@ -14,87 +13,77 @@
   <link rel="stylesheet" href="/Bitcoin-Live-Signals/assets/css/styles.css" />
 
   <style>
-    :root {
-      --card-bg: rgba(255,255,255,.02);
-      --card-bd: rgba(255,255,255,.10);
-      --card-shadow: 0 2px 12px rgba(0,0,0,.18);
-      --card-shadow-hover: 0 6px 22px rgba(0,0,0,.25);
-    }
     .site-header, .site-footer { position: relative; z-index: 10; }
     .ssn-news { position: relative; z-index: 0; }
 
-    .ssn-grid { display:grid; gap:20px; grid-template-columns:repeat(1,minmax(0,1fr)); }
-    @media (min-width:768px)  { .ssn-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
-    @media (min-width:1200px) { .ssn-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+    .ssn-news .ssn-grid { display:grid; gap:20px; grid-template-columns:repeat(1,minmax(0,1fr)); }
+    @media (min-width:768px){ .ssn-news .ssn-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media (min-width:1200px){ .ssn-news .ssn-grid{ grid-template-columns:repeat(3,minmax(0,1fr)); } }
 
-    .news-card { border:1px solid var(--card-bd); border-radius:16px; overflow:hidden;
-                 background:var(--card-bg); box-shadow:var(--card-shadow);
-                 transition:transform .18s ease, box-shadow .18s ease; display:flex; flex-direction:column; }
-    .news-card:hover { transform:translateY(-2px); box-shadow:var(--card-shadow-hover); }
-    .news-card .media { aspect-ratio:16/9; overflow:hidden; background:#101214; }
-    .news-card picture, .news-card img { width:100%; height:100%; object-fit:cover; display:block; }
+    .ssn-news .news-card { border:1px solid rgba(255,255,255,.08); border-radius:16px; overflow:hidden;
+      background:rgba(255,255,255,.02); box-shadow:0 2px 12px rgba(0,0,0,.18); transition:transform .2s ease, box-shadow .2s ease; position:static; }
+    .ssn-news .news-card:hover { transform:translateY(-2px); box-shadow:0 6px 22px rgba(0,0,0,.25); }
+    .ssn-news .news-card .media { aspect-ratio:16/9; overflow:hidden; background:#101214; }
+    .ssn-news .news-card picture, .ssn-news .news-card img { width:100%; height:100%; object-fit:cover; display:block; }
 
-    .news-card .card-inner { display:flex; flex-direction:column; padding:14px; gap:8px; min-height:260px; }
-    .news-card .card-head { margin-bottom:4px; }
-    .news-card .card-title { margin:0 0 4px 0; line-height:1.3; font-weight:600; }
-    .news-card .news-meta { opacity:.8; font-size:.9rem; }
-    .news-card .card-text { margin:0; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; }
-    .news-card .card-actions { margin-top:auto; }
-    .multi-preview{margin:6px 0 12px 18px; padding:0; list-style:disc; font-size:.95rem; line-height:1.45}
-    .multi-preview li{margin-bottom:6px}
+    .ssn-news .news-card .card-inner { display:flex; flex-direction:column; padding:12px 14px 14px 14px; gap:8px; min-height:280px; }
+    .ssn-news .news-card .card-head { margin-bottom:2px; }
+    .ssn-news .news-card .card-title { margin:0 0 4px 0; line-height:1.3; }
+    .ssn-news .news-card .news-meta { opacity:.8; font-size:.9rem; }
+
+    .ssn-news .news-card .card-text { margin:0; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; }
+
+    .ssn-news .news-card .card-actions { margin-top:auto; }
+
     .shimmer, .shimmer::after { animation:none !important; background:none !important; content:none !important; }
   </style>
 </head>
 <body>
-<header class="site-header" aria-label="Site header">
-  <!-- Global assets (theme + libs + apps) -->
-  <link rel="icon" href="/Bitcoin-Live-Signals/assets/favicon.png">
-  <link rel="stylesheet" href="/Bitcoin-Live-Signals/assets/css/styles.css">
-  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
-  <script type="module" src="/Bitcoin-Live-Signals/assets/apps/equity-viewer.js"></script>
-  <script type="module" src="/Bitcoin-Live-Signals/assets/apps/volume-visualizer.js"></script>
 
-  <div class="container header-row">
-    <!-- Logo -->
-    <a class="brand" href="/Bitcoin-Live-Signals/index.html" aria-label="Home">
-      <img src="/Bitcoin-Live-Signals/assets/favicon.png" alt="SmartSignalHub Logo" class="logo" width="28" height="28" loading="lazy" decoding="async" />
-      <span class="brand-title">SmartSignalHub</span>
-    </a>
-
-    <!-- Hamburger button -->
-    <button class="menu-toggle" aria-label="Toggle navigation">
-      <i class="fas fa-bars"></i>
-    </button>
-
-    <!-- Navigation -->
-    <nav class="nav" aria-label="Primary menu">
-      <button class="menu-close" aria-label="Close menu">
-        <i class="fas fa-times"></i>
-      </button>
-      <a href="/Bitcoin-Live-Signals/index.html">Home</a>
-      <a href="/Bitcoin-Live-Signals/services.html">Services</a>
-      <a href="/Bitcoin-Live-Signals/news.html">News</a>
-      <a href="/Bitcoin-Live-Signals/resources.html">Resources</a>
-      <a href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
-      <a href="/Bitcoin-Live-Signals/about.html">About</a>
-      <a href="/Bitcoin-Live-Signals/contact.html">Contact</a>
-    </nav>
-
-    <!-- Theme switches -->
-    <div class="swatches" aria-label="Theme">
-      <div class="swatch" title="Boss" data-theme="boss"></div>
-      <div class="swatch" title="Ferrari" data-theme="ferrari"></div>
-      <div class="swatch" title="Bull" data-theme="bull"></div>
-      <div class="swatch" title="Joker" data-theme="joker"></div>
+  <header class="site-header" aria-label="Site header">
+    <div class="container header-row">
+      <a class="brand" href="/Bitcoin-Live-Signals/index.html" aria-label="Home">
+        <span class="logo" aria-hidden="true"></span>
+        <span class="brand-title">SmartSignalHub</span>
+      </a>
+      <nav class="nav" aria-label="Primary menu">
+        <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/index.html">Home</a>
+        <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/services.html">Services</a>
+        <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/news.html">News</a>
+        <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/resources.html">Resources</a>
+        <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
+        <a class="btn btn-primary btn-sm" href="/Bitcoin-Live-Signals/contact.html">Contact</a>
+      </nav>
     </div>
-  </div>
-
-  <!-- Overlay -->
-  <div class="menu-overlay"></div>
-</header>
+  </header>
   <main id="content" class="container ssn-news">
     <h1 class="page-title">📢 Daily Crypto Highlights — September 29, 2025</h1>
     <div class="ssn-grid">
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-29/f077fbee0a101528_thumb.webp 480w, /docs/assets/news/2025-09-29/f077fbee0a101528_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-29/f077fbee0a101528_thumb.jpg 480w, /docs/assets/news/2025-09-29/f077fbee0a101528_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-29/f077fbee0a101528_base.jpg" width="960" height="539" alt="Leaked Documents Expose $8 Billion Crypto Web Behind Russia's Sanctions Evasion" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://decrypt.co/341957/leaked-documents-expose-8-billion-crypto-web-russia-sanctions-evasion" target="_blank" rel="noopener">💡 Leaked Documents Expose $8 Billion Crypto Web Behind Russia's Sanctions Evasion</a>
+            </h2>
+            <div class="news-meta">📅 Sep 29, 2025 • Decrypt</div>
+          </header>
+
+          <p class="card-text">New blockchain forensics reveal how a Moscow-linked network allegedly used $8 billion in crypto to evade sanctions and influence elections in Moldova</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://decrypt.co/341957/leaked-documents-expose-8-billion-crypto-web-russia-sanctions-evasion" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
 
       <article class="card news-card">
 
@@ -108,15 +97,15 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/bitcoin-bulls-are-back-here-s-what-is-needed-for-a-rally-to-120k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Bitcoin bulls are back: Here’s what is needed for a rally to $120K</a>
+              <a href="https://cointelegraph.com/news/bitcoin-bulls-are-back-here-s-what-is-needed-for-a-rally-to-120k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔥 Bitcoin bulls are back: Here’s what is needed for a rally to $120K</a>
             </h2>
-            <div class="news-meta">Sep 29, 2025 • Cointelegraph</div>
+            <div class="news-meta">📅 Sep 29, 2025 • Cointelegraph</div>
           </header>
 
           <p class="card-text">Bitcoin opened the week with a strong rally above $114,000, and these three developments could send BTC price back to its monthly range highs</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://cointelegraph.com/news/bitcoin-bulls-are-back-here-s-what-is-needed-for-a-rally-to-120k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Read original</a>
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/bitcoin-bulls-are-back-here-s-what-is-needed-for-a-rally-to-120k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -127,21 +116,21 @@
         <picture>
           <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-29/374045a77ccbb756_thumb.webp 480w, /docs/assets/news/2025-09-29/374045a77ccbb756_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
           <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-29/374045a77ccbb756_thumb.jpg 480w, /docs/assets/news/2025-09-29/374045a77ccbb756_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
-          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-29/374045a77ccbb756_base.jpg" width="960" height="540" alt="&#x27;Trillions&#x27; Meme Coin Surges to $60 Million Market Cap on Stablecoin Network Plasma" referrerpolicy="no-referrer" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-29/374045a77ccbb756_base.jpg" width="960" height="540" alt="'Trillions' Meme Coin Surges to $60 Million Market Cap on Stablecoin Network Plasma" referrerpolicy="no-referrer" />
         </picture>
       </div>
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://decrypt.co/341948/trillions-meme-coin-surges-60-million-stablecoin-network-plasma" target="_blank" rel="noopener">&#x27;Trillions&#x27; Meme Coin Surges to $60 Million Market Cap on Stablecoin Network Plasma</a>
+              <a href="https://decrypt.co/341948/trillions-meme-coin-surges-60-million-stablecoin-network-plasma" target="_blank" rel="noopener">💡 'Trillions' Meme Coin Surges to $60 Million Market Cap on Stablecoin Network Plasma</a>
             </h2>
-            <div class="news-meta">Sep 29, 2025 • Decrypt</div>
+            <div class="news-meta">📅 Sep 29, 2025 • Decrypt</div>
           </header>
 
-          <p class="card-text">Plasma is focused on stablecoins, but that isn&#x27;t stopping meme coin traders from pumping random tokens—with Trillions leading the charge.</p>
+          <p class="card-text">Plasma is focused on stablecoins, but that isn't stopping meme coin traders from pumping random tokens—with Trillions leading the charge.</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://decrypt.co/341948/trillions-meme-coin-surges-60-million-stablecoin-network-plasma" target="_blank" rel="noopener">Read original</a>
+            <a class="btn btn-sm" href="https://decrypt.co/341948/trillions-meme-coin-surges-60-million-stablecoin-network-plasma" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -152,21 +141,21 @@
         <picture>
           <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-29/2e9bf3d986924c89_thumb.webp 480w, /docs/assets/news/2025-09-29/2e9bf3d986924c89_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
           <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-29/2e9bf3d986924c89_thumb.jpg 480w, /docs/assets/news/2025-09-29/2e9bf3d986924c89_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
-          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-29/2e9bf3d986924c89_base.jpg" width="960" height="540" alt="Someone Built a Working AI Chatbot Inside &#x27;Minecraft&#x27;—Here&#x27;s How" referrerpolicy="no-referrer" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-29/2e9bf3d986924c89_base.jpg" width="960" height="540" alt="Someone Built a Working AI Chatbot Inside 'Minecraft'—Here's How" referrerpolicy="no-referrer" />
         </picture>
       </div>
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://decrypt.co/341930/someone-built-working-ai-chatbot-inside-minecraft" target="_blank" rel="noopener">Someone Built a Working AI Chatbot Inside &#x27;Minecraft&#x27;—Here&#x27;s How</a>
+              <a href="https://decrypt.co/341930/someone-built-working-ai-chatbot-inside-minecraft" target="_blank" rel="noopener">🔔 Someone Built a Working AI Chatbot Inside 'Minecraft'—Here's How</a>
             </h2>
-            <div class="news-meta">Sep 29, 2025 • Decrypt</div>
+            <div class="news-meta">📅 Sep 29, 2025 • Decrypt</div>
           </header>
 
           <p class="card-text">A maker mapped neural inference into Minecraft’s redstone circuits, creating a 5-million-parameter “ChatGPT” in a sandbox world—and proving computation is substrate-agnostic.</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://decrypt.co/341930/someone-built-working-ai-chatbot-inside-minecraft" target="_blank" rel="noopener">Read original</a>
+            <a class="btn btn-sm" href="https://decrypt.co/341930/someone-built-working-ai-chatbot-inside-minecraft" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -183,15 +172,15 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://decrypt.co/341946/etf-investors-turn-bearish-bitcoin-bullish-xrp-solana-coinshares" target="_blank" rel="noopener">ETF Investors Turn Bearish on Bitcoin, Bullish on XRP and Solana: CoinShares</a>
+              <a href="https://decrypt.co/341946/etf-investors-turn-bearish-bitcoin-bullish-xrp-solana-coinshares" target="_blank" rel="noopener">🌐 ETF Investors Turn Bearish on Bitcoin, Bullish on XRP and Solana: CoinShares</a>
             </h2>
-            <div class="news-meta">Sep 29, 2025 • Decrypt</div>
+            <div class="news-meta">📅 Sep 29, 2025 • Decrypt</div>
           </header>
 
           <p class="card-text">While investors pulled out over $1.1 billion combined out of Bitcoin and Ethereum funds last week, Solana and XRP stayed green.</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://decrypt.co/341946/etf-investors-turn-bearish-bitcoin-bullish-xrp-solana-coinshares" target="_blank" rel="noopener">Read original</a>
+            <a class="btn btn-sm" href="https://decrypt.co/341946/etf-investors-turn-bearish-bitcoin-bullish-xrp-solana-coinshares" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -208,15 +197,15 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/bitcoin-gears-up-for-uptober-after-dollar114k-rally-revives-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Bitcoin gears up for ‘Uptober’ after $114K rally revives bulls</a>
+              <a href="https://cointelegraph.com/news/bitcoin-gears-up-for-uptober-after-dollar114k-rally-revives-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🌐 Bitcoin gears up for ‘Uptober’ after $114K rally revives bulls</a>
             </h2>
-            <div class="news-meta">Sep 29, 2025 • Cointelegraph</div>
+            <div class="news-meta">📅 Sep 29, 2025 • Cointelegraph</div>
           </header>
 
           <p class="card-text">Bitcoin’s swift rally to $114,000 shows bulls are back, but a CME gap near an underlying support could see a retest of $111,000 before Uptober really starts.</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://cointelegraph.com/news/bitcoin-gears-up-for-uptober-after-dollar114k-rally-revives-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Read original</a>
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/bitcoin-gears-up-for-uptober-after-dollar114k-rally-revives-bulls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -233,15 +222,15 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://decrypt.co/resources/what-is-the-fusaka-upgrade-ethereums-biggest-scaling-bet-yet" target="_blank" rel="noopener">What is the Fusaka Upgrade? Ethereum’s Biggest Scaling Bet Yet</a>
+              <a href="https://decrypt.co/resources/what-is-the-fusaka-upgrade-ethereums-biggest-scaling-bet-yet" target="_blank" rel="noopener">📰 What is the Fusaka Upgrade? Ethereum’s Biggest Scaling Bet Yet</a>
             </h2>
-            <div class="news-meta">Sep 29, 2025 • Decrypt</div>
+            <div class="news-meta">📅 Sep 29, 2025 • Decrypt</div>
           </header>
 
-          <p class="card-text">The Q4 2025 upgrade promises to increase Ethereum&#x27;s data capacity eightfold, adding tougher defenses, and new developer tools.</p>
+          <p class="card-text">The Q4 2025 upgrade promises to increase Ethereum's data capacity eightfold, adding tougher defenses, and new developer tools.</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://decrypt.co/resources/what-is-the-fusaka-upgrade-ethereums-biggest-scaling-bet-yet" target="_blank" rel="noopener">Read original</a>
+            <a class="btn btn-sm" href="https://decrypt.co/resources/what-is-the-fusaka-upgrade-ethereums-biggest-scaling-bet-yet" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -258,15 +247,15 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/predictive-oncology-depin-treasury-aethir-ath-token?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Nasdaq-listed Predictive Oncology launches $344M DePIN treasury focused on Aethir</a>
+              <a href="https://cointelegraph.com/news/predictive-oncology-depin-treasury-aethir-ath-token?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔔 Nasdaq-listed Predictive Oncology launches $344M DePIN treasury focused on Aethir</a>
             </h2>
-            <div class="news-meta">Sep 29, 2025 • Cointelegraph</div>
+            <div class="news-meta">📅 Sep 29, 2025 • Cointelegraph</div>
           </header>
 
           <p class="card-text">The cancer research company has adopted a digital asset treasury model centered on decentralized physical infrastructure networks.</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://cointelegraph.com/news/predictive-oncology-depin-treasury-aethir-ath-token?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Read original</a>
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/predictive-oncology-depin-treasury-aethir-ath-token?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -283,15 +272,15 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://www.coindesk.com/markets/2025/09/29/xlm-surges-3-7-as-final-hour-breakout-drives-fresh-momentum" target="_blank" rel="noopener">XLM Surges 3.7% as Final-Hour Breakout Drives Fresh Momentum</a>
+              <a href="https://www.coindesk.com/markets/2025/09/29/xlm-surges-3-7-as-final-hour-breakout-drives-fresh-momentum" target="_blank" rel="noopener">🔥 XLM Surges 3.7% as Final-Hour Breakout Drives Fresh Momentum</a>
             </h2>
-            <div class="news-meta">Sep 29, 2025 • CoinDesk</div>
+            <div class="news-meta">📅 Sep 29, 2025 • CoinDesk</div>
           </header>
 
           <p class="card-text">XLM Surges 3.7% as Final-Hour Breakout Drives Fresh Momentum</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://www.coindesk.com/markets/2025/09/29/xlm-surges-3-7-as-final-hour-breakout-drives-fresh-momentum" target="_blank" rel="noopener">Read original</a>
+            <a class="btn btn-sm" href="https://www.coindesk.com/markets/2025/09/29/xlm-surges-3-7-as-final-hour-breakout-drives-fresh-momentum" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -308,15 +297,15 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://www.coindesk.com/tech/2025/09/29/firedancer-devs-from-jump-crypto-pushes-solana-toward-bigger-blocks" target="_blank" rel="noopener">Firedancer Devs From Jump Crypto Push Solana Toward Bigger Blocks</a>
+              <a href="https://www.coindesk.com/tech/2025/09/29/firedancer-devs-from-jump-crypto-pushes-solana-toward-bigger-blocks" target="_blank" rel="noopener">🌐 Firedancer Devs From Jump Crypto Push Solana Toward Bigger Blocks</a>
             </h2>
-            <div class="news-meta">Sep 29, 2025 • CoinDesk</div>
+            <div class="news-meta">📅 Sep 29, 2025 • CoinDesk</div>
           </header>
 
           <p class="card-text">Firedancer Devs From Jump Crypto Push Solana Toward Bigger Blocks</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://www.coindesk.com/tech/2025/09/29/firedancer-devs-from-jump-crypto-pushes-solana-toward-bigger-blocks" target="_blank" rel="noopener">Read original</a>
+            <a class="btn btn-sm" href="https://www.coindesk.com/tech/2025/09/29/firedancer-devs-from-jump-crypto-pushes-solana-toward-bigger-blocks" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -333,15 +322,15 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://www.coindesk.com/markets/2025/09/30/leveraged-bitcoin-longs-are-back-in-force-trading-firm-says" target="_blank" rel="noopener">Leveraged Bitcoin Longs are Back in Force, Trading Firm Says</a>
+              <a href="https://www.coindesk.com/markets/2025/09/30/leveraged-bitcoin-longs-are-back-in-force-trading-firm-says" target="_blank" rel="noopener">🌐 Leveraged Bitcoin Longs are Back in Force, Trading Firm Says</a>
             </h2>
-            <div class="news-meta">Sep 29, 2025 • CoinDesk</div>
+            <div class="news-meta">📅 Sep 29, 2025 • CoinDesk</div>
           </header>
 
           <p class="card-text">Leveraged Bitcoin Longs are Back in Force, Trading Firm Says</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://www.coindesk.com/markets/2025/09/30/leveraged-bitcoin-longs-are-back-in-force-trading-firm-says" target="_blank" rel="noopener">Read original</a>
+            <a class="btn btn-sm" href="https://www.coindesk.com/markets/2025/09/30/leveraged-bitcoin-longs-are-back-in-force-trading-firm-says" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -358,40 +347,15 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://www.coindesk.com/markets/2025/09/29/hbar-climbs-on-strong-volume-testing-resistance-near-usd0-217" target="_blank" rel="noopener">HBAR Climbs on Strong Volume, Testing Resistance Near $0.217</a>
+              <a href="https://www.coindesk.com/markets/2025/09/29/hbar-climbs-on-strong-volume-testing-resistance-near-usd0-217" target="_blank" rel="noopener">🔥 HBAR Climbs on Strong Volume, Testing Resistance Near $0.217</a>
             </h2>
-            <div class="news-meta">Sep 29, 2025 • CoinDesk</div>
+            <div class="news-meta">📅 Sep 29, 2025 • CoinDesk</div>
           </header>
 
           <p class="card-text">HBAR Climbs on Strong Volume, Testing Resistance Near $0.217</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://www.coindesk.com/markets/2025/09/29/hbar-climbs-on-strong-volume-testing-resistance-near-usd0-217" target="_blank" rel="noopener">Read original</a>
-          </footer>
-        </div>
-      </article>
-
-      <article class="card news-card">
-
-      <div class="media">
-        <picture>
-          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-29/88c1798e9c0f9757_thumb.webp 480w, /docs/assets/news/2025-09-29/88c1798e9c0f9757_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
-          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-29/88c1798e9c0f9757_thumb.jpg 480w, /docs/assets/news/2025-09-29/88c1798e9c0f9757_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
-          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-29/88c1798e9c0f9757_base.jpg" width="528" height="352" alt="How to use ChatGPT to find hidden gems in the crypto market" referrerpolicy="no-referrer" />
-        </picture>
-      </div>
-        <div class="card-inner">
-          <header class="card-head">
-            <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/how-to-use-chatgpt-to-find-hidden-gems-in-the-crypto-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">How to use ChatGPT to find hidden gems in the crypto market</a>
-            </h2>
-            <div class="news-meta">Sep 29, 2025 • Cointelegraph</div>
-          </header>
-
-          <p class="card-text">Discover hidden crypto gems using ChatGPT: GPTs, sentiment insights and data-driven scanners for smarter research and trading.</p>
-
-          <footer class="card-actions">
-            <a class="btn btn-sm" href="https://cointelegraph.com/news/how-to-use-chatgpt-to-find-hidden-gems-in-the-crypto-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">Read original</a>
+            <a class="btn btn-sm" href="https://www.coindesk.com/markets/2025/09/29/hbar-climbs-on-strong-volume-testing-resistance-near-usd0-217" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -400,54 +364,26 @@
       <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/news.html">← Back to News</a>
     </div>
   </main>
-<!-- Font Awesome CDN -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-<footer class="site-footer" aria-label="Site footer">
-  <div class="container foot-row">
-
-    <!-- Brand -->
-    <div class="footer-brand">
-      <img src="/Bitcoin-Live-Signals/assets/favicon.png" alt="SmartSignalHub Logo" class="footer-logo" />
-      <strong>SmartSignalHub</strong>
-    </div>
-
-    <!-- Navigation -->
-    <nav class="foot-links" aria-label="Footer navigation">
-      <a href="/Bitcoin-Live-Signals/services.html">Services</a>
-      <a href="/Bitcoin-Live-Signals/news.html">News</a>
-      <a href="/Bitcoin-Live-Signals/resources.html">Resources</a>
-      <a href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
-      <a href="/Bitcoin-Live-Signals/about.html">About</a>
-      <a href="/Bitcoin-Live-Signals/contact.html">Contact</a>
-    </nav>
-
-    <!-- Social + Contact -->
-    <div class="social-contact">
-      <div class="social-links">
-        <a href="https://www.facebook.com/CryptoNewsGeorgia" target="_blank" aria-label="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.linkedin.com/in/aleksandre-abashishvili-03417617a" target="_blank" aria-label="LinkedIn" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://x.com/SAbashishvili" target="_blank" aria-label="X" class="x"><i class="fab fa-x-twitter"></i></a>
-        <a href="https://www.youtube.com/@Smart-Trade-Hub" target="_blank" aria-label="YouTube" class="youtube"><i class="fab fa-youtube"></i></a>
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container">
+      <div class="foot-top">
+        <div style="display:flex; align-items:center; gap:10px">
+          <span class="logo" aria-hidden="true" style="width:24px;height:24px"></span>
+          <strong>SmartSignalHub</strong>
+        </div>
+        <div class="foot-links" aria-label="Quick links">
+          <a href="/Bitcoin-Live-Signals/services.html">Services</a>
+          <a href="/Bitcoin-Live-Signals/news.html">News</a>
+          <a href="/Bitcoin-Live-Signals/resources.html">Resources</a>
+          <a href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
+          <a href="/Bitcoin-Live-Signals/about.html">About</a>
+          <a href="/Bitcoin-Live-Signals/contact.html">Contact</a>
+        </div>
       </div>
-
-      <div class="contact-info">
-        <a href="mailto:sandroabashishvili@gmail.com" class="email">
-          <i class="fas fa-envelope"></i> sandroabashishvili@gmail.com
-        </a>
-        <a href="tel:+4915211084360" class="phone">
-          <i class="fas fa-phone"></i> +49 1521 1084360
-        </a>
-      </div>
+      <div class="copy">© 2025 SmartSignalHub • Educational use only.</div>
     </div>
-
-  </div>
-
-  <!-- Copyright -->
-  <div class="copy">
-    © <span id="year"></span> SmartSignalHub • Educational use only.
-  </div>
-</footer>
+  </footer>
 
 </body>
 </html>
