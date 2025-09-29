@@ -495,7 +495,7 @@
     "time": "2025-09-29 02:01",
     "capital": 2991.36,
     "net_pnl": 0.0,
-    "projected_equity": 2993.01
+    "projected_equity": 2993.24
   },
   {
     "time": "2025-09-29 02:31",
@@ -507,64 +507,70 @@
     "time": "2025-09-29 16:00",
     "capital": 2990.74,
     "net_pnl": 0.0,
-    "projected_equity": 2991.39
+    "projected_equity": 2991.63
   },
   {
     "time": "2025-09-29 16:30",
     "capital": 2990.74,
     "net_pnl": 0.0,
-    "projected_equity": 2990.98
+    "projected_equity": 2991.22
   },
   {
     "time": "2025-09-29 17:00",
     "capital": 2990.74,
     "net_pnl": 0.0,
-    "projected_equity": 2990.68
+    "projected_equity": 2990.91
   },
   {
     "time": "2025-09-29 17:30",
     "capital": 2990.74,
     "net_pnl": 0.0,
-    "projected_equity": 2990.9
+    "projected_equity": 2991.13
   },
   {
     "time": "2025-09-29 18:00",
     "capital": 2990.74,
     "net_pnl": 0.0,
-    "projected_equity": 2990.88
+    "projected_equity": 2991.11
   },
   {
     "time": "2025-09-29 18:30",
     "capital": 2990.74,
     "net_pnl": 0.0,
-    "projected_equity": 2990.85
+    "projected_equity": 2991.08
   },
   {
     "time": "2025-09-29 20:00",
     "capital": 2990.74,
     "net_pnl": 0.0,
-    "projected_equity": 2990.69
+    "projected_equity": 2990.92
   },
   {
     "time": "2025-09-29 20:30",
     "capital": 2990.74,
     "net_pnl": 0.0,
-    "projected_equity": 2990.77
+    "projected_equity": 2991.01
   },
   {
     "time": "2025-09-29 21:00",
     "capital": 2990.74,
     "net_pnl": 0.0,
-    "projected_equity": 2990.73,
+    "projected_equity": 2990.97
+  },
+  {
+    "time": "2025-09-29 22:00",
+    "capital": 2990.74,
+    "net_pnl": 0.0,
+    "projected_equity": 2990.78,
     "metrics": {
       "Starting Capital": "$3,000.00",
       "Gross PnL": "-0.96",
       "Fees Paid": "$8.30",
       "Net PnL": "-9.26",
-      "Exposure": "$1000.00",
-      "Available": "$1990.74",
-      "Unrealized PnL": "+2.86",
-      "Projected Balance": "$1993.60"
+      "Exposure": "$1100.00",
+      "Available": "$1890.74",
+      "Unrealized PnL": "+5.23",
+      "Projected Balance": "$1895.97"
     }
   }
 ]
