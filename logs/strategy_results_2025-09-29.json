@@ -2149,7 +2149,7 @@
       "position_size": 100.0,
       "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": false, \"macd_histogram\": false, \"trend_confirm\": true}",
       "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": false, \"adx_momentum\": true, \"order_dominance\": true, \"liquidity_zone\": false}",
-      "unrealized_pnl": 0.96,
+      "unrealized_pnl": 1.42,
       "Risk ($)": 1.22,
       "Reward ($)": 3.05,
       "return_pct": 0.0,
@@ -2201,9 +2201,35 @@
       "position_size": 100.0,
       "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": true, \"macd_histogram\": false, \"trend_confirm\": true}",
       "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": true, \"adx_momentum\": true, \"order_dominance\": true, \"liquidity_zone\": false}",
-      "unrealized_pnl": -0.03,
+      "unrealized_pnl": 0.43,
       "Risk ($)": 1.26,
       "Reward ($)": 3.14,
+      "return_pct": 0.0,
+      "net_or_unrealized": 0.0,
+      "available_capital": 3000.0,
+      "exposure": 100.0,
+      "tf": "30m"
+    },
+    {
+      "time": "2025-09-29 16:30",
+      "entry": 113724.04,
+      "sl": 111883.91,
+      "tp": 118324.36,
+      "status": "OPEN",
+      "validated": "OPEN",
+      "exit_price": null,
+      "gross_pnl": 0.0,
+      "net_pnl": 0.0,
+      "rrr": 2.5,
+      "confidence": "moderate",
+      "mode": "raw",
+      "side": "long",
+      "position_size": 100.0,
+      "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": true, \"macd_histogram\": true, \"trend_confirm\": true}",
+      "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": true, \"adx_momentum\": true, \"order_dominance\": false, \"liquidity_zone\": false}",
+      "unrealized_pnl": 0.02,
+      "Risk ($)": 1.62,
+      "Reward ($)": 4.05,
       "return_pct": 0.0,
       "net_or_unrealized": 0.0,
       "available_capital": 3000.0,
@@ -2229,7 +2255,7 @@
       "position_size": 100.0,
       "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": false, \"macd_histogram\": false, \"trend_confirm\": true}",
       "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": false, \"adx_momentum\": true, \"order_dominance\": true, \"liquidity_zone\": false}",
-      "unrealized_pnl": 0.96,
+      "unrealized_pnl": 1.42,
       "Risk ($)": 1.22,
       "Reward ($)": 3.05,
       "return_pct": 0.0,
@@ -2255,9 +2281,35 @@
       "position_size": 100.0,
       "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": true, \"macd_histogram\": false, \"trend_confirm\": true}",
       "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": true, \"adx_momentum\": true, \"order_dominance\": true, \"liquidity_zone\": false}",
-      "unrealized_pnl": -0.03,
+      "unrealized_pnl": 0.43,
       "Risk ($)": 1.26,
       "Reward ($)": 3.14,
+      "return_pct": 0.0,
+      "net_or_unrealized": 0.0,
+      "available_capital": 3000.0,
+      "exposure": 100.0,
+      "tf": "30m"
+    },
+    {
+      "time": "2025-09-29 16:30",
+      "entry": 113724.04,
+      "sl": 111883.91,
+      "tp": 118324.36,
+      "status": "OPEN",
+      "validated": "OPEN",
+      "exit_price": null,
+      "gross_pnl": 0.0,
+      "net_pnl": 0.0,
+      "rrr": 2.5,
+      "confidence": "moderate",
+      "mode": "raw",
+      "side": "long",
+      "position_size": 100.0,
+      "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": true, \"macd_histogram\": true, \"trend_confirm\": true}",
+      "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": true, \"adx_momentum\": true, \"order_dominance\": false, \"liquidity_zone\": false}",
+      "unrealized_pnl": 0.02,
+      "Risk ($)": 1.62,
+      "Reward ($)": 4.05,
       "return_pct": 0.0,
       "net_or_unrealized": 0.0,
       "available_capital": 3000.0,
@@ -4444,23 +4496,23 @@
     },
     {
       "Metric": "Exposure",
-      "Value": "$200.00"
+      "Value": "$300.00"
     },
     {
       "Metric": "Available",
-      "Value": "$2790.74"
+      "Value": "$2690.74"
     },
     {
       "Metric": "Unrealized PnL",
-      "Value": "+0.93"
+      "Value": "+1.86"
     },
     {
       "Metric": "Projected Balance",
-      "Value": "$2791.67"
+      "Value": "$2692.60"
     }
   ],
   "signal_status": {
-    "text": "\ud83d\udce2 Signal: OPEN \ud83d\udd10 SL: 111836.58 | \ud83c\udf1f TP: 116823.06 | \ud83c\udfa7 Mode: raw",
+    "text": "\ud83d\udce2 Signal: OPEN \ud83d\udd10 SL: 111883.91 | \ud83c\udf1f TP: 118324.36 | \ud83c\udfa7 Mode: raw",
     "highlight": true
   },
   "indicator_core": [
