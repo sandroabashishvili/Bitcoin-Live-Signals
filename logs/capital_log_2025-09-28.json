@@ -133,384 +133,366 @@
   },
   {
     "time": "2025-09-25 19:29",
-    "capital": 3020.55,
-    "net_pnl": -1.77,
-    "projected_equity": 3020.55
+    "capital": 3022.32,
+    "net_pnl": 0.0,
+    "projected_equity": 3021.61
   },
   {
     "time": "2025-09-25 19:30",
-    "capital": 3018.85,
-    "net_pnl": -1.7,
-    "projected_equity": 3018.85
+    "capital": 3022.32,
+    "net_pnl": 0.0,
+    "projected_equity": 3021.61
   },
   {
     "time": "2025-09-25 19:59",
-    "capital": 3016.09,
-    "net_pnl": -2.76,
-    "projected_equity": 3016.09
+    "capital": 3022.32,
+    "net_pnl": 0.0,
+    "projected_equity": 3020.56
   },
   {
     "time": "2025-09-25 20:00",
-    "capital": 3013.27,
-    "net_pnl": -2.82,
-    "projected_equity": 3013.27
+    "capital": 3022.32,
+    "net_pnl": 0.0,
+    "projected_equity": 3020.58
   },
   {
     "time": "2025-09-25 20:29",
-    "capital": 3011.02,
-    "net_pnl": -2.25,
-    "projected_equity": 3011.02
+    "capital": 3022.32,
+    "net_pnl": 0.0,
+    "projected_equity": 3021.15
   },
   {
     "time": "2025-09-25 20:30",
-    "capital": 3008.77,
-    "net_pnl": -2.25,
-    "projected_equity": 3008.77
+    "capital": 3022.32,
+    "net_pnl": 0.0,
+    "projected_equity": 3021.15
   },
   {
     "time": "2025-09-25 20:59",
-    "capital": 3007.19,
-    "net_pnl": -1.58,
-    "projected_equity": 3007.19
+    "capital": 3022.32,
+    "net_pnl": 0.0,
+    "projected_equity": 3021.47
   },
   {
     "time": "2025-09-25 21:00",
-    "capital": 3005.96,
-    "net_pnl": -1.23,
-    "projected_equity": 3005.96
+    "capital": 3022.32,
+    "net_pnl": 0.0,
+    "projected_equity": 3021.44
   },
   {
     "time": "2025-09-25 21:29",
-    "capital": 3004.72,
-    "net_pnl": -1.24,
-    "projected_equity": 3004.72
+    "capital": 3022.32,
+    "net_pnl": 0.0,
+    "projected_equity": 3021.52
   },
   {
     "time": "2025-09-25 21:30",
-    "capital": 3005.25,
+    "capital": 3022.85,
     "net_pnl": 0.53,
-    "projected_equity": 3005.25
+    "projected_equity": 3022.85
   },
   {
     "time": "2025-09-25 21:59",
-    "capital": 3004.45,
+    "capital": 3022.05,
     "net_pnl": -0.8,
-    "projected_equity": 3004.45
+    "projected_equity": 3022.05
   },
   {
     "time": "2025-09-25 22:00",
-    "capital": 3003.76,
+    "capital": 3021.36,
     "net_pnl": -0.69,
-    "projected_equity": 3003.76
+    "projected_equity": 3021.36
   },
   {
     "time": "2025-09-25 22:30",
-    "capital": 3003.0,
+    "capital": 3020.6,
     "net_pnl": -0.76,
-    "projected_equity": 3003.0
+    "projected_equity": 3020.6
   },
   {
     "time": "2025-09-25 23:01",
-    "capital": 3002.12,
+    "capital": 3019.72,
     "net_pnl": -0.88,
-    "projected_equity": 3002.12
+    "projected_equity": 3019.72
   },
   {
     "time": "2025-09-25 23:30",
-    "capital": 3001.39,
+    "capital": 3018.99,
     "net_pnl": -0.73,
-    "projected_equity": 3001.39
+    "projected_equity": 3018.99
   },
   {
     "time": "2025-09-26 02:00",
-    "capital": 3000.57,
+    "capital": 3018.17,
     "net_pnl": -0.82,
-    "projected_equity": 3000.57
+    "projected_equity": 3018.17
   },
   {
     "time": "2025-09-26 05:30",
-    "capital": 2999.98,
+    "capital": 3017.58,
     "net_pnl": -0.59,
-    "projected_equity": 2999.98
+    "projected_equity": 3017.58
   },
   {
     "time": "2025-09-26 06:30",
-    "capital": 2999.45,
+    "capital": 3017.05,
     "net_pnl": -0.53,
-    "projected_equity": 2999.45
+    "projected_equity": 3017.05
   },
   {
     "time": "2025-09-26 07:00",
-    "capital": 2998.98,
+    "capital": 3016.58,
     "net_pnl": -0.47,
-    "projected_equity": 2998.98
+    "projected_equity": 3016.58
   },
   {
     "time": "2025-09-26 09:00",
-    "capital": 2999.55,
+    "capital": 3017.15,
     "net_pnl": 0.57,
-    "projected_equity": 2999.55
+    "projected_equity": 3017.15
   },
   {
     "time": "2025-09-26 09:30",
-    "capital": 2999.04,
+    "capital": 3016.64,
     "net_pnl": -0.51,
-    "projected_equity": 2999.04
+    "projected_equity": 3016.64
   },
   {
     "time": "2025-09-26 10:00",
-    "capital": 2998.56,
+    "capital": 3016.16,
     "net_pnl": -0.48,
-    "projected_equity": 2998.56
+    "projected_equity": 3016.16
   },
   {
     "time": "2025-09-26 12:32",
-    "capital": 2997.71,
+    "capital": 3015.31,
     "net_pnl": -0.85,
-    "projected_equity": 2997.71
+    "projected_equity": 3015.31
   },
   {
     "time": "2025-09-26 13:00",
-    "capital": 2996.81,
+    "capital": 3014.41,
     "net_pnl": -0.9,
-    "projected_equity": 2996.81
+    "projected_equity": 3014.41
   },
   {
     "time": "2025-09-26 13:30",
-    "capital": 2995.78,
+    "capital": 3013.38,
     "net_pnl": -1.03,
-    "projected_equity": 2995.78
+    "projected_equity": 3013.38
   },
   {
     "time": "2025-09-26 16:30",
-    "capital": 2994.93,
+    "capital": 3012.53,
     "net_pnl": -0.85,
-    "projected_equity": 2994.93
+    "projected_equity": 3012.53
   },
   {
     "time": "2025-09-26 17:00",
-    "capital": 2993.89,
+    "capital": 3011.49,
     "net_pnl": -1.04,
-    "projected_equity": 2993.89
+    "projected_equity": 3011.49
   },
   {
     "time": "2025-09-26 18:00",
-    "capital": 2993.02,
+    "capital": 3010.62,
     "net_pnl": -0.87,
-    "projected_equity": 2993.02
+    "projected_equity": 3010.62
   },
   {
     "time": "2025-09-26 20:00",
-    "capital": 2994.66,
-    "net_pnl": 1.64,
-    "projected_equity": 2994.66
+    "capital": 3010.62,
+    "net_pnl": 0.0,
+    "projected_equity": 3011.37
   },
   {
     "time": "2025-09-26 22:00",
-    "capital": 2993.43,
+    "capital": 3009.39,
     "net_pnl": -1.23,
-    "projected_equity": 2993.43
+    "projected_equity": 3009.39
   },
   {
     "time": "2025-09-26 22:30",
-    "capital": 2992.28,
+    "capital": 3008.24,
     "net_pnl": -1.15,
-    "projected_equity": 2992.28
+    "projected_equity": 3008.24
   },
   {
     "time": "2025-09-26 23:00",
-    "capital": 2991.7,
+    "capital": 3007.66,
     "net_pnl": -0.58,
-    "projected_equity": 2991.7
+    "projected_equity": 3007.66
   },
   {
     "time": "2025-09-27 09:30",
-    "capital": 2991.39,
+    "capital": 3007.35,
     "net_pnl": -0.31,
-    "projected_equity": 2991.39
+    "projected_equity": 3007.35
   },
   {
     "time": "2025-09-27 10:30",
-    "capital": 2991.04,
+    "capital": 3007.0,
     "net_pnl": -0.35,
-    "projected_equity": 2991.04
+    "projected_equity": 3007.0
   },
   {
     "time": "2025-09-27 12:00",
-    "capital": 2990.79,
+    "capital": 3006.75,
     "net_pnl": -0.25,
-    "projected_equity": 2990.79
+    "projected_equity": 3006.75
   },
   {
     "time": "2025-09-27 13:00",
-    "capital": 2990.58,
+    "capital": 3006.54,
     "net_pnl": -0.21,
-    "projected_equity": 2990.58
+    "projected_equity": 3006.54
   },
   {
     "time": "2025-09-27 14:00",
-    "capital": 2990.3,
+    "capital": 3006.26,
     "net_pnl": -0.28,
-    "projected_equity": 2990.3
+    "projected_equity": 3006.26
   },
   {
     "time": "2025-09-27 14:30",
-    "capital": 2989.99,
+    "capital": 3005.95,
     "net_pnl": -0.31,
-    "projected_equity": 2989.99
+    "projected_equity": 3005.95
   },
   {
     "time": "2025-09-27 15:00",
-    "capital": 2989.74,
+    "capital": 3005.7,
     "net_pnl": -0.25,
-    "projected_equity": 2989.74
+    "projected_equity": 3005.7
   },
   {
     "time": "2025-09-27 16:00",
-    "capital": 2989.46,
+    "capital": 3005.42,
     "net_pnl": -0.28,
-    "projected_equity": 2989.46
+    "projected_equity": 3005.42
   },
   {
     "time": "2025-09-27 16:30",
-    "capital": 2989.18,
+    "capital": 3005.14,
     "net_pnl": -0.28,
-    "projected_equity": 2989.18
+    "projected_equity": 3005.14
   },
   {
     "time": "2025-09-27 17:00",
-    "capital": 2988.93,
+    "capital": 3004.89,
     "net_pnl": -0.25,
-    "projected_equity": 2988.93
+    "projected_equity": 3004.89
   },
   {
     "time": "2025-09-27 17:30",
-    "capital": 2988.68,
+    "capital": 3004.64,
     "net_pnl": -0.25,
-    "projected_equity": 2988.68
+    "projected_equity": 3004.64
   },
   {
     "time": "2025-09-27 20:00",
-    "capital": 2988.91,
+    "capital": 3004.87,
     "net_pnl": 0.23,
-    "projected_equity": 2988.91
+    "projected_equity": 3004.87
   },
   {
     "time": "2025-09-28 04:01",
-    "capital": 2988.39,
+    "capital": 3004.35,
     "net_pnl": -0.52,
-    "projected_equity": 2988.39
+    "projected_equity": 3004.35
   },
   {
     "time": "2025-09-28 05:31",
-    "capital": 2988.18,
+    "capital": 3004.14,
     "net_pnl": -0.21,
-    "projected_equity": 2988.18
+    "projected_equity": 3004.14
   },
   {
     "time": "2025-09-28 06:01",
-    "capital": 2987.95,
+    "capital": 3003.91,
     "net_pnl": -0.23,
-    "projected_equity": 2987.95
+    "projected_equity": 3003.91
   },
   {
     "time": "2025-09-28 06:31",
-    "capital": 2987.67,
+    "capital": 3003.63,
     "net_pnl": -0.28,
-    "projected_equity": 2987.67
+    "projected_equity": 3003.63
   },
   {
     "time": "2025-09-28 07:31",
-    "capital": 2987.45,
+    "capital": 3003.41,
     "net_pnl": -0.22,
-    "projected_equity": 2987.45
+    "projected_equity": 3003.41
   },
   {
     "time": "2025-09-28 08:01",
-    "capital": 2987.21,
+    "capital": 3003.17,
     "net_pnl": -0.24,
-    "projected_equity": 2987.21
+    "projected_equity": 3003.17
   },
   {
     "time": "2025-09-28 08:30",
-    "capital": 2986.97,
+    "capital": 3002.93,
     "net_pnl": -0.24,
-    "projected_equity": 2986.97
+    "projected_equity": 3002.93
   },
   {
     "time": "2025-09-28 13:01",
-    "capital": 2986.67,
+    "capital": 3002.63,
     "net_pnl": -0.3,
-    "projected_equity": 2986.67
+    "projected_equity": 3002.63
   },
   {
     "time": "2025-09-28 14:01",
-    "capital": 2986.42,
+    "capital": 3002.38,
     "net_pnl": -0.25,
-    "projected_equity": 2986.42
+    "projected_equity": 3002.38
   },
   {
     "time": "2025-09-28 20:01",
-    "capital": 2986.78,
+    "capital": 3002.74,
     "net_pnl": 0.36,
-    "projected_equity": 2986.78
+    "projected_equity": 3002.74
   },
   {
     "time": "2025-09-28 20:31",
-    "capital": 2987.01,
+    "capital": 3002.97,
     "net_pnl": 0.23,
-    "projected_equity": 2987.01
+    "projected_equity": 3002.97
   },
   {
     "time": "2025-09-28 21:01",
-    "capital": 2987.4,
-    "net_pnl": 0.39,
-    "projected_equity": 2987.4
+    "capital": 3002.97,
+    "net_pnl": 0.0,
+    "projected_equity": 3003.35
   },
   {
     "time": "2025-09-28 21:57",
-    "capital": 2987.81,
-    "net_pnl": 0.41,
-    "projected_equity": 2987.81
+    "capital": 3002.97,
+    "net_pnl": 0.0,
+    "projected_equity": 3003.35
   },
   {
     "time": "2025-09-28 22:31",
-    "capital": 2988.98,
-    "net_pnl": 1.17,
-    "projected_equity": 2988.98
+    "capital": 3002.97,
+    "net_pnl": 0.0,
+    "projected_equity": 3002.91
   },
   {
     "time": "2025-09-28 23:01",
-    "capital": 2988.98,
+    "capital": 3002.97,
     "net_pnl": 0.0,
-    "projected_equity": 2990.26
-  },
-  {
-    "time": "2025-09-29 00:01",
-    "capital": 2988.98,
-    "net_pnl": 0.0,
-    "projected_equity": 2990.17
-  },
-  {
-    "time": "2025-09-29 02:01",
-    "capital": 2988.98,
-    "net_pnl": 0.0,
-    "projected_equity": 2989.07
-  },
-  {
-    "time": "2025-09-29 02:31",
-    "capital": 2988.98,
-    "net_pnl": 0.0,
-    "projected_equity": 2988.98,
+    "projected_equity": 3002.86,
     "metrics": {
       "Starting Capital": "$3,000.00",
-      "Gross PnL": "-3.02",
-      "Fees Paid": "$8.00",
-      "Net PnL": "-11.02",
-      "Exposure": "$400.00",
-      "Available": "$2588.98",
-      "Unrealized PnL": "+2.56",
-      "Projected Balance": "$2591.54"
+      "Gross PnL": "+9.67",
+      "Fees Paid": "$6.70",
+      "Net PnL": "+2.97",
+      "Exposure": "$1400.00",
+      "Available": "$1602.97",
+      "Unrealized PnL": "-8.44",
+      "Projected Balance": "$1594.53"
     }
   }
 ]
