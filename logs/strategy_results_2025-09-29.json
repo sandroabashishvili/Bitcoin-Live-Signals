@@ -2085,11 +2085,11 @@
       "entry": 110837.92,
       "sl": 110081.93,
       "tp": 112349.9,
-      "status": "OPEN",
-      "validated": "OPEN",
-      "exit_price": null,
-      "gross_pnl": 0.0,
-      "net_pnl": 0.0,
+      "status": "CLOSED",
+      "validated": "TP Hit",
+      "exit_price": 112349.9,
+      "gross_pnl": 1.36,
+      "net_pnl": 1.26,
       "rrr": 2.0,
       "confidence": "moderate",
       "mode": "raw",
@@ -2097,13 +2097,13 @@
       "position_size": 100.0,
       "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": false, \"macd_histogram\": true, \"trend_confirm\": true}",
       "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": false, \"adx_momentum\": true, \"order_dominance\": true, \"liquidity_zone\": false}",
-      "unrealized_pnl": 1.23,
+      "unrealized_pnl": null,
       "Risk ($)": 0.68,
       "Reward ($)": 1.36,
-      "return_pct": 0.0,
-      "net_or_unrealized": 0.0,
+      "return_pct": 1.36,
+      "net_or_unrealized": 1.26,
       "available_capital": 3000.0,
-      "exposure": 100.0,
+      "exposure": 0.0,
       "tf": "30m"
     },
     {
@@ -2149,7 +2149,7 @@
       "position_size": 100.0,
       "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": false, \"macd_histogram\": false, \"trend_confirm\": true}",
       "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": false, \"adx_momentum\": true, \"order_dominance\": true, \"liquidity_zone\": false}",
-      "unrealized_pnl": 0.04,
+      "unrealized_pnl": -0.05,
       "Risk ($)": 1.22,
       "Reward ($)": 3.05,
       "return_pct": 0.0,
@@ -2187,32 +2187,6 @@
   ],
   "recent": [
     {
-      "time": "2025-09-28 23:01",
-      "entry": 110837.92,
-      "sl": 110081.93,
-      "tp": 112349.9,
-      "status": "OPEN",
-      "validated": "OPEN",
-      "exit_price": null,
-      "gross_pnl": 0.0,
-      "net_pnl": 0.0,
-      "rrr": 2.0,
-      "confidence": "moderate",
-      "mode": "raw",
-      "side": "long",
-      "position_size": 100.0,
-      "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": false, \"macd_histogram\": true, \"trend_confirm\": true}",
-      "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": false, \"adx_momentum\": true, \"order_dominance\": true, \"liquidity_zone\": false}",
-      "unrealized_pnl": 1.23,
-      "Risk ($)": 0.68,
-      "Reward ($)": 1.36,
-      "return_pct": 0.0,
-      "net_or_unrealized": 0.0,
-      "available_capital": 3000.0,
-      "exposure": 100.0,
-      "tf": "30m"
-    },
-    {
       "time": "2025-09-29 02:01",
       "entry": 112153.69,
       "sl": 110783.71,
@@ -2229,7 +2203,7 @@
       "position_size": 100.0,
       "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": false, \"macd_histogram\": false, \"trend_confirm\": true}",
       "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": false, \"adx_momentum\": true, \"order_dominance\": true, \"liquidity_zone\": false}",
-      "unrealized_pnl": 0.04,
+      "unrealized_pnl": -0.05,
       "Risk ($)": 1.22,
       "Reward ($)": 3.05,
       "return_pct": 0.0,
@@ -4321,6 +4295,32 @@
       "tf": "30m"
     },
     {
+      "time": "2025-09-28 23:01",
+      "entry": 110837.92,
+      "sl": 110081.93,
+      "tp": 112349.9,
+      "status": "CLOSED",
+      "validated": "TP Hit",
+      "exit_price": 112349.9,
+      "gross_pnl": 1.36,
+      "net_pnl": 1.26,
+      "rrr": 2.0,
+      "confidence": "moderate",
+      "mode": "raw",
+      "side": "long",
+      "position_size": 100.0,
+      "core_debug": "{\"rsi_macd\": true, \"ema_cross\": true, \"volatility_spike\": false, \"macd_histogram\": true, \"trend_confirm\": true}",
+      "support_debug": "{\"vwap_bias\": true, \"mtf_agreement\": false, \"adx_momentum\": true, \"order_dominance\": true, \"liquidity_zone\": false}",
+      "unrealized_pnl": null,
+      "Risk ($)": 0.68,
+      "Reward ($)": 1.36,
+      "return_pct": 1.36,
+      "net_or_unrealized": 1.26,
+      "available_capital": 3000.0,
+      "exposure": 0.0,
+      "tf": "30m"
+    },
+    {
       "time": "2025-09-29 00:01",
       "entry": 110931.86,
       "sl": 110256.22,
@@ -4380,31 +4380,31 @@
     },
     {
       "Metric": "Gross PnL",
-      "Value": "-2.32"
+      "Value": "-0.96"
     },
     {
       "Metric": "Fees Paid",
-      "Value": "$8.20"
+      "Value": "$8.30"
     },
     {
       "Metric": "Net PnL",
-      "Value": "-10.52"
+      "Value": "-9.26"
     },
     {
       "Metric": "Exposure",
-      "Value": "$200.00"
+      "Value": "$100.00"
     },
     {
       "Metric": "Available",
-      "Value": "$2789.48"
+      "Value": "$2890.74"
     },
     {
       "Metric": "Unrealized PnL",
-      "Value": "+1.27"
+      "Value": "-0.05"
     },
     {
       "Metric": "Projected Balance",
-      "Value": "$2790.75"
+      "Value": "$2890.69"
     }
   ],
   "signal_status": {
@@ -4414,15 +4414,15 @@
   "indicator_core": [
     {
       "Indicator": "RSI/MACD Momentum Trigger",
-      "TP": 8,
+      "TP": 9,
       "SL": 1,
-      "Accuracy": 88.89
+      "Accuracy": 90.0
     },
     {
       "Indicator": "EMA Trend Confirmation",
-      "TP": 6,
+      "TP": 7,
       "SL": 1,
-      "Accuracy": 85.71
+      "Accuracy": 87.5
     },
     {
       "Indicator": "Volatility Spike Detection",
@@ -4432,23 +4432,23 @@
     },
     {
       "Indicator": "MACD Histogram Growth",
-      "TP": 3,
+      "TP": 4,
       "SL": 0,
       "Accuracy": 100.0
     },
     {
       "Indicator": "Trend Confirm (Ichimoku + RSI + MACD)",
-      "TP": 8,
+      "TP": 9,
       "SL": 1,
-      "Accuracy": 88.89
+      "Accuracy": 90.0
     }
   ],
   "indicator_support": [
     {
       "Indicator": "VWAP Positional Bias",
-      "TP": 9,
+      "TP": 10,
       "SL": 1,
-      "Accuracy": 90.0
+      "Accuracy": 90.91
     },
     {
       "Indicator": "Multi-Timeframe Agreement",
@@ -4458,15 +4458,15 @@
     },
     {
       "Indicator": "ADX + Momentum Strength",
-      "TP": 7,
+      "TP": 8,
       "SL": 1,
-      "Accuracy": 87.5
+      "Accuracy": 88.89
     },
     {
       "Indicator": "Order Imbalance Dominance",
-      "TP": 21,
+      "TP": 22,
       "SL": 13,
-      "Accuracy": 61.76
+      "Accuracy": 62.86
     },
     {
       "Indicator": "Liquidity Zone Proximity",
