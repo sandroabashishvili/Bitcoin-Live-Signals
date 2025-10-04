@@ -255,13 +255,13 @@
 
 
   // დავამატოთ last update-ის ტრიგერი ticker-ზე
-  window.addEventListener('load', () => {
-    if (window.SSHTicker) {
-      window.SSHTicker.subscribe(() => {
-        updateLastUpdate();
-      });
-    }
-  });
+  // window.addEventListener('load', () => {
+  //   if (window.SSHTicker) {
+  //     window.SSHTicker.subscribe(() => {
+  //       updateLastUpdate();
+  //     });
+  //   }
+  // });
 
   // ==== [RUN] ====
   await loadPartials();     // header/footer first (nav/theme controls rely on them)
