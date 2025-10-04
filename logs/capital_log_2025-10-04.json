@@ -915,31 +915,31 @@
     "time": "2025-10-03 17:30",
     "capital": 3049.4,
     "net_pnl": 0.0,
-    "projected_equity": 3049.87
+    "projected_equity": 3049.68
   },
   {
     "time": "2025-10-03 18:00",
     "capital": 3049.4,
     "net_pnl": 0.0,
-    "projected_equity": 3048.92
+    "projected_equity": 3048.73
   },
   {
     "time": "2025-10-03 18:30",
     "capital": 3049.4,
     "net_pnl": 0.0,
-    "projected_equity": 3048.1
+    "projected_equity": 3047.92
   },
   {
     "time": "2025-10-03 19:01",
     "capital": 3049.4,
     "net_pnl": 0.0,
-    "projected_equity": 3049.6
+    "projected_equity": 3049.41
   },
   {
     "time": "2025-10-03 21:31",
     "capital": 3049.4,
     "net_pnl": 0.0,
-    "projected_equity": 3048.75,
+    "projected_equity": 3048.56,
     "metrics": {
       "Starting Capital": "$3,000.00",
       "Gross PnL": "+64.60",
@@ -947,8 +947,8 @@
       "Net PnL": "+49.40",
       "Exposure": "$500.00",
       "Available": "$2549.40",
-      "Unrealized PnL": "-1.76",
-      "Projected Balance": "$2547.64"
+      "Unrealized PnL": "-2.70",
+      "Projected Balance": "$2546.70"
     }
   }
 ]
