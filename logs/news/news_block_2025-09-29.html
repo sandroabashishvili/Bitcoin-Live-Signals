@@ -20,9 +20,9 @@
     @media (min-width:768px){ .ssn-news .ssn-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
     @media (min-width:1200px){ .ssn-news .ssn-grid{ grid-template-columns:repeat(3,minmax(0,1fr)); } }
 
-    .ssn-news .news-card { border:1px solid rgba(255,255,255,.08); border-radius:16px; overflow:hidden;
-      background:rgba(255,255,255,.02); box-shadow:0 2px 12px rgba(0,0,0,.18); transition:transform .2s ease, box-shadow .2s ease; position:static; }
-    .ssn-news .news-card:hover { transform:translateY(-2px); box-shadow:0 6px 22px rgba(0,0,0,.25); }
+    .ssn-news .news-card { border:1px solid rgba(255,255,255,.15); border-radius:16px; overflow:hidden;
+      background:#1a1a1a; box-shadow:0 4px 16px rgba(0,0,0,.3); transition:transform .2s ease, box-shadow .2s ease; position:static; }
+    .ssn-news .news-card:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.4); }
     .ssn-news .news-card .media { aspect-ratio:16/9; overflow:hidden; background:#101214; }
     .ssn-news .news-card picture, .ssn-news .news-card img { width:100%; height:100%; object-fit:cover; display:block; }
 
@@ -34,6 +34,35 @@
     .ssn-news .news-card .card-text { margin:0; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; }
 
     .ssn-news .news-card .card-actions { margin-top:auto; }
+    
+    /* Dark theme text visibility fixes */
+    [data-theme="boss"] .ssn-news .news-card .card-title a { 
+      color: #ffffff !important; 
+      font-weight: 600 !important;
+    }
+    [data-theme="boss"] .ssn-news .news-card .card-title a:hover { 
+      color: #4fc3f7 !important; 
+    }
+    [data-theme="boss"] .ssn-news .news-card .card-text {
+      color: #ffffff !important;
+    }
+    [data-theme="boss"] .ssn-news .news-card .news-meta {
+      color: #cccccc !important;
+    }
+    [data-theme="boss"] .ssn-news .news-card:hover {
+      background: #222222 !important;
+    }
+    [data-theme="boss"] .ssn-news .news-card .card-actions .btn {
+      background: #0d47a1 !important;
+      color: #ffffff !important;
+      border: 1px solid #1976d2 !important;
+      font-weight: 600 !important;
+    }
+    [data-theme="boss"] .ssn-news .news-card .card-actions .btn:hover {
+      background: #1976d2 !important;
+      border-color: #42a5f5 !important;
+      box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3) !important;
+    }
 
     .shimmer, .shimmer::after { animation:none !important; background:none !important; content:none !important; }
   </style>
