@@ -218,11 +218,6 @@
       updateCurrentTime();
     }, 1000); // 1 second
 
-    // Update next update countdown every second
-    setInterval(() => {
-      updateNextUpdate();
-    }, 1000); // 1 second
-
     // Initial updates immediately
     updateCurrentTime();
     

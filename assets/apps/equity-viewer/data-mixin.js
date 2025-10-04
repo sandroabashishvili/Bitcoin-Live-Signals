@@ -36,9 +36,9 @@ export function applyDataMixin(Cls){
       return null;
     },
 
-    // ---- NEW: multiple-bases helpers (/logs only) ----
+    // ---- NEW: multiple-bases helpers (logs only) ----
     logsBases(){
-      return ['/logs', 'logs'];
+      return ['logs'];
     },
 
 
