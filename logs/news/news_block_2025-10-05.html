@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en" data-theme="boss">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SmartSignalHub • Daily Crypto Highlights — October 5, 2025</title>
+  <meta name="description" content="Bitcoin analysis, trading signals, and market insights for October 5, 2025 — curated by SmartSignalHub.">
+  <meta property="og:title" content="Daily Crypto Highlights — October 5, 2025">
+  <meta property="og:description" content="Bitcoin analysis, trading signals, and market insights for October 5, 2025 — curated by SmartSignalHub.">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="SmartSignalHub">
+  <meta property="og:image" content="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/assets/img/news-preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <link rel="icon" type="image/png" href="/Bitcoin-Live-Signals/assets/favicon.png" />
+  <link rel="stylesheet" href="/Bitcoin-Live-Signals/assets/css/styles.css" />
+
+  <style>
+    .site-header, .site-footer { position: relative; z-index: 10; }
+    .ssn-news { position: relative; z-index: 0; }
+
+    .ssn-news .ssn-grid { display:grid; gap:20px; grid-template-columns:repeat(1,minmax(0,1fr)); }
+    @media (min-width:768px){ .ssn-news .ssn-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media (min-width:1200px){ .ssn-news .ssn-grid{ grid-template-columns:repeat(3,minmax(0,1fr)); } }
+
+    /* News Cards - Universal for both themes */
+    .ssn-news .news-card { 
+      border-radius:16px; 
+      overflow:hidden;
+      transition:transform .2s ease, box-shadow .2s ease; 
+      position:static; 
+    }
+    .ssn-news .news-card .media { aspect-ratio:16/9; overflow:hidden; background:#101214; }
+    .ssn-news .news-card picture, .ssn-news .news-card img { width:100%; height:100%; object-fit:cover; display:block; }
+    .ssn-news .news-card .card-inner { display:flex; flex-direction:column; padding:12px 14px 14px 14px; gap:8px; min-height:280px; }
+    .ssn-news .news-card .card-head { margin-bottom:2px; }
+    .ssn-news .news-card .card-title { margin:0 0 4px 0; line-height:1.3; }
+    .ssn-news .news-card .news-meta { opacity:.8; font-size:.9rem; }
+    .ssn-news .news-card .card-text { margin:0; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; }
+    .ssn-news .news-card .card-actions { margin-top:auto; }
+    
+    /* Dark theme styles - BOSS theme is ALWAYS dark */
+    [data-theme="boss"] .ssn-news .news-card {
+      border: 1px solid rgba(255,255,255,.15) !important;
+      background: #1a1a1a !important;
+      box-shadow: 0 4px 16px rgba(0,0,0,.3) !important;
+    }
+    [data-theme="boss"] .ssn-news .news-card:hover {
+      transform: translateY(-2px) !important;
+      box-shadow: 0 8px 24px rgba(0,0,0,.4) !important;
+      background: #222222 !important;
+    }
+    [data-theme="boss"] .ssn-news .news-card .card-title a { 
+      color: #ffffff !important; 
+      text-decoration: none !important;
+      transition: color 0.2s ease !important;
+      font-weight: 600 !important;
+    }
+    [data-theme="boss"] .ssn-news .news-card .card-title a:hover { 
+      color: #4fc3f7 !important; 
+      text-decoration: underline !important;
+    }
+    [data-theme="boss"] .ssn-news .news-card .card-text,
+    [data-theme="boss"] .ssn-news .card-text {
+      color: #ffffff !important;
+    }
+    [data-theme="boss"] .ssn-news .news-card .news-meta,
+    [data-theme="boss"] .ssn-news .news-meta {
+      color: #cccccc !important;
+    }
+    [data-theme="boss"] .ssn-news .news-card .card-actions .btn {
+      background: #0d47a1 !important;
+      color: #ffffff !important;
+      border: 1px solid #1976d2 !important;
+      transition: all 0.2s ease !important;
+      text-decoration: none !important;
+      font-weight: 600 !important;
+    }
+    [data-theme="boss"] .ssn-news .news-card .card-actions .btn:hover {
+      background: #1976d2 !important;
+      border-color: #42a5f5 !important;
+      transform: translateY(-1px) !important;
+      box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3) !important;
+    }
+
+    .shimmer, .shimmer::after { animation:none !important; background:none !important; content:none !important; }
+  </style>
+</head>
+<body>
+<header class="site-header" aria-label="Site header">
+  <!-- Global assets (theme + libs + apps) -->
+  <link rel="icon" href="/Bitcoin-Live-Signals/assets/favicon.png">
+  <link rel="stylesheet" href="/Bitcoin-Live-Signals/assets/css/styles.css">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+  <script type="module" src="/Bitcoin-Live-Signals/assets/apps/equity-viewer.js"></script>
+  <script type="module" src="/Bitcoin-Live-Signals/assets/apps/volume-visualizer.js"></script>
+
+  <div class="container header-row">
+    <!-- Logo -->
+    <a class="brand" href="/Bitcoin-Live-Signals/index.html" aria-label="Home">
+      <img src="/Bitcoin-Live-Signals/assets/favicon.png" alt="SmartSignalHub Logo" class="logo" width="28" height="28" loading="lazy" decoding="async" />
+      <span class="brand-title">SmartSignalHub</span>
+    </a>
+
+    <!-- Hamburger button -->
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-controls="primary-nav">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="nav" id="primary-nav" aria-label="Primary menu">
+      <button class="menu-close" aria-label="Close menu">
+        <i class="fas fa-times"></i>
+      </button>
+      <a href="/Bitcoin-Live-Signals/index.html">Home</a>
+      <a href="/Bitcoin-Live-Signals/services.html">Services</a>
+      <a href="/Bitcoin-Live-Signals/news.html">News</a>
+      <a href="/Bitcoin-Live-Signals/resources.html">Resources</a>
+      <a href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
+      <a href="/Bitcoin-Live-Signals/about.html">About</a>
+      <a href="/Bitcoin-Live-Signals/contact.html">Contact</a>
+    </nav>
+
+    <!-- Theme switches -->
+    <div class="swatches" aria-label="Theme">
+      <div class="swatch" title="Boss" data-theme="boss"></div>
+      <div class="swatch" title="Ferrari" data-theme="ferrari"></div>
+      <div class="swatch" title="Bull" data-theme="bull"></div>
+      <div class="swatch" title="Joker" data-theme="joker"></div>
+    </div>
+  </div>
+
+  <!-- Overlay -->
+  <div class="menu-overlay"></div>
+</header>
+  <main id="content" class="container ssn-news">
+    <h1 class="page-title">Daily Crypto Highlights — October 5, 2025</h1>
+    <div class="ssn-grid">
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/0d9a622f35f05f60_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/0d9a622f35f05f60_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/0d9a622f35f05f60_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/0d9a622f35f05f60_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-10-05/0d9a622f35f05f60_base.jpg" width="528" height="352" alt="Here’s what happened in crypto today" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🚀 Here’s what happened in crypto today</a>
+            </h2>
+            <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
+          </header>
+
+          <p class="card-text">Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/ece0338186a9ccae_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/ece0338186a9ccae_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/ece0338186a9ccae_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/ece0338186a9ccae_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-10-05/ece0338186a9ccae_base.jpg" width="528" height="352" alt="Stablecoins will force &amp;#039;everyone&amp;#039; to share yield — Stripe CEO" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cointelegraph.com/news/stablecoins-force-everyone-share-yield-stripe-ceo?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">📊 Stablecoins will force &amp;#039;everyone&amp;#039; to share yield — Stripe CEO</a>
+            </h2>
+            <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
+          </header>
+
+          <p class="card-text">Yield-bearing stablecoins will force traditional banks and legacy financial institutions to offer customers real yield on their deposits.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/stablecoins-force-everyone-share-yield-stripe-ceo?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/1743f3f7a3bdcdd8_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/1743f3f7a3bdcdd8_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/1743f3f7a3bdcdd8_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/1743f3f7a3bdcdd8_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-10-05/1743f3f7a3bdcdd8_base.jpg" width="960" height="540" alt="Defiance Proposes 3X Leveraged Exposure on Bitcoin, Ethereum Funds and Crypto Stocks" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://decrypt.co/342958/defiance-proposes-3x-leveraged-exposure-bitcoin-ethereum-funds-crypto-stocks" target="_blank" rel="noopener">🔥 Defiance Proposes 3X Leveraged Exposure on Bitcoin, Ethereum Funds and Crypto Stocks</a>
+            </h2>
+            <div class="news-meta">📅 Oct 4, 2025 • Decrypt</div>
+          </header>
+
+          <p class="card-text">Defiance&#x27;s prospectus to the SEC on Friday outlines 49 ETFs that would provide leveraged exposure to Bitcoin funds, crypto firms, and more.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://decrypt.co/342958/defiance-proposes-3x-leveraged-exposure-bitcoin-ethereum-funds-crypto-stocks" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/bcdc4dadc646f888_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/bcdc4dadc646f888_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/bcdc4dadc646f888_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/bcdc4dadc646f888_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-10-05/bcdc4dadc646f888_base.jpg" width="528" height="352" alt="Blockchain network revenues declined 16% in September: Report" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cointelegraph.com/news/blockchain-revenues-declined-16-september?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">💡 Blockchain network revenues declined 16% in September: Report</a>
+            </h2>
+            <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
+          </header>
+
+          <p class="card-text">Asset manager VanEck attributed the broad decline in blockchain network revenue in September to lower volatility in the crypto markets.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/blockchain-revenues-declined-16-september?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/148219f269055dd3_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/148219f269055dd3_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/148219f269055dd3_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/148219f269055dd3_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-10-05/148219f269055dd3_base.jpg" width="960" height="539" alt="After 30 Days Without Food, AI Protester Finally Quits Hunger Strike" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://decrypt.co/342959/after-30-days-without-food-ai-protester-quits-hunger-strike" target="_blank" rel="noopener">🔥 After 30 Days Without Food, AI Protester Finally Quits Hunger Strike</a>
+            </h2>
+            <div class="news-meta">📅 Oct 4, 2025 • Decrypt</div>
+          </header>
+
+          <p class="card-text">AI activist Guido Reichstadter ended his 30-day hunger strike outside Anthropic HQ.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://decrypt.co/342959/after-30-days-without-food-ai-protester-quits-hunger-strike" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/16484dbe1f019327_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/16484dbe1f019327_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/16484dbe1f019327_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/16484dbe1f019327_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-10-05/16484dbe1f019327_base.jpg" width="960" height="540" alt="Trump Tariff Stimmy? Here’s How Much Covid Stimulus Checks Are Worth Now If Invested in Bitcoin" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://decrypt.co/342907/how-much-covid-stimulus-checks-worth-now-invested-bitcoin" target="_blank" rel="noopener">🌐 Trump Tariff Stimmy? Here’s How Much Covid Stimulus Checks Are Worth Now If Invested in Bitcoin</a>
+            </h2>
+            <div class="news-meta">📅 Oct 4, 2025 • Decrypt</div>
+          </header>
+
+          <p class="card-text">President Trump said this week that Americans could receive a cut of tariff revenue. Here&#x27;s why it might be a good idea to invest those funds in Bitcoin.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://decrypt.co/342907/how-much-covid-stimulus-checks-worth-now-invested-bitcoin" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/61b0196d1cf022b8_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/61b0196d1cf022b8_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/61b0196d1cf022b8_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/61b0196d1cf022b8_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-10-05/61b0196d1cf022b8_base.jpg" width="960" height="540" alt="Bitcoin&#x27;s Key Trends Suggest Price Still Has Plenty of Room to Run" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://www.coindesk.com/markets/2025/10/04/bitcoin-s-key-trends-suggest-price-still-has-plenty-of-room-to-run" target="_blank" rel="noopener">🔔 Bitcoin&#x27;s Key Trends Suggest Price Still Has Plenty of Room to Run</a>
+            </h2>
+            <div class="news-meta">📅 Oct 4, 2025 • CoinDesk</div>
+          </header>
+
+          <p class="card-text">Bitcoin&#x27;s Key Trends Suggest Price Still Has Plenty of Room to Run</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://www.coindesk.com/markets/2025/10/04/bitcoin-s-key-trends-suggest-price-still-has-plenty-of-room-to-run" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/5a0182d7d1b63112_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/5a0182d7d1b63112_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/5a0182d7d1b63112_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/5a0182d7d1b63112_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-10-05/5a0182d7d1b63112_base.jpg" width="528" height="352" alt="Tokenizing stocks of DATs compounds investor risk: Crypto execs" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cointelegraph.com/news/tokenizing-stock-dat-compound-risk-investor?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔥 Tokenizing stocks of DATs compounds investor risk: Crypto execs</a>
+            </h2>
+            <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
+          </header>
+
+          <p class="card-text">Crypto treasury companies are already capitalizing on highly volatile digital assets, and tokenizing company shares introduces new risks.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/tokenizing-stock-dat-compound-risk-investor?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/3b21553fa25a2c82_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/3b21553fa25a2c82_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/3b21553fa25a2c82_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/3b21553fa25a2c82_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-10-05/3b21553fa25a2c82_base.jpg" width="960" height="504" alt="Could Metaplanet’s Bitcoin reserve be the new financial frontier?" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cryptoslate.com/could-metaplanets-bitcoin-reserve-be-the-new-financial-frontier/" target="_blank" rel="noopener">📰 Could Metaplanet’s Bitcoin reserve be the new financial frontier?</a>
+            </h2>
+            <div class="news-meta">📅 Oct 4, 2025 • CryptoSlate</div>
+          </header>
+
+          <p class="card-text">Just as Amazon laid the rails for the digital economy, Metaplanet president Simon Gerovich says his company is building the new financial infrastructure. And he argues that the market often misprices companies in...</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cryptoslate.com/could-metaplanets-bitcoin-reserve-be-the-new-financial-frontier/" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/eedf14f970cc7ff5_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/eedf14f970cc7ff5_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/eedf14f970cc7ff5_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/eedf14f970cc7ff5_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-10-05/eedf14f970cc7ff5_base.jpg" width="960" height="540" alt="‘Solana Is the New Wall Street,’ Bitwise CIO Matt Hougan Explains" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://www.coindesk.com/markets/2025/10/04/solana-is-the-new-wall-street-bitwise-cio-matt-hougan-explains" target="_blank" rel="noopener">📰 ‘Solana Is the New Wall Street,’ Bitwise CIO Matt Hougan Explains</a>
+            </h2>
+            <div class="news-meta">📅 Oct 4, 2025 • CoinDesk</div>
+          </header>
+
+          <p class="card-text">‘Solana Is the New Wall Street,’ Bitwise CIO Matt Hougan Explains</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://www.coindesk.com/markets/2025/10/04/solana-is-the-new-wall-street-bitwise-cio-matt-hougan-explains" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/99a1bc07e43e6090_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/99a1bc07e43e6090_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/99a1bc07e43e6090_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/99a1bc07e43e6090_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-10-05/99a1bc07e43e6090_base.jpg" width="960" height="518" alt="We Tested the Best Free AI Image Editors—Here&#x27;s What You&#x27;ll Love and Hate" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://decrypt.co/341845/we-tested-best-free-ai-image-editors-what-youll-love-hate" target="_blank" rel="noopener">🌐 We Tested the Best Free AI Image Editors—Here&#x27;s What You&#x27;ll Love and Hate</a>
+            </h2>
+            <div class="news-meta">📅 Oct 4, 2025 • Decrypt</div>
+          </header>
+
+          <p class="card-text">AI image editing has moved from painful workflows to plain English prompts—here’s how today’s top free models stack up.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://decrypt.co/341845/we-tested-best-free-ai-image-editors-what-youll-love-hate" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/d581267a22bb19a9_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/d581267a22bb19a9_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-10-05/d581267a22bb19a9_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-10-05/d581267a22bb19a9_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-10-05/d581267a22bb19a9_base.jpg" width="960" height="539" alt="State of Crypto: What Happens to Crypto if Government Shutdown Lingers" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://www.coindesk.com/news-analysis/2025/10/04/state-of-crypto-what-happens-to-crypto-if-government-shutdown-lingers" target="_blank" rel="noopener">🌐 State of Crypto: What Happens to Crypto if Government Shutdown Lingers</a>
+            </h2>
+            <div class="news-meta">📅 Oct 4, 2025 • CoinDesk</div>
+          </header>
+
+          <p class="card-text">State of Crypto: What Happens to Crypto if Government Shutdown Lingers</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://www.coindesk.com/news-analysis/2025/10/04/state-of-crypto-what-happens-to-crypto-if-government-shutdown-lingers" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+    </div>
+    <div style="margin-top:20px">
+      <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/news.html">← Back to News</a>
+    </div>
+  </main>
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container foot-row">
+
+    <!-- Brand -->
+    <div class="footer-brand">
+      <img src="/Bitcoin-Live-Signals/assets/favicon.png" alt="SmartSignalHub Logo" class="footer-logo" />
+      <strong>SmartSignalHub</strong>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="foot-links" aria-label="Footer navigation">
+      <a href="/Bitcoin-Live-Signals/services.html">Services</a>
+      <a href="/Bitcoin-Live-Signals/news.html">News</a>
+      <a href="/Bitcoin-Live-Signals/resources.html">Resources</a>
+      <a href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
+      <a href="/Bitcoin-Live-Signals/about.html">About</a>
+      <a href="/Bitcoin-Live-Signals/contact.html">Contact</a>
+    </nav>
+
+    <!-- Social + Contact -->
+    <div class="social-contact">
+      <div class="social-links">
+        <a href="https://www.facebook.com/CryptoNewsGeorgia" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/aleksandre-abashishvili-03417617a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://x.com/SAbashishvili" target="_blank" rel="noopener noreferrer" aria-label="X" class="x">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/sandroabashishvili/Bitcoin-Live-Signals" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="github"><i class="fab fa-github"></i></a>
+        <a href="https://www.youtube.com/@Smart-Trade-Hub" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+
+      <div class="contact-info">
+        <a href="mailto:sandroabashishvili@gmail.com" class="email">
+          <i class="fas fa-envelope"></i> sandroabashishvili@gmail.com
+        </a>
+        <a href="tel:+4915211084360" class="phone">
+          <i class="fas fa-phone"></i> +49 1521 1084360
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Copyright -->
+  <div class="copy">
+    © <span id="year"></span> SmartSignalHub • Educational use only.
+  </div>
+</footer>
+
+</body>
+</html>
