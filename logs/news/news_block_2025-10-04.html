@@ -42,23 +42,54 @@
   </style>
 </head>
 <body>
+<header class="site-header" aria-label="Site header">
+  <!-- Global assets (theme + libs + apps) -->
+  <link rel="icon" href="/Bitcoin-Live-Signals/assets/favicon.png">
+  <link rel="stylesheet" href="/Bitcoin-Live-Signals/assets/css/styles.css">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+  <script type="module" src="/Bitcoin-Live-Signals/assets/apps/equity-viewer.js"></script>
+  <script type="module" src="/Bitcoin-Live-Signals/assets/apps/volume-visualizer.js"></script>
 
-  <header class="site-header" aria-label="Site header">
-    <div class="container header-row">
-      <a class="brand" href="/Bitcoin-Live-Signals/index.html" aria-label="Home">
-        <span class="logo" aria-hidden="true"></span>
-        <span class="brand-title">SmartSignalHub</span>
-      </a>
-      <nav class="nav" aria-label="Primary menu">
-        <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/index.html">Home</a>
-        <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/services.html">Services</a>
-        <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/news.html">News</a>
-        <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/resources.html">Resources</a>
-        <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
-        <a class="btn btn-primary btn-sm" href="/Bitcoin-Live-Signals/contact.html">Contact</a>
-      </nav>
+  <div class="container header-row">
+    <!-- Logo -->
+    <a class="brand" href="/Bitcoin-Live-Signals/index.html" aria-label="Home">
+      <img src="/Bitcoin-Live-Signals/assets/favicon.png" alt="SmartSignalHub Logo" class="logo" width="28" height="28" loading="lazy" decoding="async" />
+      <span class="brand-title">SmartSignalHub</span>
+    </a>
+
+    <!-- Hamburger button -->
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-controls="primary-nav">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="nav" id="primary-nav" aria-label="Primary menu">
+      <button class="menu-close" aria-label="Close menu">
+        <i class="fas fa-times"></i>
+      </button>
+      <a href="/Bitcoin-Live-Signals/index.html">Home</a>
+      <a href="/Bitcoin-Live-Signals/services.html">Services</a>
+      <a href="/Bitcoin-Live-Signals/news.html">News</a>
+      <a href="/Bitcoin-Live-Signals/resources.html">Resources</a>
+      <a href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
+      <a href="/Bitcoin-Live-Signals/about.html">About</a>
+      <a href="/Bitcoin-Live-Signals/contact.html">Contact</a>
+    </nav>
+
+    <!-- Theme switches -->
+    <div class="swatches" aria-label="Theme">
+      <div class="swatch" title="Boss" data-theme="boss"></div>
+      <div class="swatch" title="Ferrari" data-theme="ferrari"></div>
+      <div class="swatch" title="Bull" data-theme="bull"></div>
+      <div class="swatch" title="Joker" data-theme="joker"></div>
     </div>
-  </header>
+  </div>
+
+  <!-- Overlay -->
+  <div class="menu-overlay"></div>
+</header>
   <main id="content" class="container ssn-news">
     <h1 class="page-title">Daily Crypto Highlights — October 4, 2025</h1>
     <div class="ssn-grid">
@@ -75,7 +106,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cryptoslate.com/as-stagflation-looms-experts-advise-own-assets-or-risk-being-left-behind/" target="_blank" rel="noopener">📈 As stagflation looms, experts advise: own assets or risk being left behind</a>
+              <a href="https://cryptoslate.com/as-stagflation-looms-experts-advise-own-assets-or-risk-being-left-behind/" target="_blank" rel="noopener">📊 As stagflation looms, experts advise: own assets or risk being left behind</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • CryptoSlate</div>
           </header>
@@ -100,7 +131,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://www.coindesk.com/business/2025/10/04/walmart-backed-onepay-to-add-bitcoin-and-ether-trading-to-finance-app-cnbc" target="_blank" rel="noopener">🔔 Walmart-Backed OnePay to Add Bitcoin and Ether Trading to Finance App: CNBC</a>
+              <a href="https://www.coindesk.com/business/2025/10/04/walmart-backed-onepay-to-add-bitcoin-and-ether-trading-to-finance-app-cnbc" target="_blank" rel="noopener">🌐 Walmart-Backed OnePay to Add Bitcoin and Ether Trading to Finance App: CNBC</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • CoinDesk</div>
           </header>
@@ -125,7 +156,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/xrp-below-3-dollars-again-how-low-can-the-price-go?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">📊 XRP slides below $3: How low can the price go next?</a>
+              <a href="https://cointelegraph.com/news/xrp-below-3-dollars-again-how-low-can-the-price-go?utm_source=rss_feed&utm_medium=rss%3F_rnd%3Dtqltcc%26_ts%3D1759592478586%26_dc%3D1759592478586%26_%3D1759592478586&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔥 XRP slides below $3: How low can the price go next?</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
           </header>
@@ -133,7 +164,7 @@
           <p class="card-text">Over $500 million in short liquidation pools sit between $2.89 and $2.73, putting XRP at risk of a sharp sell-off if the $3 support is not reclaimed.</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://cointelegraph.com/news/xrp-below-3-dollars-again-how-low-can-the-price-go?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/xrp-below-3-dollars-again-how-low-can-the-price-go?utm_source=rss_feed&utm_medium=rss%3F_rnd%3Dtqltcc%26_ts%3D1759592478586%26_dc%3D1759592478586%26_%3D1759592478586&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -175,7 +206,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://www.coindesk.com/markets/2025/10/04/robinhood-lists-strategy-s-preferred-stocks-including-strc-and-why-this-matters-for-bitcoin" target="_blank" rel="noopener">📈 Robinhood Lists Strategy’s Preferred Stocks Including STRC — and Why This Matters for Bitcoin</a>
+              <a href="https://www.coindesk.com/markets/2025/10/04/robinhood-lists-strategy-s-preferred-stocks-including-strc-and-why-this-matters-for-bitcoin" target="_blank" rel="noopener">🚀 Robinhood Lists Strategy’s Preferred Stocks Including STRC — and Why This Matters for Bitcoin</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • CoinDesk</div>
           </header>
@@ -200,7 +231,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔔 Here’s what happened in crypto today</a>
+              <a href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss%3F_rnd%3Dtqltcc%26_ts%3D1759592478586%26_dc%3D1759592478586%26_%3D1759592478586&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🌐 Here’s what happened in crypto today</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
           </header>
@@ -208,7 +239,7 @@
           <p class="card-text">Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss%3F_rnd%3Dtqltcc%26_ts%3D1759592478586%26_dc%3D1759592478586%26_%3D1759592478586&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -225,7 +256,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/confidential-lending-ions-in-defi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔔 Confidential lending will unlock trillions for DeFi markets</a>
+              <a href="https://cointelegraph.com/news/confidential-lending-ions-in-defi?utm_source=rss_feed&utm_medium=rss%3F_rnd%3Dtqltcc%26_ts%3D1759592478586%26_dc%3D1759592478586%26_%3D1759592478586&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">📈 Confidential lending will unlock trillions for DeFi markets</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
           </header>
@@ -233,7 +264,7 @@
           <p class="card-text">Fully Homomorphic Encryption could unlock trillions in traditional finance for DeFi by enabling private lending, encrypted credit scores and confidential transactions.</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://cointelegraph.com/news/confidential-lending-ions-in-defi?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/confidential-lending-ions-in-defi?utm_source=rss_feed&utm_medium=rss%3F_rnd%3Dtqltcc%26_ts%3D1759592478586%26_dc%3D1759592478586%26_%3D1759592478586&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -250,7 +281,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/stablecoin-market-hits-300b-may-fuel-crypto-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🌐 Stablecoin market boom to $300B is ‘rocket fuel’ for crypto rally</a>
+              <a href="https://cointelegraph.com/news/stablecoin-market-hits-300b-may-fuel-crypto-rally?utm_source=rss_feed&utm_medium=rss%3F_rnd%3Dtqltcc%26_ts%3D1759592478586%26_dc%3D1759592478586%26_%3D1759592478586&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">📈 Stablecoin market boom to $300B is ‘rocket fuel’ for crypto rally</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
           </header>
@@ -258,7 +289,7 @@
           <p class="card-text">The $300 billion record stablecoin supply may act as “rocket fuel” for the crypto market, while signaling a growing integration with global finance, industry watchers told Cointelegraph.</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://cointelegraph.com/news/stablecoin-market-hits-300b-may-fuel-crypto-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/stablecoin-market-hits-300b-may-fuel-crypto-rally?utm_source=rss_feed&utm_medium=rss%3F_rnd%3Dtqltcc%26_ts%3D1759592478586%26_dc%3D1759592478586%26_%3D1759592478586&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -275,7 +306,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://www.coindesk.com/markets/2025/10/04/floki-soars-23-as-valour-launches-europe-s-1st-floki-etp" target="_blank" rel="noopener">📰 Floki Soars 23% as Valour Launches Europe’s First FLOKI ETP</a>
+              <a href="https://www.coindesk.com/markets/2025/10/04/floki-soars-23-as-valour-launches-europe-s-1st-floki-etp" target="_blank" rel="noopener">🔔 Floki Soars 23% as Valour Launches Europe’s First FLOKI ETP</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • CoinDesk</div>
           </header>
@@ -300,7 +331,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://decrypt.co/342803/what-next-for-the-uks-7-billion-in-seized-bitcoin" target="_blank" rel="noopener">📊 What Next for the UK&#x27;s $7 Billion in Seized Bitcoin?</a>
+              <a href="https://decrypt.co/342803/what-next-for-the-uks-7-billion-in-seized-bitcoin" target="_blank" rel="noopener">🔔 What Next for the UK&#x27;s $7 Billion in Seized Bitcoin?</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Decrypt</div>
           </header>
@@ -325,7 +356,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cryptoslate.com/walmart-to-offer-bitcoin-and-ethereum-trading-through-its-onepay-app/" target="_blank" rel="noopener">📈 Walmart to offer Bitcoin and Ethereum trading through its OnePay app</a>
+              <a href="https://cryptoslate.com/walmart-to-offer-bitcoin-and-ethereum-trading-through-its-onepay-app/" target="_blank" rel="noopener">📊 Walmart to offer Bitcoin and Ethereum trading through its OnePay app</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • CryptoSlate</div>
           </header>
@@ -350,7 +381,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://www.coindesk.com/opinion/2025/10/02/speculative-retail-trading-is-good-for-financial-markets-actually" target="_blank" rel="noopener">🔔 Speculative Retail Trading is Good for Financial Markets, Actually</a>
+              <a href="https://www.coindesk.com/opinion/2025/10/02/speculative-retail-trading-is-good-for-financial-markets-actually" target="_blank" rel="noopener">🔥 Speculative Retail Trading is Good for Financial Markets, Actually</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • CoinDesk</div>
           </header>
@@ -367,26 +398,56 @@
       <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/news.html">← Back to News</a>
     </div>
   </main>
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container foot-row">
 
-  <footer class="site-footer" aria-label="Site footer">
-    <div class="container">
-      <div class="foot-top">
-        <div style="display:flex; align-items:center; gap:10px">
-          <span class="logo" aria-hidden="true" style="width:24px;height:24px"></span>
-          <strong>SmartSignalHub</strong>
-        </div>
-        <div class="foot-links" aria-label="Quick links">
-          <a href="/Bitcoin-Live-Signals/services.html">Services</a>
-          <a href="/Bitcoin-Live-Signals/news.html">News</a>
-          <a href="/Bitcoin-Live-Signals/resources.html">Resources</a>
-          <a href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
-          <a href="/Bitcoin-Live-Signals/about.html">About</a>
-          <a href="/Bitcoin-Live-Signals/contact.html">Contact</a>
-        </div>
-      </div>
-      <div class="copy">© 2025 SmartSignalHub • Educational use only.</div>
+    <!-- Brand -->
+    <div class="footer-brand">
+      <img src="/Bitcoin-Live-Signals/assets/favicon.png" alt="SmartSignalHub Logo" class="footer-logo" />
+      <strong>SmartSignalHub</strong>
     </div>
-  </footer>
+
+    <!-- Navigation -->
+    <nav class="foot-links" aria-label="Footer navigation">
+      <a href="/Bitcoin-Live-Signals/services.html">Services</a>
+      <a href="/Bitcoin-Live-Signals/news.html">News</a>
+      <a href="/Bitcoin-Live-Signals/resources.html">Resources</a>
+      <a href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
+      <a href="/Bitcoin-Live-Signals/about.html">About</a>
+      <a href="/Bitcoin-Live-Signals/contact.html">Contact</a>
+    </nav>
+
+    <!-- Social + Contact -->
+    <div class="social-contact">
+      <div class="social-links">
+        <a href="https://www.facebook.com/CryptoNewsGeorgia" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/aleksandre-abashishvili-03417617a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://x.com/SAbashishvili" target="_blank" rel="noopener noreferrer" aria-label="X" class="x">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/sandroabashishvili/Bitcoin-Live-Signals" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="github"><i class="fab fa-github"></i></a>
+        <a href="https://www.youtube.com/@Smart-Trade-Hub" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+
+      <div class="contact-info">
+        <a href="mailto:sandroabashishvili@gmail.com" class="email">
+          <i class="fas fa-envelope"></i> sandroabashishvili@gmail.com
+        </a>
+        <a href="tel:+4915211084360" class="phone">
+          <i class="fas fa-phone"></i> +49 1521 1084360
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Copyright -->
+  <div class="copy">
+    © <span id="year"></span> SmartSignalHub • Educational use only.
+  </div>
+</footer>
 
 </body>
 </html>
