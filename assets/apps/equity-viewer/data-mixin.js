@@ -14,7 +14,7 @@ export function applyDataMixin(Cls){
 
     async loadFiles() { /* legacy no-op */ },
 
-    // ===== Auto-load from /logs with fallback to yesterday =====
+    // ===== Auto-load supporting docs/logs → /logs fallback =====
     ymd(d){
       const y=d.getFullYear(); const m=String(d.getMonth()+1).padStart(2,'0'); const dd=String(d.getDate()).padStart(2,'0');
       return `${y}-${m}-${dd}`;
@@ -35,38 +35,77 @@ export function applyDataMixin(Cls){
       }catch {}
       return null;
     },
-    async fetchJSONWithFallback(urlToday, urlYday){
-      let res = await this.fetchWithTimeout(urlToday).catch(()=>null);
-      if (res && res.ok) return { data: await res.json(), source: 'today' };
-      res = await this.fetchWithTimeout(urlYday).catch(()=>null);
-      if (res && res.ok) return { data: await res.json(), source: 'yday' };
+
+    // ---- NEW: multiple-bases helpers (/logs only) ----
+    logsBases(){
+      return ['/logs', 'logs'];
+    },
+
+
+    async fetchFirstFromBases(fileNames){
+      // fileNames: ['capital_log_2025-09-29.json', ...]
+      for (const base of this.logsBases()){
+        for (const name of fileNames){
+          const url = `${base}/${name}`.replace(/\/{2,}/g,'/');
+          const res = await this.fetchWithTimeout(url).catch(()=>null);
+          if (res?.ok){
+            try { return await res.json(); } catch {}
+          }
+        }
+      }
+      return null;
+    },
+
+    async fetchDailyWithFallback(todayNames, ydayNames){
+      // Try today across bases, else yesterday across bases
+      let data = await this.fetchFirstFromBases(todayNames);
+      if (data) return { data, source:'today' };
+      data = await this.fetchFirstFromBases(ydayNames);
+      if (data) return { data, source:'yday' };
       throw new Error('Load failed');
     },
+
+    async existsInBases(fileName, timeoutMs=5000){
+      for (const base of this.logsBases()){
+        const url = `${base}/${fileName}`.replace(/\/{2,}/g,'/');
+        const ok = await this.fetchWithTimeout(url, timeoutMs).then(r=>!!(r&&r.ok)).catch(()=>false);
+        if (ok) return true;
+      }
+      return false;
+    },
+
     async autoLoad(){
       try{
         const now = new Date();
         const todayYmd = this.ymd(now);
         if (!this.state.targetDate) this.state.targetDate = todayYmd;
-        const prev = new Date(now); prev.setDate(prev.getDate()-1); const yday=this.ymd(prev);
-        // Logs live at repo root: /logs/*.json (not under /docs)
-        const capToday = `/logs/capital_log_${todayYmd}.json`;
-        const capYday  = `/logs/capital_log_${yday}.json`;
-        const stratToday = `/logs/strategy_results_${todayYmd}.json`;
-        const stratYday  = `/logs/strategy_results_${yday}.json`;
-        const btcToday = `/logs/BTC_log_${todayYmd}.json`;
-        const btcYday  = `/logs/BTC_log_${yday}.json`;
-        // Use only generic daily strategy file (no TF-specific)
-        let stratRes = null; let stratSrc = null;
-        const tryStrats = [stratToday, stratYday];
-        for (const u of tryStrats){ stratRes = await this.fetchJsonIfOk(u); if (stratRes){ stratSrc = u; break; } }
+        const prev = new Date(now); prev.setDate(prev.getDate()-1);
+        const yday = this.ymd(prev);
 
-        const [capRes, btcRes] = await Promise.all([
-          this.fetchJSONWithFallback(capToday, capYday).catch(()=>null),
-          this.fetchJSONWithFallback(btcToday, btcYday).catch(()=>null)
+        // filenames only (bases დაემატება ჰელსპერებით)
+        const capT   = [`capital_log_${todayYmd}.json`];
+        const capY   = [`capital_log_${yday}.json`];
+        const stratT = [`strategy_results_${todayYmd}.json`];
+        const stratY = [`strategy_results_${yday}.json`];
+        const btcT   = [`BTC_log_${todayYmd}.json`];
+        const btcY   = [`BTC_log_${yday}.json`];
+
+        // load with smart fallback (docs/logs → /logs, today → yday)
+        const [capRes, stratRes, btcRes] = await Promise.all([
+          this.fetchDailyWithFallback(capT, capY).catch(()=>null),
+          // სტრატეგიისთვის საკმარისია "პირველი რომ იპოვოს": ჯერ today, მერე yday
+          (async () => {
+            const sToday = await this.fetchFirstFromBases(stratT);
+            if (sToday) return sToday;
+            return await this.fetchFirstFromBases(stratY);
+          })().catch(()=>null),
+          this.fetchDailyWithFallback(btcT, btcY).catch(()=>null)
         ]);
-        const cap = capRes?.data; const strat = stratRes; const btcArr = btcRes?.data;
-        if (!strat && console && console.warn) console.warn('[EV] strategy JSON not found in', tryStrats);
-        if (strat && console && console.info) console.info('[EV] strategy JSON loaded from', stratSrc);
+
+        const cap   = capRes?.data;
+        const strat = stratRes;
+        const btcArr= btcRes?.data;
+
         if (Array.isArray(cap)) {
           const normalized = cap.map(r=>({
             ts:this.parseTs(r.time||r.timestamp),
@@ -74,23 +113,30 @@ export function applyDataMixin(Cls){
             capital:Number(r.capital),
             ...(r && typeof r.metrics === 'object' ? { metrics: r.metrics } : {})
           }))
-                                 .filter(r=>r.ts && isFinite(r.capital)).sort((a,b)=>a.ts-b.ts);
-          this.state.kpiCapital = normalized;
-          this.state.chartCapital = normalized; // ensure chart has data on first load
+          .filter(r=>r.ts && isFinite(r.capital))
+          .sort((a,b)=>a.ts-b.ts);
+          this.state.kpiCapital  = normalized;
+          this.state.chartCapital= normalized; // ensure chart has data on first load
           // keep legacy alias used by finance strip (LIVE today)
-          this.state.capital = normalized;
+          this.state.capital     = normalized;
         }
+
         if (strat && Array.isArray(strat.signals)) {
-          this.state.kpiStrategy = strat;
+          this.state.kpiStrategy   = strat;
           this.state.chartStrategy = strat; // ensure chart has data on first load
         }
+
         if (btcArr) { this.renderLiveSignal(btcArr); this.renderMTF(btcArr); }
+
         this.recomputeDerived();
         this.renderAll();
+
         // Update chart day label & next button state (chart-only)
         const sel = this.$('#selDay'); if (sel) sel.textContent = this.state.targetDate;
         const isToday = (this.state.targetDate === todayYmd);
         const btnNext = this.$('#btnNextDay'); if (btnNext) btnNext.disabled = isToday;
+        
+
       }catch(err){ console.warn('Auto-load failed', err); }
     },
 
@@ -107,20 +153,17 @@ export function applyDataMixin(Cls){
       }
       return null;
     },
+
     async checkAllLogsFor(ymd){
       // require capital + daily strategy file only (no TF-specific)
-      const capU = `/logs/capital_log_${ymd}.json`;
-      const stratCandidates = [ `/logs/strategy_results_${ymd}.json` ];
       try{
-        const capOK = await this.fetchWithTimeout(capU, 5000).then(r=>!!(r&&r.ok)).catch(()=>false);
+        const capOK   = await this.existsInBases(`capital_log_${ymd}.json`, 5000);
         if (!capOK) return false;
-        for (const u of stratCandidates){
-          const ok = await this.fetchWithTimeout(u, 3000).then(r=>!!(r&&r.ok)).catch(()=>false);
-          if (ok) return true;
-        }
-        return false;
+        const stratOK = await this.existsInBases(`strategy_results_${ymd}.json`, 3000);
+        return !!stratOK;
       }catch{ return false; }
     },
+
     async shiftDay(delta){
       const base = this.state.targetDate || this.ymd(new Date());
       const target = await this.findNearestDay(base, delta);
@@ -133,14 +176,12 @@ export function applyDataMixin(Cls){
 
     async loadChartForDate(ymd){
       try{
-        const capU = `/logs/capital_log_${ymd}.json`;
-        const stratCandidates = [ `/logs/strategy_results_${ymd}.json` ];
-        const capRes = await this.fetchWithTimeout(capU, 8000).then(r=>r.ok?r.json():null).catch(()=>null);
-        let stratRes = null;
-        for (const u of stratCandidates){
-          stratRes = await this.fetchWithTimeout(u, 8000).then(r=>r.ok?r.json():null).catch(()=>null);
-          if (stratRes) break;
-        }
+        const capNames   = [`capital_log_${ymd}.json`];
+        const stratNames = [`strategy_results_${ymd}.json`];
+
+        const capRes   = await this.fetchFirstFromBases(capNames).catch(()=>null);
+        const stratRes = await this.fetchFirstFromBases(stratNames).catch(()=>null);
+
         if (Array.isArray(capRes)){
           this.state.chartCapital = capRes.map(r=>({
             ts:this.parseTs(r.time||r.timestamp),
@@ -148,7 +189,8 @@ export function applyDataMixin(Cls){
             capital:Number(r.capital),
             ...(r && typeof r.metrics === 'object' ? { metrics: r.metrics } : {})
           }))
-                                          .filter(r=>r.ts && isFinite(r.capital)).sort((a,b)=>a.ts-b.ts);
+          .filter(r=>r.ts && isFinite(r.capital))
+          .sort((a,b)=>a.ts-b.ts);
           // do not touch LIVE capital; chart-only dataset
         }
         if (stratRes && Array.isArray(stratRes.signals)){

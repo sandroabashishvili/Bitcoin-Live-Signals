@@ -10,12 +10,26 @@ export function equityViewerTemplate() {
         <div class="panel live-wrap">
           <div class="intro-banner" aria-label="Page introduction">
             <h1 id="live-title">Bitcoin Live Signals</h1>
+            
+            <!-- Time Information Dashboard -->
+            <div class="time-dashboard">
+              <div class="time-card">
+                <div class="time-content">
+                  <span class="time-label">Current Time</span>
+                  <strong id="current-time" class="time-value">—</strong>
+                </div>
+              </div>
+            </div>
+            
             <p class="subhead">Real-time trade signals with TP/SL, multi-timeframe view, and transparent performance.</p>
             <div class="chips" aria-label="Key highlights">
               <span class="btn" role="note">AI-powered</span>
               <span class="btn" role="note">For traders and quant teams</span>
               <span class="btn" role="note">Updates every 30 min</span>
             </div>
+            
+
+            
             <p class="legal">Educational use only. Not financial advice. Trading involves risk; past performance does not guarantee future results.</p>
           </div>
           <div class="snapshot" style="margin-bottom:8px">

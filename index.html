@@ -1,54 +1,74 @@
 <!-- =========================================================
-  FILE: index.html (clean)
+  FILE: index.html
+  PURPOSE: SmartSignalHub landing (with proper social previews)
 ========================================================= -->
 <!doctype html>
-<html lang="en">
-  <head>
-    <!-- Base -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bitcoin Live Signals — SmartSignalHub</title>
-    <meta name="description" content="Real-time Bitcoin trade signals with TP/SL, multi-timeframe view, and transparent performance. AI-powered. Updates every 30 min." />
-    <meta name="color-scheme" content="light dark" />
+<html lang="en" data-theme="boss">
+<head>
+  <!-- Base -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bitcoin Live Signals — SmartSignalHub</title>
+  <meta name="description" content="Real-time Bitcoin trade signals with TP/SL, multi-timeframe view, and transparent performance. Updates every 30 min." />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="canonical" href="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/" />
+  <meta name="robots" content="index,follow" />
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Bitcoin Live Signals — SmartSignalHub" />
-    <meta property="og:description" content="Real-time Bitcoin trade signals with TP/SL, multi-timeframe view, and transparent performance. AI-powered. Updates every 30 min." />
-    <meta property="og:url" content="https://smartsignalhub.com/" />
-    <meta property="og:image" content="https://smartsignalhub.com/og/og-image.png" />
-    <meta property="og:site_name" content="SmartSignalHub" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="SmartSignalHub" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="Bitcoin Live Signals — SmartSignalHub" />
+  <meta property="og:description" content="Real-time Bitcoin trade signals with TP/SL, multi-timeframe view, and transparent performance. Updates every 30 min." />
+  <meta property="og:url" content="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/" />
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Bitcoin Live Signals — SmartSignalHub" />
-    <meta name="twitter:description" content="AI-powered Bitcoin signals with built-in TP/SL and multi-timeframe confirmation." />
-    <meta name="twitter:image" content="https://smartsignalhub.com/og/og-image.png" />
+  <!-- IMPORTANT: use an existing 1200×630 public image -->
+  <meta property="og:image" content="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/assets/img/SmartSignalHub.png" />
+  <meta property="og:image:secure_url" content="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/assets/img/SmartSignalHub.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:alt" content="SmartSignalHub — live crypto signals & dashboard" />
 
-    <!-- Preconnect/Preload (adjust per hosting) -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <!-- Base CSS (load early to avoid FOUC and enable mobile/theme instantly) -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bitcoin Live Signals — SmartSignalHub" />
+  <meta name="twitter:description" content="Real-time Bitcoin trade signals with TP/SL, MTF view, and transparent performance." />
+  <meta name="twitter:image" content="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/assets/img/SmartSignalHub.png" />
+  <meta name="twitter:image:alt" content="SmartSignalHub — live crypto signals & dashboard" />
+  <meta name="twitter:site" content="@SAbashishvili" />
+  <meta name="twitter:creator" content="@SAbashishvili" />
 
-    <!-- Header include (server-side include if available) -->
-    <!--#include file="includes/header.html" -->
-  </head>
-  <body>
-    <div id="header-placeholder" role="banner"></div>
+  <!-- Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PLE3C4PMNF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PLE3C4PMNF');
+  </script>
 
-    <main id="content" role="main" style="max-width:1320px;margin:0 auto;padding:20px;display:grid;gap:20px">
-      <equity-viewer></equity-viewer>
-      <volume-visualizer></volume-visualizer>
-    </main>
+  <!-- Fonts/CSS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
 
-    <div id="footer-placeholder" role="contentinfo"></div>
-    <!-- Footer include (server-side include if available) -->
-    <!--#include file="includes/footer.html" -->
+  <!-- HEADER (injected by assets/js/main.js) -->
+  <div id="header-placeholder" role="banner"></div>
 
-    <!-- ✅ MODULE SCRIPTS ჩასმული სწორად! -->
-    <script type="module" src="assets/apps/equity-viewer/equity-viewer.js"></script>
-    <script type="module" src="assets/apps/equity-viewer/volume-visualizer.js"></script>
-    <script src="assets/js/main.js" defer></script>
-  </body>
+  <!-- MAIN -->
+  <main id="content" role="main" class="container" style="max-width:1320px;margin:0 auto;padding:20px;display:grid;gap:20px">
+    <h1 class="page-title" style="display:none">Bitcoin Live Signals — SmartSignalHub</h1>
+    <equity-viewer></equity-viewer>
+    <volume-visualizer></volume-visualizer>
+  </main>
+
+  <!-- FOOTER (injected) -->
+  <div id="footer-placeholder" role="contentinfo"></div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
 </html>

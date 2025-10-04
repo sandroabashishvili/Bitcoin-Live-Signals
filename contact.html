@@ -10,6 +10,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css" />
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PLE3C4PMNF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-PLE3C4PMNF');
+  </script>
+
   <style>
     .contact-section {
       display: flex;
@@ -18,60 +27,17 @@
       justify-content: flex-start;
       margin-top: 20px;
     }
-    .contact-left {
-      flex: 1;
-      max-width: 720px;
-    }
-    .contact-right {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .contact-banner {
-      width: 100%;
-      max-width: 320px;
-      height: 320px;
-      border-radius: 16px;
-      background: linear-gradient(135deg, var(--accent), var(--accent-2));
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-      text-align: center;
-      box-shadow: 0 12px 28px rgba(0,0,0,0.15);
-    }
-    .contact-banner .icon {
-      font-size: 3rem;
-      margin-bottom: 12px;
-      animation: bounce 3s infinite;
-    }
-    .contact-banner .text {
-      font-size: 1.4rem;
-      letter-spacing: 1px;
-    }
 
-    @keyframes bounce {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
-    }
+    @keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
 
     .contact-intro {
-      margin-bottom: 18px;
-      color: var(--muted);
-      font-size: 1.1rem;
-      line-height: 1.7;
-      text-align: left;
+      margin-bottom: 18px; color: var(--muted);
+      font-size: 1.1rem; line-height: 1.7; text-align: left;
     }
 
     .contact-wrapper {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      padding: 24px;
-      box-shadow: var(--shadow);
+      background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 24px; box-shadow: var(--shadow);
     }
 
     .contact-form { display: flex; flex-direction: column; gap: 16px; }
@@ -91,25 +57,14 @@
 
     .contact-form button {
       background: linear-gradient(135deg, var(--accent), var(--accent-2));
-      color: #fff;
-      border: none;
-      padding: 12px 18px;
-      border-radius: 10px;
-      font-weight: 700;
-      cursor: pointer;
+      color: #fff; border: none; padding: 12px 18px; border-radius: 10px;
+      font-weight: 700; cursor: pointer;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
-    .contact-form button:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-    }
+    .contact-form button:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
 
     .contact-direct {
-      margin-top: 14px;
-      text-align: left;
-      font-size: 1rem;
-      color: var(--muted);
-      line-height: 1.6;
+      margin-top: 14px; text-align: left; font-size: 1rem; color: var(--muted); line-height: 1.6;
     }
     .contact-direct a { color: var(--accent); font-weight: 600; text-decoration: none; }
     .contact-direct a:hover { text-decoration: underline; }
@@ -139,7 +94,8 @@
         </p>
 
         <div class="contact-wrapper">
-          <form class="contact-form">
+          <!-- UPDATED: added id, honeypot, status -->
+          <form class="contact-form" id="contactForm">
             <div>
               <label for="name">Full Name</label>
               <input type="text" id="name" name="name" placeholder="Your full name" required>
@@ -152,7 +108,12 @@
               <label for="message">Your Message</label>
               <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
             </div>
+
+            <!-- Honeypot anti-spam -->
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
             <button type="submit">📨 Send Message</button>
+            <p id="formStatus" class="contact-direct" style="margin-top:8px;"></p>
           </form>
         </div>
 
@@ -163,6 +124,15 @@
           📱 Phone: <a href="tel:+4915211084360">+49 1521 1084360</a>
         </p>
       </div>
+
+      <!-- Right (optional banner to balance layout) -->
+      <div class="contact-right">
+        <div class="contact-banner" aria-hidden="true">
+          <div class="icon">💬</div>
+          <div class="text">We usually reply fast</div>
+        </div>
+      </div>
+    </div> <!-- /contact-section -->
   </main>
 
   <!-- FOOTER -->
@@ -170,5 +140,74 @@
 
   <!-- Scripts -->
   <script src="assets/js/main.js" defer></script>
+
+  <!-- Mailto handler + clipboard fallback -->
+  <script>
+    (function () {
+      const form = document.getElementById('contactForm');
+      const statusEl = document.getElementById('formStatus');
+      const TO = 'sandroabashishvili@gmail.com'; // <-- შენი მისამართი
+
+      function setStatus(text, ok = true) {
+        statusEl.textContent = text;
+        statusEl.style.color = ok ? 'var(--buy,#16a34a)' : 'var(--sell,#dc2626)';
+      }
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        // honeypot: თუ შევსებულია, ჩავთვალოთ ბოტად და გავჩერდეთ ჩუმად
+        if (form.querySelector('input[name="_gotcha"]').value) return;
+
+        const name = form.name.value.trim();
+        const email = form.email.value.trim();
+        const msg = form.message.value.trim();
+
+        // subject/body
+        const subject = `SmartSignalHub — Contact from ${name || 'Visitor'}`;
+        const bodyLines = [
+          `Name: ${name}`,
+          `Email: ${email}`,
+          '',
+          'Message:',
+          msg
+        ];
+        const body = bodyLines.join('\n');
+
+        // mailto URL (აუცილებელია encodeURIComponent)
+        const mailtoUrl =
+          `mailto:${encodeURIComponent(TO)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+        setStatus('Opening your email app…');
+
+        let opened = false;
+        try {
+          // ზოგ ბრაუზერში window.open ბლოკავს; location.href საიმედოა
+          window.location.href = mailtoUrl;
+          opened = true;
+        } catch (_) { opened = false; }
+
+        // fallback: დავაკოპიროთ ტექსტი ბუფერში
+        try {
+          await navigator.clipboard.writeText(`${subject}\n\n${body}`);
+          setStatus(
+            opened
+              ? '✉️ If the mail app didn’t open, the message was copied — paste it into your email.'
+              : '📋 Mail app not available? Message copied — paste it into an email to ' + TO
+          );
+        } catch (_) {
+          setStatus(
+            opened
+              ? '✉️ Email app opened. If not, copy/paste the text manually.'
+              : '❌ Could not open mail app. Please email ' + TO + ' manually.',
+            opened /* ok if app opened */
+          );
+        }
+
+        // სურვილისამებრ: თუ გინდა ფორმა გასუფთავდეს გაგზავნის მერე, ჩართე ეს ხაზი
+        form.reset();
+      });
+    })();
+  </script>
 </body>
 </html>

@@ -1,0 +1,23 @@
+{
+  "name": "SmartSignalHub - Bitcoin Live Signals",
+  "short_name": "SmartSignalHub",
+  "description": "Real-time Bitcoin trade signals with TP/SL, multi-timeframe view, and transparent performance",
+  "start_url": "/Bitcoin-Live-Signals/",
+  "display": "standalone",
+  "background_color": "#f7f7f8",
+  "theme_color": "#111111",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/favicon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["finance", "utilities"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/Bitcoin-Live-Signals/",
+  "prefer_related_applications": false
+}

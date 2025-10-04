@@ -60,6 +60,9 @@ class EquityViewer extends HTMLElement {
     // start lightweight polling if mixin provided it
     try { typeof this.startPolling === 'function' && this.startPolling(); } catch {}
 
+    // Subscribe to global ticker for last update times - no longer needed
+    // Last update will be triggered only when data is actually loaded
+
     // ensure initial MTF visual states after first render tick
     queueMicrotask(() => this.applyMtfStates());
 
@@ -72,6 +75,57 @@ class EquityViewer extends HTMLElement {
       liveTitle.classList.add('live-animate');
     }, 6500);
   }
+
+
+
+  // Time display updates
+  this.updateTimeDisplays();
+  setInterval(() => this.updateTimeDisplays(), 1000);
+
+  // Setup click handlers for time cards
+  this.setupTimeCardHandlers();
+  }
+
+  updateTimeDisplays() {
+    const now = new Date();
+    const timeStr = now.toLocaleString('en-US', {
+      year: 'numeric',
+      month: '2-digit', 
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
+      hour12: false
+    });
+
+    // Update current time
+    const currentTimeEl = this.shadowRoot.getElementById('current-time');
+    if (currentTimeEl) {
+      const oldValue = currentTimeEl.textContent;
+      if (oldValue !== timeStr && oldValue !== '—') {
+        currentTimeEl.classList.add('changing');
+        setTimeout(() => currentTimeEl.classList.remove('changing'), 300);
+      }
+      currentTimeEl.textContent = timeStr;
+    }
+
+
+  }
+
+
+
+
+
+  setupTimeCardHandlers() {
+    const timeCards = this.shadowRoot.querySelectorAll('.time-card');
+    timeCards.forEach((card, index) => {
+      card.addEventListener('click', () => {
+        // Only current time card remains (index 0)
+        if (index === 0) { // Current time card
+          this.updateTimeDisplays();
+        }
+      });
+    });
   }
 
   disconnectedCallback() {
@@ -84,6 +138,11 @@ class EquityViewer extends HTMLElement {
       this.donuts = null;
     }
     try { typeof this.stopPolling === 'function' && this.stopPolling(); } catch {}
+    
+    // Unsubscribe from ticker
+    if (this.tickerUnsubscribe) {
+      try { this.tickerUnsubscribe(); } catch {}
+    }
   }
 
   $(sel)    { return this.shadowRoot.querySelector(sel); }
