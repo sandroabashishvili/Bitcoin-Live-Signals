@@ -374,13 +374,19 @@ class VolumeVisualizer extends HTMLElement {
       const d = new Date(ymd); if (isNaN(+d)) return;
       const y = new Date(d); y.setDate(y.getDate()-1);
 
+      // Auto-detect base path
+      const currentPath = window.location.pathname;
+      const basePath = currentPath.includes('/Bitcoin-Live-Signals/') 
+        ? './logs' 
+        : 'logs';
+        
       const candToday = [
-       `logs/orderbook_30m_${this.ymd(d)}.json`,
-       `logs/orderbook_${this.ymd(d)}.json`,
+       `${basePath}/orderbook_30m_${this.ymd(d)}.json`,
+       `${basePath}/orderbook_${this.ymd(d)}.json`,
       ];
       const candYday = [
-      `logs/orderbook_30m_${this.ymd(y)}.json`,
-      `logs/orderbook_${this.ymd(y)}.json`,
+      `${basePath}/orderbook_30m_${this.ymd(y)}.json`,
+      `${basePath}/orderbook_${this.ymd(y)}.json`,
       ];
 
       let data = null, used = null, source = 'today';

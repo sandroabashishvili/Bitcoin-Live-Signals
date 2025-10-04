@@ -36,9 +36,13 @@ export function applyDataMixin(Cls){
       return null;
     },
 
-    // ---- NEW: multiple-bases helpers (logs only) ----
+    // ---- NEW: multiple-bases helpers (auto-detect base path) ----
     logsBases(){
-      return ['logs'];
+      const currentPath = window.location.pathname;
+      const basePath = currentPath.includes('/Bitcoin-Live-Signals/') 
+        ? './logs' 
+        : 'logs';
+      return [basePath];
     },
 
 
