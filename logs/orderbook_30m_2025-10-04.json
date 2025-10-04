@@ -78,5 +78,10 @@
     "time": "2025-10-04 07:31",
     "buy_volume": 9.18,
     "sell_volume": 21.56
+  },
+  {
+    "time": "2025-10-04 08:01",
+    "buy_volume": 23.33,
+    "sell_volume": 8.78
   }
 ]
