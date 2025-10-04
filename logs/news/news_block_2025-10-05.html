@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="boss">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SmartSignalHub • Daily Crypto Highlights — October 5, 2025</title>
-  <meta name="description" content="Bitcoin analysis, trading signals, and market insights for October 5, 2025 — curated by SmartSignalHub.">
+  <meta name="description" content="Daily crypto highlights for October 5, 2025 — curated by SmartSignalHub.">
   <meta property="og:title" content="Daily Crypto Highlights — October 5, 2025">
-  <meta property="og:description" content="Bitcoin analysis, trading signals, and market insights for October 5, 2025 — curated by SmartSignalHub.">
+  <meta property="og:description" content="Daily crypto highlights for October 5, 2025 — curated by SmartSignalHub.">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="SmartSignalHub">
   <meta property="og:image" content="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/assets/news/2025-10-05/0d9a622f35f05f60_base.webp">
@@ -23,107 +23,20 @@
     @media (min-width:768px){ .ssn-news .ssn-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
     @media (min-width:1200px){ .ssn-news .ssn-grid{ grid-template-columns:repeat(3,minmax(0,1fr)); } }
 
-    /* News Cards - Universal */
-    .ssn-news .news-card { 
-      border-radius:16px; 
-      overflow:hidden;
-      transition:transform .2s ease, box-shadow .2s ease; 
-      position:static; 
-    }
+    .ssn-news .news-card { border:1px solid rgba(255,255,255,.08); border-radius:16px; overflow:hidden;
+      background:rgba(255,255,255,.02); box-shadow:0 2px 12px rgba(0,0,0,.18); transition:transform .2s ease, box-shadow .2s ease; position:static; }
+    .ssn-news .news-card:hover { transform:translateY(-2px); box-shadow:0 6px 22px rgba(0,0,0,.25); }
     .ssn-news .news-card .media { aspect-ratio:16/9; overflow:hidden; background:#101214; }
     .ssn-news .news-card picture, .ssn-news .news-card img { width:100%; height:100%; object-fit:cover; display:block; }
+
     .ssn-news .news-card .card-inner { display:flex; flex-direction:column; padding:12px 14px 14px 14px; gap:8px; min-height:280px; }
     .ssn-news .news-card .card-head { margin-bottom:2px; }
     .ssn-news .news-card .card-title { margin:0 0 4px 0; line-height:1.3; }
     .ssn-news .news-card .news-meta { opacity:.8; font-size:.9rem; }
+
     .ssn-news .news-card .card-text { margin:0; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; }
+
     .ssn-news .news-card .card-actions { margin-top:auto; }
-    
-    /* Default theme styles - Use main site variables */
-    .ssn-news .news-card {
-      background: var(--card);
-      border: 1px solid var(--line);
-      box-shadow: var(--shadow);
-    }
-    .ssn-news .news-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-      border-color: #dcdce0;
-    }
-    .ssn-news .news-card .card-title a { 
-      color: var(--accent); 
-      text-decoration: none;
-      transition: color 0.2s ease;
-      font-weight: 600;
-    }
-    .ssn-news .news-card .card-title a:hover { 
-      text-decoration: underline;
-    }
-    .ssn-news .news-card .card-text,
-    .ssn-news .card-text {
-      color: var(--fg);
-    }
-    .ssn-news .news-card .news-meta,
-    .ssn-news .news-meta {
-      color: var(--muted);
-    }
-    .ssn-news .news-card .card-actions .btn {
-      background: var(--accent);
-      color: var(--accent-contrast);
-      border: 1px solid var(--accent);
-      transition: all 0.2s ease;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    .ssn-news .news-card .card-actions .btn:hover {
-      background: var(--accent-2);
-      border-color: var(--accent-2);
-      transform: translateY(-1px);
-    }
-    
-    /* Dark theme styles - Only when data-theme="boss" */
-    [data-theme="boss"] .ssn-news .news-card {
-      border: 1px solid rgba(255,255,255,.15) !important;
-      background: #1a1a1a !important;
-      box-shadow: 0 4px 16px rgba(0,0,0,.3) !important;
-    }
-    [data-theme="boss"] .ssn-news .news-card:hover {
-      transform: translateY(-2px) !important;
-      box-shadow: 0 8px 24px rgba(0,0,0,.4) !important;
-      background: #222222 !important;
-    }
-    [data-theme="boss"] .ssn-news .news-card .card-title a { 
-      color: #ffffff !important; 
-      text-decoration: none !important;
-      transition: color 0.2s ease !important;
-      font-weight: 600 !important;
-    }
-    [data-theme="boss"] .ssn-news .news-card .card-title a:hover { 
-      color: #4fc3f7 !important; 
-      text-decoration: underline !important;
-    }
-    [data-theme="boss"] .ssn-news .news-card .card-text,
-    [data-theme="boss"] .ssn-news .card-text {
-      color: #ffffff !important;
-    }
-    [data-theme="boss"] .ssn-news .news-card .news-meta,
-    [data-theme="boss"] .ssn-news .news-meta {
-      color: #cccccc !important;
-    }
-    [data-theme="boss"] .ssn-news .news-card .card-actions .btn {
-      background: #0d47a1 !important;
-      color: #ffffff !important;
-      border: 1px solid #1976d2 !important;
-      transition: all 0.2s ease !important;
-      text-decoration: none !important;
-      font-weight: 600 !important;
-    }
-    [data-theme="boss"] .ssn-news .news-card .card-actions .btn:hover {
-      background: #1976d2 !important;
-      border-color: #42a5f5 !important;
-      transform: translateY(-1px) !important;
-      box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3) !important;
-    }
 
     .shimmer, .shimmer::after { animation:none !important; background:none !important; content:none !important; }
   </style>
@@ -193,7 +106,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">💡 Here’s what happened in crypto today</a>
+              <a href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🚀 Here’s what happened in crypto today</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
           </header>
@@ -218,7 +131,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/stablecoins-force-everyone-share-yield-stripe-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">📈 Stablecoins will force &amp;#039;everyone&amp;#039; to share yield — Stripe CEO</a>
+              <a href="https://cointelegraph.com/news/stablecoins-force-everyone-share-yield-stripe-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔔 Stablecoins will force &amp;#039;everyone&amp;#039; to share yield — Stripe CEO</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
           </header>
@@ -243,7 +156,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://decrypt.co/342958/defiance-proposes-3x-leveraged-exposure-bitcoin-ethereum-funds-crypto-stocks" target="_blank" rel="noopener">🚀 Defiance Proposes 3X Leveraged Exposure on Bitcoin, Ethereum Funds and Crypto Stocks</a>
+              <a href="https://decrypt.co/342958/defiance-proposes-3x-leveraged-exposure-bitcoin-ethereum-funds-crypto-stocks" target="_blank" rel="noopener">🌐 Defiance Proposes 3X Leveraged Exposure on Bitcoin, Ethereum Funds and Crypto Stocks</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Decrypt</div>
           </header>
@@ -268,7 +181,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/blockchain-revenues-declined-16-september?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔥 Blockchain network revenues declined 16% in September: Report</a>
+              <a href="https://cointelegraph.com/news/blockchain-revenues-declined-16-september?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🚀 Blockchain network revenues declined 16% in September: Report</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
           </header>
@@ -293,7 +206,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://decrypt.co/342959/after-30-days-without-food-ai-protester-quits-hunger-strike" target="_blank" rel="noopener">🔥 After 30 Days Without Food, AI Protester Finally Quits Hunger Strike</a>
+              <a href="https://decrypt.co/342959/after-30-days-without-food-ai-protester-quits-hunger-strike" target="_blank" rel="noopener">📈 After 30 Days Without Food, AI Protester Finally Quits Hunger Strike</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Decrypt</div>
           </header>
@@ -318,7 +231,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://decrypt.co/342907/how-much-covid-stimulus-checks-worth-now-invested-bitcoin" target="_blank" rel="noopener">💡 Trump Tariff Stimmy? Here’s How Much Covid Stimulus Checks Are Worth Now If Invested in Bitcoin</a>
+              <a href="https://decrypt.co/342907/how-much-covid-stimulus-checks-worth-now-invested-bitcoin" target="_blank" rel="noopener">🔥 Trump Tariff Stimmy? Here’s How Much Covid Stimulus Checks Are Worth Now If Invested in Bitcoin</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Decrypt</div>
           </header>
@@ -343,7 +256,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://www.coindesk.com/markets/2025/10/04/bitcoin-s-key-trends-suggest-price-still-has-plenty-of-room-to-run" target="_blank" rel="noopener">💡 Bitcoin&#x27;s Key Trends Suggest Price Still Has Plenty of Room to Run</a>
+              <a href="https://www.coindesk.com/markets/2025/10/04/bitcoin-s-key-trends-suggest-price-still-has-plenty-of-room-to-run" target="_blank" rel="noopener">🔔 Bitcoin&#x27;s Key Trends Suggest Price Still Has Plenty of Room to Run</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • CoinDesk</div>
           </header>
@@ -368,7 +281,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/tokenizing-stock-dat-compound-risk-investor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">💡 Tokenizing stocks of DATs compounds investor risk: Crypto execs</a>
+              <a href="https://cointelegraph.com/news/tokenizing-stock-dat-compound-risk-investor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔥 Tokenizing stocks of DATs compounds investor risk: Crypto execs</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
           </header>
@@ -393,7 +306,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cryptoslate.com/could-metaplanets-bitcoin-reserve-be-the-new-financial-frontier/" target="_blank" rel="noopener">📊 Could Metaplanet’s Bitcoin reserve be the new financial frontier?</a>
+              <a href="https://cryptoslate.com/could-metaplanets-bitcoin-reserve-be-the-new-financial-frontier/" target="_blank" rel="noopener">📈 Could Metaplanet’s Bitcoin reserve be the new financial frontier?</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • CryptoSlate</div>
           </header>
@@ -418,7 +331,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://www.coindesk.com/markets/2025/10/04/solana-is-the-new-wall-street-bitwise-cio-matt-hougan-explains" target="_blank" rel="noopener">💡 ‘Solana Is the New Wall Street,’ Bitwise CIO Matt Hougan Explains</a>
+              <a href="https://www.coindesk.com/markets/2025/10/04/solana-is-the-new-wall-street-bitwise-cio-matt-hougan-explains" target="_blank" rel="noopener">🚀 ‘Solana Is the New Wall Street,’ Bitwise CIO Matt Hougan Explains</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • CoinDesk</div>
           </header>
@@ -443,7 +356,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://decrypt.co/341845/we-tested-best-free-ai-image-editors-what-youll-love-hate" target="_blank" rel="noopener">📊 We Tested the Best Free AI Image Editors—Here&#x27;s What You&#x27;ll Love and Hate</a>
+              <a href="https://decrypt.co/341845/we-tested-best-free-ai-image-editors-what-youll-love-hate" target="_blank" rel="noopener">🔔 We Tested the Best Free AI Image Editors—Here&#x27;s What You&#x27;ll Love and Hate</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Decrypt</div>
           </header>
@@ -468,7 +381,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://www.coindesk.com/news-analysis/2025/10/04/state-of-crypto-what-happens-to-crypto-if-government-shutdown-lingers" target="_blank" rel="noopener">🌐 State of Crypto: What Happens to Crypto if Government Shutdown Lingers</a>
+              <a href="https://www.coindesk.com/news-analysis/2025/10/04/state-of-crypto-what-happens-to-crypto-if-government-shutdown-lingers" target="_blank" rel="noopener">🔔 State of Crypto: What Happens to Crypto if Government Shutdown Lingers</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • CoinDesk</div>
           </header>
