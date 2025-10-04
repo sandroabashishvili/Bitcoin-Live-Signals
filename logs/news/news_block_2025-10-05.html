@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="boss">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,7 +9,7 @@
   <meta property="og:description" content="Bitcoin analysis, trading signals, and market insights for October 5, 2025 — curated by SmartSignalHub.">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="SmartSignalHub">
-  <meta property="og:image" content="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/assets/img/news-preview.png">
+  <meta property="og:image" content="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/assets/news/2025-10-05/0d9a622f35f05f60_base.webp">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <link rel="icon" type="image/png" href="/Bitcoin-Live-Signals/assets/favicon.png" />
@@ -23,7 +23,7 @@
     @media (min-width:768px){ .ssn-news .ssn-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
     @media (min-width:1200px){ .ssn-news .ssn-grid{ grid-template-columns:repeat(3,minmax(0,1fr)); } }
 
-    /* News Cards - Universal for both themes */
+    /* News Cards - Universal */
     .ssn-news .news-card { 
       border-radius:16px; 
       overflow:hidden;
@@ -39,7 +39,49 @@
     .ssn-news .news-card .card-text { margin:0; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; }
     .ssn-news .news-card .card-actions { margin-top:auto; }
     
-    /* Dark theme styles - BOSS theme is ALWAYS dark */
+    /* Default theme styles - Use main site variables */
+    .ssn-news .news-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+    .ssn-news .news-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+      border-color: #dcdce0;
+    }
+    .ssn-news .news-card .card-title a { 
+      color: var(--accent); 
+      text-decoration: none;
+      transition: color 0.2s ease;
+      font-weight: 600;
+    }
+    .ssn-news .news-card .card-title a:hover { 
+      text-decoration: underline;
+    }
+    .ssn-news .news-card .card-text,
+    .ssn-news .card-text {
+      color: var(--fg);
+    }
+    .ssn-news .news-card .news-meta,
+    .ssn-news .news-meta {
+      color: var(--muted);
+    }
+    .ssn-news .news-card .card-actions .btn {
+      background: var(--accent);
+      color: var(--accent-contrast);
+      border: 1px solid var(--accent);
+      transition: all 0.2s ease;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .ssn-news .news-card .card-actions .btn:hover {
+      background: var(--accent-2);
+      border-color: var(--accent-2);
+      transform: translateY(-1px);
+    }
+    
+    /* Dark theme styles - Only when data-theme="boss" */
     [data-theme="boss"] .ssn-news .news-card {
       border: 1px solid rgba(255,255,255,.15) !important;
       background: #1a1a1a !important;
@@ -151,7 +193,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🚀 Here’s what happened in crypto today</a>
+              <a href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">💡 Here’s what happened in crypto today</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
           </header>
@@ -159,7 +201,7 @@
           <p class="card-text">Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -176,7 +218,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/stablecoins-force-everyone-share-yield-stripe-ceo?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">📊 Stablecoins will force &amp;#039;everyone&amp;#039; to share yield — Stripe CEO</a>
+              <a href="https://cointelegraph.com/news/stablecoins-force-everyone-share-yield-stripe-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">📈 Stablecoins will force &amp;#039;everyone&amp;#039; to share yield — Stripe CEO</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
           </header>
@@ -184,7 +226,7 @@
           <p class="card-text">Yield-bearing stablecoins will force traditional banks and legacy financial institutions to offer customers real yield on their deposits.</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://cointelegraph.com/news/stablecoins-force-everyone-share-yield-stripe-ceo?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/stablecoins-force-everyone-share-yield-stripe-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -201,7 +243,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://decrypt.co/342958/defiance-proposes-3x-leveraged-exposure-bitcoin-ethereum-funds-crypto-stocks" target="_blank" rel="noopener">🔥 Defiance Proposes 3X Leveraged Exposure on Bitcoin, Ethereum Funds and Crypto Stocks</a>
+              <a href="https://decrypt.co/342958/defiance-proposes-3x-leveraged-exposure-bitcoin-ethereum-funds-crypto-stocks" target="_blank" rel="noopener">🚀 Defiance Proposes 3X Leveraged Exposure on Bitcoin, Ethereum Funds and Crypto Stocks</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Decrypt</div>
           </header>
@@ -226,7 +268,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/blockchain-revenues-declined-16-september?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">💡 Blockchain network revenues declined 16% in September: Report</a>
+              <a href="https://cointelegraph.com/news/blockchain-revenues-declined-16-september?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔥 Blockchain network revenues declined 16% in September: Report</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
           </header>
@@ -234,7 +276,7 @@
           <p class="card-text">Asset manager VanEck attributed the broad decline in blockchain network revenue in September to lower volatility in the crypto markets.</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://cointelegraph.com/news/blockchain-revenues-declined-16-september?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/blockchain-revenues-declined-16-september?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -276,7 +318,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://decrypt.co/342907/how-much-covid-stimulus-checks-worth-now-invested-bitcoin" target="_blank" rel="noopener">🌐 Trump Tariff Stimmy? Here’s How Much Covid Stimulus Checks Are Worth Now If Invested in Bitcoin</a>
+              <a href="https://decrypt.co/342907/how-much-covid-stimulus-checks-worth-now-invested-bitcoin" target="_blank" rel="noopener">💡 Trump Tariff Stimmy? Here’s How Much Covid Stimulus Checks Are Worth Now If Invested in Bitcoin</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Decrypt</div>
           </header>
@@ -301,7 +343,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://www.coindesk.com/markets/2025/10/04/bitcoin-s-key-trends-suggest-price-still-has-plenty-of-room-to-run" target="_blank" rel="noopener">🔔 Bitcoin&#x27;s Key Trends Suggest Price Still Has Plenty of Room to Run</a>
+              <a href="https://www.coindesk.com/markets/2025/10/04/bitcoin-s-key-trends-suggest-price-still-has-plenty-of-room-to-run" target="_blank" rel="noopener">💡 Bitcoin&#x27;s Key Trends Suggest Price Still Has Plenty of Room to Run</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • CoinDesk</div>
           </header>
@@ -326,7 +368,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cointelegraph.com/news/tokenizing-stock-dat-compound-risk-investor?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔥 Tokenizing stocks of DATs compounds investor risk: Crypto execs</a>
+              <a href="https://cointelegraph.com/news/tokenizing-stock-dat-compound-risk-investor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">💡 Tokenizing stocks of DATs compounds investor risk: Crypto execs</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Cointelegraph</div>
           </header>
@@ -334,7 +376,7 @@
           <p class="card-text">Crypto treasury companies are already capitalizing on highly volatile digital assets, and tokenizing company shares introduces new risks.</p>
 
           <footer class="card-actions">
-            <a class="btn btn-sm" href="https://cointelegraph.com/news/tokenizing-stock-dat-compound-risk-investor?utm_source=rss_feed&utm_medium=rss%3Fcb%3D85jqtj%26_q%3D1759616883589%26_dc%3D1759616883589%26ttt%3D1759616883589&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/tokenizing-stock-dat-compound-risk-investor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
           </footer>
         </div>
       </article>
@@ -351,7 +393,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://cryptoslate.com/could-metaplanets-bitcoin-reserve-be-the-new-financial-frontier/" target="_blank" rel="noopener">📰 Could Metaplanet’s Bitcoin reserve be the new financial frontier?</a>
+              <a href="https://cryptoslate.com/could-metaplanets-bitcoin-reserve-be-the-new-financial-frontier/" target="_blank" rel="noopener">📊 Could Metaplanet’s Bitcoin reserve be the new financial frontier?</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • CryptoSlate</div>
           </header>
@@ -376,7 +418,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://www.coindesk.com/markets/2025/10/04/solana-is-the-new-wall-street-bitwise-cio-matt-hougan-explains" target="_blank" rel="noopener">📰 ‘Solana Is the New Wall Street,’ Bitwise CIO Matt Hougan Explains</a>
+              <a href="https://www.coindesk.com/markets/2025/10/04/solana-is-the-new-wall-street-bitwise-cio-matt-hougan-explains" target="_blank" rel="noopener">💡 ‘Solana Is the New Wall Street,’ Bitwise CIO Matt Hougan Explains</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • CoinDesk</div>
           </header>
@@ -401,7 +443,7 @@
         <div class="card-inner">
           <header class="card-head">
             <h2 class="card-title">
-              <a href="https://decrypt.co/341845/we-tested-best-free-ai-image-editors-what-youll-love-hate" target="_blank" rel="noopener">🌐 We Tested the Best Free AI Image Editors—Here&#x27;s What You&#x27;ll Love and Hate</a>
+              <a href="https://decrypt.co/341845/we-tested-best-free-ai-image-editors-what-youll-love-hate" target="_blank" rel="noopener">📊 We Tested the Best Free AI Image Editors—Here&#x27;s What You&#x27;ll Love and Hate</a>
             </h2>
             <div class="news-meta">📅 Oct 4, 2025 • Decrypt</div>
           </header>
