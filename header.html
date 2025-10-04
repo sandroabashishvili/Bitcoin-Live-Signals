@@ -2,6 +2,8 @@
   <!-- Global assets (theme + libs + apps) -->
   <link rel="icon" href="assets/favicon.png">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
   <script type="module" src="assets/apps/equity-viewer.js"></script>
   <script type="module" src="assets/apps/volume-visualizer.js"></script>
@@ -14,12 +16,12 @@
     </a>
 
     <!-- Hamburger button -->
-    <button class="menu-toggle" aria-label="Toggle navigation">
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-controls="primary-nav">
       <i class="fas fa-bars"></i>
     </button>
 
     <!-- Navigation -->
-    <nav class="nav" aria-label="Primary menu">
+    <nav class="nav" id="primary-nav" aria-label="Primary menu">
       <button class="menu-close" aria-label="Close menu">
         <i class="fas fa-times"></i>
       </button>
