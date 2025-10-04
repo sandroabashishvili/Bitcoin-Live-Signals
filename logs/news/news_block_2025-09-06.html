@@ -173,21 +173,56 @@
   </style>
 </head>
 <body>
-  <div id="sshRoot">
-    <div class="container">
-      <header class="ssh-header">
-        <div class="header-row">
-          <h2 class="ssh-title"><span class="emoji-animate" aria-hidden="true">📰</span> Daily Crypto Highlights — September 6, 2025</h2>
-          <div class="header-actions">
-            <button class="btn" id="themeToggle" aria-pressed="false" aria-label="Toggle dark mode">🌗 Theme</button>
-            <button class="btn" id="copyLink" aria-label="Copy page link">🔗 Copy link</button>
-            <button class="btn" id="shareBtn" aria-label="Share this page">📣 Share</button>
-          </div>
-        </div>
-        <p class="ssh-subtitle">SmartSignalHub • Daily blockchain news</p>
-      </header>
+  <header class="site-header" aria-label="Site header">
+  <!-- Global assets (theme + libs + apps) -->
+  <link rel="icon" href="/Bitcoin-Live-Signals/assets/favicon.png">
+  <link rel="stylesheet" href="/Bitcoin-Live-Signals/assets/css/styles.css">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+  <script type="module" src="/Bitcoin-Live-Signals/assets/apps/equity-viewer.js"></script>
+  <script type="module" src="/Bitcoin-Live-Signals/assets/apps/volume-visualizer.js"></script>
 
-      <main class="grid" aria-live="polite">
+  <div class="container header-row">
+    <!-- Logo -->
+    <a class="brand" href="/Bitcoin-Live-Signals/index.html" aria-label="Home">
+      <img src="/Bitcoin-Live-Signals/assets/favicon.png" alt="SmartSignalHub Logo" class="logo" width="28" height="28" loading="lazy" decoding="async" />
+      <span class="brand-title">SmartSignalHub</span>
+    </a>
+
+    <!-- Hamburger button -->
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-controls="primary-nav">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="nav" id="primary-nav" aria-label="Primary menu">
+      <button class="menu-close" aria-label="Close menu">
+        <i class="fas fa-times"></i>
+      </button>
+      <a href="/Bitcoin-Live-Signals/index.html">Home</a>
+      <a href="/Bitcoin-Live-Signals/services.html">Services</a>
+      <a href="/Bitcoin-Live-Signals/news.html">News</a>
+      <a href="/Bitcoin-Live-Signals/resources.html">Resources</a>
+      <a href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
+      <a href="/Bitcoin-Live-Signals/about.html">About</a>
+      <a href="/Bitcoin-Live-Signals/contact.html">Contact</a>
+    </nav>
+
+    <!-- Theme switches -->
+    <div class="swatches" aria-label="Theme">
+      <div class="swatch" title="Boss" data-theme="boss"></div>
+      <div class="swatch" title="Ferrari" data-theme="ferrari"></div>
+      <div class="swatch" title="Bull" data-theme="bull"></div>
+      <div class="swatch" title="Joker" data-theme="joker"></div>
+    </div>
+  </div>
+
+  <!-- Overlay -->
+  <div class="menu-overlay"></div>
+</header>
+
+<main class="grid" aria-live="polite">
 
         <article class="news-item">
           <div class="tilt-inner">
@@ -380,89 +415,57 @@
         </article>
 
       </main>
-      <footer class="ssh-footer">Sources: CoinDesk • Cointelegraph • Decrypt • CryptoSlate • Updated: September 6, 2025</footer>
+      
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container foot-row">
+
+    <!-- Brand -->
+    <div class="footer-brand">
+      <img src="/Bitcoin-Live-Signals/assets/favicon.png" alt="SmartSignalHub Logo" class="footer-logo" />
+      <strong>SmartSignalHub</strong>
     </div>
+
+    <!-- Navigation -->
+    <nav class="foot-links" aria-label="Footer navigation">
+      <a href="/Bitcoin-Live-Signals/services.html">Services</a>
+      <a href="/Bitcoin-Live-Signals/news.html">News</a>
+      <a href="/Bitcoin-Live-Signals/resources.html">Resources</a>
+      <a href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
+      <a href="/Bitcoin-Live-Signals/about.html">About</a>
+      <a href="/Bitcoin-Live-Signals/contact.html">Contact</a>
+    </nav>
+
+    <!-- Social + Contact -->
+    <div class="social-contact">
+      <div class="social-links">
+        <a href="https://www.facebook.com/CryptoNewsGeorgia" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/aleksandre-abashishvili-03417617a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://x.com/SAbashishvili" target="_blank" rel="noopener noreferrer" aria-label="X" class="x">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/sandroabashishvili/Bitcoin-Live-Signals" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="github"><i class="fab fa-github"></i></a>
+        <a href="https://www.youtube.com/@Smart-Trade-Hub" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+
+      <div class="contact-info">
+        <a href="mailto:sandroabashishvili@gmail.com" class="email">
+          <i class="fas fa-envelope"></i> sandroabashishvili@gmail.com
+        </a>
+        <a href="tel:+4915211084360" class="phone">
+          <i class="fas fa-phone"></i> +49 1521 1084360
+        </a>
+      </div>
+    </div>
+
   </div>
 
-  <noscript><div style="max-width:980px;margin:0 auto;padding:12px;color:#b91c1c;background:#fee2e2;border-radius:8px;">JavaScript is disabled. Interactions (theme, share, hover effects) are unavailable.</div></noscript>
+  <!-- Copyright -->
+  <div class="copy">
+    © <span id="year"></span> SmartSignalHub • Educational use only.
+  </div>
+</footer>
 
-  <script>
-    (function() {
-      var root = document.getElementById('sshRoot') || document.documentElement;
-      var key = 'ssh-theme';
-      var themeMeta = document.querySelector('meta[name="theme-color"]');
-
-      function setThemeColor(isDark) {
-        if (themeMeta) themeMeta.setAttribute('content', isDark ? '#0b1220' : '#0ea5e9');
-      }
-
-      var saved = null;
-      try { saved = localStorage.getItem(key); } catch (e) { saved = null; }
-      if (saved === 'dark') { root.setAttribute('data-theme', 'dark'); setThemeColor(true); }
-
-      var btn = document.getElementById('themeToggle');
-      if (btn) {
-        btn.addEventListener('click', function () {
-          var isDark = root.getAttribute('data-theme') === 'dark';
-          if (isDark) {
-            root.removeAttribute('data-theme'); try { localStorage.setItem(key, 'light'); } catch (e) {} btn.setAttribute('aria-pressed', 'false'); setThemeColor(false);
-          } else {
-            root.setAttribute('data-theme', 'dark'); try { localStorage.setItem(key, 'dark'); } catch (e) {} btn.setAttribute('aria-pressed', 'true'); setThemeColor(true);
-          }
-        });
-      }
-
-      var copyBtn = document.getElementById('copyLink');
-      if (copyBtn) {
-        copyBtn.addEventListener('click', function (event) {
-          if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(location.href).then(function () {
-              var el = event.currentTarget; el.textContent = '✅ Copied!'; setTimeout(function () { el.textContent = '🔗 Copy link'; }, 1400);
-            }).catch(function () { alert('Copy failed.'); });
-          } else {
-            alert('Clipboard not supported.');
-          }
-        });
-      }
-
-      var shareBtn = document.getElementById('shareBtn');
-      if (shareBtn) {
-        shareBtn.addEventListener('click', function () {
-          if (navigator.share) {
-            navigator.share({ title: document.title, text: 'Daily Crypto Highlights', url: location.href }).catch(function () {});
-          } else {
-            alert('Web Share not supported on this device. Use Copy link.');
-          }
-        });
-      }
-
-      var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      var canHover = window.matchMedia('(hover:hover) and (pointer:fine)').matches;
-      if (!reduceMotion && canHover) {
-        var cards = document.querySelectorAll('.news-item');
-        for (var i=0; i<cards.length; i++) {
-          (function(card) {
-            var inner = card.querySelector('.tilt-inner');
-            card.addEventListener('pointermove', function (e) {
-              var r = card.getBoundingClientRect();
-              var px = (e.clientX - r.left) / r.width;
-              var py = (e.clientY - r.top) / r.height;
-              var rx = (0.5 - py) * 6; // degrees
-              var ry = (px - 0.5) * 6;
-              inner.style.transform = 'rotateX(' + rx + 'deg) rotateY(' + ry + 'deg) scale(1.01)';
-              var media = card.querySelector('.media');
-              if (media) {
-                media.style.setProperty('--mx', Math.round(px * 100) + '%');
-                media.style.setProperty('--my', Math.round(py * 100) + '%');
-              }
-            });
-            card.addEventListener('pointerleave', function () {
-              inner.style.transform = 'rotateX(0deg) rotateY(0deg) scale(1)';
-            });
-          })(cards[i]);
-        }
-      }
-    })();
-  </script>
 </body>
 </html>

@@ -40,20 +40,29 @@
 </head>
 <body>
 <header class="site-header" aria-label="Site header">
+  <!-- Global assets (theme + libs + apps) -->
+  <link rel="icon" href="/Bitcoin-Live-Signals/assets/favicon.png">
+  <link rel="stylesheet" href="/Bitcoin-Live-Signals/assets/css/styles.css">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+  <script type="module" src="/Bitcoin-Live-Signals/assets/apps/equity-viewer.js"></script>
+  <script type="module" src="/Bitcoin-Live-Signals/assets/apps/volume-visualizer.js"></script>
+
   <div class="container header-row">
     <!-- Logo -->
     <a class="brand" href="/Bitcoin-Live-Signals/index.html" aria-label="Home">
-      <img src="/Bitcoin-Live-Signals/assets/favicon.png" alt="SmartSignalHub Logo" class="logo" />
+      <img src="/Bitcoin-Live-Signals/assets/favicon.png" alt="SmartSignalHub Logo" class="logo" width="28" height="28" loading="lazy" decoding="async" />
       <span class="brand-title">SmartSignalHub</span>
     </a>
 
     <!-- Hamburger button -->
-    <button class="menu-toggle" aria-label="Toggle navigation">
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-controls="primary-nav">
       <i class="fas fa-bars"></i>
     </button>
 
     <!-- Navigation -->
-    <nav class="nav" aria-label="Primary menu">
+    <nav class="nav" id="primary-nav" aria-label="Primary menu">
       <button class="menu-close" aria-label="Close menu">
         <i class="fas fa-times"></i>
       </button>
@@ -78,7 +87,8 @@
   <!-- Overlay -->
   <div class="menu-overlay"></div>
 </header>
-  <main id="content" class="container ssn-news">
+
+<main id="content" class="container ssn-news">
     <h1 class="page-title">📢 Daily Crypto Highlights — September 18, 2025</h1>
     <div class="ssn-grid">
 
@@ -386,8 +396,6 @@
       <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/news.html">← Back to News</a>
     </div>
   </main>
-<!-- Font Awesome CDN -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <footer class="site-footer" aria-label="Site footer">
   <div class="container foot-row">
@@ -411,10 +419,15 @@
     <!-- Social + Contact -->
     <div class="social-contact">
       <div class="social-links">
-        <a href="https://www.facebook.com/CryptoNewsGeorgia" target="_blank" aria-label="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.linkedin.com/in/aleksandre-abashishvili-03417617a" target="_blank" aria-label="LinkedIn" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://x.com/SAbashishvili" target="_blank" aria-label="X" class="x"><i class="fab fa-x-twitter"></i></a>
-        <a href="https://www.youtube.com/@Smart-Trade-Hub" target="_blank" aria-label="YouTube" class="youtube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.facebook.com/CryptoNewsGeorgia" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/aleksandre-abashishvili-03417617a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://x.com/SAbashishvili" target="_blank" rel="noopener noreferrer" aria-label="X" class="x">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/sandroabashishvili/Bitcoin-Live-Signals" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="github"><i class="fab fa-github"></i></a>
+        <a href="https://www.youtube.com/@Smart-Trade-Hub" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="youtube"><i class="fab fa-youtube"></i></a>
       </div>
 
       <div class="contact-info">
@@ -434,6 +447,7 @@
     © <span id="year"></span> SmartSignalHub • Educational use only.
   </div>
 </footer>
+
 
 </body>
 </html>
