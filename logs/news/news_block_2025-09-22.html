@@ -9,15 +9,8 @@
   <meta property="og:description" content="Daily crypto highlights for September 22, 2025 — curated by SmartSignalHub.">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="SmartSignalHub">
-  <meta property="og:url" content="https://sandroabashishvili.github.io{{WEB_ROOT}}/logs/news/news_block_2025-09-22.html">
-  <meta property="og:image" content="https://sandroabashishvili.github.io{{WEB_ROOT}}/assets/img/news-preview.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Daily Crypto Highlights — September 22, 2025">
-  <meta name="twitter:description" content="Daily crypto highlights for September 22, 2025 — curated by SmartSignalHub.">
-  <meta name="twitter:image" content="https://sandroabashishvili.github.io{{WEB_ROOT}}/assets/img/news-preview.png">
-  
-  <link rel="icon" type="image/png" href="{{WEB_ROOT}}/assets/favicon.png" />
-  <link rel="stylesheet" href="{{WEB_ROOT}}/assets/css/styles.css" />
+  <link rel="icon" type="image/png" href="/Bitcoin-Live-Signals/assets/favicon.png" />
+  <link rel="stylesheet" href="/Bitcoin-Live-Signals/assets/css/styles.css" />
 
   <style>
     .site-header, .site-footer { position: relative; z-index: 10; }
@@ -38,178 +31,417 @@
     .ssn-news .news-card .card-title { margin:0 0 4px 0; line-height:1.3; }
     .ssn-news .news-card .news-meta { opacity:.8; font-size:.9rem; }
 
-    .ssn-news .news-card .card-text { margin:0; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; line-clamp:3; }
+    .ssn-news .news-card .card-text { margin:0; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; }
 
-    .ssn-news .news-card .card-actions { margin-top:auto; display:flex; justify-content:space-between; align-items:center; gap:10px; }
-    
-    /* Share buttons styling */
-    .share-buttons { display:flex; gap:8px; align-items:center; }
-    .share-btn { 
-      display:inline-flex; align-items:center; gap:4px; padding:4px 8px; border-radius:6px; 
-      background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.1);
-      color:inherit; text-decoration:none; font-size:0.85rem; transition:all .2s ease;
-      cursor:pointer;
-    }
-    .share-btn:hover { background:rgba(255,255,255,.1); transform:translateY(-1px); }
-    .share-btn.copy { color:#64b5f6; }
-    .share-btn.facebook { color:#1877f2; }
-    .share-btn.twitter { color:#1da1f2; }
-    .share-btn.linkedin { color:#0a66c2; }
-    .share-btn.email { color:#ea4335; }
+    .ssn-news .news-card .card-actions { margin-top:auto; }
 
     .shimmer, .shimmer::after { animation:none !important; background:none !important; content:none !important; }
   </style>
 </head>
 <body>
+<header class="site-header" aria-label="Site header">
+  <!-- Global assets (theme + libs + apps) -->
+  <link rel="icon" href="/Bitcoin-Live-Signals/assets/favicon.png">
+  <link rel="icon" href="/Bitcoin-Live-Signals/favicon.ico">
+  <link rel="icon" href="/Bitcoin-Live-Signals/favicon.ico">
+  <link rel="stylesheet" href="/Bitcoin-Live-Signals/assets/css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+  <script type="module" src="/Bitcoin-Live-Signals/assets/apps/equity-viewer.js"></script>
+  <script type="module" src="/Bitcoin-Live-Signals/assets/apps/volume-visualizer.js"></script>
+  <div class="container header-row">
+    <!-- Logo -->
+    <a class="brand" href="/Bitcoin-Live-Signals/index.html" aria-label="Home">
+      <img src="/Bitcoin-Live-Signals/assets/favicon.png" alt="SmartSignalHub Logo" class="logo" />
+      <span class="brand-title">SmartSignalHub</span>
+    </a>
 
-  <header class="site-header" aria-label="Site header">
-    <div class="container header-row">
-      <a class="brand" href="{{WEB_ROOT}}/index.html" aria-label="Home">
-        <span class="logo" aria-hidden="true"></span>
-        <span class="brand-title">SmartSignalHub</span>
-      </a>
-      <nav class="nav" aria-label="Primary menu">
-        <a class="btn btn-outline btn-sm" href="{{WEB_ROOT}}/index.html">Home</a>
-        <a class="btn btn-outline btn-sm" href="{{WEB_ROOT}}/services.html">Services</a>
-        <a class="btn btn-outline btn-sm" href="{{WEB_ROOT}}/news.html">News</a>
-        <a class="btn btn-outline btn-sm" href="{{WEB_ROOT}}/resources.html">Resources</a>
-        <a class="btn btn-outline btn-sm" href="{{WEB_ROOT}}/portfolio.html">Portfolio</a>
-        <a class="btn btn-primary btn-sm" href="{{WEB_ROOT}}/contact.html">Contact</a>
-      </nav>
+    <!-- Hamburger button -->
+    <button class="menu-toggle" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Primary menu">
+      <button class="menu-close" aria-label="Close menu">
+        <i class="fas fa-times"></i>
+      </button>
+      <a href="/Bitcoin-Live-Signals/index.html">Home</a>
+      <a href="/Bitcoin-Live-Signals/services.html">Services</a>
+      <a href="/Bitcoin-Live-Signals/news.html">News</a>
+      <a href="/Bitcoin-Live-Signals/resources.html">Resources</a>
+      <a href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
+      <a href="/Bitcoin-Live-Signals/about.html">About</a>
+      <a href="/Bitcoin-Live-Signals/contact.html">Contact</a>
+    </nav>
+
+    <!-- Theme switches -->
+    <div class="swatches" aria-label="Theme">
+      <div class="swatch" title="Boss" data-theme="boss"></div>
+      <div class="swatch" title="Ferrari" data-theme="ferrari"></div>
+      <div class="swatch" title="Bull" data-theme="bull"></div>
+      <div class="swatch" title="Joker" data-theme="joker"></div>
     </div>
-  </header>
+  </div>
 
+  <!-- Overlay -->
+  <div class="menu-overlay"></div>
+</header>
   <main id="content" class="container ssn-news">
-    <h1 class="page-title">Daily Crypto Highlights — September 22, 2025</h1>
+    <h1 class="page-title">📢 Daily Crypto Highlights — September 22, 2025</h1>
     <div class="ssn-grid">
-      
+
       <article class="card news-card">
-      
+
       <div class="media">
-      <picture>
-      <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/d4c8dbce3507937b_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/d4c8dbce3507937b_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
-      <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/d4c8dbce3507937b_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/d4c8dbce3507937b_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
-      <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-22/d4c8dbce3507937b_base.jpg" width="528" height="352" alt="Price predictions 9/22: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, ADA, HYPE" referrerpolicy="no-referrer" />
-      </picture>
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/d4c8dbce3507937b_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/d4c8dbce3507937b_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/d4c8dbce3507937b_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/d4c8dbce3507937b_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-22/d4c8dbce3507937b_base.jpg" width="528" height="352" alt="Price predictions 9/22: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, ADA, HYPE" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cointelegraph.com/news/price-predictions-9-22-spx-dxy-btc-eth-xrp-bnb-sol-doge-ada-hype?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔥 Price predictions 9/22: SPX, DXY, BTC, ETH, XRP, BNB, SOL, DOGE, ADA, HYPE</a>
+            </h2>
+            <div class="news-meta">📅 Sep 22, 2025 • Cointelegraph</div>
+          </header>
+
+          <p class="card-text">Bitcoin’s sharp fall resulted in the biggest long liquidation in a 24-hour period, and the sell-off pulled many altcoins below their immediate support levels.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/price-predictions-9-22-spx-dxy-btc-eth-xrp-bnb-sol-doge-ada-hype?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/2b0c991a1fcaa0d2_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/2b0c991a1fcaa0d2_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/2b0c991a1fcaa0d2_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/2b0c991a1fcaa0d2_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-22/2b0c991a1fcaa0d2_base.jpg" width="960" height="539" alt="Google Expands AI Risk Rules After Study Shows Scary 'Shutdown Resistance'" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://decrypt.co/340687/google-expands-ai-risk-rules-study-shows-scary-shutdown-resistance" target="_blank" rel="noopener">🔔 Google Expands AI Risk Rules After Study Shows Scary 'Shutdown Resistance'</a>
+            </h2>
+            <div class="news-meta">📅 Sep 22, 2025 • Decrypt</div>
+          </header>
+
+          <p class="card-text">Updates to DeepMind's Frontier Safety Framework highlight concerns that advanced AI can evade human control and sway user beliefs.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://decrypt.co/340687/google-expands-ai-risk-rules-study-shows-scary-shutdown-resistance" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/cec6cff18860eabb_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/cec6cff18860eabb_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/cec6cff18860eabb_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/cec6cff18860eabb_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-22/cec6cff18860eabb_base.jpg" width="960" height="504" alt="PayPal joins Plasma and Polkadot’s Hydration in wave of new stablecoin initiatives" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cryptoslate.com/paypal-joins-plasma-and-polkadots-hydration-in-wave-of-new-stablecoin-initiatives/" target="_blank" rel="noopener">🔔 PayPal joins Plasma and Polkadot’s Hydration in wave of new stablecoin initiatives</a>
+            </h2>
+            <div class="news-meta">📅 Sep 22, 2025 • CryptoSlate</div>
+          </header>
+
+          <p class="card-text">The stablecoin sector is entering a new phase of competition, with major players unveiling fresh initiatives to capture part of the $280 billion market. On Sept. 22, PayPal, Bitfinex-backed Plasma, and Polkadot’s...</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cryptoslate.com/paypal-joins-plasma-and-polkadots-hydration-in-wave-of-new-stablecoin-initiatives/" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/94dfe195b025d7dc_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/94dfe195b025d7dc_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/94dfe195b025d7dc_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/94dfe195b025d7dc_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-22/94dfe195b025d7dc_base.jpg" width="960" height="589" alt="Shiba Inu Tanks 5%, SHIB-DOGE Bounces From Record Lows" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://www.coindesk.com/markets/2025/09/22/shiba-inu-tanks-5-shib-doge-bounces-from-record-lows" target="_blank" rel="noopener">🔥 Shiba Inu Tanks 5%, SHIB-DOGE Bounces From Record Lows</a>
+            </h2>
+            <div class="news-meta">📅 Sep 22, 2025 • CoinDesk</div>
+          </header>
+
+          <p class="card-text">Shiba Inu Tanks 5%, SHIB-DOGE Bounces From Record Lows</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://www.coindesk.com/markets/2025/09/22/shiba-inu-tanks-5-shib-doge-bounces-from-record-lows" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/e1420ddcc29f801e_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/e1420ddcc29f801e_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/e1420ddcc29f801e_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/e1420ddcc29f801e_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-22/e1420ddcc29f801e_base.jpg" width="960" height="589" alt="HBAR Experiences Sharp Decline Amid High Volume Selling Pressure" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://www.coindesk.com/markets/2025/09/22/hbar-experiences-sharp-decline-amid-high-volume-selling-pressure" target="_blank" rel="noopener">📊 HBAR Experiences Sharp Decline Amid High Volume Selling Pressure</a>
+            </h2>
+            <div class="news-meta">📅 Sep 22, 2025 • CoinDesk</div>
+          </header>
+
+          <p class="card-text">HBAR Experiences Sharp Decline Amid High Volume Selling Pressure</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://www.coindesk.com/markets/2025/09/22/hbar-experiences-sharp-decline-amid-high-volume-selling-pressure" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/0c0cc6dfb306fc6c_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/0c0cc6dfb306fc6c_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/0c0cc6dfb306fc6c_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/0c0cc6dfb306fc6c_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-22/0c0cc6dfb306fc6c_base.jpg" width="960" height="540" alt="Anthony Scaramucci Involved as AgriFORCE One Rebrands to an AVAX Treasury Company; Shares Rise 132%" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://www.coindesk.com/business/2025/09/22/anthony-scaramucci-involved-as-agriforce-one-rebrands-to-avax-treasury-company-shares-rise-132" target="_blank" rel="noopener">🌐 Anthony Scaramucci Involved as AgriFORCE One Rebrands to an AVAX Treasury Company; Shares Rise 132%</a>
+            </h2>
+            <div class="news-meta">📅 Sep 22, 2025 • CoinDesk</div>
+          </header>
+
+          <p class="card-text">Anthony Scaramucci Involved as AgriFORCE One Rebrands to an AVAX Treasury Company; Shares Rise 132%</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://www.coindesk.com/business/2025/09/22/anthony-scaramucci-involved-as-agriforce-one-rebrands-to-avax-treasury-company-shares-rise-132" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/ad7d7c973da45e36_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/ad7d7c973da45e36_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/ad7d7c973da45e36_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/ad7d7c973da45e36_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-22/ad7d7c973da45e36_base.jpg" width="528" height="352" alt="Democrats signal support for bipartisan solution to market structure bill" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cointelegraph.com/news/democrats-bipartisan-solution-market-structure-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">📰 Democrats signal support for bipartisan solution to market structure bill</a>
+            </h2>
+            <div class="news-meta">📅 Sep 22, 2025 • Cointelegraph</div>
+          </header>
+
+          <p class="card-text">A Republican-backed bill to create a market structure for digital assets is expected to head for a vote in the Senate Banking Committee soon.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/democrats-bipartisan-solution-market-structure-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/ffd8a732ab2f6e52_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/ffd8a732ab2f6e52_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/ffd8a732ab2f6e52_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/ffd8a732ab2f6e52_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-22/ffd8a732ab2f6e52_base.jpg" width="960" height="540" alt="Tom Lee's BitMine Buys $1.1 Billion in Ethereum and Sells Stock, Shares Fall 10%" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://decrypt.co/340707/tom-lee-bitmine-buys-1-1-billion-ethereum-sells-stock-shares-fall" target="_blank" rel="noopener">💡 Tom Lee's BitMine Buys $1.1 Billion in Ethereum and Sells Stock, Shares Fall 10%</a>
+            </h2>
+            <div class="news-meta">📅 Sep 22, 2025 • Decrypt</div>
+          </header>
+
+          <p class="card-text">Ethereum treasury firm BitMine Immersion now holds over $10 billion in ETH, or 2% of the total supply, following its latest buy.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://decrypt.co/340707/tom-lee-bitmine-buys-1-1-billion-ethereum-sells-stock-shares-fall" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/16d1696012a36fe4_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/16d1696012a36fe4_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/16d1696012a36fe4_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/16d1696012a36fe4_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-22/16d1696012a36fe4_base.jpg" width="960" height="540" alt="Strive Asset Management to Acquire Semler Scientific, $567 Million in Bitcoin in All-Cash Deal" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://decrypt.co/340692/strive-acquire-semler-scientific-567-million-bitcoin-all-cash" target="_blank" rel="noopener">🔥 Strive Asset Management to Acquire Semler Scientific, $567 Million in Bitcoin in All-Cash Deal</a>
+            </h2>
+            <div class="news-meta">📅 Sep 22, 2025 • Decrypt</div>
+          </header>
+
+          <p class="card-text">The Bitcoin treasury firm had been trading at a discount to its Bitcoin holdings.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://decrypt.co/340692/strive-acquire-semler-scientific-567-million-bitcoin-all-cash" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/ba526cc0cd361471_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/ba526cc0cd361471_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/ba526cc0cd361471_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/ba526cc0cd361471_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-22/ba526cc0cd361471_base.jpg" width="528" height="352" alt="BitMine holds over 2% of ETH supply, announces $365M offering" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cointelegraph.com/news/bitmine-holds-2-eth-supply-365m-offering?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">📰 BitMine holds over 2% of ETH supply, announces $365M offering</a>
+            </h2>
+            <div class="news-meta">📅 Sep 22, 2025 • Cointelegraph</div>
+          </header>
+
+          <p class="card-text">Top ETH treasury BitMine Immersion Technologies announced $365 million in new funding and revealed it now holds 2.416 million ETH — over 2% of the total supply.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/bitmine-holds-2-eth-supply-365m-offering?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/e2f8a11c889b9c19_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/e2f8a11c889b9c19_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/e2f8a11c889b9c19_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/e2f8a11c889b9c19_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-22/e2f8a11c889b9c19_base.jpg" width="960" height="540" alt="Tom Lee’s BitMine Sells Stock at $70 to Raise Additional $365M for ETH Treasury" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://www.coindesk.com/markets/2025/09/22/tom-lee-s-bitmine-sells-stock-at-usd70-to-raise-additional-usd365m-for-eth-treasury" target="_blank" rel="noopener">📈 Tom Lee’s BitMine Sells Stock at $70 to Raise Additional $365M for ETH Treasury</a>
+            </h2>
+            <div class="news-meta">📅 Sep 22, 2025 • CoinDesk</div>
+          </header>
+
+          <p class="card-text">Tom Lee’s BitMine Sells Stock at $70 to Raise Additional $365M for ETH Treasury</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://www.coindesk.com/markets/2025/09/22/tom-lee-s-bitmine-sells-stock-at-usd70-to-raise-additional-usd365m-for-eth-treasury" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/3f16a0202b4ed25f_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/3f16a0202b4ed25f_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-22/3f16a0202b4ed25f_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-22/3f16a0202b4ed25f_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-22/3f16a0202b4ed25f_base.jpg" width="960" height="504" alt="Strive bets $675 million to acquire Bitcoin treasury company at 200% premium to stock price" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cryptoslate.com/strives-all-stock-merger-with-semler-scientific-cements-bitcoin-strategy/" target="_blank" rel="noopener">🌐 Strive bets $675 million to acquire Bitcoin treasury company at 200% premium to stock price</a>
+            </h2>
+            <div class="news-meta">📅 Sep 22, 2025 • CryptoSlate</div>
+          </header>
+
+          <p class="card-text">Asset manager Strive has reached an agreement to purchase Bitcoin-focused Semler Scientific in a fully equity-based rather than cash-based deal. Under the terms announced Sept. 22, each Semler Scientific share will...</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cryptoslate.com/strives-all-stock-merger-with-semler-scientific-cements-bitcoin-strategy/" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+    </div>
+    <div style="margin-top:20px">
+      <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/news.html">← Back to News</a>
     </div>
   </main>
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  <footer class="site-footer" aria-label="Site footer">
-    <div class="container foot-row">
-      <div class="footer-brand">
-        <img src="{{WEB_ROOT}}/assets/favicon.png" alt="SmartSignalHub Logo" class="footer-logo" />
-        <strong>SmartSignalHub</strong>
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container foot-row">
+
+    <!-- Brand -->
+    <div class="footer-brand">
+      <img src="/Bitcoin-Live-Signals/assets/favicon.png" alt="SmartSignalHub Logo" class="footer-logo" />
+      <strong>SmartSignalHub</strong>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="foot-links" aria-label="Footer navigation">
+      <a href="/Bitcoin-Live-Signals/services.html">Services</a>
+      <a href="/Bitcoin-Live-Signals/news.html">News</a>
+      <a href="/Bitcoin-Live-Signals/resources.html">Resources</a>
+      <a href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
+      <a href="/Bitcoin-Live-Signals/about.html">About</a>
+      <a href="/Bitcoin-Live-Signals/contact.html">Contact</a>
+    </nav>
+
+    <!-- Social + Contact -->
+    <div class="social-contact">
+      <div class="social-links">
+        <a href="https://www.facebook.com/CryptoNewsGeorgia" target="_blank" aria-label="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/aleksandre-abashishvili-03417617a" target="_blank" aria-label="LinkedIn" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://x.com/SAbashishvili" target="_blank" aria-label="X" class="x"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.youtube.com/@Smart-Trade-Hub" target="_blank" aria-label="YouTube" class="youtube"><i class="fab fa-youtube"></i></a>
       </div>
 
-      <nav class="foot-links" aria-label="Footer navigation">
-        <a href="{{WEB_ROOT}}/services.html">Services</a>
-        <a href="{{WEB_ROOT}}/news.html">News</a>
-        <a href="{{WEB_ROOT}}/resources.html">Resources</a>
-        <a href="{{WEB_ROOT}}/portfolio.html">Portfolio</a>
-        <a href="{{WEB_ROOT}}/about.html">About</a>
-        <a href="{{WEB_ROOT}}/contact.html">Contact</a>
-      </nav>
-
-      <div class="social-contact">
-        <div class="social-links">
-          <a href="https://www.facebook.com/CryptoNewsGeorgia" target="_blank" aria-label="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://www.linkedin.com/in/aleksandre-abashishvili-03417617a" target="_blank" aria-label="LinkedIn" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://x.com/SAbashishvili" target="_blank" aria-label="X" class="x">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-            </svg>
-          </a>
-          <a href="https://github.com/sandroabashishvili/Bitcoin-Live-Signals" target="_blank" aria-label="GitHub" class="github"><i class="fab fa-github"></i></a>
-          <a href="https://www.youtube.com/@Smart-Trade-Hub" target="_blank" aria-label="YouTube" class="youtube"><i class="fab fa-youtube"></i></a>
-        </div>
-
-        <div class="contact-info">
-          <a href="mailto:sandroabashishvili@gmail.com" class="email">
-            <i class="fas fa-envelope"></i> sandroabashishvili@gmail.com
-          </a>
-          <a href="tel:+4915211084360" class="phone">
-            <i class="fas fa-phone"></i> +49 1521 1084360
-          </a>
-        </div>
+      <div class="contact-info">
+        <a href="mailto:sandroabashishvili@gmail.com" class="email">
+          <i class="fas fa-envelope"></i> sandroabashishvili@gmail.com
+        </a>
+        <a href="tel:+4915211084360" class="phone">
+          <i class="fas fa-phone"></i> +49 1521 1084360
+        </a>
       </div>
     </div>
 
-    <div class="copy">
-      © <span id="year"></span> SmartSignalHub • Educational use only.
-    </div>
-  </footer>
+  </div>
 
-  <!-- Font Awesome CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  
-  <!-- Share functionality -->
-  <script>
-    // Initialize year in footer
-    document.getElementById('year').textContent = new Date().getFullYear();
+  <!-- Copyright -->
+  <div class="copy">
+    © <span id="year"></span> SmartSignalHub • Educational use only.
+  </div>
+</footer>
 
-    // Share functionality
-    function shareUrl(platform, url, title) {
-      const encodedUrl = encodeURIComponent(url);
-      const encodedTitle = encodeURIComponent(title);
-      
-      const shareUrls = {
-        facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
-        twitter: `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`,
-        linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`,
-        email: `mailto:?subject=${encodedTitle}&body=Check out this crypto news: ${encodedUrl}`
-      };
-      
-      if (shareUrls[platform]) {
-        window.open(shareUrls[platform], '_blank', 'width=600,height=400');
-      }
-    }
-
-    function copyToClipboard(url) {
-      if (navigator.clipboard) {
-        navigator.clipboard.writeText(url).then(() => {
-          // Show success feedback
-          const btn = event.target.closest('.share-btn');
-          const originalText = btn.innerHTML;
-          btn.innerHTML = '✓ Copied!';
-          setTimeout(() => {
-            btn.innerHTML = originalText;
-          }, 2000);
-        });
-      } else {
-        // Fallback for older browsers
-        const textArea = document.createElement('textarea');
-        textArea.value = url;
-        document.body.appendChild(textArea);
-        textArea.select();
-        document.execCommand('copy');
-        document.body.removeChild(textArea);
-        alert('Link copied to clipboard!');
-      }
-    }
-
-    // Add share buttons to each news card
-    document.addEventListener('DOMContentLoaded', function() {
-      const newsCards = document.querySelectorAll('.news-card');
-      newsCards.forEach((card, index) => {
-        const cardActions = card.querySelector('.card-actions');
-        if (cardActions) {
-          const currentUrl = window.location.href;
-          const cardTitle = card.querySelector('.card-title a')?.textContent || 'Crypto News';
-          
-          const shareButtons = document.createElement('div');
-          shareButtons.className = 'share-buttons';
-          shareButtons.innerHTML = `
-            <span style="font-size:0.8rem; opacity:0.7;">Share:</span>
-            <button class="share-btn copy" onclick="copyToClipboard('${currentUrl}#card-${index}')" title="Copy Link">🔗</button>
-            <button class="share-btn facebook" onclick="shareUrl('facebook', '${currentUrl}#card-${index}', '${cardTitle.replace(/'/g, "\\'")}'); return false;" title="Share on Facebook">📘</button>
-            <button class="share-btn twitter" onclick="shareUrl('twitter', '${currentUrl}#card-${index}', '${cardTitle.replace(/'/g, "\\'")}'); return false;" title="Share on Twitter">🐦</button>
-            <button class="share-btn linkedin" onclick="shareUrl('linkedin', '${currentUrl}#card-${index}', '${cardTitle.replace(/'/g, "\\'")}'); return false;" title="Share on LinkedIn">💼</button>
-            <button class="share-btn email" onclick="shareUrl('email', '${currentUrl}#card-${index}', '${cardTitle.replace(/'/g, "\\'")}'); return false;" title="Share via Email">📧</button>
-          `;
-          cardActions.appendChild(shareButtons);
-        }
-      });
-    });
-  </script>
 </body>
 </html>

@@ -9,15 +9,8 @@
   <meta property="og:description" content="Daily crypto highlights for September 23, 2025 — curated by SmartSignalHub.">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="SmartSignalHub">
-  <meta property="og:url" content="https://sandroabashishvili.github.io{{WEB_ROOT}}/logs/news/news_block_2025-09-23.html">
-  <meta property="og:image" content="https://sandroabashishvili.github.io{{WEB_ROOT}}/assets/img/news-preview.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Daily Crypto Highlights — September 23, 2025">
-  <meta name="twitter:description" content="Daily crypto highlights for September 23, 2025 — curated by SmartSignalHub.">
-  <meta name="twitter:image" content="https://sandroabashishvili.github.io{{WEB_ROOT}}/assets/img/news-preview.png">
-  
-  <link rel="icon" type="image/png" href="{{WEB_ROOT}}/assets/favicon.png" />
-  <link rel="stylesheet" href="{{WEB_ROOT}}/assets/css/styles.css" />
+  <link rel="icon" type="image/png" href="/Bitcoin-Live-Signals/assets/favicon.png" />
+  <link rel="stylesheet" href="/Bitcoin-Live-Signals/assets/css/styles.css" />
 
   <style>
     .site-header, .site-footer { position: relative; z-index: 10; }
@@ -38,178 +31,418 @@
     .ssn-news .news-card .card-title { margin:0 0 4px 0; line-height:1.3; }
     .ssn-news .news-card .news-meta { opacity:.8; font-size:.9rem; }
 
-    .ssn-news .news-card .card-text { margin:0; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; line-clamp:3; }
+    .ssn-news .news-card .card-text { margin:0; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; }
 
-    .ssn-news .news-card .card-actions { margin-top:auto; display:flex; justify-content:space-between; align-items:center; gap:10px; }
-    
-    /* Share buttons styling */
-    .share-buttons { display:flex; gap:8px; align-items:center; }
-    .share-btn { 
-      display:inline-flex; align-items:center; gap:4px; padding:4px 8px; border-radius:6px; 
-      background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.1);
-      color:inherit; text-decoration:none; font-size:0.85rem; transition:all .2s ease;
-      cursor:pointer;
-    }
-    .share-btn:hover { background:rgba(255,255,255,.1); transform:translateY(-1px); }
-    .share-btn.copy { color:#64b5f6; }
-    .share-btn.facebook { color:#1877f2; }
-    .share-btn.twitter { color:#1da1f2; }
-    .share-btn.linkedin { color:#0a66c2; }
-    .share-btn.email { color:#ea4335; }
+    .ssn-news .news-card .card-actions { margin-top:auto; }
 
     .shimmer, .shimmer::after { animation:none !important; background:none !important; content:none !important; }
   </style>
 </head>
 <body>
+<header class="site-header" aria-label="Site header">
+  <!-- Global assets (theme + libs + apps) -->
+  <link rel="icon" href="/Bitcoin-Live-Signals/assets/favicon.png">
+  <link rel="icon" href="/Bitcoin-Live-Signals/favicon.ico">
+  <link rel="icon" href="/Bitcoin-Live-Signals/favicon.ico">
+  <link rel="stylesheet" href="/Bitcoin-Live-Signals/assets/css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+  <!-- cache-bust modules to avoid stale code after updates -->
+  <script type="module" src="/Bitcoin-Live-Signals/assets/apps/equity-viewer.js?v=20250923"></script>
+  <script type="module" src="/Bitcoin-Live-Signals/assets/apps/volume-visualizer.js?v=20250923"></script>
+  <div class="container header-row">
+    <!-- Logo -->
+    <a class="brand" href="/Bitcoin-Live-Signals/index.html" aria-label="Home">
+      <img src="/Bitcoin-Live-Signals/assets/favicon.png" alt="SmartSignalHub Logo" class="logo" />
+      <span class="brand-title">SmartSignalHub</span>
+    </a>
 
-  <header class="site-header" aria-label="Site header">
-    <div class="container header-row">
-      <a class="brand" href="{{WEB_ROOT}}/index.html" aria-label="Home">
-        <span class="logo" aria-hidden="true"></span>
-        <span class="brand-title">SmartSignalHub</span>
-      </a>
-      <nav class="nav" aria-label="Primary menu">
-        <a class="btn btn-outline btn-sm" href="{{WEB_ROOT}}/index.html">Home</a>
-        <a class="btn btn-outline btn-sm" href="{{WEB_ROOT}}/services.html">Services</a>
-        <a class="btn btn-outline btn-sm" href="{{WEB_ROOT}}/news.html">News</a>
-        <a class="btn btn-outline btn-sm" href="{{WEB_ROOT}}/resources.html">Resources</a>
-        <a class="btn btn-outline btn-sm" href="{{WEB_ROOT}}/portfolio.html">Portfolio</a>
-        <a class="btn btn-primary btn-sm" href="{{WEB_ROOT}}/contact.html">Contact</a>
-      </nav>
+    <!-- Hamburger button -->
+    <button class="menu-toggle" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="nav" aria-label="Primary menu">
+      <button class="menu-close" aria-label="Close menu">
+        <i class="fas fa-times"></i>
+      </button>
+      <a href="/Bitcoin-Live-Signals/index.html">Home</a>
+      <a href="/Bitcoin-Live-Signals/services.html">Services</a>
+      <a href="/Bitcoin-Live-Signals/news.html">News</a>
+      <a href="/Bitcoin-Live-Signals/resources.html">Resources</a>
+      <a href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
+      <a href="/Bitcoin-Live-Signals/about.html">About</a>
+      <a href="/Bitcoin-Live-Signals/contact.html">Contact</a>
+    </nav>
+
+    <!-- Theme switches -->
+    <div class="swatches" aria-label="Theme">
+      <div class="swatch" title="Boss" data-theme="boss"></div>
+      <div class="swatch" title="Ferrari" data-theme="ferrari"></div>
+      <div class="swatch" title="Bull" data-theme="bull"></div>
+      <div class="swatch" title="Joker" data-theme="joker"></div>
     </div>
-  </header>
+  </div>
 
+  <!-- Overlay -->
+  <div class="menu-overlay"></div>
+</header>
   <main id="content" class="container ssn-news">
-    <h1 class="page-title">Daily Crypto Highlights — September 23, 2025</h1>
+    <h1 class="page-title">📢 Daily Crypto Highlights — September 23, 2025</h1>
     <div class="ssn-grid">
-      
+
       <article class="card news-card">
-      
+
       <div class="media">
-      <picture>
-      <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/1fa64c972a8978df_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/1fa64c972a8978df_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
-      <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/1fa64c972a8978df_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/1fa64c972a8978df_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
-      <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-23/1fa64c972a8978df_base.jpg" width="960" height="504" alt="Crypto hacker falls victim to own scam losing $50 million to Inferno Drainer’s phishing attack" referrerpolicy="no-referrer" />
-      </picture>
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/1fa64c972a8978df_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/1fa64c972a8978df_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/1fa64c972a8978df_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/1fa64c972a8978df_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-23/1fa64c972a8978df_base.jpg" width="960" height="504" alt="Crypto hacker falls victim to own scam losing $50 million to Inferno Drainer’s phishing attack" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cryptoslate.com/crypto-hacker-falls-victim-to-own-scam-losing-50-million-to-inferno-drainers-phishing-attack/" target="_blank" rel="noopener">🚀 Crypto hacker falls victim to own scam losing $50 million to Inferno Drainer’s phishing attack</a>
+            </h2>
+            <div class="news-meta">📅 Sep 23, 2025 • CryptoSlate</div>
+          </header>
+
+          <p class="card-text">The hacker who drained UXLINK in a high-profile exploit has ironically become a victim of crypto crime himself. On Sept. 23, blockchain security platform Scam Sniffer reported that the attacker lost roughly 542 million...</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cryptoslate.com/crypto-hacker-falls-victim-to-own-scam-losing-50-million-to-inferno-drainers-phishing-attack/" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/c0a1fcbc5c536d58_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/c0a1fcbc5c536d58_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/c0a1fcbc5c536d58_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/c0a1fcbc5c536d58_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-23/c0a1fcbc5c536d58_base.jpg" width="528" height="352" alt="Bought the dip? These metrics say $112K Bitcoin price was the local bottom" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cointelegraph.com/news/bought-the-dip-these-metrics-say-112k-bitcoin-price-local-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">📈 Bought the dip? These metrics say $112K Bitcoin price was the local bottom</a>
+            </h2>
+            <div class="news-meta">📅 Sep 23, 2025 • Cointelegraph</div>
+          </header>
+
+          <p class="card-text">The latest Bitcoin price pullback toward $112,000 was likely a buy-the-dip opportunity with BTC set to recover, several key market metrics suggest.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/bought-the-dip-these-metrics-say-112k-bitcoin-price-local-bottom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/df1591d3941b44c1_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/df1591d3941b44c1_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/df1591d3941b44c1_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/df1591d3941b44c1_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-23/df1591d3941b44c1_base.jpg" width="528" height="352" alt="Solana’s Alpenglow upgrade could make it faster than Google: Here’s how" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cointelegraph.com/explained/solanas-alpenglow-upgrade-could-make-it-faster-than-google-heres-how?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🌐 Solana’s Alpenglow upgrade could make it faster than Google: Here’s how</a>
+            </h2>
+            <div class="news-meta">📅 Sep 23, 2025 • Cointelegraph</div>
+          </header>
+
+          <p class="card-text">Solana’s Alpenglow upgrade promises 100-150 ms transaction finality — faster than a Google search. Explore how this leap could transform DeFi.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cointelegraph.com/explained/solanas-alpenglow-upgrade-could-make-it-faster-than-google-heres-how?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/3b632823ac8c7c9d_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/3b632823ac8c7c9d_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/3b632823ac8c7c9d_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/3b632823ac8c7c9d_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-23/3b632823ac8c7c9d_base.jpg" width="528" height="352" alt="Samsung taps blockchain startup to train AI for ultrasound devices" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cointelegraph.com/news/samsung-partners-with-desci-protocol-for-web3-healthcare?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🌐 Samsung taps blockchain startup to train AI for ultrasound devices</a>
+            </h2>
+            <div class="news-meta">📅 Sep 23, 2025 • Cointelegraph</div>
+          </header>
+
+          <p class="card-text">Samsung has partnered with decentralized science protocol Galeon to integrate AI features into its ultrasound devices and supply anonymized AI training data.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/samsung-partners-with-desci-protocol-for-web3-healthcare?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/31544a89f8f905b6_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/31544a89f8f905b6_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/31544a89f8f905b6_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/31544a89f8f905b6_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-23/31544a89f8f905b6_base.jpg" width="528" height="352" alt="Bitcoin price to $3.4M by 2028? Arthur Hayes doesn’t think so" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cointelegraph.com/news/bitcoin-price-3-4-million-by-2028-arthur-hayes-doesnt-think-so?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">📈 Bitcoin price to $3.4M by 2028? Arthur Hayes doesn’t think so</a>
+            </h2>
+            <div class="news-meta">📅 Sep 23, 2025 • Cointelegraph</div>
+          </header>
+
+          <p class="card-text">Arthur Hayes made a fresh BTC price prediction, seeing Bitcoin “markedly higher” in three years’ time, but not at $3.4 million per coin.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/bitcoin-price-3-4-million-by-2028-arthur-hayes-doesnt-think-so?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/07a165a5b0d381fd_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/07a165a5b0d381fd_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/07a165a5b0d381fd_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/07a165a5b0d381fd_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-23/07a165a5b0d381fd_base.jpg" width="960" height="540" alt="China Presses Brokers to Halt Real-World Asset Tokenization in Hong Kong: Report" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://decrypt.co/340855/china-presses-brokers-to-halt-real-world-asset-tokenization-in-hong-kong-report" target="_blank" rel="noopener">🔔 China Presses Brokers to Halt Real-World Asset Tokenization in Hong Kong: Report</a>
+            </h2>
+            <div class="news-meta">📅 Sep 23, 2025 • Decrypt</div>
+          </header>
+
+          <p class="card-text">The reported pause on RWA tokenization shows Beijing’s risk concerns, even as Hong Kong accelerates its digital-asset ambitions.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://decrypt.co/340855/china-presses-brokers-to-halt-real-world-asset-tokenization-in-hong-kong-report" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/717038a2ffb9873a_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/717038a2ffb9873a_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/717038a2ffb9873a_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/717038a2ffb9873a_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-23/717038a2ffb9873a_base.jpg" width="528" height="352" alt="How to use Grok 4 to predict altcoin pumps early" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cointelegraph.com/news/grok-4-to-predict-altcoin-pumps-early?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔔 How to use Grok 4 to predict altcoin pumps early</a>
+            </h2>
+            <div class="news-meta">📅 Sep 23, 2025 • Cointelegraph</div>
+          </header>
+
+          <p class="card-text">Traders can use Grok 4 to turn early signals on X into actionable insights, helping them anticipate altcoin rallies and avoid becoming exit liquidity.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/grok-4-to-predict-altcoin-pumps-early?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/ed772c7b2c6415ac_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/ed772c7b2c6415ac_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/ed772c7b2c6415ac_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/ed772c7b2c6415ac_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-23/ed772c7b2c6415ac_base.jpg" width="960" height="504" alt="Base wins Vitalik Buterin praise as 160 TPS sparks an L2 arms race toward $20B territory" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cryptoslate.com/base-wins-vitalik-buterin-praise-as-160-tps-sparks-an-l2-arms-race-toward-20b-territory/" target="_blank" rel="noopener">📰 Base wins Vitalik Buterin praise as 160 TPS sparks an L2 arms race toward $20B territory</a>
+            </h2>
+            <div class="news-meta">📅 Sep 23, 2025 • CryptoSlate</div>
+          </header>
+
+          <p class="card-text">Ethereum co-founder Vitalik Buterin has offered rare public praise for Coinbase&#8217;s Base network, describing it as a benchmark for how Layer 2 solutions should function. In a Sept. 23 post on X, he argued that Base...</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cryptoslate.com/base-wins-vitalik-buterin-praise-as-160-tps-sparks-an-l2-arms-race-toward-20b-territory/" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/2f802fa38efc3027_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/2f802fa38efc3027_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/2f802fa38efc3027_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/2f802fa38efc3027_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-23/2f802fa38efc3027_base.jpg" width="960" height="540" alt="Binance Founder 'CZ' Considers Opening YZi Labs to External Investors: FT" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://www.coindesk.com/business/2025/09/23/binance-founder-cz-considers-opening-yzi-labs-to-external-investors-ft" target="_blank" rel="noopener">💡 Binance Founder 'CZ' Considers Opening YZi Labs to External Investors: FT</a>
+            </h2>
+            <div class="news-meta">📅 Sep 23, 2025 • CoinDesk</div>
+          </header>
+
+          <p class="card-text">Binance Founder 'CZ' Considers Opening YZi Labs to External Investors: FT</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://www.coindesk.com/business/2025/09/23/binance-founder-cz-considers-opening-yzi-labs-to-external-investors-ft" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/128f94a6326564d7_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/128f94a6326564d7_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/128f94a6326564d7_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/128f94a6326564d7_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-23/128f94a6326564d7_base.jpg" width="528" height="352" alt="$657M out of Tesla, $12B into crypto: What Korea’s big bet means for global markets" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cointelegraph.com/explained/657m-out-of-tesla-12b-into-crypto-what-koreas-big-bet-means-for-global-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">📈 $657M out of Tesla, $12B into crypto: What Korea’s big bet means for global markets</a>
+            </h2>
+            <div class="news-meta">📅 Sep 23, 2025 • Cointelegraph</div>
+          </header>
+
+          <p class="card-text">Korean investors dumped Tesla and embraced crypto with $12 billion in inflows. This is reshaping global capital flows and risk.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cointelegraph.com/explained/657m-out-of-tesla-12b-into-crypto-what-koreas-big-bet-means-for-global-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/c10f06a44f5bdfb1_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/c10f06a44f5bdfb1_base.webp 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/c10f06a44f5bdfb1_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/c10f06a44f5bdfb1_base.jpg 960w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-23/c10f06a44f5bdfb1_base.jpg" width="960" height="540" alt="Boerse Stuttgart Digital Expands to Spain as Demand for Crypto Services Rises" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://www.coindesk.com/business/2025/09/23/boerse-stuttgart-digital-expands-to-spain-as-demand-for-crypto-services-rises" target="_blank" rel="noopener">🚀 Boerse Stuttgart Digital Expands to Spain as Demand for Crypto Services Rises</a>
+            </h2>
+            <div class="news-meta">📅 Sep 23, 2025 • CoinDesk</div>
+          </header>
+
+          <p class="card-text">Boerse Stuttgart Digital Expands to Spain as Demand for Crypto Services Rises</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://www.coindesk.com/business/2025/09/23/boerse-stuttgart-digital-expands-to-spain-as-demand-for-crypto-services-rises" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+
+      <article class="card news-card">
+
+      <div class="media">
+        <picture>
+          <source type="image/webp" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/08326802049eeb7a_thumb.webp 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/08326802049eeb7a_base.webp 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <source type="image/jpeg" srcset="/Bitcoin-Live-Signals/assets/news/2025-09-23/08326802049eeb7a_thumb.jpg 480w, /Bitcoin-Live-Signals/assets/news/2025-09-23/08326802049eeb7a_base.jpg 528w" sizes="(min-width:1200px) 33vw, (min-width:768px) 50vw, 100vw" />
+          <img loading="lazy" decoding="async" fetchpriority="low" src="/Bitcoin-Live-Signals/assets/news/2025-09-23/08326802049eeb7a_base.jpg" width="528" height="352" alt="CZ’s $10B crypto fund YZi Labs ‘may’ open to external investors" referrerpolicy="no-referrer" />
+        </picture>
+      </div>
+        <div class="card-inner">
+          <header class="card-head">
+            <h2 class="card-title">
+              <a href="https://cointelegraph.com/news/cz-yzi-labs-may-open-to-external-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🌐 CZ’s $10B crypto fund YZi Labs ‘may’ open to external investors</a>
+            </h2>
+            <div class="news-meta">📅 Sep 23, 2025 • Cointelegraph</div>
+          </header>
+
+          <p class="card-text">CZ’s $10 billion fund, YZi Labs, is exploring external capital amid increasing investor demand and a more open regulatory stance under the Trump administration.</p>
+
+          <footer class="card-actions">
+            <a class="btn btn-sm" href="https://cointelegraph.com/news/cz-yzi-labs-may-open-to-external-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound" target="_blank" rel="noopener">🔗 Original Source</a>
+          </footer>
+        </div>
+      </article>
+    </div>
+    <div style="margin-top:20px">
+      <a class="btn btn-outline btn-sm" href="/Bitcoin-Live-Signals/news.html">← Back to News</a>
     </div>
   </main>
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  <footer class="site-footer" aria-label="Site footer">
-    <div class="container foot-row">
-      <div class="footer-brand">
-        <img src="{{WEB_ROOT}}/assets/favicon.png" alt="SmartSignalHub Logo" class="footer-logo" />
-        <strong>SmartSignalHub</strong>
+<footer class="site-footer" aria-label="Site footer">
+  <div class="container foot-row">
+
+    <!-- Brand -->
+    <div class="footer-brand">
+      <img src="/Bitcoin-Live-Signals/assets/favicon.png" alt="SmartSignalHub Logo" class="footer-logo" />
+      <strong>SmartSignalHub</strong>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="foot-links" aria-label="Footer navigation">
+      <a href="/Bitcoin-Live-Signals/services.html">Services</a>
+      <a href="/Bitcoin-Live-Signals/news.html">News</a>
+      <a href="/Bitcoin-Live-Signals/resources.html">Resources</a>
+      <a href="/Bitcoin-Live-Signals/portfolio.html">Portfolio</a>
+      <a href="/Bitcoin-Live-Signals/about.html">About</a>
+      <a href="/Bitcoin-Live-Signals/contact.html">Contact</a>
+    </nav>
+
+    <!-- Social + Contact -->
+    <div class="social-contact">
+      <div class="social-links">
+        <a href="https://www.facebook.com/CryptoNewsGeorgia" target="_blank" aria-label="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/aleksandre-abashishvili-03417617a" target="_blank" aria-label="LinkedIn" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://x.com/SAbashishvili" target="_blank" aria-label="X" class="x"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.youtube.com/@Smart-Trade-Hub" target="_blank" aria-label="YouTube" class="youtube"><i class="fab fa-youtube"></i></a>
       </div>
 
-      <nav class="foot-links" aria-label="Footer navigation">
-        <a href="{{WEB_ROOT}}/services.html">Services</a>
-        <a href="{{WEB_ROOT}}/news.html">News</a>
-        <a href="{{WEB_ROOT}}/resources.html">Resources</a>
-        <a href="{{WEB_ROOT}}/portfolio.html">Portfolio</a>
-        <a href="{{WEB_ROOT}}/about.html">About</a>
-        <a href="{{WEB_ROOT}}/contact.html">Contact</a>
-      </nav>
-
-      <div class="social-contact">
-        <div class="social-links">
-          <a href="https://www.facebook.com/CryptoNewsGeorgia" target="_blank" aria-label="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://www.linkedin.com/in/aleksandre-abashishvili-03417617a" target="_blank" aria-label="LinkedIn" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://x.com/SAbashishvili" target="_blank" aria-label="X" class="x">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-            </svg>
-          </a>
-          <a href="https://github.com/sandroabashishvili/Bitcoin-Live-Signals" target="_blank" aria-label="GitHub" class="github"><i class="fab fa-github"></i></a>
-          <a href="https://www.youtube.com/@Smart-Trade-Hub" target="_blank" aria-label="YouTube" class="youtube"><i class="fab fa-youtube"></i></a>
-        </div>
-
-        <div class="contact-info">
-          <a href="mailto:sandroabashishvili@gmail.com" class="email">
-            <i class="fas fa-envelope"></i> sandroabashishvili@gmail.com
-          </a>
-          <a href="tel:+4915211084360" class="phone">
-            <i class="fas fa-phone"></i> +49 1521 1084360
-          </a>
-        </div>
+      <div class="contact-info">
+        <a href="mailto:sandroabashishvili@gmail.com" class="email">
+          <i class="fas fa-envelope"></i> sandroabashishvili@gmail.com
+        </a>
+        <a href="tel:+4915211084360" class="phone">
+          <i class="fas fa-phone"></i> +49 1521 1084360
+        </a>
       </div>
     </div>
 
-    <div class="copy">
-      © <span id="year"></span> SmartSignalHub • Educational use only.
-    </div>
-  </footer>
+  </div>
 
-  <!-- Font Awesome CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  
-  <!-- Share functionality -->
-  <script>
-    // Initialize year in footer
-    document.getElementById('year').textContent = new Date().getFullYear();
+  <!-- Copyright -->
+  <div class="copy">
+    © <span id="year"></span> SmartSignalHub • Educational use only.
+  </div>
+</footer>
 
-    // Share functionality
-    function shareUrl(platform, url, title) {
-      const encodedUrl = encodeURIComponent(url);
-      const encodedTitle = encodeURIComponent(title);
-      
-      const shareUrls = {
-        facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
-        twitter: `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`,
-        linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`,
-        email: `mailto:?subject=${encodedTitle}&body=Check out this crypto news: ${encodedUrl}`
-      };
-      
-      if (shareUrls[platform]) {
-        window.open(shareUrls[platform], '_blank', 'width=600,height=400');
-      }
-    }
-
-    function copyToClipboard(url) {
-      if (navigator.clipboard) {
-        navigator.clipboard.writeText(url).then(() => {
-          // Show success feedback
-          const btn = event.target.closest('.share-btn');
-          const originalText = btn.innerHTML;
-          btn.innerHTML = '✓ Copied!';
-          setTimeout(() => {
-            btn.innerHTML = originalText;
-          }, 2000);
-        });
-      } else {
-        // Fallback for older browsers
-        const textArea = document.createElement('textarea');
-        textArea.value = url;
-        document.body.appendChild(textArea);
-        textArea.select();
-        document.execCommand('copy');
-        document.body.removeChild(textArea);
-        alert('Link copied to clipboard!');
-      }
-    }
-
-    // Add share buttons to each news card
-    document.addEventListener('DOMContentLoaded', function() {
-      const newsCards = document.querySelectorAll('.news-card');
-      newsCards.forEach((card, index) => {
-        const cardActions = card.querySelector('.card-actions');
-        if (cardActions) {
-          const currentUrl = window.location.href;
-          const cardTitle = card.querySelector('.card-title a')?.textContent || 'Crypto News';
-          
-          const shareButtons = document.createElement('div');
-          shareButtons.className = 'share-buttons';
-          shareButtons.innerHTML = `
-            <span style="font-size:0.8rem; opacity:0.7;">Share:</span>
-            <button class="share-btn copy" onclick="copyToClipboard('${currentUrl}#card-${index}')" title="Copy Link">🔗</button>
-            <button class="share-btn facebook" onclick="shareUrl('facebook', '${currentUrl}#card-${index}', '${cardTitle.replace(/'/g, "\\'")}'); return false;" title="Share on Facebook">📘</button>
-            <button class="share-btn twitter" onclick="shareUrl('twitter', '${currentUrl}#card-${index}', '${cardTitle.replace(/'/g, "\\'")}'); return false;" title="Share on Twitter">🐦</button>
-            <button class="share-btn linkedin" onclick="shareUrl('linkedin', '${currentUrl}#card-${index}', '${cardTitle.replace(/'/g, "\\'")}'); return false;" title="Share on LinkedIn">💼</button>
-            <button class="share-btn email" onclick="shareUrl('email', '${currentUrl}#card-${index}', '${cardTitle.replace(/'/g, "\\'")}'); return false;" title="Share via Email">📧</button>
-          `;
-          cardActions.appendChild(shareButtons);
-        }
-      });
-    });
-  </script>
 </body>
 </html>

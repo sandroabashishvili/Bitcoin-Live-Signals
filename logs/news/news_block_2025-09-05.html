@@ -1,207 +1,199 @@
-<!doctype html>
-<html lang="en" data-theme="boss">
+
+<!DOCTYPE html>
+<html lang='en'>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SmartSignalHub • Daily Crypto Highlights — September 05, 2025</title>
-  <meta name="description" content="Daily crypto highlights for September 05, 2025 — curated by SmartSignalHub.">
-  <meta property="og:title" content="Daily Crypto Highlights — September 05, 2025">
-  <meta property="og:description" content="Daily crypto highlights for September 05, 2025 — curated by SmartSignalHub.">
-  <meta property="og:type" content="article">
-  <meta property="og:site_name" content="SmartSignalHub">
-  <meta property="og:url" content="https://sandroabashishvili.github.io{{WEB_ROOT}}/logs/news/news_block_2025-09-05.html">
-  <meta property="og:image" content="https://sandroabashishvili.github.io{{WEB_ROOT}}/assets/img/news-preview.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Daily Crypto Highlights — September 05, 2025">
-  <meta name="twitter:description" content="Daily crypto highlights for September 05, 2025 — curated by SmartSignalHub.">
-  <meta name="twitter:image" content="https://sandroabashishvili.github.io{{WEB_ROOT}}/assets/img/news-preview.png">
-  
-  <link rel="icon" type="image/png" href="{{WEB_ROOT}}/assets/favicon.png" />
-  <link rel="stylesheet" href="{{WEB_ROOT}}/assets/css/styles.css" />
-
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+  <meta name='description' content='Daily crypto news powered by SmartSignalHub - stay updated with the freshest blockchain stories.'>
+  <title>📰 SmartSignalHub News</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "\ud83d\udcf0 Daily Crypto Highlights \u2013 2025-09-05",
+  "author": {
+    "@type": "Organization",
+    "name": "SmartSignalHub"
+  },
+  "datePublished": "2025-09-05",
+  "publisher": {
+    "@type": "Organization",
+    "name": "SmartSignalHub"
+  },
+  "description": "Top crypto stories from CoinDesk, Cointelegraph, Decrypt, and CryptoSlate, curated by SmartSignalHub."
+}
+  </script>
   <style>
-    .site-header, .site-footer { position: relative; z-index: 10; }
-    .ssn-news { position: relative; z-index: 0; }
-
-    .ssn-news .ssn-grid { display:grid; gap:20px; grid-template-columns:repeat(1,minmax(0,1fr)); }
-    @media (min-width:768px){ .ssn-news .ssn-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
-    @media (min-width:1200px){ .ssn-news .ssn-grid{ grid-template-columns:repeat(3,minmax(0,1fr)); } }
-
-    .ssn-news .news-card { border:1px solid rgba(255,255,255,.08); border-radius:16px; overflow:hidden;
-      background:rgba(255,255,255,.02); box-shadow:0 2px 12px rgba(0,0,0,.18); transition:transform .2s ease, box-shadow .2s ease; position:static; }
-    .ssn-news .news-card:hover { transform:translateY(-2px); box-shadow:0 6px 22px rgba(0,0,0,.25); }
-    .ssn-news .news-card .media { aspect-ratio:16/9; overflow:hidden; background:#101214; }
-    .ssn-news .news-card picture, .ssn-news .news-card img { width:100%; height:100%; object-fit:cover; display:block; }
-
-    .ssn-news .news-card .card-inner { display:flex; flex-direction:column; padding:12px 14px 14px 14px; gap:8px; min-height:280px; }
-    .ssn-news .news-card .card-head { margin-bottom:2px; }
-    .ssn-news .news-card .card-title { margin:0 0 4px 0; line-height:1.3; }
-    .ssn-news .news-card .news-meta { opacity:.8; font-size:.9rem; }
-
-    .ssn-news .news-card .card-text { margin:0; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; line-clamp:3; }
-
-    .ssn-news .news-card .card-actions { margin-top:auto; display:flex; justify-content:space-between; align-items:center; gap:10px; }
-    
-    /* Share buttons styling */
-    .share-buttons { display:flex; gap:8px; align-items:center; }
-    .share-btn { 
-      display:inline-flex; align-items:center; gap:4px; padding:4px 8px; border-radius:6px; 
-      background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.1);
-      color:inherit; text-decoration:none; font-size:0.85rem; transition:all .2s ease;
-      cursor:pointer;
+    :root {
+      --bg: #eef1f5;
+      --card-bg: #ffffff;
+      --accent: #007acc;
+      --dark: #121b2e;
+      --text: #333;
     }
-    .share-btn:hover { background:rgba(255,255,255,.1); transform:translateY(-1px); }
-    .share-btn.copy { color:#64b5f6; }
-    .share-btn.facebook { color:#1877f2; }
-    .share-btn.twitter { color:#1da1f2; }
-    .share-btn.linkedin { color:#0a66c2; }
-    .share-btn.email { color:#ea4335; }
-
-    .shimmer, .shimmer::after { animation:none !important; background:none !important; content:none !important; }
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+    }
+    header {
+      background: var(--dark);
+      padding: 30px 20px;
+      color: #fff;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+    .news-item {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+      transition: transform 0.2s ease;
+    }
+    .news-item:hover {
+      transform: translateY(-2px);
+    }
+    .news-meta {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 6px;
+    }
+    .news-title {
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--accent);
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    .news-image {
+      max-height: 220px;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+      margin: 10px 0;
+    }
+    .news-summary {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #444;
+    }
+    .details-button {
+      margin-top: 10px;
+      display: inline-block;
+      padding: 8px 14px;
+      background: var(--accent);
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+      aria-label: 'Read full article'
+    }
+    .emoji-animate {
+      display: inline-block;
+      animation: bounce 1.5s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
   </style>
 </head>
 <body>
-
-  <header class="site-header" aria-label="Site header">
-    <div class="container header-row">
-      <a class="brand" href="{{WEB_ROOT}}/index.html" aria-label="Home">
-        <span class="logo" aria-hidden="true"></span>
-        <span class="brand-title">SmartSignalHub</span>
-      </a>
-      <nav class="nav" aria-label="Primary menu">
-        <a class="btn btn-outline btn-sm" href="{{WEB_ROOT}}/index.html">Home</a>
-        <a class="btn btn-outline btn-sm" href="{{WEB_ROOT}}/services.html">Services</a>
-        <a class="btn btn-outline btn-sm" href="{{WEB_ROOT}}/news.html">News</a>
-        <a class="btn btn-outline btn-sm" href="{{WEB_ROOT}}/resources.html">Resources</a>
-        <a class="btn btn-outline btn-sm" href="{{WEB_ROOT}}/portfolio.html">Portfolio</a>
-        <a class="btn btn-primary btn-sm" href="{{WEB_ROOT}}/contact.html">Contact</a>
-      </nav>
-    </div>
+  <header>
+    <h1><span class="emoji-animate">📰</span> Daily Crypto Highlights – 2025-09-05</h1>
+    <p>Powered by SmartSignalHub • Auto-generated market news and updates</p>
   </header>
+  <main class="container" role="main">
 
-  <main id="content" class="container ssn-news">
-    <h1 class="page-title">Daily Crypto Highlights — September 05, 2025</h1>
-    <div class="ssn-grid">
-      <p>No news content found for this date.</p>
-    </div>
-  </main>
+    <section class='news-item'>
+      <p class='news-meta'>📅 2025-09-05 • Cointelegraph</p>
+      <a href='https://cointelegraph.com/news/ethereum-bull-run-eth-exchange-flux-turns-negative-for-the-first-time?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound' target='_blank' class='news-title'>Ethereum bull alert: ETH exchange ‘flux’ turns negative for the first time</a>
+      <img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDIvMDE5NTBlNTctNmFmMC03MjczLWJkOWQtODMwMDZlOTFmZTQ2.jpg" alt="Ethereum bull alert: ETH exchange ‘flux’ turns negative for the first time" class="news-image">
+      <p class='news-summary'>Ether’s exchange flux metric turned negative for the first time in history, signaling a shift in investor behavior and Ether’s potential to resume its uptrend.</p>
+      <a href='https://cointelegraph.com/news/ethereum-bull-run-eth-exchange-flux-turns-negative-for-the-first-time?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound' target='_blank' class='details-button'>🔗 Read Full Article</a>
+    </section>
 
-  <footer class="site-footer" aria-label="Site footer">
-    <div class="container foot-row">
-      <div class="footer-brand">
-        <img src="{{WEB_ROOT}}/assets/favicon.png" alt="SmartSignalHub Logo" class="footer-logo" />
-        <strong>SmartSignalHub</strong>
-      </div>
+    <section class='news-item'>
+      <p class='news-meta'>📅 2025-09-05 • Cointelegraph</p>
+      <a href='https://cointelegraph.com/explained/how-one-trader-turned-125k-into-43m-on-ether-and-what-you-can-learn-from-it?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound' target='_blank' class='news-title'>How one trader turned $125K into $43M on Ether — and what you can learn from it</a>
+      <img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8wOTZmZmNiYjIxNjczNmIwODY5YWNlZjFkNTQ5Y2VlNy5qcGc=.jpg" alt="How one trader turned $125K into $43M on Ether — and what you can learn from it" class="news-image">
+      <p class='news-summary'>A trader grew $125,000 into $43 million on Ethereum with leverage on Hyperliquid, then cashed out $6.86 million. Here’s what traders can learn. How one trader turned $125K into $43M on Ether — and what you can learn from it</p>
+      <a href='https://cointelegraph.com/explained/how-one-trader-turned-125k-into-43m-on-ether-and-what-you-can-learn-from-it?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound' target='_blank' class='details-button'>🔗 Read Full Article</a>
+    </section>
 
-      <nav class="foot-links" aria-label="Footer navigation">
-        <a href="{{WEB_ROOT}}/services.html">Services</a>
-        <a href="{{WEB_ROOT}}/news.html">News</a>
-        <a href="{{WEB_ROOT}}/resources.html">Resources</a>
-        <a href="{{WEB_ROOT}}/portfolio.html">Portfolio</a>
-        <a href="{{WEB_ROOT}}/about.html">About</a>
-        <a href="{{WEB_ROOT}}/contact.html">Contact</a>
-      </nav>
+    <section class='news-item'>
+      <p class='news-meta'>📅 2025-09-05 • Decrypt</p>
+      <a href='https://decrypt.co/338287/ethereum-ico-whale-stakes-645-million-eth' target='_blank' class='news-title'>Ethereum ICO Whale Awakens, Stakes $645 Million ETH</a>
+      <img src="https://cdn.decrypt.co/wp-content/uploads/2025/05/ethereum-decrypt-style-05-gID_7.png" alt="Ethereum ICO Whale Awakens, Stakes $645 Million ETH" class="news-image">
+      <p class='news-summary'>The whale still holds $1.1 billion in ETH, onchain data indicates. Ethereum ICO Whale Awakens, Stakes $645 Million ETH</p>
+      <a href='https://decrypt.co/338287/ethereum-ico-whale-stakes-645-million-eth' target='_blank' class='details-button'>🔗 Read Full Article</a>
+    </section>
 
-      <div class="social-contact">
-        <div class="social-links">
-          <a href="https://www.facebook.com/CryptoNewsGeorgia" target="_blank" aria-label="Facebook" class="facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://www.linkedin.com/in/aleksandre-abashishvili-03417617a" target="_blank" aria-label="LinkedIn" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-          <a href="https://x.com/SAbashishvili" target="_blank" aria-label="X" class="x">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-            </svg>
-          </a>
-          <a href="https://github.com/sandroabashishvili/Bitcoin-Live-Signals" target="_blank" aria-label="GitHub" class="github"><i class="fab fa-github"></i></a>
-          <a href="https://www.youtube.com/@Smart-Trade-Hub" target="_blank" aria-label="YouTube" class="youtube"><i class="fab fa-youtube"></i></a>
-        </div>
+    <section class='news-item'>
+      <p class='news-meta'>📅 2025-09-05 • Decrypt</p>
+      <a href='https://decrypt.co/resources/what-is-ethereum-quickly-explained-four-minute-guide' target='_blank' class='news-title'>What is Ethereum (ETH)? A Beginner's Guide to the Smart Contract Blockchain</a>
+      <img src="https://cdn.decrypt.co/wp-content/uploads/2019/03/etherium_litepaper-gID_1-pID_3.png" alt="What is Ethereum (ETH)? A Beginner's Guide to the Smart Contract Blockchain" class="news-image">
+      <p class='news-summary'>Created by Vitalik Buterin, Ethereum is a blockchain that enables smart contracts and dapps to operate on its network. What is Ethereum (ETH)? A Beginner's Guide to the Smart Contract Blockchain</p>
+      <a href='https://decrypt.co/resources/what-is-ethereum-quickly-explained-four-minute-guide' target='_blank' class='details-button'>🔗 Read Full Article</a>
+    </section>
 
-        <div class="contact-info">
-          <a href="mailto:sandroabashishvili@gmail.com" class="email">
-            <i class="fas fa-envelope"></i> sandroabashishvili@gmail.com
-          </a>
-          <a href="tel:+4915211084360" class="phone">
-            <i class="fas fa-phone"></i> +49 1521 1084360
-          </a>
-        </div>
-      </div>
-    </div>
+    <section class='news-item'>
+      <p class='news-meta'>📅 2025-09-05 • CryptoSlate</p>
+      <a href='https://cryptoslate.com/insights/bitcoin-and-ethereum-etfs-lose-almost-400m-but-institutional-interest-still-active/' target='_blank' class='news-title'>Bitcoin and Ethereum ETFs lose almost $400M but institutional interest still active</a>
+      <img src="https://cryptoslate.com/wp-content/uploads/2025/09/ethereum-bitcoin-down.jpg" alt="Bitcoin and Ethereum ETFs lose almost $400M but institutional interest still active" class="news-image">
+      <p class='news-summary'>Spot Bitcoin and Ethereum ETFs posted significant outflows of nearly $400 million on Sept. 4, extending the asset class&#8217;s week of uneven performance. According to SoSoValue data, Bitcoin ETFs reversed a two-day streak of inflows and...</p>
+      <a href='https://cryptoslate.com/insights/bitcoin-and-ethereum-etfs-lose-almost-400m-but-institutional-interest-still-active/' target='_blank' class='details-button'>🔗 Read Full Article</a>
+    </section>
 
-    <div class="copy">
-      © <span id="year"></span> SmartSignalHub • Educational use only.
-    </div>
-  </footer>
+    <section class='news-item'>
+      <p class='news-meta'>📅 2025-09-05 • CryptoSlate</p>
+      <a href='https://cryptoslate.com/hyperliquid-is-planning-usdh-stablecoin-launch/' target='_blank' class='news-title'>Hyperliquid’s new USDH stablecoin launch could redirect $220M to HYPE holders</a>
+      <img src="https://cryptoslate.com/wp-content/uploads/2025/09/stablecoin-hyperliquid.jpg" alt="Hyperliquid’s new USDH stablecoin launch could redirect $220M to HYPE holders" class="news-image">
+      <p class='news-summary'>Hyperliquid is preparing a governance-driven launch of its native stablecoin, USDH, in its next network upgrade, according to a Sept. 5 update on the DEX Discord channel. The protocol described USDH as a “Hyperliquid-first and compliant”...</p>
+      <a href='https://cryptoslate.com/hyperliquid-is-planning-usdh-stablecoin-launch/' target='_blank' class='details-button'>🔗 Read Full Article</a>
+    </section>
 
-  <!-- Font Awesome CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  
-  <!-- Share functionality -->
-  <script>
-    // Initialize year in footer
-    document.getElementById('year').textContent = new Date().getFullYear();
+    <section class='news-item'>
+      <p class='news-meta'>📅 2025-09-05 • Cointelegraph</p>
+      <a href='https://cointelegraph.com/news/bitcoin-price-ignores-major-us-payrolls-miss-erase-113-4k-surge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound' target='_blank' class='news-title'>Bitcoin price ignores major US payrolls miss to erase $113.4K surge</a>
+      <img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjQtMTIvMDE5MzljNzUtMDM0YS03ZGVjLWE2MzQtZmY0YTZkNDIyMmIx.jpg" alt="Bitcoin price ignores major US payrolls miss to erase $113.4K surge" class="news-image">
+      <p class='news-summary'>Bitcoin price strength disappears despite nonfarm payrolls data cementing Fed rate cut bets, and bulls are nowhere to be seen. Bitcoin price ignores major US payrolls miss to erase $113.4K surge</p>
+      <a href='https://cointelegraph.com/news/bitcoin-price-ignores-major-us-payrolls-miss-erase-113-4k-surge?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound' target='_blank' class='details-button'>🔗 Read Full Article</a>
+    </section>
 
-    // Share functionality
-    function shareUrl(platform, url, title) {
-      const encodedUrl = encodeURIComponent(url);
-      const encodedTitle = encodeURIComponent(title);
-      
-      const shareUrls = {
-        facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
-        twitter: `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`,
-        linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`,
-        email: `mailto:?subject=${encodedTitle}&body=Check out this crypto news: ${encodedUrl}`
-      };
-      
-      if (shareUrls[platform]) {
-        window.open(shareUrls[platform], '_blank', 'width=600,height=400');
-      }
-    }
+    <section class='news-item'>
+      <p class='news-meta'>📅 2025-09-05 • Cointelegraph</p>
+      <a href='https://cointelegraph.com/news/kazakhstan-accept-regulatory-fees-usd-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound' target='_blank' class='news-title'>Kazakhstan pilots USD-pegged stablecoin payments for regulatory fees</a>
+      <img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDkvMDE5OTE5ZTEtNDE4Zi03YWU3LWJiMTYtMzBmOTQzZjI4Nzk2.jpg" alt="Kazakhstan pilots USD-pegged stablecoin payments for regulatory fees" class="news-image">
+      <p class='news-summary'>Crypto exchange Bybit has become the first crypto exchange to debut stablecoin payments for regulatory fees in Kazakhstan’s AIFC. Kazakhstan pilots USD-pegged stablecoin payments for regulatory fees</p>
+      <a href='https://cointelegraph.com/news/kazakhstan-accept-regulatory-fees-usd-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound' target='_blank' class='details-button'>🔗 Read Full Article</a>
+    </section>
 
-    function copyToClipboard(url) {
-      if (navigator.clipboard) {
-        navigator.clipboard.writeText(url).then(() => {
-          // Show success feedback
-          const btn = event.target.closest('.share-btn');
-          const originalText = btn.innerHTML;
-          btn.innerHTML = '✓ Copied!';
-          setTimeout(() => {
-            btn.innerHTML = originalText;
-          }, 2000);
-        });
-      } else {
-        // Fallback for older browsers
-        const textArea = document.createElement('textarea');
-        textArea.value = url;
-        document.body.appendChild(textArea);
-        textArea.select();
-        document.execCommand('copy');
-        document.body.removeChild(textArea);
-        alert('Link copied to clipboard!');
-      }
-    }
+    <section class='news-item'>
+      <p class='news-meta'>📅 2025-09-05 • Cointelegraph</p>
+      <a href='https://cointelegraph.com/explained/heres-why-you-wouldnt-be-a-bitcoin-millionaire-from-a-2010-1-purchase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound' target='_blank' class='news-title'>Here’s why you wouldn’t be a Bitcoin millionaire from a 2010 $1 purchase</a>
+      <img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS9zdG9yYWdlL3VwbG9hZHMvdmlldy8wNDc5ZmQzNjg1MzNkZjI0MDYxMjJjOWZhMTZkODllMC5qcGc=.jpg" alt="Here’s why you wouldn’t be a Bitcoin millionaire from a 2010 $1 purchase" class="news-image">
+      <p class='news-summary'>The $1-to-Bitcoin-millionaire story is mostly a myth. Discover why early buyers faced extreme volatility, exchange collapses, lost private keys and more.</p>
+      <a href='https://cointelegraph.com/explained/heres-why-you-wouldnt-be-a-bitcoin-millionaire-from-a-2010-1-purchase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound' target='_blank' class='details-button'>🔗 Read Full Article</a>
+    </section>
 
-    // Add share buttons to each news card
-    document.addEventListener('DOMContentLoaded', function() {
-      const newsCards = document.querySelectorAll('.news-card');
-      newsCards.forEach((card, index) => {
-        const cardActions = card.querySelector('.card-actions');
-        if (cardActions) {
-          const currentUrl = window.location.href;
-          const cardTitle = card.querySelector('.card-title a')?.textContent || 'Crypto News';
-          
-          const shareButtons = document.createElement('div');
-          shareButtons.className = 'share-buttons';
-          shareButtons.innerHTML = `
-            <span style="font-size:0.8rem; opacity:0.7;">Share:</span>
-            <button class="share-btn copy" onclick="copyToClipboard('${currentUrl}#card-${index}')" title="Copy Link">🔗</button>
-            <button class="share-btn facebook" onclick="shareUrl('facebook', '${currentUrl}#card-${index}', '${cardTitle.replace(/'/g, "\\'")}'); return false;" title="Share on Facebook">📘</button>
-            <button class="share-btn twitter" onclick="shareUrl('twitter', '${currentUrl}#card-${index}', '${cardTitle.replace(/'/g, "\\'")}'); return false;" title="Share on Twitter">🐦</button>
-            <button class="share-btn linkedin" onclick="shareUrl('linkedin', '${currentUrl}#card-${index}', '${cardTitle.replace(/'/g, "\\'")}'); return false;" title="Share on LinkedIn">💼</button>
-            <button class="share-btn email" onclick="shareUrl('email', '${currentUrl}#card-${index}', '${cardTitle.replace(/'/g, "\\'")}'); return false;" title="Share via Email">📧</button>
-          `;
-          cardActions.appendChild(shareButtons);
-        }
-      });
-    });
-  </script>
-</body>
-</html>
+    <section class='news-item'>
+      <p class='news-meta'>📅 2025-09-05 • Cointelegraph</p>
+      <a href='https://cointelegraph.com/news/verification-harder-onlyfans-crypto-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound' target='_blank' class='news-title'>Why is verification harder on OnlyFans than crypto exchanges?</a>
+      <img src="https://images.cointelegraph.com/images/528_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjUtMDkvMDE5OTE5NmQtODJjYS03ODRmLThiN2YtYjM0NmIxMTQyMmJk.jpg" alt="Why is verification harder on OnlyFans than crypto exchanges?" class="news-image">
+      <p class='news-summary'>OnlyFans and Pornhub creator accounts may be harder to secure than a crypto account, but stricter hurdles don’t always mean stronger KYC. Why is verification harder on OnlyFans than crypto exchanges?</p>
+      <a href='https://cointelegraph.com/news/verification-harder-onlyfans-crypto-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound' target='_blank' class='details-button'>🔗 Read Full Article</a>
+    </section>
+</main></body></html>
