@@ -1,0 +1,196 @@
+{
+  "day_iso": "2026-07-29",
+  "generated_at_utc": "2026-07-29 22:05:53 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Robinhood Posts Best Quarter Ever as Prediction Market and Robinhood Chain Take Off",
+      "link": "https://decrypt.co/374693/robinhood-earnings-best-quarter-ever-crypto",
+      "summary": "Robinhood posted a record $1.31 billion in revenue in Q2. Prediction markets are now doing the work crypto used to for the company.",
+      "source": "Decrypt",
+      "date": "2026-07-29",
+      "date_human": "Jul 29, 2026",
+      "pub_ts": 1785362484,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png",
+      "image_local": null
+    },
+    {
+      "title": "Robinhood posts record quarter, but crypto revenue slides 38%",
+      "link": "https://cointelegraph.com/news/robinhood-record-quarter-crypto-revenue-slides",
+      "summary": "The online brokerage continued expanding its digital asset business with Robinhood Chain, tokenized stocks and decentralized lending even as cryptocurrency transaction revenue declined.",
+      "source": "Cointelegraph",
+      "date": "2026-07-29",
+      "date_human": "Jul 29, 2026",
+      "pub_ts": 1785362015,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/robinhood.jpg"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/robinhood.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Three key demand drivers stall at once, leaving Bitcoin's $64,000 support to long-term holders",
+      "link": "https://cryptoslate.com/three-key-demand-drivers-stall-at-once-leaving-bitcoins-64000-support-to-long-term-holders/",
+      "summary": "ETF outflows, softer perpetual buying and stagnant on-chain capital leave long-term holders carrying the immediate support test. The post Three key demand drivers stall at once, leaving Bitcoin’s $64,000 support to long-term holders appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-29",
+      "date_human": "Jul 29, 2026",
+      "pub_ts": 1785360330,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/bitcoin-64000-test-electric-market-fracture.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/bitcoin-64000-test-electric-market-fracture.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Robinhood slides 4% despite earnings beat as crypto revenue cools",
+      "link": "https://www.coindesk.com/markets/2026/07/29/robinhood-slides-4-despite-earnings-beat-as-crypto-revenue-cools",
+      "summary": "Robinhood slides 4% despite earnings beat as crypto revenue cools",
+      "source": "CoinDesk",
+      "date": "2026-07-29",
+      "date_human": "Jul 29, 2026",
+      "pub_ts": 1785357643,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/da9ffcdfcd965614c3a32a2e673631861308b387-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/da9ffcdfcd965614c3a32a2e673631861308b387-1920x1080.jpg?auto=format&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/da9ffcdfcd965614c3a32a2e673631861308b387-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "Flock Cameras Face Growing Backlash as Privacy Concerns Reach Capitol Hill",
+      "link": "https://decrypt.co/374603/flock-cameras-backlash-privacy-concerns-capitol-hill",
+      "summary": "Growing opposition across America to Flock cameras has reached Capitol Hill, where Rep. Thomas Massie plans legislation to block federal funding for the technology.",
+      "source": "Decrypt",
+      "date": "2026-07-29",
+      "date_human": "Jul 29, 2026",
+      "pub_ts": 1785357963,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2020/02/privacy-surveillance-uk-brave-google-gID_4.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2020/02/privacy-surveillance-uk-brave-google-gID_4.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2020/02/privacy-surveillance-uk-brave-google-gID_4.jpg"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2020/02/privacy-surveillance-uk-brave-google-gID_4.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Binance.US to attempt prediction markets entry as CFTC-licensed entity, says CEO",
+      "link": "https://cointelegraph.com/news/binance-us-prediction-markets-cftc-designated-contract-market",
+      "summary": "The CEO of the US crypto exchange said that the company would apply for a license with the CFTC in August allowing it to offer prediction markets.",
+      "source": "Cointelegraph",
+      "date": "2026-07-29",
+      "date_human": "Jul 29, 2026",
+      "pub_ts": 1785361947,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/paper-document-man-office-cftc.jpg"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/paper-document-man-office-cftc.jpg",
+      "image_local": null
+    },
+    {
+      "title": "“There's no free money forever”: Twenty One Capital's new CEO warns the Bitcoin treasury playbook is dying",
+      "link": "https://cryptoslate.com/theres-no-free-money-forever-twenty-one-capitals-new-ceo-warns-the-bitcoin-treasury-playbook-is-dying/",
+      "summary": "Raphael Zagury says mining and other cash-generating businesses could deliver better risk-adjusted returns measured in Bitcoin. The post “There’s no free money forever”: Twenty One Capital’s new CEO warns the Bitcoin treasury playbook is dying appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-29",
+      "date_human": "Jul 29, 2026",
+      "pub_ts": 1785354950,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/twenty-one-capital-bitcoin-cash-flow-machine.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/twenty-one-capital-bitcoin-cash-flow-machine.jpg",
+      "image_local": null
+    },
+    {
+      "title": "As crypto perpetual futures boom, Ethereum's role is shifting",
+      "link": "https://www.coindesk.com/tech/2026/07/29/as-crypto-perpetual-futures-boom-ethereum-s-role-is-shifting",
+      "summary": "As crypto perpetual futures boom, Ethereum's role is shifting",
+      "source": "CoinDesk",
+      "date": "2026-07-29",
+      "date_human": "Jul 29, 2026",
+      "pub_ts": 1785348000,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/8bc1038e9ca9f4263eacbec0c28283f27058eed6-1440x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/8bc1038e9ca9f4263eacbec0c28283f27058eed6-1440x1080.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/8bc1038e9ca9f4263eacbec0c28283f27058eed6-1440x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "There's a New Way to Protect Bitcoin From Future Quantum Attacks, Researchers Say",
+      "link": "https://decrypt.co/374651/new-research-bitcoin-wallet-quantum-attacks-safe",
+      "summary": "New research outlines a cryptographic approach that could allow Bitcoin and other blockchain wallets to remain compatible with existing addresses in a post-quantum future.",
+      "source": "Decrypt",
+      "date": "2026-07-29",
+      "date_human": "Jul 29, 2026",
+      "pub_ts": 1785355263,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png",
+      "image_local": null
+    },
+    {
+      "title": "Crypto entering biggest consolidation phase in history, says ARK analyst",
+      "link": "https://cointelegraph.com/news/crypto-entering-biggest-consolidation-phase-in-history-says-ark-analyst",
+      "summary": "ARK Invest’s Lorenzo Valente says revenue is becoming increasingly concentrated among a handful of crypto protocols, setting the stage for more mergers, acquisitions and exchange closures.",
+      "source": "Cointelegraph",
+      "date": "2026-07-29",
+      "date_human": "Jul 29, 2026",
+      "pub_ts": 1785357638,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/layoffs-fired-human-resource-hr-leaving-quit-closing-breaking-news-2.jpg"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/layoffs-fired-human-resource-hr-leaving-quit-closing-breaking-news-2.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Goldman Sachs notes tied to Strategy set to pay just 22 cents on the dollar at maturity",
+      "link": "https://cryptoslate.com/goldman-sachs-notes-tied-to-strategy-set-to-pay-just-22-cents-on-the-dollar-at-maturity/",
+      "summary": "MSTR’s July 24 close indicates a $217 return per $1,000 note, pending GS&Co.’s final calculation. The post Goldman Sachs notes tied to Strategy set to pay just 22 cents on the dollar at maturity appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-29",
+      "date_human": "Jul 29, 2026",
+      "pub_ts": 1785351342,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/mstr-note-shredded-by-goldman-sachs.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/mstr-note-shredded-by-goldman-sachs.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Fed holds rates steady, extending pause as markets await Kevin Warsh's policy roadmap",
+      "link": "https://www.coindesk.com/markets/2026/07/29/fomc-hold-fed-holds-rates-steady-extending-pause-as-markets-await-warsh-s-policy-roadmap",
+      "summary": "Fed holds rates steady, extending pause as markets await Kevin Warsh's policy roadmap",
+      "source": "CoinDesk",
+      "date": "2026-07-29",
+      "date_human": "Jul 29, 2026",
+      "pub_ts": 1785347913,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/aff32b708a5b4266e041a4eb460baa2d9236e4bb-3973x2235.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/aff32b708a5b4266e041a4eb460baa2d9236e4bb-3973x2235.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/aff32b708a5b4266e041a4eb460baa2d9236e4bb-3973x2235.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    }
+  ]
+}

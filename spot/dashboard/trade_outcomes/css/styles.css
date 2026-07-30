@@ -1,0 +1,282 @@
+@import url("/Bitcoin-Live-Signals/shared/components/css/styles.css");
+
+.panel,
+.metric-card,
+.timeframe-card,
+.runtime-table,
+.table-control-button {
+  border: 0;
+}
+
+.page > .panel.panel-wide + .panel.panel-wide,
+.page > .panel.panel-wide + .footer-status {
+  margin-top: 18px;
+}
+
+.strategy-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.trade-outcomes-summary-grid {
+  grid-template-columns: 1fr;
+}
+
+.trade-outcomes-summary-grid .panel-intro {
+  margin-bottom: 12px;
+}
+
+.kpi-grid {
+  gap: 8px;
+}
+
+.kpi-grid .metric-card {
+  padding: 10px 11px;
+}
+
+.kpi-grid .metric-card span {
+  margin-bottom: 5px;
+}
+
+.kpi-grid .metric-card strong {
+  font-size: 16px;
+}
+
+.trade-outcomes-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  align-items: stretch;
+  width: 100%;
+}
+
+.trade-outcomes-kpi-grid .metric-card {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 9px 11px;
+  border-radius: 16px;
+}
+
+.trade-outcomes-kpi-grid .metric-card span {
+  margin-bottom: 6px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.trade-outcomes-kpi-grid .metric-card strong {
+  font-size: 16px;
+  line-height: 1.15;
+}
+
+@media (max-width: 1100px) {
+  .trade-outcomes-kpi-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .trade-outcomes-kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.strategy-logic-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.strategy-logic-card {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.strategy-donut-shell {
+  height: 170px !important;
+  width: 100%;
+  margin: 0;
+}
+
+.strategy-logic-table-shell {
+  min-width: 0;
+  margin-top: 12px;
+  width: 100%;
+}
+
+.strategy-logic-table-title {
+  margin-bottom: 6px;
+  color: var(--text);
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+.strategy-logic-table-subtitle {
+  margin: -2px 0 10px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.strategy-logic-table-shell .runtime-table th,
+.strategy-logic-table-shell .runtime-table td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+.strategy-logic-table-shell .gate-table th {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.strategy-logic-table-shell .gate-table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.strategy-logic-table-shell .gate-table th:first-child,
+.strategy-logic-table-shell .gate-table td:first-child {
+  width: 28%;
+}
+
+.strategy-logic-table-shell .gate-table td strong {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.strategy-logic-table-shell .gate-table td {
+  font-size: 11px;
+  line-height: 1.25;
+}
+
+.table-shell .paginated-runtime-table {
+  min-width: 980px;
+}
+
+.table-shell .recent-signals-table {
+  width: max-content;
+  min-width: 1060px;
+}
+
+.table-shell .recent-signals-table th,
+.table-shell .recent-signals-table td {
+  white-space: nowrap;
+}
+
+.table-shell .recent-signals-table th:nth-child(1),
+.table-shell .recent-signals-table td:nth-child(1) {
+  min-width: 150px;
+}
+
+.table-shell .recent-signals-table th:nth-child(2),
+.table-shell .recent-signals-table td:nth-child(2) {
+  min-width: 70px;
+}
+
+.table-shell .recent-signals-table th:nth-child(3),
+.table-shell .recent-signals-table td:nth-child(3) {
+  min-width: 64px;
+}
+
+.table-shell .recent-signals-table th:nth-child(4),
+.table-shell .recent-signals-table td:nth-child(4) {
+  min-width: 200px;
+}
+
+.table-shell .recent-signals-table th:nth-child(5),
+.table-shell .recent-signals-table td:nth-child(5) {
+  min-width: 126px;
+}
+
+.table-shell .recent-signals-table th:nth-child(6),
+.table-shell .recent-signals-table td:nth-child(6) {
+  min-width: 92px;
+}
+
+.table-shell .recent-signals-table th:nth-child(7),
+.table-shell .recent-signals-table td:nth-child(7) {
+  min-width: 132px;
+}
+
+@media (max-width: 640px) {
+  .strategy-summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .strategy-logic-grid,
+  .strategy-logic-tables {
+    grid-template-columns: 1fr;
+  }
+
+  .kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .trade-outcomes-kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .table-controls {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+
+  .table-controls-group {
+    justify-content: flex-start;
+    align-self: flex-start;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .table-controls-status {
+    text-align: left;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .table-control-button {
+    min-width: 0;
+    padding: 6px 9px;
+    font-size: 12px;
+    line-height: 1.2;
+    border-radius: 10px;
+    background: transparent;
+  }
+}
+
+@media (max-width: 400px) {
+  .strategy-logic-table-shell .gate-table th,
+  .strategy-logic-table-shell .gate-table td {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .strategy-logic-table-shell .gate-table th:first-child,
+  .strategy-logic-table-shell .gate-table td:first-child {
+    width: 24%;
+  }
+
+  .strategy-logic-table-shell .gate-table td strong {
+    font-size: 12px;
+  }
+
+  .strategy-logic-table-shell .gate-table td {
+    font-size: 10px;
+  }
+}

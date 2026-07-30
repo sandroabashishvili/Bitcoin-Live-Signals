@@ -1,0 +1,305 @@
+@import url("/Bitcoin-Live-Signals/shared/components/css/styles.css");
+
+.panel,
+.metric-card,
+.timeframe-card,
+.runtime-table,
+.table-control-button {
+  border: 0;
+}
+
+.page > .panel.panel-wide + .panel.panel-wide,
+.page > .panel.panel-wide + .footer-status {
+  margin-top: 18px;
+}
+
+.strategy-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.trade-outcomes-summary-grid {
+  grid-template-columns: 1fr;
+}
+
+.trade-outcomes-summary-grid .panel-intro {
+  margin-bottom: 12px;
+}
+
+.kpi-grid {
+  gap: 8px;
+}
+
+.kpi-grid .metric-card {
+  padding: 10px 11px;
+}
+
+.kpi-grid .metric-card span {
+  margin-bottom: 5px;
+}
+
+.kpi-grid .metric-card strong {
+  font-size: 16px;
+}
+
+.trade-outcomes-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+  align-items: stretch;
+  width: 100%;
+}
+
+.trade-outcomes-kpi-grid .metric-card {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 9px 11px;
+  border-radius: 16px;
+}
+
+.trade-outcomes-kpi-grid .metric-card span {
+  margin-bottom: 6px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.trade-outcomes-kpi-grid .metric-card strong {
+  font-size: 16px;
+  line-height: 1.15;
+}
+
+@media (max-width: 1100px) {
+  .trade-outcomes-kpi-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .trade-outcomes-kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.strategy-logic-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.strategy-logic-card {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.strategy-logic-paired-grid .strategy-gate-direction-card {
+  flex: 1 1 auto;
+  margin-top: 4px;
+}
+
+.strategy-donut-shell {
+  height: 170px !important;
+  width: 100%;
+  margin: 0;
+}
+
+.strategy-logic-table-shell {
+  min-width: 0;
+  margin-top: 12px;
+  width: 100%;
+}
+
+.strategy-gate-direction-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.strategy-gate-direction-card {
+  min-width: 0;
+  padding: 14px;
+  border-radius: 16px;
+  background: rgba(15, 25, 34, 0.6);
+}
+
+.strategy-gate-direction-head {
+  margin-bottom: 10px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid rgba(147, 197, 253, 0.14);
+}
+
+.strategy-gate-direction-head h3 {
+  margin: 0;
+  color: var(--text);
+  font-size: 22px;
+  line-height: 1.15;
+}
+
+.strategy-gate-direction-head p {
+  margin: 5px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.strategy-logic-table-shell .runtime-table th,
+.strategy-logic-table-shell .runtime-table td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+.strategy-logic-table-shell .gate-table th {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.strategy-logic-table-shell .gate-table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.strategy-logic-table-shell .gate-table td strong {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.strategy-logic-table-shell .gate-table td {
+  font-size: 11px;
+  line-height: 1.25;
+}
+
+.strategy-logic-table-shell .direction-gate-table {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  table-layout: fixed;
+}
+
+.strategy-logic-table-shell .direction-gate-table th,
+.strategy-logic-table-shell .direction-gate-table td {
+  padding-left: 6px;
+  padding-right: 6px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.strategy-logic-table-shell .direction-gate-table th:first-child,
+.strategy-logic-table-shell .direction-gate-table td:first-child {
+  width: 12%;
+}
+
+.strategy-logic-table-shell .direction-gate-table th:nth-child(2),
+.strategy-logic-table-shell .direction-gate-table td:nth-child(2) {
+  width: 22%;
+}
+
+.strategy-logic-table-shell .direction-gate-table th:nth-child(3),
+.strategy-logic-table-shell .direction-gate-table td:nth-child(3) {
+  width: 12%;
+}
+
+.strategy-logic-table-shell .direction-gate-table th:nth-child(4),
+.strategy-logic-table-shell .direction-gate-table td:nth-child(4),
+.strategy-logic-table-shell .direction-gate-table th:nth-child(5),
+.strategy-logic-table-shell .direction-gate-table td:nth-child(5) {
+  width: 8%;
+}
+
+.strategy-logic-table-shell .direction-gate-table th:nth-child(6),
+.strategy-logic-table-shell .direction-gate-table td:nth-child(6) {
+  width: 10%;
+}
+
+.strategy-logic-table-shell .direction-gate-table th:nth-child(7),
+.strategy-logic-table-shell .direction-gate-table td:nth-child(7) {
+  width: 12%;
+}
+
+.strategy-logic-table-shell .direction-gate-table th:nth-child(8),
+.strategy-logic-table-shell .direction-gate-table td:nth-child(8) {
+  width: 16%;
+}
+
+@media (min-width: 641px) {
+  .strategy-gate-direction-card .strategy-logic-table-shell {
+    overflow-x: clip;
+  }
+}
+
+@media (max-width: 640px) {
+  .strategy-summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .strategy-logic-grid,
+  .strategy-gate-direction-grid,
+  .strategy-logic-tables {
+    grid-template-columns: 1fr;
+  }
+
+  .kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .trade-outcomes-kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .table-controls {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+
+  .table-controls-group {
+    justify-content: flex-start;
+    align-self: flex-start;
+    width: auto;
+    max-width: 100%;
+  }
+
+  .table-controls-status {
+    text-align: left;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .table-control-button {
+    min-width: 0;
+    padding: 6px 9px;
+    font-size: 12px;
+    line-height: 1.2;
+    border-radius: 10px;
+    background: transparent;
+  }
+}
+
+@media (max-width: 400px) {
+  .strategy-logic-table-shell .gate-table th,
+  .strategy-logic-table-shell .gate-table td {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .strategy-logic-table-shell .gate-table td strong {
+    font-size: 12px;
+  }
+
+  .strategy-logic-table-shell .gate-table td {
+    font-size: 10px;
+  }
+}

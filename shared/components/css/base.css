@@ -1,0 +1,455 @@
+html,
+body {
+  overflow-x: clip;
+}
+
+:root {
+  --layout-width: 1180px;
+  --bg: #09111a;
+  --bg-soft: #0f1a26;
+  --panel: #122131;
+  --panel-2: #16293d;
+  --chart-bg-top: rgba(10, 18, 28, 0.98);
+  --chart-bg-bottom: rgba(12, 22, 34, 0.98);
+  --chart-glow: rgba(255, 255, 255, 0.04);
+  --chart-shadow: rgba(0, 0, 0, 0.28);
+  --line: rgba(173, 214, 255, 0.15);
+  --text: #ecf5ff;
+  --muted: #8ea8c1;
+  --green: #69d28f;
+  --red: #ff7b7b;
+  --amber: #ffc564;
+  --blue: #73c1ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  color-scheme: dark;
+}
+
+code {
+  color: var(--blue);
+}
+
+.page {
+  width: min(var(--layout-width), calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 16px 0 20px;
+}
+
+.hero {
+  margin-bottom: 12px;
+}
+
+.hero.hero-content > div {
+  min-height: 118px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.hero.hero-content-compact {
+  margin-bottom: 0;
+}
+
+.hero.hero-content-compact > div {
+  min-height: 0;
+  padding-bottom: 4px;
+}
+
+.hero-body-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: start;
+  gap: 20px;
+}
+
+.hero-copy {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 390px);
+  align-items: start;
+  gap: 28px;
+  position: relative;
+  padding-right: 0;
+}
+
+.hero-content-compact .hero-copy {
+  display: block;
+  padding-right: 0;
+}
+
+.hero-main {
+  min-width: 0;
+  display: grid;
+  gap: 7px;
+  align-content: start;
+  min-height: 0;
+}
+
+.hero-copy h1 {
+  margin: 0;
+}
+
+.hero-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.hero-register-button {
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  padding: 2px 0;
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  opacity: 1;
+}
+
+.hero-register-button:hover {
+  color: color-mix(in oklab, var(--amber) 90%, white 10%);
+}
+
+.hero-runtime {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-content: stretch;
+  align-items: stretch;
+  gap: 6px;
+  width: min(390px, 100%);
+  justify-self: end;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.hero-runtime-meta {
+  display: contents;
+  color: color-mix(in oklab, var(--text) 72%, var(--muted));
+  font-size: 16px;
+  line-height: 1.28;
+}
+
+.hero-runtime-meta-item {
+  display: grid;
+  align-items: start;
+  justify-content: flex-end;
+  gap: 2px;
+  min-height: 44px;
+  padding: 7px 10px;
+  border: 0;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.025);
+  white-space: normal;
+  text-align: right;
+}
+
+.hero-runtime-meta-label {
+  color: color-mix(in oklab, var(--text) 58%, var(--muted));
+  text-transform: uppercase;
+  letter-spacing: 0.055em;
+  font-size: 10.5px;
+  font-weight: 800;
+  line-height: 1.05;
+}
+
+.hero-runtime-meta-value {
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1.08;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(30px, 3.6vw, 38px);
+  line-height: 1.04;
+  font-weight: 800;
+}
+
+.hero-title-link {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.18s ease;
+}
+
+.hero-title-link:hover,
+.hero-title-link:focus-visible {
+  color: inherit;
+  transform: translateY(-1px);
+}
+
+.intro {
+  margin: 0;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.38;
+}
+
+.hero-intro {
+  margin: 6px 0 0;
+  max-width: 760px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.hero-content-compact .hero-intro {
+  max-width: 860px;
+}
+
+.hero-kicker {
+  display: grid;
+  gap: 3px;
+  align-content: start;
+}
+
+.hero-subline {
+  margin: 0;
+  max-width: none;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.22;
+}
+
+.hero-note-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.hero-content-compact .hero-note-row {
+  margin-bottom: 0;
+}
+
+.hero-controls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 0;
+  justify-content: flex-end;
+  min-width: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hero-controls-row {
+  display: contents;
+}
+
+.hero-control {
+  position: relative;
+  display: inline-flex;
+}
+
+.hero-control summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  opacity: 1;
+  transition: color 160ms ease, transform 160ms ease;
+}
+
+.hero-control summary:hover {
+  color: color-mix(in oklab, var(--amber) 90%, white 10%);
+  transform: translateX(2px);
+}
+
+.hero-control summary::-webkit-details-marker {
+  display: none;
+}
+
+.hero-control-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  min-width: 180px;
+  padding: 8px;
+  border-radius: 0;
+  background: var(--panel);
+  border: 1px solid var(--line-soft);
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.28);
+  display: grid;
+  gap: 6px;
+  z-index: 50;
+  opacity: 0;
+  transform: translateY(-6px);
+  pointer-events: none;
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.hero-control-menu button {
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  padding: 4px 2px;
+  border-radius: 0;
+  text-align: left;
+  font-size: 13px;
+  cursor: pointer;
+  transition: color 160ms ease, transform 160ms ease;
+}
+
+.hero-control-menu button:hover {
+  color: color-mix(in oklab, var(--amber) 90%, white 10%);
+  transform: translateX(2px);
+}
+
+.hero-control.hero-control-market summary {
+  color: color-mix(in oklab, var(--amber) 92%, white 8%);
+}
+
+.hero-control[open] .hero-control-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.hero-control:hover .hero-control-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.hero-control:focus-within .hero-control-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.hero-control summary:hover + .hero-control-menu {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.hero-note {
+  display: block;
+  margin: 0;
+  max-width: 58ch;
+  color: var(--red);
+  font-size: 13px;
+  line-height: 1.22;
+  font-weight: 600;
+}
+
+.site-footer {
+  margin-top: 0;
+  border-top: 0;
+  background: rgba(255,255,255,0.02);
+}
+
+.site-footer-inner {
+  width: min(calc(var(--layout-width) - 36px), calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 14px 0 14px;
+  display: grid;
+  gap: 10px;
+  justify-items: stretch;
+  text-align: center;
+}
+
+.footer-socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 14px;
+  width: 100%;
+}
+
+.footer-socials a {
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.18s ease, transform 0.18s ease;
+  border-radius: 0;
+  padding: 0;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  box-shadow: none;
+}
+
+.footer-socials a:hover {
+  color: color-mix(in oklab, var(--amber) 92%, white 8%);
+  transform: translateY(-2px);
+}
+
+.footer-socials a:focus-visible {
+  outline: 2px solid rgba(115, 193, 255, 0.42);
+  outline-offset: 2px;
+  color: color-mix(in oklab, var(--amber) 92%, white 8%);
+}
+
+.footer-copy {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.footer-legal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 14px;
+}
+
+.footer-legal a {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-legal a:hover,
+.footer-legal a:focus-visible {
+  color: color-mix(in oklab, var(--amber) 92%, white 8%);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.social-facebook {
+  color: color-mix(in oklab, var(--text) 84%, var(--muted));
+}
+
+.social-linkedin {
+  color: color-mix(in oklab, var(--text) 84%, var(--muted));
+}
+
+.social-x {
+  color: color-mix(in oklab, var(--text) 84%, var(--muted));
+}
+
+.social-github {
+  color: color-mix(in oklab, var(--text) 84%, var(--muted));
+}
+
+.social-youtube {
+  color: color-mix(in oklab, var(--text) 84%, var(--muted));
+}

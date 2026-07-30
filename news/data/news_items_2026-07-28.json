@@ -1,0 +1,196 @@
+{
+  "day_iso": "2026-07-28",
+  "generated_at_utc": "2026-07-28 22:06:04 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Claude Mythos Cracked Post-Quantum Cryptography That Humans Spent Years Failing to Break",
+      "link": "https://decrypt.co/374600/claude-mythos-cracked-post-quantum-cryptography",
+      "summary": "Anthropic’s locked model found a new attack on a post-quantum signature scheme headed for U.S. federal standardization.",
+      "source": "Decrypt",
+      "date": "2026-07-28",
+      "date_human": "Jul 28, 2026",
+      "pub_ts": 1785271538,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-2-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-2-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/decrypt-style-anthropic-2-gID_7.png"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-2-gID_7.png",
+      "image_local": null
+    },
+    {
+      "title": "'Anything remotely dovish' from Fed could be good for bitcoin, says analyst",
+      "link": "https://www.coindesk.com/markets/2026/07/28/remotely-dovish-fed-could-be-good-for-bitcoin-says-analyst",
+      "summary": "'Anything remotely dovish' from Fed could be good for bitcoin, says analyst",
+      "source": "CoinDesk",
+      "date": "2026-07-28",
+      "date_human": "Jul 28, 2026",
+      "pub_ts": 1785270211,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/aff32b708a5b4266e041a4eb460baa2d9236e4bb-3973x2235.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/aff32b708a5b4266e041a4eb460baa2d9236e4bb-3973x2235.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/aff32b708a5b4266e041a4eb460baa2d9236e4bb-3973x2235.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "Morgan Stanley expands crypto lineup with Ether, Solana ETPs",
+      "link": "https://cointelegraph.com/news/morgan-stanley-expands-crypto-lineup-with-ether-solana-etps",
+      "summary": "The new exchange-traded products track Ether and Solana, offer staking rewards and follow the firm’s Bitcoin fund launched earlier this year.",
+      "source": "Cointelegraph",
+      "date": "2026-07-28",
+      "date_human": "Jul 28, 2026",
+      "pub_ts": 1785269446,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/bankcman-morgan-stanley.png"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/bankcman-morgan-stanley.png",
+      "image_local": null
+    },
+    {
+      "title": "AI firms are shredding physical books because copyright law is quietly rewarding them",
+      "link": "https://cryptoslate.com/why-copyright-law-is-quietly-rewarding-ai-firms-for-shredding-physical-books/",
+      "summary": "A case-specific Anthropic ruling valued one-for-one replacement while physical preservation remained outside the legal test. The post AI firms are shredding physical books because copyright law is quietly rewarding them appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-28",
+      "date_human": "Jul 28, 2026",
+      "pub_ts": 1785266439,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/ai-law-library-editorial-collage.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/ai-law-library-editorial-collage.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Teacher Arrested for Clapping at AI Data Center Public Hearing",
+      "link": "https://decrypt.co/374597/teacher-arrested-clapping-ai-data-center-public-hearing",
+      "summary": "The arrest of a Kansas teacher at a public hearing highlights growing resistance to AI data centers across the United States.",
+      "source": "Decrypt",
+      "date": "2026-07-28",
+      "date_human": "Jul 28, 2026",
+      "pub_ts": 1785269328,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Handcuffs-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Handcuffs-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Handcuffs-gID_7.png"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Handcuffs-gID_7.png",
+      "image_local": null
+    },
+    {
+      "title": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network",
+      "link": "https://www.coindesk.com/business/2026/07/28/ondo-drops-tokenized-asset-blockchain-plans-for-private-high-speed-trading-network",
+      "summary": "Ondo drops tokenized asset blockchain plans for private, high-speed trading network",
+      "source": "CoinDesk",
+      "date": "2026-07-28",
+      "date_human": "Jul 28, 2026",
+      "pub_ts": 1785267866,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/01b0254f811e3676e0e5d214c1e0f8ca98ea6ad3-4000x2250.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/01b0254f811e3676e0e5d214c1e0f8ca98ea6ad3-4000x2250.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/01b0254f811e3676e0e5d214c1e0f8ca98ea6ad3-4000x2250.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "AmericanFortress proposes quantum-safe crypto wallet protection without fund migration",
+      "link": "https://cointelegraph.com/news/americanfortress-proposes-quantum-safe-crypto-wallet-protection-without-fund-migration",
+      "summary": "The proposed cryptographic scheme aims to protect existing Bitcoin, Ethereum and Solana wallets from future quantum attacks without requiring users to move funds or change wallet addresses.",
+      "source": "Cointelegraph",
+      "date": "2026-07-28",
+      "date_human": "Jul 28, 2026",
+      "pub_ts": 1785264446,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/magazineq-day-bitcoin-could-take-7-years-to-upgrade-to-post-quantum.png"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/magazineq-day-bitcoin-could-take-7-years-to-upgrade-to-post-quantum.png",
+      "image_local": null
+    },
+    {
+      "title": "Inside the brutal 2-minute flash crash sending a $400M South Korean market plunging on Hyperliquid",
+      "link": "https://cryptoslate.com/inside-the-brutal-2-minute-flash-crash-sending-a-400m-south-korean-market-plunging-on-hyperliquid/",
+      "summary": "A later snapshot showed open interest down 20.29% while Trade.xyz investigated the price inputs submitted to HyperCore. The post Inside the brutal 2-minute flash crash sending a $400M South Korean market plunging on Hyperliquid appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-28",
+      "date_human": "Jul 28, 2026",
+      "pub_ts": 1785258353,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/sk-hynix-perpetual-market-crash-chip-collage.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/sk-hynix-perpetual-market-crash-chip-collage.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Michael Saylor: Bitcoin Code Is a Constitution, Changes Are Attacks on 'Economic Rights'",
+      "link": "https://decrypt.co/374588/michael-saylor-bitcoin-constitution-bip-110",
+      "summary": "The Strategy chairman's latest thread extends his war far beyond BIP-110: now covenants, larger blocks, and any base-layer change are all the same \"constitutional offense.\"",
+      "source": "Decrypt",
+      "date": "2026-07-28",
+      "date_human": "Jul 28, 2026",
+      "pub_ts": 1785267363,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/michael-saylor-bitcoin-lightning-x-twitter-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/michael-saylor-bitcoin-lightning-x-twitter-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/michael-saylor-bitcoin-lightning-x-twitter-gID_7.png"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/michael-saylor-bitcoin-lightning-x-twitter-gID_7.png",
+      "image_local": null
+    },
+    {
+      "title": "Wall Street veteran Don Wilson says regulators are getting perps all wrong",
+      "link": "https://www.coindesk.com/markets/2026/07/28/wall-street-veteran-don-wilson-says-regulators-are-getting-crypto-s-biggest-trading-innovation-all-wrong",
+      "summary": "Wall Street veteran Don Wilson says regulators are getting perps all wrong",
+      "source": "CoinDesk",
+      "date": "2026-07-28",
+      "date_human": "Jul 28, 2026",
+      "pub_ts": 1785259415,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/e64710bbda7993c04f5eb016f20b5038b68ae35f-1000x668.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/e64710bbda7993c04f5eb016f20b5038b68ae35f-1000x668.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/e64710bbda7993c04f5eb016f20b5038b68ae35f-1000x668.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-07-28",
+      "date_human": "Jul 28, 2026",
+      "pub_ts": 1785262525,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Federal court shields Kalshi and Polymarket from Minnesota's felony crackdown days before deadline",
+      "link": "https://cryptoslate.com/minnesota-judge-blocks-aug-1-prediction-market-felony-law-for-registered-exchanges-but-only-for-now/",
+      "summary": "KalshiEX and Polymarket US can keep serving Minnesota users while the merits and contract boundary remain unsettled. The post Federal court shields Kalshi and Polymarket from Minnesota’s felony crackdown days before deadline appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-28",
+      "date_human": "Jul 28, 2026",
+      "pub_ts": 1785253845,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/minnesota-prediction-market-injunction-court-collision.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/minnesota-prediction-market-injunction-court-collision.jpg",
+      "image_local": null
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+@import url("/Bitcoin-Live-Signals/shared/components/css/styles.css");
+
+.hero {
+  max-width: 100%;
+}
+
+.hero .intro,
+.hero-subline {
+  max-width: none;
+}
+
+.resources-scope {
+  --rs-radius: 14px;
+  --rs-gap: 18px;
+  padding-top: 6px;
+}
+
+.resources-scope a {
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition:
+    color 160ms ease,
+    opacity 160ms ease;
+}
+
+.hero .panel-intro a,
+.hero .intro a {
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition:
+    color 160ms ease,
+    opacity 160ms ease;
+}
+
+.resource-card li a {
+  display: inline-block;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.resources-scope a:hover {
+  color: color-mix(in oklab, var(--amber) 92%, white 8%);
+}
+
+.hero .panel-intro a:hover,
+.hero .intro a:hover {
+  color: color-mix(in oklab, var(--amber) 92%, white 8%);
+}
+
+.resources-scope a:focus-visible,
+.hero .panel-intro a:focus-visible,
+.hero .intro a:focus-visible {
+  outline: 2px solid rgba(115, 193, 255, 0.35);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.resources-intro {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--rs-gap);
+  margin: 4px 0 22px;
+}
+
+.resources-focus-card {
+  position: relative;
+  min-height: 150px;
+  padding: 18px 18px 20px;
+  border: 1px solid color-mix(in oklab, var(--text) 10%, transparent);
+  border-radius: var(--rs-radius);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.015)),
+    rgba(255, 255, 255, 0.018);
+  overflow: hidden;
+}
+
+.resources-focus-card::after {
+  content: "";
+  position: absolute;
+  inset: auto 18px 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--amber), transparent);
+  opacity: 0.65;
+}
+
+.resources-focus-card span {
+  display: block;
+  margin-bottom: 18px;
+  color: var(--amber);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.resources-focus-card strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--text);
+  font-size: 19px;
+  line-height: 1.2;
+}
+
+.resources-focus-card p {
+  margin: 0;
+  color: color-mix(in oklab, var(--text) 68%, var(--muted));
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--rs-gap);
+  margin: 0 auto 24px;
+  align-items: stretch;
+}
+
+.resource-card {
+  position: relative;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.032), rgba(255, 255, 255, 0.012)),
+    rgba(255, 255, 255, 0.012);
+  border: 1px solid color-mix(in oklab, var(--text) 9%, transparent);
+  border-radius: var(--rs-radius);
+  padding: 18px 18px 16px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 270px;
+  box-shadow: none;
+  overflow: hidden;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background 180ms ease;
+}
+
+.resource-card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 18px;
+  right: 18px;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(255, 197, 100, 0.82), transparent);
+  opacity: 0.72;
+  transition: opacity 180ms ease;
+}
+
+.resource-card:hover,
+.resource-card:focus-within {
+  transform: translateY(-3px);
+  border-color: color-mix(in oklab, var(--amber) 30%, transparent);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.052), rgba(255, 255, 255, 0.018)),
+    rgba(255, 255, 255, 0.014);
+}
+
+.resource-card:hover::after,
+.resource-card:focus-within::after {
+  opacity: 1;
+}
+
+.resource-card h2 {
+  margin: 0;
+  font-size: 1.12rem;
+  font-weight: 800;
+  line-height: 1.25;
+  color: var(--text);
+}
+
+.resource-desc {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.resource-card ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 2px 0 0;
+  display: grid;
+  gap: 8px;
+}
+
+.resource-card li {
+  font-size: 0.96rem;
+  line-height: 1.55;
+  color: var(--muted);
+  transition: transform 160ms ease;
+}
+
+.resource-card li::before {
+  content: "↗";
+  margin-right: 6px;
+  color: color-mix(in oklab, var(--amber) 82%, var(--muted));
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.resource-card li:hover {
+  transform: translateY(-1px);
+}
+
+.resource-card li a strong {
+  color: var(--text);
+}
+
+.resource-card li:hover a {
+  color: color-mix(in oklab, var(--amber) 92%, white 8%);
+}
+
+.resource-card li:hover a strong {
+  color: #ffffff;
+}
+
+.resource-card strong {
+  color: var(--text);
+}
+
+@media (max-width: 900px) {
+  .resources-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .resources-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resource-card,
+  .resources-focus-card {
+    min-height: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .resources-scope {
+    padding-top: 0;
+  }
+
+  .resources-intro {
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+
+  .resources-grid {
+    gap: 12px;
+  }
+
+  .resources-focus-card,
+  .resource-card {
+    padding: 15px;
+    border-radius: 12px;
+  }
+
+  .resources-focus-card span {
+    margin-bottom: 10px;
+  }
+}

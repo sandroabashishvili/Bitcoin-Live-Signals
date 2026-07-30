@@ -1,0 +1,51 @@
+.stack-list {
+  display: grid;
+  gap: 10px;
+}
+
+.stack-list.empty {
+  color: var(--muted);
+}
+
+.item {
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.02);
+  border-radius: 14px;
+  padding: 12px 14px;
+}
+
+.table-shell {
+  overflow-x: auto;
+}
+
+.runtime-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.runtime-table th,
+.runtime-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+}
+
+.runtime-table th {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.runtime-table td strong {
+  font-weight: 600;
+}
+
+.ok {
+  color: var(--green);
+}
+
+.fail {
+  color: var(--red);
+}

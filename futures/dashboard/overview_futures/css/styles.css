@@ -1,0 +1,261 @@
+@import url("/Bitcoin-Live-Signals/shared/components/css/styles.css");
+
+.overview-panel-with-note {
+  display: flex;
+  flex-direction: column;
+}
+
+.overview-primary-panel,
+.overview-context-panel {
+  grid-column: 1 / -1;
+}
+
+.overview-panel-with-note .panel-note {
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+.overview-metric-grid {
+  gap: 8px;
+}
+
+.overview-metric-grid .metric-card {
+  padding: 10px 11px;
+}
+
+.overview-metric-grid .metric-card span {
+  margin-bottom: 5px;
+}
+
+.overview-metric-grid .metric-card .metric-label-with-action {
+  display: flex !important;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 5px;
+}
+
+.overview-metric-grid .metric-card .metric-label-with-action > span {
+  display: inline;
+  margin-bottom: 0;
+}
+
+.overview-metric-grid .metric-card strong {
+  font-size: 16px;
+}
+
+#primary-signal-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  flex: 1 1 auto;
+  align-content: stretch;
+  grid-auto-rows: 1fr;
+}
+
+.overview-snapshot-panel,
+.overview-strategy-panel,
+.overview-compact-chart-panel {
+  grid-column: 1 / -1;
+}
+
+.overview-snapshot-panel .overview-metric-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.overview-strategy-panel .overview-metric-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-content: start;
+  grid-auto-rows: auto;
+}
+
+.overview-strategy-panel .panel-note {
+  margin-top: 12px;
+  padding-top: 0;
+}
+
+.overview-compact-chart-panel .chart-shell {
+  height: 390px;
+  margin-top: 8px;
+}
+
+.overview-compact-chart-panel .panel-intro {
+  margin-bottom: 4px;
+}
+
+.overview-timeframe-grid {
+  gap: 8px;
+}
+
+.overview-timeframe-grid .timeframe-card {
+  padding: 10px 11px;
+  border: 0;
+}
+
+.overview-timeframe-grid .timeframe-card span {
+  margin-bottom: 5px;
+}
+
+.overview-timeframe-grid .timeframe-card strong {
+  font-size: 16px;
+}
+
+.overview-timeframe-grid .timeframe-card-head {
+  gap: 10px;
+  margin-bottom: 9px;
+}
+
+.overview-timeframe-grid .timeframe-card h3 {
+  font-size: 13px;
+}
+
+.overview-timeframe-grid .timeframe-card-head > span {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+
+.overview-timeframe-grid .timeframe-stats {
+  gap: 7px 8px;
+}
+
+.overview-timeframe-grid .timeframe-stats div {
+  font-size: 12px;
+  padding: 8px 8px 7px;
+  border-radius: 10px;
+  border: 0;
+}
+
+.overview-timeframe-grid .timeframe-stats strong {
+  margin-top: 3px;
+  font-size: 14px;
+}
+
+.overview-context-panel .overview-timeframe-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  flex: 1 1 auto;
+  align-content: stretch;
+  grid-auto-rows: 1fr;
+}
+
+.overview-context-panel .overview-timeframe-grid .timeframe-card {
+  padding: 11px 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.overview-context-panel .overview-timeframe-grid .timeframe-card span {
+  margin-bottom: 3px;
+}
+
+.overview-context-panel .overview-timeframe-grid .timeframe-card-head {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.overview-context-panel .timeframe-role {
+  min-height: 16px;
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.overview-context-panel .overview-timeframe-grid .timeframe-stats {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 5px 6px;
+}
+
+.overview-context-panel .overview-timeframe-grid .timeframe-stats div {
+  padding: 6px 7px 5px;
+  font-size: 11px;
+  text-align: left;
+}
+
+.overview-context-panel .overview-timeframe-grid .timeframe-stats strong {
+  margin-top: 2px;
+  font-size: 13px;
+}
+
+#primary-signal-grid .metric-card-entry-status strong {
+  font-size: 14px;
+  line-height: 1.15;
+}
+
+#primary-signal-grid .metric-card-entry-status .metric-label-with-action {
+  gap: 4px;
+}
+
+@media (max-width: 920px) {
+  .overview-context-panel .overview-timeframe-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  #primary-signal-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #primary-signal-grid,
+  .overview-context-panel .overview-timeframe-grid {
+    flex: initial;
+    align-content: initial;
+    grid-auto-rows: auto;
+  }
+
+  .overview-compact-chart-panel .chart-shell {
+    height: 300px;
+  }
+
+  .overview-context-panel .overview-timeframe-grid .timeframe-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .overview-snapshot-panel .overview-metric-grid,
+  .overview-strategy-panel .overview-metric-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #primary-signal-grid .metric-card-entry-status {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #primary-signal-grid .metric-card-entry-status .metric-label-with-action {
+    width: auto;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 4px;
+    margin-bottom: 4px;
+  }
+
+  #primary-signal-grid .metric-card-entry-status .metric-label-with-action > span {
+    font-size: 10.5px;
+    line-height: 1.1;
+    white-space: nowrap;
+  }
+
+  #primary-signal-grid .metric-card-entry-status strong {
+    font-size: 12px;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+}
+
+
+/* Futures overview keeps spot visual system with small layout tune-ups. */
+.overview-engine-panel .overview-metric-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 640px) {
+  .overview-engine-panel .overview-metric-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

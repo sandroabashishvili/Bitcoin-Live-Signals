@@ -1,0 +1,194 @@
+{
+  "day_iso": "2026-07-26",
+  "generated_at_utc": "2026-07-26 22:05:28 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-07-26",
+      "date_human": "Jul 26, 2026",
+      "pub_ts": 1785101400,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Why Hashdex's new crypto ETF keeps 100% of your initial staking yields and 40% of everything else",
+      "link": "https://cryptoslate.com/why-hashdexs-new-crypto-etf-keeps-100-of-your-initial-staking-yields-and-40-of-everything-else/",
+      "summary": "Provider fees come first; above the annual threshold, excess net staking income is split 40% to Hashdex and 60% to the trust. The post Why Hashdex’s new crypto ETF keeps 100% of your initial staking yields and 40% of everything else appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-26",
+      "date_human": "Jul 26, 2026",
+      "pub_ts": 1785095438,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/hashdex-nciq-staking-risk-water-tower.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/hashdex-nciq-staking-risk-water-tower.jpg",
+      "image_local": null
+    },
+    {
+      "title": "2 weeks left for Clarity: State of Crypto",
+      "link": "https://www.coindesk.com/policy/2026/07/26/2-weeks-left-for-clarity-state-of-crypto",
+      "summary": "2 weeks left for Clarity: State of Crypto",
+      "source": "CoinDesk",
+      "date": "2026-07-26",
+      "date_human": "Jul 26, 2026",
+      "pub_ts": 1785090600,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/fdf7f5a1bfc3ea1d7708ef0c24ddb8c1297cbb2f-3480x1958.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/fdf7f5a1bfc3ea1d7708ef0c24ddb8c1297cbb2f-3480x1958.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/fdf7f5a1bfc3ea1d7708ef0c24ddb8c1297cbb2f-3480x1958.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "Mira Murati's Inkling AI Model Review: Best Open-Source Model in the West",
+      "link": "https://decrypt.co/373884/review-inkling-mira-murati-first-open-source-ai",
+      "summary": "After two years of silence from Thinking Machines Lab, Murati's debut model is out and on OpenRouter. The MCP score is genuinely impressive. The price-to-performance math is more complicated.",
+      "source": "Decrypt",
+      "date": "2026-07-26",
+      "date_human": "Jul 26, 2026",
+      "pub_ts": 1785074463,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2023/11/mira-murati-openai-gID_1.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2023/11/mira-murati-openai-gID_1.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2023/11/mira-murati-openai-gID_1.png"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2023/11/mira-murati-openai-gID_1.png",
+      "image_local": null
+    },
+    {
+      "title": "CFTC issues second warning to prediction markets on cookie-cutter self-certifications",
+      "link": "https://cointelegraph.com/news/cftc-issues-second-warning-to-prediction-markets-on-cookie-cutter-self-certifications",
+      "summary": "For the second time this year, the regulator told prediction markets to stop issuing overly broad, template-style certifications of events contracts.",
+      "source": "Cointelegraph",
+      "date": "2026-07-26",
+      "date_human": "Jul 26, 2026",
+      "pub_ts": 1785087905,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-prediction-market-cftc-rule.png"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-prediction-market-cftc-rule.png",
+      "image_local": null
+    },
+    {
+      "title": "The brutal $346M math behind Galaxy's high-stakes race to build CoreWeave's Texas AI mega-center",
+      "link": "https://cryptoslate.com/the-brutal-346m-math-behind-galaxys-high-stakes-race-to-build-coreweaves-texas-ai-mega-center/",
+      "summary": "Phase II handovers are expected to begin in 2027 as the project company takes on fixed cash costs. The post The brutal $346M math behind Galaxy’s high-stakes race to build CoreWeave’s Texas AI mega-center appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-26",
+      "date_human": "Jul 26, 2026",
+      "pub_ts": 1785091536,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/coreweave-financing-hamster-wheel-data-center.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/coreweave-financing-hamster-wheel-data-center.jpg",
+      "image_local": null
+    },
+    {
+      "title": "U.S. regulator warns prediction markets against cutting corners in event contracts",
+      "link": "https://www.coindesk.com/policy/2026/07/24/u-s-regulator-warns-prediction-markets-against-cutting-corners-in-event-contracts",
+      "summary": "U.S. regulator warns prediction markets against cutting corners in event contracts",
+      "source": "CoinDesk",
+      "date": "2026-07-26",
+      "date_human": "Jul 26, 2026",
+      "pub_ts": 1785070800,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/ba52f7bccf2ae307a3c4c7efe5945ed295f5380d-4032x2268.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/ba52f7bccf2ae307a3c4c7efe5945ed295f5380d-4032x2268.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0.5093&fp-y=0.5634&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/ba52f7bccf2ae307a3c4c7efe5945ed295f5380d-4032x2268.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "What Is an AI Kill Switch and Why Do US Lawmakers Want One?",
+      "link": "https://decrypt.co/374332/what-is-ai-kill-switch-openai-hack-hugging-face",
+      "summary": "The AI Kill Switch Act would let Homeland Security order frontier AI throttled or shut down, with fines up to $20 million a day for defying it.",
+      "source": "Decrypt",
+      "date": "2026-07-25",
+      "date_human": "Jul 25, 2026",
+      "pub_ts": 1784988063,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png",
+      "image_local": null
+    },
+    {
+      "title": "Russia's Sberbank to launch crypto trading infrastructure this year",
+      "link": "https://cointelegraph.com/news/russias-sberbank-to-launch-crypto-trading-infrastructure-this-year",
+      "summary": "Russia’s biggest bank plans to create cryptocurrency trading infrastructure by Dec. 1 as the country is set to establish rules for market participants while allowing crypto assets to be used in foreign trade operations.",
+      "source": "Cointelegraph",
+      "date": "2026-07-26",
+      "date_human": "Jul 26, 2026",
+      "pub_ts": 1785082031,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/russia-bitcoin.png"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/russia-bitcoin.png",
+      "image_local": null
+    },
+    {
+      "title": "Lawsuit claims 3.8M dormant BTC using police lost-and-found rules as Congress races to stop it with CLARITY",
+      "link": "https://cryptoslate.com/clarity-moves-to-close-the-legal-opening-behind-the-200-billion-bitcoin-case/",
+      "summary": "Section 20216 of the latest CLARITY draft states that a self-custodied digital asset cannot become abandoned, unclaimed, or forfeited. It also cannot become subject to adverse possession or finder's title solely because its owner has not moved it or otherwise shown continued interest. The language overrides state and local laws that treat years of wallet […] The post Lawsuit claims 3.8M dormant BTC using police lost-and-found rules as Congress races to stop it with CLARITY appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-26",
+      "date_human": "Jul 26, 2026",
+      "pub_ts": 1785087635,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/bitcoin-property-law-justice-scales-magenta.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/bitcoin-property-law-justice-scales-magenta.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Europe's high regulatory bar could spark new crypto industry M&A wave",
+      "link": "https://www.coindesk.com/policy/2026/07/26/europe-s-high-regulatory-bar-could-spark-new-crypto-industry-m-and-a-wave",
+      "summary": "Europe's high regulatory bar could spark new crypto industry M&A wave",
+      "source": "CoinDesk",
+      "date": "2026-07-26",
+      "date_human": "Jul 26, 2026",
+      "pub_ts": 1785060000,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/26ef4a42694e2ce56d7a2adb3390531576e3007b-3834x2556.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/26ef4a42694e2ce56d7a2adb3390531576e3007b-3834x2556.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/26ef4a42694e2ce56d7a2adb3390531576e3007b-3834x2556.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin OG selling eases as dormant BTC movement hits 4-year low: Galaxy",
+      "link": "https://cointelegraph.com/markets/bitcoin-og-dormant-btc-movement-thorn",
+      "summary": "Dormant BTC activity fell to its lowest level since Q3 2022, suggesting long-term holders have slowed distribution after heavy profit-taking.",
+      "source": "Cointelegraph",
+      "date": "2026-07-26",
+      "date_human": "Jul 26, 2026",
+      "pub_ts": 1785071160,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-who-is-the-whale-from-2017.jpg"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-who-is-the-whale-from-2017.jpg",
+      "image_local": null
+    }
+  ]
+}

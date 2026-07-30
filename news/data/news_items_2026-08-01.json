@@ -1,0 +1,196 @@
+{
+  "day_iso": "2026-08-01",
+  "generated_at_utc": "2026-08-01 22:05:42 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Onchain, in court: What happened in crypto legal news this week",
+      "link": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news4",
+      "summary": "A case tied to defunct crypto exchange FTX moves forward, a soldier seeks to dismiss over a Polymarket bet and a former congressman was ordered to pay $35,000 for manipulative trading.",
+      "source": "Cointelegraph",
+      "date": "2026-08-01",
+      "date_human": "Aug 1, 2026",
+      "pub_ts": 1785618879,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-5-key-highlights-of-the-secs-lawsuit-against-binance.jpg"
+      ],
+      "image": "../assets/news/2026-08-01/25d2051e8180456d_base.jpg",
+      "image_local": "../assets/news/2026-08-01/25d2051e8180456d_base.jpg"
+    },
+    {
+      "title": "One public crypto firm just staked its way to breaking even, but a $50M paper loss and 66% dilution threat tell a darker story",
+      "link": "https://cryptoslate.com/sdevs-2-2m-sky-staking-revenue-is-dwarfed-by-a-50-6m-unrealized-token-loss/",
+      "summary": "The token rewards roughly matched its non-GAAP cash-cost proxy but remained unsold as warrants for up to 33.5 million shares became exercisable. The post One public crypto firm just staked its way to breaking even, but a $50M paper loss and 66% dilution threat tell a darker story appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-01",
+      "date_human": "Aug 1, 2026",
+      "pub_ts": 1785618341,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/sdev-sky-exposure-tethered-balloon.jpg"
+      ],
+      "image": "../assets/news/2026-08-01/b8be6e7c62f66931_base.jpg",
+      "image_local": "../assets/news/2026-08-01/b8be6e7c62f66931_base.jpg"
+    },
+    {
+      "title": "Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million",
+      "link": "https://www.coindesk.com/tech/2026/08/02/bitcoin-cold-wallet-attack-spreads-to-4-500-addresses-as-losses-near-usd89-million",
+      "summary": "Bitcoin cold-wallet attack spreads to 4,500 addresses as losses near $89 million",
+      "source": "CoinDesk",
+      "date": "2026-08-01",
+      "date_human": "Aug 1, 2026",
+      "pub_ts": 1785615054,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/6c28c3dcd5461d3803d6e6200f1da0686dde993f-1920x1082.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/6c28c3dcd5461d3803d6e6200f1da0686dde993f-1920x1082.jpg?auto=format&q=75"
+      ],
+      "image": "../assets/news/2026-08-01/8f2cd8a01d761a51_base.jpg",
+      "image_local": "../assets/news/2026-08-01/8f2cd8a01d761a51_base.jpg"
+    },
+    {
+      "title": "CZ Warns Bitcoin Holders After $70 Million Wallet Exploit: 'Nothing Is 100%'",
+      "link": "https://decrypt.co/374810/cz-warns-bitcoin-holders-70-million-coldcard-wallet-exploit",
+      "summary": "The Binance founder urged holders to spread funds across multiple wallets as Galaxy Research put the toll from the Coldcard exploit at roughly $70 million—nearly double the initial estimate.",
+      "source": "Decrypt",
+      "date": "2026-08-01",
+      "date_human": "Aug 1, 2026",
+      "pub_ts": 1785600077,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/changpeng-zhao-cz-decrypt-style-02-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/changpeng-zhao-cz-decrypt-style-02-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/changpeng-zhao-cz-decrypt-style-02-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-01/8815d6d722161562_base.jpg",
+      "image_local": "../assets/news/2026-08-01/8815d6d722161562_base.jpg"
+    },
+    {
+      "title": "Minnesota crypto ATM ban goes into effect after reported $1M losses",
+      "link": "https://cointelegraph.com/news/minnesota-crypto-atm-ban-losses-scams",
+      "summary": "State officials reported that Minnesota residents, and largely senior citizens, had lost about $1 million from scams tied to crypto kiosks from 2023 to 2025.",
+      "source": "Cointelegraph",
+      "date": "2026-08-01",
+      "date_human": "Aug 1, 2026",
+      "pub_ts": 1785607637,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-atm-ban.png"
+      ],
+      "image": "../assets/news/2026-08-01/0326d607f5397d43_base.jpg",
+      "image_local": "../assets/news/2026-08-01/0326d607f5397d43_base.jpg"
+    },
+    {
+      "title": "Moonbeam just halted all user transactions, leaving late GLMR holders at mercy of an email helpdesk to recover funds",
+      "link": "https://cryptoslate.com/moonbeam-just-halted-all-user-transactions-leaving-late-glmr-holders-at-the-mercy-of-an-email-helpdesk-to-recover-stranded-funds/",
+      "summary": "The snapshot tracks direct bridge use, not stranded supply, while self-custodied tokens and protocol positions face separate action paths. The post Moonbeam just halted all user transactions, leaving late GLMR holders at mercy of an email helpdesk to recover funds appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-01",
+      "date_human": "Aug 1, 2026",
+      "pub_ts": 1785615042,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/moonbeam-shutdown-astronaut-moon-collage.jpg"
+      ],
+      "image": "../assets/news/2026-08-01/570298a191d030a8_base.jpg",
+      "image_local": "../assets/news/2026-08-01/570298a191d030a8_base.jpg"
+    },
+    {
+      "title": "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
+      "link": "https://www.coindesk.com/markets/2026/08/01/tokenized-stock-trading-surged-288-in-july-but-one-qqq-token-drove-most-of-it",
+      "summary": "Tokenized stock trading surged 288% in July, but one QQQ token drove most of it",
+      "source": "CoinDesk",
+      "date": "2026-08-01",
+      "date_human": "Aug 1, 2026",
+      "pub_ts": 1785603095,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/d050e4be1c5616c5c0df43f77406eebe7e1d4c9f-1920x1277.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/d050e4be1c5616c5c0df43f77406eebe7e1d4c9f-1920x1277.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-01/229ae8b92a47b6d6_base.jpg",
+      "image_local": "../assets/news/2026-08-01/229ae8b92a47b6d6_base.jpg"
+    },
+    {
+      "title": "The More Americans Know About AI, the Less They Like It: Gallup",
+      "link": "https://decrypt.co/374794/more-americans-know-about-ai-less-they-like-gallup",
+      "summary": "Gallup says Americans are growing more skeptical of artificial intelligence, with rising concerns about job losses, businesses' use of the technology, and the technology’s growing impact.",
+      "source": "Decrypt",
+      "date": "2026-08-01",
+      "date_human": "Aug 1, 2026",
+      "pub_ts": 1785596469,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-ai-jobs-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-ai-jobs-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-ai-jobs-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-01/50f30e0080693e09_base.jpg",
+      "image_local": "../assets/news/2026-08-01/50f30e0080693e09_base.jpg"
+    },
+    {
+      "title": "Crypto PAC pours another $1M into Michigan House race",
+      "link": "https://cointelegraph.com/news/crypto-pac-michigan-thanedar-mckinney",
+      "summary": "Michigan incumbent Shri Thanedar’s re-election bid against other Democratic candidates is getting more about crypto with an infusion of ads funded by an industry-aligned PAC.",
+      "source": "Cointelegraph",
+      "date": "2026-08-01",
+      "date_human": "Aug 1, 2026",
+      "pub_ts": 1785599042,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-industry-votes-us.png"
+      ],
+      "image": "../assets/news/2026-08-01/2a638f8aa5575293_base.jpg",
+      "image_local": "../assets/news/2026-08-01/2a638f8aa5575293_base.jpg"
+    },
+    {
+      "title": "A major Japanese Bitcoin mining pool just pulled the plug on its Bitcoin service just as 3 mega-miners claimed 60% of the network",
+      "link": "https://cryptoslate.com/a-major-japanese-bitcoin-mining-pool-just-pulled-the-plug-on-its-bitcoin-service-just-as-3-mega-miners-claimed-60-of-the-network/",
+      "summary": "The leaders were already dominant before the cutoff, and aggregate data do not identify a destination for SBI’s lost pool hashrate. The post A major Japanese Bitcoin mining pool just pulled the plug on its Bitcoin service just as 3 mega-miners claimed 60% of the network appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-01",
+      "date_human": "Aug 1, 2026",
+      "pub_ts": 1785611149,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-mining-network-pressure-human-profile.jpg"
+      ],
+      "image": "../assets/news/2026-08-01/a4ded514a751ac7d_base.jpg",
+      "image_local": "../assets/news/2026-08-01/a4ded514a751ac7d_base.jpg"
+    },
+    {
+      "title": "Bank of Italy research suggests stablecoins aren't necessarily cheaper for remittances",
+      "link": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances",
+      "summary": "Bank of Italy research suggests stablecoins aren't necessarily cheaper for remittances",
+      "source": "CoinDesk",
+      "date": "2026-08-01",
+      "date_human": "Aug 1, 2026",
+      "pub_ts": 1785600000,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/198dcd7467c494c1194b67c1d80424db96f7e636-553x311.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/198dcd7467c494c1194b67c1d80424db96f7e636-553x311.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-01/8b8013d6e1847984_base.jpg",
+      "image_local": "../assets/news/2026-08-01/8b8013d6e1847984_base.jpg"
+    },
+    {
+      "title": "Google Yanks Google Earth AI Image Tool a Day After Launch Over Deepfake Fears",
+      "link": "https://decrypt.co/374805/google-yanks-google-earth-ai-image-tool-deepfake-fears",
+      "summary": "The Nano Banana tool let users generate fake satellite scenes from a text prompt, alarming investigators who rely on Google Earth to verify breaking news and atrocities.",
+      "source": "Decrypt",
+      "date": "2026-07-31",
+      "date_human": "Jul 31, 2026",
+      "pub_ts": 1785529970,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-01/7f3e8bb9141d9c1f_base.jpg",
+      "image_local": "../assets/news/2026-08-01/7f3e8bb9141d9c1f_base.jpg"
+    }
+  ]
+}

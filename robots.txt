@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sandroabashishvili.github.io/Bitcoin-Live-Signals/sitemap.xml

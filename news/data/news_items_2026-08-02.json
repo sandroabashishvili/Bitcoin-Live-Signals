@@ -1,0 +1,196 @@
+{
+  "day_iso": "2026-08-02",
+  "generated_at_utc": "2026-08-02 16:05:34 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "How XRPL validators quietly killed a silent exploit that could have drained victim accounts through transaction fees alone",
+      "link": "https://cryptoslate.com/how-xrpl-validators-quietly-killed-a-silent-exploit-that-could-have-drained-victim-accounts-through-transaction-fees-alone/",
+      "summary": "BatchV1_1 and PermissionDelegationV1_1 remain default No while XRPL’s two-week supermajority clock sits idle. The post How XRPL validators quietly killed a silent exploit that could have drained victim accounts through transaction fees alone appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-02",
+      "date_human": "Aug 2, 2026",
+      "pub_ts": 1785684610,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/xrpl-validator-ballot-vault-security.jpg"
+      ],
+      "image": "../assets/news/2026-08-02/a662c7671c04e459_base.jpg",
+      "image_local": "../assets/news/2026-08-02/a662c7671c04e459_base.jpg"
+    },
+    {
+      "title": "Strategy leaves preferred STRC dividend at 12% as price still below par",
+      "link": "https://cointelegraph.com/news/strategy-leaves-preferred-strc-dividend-at-12-price-still-below-par",
+      "summary": "Investors have previously benefited from a payout boost when the preferred STRC shares traded well below their $100 par value for a month.",
+      "source": "Cointelegraph",
+      "date": "2026-08-02",
+      "date_human": "Aug 2, 2026",
+      "pub_ts": 1785684213,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-michael-saylor-got-wrecked-but-bitcoin-investors-neednt-panic.png"
+      ],
+      "image": "../assets/news/2026-08-02/3b48707a1697ef03_base.jpg",
+      "image_local": "../assets/news/2026-08-02/3b48707a1697ef03_base.jpg"
+    },
+    {
+      "title": "What's the Deal With Meta's ‘Pervert Glasses'?",
+      "link": "https://decrypt.co/374808/whats-the-deal-with-meta-pervert-glasses",
+      "summary": "Lawsuits, privacy complaints, secret recordings, and government investigations have put Meta’s AI glasses under scrutiny.",
+      "source": "Decrypt",
+      "date": "2026-08-02",
+      "date_human": "Aug 2, 2026",
+      "pub_ts": 1785682863,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-02/c12fb2cce7fba126_base.jpg",
+      "image_local": "../assets/news/2026-08-02/c12fb2cce7fba126_base.jpg"
+    },
+    {
+      "title": "The reverse bridge: Crypto meets Wall Street using perps",
+      "link": "https://www.coindesk.com/business/2026/08/02/the-reverse-bridge-crypto-meets-wall-street-using-perps",
+      "summary": "The reverse bridge: Crypto meets Wall Street using perps",
+      "source": "CoinDesk",
+      "date": "2026-08-02",
+      "date_human": "Aug 2, 2026",
+      "pub_ts": 1785675600,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/7eac92c55b377972de3017f48519c9d37c73a84a-862x598.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/7eac92c55b377972de3017f48519c9d37c73a84a-862x598.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-02/90a537a9c0507371_base.jpg",
+      "image_local": "../assets/news/2026-08-02/90a537a9c0507371_base.jpg"
+    },
+    {
+      "title": "Trump's legal loophole around the Supreme Court is keeping inflation alive – and trapping Bitcoin in the Fed's crosshairs",
+      "link": "https://cryptoslate.com/trumps-legal-loophole-around-the-supreme-court-is-keeping-inflation-alive-and-trapping-bitcoin-in-the-feds-crosshairs/",
+      "summary": "The Supreme Court gave Donald Trump a pretty direct answer in February: the emergency law he had used to tax imports from nearly everywhere didn't give him the authority to impose tariffs. However, Washington didn't see that as a locked door and treated it more like a disappointing result from a key-cutting machine. The administration […] The post Trump’s legal loophole around the Supreme Court is keeping inflation alive – and trapping Bitcoin in the Fed’s crosshairs appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-02",
+      "date_human": "Aug 2, 2026",
+      "pub_ts": 1785681308,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/trump-rebuilds-tariff-wall-bitcoin-impact.jpg"
+      ],
+      "image": "../assets/news/2026-08-02/2bdbde89054454e4_base.jpg",
+      "image_local": "../assets/news/2026-08-02/2bdbde89054454e4_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-02",
+      "date_human": "Aug 2, 2026",
+      "pub_ts": 1785671795,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-02/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-02/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "CZ Warns Bitcoin Holders After $70 Million Wallet Exploit: 'Nothing Is 100%'",
+      "link": "https://decrypt.co/374810/cz-warns-bitcoin-holders-70-million-coldcard-wallet-exploit",
+      "summary": "The Binance founder urged holders to spread funds across multiple wallets as Galaxy Research put the toll from the Coldcard exploit at roughly $70 million—nearly double the initial estimate.",
+      "source": "Decrypt",
+      "date": "2026-08-01",
+      "date_human": "Aug 1, 2026",
+      "pub_ts": 1785600077,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/changpeng-zhao-cz-decrypt-style-02-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/changpeng-zhao-cz-decrypt-style-02-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/changpeng-zhao-cz-decrypt-style-02-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-02/8815d6d722161562_base.jpg",
+      "image_local": "../assets/news/2026-08-02/8815d6d722161562_base.jpg"
+    },
+    {
+      "title": "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges",
+      "link": "https://www.coindesk.com/markets/2026/08/02/unlike-the-ftx-collapse-the-usd88-million-coldcard-exploit-has-investors-sending-bitcoin-back-to-exchanges",
+      "summary": "Unlike the FTX collapse, the $89 million Coldcard exploit has investors sending bitcoin back to exchanges",
+      "source": "CoinDesk",
+      "date": "2026-08-02",
+      "date_human": "Aug 2, 2026",
+      "pub_ts": 1785672231,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/ebab27428c42ef23eb3495a903cb473d0b2e540b-1600x900.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/ebab27428c42ef23eb3495a903cb473d0b2e540b-1600x900.jpg?auto=format&q=75"
+      ],
+      "image": "../assets/news/2026-08-02/d0f6c4fb8e9a249e_base.jpg",
+      "image_local": "../assets/news/2026-08-02/d0f6c4fb8e9a249e_base.jpg"
+    },
+    {
+      "title": "New York asks judge to force Kalshi to hand over the names, wagers, and losses of its local bettors",
+      "link": "https://cryptoslate.com/new-york-asks-judge-to-force-kalshi-to-hand-over-the-names-wagers-and-losses-of-its-local-bettors/",
+      "summary": "The July 31 petition also seeks restitution and three times alleged gains, while the federal merits remain unresolved. The post New York asks judge to force Kalshi to hand over the names, wagers, and losses of its local bettors appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-02",
+      "date_human": "Aug 2, 2026",
+      "pub_ts": 1785677407,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/new-york-attorney-general-strikes-kalshi-office.jpg"
+      ],
+      "image": "../assets/news/2026-08-02/cfaf7b4be5b2bf91_base.jpg",
+      "image_local": "../assets/news/2026-08-02/cfaf7b4be5b2bf91_base.jpg"
+    },
+    {
+      "title": "BNB Chain pursues legal action after ex-employee's memecoin launch",
+      "link": "https://cointelegraph.com/news/bnb-chain-legal-action-ex-employee-memecoin",
+      "summary": "BNB Chain said a former employee allegedly used a company tutorial wallet to create a memecoin that the blockchain ecosystem says it did not authorize or endorse.",
+      "source": "Cointelegraph",
+      "date": "2026-08-02",
+      "date_human": "Aug 2, 2026",
+      "pub_ts": 1785669840,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-social-engineering-attack-bnb-chain.jpg"
+      ],
+      "image": "../assets/news/2026-08-02/24132c7c800192de_base.jpg",
+      "image_local": "../assets/news/2026-08-02/24132c7c800192de_base.jpg"
+    },
+    {
+      "title": "The More Americans Know About AI, the Less They Like It: Gallup",
+      "link": "https://decrypt.co/374794/more-americans-know-about-ai-less-they-like-gallup",
+      "summary": "Gallup says Americans are growing more skeptical of artificial intelligence, with rising concerns about job losses, businesses' use of the technology, and the technology’s growing impact.",
+      "source": "Decrypt",
+      "date": "2026-08-01",
+      "date_human": "Aug 1, 2026",
+      "pub_ts": 1785596469,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-ai-jobs-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-ai-jobs-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-ai-jobs-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-02/50f30e0080693e09_base.jpg",
+      "image_local": "../assets/news/2026-08-02/50f30e0080693e09_base.jpg"
+    },
+    {
+      "title": "Strategy holds STRC dividend at 12%",
+      "link": "https://www.coindesk.com/markets/2026/08/01/strategy-holds-strc-dividend-at-12",
+      "summary": "Strategy holds STRC dividend at 12%",
+      "source": "CoinDesk",
+      "date": "2026-08-01",
+      "date_human": "Aug 1, 2026",
+      "pub_ts": 1785621717,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/8a5dba87ad94ba079e2f4c60317ed8bbef4fb85e-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/8a5dba87ad94ba079e2f4c60317ed8bbef4fb85e-1920x1080.png?auto=format&q=75"
+      ],
+      "image": "../assets/news/2026-08-02/24d0b7a5d700bfd4_base.jpg",
+      "image_local": "../assets/news/2026-08-02/24d0b7a5d700bfd4_base.jpg"
+    }
+  ]
+}

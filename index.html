@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | SmartSignalHub</title>
+    <meta name="description" content="SmartSignalHub tracks live Bitcoin Spot and Futures signals with execution context, TP/SL plans, portfolio outcomes, and transparent strategy diagnostics." />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/" />
+    <meta name="theme-color" content="#07111c" />
+    <meta property="og:site_name" content="SmartSignalHub" />
+    <meta property="og:title" content="Home | SmartSignalHub" />
+    <meta property="og:description" content="Live Bitcoin signal tracking, Spot and Futures dashboards, TP/SL outcomes, and transparent strategy diagnostics." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/" />
+    <meta property="og:image" content="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/assets/site-social-og.png" />
+    <meta property="og:image:secure_url" content="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/assets/site-social-og.png" />
+    <meta property="og:image:alt" content="SmartSignalHub social preview" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Home | SmartSignalHub" />
+    <meta name="twitter:description" content="Live Bitcoin signal tracking, Spot and Futures dashboards, TP/SL outcomes, and transparent strategy diagnostics." />
+    <meta name="twitter:image" content="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/assets/site-social-og.png" />
+    <meta name="twitter:image:alt" content="SmartSignalHub social preview" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://sandroabashishvili.github.io/Bitcoin-Live-Signals/#organization",
+            "name": "SmartSignalHub",
+            "url": "https://sandroabashishvili.github.io/Bitcoin-Live-Signals/",
+            "description": "A public Bitcoin signal tracking system with Spot and Futures dashboards, TP/SL outcomes, and transparent strategy diagnostics."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://sandroabashishvili.github.io/Bitcoin-Live-Signals/#website",
+            "url": "https://sandroabashishvili.github.io/Bitcoin-Live-Signals/",
+            "name": "SmartSignalHub Bitcoin Live Signals",
+            "publisher": {
+              "@id": "https://sandroabashishvili.github.io/Bitcoin-Live-Signals/#organization"
+            }
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://sandroabashishvili.github.io/Bitcoin-Live-Signals/#webpage",
+            "url": "https://sandroabashishvili.github.io/Bitcoin-Live-Signals/",
+            "name": "Home | SmartSignalHub",
+            "description": "SmartSignalHub tracks live Bitcoin Spot and Futures signals with execution context, TP/SL plans, portfolio outcomes, and transparent strategy diagnostics.",
+            "isPartOf": {
+              "@id": "https://sandroabashishvili.github.io/Bitcoin-Live-Signals/#website"
+            }
+          }
+        ]
+      }
+    </script>
+    <link rel="icon" type="image/png" href="./assets/site-favicon.png" />
+    <link rel="icon" type="image/x-icon" href="./assets/site-favicon.ico" />
+    <script>
+      if (location.hostname === "sandroabashishvili.github.io") {
+        var s = document.createElement('script'); s.async = true;
+        s.src = "https://www.googletagmanager.com/gtag/js?id=G-PLE3C4PMNF";
+        document.head.appendChild(s);
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-PLE3C4PMNF');
+      }
+    </script>
+    <link rel="stylesheet" href="/Bitcoin-Live-Signals/shared/components/css/navigation.css" />
+    <link rel="stylesheet" href="./home/css/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <div class="global-nav-shell">
+        <nav class="global-nav" aria-label="Primary navigation">
+          <a class="global-brand" href="./">SmartSignalHub</a>
+          <div class="global-nav-links"><a class="active" href="./">Home</a><details class="global-nav-menu"><summary>Strategies</summary><div class="global-nav-menu-panel"><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/spot/dashboard/overview_spot/">Spot</a><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/futures/dashboard/overview_futures/">Futures</a><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/futures_hedge/dashboard/overview_hedge/">Hedge</a></div></details><a href="./news/">News</a><a href="./resources/">Resources</a></div>
+        </nav>
+      </div>
+      <script>
+        (() => {
+          const menus = document.querySelectorAll(".global-nav-menu");
+          const hoverCapable = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+          menus.forEach((menu) => {
+            const summary = menu.querySelector("summary");
+            if (!summary) return;
+            let closeTimer = 0;
+            const openMenu = () => {
+              window.clearTimeout(closeTimer);
+              menu.open = true;
+            };
+            const closeMenu = () => {
+              window.clearTimeout(closeTimer);
+              closeTimer = window.setTimeout(() => {
+                menu.open = false;
+              }, 180);
+            };
+            if (hoverCapable) {
+              summary.addEventListener("click", (event) => event.preventDefault());
+              menu.addEventListener("mouseenter", openMenu);
+              menu.addEventListener("mouseleave", closeMenu);
+            }
+            menu.addEventListener("focusin", openMenu);
+            menu.addEventListener("focusout", () => {
+              window.setTimeout(() => {
+                if (!menu.contains(document.activeElement)) menu.open = false;
+              }, 0);
+            });
+          });
+        })();
+      </script>
+
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Bitcoin signal tracking system</p>
+          <h1>Live Bitcoin signals with execution context.</h1>
+          <p class="lead">Spot, Futures, and Hedge dashboards with capital, entries, outcomes, and audit reasons in one public view.</p>
+          <div class="actions">
+            <a class="button" href="/Bitcoin-Live-Signals/spot/dashboard/overview_spot/">Spot Dashboard</a>
+            <a class="button secondary" href="/Bitcoin-Live-Signals/futures/dashboard/overview_futures/">Futures Dashboard</a>
+            <a class="button secondary" href="/Bitcoin-Live-Signals/futures_hedge/dashboard/overview_hedge/">Hedge Dashboard</a>
+          </div>
+        </div>
+
+        <aside class="signal-board" aria-label="System overview">
+          <div class="board-head">
+            <span>Current Scope</span>
+            <strong class="status">Simulation</strong>
+          </div>
+          <div class="metrics">
+            <div class="metric">
+              <span>Spot</span>
+              <strong>BUY</strong>
+              <small>Bitcoin spot dashboard for long setups, open positions, and finished trades.</small>
+            </div>
+            <div class="metric">
+              <span>Futures</span>
+              <strong>LONG / SHORT</strong>
+              <small>Futures view for both directions, with permission checks before entry.</small>
+            </div>
+            <div class="metric">
+              <span>Hedge</span>
+              <strong>STRATEGY</strong>
+              <small>Separate Hedge view for Futures-based LONG/SHORT exposure, capital, and basket PnL.</small>
+            </div>
+            <div class="metric">
+              <span>Risk</span>
+              <strong>TP / SL</strong>
+              <small>Each trade keeps its entry, target, stop, and final result visible.</small>
+            </div>
+            <div class="metric">
+              <span>Outcomes</span>
+              <strong>Audit</strong>
+              <small>The system also shows when it waits, blocks, or rejects a setup.</small>
+            </div>
+            <div class="metric">
+              <span>News</span>
+              <strong>Context</strong>
+              <small>Daily market headlines stay connected to the signal dashboards.</small>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="system-story" aria-labelledby="system-story-title">
+        <div class="section-heading">
+          <p class="eyebrow">How the system works</p>
+          <h2 id="system-story-title">From market context to an auditable outcome.</h2>
+          <p>SmartSignalHub does more than display a direction. It keeps the data, decision, execution permission, and simulated result connected.</p>
+        </div>
+
+        <div class="workflow-grid">
+          <article class="workflow-card">
+            <span class="workflow-step">01</span>
+            <h3>Market context</h3>
+            <p>5m, 15m, and 4h data describe direction and market structure. One-minute data provides finer execution evidence.</p>
+          </article>
+          <article class="workflow-card">
+            <span class="workflow-step">02</span>
+            <h3>Signal decision</h3>
+            <p>Spot evaluates BUY setups. Futures evaluates LONG and SHORT setups. A clear no-signal state remains visible.</p>
+          </article>
+          <article class="workflow-card">
+            <span class="workflow-step">03</span>
+            <h3>Permission and execution</h3>
+            <p>Capital, exposure, timing, proximity, and market-zone checks are evaluated before a simulated position can open.</p>
+          </article>
+          <article class="workflow-card">
+            <span class="workflow-step">04</span>
+            <h3>Outcome and audit</h3>
+            <p>Entry, TP, SL, portfolio impact, and blocked or denied reasons remain available for review and research.</p>
+          </article>
+        </div>
+
+        <div class="transparency-callout">
+          <div>
+            <p class="eyebrow">Built for traceability</p>
+            <h3>Every visible result has context.</h3>
+            <p>The public dashboards show simulation data for education and system research. They are not trading instructions or financial advice.</p>
+          </div>
+          <div class="callout-links">
+            <a href="/Bitcoin-Live-Signals/futures/dashboard/strategy_edge_futures/">Strategy diagnostics</a>
+            <a href="./news/">Market news</a>
+            <a href="./resources/">Resources</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="assistant-section" aria-labelledby="assistant-section-title">
+        <div class="section-heading">
+          <p class="eyebrow">SmartSignalHub assistants</p>
+          <h2 id="assistant-section-title">Follow updates or ask the system directly.</h2>
+          <p>Use Telegram for convenient signal updates, or talk to Mr.B when you want a clear explanation of the dashboards, signals, blocked entries, and system behavior.</p>
+        </div>
+        <div class="assistant-grid">
+          <article class="assistant-card assistant-telegram">
+            <div>
+              <span class="assistant-kicker">Telegram bot</span>
+              <h3>Receive SmartSignalHub signals in Telegram</h3>
+              <p>Start the bot to receive Spot and Futures signal notifications without keeping the dashboard open.</p>
+            </div>
+            <a class="assistant-action" href="https://t.me/bitcoin_live_signals_bot" target="_blank" rel="noopener noreferrer">Start Telegram bot <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="assistant-card assistant-mrb">
+            <div>
+              <span class="assistant-kicker">AI representative</span>
+              <h3>Ask Mr.B about SmartSignalHub</h3>
+              <p>Get structured explanations of signal logic, dashboard panels, blocked entries, force closes, and platform limits.</p>
+            </div>
+            <a class="assistant-action" href="https://chatgpt.com/g/g-67b1e2c281888191a0cb0d1e8e384396-mr-b-smartsignalhub-ai-representative" target="_blank" rel="noopener noreferrer">Talk to Mr.B <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <footer class="site-footer" aria-label="Site footer">
+        <div class="site-footer-inner">
+          <div class="footer-socials">
+            <a class="social-facebook" href="https://www.facebook.com/CryptoNewsGeorgia" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Facebook</a>
+            <a class="social-linkedin" href="https://www.linkedin.com/in/aleksandre-abashishvili-03417617a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+            <a class="social-x" href="https://x.com/SAbashishvili" target="_blank" rel="noopener noreferrer" aria-label="X">X</a>
+            <a class="social-github" href="https://github.com/sandroabashishvili" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+            <a class="social-portfolio" href="https://sandro-abashishvili.sandroabashishvili.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-label="Portfolio">Portfolio</a>
+            <a class="social-telegram" href="https://t.me/bitcoin_live_signals_bot" target="_blank" rel="noopener noreferrer" aria-label="Telegram">Telegram</a>
+            <a class="social-youtube" href="https://youtube.com/@cryptonewsgeorgia?si=7yyT10A9UzRlBY6E" target="_blank" rel="noopener noreferrer" aria-label="YouTube">YouTube</a>
+          </div>
+          <p class="footer-copy">© 2026 Smart Signal Hub • Educational use only. Not financial advice.</p>
+          <nav class="footer-legal" aria-label="Legal links">
+            <a href="./legal/impressum.html">Impressum</a>
+            <a href="./legal/datenschutz.html">Datenschutz</a>
+          </nav>
+        </div>
+      </footer>
+
+    </main>
+  </body>
+</html>

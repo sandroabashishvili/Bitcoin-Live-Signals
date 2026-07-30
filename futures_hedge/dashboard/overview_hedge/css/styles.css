@@ -1,0 +1,268 @@
+@import url("/Bitcoin-Live-Signals/shared/components/css/styles.css");
+
+.grid {
+  display: grid;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.grid-main {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.section-panel {
+  margin-top: 18px;
+}
+
+.capital-panel {
+  margin-top: 18px;
+}
+
+.capital-panel .panel-head {
+  margin-bottom: 10px;
+}
+
+.capital-panel .panel-head h2 {
+  font-size: 18px;
+}
+
+.hedge-equity-chart-panel .chart-shell {
+  height: 360px;
+}
+
+.hedge-capital-grid {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.hedge-page .metric-card {
+  min-height: 70px;
+  padding: 10px 12px;
+}
+
+.hedge-page .metric-card span {
+  margin-bottom: 5px;
+  letter-spacing: 0.04em;
+}
+
+.hedge-page .metric-card strong {
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.hedge-page .metric-card strong.value-green {
+  color: var(--green);
+}
+
+.hedge-page .metric-card strong.value-red {
+  color: var(--red);
+}
+
+.hedge-page .metric-card strong.value-amber {
+  color: var(--amber);
+}
+
+.hedge-page .metric-card strong.value-muted {
+  color: var(--text);
+}
+
+.section-heading-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.section-heading-row h2 {
+  margin-bottom: 0;
+}
+
+.snapshot-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px 20px;
+}
+
+.snapshot-grid .row {
+  min-width: 0;
+}
+
+.snapshot-grid .row span,
+.snapshot-grid .row strong {
+  overflow-wrap: anywhere;
+}
+
+.row span {
+  display: block;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.hedge-page h2 {
+  margin: 0 0 14px;
+  font-size: 17px;
+  letter-spacing: 0;
+}
+
+.rows {
+  display: grid;
+  gap: 8px;
+}
+
+.row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid color-mix(in oklab, var(--line) 82%, transparent);
+}
+
+.row:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.row strong {
+  text-align: right;
+  font-size: 14px;
+}
+
+.hedge-page .value-muted {
+  color: var(--text) !important;
+}
+
+.row strong.value-muted {
+  color: var(--text) !important;
+}
+
+.hedge-entries-table td,
+.hedge-entries-table th {
+  white-space: nowrap;
+}
+
+.hedge-entries-table td:first-child {
+  min-width: 160px;
+}
+
+.hedge-entries-table th,
+.hedge-entries-table td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.hedge-page .table-controls {
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.hedge-page .table-control-button {
+  flex: 0 0 auto;
+  min-width: 0;
+}
+
+.hedge-page .table-page-size-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.hedge-page .table-page-size-select {
+  border: 0;
+  outline: 0;
+  background: var(--bg);
+  color: var(--text);
+  padding: 0 2px;
+  font: inherit;
+}
+
+.hedge-page .table-page-size-select option {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.basket-long h2 {
+  color: var(--green);
+}
+
+.basket-short h2 {
+  color: var(--red);
+}
+
+.basket-chart-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: -3px;
+}
+
+.basket-chart-heading span {
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.basket-chart-heading small {
+  color: var(--muted);
+  font-size: 11px;
+  text-align: right;
+}
+
+.basket-chart-shell {
+  height: 185px;
+  margin: 9px 0 15px;
+}
+
+.note,
+.source-path {
+  margin: 16px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+@media (max-width: 1180px) {
+  .hedge-capital-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 920px) {
+  .grid-main,
+  .snapshot-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .grid-main,
+  .snapshot-grid,
+  .hedge-capital-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hedge-equity-chart-panel .chart-shell {
+    height: 300px;
+  }
+
+  .basket-chart-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .basket-chart-heading small {
+    text-align: left;
+  }
+
+  .basket-chart-shell {
+    height: 170px;
+  }
+}

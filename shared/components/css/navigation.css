@@ -1,0 +1,365 @@
+.page-chrome {
+  display: contents;
+}
+
+.page-chrome .hero,
+.page-chrome .subnav {
+  width: min(calc(var(--layout-width) - 36px), calc(100vw - 32px));
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+}
+
+.global-nav-shell {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 60;
+  width: 100%;
+  background: var(--bg);
+  border-bottom: 1px solid rgba(173, 214, 255, 0.12);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.global-nav {
+  width: min(calc(var(--layout-width) - 36px), calc(100vw - 32px));
+  margin: 0 auto;
+  padding: 16px 0 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.global-brand,
+.global-nav-links a,
+.global-nav-menu summary {
+  color: color-mix(in oklab, var(--text) 84%, var(--muted));
+  text-decoration: none;
+  font-weight: 650;
+  letter-spacing: 0;
+}
+
+.global-brand {
+  color: var(--text);
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.global-nav-links a,
+.global-nav-menu summary {
+  font-size: 18px;
+}
+
+.global-nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+}
+
+.global-brand:hover,
+.global-brand:focus-visible,
+.global-nav-links a:hover,
+.global-nav-links a:focus-visible,
+.global-nav-links a.active,
+.global-nav-menu:hover summary,
+.global-nav-menu:focus-within summary,
+.global-nav-menu.active summary {
+  color: color-mix(in oklab, var(--amber) 92%, white 8%);
+  transform: translateY(-1px);
+}
+
+.global-nav-links a,
+.global-nav-menu summary {
+  position: relative;
+  transition: color 0.18s ease, transform 0.18s ease;
+}
+
+.global-nav-links a::after,
+.global-nav-menu summary::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -7px;
+  height: 1px;
+  background: transparent;
+  transform: scaleX(0.35);
+  transition: background 0.18s ease, transform 0.18s ease;
+}
+
+.global-nav-links a:hover::after,
+.global-nav-links a:focus-visible::after,
+.global-nav-links a.active::after,
+.global-nav-menu:hover summary::after,
+.global-nav-menu:focus-within summary::after,
+.global-nav-menu.active summary::after {
+  background: rgba(255, 255, 255, 0.92);
+  transform: scaleX(1);
+}
+
+.global-nav-menu {
+  position: relative;
+}
+
+.global-nav-menu summary {
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+}
+
+.global-nav-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.global-nav-menu-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 150px;
+  display: grid;
+  gap: 4px;
+  padding: 10px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.3);
+  z-index: 80;
+}
+
+.global-nav-menu:not([open]) .global-nav-menu-panel {
+  display: none;
+}
+
+.global-nav-menu:hover .global-nav-menu-panel,
+.global-nav-menu:focus-within .global-nav-menu-panel {
+  display: grid;
+}
+
+.global-nav-menu[open]:not(:hover):not(:focus-within) .global-nav-menu-panel {
+  display: none;
+}
+
+.global-nav-menu-panel .global-nav-menu-link {
+  display: block;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.global-nav-menu-panel .global-nav-menu-link::after {
+  display: none;
+}
+
+.global-nav-menu-panel .global-nav-menu-link:hover,
+.global-nav-menu-panel .global-nav-menu-link:focus-visible,
+.global-nav-menu-panel .global-nav-menu-link.active {
+  background: color-mix(in oklab, var(--amber) 16%, transparent);
+}
+
+.page-chrome .hero {
+  margin-bottom: 0;
+  padding: 68px 0 0;
+}
+
+.subnav-shell {
+  position: sticky;
+  top: 52px;
+  z-index: 55;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  background: var(--bg);
+  border-bottom: 1px solid rgba(173, 214, 255, 0.12);
+  margin-top: 34px;
+  margin-bottom: 18px;
+  min-height: 58px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 6px;
+  padding-bottom: 8px;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.16);
+}
+
+.subnav-toggle {
+  display: none;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 4px 6px;
+  cursor: pointer;
+  position: relative;
+  z-index: 100;
+}
+
+.subnav-mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 16px;
+  left: auto;
+  width: max-content;
+  min-width: 180px;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  padding: 12px 14px;
+  height: auto;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  z-index: 1000;
+  pointer-events: auto;
+  overflow-y: auto;
+  align-items: flex-start;
+  box-shadow: 0 18px 30px rgba(0, 0, 0, 0.28);
+}
+
+.subnav-shell.subnav-open .subnav-mobile-menu {
+  display: flex !important;
+}
+
+.subnav-shell.subnav-open + .page,
+.subnav-shell.subnav-open ~ .page,
+.subnav-shell.subnav-open ~ * {
+  filter: blur(0);
+}
+
+.subnav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  justify-items: start;
+  gap: 24px;
+  flex-wrap: nowrap;
+  width: min(calc(var(--layout-width) - 36px), calc(100vw - 32px));
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+  min-height: 42px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.subnav-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.subnav-row-secondary {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.subnav-link {
+  color: color-mix(in oklab, var(--text) 84%, var(--muted));
+  text-decoration: none;
+  text-align: center;
+  padding: 9px 0 11px;
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+  transition:
+    transform 0.18s ease,
+    background 0.18s ease,
+    color 0.18s ease,
+    border-color 0.18s ease;
+  font-size: 18px;
+  font-weight: 650;
+  letter-spacing: 0;
+  position: relative;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: max-content;
+}
+
+@media (max-width: 760px) {
+  .global-nav {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .global-brand {
+    width: 100%;
+  }
+
+  .global-nav-links {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10px 16px;
+  }
+
+  .global-brand {
+    font-size: 18px;
+  }
+
+  .global-nav-links a,
+  .global-nav-menu summary {
+    font-size: 16px;
+  }
+
+  .global-nav-menu-panel {
+    left: 0;
+    right: auto;
+    top: calc(100% + 8px);
+  }
+
+  .subnav-link {
+    font-size: 15px;
+  }
+
+  .subnav-shell {
+    top: 70px;
+  }
+}
+
+.subnav-row .subnav-link + .subnav-link {
+  margin-left: 0;
+}
+
+.subnav-row-secondary .subnav-link:first-child {
+  margin-left: 0;
+}
+
+.subnav-link:hover {
+  color: color-mix(in oklab, var(--amber) 92%, white 8%);
+  transform: translateY(-1px);
+  text-shadow: 0 0 18px rgba(115, 193, 255, 0.12);
+}
+
+.subnav-link:focus-visible {
+  outline: 2px solid rgba(115, 193, 255, 0.42);
+  outline-offset: 2px;
+  color: color-mix(in oklab, var(--amber) 92%, white 8%);
+}
+
+.subnav-link.active {
+  color: color-mix(in oklab, var(--amber) 92%, white 8%);
+  text-shadow: 0 0 18px rgba(115, 193, 255, 0.14);
+}
+
+.subnav-link::after {
+  display: none;
+  content: none;
+}
+
+.subnav-link:hover::after,
+.subnav-link.active::after {
+  display: none;
+}

@@ -1,0 +1,326 @@
+@import url("/Bitcoin-Live-Signals/shared/components/css/styles.css");
+
+.panel,
+.metric-card,
+.timeframe-card,
+.runtime-table,
+.table-control-button {
+  border: 0;
+}
+
+.runtime-panel-stack {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+  width: 100%;
+  min-width: 0;
+}
+
+.runtime-panel-stack > .panel {
+  margin: 0;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.runtime-panel-stack .runtime-panel .panel-intro {
+  max-width: none;
+}
+
+.runtime-panel-stack .panel-intro-closed {
+  white-space: nowrap;
+}
+
+.runtime-panel-stack .table-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.runtime-panel-stack .table-controls-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.runtime-panel-stack .table-control-button,
+.table-page-size-select {
+  min-height: 34px;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.table-page-size-select {
+  min-width: 44px;
+  font-family: inherit;
+  cursor: pointer;
+  text-align: center;
+}
+
+.table-page-size-select:hover,
+.table-page-size-select:focus-visible {
+  background: rgba(255,255,255,0.05);
+}
+
+.table-page-size-select option {
+  color: var(--text);
+  background: #07111d;
+}
+
+.filterable-header {
+  position: relative;
+}
+
+.table-filter-menu {
+  position: absolute;
+  z-index: 12;
+  top: calc(100% + 6px);
+  left: 0;
+  min-width: 150px;
+  width: max-content;
+  max-width: 240px;
+  padding: 0.35rem;
+  border: 1px solid rgba(173, 214, 255, 0.14);
+  border-radius: 8px;
+  background: #07111d;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.34);
+  font-family: inherit;
+}
+
+.table-filter-menu button {
+  display: block;
+  width: 100%;
+  border: 0;
+  border-radius: 6px;
+  padding: 0.45rem 0.55rem;
+  background: transparent;
+  color: var(--text);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.table-filter-menu button:hover,
+.table-filter-menu button.active {
+  color: var(--amber);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.table-header-filter-button {
+  appearance: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  background: transparent;
+  font: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  cursor: pointer;
+}
+
+.filter-arrow {
+  display: inline-block;
+  margin-left: 0.34rem;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid var(--muted);
+  vertical-align: middle;
+  transform: translateY(-0.04rem);
+}
+
+.table-header-filter-button:hover,
+.table-header-filter-button[aria-expanded="true"] {
+  color: var(--amber);
+}
+
+.table-header-filter-button[aria-expanded="true"] .filter-arrow {
+  border-top-color: var(--amber);
+}
+
+.portfolio-panel .panel-intro {
+  max-width: none;
+  margin-bottom: 0.7rem;
+}
+
+.portfolio-kpi-grid {
+  gap: 0.65rem;
+}
+
+.portfolio-kpi-grid .metric-card {
+  min-height: 0;
+  padding: 0.75rem 0.9rem;
+}
+
+.portfolio-kpi-grid .metric-card strong {
+  font-size: 1rem;
+}
+
+.portfolio-kpi-grid-capital {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.portfolio-kpi-grid-outcomes {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.expandable-table-row {
+  cursor: pointer;
+}
+
+.expandable-table-row:hover td {
+  background: color-mix(in oklab, var(--panel) 82%, var(--amber) 7%);
+}
+
+.expandable-table-row[aria-expanded="true"] td {
+  background: color-mix(in oklab, var(--panel) 84%, var(--amber) 9%);
+}
+
+.position-detail-row td {
+  padding: 0;
+  background: color-mix(in oklab, var(--panel) 90%, #050a13 10%);
+}
+
+.position-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.55rem;
+  padding: 0.8rem 0.85rem 0.95rem;
+  border-top: 1px solid rgba(173, 214, 255, 0.08);
+}
+
+.position-detail-item {
+  min-width: 0;
+  padding: 0.55rem 0.65rem;
+  border-radius: 8px;
+  background: rgba(5, 10, 19, 0.32);
+}
+
+.position-detail-item span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.24rem;
+}
+
+.position-detail-item strong {
+  display: block;
+  font-size: 0.88rem;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 980px) {
+  .portfolio-kpi-grid-capital,
+  .portfolio-kpi-grid-outcomes {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .position-detail-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .portfolio-kpi-grid-capital,
+  .portfolio-kpi-grid-outcomes {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .runtime-panel-stack .panel-intro-closed {
+    white-space: normal;
+  }
+
+  .runtime-panel-stack .panel-intro {
+    margin-bottom: 0.55rem;
+  }
+
+  .runtime-panel-stack .metric-card {
+    padding: 0.7rem 0.85rem;
+  }
+
+  .runtime-panel-stack .table-shell {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .runtime-panel-stack .runtime-table {
+    min-width: 920px;
+  }
+
+  .runtime-panel-stack .table-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .runtime-panel-stack .table-controls-group {
+    width: auto;
+    max-width: 100%;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-self: flex-start;
+  }
+
+  .runtime-panel-stack .table-control-button {
+    min-width: 0;
+    padding: 6px 9px;
+    font-size: 12px;
+    line-height: 1.2;
+    border-radius: 10px;
+    background: transparent;
+  }
+
+  .runtime-panel-stack .runtime-table th,
+  .runtime-panel-stack .runtime-table td {
+    font-size: 12px;
+    padding: 7px 8px;
+    white-space: nowrap;
+  }
+
+  .runtime-panel-stack .runtime-table .position-detail-row td {
+    padding: 0;
+    white-space: normal;
+  }
+
+  .runtime-panel-stack .chart-panel .chart-shell {
+    height: 320px;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 520px) {
+  .runtime-panel-stack .runtime-table {
+    min-width: 860px;
+  }
+
+  .runtime-panel-stack .chart-panel .chart-shell {
+    height: 290px;
+  }
+}

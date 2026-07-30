@@ -1,0 +1,196 @@
+{
+  "day_iso": "2026-07-25",
+  "generated_at_utc": "2026-07-25 22:05:54 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Robinhood in talks with Crypto.com over prediction markets: WSJ",
+      "link": "https://cointelegraph.com/news/robinhood-cryptocom-prediction-markets",
+      "summary": "While prediction market companies in the US continue to face legal battles between state and federal authorities, Robinhood is reportedly considering expanding its services.",
+      "source": "Cointelegraph",
+      "date": "2026-07-25",
+      "date_human": "Jul 25, 2026",
+      "pub_ts": 1785013304,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-when-prediction-markets-go-wrong-who-decides-what-counts-as-the-truth.jpg"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-when-prediction-markets-go-wrong-who-decides-what-counts-as-the-truth.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Samsung Wallet is getting native stablecoins – and it could make one token the default for 800M users",
+      "link": "https://cryptoslate.com/samsung-wallets-stablecoin-plan-could-redraw-crypto-distribution-while-its-biggest-decisions-are-still-unannounced/",
+      "summary": "Issuer, chain, custody, redemption, market and launch choices will determine whether Wallet becomes a native transaction route or a narrower integration. The post Samsung Wallet is getting native stablecoins – and it could make one token the default for 800M users appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-25",
+      "date_human": "Jul 25, 2026",
+      "pub_ts": 1785006317,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/samsung-wallet-stablecoin-issuer-network-custody-options.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/samsung-wallet-stablecoin-issuer-network-custody-options.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Russia's largest bank Sberbank plans crypto trading infrastructure by December",
+      "link": "https://www.coindesk.com/business/2026/07/25/russia-s-largest-bank-sberbank-plans-crypto-trading-infrastructure-by-december",
+      "summary": "Russia's largest bank Sberbank plans crypto trading infrastructure by December",
+      "source": "CoinDesk",
+      "date": "2026-07-25",
+      "date_human": "Jul 25, 2026",
+      "pub_ts": 1784998776,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/c00d5f581af46430d49e6ab1ab92dae6b12abcf3-5625x3750.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/c00d5f581af46430d49e6ab1ab92dae6b12abcf3-5625x3750.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/c00d5f581af46430d49e6ab1ab92dae6b12abcf3-5625x3750.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "What Is an AI Kill Switch and Why Do US Lawmakers Want One?",
+      "link": "https://decrypt.co/374332/what-is-ai-kill-switch-openai-hack-hugging-face",
+      "summary": "The AI Kill Switch Act would let Homeland Security order frontier AI throttled or shut down, with fines up to $20 million a day for defying it.",
+      "source": "Decrypt",
+      "date": "2026-07-25",
+      "date_human": "Jul 25, 2026",
+      "pub_ts": 1784988063,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png",
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin advocacy group to join US State Department's ‘digital freedom' program",
+      "link": "https://cointelegraph.com/news/bitcoin-policy-institute-state-department-program",
+      "summary": "The Bitcoin Policy Institute and three partner organizations will be able to send employees to work alongside State Department officials to address issues including digital freedom.",
+      "source": "Cointelegraph",
+      "date": "2026-07-25",
+      "date_human": "Jul 25, 2026",
+      "pub_ts": 1785003344,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/bitcoin-state-department.png"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/bitcoin-state-department.png",
+      "image_local": null
+    },
+    {
+      "title": "EU expands HTX crackdown as Russia-linked crypto network keeps shifting its financial rails",
+      "link": "https://cryptoslate.com/eu-expands-htx-crackdown-as-russia-linked-crypto-network-keeps-shifting-its-financial-rails/",
+      "summary": "The European Union has sanctioned HTX, widening a Russia crackdown that has already affected counterparties beyond the exchange. The bloc placed Huobi Global S.A., the entity behind HTX, under a transaction ban in its 21st sanctions package adopted July 23. From Aug. 23, EU operators will be prohibited from transacting with the exchange, though the […] The post EU expands HTX crackdown as Russia-linked crypto network keeps shifting its financial rails appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-25",
+      "date_human": "Jul 25, 2026",
+      "pub_ts": 1785000600,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/eu-htx-sanctions-editorial-hero-v2.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/eu-htx-sanctions-editorial-hero-v2.jpg",
+      "image_local": null
+    },
+    {
+      "title": "North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto",
+      "link": "https://www.coindesk.com/business/2026/07/25/north-korea-arrests-hackers-accused-of-laundering-stolen-funds-from-country-s-bank-via-crypto",
+      "summary": "North Korea arrests hackers accused of laundering stolen funds from country's bank via crypto",
+      "source": "CoinDesk",
+      "date": "2026-07-25",
+      "date_human": "Jul 25, 2026",
+      "pub_ts": 1784994365,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/718e047524d1d0b0ef0a84f0f8f609f4d68e9b1c-1439x810.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/718e047524d1d0b0ef0a84f0f8f609f4d68e9b1c-1439x810.jpg?auto=format&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/718e047524d1d0b0ef0a84f0f8f609f4d68e9b1c-1439x810.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "Stocks Just Topped Crypto on Hyperliquid. ARK Says That Changes Everything",
+      "link": "https://decrypt.co/374334/stocks-crypto-hyperliquid-ark-invest",
+      "summary": "For the first time, real-world assets—stocks, commodities, and market indices—outpaced crypto on the world's biggest decentralized derivatives exchange.",
+      "source": "Decrypt",
+      "date": "2026-07-24",
+      "date_human": "Jul 24, 2026",
+      "pub_ts": 1784930596,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/hyperliquid-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/hyperliquid-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/hyperliquid-decrypt-style-gID_7.jpg"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/hyperliquid-decrypt-style-gID_7.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Wise to resubmit US charter application under GENIUS Act",
+      "link": "https://cointelegraph.com/news/wise-resubmit-occ-charter-application-genius-stablecoins",
+      "summary": "The OCC denied the UK company’s application this week citing AML/CFT risks, despite approving similar charters for digital asset companies in the last year.",
+      "source": "Cointelegraph",
+      "date": "2026-07-25",
+      "date_human": "Jul 25, 2026",
+      "pub_ts": 1784995531,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-occ-application.png"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-occ-application.png",
+      "image_local": null
+    },
+    {
+      "title": "Trump jokes about 4th term as $17 million in TRUMP tokens move onto exchanges",
+      "link": "https://cryptoslate.com/trump-jokes-about-4th-term-as-17-million-in-trump-tokens-move-toward-exchanges/",
+      "summary": "President Donald Trump joked about seeking a fourth term as millions of dollars in his namesake meme coin moved toward exchanges. Trump used the White House Correspondents’ Association dinner to revive one of his longest-running political provocations, pulling out a red “Trump 2028” hat and declaring that he intended to run again. He joked: “I’m […] The post Trump jokes about 4th term as $17 million in TRUMP tokens move onto exchanges appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-25",
+      "date_human": "Jul 25, 2026",
+      "pub_ts": 1784995551,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/trump-2028-hat-memecoin-price-decline.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/trump-2028-hat-memecoin-price-decline.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case",
+      "link": "https://www.coindesk.com/opinion/2026/07/25/democratizing-weather-derivatives-through-tokenization-could-be-crypto-s-most-important-real-world-use-case",
+      "summary": "Democratizing weather derivatives through tokenization could be crypto's most important real-world use case",
+      "source": "CoinDesk",
+      "date": "2026-07-25",
+      "date_human": "Jul 25, 2026",
+      "pub_ts": 1784984400,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/498275a8ec5e7df835f47c58778db26eb7a40a00-6240x4160.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/498275a8ec5e7df835f47c58778db26eb7a40a00-6240x4160.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/498275a8ec5e7df835f47c58778db26eb7a40a00-6240x4160.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "Samsung Wallet Will Add Stablecoin Support, Including USDC",
+      "link": "https://decrypt.co/374324/samsung-wallet-stablecoin-support-usdc",
+      "summary": "Samsung showed a wallet mockup holding Circle's USDC at Galaxy Unpacked. But details are scarce.",
+      "source": "Decrypt",
+      "date": "2026-07-24",
+      "date_human": "Jul 24, 2026",
+      "pub_ts": 1784921401,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/10/samsung-galaxy-fold-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/10/samsung-galaxy-fold-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/samsung-galaxy-fold-decrypt-style-gID_7.jpg"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/samsung-galaxy-fold-decrypt-style-gID_7.jpg",
+      "image_local": null
+    }
+  ]
+}

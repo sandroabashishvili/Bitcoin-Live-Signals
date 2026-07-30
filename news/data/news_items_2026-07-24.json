@@ -1,0 +1,196 @@
+{
+  "day_iso": "2026-07-24",
+  "generated_at_utc": "2026-07-24 22:06:01 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Stocks Just Topped Crypto on Hyperliquid. ARK Says That Changes Everything",
+      "link": "https://decrypt.co/374334/stocks-crypto-hyperliquid-ark-invest",
+      "summary": "For the first time, real-world assets—stocks, commodities, and market indices—outpaced crypto on the world's biggest decentralized derivatives exchange.",
+      "source": "Decrypt",
+      "date": "2026-07-24",
+      "date_human": "Jul 24, 2026",
+      "pub_ts": 1784930596,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/hyperliquid-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/hyperliquid-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/hyperliquid-decrypt-style-gID_7.jpg"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/hyperliquid-decrypt-style-gID_7.jpg",
+      "image_local": null
+    },
+    {
+      "title": "EU authorities include HTX exchange in Russian sanctions",
+      "link": "https://cointelegraph.com/news/htx-exchange-european-union-russia-sanctions",
+      "summary": "The exchange, already sanctioned by the UK, is now on a list of 18 entities “providing crypto-assets services or payment services“ in defiance of the EU’s measures against Russia.",
+      "source": "Cointelegraph",
+      "date": "2026-07-24",
+      "date_human": "Jul 24, 2026",
+      "pub_ts": 1784929985,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-what-do-eus-new-sanctions-mean-for-russian-crypto-users-1.jpg"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-what-do-eus-new-sanctions-mean-for-russian-crypto-users-1.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Strategy now publishes the Bitcoin return threshold below which it may have to restructure",
+      "link": "https://cryptoslate.com/strategy-now-publishes-the-bitcoin-return-threshold-below-which-it-may-have-to-restructure/",
+      "summary": "Strategy has published a financial metric showing that Bitcoin could decline at a constant annual rate of 11.34% across the weighted duration of the company’s credit structure before its modeled coverage falls below 1.0x. The BTC Floor ARR stood at -11.34% at 3:35 p.m. BST on July 24, when Strategy’s dashboard showed a weighted credit […] The post Strategy now publishes the Bitcoin return threshold below which it may have to restructure appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-24",
+      "date_human": "Jul 24, 2026",
+      "pub_ts": 1784925322,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/strategy-bitcoin-reserve-under-financial-pressure.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/strategy-bitcoin-reserve-under-financial-pressure.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Senate Dems should accept the victory they won on Trump's crypto limits: White House",
+      "link": "https://www.coindesk.com/policy/2026/07/24/senate-dems-should-accept-the-victory-they-won-on-trump-s-crypto-limits-white-house",
+      "summary": "Senate Dems should accept the victory they won on Trump's crypto limits: White House",
+      "source": "CoinDesk",
+      "date": "2026-07-24",
+      "date_human": "Jul 24, 2026",
+      "pub_ts": 1784905306,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/aefcf277cef626f81400c28bb3aab27f340fe892-2048x1152.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/aefcf277cef626f81400c28bb3aab27f340fe892-2048x1152.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/aefcf277cef626f81400c28bb3aab27f340fe892-2048x1152.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "Samsung Wallet Will Add Stablecoin Support, Including USDC",
+      "link": "https://decrypt.co/374324/samsung-wallet-stablecoin-support-usdc",
+      "summary": "Samsung showed a wallet mockup holding Circle's USDC at Galaxy Unpacked. But details are scarce.",
+      "source": "Decrypt",
+      "date": "2026-07-24",
+      "date_human": "Jul 24, 2026",
+      "pub_ts": 1784921401,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/10/samsung-galaxy-fold-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/10/samsung-galaxy-fold-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/samsung-galaxy-fold-decrypt-style-gID_7.jpg"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/10/samsung-galaxy-fold-decrypt-style-gID_7.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Strive's SATA recovers most of June decline, trades within 3% of par",
+      "link": "https://cointelegraph.com/news/strives-sata-recovers-most-of-june-decline-trades-within-3-of-par",
+      "summary": "Jan3 CEO Samson Mow says the recovery could signal renewed confidence in preferred-share products used by Bitcoin treasury companies.",
+      "source": "Cointelegraph",
+      "date": "2026-07-24",
+      "date_human": "Jul 24, 2026",
+      "pub_ts": 1784926942,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-the-biggest-challenge-for-crypto-exchanges-is-global-price-fragmentation-3.png"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-the-biggest-challenge-for-crypto-exchanges-is-global-price-fragmentation-3.png",
+      "image_local": null
+    },
+    {
+      "title": "FBI used Google cookies, 500 food orders and a Monero seed phrase to identify Steam malware funder",
+      "link": "https://cryptoslate.com/fbi-used-google-cookies-500-food-orders-and-a-monero-seed-phrase-to-identify-steam-malware-funder/",
+      "summary": "A 15-page federal criminal complaint details how investigators combined a Bitcoin trail with Google cookies, phone records, and more than 500 Uber Eats deliveries to identify Zyaire Dontaevious Zamarion Wilkins as the alleged financier and marketer of a Steam malware campaign. A later search uncovered a Monero seed phrase tied to roughly $382,000 in cumulative […] The post FBI used Google cookies, 500 food orders and a Monero seed phrase to identify Steam malware funder appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-24",
+      "date_human": "Jul 24, 2026",
+      "pub_ts": 1784920208,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/fbi-steam-malware-bitrefill-uber-eats-evidence-.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/fbi-steam-malware-bitrefill-uber-eats-evidence-.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Sam Altman-backed World Network secures $52.5 million in fresh funding to fight online AI deepfakes",
+      "link": "https://www.coindesk.com/business/2026/07/24/sam-altman-backed-world-network-secures-fresh-funding-to-fight-online-ai-deepfakes",
+      "summary": "Sam Altman-backed World Network secures $52.5 million in fresh funding to fight online AI deepfakes",
+      "source": "CoinDesk",
+      "date": "2026-07-24",
+      "date_human": "Jul 24, 2026",
+      "pub_ts": 1784905200,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/06376b1ba03e98ad44ec3cf3c34231075cdf9af8-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/06376b1ba03e98ad44ec3cf3c34231075cdf9af8-1920x1080.jpg?auto=format&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/06376b1ba03e98ad44ec3cf3c34231075cdf9af8-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "Claude Opus 5 Outscores Fable 5 on Most Benchmarks—At Half the Price",
+      "link": "https://decrypt.co/374305/claude-opus-5-outscores-fable-5-most-benchmarks-half-price",
+      "summary": "Anthropic's new everyday model undercuts its own frontier product on cost and beats it almost everywhere that counts.",
+      "source": "Decrypt",
+      "date": "2026-07-24",
+      "date_human": "Jul 24, 2026",
+      "pub_ts": 1784917723,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-2-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-2-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/decrypt-style-anthropic-2-gID_7.png"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-2-gID_7.png",
+      "image_local": null
+    },
+    {
+      "title": "House passes bill on lawmakers using insider information for stock trading",
+      "link": "https://cointelegraph.com/news/house-bill-lawmakers-insider-information-stock-trading",
+      "summary": "According to Senator Elizabeth Warren, the House bill “won’t solve the problem“ of insider trading in Congress as lawmakers will still be allowed to own and sell stocks.",
+      "source": "Cointelegraph",
+      "date": "2026-07-24",
+      "date_human": "Jul 24, 2026",
+      "pub_ts": 1784923550,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-market-trading-1-breaking-news.jpg"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-market-trading-1-breaking-news.jpg",
+      "image_local": null
+    },
+    {
+      "title": "BlackRock's IBIT accounted for 90% of a $225 million Bitcoin ETF reversal after a seven-day buying streak",
+      "link": "https://cryptoslate.com/blackrocks-ibit-accounted-for-90-of-a-225-million-bitcoin-etf-reversal-after-a-seven-day-buying-streak/",
+      "summary": "US spot Bitcoin ETFs recorded $225 million in net outflows on July 23, ending a seven-session inflow streak as net redemptions from BlackRock’s iShares Bitcoin Trust dominated the reversal. IBIT posted a $202 million net outflow, accounting for 89.96% of the US spot Bitcoin ETF sector’s aggregate net outflow. Five other funds recorded combined outflows […] The post BlackRock’s IBIT accounted for 90% of a $225 million Bitcoin ETF reversal after a seven-day buying streak appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-24",
+      "date_human": "Jul 24, 2026",
+      "pub_ts": 1784915151,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/blackrock-ibit-outflow-pressure-bitcoin.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/blackrock-ibit-outflow-pressure-bitcoin.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Institutional crypto trading platform LMAX is exploring sale, IPO",
+      "link": "https://www.coindesk.com/business/2026/05/22/institutional-crypto-trading-platform-lmax-is-exploring-sale-ipo",
+      "summary": "Institutional crypto trading platform LMAX is exploring sale, IPO",
+      "source": "CoinDesk",
+      "date": "2026-07-24",
+      "date_human": "Jul 24, 2026",
+      "pub_ts": 1784903776,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/26685777b02289720baed417998ab31c5110fd17-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/26685777b02289720baed417998ab31c5110fd17-1920x1080.jpg?auto=format&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/26685777b02289720baed417998ab31c5110fd17-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    }
+  ]
+}

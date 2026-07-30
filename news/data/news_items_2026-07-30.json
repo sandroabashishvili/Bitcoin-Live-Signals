@@ -1,0 +1,196 @@
+{
+  "day_iso": "2026-07-30",
+  "generated_at_utc": "2026-07-30 22:06:02 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "US Senators sent revised ethics rules to White House for CLARITY Act: Report",
+      "link": "https://cointelegraph.com/news/us-senators-revised-ethics-rules-white-house-clarity-act",
+      "summary": "The window to pass a comprehensive crypto market structure bill before the Senate breaks for a month-long recess is closing, with ethics a dividing issue for many lawmakers.",
+      "source": "Cointelegraph",
+      "date": "2026-07-30",
+      "date_human": "Jul 30, 2026",
+      "pub_ts": 1785448478,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/white-house-crypto3.jpg"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/white-house-crypto3.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Why 37 million Celsius bankruptcy shares are blocked from an immediate cash-out despite Nasdaq debut",
+      "link": "https://cryptoslate.com/why-37-million-celsius-bankruptcy-shares-are-blocked-from-an-immediate-cash-out-despite-nasdaq-debut/",
+      "summary": "IOND closed its first session at $62.90, while broker transfers and securities restrictions still shaped practical liquidity. The post Why 37 million Celsius bankruptcy shares are blocked from an immediate cash-out despite Nasdaq debut appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-30",
+      "date_human": "Jul 30, 2026",
+      "pub_ts": 1785447947,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/ionic-nasdaq-market-access-keyhole-collage.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/ionic-nasdaq-market-access-keyhole-collage.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Coinbase Misses on Q2 Earnings as Crypto Trading Activity Slows",
+      "link": "https://decrypt.co/374761/coinbase-misses-q2-earnings-crypto-trading-activity-slows",
+      "summary": "The exchange reported lower quarterly revenue and a net loss as crypto trading activity declined, while subscription, stablecoin, and lending businesses continued to grow.",
+      "source": "Decrypt",
+      "date": "2026-07-30",
+      "date_human": "Jul 30, 2026",
+      "pub_ts": 1785446352,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Brian-Armstrong-coinbase-wikimedia-decrypt-style-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Brian-Armstrong-coinbase-wikimedia-decrypt-style-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Brian-Armstrong-coinbase-wikimedia-decrypt-style-gID_7.png"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/Brian-Armstrong-coinbase-wikimedia-decrypt-style-gID_7.png",
+      "image_local": null
+    },
+    {
+      "title": "Strategy books $8.2 billion second quarter loss on bitcoin price decline",
+      "link": "https://www.coindesk.com/business/2026/07/30/strategy-books-usd8-2-billion-second-quarter-loss-on-bitcoin-price-decline",
+      "summary": "Strategy books $8.2 billion second quarter loss on bitcoin price decline",
+      "source": "CoinDesk",
+      "date": "2026-07-30",
+      "date_human": "Jul 30, 2026",
+      "pub_ts": 1785443533,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/024d211d615916fbb53501cbb63dc60c856cab12-6000x3376.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/024d211d615916fbb53501cbb63dc60c856cab12-6000x3376.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/024d211d615916fbb53501cbb63dc60c856cab12-6000x3376.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "Strategy posts $8.2B Q2 loss as Bitcoin slump drives unrealized losses",
+      "link": "https://cointelegraph.com/news/strategy-reports-q2-2026-loss",
+      "summary": "The Bitcoin treasury company said it has built a $3.75 billion cash reserve to support preferred stock payouts following the launch of its BTC monetization program.",
+      "source": "Cointelegraph",
+      "date": "2026-07-30",
+      "date_human": "Jul 30, 2026",
+      "pub_ts": 1785447399,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/regulation-office-document-paper-strategyb.png"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/regulation-office-document-paper-strategyb.png",
+      "image_local": null
+    },
+    {
+      "title": "SoFi reported 388,336 crypto products, but Q2 net transaction revenue only reached $1.2 million",
+      "link": "https://cryptoslate.com/sofi-reported-388336-crypto-products-but-q2-net-transaction-revenue-reached-only-about-1-2-million/",
+      "summary": "The filing shows $134.267 million gross, $133.084 million in transaction costs, and no standalone crypto profit figure. The post SoFi reported 388,336 crypto products, but Q2 net transaction revenue only reached $1.2 million appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-30",
+      "date_human": "Jul 30, 2026",
+      "pub_ts": 1785447349,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/sofi-crypto-net-revenue-coin-jar-collage.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/sofi-crypto-net-revenue-coin-jar-collage.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Treasury Secretary Invokes Bitcoin Creator Satoshi Nakamoto in Plea for Clarity Act",
+      "link": "https://decrypt.co/374758/treasury-secretary-bitcoin-satoshi-nakamoto-clarity-act",
+      "summary": "Scott Bessent urged the Senate to immediately vote on the crypto market structure bill, accusing Democrats of delaying the legislation for political reasons.",
+      "source": "Decrypt",
+      "date": "2026-07-30",
+      "date_human": "Jul 30, 2026",
+      "pub_ts": 1785439939,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/scott-bessent-decrypt-style-1-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/scott-bessent-decrypt-style-1-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/scott-bessent-decrypt-style-1-gID_7.jpg"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/06/scott-bessent-decrypt-style-1-gID_7.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Coinbase sinks 5% after missing second quarter revenue estimates",
+      "link": "https://www.coindesk.com/markets/2026/07/30/coinbase-sinks-5-after-missing-q2-revenue-estimates",
+      "summary": "Coinbase sinks 5% after missing second quarter revenue estimates",
+      "source": "CoinDesk",
+      "date": "2026-07-30",
+      "date_human": "Jul 30, 2026",
+      "pub_ts": 1785442713,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/868ae20c7c05b3aab1825f55f45b74a9484fd851-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/868ae20c7c05b3aab1825f55f45b74a9484fd851-1920x1280.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/868ae20c7c05b3aab1825f55f45b74a9484fd851-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "World Cup generated $20B in blockchain prediction market volume: Chainalysis",
+      "link": "https://cointelegraph.com/news/world-cup-generated-20b-prediction-market-volume-chainalysis",
+      "summary": "The blockchain analytics firm said the World Cup attracted global participation in prediction markets and digital collectibles, with more than 400,000 wallets placing blockchain-based bets.",
+      "source": "Cointelegraph",
+      "date": "2026-07-30",
+      "date_human": "Jul 30, 2026",
+      "pub_ts": 1785445499,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-nft-at-the-fifa-world-cup-1.png"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-nft-at-the-fifa-world-cup-1.png",
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin struggles to turn US GDP miss into bullish catalyst as strong spending backs Fed caution",
+      "link": "https://cryptoslate.com/bitcoin-struggles-to-turn-us-gdp-miss-into-bullish-catalyst-as-strong-spending-backs-fed-caution/",
+      "summary": "Bitcoin briefly topped $65,000 on Thursday after US economic growth fell short of forecasts. Data from CryptoSlate show the largest cryptocurrency trading near $64,729 as of press time after reaching an intraday high of $65,071 and recovering from a low of $63,205. The advance followed data showing the US economy expanded at a 1.5% annualized […] The post Bitcoin struggles to turn US GDP miss into bullish catalyst as strong spending backs Fed caution appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-30",
+      "date_human": "Jul 30, 2026",
+      "pub_ts": 1785443709,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/bitcoin-balloon-fed-caution-gdp-miss.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/bitcoin-balloon-fed-caution-gdp-miss.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Researchers Tried Letting AI Do Science. It Failed",
+      "link": "https://decrypt.co/374755/researchers-tried-letting-ai-do-science-it-failed",
+      "summary": "A multi-institution study found that today's frontier AI agents could handle the mechanics of research but failed to produce original work worthy of acceptance at a top AI conference.",
+      "source": "Decrypt",
+      "date": "2026-07-30",
+      "date_human": "Jul 30, 2026",
+      "pub_ts": 1785438826,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-ai-robots-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-ai-robots-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/decrypt-style-ai-robots-gID_7.jpg"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-ai-robots-gID_7.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Global banks test tokenized money for cross-border payments in $1 million BIS pilot",
+      "link": "https://www.coindesk.com/business/2026/07/30/global-banks-test-tokenized-money-for-cross-border-payments-in-usd1-million-bis-pilot",
+      "summary": "Global banks test tokenized money for cross-border payments in $1 million BIS pilot",
+      "source": "CoinDesk",
+      "date": "2026-07-30",
+      "date_human": "Jul 30, 2026",
+      "pub_ts": 1785432843,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/4bba51485f26abb692e6ef6bcc557b0fc965919a-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/4bba51485f26abb692e6ef6bcc557b0fc965919a-1500x1000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/4bba51485f26abb692e6ef6bcc557b0fc965919a-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    }
+  ]
+}

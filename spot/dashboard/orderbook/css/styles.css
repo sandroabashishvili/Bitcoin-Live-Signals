@@ -1,0 +1,62 @@
+@import url("/Bitcoin-Live-Signals/shared/components/css/styles.css");
+
+.panel,
+.metric-card,
+.timeframe-card,
+.runtime-table {
+  border: 0;
+}
+
+.table-control-button {
+  border: 0;
+}
+
+.kpi-grid {
+  gap: 8px;
+}
+
+.kpi-grid .metric-card {
+  padding: 10px 11px;
+}
+
+.kpi-grid .metric-card span {
+  margin-bottom: 5px;
+}
+
+.kpi-grid .metric-card strong {
+  font-size: 16px;
+}
+
+.orderbook-class-text {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.runtime-panel {
+  margin-top: 0;
+}
+
+.chart-panel .panel-head h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.chart-panel .panel-intro {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+main.page > .panel + .panel,
+main.page > .panel + .runtime-panel,
+main.page > .runtime-panel + .panel {
+  margin-top: 18px;
+}
+
+@media (max-width: 640px) {
+  .kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

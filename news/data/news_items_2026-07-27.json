@@ -1,0 +1,196 @@
+{
+  "day_iso": "2026-07-27",
+  "generated_at_utc": "2026-07-27 22:06:01 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Cross River to enable P2P payments, banking services for X Money",
+      "link": "https://cointelegraph.com/news/x-money-cross-river-embedded-banking-p2p-payments",
+      "summary": "The banking-as-a-service provider will power X Money’s peer-to-peer payments, FDIC-insured accounts and Visa debit cards as the platform expands its financial services.",
+      "source": "Cointelegraph",
+      "date": "2026-07-27",
+      "date_human": "Jul 27, 2026",
+      "pub_ts": 1785186305,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-is-the-next-step-toward-a-cashless-society-eu.png"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-is-the-next-step-toward-a-cashless-society-eu.png",
+      "image_local": null
+    },
+    {
+      "title": "Searchable NYC Property Database Puts Wealthy Residents at Risk, Critics Warn",
+      "link": "https://decrypt.co/374484/searchable-nyc-property-database-could-put-wealthy-residents-at-risk-crypto-execs-warn",
+      "summary": "A searchable database built from New York City's public property assessment records has drawn backlash from critics who say it creates privacy and security risks.",
+      "source": "Decrypt",
+      "date": "2026-07-27",
+      "date_human": "Jul 27, 2026",
+      "pub_ts": 1785186305,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/hacker3-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/hacker3-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/hacker3-gID_7.png"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/hacker3-gID_7.png",
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin shrugs off AI selloff but high-stakes Fed meeting could determine what's next",
+      "link": "https://www.coindesk.com/markets/2026/07/27/bitcoin-shrugs-off-ai-selloff-but-high-stakes-fed-meeting-could-determine-what-s-next",
+      "summary": "Bitcoin shrugs off AI selloff but high-stakes Fed meeting could determine what's next",
+      "source": "CoinDesk",
+      "date": "2026-07-27",
+      "date_human": "Jul 27, 2026",
+      "pub_ts": 1785182145,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/3ab7bae0f5eca3344d78fd14752f64216f38f16a-2130x1186.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/3ab7bae0f5eca3344d78fd14752f64216f38f16a-2130x1186.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/3ab7bae0f5eca3344d78fd14752f64216f38f16a-2130x1186.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "Compromised owner contract just let hackers print 5.2 million WEMIX stablecoins out of thin air, forcing a complete network freeze",
+      "link": "https://cryptoslate.com/wemix-owner-breach-minted-5-23m-tokens-outside-its-100-backed-stablecoin-controls/",
+      "summary": "WEMIX says the issuance became WEMIX and USDC.e, but final losses and user impact remain unknown. The post Compromised owner contract just let hackers print 5.2 million WEMIX stablecoins out of thin air, forcing a complete network freeze appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-27",
+      "date_human": "Jul 27, 2026",
+      "pub_ts": 1785175548,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/wemix-stablecoin-breach-unauthorized-token-minting.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/wemix-stablecoin-breach-unauthorized-token-minting.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Bitmine keeps buying Ether as ETH outperforms Bitcoin",
+      "link": "https://cointelegraph.com/news/bitmine-keeps-buying-ether-as-eth-outperforms-bitcoin",
+      "summary": "The company added nearly 10,000 ETH over the past week, bringing its holdings to 5.79 million Ether, about 85% of which is staked through its validator operations.",
+      "source": "Cointelegraph",
+      "date": "2026-07-27",
+      "date_human": "Jul 27, 2026",
+      "pub_ts": 1785180179,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-the-7-largest-ethereum-treasury-companies-right-now-ranked-by-holdings-bitmine-3.jpg"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-the-7-largest-ethereum-treasury-companies-right-now-ranked-by-holdings-bitmine-3.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Prediction Market Traders Brace for Surprise Fed Rate Hike",
+      "link": "https://decrypt.co/374453/prediction-market-traders-brace-for-surprise-fed-rate-hike",
+      "summary": "Prediction market traders have pushed the odds of a July Fed rate hike to 27% on both Polymarket and Myriad, rising double digits in the last 24 hours.",
+      "source": "Decrypt",
+      "date": "2026-07-27",
+      "date_human": "Jul 27, 2026",
+      "pub_ts": 1785184996,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/09/federal-reserve-decrypt-style-02-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/federal-reserve-decrypt-style-02-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/federal-reserve-decrypt-style-02-gID_7.jpg"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/09/federal-reserve-decrypt-style-02-gID_7.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Crypto's favorite $90 trillion trading product is coming to Wall Street, but big banks are taking it slow",
+      "link": "https://www.coindesk.com/markets/2026/07/22/crypto-s-favorite-usd90-trillion-trading-product-is-coming-to-wall-street-but-big-banks-are-taking-it-slow",
+      "summary": "Crypto's favorite $90 trillion trading product is coming to Wall Street, but big banks are taking it slow",
+      "source": "CoinDesk",
+      "date": "2026-07-27",
+      "date_human": "Jul 27, 2026",
+      "pub_ts": 1785175200,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/535cd2c7dbb908633bc727e412235a2885e3256f-5269x3511.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/535cd2c7dbb908633bc727e412235a2885e3256f-5269x3511.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/535cd2c7dbb908633bc727e412235a2885e3256f-5269x3511.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "Lawsuit claims BitMEX used server freezes and internal trading to seize 622 Bitcoin ahead of its September closure",
+      "link": "https://cryptoslate.com/lawsuit-claims-bitmex-used-server-freezes-and-internal-trading-to-seize-622-bitcoin-ahead-of-its-september-closure/",
+      "summary": "The new complaint alleges an internal desk exploited customer data, while BitMEX says the case has no basis. The post Lawsuit claims BitMEX used server freezes and internal trading to seize 622 Bitcoin ahead of its September closure appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-27",
+      "date_human": "Jul 27, 2026",
+      "pub_ts": 1785170108,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/bitmex-bitcoin-vault-customer-claims.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/bitmex-bitcoin-vault-customer-claims.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-07-27",
+      "date_human": "Jul 27, 2026",
+      "pub_ts": 1785178318,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
+      "image_local": null
+    },
+    {
+      "title": "SparkKitty Malware Found in App Stores Targets Crypto Wallet Seed Phrases",
+      "link": "https://decrypt.co/374450/sparkkitty-malware-mobile-apps-crypto-wallet",
+      "summary": "A newly detailed report says SparkKitty malware scanned photos on infected iPhones and Android devices for cryptocurrency wallet recovery phrases after infiltrating Apple's App Store and Google Play.",
+      "source": "Decrypt",
+      "date": "2026-07-27",
+      "date_human": "Jul 27, 2026",
+      "pub_ts": 1785182997,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/crime_hacker-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/crime_hacker-gID_7.png"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
+      "image_local": null
+    },
+    {
+      "title": "Digital asset trading platform Uphold cuts 17% of global headcount as crypto winter bites",
+      "link": "https://www.coindesk.com/business/2026/07/27/digital-asset-trading-platform-uphold-cuts-17-of-global-headcount-as-crypto-winter-bites",
+      "summary": "Digital asset trading platform Uphold cuts 17% of global headcount as crypto winter bites",
+      "source": "CoinDesk",
+      "date": "2026-07-27",
+      "date_human": "Jul 27, 2026",
+      "pub_ts": 1785170826,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/af5533562893e00a029eaace0996b96eacade301-1905x1072.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/af5533562893e00a029eaace0996b96eacade301-1905x1072.jpg?auto=format&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/af5533562893e00a029eaace0996b96eacade301-1905x1072.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "On-chain data shows 5,280 ETH draining into single address following quiet Triple-A wallet breach",
+      "link": "https://cryptoslate.com/onchain-data-shows-5280-eth-draining-into-single-address-following-quiet-triple-a-wallet-breach/",
+      "summary": "Public Ethereum flows show 5,287 ETH entering one cited address, while source-wallet ownership and the access path remain unconfirmed. The post On-chain data shows 5,280 ETH draining into single address following quiet Triple-A wallet breach appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-27",
+      "date_human": "Jul 27, 2026",
+      "pub_ts": 1785164706,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/crypto-custody-vault-hacker-ethereum-collage.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/crypto-custody-vault-hacker-ethereum-collage.jpg",
+      "image_local": null
+    }
+  ]
+}

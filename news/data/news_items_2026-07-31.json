@@ -1,0 +1,196 @@
+{
+  "day_iso": "2026-07-31",
+  "generated_at_utc": "2026-07-31 22:05:57 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Why DeFi giant Aave is pulling the plug on six hyped blockchains making less than $5,000 a quarter",
+      "link": "https://cryptoslate.com/why-defi-giant-aave-is-pulling-the-plug-on-six-hyped-blockchains-making-less-than-5000-a-quarter/",
+      "summary": "LlamaRisk would freeze new activity, redirect nearly all interest revenue to the treasury, and reserve stronger unwind levers for later. The post Why DeFi giant Aave is pulling the plug on six hyped blockchains making less than $5,000 a quarter appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-31",
+      "date_human": "Jul 31, 2026",
+      "pub_ts": 1785533417,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/aave-six-chain-debt-exit-path-editorial-collage.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/aave-six-chain-debt-exit-path-editorial-collage.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Google Yanks Google Earth AI Image Tool a Day After Launch Over Deepfake Fears",
+      "link": "https://decrypt.co/374805/google-yanks-google-earth-ai-image-tool-deepfake-fears",
+      "summary": "The Nano Banana tool let users generate fake satellite scenes from a text prompt, alarming investigators who rely on Google Earth to verify breaking news and atrocities.",
+      "source": "Decrypt",
+      "date": "2026-07-31",
+      "date_human": "Jul 31, 2026",
+      "pub_ts": 1785529970,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png",
+      "image_local": null
+    },
+    {
+      "title": "Bank of Italy finds no consistent cost advantage for stablecoin remittances",
+      "link": "https://cointelegraph.com/news/bank-of-italy-study-no-stablecoin-remittance-cost-advantages",
+      "summary": "Researchers found that fiat conversion costs and payment infrastructure, rather than blockchain fees, accounted for most of the differences in stablecoin remittance costs and settlement times.",
+      "source": "Cointelegraph",
+      "date": "2026-07-31",
+      "date_human": "Jul 31, 2026",
+      "pub_ts": 1785528621,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-bank-of-italy-and-crypto-recap.png"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-bank-of-italy-and-crypto-recap.png",
+      "image_local": null
+    },
+    {
+      "title": "Tether posts $1.5 billion operating profit in Q2 as reserve buffer falls by half",
+      "link": "https://www.coindesk.com/business/2026/07/31/tether-posts-usd1-5-billion-operating-profit-in-q2-as-reserve-buffer-falls-by-half",
+      "summary": "Tether posts $1.5 billion operating profit in Q2 as reserve buffer falls by half",
+      "source": "CoinDesk",
+      "date": "2026-07-31",
+      "date_human": "Jul 31, 2026",
+      "pub_ts": 1785522295,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/06459a5f278c79f4095c8d3c6c664bcc7185d1c5-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/06459a5f278c79f4095c8d3c6c664bcc7185d1c5-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/06459a5f278c79f4095c8d3c6c664bcc7185d1c5-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "The free ride for VanEck's Bitcoin ETF is officially over after falling $1.4 billion short of growth target",
+      "link": "https://cryptoslate.com/the-free-ride-for-vanecks-bitcoin-etf-is-officially-over-after-falling-1-4-billion-short-of-growth-target/",
+      "summary": "The 0.20% sponsor fee applies after July 31, putting HODL level with BITB but one basis point above EZBC. The post The free ride for VanEck’s Bitcoin ETF is officially over after falling $1.4 billion short of growth target appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-31",
+      "date_human": "Jul 31, 2026",
+      "pub_ts": 1785530748,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/vaneck-hodl-etf-july-31-alarm-clock.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/vaneck-hodl-etf-july-31-alarm-clock.jpg",
+      "image_local": null
+    },
+    {
+      "title": "AI Music Company Suno Loses Copyright Case in Germany",
+      "link": "https://decrypt.co/374802/suno-ai-music-copyright-case-germany",
+      "summary": "The decision requires AI companies to license copyrighted music used to train models and generate songs, marking another legal win for music rights holders in Europe.",
+      "source": "Decrypt",
+      "date": "2026-07-31",
+      "date_human": "Jul 31, 2026",
+      "pub_ts": 1785528202,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/Ai_music2-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/Ai_music2-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Ai_music2-gID_7.png"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2025/07/Ai_music2-gID_7.png",
+      "image_local": null
+    },
+    {
+      "title": "Pump.fun laid off workers before they received millions in PUMP tokens: Report",
+      "link": "https://cointelegraph.com/news/pump-fun-employees-fired-tokens-vest",
+      "summary": "Pump.fun co-founder Noah Tweedale reportedly attributed the layoffs to the company growing too quickly.",
+      "source": "Cointelegraph",
+      "date": "2026-07-31",
+      "date_human": "Jul 31, 2026",
+      "pub_ts": 1785525379,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-pumpfun-firing.png"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-pumpfun-firing.png",
+      "image_local": null
+    },
+    {
+      "title": "The good and the bad of perps, according to crypto traders",
+      "link": "https://www.coindesk.com/business/2026/07/31/the-good-and-the-bad-of-perps-according-to-crypto-traders",
+      "summary": "The good and the bad of perps, according to crypto traders",
+      "source": "CoinDesk",
+      "date": "2026-07-31",
+      "date_human": "Jul 31, 2026",
+      "pub_ts": 1785520439,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/e5935e0dfa2e7f85bd8761d8a1d6e4e8f1cce2c3-8192x5464.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/e5935e0dfa2e7f85bd8761d8a1d6e4e8f1cce2c3-8192x5464.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/e5935e0dfa2e7f85bd8761d8a1d6e4e8f1cce2c3-8192x5464.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    },
+    {
+      "title": "Why a $20 billion Bitstamp slump makes Robinhood's retail app look far weaker than it really is",
+      "link": "https://cryptoslate.com/bitstamp-drove-77-of-robinhoods-crypto-volume-decline/",
+      "summary": "Bitstamp volume fell 48% from Q1 to Q2, compared with a 25% decline on the Robinhood App. The App metric also began including WonderFi trades in June. The post Why a $20 billion Bitstamp slump makes Robinhood’s retail app look far weaker than it really is appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-07-31",
+      "date_human": "Jul 31, 2026",
+      "pub_ts": 1785527401,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/07/robinhood-crypto-app-stormy-market-decline.jpg"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/07/robinhood-crypto-app-stormy-market-decline.jpg",
+      "image_local": null
+    },
+    {
+      "title": "US Is Banning Foreign Robots—Even Roombas",
+      "link": "https://decrypt.co/374799/fcc-bans-foreign-humanoid-robots-china-roombas",
+      "summary": "New restrictions block future models of foreign-made robots and connected power inverters from receiving FCC approval after U.S. national security agencies warned they could pose cybersecurity and supply chain risks.",
+      "source": "Decrypt",
+      "date": "2026-07-31",
+      "date_human": "Jul 31, 2026",
+      "pub_ts": 1785527004,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/02/test-2-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/test-2-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/test-2-gID_7.png"
+      ],
+      "image": "https://cdn.decrypt.co/wp-content/uploads/2026/02/test-2-gID_7.png",
+      "image_local": null
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-07-31",
+      "date_human": "Jul 31, 2026",
+      "pub_ts": 1785521391,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg",
+      "image_local": null
+    },
+    {
+      "title": "Coldcard's $38 million (so far) exploit shakes faith in self-custody, may push investors to ETFs",
+      "link": "https://www.coindesk.com/business/2026/07/31/coldcard-s-usd38-million-so-far-exploit-shakes-faith-in-self-custody-may-push-investors-to-etfs",
+      "summary": "Coldcard's $38 million (so far) exploit shakes faith in self-custody, may push investors to ETFs",
+      "source": "CoinDesk",
+      "date": "2026-07-31",
+      "date_human": "Jul 31, 2026",
+      "pub_ts": 1785517650,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/17e2199d1d92db776ca604acd66f78a2a5052896-1754x804.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/17e2199d1d92db776ca604acd66f78a2a5052896-1754x804.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "https://cdn.sanity.io/images/s3y3vcno/production/17e2199d1d92db776ca604acd66f78a2a5052896-1754x804.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+      "image_local": null
+    }
+  ]
+}
