@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-03",
-  "generated_at_utc": "2026-08-03 04:05:26 UTC",
+  "generated_at_utc": "2026-08-03 10:05:30 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,47 +16,47 @@
   "count": 12,
   "items": [
     {
-      "title": "Suspected 4th Coldcard attack wave sweeps 389 Bitcoin: Galaxy's Thorn",
-      "link": "https://cointelegraph.com/news/suspected-4th-coldcard-attack-wave-sweeps-389-bitcoin-galaxys-thorn",
-      "summary": "Galaxy research head Alex Thorn warned that unconfirmed transactions may give some Coldcard users a narrow opportunity to save their funds.",
-      "source": "Cointelegraph",
-      "date": "2026-08-03",
-      "date_human": "Aug 3, 2026",
-      "pub_ts": 1785722260,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hacker-man-cyberpunk-pupeeteer-bitcoin.jpg"
-      ],
-      "image": "../assets/news/2026-08-03/ebddec094179e965_base.jpg",
-      "image_local": "../assets/news/2026-08-03/ebddec094179e965_base.jpg"
-    },
-    {
-      "title": "This $163M crypto stash collapsed to just $15M, forcing ZeroStack to literally stake its survival on token rewards",
-      "link": "https://cryptoslate.com/a-163m-crypto-stash-collapsed-to-just-15m-forcing-zerostack-to-literally-stake-its-survival-on-token-rewards/",
-      "summary": "Management says 0G staking-reward sales are central to liquidity after a non-cash fair-value loss, but it could not conclude its plans would alleviate substantial doubt. The post This $163M crypto stash collapsed to just $15M, forcing ZeroStack to literally stake its survival on token rewards appeared first on CryptoSlate.",
+      "title": "Five days, a 30% chance, and a battle over Trump's crypto profits: Inside the Senate's scramble to pass CLARITY Act before Friday",
+      "link": "https://cryptoslate.com/five-days-a-30-chance-and-a-battle-over-trumps-crypto-profits-inside-the-senates-scramble-to-pass-clarity-act-before-friday/",
+      "summary": "The CLARITY Act enters the Senate's final scheduled week before the August recess. Monday's floor schedule opens with H.R. 6500, a government funding vehicle, and CLARITY has yet to appear on the schedule. Negotiators are still working through disputes over government ethics and stablecoin rewards, and prediction markets price the odds of the bill becoming […] The post Five days, a 30% chance, and a battle over Trump’s crypto profits: Inside the Senate’s scramble to pass CLARITY Act before Friday appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-03",
       "date_human": "Aug 3, 2026",
-      "pub_ts": 1785718513,
+      "pub_ts": 1785750356,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/zerostack-fair-value-loss-going-concern.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/larity-act-senate-vault-access.jpg"
       ],
-      "image": "../assets/news/2026-08-03/ee63e543eb362181_base.jpg",
-      "image_local": "../assets/news/2026-08-03/ee63e543eb362181_base.jpg"
+      "image": "../assets/news/2026-08-03/bbfba0ec3526ff2a_base.jpg",
+      "image_local": "../assets/news/2026-08-03/bbfba0ec3526ff2a_base.jpg"
     },
     {
-      "title": "Counting down the days: State of Crypto",
-      "link": "https://www.coindesk.com/policy/2026/08/02/counting-down-the-days-state-of-crypto",
-      "summary": "Counting down the days: State of Crypto",
-      "source": "CoinDesk",
-      "date": "2026-08-02",
-      "date_human": "Aug 2, 2026",
-      "pub_ts": 1785695400,
+      "title": "HashKey receives JPMorgan approval to open client money account",
+      "link": "https://cointelegraph.com/news/hashkey-jpmorgan-client-money-account",
+      "summary": "HashKey Exchange said it received approval to open client money accounts with JPMorgan, weeks after it launched customer fund accounts with DBS Bank.",
+      "source": "Cointelegraph",
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785748478,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/39aef47b93f60ebf7e668e371d51320693bb79e3-3364x1894.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/39aef47b93f60ebf7e668e371d51320693bb79e3-3364x1894.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-how-hashkey-plans-to-become-hong-kongs-first-crypto-ipo.jpg"
       ],
-      "image": "../assets/news/2026-08-03/21e722f2acfa14a0_base.jpg",
-      "image_local": "../assets/news/2026-08-03/21e722f2acfa14a0_base.jpg"
+      "image": "../assets/news/2026-08-03/1103d52d217541d6_base.jpg",
+      "image_local": "../assets/news/2026-08-03/1103d52d217541d6_base.jpg"
+    },
+    {
+      "title": "U.S. Jobs, Circle, Galaxy, American Bitcoin earnings: Crypto Week Ahead",
+      "link": "https://www.coindesk.com/markets/2026/08/03/u-s-jobs-circle-galaxy-american-bitcoin-earnings-crypto-week-ahead",
+      "summary": "U.S. Jobs, Circle, Galaxy, American Bitcoin earnings: Crypto Week Ahead",
+      "source": "CoinDesk",
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785744988,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/468c94fe2f9606fcf47363fe6390c1272cdf0dd3-1280x851.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/468c94fe2f9606fcf47363fe6390c1272cdf0dd3-1280x851.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-03/a94dfe253759aa1e_base.jpg",
+      "image_local": "../assets/news/2026-08-03/a94dfe253759aa1e_base.jpg"
     },
     {
       "title": "Coldcard Bitcoin Exploit Balloons to $88 Million as Attackers Keep Draining Wallets",
@@ -75,47 +75,47 @@
       "image_local": "../assets/news/2026-08-03/f077fbee0a101528_base.jpg"
     },
     {
-      "title": "Coldcard exploit sparks Bitcoin flight, ‘bullish' crypto consolidation: Hodler's Digest, August 2",
-      "link": "https://cointelegraph.com/magazine/coldcard-exploit-sparks-bitcoin-flight-clarity-act-no-vote-or-no-vote-hodlers-digest-august-2",
-      "summary": "The “sickening” loss of $90 million of Bitcoin from cold storage weighs heavily on sentiment, as the Clarity Act stalls with just five days left to hold a Senate vote.",
-      "source": "Cointelegraph",
-      "date": "2026-08-02",
-      "date_human": "Aug 2, 2026",
-      "pub_ts": 1785714244,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/1-august.jpg"
-      ],
-      "image": "../assets/news/2026-08-03/ff40a11c7d8f74db_base.jpg",
-      "image_local": "../assets/news/2026-08-03/ff40a11c7d8f74db_base.jpg"
-    },
-    {
-      "title": "After 3 reverse stock splits and a $13.5M loss, this real estate firm bet $8M on crypto it may not be allowed to withdraw",
-      "link": "https://cryptoslate.com/la-rosas-8-1-million-crypto-balance-comes-with-one-unanswered-liquidity-question/",
-      "summary": "The full balance is restricted, while scoped liens and token rights leave its freely usable share undisclosed. The post After 3 reverse stock splits and a $13.5M loss, this real estate firm bet $8M on crypto it may not be allowed to withdraw appeared first on CryptoSlate.",
+      "title": "Four unpatched bugs, a 5-year quantum clock, and a miner standoff are pushing Bitcoin to a critical crossroad",
+      "link": "https://cryptoslate.com/four-unpatched-bugs-a-5-year-quantum-clock-and-a-miner-standoff-are-pushing-bitcoin-to-a-critical-crossroad/",
+      "summary": "Bitcoin entered BIP-110's final ordinary 2,016-block window on July 25 with miner support at 0.89%. The proposal requires 1,109 blocks, or 55%, for ordinary lock-in, and its mandatory version-bit phase can begin in August if support stays below that threshold. Jameson Lopp has framed Consensus Cleanup, covenants, and quantum preparation as Bitcoin's next agenda. He […] The post Four unpatched bugs, a 5-year quantum clock, and a miner standoff are pushing Bitcoin to a critical crossroad appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-02",
-      "date_human": "Aug 2, 2026",
-      "pub_ts": 1785714318,
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785745538,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/la-rosa-restricted-crypto-vault-liquidity.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-protocol-security-miner-bugs-quantum-risk.jpg"
       ],
-      "image": "../assets/news/2026-08-03/4b2c17ad23c439c0_base.jpg",
-      "image_local": "../assets/news/2026-08-03/4b2c17ad23c439c0_base.jpg"
+      "image": "../assets/news/2026-08-03/018e72abf9f79708_base.jpg",
+      "image_local": "../assets/news/2026-08-03/018e72abf9f79708_base.jpg"
     },
     {
-      "title": "Why a DeFi platform ditched its consumer app to become the secret backend for tech giants",
-      "link": "https://www.coindesk.com/web3/2026/08/02/why-a-defi-platform-ditched-its-consumer-app-to-become-the-secret-backend-for-tech-giants",
-      "summary": "Why a DeFi platform ditched its consumer app to become the secret backend for tech giants",
-      "source": "CoinDesk",
-      "date": "2026-08-02",
-      "date_human": "Aug 2, 2026",
-      "pub_ts": 1785690000,
+      "title": "Bitget to exit Japan, close remaining positions after Dec. 31",
+      "link": "https://cointelegraph.com/news/bitget-exit-japan-account-restrictions",
+      "summary": "The crypto exchange stopped accepting new registrations from Japan residents and will begin progressively restricting existing accounts on Nov. 1.",
+      "source": "Cointelegraph",
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785745283,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/bfd770e38c8fc25420b61d080da050e9b05dd75e-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/bfd770e38c8fc25420b61d080da050e9b05dd75e-1920x1280.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://s3-images.ctmedia.io/media/article-covers/leaving-the-company-plain.png"
       ],
-      "image": "../assets/news/2026-08-03/bb7acef77f2603ec_base.jpg",
-      "image_local": "../assets/news/2026-08-03/bb7acef77f2603ec_base.jpg"
+      "image": "../assets/news/2026-08-03/7369c3125b2f6bd3_base.jpg",
+      "image_local": "../assets/news/2026-08-03/7369c3125b2f6bd3_base.jpg"
+    },
+    {
+      "title": "Bitcoin slips under $63,000 despite Iran deal hopes as Coldcard losses rattle market",
+      "link": "https://www.coindesk.com/markets/2026/08/03/bitcoin-slips-under-usd63-000-despite-iran-deal-hopes-as-coldcard-losses-rattle-market",
+      "summary": "Bitcoin slips under $63,000 despite Iran deal hopes as Coldcard losses rattle market",
+      "source": "CoinDesk",
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785737738,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/0488b788c19848f57da6b37663dd081d8da75980-2944x1456.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/0488b788c19848f57da6b37663dd081d8da75980-2944x1456.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-03/757291e8f20af82c_base.jpg",
+      "image_local": "../assets/news/2026-08-03/757291e8f20af82c_base.jpg"
     },
     {
       "title": "What's the Deal With Meta's ‘Pervert Glasses'?",
@@ -134,47 +134,47 @@
       "image_local": "../assets/news/2026-08-03/c12fb2cce7fba126_base.jpg"
     },
     {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-08-02",
-      "date_human": "Aug 2, 2026",
-      "pub_ts": 1785700835,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-08-03/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-08-03/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "A tiny cluster of Solana bots unlocked a 3x trading advantage by routing through one proprietary protocol",
-      "link": "https://cryptoslate.com/a-tiny-cluster-of-solana-bots-unlocked-a-3x-trading-advantage-by-routing-through-one-proprietary-protocol/",
-      "summary": "The 62.3% versus 21.01% split covers one 12-address MEV-like group and shows association, not causation. The post A tiny cluster of Solana bots unlocked a 3x trading advantage by routing through one proprietary protocol appeared first on CryptoSlate.",
+      "title": "Bitcoin miner gambles on a 4-day bridge loan equal to 97% of its BTC treasury value – the deadline passed without in total silence",
+      "link": "https://cryptoslate.com/bitcoin-miner-gambles-97-of-its-btc-treasury-value-on-a-4-day-bridge-loan-the-deadline-passed-in-total-silence/",
+      "summary": "The bridge allowed payment through Aug. 1, while the proposed Arch facility's BTC amount, LTV and liquidation terms remained undisclosed. The post Bitcoin miner gambles on a 4-day bridge loan equal to 97% of its BTC treasury value – the deadline passed without in total silence appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-02",
-      "date_human": "Aug 2, 2026",
-      "pub_ts": 1785711016,
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785743131,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/solana-bot-routing-hourglass-outcome-gap.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/powercompute-bitcoin-bridge-loan-deadline-vault.jpg"
       ],
-      "image": "../assets/news/2026-08-03/a0e727fbc7d374c8_base.jpg",
-      "image_local": "../assets/news/2026-08-03/a0e727fbc7d374c8_base.jpg"
+      "image": "../assets/news/2026-08-03/c40f0fa2b955e275_base.jpg",
+      "image_local": "../assets/news/2026-08-03/c40f0fa2b955e275_base.jpg"
     },
     {
-      "title": "The future of crypto payments won't include on-ramps or bridges, Fun CEO says",
-      "link": "https://www.coindesk.com/tech/2026/08/02/the-future-of-crypto-payments-won-t-include-on-ramps-or-bridges-fun-ceo-says",
-      "summary": "The future of crypto payments won't include on-ramps or bridges, Fun CEO says",
-      "source": "CoinDesk",
-      "date": "2026-08-02",
-      "date_human": "Aug 2, 2026",
-      "pub_ts": 1785686400,
+      "title": "Crypto treasury firm ZeroStack warns of survival risk amid $82.5M loss",
+      "link": "https://cointelegraph.com/news/zerostack-survival-risk-82m-crypto-loss",
+      "summary": "The Nasdaq-listed company relies largely on staking rewards to fund operations, while its 0G holdings were valued 91% below their recorded costs.",
+      "source": "Cointelegraph",
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785741356,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/463ee8c8dbdfa6b99128660e3e64d57fcf21b9af-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/463ee8c8dbdfa6b99128660e3e64d57fcf21b9af-1920x1080.jpg?auto=format&q=75"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-company-buys-ethereum-expands-treasury-to-thousands-eth.png"
       ],
-      "image": "../assets/news/2026-08-03/b3e242a4b6fb48e7_base.jpg",
-      "image_local": "../assets/news/2026-08-03/b3e242a4b6fb48e7_base.jpg"
+      "image": "../assets/news/2026-08-03/55d8f55d395fa92a_base.jpg",
+      "image_local": "../assets/news/2026-08-03/55d8f55d395fa92a_base.jpg"
+    },
+    {
+      "title": "Trump Media's bitcoin stash may be down to loan collateral after $165 million BTC move",
+      "link": "https://www.coindesk.com/markets/2026/08/03/trump-media-s-bitcoin-stash-may-be-down-to-loan-collateral-after-usd165-million-btc-move",
+      "summary": "Trump Media's bitcoin stash may be down to loan collateral after $165 million BTC move",
+      "source": "CoinDesk",
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785736349,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/841ac31fb4e72ea7f68c4ff1293a8c535f8c28c0-510x287.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/841ac31fb4e72ea7f68c4ff1293a8c535f8c28c0-510x287.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-03/2e08158cdf8e36ee_base.jpg",
+      "image_local": "../assets/news/2026-08-03/2e08158cdf8e36ee_base.jpg"
     },
     {
       "title": "CZ Warns Bitcoin Holders After $70 Million Wallet Exploit: 'Nothing Is 100%'",
