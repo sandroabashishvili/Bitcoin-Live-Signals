@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-03",
-  "generated_at_utc": "2026-08-03 10:05:30 UTC",
+  "generated_at_utc": "2026-08-03 16:05:44 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,181 +16,181 @@
   "count": 12,
   "items": [
     {
-      "title": "Five days, a 30% chance, and a battle over Trump's crypto profits: Inside the Senate's scramble to pass CLARITY Act before Friday",
-      "link": "https://cryptoslate.com/five-days-a-30-chance-and-a-battle-over-trumps-crypto-profits-inside-the-senates-scramble-to-pass-clarity-act-before-friday/",
-      "summary": "The CLARITY Act enters the Senate's final scheduled week before the August recess. Monday's floor schedule opens with H.R. 6500, a government funding vehicle, and CLARITY has yet to appear on the schedule. Negotiators are still working through disputes over government ethics and stablecoin rewards, and prediction markets price the odds of the bill becoming […] The post Five days, a 30% chance, and a battle over Trump’s crypto profits: Inside the Senate’s scramble to pass CLARITY Act before Friday appeared first on CryptoSlate.",
+      "title": "Tom Lee's Bitmine Buys More Ethereum, Adds to Stock Buyback",
+      "link": "https://decrypt.co/374836/tom-lee-bitmine-buys-more-ethereum-adds-stock-buyback",
+      "summary": "The crypto treasury company says it added another 10,399 ETH last week, bringing its holdings to nearly 5.8 million ETH as it pushes toward its goal of owning 5% of Ethereum's circulating supply.",
+      "source": "Decrypt",
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785771103,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-decrypt-style-03-1-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-decrypt-style-03-1-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/tom-lee-decrypt-style-03-1-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-03/1f5a20b5ccc22724_base.jpg",
+      "image_local": "../assets/news/2026-08-03/1f5a20b5ccc22724_base.jpg"
+    },
+    {
+      "title": "Solana just boosted block capacity by a massive 66%, but the one bottleneck infuriating traders hasn't budged",
+      "link": "https://cryptoslate.com/solana-just-boosted-block-capacity-by-a-massive-66-but-the-one-bottleneck-infuriating-traders-hasnt-budged/",
+      "summary": "The 100M-CU ceiling expands parallel headroom, but transactions targeting the same writable state get no extra room. The post Solana just boosted block capacity by a massive 66%, but the one bottleneck infuriating traders hasn’t budged appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-03",
       "date_human": "Aug 3, 2026",
-      "pub_ts": 1785750356,
+      "pub_ts": 1785770705,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/larity-act-senate-vault-access.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/solana-block-capacity-highway-bottleneck.jpg"
       ],
-      "image": "../assets/news/2026-08-03/bbfba0ec3526ff2a_base.jpg",
-      "image_local": "../assets/news/2026-08-03/bbfba0ec3526ff2a_base.jpg"
+      "image": "../assets/news/2026-08-03/0054618584fb66f6_base.jpg",
+      "image_local": "../assets/news/2026-08-03/0054618584fb66f6_base.jpg"
     },
     {
-      "title": "HashKey receives JPMorgan approval to open client money account",
-      "link": "https://cointelegraph.com/news/hashkey-jpmorgan-client-money-account",
-      "summary": "HashKey Exchange said it received approval to open client money accounts with JPMorgan, weeks after it launched customer fund accounts with DBS Bank.",
+      "title": "Hashdex to shut smallest Bitcoin ETF after more than two years",
+      "link": "https://cointelegraph.com/news/hashdex-to-shut-smallest-bitcoin-etf-after-more-than-two-years",
+      "summary": "The spot price Bitcoin exchange-traded fund, which was never able to attract more than $18 million in net assets, will pay out investors and sell its 225 BTC in the coming weeks.",
       "source": "Cointelegraph",
       "date": "2026-08-03",
       "date_human": "Aug 3, 2026",
-      "pub_ts": 1785748478,
+      "pub_ts": 1785770683,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-how-hashkey-plans-to-become-hong-kongs-first-crypto-ipo.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/closed-exchange.jpg"
       ],
-      "image": "../assets/news/2026-08-03/1103d52d217541d6_base.jpg",
-      "image_local": "../assets/news/2026-08-03/1103d52d217541d6_base.jpg"
+      "image": "../assets/news/2026-08-03/d7ddb8d5f2705136_base.jpg",
+      "image_local": "../assets/news/2026-08-03/d7ddb8d5f2705136_base.jpg"
     },
     {
-      "title": "U.S. Jobs, Circle, Galaxy, American Bitcoin earnings: Crypto Week Ahead",
-      "link": "https://www.coindesk.com/markets/2026/08/03/u-s-jobs-circle-galaxy-american-bitcoin-earnings-crypto-week-ahead",
-      "summary": "U.S. Jobs, Circle, Galaxy, American Bitcoin earnings: Crypto Week Ahead",
+      "title": "U.S.-Japan intervention revives yen carry trade fears for bitcoin",
+      "link": "https://www.coindesk.com/markets/2026/08/03/u-s-japan-intervention-revives-yen-carry-trade-fears-for-bitcoin",
+      "summary": "U.S.-Japan intervention revives yen carry trade fears for bitcoin",
       "source": "CoinDesk",
       "date": "2026-08-03",
       "date_human": "Aug 3, 2026",
-      "pub_ts": 1785744988,
+      "pub_ts": 1785768368,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/468c94fe2f9606fcf47363fe6390c1272cdf0dd3-1280x851.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/468c94fe2f9606fcf47363fe6390c1272cdf0dd3-1280x851.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/6dfa527e7f18058c20f81771f1d1dc674ff71efc-1280x826.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/6dfa527e7f18058c20f81771f1d1dc674ff71efc-1280x826.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-03/a94dfe253759aa1e_base.jpg",
-      "image_local": "../assets/news/2026-08-03/a94dfe253759aa1e_base.jpg"
+      "image": "../assets/news/2026-08-03/3b07d28ed0a738fd_base.jpg",
+      "image_local": "../assets/news/2026-08-03/3b07d28ed0a738fd_base.jpg"
     },
     {
-      "title": "Coldcard Bitcoin Exploit Balloons to $88 Million as Attackers Keep Draining Wallets",
-      "link": "https://decrypt.co/374817/coldcard-bitcoin-exploit-88-million-attackers-draining-wallets",
-      "summary": "Galaxy Research says a third wave of thefts from Coldcard Bitcoin wallets has pushed observed losses to roughly 1,367 BTC across 4,585 addresses.",
+      "title": "Morning Minute: The Coldcard Bitcoin Hack Nears $114 Million in Potential Losses",
+      "link": "https://decrypt.co/374830/morning-minute-the-coldcard-bitcoin-hack-nears-114-million-in-potential-losses",
+      "summary": "Self-custody is under attack, and it's becoming increasingly clear that AI is one of crypto's leading threats.",
       "source": "Decrypt",
-      "date": "2026-08-02",
-      "date_human": "Aug 2, 2026",
-      "pub_ts": 1785691131,
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785762679,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker1-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker1-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker1-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-03/f077fbee0a101528_base.jpg",
-      "image_local": "../assets/news/2026-08-03/f077fbee0a101528_base.jpg"
+      "image": "../assets/news/2026-08-03/5e6c13c4ed216938_base.jpg",
+      "image_local": "../assets/news/2026-08-03/5e6c13c4ed216938_base.jpg"
     },
     {
-      "title": "Four unpatched bugs, a 5-year quantum clock, and a miner standoff are pushing Bitcoin to a critical crossroad",
-      "link": "https://cryptoslate.com/four-unpatched-bugs-a-5-year-quantum-clock-and-a-miner-standoff-are-pushing-bitcoin-to-a-critical-crossroad/",
-      "summary": "Bitcoin entered BIP-110's final ordinary 2,016-block window on July 25 with miner support at 0.89%. The proposal requires 1,109 blocks, or 55%, for ordinary lock-in, and its mandatory version-bit phase can begin in August if support stays below that threshold. Jameson Lopp has framed Consensus Cleanup, covenants, and quantum preparation as Bitcoin's next agenda. He […] The post Four unpatched bugs, a 5-year quantum clock, and a miner standoff are pushing Bitcoin to a critical crossroad appeared first on CryptoSlate.",
+      "title": "How Coinbase plans to force-settle and instantly recreate institutional positions on Deribit within a 30-minute window",
+      "link": "https://cryptoslate.com/how-coinbase-plans-to-force-settle-and-instantly-recreate-institutional-positions-on-deribit-within-a-30-minute-window/",
+      "summary": "New keys, saved histories, closed margin loans and an Aug. 28 opt-out boundary precede the estimated cutover. The post How Coinbase plans to force-settle and instantly recreate institutional positions on Deribit within a 30-minute window appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-03",
       "date_human": "Aug 3, 2026",
-      "pub_ts": 1785745538,
+      "pub_ts": 1785766803,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-protocol-security-miner-bugs-quantum-risk.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/coinbase-deribit-institutional-migration-pipeline.jpg"
       ],
-      "image": "../assets/news/2026-08-03/018e72abf9f79708_base.jpg",
-      "image_local": "../assets/news/2026-08-03/018e72abf9f79708_base.jpg"
+      "image": "../assets/news/2026-08-03/cbb4e86f88398527_base.jpg",
+      "image_local": "../assets/news/2026-08-03/cbb4e86f88398527_base.jpg"
     },
     {
-      "title": "Bitget to exit Japan, close remaining positions after Dec. 31",
-      "link": "https://cointelegraph.com/news/bitget-exit-japan-account-restrictions",
-      "summary": "The crypto exchange stopped accepting new registrations from Japan residents and will begin progressively restricting existing accounts on Nov. 1.",
+      "title": "US hints at more yen intervention: Five things to know in Bitcoin this week",
+      "link": "https://cointelegraph.com/markets/us-hints-at-more-yen-intervention-five-things-to-know-in-bitcoin-this-week",
+      "summary": "The US and Japan coordinate on the yen for the first time since 2011 as Bitcoin traders brace for a historically rough August.",
       "source": "Cointelegraph",
       "date": "2026-08-03",
       "date_human": "Aug 3, 2026",
-      "pub_ts": 1785745283,
+      "pub_ts": 1785766286,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/leaving-the-company-plain.png"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-27742-btc-eth-dai-cross-chain-atomic-swaps-launched-by-liquality-on-mainnet.jpg"
       ],
-      "image": "../assets/news/2026-08-03/7369c3125b2f6bd3_base.jpg",
-      "image_local": "../assets/news/2026-08-03/7369c3125b2f6bd3_base.jpg"
+      "image": "../assets/news/2026-08-03/7e271d6f8a6e64d9_base.jpg",
+      "image_local": "../assets/news/2026-08-03/7e271d6f8a6e64d9_base.jpg"
     },
     {
-      "title": "Bitcoin slips under $63,000 despite Iran deal hopes as Coldcard losses rattle market",
-      "link": "https://www.coindesk.com/markets/2026/08/03/bitcoin-slips-under-usd63-000-despite-iran-deal-hopes-as-coldcard-losses-rattle-market",
-      "summary": "Bitcoin slips under $63,000 despite Iran deal hopes as Coldcard losses rattle market",
+      "title": "Circle slides after Morgan Stanley downgrade, cut in price target",
+      "link": "https://www.coindesk.com/markets/2026/08/03/circle-internet-slides-after-morgan-stanley-downgrade-cut-in-price-target",
+      "summary": "Circle slides after Morgan Stanley downgrade, cut in price target",
       "source": "CoinDesk",
       "date": "2026-08-03",
       "date_human": "Aug 3, 2026",
-      "pub_ts": 1785737738,
+      "pub_ts": 1785765590,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/0488b788c19848f57da6b37663dd081d8da75980-2944x1456.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/0488b788c19848f57da6b37663dd081d8da75980-2944x1456.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/5375c855453eb305797281edc37be56277accf7e-5819x3273.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/5375c855453eb305797281edc37be56277accf7e-5819x3273.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-03/757291e8f20af82c_base.jpg",
-      "image_local": "../assets/news/2026-08-03/757291e8f20af82c_base.jpg"
+      "image": "../assets/news/2026-08-03/392a3dc0c555181a_base.jpg",
+      "image_local": "../assets/news/2026-08-03/392a3dc0c555181a_base.jpg"
     },
     {
-      "title": "What's the Deal With Meta's ‘Pervert Glasses'?",
-      "link": "https://decrypt.co/374808/whats-the-deal-with-meta-pervert-glasses",
-      "summary": "Lawsuits, privacy complaints, secret recordings, and government investigations have put Meta’s AI glasses under scrutiny.",
+      "title": "Strategy Sells $105M in Bitcoin as Dollar Reserve Hits $4B",
+      "link": "https://decrypt.co/374831/strategy-sells-105m-in-bitcoin-as-dollar-reserve-hits-4b",
+      "summary": "Half the proceeds funded preferred dividends and half went into an $81 million STRC buyback, its second in as many weeks.",
       "source": "Decrypt",
-      "date": "2026-08-02",
-      "date_human": "Aug 2, 2026",
-      "pub_ts": 1785682863,
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785761069,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/09/michael-saylor-bitcoin-nashville-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/michael-saylor-bitcoin-nashville-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/michael-saylor-bitcoin-nashville-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-03/c12fb2cce7fba126_base.jpg",
-      "image_local": "../assets/news/2026-08-03/c12fb2cce7fba126_base.jpg"
+      "image": "../assets/news/2026-08-03/af6339ceaa48f791_base.jpg",
+      "image_local": "../assets/news/2026-08-03/af6339ceaa48f791_base.jpg"
     },
     {
-      "title": "Bitcoin miner gambles on a 4-day bridge loan equal to 97% of its BTC treasury value – the deadline passed without in total silence",
-      "link": "https://cryptoslate.com/bitcoin-miner-gambles-97-of-its-btc-treasury-value-on-a-4-day-bridge-loan-the-deadline-passed-in-total-silence/",
-      "summary": "The bridge allowed payment through Aug. 1, while the proposed Arch facility's BTC amount, LTV and liquidation terms remained undisclosed. The post Bitcoin miner gambles on a 4-day bridge loan equal to 97% of its BTC treasury value – the deadline passed without in total silence appeared first on CryptoSlate.",
+      "title": "Kraken is force-selling 7 delisted tokens into dead markets, warning users insufficient liquidity could result in zero proceeds.",
+      "link": "https://cryptoslate.com/kraken-is-force-selling-seven-delisted-tokens-into-dead-markets-warning-users-that-insufficient-liquidity-could-result-in-zero-proceeds/",
+      "summary": "Withdrawals closed July 31, leaving residual balances to a five-day sale whose venue, sequence, fees and settlement currency remain undisclosed. The post Kraken is force-selling 7 delisted tokens into dead markets, warning users insufficient liquidity could result in zero proceeds. appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-03",
       "date_human": "Aug 3, 2026",
-      "pub_ts": 1785743131,
+      "pub_ts": 1785763800,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/powercompute-bitcoin-bridge-loan-deadline-vault.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/kraken-withdrawals-closed-liquidation-window.jpg"
       ],
-      "image": "../assets/news/2026-08-03/c40f0fa2b955e275_base.jpg",
-      "image_local": "../assets/news/2026-08-03/c40f0fa2b955e275_base.jpg"
+      "image": "../assets/news/2026-08-03/4acfa37df74d45ed_base.jpg",
+      "image_local": "../assets/news/2026-08-03/4acfa37df74d45ed_base.jpg"
     },
     {
-      "title": "Crypto treasury firm ZeroStack warns of survival risk amid $82.5M loss",
-      "link": "https://cointelegraph.com/news/zerostack-survival-risk-82m-crypto-loss",
-      "summary": "The Nasdaq-listed company relies largely on staking rewards to fund operations, while its 0G holdings were valued 91% below their recorded costs.",
+      "title": "How Fake World Assets and onchain gacha became crypto's latest craze",
+      "link": "https://cointelegraph.com/magazine/how-fake-world-assets-and-online-gacha-became-cryptos-latest-craze",
+      "summary": "Fake World Assets turns forgotten NFTs into an onchain lottery — but is crypto’s latest obsession built to last?",
       "source": "Cointelegraph",
       "date": "2026-08-03",
       "date_human": "Aug 3, 2026",
-      "pub_ts": 1785741356,
+      "pub_ts": 1785763800,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-company-buys-ethereum-expands-treasury-to-thousands-eth.png"
+        "https://s3-images.ctmedia.io/media/article-covers/how-fake-world-assets-and-online-gagcha-became-cryptos-latest-craze.jpg"
       ],
-      "image": "../assets/news/2026-08-03/55d8f55d395fa92a_base.jpg",
-      "image_local": "../assets/news/2026-08-03/55d8f55d395fa92a_base.jpg"
+      "image": "../assets/news/2026-08-03/d8d7cd927648e681_base.jpg",
+      "image_local": "../assets/news/2026-08-03/d8d7cd927648e681_base.jpg"
     },
     {
-      "title": "Trump Media's bitcoin stash may be down to loan collateral after $165 million BTC move",
-      "link": "https://www.coindesk.com/markets/2026/08/03/trump-media-s-bitcoin-stash-may-be-down-to-loan-collateral-after-usd165-million-btc-move",
-      "summary": "Trump Media's bitcoin stash may be down to loan collateral after $165 million BTC move",
+      "title": "Bernstein sees another leg lower for crypto markets if Clarity Act stalls",
+      "link": "https://www.coindesk.com/policy/2026/08/03/bernstein-sees-another-leg-lower-for-crypto-markets-if-clarity-act-stalls",
+      "summary": "Bernstein sees another leg lower for crypto markets if Clarity Act stalls",
       "source": "CoinDesk",
       "date": "2026-08-03",
       "date_human": "Aug 3, 2026",
-      "pub_ts": 1785736349,
+      "pub_ts": 1785764980,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/841ac31fb4e72ea7f68c4ff1293a8c535f8c28c0-510x287.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/841ac31fb4e72ea7f68c4ff1293a8c535f8c28c0-510x287.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/9a03886b63f9f486ffe9b1e5246f92bf2b612c49-1500x998.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/9a03886b63f9f486ffe9b1e5246f92bf2b612c49-1500x998.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-03/2e08158cdf8e36ee_base.jpg",
-      "image_local": "../assets/news/2026-08-03/2e08158cdf8e36ee_base.jpg"
-    },
-    {
-      "title": "CZ Warns Bitcoin Holders After $70 Million Wallet Exploit: 'Nothing Is 100%'",
-      "link": "https://decrypt.co/374810/cz-warns-bitcoin-holders-70-million-coldcard-wallet-exploit",
-      "summary": "The Binance founder urged holders to spread funds across multiple wallets as Galaxy Research put the toll from the Coldcard exploit at roughly $70 million—nearly double the initial estimate.",
-      "source": "Decrypt",
-      "date": "2026-08-01",
-      "date_human": "Aug 1, 2026",
-      "pub_ts": 1785600077,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/08/changpeng-zhao-cz-decrypt-style-02-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/changpeng-zhao-cz-decrypt-style-02-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/changpeng-zhao-cz-decrypt-style-02-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-03/8815d6d722161562_base.jpg",
-      "image_local": "../assets/news/2026-08-03/8815d6d722161562_base.jpg"
+      "image": "../assets/news/2026-08-03/507b508b6d5ebccd_base.jpg",
+      "image_local": "../assets/news/2026-08-03/507b508b6d5ebccd_base.jpg"
     }
   ]
 }
