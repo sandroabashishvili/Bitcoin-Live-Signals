@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-04",
-  "generated_at_utc": "2026-08-04 04:05:48 UTC",
+  "generated_at_utc": "2026-08-04 10:05:46 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,18 +16,77 @@
   "count": 12,
   "items": [
     {
-      "title": "Bitmine adds $19.6M in ETH, repurchases 4.5M shares",
-      "link": "https://cointelegraph.com/news/bitmine-buys-10399-eth-repurchases-4-5-million-shares",
-      "summary": "Bitmine said it now holds about 4.8% of Ether’s circulating supply as it pursues its 5% acquisition target.",
+      "title": "Coldcard crisis hits $130 million – proving ‘not your keys' is meaningless if you trust a single device to generate them",
+      "link": "https://cryptoslate.com/coldcard-crisis-hits-130-million-proving-not-your-keys-is-meaningless-if-you-trust-a-single-device-to-generate-them/",
+      "summary": "Block's Bitcoin Engineering and Security team and independent Bitcoin Core developers have traced the recent batch of Coinkite Coldcard wallet losses to a specific firmware defect that exposed a hidden weakness in Bitcoin self-custody before any user touched a seed phrase. The bug diverted the device's random-number generation from its STM32 hardware source to MicroPython's […] The post Coldcard crisis hits $130 million – proving ‘not your keys’ is meaningless if you trust a single device to generate them appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-04",
+      "date_human": "Aug 4, 2026",
+      "pub_ts": 1785837020,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/coldcard-weak-seed-fingerprint-investigation.jpg"
+      ],
+      "image": "../assets/news/2026-08-04/9bae641e96cdf8af_base.jpg",
+      "image_local": "../assets/news/2026-08-04/9bae641e96cdf8af_base.jpg"
+    },
+    {
+      "title": "Five Convicted of Imprisoning Crypto Millionaires in London 'Torture' Ordeal",
+      "link": "https://decrypt.co/374889/five-convicted-of-imprisoning-crypto-millionaires-in-london-torture-ordeal",
+      "summary": "Two of the five were also convicted of conspiracy to blackmail, in a case police won without either victim testifying.",
+      "source": "Decrypt",
+      "date": "2026-08-04",
+      "date_human": "Aug 4, 2026",
+      "pub_ts": 1785836784,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Judge-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Judge-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-04/ed8f8ee247d3f822_base.jpg",
+      "image_local": "../assets/news/2026-08-04/ed8f8ee247d3f822_base.jpg"
+    },
+    {
+      "title": "Strategy's STRC retakes $90 after 24% rebound from June closing low",
+      "link": "https://cointelegraph.com/markets/strategy-strc-stock-above-90-june-recovery",
+      "summary": "The preferred shares have recovered nearly 24% from their June closing low as Strategy builds its cash reserve and repurchases STRC.",
       "source": "Cointelegraph",
       "date": "2026-08-04",
       "date_human": "Aug 4, 2026",
-      "pub_ts": 1785815576,
+      "pub_ts": 1785836556,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-company-buys-ethereum-expands-treasury-to-thousands-eth-1.png"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-what-are-strategy-stocks-and-how-to-create-and-launch-one.png"
       ],
-      "image": "../assets/news/2026-08-04/ee67ec2a9ebef076_base.jpg",
-      "image_local": "../assets/news/2026-08-04/ee67ec2a9ebef076_base.jpg"
+      "image": "../assets/news/2026-08-04/36509c8bdd971937_base.jpg",
+      "image_local": "../assets/news/2026-08-04/36509c8bdd971937_base.jpg"
+    },
+    {
+      "title": "Live updates: Bitcoin at $63,600 as rare US-Japan yen action tests carry-trade fears",
+      "link": "https://www.coindesk.com/business/2026/08/04/live-updates-bitcoin-at-usd63-600-as-rare-us-japan-yen-action-tests-carry-trade-fears",
+      "summary": "Live updates: Bitcoin at $63,600 as rare US-Japan yen action tests carry-trade fears",
+      "source": "CoinDesk",
+      "date": "2026-08-04",
+      "date_human": "Aug 4, 2026",
+      "pub_ts": 1785832860,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/d3c36f86c5d814d9ec493dae6d7fde7687526f38-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/d3c36f86c5d814d9ec493dae6d7fde7687526f38-1920x1280.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-04/16aac3db738d6ad2_base.jpg",
+      "image_local": "../assets/news/2026-08-04/16aac3db738d6ad2_base.jpg"
+    },
+    {
+      "title": "Bitcoin must clear $65,000 before Friday, or jobs data could turn $62,000 into a trapdoor to $60,000",
+      "link": "https://cryptoslate.com/bitcoin-must-clear-65000-before-friday-or-jobs-data-could-turn-62000-into-a-trapdoor-to-60000/",
+      "summary": "Bitcoin and jobs data are on a collision course this week, with the price pinned between $62,200 and $65,000 after the first economic release worked against the bulls. The ISM Manufacturing PMI printed 55.6 on Aug. 3, beating the 54.0 consensus and rising from June's 53.3 to its highest reading since May 2022. New orders […] The post Bitcoin must clear $65,000 before Friday, or jobs data could turn $62,000 into a trapdoor to $60,000 appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-04",
+      "date_human": "Aug 4, 2026",
+      "pub_ts": 1785833442,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-65000-breakout-62000-downside-crossroads.jpg"
+      ],
+      "image": "../assets/news/2026-08-04/4857f256639d8808_base.jpg",
+      "image_local": "../assets/news/2026-08-04/4857f256639d8808_base.jpg"
     },
     {
       "title": "Marmot Researchers Turn to OnlyFans for Funding—And There Are Meme Coins Too",
@@ -38,12 +97,41 @@
       "date_human": "Aug 3, 2026",
       "pub_ts": 1785796142,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2021/08/OnlyFans-logo-gID_7.jpeg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2021/08/OnlyFans-logo-gID_7.jpeg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2021/08/OnlyFans-logo-gID_7.jpeg"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/08/yellow-bellied-marmot-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/yellow-bellied-marmot-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/yellow-bellied-marmot-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-04/feaa20345969c58b_base.jpg",
-      "image_local": "../assets/news/2026-08-04/feaa20345969c58b_base.jpg"
+      "image": "../assets/news/2026-08-04/cf62efcee6630a0a_base.jpg",
+      "image_local": "../assets/news/2026-08-04/cf62efcee6630a0a_base.jpg"
+    },
+    {
+      "title": "US yen intervention puts Bitcoin, risk assets on notice for liquidity flux",
+      "link": "https://cointelegraph.com/markets/us-yen-intervention-puts-bitcoin-risk-assets-on-notice-for-liquidity-flux",
+      "summary": "The first US-Japan joint yen intervention in 28 years came amid record bond yields and worries about the yen carry trade.",
+      "source": "Cointelegraph",
+      "date": "2026-08-04",
+      "date_human": "Aug 4, 2026",
+      "pub_ts": 1785835217,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-226969-bitcoin-is-infrastructure.jpg"
+      ],
+      "image": "../assets/news/2026-08-04/376f0edf78f462dc_base.jpg",
+      "image_local": "../assets/news/2026-08-04/376f0edf78f462dc_base.jpg"
+    },
+    {
+      "title": "Bhutan's GMC puts part of its bitcoin treasury to work after 10,000 BTC pledge",
+      "link": "https://www.coindesk.com/markets/2026/08/04/bhutan-s-gmc-puts-part-of-its-bitcoin-treasury-to-work-after-10-000-btc-pledge",
+      "summary": "Bhutan's GMC puts part of its bitcoin treasury to work after 10,000 BTC pledge",
+      "source": "CoinDesk",
+      "date": "2026-08-04",
+      "date_human": "Aug 4, 2026",
+      "pub_ts": 1785830171,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/adf4cf82040d1106a3db7981dca4bd3bfd1b5efc-1440x825.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/adf4cf82040d1106a3db7981dca4bd3bfd1b5efc-1440x825.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-04/0f69d2e1d9171900_base.jpg",
+      "image_local": "../assets/news/2026-08-04/0f69d2e1d9171900_base.jpg"
     },
     {
       "title": "Strategy sells $395 million in Bitcoin and MSTR stock to buyback $81 million in STRC and build cash reserve to $4 billion",
@@ -58,35 +146,6 @@
       ],
       "image": "../assets/news/2026-08-04/3dcc6a98285c0ca9_base.jpg",
       "image_local": "../assets/news/2026-08-04/3dcc6a98285c0ca9_base.jpg"
-    },
-    {
-      "title": "U.S. FBI intelligence agent arrested in connection with theft of $1 million in crypto",
-      "link": "https://www.coindesk.com/policy/2026/08/03/u-s-fbi-intelligence-agent-arrested-in-connection-with-theft-of-usd1-million-in-crypto",
-      "summary": "U.S. FBI intelligence agent arrested in connection with theft of $1 million in crypto",
-      "source": "CoinDesk",
-      "date": "2026-08-03",
-      "date_human": "Aug 3, 2026",
-      "pub_ts": 1785795479,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/a0c13b7deea6c73a86b897a2bf954b83652f60c5-3200x1800.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/a0c13b7deea6c73a86b897a2bf954b83652f60c5-3200x1800.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0.3034&fp-y=0.3856&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-04/2d4b077fa103c484_base.jpg",
-      "image_local": "../assets/news/2026-08-04/2d4b077fa103c484_base.jpg"
-    },
-    {
-      "title": "Mastercard completes $1.8B BVNK acquisition in stablecoin push",
-      "link": "https://cointelegraph.com/news/mastercard-completes-bvnk-acquisition-stablecoin-push",
-      "summary": "Mastercard said the tie-up would help banks, fintechs and enterprises expand stablecoin payments, payouts, settlement and treasury services.",
-      "source": "Cointelegraph",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785812331,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-sofi-and-mastercard-move-stablecoin-settlement-into-global-network.png"
-      ],
-      "image": "../assets/news/2026-08-04/eba1bd4db18a177f_base.jpg",
-      "image_local": "../assets/news/2026-08-04/eba1bd4db18a177f_base.jpg"
     },
     {
       "title": "Former FBI Agent Charged With Stealing Nearly $1 Million in Crypto and Using ChatGPT for Investment Advice",
@@ -105,92 +164,33 @@
       "image_local": "../assets/news/2026-08-04/698202a32957cc81_base.jpg"
     },
     {
-      "title": "Facing a severe cash crunch, Bitcoin miner Sphere 3D quietly prepares to dilute its shareholders by a staggering 50%",
-      "link": "https://cryptoslate.com/facing-a-severe-cash-crunch-bitcoin-miner-sphere-3d-quietly-prepares-to-dilute-its-shareholders-by-a-staggering-50/",
-      "summary": "Full use at the assumed price would add one new basic share for roughly every two now outstanding. The post Facing a severe cash crunch, Bitcoin miner Sphere 3D quietly prepares to dilute its shareholders by a staggering 50% appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-03",
-      "date_human": "Aug 3, 2026",
-      "pub_ts": 1785792644,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/sphere-3d-atm-dilution-bitcoin-backup.jpg"
-      ],
-      "image": "../assets/news/2026-08-04/cf14d1f11a0bdb7e_base.jpg",
-      "image_local": "../assets/news/2026-08-04/cf14d1f11a0bdb7e_base.jpg"
-    },
-    {
-      "title": "Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy",
-      "link": "https://www.coindesk.com/business/2026/08/03/trump-linked-american-bitcoin-president-matt-prusak-departs-for-giga-energy",
-      "summary": "Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy",
-      "source": "CoinDesk",
-      "date": "2026-08-03",
-      "date_human": "Aug 3, 2026",
-      "pub_ts": 1785770685,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/e2f5cb0c0f6d5f289b42230f0ca14cd77e71f0a3-2048x1152.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/e2f5cb0c0f6d5f289b42230f0ca14cd77e71f0a3-2048x1152.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-04/b229ca36e19ee313_base.jpg",
-      "image_local": "../assets/news/2026-08-04/b229ca36e19ee313_base.jpg"
-    },
-    {
-      "title": "Malaysia Blockchain Week's OnlyFans scandal, lonely heart scammed for $3.3M: Asia Express",
-      "link": "https://cointelegraph.com/magazine/hong-kong-lonely-heart-scammed-out-of-33m-in-crypto-asia-express",
-      "summary": "Fake romance crypto investment scams net $9 million in a single week in Hong Kong, as Malaysian authorities lose it over a crypto conference’s after-party.",
+      "title": "Apple briefly removes Telegram from App Store, Gram rebounds",
+      "link": "https://cointelegraph.com/news/apple-telegram-app-store-gram-rebounds",
+      "summary": "Apple restored Telegram after the messaging platform removed content that violated its child safety policies and banned the user who posted it.",
       "source": "Cointelegraph",
       "date": "2026-08-04",
       "date_human": "Aug 4, 2026",
-      "pub_ts": 1785809006,
+      "pub_ts": 1785830583,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/asia-express-7.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-telegram-ban.jpg"
       ],
-      "image": "../assets/news/2026-08-04/57e065e333bdeb8f_base.jpg",
-      "image_local": "../assets/news/2026-08-04/57e065e333bdeb8f_base.jpg"
+      "image": "../assets/news/2026-08-04/31ae099c411791f2_base.jpg",
+      "image_local": "../assets/news/2026-08-04/31ae099c411791f2_base.jpg"
     },
     {
-      "title": "What Is an Air-Gapped Bitcoin Wallet? Why the Coldcard Exploit Changes the Conversation About Offline Security",
-      "link": "https://decrypt.co/374868/what-is-air-gapped-bitcoin-wallet-coldcard-exploit-security",
-      "summary": "Air-gapped wallets keep private keys completely offline, reducing exposure to hackers—but they're not immune from threats.",
-      "source": "Decrypt",
-      "date": "2026-08-03",
-      "date_human": "Aug 3, 2026",
-      "pub_ts": 1785789573,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/07/coldcard-mk3-decrypt-style-1-2-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/07/coldcard-mk3-decrypt-style-1-2-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/coldcard-mk3-decrypt-style-1-2-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-04/ab25058dc1ee95df_base.jpg",
-      "image_local": "../assets/news/2026-08-04/ab25058dc1ee95df_base.jpg"
-    },
-    {
-      "title": "Corporate crypto accounts on HTX face a complete dead end with zero legal exit routes when EU sanctions strike on August 23",
-      "link": "https://cryptoslate.com/corporate-crypto-accounts-on-htx-face-a-complete-dead-end-with-zero-legal-exit-routes-when-eu-sanctions-strike-on-august-23/",
-      "summary": "Covered dealings must end before the cutoff; later withdrawals require discretionary approval and a full exit from HTX. The post Corporate crypto accounts on HTX face a complete dead end with zero legal exit routes when EU sanctions strike on August 23 appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-03",
-      "date_human": "Aug 3, 2026",
-      "pub_ts": 1785789645,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/htx-eu-keyhole-withdrawal-route.jpg"
-      ],
-      "image": "../assets/news/2026-08-04/c80e4ab49400c2cb_base.jpg",
-      "image_local": "../assets/news/2026-08-04/c80e4ab49400c2cb_base.jpg"
-    },
-    {
-      "title": "U.S.-Japan intervention revives yen carry trade fears for bitcoin",
-      "link": "https://www.coindesk.com/markets/2026/08/03/u-s-japan-intervention-revives-yen-carry-trade-fears-for-bitcoin",
-      "summary": "U.S.-Japan intervention revives yen carry trade fears for bitcoin",
+      "title": "Why Jim Cramer's quantum panic isn't rattling bitcoin as price holds steady around $64,000",
+      "link": "https://www.coindesk.com/markets/2026/08/04/why-jim-cramer-s-quantum-panic-isn-t-rattling-bitcoin-as-price-holds-steady-around-usd64-000",
+      "summary": "Why Jim Cramer's quantum panic isn't rattling bitcoin as price holds steady around $64,000",
       "source": "CoinDesk",
-      "date": "2026-08-03",
-      "date_human": "Aug 3, 2026",
-      "pub_ts": 1785768368,
+      "date": "2026-08-04",
+      "date_human": "Aug 4, 2026",
+      "pub_ts": 1785829998,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/6dfa527e7f18058c20f81771f1d1dc674ff71efc-1280x826.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/6dfa527e7f18058c20f81771f1d1dc674ff71efc-1280x826.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/01565a4311c987ed02655c3289885242c8c50ef8-6000x3375.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/01565a4311c987ed02655c3289885242c8c50ef8-6000x3375.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-04/3b07d28ed0a738fd_base.jpg",
-      "image_local": "../assets/news/2026-08-04/3b07d28ed0a738fd_base.jpg"
+      "image": "../assets/news/2026-08-04/555e66e068ef4a43_base.jpg",
+      "image_local": "../assets/news/2026-08-04/555e66e068ef4a43_base.jpg"
     }
   ]
 }
