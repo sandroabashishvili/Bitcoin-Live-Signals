@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-03",
-  "generated_at_utc": "2026-08-03 16:05:44 UTC",
+  "generated_at_utc": "2026-08-03 22:05:43 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,48 +16,107 @@
   "count": 12,
   "items": [
     {
-      "title": "Tom Lee's Bitmine Buys More Ethereum, Adds to Stock Buyback",
-      "link": "https://decrypt.co/374836/tom-lee-bitmine-buys-more-ethereum-adds-stock-buyback",
-      "summary": "The crypto treasury company says it added another 10,399 ETH last week, bringing its holdings to nearly 5.8 million ETH as it pushes toward its goal of owning 5% of Ethereum's circulating supply.",
-      "source": "Decrypt",
-      "date": "2026-08-03",
-      "date_human": "Aug 3, 2026",
-      "pub_ts": 1785771103,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-decrypt-style-03-1-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-decrypt-style-03-1-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/tom-lee-decrypt-style-03-1-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-03/1f5a20b5ccc22724_base.jpg",
-      "image_local": "../assets/news/2026-08-03/1f5a20b5ccc22724_base.jpg"
-    },
-    {
-      "title": "Solana just boosted block capacity by a massive 66%, but the one bottleneck infuriating traders hasn't budged",
-      "link": "https://cryptoslate.com/solana-just-boosted-block-capacity-by-a-massive-66-but-the-one-bottleneck-infuriating-traders-hasnt-budged/",
-      "summary": "The 100M-CU ceiling expands parallel headroom, but transactions targeting the same writable state get no extra room. The post Solana just boosted block capacity by a massive 66%, but the one bottleneck infuriating traders hasn’t budged appeared first on CryptoSlate.",
+      "title": "Facing a severe cash crunch, Bitcoin miner Sphere 3D quietly prepares to dilute its shareholders by a staggering 50%",
+      "link": "https://cryptoslate.com/facing-a-severe-cash-crunch-bitcoin-miner-sphere-3d-quietly-prepares-to-dilute-its-shareholders-by-a-staggering-50/",
+      "summary": "Full use at the assumed price would add one new basic share for roughly every two now outstanding. The post Facing a severe cash crunch, Bitcoin miner Sphere 3D quietly prepares to dilute its shareholders by a staggering 50% appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-03",
       "date_human": "Aug 3, 2026",
-      "pub_ts": 1785770705,
+      "pub_ts": 1785792644,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/solana-block-capacity-highway-bottleneck.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/sphere-3d-atm-dilution-bitcoin-backup.jpg"
       ],
-      "image": "../assets/news/2026-08-03/0054618584fb66f6_base.jpg",
-      "image_local": "../assets/news/2026-08-03/0054618584fb66f6_base.jpg"
+      "image": "../assets/news/2026-08-03/cf14d1f11a0bdb7e_base.jpg",
+      "image_local": "../assets/news/2026-08-03/cf14d1f11a0bdb7e_base.jpg"
     },
     {
-      "title": "Hashdex to shut smallest Bitcoin ETF after more than two years",
-      "link": "https://cointelegraph.com/news/hashdex-to-shut-smallest-bitcoin-etf-after-more-than-two-years",
-      "summary": "The spot price Bitcoin exchange-traded fund, which was never able to attract more than $18 million in net assets, will pay out investors and sell its 225 BTC in the coming weeks.",
+      "title": "Former FBI Agent Charged With Stealing Nearly $1 Million in Crypto and Using ChatGPT for Investment Advice",
+      "link": "https://decrypt.co/374871/former-fbi-agent-charged-stealing-crypto-using-chatgpt-advice",
+      "summary": "Prosecutors say the former counterintelligence supervisor stole cryptocurrency from wallets tied to FBI investigations before asking ChatGPT how to invest the money and relocate to Europe.",
+      "source": "Decrypt",
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785791826,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/fbi-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/fbi-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/fbi-decrypt-style-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-03/698202a32957cc81_base.jpg",
+      "image_local": "../assets/news/2026-08-03/698202a32957cc81_base.jpg"
+    },
+    {
+      "title": "Bessent's top crypto adviser Tyler Williams exits US Treasury: Report",
+      "link": "https://cointelegraph.com/news/bessent-top-crypto-adviser-tyler-williams-leaves-us-treasury-report",
+      "summary": "A key architect of the Trump administration’s digital asset agenda is leaving the Treasury Department as Congress struggles to advance landmark crypto legislation.",
       "source": "Cointelegraph",
       "date": "2026-08-03",
       "date_human": "Aug 3, 2026",
-      "pub_ts": 1785770683,
+      "pub_ts": 1785788987,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/closed-exchange.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/political-tokens-into-the-white-house-sec.jpg"
       ],
-      "image": "../assets/news/2026-08-03/d7ddb8d5f2705136_base.jpg",
-      "image_local": "../assets/news/2026-08-03/d7ddb8d5f2705136_base.jpg"
+      "image": "../assets/news/2026-08-03/5285d66e6eb0c7be_base.jpg",
+      "image_local": "../assets/news/2026-08-03/5285d66e6eb0c7be_base.jpg"
+    },
+    {
+      "title": "Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy",
+      "link": "https://www.coindesk.com/business/2026/08/03/trump-linked-american-bitcoin-president-matt-prusak-departs-for-giga-energy",
+      "summary": "Trump-linked American Bitcoin president Matt Prusak departs for Giga Energy",
+      "source": "CoinDesk",
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785770685,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/e2f5cb0c0f6d5f289b42230f0ca14cd77e71f0a3-2048x1152.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/e2f5cb0c0f6d5f289b42230f0ca14cd77e71f0a3-2048x1152.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-03/b229ca36e19ee313_base.jpg",
+      "image_local": "../assets/news/2026-08-03/b229ca36e19ee313_base.jpg"
+    },
+    {
+      "title": "Corporate crypto accounts on HTX face a complete dead end with zero legal exit routes when EU sanctions strike on August 23",
+      "link": "https://cryptoslate.com/corporate-crypto-accounts-on-htx-face-a-complete-dead-end-with-zero-legal-exit-routes-when-eu-sanctions-strike-on-august-23/",
+      "summary": "Covered dealings must end before the cutoff; later withdrawals require discretionary approval and a full exit from HTX. The post Corporate crypto accounts on HTX face a complete dead end with zero legal exit routes when EU sanctions strike on August 23 appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785789645,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/htx-eu-keyhole-withdrawal-route.jpg"
+      ],
+      "image": "../assets/news/2026-08-03/c80e4ab49400c2cb_base.jpg",
+      "image_local": "../assets/news/2026-08-03/c80e4ab49400c2cb_base.jpg"
+    },
+    {
+      "title": "What Is an Air-Gapped Bitcoin Wallet? Why the Coldcard Exploit Changes the Conversation About Offline Security",
+      "link": "https://decrypt.co/374868/what-is-air-gapped-bitcoin-wallet-coldcard-exploit-security",
+      "summary": "Air-gapped wallets keep private keys completely offline, reducing exposure to hackers—but they're not immune from threats.",
+      "source": "Decrypt",
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785789573,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/07/coldcard-mk3-decrypt-style-1-2-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/07/coldcard-mk3-decrypt-style-1-2-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/coldcard-mk3-decrypt-style-1-2-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-03/ab25058dc1ee95df_base.jpg",
+      "image_local": "../assets/news/2026-08-03/ab25058dc1ee95df_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785786731,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-03/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-03/57bd1a60f4d67ba1_base.jpg"
     },
     {
       "title": "U.S.-Japan intervention revives yen carry trade fears for bitcoin",
@@ -75,48 +134,48 @@
       "image_local": "../assets/news/2026-08-03/3b07d28ed0a738fd_base.jpg"
     },
     {
-      "title": "Morning Minute: The Coldcard Bitcoin Hack Nears $114 Million in Potential Losses",
-      "link": "https://decrypt.co/374830/morning-minute-the-coldcard-bitcoin-hack-nears-114-million-in-potential-losses",
-      "summary": "Self-custody is under attack, and it's becoming increasingly clear that AI is one of crypto's leading threats.",
-      "source": "Decrypt",
-      "date": "2026-08-03",
-      "date_human": "Aug 3, 2026",
-      "pub_ts": 1785762679,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-03/5e6c13c4ed216938_base.jpg",
-      "image_local": "../assets/news/2026-08-03/5e6c13c4ed216938_base.jpg"
-    },
-    {
-      "title": "How Coinbase plans to force-settle and instantly recreate institutional positions on Deribit within a 30-minute window",
-      "link": "https://cryptoslate.com/how-coinbase-plans-to-force-settle-and-instantly-recreate-institutional-positions-on-deribit-within-a-30-minute-window/",
-      "summary": "New keys, saved histories, closed margin loans and an Aug. 28 opt-out boundary precede the estimated cutover. The post How Coinbase plans to force-settle and instantly recreate institutional positions on Deribit within a 30-minute window appeared first on CryptoSlate.",
+      "title": "Italy's biggest bank just slashed its Bitcoin ETF call position by 99% to triple down on staked Ethereum",
+      "link": "https://cryptoslate.com/intesa-sanpaolos-ibit-call-row-plunged-99-as-its-staked-ethereum-shares-tripled/",
+      "summary": "A 500,000-share-equivalent held put appeared in Q2, but the filing cannot reveal the bank’s net options exposure or motive. The post Italy’s biggest bank just slashed its Bitcoin ETF call position by 99% to triple down on staked Ethereum appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-03",
       "date_human": "Aug 3, 2026",
-      "pub_ts": 1785766803,
+      "pub_ts": 1785785717,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/coinbase-deribit-institutional-migration-pipeline.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/intesa-sanpaolo-crypto-etf-portfolio-reset.jpg"
       ],
-      "image": "../assets/news/2026-08-03/cbb4e86f88398527_base.jpg",
-      "image_local": "../assets/news/2026-08-03/cbb4e86f88398527_base.jpg"
+      "image": "../assets/news/2026-08-03/ddebd57ab2e7be7d_base.jpg",
+      "image_local": "../assets/news/2026-08-03/ddebd57ab2e7be7d_base.jpg"
     },
     {
-      "title": "US hints at more yen intervention: Five things to know in Bitcoin this week",
-      "link": "https://cointelegraph.com/markets/us-hints-at-more-yen-intervention-five-things-to-know-in-bitcoin-this-week",
-      "summary": "The US and Japan coordinate on the yen for the first time since 2011 as Bitcoin traders brace for a historically rough August.",
+      "title": "BlackRock Launches Tokenized Money Market Funds on Solana, Ethereum",
+      "link": "https://decrypt.co/374865/blackrock-tokenized-money-market-funds-solana-ethereum",
+      "summary": "BlackRock launched a tokenized money market fund for stablecoin reserves that uses Solana alongside Ethereum.",
+      "source": "Decrypt",
+      "date": "2026-08-03",
+      "date_human": "Aug 3, 2026",
+      "pub_ts": 1785784657,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/BlackRock-decrypt-style-02-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/BlackRock-decrypt-style-02-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/BlackRock-decrypt-style-02-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-03/aa4560c0dd5fd612_base.jpg",
+      "image_local": "../assets/news/2026-08-03/aa4560c0dd5fd612_base.jpg"
+    },
+    {
+      "title": "FalconX cuts 10% of workforce amid prolonged crypto market slump: Report",
+      "link": "https://cointelegraph.com/news/falconx-workforce-reduction-amid-crypto-market-slump-report",
+      "summary": "According to Bloomberg, the digital asset prime broker is refocusing its Singapore strategy and withdrawing its local license application as crypto companies continue to trim costs.",
       "source": "Cointelegraph",
       "date": "2026-08-03",
       "date_human": "Aug 3, 2026",
-      "pub_ts": 1785766286,
+      "pub_ts": 1785786288,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-27742-btc-eth-dai-cross-chain-atomic-swaps-launched-by-liquality-on-mainnet.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/layoffs-fired-human-resource-hr-leaving-quit-people-ai-1.jpg"
       ],
-      "image": "../assets/news/2026-08-03/7e271d6f8a6e64d9_base.jpg",
-      "image_local": "../assets/news/2026-08-03/7e271d6f8a6e64d9_base.jpg"
+      "image": "../assets/news/2026-08-03/f9ebc5d8af02c7e6_base.jpg",
+      "image_local": "../assets/news/2026-08-03/f9ebc5d8af02c7e6_base.jpg"
     },
     {
       "title": "Circle slides after Morgan Stanley downgrade, cut in price target",
@@ -132,65 +191,6 @@
       ],
       "image": "../assets/news/2026-08-03/392a3dc0c555181a_base.jpg",
       "image_local": "../assets/news/2026-08-03/392a3dc0c555181a_base.jpg"
-    },
-    {
-      "title": "Strategy Sells $105M in Bitcoin as Dollar Reserve Hits $4B",
-      "link": "https://decrypt.co/374831/strategy-sells-105m-in-bitcoin-as-dollar-reserve-hits-4b",
-      "summary": "Half the proceeds funded preferred dividends and half went into an $81 million STRC buyback, its second in as many weeks.",
-      "source": "Decrypt",
-      "date": "2026-08-03",
-      "date_human": "Aug 3, 2026",
-      "pub_ts": 1785761069,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/09/michael-saylor-bitcoin-nashville-decrypt-style-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/michael-saylor-bitcoin-nashville-decrypt-style-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/michael-saylor-bitcoin-nashville-decrypt-style-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-03/af6339ceaa48f791_base.jpg",
-      "image_local": "../assets/news/2026-08-03/af6339ceaa48f791_base.jpg"
-    },
-    {
-      "title": "Kraken is force-selling 7 delisted tokens into dead markets, warning users insufficient liquidity could result in zero proceeds.",
-      "link": "https://cryptoslate.com/kraken-is-force-selling-seven-delisted-tokens-into-dead-markets-warning-users-that-insufficient-liquidity-could-result-in-zero-proceeds/",
-      "summary": "Withdrawals closed July 31, leaving residual balances to a five-day sale whose venue, sequence, fees and settlement currency remain undisclosed. The post Kraken is force-selling 7 delisted tokens into dead markets, warning users insufficient liquidity could result in zero proceeds. appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-03",
-      "date_human": "Aug 3, 2026",
-      "pub_ts": 1785763800,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/kraken-withdrawals-closed-liquidation-window.jpg"
-      ],
-      "image": "../assets/news/2026-08-03/4acfa37df74d45ed_base.jpg",
-      "image_local": "../assets/news/2026-08-03/4acfa37df74d45ed_base.jpg"
-    },
-    {
-      "title": "How Fake World Assets and onchain gacha became crypto's latest craze",
-      "link": "https://cointelegraph.com/magazine/how-fake-world-assets-and-online-gacha-became-cryptos-latest-craze",
-      "summary": "Fake World Assets turns forgotten NFTs into an onchain lottery — but is crypto’s latest obsession built to last?",
-      "source": "Cointelegraph",
-      "date": "2026-08-03",
-      "date_human": "Aug 3, 2026",
-      "pub_ts": 1785763800,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/how-fake-world-assets-and-online-gagcha-became-cryptos-latest-craze.jpg"
-      ],
-      "image": "../assets/news/2026-08-03/d8d7cd927648e681_base.jpg",
-      "image_local": "../assets/news/2026-08-03/d8d7cd927648e681_base.jpg"
-    },
-    {
-      "title": "Bernstein sees another leg lower for crypto markets if Clarity Act stalls",
-      "link": "https://www.coindesk.com/policy/2026/08/03/bernstein-sees-another-leg-lower-for-crypto-markets-if-clarity-act-stalls",
-      "summary": "Bernstein sees another leg lower for crypto markets if Clarity Act stalls",
-      "source": "CoinDesk",
-      "date": "2026-08-03",
-      "date_human": "Aug 3, 2026",
-      "pub_ts": 1785764980,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/9a03886b63f9f486ffe9b1e5246f92bf2b612c49-1500x998.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/9a03886b63f9f486ffe9b1e5246f92bf2b612c49-1500x998.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-03/507b508b6d5ebccd_base.jpg",
-      "image_local": "../assets/news/2026-08-03/507b508b6d5ebccd_base.jpg"
     }
   ]
 }
