@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-04",
-  "generated_at_utc": "2026-08-04 16:05:56 UTC",
+  "generated_at_utc": "2026-08-04 22:06:15 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,122 +16,49 @@
   "count": 12,
   "items": [
     {
-      "title": "Bitdeer expands AI infrastructure with long-term $4.7B data center lease",
-      "link": "https://cointelegraph.com/news/bitdeer-ai-data-center-lease-norway",
-      "summary": "A 16-year agreement secures 121 megawatts of AI computing capacity in Norway, highlighting how crypto mining companies continue to pursue new revenue streams beyond Bitcoin.",
-      "source": "Cointelegraph",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785858620,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-137272-bitcoin-mining-company-bitdeer-lease-ohio-site.jpg"
-      ],
-      "image": "../assets/news/2026-08-04/010eb90f9b1048d0_base.jpg",
-      "image_local": "../assets/news/2026-08-04/010eb90f9b1048d0_base.jpg"
-    },
-    {
-      "title": "Why Bitcoiners should care that Washington joined a $96B yen rescue to shield over $1 trillion in US Treasuries",
-      "link": "https://cryptoslate.com/why-bitcoiners-should-care-that-washington-has-joined-a-96-billion-yen-rescue-to-shield-1-14-trillion-in-us-treasuries-from-a-forced-selloff/",
-      "summary": "The United States joined Japan’s effort to support the yen after preliminary central-bank data indicated Tokyo may have deployed almost $96 billion over two days, putting Bitcoin traders on alert for a possible unwind of positions financed with cheap Japanese capital. On Aug. 3, Japan’s Ministry of Finance confirmed that it purchased yen in coordination […] The post Why Bitcoiners should care that Washington joined a $96B yen rescue to shield over $1 trillion in US Treasuries appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785855022,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-us-japan-currency-tug-of-war.jpg"
-      ],
-      "image": "../assets/news/2026-08-04/1c5972bff56ab438_base.jpg",
-      "image_local": "../assets/news/2026-08-04/1c5972bff56ab438_base.jpg"
-    },
-    {
-      "title": "Polymarket targets $20 billion valuation as competition heats up in prediction market sector",
-      "link": "https://www.coindesk.com/markets/2026/08/04/polymarket-targets-usd20-billion-valuation-as-competition-heats-up-in-prediction-markets",
-      "summary": "Polymarket targets $20 billion valuation as competition heats up in prediction market sector",
-      "source": "CoinDesk",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785854303,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/473cadb20fe4e7c052f29ddddcf48b15aee79ec0-1920x1152.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/473cadb20fe4e7c052f29ddddcf48b15aee79ec0-1920x1152.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-04/964e45cc33d86671_base.jpg",
-      "image_local": "../assets/news/2026-08-04/964e45cc33d86671_base.jpg"
-    },
-    {
-      "title": "Apple's AI Slop Problem Left a $200K macOS Exploit Unreported",
-      "link": "https://decrypt.co/374900/apples-ai-slop-problem-left-a-200k-macos-exploit-unreported",
-      "summary": "A Milan start-up says it found a full-takeover flaw in macOS using ChatGPT, then hit Apple's new submission cap before it could file it.",
+      "title": "OpenAI Dumps Apple Employees' Text Messages to Fight Trade Secret Suit",
+      "link": "https://decrypt.co/374928/openai-emails-text-messages-apple-trade-secrets-lawsuit",
+      "summary": "The ChatGPT maker released emails and text messages it says expose factual errors in Apple's lawsuit and undercut claims that former Apple employees brought confidential information to the company.",
       "source": "Decrypt",
       "date": "2026-08-04",
       "date_human": "Aug 4, 2026",
-      "pub_ts": 1785850566,
+      "pub_ts": 1785879963,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/05/apple-logo-decrypy-style-01-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/05/apple-logo-decrypy-style-01-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/05/apple-logo-decrypy-style-01-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-3-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-3-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-sam-altman-3-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-04/f835969b669a32b7_base.jpg",
-      "image_local": "../assets/news/2026-08-04/f835969b669a32b7_base.jpg"
+      "image": "../assets/news/2026-08-04/aacc9f4772a1620f_base.jpg",
+      "image_local": "../assets/news/2026-08-04/aacc9f4772a1620f_base.jpg"
     },
     {
-      "title": "At least 15 attackers exploited Coldcard vulnerability: Galaxy",
-      "link": "https://cointelegraph.com/news/15-attackers-exploited-coldcard-vulnerability-galaxy",
-      "summary": "Galaxy said that at least 15 different attackers have exploited the Coldcard vulnerability, which may have been avoided with just $2 worth of AI hardening, according to Dragonfly’s managing partner.",
-      "source": "Cointelegraph",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785854329,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-safety-2025-7-easy-ways-to-avoid-hacks-and-scams.jpg"
-      ],
-      "image": "../assets/news/2026-08-04/e450948f53bbf0af_base.jpg",
-      "image_local": "../assets/news/2026-08-04/e450948f53bbf0af_base.jpg"
-    },
-    {
-      "title": "CME freezes Nasdaq's major Bitcoin launch, warning a legal loophole could upend the entire commodities market",
-      "link": "https://cryptoslate.com/cme-challenge-keeps-nasdaq-bitcoin-options-frozen-as-sec-reopens-the-jurisdiction-fight/",
-      "summary": "Commission review puts QBTC’s conditional approval at risk while an Aug. 24 statement deadline opens the next round. The post CME freezes Nasdaq’s major Bitcoin launch, warning a legal loophole could upend the entire commodities market appeared first on CryptoSlate.",
+      "title": "Tomorrow sees a massive liquidity trap for Bitcoin as the US Treasury is quietly draining $77 billion from bank reserves",
+      "link": "https://cryptoslate.com/tomorrow-sees-a-massive-liquidity-trap-for-bitcoin-as-the-us-treasury-is-quietly-draining-77-billion-from-bank-reserves/",
+      "summary": "The Aug. 5 bill-coupon mix will show whether financing pressure reaches Bitcoin-sensitive risk appetite or leaves reserves stable. The post Tomorrow sees a massive liquidity trap for Bitcoin as the US Treasury is quietly draining $77 billion from bank reserves appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-04",
       "date_human": "Aug 4, 2026",
-      "pub_ts": 1785851127,
+      "pub_ts": 1785878458,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/ec-freezes-nasdaq-bitcoin-options-launch.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/us-treasury-borrowing-bitcoin-liquidity-pressure.jpg"
       ],
-      "image": "../assets/news/2026-08-04/a39b5f24b1cdd401_base.jpg",
-      "image_local": "../assets/news/2026-08-04/a39b5f24b1cdd401_base.jpg"
+      "image": "../assets/news/2026-08-04/9a2a24f18d2926ae_base.jpg",
+      "image_local": "../assets/news/2026-08-04/9a2a24f18d2926ae_base.jpg"
     },
     {
-      "title": "Intesa Sanpaolo slashed IBIT stake by 94% in 2Q, tripled ether ETF holding as crypto prices slumped",
-      "link": "https://www.coindesk.com/business/2026/08/04/intesa-sanpaolo-slashed-ibit-stake-by-94-in-2q-tripled-ether-etf-holding-as-crypto-prices-slumped",
-      "summary": "Intesa Sanpaolo slashed IBIT stake by 94% in 2Q, tripled ether ETF holding as crypto prices slumped",
+      "title": "SpaceX tops Wall Street revenue forecast, posts $540 million loss on bitcoin holdings",
+      "link": "https://www.coindesk.com/business/2026/08/04/spacex-tops-wall-street-revenue-forecast-posts-usd540-million-decline-on-bitcoin-holding-value",
+      "summary": "SpaceX tops Wall Street revenue forecast, posts $540 million loss on bitcoin holdings",
       "source": "CoinDesk",
       "date": "2026-08-04",
       "date_human": "Aug 4, 2026",
-      "pub_ts": 1785853550,
+      "pub_ts": 1785875181,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/4f6884d703d96bd3df7b3b79f2b9d501d7fcae0f-1280x720.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/4f6884d703d96bd3df7b3b79f2b9d501d7fcae0f-1280x720.jpg?auto=format&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/82a2cd520f0433fc9cd38a23fcff8fc000abe251-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/82a2cd520f0433fc9cd38a23fcff8fc000abe251-1500x1000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-04/4b273424abf045b4_base.jpg",
-      "image_local": "../assets/news/2026-08-04/4b273424abf045b4_base.jpg"
-    },
-    {
-      "title": "Morning Minute: Saylor Sells Bitcoin Again",
-      "link": "https://decrypt.co/374897/morning-minute-saylor-sells-bitcoin-again",
-      "summary": "Strategy sold $104M in Bitcoin last week to help prop up STRC, a financial product they created to… help them buy more Bitcoin.",
-      "source": "Decrypt",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785846801,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/michael-saylor-decrypt-style-bitcoin-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/michael-saylor-decrypt-style-bitcoin-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/michael-saylor-decrypt-style-bitcoin-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-04/b1ef58a09dd059f7_base.jpg",
-      "image_local": "../assets/news/2026-08-04/b1ef58a09dd059f7_base.jpg"
+      "image": "../assets/news/2026-08-04/a98e3019767e8c13_base.jpg",
+      "image_local": "../assets/news/2026-08-04/a98e3019767e8c13_base.jpg"
     },
     {
       "title": "Here's what happened in crypto today",
@@ -140,7 +67,7 @@
       "source": "Cointelegraph",
       "date": "2026-08-04",
       "date_human": "Aug 4, 2026",
-      "pub_ts": 1785851102,
+      "pub_ts": 1785873566,
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
@@ -148,49 +75,122 @@
       "image_local": "../assets/news/2026-08-04/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "Odds of CLARITY crypto legislation passing sink to 27% as Treasury, White House, SEC, and Senate leads quit",
-      "link": "https://cryptoslate.com/us-crypto-regulation-loses-key-washington-allies/",
-      "summary": "Tyler Williams served as Secretary Scott Bessent's principal adviser on blockchain and digital asset policy, making him one of Treasury's top voices on US crypto regulation. He is returning to the private sector after leaving his post on July 31. His exit is the fourth senior crypto departure from a position of federal power this […] The post Odds of CLARITY crypto legislation passing sink to 27% as Treasury, White House, SEC, and Senate leads quit appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785844242,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/crypto-clarity-act-washington-rulebook.jpg"
-      ],
-      "image": "../assets/news/2026-08-04/a3bef8abcca48c88_base.jpg",
-      "image_local": "../assets/news/2026-08-04/a3bef8abcca48c88_base.jpg"
-    },
-    {
-      "title": "Dinari brings tokenized U.S. stocks to American investors as equity race heats up",
-      "link": "https://www.coindesk.com/business/2026/08/04/dinari-brings-tokenized-u-s-stocks-to-american-investors-as-equity-race-heats-up",
-      "summary": "Dinari brings tokenized U.S. stocks to American investors as equity race heats up",
-      "source": "CoinDesk",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785852000,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/c9255df7fcdaef0e272bed71c29a3b20ac87ef51-1170x780.webp?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/c9255df7fcdaef0e272bed71c29a3b20ac87ef51-1170x780.webp?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-04/c3324bffe457aedd_base.jpg",
-      "image_local": "../assets/news/2026-08-04/c3324bffe457aedd_base.jpg"
-    },
-    {
-      "title": "BlackRock Tokenizes $311B of European Money Market Funds With JP Morgan's Kinexys",
-      "link": "https://decrypt.co/374894/blackrock-tokenizes-311b-of-european-money-market-funds-with-jp-morgans-kinexys",
-      "summary": "Europe's largest cash management platform is now issuing tokens on Ethereum, in a launch restricted to professional investors.",
+      "title": "Ledger Says Coldcard Exploit Shows Bitcoin Wallet Security Must Adapt to AI",
+      "link": "https://decrypt.co/374914/ledger-coldcard-exploit-bitcoin-wallet-security-ai",
+      "summary": "Ledger CTO Charles Guillemet says the Coldcard exploit underscores why certified hardware randomness matters—and why AI is reshaping wallet security.",
       "source": "Decrypt",
       "date": "2026-08-04",
       "date_human": "Aug 4, 2026",
-      "pub_ts": 1785843644,
+      "pub_ts": 1785878163,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/BlackRock-decrypt-style-03-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/BlackRock-decrypt-style-03-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/BlackRock-decrypt-style-03-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-04/32023eb25b23c6f0_base.jpg",
-      "image_local": "../assets/news/2026-08-04/32023eb25b23c6f0_base.jpg"
+      "image": "../assets/news/2026-08-04/b9e4c80ed4c0a1f5_base.jpg",
+      "image_local": "../assets/news/2026-08-04/b9e4c80ed4c0a1f5_base.jpg"
+    },
+    {
+      "title": "Why AI is now a more immediate threat to Bitcoin than quantum computers",
+      "link": "https://cryptoslate.com/why-ai-is-now-a-bigger-threat-to-bitcoin-than-quantum-computers-in-the-short-term/",
+      "summary": "Offline keys still depend on entropy, firmware, signing and recovery, all built from fallible software and hardware. The post Why AI is now a more immediate threat to Bitcoin than quantum computers appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-04",
+      "date_human": "Aug 4, 2026",
+      "pub_ts": 1785872158,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-custody-stack-seed-risk-collage.jpg"
+      ],
+      "image": "../assets/news/2026-08-04/a7151b90be069864_base.jpg",
+      "image_local": "../assets/news/2026-08-04/a7151b90be069864_base.jpg"
+    },
+    {
+      "title": "Open USD rattled Circle's stock, but its key backers still support USDC",
+      "link": "https://www.coindesk.com/business/2026/08/03/open-usd-rattled-circle-s-stock-but-its-key-backers-still-support-usdc",
+      "summary": "Open USD rattled Circle's stock, but its key backers still support USDC",
+      "source": "CoinDesk",
+      "date": "2026-08-04",
+      "date_human": "Aug 4, 2026",
+      "pub_ts": 1785866123,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/024ae1afdc1672e747814cc0546828b965ecf695-5162x3441.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/024ae1afdc1672e747814cc0546828b965ecf695-5162x3441.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-04/20634e5e8871717e_base.jpg",
+      "image_local": "../assets/news/2026-08-04/20634e5e8871717e_base.jpg"
+    },
+    {
+      "title": "US, UK reaffirm support for stablecoins, tokenization in joint financial regulation talks",
+      "link": "https://cointelegraph.com/news/us-uk-deepen-crypto-regulatory-cooperation-genius-act-stablecoins",
+      "summary": "In a July 8 meeting, US and UK regulators highlighted the implementation of the GENIUS Act, payment modernization and cross-border cooperation, reinforcing a shared framework for digital asset oversight.",
+      "source": "Cointelegraph",
+      "date": "2026-08-04",
+      "date_human": "Aug 4, 2026",
+      "pub_ts": 1785873528,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-the-regulation-considerations-in-the-united-states-and-united-kingdom-1.jpg"
+      ],
+      "image": "../assets/news/2026-08-04/6ed6382cc9112ab6_base.jpg",
+      "image_local": "../assets/news/2026-08-04/6ed6382cc9112ab6_base.jpg"
+    },
+    {
+      "title": "Jim Cramer Is Selling His Bitcoin Over Quantum Threat—Crypto Twitter Is Thrilled",
+      "link": "https://decrypt.co/374923/jim-cramer-selling-bitcoin-quantum-computing-threat",
+      "summary": "The CNBC host announced the decision on air after interviewing IBM CEO Arvind Krishna, asking him whether quantum computers could eventually crack the cryptography protecting his coins.",
+      "source": "Decrypt",
+      "date": "2026-08-04",
+      "date_human": "Aug 4, 2026",
+      "pub_ts": 1785876318,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2022/01/shutterstock_102011242-gID_1.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2022/01/shutterstock_102011242-gID_1.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2022/01/shutterstock_102011242-gID_1.jpg"
+      ],
+      "image": "../assets/news/2026-08-04/799e6e3ac45a344b_base.jpg",
+      "image_local": "../assets/news/2026-08-04/799e6e3ac45a344b_base.jpg"
+    },
+    {
+      "title": "Investors haven't added a single dime to HYPE ETFs in 12 days as a $30 million exodus begins",
+      "link": "https://cryptoslate.com/investors-havent-added-a-single-dime-to-hype-etfs-in-12-days-as-a-30-million-exodus-begins/",
+      "summary": "Nine sessions were negative and three were flat, while cumulative reported flows remained positive at about $283 million. The post Investors haven’t added a single dime to HYPE ETFs in 12 days as a $30 million exodus begins appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-04",
+      "date_human": "Aug 4, 2026",
+      "pub_ts": 1785867937,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/hype-etf-outflow-liquidity-drip.jpg"
+      ],
+      "image": "../assets/news/2026-08-04/08b776752e2ee9b8_base.jpg",
+      "image_local": "../assets/news/2026-08-04/08b776752e2ee9b8_base.jpg"
+    },
+    {
+      "title": "Samsung is poised to become a dominant stablecoin distributor, analysts say",
+      "link": "https://www.coindesk.com/business/2026/08/04/samsung-is-poised-to-become-a-dominant-stablecoin-distributor-analysts-say",
+      "summary": "Samsung is poised to become a dominant stablecoin distributor, analysts say",
+      "source": "CoinDesk",
+      "date": "2026-08-04",
+      "date_human": "Aug 4, 2026",
+      "pub_ts": 1785863653,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/8ffb119f24565b1ba8025dd612346b51fd6b5dc3-6000x4500.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/8ffb119f24565b1ba8025dd612346b51fd6b5dc3-6000x4500.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-04/9c0d0fcc3ff818a6_base.jpg",
+      "image_local": "../assets/news/2026-08-04/9c0d0fcc3ff818a6_base.jpg"
+    },
+    {
+      "title": "BNY to offer institutional crypto staking through Galaxy partnership",
+      "link": "https://cointelegraph.com/news/bny-galaxy-institutional-crypto-staking-custody",
+      "summary": "The custody giant is expanding beyond safekeeping by adding staking services, allowing eligible institutional clients to earn yield on proof-of-stake assets.",
+      "source": "Cointelegraph",
+      "date": "2026-08-04",
+      "date_human": "Aug 4, 2026",
+      "pub_ts": 1785863404,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-60958-bny-mellon-s-crypto-entrance-seeks-to-bridge-generational-adoption-gap.jpg"
+      ],
+      "image": "../assets/news/2026-08-04/6403c1a278a77fe1_base.jpg",
+      "image_local": "../assets/news/2026-08-04/6403c1a278a77fe1_base.jpg"
     }
   ]
 }
