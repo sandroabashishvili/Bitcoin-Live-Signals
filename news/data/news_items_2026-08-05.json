@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-05",
-  "generated_at_utc": "2026-08-05 04:05:47 UTC",
+  "generated_at_utc": "2026-08-05 10:06:00 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,32 +16,63 @@
   "count": 12,
   "items": [
     {
-      "title": "Ethereum researchers want to rein in staking, critics say it could backfire",
-      "link": "https://cointelegraph.com/news/ethereum-researchers-want-to-rein-in-staking-critics-say-it-could-backfire",
-      "summary": "EIP-8363 is a newly published draft proposal that would cut net consensus-layer rewards as the Ethereum staking ratio heads toward 50%.",
+      "title": "Ex-LAPD Officer Gets Life Plus 15 Years Over $350K Bitcoin Robbery",
+      "link": "https://decrypt.co/374941/ex-lapd-officer-gets-life-plus-15-years-over-350k-bitcoin-robbery",
+      "summary": "Eric Halem and his crew wore police vests to enter a Koreatown high-rise, then handcuffed a 17-year-old and took his hard drive.",
+      "source": "Decrypt",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785923562,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Jail-cell-2-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Jail-cell-2-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Jail-cell-2-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-05/684c11c5a624ff77_base.jpg",
+      "image_local": "../assets/news/2026-08-05/684c11c5a624ff77_base.jpg"
+    },
+    {
+      "title": "Coldcard's $130 million crisis is pushing Bitcoin back into Wall Street's hands",
+      "link": "https://cryptoslate.com/coldcards-130-million-crisis-is-pushing-bitcoin-back-into-wall-streets-hands/",
+      "summary": "The Coldcard hardware wallet exploit has resulted in the theft of at least 1,596 BTC from about 7,300 addresses as users continue moving funds from potentially vulnerable wallets. Galaxy Research said the confirmed losses came from three major attack waves and 14 smaller incidents. The firm has also identified a possible fourth wave that could […] The post Coldcard’s $130 million crisis is pushing Bitcoin back into Wall Street’s hands appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785923107,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-custody-crisis-eye-wall-street-vault.jpg"
+      ],
+      "image": "../assets/news/2026-08-05/628135bb51940649_base.jpg",
+      "image_local": "../assets/news/2026-08-05/628135bb51940649_base.jpg"
+    },
+    {
+      "title": "Bitcoin price-metric basket sees longest capitulation since FTX blow-up: Glassnode",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-metric-basket-sees-longest-capitulation-since-ftx-blow-up-glassnode",
+      "summary": "Glassnode confirmed that its aggregate BTC price cycle tool was in its coldest phase since the collapse of FTX in late 2022.",
       "source": "Cointelegraph",
       "date": "2026-08-05",
       "date_human": "Aug 5, 2026",
-      "pub_ts": 1785897007,
+      "pub_ts": 1785922481,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-stake-ethereum-eth-7-steps-to-start-earning-rewards2.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-66799-bitcoin-dominance-cycle-suggests-the-2017-crypto-rally-could-repeat.jpg"
       ],
-      "image": "../assets/news/2026-08-05/1d0473be489d459f_base.jpg",
-      "image_local": "../assets/news/2026-08-05/1d0473be489d459f_base.jpg"
+      "image": "../assets/news/2026-08-05/f5413102d80c2101_base.jpg",
+      "image_local": "../assets/news/2026-08-05/f5413102d80c2101_base.jpg"
     },
     {
-      "title": "GameStop plans $1.4 billion stock swap as Bitcoin collateral risk emerges",
-      "link": "https://cryptoslate.com/gamestop-plans-1-4-billion-stock-swap-as-bitcoin-collateral-risk-emerges/",
-      "summary": "The exchange would cut note principal by about one-third while replacement Bitcoin option terms also remain undisclosed. The post GameStop plans $1.4 billion stock swap as Bitcoin collateral risk emerges appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785886219,
+      "title": "The worst chart for bitcoin bulls right now",
+      "link": "https://www.coindesk.com/markets/2026/08/05/the-worst-chart-for-bitcoin-bulls-right-now",
+      "summary": "The worst chart for bitcoin bulls right now",
+      "source": "CoinDesk",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785916462,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/gamestop-debt-stock-swap-pricing-tag-collage.jpg"
+        "https://cdn.sanity.io/images/s3y3vcno/production/dd01b26662171c87383c52b19f38a55c06ddba13-2854x1488.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/dd01b26662171c87383c52b19f38a55c06ddba13-2854x1488.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-05/130b4974b6b50a47_base.jpg",
-      "image_local": "../assets/news/2026-08-05/130b4974b6b50a47_base.jpg"
+      "image": "../assets/news/2026-08-05/dd8812bdf8dc8376_base.jpg",
+      "image_local": "../assets/news/2026-08-05/dd8812bdf8dc8376_base.jpg"
     },
     {
       "title": "This Bitcoin Bridge Shut Itself Down Because AI Was Finding Bugs Too Fast",
@@ -60,47 +91,47 @@
       "image_local": "../assets/news/2026-08-05/5e74ef3626588b38_base.jpg"
     },
     {
-      "title": "SpaceX tops Wall Street revenue forecast, posts $540 million loss on bitcoin holdings",
-      "link": "https://www.coindesk.com/business/2026/08/04/spacex-tops-wall-street-revenue-forecast-posts-usd540-million-decline-on-bitcoin-holding-value",
-      "summary": "SpaceX tops Wall Street revenue forecast, posts $540 million loss on bitcoin holdings",
-      "source": "CoinDesk",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785875181,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/82a2cd520f0433fc9cd38a23fcff8fc000abe251-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/82a2cd520f0433fc9cd38a23fcff8fc000abe251-1500x1000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-05/a98e3019767e8c13_base.jpg",
-      "image_local": "../assets/news/2026-08-05/a98e3019767e8c13_base.jpg"
-    },
-    {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785873566,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-08-05/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-08-05/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "Hashdex is shutting down its Bitcoin ETF, leaving investors with just days to sell before a blind, unpredictable cash out",
-      "link": "https://cryptoslate.com/hashdex-is-shutting-down-its-bitcoin-etf-leaving-investors-with-just-days-to-sell-before-a-blind-unpredictable-cash-out/",
-      "summary": "The $14.7 million Bitcoin ETF will liquidate from Aug. 18, while Hashdex's filings split on the payout date. The post Hashdex is shutting down its Bitcoin ETF, leaving investors with just days to sell before a blind, unpredictable cash out appeared first on CryptoSlate.",
+      "title": "After suffering a brutal $265 million mass exit, seven different Bitcoin ETFs simultaneously roar back to life",
+      "link": "https://cryptoslate.com/after-suffering-a-brutal-265-million-mass-exit-seven-different-bitcoin-etfs-simultaneously-roar-back-to-life/",
+      "summary": "Seven funds took in cash with none negative, yet IBIT still supplied 65.5% of the Aug. 3 total. The post After suffering a brutal $265 million mass exit, seven different Bitcoin ETFs simultaneously roar back to life appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785881754,
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785918993,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/hashdex-defi-etf-liquidation-file-tag.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-etf-inflows-blackrock-bridge-collage.jpg"
       ],
-      "image": "../assets/news/2026-08-05/e859bd7a4e401577_base.jpg",
-      "image_local": "../assets/news/2026-08-05/e859bd7a4e401577_base.jpg"
+      "image": "../assets/news/2026-08-05/4971e5a266fc8f83_base.jpg",
+      "image_local": "../assets/news/2026-08-05/4971e5a266fc8f83_base.jpg"
+    },
+    {
+      "title": "Proof of Play to shut down after blockchain gaming thesis falls short",
+      "link": "https://cointelegraph.com/news/proof-of-play-shut-blockchain-gaming-thesis",
+      "summary": "The a16z-backed studio will open-source Pirate Nation assets, while an independent foundation continues supporting the PIRATE token.",
+      "source": "Cointelegraph",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785921004,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/nft-gaming-entertainment-ecosystem.jpg"
+      ],
+      "image": "../assets/news/2026-08-05/dc5e07e2bc4defed_base.jpg",
+      "image_local": "../assets/news/2026-08-05/dc5e07e2bc4defed_base.jpg"
+    },
+    {
+      "title": "New Ethereum proposal would cut issuance to zero if staked ETH reaches $112 billion",
+      "link": "https://www.coindesk.com/tech/2026/08/05/new-ethereum-proposal-would-cut-issuance-to-zero-if-staked-eth-reaches-usd112-billion",
+      "summary": "New Ethereum proposal would cut issuance to zero if staked ETH reaches $112 billion",
+      "source": "CoinDesk",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785908997,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/c357579ddef2051b405b9e89f8525dd02709081d-5760x3240.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/c357579ddef2051b405b9e89f8525dd02709081d-5760x3240.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-05/e8f79126b7c14a65_base.jpg",
+      "image_local": "../assets/news/2026-08-05/e8f79126b7c14a65_base.jpg"
     },
     {
       "title": "AI Enthusiast Bugs His Toddler's Sleepover and Feeds It to Claude—The Internet Bugs Back",
@@ -119,78 +150,47 @@
       "image_local": "../assets/news/2026-08-05/57ec90bd94c607aa_base.jpg"
     },
     {
-      "title": "Open USD rattled Circle's stock, but its key backers still support USDC",
-      "link": "https://www.coindesk.com/business/2026/08/03/open-usd-rattled-circle-s-stock-but-its-key-backers-still-support-usdc",
-      "summary": "Open USD rattled Circle's stock, but its key backers still support USDC",
-      "source": "CoinDesk",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785866123,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/024ae1afdc1672e747814cc0546828b965ecf695-5162x3441.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/024ae1afdc1672e747814cc0546828b965ecf695-5162x3441.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-05/20634e5e8871717e_base.jpg",
-      "image_local": "../assets/news/2026-08-05/20634e5e8871717e_base.jpg"
-    },
-    {
-      "title": "US, UK reaffirm support for stablecoins, tokenization in joint financial regulation talks",
-      "link": "https://cointelegraph.com/news/us-uk-deepen-crypto-regulatory-cooperation-genius-act-stablecoins",
-      "summary": "In a July 8 meeting, US and UK regulators highlighted the implementation of the GENIUS Act, payment modernization and cross-border cooperation, reinforcing a shared framework for digital asset oversight.",
-      "source": "Cointelegraph",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785873528,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-the-regulation-considerations-in-the-united-states-and-united-kingdom-1.jpg"
-      ],
-      "image": "../assets/news/2026-08-05/6ed6382cc9112ab6_base.jpg",
-      "image_local": "../assets/news/2026-08-05/6ed6382cc9112ab6_base.jpg"
-    },
-    {
-      "title": "Tomorrow sees a massive liquidity trap for Bitcoin as the US Treasury is quietly draining $77 billion from bank reserves",
-      "link": "https://cryptoslate.com/tomorrow-sees-a-massive-liquidity-trap-for-bitcoin-as-the-us-treasury-is-quietly-draining-77-billion-from-bank-reserves/",
-      "summary": "The Aug. 5 bill-coupon mix will show whether financing pressure reaches Bitcoin-sensitive risk appetite or leaves reserves stable. The post Tomorrow sees a massive liquidity trap for Bitcoin as the US Treasury is quietly draining $77 billion from bank reserves appeared first on CryptoSlate.",
+      "title": "The crypto project trying to replace the US banking system just pulled its 10 trillion token filing",
+      "link": "https://cryptoslate.com/the-crypto-project-trying-to-replace-the-us-banking-system-just-pulled-its-10-trillion-token-filing/",
+      "summary": "Its Aug. 3 move stopped this Form 10 before effectiveness, leaving the maximum authorized 10 trillion Locke tokens unissued. The post The crypto project trying to replace the US banking system just pulled its 10 trillion token filing appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785878458,
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785894317,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/us-treasury-borrowing-bitcoin-liquidity-pressure.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/sec-locks-cryptofed-registration-door.jpg"
       ],
-      "image": "../assets/news/2026-08-05/9a2a24f18d2926ae_base.jpg",
-      "image_local": "../assets/news/2026-08-05/9a2a24f18d2926ae_base.jpg"
+      "image": "../assets/news/2026-08-05/6b99a65dd7d73aff_base.jpg",
+      "image_local": "../assets/news/2026-08-05/6b99a65dd7d73aff_base.jpg"
     },
     {
-      "title": "OpenAI Dumps Apple Employees' Text Messages to Fight Trade Secret Suit",
-      "link": "https://decrypt.co/374928/openai-emails-text-messages-apple-trade-secrets-lawsuit",
-      "summary": "The ChatGPT maker released emails and text messages it says expose factual errors in Apple's lawsuit and undercut claims that former Apple employees brought confidential information to the company.",
-      "source": "Decrypt",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785879963,
+      "title": "Forgd brings its crypto market-maker leaderboard to DefiLlama",
+      "link": "https://cointelegraph.com/news/forgd-market-maker-leaderboard-defillama",
+      "summary": "Forgd’s ratings draw on data from more than 500 token projects and 35 market-making firms, but do not solely reflect trading performance.",
+      "source": "Cointelegraph",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785920400,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-3-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-3-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-sam-altman-3-gID_7.png"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-market-makers-vs-market-takers-key-differences-explained.png"
       ],
-      "image": "../assets/news/2026-08-05/aacc9f4772a1620f_base.jpg",
-      "image_local": "../assets/news/2026-08-05/aacc9f4772a1620f_base.jpg"
+      "image": "../assets/news/2026-08-05/439f3ffbef9c52d8_base.jpg",
+      "image_local": "../assets/news/2026-08-05/439f3ffbef9c52d8_base.jpg"
     },
     {
-      "title": "Samsung is poised to become a dominant stablecoin distributor, analysts say",
-      "link": "https://www.coindesk.com/business/2026/08/04/samsung-is-poised-to-become-a-dominant-stablecoin-distributor-analysts-say",
-      "summary": "Samsung is poised to become a dominant stablecoin distributor, analysts say",
+      "title": "\"You stole, please return some.\" Coldcard hacker's wallet becomes a graffiti wall of pleas and hustles",
+      "link": "https://www.coindesk.com/markets/2026/08/05/you-stole-please-return-some-coldcard-hacker-s-wallet-becomes-a-graffiti-wall-of-pleas-and-hustles",
+      "summary": "\"You stole, please return some.\" Coldcard hacker's wallet becomes a graffiti wall of pleas and hustles",
       "source": "CoinDesk",
-      "date": "2026-08-04",
-      "date_human": "Aug 4, 2026",
-      "pub_ts": 1785863653,
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785906766,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/8ffb119f24565b1ba8025dd612346b51fd6b5dc3-6000x4500.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/8ffb119f24565b1ba8025dd612346b51fd6b5dc3-6000x4500.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/b4dd7bc48e1565d8608338ec3afc8b6990310eb1-4096x4096.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/b4dd7bc48e1565d8608338ec3afc8b6990310eb1-4096x4096.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-05/9c0d0fcc3ff818a6_base.jpg",
-      "image_local": "../assets/news/2026-08-05/9c0d0fcc3ff818a6_base.jpg"
+      "image": "../assets/news/2026-08-05/eae3c734161e3ddb_base.jpg",
+      "image_local": "../assets/news/2026-08-05/eae3c734161e3ddb_base.jpg"
     }
   ]
 }
