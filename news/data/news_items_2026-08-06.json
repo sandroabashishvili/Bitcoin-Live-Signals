@@ -1,0 +1,196 @@
+{
+  "day_iso": "2026-08-06",
+  "generated_at_utc": "2026-08-06 04:06:01 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Block raises 2026 outlook on strong quarter, says AI touches nearly all code",
+      "link": "https://cointelegraph.com/markets/block-raises-2026-outlook-strong-quarter-says-ai-touches-nearly-all-code",
+      "summary": "Cash App and Square drove better-than-expected results, while the company said it expanded its use of AI across software engineering.",
+      "source": "Cointelegraph",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1785980037,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/jack-dorsey3-1.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/4d8ba7bdc47cd047_base.jpg",
+      "image_local": "../assets/news/2026-08-06/4d8ba7bdc47cd047_base.jpg"
+    },
+    {
+      "title": "TeraWulf's Bitcoin mining revenue fell 73% as AI related leases reached 71% of sales",
+      "link": "https://cryptoslate.com/terawulfs-bitcoin-mining-revenue-fell-73-as-hpc-leases-reached-71-of-sales/",
+      "summary": "The revenue crossover is real, but Anthropic rent starts only as new capacity is delivered from late 2027. The post TeraWulf’s Bitcoin mining revenue fell 73% as AI related leases reached 71% of sales appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785973234,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/terawulf-wolf-bitcoin-mining-to-hpc-transition.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/9e01bfae7d5b3a10_base.jpg",
+      "image_local": "../assets/news/2026-08-06/9e01bfae7d5b3a10_base.jpg"
+    },
+    {
+      "title": "Crypto firm RedotPay says it will defend itself ‘vigorously' against Binance lawsuit",
+      "link": "https://www.coindesk.com/business/2026/08/05/binance-sues-redotpay-for-usd470-million-claiming-it-diverted-users",
+      "summary": "Crypto firm RedotPay says it will defend itself ‘vigorously' against Binance lawsuit",
+      "source": "CoinDesk",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785966033,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/7863e30b8c5511b68b91043a228ce3b5235c6c49-5616x3744.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/7863e30b8c5511b68b91043a228ce3b5235c6c49-5616x3744.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-06/3b3a109377f06a1d_base.jpg",
+      "image_local": "../assets/news/2026-08-06/3b3a109377f06a1d_base.jpg"
+    },
+    {
+      "title": "Meta Debuts AI Coding Agent Muse: Here's How It Compares to Claude Code and Codex",
+      "link": "https://decrypt.co/375001/muse-code-meta-ai-coding-agent-claude-codex",
+      "summary": "Meta's new agent runs in your terminal, coordinates subagents, and survives crashes—but on the benchmarks that matter, it lags behind.",
+      "source": "Decrypt",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785965046,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/meta-logo-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/meta-logo-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/meta-logo-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-06/3c21d15ac4f910a5_base.jpg",
+      "image_local": "../assets/news/2026-08-06/3c21d15ac4f910a5_base.jpg"
+    },
+    {
+      "title": "Mysten Labs tech chief joins Anthropic to work on AI security",
+      "link": "https://cointelegraph.com/news/mysten-labs-tech-chief-joins-anthropic-to-work-on-ai-security",
+      "summary": "Mysten Labs’ co-founder Sam Blackshear said he is joining Anthropic as AI shifts the balance between attackers and defenders.",
+      "source": "Cointelegraph",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1785979895,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/bank-building-hall-entrance-door2-1.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/06df5c6d6f161256_base.jpg",
+      "image_local": "../assets/news/2026-08-06/06df5c6d6f161256_base.jpg"
+    },
+    {
+      "title": "Investors poured millions back into Grayscale's XRP fund, but a $16.8M market hit instantly wiped out the comeback",
+      "link": "https://cryptoslate.com/investors-poured-millions-back-into-grayscales-bleeding-xrp-fund-but-a-16-8-million-market-hit-instantly-wiped-out-the-comeback/",
+      "summary": "The Grayscale XRP fund added 480,000 net shares in Q2 after a derived 3.94 million-share Q1 contraction, but net assets still fell. The post Investors poured millions back into Grayscale’s XRP fund, but a $16.8M market hit instantly wiped out the comeback appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785969345,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/gxrp-cracked-glass-globe-market-loss.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/c8d55099d8895630_base.jpg",
+      "image_local": "../assets/news/2026-08-06/c8d55099d8895630_base.jpg"
+    },
+    {
+      "title": "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow",
+      "link": "https://www.coindesk.com/policy/2026/08/05/crypto-s-campaign-efforts-see-rare-loss-but-crypto-roster-in-congress-likely-to-grow",
+      "summary": "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow",
+      "source": "CoinDesk",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785953721,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/c8bf1032698144f529bec9f855343103ae1ae314-5717x3812.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/c8bf1032698144f529bec9f855343103ae1ae314-5717x3812.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0.4788&fp-y=0.261&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-06/1e9e173af2ca2ea7_base.jpg",
+      "image_local": "../assets/news/2026-08-06/1e9e173af2ca2ea7_base.jpg"
+    },
+    {
+      "title": "Cloudflare OS: Here's What's Inside the Open-Source AI Agent Platform",
+      "link": "https://decrypt.co/374997/cloudflare-os-inside-open-source-ai-agent-platform",
+      "summary": "The release targets developers building autonomous apps and workflows on Cloudflare's edge—a clear bet on agent infrastructure.",
+      "source": "Decrypt",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785962763,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/03/ai-agents-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/ai-agents-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/ai-agents-decrypt-style-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/e8354d7e6910a62c_base.jpg",
+      "image_local": "../assets/news/2026-08-06/e8354d7e6910a62c_base.jpg"
+    },
+    {
+      "title": "Bitcoin Red Team reports 5K findings in sweeping security audit",
+      "link": "https://cointelegraph.com/news/bitcoin-red-team-reports-5k-findings-in-sweeping-security-audit",
+      "summary": "“There’s a lot of chaos right now in the ecosystem. We absolutely understand that many people are being bombarded with security issues right now,” said Bitcoin developer Calle.",
+      "source": "Cointelegraph",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1785978546,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/bug-error-hack-red-mistake-malwire.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/0ac55c12737d42e8_base.jpg",
+      "image_local": "../assets/news/2026-08-06/0ac55c12737d42e8_base.jpg"
+    },
+    {
+      "title": "BitMart gives US users just days to pull crypto before aggressive new compliance checks risk freezing their assets",
+      "link": "https://cryptoslate.com/bitmart-gives-us-users-just-days-to-pull-crypto-before-aggressive-new-compliance-checks-risk-freezing-their-assets/",
+      "summary": "Covered users must close positions and withdraw by 23:59 UTC, while the wider platform keeps two Aug. 26 clocks. The post BitMart gives US users just days to pull crypto before aggressive new compliance checks risk freezing their assets appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785966056,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitmart-us-withdrawal-deadline-exit-warning-collage.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/43b85592ffbe074b_base.jpg",
+      "image_local": "../assets/news/2026-08-06/43b85592ffbe074b_base.jpg"
+    },
+    {
+      "title": "Coldcard exploit could boost demand for regulated bitcoin exposure, analysts say",
+      "link": "https://www.coindesk.com/tech/2026/08/05/coldcard-exploit-could-boost-demand-for-regulated-bitcoin-exposure-analysts-say",
+      "summary": "Coldcard exploit could boost demand for regulated bitcoin exposure, analysts say",
+      "source": "CoinDesk",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785944648,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/df75194a14ee0137a319a24c95c7971dfac737a2-4896x3268.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/df75194a14ee0137a319a24c95c7971dfac737a2-4896x3268.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-06/7c111aaf0934cb7e_base.jpg",
+      "image_local": "../assets/news/2026-08-06/7c111aaf0934cb7e_base.jpg"
+    },
+    {
+      "title": "Perplexity Wins Appeal Against Amazon in AI Agent Shopping Lawsuit",
+      "link": "https://decrypt.co/374996/perplexity-amazon-ai-agent-lawsuit",
+      "summary": "A U.S. appeals court ruled Amazon is unlikely to prove Perplexity violated federal hacking law, marking the first appellate decision on whether AI agents can legally act on users' behalf online.",
+      "source": "Decrypt",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785960963,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-06/ad7c6efac5944b6a_base.jpg",
+      "image_local": "../assets/news/2026-08-06/ad7c6efac5944b6a_base.jpg"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-05",
-  "generated_at_utc": "2026-08-05 16:06:11 UTC",
+  "generated_at_utc": "2026-08-05 22:05:53 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,34 +16,166 @@
   "count": 12,
   "items": [
     {
-      "title": "Circle Taps Visa, Mastercard and BlackRock as Validators for September Arc Launch",
-      "link": "https://decrypt.co/374961/circle-taps-visa-mastercard-and-blackrock-as-validators-for-september-arc-launch",
-      "summary": "Circle's USDC distribution deal with Coinbase has been renewed on existing terms, and Arc's testnet has processed half a billion transactions.",
-      "source": "Decrypt",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785944289,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/USDC-decrypt-style-07-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/USDC-decrypt-style-07-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/USDC-decrypt-style-07-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-05/81cf4217d806a8db_base.jpg",
-      "image_local": "../assets/news/2026-08-05/81cf4217d806a8db_base.jpg"
-    },
-    {
-      "title": "How dumping 1,200 Bitcoin helped a cellular chipmaker completely erase its debt and double its cash",
-      "link": "https://cryptoslate.com/how-dumping-1200-bitcoin-helped-a-cellular-chipmaker-completely-erase-its-debt-and-double-its-cash/",
-      "summary": "The chipmaker ended June with 314 unrestricted coins after sales helped erase convertible debt and lift cash to $21 million. The post How dumping 1,200 Bitcoin helped a cellular chipmaker completely erase its debt and double its cash appeared first on CryptoSlate.",
+      "title": "BitMart gives US users just days to pull crypto before aggressive new compliance checks risk freezing their assets",
+      "link": "https://cryptoslate.com/bitmart-gives-us-users-just-days-to-pull-crypto-before-aggressive-new-compliance-checks-risk-freezing-their-assets/",
+      "summary": "Covered users must close positions and withdraw by 23:59 UTC, while the wider platform keeps two Aug. 26 clocks. The post BitMart gives US users just days to pull crypto before aggressive new compliance checks risk freezing their assets appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-05",
       "date_human": "Aug 5, 2026",
-      "pub_ts": 1785942608,
+      "pub_ts": 1785966056,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/sequans-q2-bitcoin-holdings-vault.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitmart-us-withdrawal-deadline-exit-warning-collage.jpg"
       ],
-      "image": "../assets/news/2026-08-05/65cda2a12fbb1cac_base.jpg",
-      "image_local": "../assets/news/2026-08-05/65cda2a12fbb1cac_base.jpg"
+      "image": "../assets/news/2026-08-05/43b85592ffbe074b_base.jpg",
+      "image_local": "../assets/news/2026-08-05/43b85592ffbe074b_base.jpg"
+    },
+    {
+      "title": "Meta Debuts AI Coding Agent Muse: Here's How It Compares to Claude Code and Codex",
+      "link": "https://decrypt.co/375001/muse-code-meta-ai-coding-agent-claude-codex",
+      "summary": "Meta's new agent runs in your terminal, coordinates subagents, and survives crashes—but on the benchmarks that matter, it lags behind.",
+      "source": "Decrypt",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785965046,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/meta-logo-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/meta-logo-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/meta-logo-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-05/3c21d15ac4f910a5_base.jpg",
+      "image_local": "../assets/news/2026-08-05/3c21d15ac4f910a5_base.jpg"
+    },
+    {
+      "title": "Senator Warren questions US AI chip policy after Trump crypto investment: Report",
+      "link": "https://cointelegraph.com/news/senator-warren-us-policy-uae-ai-chips-trump-crypto-investment",
+      "summary": "The lawmaker reportedly sent a letter to the Commerce Secretary demanding answers about the administration’s treatment of the UAE following investments in the Trump family’s crypto company.",
+      "source": "Cointelegraph",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785964537,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-us-chip-maker-crypto-company.png"
+      ],
+      "image": "../assets/news/2026-08-05/c0397d54d51bb81c_base.jpg",
+      "image_local": "../assets/news/2026-08-05/c0397d54d51bb81c_base.jpg"
+    },
+    {
+      "title": "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow",
+      "link": "https://www.coindesk.com/policy/2026/08/05/crypto-s-campaign-efforts-see-rare-loss-but-crypto-roster-in-congress-likely-to-grow",
+      "summary": "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow",
+      "source": "CoinDesk",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785953721,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/c8bf1032698144f529bec9f855343103ae1ae314-5717x3812.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/c8bf1032698144f529bec9f855343103ae1ae314-5717x3812.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0.4788&fp-y=0.261&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-05/1e9e173af2ca2ea7_base.jpg",
+      "image_local": "../assets/news/2026-08-05/1e9e173af2ca2ea7_base.jpg"
+    },
+    {
+      "title": "All six US Solana ETFs have suffered five consecutive days of absolute zero net flows",
+      "link": "https://cryptoslate.com/all-six-us-solana-etfs-have-suffered-five-consecutive-days-of-absolute-zero-net-flows/",
+      "summary": "The product-wide pause followed an $18.1 million BSOL outflow while seed and conversion capital complicate the cumulative total. The post All six US Solana ETFs have suffered five consecutive days of absolute zero net flows appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785962144,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/solana-etf-zero-flow-valv.jpg"
+      ],
+      "image": "../assets/news/2026-08-05/e1891adf82808bec_base.jpg",
+      "image_local": "../assets/news/2026-08-05/e1891adf82808bec_base.jpg"
+    },
+    {
+      "title": "Cloudflare OS: Here's What's Inside the Open-Source AI Agent Platform",
+      "link": "https://decrypt.co/374997/cloudflare-os-inside-open-source-ai-agent-platform",
+      "summary": "The release targets developers building autonomous apps and workflows on Cloudflare's edge—a clear bet on agent infrastructure.",
+      "source": "Decrypt",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785962763,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/03/ai-agents-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/ai-agents-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/ai-agents-decrypt-style-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-05/e8354d7e6910a62c_base.jpg",
+      "image_local": "../assets/news/2026-08-05/e8354d7e6910a62c_base.jpg"
+    },
+    {
+      "title": "Senator Lummis still pushing for CLARITY vote before August recess",
+      "link": "https://cointelegraph.com/news/senator-lummis-clarity-vote-movement-calendar",
+      "summary": "US lawmakers have only a few days to hold a vote on a crypto market structure bill before a recess begins that could push consideration into the 2026 election season or beyond.",
+      "source": "Cointelegraph",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785957504,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-the-evolution-of-crypto-regulations-in-2024-what-it-means-for-2025.png"
+      ],
+      "image": "../assets/news/2026-08-05/caa2083bb04142cc_base.jpg",
+      "image_local": "../assets/news/2026-08-05/caa2083bb04142cc_base.jpg"
+    },
+    {
+      "title": "Coldcard exploit could boost demand for regulated bitcoin exposure, analysts say",
+      "link": "https://www.coindesk.com/tech/2026/08/05/coldcard-exploit-could-boost-demand-for-regulated-bitcoin-exposure-analysts-say",
+      "summary": "Coldcard exploit could boost demand for regulated bitcoin exposure, analysts say",
+      "source": "CoinDesk",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785944648,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/df75194a14ee0137a319a24c95c7971dfac737a2-4896x3268.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/df75194a14ee0137a319a24c95c7971dfac737a2-4896x3268.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-05/7c111aaf0934cb7e_base.jpg",
+      "image_local": "../assets/news/2026-08-05/7c111aaf0934cb7e_base.jpg"
+    },
+    {
+      "title": "A massive 100 million PROVE tokens unlock today, but razor-thin liquidity reveals a market unprepared for a 51% supply shock",
+      "link": "https://cryptoslate.com/a-massive-100-million-prove-tokens-unlock-today-but-razor-thin-exchange-liquidity-reveals-a-market-completely-unprepared-for-a-51-supply-shock/",
+      "summary": "CoinGecko shows 208.33 million and Tokenomics.com 233.332 million, but accessible official terms confirm only the investor-and-contributor tranche. The post A massive 100 million PROVE tokens unlock today, but razor-thin liquidity reveals a market unprepared for a 51% supply shock appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785958235,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/prove-token-collapse-liquidity.jpg"
+      ],
+      "image": "../assets/news/2026-08-05/9b1c9a09ec32535e_base.jpg",
+      "image_local": "../assets/news/2026-08-05/9b1c9a09ec32535e_base.jpg"
+    },
+    {
+      "title": "Perplexity Wins Appeal Against Amazon in AI Agent Shopping Lawsuit",
+      "link": "https://decrypt.co/374996/perplexity-amazon-ai-agent-lawsuit",
+      "summary": "A U.S. appeals court ruled Amazon is unlikely to prove Perplexity violated federal hacking law, marking the first appellate decision on whether AI agents can legally act on users' behalf online.",
+      "source": "Decrypt",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785960963,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-05/ad7c6efac5944b6a_base.jpg",
+      "image_local": "../assets/news/2026-08-05/ad7c6efac5944b6a_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-05",
+      "date_human": "Aug 5, 2026",
+      "pub_ts": 1785957101,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-05/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-05/57bd1a60f4d67ba1_base.jpg"
     },
     {
       "title": "Crypto Long & Short: Putting the bitcoin sizing question to the test",
@@ -59,138 +191,6 @@
       ],
       "image": "../assets/news/2026-08-05/2449a668641735fb_base.jpg",
       "image_local": "../assets/news/2026-08-05/2449a668641735fb_base.jpg"
-    },
-    {
-      "title": "Gold hits six-week highs on China demand as Bitcoin ignores fresh S&P 500 record",
-      "link": "https://cointelegraph.com/markets/gold-hits-six-week-highs-on-china-demand",
-      "summary": "Gold and US stocks stole the limelight on Wednesday as Bitcoin failed to gain significantly beyond $64,000.",
-      "source": "Cointelegraph",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785942136,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/magazinechina-gold.png"
-      ],
-      "image": "../assets/news/2026-08-05/d5b88c1c69745af8_base.jpg",
-      "image_local": "../assets/news/2026-08-05/d5b88c1c69745af8_base.jpg"
-    },
-    {
-      "title": "Eliza Founder Declares AI Token 'Dead,' Shuts Down Foundation After Lawsuit Settlement",
-      "link": "https://decrypt.co/374958/eliza-ai-token-dead-shuts-down-foundation-lawsuit",
-      "summary": "Shaw Walters says Eliza's token is no more after a class-action settlement drained the project's remaining funds.",
-      "source": "Decrypt",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785943478,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2024/12/jaldps_an_office_anime_style_-ar_9151_-style_raw_-personal_3c0746c6-0a72-458d-9bc7-6041893c778d_3-gID_4.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2024/12/jaldps_an_office_anime_style_-ar_9151_-style_raw_-personal_3c0746c6-0a72-458d-9bc7-6041893c778d_3-gID_4.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/12/jaldps_an_office_anime_style_-ar_9151_-style_raw_-personal_3c0746c6-0a72-458d-9bc7-6041893c778d_3-gID_4.png"
-      ],
-      "image": "../assets/news/2026-08-05/3d38d4a4281bd920_base.jpg",
-      "image_local": "../assets/news/2026-08-05/3d38d4a4281bd920_base.jpg"
-    },
-    {
-      "title": "BlackRock's rare ETHA reverse split is about to make trading Ethereum 70 times cheaper than Coinbase",
-      "link": "https://cryptoslate.com/blackrocks-rare-etha-reverse-split-is-about-to-make-trading-ethereum-70-times-cheaper-than-coinbase/",
-      "summary": "BlackRock is preparing a one-for-three reverse split of its iShares Ethereum Trust ETF (ETHA), a structural change that will lift ETHA’s share price and could reduce its effective trading spread without changing the value of investors’ holdings. ETHA’s sponsor approved the reverse split on July 31, according to an SEC regulatory filing. Every three shares […] The post BlackRock’s rare ETHA reverse split is about to make trading Ethereum 70 times cheaper than Coinbase appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785938137,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/blackrock-etha-share-consolidation-crate.jpg"
-      ],
-      "image": "../assets/news/2026-08-05/2dff5953fe7fd972_base.jpg",
-      "image_local": "../assets/news/2026-08-05/2dff5953fe7fd972_base.jpg"
-    },
-    {
-      "title": "Strategy's STRC rebounds 30% as company builds cash reserve, bitcoin price stabilizes",
-      "link": "https://www.coindesk.com/markets/2026/08/05/strategy-s-strc-rebounds-30-as-company-builds-cash-reserve-bitcoin-price-stabilizes",
-      "summary": "Strategy's STRC rebounds 30% as company builds cash reserve, bitcoin price stabilizes",
-      "source": "CoinDesk",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785941070,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/1b143885ed58dece3a26646b1d6d4e198494e466-1534x969.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/1b143885ed58dece3a26646b1d6d4e198494e466-1534x969.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-05/34bb9a8201d4f64d_base.jpg",
-      "image_local": "../assets/news/2026-08-05/34bb9a8201d4f64d_base.jpg"
-    },
-    {
-      "title": "Crypto whales accumulate as bear market nears late stage: CryptoQuant",
-      "link": "https://cointelegraph.com/markets/crypto-whales-buy-bear-market-late-stage-cryptoquant",
-      "summary": "Bitcoin, Ethereum and XRP whales increased balances during market weakness, as CryptoQuant said large holders are absorbing supply ahead of a possible bottom.",
-      "source": "Cointelegraph",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785938907,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-34555-analysts-laugh-off-recent-one-whale-theory-of-btcs-2017-bull-run.jpg"
-      ],
-      "image": "../assets/news/2026-08-05/377c5a1a8d8d32b5_base.jpg",
-      "image_local": "../assets/news/2026-08-05/377c5a1a8d8d32b5_base.jpg"
-    },
-    {
-      "title": "Anthropic's Claude Mythos 5 'Targeted Real People' in UK Cyber Tests: AISI",
-      "link": "https://decrypt.co/374948/anthropics-claude-mythos-5-targeted-real-people-in-uk-cyber-tests-aisi",
-      "summary": "Anthropic's LLM and OpenAI's GPT-5.6 Sol took \"unsanctioned action\" on the live internet, the UK's AI Security Institute said.",
-      "source": "Decrypt",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785934077,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-claude-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-claude-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/decrypt-style-anthropic-claude-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-05/deb67ffe16aa4275_base.jpg",
-      "image_local": "../assets/news/2026-08-05/deb67ffe16aa4275_base.jpg"
-    },
-    {
-      "title": "Bitcoin miners' AI pipelines are on trial as Texas freezes 474 GW of data center requests",
-      "link": "https://cryptoslate.com/bitcoin-miners-ai-pipelines-are-on-trial-as-texas-freezes-474-gw-of-data-center-requests/",
-      "summary": "Texas Gov. Greg Abbott ordered the Public Utility Commission and ERCOT to audit every data center project seeking a grid connection before regulators approve any new projects. The order puts AI infrastructure tied to Bitcoin miners under scrutiny, while the audit verifies each project's power sourcing, water use, cooling plans, and ownership. The order covers […] The post Bitcoin miners’ AI pipelines are on trial as Texas freezes 474 GW of data center requests appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785933946,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/texas-data-center-grid-lock.jpg"
-      ],
-      "image": "../assets/news/2026-08-05/e53a2c494cdf989b_base.jpg",
-      "image_local": "../assets/news/2026-08-05/e53a2c494cdf989b_base.jpg"
-    },
-    {
-      "title": "Nomura's Laser Digital backs ZIGChain for onchain private credit push in UAE",
-      "link": "https://www.coindesk.com/business/2026/08/05/noumura-s-laser-digital-backs-zigchain-for-onchain-private-credit-push-in-uae",
-      "summary": "Nomura's Laser Digital backs ZIGChain for onchain private credit push in UAE",
-      "source": "CoinDesk",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785936304,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/1c5f9936bbd084d1a17d68695e5de5b4ec268eb4-778x509.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/1c5f9936bbd084d1a17d68695e5de5b4ec268eb4-778x509.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-05/bcfd7bf5a6f1f615_base.jpg",
-      "image_local": "../assets/news/2026-08-05/bcfd7bf5a6f1f615_base.jpg"
-    },
-    {
-      "title": "Do the Coldcard attacks mean all hardware wallets are now insecure?",
-      "link": "https://cointelegraph.com/magazine/does-the-coldcard-attack-mean-all-hardware-wallets-are-now-insecure",
-      "summary": "The Coldcard entropy flaw caused a crisis of confidence in hardware wallets. Here’s the details you need to know before you entrust Ledger, Trezor or Foundation with your Bitcoin.",
-      "source": "Cointelegraph",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785936600,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-double-spending-in-btc-wallets-the-issue-persists.jpg"
-      ],
-      "image": "../assets/news/2026-08-05/6878891ee2736c31_base.jpg",
-      "image_local": "../assets/news/2026-08-05/6878891ee2736c31_base.jpg"
     }
   ]
 }
