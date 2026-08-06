@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-06",
-  "generated_at_utc": "2026-08-06 04:06:01 UTC",
+  "generated_at_utc": "2026-08-06 10:05:59 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,47 +16,63 @@
   "count": 12,
   "items": [
     {
-      "title": "Block raises 2026 outlook on strong quarter, says AI touches nearly all code",
-      "link": "https://cointelegraph.com/markets/block-raises-2026-outlook-strong-quarter-says-ai-touches-nearly-all-code",
-      "summary": "Cash App and Square drove better-than-expected results, while the company said it expanded its use of AI across software engineering.",
+      "title": "Bitcoin AI Security Audit Files 4,962 Findings Across 390 Projects",
+      "link": "https://decrypt.co/375029/bitcoin-ai-security-audit-files-4962-findings-across-390-projects",
+      "summary": "A volunteer group is pointing AI agents at Bitcoin project codebases and says 720 of the issues it has filed are high severity or critical.",
+      "source": "Decrypt",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786009414,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-06/d3cfd5c24fd6760a_base.jpg",
+      "image_local": "../assets/news/2026-08-06/d3cfd5c24fd6760a_base.jpg"
+    },
+    {
+      "title": "Russian president signs crypto law, core rules take effect in 2026",
+      "link": "https://cointelegraph.com/news/putin-signs-crypto-law-core-rules-take-effect-2026",
+      "summary": "Russian President Vladimir Putin signed a crypto law establishing market rules for exchanges, custodians and investors, with core provisions taking effect in September 2026.",
       "source": "Cointelegraph",
       "date": "2026-08-06",
       "date_human": "Aug 6, 2026",
-      "pub_ts": 1785980037,
+      "pub_ts": 1786009134,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/jack-dorsey3-1.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/putin2.jpg"
       ],
-      "image": "../assets/news/2026-08-06/4d8ba7bdc47cd047_base.jpg",
-      "image_local": "../assets/news/2026-08-06/4d8ba7bdc47cd047_base.jpg"
+      "image": "../assets/news/2026-08-06/cfd86de359fb1a85_base.jpg",
+      "image_local": "../assets/news/2026-08-06/cfd86de359fb1a85_base.jpg"
     },
     {
-      "title": "TeraWulf's Bitcoin mining revenue fell 73% as AI related leases reached 71% of sales",
-      "link": "https://cryptoslate.com/terawulfs-bitcoin-mining-revenue-fell-73-as-hpc-leases-reached-71-of-sales/",
-      "summary": "The revenue crossover is real, but Anthropic rent starts only as new capacity is delivered from late 2027. The post TeraWulf’s Bitcoin mining revenue fell 73% as AI related leases reached 71% of sales appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785973234,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/terawulf-wolf-bitcoin-mining-to-hpc-transition.jpg"
-      ],
-      "image": "../assets/news/2026-08-06/9e01bfae7d5b3a10_base.jpg",
-      "image_local": "../assets/news/2026-08-06/9e01bfae7d5b3a10_base.jpg"
-    },
-    {
-      "title": "Crypto firm RedotPay says it will defend itself ‘vigorously' against Binance lawsuit",
-      "link": "https://www.coindesk.com/business/2026/08/05/binance-sues-redotpay-for-usd470-million-claiming-it-diverted-users",
-      "summary": "Crypto firm RedotPay says it will defend itself ‘vigorously' against Binance lawsuit",
+      "title": "NFT startup founder charged with misusing funds from $10 million fundraising",
+      "link": "https://www.coindesk.com/policy/2026/08/06/nft-startup-founder-charged-with-misusing-funds-from-usd10-million-fundraising",
+      "summary": "NFT startup founder charged with misusing funds from $10 million fundraising",
       "source": "CoinDesk",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785966033,
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786007943,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/7863e30b8c5511b68b91043a228ce3b5235c6c49-5616x3744.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/7863e30b8c5511b68b91043a228ce3b5235c6c49-5616x3744.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/ac4dbd7392625e4b7d80a9d014d051d307a4d10c-3681x2071.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/ac4dbd7392625e4b7d80a9d014d051d307a4d10c-3681x2071.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-06/3b3a109377f06a1d_base.jpg",
-      "image_local": "../assets/news/2026-08-06/3b3a109377f06a1d_base.jpg"
+      "image": "../assets/news/2026-08-06/2c70e55d9d2034da_base.jpg",
+      "image_local": "../assets/news/2026-08-06/2c70e55d9d2034da_base.jpg"
+    },
+    {
+      "title": "Bitcoin price breaking out toward $69,000 now opens a turbo path toward $84,000",
+      "link": "https://cryptoslate.com/bitcoin-price-breaking-out-toward-69000-now-opens-a-turbo-path-toward-84000/",
+      "summary": "A Bitcoin breakout attempt briefly pushed price above $65,000 on Aug. 5, but failed to sustain the move, even as Fed funds futures put the odds of a September rate hike at 57.4% as of Aug. 5, down from 80.5% a week earlier. Brent crude fell more than 5% on Aug. 4, settling near $79 […] The post Bitcoin price breaking out toward $69,000 now opens a turbo path toward $84,000 appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786007124,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-69000-breakout-turbo-path-84000.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/789d6196f2ad27c3_base.jpg",
+      "image_local": "../assets/news/2026-08-06/789d6196f2ad27c3_base.jpg"
     },
     {
       "title": "Meta Debuts AI Coding Agent Muse: Here's How It Compares to Claude Code and Codex",
@@ -75,47 +91,47 @@
       "image_local": "../assets/news/2026-08-06/3c21d15ac4f910a5_base.jpg"
     },
     {
-      "title": "Mysten Labs tech chief joins Anthropic to work on AI security",
-      "link": "https://cointelegraph.com/news/mysten-labs-tech-chief-joins-anthropic-to-work-on-ai-security",
-      "summary": "Mysten Labs’ co-founder Sam Blackshear said he is joining Anthropic as AI shifts the balance between attackers and defenders.",
+      "title": "RWAs buck DeFi slowdown as tokenized assets gain traction: CoinShares",
+      "link": "https://cointelegraph.com/news/rwa-buck-defi-slowdown-tokenization-coinshares",
+      "summary": "Tokenized real-world assets moved beyond issuance as RWA deposits more than tripled to $7.4 billion, while lending and trading activity expanded despite a broader industry slowdown.",
       "source": "Cointelegraph",
       "date": "2026-08-06",
       "date_human": "Aug 6, 2026",
-      "pub_ts": 1785979895,
+      "pub_ts": 1786008500,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/bank-building-hall-entrance-door2-1.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-harmless-for-now-dangerous-in-the-future-heres-what-researches-think-of-cryptocurrencies-rwa.jpg"
       ],
-      "image": "../assets/news/2026-08-06/06df5c6d6f161256_base.jpg",
-      "image_local": "../assets/news/2026-08-06/06df5c6d6f161256_base.jpg"
+      "image": "../assets/news/2026-08-06/f3949ba9f468f903_base.jpg",
+      "image_local": "../assets/news/2026-08-06/f3949ba9f468f903_base.jpg"
     },
     {
-      "title": "Investors poured millions back into Grayscale's XRP fund, but a $16.8M market hit instantly wiped out the comeback",
-      "link": "https://cryptoslate.com/investors-poured-millions-back-into-grayscales-bleeding-xrp-fund-but-a-16-8-million-market-hit-instantly-wiped-out-the-comeback/",
-      "summary": "The Grayscale XRP fund added 480,000 net shares in Q2 after a derived 3.94 million-share Q1 contraction, but net assets still fell. The post Investors poured millions back into Grayscale’s XRP fund, but a $16.8M market hit instantly wiped out the comeback appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785969345,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/gxrp-cracked-glass-globe-market-loss.jpg"
-      ],
-      "image": "../assets/news/2026-08-06/c8d55099d8895630_base.jpg",
-      "image_local": "../assets/news/2026-08-06/c8d55099d8895630_base.jpg"
-    },
-    {
-      "title": "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow",
-      "link": "https://www.coindesk.com/policy/2026/08/05/crypto-s-campaign-efforts-see-rare-loss-but-crypto-roster-in-congress-likely-to-grow",
-      "summary": "Crypto's campaign efforts see rare loss, but crypto roster in Congress likely to grow",
+      "title": "Live updates: Coinbase lets U.K. users trade U.S. equities. BTC trades near $65,000",
+      "link": "https://www.coindesk.com/tech/2026/08/06/live-updates-bitcoin-nears-usd65-000-as-oil-inflation-hopes-keep-macro-bid-alive",
+      "summary": "Live updates: Coinbase lets U.K. users trade U.S. equities. BTC trades near $65,000",
       "source": "CoinDesk",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785953721,
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786001183,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/c8bf1032698144f529bec9f855343103ae1ae314-5717x3812.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/c8bf1032698144f529bec9f855343103ae1ae314-5717x3812.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0.4788&fp-y=0.261&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/46bf595e55241c6d6435101f950986442ab183f6-2944x1490.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/46bf595e55241c6d6435101f950986442ab183f6-2944x1490.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-06/1e9e173af2ca2ea7_base.jpg",
-      "image_local": "../assets/news/2026-08-06/1e9e173af2ca2ea7_base.jpg"
+      "image": "../assets/news/2026-08-06/bf53198a191869d2_base.jpg",
+      "image_local": "../assets/news/2026-08-06/bf53198a191869d2_base.jpg"
+    },
+    {
+      "title": "Is crypto dead yet? Project shutdowns peaked this April but the latest 2026 data hides a scarier trend",
+      "link": "https://cryptoslate.com/is-crypto-dead-yet-project-shutdowns-peaked-this-april-but-the-latest-2026-data-hides-a-scarier-trend/",
+      "summary": "DeFi supplied the largest share of 109 tracked exits, but project counts cannot time the market. The post Is crypto dead yet? Project shutdowns peaked this April but the latest 2026 data hides a scarier trend appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786004049,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/crypto-project-closures-bank-blockchain-keyhole.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/d8b881b3e7eef4e6_base.jpg",
+      "image_local": "../assets/news/2026-08-06/d8b881b3e7eef4e6_base.jpg"
     },
     {
       "title": "Cloudflare OS: Here's What's Inside the Open-Source AI Agent Platform",
@@ -134,63 +150,47 @@
       "image_local": "../assets/news/2026-08-06/e8354d7e6910a62c_base.jpg"
     },
     {
-      "title": "Bitcoin Red Team reports 5K findings in sweeping security audit",
-      "link": "https://cointelegraph.com/news/bitcoin-red-team-reports-5k-findings-in-sweeping-security-audit",
-      "summary": "“There’s a lot of chaos right now in the ecosystem. We absolutely understand that many people are being bombarded with security issues right now,” said Bitcoin developer Calle.",
+      "title": "Yen stablecoin issuer JPYC's Series B reaches $38M",
+      "link": "https://cointelegraph.com/news/jpyc-series-b-funding-az-com",
+      "summary": "JPYC said it plans to use the new capital to expand its financial and Web3 ecosystem and accelerate adoption of its yen-pegged token.",
       "source": "Cointelegraph",
       "date": "2026-08-06",
       "date_human": "Aug 6, 2026",
-      "pub_ts": 1785978546,
+      "pub_ts": 1786005883,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/bug-error-hack-red-mistake-malwire.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/truck.png"
       ],
-      "image": "../assets/news/2026-08-06/0ac55c12737d42e8_base.jpg",
-      "image_local": "../assets/news/2026-08-06/0ac55c12737d42e8_base.jpg"
+      "image": "../assets/news/2026-08-06/e870906e2f7babd0_base.jpg",
+      "image_local": "../assets/news/2026-08-06/e870906e2f7babd0_base.jpg"
     },
     {
-      "title": "BitMart gives US users just days to pull crypto before aggressive new compliance checks risk freezing their assets",
-      "link": "https://cryptoslate.com/bitmart-gives-us-users-just-days-to-pull-crypto-before-aggressive-new-compliance-checks-risk-freezing-their-assets/",
-      "summary": "Covered users must close positions and withdraw by 23:59 UTC, while the wider platform keeps two Aug. 26 clocks. The post BitMart gives US users just days to pull crypto before aggressive new compliance checks risk freezing their assets appeared first on CryptoSlate.",
+      "title": "Bitcoin developers flag 85 critical bugs in an \"extremely bad\" situation",
+      "link": "https://www.coindesk.com/tech/2026/08/06/bitcoin-developers-flag-85-critical-bugs-in-an-extremely-bad-situation",
+      "summary": "Bitcoin developers flag 85 critical bugs in an \"extremely bad\" situation",
+      "source": "CoinDesk",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786000451,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/0fd512cd2b3b63152562fab784b9d94b8b8b56ea-1500x994.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/0fd512cd2b3b63152562fab784b9d94b8b8b56ea-1500x994.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-06/f7cb253f7f22ab94_base.jpg",
+      "image_local": "../assets/news/2026-08-06/f7cb253f7f22ab94_base.jpg"
+    },
+    {
+      "title": "TeraWulf's Bitcoin mining revenue fell 73% as AI related leases reached 71% of sales",
+      "link": "https://cryptoslate.com/terawulfs-bitcoin-mining-revenue-fell-73-as-hpc-leases-reached-71-of-sales/",
+      "summary": "The revenue crossover is real, but Anthropic rent starts only as new capacity is delivered from late 2027. The post TeraWulf’s Bitcoin mining revenue fell 73% as AI related leases reached 71% of sales appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-05",
       "date_human": "Aug 5, 2026",
-      "pub_ts": 1785966056,
+      "pub_ts": 1785973234,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitmart-us-withdrawal-deadline-exit-warning-collage.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/terawulf-wolf-bitcoin-mining-to-hpc-transition.jpg"
       ],
-      "image": "../assets/news/2026-08-06/43b85592ffbe074b_base.jpg",
-      "image_local": "../assets/news/2026-08-06/43b85592ffbe074b_base.jpg"
-    },
-    {
-      "title": "Coldcard exploit could boost demand for regulated bitcoin exposure, analysts say",
-      "link": "https://www.coindesk.com/tech/2026/08/05/coldcard-exploit-could-boost-demand-for-regulated-bitcoin-exposure-analysts-say",
-      "summary": "Coldcard exploit could boost demand for regulated bitcoin exposure, analysts say",
-      "source": "CoinDesk",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785944648,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/df75194a14ee0137a319a24c95c7971dfac737a2-4896x3268.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/df75194a14ee0137a319a24c95c7971dfac737a2-4896x3268.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-06/7c111aaf0934cb7e_base.jpg",
-      "image_local": "../assets/news/2026-08-06/7c111aaf0934cb7e_base.jpg"
-    },
-    {
-      "title": "Perplexity Wins Appeal Against Amazon in AI Agent Shopping Lawsuit",
-      "link": "https://decrypt.co/374996/perplexity-amazon-ai-agent-lawsuit",
-      "summary": "A U.S. appeals court ruled Amazon is unlikely to prove Perplexity violated federal hacking law, marking the first appellate decision on whether AI agents can legally act on users' behalf online.",
-      "source": "Decrypt",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785960963,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-06/ad7c6efac5944b6a_base.jpg",
-      "image_local": "../assets/news/2026-08-06/ad7c6efac5944b6a_base.jpg"
+      "image": "../assets/news/2026-08-06/9e01bfae7d5b3a10_base.jpg",
+      "image_local": "../assets/news/2026-08-06/9e01bfae7d5b3a10_base.jpg"
     }
   ]
 }
