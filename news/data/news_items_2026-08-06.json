@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-06",
-  "generated_at_utc": "2026-08-06 10:05:59 UTC",
+  "generated_at_utc": "2026-08-06 16:06:05 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,181 +16,181 @@
   "count": 12,
   "items": [
     {
-      "title": "Bitcoin AI Security Audit Files 4,962 Findings Across 390 Projects",
-      "link": "https://decrypt.co/375029/bitcoin-ai-security-audit-files-4962-findings-across-390-projects",
-      "summary": "A volunteer group is pointing AI agents at Bitcoin project codebases and says 720 of the issues it has filed are high severity or critical.",
-      "source": "Decrypt",
-      "date": "2026-08-06",
-      "date_human": "Aug 6, 2026",
-      "pub_ts": 1786009414,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-06/d3cfd5c24fd6760a_base.jpg",
-      "image_local": "../assets/news/2026-08-06/d3cfd5c24fd6760a_base.jpg"
-    },
-    {
-      "title": "Russian president signs crypto law, core rules take effect in 2026",
-      "link": "https://cointelegraph.com/news/putin-signs-crypto-law-core-rules-take-effect-2026",
-      "summary": "Russian President Vladimir Putin signed a crypto law establishing market rules for exchanges, custodians and investors, with core provisions taking effect in September 2026.",
-      "source": "Cointelegraph",
-      "date": "2026-08-06",
-      "date_human": "Aug 6, 2026",
-      "pub_ts": 1786009134,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/putin2.jpg"
-      ],
-      "image": "../assets/news/2026-08-06/cfd86de359fb1a85_base.jpg",
-      "image_local": "../assets/news/2026-08-06/cfd86de359fb1a85_base.jpg"
-    },
-    {
-      "title": "NFT startup founder charged with misusing funds from $10 million fundraising",
-      "link": "https://www.coindesk.com/policy/2026/08/06/nft-startup-founder-charged-with-misusing-funds-from-usd10-million-fundraising",
-      "summary": "NFT startup founder charged with misusing funds from $10 million fundraising",
-      "source": "CoinDesk",
-      "date": "2026-08-06",
-      "date_human": "Aug 6, 2026",
-      "pub_ts": 1786007943,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/ac4dbd7392625e4b7d80a9d014d051d307a4d10c-3681x2071.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/ac4dbd7392625e4b7d80a9d014d051d307a4d10c-3681x2071.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-06/2c70e55d9d2034da_base.jpg",
-      "image_local": "../assets/news/2026-08-06/2c70e55d9d2034da_base.jpg"
-    },
-    {
-      "title": "Bitcoin price breaking out toward $69,000 now opens a turbo path toward $84,000",
-      "link": "https://cryptoslate.com/bitcoin-price-breaking-out-toward-69000-now-opens-a-turbo-path-toward-84000/",
-      "summary": "A Bitcoin breakout attempt briefly pushed price above $65,000 on Aug. 5, but failed to sustain the move, even as Fed funds futures put the odds of a September rate hike at 57.4% as of Aug. 5, down from 80.5% a week earlier. Brent crude fell more than 5% on Aug. 4, settling near $79 […] The post Bitcoin price breaking out toward $69,000 now opens a turbo path toward $84,000 appeared first on CryptoSlate.",
+      "title": "Bitdeer lands $4.7 billion AI lease tied to Anthropic but must deliver by year end",
+      "link": "https://cryptoslate.com/bitdeer-lands-4-7-billion-ai-lease-tied-to-anthropic-but-must-deliver-by-dec-31/",
+      "summary": "The scheduled value assumes full performance, while credit issuance, committed project debt and delay protections remain undisclosed. The post Bitdeer lands $4.7 billion AI lease tied to Anthropic but must deliver by year end appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-06",
       "date_human": "Aug 6, 2026",
-      "pub_ts": 1786007124,
+      "pub_ts": 1786030556,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-69000-breakout-turbo-path-84000.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitdeer-tydal-data-center-construction-norway.jpg"
       ],
-      "image": "../assets/news/2026-08-06/789d6196f2ad27c3_base.jpg",
-      "image_local": "../assets/news/2026-08-06/789d6196f2ad27c3_base.jpg"
+      "image": "../assets/news/2026-08-06/5035523530dd4812_base.jpg",
+      "image_local": "../assets/news/2026-08-06/5035523530dd4812_base.jpg"
     },
     {
-      "title": "Meta Debuts AI Coding Agent Muse: Here's How It Compares to Claude Code and Codex",
-      "link": "https://decrypt.co/375001/muse-code-meta-ai-coding-agent-claude-codex",
-      "summary": "Meta's new agent runs in your terminal, coordinates subagents, and survives crashes—but on the benchmarks that matter, it lags behind.",
-      "source": "Decrypt",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785965046,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/meta-logo-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/meta-logo-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/meta-logo-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-06/3c21d15ac4f910a5_base.jpg",
-      "image_local": "../assets/news/2026-08-06/3c21d15ac4f910a5_base.jpg"
-    },
-    {
-      "title": "RWAs buck DeFi slowdown as tokenized assets gain traction: CoinShares",
-      "link": "https://cointelegraph.com/news/rwa-buck-defi-slowdown-tokenization-coinshares",
-      "summary": "Tokenized real-world assets moved beyond issuance as RWA deposits more than tripled to $7.4 billion, while lending and trading activity expanded despite a broader industry slowdown.",
-      "source": "Cointelegraph",
-      "date": "2026-08-06",
-      "date_human": "Aug 6, 2026",
-      "pub_ts": 1786008500,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-harmless-for-now-dangerous-in-the-future-heres-what-researches-think-of-cryptocurrencies-rwa.jpg"
-      ],
-      "image": "../assets/news/2026-08-06/f3949ba9f468f903_base.jpg",
-      "image_local": "../assets/news/2026-08-06/f3949ba9f468f903_base.jpg"
-    },
-    {
-      "title": "Live updates: Coinbase lets U.K. users trade U.S. equities. BTC trades near $65,000",
-      "link": "https://www.coindesk.com/tech/2026/08/06/live-updates-bitcoin-nears-usd65-000-as-oil-inflation-hopes-keep-macro-bid-alive",
-      "summary": "Live updates: Coinbase lets U.K. users trade U.S. equities. BTC trades near $65,000",
+      "title": "Crypto for Advisors: Europe's crypto rules, U.S. Preview",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/08/06/crypto-for-advisors-europe-s-crypto-rules-u-s-preview",
+      "summary": "Crypto for Advisors: Europe's crypto rules, U.S. Preview",
       "source": "CoinDesk",
       "date": "2026-08-06",
       "date_human": "Aug 6, 2026",
-      "pub_ts": 1786001183,
+      "pub_ts": 1786028820,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/46bf595e55241c6d6435101f950986442ab183f6-2944x1490.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/46bf595e55241c6d6435101f950986442ab183f6-2944x1490.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/c9fbd001548b6de8385cb2300eed1ee57477c132-5593x3729.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/c9fbd001548b6de8385cb2300eed1ee57477c132-5593x3729.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-06/bf53198a191869d2_base.jpg",
-      "image_local": "../assets/news/2026-08-06/bf53198a191869d2_base.jpg"
+      "image": "../assets/news/2026-08-06/f6f97260e9f84e46_base.jpg",
+      "image_local": "../assets/news/2026-08-06/f6f97260e9f84e46_base.jpg"
     },
     {
-      "title": "Is crypto dead yet? Project shutdowns peaked this April but the latest 2026 data hides a scarier trend",
-      "link": "https://cryptoslate.com/is-crypto-dead-yet-project-shutdowns-peaked-this-april-but-the-latest-2026-data-hides-a-scarier-trend/",
-      "summary": "DeFi supplied the largest share of 109 tracked exits, but project counts cannot time the market. The post Is crypto dead yet? Project shutdowns peaked this April but the latest 2026 data hides a scarier trend appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-06",
-      "date_human": "Aug 6, 2026",
-      "pub_ts": 1786004049,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/crypto-project-closures-bank-blockchain-keyhole.jpg"
-      ],
-      "image": "../assets/news/2026-08-06/d8b881b3e7eef4e6_base.jpg",
-      "image_local": "../assets/news/2026-08-06/d8b881b3e7eef4e6_base.jpg"
-    },
-    {
-      "title": "Cloudflare OS: Here's What's Inside the Open-Source AI Agent Platform",
-      "link": "https://decrypt.co/374997/cloudflare-os-inside-open-source-ai-agent-platform",
-      "summary": "The release targets developers building autonomous apps and workflows on Cloudflare's edge—a clear bet on agent infrastructure.",
-      "source": "Decrypt",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785962763,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/03/ai-agents-decrypt-style-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/ai-agents-decrypt-style-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/ai-agents-decrypt-style-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-06/e8354d7e6910a62c_base.jpg",
-      "image_local": "../assets/news/2026-08-06/e8354d7e6910a62c_base.jpg"
-    },
-    {
-      "title": "Yen stablecoin issuer JPYC's Series B reaches $38M",
-      "link": "https://cointelegraph.com/news/jpyc-series-b-funding-az-com",
-      "summary": "JPYC said it plans to use the new capital to expand its financial and Web3 ecosystem and accelerate adoption of its yen-pegged token.",
+      "title": "Step App winds down after four years as FITFI token sinks",
+      "link": "https://cointelegraph.com/news/step-app-winds-down-four-years-move-to-earn",
+      "summary": "Move-to-earn project Step App will wind down services by Aug. 21 after four years, while its FITFI token trades 99.9% below its all-time high.",
       "source": "Cointelegraph",
       "date": "2026-08-06",
       "date_human": "Aug 6, 2026",
-      "pub_ts": 1786005883,
+      "pub_ts": 1786024356,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/truck.png"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-coinflares-exit-and-the-future-of-cloud-mining-2.jpg"
       ],
-      "image": "../assets/news/2026-08-06/e870906e2f7babd0_base.jpg",
-      "image_local": "../assets/news/2026-08-06/e870906e2f7babd0_base.jpg"
+      "image": "../assets/news/2026-08-06/b39a22674d2e508e_base.jpg",
+      "image_local": "../assets/news/2026-08-06/b39a22674d2e508e_base.jpg"
     },
     {
-      "title": "Bitcoin developers flag 85 critical bugs in an \"extremely bad\" situation",
-      "link": "https://www.coindesk.com/tech/2026/08/06/bitcoin-developers-flag-85-critical-bugs-in-an-extremely-bad-situation",
-      "summary": "Bitcoin developers flag 85 critical bugs in an \"extremely bad\" situation",
+      "title": "What Is Arc? The Stablecoin Blockchain From USDC Issuer Circle",
+      "link": "https://decrypt.co/resources/what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle",
+      "summary": "Arc is a new layer-1 blockchain developed by USDC issuer Circle, designed specifically for stablecoin-native finance.",
+      "source": "Decrypt",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786023247,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/09/arc-learn-gID_5-pID_1.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/arc-learn-gID_5-pID_1.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/arc-learn-gID_5-pID_1.png"
+      ],
+      "image": "../assets/news/2026-08-06/e7f4d1dec3c8fe26_base.jpg",
+      "image_local": "../assets/news/2026-08-06/e7f4d1dec3c8fe26_base.jpg"
+    },
+    {
+      "title": "IREN's $625 million AI bet creates a $476 million stock overhang",
+      "link": "https://cryptoslate.com/irens-625-million-ai-bet-creates-a-476-million-stock-overhang/",
+      "summary": "The Aug. 4 filing covers 94.9% of the closing issuance; holders decide whether and when to sell. The post IREN’s $625 million AI bet creates a $476 million stock overhang appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786026641,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/iren-mirantis-potential-secondary-supply.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/02666a34e7480f78_base.jpg",
+      "image_local": "../assets/news/2026-08-06/02666a34e7480f78_base.jpg"
+    },
+    {
+      "title": "JPMorgan says Hyperliquid ETF inflows have stalled as competition mounts",
+      "link": "https://www.coindesk.com/markets/2026/08/06/jpmorgan-says-hyperliquid-etf-inflows-have-stalled-as-competition-mounts",
+      "summary": "JPMorgan says Hyperliquid ETF inflows have stalled as competition mounts",
       "source": "CoinDesk",
       "date": "2026-08-06",
       "date_human": "Aug 6, 2026",
-      "pub_ts": 1786000451,
+      "pub_ts": 1786020402,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/0fd512cd2b3b63152562fab784b9d94b8b8b56ea-1500x994.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/0fd512cd2b3b63152562fab784b9d94b8b8b56ea-1500x994.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/5b3e22f79db7d662674f6627620b8e945757ba94-1280x702.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/5b3e22f79db7d662674f6627620b8e945757ba94-1280x702.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-06/f7cb253f7f22ab94_base.jpg",
-      "image_local": "../assets/news/2026-08-06/f7cb253f7f22ab94_base.jpg"
+      "image": "../assets/news/2026-08-06/2ee5eda09083e0d8_base.jpg",
+      "image_local": "../assets/news/2026-08-06/2ee5eda09083e0d8_base.jpg"
     },
     {
-      "title": "TeraWulf's Bitcoin mining revenue fell 73% as AI related leases reached 71% of sales",
-      "link": "https://cryptoslate.com/terawulfs-bitcoin-mining-revenue-fell-73-as-hpc-leases-reached-71-of-sales/",
-      "summary": "The revenue crossover is real, but Anthropic rent starts only as new capacity is delivered from late 2027. The post TeraWulf’s Bitcoin mining revenue fell 73% as AI related leases reached 71% of sales appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-05",
-      "date_human": "Aug 5, 2026",
-      "pub_ts": 1785973234,
+      "title": "10 weirdest things ever tokenized... including farts",
+      "link": "https://cointelegraph.com/magazine/the-10-weirdest-things-already-finding-a-home-onchain",
+      "summary": "Tokenized cows may have gone viral, but they’re just the latest in a long line of strange things to find a home onchain, from farts, to human skin and destroyed artworks",
+      "source": "Cointelegraph",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786023000,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/terawulf-wolf-bitcoin-mining-to-hpc-transition.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/the-10-weirdest-real-world-assets-being-tokenized.jpg"
       ],
-      "image": "../assets/news/2026-08-06/9e01bfae7d5b3a10_base.jpg",
-      "image_local": "../assets/news/2026-08-06/9e01bfae7d5b3a10_base.jpg"
+      "image": "../assets/news/2026-08-06/4f080ac391a7629f_base.jpg",
+      "image_local": "../assets/news/2026-08-06/4f080ac391a7629f_base.jpg"
+    },
+    {
+      "title": "Scammers Pose as EU Regulators to Prey on MiCA Deadline Fallout",
+      "link": "https://decrypt.co/375034/scammers-pose-as-eu-regulators-to-prey-on-mica-deadline-fallout",
+      "summary": "France's watchdog says fraudsters are impersonating its own staff to talk stranded customers into moving assets to fake websites.",
+      "source": "Decrypt",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786020379,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-06/3da84fe0ce97e8a4_base.jpg",
+      "image_local": "../assets/news/2026-08-06/3da84fe0ce97e8a4_base.jpg"
+    },
+    {
+      "title": "Stablecoin payments are going mainstream. What happens when the recipient needs local currency?",
+      "link": "https://cryptoslate.com/stablecoin-payments-fx-local-currency-settlement/",
+      "summary": "The following is a guest post and opinion from Danyel Arenas, Co-Founder and CEO at KiiChain. Visa’s launch of its Stablecoin Platform is a sign that stablecoins are moving into mainstream financial infrastructure. The platform gives banks, fintechs and payment providers a way to access, hold, move and redeem stablecoins within a Visa-managed environment. As […] The post Stablecoin payments are going mainstream. What happens when the recipient needs local currency? appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786024829,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/stablecoin-local-currency-payout-machine.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/15bf100dc4a5751a_base.jpg",
+      "image_local": "../assets/news/2026-08-06/15bf100dc4a5751a_base.jpg"
+    },
+    {
+      "title": "Bitcoin's low volatility doesn't necessarily mean low risk",
+      "link": "https://www.coindesk.com/daybook-us/2026/08/06/bitcoin-s-low-volatility-doesn-t-necessarily-mean-low-risk",
+      "summary": "Bitcoin's low volatility doesn't necessarily mean low risk",
+      "source": "CoinDesk",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786016223,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/70cbca44084d8405c29ed2e72fa74776b8d640a8-2854x1910.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/70cbca44084d8405c29ed2e72fa74776b8d640a8-2854x1910.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-06/29189f43d104b241_base.jpg",
+      "image_local": "../assets/news/2026-08-06/29189f43d104b241_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786021369,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-06/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Morning Minute: Uniswap Enters the Launchpad Wars on Robinhood Chain",
+      "link": "https://decrypt.co/375031/morning-minute-uniswap-enters-the-launchpad-wars-on-robinhood-chain",
+      "summary": "It looks like Uniswap is playing to win with their zero-fee model, and the early data shows them already taking the top spot.",
+      "source": "Decrypt",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786019326,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/11/Uniswap2-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/11/Uniswap2-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/Uniswap2-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/9083447ca31997f5_base.jpg",
+      "image_local": "../assets/news/2026-08-06/9083447ca31997f5_base.jpg"
     }
   ]
 }
