@@ -1,0 +1,196 @@
+{
+  "day_iso": "2026-08-07",
+  "generated_at_utc": "2026-08-07 04:06:02 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "BlackRock's crypto ETFs shed $3.5 billion as last year's creation boom turns into redemptions",
+      "link": "https://cryptoslate.com/blackrocks-crypto-etfs-shed-3-5-billion-as-last-years-creation-boom-turns-into-redemptions/",
+      "summary": "IBIT and ETHA moved from a $13.91 billion Q2 increase to a $3.53 billion decrease, while three positive August sessions remain inconclusive. The post BlackRock’s crypto ETFs shed $3.5 billion as last year’s creation boom turns into redemptions appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-07",
+      "date_human": "Aug 7, 2026",
+      "pub_ts": 1786074604,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/blackrock.jpeg"
+      ],
+      "image": "../assets/news/2026-08-07/4e914164f75f616d_base.jpg",
+      "image_local": "../assets/news/2026-08-07/4e914164f75f616d_base.jpg"
+    },
+    {
+      "title": "Bitget explores licensed crypto presence in Bhutan",
+      "link": "https://cointelegraph.com/news/bitget-explores-licensed-crypto-presence-in-bhutan",
+      "summary": "Crypto exchange Bitget has signed an agreement with Gelephu Mindfulness City Authority to pursue a regulated local presence.",
+      "source": "Cointelegraph",
+      "date": "2026-08-07",
+      "date_human": "Aug 7, 2026",
+      "pub_ts": 1786072946,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/building-bitcoin-investment-bhutan.jpg"
+      ],
+      "image": "../assets/news/2026-08-07/992f92ad908495c3_base.jpg",
+      "image_local": "../assets/news/2026-08-07/992f92ad908495c3_base.jpg"
+    },
+    {
+      "title": "Senate won't vote on crypto Clarity Act before its summer break",
+      "link": "https://www.coindesk.com/policy/2026/08/06/senate-won-t-vote-on-crypto-clarity-act-before-its-summer-break",
+      "summary": "Senate won't vote on crypto Clarity Act before its summer break",
+      "source": "CoinDesk",
+      "date": "2026-08-07",
+      "date_human": "Aug 7, 2026",
+      "pub_ts": 1786068883,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/164f2ef09ede4214270f05f41bac4752e823c525-3762x2116.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/164f2ef09ede4214270f05f41bac4752e823c525-3762x2116.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-07/7e94346278dea381_base.jpg",
+      "image_local": "../assets/news/2026-08-07/7e94346278dea381_base.jpg"
+    },
+    {
+      "title": "SEC Bought a Billion Airline Records to Track Travelers—Likely Without a Warrant",
+      "link": "https://decrypt.co/375078/sec-billion-airline-records-track-travelers",
+      "summary": "The financial regulator subscribed to a global flight database covering more than a billion tickets to monitor activity.",
+      "source": "Decrypt",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786052163,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-07/3b8fc7ed8964722c_base.jpg",
+      "image_local": "../assets/news/2026-08-07/3b8fc7ed8964722c_base.jpg"
+    },
+    {
+      "title": "AVAX One holds $88 million in Avalanche tokens, but its lender only wants cash or Bitcoin",
+      "link": "https://cryptoslate.com/avax-one-holds-88-million-in-avalanche-tokens-but-its-lender-only-wants-cash-or-bitcoin/",
+      "summary": "The waiver required a $1.3 million payment, increased the remaining note and left $5.437 million under lender control. The post AVAX One holds $88 million in Avalanche tokens, but its lender only wants cash or Bitcoin appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-07",
+      "date_human": "Aug 7, 2026",
+      "pub_ts": 1786070754,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/avax-one-token-debt-pressure-clamp.jpg"
+      ],
+      "image": "../assets/news/2026-08-07/629233a4813e3682_base.jpg",
+      "image_local": "../assets/news/2026-08-07/629233a4813e3682_base.jpg"
+    },
+    {
+      "title": "US Senate pushes CLARITY Act vote to September: Report",
+      "link": "https://cointelegraph.com/news/us-senate-pushes-clarity-act-vote-to-september-report",
+      "summary": "Senate Majority Leader John Thune reportedly confirmed that the chamber was “punting” the vote until September.",
+      "source": "Cointelegraph",
+      "date": "2026-08-07",
+      "date_human": "Aug 7, 2026",
+      "pub_ts": 1786070993,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-industry-civil-war.jpg"
+      ],
+      "image": "../assets/news/2026-08-07/952893fa73aa008d_base.jpg",
+      "image_local": "../assets/news/2026-08-07/952893fa73aa008d_base.jpg"
+    },
+    {
+      "title": "Power struggle erupts at Ondo Finance after founder's death",
+      "link": "https://www.coindesk.com/policy/2026/08/06/power-struggle-erupts-at-ondo-finance-after-founder-s-death",
+      "summary": "Power struggle erupts at Ondo Finance after founder's death",
+      "source": "CoinDesk",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786053573,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/80c70565576dca57e467a9c505945531db3c6631-1452x817.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/80c70565576dca57e467a9c505945531db3c6631-1452x817.jpg?auto=format&q=75"
+      ],
+      "image": "../assets/news/2026-08-07/e514ce9f571fadb9_base.jpg",
+      "image_local": "../assets/news/2026-08-07/e514ce9f571fadb9_base.jpg"
+    },
+    {
+      "title": "Tokyo Tells Trump to Stop Meme-ing Mario",
+      "link": "https://decrypt.co/375069/tokyo-trump-mario-naruto-pokemon-memes",
+      "summary": "Tokyo has asked Washington to stop meme-posting Mario, Pokémon, and Naruto without permission in a clash between meme-heavy statecraft and strict IP norms.",
+      "source": "Decrypt",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786050063,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-11-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-11-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Trump-decrypt-style-11-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-07/f3c2ebfb501a50bc_base.jpg",
+      "image_local": "../assets/news/2026-08-07/f3c2ebfb501a50bc_base.jpg"
+    },
+    {
+      "title": "Inside the $18 million Bitcoin gamble with zero margin calls until September",
+      "link": "https://cryptoslate.com/why-powercompute-can-hand-over-307-bitcoin-and-clear-18-million-in-debt-if-price-drops-below-58860/",
+      "summary": "The low rate lasts one period; on Sept. 2, PowerCompute must repay, surrender collateral or accept repriced terms. The post Inside the $18 million Bitcoin gamble with zero margin calls until September appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-07",
+      "date_human": "Aug 7, 2026",
+      "pub_ts": 1786066225,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/powercompute-monthly-reset-bitcoin-collateral-press.jpg"
+      ],
+      "image": "../assets/news/2026-08-07/23d58734312fe239_base.jpg",
+      "image_local": "../assets/news/2026-08-07/23d58734312fe239_base.jpg"
+    },
+    {
+      "title": "MARA swings to Q2 loss as Bitcoin's slump masks higher output",
+      "link": "https://cointelegraph.com/markets/mara-swings-to-q2-loss-as-bitcoins-slump-masks-higher-output",
+      "summary": "Bitcoin miner MARA posted its highest quarterly Bitcoin production in over a year, but was overshadowed by a 28% decline in the average price of Bitcoin.",
+      "source": "Cointelegraph",
+      "date": "2026-08-07",
+      "date_human": "Aug 7, 2026",
+      "pub_ts": 1786069027,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/miner.jpg"
+      ],
+      "image": "../assets/news/2026-08-07/f371ab64ffd61294_base.jpg",
+      "image_local": "../assets/news/2026-08-07/f371ab64ffd61294_base.jpg"
+    },
+    {
+      "title": "Tether expands tokenization business into Saudi Arabia, starting with real estate",
+      "link": "https://www.coindesk.com/business/2026/08/06/tether-expands-tokenization-business-into-saudi-arabia-starting-with-real-estate",
+      "summary": "Tether expands tokenization business into Saudi Arabia, starting with real estate",
+      "source": "CoinDesk",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786032604,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/27b510056d3b25a67300d1c4cc5407c2ac5cf669-4635x3090.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/27b510056d3b25a67300d1c4cc5407c2ac5cf669-4635x3090.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-07/9a60cc5f7262fa70_base.jpg",
+      "image_local": "../assets/news/2026-08-07/9a60cc5f7262fa70_base.jpg"
+    },
+    {
+      "title": "Meta Says Its AI Model Escaped and Hacked a Third-Party Company Too",
+      "link": "https://decrypt.co/375070/meta-says-ai-model-escaped-hack-third-party",
+      "summary": "The company says a configuration error by an outside testing partner gave one of its Muse Spark models internet access during a cybersecurity evaluation.",
+      "source": "Decrypt",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786048263,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-07/914913fe3dde6870_base.jpg",
+      "image_local": "../assets/news/2026-08-07/914913fe3dde6870_base.jpg"
+    }
+  ]
+}

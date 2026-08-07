@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-06",
-  "generated_at_utc": "2026-08-06 16:06:05 UTC",
+  "generated_at_utc": "2026-08-06 22:05:52 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,18 +16,107 @@
   "count": 12,
   "items": [
     {
-      "title": "Bitdeer lands $4.7 billion AI lease tied to Anthropic but must deliver by year end",
-      "link": "https://cryptoslate.com/bitdeer-lands-4-7-billion-ai-lease-tied-to-anthropic-but-must-deliver-by-dec-31/",
-      "summary": "The scheduled value assumes full performance, while credit issuance, committed project debt and delay protections remain undisclosed. The post Bitdeer lands $4.7 billion AI lease tied to Anthropic but must deliver by year end appeared first on CryptoSlate.",
+      "title": "SEC Bought a Billion Airline Records to Track Travelers—Likely Without a Warrant",
+      "link": "https://decrypt.co/375078/sec-billion-airline-records-track-travelers",
+      "summary": "The financial regulator subscribed to a global flight database covering more than a billion tickets to monitor activity.",
+      "source": "Decrypt",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786052163,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-06/3b8fc7ed8964722c_base.jpg",
+      "image_local": "../assets/news/2026-08-06/3b8fc7ed8964722c_base.jpg"
+    },
+    {
+      "title": "Following primary loss, crypto PACs invest $1.5M in 3 US state races",
+      "link": "https://cointelegraph.com/news/crypto-pac-florida-alaska-wyoming-primary-races",
+      "summary": "The Defend American Jobs and Protect Progress PACs reported spending more than $1.5 million on media for four House and Senate races ahead of Aug. 18 primary elections.",
+      "source": "Cointelegraph",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786050679,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/voting-line-vol-2.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/2ad5111ab5b3f39c_base.jpg",
+      "image_local": "../assets/news/2026-08-06/2ad5111ab5b3f39c_base.jpg"
+    },
+    {
+      "title": "Galaxy Digital lost $85M on crypto as its projected $80M in AI revenue must offset $3.5B AI investment",
+      "link": "https://cryptoslate.com/galaxy-digital-lost-85m-on-crypto-as-its-projected-80m-in-ai-revenue-must-offset-3-5b-ai-investment/",
+      "summary": "All 133 MW is live, but the revenue figure is Q3 guidance and does not yet offset the Q2 loss. The post Galaxy Digital lost $85M on crypto as its projected $80M in AI revenue must offset $3.5B AI investment appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-06",
       "date_human": "Aug 6, 2026",
-      "pub_ts": 1786030556,
+      "pub_ts": 1786050324,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitdeer-tydal-data-center-construction-norway.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/galaxy-digital-crypto-loss-ai-lease-balance.jpg"
       ],
-      "image": "../assets/news/2026-08-06/5035523530dd4812_base.jpg",
-      "image_local": "../assets/news/2026-08-06/5035523530dd4812_base.jpg"
+      "image": "../assets/news/2026-08-06/03ad068f446b4d0a_base.jpg",
+      "image_local": "../assets/news/2026-08-06/03ad068f446b4d0a_base.jpg"
+    },
+    {
+      "title": "Tether expands tokenization business into Saudi Arabia, starting with real estate",
+      "link": "https://www.coindesk.com/business/2026/08/06/tether-expands-tokenization-business-into-saudi-arabia-starting-with-real-estate",
+      "summary": "Tether expands tokenization business into Saudi Arabia, starting with real estate",
+      "source": "CoinDesk",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786032604,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/27b510056d3b25a67300d1c4cc5407c2ac5cf669-4635x3090.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/27b510056d3b25a67300d1c4cc5407c2ac5cf669-4635x3090.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-06/9a60cc5f7262fa70_base.jpg",
+      "image_local": "../assets/news/2026-08-06/9a60cc5f7262fa70_base.jpg"
+    },
+    {
+      "title": "Tokyo Tells Trump to Stop Meme-ing Mario",
+      "link": "https://decrypt.co/375069/tokyo-trump-mario-naruto-pokemon-memes",
+      "summary": "Tokyo has asked Washington to stop meme-posting Mario, Pokémon, and Naruto without permission in a clash between meme-heavy statecraft and strict IP norms.",
+      "source": "Decrypt",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786050063,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-11-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-11-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Trump-decrypt-style-11-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-06/f3c2ebfb501a50bc_base.jpg",
+      "image_local": "../assets/news/2026-08-06/f3c2ebfb501a50bc_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786044704,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-06/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Hyperscale sells Bitcoin for AI business set to deliver less than 20% of 2027 revenue",
+      "link": "https://cryptoslate.com/hyperscale-sells-bitcoin-for-ai-business-set-to-deliver-less-than-20-of-2027-revenue/",
+      "summary": "The roughly 4.9% variable-rate position leaves its exact collateral amount, current LTV and liquidation threshold undisclosed. The post Hyperscale sells Bitcoin for AI business set to deliver less than 20% of 2027 revenue appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786046446,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-construction-conveyor.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/ca8312da8941c051_base.jpg",
+      "image_local": "../assets/news/2026-08-06/ca8312da8941c051_base.jpg"
     },
     {
       "title": "Crypto for Advisors: Europe's crypto rules, U.S. Preview",
@@ -45,48 +134,48 @@
       "image_local": "../assets/news/2026-08-06/f6f97260e9f84e46_base.jpg"
     },
     {
-      "title": "Step App winds down after four years as FITFI token sinks",
-      "link": "https://cointelegraph.com/news/step-app-winds-down-four-years-move-to-earn",
-      "summary": "Move-to-earn project Step App will wind down services by Aug. 21 after four years, while its FITFI token trades 99.9% below its all-time high.",
-      "source": "Cointelegraph",
-      "date": "2026-08-06",
-      "date_human": "Aug 6, 2026",
-      "pub_ts": 1786024356,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-coinflares-exit-and-the-future-of-cloud-mining-2.jpg"
-      ],
-      "image": "../assets/news/2026-08-06/b39a22674d2e508e_base.jpg",
-      "image_local": "../assets/news/2026-08-06/b39a22674d2e508e_base.jpg"
-    },
-    {
-      "title": "What Is Arc? The Stablecoin Blockchain From USDC Issuer Circle",
-      "link": "https://decrypt.co/resources/what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle",
-      "summary": "Arc is a new layer-1 blockchain developed by USDC issuer Circle, designed specifically for stablecoin-native finance.",
+      "title": "Meta Says Its AI Model Escaped and Hacked a Third-Party Company Too",
+      "link": "https://decrypt.co/375070/meta-says-ai-model-escaped-hack-third-party",
+      "summary": "The company says a configuration error by an outside testing partner gave one of its Muse Spark models internet access during a cybersecurity evaluation.",
       "source": "Decrypt",
       "date": "2026-08-06",
       "date_human": "Aug 6, 2026",
-      "pub_ts": 1786023247,
+      "pub_ts": 1786048263,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/09/arc-learn-gID_5-pID_1.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/arc-learn-gID_5-pID_1.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/arc-learn-gID_5-pID_1.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-06/e7f4d1dec3c8fe26_base.jpg",
-      "image_local": "../assets/news/2026-08-06/e7f4d1dec3c8fe26_base.jpg"
+      "image": "../assets/news/2026-08-06/914913fe3dde6870_base.jpg",
+      "image_local": "../assets/news/2026-08-06/914913fe3dde6870_base.jpg"
     },
     {
-      "title": "IREN's $625 million AI bet creates a $476 million stock overhang",
-      "link": "https://cryptoslate.com/irens-625-million-ai-bet-creates-a-476-million-stock-overhang/",
-      "summary": "The Aug. 4 filing covers 94.9% of the closing issuance; holders decide whether and when to sell. The post IREN’s $625 million AI bet creates a $476 million stock overhang appeared first on CryptoSlate.",
+      "title": "Bitcoin ETF inflows surge after Coldcard hack, but link is unclear: Bloomberg analyst",
+      "link": "https://cointelegraph.com/news/bitcoin-etf-inflows-coldcard-hack-bloomberg-analyst",
+      "summary": "A week-long streak of inflows into US spot Bitcoin ETFs has coincided with the Coldcard wallet exploit, fueling debate over whether some investors are shifting away from self-custody.",
+      "source": "Cointelegraph",
+      "date": "2026-08-06",
+      "date_human": "Aug 6, 2026",
+      "pub_ts": 1786040277,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/lost-bitcoins-etf-hack-hacking-falling-jeans.jpg"
+      ],
+      "image": "../assets/news/2026-08-06/7c6388f92cf4967d_base.jpg",
+      "image_local": "../assets/news/2026-08-06/7c6388f92cf4967d_base.jpg"
+    },
+    {
+      "title": "How a crypto startup quietly siphoned 470,000 Binance users to build a $4 billion card empire",
+      "link": "https://cryptoslate.com/how-a-crypto-startup-quietly-siphoned-470000-binance-users-to-build-a-4-billion-card-empire/",
+      "summary": "Binance-affiliated entities filed a Hong Kong petition against RedotPay's founders, alleging the payment startup used its partnership with Binance to divert more than 470,000 Binance Card customers into its own competing stablecoin card. As Bloomberg News reported, Binance claims $472.8 million in losses, built on an estimated $925 lifetime value per customer, and says RedotPay […] The post How a crypto startup quietly siphoned 470,000 Binance users to build a $4 billion card empire appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-06",
       "date_human": "Aug 6, 2026",
-      "pub_ts": 1786026641,
+      "pub_ts": 1786041614,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/iren-mirantis-potential-secondary-supply.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/stablecoin-customer-ownership-binance-redotpay-collage.jpg"
       ],
-      "image": "../assets/news/2026-08-06/02666a34e7480f78_base.jpg",
-      "image_local": "../assets/news/2026-08-06/02666a34e7480f78_base.jpg"
+      "image": "../assets/news/2026-08-06/007c7bdce9cd7bc2_base.jpg",
+      "image_local": "../assets/news/2026-08-06/007c7bdce9cd7bc2_base.jpg"
     },
     {
       "title": "JPMorgan says Hyperliquid ETF inflows have stalled as competition mounts",
@@ -102,95 +191,6 @@
       ],
       "image": "../assets/news/2026-08-06/2ee5eda09083e0d8_base.jpg",
       "image_local": "../assets/news/2026-08-06/2ee5eda09083e0d8_base.jpg"
-    },
-    {
-      "title": "10 weirdest things ever tokenized... including farts",
-      "link": "https://cointelegraph.com/magazine/the-10-weirdest-things-already-finding-a-home-onchain",
-      "summary": "Tokenized cows may have gone viral, but they’re just the latest in a long line of strange things to find a home onchain, from farts, to human skin and destroyed artworks",
-      "source": "Cointelegraph",
-      "date": "2026-08-06",
-      "date_human": "Aug 6, 2026",
-      "pub_ts": 1786023000,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/the-10-weirdest-real-world-assets-being-tokenized.jpg"
-      ],
-      "image": "../assets/news/2026-08-06/4f080ac391a7629f_base.jpg",
-      "image_local": "../assets/news/2026-08-06/4f080ac391a7629f_base.jpg"
-    },
-    {
-      "title": "Scammers Pose as EU Regulators to Prey on MiCA Deadline Fallout",
-      "link": "https://decrypt.co/375034/scammers-pose-as-eu-regulators-to-prey-on-mica-deadline-fallout",
-      "summary": "France's watchdog says fraudsters are impersonating its own staff to talk stranded customers into moving assets to fake websites.",
-      "source": "Decrypt",
-      "date": "2026-08-06",
-      "date_human": "Aug 6, 2026",
-      "pub_ts": 1786020379,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-06/3da84fe0ce97e8a4_base.jpg",
-      "image_local": "../assets/news/2026-08-06/3da84fe0ce97e8a4_base.jpg"
-    },
-    {
-      "title": "Stablecoin payments are going mainstream. What happens when the recipient needs local currency?",
-      "link": "https://cryptoslate.com/stablecoin-payments-fx-local-currency-settlement/",
-      "summary": "The following is a guest post and opinion from Danyel Arenas, Co-Founder and CEO at KiiChain. Visa’s launch of its Stablecoin Platform is a sign that stablecoins are moving into mainstream financial infrastructure. The platform gives banks, fintechs and payment providers a way to access, hold, move and redeem stablecoins within a Visa-managed environment. As […] The post Stablecoin payments are going mainstream. What happens when the recipient needs local currency? appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-06",
-      "date_human": "Aug 6, 2026",
-      "pub_ts": 1786024829,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/stablecoin-local-currency-payout-machine.jpg"
-      ],
-      "image": "../assets/news/2026-08-06/15bf100dc4a5751a_base.jpg",
-      "image_local": "../assets/news/2026-08-06/15bf100dc4a5751a_base.jpg"
-    },
-    {
-      "title": "Bitcoin's low volatility doesn't necessarily mean low risk",
-      "link": "https://www.coindesk.com/daybook-us/2026/08/06/bitcoin-s-low-volatility-doesn-t-necessarily-mean-low-risk",
-      "summary": "Bitcoin's low volatility doesn't necessarily mean low risk",
-      "source": "CoinDesk",
-      "date": "2026-08-06",
-      "date_human": "Aug 6, 2026",
-      "pub_ts": 1786016223,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/70cbca44084d8405c29ed2e72fa74776b8d640a8-2854x1910.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/70cbca44084d8405c29ed2e72fa74776b8d640a8-2854x1910.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-06/29189f43d104b241_base.jpg",
-      "image_local": "../assets/news/2026-08-06/29189f43d104b241_base.jpg"
-    },
-    {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-08-06",
-      "date_human": "Aug 6, 2026",
-      "pub_ts": 1786021369,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-08-06/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-08-06/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "Morning Minute: Uniswap Enters the Launchpad Wars on Robinhood Chain",
-      "link": "https://decrypt.co/375031/morning-minute-uniswap-enters-the-launchpad-wars-on-robinhood-chain",
-      "summary": "It looks like Uniswap is playing to win with their zero-fee model, and the early data shows them already taking the top spot.",
-      "source": "Decrypt",
-      "date": "2026-08-06",
-      "date_human": "Aug 6, 2026",
-      "pub_ts": 1786019326,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/11/Uniswap2-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/11/Uniswap2-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/Uniswap2-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-06/9083447ca31997f5_base.jpg",
-      "image_local": "../assets/news/2026-08-06/9083447ca31997f5_base.jpg"
     }
   ]
 }
