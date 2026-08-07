@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-07",
-  "generated_at_utc": "2026-08-07 10:06:00 UTC",
+  "generated_at_utc": "2026-08-07 16:06:00 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,181 +16,181 @@
   "count": 12,
   "items": [
     {
-      "title": "Bitcoin holds $64,000 as private hiring drops 53% before today's macro test that could break support",
-      "link": "https://cryptoslate.com/bitcoin-holds-64000-as-private-hiring-drops-53-before-todays-macro-test-that-could-break-support/",
-      "summary": "ADP private-job growth fell to 44,000 from 95,000, but wages and yields resist a simple relief trade. The post Bitcoin holds $64,000 as private hiring drops 53% before today’s macro test that could break support appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-07",
-      "date_human": "Aug 7, 2026",
-      "pub_ts": 1786095901,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-support-jobs-test.jpg.jpg"
-      ],
-      "image": "../assets/news/2026-08-07/7c058d8f72b2cfcf_base.jpg",
-      "image_local": "../assets/news/2026-08-07/7c058d8f72b2cfcf_base.jpg"
-    },
-    {
-      "title": "Senate Punts Clarity Act Vote to September as Democrats Hold Out",
-      "link": "https://decrypt.co/375082/senate-punts-clarity-act-vote-to-september-as-democrats-hold-out",
-      "summary": "Senate Majority Leader Thune says the bill will be queued up when lawmakers return, leaving weeks to find 60 votes before midterms take over.",
+      "title": "OpenAI's First Device Is a $300-Plus Doughnut-Shaped Speaker: Report",
+      "link": "https://decrypt.co/375117/openais-first-device-is-a-300-plus-doughnut-shaped-speaker-report",
+      "summary": "Designed with Jony Ive's LoveFrom studio, the screenless gadget is slated for 2027 and will use cameras, lights and moving parts.",
       "source": "Decrypt",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786094762,
+      "pub_ts": 1786118586,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/US-Capitol-decrypt-style-04-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/US-Capitol-decrypt-style-04-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/US-Capitol-decrypt-style-04-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-07/7176da1a9d8281e3_base.jpg",
-      "image_local": "../assets/news/2026-08-07/7176da1a9d8281e3_base.jpg"
+      "image": "../assets/news/2026-08-07/0758d3684812fb83_base.jpg",
+      "image_local": "../assets/news/2026-08-07/0758d3684812fb83_base.jpg"
     },
     {
-      "title": "CleanSpark misses Wall Street revenue estimates as shares sink",
-      "link": "https://cointelegraph.com/news/cleanspark-wall-street-revenue-estimates-shares-sink",
-      "summary": "CleanSpark’s shares fell 5.5% on Thursday after the Bitcoin miner reported $138 million in quarterly revenue, narrowly missing Wall Street’s consensus estimate.",
-      "source": "Cointelegraph",
-      "date": "2026-08-07",
-      "date_human": "Aug 7, 2026",
-      "pub_ts": 1786094756,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-ai-is-now-paying-bitcoin-miners-more-than-mining-cleanspark-1.jpg"
-      ],
-      "image": "../assets/news/2026-08-07/06758e345d355c4f_base.jpg",
-      "image_local": "../assets/news/2026-08-07/06758e345d355c4f_base.jpg"
-    },
-    {
-      "title": "Coldcard fallout shows up onchain as 210,000 bitcoin leaves old wallets",
-      "link": "https://www.coindesk.com/markets/2026/08/07/coldcard-fallout-shows-up-onchain-as-210-000-bitcoin-leaves-old-wallets",
-      "summary": "Coldcard fallout shows up onchain as 210,000 bitcoin leaves old wallets",
-      "source": "CoinDesk",
-      "date": "2026-08-07",
-      "date_human": "Aug 7, 2026",
-      "pub_ts": 1786094640,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/26b8b4fba46a4ec6068433ab9d7d9a65df76fb6c-3200x1800.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/26b8b4fba46a4ec6068433ab9d7d9a65df76fb6c-3200x1800.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-07/ae112e1f257611bd_base.jpg",
-      "image_local": "../assets/news/2026-08-07/ae112e1f257611bd_base.jpg"
-    },
-    {
-      "title": "With leverage outnumbering spot volume 6 to 1, XRP traders are walking a $2.36B tightrope",
-      "link": "https://cryptoslate.com/with-leverage-outnumbering-spot-volume-6-to-1-xrp-traders-are-walking-a-2-36b-tightrope/",
-      "summary": "Stablecoin-margined XRP open interest on Binance fell to about $186 million on July 31, its lowest level since April 2025, according to CryptoQuant. Bybit held roughly $229 million in the same contract type, about $43 million more than Binance. XRP trades near $1.03, putting the token roughly 3% above the $1 level that has become […] The post With leverage outnumbering spot volume 6 to 1, XRP traders are walking a $2.36B tightrope appeared first on CryptoSlate.",
+      "title": "Wintermute takes aim at Wall Street's crypto ETF gatekeepers",
+      "link": "https://cryptoslate.com/wintermute-takes-aim-at-wall-streets-crypto-etf-gatekeepers/",
+      "summary": "The proprietary-only entity can pursue authorized-participant work, while DTC access and a fund-distributor agreement remain separate. The post Wintermute takes aim at Wall Street’s crypto ETF gatekeepers appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786092878,
+      "pub_ts": 1786116654,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/xrp-liquidity-lifebuoy-risk.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/wintermute-etf-liquidity-pipeline.jpg.jpg"
       ],
-      "image": "../assets/news/2026-08-07/1241e30b7af85990_base.jpg",
-      "image_local": "../assets/news/2026-08-07/1241e30b7af85990_base.jpg"
+      "image": "../assets/news/2026-08-07/fd4f86c6d6f085c5_base.jpg",
+      "image_local": "../assets/news/2026-08-07/fd4f86c6d6f085c5_base.jpg"
     },
     {
-      "title": "SEC Bought a Billion Airline Records to Track Travelers—Likely Without a Warrant",
-      "link": "https://decrypt.co/375078/sec-billion-airline-records-track-travelers",
-      "summary": "The financial regulator subscribed to a global flight database covering more than a billion tickets to monitor activity.",
-      "source": "Decrypt",
-      "date": "2026-08-06",
-      "date_human": "Aug 6, 2026",
-      "pub_ts": 1786052163,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-07/3b8fc7ed8964722c_base.jpg",
-      "image_local": "../assets/news/2026-08-07/3b8fc7ed8964722c_base.jpg"
-    },
-    {
-      "title": "Stripe-owned Bridge joins EU MiCA register after Luxembourg approval",
-      "link": "https://cointelegraph.com/news/bridge-mica-stablecoin-issuer-esma-register",
-      "summary": "Stripe-owned Bridge has entered the EU MiCA register following Luxembourg approval, joining regulated providers under the bloc’s crypto framework.",
+      "title": "Bitcoin price tags $65.3K August high as low US jobs numbers cool Fed rate bets",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-tags-653k-august-high-as-low-us-jobs-numbers-cool-fed-rate-bets",
+      "summary": "Bitcoin hit month-to-date highs above $65,000 as risk-assets gained on low US nonfarm payrolls data.",
       "source": "Cointelegraph",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786094057,
+      "pub_ts": 1786116195,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-how-to-read-a-stablecoin-attestation-report-eu-mica.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-247420-bitcoin-reacts-to-major-us-jobs-data-beat-as-fed-rate-pause-odds-near-95-960x640.webp"
       ],
-      "image": "../assets/news/2026-08-07/0c49a9e14db3dbc5_base.jpg",
-      "image_local": "../assets/news/2026-08-07/0c49a9e14db3dbc5_base.jpg"
+      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-247420-bitcoin-reacts-to-major-us-jobs-data-beat-as-fed-rate-pause-odds-near-95-960x640.webp",
+      "image_local": null
     },
     {
-      "title": "Crypto market maker Wintermute lands SEC approval to trade equities and ETF blocks",
-      "link": "https://www.coindesk.com/business/2026/08/07/wintermute-gains-u-s-broker-dealer-status-in-wall-street-push",
-      "summary": "Crypto market maker Wintermute lands SEC approval to trade equities and ETF blocks",
+      "title": "OKX's Rafique doubts Clarity Act will pass, warns optimism is already priced into bitcoin",
+      "link": "https://www.coindesk.com/policy/2026/08/04/okx-s-rafique-doubts-clarity-act-will-pass-warns-optimism-is-already-priced-into-bitcoin",
+      "summary": "OKX's Rafique doubts Clarity Act will pass, warns optimism is already priced into bitcoin",
       "source": "CoinDesk",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786092377,
+      "pub_ts": 1786116164,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/7db3bf97253af39b70ae7cb86f74023bea1187e3-4323x2432.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/7db3bf97253af39b70ae7cb86f74023bea1187e3-4323x2432.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/3d14ee5efae01770bbbc627c6ecb94cb0e826a8d-4027x2265.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/3d14ee5efae01770bbbc627c6ecb94cb0e826a8d-4027x2265.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-07/f39c879c3511120b_base.jpg",
-      "image_local": "../assets/news/2026-08-07/f39c879c3511120b_base.jpg"
+      "image": "../assets/news/2026-08-07/4df2c7fe2495d0fa_base.jpg",
+      "image_local": "../assets/news/2026-08-07/4df2c7fe2495d0fa_base.jpg"
     },
     {
-      "title": "Inside the race to create AI telepathy – and why an OpenAI researcher just staked her career on it",
-      "link": "https://cryptoslate.com/former-openai-researcher-predicts-brain-controlled-ai-coding-agents-by-2027/",
-      "summary": "Conduit says neural data will scale into AI prompts, but it has not published aggregate performance for free-form thought. The post Inside the race to create AI telepathy – and why an OpenAI researcher just staked her career on it appeared first on CryptoSlate.",
+      "title": "Bitcoin Wallet Dormant Since 2011 Moves Millions in BTC",
+      "link": "https://decrypt.co/375114/bitcoin-wallet-dormant-since-2011-moves-millions-btc",
+      "summary": "A Bitcoin address that had stayed silent for 15 years just sent its coins out for the first time.",
+      "source": "Decrypt",
+      "date": "2026-08-07",
+      "date_human": "Aug 7, 2026",
+      "pub_ts": 1786116455,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-07-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-07-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-07-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-07/b8636b452e1d47cb_base.jpg",
+      "image_local": "../assets/news/2026-08-07/b8636b452e1d47cb_base.jpg"
+    },
+    {
+      "title": "If you use a Cypher or Osmosis card, your spending dies tonight and unbacked wallets could go with it",
+      "link": "https://cryptoslate.com/if-you-use-a-cypher-or-osmosis-card-your-spending-dies-tonight-and-your-unbacked-wallet-could-go-with-it/",
+      "summary": "Aug. 7 is the final spending day; cardholders should finish withdrawals, rewards claims and wallet-access steps before the later date. The post If you use a Cypher or Osmosis card, your spending dies tonight and unbacked wallets could go with it appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786086035,
+      "pub_ts": 1786111811,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/conduit.jpeg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/cypher-card-punch-shutdown.jpg"
       ],
-      "image": "../assets/news/2026-08-07/6019e92b250f2af1_base.jpg",
-      "image_local": "../assets/news/2026-08-07/6019e92b250f2af1_base.jpg"
+      "image": "../assets/news/2026-08-07/0ed2abcbf1951b2b_base.jpg",
+      "image_local": "../assets/news/2026-08-07/0ed2abcbf1951b2b_base.jpg"
     },
     {
-      "title": "Tokyo Tells Trump to Stop Meme-ing Mario",
-      "link": "https://decrypt.co/375069/tokyo-trump-mario-naruto-pokemon-memes",
-      "summary": "Tokyo has asked Washington to stop meme-posting Mario, Pokémon, and Naruto without permission in a clash between meme-heavy statecraft and strict IP norms.",
-      "source": "Decrypt",
-      "date": "2026-08-06",
-      "date_human": "Aug 6, 2026",
-      "pub_ts": 1786050063,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-11-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-11-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Trump-decrypt-style-11-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-07/f3c2ebfb501a50bc_base.jpg",
-      "image_local": "../assets/news/2026-08-07/f3c2ebfb501a50bc_base.jpg"
-    },
-    {
-      "title": "CLARITY Act delay gives Asian financial hubs an opening: First Digital CEO",
-      "link": "https://cointelegraph.com/news/clarity-act-delay-asian-crypto-hubs",
-      "summary": "Industry figures warned that continued legislative limbo could slow institutional adoption, revive regulation by enforcement and push innovation offshore.",
+      "title": "Crypto Biz: Crypto's biggest business is starting to look a lot like banking",
+      "link": "https://cointelegraph.com/news/crypto-biz-crypto-business-converges-traditional-banking",
+      "summary": "Crypto business is converging with banking as stablecoin reserves, tokenized funds, Treasury income and balance sheet management become key profit drivers.",
       "source": "Cointelegraph",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786093274,
+      "pub_ts": 1786115269,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-clarity-act-coinbase.png"
+        "https://s3-images.ctmedia.io/media/article-covers/banks-road-crypto-1.jpg"
       ],
-      "image": "../assets/news/2026-08-07/fdc22be750b9cc85_base.jpg",
-      "image_local": "../assets/news/2026-08-07/fdc22be750b9cc85_base.jpg"
+      "image": "../assets/news/2026-08-07/435658c45d2a007b_base.jpg",
+      "image_local": "../assets/news/2026-08-07/435658c45d2a007b_base.jpg"
     },
     {
-      "title": "Ethereum staking token weETH splits from restaking as rewards debate heats up",
-      "link": "https://www.coindesk.com/tech/2026/08/07/ethereum-staking-token-weeth-splits-from-restaking-as-rewards-debate-heats-up",
-      "summary": "Ethereum staking token weETH splits from restaking as rewards debate heats up",
+      "title": "How a five-second trick let traders drain millions from Polymarket",
+      "link": "https://www.coindesk.com/business/2026/08/07/how-a-five-second-trick-let-traders-drain-millions-from-polymarket",
+      "summary": "How a five-second trick let traders drain millions from Polymarket",
       "source": "CoinDesk",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786089688,
+      "pub_ts": 1786115347,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/75226292543672448cf8e2dd04e11059431479a1-1500x985.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/75226292543672448cf8e2dd04e11059431479a1-1500x985.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/1336be5f04368968b919876af2286e534602b7ac-3803x2139.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/1336be5f04368968b919876af2286e534602b7ac-3803x2139.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-07/35b8f113f88f20b9_base.jpg",
-      "image_local": "../assets/news/2026-08-07/35b8f113f88f20b9_base.jpg"
+      "image": "../assets/news/2026-08-07/688ba81a6b191e8b_base.jpg",
+      "image_local": "../assets/news/2026-08-07/688ba81a6b191e8b_base.jpg"
+    },
+    {
+      "title": "Tokenized Asset Deposits Tripled to $7.4B as DeFi Shrank: CoinShares",
+      "link": "https://decrypt.co/375099/tokenized-asset-deposits-tripled-to-7-4b-as-defi-shrank-coinshares",
+      "summary": "Gold, Treasuries and the S&P 500 led the growth, in a year when spot volumes on decentralized exchanges fell by roughly 70%.",
+      "source": "Decrypt",
+      "date": "2026-08-07",
+      "date_human": "Aug 7, 2026",
+      "pub_ts": 1786109179,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/Chart4_red-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/Chart4_red-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Chart4_red-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-07/93001790036d1dff_base.jpg",
+      "image_local": "../assets/news/2026-08-07/93001790036d1dff_base.jpg"
+    },
+    {
+      "title": "MARA sold almost all its mined Bitcoin, then pledged 18,750 BTC for an AI dream with no disclosed safety net",
+      "link": "https://cryptoslate.com/mara-bitcoin-collateral-long-ridge-financing/",
+      "summary": "The miner sold 2,213 BTC and later pledged 18,750 BTC, while the differently dated collateral pools cannot be reconciled. The post MARA sold almost all its mined Bitcoin, then pledged 18,750 BTC for an AI dream with no disclosed safety net appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-07",
+      "date_human": "Aug 7, 2026",
+      "pub_ts": 1786107028,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/mara-bitcoin-vault-financing.jpg"
+      ],
+      "image": "../assets/news/2026-08-07/a2b1e0d4942a25b2_base.jpg",
+      "image_local": "../assets/news/2026-08-07/a2b1e0d4942a25b2_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-07",
+      "date_human": "Aug 7, 2026",
+      "pub_ts": 1786110575,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-07/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-07/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "A part of FTX survived, and it's the case for the CLARITY Act",
+      "link": "https://www.coindesk.com/opinion/2026/08/07/a-part-of-ftx-survived-and-it-s-the-case-for-the-clarity-act",
+      "summary": "A part of FTX survived, and it's the case for the CLARITY Act",
+      "source": "CoinDesk",
+      "date": "2026-08-07",
+      "date_human": "Aug 7, 2026",
+      "pub_ts": 1786113025,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/bbfc674b5030a84178a832fe0429bc65125ae8fb-7008x4672.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/bbfc674b5030a84178a832fe0429bc65125ae8fb-7008x4672.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-07/67f714c52b279ee1_base.jpg",
+      "image_local": "../assets/news/2026-08-07/67f714c52b279ee1_base.jpg"
     }
   ]
 }
