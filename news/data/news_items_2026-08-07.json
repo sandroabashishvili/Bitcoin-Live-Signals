@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-07",
-  "generated_at_utc": "2026-08-07 16:06:00 UTC",
+  "generated_at_utc": "2026-08-07 22:05:55 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,152 +16,136 @@
   "count": 12,
   "items": [
     {
-      "title": "OpenAI's First Device Is a $300-Plus Doughnut-Shaped Speaker: Report",
-      "link": "https://decrypt.co/375117/openais-first-device-is-a-300-plus-doughnut-shaped-speaker-report",
-      "summary": "Designed with Jony Ive's LoveFrom studio, the screenless gadget is slated for 2027 and will use cameras, lights and moving parts.",
-      "source": "Decrypt",
-      "date": "2026-08-07",
-      "date_human": "Aug 7, 2026",
-      "pub_ts": 1786118586,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-07/0758d3684812fb83_base.jpg",
-      "image_local": "../assets/news/2026-08-07/0758d3684812fb83_base.jpg"
-    },
-    {
-      "title": "Wintermute takes aim at Wall Street's crypto ETF gatekeepers",
-      "link": "https://cryptoslate.com/wintermute-takes-aim-at-wall-streets-crypto-etf-gatekeepers/",
-      "summary": "The proprietary-only entity can pursue authorized-participant work, while DTC access and a fund-distributor agreement remain separate. The post Wintermute takes aim at Wall Street’s crypto ETF gatekeepers appeared first on CryptoSlate.",
+      "title": "Inside the uncollateralized deal that locked up 6 million SUI until 2028 while SUI Group trades at a 25% NAV discount",
+      "link": "https://cryptoslate.com/inside-the-uncollateralized-deal-that-locked-up-6-million-sui-until-2028-while-sui-group-trades-at-a-25-nav-discount/",
+      "summary": "The uncollateralized receivable runs to 2028, while an Aug. 6 sensitivity puts market value 24.5% below company-calculated NAV. The post Inside the uncollateralized deal that locked up 6 million SUI until 2028 while SUI Group trades at a 25% NAV discount appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786116654,
+      "pub_ts": 1786139714,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/wintermute-etf-liquidity-pipeline.jpg.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/sui-bluefin-token-pipeline.jpg"
       ],
-      "image": "../assets/news/2026-08-07/fd4f86c6d6f085c5_base.jpg",
-      "image_local": "../assets/news/2026-08-07/fd4f86c6d6f085c5_base.jpg"
+      "image": "../assets/news/2026-08-07/ac52c4c653d9142a_base.jpg",
+      "image_local": "../assets/news/2026-08-07/ac52c4c653d9142a_base.jpg"
     },
     {
-      "title": "Bitcoin price tags $65.3K August high as low US jobs numbers cool Fed rate bets",
-      "link": "https://cointelegraph.com/markets/bitcoin-price-tags-653k-august-high-as-low-us-jobs-numbers-cool-fed-rate-bets",
-      "summary": "Bitcoin hit month-to-date highs above $65,000 as risk-assets gained on low US nonfarm payrolls data.",
+      "title": "Donald Trump's media company to terminate Crypto.com deal",
+      "link": "https://cointelegraph.com/news/donald-trump-media-company-crypto-deal",
+      "summary": "The president’s company will unwind an agreement with Crypto.com to create a multibillion-dollar CRO treasury and reportedly not integrate prediction markets onto Truth Social.",
       "source": "Cointelegraph",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786116195,
+      "pub_ts": 1786138776,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-247420-bitcoin-reacts-to-major-us-jobs-data-beat-as-fed-rate-pause-odds-near-95-960x640.webp"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-tmtg-wallet.jpg"
       ],
-      "image": "https://s3-images.ctmedia.io/media/article-covers/article-covers-247420-bitcoin-reacts-to-major-us-jobs-data-beat-as-fed-rate-pause-odds-near-95-960x640.webp",
-      "image_local": null
+      "image": "../assets/news/2026-08-07/3ad89e1323711b3e_base.jpg",
+      "image_local": "../assets/news/2026-08-07/3ad89e1323711b3e_base.jpg"
     },
     {
-      "title": "OKX's Rafique doubts Clarity Act will pass, warns optimism is already priced into bitcoin",
-      "link": "https://www.coindesk.com/policy/2026/08/04/okx-s-rafique-doubts-clarity-act-will-pass-warns-optimism-is-already-priced-into-bitcoin",
-      "summary": "OKX's Rafique doubts Clarity Act will pass, warns optimism is already priced into bitcoin",
+      "title": "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
+      "link": "https://www.coindesk.com/business/2026/08/07/trump-media-pulls-back-from-crypto-scraps-crypto-com-cro-treasury-deal",
+      "summary": "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
       "source": "CoinDesk",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786116164,
+      "pub_ts": 1786137201,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/3d14ee5efae01770bbbc627c6ecb94cb0e826a8d-4027x2265.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/3d14ee5efae01770bbbc627c6ecb94cb0e826a8d-4027x2265.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/841ac31fb4e72ea7f68c4ff1293a8c535f8c28c0-510x287.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/841ac31fb4e72ea7f68c4ff1293a8c535f8c28c0-510x287.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-07/4df2c7fe2495d0fa_base.jpg",
-      "image_local": "../assets/news/2026-08-07/4df2c7fe2495d0fa_base.jpg"
+      "image": "../assets/news/2026-08-07/2e08158cdf8e36ee_base.jpg",
+      "image_local": "../assets/news/2026-08-07/2e08158cdf8e36ee_base.jpg"
     },
     {
-      "title": "Bitcoin Wallet Dormant Since 2011 Moves Millions in BTC",
-      "link": "https://decrypt.co/375114/bitcoin-wallet-dormant-since-2011-moves-millions-btc",
-      "summary": "A Bitcoin address that had stayed silent for 15 years just sent its coins out for the first time.",
+      "title": "Trump Media Abandons Crypto Treasury, Prediction Market Ventures",
+      "link": "https://decrypt.co/375166/trump-media-abandons-crypto-treasury-prediction-market",
+      "summary": "Truth Social's parent company is unwinding two major Crypto.com deals as new leadership shifts its focus to media, data licensing, and a planned merger with fusion energy company TAE.",
       "source": "Decrypt",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786116455,
+      "pub_ts": 1786136759,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-07-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-07-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-07-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-02-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-02-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Trump-decrypt-style-02-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-07/b8636b452e1d47cb_base.jpg",
-      "image_local": "../assets/news/2026-08-07/b8636b452e1d47cb_base.jpg"
+      "image": "../assets/news/2026-08-07/04cfe9b68e8ffe43_base.jpg",
+      "image_local": "../assets/news/2026-08-07/04cfe9b68e8ffe43_base.jpg"
     },
     {
-      "title": "If you use a Cypher or Osmosis card, your spending dies tonight and unbacked wallets could go with it",
-      "link": "https://cryptoslate.com/if-you-use-a-cypher-or-osmosis-card-your-spending-dies-tonight-and-your-unbacked-wallet-could-go-with-it/",
-      "summary": "Aug. 7 is the final spending day; cardholders should finish withdrawals, rewards claims and wallet-access steps before the later date. The post If you use a Cypher or Osmosis card, your spending dies tonight and unbacked wallets could go with it appeared first on CryptoSlate.",
+      "title": "Bitcoin has 185 blocks left before BIP-110 rules begin rejecting blocks",
+      "link": "https://cryptoslate.com/bitcoin-has-185-blocks-left-before-bip-110-rules-begin-rejecting-blocks/",
+      "summary": "At height 961,632, enforcing nodes reject non-signaling blocks, but Bitcoin does not automatically adopt the proposal. The post Bitcoin has 185 blocks left before BIP-110 rules begin rejecting blocks appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786111811,
+      "pub_ts": 1786131609,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/cypher-card-punch-shutdown.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bip110.jpg"
       ],
-      "image": "../assets/news/2026-08-07/0ed2abcbf1951b2b_base.jpg",
-      "image_local": "../assets/news/2026-08-07/0ed2abcbf1951b2b_base.jpg"
+      "image": "../assets/news/2026-08-07/8377edbd13ec7cef_base.jpg",
+      "image_local": "../assets/news/2026-08-07/8377edbd13ec7cef_base.jpg"
     },
     {
-      "title": "Crypto Biz: Crypto's biggest business is starting to look a lot like banking",
-      "link": "https://cointelegraph.com/news/crypto-biz-crypto-business-converges-traditional-banking",
-      "summary": "Crypto business is converging with banking as stablecoin reserves, tokenized funds, Treasury income and balance sheet management become key profit drivers.",
+      "title": "US Treasury's OFAC sanctions 2 Iran-linked crypto exchanges",
+      "link": "https://cointelegraph.com/news/us-treasury-sanctions-iran-crypto-exchanges",
+      "summary": "The US government sanctioned an individual and two crypto exchanges it said facilitated money laundering for a combined $5 million in digital assets linked to Iran.",
       "source": "Cointelegraph",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786115269,
+      "pub_ts": 1786132940,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/banks-road-crypto-1.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-users-in-iran-sanctions2.jpg"
       ],
-      "image": "../assets/news/2026-08-07/435658c45d2a007b_base.jpg",
-      "image_local": "../assets/news/2026-08-07/435658c45d2a007b_base.jpg"
+      "image": "../assets/news/2026-08-07/1f653eeeaa92bfb2_base.jpg",
+      "image_local": "../assets/news/2026-08-07/1f653eeeaa92bfb2_base.jpg"
     },
     {
-      "title": "How a five-second trick let traders drain millions from Polymarket",
-      "link": "https://www.coindesk.com/business/2026/08/07/how-a-five-second-trick-let-traders-drain-millions-from-polymarket",
-      "summary": "How a five-second trick let traders drain millions from Polymarket",
+      "title": "Trump-Backed American Bitcoin director Justin Mateen buys nearly $2 million of ABTC stock",
+      "link": "https://www.coindesk.com/business/2026/08/07/trump-backed-american-bitcoin-director-justin-mateen-buys-nearly-usd2-million-of-abtc-stock",
+      "summary": "Trump-Backed American Bitcoin director Justin Mateen buys nearly $2 million of ABTC stock",
       "source": "CoinDesk",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786115347,
+      "pub_ts": 1786134000,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/1336be5f04368968b919876af2286e534602b7ac-3803x2139.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/1336be5f04368968b919876af2286e534602b7ac-3803x2139.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/8f0a42a577ede2b80befc0e1cc23d307bb7258be-7800x3900.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/8f0a42a577ede2b80befc0e1cc23d307bb7258be-7800x3900.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-07/688ba81a6b191e8b_base.jpg",
-      "image_local": "../assets/news/2026-08-07/688ba81a6b191e8b_base.jpg"
+      "image": "../assets/news/2026-08-07/d72f5488aebc9856_base.jpg",
+      "image_local": "../assets/news/2026-08-07/d72f5488aebc9856_base.jpg"
     },
     {
-      "title": "Tokenized Asset Deposits Tripled to $7.4B as DeFi Shrank: CoinShares",
-      "link": "https://decrypt.co/375099/tokenized-asset-deposits-tripled-to-7-4b-as-defi-shrank-coinshares",
-      "summary": "Gold, Treasuries and the S&P 500 led the growth, in a year when spot volumes on decentralized exchanges fell by roughly 70%.",
+      "title": "Treasury Sanctions Crypto Exchanges It Says Laundered Millions for Iran",
+      "link": "https://decrypt.co/375163/treasury-sanctions-crypto-exchanges-laundered-millions-iran",
+      "summary": "The U.S. Treasury sanctioned two crypto exchanges it says laundered millions of dollars for Iran's Revolutionary Guard, naming a Georgia- and UAE-based operator and an Iran-based platform.",
       "source": "Decrypt",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786109179,
+      "pub_ts": 1786134513,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/Chart4_red-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/Chart4_red-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Chart4_red-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/01/iran-bitcoin-decrypt-style-02-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/iran-bitcoin-decrypt-style-02-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/iran-bitcoin-decrypt-style-02-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-07/93001790036d1dff_base.jpg",
-      "image_local": "../assets/news/2026-08-07/93001790036d1dff_base.jpg"
+      "image": "../assets/news/2026-08-07/0e5ba9689f4d1315_base.jpg",
+      "image_local": "../assets/news/2026-08-07/0e5ba9689f4d1315_base.jpg"
     },
     {
-      "title": "MARA sold almost all its mined Bitcoin, then pledged 18,750 BTC for an AI dream with no disclosed safety net",
-      "link": "https://cryptoslate.com/mara-bitcoin-collateral-long-ridge-financing/",
-      "summary": "The miner sold 2,213 BTC and later pledged 18,750 BTC, while the differently dated collateral pools cannot be reconciled. The post MARA sold almost all its mined Bitcoin, then pledged 18,750 BTC for an AI dream with no disclosed safety net appeared first on CryptoSlate.",
+      "title": "BitGo investors face flood of Aug. 7 class-action deadline warnings",
+      "link": "https://cryptoslate.com/bitgo-investors-face-flood-of-aug-7-class-action-deadline-warnings/",
+      "summary": "The Q1 loss confirms crypto-price exposure, while BitGo’s prospectus contains explicit warnings the lawsuit now challenges. The post BitGo investors face flood of Aug. 7 class-action deadline warnings appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786107028,
+      "pub_ts": 1786128050,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/mara-bitcoin-vault-financing.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitgo-investor-lawsuit.jpg.jpg"
       ],
-      "image": "../assets/news/2026-08-07/a2b1e0d4942a25b2_base.jpg",
-      "image_local": "../assets/news/2026-08-07/a2b1e0d4942a25b2_base.jpg"
+      "image": "../assets/news/2026-08-07/7aad790f73103d49_base.jpg",
+      "image_local": "../assets/news/2026-08-07/7aad790f73103d49_base.jpg"
     },
     {
       "title": "Here's what happened in crypto today",
@@ -170,7 +154,7 @@
       "source": "Cointelegraph",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786110575,
+      "pub_ts": 1786127770,
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
@@ -178,19 +162,35 @@
       "image_local": "../assets/news/2026-08-07/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "A part of FTX survived, and it's the case for the CLARITY Act",
-      "link": "https://www.coindesk.com/opinion/2026/08/07/a-part-of-ftx-survived-and-it-s-the-case-for-the-clarity-act",
-      "summary": "A part of FTX survived, and it's the case for the CLARITY Act",
+      "title": "U.S. widens Iran crypto crackdown with sanctions on two exchanges",
+      "link": "https://www.coindesk.com/policy/2026/08/07/u-s-widens-iran-crypto-crackdown-with-sanctions-on-two-exchanges",
+      "summary": "U.S. widens Iran crypto crackdown with sanctions on two exchanges",
       "source": "CoinDesk",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786113025,
+      "pub_ts": 1786128164,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/bbfc674b5030a84178a832fe0429bc65125ae8fb-7008x4672.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/bbfc674b5030a84178a832fe0429bc65125ae8fb-7008x4672.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/19be7778374a432a1d25e3cc4f6c1334f21f9e4d-4368x2912.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/19be7778374a432a1d25e3cc4f6c1334f21f9e4d-4368x2912.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-07/67f714c52b279ee1_base.jpg",
-      "image_local": "../assets/news/2026-08-07/67f714c52b279ee1_base.jpg"
+      "image": "../assets/news/2026-08-07/cbf23c7d442bdf98_base.jpg",
+      "image_local": "../assets/news/2026-08-07/cbf23c7d442bdf98_base.jpg"
+    },
+    {
+      "title": "Bitcoin Payment Service BTCPay Warns Critical Flaw Is Under Active Attack",
+      "link": "https://decrypt.co/375159/bitcoin-payment-service-btcpay-critical-flaw-active-attack",
+      "summary": "Bitcoin company BTCPay Server told users to install the latest version of the server and replace credentials that may have been exposed.",
+      "source": "Decrypt",
+      "date": "2026-08-07",
+      "date_human": "Aug 7, 2026",
+      "pub_ts": 1786132834,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/02/bitcoin-crack-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/bitcoin-crack-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-crack-decrypt-style-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-07/5e74ef3626588b38_base.jpg",
+      "image_local": "../assets/news/2026-08-07/5e74ef3626588b38_base.jpg"
     }
   ]
 }
