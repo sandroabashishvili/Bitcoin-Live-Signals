@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-08",
-  "generated_at_utc": "2026-08-08 04:06:04 UTC",
+  "generated_at_utc": "2026-08-08 10:05:55 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,19 +16,33 @@
   "count": 12,
   "items": [
     {
-      "title": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
-      "link": "https://www.coindesk.com/tech/2026/08/07/new-xrp-ledger-amendments-target-usd530-million-in-tokenized-wall-street-assets",
-      "summary": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
+      "title": "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month",
+      "link": "https://www.coindesk.com/policy/2026/08/08/u-s-senate-opens-first-stage-of-crypto-clarity-act-voting-to-give-bill-a-chance-next-month",
+      "summary": "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month",
       "source": "CoinDesk",
       "date": "2026-08-08",
       "date_human": "Aug 8, 2026",
-      "pub_ts": 1786159800,
+      "pub_ts": 1786180044,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/7062083f3eac875ac832f0c15d78be2612e57afe-1440x810.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/7062083f3eac875ac832f0c15d78be2612e57afe-1440x810.jpg?auto=format&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/a6f02ef703e994951b57b8fa5172c8f10bfe45ac-5508x3672.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/a6f02ef703e994951b57b8fa5172c8f10bfe45ac-5508x3672.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-08/e12634913bfdd754_base.jpg",
-      "image_local": "../assets/news/2026-08-08/e12634913bfdd754_base.jpg"
+      "image": "../assets/news/2026-08-08/2c2cd8b933fa200f_base.jpg",
+      "image_local": "../assets/news/2026-08-08/2c2cd8b933fa200f_base.jpg"
+    },
+    {
+      "title": "Domestic stablecoins could boost demand for dollar-backed tokens: IMF",
+      "link": "https://cointelegraph.com/news/imf-domestic-stablecoins-dollar-token-demand",
+      "summary": "IMF first deputy managing director Dan Katz says users may favor digital dollars for their liquidity, network effects and cross-border acceptance.",
+      "source": "Cointelegraph",
+      "date": "2026-08-08",
+      "date_human": "Aug 8, 2026",
+      "pub_ts": 1786170068,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-imf-and-blockchain-cbdc.png"
+      ],
+      "image": "../assets/news/2026-08-08/8fd955597f924010_base.jpg",
+      "image_local": "../assets/news/2026-08-08/8fd955597f924010_base.jpg"
     },
     {
       "title": "Bitcoin's AI security sprint found 6,700 issues in 55 hours, but no one knows how many are real",
@@ -43,20 +57,6 @@
       ],
       "image": "../assets/news/2026-08-08/9d76ec54a1821950_base.jpg",
       "image_local": "../assets/news/2026-08-08/9d76ec54a1821950_base.jpg"
-    },
-    {
-      "title": "Donald Trump's media company to terminate Crypto.com deal",
-      "link": "https://cointelegraph.com/news/donald-trump-media-company-crypto-deal",
-      "summary": "The president’s company will unwind an agreement with Crypto.com to create a multibillion-dollar CRO treasury and reportedly not integrate prediction markets onto Truth Social.",
-      "source": "Cointelegraph",
-      "date": "2026-08-07",
-      "date_human": "Aug 7, 2026",
-      "pub_ts": 1786138776,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-tmtg-wallet.jpg"
-      ],
-      "image": "../assets/news/2026-08-08/3ad89e1323711b3e_base.jpg",
-      "image_local": "../assets/news/2026-08-08/3ad89e1323711b3e_base.jpg"
     },
     {
       "title": "Trump Media Abandons Crypto Treasury, Prediction Market Ventures",
@@ -75,19 +75,33 @@
       "image_local": "../assets/news/2026-08-08/04cfe9b68e8ffe43_base.jpg"
     },
     {
-      "title": "Bitcoin holders risk losing real BTC if they sell coins from BIP-110 fork, says developer",
-      "link": "https://www.coindesk.com/tech/2026/08/08/bitcoin-holders-risk-losing-real-btc-if-they-sell-coins-from-bip-110-fork-says-developer",
-      "summary": "Bitcoin holders risk losing real BTC if they sell coins from BIP-110 fork, says developer",
+      "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
+      "link": "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes",
+      "summary": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
       "source": "CoinDesk",
       "date": "2026-08-08",
       "date_human": "Aug 8, 2026",
-      "pub_ts": 1786156200,
+      "pub_ts": 1786175164,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/61a9559ef27c28600826f6691b0424ccfd776182-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/61a9559ef27c28600826f6691b0424ccfd776182-1500x1000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/f2f6731511c468648ae94fe05f6331efb1318c2f-1500x1071.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/f2f6731511c468648ae94fe05f6331efb1318c2f-1500x1071.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-08/95e7456c017ffddb_base.jpg",
-      "image_local": "../assets/news/2026-08-08/95e7456c017ffddb_base.jpg"
+      "image": "../assets/news/2026-08-08/c7fbbf58333499dd_base.jpg",
+      "image_local": "../assets/news/2026-08-08/c7fbbf58333499dd_base.jpg"
+    },
+    {
+      "title": "US court backs Bybit's bid to trace funds from $1.5B North Korea hack",
+      "link": "https://cointelegraph.com/news/bybit-us-court-trace-funds-north-korea-hack",
+      "summary": "Expedited discovery allows the exchange to seek account identities, balances and transaction histories from platforms with US operations.",
+      "source": "Cointelegraph",
+      "date": "2026-08-08",
+      "date_human": "Aug 8, 2026",
+      "pub_ts": 1786162313,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-the-aftermath-of-bybit-ftx-consequences-of-cryptos-ongoing-regulatory-process.png"
+      ],
+      "image": "../assets/news/2026-08-08/28e945fa6ea5efa8_base.jpg",
+      "image_local": "../assets/news/2026-08-08/28e945fa6ea5efa8_base.jpg"
     },
     {
       "title": "Inside the uncollateralized deal that locked up 6 million SUI until 2028 while SUI Group trades at a 25% NAV discount",
@@ -102,20 +116,6 @@
       ],
       "image": "../assets/news/2026-08-08/ac52c4c653d9142a_base.jpg",
       "image_local": "../assets/news/2026-08-08/ac52c4c653d9142a_base.jpg"
-    },
-    {
-      "title": "US Treasury's OFAC sanctions 2 Iran-linked crypto exchanges",
-      "link": "https://cointelegraph.com/news/us-treasury-sanctions-iran-crypto-exchanges",
-      "summary": "The US government sanctioned an individual and two crypto exchanges it said facilitated money laundering for a combined $5 million in digital assets linked to Iran.",
-      "source": "Cointelegraph",
-      "date": "2026-08-07",
-      "date_human": "Aug 7, 2026",
-      "pub_ts": 1786132940,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-users-in-iran-sanctions2.jpg"
-      ],
-      "image": "../assets/news/2026-08-08/1f653eeeaa92bfb2_base.jpg",
-      "image_local": "../assets/news/2026-08-08/1f653eeeaa92bfb2_base.jpg"
     },
     {
       "title": "Treasury Sanctions Crypto Exchanges It Says Laundered Millions for Iran",
@@ -134,19 +134,33 @@
       "image_local": "../assets/news/2026-08-08/0e5ba9689f4d1315_base.jpg"
     },
     {
-      "title": "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
-      "link": "https://www.coindesk.com/business/2026/08/07/trump-media-pulls-back-from-crypto-scraps-crypto-com-cro-treasury-deal",
-      "summary": "Trump Media pulls back from crypto, scraps Crypto.com's CRO token treasury deal",
+      "title": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
+      "link": "https://www.coindesk.com/tech/2026/08/07/new-xrp-ledger-amendments-target-usd530-million-in-tokenized-wall-street-assets",
+      "summary": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
       "source": "CoinDesk",
+      "date": "2026-08-08",
+      "date_human": "Aug 8, 2026",
+      "pub_ts": 1786159800,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/7062083f3eac875ac832f0c15d78be2612e57afe-1440x810.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/7062083f3eac875ac832f0c15d78be2612e57afe-1440x810.jpg?auto=format&q=75"
+      ],
+      "image": "../assets/news/2026-08-08/e12634913bfdd754_base.jpg",
+      "image_local": "../assets/news/2026-08-08/e12634913bfdd754_base.jpg"
+    },
+    {
+      "title": "Donald Trump's media company to terminate Crypto.com deal",
+      "link": "https://cointelegraph.com/news/donald-trump-media-company-crypto-deal",
+      "summary": "The president’s company will unwind an agreement with Crypto.com to create a multibillion-dollar CRO treasury and reportedly not integrate prediction markets onto Truth Social.",
+      "source": "Cointelegraph",
       "date": "2026-08-07",
       "date_human": "Aug 7, 2026",
-      "pub_ts": 1786137201,
+      "pub_ts": 1786138776,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/841ac31fb4e72ea7f68c4ff1293a8c535f8c28c0-510x287.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/841ac31fb4e72ea7f68c4ff1293a8c535f8c28c0-510x287.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-tmtg-wallet.jpg"
       ],
-      "image": "../assets/news/2026-08-08/2e08158cdf8e36ee_base.jpg",
-      "image_local": "../assets/news/2026-08-08/2e08158cdf8e36ee_base.jpg"
+      "image": "../assets/news/2026-08-08/3ad89e1323711b3e_base.jpg",
+      "image_local": "../assets/news/2026-08-08/3ad89e1323711b3e_base.jpg"
     },
     {
       "title": "Bitcoin has 185 blocks left before BIP-110 rules begin rejecting blocks",
@@ -161,20 +175,6 @@
       ],
       "image": "../assets/news/2026-08-08/8377edbd13ec7cef_base.jpg",
       "image_local": "../assets/news/2026-08-08/8377edbd13ec7cef_base.jpg"
-    },
-    {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-08-07",
-      "date_human": "Aug 7, 2026",
-      "pub_ts": 1786127770,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-08-08/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-08-08/57bd1a60f4d67ba1_base.jpg"
     },
     {
       "title": "Bitcoin Payment Service BTCPay Warns Critical Flaw Is Under Active Attack",
