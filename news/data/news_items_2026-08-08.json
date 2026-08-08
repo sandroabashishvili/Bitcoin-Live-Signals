@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-08",
-  "generated_at_utc": "2026-08-08 10:05:55 UTC",
+  "generated_at_utc": "2026-08-08 16:05:56 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,47 +16,106 @@
   "count": 12,
   "items": [
     {
-      "title": "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month",
-      "link": "https://www.coindesk.com/policy/2026/08/08/u-s-senate-opens-first-stage-of-crypto-clarity-act-voting-to-give-bill-a-chance-next-month",
-      "summary": "U.S. Senate opens first stage of crypto Clarity Act voting to give bill a chance next month",
+      "title": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
+      "link": "https://www.coindesk.com/business/2026/08/08/brazil-s-central-bank-orders-exchanges-to-delay-large-crypto-transfers-abroad",
+      "summary": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
       "source": "CoinDesk",
       "date": "2026-08-08",
       "date_human": "Aug 8, 2026",
-      "pub_ts": 1786180044,
+      "pub_ts": 1786202738,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/a6f02ef703e994951b57b8fa5172c8f10bfe45ac-5508x3672.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/a6f02ef703e994951b57b8fa5172c8f10bfe45ac-5508x3672.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/a010b6e8d5d9fab88360e6939414f5b12c6bf695-1920x1272.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/a010b6e8d5d9fab88360e6939414f5b12c6bf695-1920x1272.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-08/2c2cd8b933fa200f_base.jpg",
-      "image_local": "../assets/news/2026-08-08/2c2cd8b933fa200f_base.jpg"
+      "image": "../assets/news/2026-08-08/e1b3462fc1201762_base.jpg",
+      "image_local": "../assets/news/2026-08-08/e1b3462fc1201762_base.jpg"
     },
     {
-      "title": "Domestic stablecoins could boost demand for dollar-backed tokens: IMF",
-      "link": "https://cointelegraph.com/news/imf-domestic-stablecoins-dollar-token-demand",
-      "summary": "IMF first deputy managing director Dan Katz says users may favor digital dollars for their liquidity, network effects and cross-border acceptance.",
+      "title": "US Senate to vote on advancing CLARITY Act in September after Thune files cloture",
+      "link": "https://cointelegraph.com/news/us-senate-clarity-act-september-vote-thune-cloture",
+      "summary": "The procedural move puts crypto market structure legislation back on track as lawmakers continue negotiations over ethics and stablecoin provisions.",
       "source": "Cointelegraph",
       "date": "2026-08-08",
       "date_human": "Aug 8, 2026",
-      "pub_ts": 1786170068,
+      "pub_ts": 1786201686,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-imf-and-blockchain-cbdc.png"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-us-crypto-regulation-is-pushing-its-way-to-clarity-act-2.jpg"
       ],
-      "image": "../assets/news/2026-08-08/8fd955597f924010_base.jpg",
-      "image_local": "../assets/news/2026-08-08/8fd955597f924010_base.jpg"
+      "image": "../assets/news/2026-08-08/0a624910dde9a1a4_base.jpg",
+      "image_local": "../assets/news/2026-08-08/0a624910dde9a1a4_base.jpg"
     },
     {
-      "title": "Bitcoin's AI security sprint found 6,700 issues in 55 hours, but no one knows how many are real",
-      "link": "https://cryptoslate.com/bitcoins-ai-security-sprint-found-6700-issues-in-55-hours-but-no-one-knows-how-many-are-real/",
-      "summary": "The 55-hour campaign shows AI can rapidly fill a security-review pipeline, while public data still cannot show how many findings were valid or fixed. The post Bitcoin’s AI security sprint found 6,700 issues in 55 hours, but no one knows how many are real appeared first on CryptoSlate.",
+      "title": "Bitcoin's first institutional bear market is starting to take shape and draining liquidity",
+      "link": "https://cryptoslate.com/bitcoins-first-institutional-bear-market-is-starting-to-take-shape-and-draining-liquidity/",
+      "summary": "In an institutional bear market, a Bitcoin ETF redemption is almost aggressively boring. An investor sells shares, an authorized participant returns a large block to the trust, and the fund either pays cash or transfers BTC. Its assets shrink while the shares keep trading near net asset value and the custodian carries on. Since the […] The post Bitcoin’s first institutional bear market is starting to take shape and draining liquidity appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-07",
-      "date_human": "Aug 7, 2026",
-      "pub_ts": 1786143338,
+      "date": "2026-08-08",
+      "date_human": "Aug 8, 2026",
+      "pub_ts": 1786201554,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/redteam.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-bear-market-redemption-machine.jpg"
       ],
-      "image": "../assets/news/2026-08-08/9d76ec54a1821950_base.jpg",
-      "image_local": "../assets/news/2026-08-08/9d76ec54a1821950_base.jpg"
+      "image": "../assets/news/2026-08-08/2a1ce0b716215290_base.jpg",
+      "image_local": "../assets/news/2026-08-08/2a1ce0b716215290_base.jpg"
+    },
+    {
+      "title": "Robinhood Crypto Chief Explains Why There Are 'Two Wolves' Inside Robinhood Chain",
+      "link": "https://decrypt.co/375158/robinhood-crypto-two-wolves-robinhood-chain-rwa-meme-coins",
+      "summary": "“We want to show customers that we care about what they care about,\" Robinhood head of crypto Johann Kerbrat told Decrypt.",
+      "source": "Decrypt",
+      "date": "2026-08-08",
+      "date_human": "Aug 8, 2026",
+      "pub_ts": 1786197665,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/Johann-Kerbat-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/Johann-Kerbat-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Johann-Kerbat-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-08/ea16aee1c9750150_base.jpg",
+      "image_local": "../assets/news/2026-08-08/ea16aee1c9750150_base.jpg"
+    },
+    {
+      "title": "Trillions in institutional money to flow into bitcoin, says Bitwise's Matt Hougan",
+      "link": "https://www.coindesk.com/business/2026/08/08/trillions-in-institutional-money-to-flow-into-bitcoin-says-bitwise-s-matt-hougan",
+      "summary": "Trillions in institutional money to flow into bitcoin, says Bitwise's Matt Hougan",
+      "source": "CoinDesk",
+      "date": "2026-08-08",
+      "date_human": "Aug 8, 2026",
+      "pub_ts": 1786197600,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/18172463a019e513e643fd2ed9ab0e0806baf68b-1440x810.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/18172463a019e513e643fd2ed9ab0e0806baf68b-1440x810.jpg?auto=format&q=75"
+      ],
+      "image": "../assets/news/2026-08-08/c465375a99f13ae0_base.jpg",
+      "image_local": "../assets/news/2026-08-08/c465375a99f13ae0_base.jpg"
+    },
+    {
+      "title": "Bitcoin will never fall below $60K again: Nansen founder",
+      "link": "https://cointelegraph.com/magazine/bitcoin-will-never-fall-below-60k-again-nansen-founder",
+      "summary": "Crypto is growing up thanks to trading in real world assets, and Bitcoin will never dip below $60K again, says Nansen founder founder Alex Svanevik.",
+      "source": "Cointelegraph",
+      "date": "2026-08-08",
+      "date_human": "Aug 8, 2026",
+      "pub_ts": 1786195800,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/alex-svanevik-interview.jpg"
+      ],
+      "image": "../assets/news/2026-08-08/78befffe2b85db0f_base.jpg",
+      "image_local": "../assets/news/2026-08-08/78befffe2b85db0f_base.jpg"
+    },
+    {
+      "title": "This $1.5 billion hack is exposing just how ‘irreversible' stolen crypto really is",
+      "link": "https://cryptoslate.com/this-1-5-billion-hack-is-exposing-just-how-irreversible-stolen-crypto-really-is/",
+      "summary": "Bybit sued North Korea, its Reconnaissance General Bureau, and Lazarus Group in the US District Court for the District of Columbia. The exchange won a preliminary injunction blocking unnamed defendants from moving or selling stolen crypto. Public court reporting describes the order as covering those identified assets, without confirming the full $1.5 billion stolen in […] The post This $1.5 billion hack is exposing just how ‘irreversible’ stolen crypto really is appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-08",
+      "date_human": "Aug 8, 2026",
+      "pub_ts": 1786198251,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/lazarus-crypto-laundering-pipeline.jpg"
+      ],
+      "image": "../assets/news/2026-08-08/93f891bda5c93924_base.jpg",
+      "image_local": "../assets/news/2026-08-08/93f891bda5c93924_base.jpg"
     },
     {
       "title": "Trump Media Abandons Crypto Treasury, Prediction Market Ventures",
@@ -75,47 +134,47 @@
       "image_local": "../assets/news/2026-08-08/04cfe9b68e8ffe43_base.jpg"
     },
     {
-      "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
-      "link": "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes",
-      "summary": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
+      "title": "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF",
+      "link": "https://www.coindesk.com/markets/2026/08/06/why-trillion-dollar-asset-manager-t-rowe-price-put-memecoins-in-its-crypto-etf",
+      "summary": "Why trillion-dollar asset manager T. Rowe Price put memecoins in its crypto ETF",
       "source": "CoinDesk",
       "date": "2026-08-08",
       "date_human": "Aug 8, 2026",
-      "pub_ts": 1786175164,
+      "pub_ts": 1786194000,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/f2f6731511c468648ae94fe05f6331efb1318c2f-1500x1071.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/f2f6731511c468648ae94fe05f6331efb1318c2f-1500x1071.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/20ab5a9646b9489023b2430751cd56fc03709f8d-2048x1152.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/20ab5a9646b9489023b2430751cd56fc03709f8d-2048x1152.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-08/c7fbbf58333499dd_base.jpg",
-      "image_local": "../assets/news/2026-08-08/c7fbbf58333499dd_base.jpg"
+      "image": "../assets/news/2026-08-08/90bbade7b82768c0_base.jpg",
+      "image_local": "../assets/news/2026-08-08/90bbade7b82768c0_base.jpg"
     },
     {
-      "title": "US court backs Bybit's bid to trace funds from $1.5B North Korea hack",
-      "link": "https://cointelegraph.com/news/bybit-us-court-trace-funds-north-korea-hack",
-      "summary": "Expedited discovery allows the exchange to seek account identities, balances and transaction histories from platforms with US operations.",
+      "title": "Domestic stablecoins could boost demand for dollar-backed tokens: IMF",
+      "link": "https://cointelegraph.com/news/imf-domestic-stablecoins-dollar-token-demand",
+      "summary": "IMF first deputy managing director Dan Katz says users may favor digital dollars for their liquidity, network effects and cross-border acceptance.",
       "source": "Cointelegraph",
       "date": "2026-08-08",
       "date_human": "Aug 8, 2026",
-      "pub_ts": 1786162313,
+      "pub_ts": 1786170068,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-the-aftermath-of-bybit-ftx-consequences-of-cryptos-ongoing-regulatory-process.png"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-imf-and-blockchain-cbdc.png"
       ],
-      "image": "../assets/news/2026-08-08/28e945fa6ea5efa8_base.jpg",
-      "image_local": "../assets/news/2026-08-08/28e945fa6ea5efa8_base.jpg"
+      "image": "../assets/news/2026-08-08/8fd955597f924010_base.jpg",
+      "image_local": "../assets/news/2026-08-08/8fd955597f924010_base.jpg"
     },
     {
-      "title": "Inside the uncollateralized deal that locked up 6 million SUI until 2028 while SUI Group trades at a 25% NAV discount",
-      "link": "https://cryptoslate.com/inside-the-uncollateralized-deal-that-locked-up-6-million-sui-until-2028-while-sui-group-trades-at-a-25-nav-discount/",
-      "summary": "The uncollateralized receivable runs to 2028, while an Aug. 6 sensitivity puts market value 24.5% below company-calculated NAV. The post Inside the uncollateralized deal that locked up 6 million SUI until 2028 while SUI Group trades at a 25% NAV discount appeared first on CryptoSlate.",
+      "title": "CLARITY Act is finally headed for a 60-vote Senate showdown in September",
+      "link": "https://cryptoslate.com/clarity-act-is-finally-headed-for-a-60-vote-senate-showdown-in-september/",
+      "summary": "Senate Majority Leader John Thune has formally started the process to force a vote on whether the Senate will take up the CLARITY Act, giving the stalled crypto market-structure bill an immediate path to the floor when lawmakers return in September. Thune filed cloture early Saturday on the motion to proceed to H.R. 3633, the […] The post CLARITY Act is finally headed for a 60-vote Senate showdown in September appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-07",
-      "date_human": "Aug 7, 2026",
-      "pub_ts": 1786139714,
+      "date": "2026-08-08",
+      "date_human": "Aug 8, 2026",
+      "pub_ts": 1786196156,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/sui-bluefin-token-pipeline.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/clarity-act-vote-showdown.jpg"
       ],
-      "image": "../assets/news/2026-08-08/ac52c4c653d9142a_base.jpg",
-      "image_local": "../assets/news/2026-08-08/ac52c4c653d9142a_base.jpg"
+      "image": "../assets/news/2026-08-08/53486c128c323070_base.jpg",
+      "image_local": "../assets/news/2026-08-08/53486c128c323070_base.jpg"
     },
     {
       "title": "Treasury Sanctions Crypto Exchanges It Says Laundered Millions for Iran",
@@ -132,65 +191,6 @@
       ],
       "image": "../assets/news/2026-08-08/0e5ba9689f4d1315_base.jpg",
       "image_local": "../assets/news/2026-08-08/0e5ba9689f4d1315_base.jpg"
-    },
-    {
-      "title": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
-      "link": "https://www.coindesk.com/tech/2026/08/07/new-xrp-ledger-amendments-target-usd530-million-in-tokenized-wall-street-assets",
-      "summary": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
-      "source": "CoinDesk",
-      "date": "2026-08-08",
-      "date_human": "Aug 8, 2026",
-      "pub_ts": 1786159800,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/7062083f3eac875ac832f0c15d78be2612e57afe-1440x810.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/7062083f3eac875ac832f0c15d78be2612e57afe-1440x810.jpg?auto=format&q=75"
-      ],
-      "image": "../assets/news/2026-08-08/e12634913bfdd754_base.jpg",
-      "image_local": "../assets/news/2026-08-08/e12634913bfdd754_base.jpg"
-    },
-    {
-      "title": "Donald Trump's media company to terminate Crypto.com deal",
-      "link": "https://cointelegraph.com/news/donald-trump-media-company-crypto-deal",
-      "summary": "The president’s company will unwind an agreement with Crypto.com to create a multibillion-dollar CRO treasury and reportedly not integrate prediction markets onto Truth Social.",
-      "source": "Cointelegraph",
-      "date": "2026-08-07",
-      "date_human": "Aug 7, 2026",
-      "pub_ts": 1786138776,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-tmtg-wallet.jpg"
-      ],
-      "image": "../assets/news/2026-08-08/3ad89e1323711b3e_base.jpg",
-      "image_local": "../assets/news/2026-08-08/3ad89e1323711b3e_base.jpg"
-    },
-    {
-      "title": "Bitcoin has 185 blocks left before BIP-110 rules begin rejecting blocks",
-      "link": "https://cryptoslate.com/bitcoin-has-185-blocks-left-before-bip-110-rules-begin-rejecting-blocks/",
-      "summary": "At height 961,632, enforcing nodes reject non-signaling blocks, but Bitcoin does not automatically adopt the proposal. The post Bitcoin has 185 blocks left before BIP-110 rules begin rejecting blocks appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-07",
-      "date_human": "Aug 7, 2026",
-      "pub_ts": 1786131609,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bip110.jpg"
-      ],
-      "image": "../assets/news/2026-08-08/8377edbd13ec7cef_base.jpg",
-      "image_local": "../assets/news/2026-08-08/8377edbd13ec7cef_base.jpg"
-    },
-    {
-      "title": "Bitcoin Payment Service BTCPay Warns Critical Flaw Is Under Active Attack",
-      "link": "https://decrypt.co/375159/bitcoin-payment-service-btcpay-critical-flaw-active-attack",
-      "summary": "Bitcoin company BTCPay Server told users to install the latest version of the server and replace credentials that may have been exposed.",
-      "source": "Decrypt",
-      "date": "2026-08-07",
-      "date_human": "Aug 7, 2026",
-      "pub_ts": 1786132834,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/02/bitcoin-crack-decrypt-style-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/bitcoin-crack-decrypt-style-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/bitcoin-crack-decrypt-style-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-08/5e74ef3626588b38_base.jpg",
-      "image_local": "../assets/news/2026-08-08/5e74ef3626588b38_base.jpg"
     }
   ]
 }
