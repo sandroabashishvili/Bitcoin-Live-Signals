@@ -56,9 +56,9 @@ Das Projekt demonstriert unter anderem:
 
 ## Autor
 
-Aleksandre (Sandro) Abashishvili
+Sandro Abashishvili
 
-[Portfolio](https://sandro-abashishvili.sandroabashishvili.chatgpt.site/) ·
+[Portfolio](https://sandroabashishvili.github.io/) ·
 [GitHub](https://github.com/sandroabashishvili) ·
 [LinkedIn](https://www.linkedin.com/in/aleksandre-abashishvili-03417617a/)
 
