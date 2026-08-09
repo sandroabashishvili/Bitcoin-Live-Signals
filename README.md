@@ -2,11 +2,15 @@
 
 ![SmartSignalHub – Bitcoin Live Signals](assets/site-social-og.png)
 
-SmartSignalHub ist mein umfangreichstes langfristiges Entwicklungsprojekt. Die
-öffentlich zugängliche Plattform zeigt Bitcoin-Signale und Marktkontext für
-Spot-, Futures- und Hedge-Simulationen. Im Mittelpunkt stehen nachvollziehbare
-Entscheidungslogik, sichtbare Blockierungen, TP-/SL-Strukturen und transparente
-Auswertungen.
+SmartSignalHub ist ein langfristiges Software- und Datenforschungsprojekt für
+Bitcoin-Marktdaten. Die öffentliche Plattform zeigt indikatorbasierte Spot- und
+Futures-Signale, Entry-/TP-/SL-Pläne und simulierte Ergebnisse nachvollziehbar
+an. Ergänzend macht sie blockierte Einstiege, Markt- und Orderbuchkontext sowie
+die Auswertung der Strategielogik sichtbar.
+
+Das Projekt verbindet Datenverarbeitung, regelbasierte Entscheidungen,
+Positionssimulation, Diagnosewerkzeuge und automatisch erzeugte Web-Dashboards
+in einem durchgängigen System.
 
 **Live:** [sandroabashishvili.github.io/Bitcoin-Live-Signals](https://sandroabashishvili.github.io/Bitcoin-Live-Signals/)
 
