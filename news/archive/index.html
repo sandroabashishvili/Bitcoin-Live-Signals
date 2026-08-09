@@ -67,7 +67,7 @@
       <div class="global-nav-shell">
         <nav class="global-nav" aria-label="Primary navigation">
           <a class="global-brand" href="../../">SmartSignalHub</a>
-          <div class="global-nav-links"><a href="../../">Home</a><details class="global-nav-menu"><summary>Strategies</summary><div class="global-nav-menu-panel"><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/spot/dashboard/overview_spot/">Spot</a><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/futures/dashboard/overview_futures/">Futures</a><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/futures_hedge/dashboard/overview_hedge/">Hedge</a></div></details><a class="active" href="../../news/">News</a><a href="../../resources/">Resources</a></div>
+          <div class="global-nav-links"><a href="../../">Home</a><details class="global-nav-menu"><summary aria-haspopup="true" aria-expanded="false">Strategies</summary><div class="global-nav-menu-panel"><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/spot/dashboard/overview_spot/">Spot</a><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/futures/dashboard/overview_futures/">Futures</a><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/futures_hedge/dashboard/overview_hedge/">Hedge</a></div></details><a class="active" href="../../news/">News</a><a href="../../resources/">Resources</a></div>
         </nav>
       </div>
       <script>
@@ -78,26 +78,55 @@
             const summary = menu.querySelector("summary");
             if (!summary) return;
             let closeTimer = 0;
+            const setOpen = (open) => {
+              menu.open = open;
+              summary.setAttribute("aria-expanded", open ? "true" : "false");
+            };
             const openMenu = () => {
               window.clearTimeout(closeTimer);
-              menu.open = true;
+              setOpen(true);
             };
             const closeMenu = () => {
               window.clearTimeout(closeTimer);
               closeTimer = window.setTimeout(() => {
-                menu.open = false;
+                setOpen(false);
               }, 180);
             };
             if (hoverCapable) {
               summary.addEventListener("click", (event) => event.preventDefault());
               menu.addEventListener("mouseenter", openMenu);
               menu.addEventListener("mouseleave", closeMenu);
+            } else {
+              summary.addEventListener("click", (event) => {
+                event.preventDefault();
+                const shouldOpen = !menu.open;
+                menus.forEach((otherMenu) => {
+                  if (otherMenu === menu) return;
+                  otherMenu.open = false;
+                  otherMenu.querySelector("summary")?.setAttribute("aria-expanded", "false");
+                });
+                setOpen(shouldOpen);
+              });
             }
             menu.addEventListener("focusin", openMenu);
             menu.addEventListener("focusout", () => {
               window.setTimeout(() => {
                 if (!menu.contains(document.activeElement)) menu.open = false;
               }, 0);
+            });
+          });
+          document.addEventListener("click", (event) => {
+            menus.forEach((menu) => {
+              if (menu.contains(event.target)) return;
+              menu.open = false;
+              menu.querySelector("summary")?.setAttribute("aria-expanded", "false");
+            });
+          });
+          document.addEventListener("keydown", (event) => {
+            if (event.key !== "Escape") return;
+            menus.forEach((menu) => {
+              menu.open = false;
+              menu.querySelector("summary")?.setAttribute("aria-expanded", "false");
             });
           });
         })();

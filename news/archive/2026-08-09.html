@@ -68,7 +68,7 @@
       <div class="global-nav-shell">
         <nav class="global-nav" aria-label="Primary navigation">
           <a class="global-brand" href="../../">SmartSignalHub</a>
-          <div class="global-nav-links"><a href="../../">Home</a><details class="global-nav-menu"><summary>Strategies</summary><div class="global-nav-menu-panel"><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/spot/dashboard/overview_spot/">Spot</a><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/futures/dashboard/overview_futures/">Futures</a><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/futures_hedge/dashboard/overview_hedge/">Hedge</a></div></details><a class="active" href="../../news/">News</a><a href="../../resources/">Resources</a></div>
+          <div class="global-nav-links"><a href="../../">Home</a><details class="global-nav-menu"><summary aria-haspopup="true" aria-expanded="false">Strategies</summary><div class="global-nav-menu-panel"><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/spot/dashboard/overview_spot/">Spot</a><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/futures/dashboard/overview_futures/">Futures</a><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/futures_hedge/dashboard/overview_hedge/">Hedge</a></div></details><a class="active" href="../../news/">News</a><a href="../../resources/">Resources</a></div>
         </nav>
       </div>
       <script>
@@ -79,26 +79,55 @@
             const summary = menu.querySelector("summary");
             if (!summary) return;
             let closeTimer = 0;
+            const setOpen = (open) => {
+              menu.open = open;
+              summary.setAttribute("aria-expanded", open ? "true" : "false");
+            };
             const openMenu = () => {
               window.clearTimeout(closeTimer);
-              menu.open = true;
+              setOpen(true);
             };
             const closeMenu = () => {
               window.clearTimeout(closeTimer);
               closeTimer = window.setTimeout(() => {
-                menu.open = false;
+                setOpen(false);
               }, 180);
             };
             if (hoverCapable) {
               summary.addEventListener("click", (event) => event.preventDefault());
               menu.addEventListener("mouseenter", openMenu);
               menu.addEventListener("mouseleave", closeMenu);
+            } else {
+              summary.addEventListener("click", (event) => {
+                event.preventDefault();
+                const shouldOpen = !menu.open;
+                menus.forEach((otherMenu) => {
+                  if (otherMenu === menu) return;
+                  otherMenu.open = false;
+                  otherMenu.querySelector("summary")?.setAttribute("aria-expanded", "false");
+                });
+                setOpen(shouldOpen);
+              });
             }
             menu.addEventListener("focusin", openMenu);
             menu.addEventListener("focusout", () => {
               window.setTimeout(() => {
                 if (!menu.contains(document.activeElement)) menu.open = false;
               }, 0);
+            });
+          });
+          document.addEventListener("click", (event) => {
+            menus.forEach((menu) => {
+              if (menu.contains(event.target)) return;
+              menu.open = false;
+              menu.querySelector("summary")?.setAttribute("aria-expanded", "false");
+            });
+          });
+          document.addEventListener("keydown", (event) => {
+            if (event.key !== "Escape") return;
+            menus.forEach((menu) => {
+              menu.open = false;
+              menu.querySelector("summary")?.setAttribute("aria-expanded", "false");
             });
           });
         })();
@@ -110,33 +139,33 @@
           <p class="panel-intro">Daily headline set with source diversity, cleaned links, and local static rendering.</p>
           <div class="news-grid">
             <article class="news-card">
-  <a class="news-card-media" href="https://cointelegraph.com/news/bitcoin-bip-110-mandatory-signaling" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/563219a9ba301efc_base.jpg" alt="Bitcoin&#x27;s BIP-110 enters mandatory signaling with miner support below 3%" loading="lazy" /></a>
+  <a class="news-card-media" href="https://cryptoslate.com/why-crypto-audited-badges-are-giving-investors-a-dangerous-false-sense-of-security/" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/e6275202ac57f917_base.jpg" alt="Why crypto ‘audited&#x27; badges are giving investors a dangerous false sense of security" loading="lazy" /></a>
   <div class="news-card-body">
-    <p class="news-card-meta">Aug 8, 2026 · Cointelegraph</p>
+    <p class="news-card-meta">Aug 9, 2026 · CryptoSlate</p>
     <h3 class="news-card-title">
-      <a href="https://cointelegraph.com/news/bitcoin-bip-110-mandatory-signaling" target="_blank" rel="noopener">Bitcoin&#x27;s BIP-110 enters mandatory signaling with miner support below 3%</a>
+      <a href="https://cryptoslate.com/why-crypto-audited-badges-are-giving-investors-a-dangerous-false-sense-of-security/" target="_blank" rel="noopener">Why crypto ‘audited&#x27; badges are giving investors a dangerous false sense of security</a>
     </h3>
-    <p class="news-card-summary">The deployment milestone tests whether enforcing nodes can sustain the change amid limited miner signaling and discussion of a hard-fork fallback.</p>
+    <p class="news-card-summary">At 1:30 p.m. UTC on Feb. 21, 2025, Bybit began moving funds from an Ethereum cold wallet to a warm wallet, the sort of routine transfer designed to make custody look boring. Authorized signers reviewed the destination...</p>
   </div>
 </article>
 <article class="news-card">
-  <a class="news-card-media" href="https://www.coindesk.com/tech/2026/08/07/frame-bitcoin-s-bip-110-enters-mandatory-signaling-with-less-than-3-miner-support" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/9f47b6ed8512ae7e_base.jpg" alt="Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins" loading="lazy" /></a>
+  <a class="news-card-media" href="https://cointelegraph.com/news/brazil-targets-crypto-fraud-with-up-to-24-hour-transfer-hold" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/1172847bae56f1cf_base.jpg" alt="Brazil targets crypto fraud with up to 24-hour transfer hold" loading="lazy" /></a>
   <div class="news-card-body">
-    <p class="news-card-meta">Aug 8, 2026 · CoinDesk</p>
+    <p class="news-card-meta">Aug 9, 2026 · Cointelegraph</p>
     <h3 class="news-card-title">
-      <a href="https://www.coindesk.com/tech/2026/08/07/frame-bitcoin-s-bip-110-enters-mandatory-signaling-with-less-than-3-miner-support" target="_blank" rel="noopener">Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins</a>
+      <a href="https://cointelegraph.com/news/brazil-targets-crypto-fraud-with-up-to-24-hour-transfer-hold" target="_blank" rel="noopener">Brazil targets crypto fraud with up to 24-hour transfer hold</a>
     </h3>
-    <p class="news-card-summary">Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins</p>
+    <p class="news-card-summary">The rules, effective Jan. 1, 2027, cover transactions above $10,000 sent to overseas providers or self-custody wallets, along with other transfers flagged for review.</p>
   </div>
 </article>
 <article class="news-card">
-  <a class="news-card-media" href="https://cryptoslate.com/bitcoin-and-ethereum-etfs-break-1b-in-their-best-week-since-april-and-blackrock-brought-in-80-of-the-cash/" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/405952f42c686530_base.jpg" alt="Bitcoin and Ethereum ETFs break $1B in their best week since April and BlackRock brought in 80% of the cash" loading="lazy" /></a>
+  <a class="news-card-media" href="https://www.coindesk.com/tech/2026/08/09/controversial-bitcoin-fork-bip-110-mines-two-blocks-then-stops" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/5a27316789a83962_base.jpg" alt="Controversial Bitcoin fork BIP-110 mines two blocks, then stops" loading="lazy" /></a>
   <div class="news-card-body">
-    <p class="news-card-meta">Aug 8, 2026 · CryptoSlate</p>
+    <p class="news-card-meta">Aug 9, 2026 · CoinDesk</p>
     <h3 class="news-card-title">
-      <a href="https://cryptoslate.com/bitcoin-and-ethereum-etfs-break-1b-in-their-best-week-since-april-and-blackrock-brought-in-80-of-the-cash/" target="_blank" rel="noopener">Bitcoin and Ethereum ETFs break $1B in their best week since April and BlackRock brought in 80% of the cash</a>
+      <a href="https://www.coindesk.com/tech/2026/08/09/controversial-bitcoin-fork-bip-110-mines-two-blocks-then-stops" target="_blank" rel="noopener">Controversial Bitcoin fork BIP-110 mines two blocks, then stops</a>
     </h3>
-    <p class="news-card-summary">US-listed spot Bitcoin and Ethereum exchange-traded funds pulled in more than $1 billion in fresh cash this week, with both groups registering their strongest inflows since April as demand for regulated crypto...</p>
+    <p class="news-card-summary">Controversial Bitcoin fork BIP-110 mines two blocks, then stops</p>
   </div>
 </article>
 <article class="news-card">
@@ -150,33 +179,33 @@
   </div>
 </article>
 <article class="news-card">
-  <a class="news-card-media" href="https://cointelegraph.com/news/what-happened-in-crypto-today" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/57bd1a60f4d67ba1_base.jpg" alt="Here&#x27;s what happened in crypto today" loading="lazy" /></a>
-  <div class="news-card-body">
-    <p class="news-card-meta">Aug 8, 2026 · Cointelegraph</p>
-    <h3 class="news-card-title">
-      <a href="https://cointelegraph.com/news/what-happened-in-crypto-today" target="_blank" rel="noopener">Here&#x27;s what happened in crypto today</a>
-    </h3>
-    <p class="news-card-summary">Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.</p>
-  </div>
-</article>
-<article class="news-card">
-  <a class="news-card-media" href="https://www.coindesk.com/business/2026/08/08/hardware-wallet-sales-in-russia-more-than-double-as-new-crypto-rules-near" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/60fbf6a28b3a7bfe_base.jpg" alt="Hardware wallet sales in Russia more than double as new crypto rules near" loading="lazy" /></a>
-  <div class="news-card-body">
-    <p class="news-card-meta">Aug 8, 2026 · CoinDesk</p>
-    <h3 class="news-card-title">
-      <a href="https://www.coindesk.com/business/2026/08/08/hardware-wallet-sales-in-russia-more-than-double-as-new-crypto-rules-near" target="_blank" rel="noopener">Hardware wallet sales in Russia more than double as new crypto rules near</a>
-    </h3>
-    <p class="news-card-summary">Hardware wallet sales in Russia more than double as new crypto rules near</p>
-  </div>
-</article>
-<article class="news-card">
-  <a class="news-card-media" href="https://cryptoslate.com/four-years-after-ftx-crypto-exchanges-still-prove-assets-without-proving-solvency/" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/f6b5160e6ae8f3af_base.jpg" alt="Four years after FTX, crypto exchanges still prove assets without proving solvency" loading="lazy" /></a>
+  <a class="news-card-media" href="https://cryptoslate.com/bitcoin-and-ethereum-etfs-break-1b-in-their-best-week-since-april-and-blackrock-brought-in-80-of-the-cash/" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/405952f42c686530_base.jpg" alt="Bitcoin and Ethereum ETFs break $1B in their best week since April and BlackRock brought in 80% of the cash" loading="lazy" /></a>
   <div class="news-card-body">
     <p class="news-card-meta">Aug 8, 2026 · CryptoSlate</p>
     <h3 class="news-card-title">
-      <a href="https://cryptoslate.com/four-years-after-ftx-crypto-exchanges-still-prove-assets-without-proving-solvency/" target="_blank" rel="noopener">Four years after FTX, crypto exchanges still prove assets without proving solvency</a>
+      <a href="https://cryptoslate.com/bitcoin-and-ethereum-etfs-break-1b-in-their-best-week-since-april-and-blackrock-brought-in-80-of-the-cash/" target="_blank" rel="noopener">Bitcoin and Ethereum ETFs break $1B in their best week since April and BlackRock brought in 80% of the cash</a>
     </h3>
-    <p class="news-card-summary">A customer opens an exchange account, copies a string of numbers and follows a path through a Merkle tree. The page processes the request and returns a reassuring result: the customer’s balance was included in the...</p>
+    <p class="news-card-summary">US-listed spot Bitcoin and Ethereum exchange-traded funds pulled in more than $1 billion in fresh cash this week, with both groups registering their strongest inflows since April as demand for regulated crypto...</p>
+  </div>
+</article>
+<article class="news-card">
+  <a class="news-card-media" href="https://cointelegraph.com/news/btcpay-restricts-remote-lightning-access-after-attackers-steal-funds" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/054b1bf67e0846b4_base.jpg" alt="BTCPay restricts remote Lightning access after attackers steal funds" loading="lazy" /></a>
+  <div class="news-card-body">
+    <p class="news-card-meta">Aug 9, 2026 · Cointelegraph</p>
+    <h3 class="news-card-title">
+      <a href="https://cointelegraph.com/news/btcpay-restricts-remote-lightning-access-after-attackers-steal-funds" target="_blank" rel="noopener">BTCPay restricts remote Lightning access after attackers steal funds</a>
+    </h3>
+    <p class="news-card-summary">Foundation and Citadel21 reported drained Lightning nodes, but the total amount stolen and number of affected operators remain unknown.</p>
+  </div>
+</article>
+<article class="news-card">
+  <a class="news-card-media" href="https://www.coindesk.com/tech/2026/08/07/frame-bitcoin-s-bip-110-enters-mandatory-signaling-with-less-than-3-miner-support" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/9f47b6ed8512ae7e_base.jpg" alt="Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins" loading="lazy" /></a>
+  <div class="news-card-body">
+    <p class="news-card-meta">Aug 8, 2026 · CoinDesk</p>
+    <h3 class="news-card-title">
+      <a href="https://www.coindesk.com/tech/2026/08/07/frame-bitcoin-s-bip-110-enters-mandatory-signaling-with-less-than-3-miner-support" target="_blank" rel="noopener">Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins</a>
+    </h3>
+    <p class="news-card-summary">Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins</p>
   </div>
 </article>
 <article class="news-card">
@@ -190,33 +219,33 @@
   </div>
 </article>
 <article class="news-card">
-  <a class="news-card-media" href="https://cointelegraph.com/news/us-bitcoin-etfs-best-weekly-inflows-april-coldcard-hack" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/07086315dfc9c7a2_base.jpg" alt="US spot Bitcoin ETFs post best week since April with $1B inflows" loading="lazy" /></a>
-  <div class="news-card-body">
-    <p class="news-card-meta">Aug 8, 2026 · Cointelegraph</p>
-    <h3 class="news-card-title">
-      <a href="https://cointelegraph.com/news/us-bitcoin-etfs-best-weekly-inflows-april-coldcard-hack" target="_blank" rel="noopener">US spot Bitcoin ETFs post best week since April with $1B inflows</a>
-    </h3>
-    <p class="news-card-summary">The spot Bitcoin exchange-traded funds registered their third-strongest showing since October as institutional demand showed signs of renewed momentum.</p>
-  </div>
-</article>
-<article class="news-card">
-  <a class="news-card-media" href="https://www.coindesk.com/business/2026/08/08/brazil-s-central-bank-orders-exchanges-to-delay-large-crypto-transfers-abroad" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/e1b3462fc1201762_base.jpg" alt="Brazil&#x27;s central bank orders exchanges to delay large crypto transfers abroad" loading="lazy" /></a>
-  <div class="news-card-body">
-    <p class="news-card-meta">Aug 8, 2026 · CoinDesk</p>
-    <h3 class="news-card-title">
-      <a href="https://www.coindesk.com/business/2026/08/08/brazil-s-central-bank-orders-exchanges-to-delay-large-crypto-transfers-abroad" target="_blank" rel="noopener">Brazil&#x27;s central bank orders exchanges to delay large crypto transfers abroad</a>
-    </h3>
-    <p class="news-card-summary">Brazil&#x27;s central bank orders exchanges to delay large crypto transfers abroad</p>
-  </div>
-</article>
-<article class="news-card">
-  <a class="news-card-media" href="https://cryptoslate.com/bitcoin-xrp-solana-and-tron-beat-ethereum-and-cardano-every-month-since-2022-on-investor-buying/" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/588101701264fa29_base.jpg" alt="Bitcoin, XRP, Solana and Tron beat Ethereum and Cardano every month since 2022 on investor buying" loading="lazy" /></a>
+  <a class="news-card-media" href="https://cryptoslate.com/four-years-after-ftx-crypto-exchanges-still-prove-assets-without-proving-solvency/" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/f6b5160e6ae8f3af_base.jpg" alt="Four years after FTX, crypto exchanges still prove assets without proving solvency" loading="lazy" /></a>
   <div class="news-card-body">
     <p class="news-card-meta">Aug 8, 2026 · CryptoSlate</p>
     <h3 class="news-card-title">
-      <a href="https://cryptoslate.com/bitcoin-xrp-solana-and-tron-beat-ethereum-and-cardano-every-month-since-2022-on-investor-buying/" target="_blank" rel="noopener">Bitcoin, XRP, Solana and Tron beat Ethereum and Cardano every month since 2022 on investor buying</a>
+      <a href="https://cryptoslate.com/four-years-after-ftx-crypto-exchanges-still-prove-assets-without-proving-solvency/" target="_blank" rel="noopener">Four years after FTX, crypto exchanges still prove assets without proving solvency</a>
     </h3>
-    <p class="news-card-summary">Crypto’s favorite buy-the-dip strategy failed to make money for Ethereum and Cardano investors who stuck with it since the start of 2022. An investor who placed $100 into Ethereum every month from January 2022 through...</p>
+    <p class="news-card-summary">A customer opens an exchange account, copies a string of numbers and follows a path through a Merkle tree. The page processes the request and returns a reassuring result: the customer’s balance was included in the...</p>
+  </div>
+</article>
+<article class="news-card">
+  <a class="news-card-media" href="https://cointelegraph.com/news/bitcoin-bip-110-mandatory-signaling" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/563219a9ba301efc_base.jpg" alt="Bitcoin&#x27;s BIP-110 enters mandatory signaling with miner support below 3%" loading="lazy" /></a>
+  <div class="news-card-body">
+    <p class="news-card-meta">Aug 8, 2026 · Cointelegraph</p>
+    <h3 class="news-card-title">
+      <a href="https://cointelegraph.com/news/bitcoin-bip-110-mandatory-signaling" target="_blank" rel="noopener">Bitcoin&#x27;s BIP-110 enters mandatory signaling with miner support below 3%</a>
+    </h3>
+    <p class="news-card-summary">The deployment milestone tests whether enforcing nodes can sustain the change amid limited miner signaling and discussion of a hard-fork fallback.</p>
+  </div>
+</article>
+<article class="news-card">
+  <a class="news-card-media" href="https://www.coindesk.com/business/2026/08/08/hardware-wallet-sales-in-russia-more-than-double-as-new-crypto-rules-near" target="_blank" rel="noopener"><img src="../../assets/news/2026-08-09/60fbf6a28b3a7bfe_base.jpg" alt="Hardware wallet sales in Russia more than double as new crypto rules near" loading="lazy" /></a>
+  <div class="news-card-body">
+    <p class="news-card-meta">Aug 8, 2026 · CoinDesk</p>
+    <h3 class="news-card-title">
+      <a href="https://www.coindesk.com/business/2026/08/08/hardware-wallet-sales-in-russia-more-than-double-as-new-crypto-rules-near" target="_blank" rel="noopener">Hardware wallet sales in Russia more than double as new crypto rules near</a>
+    </h3>
+    <p class="news-card-summary">Hardware wallet sales in Russia more than double as new crypto rules near</p>
   </div>
 </article>
 <article class="news-card">

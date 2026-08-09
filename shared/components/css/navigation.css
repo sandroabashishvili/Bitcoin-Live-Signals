@@ -106,9 +106,25 @@
 }
 
 .global-nav-menu summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   list-style: none;
   cursor: pointer;
   user-select: none;
+}
+
+.global-nav-menu summary::before {
+  content: "▾";
+  order: 2;
+  color: var(--muted);
+  font-size: 0.72em;
+  transition: transform 0.18s ease, color 0.18s ease;
+}
+
+.global-nav-menu[open] summary::before {
+  color: color-mix(in oklab, var(--amber) 92%, white 8%);
+  transform: rotate(180deg);
 }
 
 .global-nav-menu summary::-webkit-details-marker {
@@ -137,10 +153,6 @@
 .global-nav-menu:hover .global-nav-menu-panel,
 .global-nav-menu:focus-within .global-nav-menu-panel {
   display: grid;
-}
-
-.global-nav-menu[open]:not(:hover):not(:focus-within) .global-nav-menu-panel {
-  display: none;
 }
 
 .global-nav-menu-panel .global-nav-menu-link {
@@ -318,6 +330,15 @@
     left: 0;
     right: auto;
     top: calc(100% + 8px);
+    min-width: 168px;
+    padding: 8px;
+  }
+
+  .global-nav-menu-panel .global-nav-menu-link {
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
   }
 
   .subnav-link {

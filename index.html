@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SmartSignalHub | Bitcoin Strategy Research</title>
-    <meta name="description" content="A public Bitcoin strategy research project with simulated Spot, Futures, and Hedge signals, positions, TP/SL levels, results, and decision reasons." />
+    <title>Bitcoin Signals, Position Plans & News | SmartSignalHub</title>
+    <meta name="description" content="Follow Bitcoin Spot and Futures signals based on live market data, review Entry, TP and SL plans, track simulated outcomes, and read relevant market news." />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <link rel="canonical" href="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/" />
     <meta name="theme-color" content="#07111c" />
     <meta property="og:site_name" content="SmartSignalHub" />
-    <meta property="og:title" content="SmartSignalHub | Bitcoin Strategy Research" />
-    <meta property="og:description" content="Public simulation dashboards for Bitcoin Spot, Futures, and Hedge strategy research." />
+    <meta property="og:title" content="Bitcoin Signals, Position Plans & News | SmartSignalHub" />
+    <meta property="og:description" content="Bitcoin Spot and Futures signals, Entry/TP/SL plans, simulated results, and relevant market news in one place." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/" />
     <meta property="og:image" content="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/assets/site-social-og.png" />
@@ -20,8 +20,8 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="SmartSignalHub | Bitcoin Strategy Research" />
-    <meta name="twitter:description" content="Public simulation dashboards for Bitcoin Spot, Futures, and Hedge strategy research." />
+    <meta name="twitter:title" content="Bitcoin Signals, Position Plans & News | SmartSignalHub" />
+    <meta name="twitter:description" content="Bitcoin Spot and Futures signals, Entry/TP/SL plans, simulated results, and relevant market news in one place." />
     <meta name="twitter:image" content="https://sandroabashishvili.github.io/Bitcoin-Live-Signals/assets/site-social-og.png" />
     <meta name="twitter:image:alt" content="SmartSignalHub social preview" />
     <script type="application/ld+json">
@@ -33,7 +33,7 @@
             "@id": "https://sandroabashishvili.github.io/Bitcoin-Live-Signals/#organization",
             "name": "SmartSignalHub",
             "url": "https://sandroabashishvili.github.io/Bitcoin-Live-Signals/",
-            "description": "A personal software and data research project for simulated Bitcoin Spot, Futures, and Hedge strategies."
+            "description": "Bitcoin Spot and Futures signals based on live market data, simulated position plans and results, and relevant market news."
           },
           {
             "@type": "WebSite",
@@ -48,8 +48,8 @@
             "@type": "WebPage",
             "@id": "https://sandroabashishvili.github.io/Bitcoin-Live-Signals/#webpage",
             "url": "https://sandroabashishvili.github.io/Bitcoin-Live-Signals/",
-            "name": "SmartSignalHub | Bitcoin Strategy Research",
-            "description": "A public Bitcoin strategy research project with simulated signals, positions, TP/SL levels, results, and decision reasons.",
+            "name": "Bitcoin Signals, Position Plans & News | SmartSignalHub",
+            "description": "Follow Bitcoin signals based on live market data, Entry/TP/SL plans, simulated outcomes, and relevant market news.",
             "isPartOf": {
               "@id": "https://sandroabashishvili.github.io/Bitcoin-Live-Signals/#website"
             }
@@ -70,8 +70,8 @@
         gtag('config', 'G-PLE3C4PMNF');
       }
     </script>
-    <link rel="stylesheet" href="/Bitcoin-Live-Signals/shared/components/css/navigation.css" />
-    <link rel="stylesheet" href="./home/css/styles.css" />
+    <link rel="stylesheet" href="/Bitcoin-Live-Signals/shared/components/css/navigation.css?v=20260809-2" />
+    <link rel="stylesheet" href="./home/css/styles.css?v=20260809-2" />
   </head>
   <body>
     <main class="page">
@@ -116,120 +116,76 @@
 
       <section class="hero">
         <div class="hero-copy">
-          <p class="eyebrow">Bitcoin strategy research · public simulation</p>
-          <h1>See how every Bitcoin signal is evaluated.</h1>
-          <p class="lead">SmartSignalHub is a personal software and data project. It publishes simulated Spot, Futures, and Hedge decisions together with positions, TP/SL levels, results, and clear decision reasons.</p>
+          <p class="eyebrow">Bitcoin market signals</p>
+          <h1>Bitcoin signals, position plans and market news.</h1>
+          <p class="lead">Follow indicator-based Spot and Futures signals from live market data, review Entry, Take Profit and Stop Loss plans, track simulated outcomes, and read relevant Bitcoin news in one place.</p>
+          <p class="scope-note"><strong>Live market data.</strong> Positions and performance are simulated.</p>
           <div class="actions">
-            <a class="button" href="/Bitcoin-Live-Signals/spot/dashboard/overview_spot/">Spot Dashboard</a>
-            <a class="button secondary" href="/Bitcoin-Live-Signals/futures/dashboard/overview_futures/">Futures Dashboard</a>
-            <a class="button secondary" href="/Bitcoin-Live-Signals/futures_hedge/dashboard/overview_hedge/">Hedge Dashboard</a>
+            <a class="button" href="/Bitcoin-Live-Signals/spot/dashboard/overview_spot/">View Spot signals</a>
+            <a class="button secondary" href="/Bitcoin-Live-Signals/futures/dashboard/overview_futures/">View Futures signals</a>
+            <a class="button secondary" href="./news/">Latest news</a>
           </div>
         </div>
 
-        <aside class="signal-board" aria-label="System overview">
-          <div class="board-head">
-            <span>Current Scope</span>
-            <strong class="status">Simulation · No real trading</strong>
+        <aside class="product-board" aria-label="What SmartSignalHub offers">
+          <div class="product-board-head">
+            <span>What you can check</span>
+            <strong>Live market data</strong>
           </div>
-          <div class="metrics">
-            <div class="metric">
-              <span>Spot</span>
-              <strong>BUY ONLY</strong>
-              <small>Simulated Bitcoin spot entries, open positions, and completed outcomes.</small>
-            </div>
-            <div class="metric">
-              <span>Futures</span>
-              <strong>LONG / SHORT</strong>
-              <small>Simulated directional positions with separate LONG and SHORT decisions.</small>
-            </div>
-            <div class="metric">
-              <span>Hedge</span>
-              <strong>PAPER REPLAY</strong>
-              <small>An experimental view of combined LONG and SHORT exposure using simulated data.</small>
-            </div>
-            <div class="metric">
-              <span>Position plan</span>
-              <strong>ENTRY · TP · SL</strong>
-              <small>The planned entry, target, stop, and final result remain visible.</small>
-            </div>
-            <div class="metric">
-              <span>History</span>
-              <strong>RESULTS</strong>
-              <small>Completed simulated trades are recorded for later comparison and research.</small>
-            </div>
-            <div class="metric">
-              <span>Research</span>
-              <strong>DIAGNOSTICS</strong>
-              <small>Accepted, rejected, and no-signal decisions can be reviewed instead of hidden.</small>
-            </div>
+          <div class="product-list">
+            <a class="product-card" href="/Bitcoin-Live-Signals/spot/dashboard/overview_spot/">
+              <span class="product-number">01</span>
+              <div>
+                <h2>Live Bitcoin signals</h2>
+                <p>Indicator-based Spot BUY and Futures LONG/SHORT signals.</p>
+              </div>
+              <span class="product-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="product-card" href="/Bitcoin-Live-Signals/futures/dashboard/portfolio_futures/">
+              <span class="product-number">02</span>
+              <div>
+                <h2>Position plans and results</h2>
+                <p>Entry, Take Profit, Stop Loss, open positions, and simulated outcomes.</p>
+              </div>
+              <span class="product-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="product-card" href="./news/">
+              <span class="product-number">03</span>
+              <div>
+                <h2>Relevant market news</h2>
+                <p>Selected Bitcoin and crypto-market headlines in one clear feed.</p>
+              </div>
+              <span class="product-arrow" aria-hidden="true">↗</span>
+            </a>
           </div>
         </aside>
       </section>
 
-      <section class="system-story" aria-labelledby="system-story-title">
-        <div class="section-heading">
-          <p class="eyebrow">How the system works</p>
-          <h2 id="system-story-title">One visible process, from market data to result.</h2>
-          <p>Market data produces a signal candidate. Portfolio rules decide whether a simulated position may open. The result is then recorded for analysis.</p>
-        </div>
-
-        <div class="workflow-grid">
-          <article class="workflow-card">
-            <span class="workflow-step">01</span>
-            <h3>Market data</h3>
-            <p>Multiple timeframes, price structure, momentum, trend, and order-flow data provide the input for each cycle.</p>
-          </article>
-          <article class="workflow-card">
-            <span class="workflow-step">02</span>
-            <h3>Signal candidate</h3>
-            <p>Spot can produce a BUY candidate. Futures evaluates LONG and SHORT. NO SIGNAL remains a valid and visible result.</p>
-          </article>
-          <article class="workflow-card">
-            <span class="workflow-step">03</span>
-            <h3>Portfolio checks</h3>
-            <p>Available capital, current exposure, timing, proximity, and existing positions are checked before a simulated entry.</p>
-          </article>
-          <article class="workflow-card">
-            <span class="workflow-step">04</span>
-            <h3>Recorded outcome</h3>
-            <p>Entry, TP, SL, profit or loss, and rejection reasons are stored so the strategy can be tested and improved.</p>
-          </article>
-        </div>
-
-        <div class="transparency-callout">
+      <section class="assistant-section" aria-labelledby="assistant-title">
+        <div class="assistant-heading">
           <div>
-            <p class="eyebrow">Scope and limits</p>
-            <h3>Research software, not a trading service.</h3>
-            <p>SmartSignalHub runs in simulation. It does not place real orders, promise profit, or provide trading instructions or financial advice.</p>
+            <p class="eyebrow">Stay connected</p>
+            <h2 id="assistant-title">Follow signals or ask about the project.</h2>
           </div>
-          <div class="callout-links">
-            <a href="/Bitcoin-Live-Signals/futures/dashboard/strategy_edge_futures/">Strategy diagnostics</a>
-            <a href="./news/">Market news</a>
-            <a href="./resources/">Resources</a>
+          <div class="assistant-secondary-links">
+            <a href="/Bitcoin-Live-Signals/futures/dashboard/trade_outcomes_futures/">Trade results ↗</a>
+            <a href="./resources/">Resources ↗</a>
           </div>
-        </div>
-      </section>
-
-      <section class="assistant-section" aria-labelledby="assistant-section-title">
-        <div class="section-heading">
-          <p class="eyebrow">Project companions</p>
-          <h2 id="assistant-section-title">Follow notifications or read an explanation.</h2>
-          <p>Telegram provides supported project notifications and commands. Mr.B explains documented concepts and dashboard terminology without pretending to control the live system.</p>
         </div>
         <div class="assistant-grid">
           <article class="assistant-card assistant-telegram">
             <div>
               <span class="assistant-kicker">Telegram bot</span>
-              <h3>Open the SmartSignalHub Telegram bot</h3>
-              <p>See the currently available commands and notifications. Availability depends on the running development system.</p>
+              <h3>Signal notifications in Telegram</h3>
+              <p>Open the bot for available Spot and Futures updates while the development system is running.</p>
             </div>
-            <a class="assistant-action" href="https://t.me/bitcoin_live_signals_bot" target="_blank" rel="noopener noreferrer">Start Telegram bot <span aria-hidden="true">↗</span></a>
+            <a class="assistant-action" href="https://t.me/bitcoin_live_signals_bot" target="_blank" rel="noopener noreferrer">Open Telegram <span aria-hidden="true">↗</span></a>
           </article>
           <article class="assistant-card assistant-mrb">
             <div>
               <span class="assistant-kicker">AI representative</span>
               <h3>Ask Mr.B about SmartSignalHub</h3>
-              <p>Mr.B explains documented signal logic, dashboard panels, rejected entries, and project limits. It has no guaranteed live-system access and gives no financial advice.</p>
+              <p>Get a plain-language explanation of dashboards, signal terms, and project limits.</p>
             </div>
             <a class="assistant-action" href="https://chatgpt.com/g/g-67b1e2c281888191a0cb0d1e8e384396-mr-b-smartsignalhub-ai-representative" target="_blank" rel="noopener noreferrer">Talk to Mr.B <span aria-hidden="true">↗</span></a>
           </article>
