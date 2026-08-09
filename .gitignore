@@ -1,0 +1,42 @@
+# Betriebssystem und Editoren
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Lokale Konfiguration und Zugangsdaten
+.env
+.env.*
+!.env.example
+
+# Logs und temporäre Dateien
+*.log
+*.tmp
+*.bak
+
+# Lokale Python-Umgebungen
+.venv/
+venv/
+
+# Python-Cache und Testausgaben
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Lokale Datenbanken
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Lokale JavaScript-Abhängigkeiten
+node_modules/
+.npm/
