@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-09",
-  "generated_at_utc": "2026-08-09 10:05:48 UTC",
+  "generated_at_utc": "2026-08-09 16:05:45 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,47 +16,47 @@
   "count": 12,
   "items": [
     {
-      "title": "Why crypto ‘audited' badges are giving investors a dangerous false sense of security",
-      "link": "https://cryptoslate.com/why-crypto-audited-badges-are-giving-investors-a-dangerous-false-sense-of-security/",
-      "summary": "At 1:30 p.m. UTC on Feb. 21, 2025, Bybit began moving funds from an Ethereum cold wallet to a warm wallet, the sort of routine transfer designed to make custody look boring. Authorized signers reviewed the destination on their screens and approved it, unaware that their screens were actually lying. Bybit later said the signing […] The post Why crypto ‘audited’ badges are giving investors a dangerous false sense of security appeared first on CryptoSlate.",
+      "title": "Michael Saylor reveals how ChatGPT helped Strategy unlock $15 billion for its Bitcoin machine",
+      "link": "https://cryptoslate.com/michael-saylor-reveals-how-ai-helped-strategy-unlock-15-billion-for-its-bitcoin-machine/",
+      "summary": "Michael Saylor says Strategy used AI to design a new class of preferred stocks that ultimately allowed the company to raise roughly $15 billion for its Bitcoin strategy. The Strategy executive chairman said he turned to AI after the company’s existing financing channels, including common-stock sales and convertible bonds, were becoming harder to scale. “I […] The post Michael Saylor reveals how ChatGPT helped Strategy unlock $15 billion for its Bitcoin machine appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-09",
       "date_human": "Aug 9, 2026",
-      "pub_ts": 1786269596,
+      "pub_ts": 1786291226,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/ethereum-transfer-interface-deception-collage.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/saylor-ai-credit-system.jpg"
       ],
-      "image": "../assets/news/2026-08-09/e6275202ac57f917_base.jpg",
-      "image_local": "../assets/news/2026-08-09/e6275202ac57f917_base.jpg"
+      "image": "../assets/news/2026-08-09/6789e576b670bc90_base.jpg",
+      "image_local": "../assets/news/2026-08-09/6789e576b670bc90_base.jpg"
     },
     {
-      "title": "Brazil targets crypto fraud with up to 24-hour transfer hold",
-      "link": "https://cointelegraph.com/news/brazil-targets-crypto-fraud-with-up-to-24-hour-transfer-hold",
-      "summary": "The rules, effective Jan. 1, 2027, cover transactions above $10,000 sent to overseas providers or self-custody wallets, along with other transfers flagged for review.",
-      "source": "Cointelegraph",
-      "date": "2026-08-09",
-      "date_human": "Aug 9, 2026",
-      "pub_ts": 1786266639,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-latin-america-and-blockchain-2.jpg"
-      ],
-      "image": "../assets/news/2026-08-09/1172847bae56f1cf_base.jpg",
-      "image_local": "../assets/news/2026-08-09/1172847bae56f1cf_base.jpg"
-    },
-    {
-      "title": "Controversial Bitcoin fork BIP-110 mines two blocks, then stops",
-      "link": "https://www.coindesk.com/tech/2026/08/09/controversial-bitcoin-fork-bip-110-mines-two-blocks-then-stops",
-      "summary": "Controversial Bitcoin fork BIP-110 mines two blocks, then stops",
+      "title": "Hyperliquid's RWA perps boom is eating into the revenue that backs HYPE",
+      "link": "https://www.coindesk.com/business/2026/08/09/hyperliquid-s-rwa-perps-boom-is-eating-into-the-revenue-that-backs-hype",
+      "summary": "Hyperliquid's RWA perps boom is eating into the revenue that backs HYPE",
       "source": "CoinDesk",
       "date": "2026-08-09",
       "date_human": "Aug 9, 2026",
-      "pub_ts": 1786252100,
+      "pub_ts": 1786287600,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/f224848aaca775da0faa59a78c4901d5e0ae5d09-2560x1707.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/f224848aaca775da0faa59a78c4901d5e0ae5d09-2560x1707.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/6b102cddb380dca88f7d3599a562e146ee51abda-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/6b102cddb380dca88f7d3599a562e146ee51abda-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-09/5a27316789a83962_base.jpg",
-      "image_local": "../assets/news/2026-08-09/5a27316789a83962_base.jpg"
+      "image": "../assets/news/2026-08-09/d7b53862c0334b11_base.jpg",
+      "image_local": "../assets/news/2026-08-09/d7b53862c0334b11_base.jpg"
+    },
+    {
+      "title": "BIP-110 Bitcoin branch stalls after two blocks as gap widens",
+      "link": "https://cointelegraph.com/news/bitcoin-bip-110-branch-stalls-miner-support",
+      "summary": "The enforcing fork remains stuck at Bitcoin’s full mining difficulty as mandatory signaling proceeds with little hashpower support.",
+      "source": "Cointelegraph",
+      "date": "2026-08-09",
+      "date_human": "Aug 9, 2026",
+      "pub_ts": 1786273253,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-coinbase-seeks-ipo.png"
+      ],
+      "image": "../assets/news/2026-08-09/c6fe0319b2e7f373_base.jpg",
+      "image_local": "../assets/news/2026-08-09/c6fe0319b2e7f373_base.jpg"
     },
     {
       "title": "Bitcoin Red Team Says AI Is Finding Critical Exploits Across Core Projects",
@@ -75,47 +75,47 @@
       "image_local": "../assets/news/2026-08-09/2440920df951e4cd_base.jpg"
     },
     {
-      "title": "Bitcoin and Ethereum ETFs break $1B in their best week since April and BlackRock brought in 80% of the cash",
-      "link": "https://cryptoslate.com/bitcoin-and-ethereum-etfs-break-1b-in-their-best-week-since-april-and-blackrock-brought-in-80-of-the-cash/",
-      "summary": "US-listed spot Bitcoin and Ethereum exchange-traded funds pulled in more than $1 billion in fresh cash this week, with both groups registering their strongest inflows since April as demand for regulated crypto investment products rebounded. Data from SoSoValue shows that spot Bitcoin ETFs attracted $853.54 million during the week ended Aug. 7, their biggest haul […] The post Bitcoin and Ethereum ETFs break $1B in their best week since April and BlackRock brought in 80% of the cash appeared first on CryptoSlate.",
+      "title": "Wall Street put $7B into tokenized funds, but under 1% is actually being used in DeFi",
+      "link": "https://cryptoslate.com/wall-street-put-7b-into-tokenized-funds-but-under-1-is-actually-being-used-in-defi/",
+      "summary": "DeFi recorded 99 hacks in the second quarter of 2026, more than any quarter on record in DeFiLlama's database. Real-world tokenized assets in use inside DeFi protocols have since climbed to nearly $3.97 billion, a fresh all-time high. DeFi gives tokenized assets something to do on-chain, turning them into collateral, lending liquidity, or inputs that […] The post Wall Street put $7B into tokenized funds, but under 1% is actually being used in DeFi appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-08",
-      "date_human": "Aug 8, 2026",
-      "pub_ts": 1786214418,
+      "date": "2026-08-09",
+      "date_human": "Aug 9, 2026",
+      "pub_ts": 1786287616,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/blackrock-etf-crane.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/defi-capital-refinery.jpg"
       ],
-      "image": "../assets/news/2026-08-09/405952f42c686530_base.jpg",
-      "image_local": "../assets/news/2026-08-09/405952f42c686530_base.jpg"
+      "image": "../assets/news/2026-08-09/5b0db6b541bc9918_base.jpg",
+      "image_local": "../assets/news/2026-08-09/5b0db6b541bc9918_base.jpg"
     },
     {
-      "title": "BTCPay restricts remote Lightning access after attackers steal funds",
-      "link": "https://cointelegraph.com/news/btcpay-restricts-remote-lightning-access-after-attackers-steal-funds",
-      "summary": "Foundation and Citadel21 reported drained Lightning nodes, but the total amount stolen and number of affected operators remain unknown.",
+      "title": "Bitcoin investors pour $853 million into spot ETFs. BlackRock's IBIT claims the bulk",
+      "link": "https://www.coindesk.com/markets/2026/08/09/bitcoin-investors-pour-usd853-million-into-spot-etfs-blackrock-s-ibit-claims-the-bulk",
+      "summary": "Bitcoin investors pour $853 million into spot ETFs. BlackRock's IBIT claims the bulk",
+      "source": "CoinDesk",
+      "date": "2026-08-09",
+      "date_human": "Aug 9, 2026",
+      "pub_ts": 1786285175,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/e183c12b5e1dbaf0e0175a58c3a9425adb7b3de5-1920x1440.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/e183c12b5e1dbaf0e0175a58c3a9425adb7b3de5-1920x1440.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-09/3890e6d68c35fb51_base.jpg",
+      "image_local": "../assets/news/2026-08-09/3890e6d68c35fb51_base.jpg"
+    },
+    {
+      "title": "Brazil targets crypto fraud with up to 24-hour transfer hold",
+      "link": "https://cointelegraph.com/news/brazil-targets-crypto-fraud-with-up-to-24-hour-transfer-hold",
+      "summary": "The rules, effective Jan. 1, 2027, cover transactions above $10,000 sent to overseas providers or self-custody wallets, along with other transfers flagged for review.",
       "source": "Cointelegraph",
       "date": "2026-08-09",
       "date_human": "Aug 9, 2026",
-      "pub_ts": 1786254367,
+      "pub_ts": 1786266639,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/thief-bitcoin.png"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-latin-america-and-blockchain-2.jpg"
       ],
-      "image": "../assets/news/2026-08-09/054b1bf67e0846b4_base.jpg",
-      "image_local": "../assets/news/2026-08-09/054b1bf67e0846b4_base.jpg"
-    },
-    {
-      "title": "Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins",
-      "link": "https://www.coindesk.com/tech/2026/08/07/frame-bitcoin-s-bip-110-enters-mandatory-signaling-with-less-than-3-miner-support",
-      "summary": "Bitcoin hits block 961,632 as the controversial BIP-110 soft fork attempt begins",
-      "source": "CoinDesk",
-      "date": "2026-08-08",
-      "date_human": "Aug 8, 2026",
-      "pub_ts": 1786219607,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/150bd8fd2754dee0949457a7279cad6ca896ec75-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/150bd8fd2754dee0949457a7279cad6ca896ec75-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-09/9f47b6ed8512ae7e_base.jpg",
-      "image_local": "../assets/news/2026-08-09/9f47b6ed8512ae7e_base.jpg"
+      "image": "../assets/news/2026-08-09/1172847bae56f1cf_base.jpg",
+      "image_local": "../assets/news/2026-08-09/1172847bae56f1cf_base.jpg"
     },
     {
       "title": "Senate Keeps Clarity Act Alive With Crypto Bill Vote Set for September",
@@ -134,47 +134,47 @@
       "image_local": "../assets/news/2026-08-09/4ec23a85b14d85a7_base.jpg"
     },
     {
-      "title": "Four years after FTX, crypto exchanges still prove assets without proving solvency",
-      "link": "https://cryptoslate.com/four-years-after-ftx-crypto-exchanges-still-prove-assets-without-proving-solvency/",
-      "summary": "A customer opens an exchange account, copies a string of numbers and follows a path through a Merkle tree. The page processes the request and returns a reassuring result: the customer’s balance was included in the exchange’s proof of reserves. The verification is most likely technically sound, establishing that the account appeared in a dataset […] The post Four years after FTX, crypto exchanges still prove assets without proving solvency appeared first on CryptoSlate.",
+      "title": "Never sell treasury model cracks again as 1,635 BTC is offloaded shrinking Empery reserves by 76% in weeks",
+      "link": "https://cryptoslate.com/never-sell-treasury-model-cracks-again-as-1635-btc-is-offloaded-shrinking-empery-reserves-by-76-in-weeks/",
+      "summary": "The company retained 1,279 BTC by Aug. 6, with 954 pledged against $35 million of debt. The post Never sell treasury model cracks again as 1,635 BTC is offloaded shrinking Empery reserves by 76% in weeks appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-08",
-      "date_human": "Aug 8, 2026",
-      "pub_ts": 1786209631,
+      "date": "2026-08-09",
+      "date_human": "Aug 9, 2026",
+      "pub_ts": 1786284020,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/proof-of-reserves-solvency-iceberg-collage.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/empery-collateral-box.jpg"
       ],
-      "image": "../assets/news/2026-08-09/f6b5160e6ae8f3af_base.jpg",
-      "image_local": "../assets/news/2026-08-09/f6b5160e6ae8f3af_base.jpg"
+      "image": "../assets/news/2026-08-09/a84d673a9ec97b8e_base.jpg",
+      "image_local": "../assets/news/2026-08-09/a84d673a9ec97b8e_base.jpg"
     },
     {
-      "title": "Bitcoin's BIP-110 enters mandatory signaling with miner support below 3%",
-      "link": "https://cointelegraph.com/news/bitcoin-bip-110-mandatory-signaling",
-      "summary": "The deployment milestone tests whether enforcing nodes can sustain the change amid limited miner signaling and discussion of a hard-fork fallback.",
-      "source": "Cointelegraph",
-      "date": "2026-08-08",
-      "date_human": "Aug 8, 2026",
-      "pub_ts": 1786223828,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/the-bitcoin-and-bitcoin-cash-wars.png"
-      ],
-      "image": "../assets/news/2026-08-09/563219a9ba301efc_base.jpg",
-      "image_local": "../assets/news/2026-08-09/563219a9ba301efc_base.jpg"
-    },
-    {
-      "title": "Hardware wallet sales in Russia more than double as new crypto rules near",
-      "link": "https://www.coindesk.com/business/2026/08/08/hardware-wallet-sales-in-russia-more-than-double-as-new-crypto-rules-near",
-      "summary": "Hardware wallet sales in Russia more than double as new crypto rules near",
+      "title": "Crypto is going through a massive dot-com style shakeout as over 100 projects fold in 2026",
+      "link": "https://www.coindesk.com/business/2026/08/09/crypto-is-going-through-a-massive-dot-com-style-shakeout-as-over-100-projects-fold-in-2026",
+      "summary": "Crypto is going through a massive dot-com style shakeout as over 100 projects fold in 2026",
       "source": "CoinDesk",
-      "date": "2026-08-08",
-      "date_human": "Aug 8, 2026",
-      "pub_ts": 1786211282,
+      "date": "2026-08-09",
+      "date_human": "Aug 9, 2026",
+      "pub_ts": 1786280400,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/30976665dd7fa778eff16c38318b48d658559cdb-1920x1282.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/30976665dd7fa778eff16c38318b48d658559cdb-1920x1282.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/81f618ac6bdaea07a26d87b8bd28ab48bc077e26-3500x2348.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/9ec4de39272adf8841b32cdceccdf8abe655e2fd-8256x5504.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-09/60fbf6a28b3a7bfe_base.jpg",
-      "image_local": "../assets/news/2026-08-09/60fbf6a28b3a7bfe_base.jpg"
+      "image": "../assets/news/2026-08-09/8de4e0a08e419da6_base.jpg",
+      "image_local": "../assets/news/2026-08-09/8de4e0a08e419da6_base.jpg"
+    },
+    {
+      "title": "BTCPay restricts remote Lightning access after attackers steal funds",
+      "link": "https://cointelegraph.com/news/btcpay-restricts-remote-lightning-access-after-attackers-steal-funds",
+      "summary": "Foundation and Citadel21 reported drained Lightning nodes, but the total amount stolen and number of affected operators remain unknown.",
+      "source": "Cointelegraph",
+      "date": "2026-08-09",
+      "date_human": "Aug 9, 2026",
+      "pub_ts": 1786254367,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/thief-bitcoin.png"
+      ],
+      "image": "../assets/news/2026-08-09/054b1bf67e0846b4_base.jpg",
+      "image_local": "../assets/news/2026-08-09/054b1bf67e0846b4_base.jpg"
     },
     {
       "title": "Robinhood Crypto Chief Explains Why There Are 'Two Wolves' Inside Robinhood Chain",
