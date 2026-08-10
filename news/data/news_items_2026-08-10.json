@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-10",
-  "generated_at_utc": "2026-08-10 04:05:30 UTC",
+  "generated_at_utc": "2026-08-10 10:05:39 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,32 +16,92 @@
   "count": 12,
   "items": [
     {
-      "title": "Crypto's first quantum attack will look like unexplained breach: Quantus founder",
-      "link": "https://cointelegraph.com/news/cryptos-first-quantum-attack-look-like-ordinary-key-theft-quantus-founder",
-      "summary": "Bad actors with access to a cryptography-breaking quantum computer probably won’t try to announce it to the world by hacking Satoshi Nakamoto’s high-profile Bitcoin wallets, crypto executives say.",
-      "source": "Cointelegraph",
-      "date": "2026-08-10",
-      "date_human": "Aug 10, 2026",
-      "pub_ts": 1786332893,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/quantum.jpg"
-      ],
-      "image": "../assets/news/2026-08-10/97c38f91a094b8ef_base.jpg",
-      "image_local": "../assets/news/2026-08-10/97c38f91a094b8ef_base.jpg"
-    },
-    {
-      "title": "Investors poured $82 million into Canary's XRP ETF, but falling prices erased double what they put in",
-      "link": "https://cryptoslate.com/investors-poured-82-million-into-canarys-xrp-etf-but-falling-prices-erased-double-what-they-put-in/",
-      "summary": "Unrealized XRP depreciation erased nearly twice the value added by net capital-share activity as token holdings rose 31.7%. The post Investors poured $82 million into Canary’s XRP ETF, but falling prices erased double what they put in appeared first on CryptoSlate.",
+      "title": "Crypto holders face an August 23 deadline to figure out who controls HTX or risk violating EU sanctions",
+      "link": "https://cryptoslate.com/european-crypto-holders-face-an-august-23-deadline-to-figure-out-who-controls-htx-or-risk-violating-eu-sanctions/",
+      "summary": "The law names “HTX (HUOBI GLOBAL SA),” while HTX previously said in a UK case that the company is separate from its online platform. The post Crypto holders face an August 23 deadline to figure out who controls HTX or risk violating EU sanctions appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-10",
       "date_human": "Aug 10, 2026",
-      "pub_ts": 1786324852,
+      "pub_ts": 1786354213,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/xrp-etf-asset-pressure.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/htx-august-23-cutoff.jpg"
       ],
-      "image": "../assets/news/2026-08-10/db9161502f2c7770_base.jpg",
-      "image_local": "../assets/news/2026-08-10/db9161502f2c7770_base.jpg"
+      "image": "../assets/news/2026-08-10/78721ba11ad84dd3_base.jpg",
+      "image_local": "../assets/news/2026-08-10/78721ba11ad84dd3_base.jpg"
+    },
+    {
+      "title": "A rare CME shift: Hedge funds abandon structural shorts to bet on a bitcoin rally",
+      "link": "https://www.coindesk.com/markets/2026/08/10/a-rare-cme-shift-hedge-funds-abandon-structural-shorts-to-bet-on-a-bitcoin-rally",
+      "summary": "A rare CME shift: Hedge funds abandon structural shorts to bet on a bitcoin rally",
+      "source": "CoinDesk",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786352972,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/96665eee3aaf5f2e4c6a8be5b5698ad14f60cfd5-4000x2250.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/96665eee3aaf5f2e4c6a8be5b5698ad14f60cfd5-4000x2250.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-10/672314afe7a4546c_base.jpg",
+      "image_local": "../assets/news/2026-08-10/672314afe7a4546c_base.jpg"
+    },
+    {
+      "title": "Bybit Sues North Korea Over $1.5B Hack, Wins Order Freezing Assets",
+      "link": "https://decrypt.co/375180/bybit-sues-north-korea-over-1-5b-hack-wins-order-freezing-assets",
+      "summary": "The exchange says it has recovered $48.4 million and frozen $30.5 million more, a fraction of what the Lazarus Group took in February 2025.",
+      "source": "Decrypt",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786352640,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/02/dprk-north-korea-hacker-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/dprk-north-korea-hacker-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/dprk-north-korea-hacker-decrypt-style-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-10/3462c5968c36ec08_base.jpg",
+      "image_local": "../assets/news/2026-08-10/3462c5968c36ec08_base.jpg"
+    },
+    {
+      "title": "UK regulators to prepare tokenized gold framework: Report",
+      "link": "https://cointelegraph.com/news/uk-regulators-tokenized-gold-framework-report",
+      "summary": "The UK’s FCA is reportedly preparing a regulatory framework for tokenized gold and how these products may be used as collateral assets in wholesale markets.",
+      "source": "Cointelegraph",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786346745,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-uk-and-crypto-fca.jpg"
+      ],
+      "image": "../assets/news/2026-08-10/6181f0330d4a1fcc_base.jpg",
+      "image_local": "../assets/news/2026-08-10/6181f0330d4a1fcc_base.jpg"
+    },
+    {
+      "title": "Over 2 million DOGE sit trapped in limbo as Dogechain keeps printing blocks past its final deadline",
+      "link": "https://cryptoslate.com/over-2-million-doge-sit-trapped-in-limbo-as-dogechain-keeps-printing-blocks-past-its-final-deadline/",
+      "summary": "The RPC and explorer advanced beyond noon, but QuickSwap’s Dogechain route still sent users to Polygon and bridge withdrawals remained unproven. The post Over 2 million DOGE sit trapped in limbo as Dogechain keeps printing blocks past its final deadline appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786350346,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/dogechain-service-failure.jpg"
+      ],
+      "image": "../assets/news/2026-08-10/663e765c087d0147_base.jpg",
+      "image_local": "../assets/news/2026-08-10/663e765c087d0147_base.jpg"
+    },
+    {
+      "title": "U.S. CPI inflation, Securitize, Gemini among earnings reports: Crypto Week Ahead",
+      "link": "https://www.coindesk.com/markets/2026/08/10/u-s-cpi-inflation-securitize-gemini-among-earnings-reports-crypto-week-ahead",
+      "summary": "U.S. CPI inflation, Securitize, Gemini among earnings reports: Crypto Week Ahead",
+      "source": "CoinDesk",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786352224,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/f93a68faff56e9b07fbb81cf8ad37ba84d47c186-4920x2768.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/f93a68faff56e9b07fbb81cf8ad37ba84d47c186-4920x2768.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-10/f38ac0fd36d37409_base.jpg",
+      "image_local": "../assets/news/2026-08-10/f38ac0fd36d37409_base.jpg"
     },
     {
       "title": "Bitcoin 'Anti-Spam' Fork Sputters to a Halt After Mining Just Two Blocks",
@@ -60,47 +120,47 @@
       "image_local": "../assets/news/2026-08-10/6c0bdffcb78fb74d_base.jpg"
     },
     {
-      "title": "Is Clarity's delay a blessing in disguise?: State of Crypto",
-      "link": "https://www.coindesk.com/policy/2026/08/09/is-clarity-s-delay-a-blessing-in-disguise-state-of-crypto",
-      "summary": "Is Clarity's delay a blessing in disguise?: State of Crypto",
-      "source": "CoinDesk",
-      "date": "2026-08-09",
-      "date_human": "Aug 9, 2026",
-      "pub_ts": 1786300200,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/eb8dcd6a8ff7a00d092a7e659c13193ec9cd42ea-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/eb8dcd6a8ff7a00d092a7e659c13193ec9cd42ea-1920x1080.jpg?auto=format&q=75"
-      ],
-      "image": "../assets/news/2026-08-10/7924836c0ad799c4_base.jpg",
-      "image_local": "../assets/news/2026-08-10/7924836c0ad799c4_base.jpg"
-    },
-    {
-      "title": "BIP-110 dies with a whimper, CLARITY vote punted: Hodler's Digest, Aug. 9",
-      "link": "https://cointelegraph.com/magazine/bip-110-dies-with-a-whimper-clarity-vote-punted-hodlers-digest-aug-9",
-      "summary": "BIP-110 forks itself into oblivion with a “2-block chain” and CLARITY will finally get a Senate vote in September. The odds say that vote will be a No.",
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
       "date": "2026-08-10",
       "date_human": "Aug 10, 2026",
-      "pub_ts": 1786321941,
+      "pub_ts": 1786341600,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hodlers"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-08-10/e1f67a43d01cb653_base.jpg",
-      "image_local": "../assets/news/2026-08-10/e1f67a43d01cb653_base.jpg"
+      "image": "../assets/news/2026-08-10/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-10/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "In just 190 seconds, Grayscale quietly pulled the plug on three major altcoin ETFs",
-      "link": "https://cryptoslate.com/in-just-190-seconds-grayscale-quietly-pulled-the-plug-on-three-major-altcoin-etfs/",
-      "summary": "Cardano, Hedera and Polkadot registration withdrawals gave no reason for the retreat, while five other Grayscale altcoin filings remained preliminary. The post In just 190 seconds, Grayscale quietly pulled the plug on three major altcoin ETFs appeared first on CryptoSlate.",
+      "title": "Swapping a $23M business for $1M cash while banking on locked WLFI tokens shows how dire crypto balance sheets have become",
+      "link": "https://cryptoslate.com/swapping-a-23m-business-for-1m-cash-while-banking-on-locked-wlfi-tokens-shows-how-dire-crypto-balance-sheets-have-become/",
+      "summary": "The buyer owes $11 million later, while 3.58 billion WLFI still need registration effectiveness to become transferable. The post Swapping a $23M business for $1M cash while banking on locked WLFI tokens shows how dire crypto balance sheets have become appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-10",
       "date_human": "Aug 10, 2026",
-      "pub_ts": 1786321216,
+      "pub_ts": 1786346706,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/grayscale-etf-roadblocks.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/ai-financial-tightrope-risk.jpg"
       ],
-      "image": "../assets/news/2026-08-10/5402e91c67c66868_base.jpg",
-      "image_local": "../assets/news/2026-08-10/5402e91c67c66868_base.jpg"
+      "image": "../assets/news/2026-08-10/894931a349751dc5_base.jpg",
+      "image_local": "../assets/news/2026-08-10/894931a349751dc5_base.jpg"
+    },
+    {
+      "title": "Inside stablecoin firm BVNK's journey to a $1.8B acquisition by Mastercard",
+      "link": "https://www.coindesk.com/business/2026/08/10/inside-stablecoin-firm-bvnk-s-journey-to-a-usd1-8b-acquisition-by-mastercard",
+      "summary": "Inside stablecoin firm BVNK's journey to a $1.8B acquisition by Mastercard",
+      "source": "CoinDesk",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786348320,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/b1099fc28972e0ad7e7b65cb3c0555457bdef222-3888x2592.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/b1099fc28972e0ad7e7b65cb3c0555457bdef222-3888x2592.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-10/fe7c432b649f137d_base.jpg",
+      "image_local": "../assets/news/2026-08-10/fe7c432b649f137d_base.jpg"
     },
     {
       "title": "Bitcoin Red Team Says AI Is Finding Critical Exploits Across Core Projects",
@@ -119,78 +179,18 @@
       "image_local": "../assets/news/2026-08-10/2440920df951e4cd_base.jpg"
     },
     {
-      "title": "Hyperliquid's RWA perps boom is eating into the revenue that backs HYPE",
-      "link": "https://www.coindesk.com/business/2026/08/09/hyperliquid-s-rwa-perps-boom-is-eating-into-the-revenue-that-backs-hype",
-      "summary": "Hyperliquid's RWA perps boom is eating into the revenue that backs HYPE",
-      "source": "CoinDesk",
-      "date": "2026-08-09",
-      "date_human": "Aug 9, 2026",
-      "pub_ts": 1786287600,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/6b102cddb380dca88f7d3599a562e146ee51abda-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/6b102cddb380dca88f7d3599a562e146ee51abda-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-10/d7b53862c0334b11_base.jpg",
-      "image_local": "../assets/news/2026-08-10/d7b53862c0334b11_base.jpg"
-    },
-    {
-      "title": "Ex-US defense secretary calls CLARITY Act a ‘national security bill'",
-      "link": "https://cointelegraph.com/news/ex-us-defense-secretary-calls-clarity-act-a-national-security-bill",
-      "summary": "Former US Defense Secretary Mark Esper says the CLARITY Act is not merely a financial services bill, its a national security one.",
+      "title": "Bitcoin Red Team founder turns to Chinese AI: ‘It absolutely guts me'",
+      "link": "https://cointelegraph.com/news/bitcoin-red-team-founder-turns-to-chinese-ai",
+      "summary": "Bitcoin Red Team has now found 1,288 critical and high-level vulnerabilities in the Bitcoin ecosystem as of Saturday.",
       "source": "Cointelegraph",
       "date": "2026-08-10",
       "date_human": "Aug 10, 2026",
-      "pub_ts": 1786321894,
+      "pub_ts": 1786339107,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-mad-max-fury-road.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/ai-gut.jpg"
       ],
-      "image": "../assets/news/2026-08-10/bfda2868b2beb004_base.jpg",
-      "image_local": "../assets/news/2026-08-10/bfda2868b2beb004_base.jpg"
-    },
-    {
-      "title": "A pre-revenue AI crypto startup funneled $12 million into EV as bad crypto trades erased 97% of cash in six months",
-      "link": "https://cryptoslate.com/a-pre-revenue-ai-crypto-startup-funneled-12-million-into-ev-as-bad-crypto-trades-erased-97-of-cash-in-six-months/",
-      "summary": "The pre-revenue company ended June with $577,328 in cash while its RoboShare pilot and discounted equity facility remained conditional. The post A pre-revenue AI crypto startup funneled $12 million into EV as bad crypto trades erased 97% of cash in six months appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-09",
-      "date_human": "Aug 9, 2026",
-      "pub_ts": 1786316747,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/aixcrypto-cash-drain.jpg"
-      ],
-      "image": "../assets/news/2026-08-10/af3c6c4d1fdf7a50_base.jpg",
-      "image_local": "../assets/news/2026-08-10/af3c6c4d1fdf7a50_base.jpg"
-    },
-    {
-      "title": "Senate Keeps Clarity Act Alive With Crypto Bill Vote Set for September",
-      "link": "https://decrypt.co/375174/senate-keeps-clarity-act-alive-with-crypto-bill-vote-set-for-september",
-      "summary": "Senate Majority Leader John Thune filed the motion to proceed early Saturday, setting up a mid-September showdown.",
-      "source": "Decrypt",
-      "date": "2026-08-08",
-      "date_human": "Aug 8, 2026",
-      "pub_ts": 1786206782,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/US-Capitol-decrypt-style-01-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/US-Capitol-decrypt-style-01-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/US-Capitol-decrypt-style-01-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-10/4ec23a85b14d85a7_base.jpg",
-      "image_local": "../assets/news/2026-08-10/4ec23a85b14d85a7_base.jpg"
-    },
-    {
-      "title": "Bitcoin investors pour $853 million into spot ETFs. BlackRock's IBIT claims the bulk",
-      "link": "https://www.coindesk.com/markets/2026/08/09/bitcoin-investors-pour-usd853-million-into-spot-etfs-blackrock-s-ibit-claims-the-bulk",
-      "summary": "Bitcoin investors pour $853 million into spot ETFs. BlackRock's IBIT claims the bulk",
-      "source": "CoinDesk",
-      "date": "2026-08-09",
-      "date_human": "Aug 9, 2026",
-      "pub_ts": 1786285175,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/e183c12b5e1dbaf0e0175a58c3a9425adb7b3de5-1920x1440.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/e183c12b5e1dbaf0e0175a58c3a9425adb7b3de5-1920x1440.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-10/3890e6d68c35fb51_base.jpg",
-      "image_local": "../assets/news/2026-08-10/3890e6d68c35fb51_base.jpg"
+      "image": "../assets/news/2026-08-10/db8e05f1077f0ba7_base.jpg",
+      "image_local": "../assets/news/2026-08-10/db8e05f1077f0ba7_base.jpg"
     }
   ]
 }
