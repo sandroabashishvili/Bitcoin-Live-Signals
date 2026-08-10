@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-08-09",
-  "generated_at_utc": "2026-08-09 22:05:29 UTC",
+  "day_iso": "2026-08-10",
+  "generated_at_utc": "2026-08-10 04:05:30 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,18 +16,32 @@
   "count": 12,
   "items": [
     {
-      "title": "With $0 in revenue and 35 idle machines in storage, an inactive Bitcoin miner printed 1.65 billion shares to stay alive",
-      "link": "https://cryptoslate.com/with-0-in-revenue-and-35-idle-machines-in-storage-an-inactive-bitcoin-miner-printed-1-65-billion-shares-to-stay-alive/",
-      "summary": "Only 800 million of those shares raised $700,000 in cash as the inactive miner searched for an operating restart. The post With $0 in revenue and 35 idle machines in storage, an inactive Bitcoin miner printed 1.65 billion shares to stay alive appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-09",
-      "date_human": "Aug 9, 2026",
-      "pub_ts": 1786312812,
+      "title": "Crypto's first quantum attack will look like unexplained breach: Quantus founder",
+      "link": "https://cointelegraph.com/news/cryptos-first-quantum-attack-look-like-ordinary-key-theft-quantus-founder",
+      "summary": "Bad actors with access to a cryptography-breaking quantum computer probably won’t try to announce it to the world by hacking Satoshi Nakamoto’s high-profile Bitcoin wallets, crypto executives say.",
+      "source": "Cointelegraph",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786332893,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/mgt-empty-cash-jar.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/quantum.jpg"
       ],
-      "image": "../assets/news/2026-08-09/0af72c4458da69e3_base.jpg",
-      "image_local": "../assets/news/2026-08-09/0af72c4458da69e3_base.jpg"
+      "image": "../assets/news/2026-08-10/97c38f91a094b8ef_base.jpg",
+      "image_local": "../assets/news/2026-08-10/97c38f91a094b8ef_base.jpg"
+    },
+    {
+      "title": "Investors poured $82 million into Canary's XRP ETF, but falling prices erased double what they put in",
+      "link": "https://cryptoslate.com/investors-poured-82-million-into-canarys-xrp-etf-but-falling-prices-erased-double-what-they-put-in/",
+      "summary": "Unrealized XRP depreciation erased nearly twice the value added by net capital-share activity as token holdings rose 31.7%. The post Investors poured $82 million into Canary’s XRP ETF, but falling prices erased double what they put in appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786324852,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/xrp-etf-asset-pressure.jpg"
+      ],
+      "image": "../assets/news/2026-08-10/db9161502f2c7770_base.jpg",
+      "image_local": "../assets/news/2026-08-10/db9161502f2c7770_base.jpg"
     },
     {
       "title": "Bitcoin 'Anti-Spam' Fork Sputters to a Halt After Mining Just Two Blocks",
@@ -42,8 +56,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/Bitcoin-decrypt-style-23-gID_7.jpg@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/Bitcoin-decrypt-style-23-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-09/6c0bdffcb78fb74d_base.jpg",
-      "image_local": "../assets/news/2026-08-09/6c0bdffcb78fb74d_base.jpg"
+      "image": "../assets/news/2026-08-10/6c0bdffcb78fb74d_base.jpg",
+      "image_local": "../assets/news/2026-08-10/6c0bdffcb78fb74d_base.jpg"
     },
     {
       "title": "Is Clarity's delay a blessing in disguise?: State of Crypto",
@@ -57,36 +71,36 @@
         "https://cdn.sanity.io/images/s3y3vcno/production/eb8dcd6a8ff7a00d092a7e659c13193ec9cd42ea-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
         "https://cdn.sanity.io/images/s3y3vcno/production/eb8dcd6a8ff7a00d092a7e659c13193ec9cd42ea-1920x1080.jpg?auto=format&q=75"
       ],
-      "image": "../assets/news/2026-08-09/7924836c0ad799c4_base.jpg",
-      "image_local": "../assets/news/2026-08-09/7924836c0ad799c4_base.jpg"
+      "image": "../assets/news/2026-08-10/7924836c0ad799c4_base.jpg",
+      "image_local": "../assets/news/2026-08-10/7924836c0ad799c4_base.jpg"
     },
     {
-      "title": "BIP-110 Bitcoin branch stalls after two blocks as gap widens",
-      "link": "https://cointelegraph.com/news/bitcoin-bip-110-branch-stalls-miner-support",
-      "summary": "The enforcing fork remains stuck at Bitcoin’s full mining difficulty as mandatory signaling proceeds with little hashpower support.",
+      "title": "BIP-110 dies with a whimper, CLARITY vote punted: Hodler's Digest, Aug. 9",
+      "link": "https://cointelegraph.com/magazine/bip-110-dies-with-a-whimper-clarity-vote-punted-hodlers-digest-aug-9",
+      "summary": "BIP-110 forks itself into oblivion with a “2-block chain” and CLARITY will finally get a Senate vote in September. The odds say that vote will be a No.",
       "source": "Cointelegraph",
-      "date": "2026-08-09",
-      "date_human": "Aug 9, 2026",
-      "pub_ts": 1786273253,
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786321941,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-coinbase-seeks-ipo.png"
+        "https://s3-images.ctmedia.io/media/article-covers/hodlers"
       ],
-      "image": "../assets/news/2026-08-09/c6fe0319b2e7f373_base.jpg",
-      "image_local": "../assets/news/2026-08-09/c6fe0319b2e7f373_base.jpg"
+      "image": "../assets/news/2026-08-10/e1f67a43d01cb653_base.jpg",
+      "image_local": "../assets/news/2026-08-10/e1f67a43d01cb653_base.jpg"
     },
     {
-      "title": "Crypto holders face an Aug 27 deadline to save 21 tokens before Kraken liquidates them into thin order books",
-      "link": "https://cryptoslate.com/crypto-holders-face-an-aug-27-deadline-to-save-21-tokens-before-kraken-liquidates-them-into-thin-order-books/",
-      "summary": "Withdrawals close at 14:00 UTC, then thin markets could determine what automatic liquidation returns. The post Crypto holders face an Aug 27 deadline to save 21 tokens before Kraken liquidates them into thin order books appeared first on CryptoSlate.",
+      "title": "In just 190 seconds, Grayscale quietly pulled the plug on three major altcoin ETFs",
+      "link": "https://cryptoslate.com/in-just-190-seconds-grayscale-quietly-pulled-the-plug-on-three-major-altcoin-etfs/",
+      "summary": "Cardano, Hedera and Polkadot registration withdrawals gave no reason for the retreat, while five other Grayscale altcoin filings remained preliminary. The post In just 190 seconds, Grayscale quietly pulled the plug on three major altcoin ETFs appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-09",
-      "date_human": "Aug 9, 2026",
-      "pub_ts": 1786309213,
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786321216,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/kraken-token-scrapyard.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/grayscale-etf-roadblocks.jpg"
       ],
-      "image": "../assets/news/2026-08-09/e5413056ef3d1a70_base.jpg",
-      "image_local": "../assets/news/2026-08-09/e5413056ef3d1a70_base.jpg"
+      "image": "../assets/news/2026-08-10/5402e91c67c66868_base.jpg",
+      "image_local": "../assets/news/2026-08-10/5402e91c67c66868_base.jpg"
     },
     {
       "title": "Bitcoin Red Team Says AI Is Finding Critical Exploits Across Core Projects",
@@ -101,8 +115,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-17-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-17-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-09/2440920df951e4cd_base.jpg",
-      "image_local": "../assets/news/2026-08-09/2440920df951e4cd_base.jpg"
+      "image": "../assets/news/2026-08-10/2440920df951e4cd_base.jpg",
+      "image_local": "../assets/news/2026-08-10/2440920df951e4cd_base.jpg"
     },
     {
       "title": "Hyperliquid's RWA perps boom is eating into the revenue that backs HYPE",
@@ -116,36 +130,36 @@
         "https://cdn.sanity.io/images/s3y3vcno/production/6b102cddb380dca88f7d3599a562e146ee51abda-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
         "https://cdn.sanity.io/images/s3y3vcno/production/6b102cddb380dca88f7d3599a562e146ee51abda-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-09/d7b53862c0334b11_base.jpg",
-      "image_local": "../assets/news/2026-08-09/d7b53862c0334b11_base.jpg"
+      "image": "../assets/news/2026-08-10/d7b53862c0334b11_base.jpg",
+      "image_local": "../assets/news/2026-08-10/d7b53862c0334b11_base.jpg"
     },
     {
-      "title": "Brazil targets crypto fraud with up to 24-hour transfer hold",
-      "link": "https://cointelegraph.com/news/brazil-targets-crypto-fraud-with-up-to-24-hour-transfer-hold",
-      "summary": "The rules, effective Jan. 1, 2027, cover transactions above $10,000 sent to overseas providers or self-custody wallets, along with other transfers flagged for review.",
+      "title": "Ex-US defense secretary calls CLARITY Act a ‘national security bill'",
+      "link": "https://cointelegraph.com/news/ex-us-defense-secretary-calls-clarity-act-a-national-security-bill",
+      "summary": "Former US Defense Secretary Mark Esper says the CLARITY Act is not merely a financial services bill, its a national security one.",
       "source": "Cointelegraph",
-      "date": "2026-08-09",
-      "date_human": "Aug 9, 2026",
-      "pub_ts": 1786266639,
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786321894,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-latin-america-and-blockchain-2.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-mad-max-fury-road.jpg"
       ],
-      "image": "../assets/news/2026-08-09/1172847bae56f1cf_base.jpg",
-      "image_local": "../assets/news/2026-08-09/1172847bae56f1cf_base.jpg"
+      "image": "../assets/news/2026-08-10/bfda2868b2beb004_base.jpg",
+      "image_local": "../assets/news/2026-08-10/bfda2868b2beb004_base.jpg"
     },
     {
-      "title": "A proposed Ethereum upgrade threatens to kill native yield and force SharpLink's $125M treasury into high-risk DeFi",
-      "link": "https://cryptoslate.com/a-proposed-ethereum-upgrade-threatens-to-kill-native-yield-and-force-sharplinks-125m-treasury-into-high-risk-defi/",
-      "summary": "EIP-8363 would drive net consensus yield to zero at 60.25 million ETH staked, shifting the burden toward variable fees, MEV and DeFi returns. The post A proposed Ethereum upgrade threatens to kill native yield and force SharpLink’s $125M treasury into high-risk DeFi appeared first on CryptoSlate.",
+      "title": "A pre-revenue AI crypto startup funneled $12 million into EV as bad crypto trades erased 97% of cash in six months",
+      "link": "https://cryptoslate.com/a-pre-revenue-ai-crypto-startup-funneled-12-million-into-ev-as-bad-crypto-trades-erased-97-of-cash-in-six-months/",
+      "summary": "The pre-revenue company ended June with $577,328 in cash while its RoboShare pilot and discounted equity facility remained conditional. The post A pre-revenue AI crypto startup funneled $12 million into EV as bad crypto trades erased 97% of cash in six months appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-09",
       "date_human": "Aug 9, 2026",
-      "pub_ts": 1786305607,
+      "pub_ts": 1786316747,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/sharplink-ethereum-checkpoint.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/aixcrypto-cash-drain.jpg"
       ],
-      "image": "../assets/news/2026-08-09/011bfad43a012863_base.jpg",
-      "image_local": "../assets/news/2026-08-09/011bfad43a012863_base.jpg"
+      "image": "../assets/news/2026-08-10/af3c6c4d1fdf7a50_base.jpg",
+      "image_local": "../assets/news/2026-08-10/af3c6c4d1fdf7a50_base.jpg"
     },
     {
       "title": "Senate Keeps Clarity Act Alive With Crypto Bill Vote Set for September",
@@ -160,8 +174,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/US-Capitol-decrypt-style-01-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/US-Capitol-decrypt-style-01-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-09/4ec23a85b14d85a7_base.jpg",
-      "image_local": "../assets/news/2026-08-09/4ec23a85b14d85a7_base.jpg"
+      "image": "../assets/news/2026-08-10/4ec23a85b14d85a7_base.jpg",
+      "image_local": "../assets/news/2026-08-10/4ec23a85b14d85a7_base.jpg"
     },
     {
       "title": "Bitcoin investors pour $853 million into spot ETFs. BlackRock's IBIT claims the bulk",
@@ -175,22 +189,8 @@
         "https://cdn.sanity.io/images/s3y3vcno/production/e183c12b5e1dbaf0e0175a58c3a9425adb7b3de5-1920x1440.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
         "https://cdn.sanity.io/images/s3y3vcno/production/e183c12b5e1dbaf0e0175a58c3a9425adb7b3de5-1920x1440.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-09/3890e6d68c35fb51_base.jpg",
-      "image_local": "../assets/news/2026-08-09/3890e6d68c35fb51_base.jpg"
-    },
-    {
-      "title": "BTCPay restricts remote Lightning access after attackers steal funds",
-      "link": "https://cointelegraph.com/news/btcpay-restricts-remote-lightning-access-after-attackers-steal-funds",
-      "summary": "Foundation and Citadel21 reported drained Lightning nodes, but the total amount stolen and number of affected operators remain unknown.",
-      "source": "Cointelegraph",
-      "date": "2026-08-09",
-      "date_human": "Aug 9, 2026",
-      "pub_ts": 1786254367,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/thief-bitcoin.png"
-      ],
-      "image": "../assets/news/2026-08-09/054b1bf67e0846b4_base.jpg",
-      "image_local": "../assets/news/2026-08-09/054b1bf67e0846b4_base.jpg"
+      "image": "../assets/news/2026-08-10/3890e6d68c35fb51_base.jpg",
+      "image_local": "../assets/news/2026-08-10/3890e6d68c35fb51_base.jpg"
     }
   ]
 }
