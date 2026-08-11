@@ -1,0 +1,196 @@
+{
+  "day_iso": "2026-08-11",
+  "generated_at_utc": "2026-08-11 04:05:55 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Trump Media to revamp crypto treasury strategy after $238M Q2 loss",
+      "link": "https://cointelegraph.com/news/trump-media-crypto-treasury-strategy-after-238m-loss",
+      "summary": "Trump Media says it will take a more disciplined approach to its crypto treasury while directing more resources toward its core media business.",
+      "source": "Cointelegraph",
+      "date": "2026-08-11",
+      "date_human": "Aug 11, 2026",
+      "pub_ts": 1786418487,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/trump-bitcoin.jpg"
+      ],
+      "image": "../assets/news/2026-08-11/9dc1da16b5c23c97_base.jpg",
+      "image_local": "../assets/news/2026-08-11/9dc1da16b5c23c97_base.jpg"
+    },
+    {
+      "title": "Grayscale turned more than $1.1 billion of staked crypto into a recurring reward-sale machine for ETF holders",
+      "link": "https://cryptoslate.com/grayscale-turned-more-than-1-1-billion-of-staked-crypto-into-a-recurring-reward-sale-machine-for-etf-holders/",
+      "summary": "ETHE, GSOL and GAVA must sell earned rewards at least quarterly, creating recurring cash payouts without scheduling principal liquidation. The post Grayscale turned more than $1.1 billion of staked crypto into a recurring reward-sale machine for ETF holders appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-11",
+      "date_human": "Aug 11, 2026",
+      "pub_ts": 1786408238,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/staking-rewards-cash-press.jpg"
+      ],
+      "image": "../assets/news/2026-08-11/6a47c7f097b4bc52_base.jpg",
+      "image_local": "../assets/news/2026-08-11/6a47c7f097b4bc52_base.jpg"
+    },
+    {
+      "title": "Vitalik Buterin Says Ethereum Is Betting Its Future on Quantum Security and AI",
+      "link": "https://decrypt.co/375285/vitalik-buterin-ethereum-betting-future-quantum-ai",
+      "summary": "Ethereum’s updated roadmap puts quantum resistance, privacy and AI-assisted formal verification at the center of the network’s technical ambitions.",
+      "source": "Decrypt",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786398502,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/vitalik-buterin-ethereum-decrypt-style-05-1-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/vitalik-buterin-ethereum-decrypt-style-05-1-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/vitalik-buterin-ethereum-decrypt-style-05-1-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-11/bbd744d42a22d9ef_base.jpg",
+      "image_local": "../assets/news/2026-08-11/bbd744d42a22d9ef_base.jpg"
+    },
+    {
+      "title": "Trump Media's bitcoin holdings shrink as crypto losses hit $361 million",
+      "link": "https://www.coindesk.com/business/2026/08/10/trump-media-s-bitcoin-holdings-shrink-as-crypto-losses-hit-usd361-million",
+      "summary": "Trump Media's bitcoin holdings shrink as crypto losses hit $361 million",
+      "source": "CoinDesk",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786396327,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/6e4532d237786704984596878a883a023b94ba32-4540x2554.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/6e4532d237786704984596878a883a023b94ba32-4540x2554.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-11/08aab75b47cc571d_base.jpg",
+      "image_local": "../assets/news/2026-08-11/08aab75b47cc571d_base.jpg"
+    },
+    {
+      "title": "Thailand's 0% crypto tax. Bitcoin Red Team forced to use Chinese AI: Asia Express",
+      "link": "https://cointelegraph.com/magazine/thailands-0-crypto-tax-bitcoin-red-team-forced-to-use-chinese-ai-asia-express",
+      "summary": "The Bitcoin Red Team has been forced to rely on open source Chinese AI, after OpenAI restricted access. Thailand sets crypto tax to 0% in bid to become crypto hub.",
+      "source": "Cointelegraph",
+      "date": "2026-08-11",
+      "date_human": "Aug 11, 2026",
+      "pub_ts": 1786414116,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/asia-express-8.jpg"
+      ],
+      "image": "../assets/news/2026-08-11/0b5afa01396ba9af_base.jpg",
+      "image_local": "../assets/news/2026-08-11/0b5afa01396ba9af_base.jpg"
+    },
+    {
+      "title": "South Korea puts crypto exchanges on a seven-day clock under new seizure rules",
+      "link": "https://cryptoslate.com/south-korea-puts-crypto-exchanges-on-a-seven-day-clock-under-new-seizure-rules/",
+      "summary": "Civil creditors could compel custodians to freeze, disclose, transfer, swap and sell debtors’ assets if the rules advance. The post South Korea puts crypto exchanges on a seven-day clock under new seizure rules appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786401022,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/korea-crypto-assets-freeze.jpg"
+      ],
+      "image": "../assets/news/2026-08-11/1fbb91aa54396f23_base.jpg",
+      "image_local": "../assets/news/2026-08-11/1fbb91aa54396f23_base.jpg"
+    },
+    {
+      "title": "Bitcoin ATMs Pulled in Australia as Regulators Signal Wider Crackdown",
+      "link": "https://decrypt.co/375282/bitcoin-atms-pulled-australia-regulators-crackdown",
+      "summary": "AUSTRAC has suspended the registration of the operator running 96 of Australia's roughly 1,800 crypto ATMs, effective August 9.",
+      "source": "Decrypt",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786395763,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/05/decrypt-style-bitcoin-atm-cropped-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/05/decrypt-style-bitcoin-atm-cropped-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/05/decrypt-style-bitcoin-atm-cropped-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-11/77fd393bdeb8a406_base.jpg",
+      "image_local": "../assets/news/2026-08-11/77fd393bdeb8a406_base.jpg"
+    },
+    {
+      "title": "Bitwise's Rasmussen: Circle is mispriced as stablecoins head toward trillions",
+      "link": "https://www.coindesk.com/coindesk-news/2026/08/10/bitwise-s-rasmussen-circle-is-mispriced-as-stablecoins-head-toward-trillions",
+      "summary": "Bitwise's Rasmussen: Circle is mispriced as stablecoins head toward trillions",
+      "source": "CoinDesk",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786393206,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/835764b08ab8abdafd0f6ee31e2021d0e7b9ce05-1026x576.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/835764b08ab8abdafd0f6ee31e2021d0e7b9ce05-1026x576.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-11/2011c9384f0a1d0e_base.jpg",
+      "image_local": "../assets/news/2026-08-11/2011c9384f0a1d0e_base.jpg"
+    },
+    {
+      "title": "Judge stays CFTC's case against US soldier over prediction market bets",
+      "link": "https://cointelegraph.com/news/cftc-us-solider-insider-trading-polymarket-nicolas-maduro",
+      "summary": "A New York judge granted a motion filed by US prosecutors in July to stay the CFTC’s civil case against Gannon Ken Van Dyke over making more than $400,000 on prediction markets.",
+      "source": "Cointelegraph",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786395059,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/judge-hammer-regulation-cftc-1.jpg"
+      ],
+      "image": "../assets/news/2026-08-11/b2fd160c04dbd066_base.jpg",
+      "image_local": "../assets/news/2026-08-11/b2fd160c04dbd066_base.jpg"
+    },
+    {
+      "title": "Athena Bitcoin agreed to a $4.5 million settlement, but claimants may have less than $3 million to split",
+      "link": "https://cryptoslate.com/athena-bitcoin-agreed-to-a-4-5-million-settlement-but-claimants-may-have-less-than-3-million-to-split/",
+      "summary": "If the court grants the proposed fee and expenses stay within the stated estimate, at least $2.985 million remains before other deductions. The post Athena Bitcoin agreed to a $4.5 million settlement, but claimants may have less than $3 million to split appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786400150,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/athena.jpg"
+      ],
+      "image": "../assets/news/2026-08-11/5adba0eaa3b91dbd_base.jpg",
+      "image_local": "../assets/news/2026-08-11/5adba0eaa3b91dbd_base.jpg"
+    },
+    {
+      "title": "Hidden Text in PDFs Is Hijacking This AI Assistant",
+      "link": "https://decrypt.co/375269/hidden-text-pdfs-hijacking-ai-assistant-prompt-injection",
+      "summary": "A security firm says Atlassian's AI assistant will quietly ship your Jira tickets and Confluence docs to an attacker, using instructions buried in a file you'd swear was empty.",
+      "source": "Decrypt",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786391810,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2020/05/defi-crypto-hack-ethereal-security-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2020/05/defi-crypto-hack-ethereal-security-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2020/05/defi-crypto-hack-ethereal-security-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-11/fde55bd9961b9ef5_base.jpg",
+      "image_local": "../assets/news/2026-08-11/fde55bd9961b9ef5_base.jpg"
+    },
+    {
+      "title": "Strategy builds $4.75 billion cash cushion as only bitcoin isn't enough for investors",
+      "link": "https://www.coindesk.com/coindesk-news/2026/08/10/strategy-builds-usd4-75-billion-cash-cushion-as-only-bitcoin-isn-t-enough-for-investors",
+      "summary": "Strategy builds $4.75 billion cash cushion as only bitcoin isn't enough for investors",
+      "source": "CoinDesk",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786392204,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/6398b4995f520f7aff6cf8486d8ae4c965ff005c-1252x702.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/6398b4995f520f7aff6cf8486d8ae4c965ff005c-1252x702.png?auto=format&q=75"
+      ],
+      "image": "../assets/news/2026-08-11/9949a04fb5d62d29_base.jpg",
+      "image_local": "../assets/news/2026-08-11/9949a04fb5d62d29_base.jpg"
+    }
+  ]
+}

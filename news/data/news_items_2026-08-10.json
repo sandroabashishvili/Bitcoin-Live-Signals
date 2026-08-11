@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-10",
-  "generated_at_utc": "2026-08-10 16:05:50 UTC",
+  "generated_at_utc": "2026-08-10 22:05:43 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,181 +16,181 @@
   "count": 12,
   "items": [
     {
-      "title": "Hackers Drain $8 Million From Crypto Exchange Across Two Blockchains",
-      "link": "https://decrypt.co/375213/hackers-drain-8-million-from-crypto-platform-coinsbuy",
-      "summary": "The attacker moved funds across Tron and Ethereum before routing millions through crypto exchanges, while later wallet activity offers clues about how the breach occurred.",
+      "title": "Vitalik Buterin Says Ethereum Is Betting Its Future on Quantum Security and AI",
+      "link": "https://decrypt.co/375285/vitalik-buterin-ethereum-betting-future-quantum-ai",
+      "summary": "Ethereum’s updated roadmap puts quantum resistance, privacy and AI-assisted formal verification at the center of the network’s technical ambitions.",
       "source": "Decrypt",
       "date": "2026-08-10",
       "date_human": "Aug 10, 2026",
-      "pub_ts": 1786377390,
+      "pub_ts": 1786398502,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/08/crime_hacker-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/crime_hacker-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/crime_hacker-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/vitalik-buterin-ethereum-decrypt-style-05-1-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/vitalik-buterin-ethereum-decrypt-style-05-1-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/vitalik-buterin-ethereum-decrypt-style-05-1-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-10/4840fe9fc21ecb1c_base.jpg",
-      "image_local": "../assets/news/2026-08-10/4840fe9fc21ecb1c_base.jpg"
+      "image": "../assets/news/2026-08-10/bbd744d42a22d9ef_base.jpg",
+      "image_local": "../assets/news/2026-08-10/bbd744d42a22d9ef_base.jpg"
     },
     {
-      "title": "Bitwise pitched a diversified 10-crypto fund, then lost $500 million as Bitcoin swallowed 78% of the portfolio",
-      "link": "https://cryptoslate.com/bitwise-pitched-a-diversified-10-crypto-fund-then-lost-500-million-as-bitcoin-swallowed-78-of-the-portfolio/",
-      "summary": "Market losses and net redemptions cut the fund to $532.8 million while Bitcoin’s portfolio share rose to 77.81%. The post Bitwise pitched a diversified 10-crypto fund, then lost $500 million as Bitcoin swallowed 78% of the portfolio appeared first on CryptoSlate.",
+      "title": "Strategy has $785 million left to close STRC's final $5 gap after selling $213 million in Bitcoin",
+      "link": "https://cryptoslate.com/strategy-has-785-million-left-to-close-strcs-final-5-gap-after-selling-213-million-in-bitcoin/",
+      "summary": "Strategy’s preferred stock STRC is steadily moving back toward its $100 target as the Bitcoin treasury company increases its purchases of the shares. Data from STRC.live showed that STRC traded around $95 on Monday, extending a recovery from its late-June low of about $74 as Strategy combined open-market repurchases with a 12% annualized dividend to […] The post Strategy has $785 million left to close STRC’s final $5 gap after selling $213 million in Bitcoin appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-10",
       "date_human": "Aug 10, 2026",
-      "pub_ts": 1786376414,
+      "pub_ts": 1786398011,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-piggy-bank-collapse.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/saylor.jpg"
       ],
-      "image": "../assets/news/2026-08-10/ab0b645af7e5a2fb_base.jpg",
-      "image_local": "../assets/news/2026-08-10/ab0b645af7e5a2fb_base.jpg"
+      "image": "../assets/news/2026-08-10/2e60397c5399e712_base.jpg",
+      "image_local": "../assets/news/2026-08-10/2e60397c5399e712_base.jpg"
     },
     {
-      "title": "Bitmine's ETH buying slows as Tom Lee's firm shifts capital to share buybacks",
-      "link": "https://www.coindesk.com/business/2026/08/10/bitmine-s-eth-buying-slows-as-tom-lee-s-firm-shifts-capital-to-share-buybacks",
-      "summary": "Bitmine's ETH buying slows as Tom Lee's firm shifts capital to share buybacks",
-      "source": "CoinDesk",
-      "date": "2026-08-10",
-      "date_human": "Aug 10, 2026",
-      "pub_ts": 1786369851,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/bc173559f15091e27a52c22dedbaade8c86f0509-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/bc173559f15091e27a52c22dedbaade8c86f0509-1920x1080.jpg?auto=format&q=75"
-      ],
-      "image": "../assets/news/2026-08-10/8555819e593484d1_base.jpg",
-      "image_local": "../assets/news/2026-08-10/8555819e593484d1_base.jpg"
-    },
-    {
-      "title": "Bitdeer increased Bitcoin mining output by nearly fivefold in Q2",
-      "link": "https://cointelegraph.com/news/bitdeer-bitcoin-mining-output-fivefold-q2",
-      "summary": "Bitdeer mined 2,694 BTC in Q2, but ended the quarter holding just 150 BTC after liquidating its treasury earlier this year.",
+      "title": "Judge stays CFTC's case against US soldier over prediction market bets",
+      "link": "https://cointelegraph.com/news/cftc-us-solider-insider-trading-polymarket-nicolas-maduro",
+      "summary": "A New York judge granted a motion filed by US prosecutors in July to stay the CFTC’s civil case against Gannon Ken Van Dyke over making more than $400,000 on prediction markets.",
       "source": "Cointelegraph",
       "date": "2026-08-10",
       "date_human": "Aug 10, 2026",
-      "pub_ts": 1786367262,
+      "pub_ts": 1786395059,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-top-mining-hardware-to-expect-in-russia.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/judge-hammer-regulation-cftc-1.jpg"
       ],
-      "image": "../assets/news/2026-08-10/ab9ffc188d70b2eb_base.jpg",
-      "image_local": "../assets/news/2026-08-10/ab9ffc188d70b2eb_base.jpg"
+      "image": "../assets/news/2026-08-10/b2fd160c04dbd066_base.jpg",
+      "image_local": "../assets/news/2026-08-10/b2fd160c04dbd066_base.jpg"
     },
     {
-      "title": "OpenAI Says Its Next AI Model Astra May Be Too Dangerous, Pauses Development",
-      "link": "https://decrypt.co/375210/openai-pause-astra-ai-model-critical-cyber-capabilities",
-      "summary": "OpenAI says its next major model may be dangerous enough to write its own cyberweapons, and it's pulling back until the safeguards catch up.",
+      "title": "Bitwise's Rasmussen: Circle is mispriced as stablecoins head toward trillions",
+      "link": "https://www.coindesk.com/coindesk-news/2026/08/10/bitwise-s-rasmussen-circle-is-mispriced-as-stablecoins-head-toward-trillions",
+      "summary": "Bitwise's Rasmussen: Circle is mispriced as stablecoins head toward trillions",
+      "source": "CoinDesk",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786393206,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/835764b08ab8abdafd0f6ee31e2021d0e7b9ce05-1026x576.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/835764b08ab8abdafd0f6ee31e2021d0e7b9ce05-1026x576.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-10/2011c9384f0a1d0e_base.jpg",
+      "image_local": "../assets/news/2026-08-10/2011c9384f0a1d0e_base.jpg"
+    },
+    {
+      "title": "Bitcoin ATMs Pulled in Australia as Regulators Signal Wider Crackdown",
+      "link": "https://decrypt.co/375282/bitcoin-atms-pulled-australia-regulators-crackdown",
+      "summary": "AUSTRAC has suspended the registration of the operator running 96 of Australia's roughly 1,800 crypto ATMs, effective August 9.",
       "source": "Decrypt",
       "date": "2026-08-10",
       "date_human": "Aug 10, 2026",
-      "pub_ts": 1786374187,
+      "pub_ts": 1786395763,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/10/openai-decrypt-style-02-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/10/openai-decrypt-style-02-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/openai-decrypt-style-02-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/05/decrypt-style-bitcoin-atm-cropped-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/05/decrypt-style-bitcoin-atm-cropped-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/05/decrypt-style-bitcoin-atm-cropped-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-10/5a2cb9e82af81a2c_base.jpg",
-      "image_local": "../assets/news/2026-08-10/5a2cb9e82af81a2c_base.jpg"
+      "image": "../assets/news/2026-08-10/77fd393bdeb8a406_base.jpg",
+      "image_local": "../assets/news/2026-08-10/77fd393bdeb8a406_base.jpg"
     },
     {
-      "title": "Bitcoin's BIP-110 fork is back, but its backers want to replace the miners and change PoW",
-      "link": "https://cryptoslate.com/bitcoins-bip-110-fork-is-back-but-its-backers-want-to-replace-the-miners/",
-      "summary": "Bitcoin’s BIP-110 push failed to gain meaningful mining support over the weekend, leaving the proposal stranded on a minority chain that produced only two blocks before stalling at height 961,633. The soft fork was designed to temporarily restrict several forms of arbitrary data on Bitcoin and required 55% miner signaling during its deployment window. Instead, […] The post Bitcoin’s BIP-110 fork is back, but its backers want to replace the miners and change PoW appeared first on CryptoSlate.",
+      "title": "Nasdaq puts $675 million Avalanche Treasury on the clock over two listing failures",
+      "link": "https://cryptoslate.com/nasdaq-puts-675-million-avalanche-treasury-on-the-clock-over-two-listing-failures/",
+      "summary": "The AVAX treasury company must hold a $1 closing bid and $35 million listed-securities value threshold for at least 10 consecutive business days. The post Nasdaq puts $675 million Avalanche Treasury on the clock over two listing failures appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-10",
       "date_human": "Aug 10, 2026",
-      "pub_ts": 1786372215,
+      "pub_ts": 1786396222,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-miner-power-break.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/avax-nasdaq-pressure.jpg"
       ],
-      "image": "../assets/news/2026-08-10/69e6fdb0594d8852_base.jpg",
-      "image_local": "../assets/news/2026-08-10/69e6fdb0594d8852_base.jpg"
+      "image": "../assets/news/2026-08-10/3df91934c47e56bc_base.jpg",
+      "image_local": "../assets/news/2026-08-10/3df91934c47e56bc_base.jpg"
     },
     {
-      "title": "Solana gets its first Strategy STRC product through Solstice Finance",
-      "link": "https://www.coindesk.com/business/2026/08/10/solstice-rolls-out-strategy-s-strc-preferred-stock-income-to-solana",
-      "summary": "Solana gets its first Strategy STRC product through Solstice Finance",
-      "source": "CoinDesk",
-      "date": "2026-08-10",
-      "date_human": "Aug 10, 2026",
-      "pub_ts": 1786368396,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/0339788ec6da49e65916e89c4bf0f137635275cd-720x406.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/0339788ec6da49e65916e89c4bf0f137635275cd-720x406.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-10/b4bdf576d31b2db5_base.jpg",
-      "image_local": "../assets/news/2026-08-10/b4bdf576d31b2db5_base.jpg"
-    },
-    {
-      "title": "Strategy turns 1,690 BTC into $108.6M STRC buyback",
-      "link": "https://cointelegraph.com/markets/strategy-sells-1690-btc-buy-back-108-6-million-strc",
-      "summary": "Strategy sold 1,690 Bitcoin to repurchase STRC shares as its US dollar reserve rose to $4.65 billion and its Bitcoin holdings fell to 840,447 BTC.",
+      "title": "TRON USDT supply hits $87.9B as transfers reach $2.1T in Q2: Messari",
+      "link": "https://cointelegraph.com/news/tron-usdt-supply-hits-879b-as-transfers-reach-21t-in-q2-messari",
+      "summary": "Messari reported that TRON recorded all-time highs in stablecoin supply and network activity during the second quarter, while DeFi and decentralized exchange activity declined.",
       "source": "Cointelegraph",
       "date": "2026-08-10",
       "date_human": "Aug 10, 2026",
-      "pub_ts": 1786365392,
+      "pub_ts": 1786391221,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-how-strategyb-turned-k-into-m-using-a-high-risk-high-precision-strategy-2.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/tron.jpg"
       ],
-      "image": "../assets/news/2026-08-10/00a8fa832124be01_base.jpg",
-      "image_local": "../assets/news/2026-08-10/00a8fa832124be01_base.jpg"
+      "image": "../assets/news/2026-08-10/5808feff404147e8_base.jpg",
+      "image_local": "../assets/news/2026-08-10/5808feff404147e8_base.jpg"
     },
     {
-      "title": "Tom Lee's Bitmine Buys $14M in Ethereum as Cash Falls to $104M",
-      "link": "https://decrypt.co/375201/tom-lees-bitmine-buys-14m-in-ethereum-as-cash-falls-to-104m",
-      "summary": "Bitmine has reported 4.8% of the supply for five straight weeks, leaving its 'Alchemy of 5%' target roughly 230,000 tokens away.",
+      "title": "Strategy builds $4.75 billion cash cushion as only bitcoin isn't enough for investors",
+      "link": "https://www.coindesk.com/coindesk-news/2026/08/10/strategy-builds-usd4-75-billion-cash-cushion-as-only-bitcoin-isn-t-enough-for-investors",
+      "summary": "Strategy builds $4.75 billion cash cushion as only bitcoin isn't enough for investors",
+      "source": "CoinDesk",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786392204,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/6398b4995f520f7aff6cf8486d8ae4c965ff005c-1252x702.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/6398b4995f520f7aff6cf8486d8ae4c965ff005c-1252x702.png?auto=format&q=75"
+      ],
+      "image": "../assets/news/2026-08-10/9949a04fb5d62d29_base.jpg",
+      "image_local": "../assets/news/2026-08-10/9949a04fb5d62d29_base.jpg"
+    },
+    {
+      "title": "Hidden Text in PDFs Is Hijacking This AI Assistant",
+      "link": "https://decrypt.co/375269/hidden-text-pdfs-hijacking-ai-assistant-prompt-injection",
+      "summary": "A security firm says Atlassian's AI assistant will quietly ship your Jira tickets and Confluence docs to an attacker, using instructions buried in a file you'd swear was empty.",
       "source": "Decrypt",
       "date": "2026-08-10",
       "date_human": "Aug 10, 2026",
-      "pub_ts": 1786371132,
+      "pub_ts": 1786391810,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ethereum-decrypt-style-05-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ethereum-decrypt-style-05-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ethereum-decrypt-style-05-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2020/05/defi-crypto-hack-ethereal-security-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2020/05/defi-crypto-hack-ethereal-security-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2020/05/defi-crypto-hack-ethereal-security-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-10/bb9daf1c7e952a2a_base.jpg",
-      "image_local": "../assets/news/2026-08-10/bb9daf1c7e952a2a_base.jpg"
+      "image": "../assets/news/2026-08-10/fde55bd9961b9ef5_base.jpg",
+      "image_local": "../assets/news/2026-08-10/fde55bd9961b9ef5_base.jpg"
     },
     {
-      "title": "Traders holding $39.5 million in BitMEX Bitcoin perps have 16 days to exit before forced closures begin",
-      "link": "https://cryptoslate.com/traders-holding-39-5-million-in-bitmex-bitcoin-perps-have-16-days-to-exit-before-forced-closures-begin/",
-      "summary": "New positions stop Aug. 26, while contracts left open face a wind-down that ends in forced closure Sept. 23. The post Traders holding $39.5 million in BitMEX Bitcoin perps have 16 days to exit before forced closures begin appeared first on CryptoSlate.",
+      "title": "Kraken holds the instant liquidation switch on a crypto firm's 479 Bitcoin if price drops to $45,094",
+      "link": "https://cryptoslate.com/kraken-holds-the-instant-liquidation-switch-on-a-crypto-firms-479-bitcoin-if-price-drops-to-45094/",
+      "summary": "The Aug. 7 filing ties 479 pledged Bitcoin to the higher balance, making the dated, principal-only threshold calculable. The post Kraken holds the instant liquidation switch on a crypto firm’s 479 Bitcoin if price drops to $45,094 appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-10",
       "date_human": "Aug 10, 2026",
-      "pub_ts": 1786368940,
+      "pub_ts": 1786394754,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitmex-xbtusd-unwind-clock.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-collateral-pressure.jpg"
       ],
-      "image": "../assets/news/2026-08-10/e37c584ca95886ab_base.jpg",
-      "image_local": "../assets/news/2026-08-10/e37c584ca95886ab_base.jpg"
+      "image": "../assets/news/2026-08-10/bed4d2f6f4f1e32d_base.jpg",
+      "image_local": "../assets/news/2026-08-10/bed4d2f6f4f1e32d_base.jpg"
     },
     {
-      "title": "Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares",
-      "link": "https://www.coindesk.com/markets/2026/08/10/strategy-sells-1-690-bitcoin-raises-usd653-million-from-mstr-shares",
-      "summary": "Strategy sells 1,690 bitcoin, raises $653 million from MSTR shares",
-      "source": "CoinDesk",
-      "date": "2026-08-10",
-      "date_human": "Aug 10, 2026",
-      "pub_ts": 1786363766,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/d00d58cb37e792985dd1a2d7a5b976dca32d84c0-720x406.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/d00d58cb37e792985dd1a2d7a5b976dca32d84c0-720x406.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-10/b034cbb3f0c16103_base.jpg",
-      "image_local": "../assets/news/2026-08-10/b034cbb3f0c16103_base.jpg"
-    },
-    {
-      "title": "Tokenized RWA surge to $4T may push LINK to $200 by end-2030: Standard Chartered",
-      "link": "https://cointelegraph.com/news/tokenized-rwa-4t-push-link-200-standard-chartered",
-      "summary": "The LINK token may see a 25-fold increase to $200 by the end of 2030, as the growing real world asset market increases demand for the industry’s largest oracle services provider, according to Standard Chartered.",
+      "title": "UK money laundering suspect bought $100M in Trump crypto business: NYT",
+      "link": "https://cointelegraph.com/news/world-liberty-financial-uk-money-laundering-donald-trump",
+      "summary": "An individual behind the Aqua 1 entity that purchased $100 million worth of World Liberty Financial tokens in 2025 is reportedly a businessman with ties to the UK and UAE.",
       "source": "Cointelegraph",
       "date": "2026-08-10",
       "date_human": "Aug 10, 2026",
-      "pub_ts": 1786361979,
+      "pub_ts": 1786390519,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoin-revolution-3.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-comparing-money-laundering-with-cryptocurrencies-and-fiat2.jpg"
       ],
-      "image": "../assets/news/2026-08-10/3b3fee2c62759420_base.jpg",
-      "image_local": "../assets/news/2026-08-10/3b3fee2c62759420_base.jpg"
+      "image": "../assets/news/2026-08-10/3de70a00d4e72c4a_base.jpg",
+      "image_local": "../assets/news/2026-08-10/3de70a00d4e72c4a_base.jpg"
+    },
+    {
+      "title": "Grayscale quietly drops Cardano, Polkadot and Hedera ETF plans",
+      "link": "https://www.coindesk.com/business/2026/08/10/grayscale-quietly-drops-cardano-polkadot-and-hedera-etf-plans",
+      "summary": "Grayscale quietly drops Cardano, Polkadot and Hedera ETF plans",
+      "source": "CoinDesk",
+      "date": "2026-08-10",
+      "date_human": "Aug 10, 2026",
+      "pub_ts": 1786374134,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/8dd88cb35b7bebbb09c8e4ed53c431f147391d5b-2048x1365.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/8dd88cb35b7bebbb09c8e4ed53c431f147391d5b-2048x1365.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-10/1c7cfcc357e3fa84_base.jpg",
+      "image_local": "../assets/news/2026-08-10/1c7cfcc357e3fa84_base.jpg"
     }
   ]
 }
