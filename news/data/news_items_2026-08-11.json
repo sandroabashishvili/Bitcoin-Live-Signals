@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-11",
-  "generated_at_utc": "2026-08-11 10:05:53 UTC",
+  "generated_at_utc": "2026-08-11 16:05:55 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,181 +16,181 @@
   "count": 12,
   "items": [
     {
-      "title": "Coinbase Opens UK Derivatives Trading With Up to 50x Leverage",
-      "link": "https://decrypt.co/375301/coinbase-opens-uk-derivatives-trading-with-up-to-50x-leverage",
-      "summary": "Futures, perpetuals and options spanning crypto, commodities, equities and FX, limited to clients who qualify as professional investors.",
-      "source": "Decrypt",
-      "date": "2026-08-11",
-      "date_human": "Aug 11, 2026",
-      "pub_ts": 1786442324,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Coinbase_logo-nft-nyc-decrypt-style-scaled-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Coinbase_logo-nft-nyc-decrypt-style-scaled-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Coinbase_logo-nft-nyc-decrypt-style-scaled-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-11/ce0ad428e16360dd_base.jpg",
-      "image_local": "../assets/news/2026-08-11/ce0ad428e16360dd_base.jpg"
-    },
-    {
-      "title": "Keel shuts US Bitcoin mining operations as Q2 revenue falls 50%",
-      "link": "https://cointelegraph.com/news/keel-shuts-bitcoin-mining-ai-pivot-revenue-falls",
-      "summary": "Keel completed the shutdown of its US Bitcoin mining operations as it pivots toward AI and high-performance computing infrastructure",
-      "source": "Cointelegraph",
-      "date": "2026-08-11",
-      "date_human": "Aug 11, 2026",
-      "pub_ts": 1786440255,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-is-cryptocurrency-mining-still-profitable-in-2025.jpg"
-      ],
-      "image": "../assets/news/2026-08-11/3bec99beff45759e_base.jpg",
-      "image_local": "../assets/news/2026-08-11/3bec99beff45759e_base.jpg"
-    },
-    {
-      "title": "Cardano finally cleared the SEC shortcut for a spot ETF, but its last remaining sponsor quit two days too early",
-      "link": "https://cryptoslate.com/cardano-finally-cleared-the-sec-shortcut-for-a-spot-etf-but-its-last-remaining-sponsor-quit-two-days-too-early/",
-      "summary": "Grayscale withdrew its registration for the Cardano Trust ETF on Aug. 7, telling the SEC only that it “does not intend to proceed with the planned distribution.” The move was voluntary and came along with parallel registrations for Hedera and Polkadot, within about three minutes of each other that same afternoon. Two days later, ADA […] The post Cardano finally cleared the SEC shortcut for a spot ETF, but its last remaining sponsor quit two days too early appeared first on CryptoSlate.",
+      "title": "Riot is dumping its Bitcoin to fund a $9.1B AI deal that won't pay rent until 2027",
+      "link": "https://cryptoslate.com/riot-is-dumping-its-bitcoin-to-fund-a-9-1b-ai-deal-that-wont-pay-rent-until-2027/",
+      "summary": "The Bitcoin miner’s construction budget includes continued treasury sales before phased rent is expected in 2027 and 2028. The post Riot is dumping its Bitcoin to fund a $9.1B AI deal that won’t pay rent until 2027 appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-11",
       "date_human": "Aug 11, 2026",
-      "pub_ts": 1786440043,
+      "pub_ts": 1786463103,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/ada-spot-etf-sponsorless.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/riot-ai-bitcoin-balloon.jpg"
       ],
-      "image": "../assets/news/2026-08-11/0fa59f012171c44f_base.jpg",
-      "image_local": "../assets/news/2026-08-11/0fa59f012171c44f_base.jpg"
+      "image": "../assets/news/2026-08-11/621f42a7710ab48d_base.jpg",
+      "image_local": "../assets/news/2026-08-11/621f42a7710ab48d_base.jpg"
     },
     {
-      "title": "A $2 trillion asset class is getting a new blockchain rail",
-      "link": "https://www.coindesk.com/markets/2026/08/11/emb-7-00-utc-a-usd2-trillion-asset-class-is-getting-a-new-blockchain-rail",
-      "summary": "A $2 trillion asset class is getting a new blockchain rail",
-      "source": "CoinDesk",
-      "date": "2026-08-11",
-      "date_human": "Aug 11, 2026",
-      "pub_ts": 1786432749,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/3349e538005ccbc9fb97689c48795d3f2aa53ddf-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/3349e538005ccbc9fb97689c48795d3f2aa53ddf-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-11/8214645d1ba32e85_base.jpg",
-      "image_local": "../assets/news/2026-08-11/8214645d1ba32e85_base.jpg"
-    },
-    {
-      "title": "UK Lawmakers Write to Bank CEOs Over Crypto Account Refusals",
-      "link": "https://decrypt.co/375294/uk-lawmakers-write-to-bank-ceos-over-crypto-account-refusals",
-      "summary": "The APPG has asked banks to explain their crypto policies, warning that access could be one of the single biggest barriers to growth.",
+      "title": "OpenAI's Only Dedicated Ethicist Has Left With No Replacement: FT",
+      "link": "https://decrypt.co/375315/openais-only-dedicated-ethicist-has-left-with-no-replacement-ft",
+      "summary": "Chloé Bakalar joined from Meta last August and departed in July without any announcement, one of several safety exits in recent weeks.",
       "source": "Decrypt",
       "date": "2026-08-11",
       "date_human": "Aug 11, 2026",
-      "pub_ts": 1786437677,
+      "pub_ts": 1786460735,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/03/UK-Parliament-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/UK-Parliament-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/UK-Parliament-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-11/084d8553ff3f4521_base.jpg",
-      "image_local": "../assets/news/2026-08-11/084d8553ff3f4521_base.jpg"
+      "image": "../assets/news/2026-08-11/10a1cb412597c685_base.jpg",
+      "image_local": "../assets/news/2026-08-11/10a1cb412597c685_base.jpg"
     },
     {
-      "title": "Anthropic strikes $9B compute deal with Bitcoin miner Riot: Report",
-      "link": "https://cointelegraph.com/news/anthropic-9b-deal-bitcoin-miner-riot",
-      "summary": "Anthropic reportedly struck a $9 billion deal with Riot for 191 megawatts of capacity from the Bitcoin miner’s Rockdale campus in Texas.",
-      "source": "Cointelegraph",
-      "date": "2026-08-11",
-      "date_human": "Aug 11, 2026",
-      "pub_ts": 1786435226,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-greenhouse.jpg"
-      ],
-      "image": "../assets/news/2026-08-11/63f8d5caecc9bf00_base.jpg",
-      "image_local": "../assets/news/2026-08-11/63f8d5caecc9bf00_base.jpg"
-    },
-    {
-      "title": "LINK could be next in line after Standard Chartered's UNI and AAVE targets sparked sharp repricings",
-      "link": "https://cryptoslate.com/link-could-be-next-in-line-after-standard-chartereds-uni-and-aave-targets-sparked-sharp-repricings/",
-      "summary": "Standard Chartered initiated coverage of Chainlink (LINK) with a $200 price target for 2030, laying out a staged path to get there: $13 by the end of this year, $41 in 2027, $82 in 2028, $133 in 2029, and $200 in 2030. LINK trades near $7.47 today, meaning the 2030 target implies roughly 27 times […] The post LINK could be next in line after Standard Chartered’s UNI and AAVE targets sparked sharp repricings appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-11",
-      "date_human": "Aug 11, 2026",
-      "pub_ts": 1786436201,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/chainlink-2030-target.jpg"
-      ],
-      "image": "../assets/news/2026-08-11/0baff7ac00e0b7a7_base.jpg",
-      "image_local": "../assets/news/2026-08-11/0baff7ac00e0b7a7_base.jpg"
-    },
-    {
-      "title": "BTCPay offers $190,000 bounty after bitcoin payment servers drained in exploit",
-      "link": "https://www.coindesk.com/markets/2026/08/11/btcpay-offers-usd190-000-bounty-after-bitcoin-payment-servers-drained-in-exploit",
-      "summary": "BTCPay offers $190,000 bounty after bitcoin payment servers drained in exploit",
+      "title": "If crypto goes back to the congressional drawing board, 3 Democrat women loom large",
+      "link": "https://www.coindesk.com/news-analysis/2026/08/11/if-crypto-goes-back-to-the-congressional-drawing-board-3-democrat-women-loom-large",
+      "summary": "If crypto goes back to the congressional drawing board, 3 Democrat women loom large",
       "source": "CoinDesk",
       "date": "2026-08-11",
       "date_human": "Aug 11, 2026",
-      "pub_ts": 1786429147,
+      "pub_ts": 1786459215,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/c97bd815dbaa4d0c149b3c9a15cc76b83b6dab51-720x406.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/c97bd815dbaa4d0c149b3c9a15cc76b83b6dab51-720x406.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/2cf8c56e1ec085b0709d193283ca438dc2b33772-3849x2566.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/2cf8c56e1ec085b0709d193283ca438dc2b33772-3849x2566.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0.427&fp-y=0.4842&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-11/7ddba8c15737ad98_base.jpg",
-      "image_local": "../assets/news/2026-08-11/7ddba8c15737ad98_base.jpg"
+      "image": "../assets/news/2026-08-11/185120f96c4389cb_base.jpg",
+      "image_local": "../assets/news/2026-08-11/185120f96c4389cb_base.jpg"
     },
     {
-      "title": "Vitalik Buterin Says Ethereum Is Betting Its Future on Quantum Security and AI",
-      "link": "https://decrypt.co/375285/vitalik-buterin-ethereum-betting-future-quantum-ai",
-      "summary": "Ethereum’s updated roadmap puts quantum resistance, privacy and AI-assisted formal verification at the center of the network’s technical ambitions.",
+      "title": "ADI Chain, Shipfinex partner to tokenize $500M vessel pipeline",
+      "link": "https://cointelegraph.com/news/adi-chain-shipfinex-partner-to-tokenize-500m-vessel-pipeline",
+      "summary": "Shipfinex plans to bring 35 vessels onchain through ADI Chain as tokenization expands into the multitrillion-dollar maritime industry.",
+      "source": "Cointelegraph",
+      "date": "2026-08-11",
+      "date_human": "Aug 11, 2026",
+      "pub_ts": 1786456760,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-inside-the-mas-sandbox-how-ripple-is-testing-rlusd-for-real-trade-settlements.png"
+      ],
+      "image": "../assets/news/2026-08-11/6f58a22de078be43_base.jpg",
+      "image_local": "../assets/news/2026-08-11/6f58a22de078be43_base.jpg"
+    },
+    {
+      "title": "A 13% dividend is set to force another Bitcoin treasury company into the unthinkable: liquidating its BTC to pay cash",
+      "link": "https://cryptoslate.com/a-13-preferred-dividend-to-force-another-bitcoin-treasury-company-into-the-unthinkable-liquidating-its-btc-to-pay-cash/",
+      "summary": "Cash covers about 18 months of the current run rate in a static calculation, while common issuance has already become a funding channel. The post A 13% dividend is set to force another Bitcoin treasury company into the unthinkable: liquidating its BTC to pay cash appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-11",
+      "date_human": "Aug 11, 2026",
+      "pub_ts": 1786458907,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/strive-dividend-tugwar.jpg"
+      ],
+      "image": "../assets/news/2026-08-11/862e12aff51b3d1b_base.jpg",
+      "image_local": "../assets/news/2026-08-11/862e12aff51b3d1b_base.jpg"
+    },
+    {
+      "title": "Why Strategy Is Selling Bitcoin and How Much It Has Sold So Far",
+      "link": "https://decrypt.co/375312/why-strategy-selling-bitcoin-how-much",
+      "summary": "The world's largest corporate Bitcoin holder has sold hundreds of millions of dollars in BTC since June as it changes how it funds dividends and manages its cash.",
       "source": "Decrypt",
-      "date": "2026-08-10",
-      "date_human": "Aug 10, 2026",
-      "pub_ts": 1786398502,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/07/vitalik-buterin-ethereum-decrypt-style-05-1-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/vitalik-buterin-ethereum-decrypt-style-05-1-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/vitalik-buterin-ethereum-decrypt-style-05-1-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-11/bbd744d42a22d9ef_base.jpg",
-      "image_local": "../assets/news/2026-08-11/bbd744d42a22d9ef_base.jpg"
-    },
-    {
-      "title": "South Korea drops Travel Rule threshold for crypto transfers",
-      "link": "https://cointelegraph.com/news/south-korea-travel-rule-threshold-crypto-transfers",
-      "summary": "South Korea will remove its 1 million won Travel Rule threshold and apply information-sharing requirements to all transfers between registered crypto service providers.",
-      "source": "Cointelegraph",
       "date": "2026-08-11",
       "date_human": "Aug 11, 2026",
-      "pub_ts": 1786429696,
+      "pub_ts": 1786459571,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/south-korea-coin.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/strategy-logo-x-twitter-2-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/strategy-logo-x-twitter-2-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/strategy-logo-x-twitter-2-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-11/b2d4259539c98043_base.jpg",
-      "image_local": "../assets/news/2026-08-11/b2d4259539c98043_base.jpg"
+      "image": "../assets/news/2026-08-11/6dc809eaaebc4d9a_base.jpg",
+      "image_local": "../assets/news/2026-08-11/6dc809eaaebc4d9a_base.jpg"
     },
     {
-      "title": "Grayscale turned more than $1.1 billion of staked crypto into a recurring reward-sale machine for ETF holders",
-      "link": "https://cryptoslate.com/grayscale-turned-more-than-1-1-billion-of-staked-crypto-into-a-recurring-reward-sale-machine-for-etf-holders/",
-      "summary": "ETHE, GSOL and GAVA must sell earned rewards at least quarterly, creating recurring cash payouts without scheduling principal liquidation. The post Grayscale turned more than $1.1 billion of staked crypto into a recurring reward-sale machine for ETF holders appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-11",
-      "date_human": "Aug 11, 2026",
-      "pub_ts": 1786408238,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/staking-rewards-cash-press.jpg"
-      ],
-      "image": "../assets/news/2026-08-11/6a47c7f097b4bc52_base.jpg",
-      "image_local": "../assets/news/2026-08-11/6a47c7f097b4bc52_base.jpg"
-    },
-    {
-      "title": "Bitcoin's BIP-110 fork is 300 blocks behind BTC and six years from fixing itself",
-      "link": "https://www.coindesk.com/tech/2026/08/11/bitcoin-s-bip-110-fork-is-300-blocks-behind-btc-and-six-years-from-fixing-itself",
-      "summary": "Bitcoin's BIP-110 fork is 300 blocks behind BTC and six years from fixing itself",
+      "title": "Crypto-friendly bank Erebor in talks to raise $1.5 billion at $9.5 billion valuation: FT",
+      "link": "https://www.coindesk.com/business/2026/08/11/crypto-friendly-bank-erebor-in-talks-to-raise-usd1-5-billion-at-usd9-5-billion-valuation-ft",
+      "summary": "Crypto-friendly bank Erebor in talks to raise $1.5 billion at $9.5 billion valuation: FT",
       "source": "CoinDesk",
       "date": "2026-08-11",
       "date_human": "Aug 11, 2026",
-      "pub_ts": 1786425997,
+      "pub_ts": 1786459152,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/ed1f70c8a29fed6e347f5464e05c5fef6c0c998b-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/ed1f70c8a29fed6e347f5464e05c5fef6c0c998b-1500x1000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/1f36f4b6075554c7a225b5bdef6b7d0bb9142a62-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/1f36f4b6075554c7a225b5bdef6b7d0bb9142a62-1920x1280.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-11/f09398d27ac6996a_base.jpg",
-      "image_local": "../assets/news/2026-08-11/f09398d27ac6996a_base.jpg"
+      "image": "../assets/news/2026-08-11/86a1383b6d819d89_base.jpg",
+      "image_local": "../assets/news/2026-08-11/86a1383b6d819d89_base.jpg"
+    },
+    {
+      "title": "SharpLink reports $394M in Q2 net loss fueled by ETH decline",
+      "link": "https://cointelegraph.com/markets/sharplink-reports-394m-q2-net-loss",
+      "summary": "SharpLink reported a net loss of $394 million in the second quarter of 2026, largely driven by Ether’s 23% decline during the quarter.",
+      "source": "Cointelegraph",
+      "date": "2026-08-11",
+      "date_human": "Aug 11, 2026",
+      "pub_ts": 1786454220,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-takeaways-5-years-after-the-dao-crisis-and-ethereum-hardfork.jpg"
+      ],
+      "image": "../assets/news/2026-08-11/7c481770ec372e26_base.jpg",
+      "image_local": "../assets/news/2026-08-11/7c481770ec372e26_base.jpg"
+    },
+    {
+      "title": "Trump Media's 14,139 Bitcoin stash faces options exposure and a looming $1 billion debt test",
+      "link": "https://cryptoslate.com/trump-medias-14139-bitcoin-stash-faces-options-exposure-and-a-looming-1-billion-debt-test/",
+      "summary": "A Nov. 30 holder put would exceed June cash and short-term investments in a full-tender scenario, but it does not make a Bitcoin sale inevitable. The post Trump Media’s 14,139 Bitcoin stash faces options exposure and a looming $1 billion debt test appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-11",
+      "date_human": "Aug 11, 2026",
+      "pub_ts": 1786455608,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/trump-bitcoin-cash-demand.jpg"
+      ],
+      "image": "../assets/news/2026-08-11/b06b0a70a88483a5_base.jpg",
+      "image_local": "../assets/news/2026-08-11/b06b0a70a88483a5_base.jpg"
+    },
+    {
+      "title": "Luke Dashjr Removed as BIP Editor After BIP-110 Bitcoin Fork Stalls",
+      "link": "https://decrypt.co/375310/luke-dashjr-removed-as-bip-editor-after-bip-110-bitcoin-fork-stalls",
+      "summary": "Supporters of the soft fork he championed split onto their own chain on Saturday, where it mined two blocks in eight hours and stopped.",
+      "source": "Decrypt",
+      "date": "2026-08-11",
+      "date_human": "Aug 11, 2026",
+      "pub_ts": 1786454878,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-11/01646b261fcd6859_base.jpg",
+      "image_local": "../assets/news/2026-08-11/01646b261fcd6859_base.jpg"
+    },
+    {
+      "title": "Pokémon cards are becoming multibillion dollar market. Crypto wants to fix how they trade",
+      "link": "https://www.coindesk.com/business/2026/08/11/pokemon-cards-are-becoming-multibillion-dollar-market-crypto-wants-to-fix-how-they-trade",
+      "summary": "Pokémon cards are becoming multibillion dollar market. Crypto wants to fix how they trade",
+      "source": "CoinDesk",
+      "date": "2026-08-11",
+      "date_human": "Aug 11, 2026",
+      "pub_ts": 1786453567,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/800c6fe6e3c91b04429f89f7d1800b84095103a7-5777x3851.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/800c6fe6e3c91b04429f89f7d1800b84095103a7-5777x3851.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-11/1e2548a3aa2dfec5_base.jpg",
+      "image_local": "../assets/news/2026-08-11/1e2548a3aa2dfec5_base.jpg"
+    },
+    {
+      "title": "Russia proposes exchange trading of Bitcoin, Ether and Tether's USDT",
+      "link": "https://cointelegraph.com/news/bank-of-russia-trading-bitcoin-ether-tether-usdt",
+      "summary": "Russia’s central bank proposed allowing Bitcoin, Ether and USDT to trade on regulated exchanges, following a law signed by President Vladimir Putin last week.",
+      "source": "Cointelegraph",
+      "date": "2026-08-11",
+      "date_human": "Aug 11, 2026",
+      "pub_ts": 1786450178,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/bank-with-crypto-characters.png"
+      ],
+      "image": "../assets/news/2026-08-11/41872cf281fcdb8d_base.jpg",
+      "image_local": "../assets/news/2026-08-11/41872cf281fcdb8d_base.jpg"
     }
   ]
 }
