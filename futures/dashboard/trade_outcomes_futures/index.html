@@ -113,7 +113,7 @@
                   </span>
                   <span class="hero-runtime-meta-item">
                     <span class="hero-runtime-meta-label">Elapsed</span>
-                    <strong class="hero-runtime-meta-value">9 days, 20:32</strong>
+                    <strong class="hero-runtime-meta-value">10 days, 11:31</strong>
                   </span>
                 </div>
                 </div>
@@ -126,7 +126,7 @@
       <div class="global-nav-shell">
         <nav class="global-nav" aria-label="Primary navigation">
           <a class="global-brand" href="/Bitcoin-Live-Signals/">SmartSignalHub</a>
-          <div class="global-nav-links"><a href="/Bitcoin-Live-Signals/">Home</a><details class="global-nav-menu active"><summary>Strategies</summary><div class="global-nav-menu-panel"><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/spot/dashboard/overview_spot/">Spot</a><a class="global-nav-menu-link active" href="/Bitcoin-Live-Signals/futures/dashboard/overview_futures/">Futures</a><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/futures_hedge/dashboard/overview_hedge/">Hedge</a></div></details><a href="/Bitcoin-Live-Signals/news/">News</a><a href="/Bitcoin-Live-Signals/resources/">Resources</a></div>
+          <div class="global-nav-links"><a href="/Bitcoin-Live-Signals/">Home</a><details class="global-nav-menu active"><summary aria-haspopup="true" aria-expanded="false">Strategies</summary><div class="global-nav-menu-panel"><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/spot/dashboard/overview_spot/">Spot</a><a class="global-nav-menu-link active" href="/Bitcoin-Live-Signals/futures/dashboard/overview_futures/">Futures</a><a class="global-nav-menu-link" href="/Bitcoin-Live-Signals/futures_hedge/dashboard/overview_hedge/">Hedge</a></div></details><a href="/Bitcoin-Live-Signals/news/">News</a><a href="/Bitcoin-Live-Signals/resources/">Resources</a></div>
         </nav>
       </div>
       <script>
@@ -137,26 +137,55 @@
             const summary = menu.querySelector("summary");
             if (!summary) return;
             let closeTimer = 0;
+            const setOpen = (open) => {
+              menu.open = open;
+              summary.setAttribute("aria-expanded", open ? "true" : "false");
+            };
             const openMenu = () => {
               window.clearTimeout(closeTimer);
-              menu.open = true;
+              setOpen(true);
             };
             const closeMenu = () => {
               window.clearTimeout(closeTimer);
               closeTimer = window.setTimeout(() => {
-                menu.open = false;
+                setOpen(false);
               }, 180);
             };
             if (hoverCapable) {
               summary.addEventListener("click", (event) => event.preventDefault());
               menu.addEventListener("mouseenter", openMenu);
               menu.addEventListener("mouseleave", closeMenu);
+            } else {
+              summary.addEventListener("click", (event) => {
+                event.preventDefault();
+                const shouldOpen = !menu.open;
+                menus.forEach((otherMenu) => {
+                  if (otherMenu === menu) return;
+                  otherMenu.open = false;
+                  otherMenu.querySelector("summary")?.setAttribute("aria-expanded", "false");
+                });
+                setOpen(shouldOpen);
+              });
             }
             menu.addEventListener("focusin", openMenu);
             menu.addEventListener("focusout", () => {
               window.setTimeout(() => {
                 if (!menu.contains(document.activeElement)) menu.open = false;
               }, 0);
+            });
+          });
+          document.addEventListener("click", (event) => {
+            menus.forEach((menu) => {
+              if (menu.contains(event.target)) return;
+              menu.open = false;
+              menu.querySelector("summary")?.setAttribute("aria-expanded", "false");
+            });
+          });
+          document.addEventListener("keydown", (event) => {
+            if (event.key !== "Escape") return;
+            menus.forEach((menu) => {
+              menu.open = false;
+              menu.querySelector("summary")?.setAttribute("aria-expanded", "false");
             });
           });
         })();
@@ -238,7 +267,7 @@
           </div>
           <p class="panel-intro">Closed-trade summary for executed futures positions.</p>
           <div class="kpi-grid trade-outcomes-kpi-grid">
-            <div class="metric-card"><span>Total Positions</span><strong>32</strong></div><div class="metric-card"><span>Open Positions</span><strong>0</strong></div><div class="metric-card"><span>Closed Positions</span><strong>32</strong></div><div class="metric-card"><span>TP Hits</span><strong class="value-green">8</strong></div><div class="metric-card"><span>SL Hits</span><strong class="value-red">21</strong></div><div class="metric-card"><span>Profit Locks</span><strong class="value-green">3</strong></div><div class="metric-card"><span>Win Rate</span><strong class="value-red">34.38%</strong></div><div class="metric-card"><span>Force Close Events</span><strong>0</strong></div><div class="metric-card"><span>Skipped Entries</span><strong>414</strong></div><div class="metric-card"><span>Avg Net / Trade</span><strong class="value-red">$ -0.74</strong></div><div class="metric-card"><span>Gross PnL</span><strong class="value-red">$ -12.60</strong></div><div class="metric-card"><span>Fees Paid</span><strong class="value-red">$ 11.20</strong></div><div class="metric-card"><span>Best Trade</span><strong class="value-green">$ 8.17</strong></div><div class="metric-card"><span>Worst Trade</span><strong class="value-red">$ -4.94</strong></div><div class="metric-card"><span>Peak Capital</span><strong class="value-green">$ 3000.81</strong></div><div class="metric-card"><span>Lowest Capital</span><strong class="value-red">$ 2960.39</strong></div><div class="metric-card"><span>LONG Trades</span><strong class="value-green">13</strong></div><div class="metric-card"><span>SHORT Trades</span><strong class="value-red">19</strong></div><div class="metric-card"><span>LONG Net PnL</span><strong class="value-red">$ -8.63</strong></div><div class="metric-card"><span>SHORT Net PnL</span><strong class="value-red">$ -15.17</strong></div>
+            <div class="metric-card"><span>Total Positions</span><strong>35</strong></div><div class="metric-card"><span>Open Positions</span><strong>1</strong></div><div class="metric-card"><span>Closed Positions</span><strong>34</strong></div><div class="metric-card"><span>TP Hits</span><strong class="value-green">8</strong></div><div class="metric-card"><span>SL Hits</span><strong class="value-red">23</strong></div><div class="metric-card"><span>Profit Locks</span><strong class="value-green">3</strong></div><div class="metric-card"><span>Win Rate</span><strong class="value-red">32.35%</strong></div><div class="metric-card"><span>Force Close Events</span><strong>0</strong></div><div class="metric-card"><span>Skipped Entries</span><strong>424</strong></div><div class="metric-card"><span>Avg Net / Trade</span><strong class="value-red">$ -0.82</strong></div><div class="metric-card"><span>Gross PnL</span><strong class="value-red">$ -15.82</strong></div><div class="metric-card"><span>Fees Paid</span><strong class="value-red">$ 11.90</strong></div><div class="metric-card"><span>Best Trade</span><strong class="value-green">$ 8.17</strong></div><div class="metric-card"><span>Worst Trade</span><strong class="value-red">$ -4.94</strong></div><div class="metric-card"><span>Peak Capital</span><strong class="value-green">$ 3000.81</strong></div><div class="metric-card"><span>Lowest Capital</span><strong class="value-red">$ 2960.39</strong></div><div class="metric-card"><span>LONG Trades</span><strong class="value-green">14</strong></div><div class="metric-card"><span>SHORT Trades</span><strong class="value-red">21</strong></div><div class="metric-card"><span>LONG Net PnL</span><strong class="value-red">$ -8.63</strong></div><div class="metric-card"><span>SHORT Net PnL</span><strong class="value-red">$ -19.09</strong></div>
           </div>
         </section>
       </section>
@@ -300,7 +329,7 @@
           <a class="social-linkedin" href="https://www.linkedin.com/in/aleksandre-abashishvili-03417617a/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
           <a class="social-x" href="https://x.com/SAbashishvili" target="_blank" rel="noopener noreferrer" aria-label="X">X</a>
           <a class="social-github" href="https://github.com/sandroabashishvili" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
-          <a class="social-portfolio" href="https://sandro-abashishvili.sandroabashishvili.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-label="Portfolio">Portfolio</a>
+          <a class="social-portfolio" href="https://sandroabashishvili.github.io/" target="_blank" rel="noopener noreferrer" aria-label="Portfolio">Portfolio</a>
           <a class="social-telegram" href="https://t.me/bitcoin_live_signals_bot" target="_blank" rel="noopener noreferrer" aria-label="Telegram">Telegram</a>
           <a class="social-youtube" href="https://youtube.com/@cryptonewsgeorgia?si=7yyT10A9UzRlBY6E" target="_blank" rel="noopener noreferrer" aria-label="YouTube">YouTube</a>
         </div>
@@ -332,7 +361,7 @@
     </aside>
     <script type="module" src="/Bitcoin-Live-Signals/shared/explanation_system/js/drawer.js"></script>
 
-    <script>window.__SSH_STRATEGY_LOGIC__ = {"closed_trade_summary": {"avg_net_per_trade": -0.74, "closed_positions": 32, "force_close_events": 0, "profit_lock_hits": 3, "sl_hits": 21, "tp_hits": 8, "win_rate": 34.38}, "confirmation_rows": [{"force_close": 0, "gate": "MOMENTUM", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "ORDERBOOK", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "STRUCTURE", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}], "confirmation_totals": {"force_close": 0, "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0, "wins": 0}, "long_confirmation_rows": [{"force_close": 0, "gate": "MOMENTUM", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "ORDERBOOK", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "STRUCTURE", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}], "long_confirmation_totals": {"force_close": 0, "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0, "wins": 0}, "long_primary_rows": [{"force_close": 0, "gate": "MTF", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "REGIME", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "TREND", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}], "long_primary_totals": {"force_close": 0, "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0, "wins": 0}, "primary_rows": [{"force_close": 0, "gate": "MTF", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "REGIME", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "TREND", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}], "primary_totals": {"force_close": 0, "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0, "wins": 0}, "short_confirmation_rows": [{"force_close": 0, "gate": "MOMENTUM", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "ORDERBOOK", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "STRUCTURE", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}], "short_confirmation_totals": {"force_close": 0, "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0, "wins": 0}, "short_primary_rows": [{"force_close": 0, "gate": "MTF", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "REGIME", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "TREND", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}], "short_primary_totals": {"force_close": 0, "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0, "wins": 0}, "chart_mode": "outcomes"};</script>
+    <script>window.__SSH_STRATEGY_LOGIC__ = {"closed_trade_summary": {"avg_net_per_trade": -0.82, "closed_positions": 34, "force_close_events": 0, "profit_lock_hits": 3, "sl_hits": 23, "tp_hits": 8, "win_rate": 32.35}, "confirmation_rows": [{"force_close": 0, "gate": "MOMENTUM", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "ORDERBOOK", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "STRUCTURE", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}], "confirmation_totals": {"force_close": 0, "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0, "wins": 0}, "long_confirmation_rows": [{"force_close": 0, "gate": "MOMENTUM", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "ORDERBOOK", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "STRUCTURE", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}], "long_confirmation_totals": {"force_close": 0, "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0, "wins": 0}, "long_primary_rows": [{"force_close": 0, "gate": "MTF", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "REGIME", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "TREND", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}], "long_primary_totals": {"force_close": 0, "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0, "wins": 0}, "primary_rows": [{"force_close": 0, "gate": "MTF", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "REGIME", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "TREND", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}], "primary_totals": {"force_close": 0, "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0, "wins": 0}, "short_confirmation_rows": [{"force_close": 0, "gate": "MOMENTUM", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "ORDERBOOK", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "STRUCTURE", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}], "short_confirmation_totals": {"force_close": 0, "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0, "wins": 0}, "short_primary_rows": [{"force_close": 0, "gate": "MTF", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "REGIME", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}, {"force_close": 0, "gate": "TREND", "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0}], "short_primary_totals": {"force_close": 0, "participated": 0, "profit_lock": 0, "sl": 0, "tp": 0, "win_rate": 0.0, "wins": 0}, "chart_mode": "outcomes"};</script>
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
     <script type="module" src="/Bitcoin-Live-Signals/shared/charts/strategy_logic_evaluation.js"></script>
     
