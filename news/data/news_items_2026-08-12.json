@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-12",
-  "generated_at_utc": "2026-08-12 10:06:02 UTC",
+  "generated_at_utc": "2026-08-12 16:05:55 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,181 +16,181 @@
   "count": 12,
   "items": [
     {
-      "title": "Twenty One's $2.8 billion Bitcoin pile is worth far more than its stock, but there's a catch",
-      "link": "https://cryptoslate.com/twenty-ones-2-8-billion-bitcoin-pile-is-worth-far-more-than-its-stock-but-theres-a-catch/",
-      "summary": "$486.5 million of converts lock up 16,116 BTC while the new CEO pursues operating and credit businesses. The post Twenty One’s $2.8 billion Bitcoin pile is worth far more than its stock, but there’s a catch appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786528530,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-vault-debt-lock.jpg"
-      ],
-      "image": "../assets/news/2026-08-12/81dc145545786adf_base.jpg",
-      "image_local": "../assets/news/2026-08-12/81dc145545786adf_base.jpg"
-    },
-    {
-      "title": "CoreWeave surges 16% on $2.58 billion revenue quarter as AI infrastructure demand eclipses crypto",
-      "link": "https://www.coindesk.com/markets/2026/08/12/coreweave-surges-16-on-usd2-58-billion-revenue-quarter-as-ai-infrastructure-demand-eclipses-crypto",
-      "summary": "CoreWeave surges 16% on $2.58 billion revenue quarter as AI infrastructure demand eclipses crypto",
-      "source": "CoinDesk",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786527712,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/56e051157de1e47ff1176c56836958da1d5bb3d5-2252x1736.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/56e051157de1e47ff1176c56836958da1d5bb3d5-2252x1736.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-12/90262756a84c425a_base.jpg",
-      "image_local": "../assets/news/2026-08-12/90262756a84c425a_base.jpg"
-    },
-    {
-      "title": "CFTC Invokes Emergency Powers to Keep Kalshi Trading Despite New York Suit",
-      "link": "https://decrypt.co/375387/cftc-invokes-emergency-powers-to-keep-kalshi-trading-despite-new-york-suit",
-      "summary": "Kalshi triggered the order, notifying the agency of a market emergency after New York moved to bar its contracts nationwide.",
+      "title": "XRP Bridge Drained After Software Treats Fake Deposits as Real",
+      "link": "https://decrypt.co/375441/xrp-drained-tx-bridge",
+      "summary": "A flaw that went undetected during multiple audits allowed an attacker to create unbacked balances and withdraw XRP from the bridge’s reserves.",
       "source": "Decrypt",
       "date": "2026-08-12",
       "date_human": "Aug 12, 2026",
-      "pub_ts": 1786526532,
+      "pub_ts": 1786550452,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt_style_kalshi-02-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt_style_kalshi-02-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/decrypt_style_kalshi-02-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/xrp-decrypt-style-01-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/xrp-decrypt-style-01-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/xrp-decrypt-style-01-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-12/9dab8e749338709a_base.jpg",
-      "image_local": "../assets/news/2026-08-12/9dab8e749338709a_base.jpg"
+      "image": "../assets/news/2026-08-12/26dd205d9116e012_base.jpg",
+      "image_local": "../assets/news/2026-08-12/26dd205d9116e012_base.jpg"
     },
     {
-      "title": "Crypto companies urge AI firms to give Bitcoin developers early access",
-      "link": "https://cointelegraph.com/news/crypto-companies-ai-firms-bitcoin-developers-access",
-      "summary": "The Bitcoin Policy Institute and other industry participants urged AI companies to offer early access to their frontier models to aid Bitcoin and open-source developers in their cybersecurity efforts.",
-      "source": "Cointelegraph",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786525381,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/blockchain-city-people-future-ai.jpg"
-      ],
-      "image": "../assets/news/2026-08-12/9a69d0c5c8a4222a_base.jpg",
-      "image_local": "../assets/news/2026-08-12/9a69d0c5c8a4222a_base.jpg"
-    },
-    {
-      "title": "TON Strategy earned $15 million staking Gram while operations burned $10.6 million in cash",
-      "link": "https://cryptoslate.com/ton-strategy-earned-15-million-staking-gram-while-operations-burned-10-6-million-in-cash/",
-      "summary": "Fair-value gains supplied 99.1% of Q2 pre-tax profit as continuing operations used $10.6 million of cash in the first half. The post TON Strategy earned $15 million staking Gram while operations burned $10.6 million in cash appeared first on CryptoSlate.",
+      "title": "After selling 832 BTC to clear debt, this Nasdaq-listed crypto firm is using a 1-for-50 reverse split to mask its shrinking treasury",
+      "link": "https://cryptoslate.com/after-selling-832-btc-to-clear-debt-this-nasdaq-listed-crypto-firm-is-using-a-1-for-50-reverse-split-to-mask-its-shrinking-treasury/",
+      "summary": "The proposed reverse split can address the $1 bid-price rule, but it cannot replace operating cash. The post After selling 832 BTC to clear debt, this Nasdaq-listed crypto firm is using a 1-for-50 reverse split to mask its shrinking treasury appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-12",
       "date_human": "Aug 12, 2026",
-      "pub_ts": 1786518054,
+      "pub_ts": 1786548655,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/ton-strategy-1.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/fold-bitcoin-wallet-crisis.jpg"
       ],
-      "image": "../assets/news/2026-08-12/8827b854bf3274ec_base.jpg",
-      "image_local": "../assets/news/2026-08-12/8827b854bf3274ec_base.jpg"
+      "image": "../assets/news/2026-08-12/46fc99538be17673_base.jpg",
+      "image_local": "../assets/news/2026-08-12/46fc99538be17673_base.jpg"
     },
     {
-      "title": "Fidelity moves to add staking, quarterly payouts to near $900 million ether ETF",
-      "link": "https://www.coindesk.com/business/2026/08/12/fidelity-moves-to-add-staking-quarterly-payouts-to-near-usd900-million-ether-etf",
-      "summary": "Fidelity moves to add staking, quarterly payouts to near $900 million ether ETF",
-      "source": "CoinDesk",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786527020,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/b2b575e5fb400b044ebb5d3c2d88d2a80846eafb-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/b2b575e5fb400b044ebb5d3c2d88d2a80846eafb-1920x1080.jpg?auto=format&q=75"
-      ],
-      "image": "../assets/news/2026-08-12/e72db0fff4676401_base.jpg",
-      "image_local": "../assets/news/2026-08-12/e72db0fff4676401_base.jpg"
-    },
-    {
-      "title": "Another OpenAI Exec Quits in Leadership Shake-Up as AI Giant Eyes IPO",
-      "link": "https://decrypt.co/375381/openai-exec-brad-lightcap-quits-leadership-shake-up-ipo",
-      "summary": "The former operating chief is starting a new venture following several departures across the ChatGPT developer’s leadership and safety teams.",
-      "source": "Decrypt",
-      "date": "2026-08-11",
-      "date_human": "Aug 11, 2026",
-      "pub_ts": 1786485846,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-12/10a1cb412597c685_base.jpg",
-      "image_local": "../assets/news/2026-08-12/10a1cb412597c685_base.jpg"
-    },
-    {
-      "title": "Inside the fake crypto startup that fooled North Korean IT workers",
-      "link": "https://cointelegraph.com/magazine/fake-crypto-startup-fooled-north-korean-it-workers",
-      "summary": "Suspected North Koreans IT workers joined a fake crypto startup — without realizing their every move was being tracked to extract valuable intel.",
+      "title": "Bitcoin eyes $63K as US CPI relief sends September Fed rate pause odds to 60%",
+      "link": "https://cointelegraph.com/markets/bitcoin-eyes-63k-as-us-cpi-relief-sends-september-fed-rate-pause-odds-to-60",
+      "summary": "Bitcoin price action did not reflect relief in US CPI inflation numbers matching expectations amid a warning over $63,000 failing as support.",
       "source": "Cointelegraph",
       "date": "2026-08-12",
       "date_human": "Aug 12, 2026",
-      "pub_ts": 1786520098,
+      "pub_ts": 1786546810,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/inside-the-fake-crypto-startup-that-fooled-north-korean-it-workers.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/us-inflation-2.jpg"
       ],
-      "image": "../assets/news/2026-08-12/fa253883ecd2b1ff_base.jpg",
-      "image_local": "../assets/news/2026-08-12/fa253883ecd2b1ff_base.jpg"
+      "image": "../assets/news/2026-08-12/41c325d5e37aca74_base.jpg",
+      "image_local": "../assets/news/2026-08-12/41c325d5e37aca74_base.jpg"
     },
     {
-      "title": "Strategy's $4.6 billion cash buffer gives it almost 3 years before Bitcoin sales create real stress",
-      "link": "https://cryptoslate.com/strategys-4-6-billion-cash-buffer-gives-it-almost-3-years-before-bitcoin-sales-become-a-bigger-test/",
-      "summary": "The company now treats BTC as a managed reserve for dollar obligations, testing whether sales can remain voluntary. The post Strategy’s $4.6 billion cash buffer gives it almost 3 years before Bitcoin sales create real stress appeared first on CryptoSlate.",
+      "title": "Miden bets on privacy stablecoins with introduction of USDCx",
+      "link": "https://www.coindesk.com/tech/2026/08/12/miden-bets-on-privacy-stablecoins-with-introduction-of-usdcx",
+      "summary": "Miden bets on privacy stablecoins with introduction of USDCx",
+      "source": "CoinDesk",
+      "date": "2026-08-12",
+      "date_human": "Aug 12, 2026",
+      "pub_ts": 1786546800,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/463ee8c8dbdfa6b99128660e3e64d57fcf21b9af-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/463ee8c8dbdfa6b99128660e3e64d57fcf21b9af-1920x1080.jpg?auto=format&q=75"
+      ],
+      "image": "../assets/news/2026-08-12/b3e242a4b6fb48e7_base.jpg",
+      "image_local": "../assets/news/2026-08-12/b3e242a4b6fb48e7_base.jpg"
+    },
+    {
+      "title": "Crypto-Backed Loans, Explained: How to Unlock Cash Without Selling Your Bitcoin",
+      "link": "https://decrypt.co/375428/crypto-backed-loans-explained-how-to-unlock-cash-without-selling-your-bitcoin",
+      "summary": "A fixed-rate crypto-backed loan lets you borrow against BTC, ETH, or SOL while keeping your coins. Here's how they work.",
+      "source": "Decrypt",
+      "date": "2026-08-12",
+      "date_human": "Aug 12, 2026",
+      "pub_ts": 1786550056,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/08/crypto-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/crypto-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/crypto-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-12/1378db9b38ea5844_base.jpg",
+      "image_local": "../assets/news/2026-08-12/1378db9b38ea5844_base.jpg"
+    },
+    {
+      "title": "As retail crypto trades collapse 73%, eToro drops $231 million to capture active US stock traders",
+      "link": "https://cryptoslate.com/as-retail-crypto-trades-collapse-73-etoro-drops-231-million-to-capture-active-us-stock-traders/",
+      "summary": "July crypto trades fell to 1.4 million and average ticket size halved, while quarterly profit rose and eToro expanded into active US stock trading. The post As retail crypto trades collapse 73%, eToro drops $231 million to capture active US stock traders appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-11",
-      "date_human": "Aug 11, 2026",
-      "pub_ts": 1786490419,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-balance-credit-strategy.jpg"
-      ],
-      "image": "../assets/news/2026-08-12/3d6c2ba65b0482ba_base.jpg",
-      "image_local": "../assets/news/2026-08-12/3d6c2ba65b0482ba_base.jpg"
-    },
-    {
-      "title": "One overlooked group has added $1.78 billion of selling pressure to bitcoin market",
-      "link": "https://www.coindesk.com/markets/2026/08/12/one-overlooked-group-has-added-usd1-78-billion-of-selling-pressure-to-bitcoin-market",
-      "summary": "One overlooked group has added $1.78 billion of selling pressure to bitcoin market",
-      "source": "CoinDesk",
       "date": "2026-08-12",
       "date_human": "Aug 12, 2026",
-      "pub_ts": 1786524803,
+      "pub_ts": 1786545352,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/5a1c20851ae32daabe4820e89ae7049b9efddc85-1000x563.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/5a1c20851ae32daabe4820e89ae7049b9efddc85-1000x563.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/etoro-crypto-stock-pivot.jpg"
       ],
-      "image": "../assets/news/2026-08-12/cb9056b5fa1d25b6_base.jpg",
-      "image_local": "../assets/news/2026-08-12/cb9056b5fa1d25b6_base.jpg"
+      "image": "../assets/news/2026-08-12/818c79a500b87446_base.jpg",
+      "image_local": "../assets/news/2026-08-12/818c79a500b87446_base.jpg"
     },
     {
-      "title": "BTCPay Backers Offer Bitcoin Bounty After Wallet Exploit",
-      "link": "https://decrypt.co/375376/btcpay-bitcoin-bounty-critical-wallet-exploit",
-      "summary": "The reward aims to recover Bitcoin stolen after attackers gained access to connected LND wallets.",
-      "source": "Decrypt",
-      "date": "2026-08-11",
-      "date_human": "Aug 11, 2026",
-      "pub_ts": 1786482963,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-pixel-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-12/d3cfd5c24fd6760a_base.jpg",
-      "image_local": "../assets/news/2026-08-12/d3cfd5c24fd6760a_base.jpg"
-    },
-    {
-      "title": "Harmony considers rollback after suspected exploit inflates ONE supply",
-      "link": "https://cointelegraph.com/news/armony-rollback-alleged-one-token-mint",
-      "summary": "Harmony is working with exchanges to freeze funds and is preparing a patch after claims that 2.8 billion unauthorized ONE hit trading platforms.",
+      "title": "Kalshi launches sports and crypto perps data feed on DoubleZero",
+      "link": "https://cointelegraph.com/news/kalshi-launches-sports-crypto-data-feed-doublezero",
+      "summary": "Kalshi launched access to its sports and crypto perpetual data feed through DoubleZero’s dedicated fiber network to bolster institutional data access.",
       "source": "Cointelegraph",
       "date": "2026-08-12",
       "date_human": "Aug 12, 2026",
-      "pub_ts": 1786514572,
+      "pub_ts": 1786543121,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-top-hacks-so-far-4.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-comparison-us-elections-2.jpg"
       ],
-      "image": "../assets/news/2026-08-12/c2bd54cca8f637aa_base.jpg",
-      "image_local": "../assets/news/2026-08-12/c2bd54cca8f637aa_base.jpg"
+      "image": "../assets/news/2026-08-12/b04c2e3af7ea3bcc_base.jpg",
+      "image_local": "../assets/news/2026-08-12/b04c2e3af7ea3bcc_base.jpg"
+    },
+    {
+      "title": "Smart contract blockchain Solana nearly froze Wednesday, Marinade Finance says",
+      "link": "https://www.coindesk.com/tech/2026/08/12/smart-contract-blockchain-solana-nearly-froze-wednesday-marinade-finance-says",
+      "summary": "Smart contract blockchain Solana nearly froze Wednesday, Marinade Finance says",
+      "source": "CoinDesk",
+      "date": "2026-08-12",
+      "date_human": "Aug 12, 2026",
+      "pub_ts": 1786541971,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/f1592166cb8281373325dbe29d66cc4b5939ac79-1280x720.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/f1592166cb8281373325dbe29d66cc4b5939ac79-1280x720.png?auto=format&q=75"
+      ],
+      "image": "../assets/news/2026-08-12/cbfac84d9fbf14ac_base.jpg",
+      "image_local": "../assets/news/2026-08-12/cbfac84d9fbf14ac_base.jpg"
+    },
+    {
+      "title": "Why Bitcoin Barely Moved Even as US Inflation Cools to 3.4%",
+      "link": "https://decrypt.co/375411/why-bitcoin-barely-moved-us-cpi-inflation-cools",
+      "summary": "The tamest U.S. inflation print in months left crypto markets flat, with Bitcoin shrugging off the data hit. Here's why.",
+      "source": "Decrypt",
+      "date": "2026-08-12",
+      "date_human": "Aug 12, 2026",
+      "pub_ts": 1786547276,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-town-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-town-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-town-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-12/3285632011848413_base.jpg",
+      "image_local": "../assets/news/2026-08-12/3285632011848413_base.jpg"
+    },
+    {
+      "title": "XRP loses $1 for the first time since Trump's 2024 election as bearish bets surge and 200,000 XRP stolen",
+      "link": "https://cryptoslate.com/xrp-loses-1-for-the-first-time-since-trumps-2024-election-as-bearish-bets-surge-and-200000-xrp-stolen/",
+      "summary": "XRP slipped below $1 as leverage rebuilt and selling pressure deepened across the market. Data from CryptoSlate showed that the digital asset fell as low as $0.99 during the session, its weakest level since November 2024, when Donald Trump won the US presidential election. The move unwinds one of the most important thresholds from XRP’s post-election […] The post XRP loses $1 for the first time since Trump’s 2024 election as bearish bets surge and 200,000 XRP stolen appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-12",
+      "date_human": "Aug 12, 2026",
+      "pub_ts": 1786541452,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/xrp-leverage-selling-pressure.jpg"
+      ],
+      "image": "../assets/news/2026-08-12/2d9e417798070d14_base.jpg",
+      "image_local": "../assets/news/2026-08-12/2d9e417798070d14_base.jpg"
+    },
+    {
+      "title": "Slovenia joins EU's MiCA stablecoin register with first issuer",
+      "link": "https://cointelegraph.com/news/slovenia-eu-mica-stablecoin-register-dinaro",
+      "summary": "Slovenia entered the EU’s MiCA stablecoin register through electronic money institution Dinaro, as the update also added two new CASPs.",
+      "source": "Cointelegraph",
+      "date": "2026-08-12",
+      "date_human": "Aug 12, 2026",
+      "pub_ts": 1786541514,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-a-beginners-guide-to-storing-your-cryptocurrency-mica-eu-license.jpg"
+      ],
+      "image": "../assets/news/2026-08-12/4ab5cb0c5fdf33c7_base.jpg",
+      "image_local": "../assets/news/2026-08-12/4ab5cb0c5fdf33c7_base.jpg"
+    },
+    {
+      "title": "Standard Chartered-led Anchorpoint launches Hong Kong dollar stablecoin",
+      "link": "https://www.coindesk.com/business/2026/08/12/standard-chartered-led-anchorpoint-launches-hong-kong-dollar-stablecoin",
+      "summary": "Standard Chartered-led Anchorpoint launches Hong Kong dollar stablecoin",
+      "source": "CoinDesk",
+      "date": "2026-08-12",
+      "date_human": "Aug 12, 2026",
+      "pub_ts": 1786540429,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/df9f1a75636b8bc1ae82ee873b7d7a30e1b25182-1920x1440.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/df9f1a75636b8bc1ae82ee873b7d7a30e1b25182-1920x1440.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-12/f5ae4c5785258f71_base.jpg",
+      "image_local": "../assets/news/2026-08-12/f5ae4c5785258f71_base.jpg"
     }
   ]
 }
