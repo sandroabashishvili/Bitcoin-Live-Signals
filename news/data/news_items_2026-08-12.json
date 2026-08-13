@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-12",
-  "generated_at_utc": "2026-08-12 16:05:55 UTC",
+  "generated_at_utc": "2026-08-12 22:06:03 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,181 +16,181 @@
   "count": 12,
   "items": [
     {
-      "title": "XRP Bridge Drained After Software Treats Fake Deposits as Real",
-      "link": "https://decrypt.co/375441/xrp-drained-tx-bridge",
-      "summary": "A flaw that went undetected during multiple audits allowed an attacker to create unbacked balances and withdraw XRP from the bridge’s reserves.",
-      "source": "Decrypt",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786550452,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/xrp-decrypt-style-01-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/xrp-decrypt-style-01-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/xrp-decrypt-style-01-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-12/26dd205d9116e012_base.jpg",
-      "image_local": "../assets/news/2026-08-12/26dd205d9116e012_base.jpg"
-    },
-    {
-      "title": "After selling 832 BTC to clear debt, this Nasdaq-listed crypto firm is using a 1-for-50 reverse split to mask its shrinking treasury",
-      "link": "https://cryptoslate.com/after-selling-832-btc-to-clear-debt-this-nasdaq-listed-crypto-firm-is-using-a-1-for-50-reverse-split-to-mask-its-shrinking-treasury/",
-      "summary": "The proposed reverse split can address the $1 bid-price rule, but it cannot replace operating cash. The post After selling 832 BTC to clear debt, this Nasdaq-listed crypto firm is using a 1-for-50 reverse split to mask its shrinking treasury appeared first on CryptoSlate.",
+      "title": "Bitcoin miner HIVE's $79M quarter runs into an $80M Swedish tax problem",
+      "link": "https://cryptoslate.com/bitcoin-miner-hives-79m-quarter-runs-into-an-80m-swedish-tax-problem/",
+      "summary": "Preliminary revenue reached about $79 million, yet HIVE cannot quantify the possible noncash accrual or its expected losses. The post Bitcoin miner HIVE’s $79M quarter runs into an $80M Swedish tax problem appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-12",
       "date_human": "Aug 12, 2026",
-      "pub_ts": 1786548655,
+      "pub_ts": 1786570819,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/fold-bitcoin-wallet-crisis.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/hive-swedish-vat-risk.jpg"
       ],
-      "image": "../assets/news/2026-08-12/46fc99538be17673_base.jpg",
-      "image_local": "../assets/news/2026-08-12/46fc99538be17673_base.jpg"
+      "image": "../assets/news/2026-08-12/f3b57cfb73b403ed_base.jpg",
+      "image_local": "../assets/news/2026-08-12/f3b57cfb73b403ed_base.jpg"
     },
     {
-      "title": "Bitcoin eyes $63K as US CPI relief sends September Fed rate pause odds to 60%",
-      "link": "https://cointelegraph.com/markets/bitcoin-eyes-63k-as-us-cpi-relief-sends-september-fed-rate-pause-odds-to-60",
-      "summary": "Bitcoin price action did not reflect relief in US CPI inflation numbers matching expectations amid a warning over $63,000 failing as support.",
-      "source": "Cointelegraph",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786546810,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/us-inflation-2.jpg"
-      ],
-      "image": "../assets/news/2026-08-12/41c325d5e37aca74_base.jpg",
-      "image_local": "../assets/news/2026-08-12/41c325d5e37aca74_base.jpg"
-    },
-    {
-      "title": "Miden bets on privacy stablecoins with introduction of USDCx",
-      "link": "https://www.coindesk.com/tech/2026/08/12/miden-bets-on-privacy-stablecoins-with-introduction-of-usdcx",
-      "summary": "Miden bets on privacy stablecoins with introduction of USDCx",
-      "source": "CoinDesk",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786546800,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/463ee8c8dbdfa6b99128660e3e64d57fcf21b9af-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/463ee8c8dbdfa6b99128660e3e64d57fcf21b9af-1920x1080.jpg?auto=format&q=75"
-      ],
-      "image": "../assets/news/2026-08-12/b3e242a4b6fb48e7_base.jpg",
-      "image_local": "../assets/news/2026-08-12/b3e242a4b6fb48e7_base.jpg"
-    },
-    {
-      "title": "Crypto-Backed Loans, Explained: How to Unlock Cash Without Selling Your Bitcoin",
-      "link": "https://decrypt.co/375428/crypto-backed-loans-explained-how-to-unlock-cash-without-selling-your-bitcoin",
-      "summary": "A fixed-rate crypto-backed loan lets you borrow against BTC, ETH, or SOL while keeping your coins. Here's how they work.",
+      "title": "The AI-Generated Pattern Hides You From Surveillance Cameras—Including Flock",
+      "link": "https://decrypt.co/375479/ai-generated-pattern-hides-you-surveillance-cameras-flock",
+      "summary": "A Kansas City security researcher ran 31 million tests to teach a model how to paint camouflage for the algorithm age.",
       "source": "Decrypt",
       "date": "2026-08-12",
       "date_human": "Aug 12, 2026",
-      "pub_ts": 1786550056,
+      "pub_ts": 1786570275,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/08/crypto-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/crypto-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/crypto-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/08/donut-media-car-swearingen-1-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/donut-media-car-swearingen-1-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/donut-media-car-swearingen-1-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-12/1378db9b38ea5844_base.jpg",
-      "image_local": "../assets/news/2026-08-12/1378db9b38ea5844_base.jpg"
+      "image": "../assets/news/2026-08-12/d5051a5b1e0bfda6_base.jpg",
+      "image_local": "../assets/news/2026-08-12/d5051a5b1e0bfda6_base.jpg"
     },
     {
-      "title": "As retail crypto trades collapse 73%, eToro drops $231 million to capture active US stock traders",
-      "link": "https://cryptoslate.com/as-retail-crypto-trades-collapse-73-etoro-drops-231-million-to-capture-active-us-stock-traders/",
-      "summary": "July crypto trades fell to 1.4 million and average ticket size halved, while quarterly profit rose and eToro expanded into active US stock trading. The post As retail crypto trades collapse 73%, eToro drops $231 million to capture active US stock traders appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786545352,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/etoro-crypto-stock-pivot.jpg"
-      ],
-      "image": "../assets/news/2026-08-12/818c79a500b87446_base.jpg",
-      "image_local": "../assets/news/2026-08-12/818c79a500b87446_base.jpg"
-    },
-    {
-      "title": "Kalshi launches sports and crypto perps data feed on DoubleZero",
-      "link": "https://cointelegraph.com/news/kalshi-launches-sports-crypto-data-feed-doublezero",
-      "summary": "Kalshi launched access to its sports and crypto perpetual data feed through DoubleZero’s dedicated fiber network to bolster institutional data access.",
+      "title": "Hawaii crypto ATM ban to take effect on Oct. 1",
+      "link": "https://cointelegraph.com/news/hawaii-crypto-atm-ban-october-enforcement",
+      "summary": "Hawaii will join Minnesota, Tennessee and Indiana in becoming the fourth US state to completely ban the use of cryptocurrency ATMs and kiosks in response to scams.",
       "source": "Cointelegraph",
       "date": "2026-08-12",
       "date_human": "Aug 12, 2026",
-      "pub_ts": 1786543121,
+      "pub_ts": 1786569677,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-comparison-us-elections-2.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoins-real-world-uses.png"
       ],
-      "image": "../assets/news/2026-08-12/b04c2e3af7ea3bcc_base.jpg",
-      "image_local": "../assets/news/2026-08-12/b04c2e3af7ea3bcc_base.jpg"
+      "image": "../assets/news/2026-08-12/a788de3d89171c61_base.jpg",
+      "image_local": "../assets/news/2026-08-12/a788de3d89171c61_base.jpg"
     },
     {
-      "title": "Smart contract blockchain Solana nearly froze Wednesday, Marinade Finance says",
-      "link": "https://www.coindesk.com/tech/2026/08/12/smart-contract-blockchain-solana-nearly-froze-wednesday-marinade-finance-says",
-      "summary": "Smart contract blockchain Solana nearly froze Wednesday, Marinade Finance says",
+      "title": "Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout",
+      "link": "https://www.coindesk.com/business/2026/08/12/goldman-sachs-leaps-into-bitcoin-income-etfs-with-usd2-25-billion-neos-buyout",
+      "summary": "Goldman Sachs leaps into bitcoin income ETFs with $2.25 billion NEOS buyout",
       "source": "CoinDesk",
       "date": "2026-08-12",
       "date_human": "Aug 12, 2026",
-      "pub_ts": 1786541971,
+      "pub_ts": 1786555263,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/f1592166cb8281373325dbe29d66cc4b5939ac79-1280x720.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/f1592166cb8281373325dbe29d66cc4b5939ac79-1280x720.png?auto=format&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/7146178019a1ec7dc2d3b45b9e54eb4155bc8715-1280x720.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/7146178019a1ec7dc2d3b45b9e54eb4155bc8715-1280x720.jpg?auto=format&q=75"
       ],
-      "image": "../assets/news/2026-08-12/cbfac84d9fbf14ac_base.jpg",
-      "image_local": "../assets/news/2026-08-12/cbfac84d9fbf14ac_base.jpg"
+      "image": "../assets/news/2026-08-12/a9ebebf05d7295c4_base.jpg",
+      "image_local": "../assets/news/2026-08-12/a9ebebf05d7295c4_base.jpg"
     },
     {
-      "title": "Why Bitcoin Barely Moved Even as US Inflation Cools to 3.4%",
-      "link": "https://decrypt.co/375411/why-bitcoin-barely-moved-us-cpi-inflation-cools",
-      "summary": "The tamest U.S. inflation print in months left crypto markets flat, with Bitcoin shrugging off the data hit. Here's why.",
+      "title": "Russia picks Bitcoin, Ethereum and USDT for public trading as retail faces $58,000 cap",
+      "link": "https://cryptoslate.com/russia-picks-bitcoin-ethereum-and-usdt-for-public-trading-as-retail-faces-58000-cap/",
+      "summary": "The Bank of Russia’s proposed gate caps non-qualified residents at ₽300,000 per broker while qualified investors retain broader access. The post Russia picks Bitcoin, Ethereum and USDT for public trading as retail faces $58,000 cap appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-12",
+      "date_human": "Aug 12, 2026",
+      "pub_ts": 1786567231,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/russia-crypto-turnstile.jpg"
+      ],
+      "image": "../assets/news/2026-08-12/27cb1ee67fff3246_base.jpg",
+      "image_local": "../assets/news/2026-08-12/27cb1ee67fff3246_base.jpg"
+    },
+    {
+      "title": "'Inner Thoughts' of Every Major AI Model Exposed in Massive Exploit",
+      "link": "https://decrypt.co/375501/inner-thoughts-every-major-ai-model-exposed-exploit",
+      "summary": "Researchers found every major AI provider encrypts reasoning tokens with a single global key—and exploited it to decode 315,320 hidden thinking blocks from public logs, recovering passwords and live API keys along the way.",
       "source": "Decrypt",
       "date": "2026-08-12",
       "date_human": "Aug 12, 2026",
-      "pub_ts": 1786547276,
+      "pub_ts": 1786566664,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-town-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-town-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-town-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-12-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-12-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-12-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-12/3285632011848413_base.jpg",
-      "image_local": "../assets/news/2026-08-12/3285632011848413_base.jpg"
+      "image": "../assets/news/2026-08-12/6933dbdf5e68eafc_base.jpg",
+      "image_local": "../assets/news/2026-08-12/6933dbdf5e68eafc_base.jpg"
     },
     {
-      "title": "XRP loses $1 for the first time since Trump's 2024 election as bearish bets surge and 200,000 XRP stolen",
-      "link": "https://cryptoslate.com/xrp-loses-1-for-the-first-time-since-trumps-2024-election-as-bearish-bets-surge-and-200000-xrp-stolen/",
-      "summary": "XRP slipped below $1 as leverage rebuilt and selling pressure deepened across the market. Data from CryptoSlate showed that the digital asset fell as low as $0.99 during the session, its weakest level since November 2024, when Donald Trump won the US presidential election. The move unwinds one of the most important thresholds from XRP’s post-election […] The post XRP loses $1 for the first time since Trump’s 2024 election as bearish bets surge and 200,000 XRP stolen appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786541452,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/xrp-leverage-selling-pressure.jpg"
-      ],
-      "image": "../assets/news/2026-08-12/2d9e417798070d14_base.jpg",
-      "image_local": "../assets/news/2026-08-12/2d9e417798070d14_base.jpg"
-    },
-    {
-      "title": "Slovenia joins EU's MiCA stablecoin register with first issuer",
-      "link": "https://cointelegraph.com/news/slovenia-eu-mica-stablecoin-register-dinaro",
-      "summary": "Slovenia entered the EU’s MiCA stablecoin register through electronic money institution Dinaro, as the update also added two new CASPs.",
+      "title": "Goldman Sachs to acquire ETF manager NEOS in $2.25B deal",
+      "link": "https://cointelegraph.com/news/goldman-sachs-to-acquire-etf-manager-neos-225b-deal",
+      "summary": "The deal would add NEOS’ $30 billion ETF business, including Bitcoin- and Ether-linked income funds, to Goldman Sachs Asset Management.",
       "source": "Cointelegraph",
       "date": "2026-08-12",
       "date_human": "Aug 12, 2026",
-      "pub_ts": 1786541514,
+      "pub_ts": 1786567075,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-a-beginners-guide-to-storing-your-cryptocurrency-mica-eu-license.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-goldman-sachs-and-crypto-recap.png"
       ],
-      "image": "../assets/news/2026-08-12/4ab5cb0c5fdf33c7_base.jpg",
-      "image_local": "../assets/news/2026-08-12/4ab5cb0c5fdf33c7_base.jpg"
+      "image": "../assets/news/2026-08-12/7f5ad1e556c54462_base.jpg",
+      "image_local": "../assets/news/2026-08-12/7f5ad1e556c54462_base.jpg"
     },
     {
-      "title": "Standard Chartered-led Anchorpoint launches Hong Kong dollar stablecoin",
-      "link": "https://www.coindesk.com/business/2026/08/12/standard-chartered-led-anchorpoint-launches-hong-kong-dollar-stablecoin",
-      "summary": "Standard Chartered-led Anchorpoint launches Hong Kong dollar stablecoin",
+      "title": "Wintermute plans $1 billion AI push beyond crypto: Bloomberg",
+      "link": "https://www.coindesk.com/business/2026/08/12/wintermute-plans-usd1-billion-ai-push-beyond-crypto-bloomberg",
+      "summary": "Wintermute plans $1 billion AI push beyond crypto: Bloomberg",
       "source": "CoinDesk",
       "date": "2026-08-12",
       "date_human": "Aug 12, 2026",
-      "pub_ts": 1786540429,
+      "pub_ts": 1786552464,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/df9f1a75636b8bc1ae82ee873b7d7a30e1b25182-1920x1440.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/df9f1a75636b8bc1ae82ee873b7d7a30e1b25182-1920x1440.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/7db3bf97253af39b70ae7cb86f74023bea1187e3-4323x2432.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/7db3bf97253af39b70ae7cb86f74023bea1187e3-4323x2432.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-12/f5ae4c5785258f71_base.jpg",
-      "image_local": "../assets/news/2026-08-12/f5ae4c5785258f71_base.jpg"
+      "image": "../assets/news/2026-08-12/f39c879c3511120b_base.jpg",
+      "image_local": "../assets/news/2026-08-12/f39c879c3511120b_base.jpg"
+    },
+    {
+      "title": "21Shares XRP ETF loses 54% of assets as redemptions lock in $13.4 million loss",
+      "link": "https://cryptoslate.com/21shares-xrp-etf-loses-54-of-assets-as-redemptions-lock-in-13-4-million-loss/",
+      "summary": "XRP depreciation drove most of TOXR’s first-half damage, while negative net capital transactions reduced its share base before second-quarter net issuance turned positive. The post 21Shares XRP ETF loses 54% of assets as redemptions lock in $13.4 million loss appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-12",
+      "date_human": "Aug 12, 2026",
+      "pub_ts": 1786562437,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/xrp-etf-piggybank-losses.jpg"
+      ],
+      "image": "../assets/news/2026-08-12/30cb330987befa92_base.jpg",
+      "image_local": "../assets/news/2026-08-12/30cb330987befa92_base.jpg"
+    },
+    {
+      "title": "China's DeepSeek Upgrades V4 Pro: Claude Fable Is Only 5% Better at 4,500% the Price",
+      "link": "https://decrypt.co/375507/china-deepseek-upgrades-v4-pro-claude-fable",
+      "summary": "The April preview got benchmarked to death and landed 18 points behind Anthropic’s flagship. DeepSeek’s own numbers for the finished model tell a very different story.",
+      "source": "Decrypt",
+      "date": "2026-08-12",
+      "date_human": "Aug 12, 2026",
+      "pub_ts": 1786564865,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/08/china-deepSeek-AI-gID_4.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/china-deepSeek-AI-gID_4.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/china-deepSeek-AI-gID_4.jpg"
+      ],
+      "image": "../assets/news/2026-08-12/e85e43f66662983a_base.jpg",
+      "image_local": "../assets/news/2026-08-12/e85e43f66662983a_base.jpg"
+    },
+    {
+      "title": "NYC council announces probe into ‘predatory marketing practices' on prediction markets",
+      "link": "https://cointelegraph.com/news/new-york-council-probe-marketing-practices-prediction-markets",
+      "summary": "Council Speaker Julie Menin sent letters to four companies offering prediction market services to New Yorkers as part of an investigation into their marketing practices.",
+      "source": "Cointelegraph",
+      "date": "2026-08-12",
+      "date_human": "Aug 12, 2026",
+      "pub_ts": 1786566166,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-us-takes-regulatory-steps-for-blockchain-technology-adoption-1.jpg"
+      ],
+      "image": "../assets/news/2026-08-12/52e0d895752d0cbc_base.jpg",
+      "image_local": "../assets/news/2026-08-12/52e0d895752d0cbc_base.jpg"
+    },
+    {
+      "title": "Kalshi taps DoubleZero for Wall Street-style high-speed data feed",
+      "link": "https://www.coindesk.com/business/2026/08/12/solana-platform-taps-prediction-market-kalshi-for-wall-street-style-high-speed-data-feed",
+      "summary": "Kalshi taps DoubleZero for Wall Street-style high-speed data feed",
+      "source": "CoinDesk",
+      "date": "2026-08-12",
+      "date_human": "Aug 12, 2026",
+      "pub_ts": 1786551289,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/1752c4b99c4e3953d426b655225dc48327ad8e7b-1920x1244.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/1752c4b99c4e3953d426b655225dc48327ad8e7b-1920x1244.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-12/852c54c48ec318de_base.jpg",
+      "image_local": "../assets/news/2026-08-12/852c54c48ec318de_base.jpg"
     }
   ]
 }
