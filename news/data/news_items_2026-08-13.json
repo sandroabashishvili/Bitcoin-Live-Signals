@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-13",
-  "generated_at_utc": "2026-08-13 10:05:54 UTC",
+  "generated_at_utc": "2026-08-13 16:05:58 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,181 +16,181 @@
   "count": 12,
   "items": [
     {
-      "title": "Binance bStocks passes xStocks as second-largest tokenized stock issuer",
-      "link": "https://cointelegraph.com/news/binance-bstocks-second-largest-tokenized-stock-issuer",
-      "summary": "Binance bStocks became the second-largest tokenized stock issuer less than two months after launch, narrowly ahead of Kraken’s xStocks.",
+      "title": "Bullish shares jump 10% as Q2 adjusted EBITDA more than triples",
+      "link": "https://cointelegraph.com/news/bullish-shares-surge-as-q2-adjusted-revenue-surges-62",
+      "summary": "The crypto exchange operator’s shares gained around 10% as adjusted EBITDA more than tripled and subscription and services revenue hit a record high.",
       "source": "Cointelegraph",
       "date": "2026-08-13",
       "date_human": "Aug 13, 2026",
-      "pub_ts": 1786614816,
+      "pub_ts": 1786635405,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-how-binance-plans-to-bring-tokenized-us-stocks.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/trading-up.png"
       ],
-      "image": "../assets/news/2026-08-13/175f71d0c904e794_base.jpg",
-      "image_local": "../assets/news/2026-08-13/175f71d0c904e794_base.jpg"
+      "image": "../assets/news/2026-08-13/5439b3555e5fadcf_base.jpg",
+      "image_local": "../assets/news/2026-08-13/5439b3555e5fadcf_base.jpg"
     },
     {
-      "title": "How a wall of 1.79 million Bitcoin is quietly choking every attempt to break above $65,000",
-      "link": "https://cryptoslate.com/how-a-wall-of-1-79-million-bitcoin-is-quietly-choking-every-attempt-to-break-above-65000/",
-      "summary": "Bitcoin traders are rebuilding bets on a run toward $70,000 while still paying for protection against a fall to $60,000, showing that softer US inflation data has done little to break the market’s defensive positioning. The split held after the Consumer Price Index rose 0.1% in July and 3.4% from a year earlier, while core […] The post How a wall of 1.79 million Bitcoin is quietly choking every attempt to break above $65,000 appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-13",
-      "date_human": "Aug 13, 2026",
-      "pub_ts": 1786612218,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-market-crossroads.jpg"
-      ],
-      "image": "../assets/news/2026-08-13/ec5a25a966ba7958_base.jpg",
-      "image_local": "../assets/news/2026-08-13/ec5a25a966ba7958_base.jpg"
-    },
-    {
-      "title": "Metaplanet denies selling bitcoin worth $320 million",
-      "link": "https://www.coindesk.com/markets/2026/08/13/metaplanet-denies-selling-bitcoin-worth-usd320-million",
-      "summary": "Metaplanet denies selling bitcoin worth $320 million",
+      "title": "Crypto for Advisors: The crypto advice gap",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-for-advisors-the-crypto-advice-gap",
+      "summary": "Crypto for Advisors: The crypto advice gap",
       "source": "CoinDesk",
       "date": "2026-08-13",
       "date_human": "Aug 13, 2026",
-      "pub_ts": 1786599288,
+      "pub_ts": 1786633200,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/44d0294c484d8706555e882705c55e5a13f13e91-1192x628.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/44d0294c484d8706555e882705c55e5a13f13e91-1192x628.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/f4e8f319b4bdb33570deba7727241b4dc16db4b9-4032x2688.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/f4e8f319b4bdb33570deba7727241b4dc16db4b9-4032x2688.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-13/2cba78c49daaa171_base.jpg",
-      "image_local": "../assets/news/2026-08-13/2cba78c49daaa171_base.jpg"
+      "image": "../assets/news/2026-08-13/de4deb21c2966262_base.jpg",
+      "image_local": "../assets/news/2026-08-13/de4deb21c2966262_base.jpg"
     },
     {
-      "title": "The AI-Generated Pattern Hides You From Surveillance Cameras—Including Flock",
-      "link": "https://decrypt.co/375479/ai-generated-pattern-hides-you-surveillance-cameras-flock",
-      "summary": "A Kansas City security researcher ran 31 million tests to teach a model how to paint camouflage for the algorithm age.",
+      "title": "Metaplanet burned through 83% of a $500 million credit line to build 43,000 BTC, and now it wants investors to fund the next leg",
+      "link": "https://cryptoslate.com/metaplanet-burned-through-83-of-a-500-million-credit-line-to-build-43000-btc-and-now-it-wants-investors-to-fund-the-next-leg/",
+      "summary": "Metaplanet moved over 5,000 Bitcoin (worth about $322 million) this week, triggering market speculation that the firm might be liquidating a portion of its corporate reserves. On Aug. 12, CEO Simon Gerovich shut down the rumor and explained that the transfer was a routine custody operation, with no Bitcoin sold and total holdings unchanged at […] The post Metaplanet burned through 83% of a $500 million credit line to build 43,000 BTC, and now it wants investors to fund the next leg appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786632612,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/metaplanet-capital-pivot.jpg"
+      ],
+      "image": "../assets/news/2026-08-13/6de4cdff6fca50a8_base.jpg",
+      "image_local": "../assets/news/2026-08-13/6de4cdff6fca50a8_base.jpg"
+    },
+    {
+      "title": "Ethereum DeFi Platform Ether.fi Adds Tokenized Stocks and Portfolio-Backed Loans",
+      "link": "https://decrypt.co/375529/ethereum-defi-etherfi-tokenized-stocks",
+      "summary": "The Ethereum staking platform is adding asset trading, fiat accounts, and borrowing through Aave as it pushes into crypto banking.",
       "source": "Decrypt",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786570275,
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786629663,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/08/donut-media-car-swearingen-1-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/donut-media-car-swearingen-1-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/donut-media-car-swearingen-1-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Ethereum-decrypt-style-03-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Ethereum-decrypt-style-03-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Ethereum-decrypt-style-03-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-13/d5051a5b1e0bfda6_base.jpg",
-      "image_local": "../assets/news/2026-08-13/d5051a5b1e0bfda6_base.jpg"
+      "image": "../assets/news/2026-08-13/1f35031e874acac3_base.jpg",
+      "image_local": "../assets/news/2026-08-13/1f35031e874acac3_base.jpg"
     },
     {
-      "title": "Bitcoin speculators keep BTC price ‘pinned' below $68.7K: Glassnode",
-      "link": "https://cointelegraph.com/markets/bitcoin-speculators-in-the-red-keep-price-pinned-below-687k-new-analysis",
-      "summary": "Bitcoin’s weakness near range highs stems from short-term holders trying to break even on underwater BTC investments, Glassnode says.",
+      "title": "Trezor reports data from 14K users exposed through shipping provider",
+      "link": "https://cointelegraph.com/news/trezor-customer-data-shipping-provider-shipmonk",
+      "summary": "The wallet provider warned that thousands of users could potentially be at risk of phishing attempts, while advising that all devices, private keys and backups were safe.",
       "source": "Cointelegraph",
       "date": "2026-08-13",
       "date_human": "Aug 13, 2026",
-      "pub_ts": 1786613836,
+      "pub_ts": 1786634714,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/crypto-market-volatility-bitcoin-2.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-wallet-info-sold-online-ledger-trezor.jpg"
       ],
-      "image": "../assets/news/2026-08-13/5244b2e5d785cae2_base.jpg",
-      "image_local": "../assets/news/2026-08-13/5244b2e5d785cae2_base.jpg"
+      "image": "../assets/news/2026-08-13/a1a1677a969cc106_base.jpg",
+      "image_local": "../assets/news/2026-08-13/a1a1677a969cc106_base.jpg"
     },
     {
-      "title": "Strategy sold $100M to defend STRC's $100 stock price as DeFi packages the risk into a 7% ‘safer' trade",
-      "link": "https://cryptoslate.com/strategy-sold-100m-to-defend-strcs-100-stock-price-as-defi-packages-the-risk-into-a-7-safer-trade/",
-      "summary": "Solstice announced a tranched product built on Strategy's Bitcoin-related STRC preferred stock, and said its senior tranche would not begin absorbing losses until STRC trades below $47.66. STRC currently trades near $95.315, putting that threshold roughly half of today's market price and about 52% below the security's $100 par value. Solstice COO David Plisek described […] The post Strategy sold $100M to defend STRC’s $100 stock price as DeFi packages the risk into a 7% ‘safer’ trade appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-13",
-      "date_human": "Aug 13, 2026",
-      "pub_ts": 1786607137,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/solstice_strc_tranche_image.jpg"
-      ],
-      "image": "../assets/news/2026-08-13/a7d52b0e89a7d645_base.jpg",
-      "image_local": "../assets/news/2026-08-13/a7d52b0e89a7d645_base.jpg"
-    },
-    {
-      "title": "Bitcoin firms ask AI labs for same tools attackers already have",
-      "link": "https://www.coindesk.com/tech/2026/08/13/bitcoin-firms-ask-ai-labs-for-same-tools-attackers-already-have",
-      "summary": "Bitcoin firms ask AI labs for same tools attackers already have",
+      "title": "B2C2 taps Schroders veteran to chase Asia's growing crypto wealth",
+      "link": "https://www.coindesk.com/business/2026/08/13/b2c2-taps-schroders-veteran-to-chase-asia-s-growing-crypto-wealth",
+      "summary": "B2C2 taps Schroders veteran to chase Asia's growing crypto wealth",
       "source": "CoinDesk",
       "date": "2026-08-13",
       "date_human": "Aug 13, 2026",
-      "pub_ts": 1786598481,
+      "pub_ts": 1786632218,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/eeb54516a3b0a19f03d51ee5552619fa13b3be71-1920x1440.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/eeb54516a3b0a19f03d51ee5552619fa13b3be71-1920x1440.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/dfcf333f60f7e3c344d0104116ea77b35ddd3a27-500x300.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/dfcf333f60f7e3c344d0104116ea77b35ddd3a27-500x300.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-13/3692ce7f1fc91cb4_base.jpg",
-      "image_local": "../assets/news/2026-08-13/3692ce7f1fc91cb4_base.jpg"
+      "image": "../assets/news/2026-08-13/e276d973c5963d98_base.jpg",
+      "image_local": "../assets/news/2026-08-13/e276d973c5963d98_base.jpg"
     },
     {
-      "title": "'Inner Thoughts' of Every Major AI Model Exposed in Massive Exploit",
-      "link": "https://decrypt.co/375501/inner-thoughts-every-major-ai-model-exposed-exploit",
-      "summary": "Researchers found every major AI provider encrypts reasoning tokens with a single global key—and exploited it to decode 315,320 hidden thinking blocks from public logs, recovering passwords and live API keys along the way.",
+      "title": "Goldman Sachs drops $2.25 billion to hijack the Bitcoin yield market and leapfrog BlackRock by 19x",
+      "link": "https://cryptoslate.com/goldman-sachs-drops-2-25-billion-to-hijack-the-bitcoin-yield-market-and-leapfrog-blackrock-by-19x/",
+      "summary": "BTCI listed a 26.73% distribution rate, a 1.62% SEC yield and a negative 41.66% one-year NAV return. The post Goldman Sachs drops $2.25 billion to hijack the Bitcoin yield market and leapfrog BlackRock by 19x appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786627820,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/goldman-neos-btci-payout.jpg"
+      ],
+      "image": "../assets/news/2026-08-13/19e69d68a1636b46_base.jpg",
+      "image_local": "../assets/news/2026-08-13/19e69d68a1636b46_base.jpg"
+    },
+    {
+      "title": "Trezor Customer Data Exposed in Shipping Partner Breach",
+      "link": "https://decrypt.co/375556/trezor-customer-data-exposed-in-shipping-partner-breach",
+      "summary": "The hardware wallet manufacturer says its devices and backups are untouched, but the leak hands attackers valuable customer data.",
       "source": "Decrypt",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786566664,
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786626643,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-12-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-12-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-12-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/10/trezor-safe-7-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/10/trezor-safe-7-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/trezor-safe-7-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-13/6933dbdf5e68eafc_base.jpg",
-      "image_local": "../assets/news/2026-08-13/6933dbdf5e68eafc_base.jpg"
+      "image": "../assets/news/2026-08-13/f97e04e16cb0c7e0_base.jpg",
+      "image_local": "../assets/news/2026-08-13/f97e04e16cb0c7e0_base.jpg"
     },
     {
-      "title": "Securitize falls 16% after earnings miss, tokenization revenue drops",
-      "link": "https://cointelegraph.com/news/securitize-falls-earnings-miss-tokenization-revenue",
-      "summary": "Securitize shares fell 16% from Wednesday’s close after the tokenization platform’s $14.4 million second-quarter revenue missed Wall Street estimates.",
+      "title": "Bitcoin keeps traders guessing near $64K as stocks gain on cool US PPI data",
+      "link": "https://cointelegraph.com/markets/bitcoin-keeps-traders-guessing-near-64k-as-stocks-gain-on-cool-us-ppi-data",
+      "summary": "Bitcoin joined US stocks in modest gains after July PPI inflation data continued a cooling trend seen over the past month.",
       "source": "Cointelegraph",
       "date": "2026-08-13",
       "date_human": "Aug 13, 2026",
-      "pub_ts": 1786609741,
+      "pub_ts": 1786633658,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-saga.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-budget-research-crypto-currency-traders-in-japan.jpg"
       ],
-      "image": "../assets/news/2026-08-13/6b16ec208e6931b2_base.jpg",
-      "image_local": "../assets/news/2026-08-13/6b16ec208e6931b2_base.jpg"
+      "image": "../assets/news/2026-08-13/a4af71f619a3c569_base.jpg",
+      "image_local": "../assets/news/2026-08-13/a4af71f619a3c569_base.jpg"
     },
     {
-      "title": "Arthur Hayes says a $60 billion Fed cap is Bitcoin's next liquidity trigger and needed for a price surge",
-      "link": "https://cryptoslate.com/arthur-hayes-says-a-60-billion-fed-cap-is-bitcoins-next-liquidity-trigger-and-needed-for-a-price-surge/",
-      "summary": "Arthur Hayes says a $60 billion Federal Reserve limit is the next liquidity trigger he wants to see before adding more aggressively to risk assets, such as Bitcoin. His Aug. 11 essay focuses on the standing Foreign and International Monetary Authorities Repo Facility, or FIMA. The facility allows approved foreign official accounts to raise dollars […] The post Arthur Hayes says a $60 billion Fed cap is Bitcoin’s next liquidity trigger and needed for a price surge appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-13",
-      "date_human": "Aug 13, 2026",
-      "pub_ts": 1786602284,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-liquidity-surge-hayes.jpg"
-      ],
-      "image": "../assets/news/2026-08-13/1cb6df33b22f7f7e_base.jpg",
-      "image_local": "../assets/news/2026-08-13/1cb6df33b22f7f7e_base.jpg"
-    },
-    {
-      "title": "Speculation on dogecoin is back to October 2025 levels. The price is down 70%",
-      "link": "https://www.coindesk.com/markets/2026/08/13/speculation-on-dogecoin-is-back-to-october-2025-levels-the-price-is-down-70",
-      "summary": "Speculation on dogecoin is back to October 2025 levels. The price is down 70%",
+      "title": "Kalshi in talks with Sequoia, Wellington for $750 million fund raise at $40 billion valuation",
+      "link": "https://www.coindesk.com/business/2026/08/13/kalshi-in-talks-with-sequoia-wellington-for-usd750-million-fund-raise-at-usd40-billion-valuation",
+      "summary": "Kalshi in talks with Sequoia, Wellington for $750 million fund raise at $40 billion valuation",
       "source": "CoinDesk",
       "date": "2026-08-13",
       "date_human": "Aug 13, 2026",
-      "pub_ts": 1786593976,
+      "pub_ts": 1786630566,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/2af70fa2f5209029fd0a8f7ac7524c5b60b2ba81-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/2af70fa2f5209029fd0a8f7ac7524c5b60b2ba81-1920x1080.png?auto=format&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/368ce0eda7ae6af4eae76521bfbcf1266458caa2-3228x2368.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/368ce0eda7ae6af4eae76521bfbcf1266458caa2-3228x2368.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-13/c946317848497188_base.jpg",
-      "image_local": "../assets/news/2026-08-13/c946317848497188_base.jpg"
+      "image": "../assets/news/2026-08-13/f8383201a2cec3bd_base.jpg",
+      "image_local": "../assets/news/2026-08-13/f8383201a2cec3bd_base.jpg"
     },
     {
-      "title": "China's DeepSeek Upgrades V4 Pro: Claude Fable Is Only 5% Better at 4,500% the Price",
-      "link": "https://decrypt.co/375507/china-deepseek-upgrades-v4-pro-claude-fable",
-      "summary": "The April preview got benchmarked to death and landed 18 points behind Anthropic’s flagship. DeepSeek’s own numbers for the finished model tell a very different story.",
-      "source": "Decrypt",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786564865,
+      "title": "Why millions of everyday savers will soon own Bitcoin without ever downloading a crypto app",
+      "link": "https://cryptoslate.com/why-millions-of-everyday-savers-will-soon-own-bitcoin-without-ever-downloading-a-crypto-app/",
+      "summary": "A future Bitcoin buyer may encounter the asset through a portfolio they already own. An adviser can add a small allocation, a brokerage account can hold a spot ETF, and future retirement products could place Bitcoin inside another familiar investment wrapper. Grayscale expects Bitcoin ownership to keep broadening as government deficits persist, blockchain finance reaches […] The post Why millions of everyday savers will soon own Bitcoin without ever downloading a crypto app appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786623351,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/08/china-deepSeek-AI-gID_4.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/china-deepSeek-AI-gID_4.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/china-deepSeek-AI-gID_4.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/btc-saver-Large.jpeg"
       ],
-      "image": "../assets/news/2026-08-13/e85e43f66662983a_base.jpg",
-      "image_local": "../assets/news/2026-08-13/e85e43f66662983a_base.jpg"
+      "image": "../assets/news/2026-08-13/3747f0bc27de5e9a_base.jpg",
+      "image_local": "../assets/news/2026-08-13/3747f0bc27de5e9a_base.jpg"
+    },
+    {
+      "title": "XRP Holders Can Now Trade Options Using Flare's FXRP as Collateral",
+      "link": "https://decrypt.co/375526/xrp-holders-trade-options-flare-fxrp-collateral",
+      "summary": "The Derive integration gives XRP holders a way to hedge or speculate without depositing their tokens with a centralized exchange.",
+      "source": "Decrypt",
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786626065,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/xrp-decrypt-style-02-scaled-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/xrp-decrypt-style-02-scaled-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/xrp-decrypt-style-02-scaled-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-13/f8a197af5a68e7cc_base.jpg",
+      "image_local": "../assets/news/2026-08-13/f8a197af5a68e7cc_base.jpg"
     }
   ]
 }
