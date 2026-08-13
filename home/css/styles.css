@@ -520,3 +520,13 @@ h1 {
     font-size: 14px;
   }
 }
+
+/* WEBSITE-ESSENTIALS-MODES */
+:root { color-scheme: dark; }
+@media print {
+  .site-navigation, .actions, .footer-socials { display: none !important; }
+  body { background: #fff !important; color: #000 !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
