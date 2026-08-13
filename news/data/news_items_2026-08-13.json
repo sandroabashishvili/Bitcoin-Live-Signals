@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-13",
-  "generated_at_utc": "2026-08-13 04:05:57 UTC",
+  "generated_at_utc": "2026-08-13 10:05:54 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,47 +16,47 @@
   "count": 12,
   "items": [
     {
-      "title": "ASX shareholder plans to sue former directors over failed blockchain project",
-      "link": "https://cointelegraph.com/news/asx-shareholder-lawsuit-failed-blockchain-chess-project",
-      "summary": "ASX’s failed blockchain-based CHESS overhaul faces renewed governance scrutiny after the exchange admitted misleading the market.",
+      "title": "Binance bStocks passes xStocks as second-largest tokenized stock issuer",
+      "link": "https://cointelegraph.com/news/binance-bstocks-second-largest-tokenized-stock-issuer",
+      "summary": "Binance bStocks became the second-largest tokenized stock issuer less than two months after launch, narrowly ahead of Kraken’s xStocks.",
       "source": "Cointelegraph",
       "date": "2026-08-13",
       "date_human": "Aug 13, 2026",
-      "pub_ts": 1786582857,
+      "pub_ts": 1786614816,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/courtroom-court-lawsuit-justice-jurisdiction-breaking-news-1.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-how-binance-plans-to-bring-tokenized-us-stocks.jpg"
       ],
-      "image": "../assets/news/2026-08-13/030152aa0c5b744d_base.jpg",
-      "image_local": "../assets/news/2026-08-13/030152aa0c5b744d_base.jpg"
+      "image": "../assets/news/2026-08-13/175f71d0c904e794_base.jpg",
+      "image_local": "../assets/news/2026-08-13/175f71d0c904e794_base.jpg"
     },
     {
-      "title": "BlackRock's Bitcoin income ETF offset less than 30% of its $1.2M crypto losses with options",
-      "link": "https://cryptoslate.com/blackrocks-bitcoin-income-etf-offset-less-than-30-of-its-1-2m-crypto-losses-with-options/",
-      "summary": "The fund booked $344,849 in option gains, yet its cited NAV, Bitcoin and IBIT declines start on different dates. The post BlackRock’s Bitcoin income ETF offset less than 30% of its $1.2M crypto losses with options appeared first on CryptoSlate.",
+      "title": "How a wall of 1.79 million Bitcoin is quietly choking every attempt to break above $65,000",
+      "link": "https://cryptoslate.com/how-a-wall-of-1-79-million-bitcoin-is-quietly-choking-every-attempt-to-break-above-65000/",
+      "summary": "Bitcoin traders are rebuilding bets on a run toward $70,000 while still paying for protection against a fall to $60,000, showing that softer US inflation data has done little to break the market’s defensive positioning. The split held after the Consumer Price Index rose 0.1% in July and 3.4% from a year earlier, while core […] The post How a wall of 1.79 million Bitcoin is quietly choking every attempt to break above $65,000 appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786578003,
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786612218,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bita-bitcoin-safety-net.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-market-crossroads.jpg"
       ],
-      "image": "../assets/news/2026-08-13/6f8ef80db4052c73_base.jpg",
-      "image_local": "../assets/news/2026-08-13/6f8ef80db4052c73_base.jpg"
+      "image": "../assets/news/2026-08-13/ec5a25a966ba7958_base.jpg",
+      "image_local": "../assets/news/2026-08-13/ec5a25a966ba7958_base.jpg"
     },
     {
-      "title": "Prediction markets should dial back faulty filings for incentives to boost trading: CFTC",
-      "link": "https://www.coindesk.com/policy/2026/08/12/prediction-markets-should-dial-back-faulty-filings-for-incentives-to-boost-trading-cftc",
-      "summary": "Prediction markets should dial back faulty filings for incentives to boost trading: CFTC",
+      "title": "Metaplanet denies selling bitcoin worth $320 million",
+      "link": "https://www.coindesk.com/markets/2026/08/13/metaplanet-denies-selling-bitcoin-worth-usd320-million",
+      "summary": "Metaplanet denies selling bitcoin worth $320 million",
       "source": "CoinDesk",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786576613,
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786599288,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/ba52f7bccf2ae307a3c4c7efe5945ed295f5380d-4032x2268.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/ba52f7bccf2ae307a3c4c7efe5945ed295f5380d-4032x2268.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0.5102&fp-y=0.5659&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/44d0294c484d8706555e882705c55e5a13f13e91-1192x628.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/44d0294c484d8706555e882705c55e5a13f13e91-1192x628.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-13/a2394258ab40163b_base.jpg",
-      "image_local": "../assets/news/2026-08-13/a2394258ab40163b_base.jpg"
+      "image": "../assets/news/2026-08-13/2cba78c49daaa171_base.jpg",
+      "image_local": "../assets/news/2026-08-13/2cba78c49daaa171_base.jpg"
     },
     {
       "title": "The AI-Generated Pattern Hides You From Surveillance Cameras—Including Flock",
@@ -75,47 +75,47 @@
       "image_local": "../assets/news/2026-08-13/d5051a5b1e0bfda6_base.jpg"
     },
     {
-      "title": "Arizona crypto ATM law helps 35 scam victims recover $171K",
-      "link": "https://cointelegraph.com/news/arizona-crypto-atm-law-scam-refunds-171k",
-      "summary": "Qualifying new customers can receive full reimbursement, including fees, if they notify both the operator and law enforcement within 30 days.",
+      "title": "Bitcoin speculators keep BTC price ‘pinned' below $68.7K: Glassnode",
+      "link": "https://cointelegraph.com/markets/bitcoin-speculators-in-the-red-keep-price-pinned-below-687k-new-analysis",
+      "summary": "Bitcoin’s weakness near range highs stems from short-term holders trying to break even on underwater BTC investments, Glassnode says.",
       "source": "Cointelegraph",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786578171,
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786613836,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/btc-comau-sponsor.png"
+        "https://s3-images.ctmedia.io/media/article-covers/crypto-market-volatility-bitcoin-2.jpg"
       ],
-      "image": "../assets/news/2026-08-13/0b76ed3ae9627b02_base.jpg",
-      "image_local": "../assets/news/2026-08-13/0b76ed3ae9627b02_base.jpg"
+      "image": "../assets/news/2026-08-13/5244b2e5d785cae2_base.jpg",
+      "image_local": "../assets/news/2026-08-13/5244b2e5d785cae2_base.jpg"
     },
     {
-      "title": "Cypherpunk secures a $46M Zcash gain and turns a $4.7M operating loss into $39.4M profit",
-      "link": "https://cryptoslate.com/cypherpunk-secures-a-46m-zcash-gain-and-turns-a-4-7m-operating-loss-into-39-4m-profit/",
-      "summary": "The company had $7.6 million in cash as its biotech subsidiary began seeking resources for Phase 3. The post Cypherpunk secures a $46M Zcash gain and turns a $4.7M operating loss into $39.4M profit appeared first on CryptoSlate.",
+      "title": "Strategy sold $100M to defend STRC's $100 stock price as DeFi packages the risk into a 7% ‘safer' trade",
+      "link": "https://cryptoslate.com/strategy-sold-100m-to-defend-strcs-100-stock-price-as-defi-packages-the-risk-into-a-7-safer-trade/",
+      "summary": "Solstice announced a tranched product built on Strategy's Bitcoin-related STRC preferred stock, and said its senior tranche would not begin absorbing losses until STRC trades below $47.66. STRC currently trades near $95.315, putting that threshold roughly half of today's market price and about 52% below the security's $100 par value. Solstice COO David Plisek described […] The post Strategy sold $100M to defend STRC’s $100 stock price as DeFi packages the risk into a 7% ‘safer’ trade appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786573849,
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786607137,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/cypherpunk-phase3-tightrope.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/solstice_strc_tranche_image.jpg"
       ],
-      "image": "../assets/news/2026-08-13/1cee4d7aa2fcdbb8_base.jpg",
-      "image_local": "../assets/news/2026-08-13/1cee4d7aa2fcdbb8_base.jpg"
+      "image": "../assets/news/2026-08-13/a7d52b0e89a7d645_base.jpg",
+      "image_local": "../assets/news/2026-08-13/a7d52b0e89a7d645_base.jpg"
     },
     {
-      "title": "Securitize falls 20% after earnings miss as tokenization revenue falls short",
-      "link": "https://www.coindesk.com/markets/2026/08/12/securitize-falls-20-after-earnings-miss-as-tokenization-revenue-falls-short",
-      "summary": "Securitize falls 20% after earnings miss as tokenization revenue falls short",
+      "title": "Bitcoin firms ask AI labs for same tools attackers already have",
+      "link": "https://www.coindesk.com/tech/2026/08/13/bitcoin-firms-ask-ai-labs-for-same-tools-attackers-already-have",
+      "summary": "Bitcoin firms ask AI labs for same tools attackers already have",
       "source": "CoinDesk",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786573584,
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786598481,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/0df058fe321b648948d8a5b690588aaafbb157fe-2048x1152.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/0df058fe321b648948d8a5b690588aaafbb157fe-2048x1152.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/eeb54516a3b0a19f03d51ee5552619fa13b3be71-1920x1440.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/eeb54516a3b0a19f03d51ee5552619fa13b3be71-1920x1440.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-13/a526cb653bebaeaa_base.jpg",
-      "image_local": "../assets/news/2026-08-13/a526cb653bebaeaa_base.jpg"
+      "image": "../assets/news/2026-08-13/3692ce7f1fc91cb4_base.jpg",
+      "image_local": "../assets/news/2026-08-13/3692ce7f1fc91cb4_base.jpg"
     },
     {
       "title": "'Inner Thoughts' of Every Major AI Model Exposed in Massive Exploit",
@@ -134,47 +134,47 @@
       "image_local": "../assets/news/2026-08-13/6933dbdf5e68eafc_base.jpg"
     },
     {
-      "title": "Hawaii crypto ATM ban to take effect on Oct. 1",
-      "link": "https://cointelegraph.com/news/hawaii-crypto-atm-ban-october-enforcement",
-      "summary": "Hawaii will join Minnesota, Tennessee and Indiana in becoming the fourth US state to completely ban the use of cryptocurrency ATMs and kiosks in response to scams.",
+      "title": "Securitize falls 16% after earnings miss, tokenization revenue drops",
+      "link": "https://cointelegraph.com/news/securitize-falls-earnings-miss-tokenization-revenue",
+      "summary": "Securitize shares fell 16% from Wednesday’s close after the tokenization platform’s $14.4 million second-quarter revenue missed Wall Street estimates.",
       "source": "Cointelegraph",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786569677,
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786609741,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoins-real-world-uses.png"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-saga.jpg"
       ],
-      "image": "../assets/news/2026-08-13/a788de3d89171c61_base.jpg",
-      "image_local": "../assets/news/2026-08-13/a788de3d89171c61_base.jpg"
+      "image": "../assets/news/2026-08-13/6b16ec208e6931b2_base.jpg",
+      "image_local": "../assets/news/2026-08-13/6b16ec208e6931b2_base.jpg"
     },
     {
-      "title": "Bitcoin miner HIVE's $79M quarter runs into an $80M Swedish tax problem",
-      "link": "https://cryptoslate.com/bitcoin-miner-hives-79m-quarter-runs-into-an-80m-swedish-tax-problem/",
-      "summary": "Preliminary revenue reached about $79 million, yet HIVE cannot quantify the possible noncash accrual or its expected losses. The post Bitcoin miner HIVE’s $79M quarter runs into an $80M Swedish tax problem appeared first on CryptoSlate.",
+      "title": "Arthur Hayes says a $60 billion Fed cap is Bitcoin's next liquidity trigger and needed for a price surge",
+      "link": "https://cryptoslate.com/arthur-hayes-says-a-60-billion-fed-cap-is-bitcoins-next-liquidity-trigger-and-needed-for-a-price-surge/",
+      "summary": "Arthur Hayes says a $60 billion Federal Reserve limit is the next liquidity trigger he wants to see before adding more aggressively to risk assets, such as Bitcoin. His Aug. 11 essay focuses on the standing Foreign and International Monetary Authorities Repo Facility, or FIMA. The facility allows approved foreign official accounts to raise dollars […] The post Arthur Hayes says a $60 billion Fed cap is Bitcoin’s next liquidity trigger and needed for a price surge appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786570819,
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786602284,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/hive-swedish-vat-risk.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-liquidity-surge-hayes.jpg"
       ],
-      "image": "../assets/news/2026-08-13/f3b57cfb73b403ed_base.jpg",
-      "image_local": "../assets/news/2026-08-13/f3b57cfb73b403ed_base.jpg"
+      "image": "../assets/news/2026-08-13/1cb6df33b22f7f7e_base.jpg",
+      "image_local": "../assets/news/2026-08-13/1cb6df33b22f7f7e_base.jpg"
     },
     {
-      "title": "Morgan Stanley's infrastructure partner Zerohash rebuffed in pitch to be U.S. trust bank",
-      "link": "https://www.coindesk.com/policy/2026/08/12/morgan-stanley-s-infrastructure-partner-zerohash-rebuffed-in-pitch-to-be-u-s-trust-bank",
-      "summary": "Morgan Stanley's infrastructure partner Zerohash rebuffed in pitch to be U.S. trust bank",
+      "title": "Speculation on dogecoin is back to October 2025 levels. The price is down 70%",
+      "link": "https://www.coindesk.com/markets/2026/08/13/speculation-on-dogecoin-is-back-to-october-2025-levels-the-price-is-down-70",
+      "summary": "Speculation on dogecoin is back to October 2025 levels. The price is down 70%",
       "source": "CoinDesk",
-      "date": "2026-08-12",
-      "date_human": "Aug 12, 2026",
-      "pub_ts": 1786572669,
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786593976,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/7150e9147434709d0f26c49d26f21b2219558bef-2803x1577.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/7150e9147434709d0f26c49d26f21b2219558bef-2803x1577.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0.4598&fp-y=0.3145&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/2af70fa2f5209029fd0a8f7ac7524c5b60b2ba81-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/2af70fa2f5209029fd0a8f7ac7524c5b60b2ba81-1920x1080.png?auto=format&q=75"
       ],
-      "image": "../assets/news/2026-08-13/ac20676f5988a402_base.jpg",
-      "image_local": "../assets/news/2026-08-13/ac20676f5988a402_base.jpg"
+      "image": "../assets/news/2026-08-13/c946317848497188_base.jpg",
+      "image_local": "../assets/news/2026-08-13/c946317848497188_base.jpg"
     },
     {
       "title": "China's DeepSeek Upgrades V4 Pro: Claude Fable Is Only 5% Better at 4,500% the Price",
