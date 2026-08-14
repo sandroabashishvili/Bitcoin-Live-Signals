@@ -1,0 +1,196 @@
+{
+  "day_iso": "2026-08-14",
+  "generated_at_utc": "2026-08-14 04:05:48 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Soluna has 6.3 GW of data center projects on paper, only 192 MW are operating",
+      "link": "https://cryptoslate.com/soluna-has-6-3-gw-of-data-center-projects-on-paper-only-192-mw-are-operating/",
+      "summary": "Revenue still grew 73% excluding the presentation change, but only about 3% of the 6.3 GW pipeline was operating. The post Soluna has 6.3 GW of data center projects on paper, only 192 MW are operating appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786674626,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/soluna_q2_standard_image.jpg"
+      ],
+      "image": "../assets/news/2026-08-14/b05a7db3ecf5fe84_base.jpg",
+      "image_local": "../assets/news/2026-08-14/b05a7db3ecf5fe84_base.jpg"
+    },
+    {
+      "title": "Figure reports $4.3B in loan marketplace volume as profit nearly triples",
+      "link": "https://cointelegraph.com/news/figure-q2-loan-marketplace-volume-profit",
+      "summary": "Figure expects consumer loan marketplace volume to range from $4.8 billion to $5.2 billion in the third quarter.",
+      "source": "Cointelegraph",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786673197,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/loan-cash.jpg"
+      ],
+      "image": "../assets/news/2026-08-14/32b674aeb0ada68f_base.jpg",
+      "image_local": "../assets/news/2026-08-14/32b674aeb0ada68f_base.jpg"
+    },
+    {
+      "title": "U.S. SEC to again delay 'innovation exemption' for tokenization amid Wall Street, White House concerns",
+      "link": "https://www.coindesk.com/policy/2026/08/13/u-s-sec-to-again-delay-innovation-exemption-for-tokenization-amid-wall-street-white-house-concerns",
+      "summary": "U.S. SEC to again delay 'innovation exemption' for tokenization amid Wall Street, White House concerns",
+      "source": "CoinDesk",
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786662554,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/027ad48cfa40c0b6f4997f516abebf656a10a0e9-720x406.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/027ad48cfa40c0b6f4997f516abebf656a10a0e9-720x406.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-14/34bbefd97ea00259_base.jpg",
+      "image_local": "../assets/news/2026-08-14/34bbefd97ea00259_base.jpg"
+    },
+    {
+      "title": "'Bitcoin Is Burning': Red Team Turns to Chinese AI to Find Flaws",
+      "link": "https://decrypt.co/375609/bitcoin-burning-red-team-chinese-ai-kimi",
+      "summary": "Bitcoin Red Team member Calle said Chinese models, including Moonshot AI’s Kimi K3, are finding bugs across Bitcoin’s open-source software.",
+      "source": "Decrypt",
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786660567,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-14/5e6c13c4ed216938_base.jpg",
+      "image_local": "../assets/news/2026-08-14/5e6c13c4ed216938_base.jpg"
+    },
+    {
+      "title": "Morgan Stanley's Bitcoin ETF drew $371 million of share contributions while Bitcoin erased $66.8 million",
+      "link": "https://cryptoslate.com/morgan-stanleys-bitcoin-etf-drew-371-million-of-share-contributions-while-bitcoin-erased-66-8-million/",
+      "summary": "Nearly all of MSBT’s operating-period decline was unrealized as gross share contributions reached $371.1 million. The post Morgan Stanley’s Bitcoin ETF drew $371 million of share contributions while Bitcoin erased $66.8 million appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786670450,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/morgan_stanley_bitcoin_trust_collage.jpg"
+      ],
+      "image": "../assets/news/2026-08-14/b3882035e334066e_base.jpg",
+      "image_local": "../assets/news/2026-08-14/b3882035e334066e_base.jpg"
+    },
+    {
+      "title": "Ethereum Foundation pivots away from Poseidon in post-quantum plan",
+      "link": "https://cointelegraph.com/news/ethereum-foundation-drops-poseidon-post-quantum-plan",
+      "summary": "Advances in compact proofs have erased Poseidon’s previous performance advantage, according to researcher Justin Drake.",
+      "source": "Cointelegraph",
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786664096,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-eth-20-progress.jpg"
+      ],
+      "image": "../assets/news/2026-08-14/e97f5c53aca9be4b_base.jpg",
+      "image_local": "../assets/news/2026-08-14/e97f5c53aca9be4b_base.jpg"
+    },
+    {
+      "title": "SEC cancels long-awaited proposal of Reg Crypto, postponing meeting without new date",
+      "link": "https://www.coindesk.com/policy/2026/08/13/sec-cancels-long-awaited-proposal-of-reg-crypto-postponing-meeting-without-new-date",
+      "summary": "SEC cancels long-awaited proposal of Reg Crypto, postponing meeting without new date",
+      "source": "CoinDesk",
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786659487,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/090e5c77bf9a39a85f3ba365ccf65e1cbecb6a4f-3781x2129.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/090e5c77bf9a39a85f3ba365ccf65e1cbecb6a4f-3781x2129.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0.526&fp-y=0.8214&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-14/d98aa77bce462c22_base.jpg",
+      "image_local": "../assets/news/2026-08-14/d98aa77bce462c22_base.jpg"
+    },
+    {
+      "title": "Anthropic's AI Agents Started a Virtual War. The Chat Logs Are Unhinged",
+      "link": "https://decrypt.co/375596/anthropic-ai-agents-virtual-war-quotes-unhinged",
+      "summary": "In a new red-team study, Claude models deployed self-replicating malware against each other—and the transcripts explain why.",
+      "source": "Decrypt",
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786657504,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/anthropic-claude-ai-decrypt-style-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/anthropic-claude-ai-decrypt-style-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/anthropic-claude-ai-decrypt-style-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-14/105c19c90f0660bb_base.jpg",
+      "image_local": "../assets/news/2026-08-14/105c19c90f0660bb_base.jpg"
+    },
+    {
+      "title": "Bit Digital pledged 74% of its staked Ethereum position to a loan that can trigger a 24-hour collateral call",
+      "link": "https://cryptoslate.com/bit-digital-pledged-74-of-its-staked-ethereum-position-to-a-loan-that-can-trigger-a-24-hour-collateral-call/",
+      "summary": "The non-cash charge did not trigger a disclosed margin call, but the loan's live collateral thresholds remain private. The post Bit Digital pledged 74% of its staked Ethereum position to a loan that can trigger a 24-hour collateral call appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786667429,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bit_digital_whitefiber_collateral_flow.jpg"
+      ],
+      "image": "../assets/news/2026-08-14/c06f529f6286ca88_base.jpg",
+      "image_local": "../assets/news/2026-08-14/c06f529f6286ca88_base.jpg"
+    },
+    {
+      "title": "City of Baltimore goes after prediction markets for sports betting",
+      "link": "https://cointelegraph.com/news/baltimore-lawsuit-prediction-markets-kalshi-polymarket-sports-betting",
+      "summary": "The city’s complaint over gambling laws and deceptive trade practices included Robinhood, Webull and Coinbase as partners with prediction market platform Kalshi.",
+      "source": "Cointelegraph",
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786655303,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/sports-fan-football.jpg"
+      ],
+      "image": "../assets/news/2026-08-14/a532a4ed80b15b79_base.jpg",
+      "image_local": "../assets/news/2026-08-14/a532a4ed80b15b79_base.jpg"
+    },
+    {
+      "title": "Tether says it completed long-promised 'Big Four' audit of finances behind $180 billion USDT stablecoin",
+      "link": "https://www.coindesk.com/business/2026/08/13/tether-says-it-completed-long-promised-big-four-audit-of-finances-behind-usd180-billion-usdt-stablecoin",
+      "summary": "Tether says it completed long-promised 'Big Four' audit of finances behind $180 billion USDT stablecoin",
+      "source": "CoinDesk",
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786645581,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/bfd80702a660a5deef3d056a315228038910dde5-1405x790.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/bfd80702a660a5deef3d056a315228038910dde5-1405x790.jpg?auto=format&q=75"
+      ],
+      "image": "../assets/news/2026-08-14/8a68123dc90f7d35_base.jpg",
+      "image_local": "../assets/news/2026-08-14/8a68123dc90f7d35_base.jpg"
+    },
+    {
+      "title": "Solana Can Be the 'Everything Chain' as Crypto Apps Go Mainstream: 6th Man Ventures Co-Founder",
+      "link": "https://decrypt.co/375605/solana-everything-chain-crypto-apps-mainstream",
+      "summary": "6th Man Ventures co-founder Mike Dudas says Solana’s infrastructure could carry crypto’s next wave.",
+      "source": "Decrypt",
+      "date": "2026-08-13",
+      "date_human": "Aug 13, 2026",
+      "pub_ts": 1786655765,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/solana-decrypt-style-04-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/solana-decrypt-style-04-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/solana-decrypt-style-04-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-14/051c64146bf27c7e_base.jpg",
+      "image_local": "../assets/news/2026-08-14/051c64146bf27c7e_base.jpg"
+    }
+  ]
+}
