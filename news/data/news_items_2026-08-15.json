@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-15",
-  "generated_at_utc": "2026-08-15 04:05:55 UTC",
+  "generated_at_utc": "2026-08-15 10:05:55 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,18 +16,32 @@
   "count": 12,
   "items": [
     {
-      "title": "Machi Big Brother sells 3 Bored Apes to cut his Ethereum long in 52%, but liquidation moved to just $22 away",
-      "link": "https://cryptoslate.com/machi-big-brother-ethereum-long-was-cut-52-but-liquidation-moved-to-just-22-away/",
-      "summary": "Lookonchain tied three loss-making Bored Ape sales to the trade, but the public record does not trace the proceeds into margin. The post Machi Big Brother sells 3 Bored Apes to cut his Ethereum long in 52%, but liquidation moved to just $22 away appeared first on CryptoSlate.",
+      "title": "Solana treasury earns $2.5M in staking rewards but had to sell equity to raise $12M in cash for operations",
+      "link": "https://cryptoslate.com/solana-treasury-earns-2-5m-in-staking-rewards-but-had-to-sell-equity-to-raise-12m-in-cash-for-operations/",
+      "summary": "Restaked rewards did not supply operating cash, while asset sales, a divestiture and equity financing supported the quarter. The post Solana treasury earns $2.5M in staking rewards but had to sell equity to raise $12M in cash for operations appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-15",
       "date_human": "Aug 15, 2026",
-      "pub_ts": 1786766413,
+      "pub_ts": 1786786757,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/ethereum-domino-liquidation-risk.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/solana-cash-lifelines.jpg"
       ],
-      "image": "../assets/news/2026-08-15/d2279a50b6959c17_base.jpg",
-      "image_local": "../assets/news/2026-08-15/d2279a50b6959c17_base.jpg"
+      "image": "../assets/news/2026-08-15/0bd8853e71b15e96_base.jpg",
+      "image_local": "../assets/news/2026-08-15/0bd8853e71b15e96_base.jpg"
+    },
+    {
+      "title": "Galaxy lowers CLARITY Act odds to 10%",
+      "link": "https://cointelegraph.com/news/galaxy-lowers-clarity-act-odds-10",
+      "summary": "Galaxy cited unresolved ethics, stablecoin yield and developer protection issues, along with a narrow Senate window when lawmakers return in September.",
+      "source": "Cointelegraph",
+      "date": "2026-08-15",
+      "date_human": "Aug 15, 2026",
+      "pub_ts": 1786783259,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-us-senate-infrastructure-bill-doom-and-gloom-for-memecoin-trump.jpg"
+      ],
+      "image": "../assets/news/2026-08-15/11de061f0ecaa1cf_base.jpg",
+      "image_local": "../assets/news/2026-08-15/11de061f0ecaa1cf_base.jpg"
     },
     {
       "title": "Trump expected to attend White House meeting with crypto CEOs, sources say",
@@ -43,20 +57,6 @@
       ],
       "image": "../assets/news/2026-08-15/a3f8092f15e0244d_base.jpg",
       "image_local": "../assets/news/2026-08-15/a3f8092f15e0244d_base.jpg"
-    },
-    {
-      "title": "Gen Z favors ETFs and trades less than older cohorts: Binance",
-      "link": "https://cointelegraph.com/news/gen-z-favors-etfs-and-trades-less-than-older-cohorts-binance",
-      "summary": "Binance data showed Gen Z allocating a growing share of equity activity to ETFs while trading less frequently and using less leverage than older working-age cohorts.",
-      "source": "Cointelegraph",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786742543,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-cryptocurrency-can-actually-make-a-difference-by-helping-people-binance.png"
-      ],
-      "image": "../assets/news/2026-08-15/b255b15eac8cd99c_base.jpg",
-      "image_local": "../assets/news/2026-08-15/b255b15eac8cd99c_base.jpg"
     },
     {
       "title": "France Tax Data Leak Could Fuel Scams, Attacks Targeting Bitcoin Holders",
@@ -75,18 +75,32 @@
       "image_local": "../assets/news/2026-08-15/d7a5dbf908d026a5_base.jpg"
     },
     {
-      "title": "CyberWallet users have until Aug. 15 before crypto withdrawals become a smart contract recovery job",
-      "link": "https://cryptoslate.com/cyberwallet-users-have-until-aug-15-before-crypto-withdrawals-become-a-smart-contract-recovery-job/",
-      "summary": "Tokens stay on-chain, but Cyber says post-cutoff recovery requires direct contracts and will receive no support. The post CyberWallet users have until Aug. 15 before crypto withdrawals become a smart contract recovery job appeared first on CryptoSlate.",
+      "title": "Why a weekend break below $62,500 could unleash a Bitcoin selling wave toward $58,500",
+      "link": "https://cryptoslate.com/bitcoin-has-nowhere-to-hide-this-weekend-if-62500-breaks/",
+      "summary": "Bitcoin trades near $62,900 heading into the weekend, having touched an intraday low of $62,538 on Aug. 14. That low effectively tested the $62,500 to $62,560 zone that has held as the floor of a five-week trading range between roughly $62,000 and $66,000. Bitfinex found Bitcoin tested the $65,000 to $65,500 region six times between […] The post Why a weekend break below $62,500 could unleash a Bitcoin selling wave toward $58,500 appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-15",
       "date_human": "Aug 15, 2026",
-      "pub_ts": 1786761039,
+      "pub_ts": 1786786233,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/cyber_wallet_shutdown_standard_image.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-weekend-tightrope.jpg"
       ],
-      "image": "../assets/news/2026-08-15/a0cbf99ffaabd23f_base.jpg",
-      "image_local": "../assets/news/2026-08-15/a0cbf99ffaabd23f_base.jpg"
+      "image": "../assets/news/2026-08-15/37726200d4fb42b1_base.jpg",
+      "image_local": "../assets/news/2026-08-15/37726200d4fb42b1_base.jpg"
+    },
+    {
+      "title": "Gen Z favors ETFs and trades less than older cohorts: Binance",
+      "link": "https://cointelegraph.com/news/gen-z-favors-etfs-and-trades-less-than-older-cohorts-binance",
+      "summary": "Binance data showed Gen Z allocating a growing share of equity activity to ETFs while trading less frequently and using less leverage than older working-age cohorts.",
+      "source": "Cointelegraph",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786742543,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-cryptocurrency-can-actually-make-a-difference-by-helping-people-binance.png"
+      ],
+      "image": "../assets/news/2026-08-15/b255b15eac8cd99c_base.jpg",
+      "image_local": "../assets/news/2026-08-15/b255b15eac8cd99c_base.jpg"
     },
     {
       "title": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
@@ -102,20 +116,6 @@
       ],
       "image": "../assets/news/2026-08-15/08aab75b47cc571d_base.jpg",
       "image_local": "../assets/news/2026-08-15/08aab75b47cc571d_base.jpg"
-    },
-    {
-      "title": "Ireland plans industry standards for illicit crypto use",
-      "link": "https://cointelegraph.com/news/ireland-industry-standards-crypto-gambling-aml",
-      "summary": "The proposed policies under Ireland’s AML framework included stricter measures on transfers from private crypto wallets and overseas digital asset companies.",
-      "source": "Cointelegraph",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786741732,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/irish-dance-crypto.jpg"
-      ],
-      "image": "../assets/news/2026-08-15/06f6349d32a51021_base.jpg",
-      "image_local": "../assets/news/2026-08-15/06f6349d32a51021_base.jpg"
     },
     {
       "title": "China's Z.AI Ships GLM-5.3, Calling It the Top Open-Weight Coding Model",
@@ -134,18 +134,32 @@
       "image_local": "../assets/news/2026-08-15/b15f217eccfaff0f_base.jpg"
     },
     {
-      "title": "A Bitcoin treasury with $67 million in BTC has just $5,397 in cash and needs money immediately",
-      "link": "https://cryptoslate.com/a-bitcoin-treasury-with-67-million-in-btc-has-just-5397-in-cash-and-needs-money-immediately/",
-      "summary": "A $7.38 million working-capital deficit leaves the treasury holder dependent on new funding despite its 1,145.4 BTC reserve. The post A Bitcoin treasury with $67 million in BTC has just $5,397 in cash and needs money immediately appeared first on CryptoSlate.",
+      "title": "Bitcoin erased $118 million from Abu Dhabi's ETF holdings, but its sovereign funds kept every share",
+      "link": "https://cryptoslate.com/bitcoin-erased-118-million-from-abu-dhabis-etf-holdings-but-its-sovereign-funds-kept-every-share/",
+      "summary": "Two Abu Dhabi sovereign investors kept their BlackRock Bitcoin ETF holdings unchanged through the second quarter, retaining $764 million of exposure even as the cryptocurrency remained mired in one of its steepest annual declines. Mubadala Investment Company and the Abu Dhabi Investment Council held a combined 22.94 million shares of BlackRock’s iShares Bitcoin Trust ETF […] The post Bitcoin erased $118 million from Abu Dhabi’s ETF holdings, but its sovereign funds kept every share appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-15",
       "date_human": "Aug 15, 2026",
-      "pub_ts": 1786755631,
+      "pub_ts": 1786773624,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/cimg-liquidity-gap.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/abu-dhabi-bitcoin-shield.jpg"
       ],
-      "image": "../assets/news/2026-08-15/fc12a34f16fc2f9e_base.jpg",
-      "image_local": "../assets/news/2026-08-15/fc12a34f16fc2f9e_base.jpg"
+      "image": "../assets/news/2026-08-15/df846f87dced4dd8_base.jpg",
+      "image_local": "../assets/news/2026-08-15/df846f87dced4dd8_base.jpg"
+    },
+    {
+      "title": "Ireland plans industry standards for illicit crypto use",
+      "link": "https://cointelegraph.com/news/ireland-industry-standards-crypto-gambling-aml",
+      "summary": "The proposed policies under Ireland’s AML framework included stricter measures on transfers from private crypto wallets and overseas digital asset companies.",
+      "source": "Cointelegraph",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786741732,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/irish-dance-crypto.jpg"
+      ],
+      "image": "../assets/news/2026-08-15/06f6349d32a51021_base.jpg",
+      "image_local": "../assets/news/2026-08-15/06f6349d32a51021_base.jpg"
     },
     {
       "title": "Tokenization stocks slip as SEC delay puts 'speed bump' in crypto's Wall Street push",
@@ -161,20 +175,6 @@
       ],
       "image": "../assets/news/2026-08-15/2b4f15ec29c3a9be_base.jpg",
       "image_local": "../assets/news/2026-08-15/2b4f15ec29c3a9be_base.jpg"
-    },
-    {
-      "title": "Dartmouth endowment's crypto exposure drops by $2M amid falling prices",
-      "link": "https://cointelegraph.com/news/dartmouth-endowment-crypto-investments-btc-eth-sol-dropped",
-      "summary": "The value of the university endowment’s holdings in the Bitwise Solana staking ETF, Grayscale Ethereum staking ETF and BlackRock’s iShares Bitcoin ETF dropped to about $12 million.",
-      "source": "Cointelegraph",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786733824,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/studentcoinman.jpg"
-      ],
-      "image": "../assets/news/2026-08-15/497efcfba95d1229_base.jpg",
-      "image_local": "../assets/news/2026-08-15/497efcfba95d1229_base.jpg"
     },
     {
       "title": "SharpLink Will Stake $200M of Ethereum Through Lido's wstETH",
