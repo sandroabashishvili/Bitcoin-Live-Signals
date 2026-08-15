@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-15",
-  "generated_at_utc": "2026-08-15 10:05:55 UTC",
+  "generated_at_utc": "2026-08-15 16:05:52 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,47 +16,151 @@
   "count": 12,
   "items": [
     {
-      "title": "Solana treasury earns $2.5M in staking rewards but had to sell equity to raise $12M in cash for operations",
-      "link": "https://cryptoslate.com/solana-treasury-earns-2-5m-in-staking-rewards-but-had-to-sell-equity-to-raise-12m-in-cash-for-operations/",
-      "summary": "Restaked rewards did not supply operating cash, while asset sales, a divestiture and equity financing supported the quarter. The post Solana treasury earns $2.5M in staking rewards but had to sell equity to raise $12M in cash for operations appeared first on CryptoSlate.",
+      "title": "Why the world's second-largest Bitcoin mining power is shutting down rigs in its capital city",
+      "link": "https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city",
+      "summary": "Why the world's second-largest Bitcoin mining power is shutting down rigs in its capital city",
+      "source": "CoinDesk",
+      "date": "2026-08-15",
+      "date_human": "Aug 15, 2026",
+      "pub_ts": 1786807275,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/3ed99ad8e1d2af4b11b0bb301a546dddccbf65e4-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/3ed99ad8e1d2af4b11b0bb301a546dddccbf65e4-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-15/22e998aaf0abe212_base.jpg",
+      "image_local": "../assets/news/2026-08-15/22e998aaf0abe212_base.jpg"
+    },
+    {
+      "title": "How a public crypto firm's 4.3% AI gain hides millions in balance sheet losses",
+      "link": "https://cryptoslate.com/how-a-public-crypto-firms-4-3-ai-gain-hides-millions-in-balance-sheet-losses/",
+      "summary": "The filing reports separate company-wide crypto losses but no returns attributable to EMJX-managed capital. The post How a public crypto firm’s 4.3% AI gain hides millions in balance sheet losses appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-15",
       "date_human": "Aug 15, 2026",
-      "pub_ts": 1786786757,
+      "pub_ts": 1786807209,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/solana-cash-lifelines.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/emjx-return-crossroads.jpg"
       ],
-      "image": "../assets/news/2026-08-15/0bd8853e71b15e96_base.jpg",
-      "image_local": "../assets/news/2026-08-15/0bd8853e71b15e96_base.jpg"
+      "image": "../assets/news/2026-08-15/87965ca6fec1b287_base.jpg",
+      "image_local": "../assets/news/2026-08-15/87965ca6fec1b287_base.jpg"
     },
     {
-      "title": "Galaxy lowers CLARITY Act odds to 10%",
-      "link": "https://cointelegraph.com/news/galaxy-lowers-clarity-act-odds-10",
-      "summary": "Galaxy cited unresolved ethics, stablecoin yield and developer protection issues, along with a narrow Senate window when lawmakers return in September.",
+      "title": "Meta Patents Cameras That Recognize Faces and Log Your Actions",
+      "link": "https://decrypt.co/375698/meta-patents-cameras-recognize-faces-log-actions",
+      "summary": "The filing would turn raw footage into labeled clips of who did what, without anyone opting in.",
+      "source": "Decrypt",
+      "date": "2026-08-15",
+      "date_human": "Aug 15, 2026",
+      "pub_ts": 1786806065,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-15/c12fb2cce7fba126_base.jpg",
+      "image_local": "../assets/news/2026-08-15/c12fb2cce7fba126_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
       "date": "2026-08-15",
       "date_human": "Aug 15, 2026",
-      "pub_ts": 1786783259,
+      "pub_ts": 1786804824,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-us-senate-infrastructure-bill-doom-and-gloom-for-memecoin-trump.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-08-15/11de061f0ecaa1cf_base.jpg",
-      "image_local": "../assets/news/2026-08-15/11de061f0ecaa1cf_base.jpg"
+      "image": "../assets/news/2026-08-15/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-15/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "Trump expected to attend White House meeting with crypto CEOs, sources say",
-      "link": "https://www.coindesk.com/policy/2026/08/14/trump-expected-to-attend-white-house-meeting-with-crypto-ceos-sources-say",
-      "summary": "Trump expected to attend White House meeting with crypto CEOs, sources say",
+      "title": "Paul Tudor Jones' investment firm increases stake in BlackRock's bitcoin ETF after year of selling",
+      "link": "https://www.coindesk.com/business/2026/08/15/paul-tudor-jones-investment-firm-increases-blackrock-s-bitcoin-etf-stake-after-year-of-selling",
+      "summary": "Paul Tudor Jones' investment firm increases stake in BlackRock's bitcoin ETF after year of selling",
       "source": "CoinDesk",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786750909,
+      "date": "2026-08-15",
+      "date_human": "Aug 15, 2026",
+      "pub_ts": 1786806749,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/def0d98b21aeaaed3c0847566a33f7c63142d271-4032x3024.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/def0d98b21aeaaed3c0847566a33f7c63142d271-4032x3024.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0.5544&fp-y=0.4473&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/b289872120038f52461a67219e6b601e10081d67-2883x2057.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/b289872120038f52461a67219e6b601e10081d67-2883x2057.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-15/a3f8092f15e0244d_base.jpg",
-      "image_local": "../assets/news/2026-08-15/a3f8092f15e0244d_base.jpg"
+      "image": "../assets/news/2026-08-15/4749bbfa53853424_base.jpg",
+      "image_local": "../assets/news/2026-08-15/4749bbfa53853424_base.jpg"
+    },
+    {
+      "title": "Bitcoin's $16.3 billion Wall Street stress test splits into four positional patterns",
+      "link": "https://cryptoslate.com/bitcoin-etf-holdings-four-position-patterns/",
+      "summary": "June 30 snapshots separate unchanged sovereign units, JPMorgan share additions, UBS options and a newly reported Morgan Stanley wrapper. The post Bitcoin’s $16.3 billion Wall Street stress test splits into four positional patterns appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-15",
+      "date_human": "Aug 15, 2026",
+      "pub_ts": 1786800007,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-stress-trigger-gauge.jpg"
+      ],
+      "image": "../assets/news/2026-08-15/8821239b02786bde_base.jpg",
+      "image_local": "../assets/news/2026-08-15/8821239b02786bde_base.jpg"
+    },
+    {
+      "title": "Trump-Linked World Liberty Gets Conditional Bank Charter for USD1 Stablecoin",
+      "link": "https://decrypt.co/375726/trump-world-liberty-bank-charter-usd1-stablecoin",
+      "summary": "The proposed World Liberty Trust Company would take over issuance of the USD1 stablecoin from BitGo.",
+      "source": "Decrypt",
+      "date": "2026-08-15",
+      "date_human": "Aug 15, 2026",
+      "pub_ts": 1786798864,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/Trump-Coin-decrypt-style-01-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/Trump-Coin-decrypt-style-01-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Trump-Coin-decrypt-style-01-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-15/fbcd4b859b11bb3a_base.jpg",
+      "image_local": "../assets/news/2026-08-15/fbcd4b859b11bb3a_base.jpg"
+    },
+    {
+      "title": "Bitcoin to $1M by 2030 is ‘mathematically impossible' says Markus Thielen",
+      "link": "https://cointelegraph.com/magazine/bitcoin-1m-by-2030-is-mathematically-impossible-markus-thielen",
+      "summary": "The trillions required to boost Bitcoin to a price of $1 million per coin is not going to happen by 2030... or perhaps ever, says party pooper Markus Thielen.",
+      "source": "Cointelegraph",
+      "date": "2026-08-15",
+      "date_human": "Aug 15, 2026",
+      "pub_ts": 1786800600,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/interview-markus-thielen.jpg"
+      ],
+      "image": "../assets/news/2026-08-15/bf98d43ee8e4492e_base.jpg",
+      "image_local": "../assets/news/2026-08-15/bf98d43ee8e4492e_base.jpg"
+    },
+    {
+      "title": "The $11.2 billion in 2026 funding that killed crypto's permissionless era",
+      "link": "https://www.coindesk.com/business/2026/08/15/the-usd11-2-billion-in-2026-funding-that-killed-crypto-s-permissionless-era",
+      "summary": "The $11.2 billion in 2026 funding that killed crypto's permissionless era",
+      "source": "CoinDesk",
+      "date": "2026-08-15",
+      "date_human": "Aug 15, 2026",
+      "pub_ts": 1786802400,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/38b95887c36694f1eb6785def8e9fef7464fc126-7680x4320.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/38b95887c36694f1eb6785def8e9fef7464fc126-7680x4320.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-15/cdf3fbf9cf41abd5_base.jpg",
+      "image_local": "../assets/news/2026-08-15/cdf3fbf9cf41abd5_base.jpg"
+    },
+    {
+      "title": "Institutional investor Paul Tudor Jones adds 109,446 BlackRock Bitcoin ETF shares while cutting calls by 85%",
+      "link": "https://cryptoslate.com/institutional-investor-paul-tudor-jones-adds-109446-blackrock-bitcoin-etf-shares-while-cutting-call-equivalents-85/",
+      "summary": "The June 30 snapshot shows a far less call-heavy mix, with reported put equivalents nearly unchanged. The post Institutional investor Paul Tudor Jones adds 109,446 BlackRock Bitcoin ETF shares while cutting calls by 85% appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-15",
+      "date_human": "Aug 15, 2026",
+      "pub_ts": 1786794334,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/tudor-ibit-defensive-position.jpg"
+      ],
+      "image": "../assets/news/2026-08-15/876e530ff8f50126_base.jpg",
+      "image_local": "../assets/news/2026-08-15/876e530ff8f50126_base.jpg"
     },
     {
       "title": "France Tax Data Leak Could Fuel Scams, Attacks Targeting Bitcoin Holders",
@@ -75,122 +179,18 @@
       "image_local": "../assets/news/2026-08-15/d7a5dbf908d026a5_base.jpg"
     },
     {
-      "title": "Why a weekend break below $62,500 could unleash a Bitcoin selling wave toward $58,500",
-      "link": "https://cryptoslate.com/bitcoin-has-nowhere-to-hide-this-weekend-if-62500-breaks/",
-      "summary": "Bitcoin trades near $62,900 heading into the weekend, having touched an intraday low of $62,538 on Aug. 14. That low effectively tested the $62,500 to $62,560 zone that has held as the floor of a five-week trading range between roughly $62,000 and $66,000. Bitfinex found Bitcoin tested the $65,000 to $65,500 region six times between […] The post Why a weekend break below $62,500 could unleash a Bitcoin selling wave toward $58,500 appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
+      "title": "Bitcoin could bottom in October, altcoins are ‘basically dead,' Swan CEO says",
+      "link": "https://cointelegraph.com/markets/bitcoin-bottom-october-altcoins-basically-dead-swan-ceo",
+      "summary": "Klippsten said Bitcoin could bottom about a year after its previous peak and argued that crypto’s best outcome is to become part of TradFi.",
+      "source": "Cointelegraph",
       "date": "2026-08-15",
       "date_human": "Aug 15, 2026",
-      "pub_ts": 1786786233,
+      "pub_ts": 1786798678,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-weekend-tightrope.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/analytics-red-market-falling-drop-bitcoin-2.jpg"
       ],
-      "image": "../assets/news/2026-08-15/37726200d4fb42b1_base.jpg",
-      "image_local": "../assets/news/2026-08-15/37726200d4fb42b1_base.jpg"
-    },
-    {
-      "title": "Gen Z favors ETFs and trades less than older cohorts: Binance",
-      "link": "https://cointelegraph.com/news/gen-z-favors-etfs-and-trades-less-than-older-cohorts-binance",
-      "summary": "Binance data showed Gen Z allocating a growing share of equity activity to ETFs while trading less frequently and using less leverage than older working-age cohorts.",
-      "source": "Cointelegraph",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786742543,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-cryptocurrency-can-actually-make-a-difference-by-helping-people-binance.png"
-      ],
-      "image": "../assets/news/2026-08-15/b255b15eac8cd99c_base.jpg",
-      "image_local": "../assets/news/2026-08-15/b255b15eac8cd99c_base.jpg"
-    },
-    {
-      "title": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
-      "link": "https://www.coindesk.com/policy/2026/08/14/trump-backed-world-liberty-wins-conditional-bank-charter-from-federal-regulator",
-      "summary": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
-      "source": "CoinDesk",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786741523,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/6e4532d237786704984596878a883a023b94ba32-4540x2554.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/6e4532d237786704984596878a883a023b94ba32-4540x2554.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-15/08aab75b47cc571d_base.jpg",
-      "image_local": "../assets/news/2026-08-15/08aab75b47cc571d_base.jpg"
-    },
-    {
-      "title": "China's Z.AI Ships GLM-5.3, Calling It the Top Open-Weight Coding Model",
-      "link": "https://decrypt.co/375684/china-z-ai-glm-5-3-top-open-weight-coding-model",
-      "summary": "The Chinese lab says the release beats comparably sized open models on code benchmarks. The blog's own numbers show it trails the closed frontier and at least one open rival.",
-      "source": "Decrypt",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786737673,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-15/b15f217eccfaff0f_base.jpg",
-      "image_local": "../assets/news/2026-08-15/b15f217eccfaff0f_base.jpg"
-    },
-    {
-      "title": "Bitcoin erased $118 million from Abu Dhabi's ETF holdings, but its sovereign funds kept every share",
-      "link": "https://cryptoslate.com/bitcoin-erased-118-million-from-abu-dhabis-etf-holdings-but-its-sovereign-funds-kept-every-share/",
-      "summary": "Two Abu Dhabi sovereign investors kept their BlackRock Bitcoin ETF holdings unchanged through the second quarter, retaining $764 million of exposure even as the cryptocurrency remained mired in one of its steepest annual declines. Mubadala Investment Company and the Abu Dhabi Investment Council held a combined 22.94 million shares of BlackRock’s iShares Bitcoin Trust ETF […] The post Bitcoin erased $118 million from Abu Dhabi’s ETF holdings, but its sovereign funds kept every share appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-15",
-      "date_human": "Aug 15, 2026",
-      "pub_ts": 1786773624,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/abu-dhabi-bitcoin-shield.jpg"
-      ],
-      "image": "../assets/news/2026-08-15/df846f87dced4dd8_base.jpg",
-      "image_local": "../assets/news/2026-08-15/df846f87dced4dd8_base.jpg"
-    },
-    {
-      "title": "Ireland plans industry standards for illicit crypto use",
-      "link": "https://cointelegraph.com/news/ireland-industry-standards-crypto-gambling-aml",
-      "summary": "The proposed policies under Ireland’s AML framework included stricter measures on transfers from private crypto wallets and overseas digital asset companies.",
-      "source": "Cointelegraph",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786741732,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/irish-dance-crypto.jpg"
-      ],
-      "image": "../assets/news/2026-08-15/06f6349d32a51021_base.jpg",
-      "image_local": "../assets/news/2026-08-15/06f6349d32a51021_base.jpg"
-    },
-    {
-      "title": "Tokenization stocks slip as SEC delay puts 'speed bump' in crypto's Wall Street push",
-      "link": "https://www.coindesk.com/markets/2026/08/14/tokenization-stocks-slip-as-sec-delay-puts-speed-bump-in-crypto-s-wall-street-push",
-      "summary": "Tokenization stocks slip as SEC delay puts 'speed bump' in crypto's Wall Street push",
-      "source": "CoinDesk",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786729684,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/981f113099a5d95dd101524386439043bf2a255f-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/981f113099a5d95dd101524386439043bf2a255f-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-15/2b4f15ec29c3a9be_base.jpg",
-      "image_local": "../assets/news/2026-08-15/2b4f15ec29c3a9be_base.jpg"
-    },
-    {
-      "title": "SharpLink Will Stake $200M of Ethereum Through Lido's wstETH",
-      "link": "https://decrypt.co/375672/sharplink-stake-200m-ethereum-lido-wsteth",
-      "summary": "Sharplink plans to stake roughly 12% of its total Ethereum holdings through Lido, earning yield while staying active in DeFi.",
-      "source": "Decrypt",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786734065,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Sharplink-ethereum-decrypt-style-01-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Sharplink-ethereum-decrypt-style-01-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Sharplink-ethereum-decrypt-style-01-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-15/7202e7a973460abd_base.jpg",
-      "image_local": "../assets/news/2026-08-15/7202e7a973460abd_base.jpg"
+      "image": "../assets/news/2026-08-15/31f2c9accf15cd01_base.jpg",
+      "image_local": "../assets/news/2026-08-15/31f2c9accf15cd01_base.jpg"
     }
   ]
 }
