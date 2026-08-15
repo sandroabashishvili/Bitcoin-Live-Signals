@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-14",
-  "generated_at_utc": "2026-08-14 16:05:58 UTC",
+  "generated_at_utc": "2026-08-14 22:05:54 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,48 +16,150 @@
   "count": 12,
   "items": [
     {
-      "title": "Israel's largest bank taps Galaxy to offer Bitcoin, Ether, Solana trading",
-      "link": "https://cointelegraph.com/news/israels-largest-bank-taps-galaxy-to-offer-bitcoin-ether-and-solana-trading",
-      "summary": "Bank Leumi customers will be able to buy, hold and sell three major cryptocurrencies directly through the bank’s investment app beginning in early 2027.",
+      "title": "Gen Z favors ETFs and trades less than older cohorts: Binance",
+      "link": "https://cointelegraph.com/news/gen-z-favors-etfs-and-trades-less-than-older-cohorts-binance",
+      "summary": "Binance data showed Gen Z allocating a growing share of equity activity to ETFs while trading less frequently and using less leverage than older working-age cohorts.",
       "source": "Cointelegraph",
       "date": "2026-08-14",
       "date_human": "Aug 14, 2026",
-      "pub_ts": 1786722109,
+      "pub_ts": 1786742543,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-why-21-is-betting-on-10-cryptos-not-just-bitcoin-and-ethereum-zz.png"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-cryptocurrency-can-actually-make-a-difference-by-helping-people-binance.png"
       ],
-      "image": "../assets/news/2026-08-14/ac25669bd9b1501d_base.jpg",
-      "image_local": "../assets/news/2026-08-14/ac25669bd9b1501d_base.jpg"
+      "image": "../assets/news/2026-08-14/b255b15eac8cd99c_base.jpg",
+      "image_local": "../assets/news/2026-08-14/b255b15eac8cd99c_base.jpg"
     },
     {
-      "title": "SEC cancels crypto fundraising meeting, leaving token issuers with no new path to fund development",
-      "link": "https://cryptoslate.com/sec-cancels-crypto-fundraising-meeting-leaving-token-issuers-with-no-new-path-to-fund-development/",
-      "summary": "March guidance separates tokens from investment contracts, but capital raising still depends on general securities exemptions. The post SEC cancels crypto fundraising meeting, leaving token issuers with no new path to fund development appeared first on CryptoSlate.",
+      "title": "Norway's sovereign fund reaches record 11,549 BTC exposure without buying more Bitcoin",
+      "link": "https://cryptoslate.com/norways-sovereign-fund-reaches-record-11549-btc-exposure-without-buying-more-bitcoin/",
+      "summary": "Norway’s sovereign wealth fund ended the first half of 2026 with record indirect Bitcoin exposure and a newly disclosed stake in the world’s largest Ethereum treasury company. Norges Bank Investment Management’s (NBIM) public-equity holdings translated into 11,549 BTC of indirect exposure as of June 30, up 60% from a year earlier and marking the sixth […] The post Norway’s sovereign fund reaches record 11,549 BTC exposure without buying more Bitcoin appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-14",
       "date_human": "Aug 14, 2026",
-      "pub_ts": 1786719922,
+      "pub_ts": 1786742407,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/crypto-capital-map.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/norway-bitcoin-iceberg.jpg"
       ],
-      "image": "../assets/news/2026-08-14/9a7fd44da7bf1337_base.jpg",
-      "image_local": "../assets/news/2026-08-14/9a7fd44da7bf1337_base.jpg"
+      "image": "../assets/news/2026-08-14/3bdf1bd63e523af0_base.jpg",
+      "image_local": "../assets/news/2026-08-14/3bdf1bd63e523af0_base.jpg"
     },
     {
-      "title": "Fake LinkedIn Crypto Job Scams Have Cost $11.8M: Singapore",
-      "link": "https://decrypt.co/375653/fake-linkedin-crypto-job-scams-have-cost-11-8m-singapore",
-      "summary": "Malware planted during a bogus coding assessment harvested a session token, bypassing multi-factor authentication to reach a code repository.",
+      "title": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
+      "link": "https://www.coindesk.com/policy/2026/08/14/trump-backed-world-liberty-wins-conditional-bank-charter-from-federal-regulator",
+      "summary": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
+      "source": "CoinDesk",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786741523,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/6e4532d237786704984596878a883a023b94ba32-4540x2554.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/6e4532d237786704984596878a883a023b94ba32-4540x2554.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-14/08aab75b47cc571d_base.jpg",
+      "image_local": "../assets/news/2026-08-14/08aab75b47cc571d_base.jpg"
+    },
+    {
+      "title": "France Tax Data Leak Could Fuel Scams, Attacks Targeting Bitcoin Holders",
+      "link": "https://decrypt.co/375715/france-tax-data-leak-wrench-attacks-bitcoin",
+      "summary": "A hacker is reportedly selling personal and financial records tied to more than 678,000 taxpayers and businesses in France.",
       "source": "Decrypt",
       "date": "2026-08-14",
       "date_human": "Aug 14, 2026",
-      "pub_ts": 1786719329,
+      "pub_ts": 1786741415,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/12/malware-decrypt-style-02-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/12/malware-decrypt-style-02-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/12/malware-decrypt-style-02-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/Paris-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/Paris-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/Paris-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-14/90f2e209fd851729_base.jpg",
-      "image_local": "../assets/news/2026-08-14/90f2e209fd851729_base.jpg"
+      "image": "../assets/news/2026-08-14/d7a5dbf908d026a5_base.jpg",
+      "image_local": "../assets/news/2026-08-14/d7a5dbf908d026a5_base.jpg"
+    },
+    {
+      "title": "Ireland plans industry standards for illicit crypto use",
+      "link": "https://cointelegraph.com/news/ireland-industry-standards-crypto-gambling-aml",
+      "summary": "The proposed policies under Ireland’s AML framework included stricter measures on transfers from private crypto wallets and overseas digital asset companies.",
+      "source": "Cointelegraph",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786741732,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/irish-dance-crypto.jpg"
+      ],
+      "image": "../assets/news/2026-08-14/06f6349d32a51021_base.jpg",
+      "image_local": "../assets/news/2026-08-14/06f6349d32a51021_base.jpg"
+    },
+    {
+      "title": "Bitcoin's ETF rebound just lost 38% of its gains in four sessions as BTC fell below $63,000",
+      "link": "https://cryptoslate.com/bitcoins-etf-rebound-just-lost-38-of-its-gains-in-four-sessions-as-btc-fell-below-63000/",
+      "summary": "A broad Aug. 13 retreat left only MSBT and Grayscale's Bitcoin Mini Trust attracting money. The post Bitcoin’s ETF rebound just lost 38% of its gains in four sessions as BTC fell below $63,000 appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786738212,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-etf-red-drain.jpg"
+      ],
+      "image": "../assets/news/2026-08-14/608e00d3c248117b_base.jpg",
+      "image_local": "../assets/news/2026-08-14/608e00d3c248117b_base.jpg"
+    },
+    {
+      "title": "Tokenization stocks slip as SEC delay puts 'speed bump' in crypto's Wall Street push",
+      "link": "https://www.coindesk.com/markets/2026/08/14/tokenization-stocks-slip-as-sec-delay-puts-speed-bump-in-crypto-s-wall-street-push",
+      "summary": "Tokenization stocks slip as SEC delay puts 'speed bump' in crypto's Wall Street push",
+      "source": "CoinDesk",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786729684,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/981f113099a5d95dd101524386439043bf2a255f-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/981f113099a5d95dd101524386439043bf2a255f-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-14/2b4f15ec29c3a9be_base.jpg",
+      "image_local": "../assets/news/2026-08-14/2b4f15ec29c3a9be_base.jpg"
+    },
+    {
+      "title": "China's Z.AI Ships GLM-5.3, Calling It the Top Open-Weight Coding Model",
+      "link": "https://decrypt.co/375684/china-z-ai-glm-5-3-top-open-weight-coding-model",
+      "summary": "The Chinese lab says the release beats comparably sized open models on code benchmarks. The blog's own numbers show it trails the closed frontier and at least one open rival.",
+      "source": "Decrypt",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786737673,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-14/b15f217eccfaff0f_base.jpg",
+      "image_local": "../assets/news/2026-08-14/b15f217eccfaff0f_base.jpg"
+    },
+    {
+      "title": "Dartmouth endowment's crypto exposure drops by $2M amid falling prices",
+      "link": "https://cointelegraph.com/news/dartmouth-endowment-crypto-investments-btc-eth-sol-dropped",
+      "summary": "The value of the university endowment’s holdings in the Bitwise Solana staking ETF, Grayscale Ethereum staking ETF and BlackRock’s iShares Bitcoin ETF dropped to about $12 million.",
+      "source": "Cointelegraph",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786733824,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/studentcoinman.jpg"
+      ],
+      "image": "../assets/news/2026-08-14/497efcfba95d1229_base.jpg",
+      "image_local": "../assets/news/2026-08-14/497efcfba95d1229_base.jpg"
+    },
+    {
+      "title": "Another public company abandons Bitcoin playbook after treasury volatility drove $22 million loss",
+      "link": "https://cryptoslate.com/another-public-company-abandons-bitcoin-playbook-after-treasury-volatility-wiped-out-profits-and-triggered-a-22-million-loss/",
+      "summary": "The company cleared its Coinbase debt and reported about 760 BTC as of July 23, the latest point balance in its disclosures. The post Another public company abandons Bitcoin playbook after treasury volatility drove $22 million loss appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786733459,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/kulr-bitcoin-drain.jpg"
+      ],
+      "image": "../assets/news/2026-08-14/3936f07b36a60761_base.jpg",
+      "image_local": "../assets/news/2026-08-14/3936f07b36a60761_base.jpg"
     },
     {
       "title": "Strategy says MSCI should measure markets, not dictate corporate assets",
@@ -75,122 +177,20 @@
       "image_local": "../assets/news/2026-08-14/c4165131f32104a6_base.jpg"
     },
     {
-      "title": "Crypto Biz: Bitcoin's $116M self-custody wake-up call",
-      "link": "https://cointelegraph.com/news/crypto-biz-bitcoin-self-custody-etf-inflows-strategy-riot-ai",
-      "summary": "A $116 million Bitcoin wallet exploit puts self-custody under scrutiny as ETF inflows rebound, Strategy eyes more BTC and miners chase billions in AI deals.",
-      "source": "Cointelegraph",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786721353,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/coma-crypto-market-falling-bitcoin-1.jpg"
-      ],
-      "image": "../assets/news/2026-08-14/25614d9e6ca284f7_base.jpg",
-      "image_local": "../assets/news/2026-08-14/25614d9e6ca284f7_base.jpg"
-    },
-    {
-      "title": "Bitcoin ETF calls surge 24-fold as puts fall 52.75%, reaching 1.95M IBIT underlying shares",
-      "link": "https://cryptoslate.com/bitcoin-etf-calls-surge-24-fold-as-puts-fall-52-75-reaching-1-95m-ibit-underlying-shares/",
-      "summary": "Its Aug. 13 filing covered 1.95 million call underlying-share equivalents at June 30, while account purpose remained unresolved. The post Bitcoin ETF calls surge 24-fold as puts fall 52.75%, reaching 1.95M IBIT underlying shares appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786714852,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/ubit-options-surveillance.jpg"
-      ],
-      "image": "../assets/news/2026-08-14/6b2de5ca4b65ae8b_base.jpg",
-      "image_local": "../assets/news/2026-08-14/6b2de5ca4b65ae8b_base.jpg"
-    },
-    {
-      "title": "Ireland's New AML Strategy Brings ‘Enhanced Checks' on Private Crypto Wallets",
-      "link": "https://decrypt.co/375628/irelands-new-aml-strategy-brings-enhanced-checks-on-private-crypto-wallets",
-      "summary": "The country's first strategy of its kind also brings stricter due diligence for firms dealing with overseas crypto companies.",
+      "title": "SharpLink Will Stake $200M of Ethereum Through Lido's wstETH",
+      "link": "https://decrypt.co/375672/sharplink-stake-200m-ethereum-lido-wsteth",
+      "summary": "Sharplink plans to stake roughly 12% of its total Ethereum holdings through Lido, earning yield while staying active in DeFi.",
       "source": "Decrypt",
       "date": "2026-08-14",
       "date_human": "Aug 14, 2026",
-      "pub_ts": 1786711119,
+      "pub_ts": 1786734065,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Sharplink-ethereum-decrypt-style-01-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Sharplink-ethereum-decrypt-style-01-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Sharplink-ethereum-decrypt-style-01-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-14/8bcc9eb3af27cd31_base.jpg",
-      "image_local": "../assets/news/2026-08-14/8bcc9eb3af27cd31_base.jpg"
-    },
-    {
-      "title": "Israel's largest bank to offer crypto trading with Galaxy",
-      "link": "https://www.coindesk.com/markets/2026/08/14/israel-s-largest-bank-partners-with-galaxy-for-crypto-trading",
-      "summary": "Israel's largest bank to offer crypto trading with Galaxy",
-      "source": "CoinDesk",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786715497,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/8142dec16a595aba3e6c3f1bb742b14314bedc43-1440x810.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/8142dec16a595aba3e6c3f1bb742b14314bedc43-1440x810.jpg?auto=format&q=75"
-      ],
-      "image": "../assets/news/2026-08-14/8536c0d129680c21_base.jpg",
-      "image_local": "../assets/news/2026-08-14/8536c0d129680c21_base.jpg"
-    },
-    {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786718424,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-08-14/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-08-14/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "Tokenized transactions surge to $5.3 billion but generate just $14M as costs soar by 56%",
-      "link": "https://cryptoslate.com/tokenized-transaction-volume-surges-to-5-3-billion-but-generates-just-14m-as-costs-soar-56/",
-      "summary": "Transaction volume reached $5.3 billion, yet adjusted EBITDA swung to a $5.5 million loss as fewer integrations were completed. The post Tokenized transactions surge to $5.3 billion but generate just $14M as costs soar by 56% appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786710939,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/securitize-balloon-loss-drag.jpg"
-      ],
-      "image": "../assets/news/2026-08-14/c061ab6dc74c3f4a_base.jpg",
-      "image_local": "../assets/news/2026-08-14/c061ab6dc74c3f4a_base.jpg"
-    },
-    {
-      "title": "Morning Minute: Tether Finally Gets An Audit",
-      "link": "https://decrypt.co/375625/morning-minute-tether-finally-gets-an-audit",
-      "summary": "It seems Tether passed, putting an end to the longest-running open criticism of the leading stablecoin company.",
-      "source": "Decrypt",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786707939,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-conf-paolo-ardonio-tether-decrypt-style-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-conf-paolo-ardonio-tether-decrypt-style-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-conf-paolo-ardonio-tether-decrypt-style-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-14/1a449315b6d5d50e_base.jpg",
-      "image_local": "../assets/news/2026-08-14/1a449315b6d5d50e_base.jpg"
-    },
-    {
-      "title": "Fear is fading across markets, be it bitcoin, stocks, gold or bonds",
-      "link": "https://www.coindesk.com/daybook-us/2026/08/14/volatility-exits-crypto-tradfi-markets-even-as-u-s-iran-risks-linger-sovereign-debt-rises",
-      "summary": "Fear is fading across markets, be it bitcoin, stocks, gold or bonds",
-      "source": "CoinDesk",
-      "date": "2026-08-14",
-      "date_human": "Aug 14, 2026",
-      "pub_ts": 1786707230,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/e29ab0b305e82306feadf3c62519eb4807b70897-2854x1488.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/e29ab0b305e82306feadf3c62519eb4807b70897-2854x1488.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-14/089d107efd2f1010_base.jpg",
-      "image_local": "../assets/news/2026-08-14/089d107efd2f1010_base.jpg"
+      "image": "../assets/news/2026-08-14/7202e7a973460abd_base.jpg",
+      "image_local": "../assets/news/2026-08-14/7202e7a973460abd_base.jpg"
     }
   ]
 }

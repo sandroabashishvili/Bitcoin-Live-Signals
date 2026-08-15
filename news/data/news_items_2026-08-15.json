@@ -1,0 +1,196 @@
+{
+  "day_iso": "2026-08-15",
+  "generated_at_utc": "2026-08-15 04:05:55 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Machi Big Brother sells 3 Bored Apes to cut his Ethereum long in 52%, but liquidation moved to just $22 away",
+      "link": "https://cryptoslate.com/machi-big-brother-ethereum-long-was-cut-52-but-liquidation-moved-to-just-22-away/",
+      "summary": "Lookonchain tied three loss-making Bored Ape sales to the trade, but the public record does not trace the proceeds into margin. The post Machi Big Brother sells 3 Bored Apes to cut his Ethereum long in 52%, but liquidation moved to just $22 away appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-15",
+      "date_human": "Aug 15, 2026",
+      "pub_ts": 1786766413,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/ethereum-domino-liquidation-risk.jpg"
+      ],
+      "image": "../assets/news/2026-08-15/d2279a50b6959c17_base.jpg",
+      "image_local": "../assets/news/2026-08-15/d2279a50b6959c17_base.jpg"
+    },
+    {
+      "title": "Trump expected to attend White House meeting with crypto CEOs, sources say",
+      "link": "https://www.coindesk.com/policy/2026/08/14/trump-expected-to-attend-white-house-meeting-with-crypto-ceos-sources-say",
+      "summary": "Trump expected to attend White House meeting with crypto CEOs, sources say",
+      "source": "CoinDesk",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786750909,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/def0d98b21aeaaed3c0847566a33f7c63142d271-4032x3024.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/def0d98b21aeaaed3c0847566a33f7c63142d271-4032x3024.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0.5544&fp-y=0.4473&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-15/a3f8092f15e0244d_base.jpg",
+      "image_local": "../assets/news/2026-08-15/a3f8092f15e0244d_base.jpg"
+    },
+    {
+      "title": "Gen Z favors ETFs and trades less than older cohorts: Binance",
+      "link": "https://cointelegraph.com/news/gen-z-favors-etfs-and-trades-less-than-older-cohorts-binance",
+      "summary": "Binance data showed Gen Z allocating a growing share of equity activity to ETFs while trading less frequently and using less leverage than older working-age cohorts.",
+      "source": "Cointelegraph",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786742543,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-cryptocurrency-can-actually-make-a-difference-by-helping-people-binance.png"
+      ],
+      "image": "../assets/news/2026-08-15/b255b15eac8cd99c_base.jpg",
+      "image_local": "../assets/news/2026-08-15/b255b15eac8cd99c_base.jpg"
+    },
+    {
+      "title": "France Tax Data Leak Could Fuel Scams, Attacks Targeting Bitcoin Holders",
+      "link": "https://decrypt.co/375715/france-tax-data-leak-wrench-attacks-bitcoin",
+      "summary": "A hacker is reportedly selling personal and financial records tied to more than 678,000 taxpayers and businesses in France.",
+      "source": "Decrypt",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786741415,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/Paris-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/Paris-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/Paris-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-15/d7a5dbf908d026a5_base.jpg",
+      "image_local": "../assets/news/2026-08-15/d7a5dbf908d026a5_base.jpg"
+    },
+    {
+      "title": "CyberWallet users have until Aug. 15 before crypto withdrawals become a smart contract recovery job",
+      "link": "https://cryptoslate.com/cyberwallet-users-have-until-aug-15-before-crypto-withdrawals-become-a-smart-contract-recovery-job/",
+      "summary": "Tokens stay on-chain, but Cyber says post-cutoff recovery requires direct contracts and will receive no support. The post CyberWallet users have until Aug. 15 before crypto withdrawals become a smart contract recovery job appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-15",
+      "date_human": "Aug 15, 2026",
+      "pub_ts": 1786761039,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/cyber_wallet_shutdown_standard_image.jpg"
+      ],
+      "image": "../assets/news/2026-08-15/a0cbf99ffaabd23f_base.jpg",
+      "image_local": "../assets/news/2026-08-15/a0cbf99ffaabd23f_base.jpg"
+    },
+    {
+      "title": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
+      "link": "https://www.coindesk.com/policy/2026/08/14/trump-backed-world-liberty-wins-conditional-bank-charter-from-federal-regulator",
+      "summary": "Trump-backed World Liberty wins conditional bank charter from federal regulator",
+      "source": "CoinDesk",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786741523,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/6e4532d237786704984596878a883a023b94ba32-4540x2554.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/6e4532d237786704984596878a883a023b94ba32-4540x2554.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-15/08aab75b47cc571d_base.jpg",
+      "image_local": "../assets/news/2026-08-15/08aab75b47cc571d_base.jpg"
+    },
+    {
+      "title": "Ireland plans industry standards for illicit crypto use",
+      "link": "https://cointelegraph.com/news/ireland-industry-standards-crypto-gambling-aml",
+      "summary": "The proposed policies under Ireland’s AML framework included stricter measures on transfers from private crypto wallets and overseas digital asset companies.",
+      "source": "Cointelegraph",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786741732,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/irish-dance-crypto.jpg"
+      ],
+      "image": "../assets/news/2026-08-15/06f6349d32a51021_base.jpg",
+      "image_local": "../assets/news/2026-08-15/06f6349d32a51021_base.jpg"
+    },
+    {
+      "title": "China's Z.AI Ships GLM-5.3, Calling It the Top Open-Weight Coding Model",
+      "link": "https://decrypt.co/375684/china-z-ai-glm-5-3-top-open-weight-coding-model",
+      "summary": "The Chinese lab says the release beats comparably sized open models on code benchmarks. The blog's own numbers show it trails the closed frontier and at least one open rival.",
+      "source": "Decrypt",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786737673,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-14-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-15/b15f217eccfaff0f_base.jpg",
+      "image_local": "../assets/news/2026-08-15/b15f217eccfaff0f_base.jpg"
+    },
+    {
+      "title": "A Bitcoin treasury with $67 million in BTC has just $5,397 in cash and needs money immediately",
+      "link": "https://cryptoslate.com/a-bitcoin-treasury-with-67-million-in-btc-has-just-5397-in-cash-and-needs-money-immediately/",
+      "summary": "A $7.38 million working-capital deficit leaves the treasury holder dependent on new funding despite its 1,145.4 BTC reserve. The post A Bitcoin treasury with $67 million in BTC has just $5,397 in cash and needs money immediately appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-15",
+      "date_human": "Aug 15, 2026",
+      "pub_ts": 1786755631,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/cimg-liquidity-gap.jpg"
+      ],
+      "image": "../assets/news/2026-08-15/fc12a34f16fc2f9e_base.jpg",
+      "image_local": "../assets/news/2026-08-15/fc12a34f16fc2f9e_base.jpg"
+    },
+    {
+      "title": "Tokenization stocks slip as SEC delay puts 'speed bump' in crypto's Wall Street push",
+      "link": "https://www.coindesk.com/markets/2026/08/14/tokenization-stocks-slip-as-sec-delay-puts-speed-bump-in-crypto-s-wall-street-push",
+      "summary": "Tokenization stocks slip as SEC delay puts 'speed bump' in crypto's Wall Street push",
+      "source": "CoinDesk",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786729684,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/981f113099a5d95dd101524386439043bf2a255f-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/981f113099a5d95dd101524386439043bf2a255f-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-15/2b4f15ec29c3a9be_base.jpg",
+      "image_local": "../assets/news/2026-08-15/2b4f15ec29c3a9be_base.jpg"
+    },
+    {
+      "title": "Dartmouth endowment's crypto exposure drops by $2M amid falling prices",
+      "link": "https://cointelegraph.com/news/dartmouth-endowment-crypto-investments-btc-eth-sol-dropped",
+      "summary": "The value of the university endowment’s holdings in the Bitwise Solana staking ETF, Grayscale Ethereum staking ETF and BlackRock’s iShares Bitcoin ETF dropped to about $12 million.",
+      "source": "Cointelegraph",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786733824,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/studentcoinman.jpg"
+      ],
+      "image": "../assets/news/2026-08-15/497efcfba95d1229_base.jpg",
+      "image_local": "../assets/news/2026-08-15/497efcfba95d1229_base.jpg"
+    },
+    {
+      "title": "SharpLink Will Stake $200M of Ethereum Through Lido's wstETH",
+      "link": "https://decrypt.co/375672/sharplink-stake-200m-ethereum-lido-wsteth",
+      "summary": "Sharplink plans to stake roughly 12% of its total Ethereum holdings through Lido, earning yield while staying active in DeFi.",
+      "source": "Decrypt",
+      "date": "2026-08-14",
+      "date_human": "Aug 14, 2026",
+      "pub_ts": 1786734065,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Sharplink-ethereum-decrypt-style-01-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Sharplink-ethereum-decrypt-style-01-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Sharplink-ethereum-decrypt-style-01-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-15/7202e7a973460abd_base.jpg",
+      "image_local": "../assets/news/2026-08-15/7202e7a973460abd_base.jpg"
+    }
+  ]
+}
