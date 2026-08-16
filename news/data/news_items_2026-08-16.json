@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-16",
-  "generated_at_utc": "2026-08-16 04:05:41 UTC",
+  "generated_at_utc": "2026-08-16 10:05:35 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,19 +16,18 @@
   "count": 12,
   "items": [
     {
-      "title": "Trump to meet Coinbase, Ripple and crypto leaders as CLARITY Act odds collapse to 10%",
-      "link": "https://cryptoslate.com/trump-to-meet-coinbase-ripple-and-crypto-leaders-as-clarity-act-odds-collapse-to-10/",
-      "summary": "President Donald Trump and the heads of the SEC and CFTC are expected to meet crypto and prediction-market executives at the White House next week as the industry’s biggest legislative priority faces dwindling odds of becoming law this year. According to reports, the Aug. 19 gathering is expected to include executives from Coinbase, Andreessen Horowitz, […] The post Trump to meet Coinbase, Ripple and crypto leaders as CLARITY Act odds collapse to 10% appeared first on CryptoSlate.",
+      "title": "Trump-linked World Liberty Financial wins OCC bank approval as $112 million DeFi position sits near liquidation",
+      "link": "https://cryptoslate.com/trump-linked-world-liberty-financial-wins-occ-bank-approval-as-112-million-defi-position-sits-near-liquidation/",
+      "summary": "The Office of the Comptroller of the Currency (OCC) gave World Liberty Financial, a DeFi venture associated with President Donald Trump, preliminary conditional approval to charter a national trust bank built around its roughly $4 billion USD1 stablecoin. World Liberty Trust Company would eventually handle USD1 issuance and reserve custody directly, moving both under federal […] The post Trump-linked World Liberty Financial wins OCC bank approval as $112 million DeFi position sits near liquidation appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-15",
-      "date_human": "Aug 15, 2026",
-      "pub_ts": 1786826413,
+      "date": "2026-08-16",
+      "date_human": "Aug 16, 2026",
+      "pub_ts": 1786872053,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/clarity-act-roadblock.jpg?ver=1786836387",
-        "https://cryptoslate.com/wp-content/uploads/2026/08/clarity-act-roadblock.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/wlfi-underwater-risk.jpg"
       ],
-      "image": "../assets/news/2026-08-16/7f1c3fc23407f8a4_base.jpg",
-      "image_local": "../assets/news/2026-08-16/7f1c3fc23407f8a4_base.jpg"
+      "image": "../assets/news/2026-08-16/d2fa4e3040d1c176_base.jpg",
+      "image_local": "../assets/news/2026-08-16/d2fa4e3040d1c176_base.jpg"
     },
     {
       "title": "Bybit adds Unitree, Moonshot AI to pre-IPO perpetuals lineup",
@@ -76,18 +75,19 @@
       "image_local": "../assets/news/2026-08-16/ce7ce3fcabb7d058_base.jpg"
     },
     {
-      "title": "Crypto crash liquidations face massive data gap as public records contradict $18B Solana claim",
-      "link": "https://cryptoslate.com/crypto-crash-liquidations-face-massive-data-gap-as-public-records-contradict-18b-solana-claim/",
-      "summary": "The paper trail instead reveals Binance pricing failures, on-chain ADL and a disclosure gap regulators have yet to close. The post Crypto crash liquidations face massive data gap as public records contradict $18B Solana claim appeared first on CryptoSlate.",
+      "title": "Trump to meet Coinbase, Ripple and crypto leaders as CLARITY Act odds collapse to 10%",
+      "link": "https://cryptoslate.com/trump-to-meet-coinbase-ripple-and-crypto-leaders-as-clarity-act-odds-collapse-to-10/",
+      "summary": "President Donald Trump and the heads of the SEC and CFTC are expected to meet crypto and prediction-market executives at the White House next week as the industry’s biggest legislative priority faces dwindling odds of becoming law this year. According to reports, the Aug. 19 gathering is expected to include executives from Coinbase, Andreessen Horowitz, […] The post Trump to meet Coinbase, Ripple and crypto leaders as CLARITY Act odds collapse to 10% appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-15",
       "date_human": "Aug 15, 2026",
-      "pub_ts": 1786822214,
+      "pub_ts": 1786826413,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/crypto-transparency-safety.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/clarity-act-roadblock.jpg?ver=1786836387",
+        "https://cryptoslate.com/wp-content/uploads/2026/08/clarity-act-roadblock.jpg"
       ],
-      "image": "../assets/news/2026-08-16/74b27b5ee24b741c_base.jpg",
-      "image_local": "../assets/news/2026-08-16/74b27b5ee24b741c_base.jpg"
+      "image": "../assets/news/2026-08-16/7f1c3fc23407f8a4_base.jpg",
+      "image_local": "../assets/news/2026-08-16/7f1c3fc23407f8a4_base.jpg"
     },
     {
       "title": "Tokenized stock holders more than double as monthly volume surges",
@@ -135,18 +135,18 @@
       "image_local": "../assets/news/2026-08-16/9b4dc18444c46c71_base.jpg"
     },
     {
-      "title": "A staked Ethereum ETF processed $48M in redemptions while keeping 86% of ETH locked, 21Shares filing shows",
-      "link": "https://cryptoslate.com/teth-redemptions-48-million-86-percent-eth-staked/",
-      "summary": "Its new filing flags unbonding as a potential constraint but reports no failed or delayed redemption. The post A staked Ethereum ETF processed $48M in redemptions while keeping 86% of ETH locked, 21Shares filing shows appeared first on CryptoSlate.",
+      "title": "Crypto crash liquidations face massive data gap as public records contradict $18B Solana claim",
+      "link": "https://cryptoslate.com/crypto-crash-liquidations-face-massive-data-gap-as-public-records-contradict-18b-solana-claim/",
+      "summary": "The paper trail instead reveals Binance pricing failures, on-chain ADL and a disclosure gap regulators have yet to close. The post Crypto crash liquidations face massive data gap as public records contradict $18B Solana claim appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-15",
       "date_human": "Aug 15, 2026",
-      "pub_ts": 1786815014,
+      "pub_ts": 1786822214,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/teth-redemption-liquidity-risk.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/crypto-transparency-safety.jpg"
       ],
-      "image": "../assets/news/2026-08-16/cc8fcd8677b8adca_base.jpg",
-      "image_local": "../assets/news/2026-08-16/cc8fcd8677b8adca_base.jpg"
+      "image": "../assets/news/2026-08-16/74b27b5ee24b741c_base.jpg",
+      "image_local": "../assets/news/2026-08-16/74b27b5ee24b741c_base.jpg"
     },
     {
       "title": "Here's what happened in crypto today",
