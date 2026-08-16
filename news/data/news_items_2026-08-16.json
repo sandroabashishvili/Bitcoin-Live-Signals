@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-16",
-  "generated_at_utc": "2026-08-16 10:05:35 UTC",
+  "generated_at_utc": "2026-08-16 16:05:24 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,32 +16,122 @@
   "count": 12,
   "items": [
     {
-      "title": "Trump-linked World Liberty Financial wins OCC bank approval as $112 million DeFi position sits near liquidation",
-      "link": "https://cryptoslate.com/trump-linked-world-liberty-financial-wins-occ-bank-approval-as-112-million-defi-position-sits-near-liquidation/",
-      "summary": "The Office of the Comptroller of the Currency (OCC) gave World Liberty Financial, a DeFi venture associated with President Donald Trump, preliminary conditional approval to charter a national trust bank built around its roughly $4 billion USD1 stablecoin. World Liberty Trust Company would eventually handle USD1 issuance and reserve custody directly, moving both under federal […] The post Trump-linked World Liberty Financial wins OCC bank approval as $112 million DeFi position sits near liquidation appeared first on CryptoSlate.",
+      "title": "Gemini 3.7 Flash Review: Google's Cheap Model Isn't Dumb Anymore",
+      "link": "https://decrypt.co/375730/gemini-3-7-flash-review-google-cheap-model",
+      "summary": "Three weeks after a Flash release that couldn't produce a working file, Google's budget tier zero-shots a playable game. It still can't reason, and a free 27B model still writes better.",
+      "source": "Decrypt",
+      "date": "2026-08-16",
+      "date_human": "Aug 16, 2026",
+      "pub_ts": 1786896005,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-2-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-2-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/google-decrypt-style-2-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-16/f43b7c1144dba2e5_base.jpg",
+      "image_local": "../assets/news/2026-08-16/f43b7c1144dba2e5_base.jpg"
+    },
+    {
+      "title": "Over 1.3 million staked tokens remain stranded onchain after a major validator missed its deadline to exit Aztec",
+      "link": "https://cryptoslate.com/over-1-3-million-staked-tokens-remain-stranded-onchain-after-a-major-validator-missed-its-deadline-to-exit-aztec/",
+      "summary": "Its provider feed showed 16 delegations after Aug. 15, while the cost of missing its Aug. 5 request remains unknown. The post Over 1.3 million staked tokens remain stranded onchain after a major validator missed its deadline to exit Aztec appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-16",
       "date_human": "Aug 16, 2026",
-      "pub_ts": 1786872053,
+      "pub_ts": 1786894252,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/wlfi-underwater-risk.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/aztec-validator-powerdown.jpg"
       ],
-      "image": "../assets/news/2026-08-16/d2fa4e3040d1c176_base.jpg",
-      "image_local": "../assets/news/2026-08-16/d2fa4e3040d1c176_base.jpg"
+      "image": "../assets/news/2026-08-16/d1360d24ae1f26b1_base.jpg",
+      "image_local": "../assets/news/2026-08-16/d1360d24ae1f26b1_base.jpg"
     },
     {
-      "title": "Bybit adds Unitree, Moonshot AI to pre-IPO perpetuals lineup",
-      "link": "https://cointelegraph.com/news/bybit-launches-unitree-pre-ipo-perpetual-as-crypto-platforms-push-into-private-markets",
-      "summary": "The additions come as Bybit’s TradFi perpetuals lineup grows to more than 200 products spanning equities, ETFs, commodities, indices and private companies.",
-      "source": "Cointelegraph",
-      "date": "2026-08-15",
-      "date_human": "Aug 15, 2026",
-      "pub_ts": 1786822049,
+      "title": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
+      "link": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info",
+      "summary": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
+      "source": "CoinDesk",
+      "date": "2026-08-16",
+      "date_human": "Aug 16, 2026",
+      "pub_ts": 1786888952,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-bond-follow-up-bybit-2.jpg"
+        "https://cdn.sanity.io/images/s3y3vcno/production/af945cfdd3152f9ebc96d44f89ccafea550ccb57-5760x3840.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/af945cfdd3152f9ebc96d44f89ccafea550ccb57-5760x3840.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-16/53ed8638a69120be_base.jpg",
-      "image_local": "../assets/news/2026-08-16/53ed8638a69120be_base.jpg"
+      "image": "../assets/news/2026-08-16/c161ddc761cc26f8_base.jpg",
+      "image_local": "../assets/news/2026-08-16/c161ddc761cc26f8_base.jpg"
+    },
+    {
+      "title": "DefiLlama delayed mobile launch over phishing apps on Apple Store, founder says",
+      "link": "https://cointelegraph.com/news/defillama-delayed-app-launch-fake-phishing-apps-apple",
+      "summary": "DefiLlama’s founder said Apple removed one fake app within days after the company documented it draining funds from a small crypto wallet.",
+      "source": "Cointelegraph",
+      "date": "2026-08-16",
+      "date_human": "Aug 16, 2026",
+      "pub_ts": 1786884489,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-hackers-fishing.jpg"
+      ],
+      "image": "../assets/news/2026-08-16/ff239b5a4bfc8c9d_base.jpg",
+      "image_local": "../assets/news/2026-08-16/ff239b5a4bfc8c9d_base.jpg"
+    },
+    {
+      "title": "People Are Turning to AI for Mental Health, California Wants It Banned",
+      "link": "https://decrypt.co/375725/california-bill-ban-ai-chatbots-therapy-mental-health",
+      "summary": "A California bill is awaiting an Assembly vote to \"place guardrails\" around AI chatbots and prevent them from acting as therapists.",
+      "source": "Decrypt",
+      "date": "2026-08-16",
+      "date_human": "Aug 16, 2026",
+      "pub_ts": 1786888863,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-16/9b0a7e2c9eb5e0f6_base.jpg",
+      "image_local": "../assets/news/2026-08-16/9b0a7e2c9eb5e0f6_base.jpg"
+    },
+    {
+      "title": "A $48 billion Bitcoin leverage trap is about to trigger a massive forced exit the moment price boundaries break",
+      "link": "https://cryptoslate.com/a-48-billion-bitcoin-leverage-trap-is-about-to-trigger-a-massive-forced-exit-the-moment-price-boundaries-break/",
+      "summary": "Small positive offshore funding exposes longs on a drop, while CME leveraged funds’ net short creates an upside squeeze channel. The post A $48 billion Bitcoin leverage trap is about to trigger a massive forced exit the moment price boundaries break appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-16",
+      "date_human": "Aug 16, 2026",
+      "pub_ts": 1786888832,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-squeeze-pressure.jpg"
+      ],
+      "image": "../assets/news/2026-08-16/883b99136b44a50d_base.jpg",
+      "image_local": "../assets/news/2026-08-16/883b99136b44a50d_base.jpg"
+    },
+    {
+      "title": "MiCA's cleanup is creating a new scam wave across the European Union",
+      "link": "https://www.coindesk.com/business/2026/08/14/mica-s-cleanup-is-creating-a-new-scam-wave-across-the-european-union",
+      "summary": "MiCA's cleanup is creating a new scam wave across the European Union",
+      "source": "CoinDesk",
+      "date": "2026-08-16",
+      "date_human": "Aug 16, 2026",
+      "pub_ts": 1786888800,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/46896a614298dcf705810c12a113e9dab6ce84fb-4416x2488.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/46896a614298dcf705810c12a113e9dab6ce84fb-4416x2488.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-16/826a3c126adc8ac9_base.jpg",
+      "image_local": "../assets/news/2026-08-16/826a3c126adc8ac9_base.jpg"
+    },
+    {
+      "title": "Ethereum devs to narrow 66 proposals tied to Hegotá upgrade",
+      "link": "https://cointelegraph.com/news/ethereum-devs-66-proposals-hegota-upgrade",
+      "summary": "The Hegotá upgrade aims to introduce more native privacy for Ethereum applications.",
+      "source": "Cointelegraph",
+      "date": "2026-08-16",
+      "date_human": "Aug 16, 2026",
+      "pub_ts": 1786878771,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-ethereum-encryption.jpg"
+      ],
+      "image": "../assets/news/2026-08-16/67a23f8831a361d9_base.jpg",
+      "image_local": "../assets/news/2026-08-16/67a23f8831a361d9_base.jpg"
     },
     {
       "title": "Apple Turns to Alibaba to Help Build AI Model for China",
@@ -60,138 +150,47 @@
       "image_local": "../assets/news/2026-08-16/f835969b669a32b7_base.jpg"
     },
     {
-      "title": "Robot maker Unitree is going public. Hyperliquid traders see 4x upside from IPO price",
-      "link": "https://www.coindesk.com/markets/2026/08/15/robot-maker-unitree-is-going-public-hyperliquid-traders-see-4x-upside-from-ipo-price",
-      "summary": "Robot maker Unitree is going public. Hyperliquid traders see 4x upside from IPO price",
-      "source": "CoinDesk",
-      "date": "2026-08-15",
-      "date_human": "Aug 15, 2026",
-      "pub_ts": 1786809600,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/3e83c36265299fba3f2f0b391d99713fbc72eefb-6322x4215.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/3e83c36265299fba3f2f0b391d99713fbc72eefb-6322x4215.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-16/ce7ce3fcabb7d058_base.jpg",
-      "image_local": "../assets/news/2026-08-16/ce7ce3fcabb7d058_base.jpg"
-    },
-    {
-      "title": "Trump to meet Coinbase, Ripple and crypto leaders as CLARITY Act odds collapse to 10%",
-      "link": "https://cryptoslate.com/trump-to-meet-coinbase-ripple-and-crypto-leaders-as-clarity-act-odds-collapse-to-10/",
-      "summary": "President Donald Trump and the heads of the SEC and CFTC are expected to meet crypto and prediction-market executives at the White House next week as the industry’s biggest legislative priority faces dwindling odds of becoming law this year. According to reports, the Aug. 19 gathering is expected to include executives from Coinbase, Andreessen Horowitz, […] The post Trump to meet Coinbase, Ripple and crypto leaders as CLARITY Act odds collapse to 10% appeared first on CryptoSlate.",
+      "title": "Record user activity and a collapse in whale selling should send XRP soaring, so why is it still pinned at $1?",
+      "link": "https://cryptoslate.com/record-user-activity-and-a-collapse-in-whale-selling-should-send-xrp-soaring-so-why-is-it-still-pinned-at-1/",
+      "summary": "XRP is back near $1 even as network activity rebounds, whale deposits to Binance collapse, and derivatives exposure builds near recent lows. The token fell to about $0.98 this week before recovering toward $1, according to CryptoSlate data, extending a retreat that has erased much of its May rally. Crowd commentary around XRP simultaneously reached […] The post Record user activity and a collapse in whale selling should send XRP soaring, so why is it still pinned at $1? appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-15",
-      "date_human": "Aug 15, 2026",
-      "pub_ts": 1786826413,
+      "date": "2026-08-16",
+      "date_human": "Aug 16, 2026",
+      "pub_ts": 1786885201,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/clarity-act-roadblock.jpg?ver=1786836387",
-        "https://cryptoslate.com/wp-content/uploads/2026/08/clarity-act-roadblock.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/xrp-demand-cart-gap.jpg"
       ],
-      "image": "../assets/news/2026-08-16/7f1c3fc23407f8a4_base.jpg",
-      "image_local": "../assets/news/2026-08-16/7f1c3fc23407f8a4_base.jpg"
+      "image": "../assets/news/2026-08-16/f136da7de1a4e848_base.jpg",
+      "image_local": "../assets/news/2026-08-16/f136da7de1a4e848_base.jpg"
     },
     {
-      "title": "Tokenized stock holders more than double as monthly volume surges",
-      "link": "https://cointelegraph.com/news/tokenized-stock-holders-double-to-13m-as-activity-grows",
-      "summary": "Tokenized equities reached 1.31 million holders over the past month, as monthly transfer volume surged 179% to $23.13 billion and distributed value rose 5.9% to $2.38 billion.",
+      "title": "The stablecoin yield clash that won't go away has banks, crypto battling over tradition",
+      "link": "https://www.coindesk.com/news-analysis/2026/08/14/the-stablecoin-yield-clash-that-won-t-go-away-has-banks-crypto-battling-over-tradition",
+      "summary": "The stablecoin yield clash that won't go away has banks, crypto battling over tradition",
+      "source": "CoinDesk",
+      "date": "2026-08-16",
+      "date_human": "Aug 16, 2026",
+      "pub_ts": 1786885200,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/9aae75ee49cd130bbd14c457a11adcc0927c53a9-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/9aae75ee49cd130bbd14c457a11adcc0927c53a9-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0.6708&fp-y=0.562&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-16/553850c3f02431f0_base.jpg",
+      "image_local": "../assets/news/2026-08-16/553850c3f02431f0_base.jpg"
+    },
+    {
+      "title": "Bybit adds Unitree, Moonshot AI to pre-IPO perpetuals lineup",
+      "link": "https://cointelegraph.com/news/bybit-launches-unitree-pre-ipo-perpetual-as-crypto-platforms-push-into-private-markets",
+      "summary": "The additions come as Bybit’s TradFi perpetuals lineup grows to more than 200 products spanning equities, ETFs, commodities, indices and private companies.",
       "source": "Cointelegraph",
       "date": "2026-08-15",
       "date_human": "Aug 15, 2026",
-      "pub_ts": 1786814803,
+      "pub_ts": 1786822049,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/blockchain-waterfall-rwa.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-bond-follow-up-bybit-2.jpg"
       ],
-      "image": "../assets/news/2026-08-16/e5c8284cbaf94e80_base.jpg",
-      "image_local": "../assets/news/2026-08-16/e5c8284cbaf94e80_base.jpg"
-    },
-    {
-      "title": "Meta Patents Cameras That Recognize Faces and Log Your Actions",
-      "link": "https://decrypt.co/375698/meta-patents-cameras-recognize-faces-log-actions",
-      "summary": "The filing would turn raw footage into labeled clips of who did what, without anyone opting in.",
-      "source": "Decrypt",
-      "date": "2026-08-15",
-      "date_human": "Aug 15, 2026",
-      "pub_ts": 1786806065,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-16/c12fb2cce7fba126_base.jpg",
-      "image_local": "../assets/news/2026-08-16/c12fb2cce7fba126_base.jpg"
-    },
-    {
-      "title": "Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options",
-      "link": "https://www.coindesk.com/business/2026/08/15/swiss-mega-bank-ubs-ramps-up-its-bitcoin-exposure-with-a-massive-24-fold-surge-in-etf-call-options",
-      "summary": "Swiss mega-bank UBS ramps up its Bitcoin exposure with a massive 24-fold surge in ETF call options",
-      "source": "CoinDesk",
-      "date": "2026-08-15",
-      "date_human": "Aug 15, 2026",
-      "pub_ts": 1786809365,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/d9edd32b2e41671dfe8118f330eb29a7f4439e71-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/d9edd32b2e41671dfe8118f330eb29a7f4439e71-1920x1080.jpg?auto=format&q=75"
-      ],
-      "image": "../assets/news/2026-08-16/9b4dc18444c46c71_base.jpg",
-      "image_local": "../assets/news/2026-08-16/9b4dc18444c46c71_base.jpg"
-    },
-    {
-      "title": "Crypto crash liquidations face massive data gap as public records contradict $18B Solana claim",
-      "link": "https://cryptoslate.com/crypto-crash-liquidations-face-massive-data-gap-as-public-records-contradict-18b-solana-claim/",
-      "summary": "The paper trail instead reveals Binance pricing failures, on-chain ADL and a disclosure gap regulators have yet to close. The post Crypto crash liquidations face massive data gap as public records contradict $18B Solana claim appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-15",
-      "date_human": "Aug 15, 2026",
-      "pub_ts": 1786822214,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/crypto-transparency-safety.jpg"
-      ],
-      "image": "../assets/news/2026-08-16/74b27b5ee24b741c_base.jpg",
-      "image_local": "../assets/news/2026-08-16/74b27b5ee24b741c_base.jpg"
-    },
-    {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-08-15",
-      "date_human": "Aug 15, 2026",
-      "pub_ts": 1786804824,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-08-16/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-08-16/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "Trump-Linked World Liberty Gets Conditional Bank Charter for USD1 Stablecoin",
-      "link": "https://decrypt.co/375726/trump-world-liberty-bank-charter-usd1-stablecoin",
-      "summary": "The proposed World Liberty Trust Company would take over issuance of the USD1 stablecoin from BitGo.",
-      "source": "Decrypt",
-      "date": "2026-08-15",
-      "date_human": "Aug 15, 2026",
-      "pub_ts": 1786798864,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/Trump-Coin-decrypt-style-01-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/Trump-Coin-decrypt-style-01-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Trump-Coin-decrypt-style-01-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-16/fbcd4b859b11bb3a_base.jpg",
-      "image_local": "../assets/news/2026-08-16/fbcd4b859b11bb3a_base.jpg"
-    },
-    {
-      "title": "Why the world's second-largest Bitcoin mining power is shutting down rigs in its capital city",
-      "link": "https://www.coindesk.com/policy/2026/08/15/why-the-world-s-second-largest-bitcoin-mining-power-is-shutting-down-rigs-in-its-capital-city",
-      "summary": "Why the world's second-largest Bitcoin mining power is shutting down rigs in its capital city",
-      "source": "CoinDesk",
-      "date": "2026-08-15",
-      "date_human": "Aug 15, 2026",
-      "pub_ts": 1786807275,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/3ed99ad8e1d2af4b11b0bb301a546dddccbf65e4-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/3ed99ad8e1d2af4b11b0bb301a546dddccbf65e4-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-16/22e998aaf0abe212_base.jpg",
-      "image_local": "../assets/news/2026-08-16/22e998aaf0abe212_base.jpg"
+      "image": "../assets/news/2026-08-16/53ed8638a69120be_base.jpg",
+      "image_local": "../assets/news/2026-08-16/53ed8638a69120be_base.jpg"
     }
   ]
 }
