@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-17",
-  "generated_at_utc": "2026-08-17 04:05:20 UTC",
+  "generated_at_utc": "2026-08-17 10:05:41 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,47 +16,77 @@
   "count": 12,
   "items": [
     {
-      "title": "Chainalysis sues US over $95M ICE contract with TRM Labs",
-      "link": "https://cointelegraph.com/news/chainalysis-sues-us-over-ices-sole-source-contract-with-trm-labs",
-      "summary": "The sealed complaint leaves Chainalysis’ specific objections and requested remedy undisclosed as briefing continues.",
+      "title": "Bitpanda fined in Austria's first published MiCA penalty",
+      "link": "https://cointelegraph.com/news/bitpanda-fined-austrian-published-mica-penalty",
+      "summary": "The FMA said Bitpanda breached MiCA rules on crypto white papers and marketing communications, with the decision now final.",
       "source": "Cointelegraph",
       "date": "2026-08-17",
       "date_human": "Aug 17, 2026",
-      "pub_ts": 1786938168,
+      "pub_ts": 1786959107,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/court-crypto-lawsuit-us.png"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-european-union-moves-to-regulate-crypto-asset-market-bitpanda.jpg"
       ],
-      "image": "../assets/news/2026-08-17/d8489fd1535c8a66_base.jpg",
-      "image_local": "../assets/news/2026-08-17/d8489fd1535c8a66_base.jpg"
+      "image": "../assets/news/2026-08-17/4ae9200d7514bf6d_base.jpg",
+      "image_local": "../assets/news/2026-08-17/4ae9200d7514bf6d_base.jpg"
     },
     {
-      "title": "This public company quit solar for a $5 million Bitcoin bet, now it has just $166,000 in cash",
-      "link": "https://cryptoslate.com/this-public-company-quit-solar-for-a-5-million-bitcoin-bet-now-it-has-just-166000-in-cash/",
-      "summary": "The June 30 filing puts $4.118 million of Bitcoin at the center of an unresolved going-concern problem. The post This public company quit solar for a $5 million Bitcoin bet, now it has just $166,000 in cash appeared first on CryptoSlate.",
+      "title": "SafePal Bitcoin Wallet Data Breach Stokes Fears of Physical Attacks",
+      "link": "https://decrypt.co/375743/safepal-bitcoin-wallet-data-breach",
+      "summary": "A flaw in an order-tracking plug-in of bitcoin wallet provider SafePal exposed names, addresses and phone numbers of nearly 40,000 customers.",
+      "source": "Decrypt",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786959064,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-04-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-04-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-04-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-17/dfc1e3e87e7c0303_base.jpg",
+      "image_local": "../assets/news/2026-08-17/dfc1e3e87e7c0303_base.jpg"
+    },
+    {
+      "title": "Binance handed user data to Russia that led to a Ukrainian donor's arrest",
+      "link": "https://www.coindesk.com/policy/2026/08/17/binance-handed-user-data-to-russia-that-led-to-a-ukrainian-donor-s-arrest",
+      "summary": "Binance handed user data to Russia that led to a Ukrainian donor's arrest",
+      "source": "CoinDesk",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786958174,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/6afa7aee3dd3e7c1e37e3929a4ac24b7cebaccdd-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/6afa7aee3dd3e7c1e37e3929a4ac24b7cebaccdd-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-17/01881a50666756d9_base.jpg",
+      "image_local": "../assets/news/2026-08-17/01881a50666756d9_base.jpg"
+    },
+    {
+      "title": "SafePal breach exposes 40,000 customers as hardware wallet attacks escalate from data leaks to $100 million theft",
+      "link": "https://cryptoslate.com/safepal-breach-exposes-40000-customers-as-hardware-wallet-attacks-escalate-from-data-leaks-to-100-million-theft/",
+      "summary": "An order-tracking flaw exposed contact, shipping and purchase details, while SafePal reported no evidence of compromised wallets or funds. The post SafePal breach exposes 40,000 customers as hardware wallet attacks escalate from data leaks to $100 million theft appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-17",
       "date_human": "Aug 17, 2026",
-      "pub_ts": 1786928443,
+      "pub_ts": 1786956633,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/sono-emergency-bitcoin-reserve.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/safepal-data-leak-box.jpg"
       ],
-      "image": "../assets/news/2026-08-17/a2f91a5df30d5fc5_base.jpg",
-      "image_local": "../assets/news/2026-08-17/a2f91a5df30d5fc5_base.jpg"
+      "image": "../assets/news/2026-08-17/6be51fa02101c295_base.jpg",
+      "image_local": "../assets/news/2026-08-17/6be51fa02101c295_base.jpg"
     },
     {
-      "title": "The SEC meeting that wasn't: State of Crypto",
-      "link": "https://www.coindesk.com/policy/2026/08/16/the-sec-meeting-that-wasn-t-state-of-crypto",
-      "summary": "The SEC meeting that wasn't: State of Crypto",
-      "source": "CoinDesk",
-      "date": "2026-08-16",
-      "date_human": "Aug 16, 2026",
-      "pub_ts": 1786905000,
+      "title": "Greenlane's $70M BERA treasury ends Q2 valued at $16M",
+      "link": "https://cointelegraph.com/news/greenlane-70m-bera-treasury-valued-16m",
+      "summary": "Greenlane recorded a $19.1 million noncash valuation loss as BERA’s price fell nearly 76% year to date.",
+      "source": "Cointelegraph",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786945975,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/fbc7e541d283d1ca139795169dd388c0890fdf2e-2854x1606.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/fbc7e541d283d1ca139795169dd388c0890fdf2e-2854x1606.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://s3-images.ctmedia.io/media/article-covers/red-falling-elevator-markets-down.jpg"
       ],
-      "image": "../assets/news/2026-08-17/fe3579ca9a4676f8_base.jpg",
-      "image_local": "../assets/news/2026-08-17/fe3579ca9a4676f8_base.jpg"
+      "image": "../assets/news/2026-08-17/16361ddc75dd1a07_base.jpg",
+      "image_local": "../assets/news/2026-08-17/16361ddc75dd1a07_base.jpg"
     },
     {
       "title": "Gemini 3.7 Flash Review: Google's Cheap Model Isn't Dumb Anymore",
@@ -75,47 +105,47 @@
       "image_local": "../assets/news/2026-08-17/f43b7c1144dba2e5_base.jpg"
     },
     {
-      "title": "Data of 54,000 wallet users leaked, CLARITY odds just 10%: Hodler's Digest",
-      "link": "https://cointelegraph.com/magazine/data-of-54000-wallet-users-leaked-clarity-odds-just-10-hodlers-digest",
-      "summary": "Owners of Trezor and SafePal crypto wallets at high risk of phishing attempts after separate data leaks, CLARITY odds at 10% despite White House meeting this week.",
-      "source": "Cointelegraph",
-      "date": "2026-08-16",
-      "date_human": "Aug 16, 2026",
-      "pub_ts": 1786924490,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hodlers-15-aug.jpg"
-      ],
-      "image": "../assets/news/2026-08-17/0a9d7ca9944244a7_base.jpg",
-      "image_local": "../assets/news/2026-08-17/0a9d7ca9944244a7_base.jpg"
-    },
-    {
-      "title": "How a Bitcoin Treasury company sold 600 BTC to cut debt but still ended up with $60 million due in December",
-      "link": "https://cryptoslate.com/how-a-bitcoin-treasury-company-sold-600-btc-to-cut-debt-but-still-ended-up-with-60-million-due-in-december/",
-      "summary": "Its June 30 snapshot showed $19.1 million cash and about 662 unencumbered BTC against the upcoming principal. The post How a Bitcoin Treasury company sold 600 BTC to cut debt but still ended up with $60 million due in December appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-16",
-      "date_human": "Aug 16, 2026",
-      "pub_ts": 1786924215,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/nakamoto-liquidity-shark.jpg"
-      ],
-      "image": "../assets/news/2026-08-17/4b9409f073f8bfdc_base.jpg",
-      "image_local": "../assets/news/2026-08-17/4b9409f073f8bfdc_base.jpg"
-    },
-    {
-      "title": "Crypto investors are looking past market-cap rankings and back to fundamentals",
-      "link": "https://www.coindesk.com/business/2026/08/16/crypto-investors-are-looking-past-market-cap-rankings-and-back-to-fundamentals",
-      "summary": "Crypto investors are looking past market-cap rankings and back to fundamentals",
+      "title": "Coinbase-Circle USDC collaboration, FOMC minutes, oil price: Crypto Week Ahead",
+      "link": "https://www.coindesk.com/markets/2026/08/17/coinbase-circle-usdc-collaboration-fomc-minutes-oil-price-crypto-week-ahead",
+      "summary": "Coinbase-Circle USDC collaboration, FOMC minutes, oil price: Crypto Week Ahead",
       "source": "CoinDesk",
-      "date": "2026-08-16",
-      "date_human": "Aug 16, 2026",
-      "pub_ts": 1786896000,
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786957982,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/e32c73c877e257ea0e665dae0d3fa751d19cf3cc-1920x1231.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/e32c73c877e257ea0e665dae0d3fa751d19cf3cc-1920x1231.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/0738e13835f743ba2e3a2f26f7579b27661d1eac-4608x2592.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/0738e13835f743ba2e3a2f26f7579b27661d1eac-4608x2592.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-17/e911aa943289022c_base.jpg",
-      "image_local": "../assets/news/2026-08-17/e911aa943289022c_base.jpg"
+      "image": "../assets/news/2026-08-17/da980a82e821e394_base.jpg",
+      "image_local": "../assets/news/2026-08-17/da980a82e821e394_base.jpg"
+    },
+    {
+      "title": "This public company quit solar for a $5 million Bitcoin bet, now it has just $166,000 in cash",
+      "link": "https://cryptoslate.com/this-public-company-quit-solar-for-a-5-million-bitcoin-bet-now-it-has-just-166000-in-cash/",
+      "summary": "The June 30 filing puts $4.118 million of Bitcoin at the center of an unresolved going-concern problem. The post This public company quit solar for a $5 million Bitcoin bet, now it has just $166,000 in cash appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786928443,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/sono-emergency-bitcoin-reserve.jpg"
+      ],
+      "image": "../assets/news/2026-08-17/a2f91a5df30d5fc5_base.jpg",
+      "image_local": "../assets/news/2026-08-17/a2f91a5df30d5fc5_base.jpg"
+    },
+    {
+      "title": "Chainalysis sues US over $95M ICE contract with TRM Labs",
+      "link": "https://cointelegraph.com/news/chainalysis-sues-us-over-ices-sole-source-contract-with-trm-labs",
+      "summary": "The sealed complaint leaves Chainalysis’ specific objections and requested remedy undisclosed as briefing continues.",
+      "source": "Cointelegraph",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786938168,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/court-crypto-lawsuit-us.png"
+      ],
+      "image": "../assets/news/2026-08-17/d8489fd1535c8a66_base.jpg",
+      "image_local": "../assets/news/2026-08-17/d8489fd1535c8a66_base.jpg"
     },
     {
       "title": "People Are Turning to AI for Mental Health, California Wants It Banned",
@@ -134,63 +164,33 @@
       "image_local": "../assets/news/2026-08-17/9b0a7e2c9eb5e0f6_base.jpg"
     },
     {
-      "title": "DefiLlama delayed mobile launch over phishing apps on Apple Store, founder says",
-      "link": "https://cointelegraph.com/news/defillama-delayed-app-launch-fake-phishing-apps-apple",
-      "summary": "DefiLlama’s founder said Apple removed one fake app within days after the company documented it draining funds from a small crypto wallet.",
-      "source": "Cointelegraph",
-      "date": "2026-08-16",
-      "date_human": "Aug 16, 2026",
-      "pub_ts": 1786884489,
+      "title": "Live updates: Bitcoin flat near $63,500; lapsing US-Iran ceasefire revives the oil threat",
+      "link": "https://www.coindesk.com/markets/2026/08/17/live-updates-bitcoin-flat-near-usd63-500-but-the-flows-have-quietly-turned",
+      "summary": "Live updates: Bitcoin flat near $63,500; lapsing US-Iran ceasefire revives the oil threat",
+      "source": "CoinDesk",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786955906,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-hackers-fishing.jpg"
+        "https://cdn.sanity.io/images/s3y3vcno/production/c38e0d1ff49b12c77b4c723099f400e2dd01286c-3202x1128.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/c38e0d1ff49b12c77b4c723099f400e2dd01286c-3202x1128.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-17/ff239b5a4bfc8c9d_base.jpg",
-      "image_local": "../assets/news/2026-08-17/ff239b5a4bfc8c9d_base.jpg"
+      "image": "../assets/news/2026-08-17/09edf6a2095f391a_base.jpg",
+      "image_local": "../assets/news/2026-08-17/09edf6a2095f391a_base.jpg"
     },
     {
-      "title": "How a public firm's $70 million altcoin bet crashed 77% and left it facing Nasdaq delisting",
-      "link": "https://cryptoslate.com/how-a-public-firms-70-million-altcoin-bet-crashed-77-and-left-it-facing-nasdaq-delisting/",
-      "summary": "The rule is not operative, but Greenlane’s disclosed share count implies a steep price hurdle if the stay is lifted. The post How a public firm’s $70 million altcoin bet crashed 77% and left it facing Nasdaq delisting appeared first on CryptoSlate.",
+      "title": "How a Bitcoin Treasury company sold 600 BTC to cut debt but still ended up with $60 million due in December",
+      "link": "https://cryptoslate.com/how-a-bitcoin-treasury-company-sold-600-btc-to-cut-debt-but-still-ended-up-with-60-million-due-in-december/",
+      "summary": "Its June 30 snapshot showed $19.1 million cash and about 662 unencumbered BTC against the upcoming principal. The post How a Bitcoin Treasury company sold 600 BTC to cut debt but still ended up with $60 million due in December appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-16",
       "date_human": "Aug 16, 2026",
-      "pub_ts": 1786919449,
+      "pub_ts": 1786924215,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/greenlane-listing-elevator.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/nakamoto-liquidity-shark.jpg"
       ],
-      "image": "../assets/news/2026-08-17/172ead830b518c84_base.jpg",
-      "image_local": "../assets/news/2026-08-17/172ead830b518c84_base.jpg"
-    },
-    {
-      "title": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
-      "link": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info",
-      "summary": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
-      "source": "CoinDesk",
-      "date": "2026-08-16",
-      "date_human": "Aug 16, 2026",
-      "pub_ts": 1786888952,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/af945cfdd3152f9ebc96d44f89ccafea550ccb57-5760x3840.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/af945cfdd3152f9ebc96d44f89ccafea550ccb57-5760x3840.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-17/c161ddc761cc26f8_base.jpg",
-      "image_local": "../assets/news/2026-08-17/c161ddc761cc26f8_base.jpg"
-    },
-    {
-      "title": "Apple Turns to Alibaba to Help Build AI Model for China",
-      "link": "https://decrypt.co/375724/apple-alibaba-build-ai-model-china",
-      "summary": "Apple is pairing its in-house model with Alibaba’s Qwen as it prepares to bring Apple Intelligence to Chinese iPhones.",
-      "source": "Decrypt",
-      "date": "2026-08-15",
-      "date_human": "Aug 15, 2026",
-      "pub_ts": 1786813263,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/05/apple-logo-decrypy-style-01-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/05/apple-logo-decrypy-style-01-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/05/apple-logo-decrypy-style-01-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-17/f835969b669a32b7_base.jpg",
-      "image_local": "../assets/news/2026-08-17/f835969b669a32b7_base.jpg"
+      "image": "../assets/news/2026-08-17/4b9409f073f8bfdc_base.jpg",
+      "image_local": "../assets/news/2026-08-17/4b9409f073f8bfdc_base.jpg"
     }
   ]
 }
