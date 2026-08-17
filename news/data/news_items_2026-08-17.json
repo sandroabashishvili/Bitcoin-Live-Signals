@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-17",
-  "generated_at_utc": "2026-08-17 10:05:41 UTC",
+  "generated_at_utc": "2026-08-17 16:05:41 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,181 +16,181 @@
   "count": 12,
   "items": [
     {
-      "title": "Bitpanda fined in Austria's first published MiCA penalty",
-      "link": "https://cointelegraph.com/news/bitpanda-fined-austrian-published-mica-penalty",
-      "summary": "The FMA said Bitpanda breached MiCA rules on crypto white papers and marketing communications, with the decision now final.",
-      "source": "Cointelegraph",
-      "date": "2026-08-17",
-      "date_human": "Aug 17, 2026",
-      "pub_ts": 1786959107,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-european-union-moves-to-regulate-crypto-asset-market-bitpanda.jpg"
-      ],
-      "image": "../assets/news/2026-08-17/4ae9200d7514bf6d_base.jpg",
-      "image_local": "../assets/news/2026-08-17/4ae9200d7514bf6d_base.jpg"
-    },
-    {
-      "title": "SafePal Bitcoin Wallet Data Breach Stokes Fears of Physical Attacks",
-      "link": "https://decrypt.co/375743/safepal-bitcoin-wallet-data-breach",
-      "summary": "A flaw in an order-tracking plug-in of bitcoin wallet provider SafePal exposed names, addresses and phone numbers of nearly 40,000 customers.",
+      "title": "What Stripe's $7 Billion OpenRouter Deal Actually Means for AI",
+      "link": "https://decrypt.co/375769/what-stripe-openrouter-deal-means-ai",
+      "summary": "Stripe just bought the layer that decides which AI model answers your prompt—and it was already collecting the money for it.",
       "source": "Decrypt",
       "date": "2026-08-17",
       "date_human": "Aug 17, 2026",
-      "pub_ts": 1786959064,
+      "pub_ts": 1786982069,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-04-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-04-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-04-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/09/handshake-deal-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/handshake-deal-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/handshake-deal-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-17/dfc1e3e87e7c0303_base.jpg",
-      "image_local": "../assets/news/2026-08-17/dfc1e3e87e7c0303_base.jpg"
+      "image": "../assets/news/2026-08-17/9f2b0ab02dd1aa66_base.jpg",
+      "image_local": "../assets/news/2026-08-17/9f2b0ab02dd1aa66_base.jpg"
     },
     {
-      "title": "Binance handed user data to Russia that led to a Ukrainian donor's arrest",
-      "link": "https://www.coindesk.com/policy/2026/08/17/binance-handed-user-data-to-russia-that-led-to-a-ukrainian-donor-s-arrest",
-      "summary": "Binance handed user data to Russia that led to a Ukrainian donor's arrest",
-      "source": "CoinDesk",
-      "date": "2026-08-17",
-      "date_human": "Aug 17, 2026",
-      "pub_ts": 1786958174,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/6afa7aee3dd3e7c1e37e3929a4ac24b7cebaccdd-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/6afa7aee3dd3e7c1e37e3929a4ac24b7cebaccdd-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-17/01881a50666756d9_base.jpg",
-      "image_local": "../assets/news/2026-08-17/01881a50666756d9_base.jpg"
-    },
-    {
-      "title": "SafePal breach exposes 40,000 customers as hardware wallet attacks escalate from data leaks to $100 million theft",
-      "link": "https://cryptoslate.com/safepal-breach-exposes-40000-customers-as-hardware-wallet-attacks-escalate-from-data-leaks-to-100-million-theft/",
-      "summary": "An order-tracking flaw exposed contact, shipping and purchase details, while SafePal reported no evidence of compromised wallets or funds. The post SafePal breach exposes 40,000 customers as hardware wallet attacks escalate from data leaks to $100 million theft appeared first on CryptoSlate.",
+      "title": "Ethereum's next major upgrade just slipped to late 2026, forcing a two-week scramble to save its 2027 roadmap",
+      "link": "https://cryptoslate.com/ethereums-next-major-upgrade-just-slipped-to-late-2026-forcing-a-two-week-scramble-to-save-its-2027-roadmap/",
+      "summary": "EIP-8375 proposes burning one third of selected external gross value while off-bid payments stay invisible. The post Ethereum’s next major upgrade just slipped to late 2026, forcing a two-week scramble to save its 2027 roadmap appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-17",
       "date_human": "Aug 17, 2026",
-      "pub_ts": 1786956633,
+      "pub_ts": 1786980920,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/safepal-data-leak-box.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/ethereum-fee-burn-furnace.jpg"
       ],
-      "image": "../assets/news/2026-08-17/6be51fa02101c295_base.jpg",
-      "image_local": "../assets/news/2026-08-17/6be51fa02101c295_base.jpg"
+      "image": "../assets/news/2026-08-17/1705bac048b4844c_base.jpg",
+      "image_local": "../assets/news/2026-08-17/1705bac048b4844c_base.jpg"
     },
     {
-      "title": "Greenlane's $70M BERA treasury ends Q2 valued at $16M",
-      "link": "https://cointelegraph.com/news/greenlane-70m-bera-treasury-valued-16m",
-      "summary": "Greenlane recorded a $19.1 million noncash valuation loss as BERA’s price fell nearly 76% year to date.",
+      "title": "U.S. Treasury Department proposes GENIUS Act stablecoin rule",
+      "link": "https://www.coindesk.com/policy/2026/08/17/u-s-treasury-department-proposes-genius-act-stablecoin-rule",
+      "summary": "U.S. Treasury Department proposes GENIUS Act stablecoin rule",
+      "source": "CoinDesk",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786977869,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/650ce5f7005eed4049392c0fccafc962427f5d39-2880x1620.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/650ce5f7005eed4049392c0fccafc962427f5d39-2880x1620.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0.5013&fp-y=0.5125&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-17/1cee5d6462dac746_base.jpg",
+      "image_local": "../assets/news/2026-08-17/1cee5d6462dac746_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
       "date": "2026-08-17",
       "date_human": "Aug 17, 2026",
-      "pub_ts": 1786945975,
+      "pub_ts": 1786972820,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/red-falling-elevator-markets-down.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-08-17/16361ddc75dd1a07_base.jpg",
-      "image_local": "../assets/news/2026-08-17/16361ddc75dd1a07_base.jpg"
+      "image": "../assets/news/2026-08-17/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-17/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "Gemini 3.7 Flash Review: Google's Cheap Model Isn't Dumb Anymore",
-      "link": "https://decrypt.co/375730/gemini-3-7-flash-review-google-cheap-model",
-      "summary": "Three weeks after a Flash release that couldn't produce a working file, Google's budget tier zero-shots a playable game. It still can't reason, and a free 27B model still writes better.",
+      "title": "Tom Lee's Bitmine Buys Another $19 Million in Ethereum as Stash Nears 5% of Total Supply",
+      "link": "https://decrypt.co/375768/tom-lee-bitcoin-buys-19-million-ethereum",
+      "summary": "The firm says it's 96% of the way to owning 5% of Ethereum's total supply, according to Chairman Tom Lee.",
       "source": "Decrypt",
-      "date": "2026-08-16",
-      "date_human": "Aug 16, 2026",
-      "pub_ts": 1786896005,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-2-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-2-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/google-decrypt-style-2-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-17/f43b7c1144dba2e5_base.jpg",
-      "image_local": "../assets/news/2026-08-17/f43b7c1144dba2e5_base.jpg"
-    },
-    {
-      "title": "Coinbase-Circle USDC collaboration, FOMC minutes, oil price: Crypto Week Ahead",
-      "link": "https://www.coindesk.com/markets/2026/08/17/coinbase-circle-usdc-collaboration-fomc-minutes-oil-price-crypto-week-ahead",
-      "summary": "Coinbase-Circle USDC collaboration, FOMC minutes, oil price: Crypto Week Ahead",
-      "source": "CoinDesk",
       "date": "2026-08-17",
       "date_human": "Aug 17, 2026",
-      "pub_ts": 1786957982,
+      "pub_ts": 1786981679,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/0738e13835f743ba2e3a2f26f7579b27661d1eac-4608x2592.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/0738e13835f743ba2e3a2f26f7579b27661d1eac-4608x2592.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-fundstrat-decrypt-style-02-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-fundstrat-decrypt-style-02-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/tom-lee-fundstrat-decrypt-style-02-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-17/da980a82e821e394_base.jpg",
-      "image_local": "../assets/news/2026-08-17/da980a82e821e394_base.jpg"
+      "image": "../assets/news/2026-08-17/aebd9c27a110698a_base.jpg",
+      "image_local": "../assets/news/2026-08-17/aebd9c27a110698a_base.jpg"
     },
     {
-      "title": "This public company quit solar for a $5 million Bitcoin bet, now it has just $166,000 in cash",
-      "link": "https://cryptoslate.com/this-public-company-quit-solar-for-a-5-million-bitcoin-bet-now-it-has-just-166000-in-cash/",
-      "summary": "The June 30 filing puts $4.118 million of Bitcoin at the center of an unresolved going-concern problem. The post This public company quit solar for a $5 million Bitcoin bet, now it has just $166,000 in cash appeared first on CryptoSlate.",
+      "title": "Why accepting crypto payments over €1,000 on Bitstamp can reportedly freeze your assets starting tomorrow",
+      "link": "https://cryptoslate.com/why-accepting-crypto-payments-over-e1000-on-bitstamp-can-freeze-your-assets-starting-tomorrow/",
+      "summary": "The customer-posted notice reportedly leaves exchange transfers unaffected, while rejected funds require support to return them to the originator address. The post Why accepting crypto payments over €1,000 on Bitstamp can reportedly freeze your assets starting tomorrow appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-17",
       "date_human": "Aug 17, 2026",
-      "pub_ts": 1786928443,
+      "pub_ts": 1786976111,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/sono-emergency-bitcoin-reserve.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitstamp-deposit-checkpoint.jpg"
       ],
-      "image": "../assets/news/2026-08-17/a2f91a5df30d5fc5_base.jpg",
-      "image_local": "../assets/news/2026-08-17/a2f91a5df30d5fc5_base.jpg"
+      "image": "../assets/news/2026-08-17/62168f26bef7c74f_base.jpg",
+      "image_local": "../assets/news/2026-08-17/62168f26bef7c74f_base.jpg"
     },
     {
-      "title": "Chainalysis sues US over $95M ICE contract with TRM Labs",
-      "link": "https://cointelegraph.com/news/chainalysis-sues-us-over-ices-sole-source-contract-with-trm-labs",
-      "summary": "The sealed complaint leaves Chainalysis’ specific objections and requested remedy undisclosed as briefing continues.",
+      "title": "The Coldcard hack proves reputation is not a security model",
+      "link": "https://www.coindesk.com/opinion/2026/08/17/the-coldcard-hack-proves-reputation-is-not-a-security-model",
+      "summary": "The Coldcard hack proves reputation is not a security model",
+      "source": "CoinDesk",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786975786,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/db2191038c41eae1bd0b4fd13d8435563fede3f0-5760x3840.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/db2191038c41eae1bd0b4fd13d8435563fede3f0-5760x3840.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-17/e65038257251cd82_base.jpg",
+      "image_local": "../assets/news/2026-08-17/e65038257251cd82_base.jpg"
+    },
+    {
+      "title": "Strategy raises $334M through stock sales but buys no Bitcoin",
+      "link": "https://cointelegraph.com/news/strategy-stock-sales-buys-no-bitcoin",
+      "summary": "Proceeds funded STRC dividends and repurchases, while $149.1 million was added to Strategy’s US dollar reserve, which reached $4.8 billion.",
       "source": "Cointelegraph",
       "date": "2026-08-17",
       "date_human": "Aug 17, 2026",
-      "pub_ts": 1786938168,
+      "pub_ts": 1786971063,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/court-crypto-lawsuit-us.png"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-how-michael-saylors-strategy-became-the-largest-bitcoin-holder-1.jpg"
       ],
-      "image": "../assets/news/2026-08-17/d8489fd1535c8a66_base.jpg",
-      "image_local": "../assets/news/2026-08-17/d8489fd1535c8a66_base.jpg"
+      "image": "../assets/news/2026-08-17/6f24902b5d6f52d3_base.jpg",
+      "image_local": "../assets/news/2026-08-17/6f24902b5d6f52d3_base.jpg"
     },
     {
-      "title": "People Are Turning to AI for Mental Health, California Wants It Banned",
-      "link": "https://decrypt.co/375725/california-bill-ban-ai-chatbots-therapy-mental-health",
-      "summary": "A California bill is awaiting an Assembly vote to \"place guardrails\" around AI chatbots and prevent them from acting as therapists.",
+      "title": "Hackers Are Abusing a macOS Screen Sharing Flaw to Secretly Mine Monero",
+      "link": "https://decrypt.co/375749/hackers-macos-screen-sharing-secretly-mine-monero",
+      "summary": "The Dutch cyber agency says attackers exploited an authentication flaw in macOS Screen Sharing to gain root access and plant Monero miners, with public proof-of-concept code now circulating.",
       "source": "Decrypt",
-      "date": "2026-08-16",
-      "date_human": "Aug 16, 2026",
-      "pub_ts": 1786888863,
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786973464,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Crime-crypto-decrypt-style-01-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Crime-crypto-decrypt-style-01-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Crime-crypto-decrypt-style-01-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-17/9b0a7e2c9eb5e0f6_base.jpg",
-      "image_local": "../assets/news/2026-08-17/9b0a7e2c9eb5e0f6_base.jpg"
+      "image": "../assets/news/2026-08-17/9bc9a3e59e0ae4ec_base.jpg",
+      "image_local": "../assets/news/2026-08-17/9bc9a3e59e0ae4ec_base.jpg"
     },
     {
-      "title": "Live updates: Bitcoin flat near $63,500; lapsing US-Iran ceasefire revives the oil threat",
-      "link": "https://www.coindesk.com/markets/2026/08/17/live-updates-bitcoin-flat-near-usd63-500-but-the-flows-have-quietly-turned",
-      "summary": "Live updates: Bitcoin flat near $63,500; lapsing US-Iran ceasefire revives the oil threat",
+      "title": "Nasdaq healthcare company promised Bitcoin would safeguard its future – then sold every coin to stay afloat",
+      "link": "https://cryptoslate.com/nasdaq-healthcare-company-promised-bitcoin-would-safeguard-its-future-then-sold-every-coin-to-stay-afloat/",
+      "summary": "The healthcare-data company reported a $3.41 million working-capital deficit as equity became its clearest disclosed funding path. The post Nasdaq healthcare company promised Bitcoin would safeguard its future – then sold every coin to stay afloat appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786972235,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/onemednet-bitcoin-therapy.jpg"
+      ],
+      "image": "../assets/news/2026-08-17/150c2c80aac3e382_base.jpg",
+      "image_local": "../assets/news/2026-08-17/150c2c80aac3e382_base.jpg"
+    },
+    {
+      "title": "Tom Lee's Bitmine now owns 4.8% of Ethereum supply after latest ETH purchase",
+      "link": "https://www.coindesk.com/markets/2026/08/17/tom-lee-s-bitmine-now-owns-4-8-of-ethereum-supply-after-latest-eth-purchase",
+      "summary": "Tom Lee's Bitmine now owns 4.8% of Ethereum supply after latest ETH purchase",
       "source": "CoinDesk",
       "date": "2026-08-17",
       "date_human": "Aug 17, 2026",
-      "pub_ts": 1786955906,
+      "pub_ts": 1786975461,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/c38e0d1ff49b12c77b4c723099f400e2dd01286c-3202x1128.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/c38e0d1ff49b12c77b4c723099f400e2dd01286c-3202x1128.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/bafb99c8f61830de7b03162ff11769973ea3ef0d-758x528.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/bafb99c8f61830de7b03162ff11769973ea3ef0d-758x528.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-17/09edf6a2095f391a_base.jpg",
-      "image_local": "../assets/news/2026-08-17/09edf6a2095f391a_base.jpg"
+      "image": "../assets/news/2026-08-17/ccc81334cbb38aa7_base.jpg",
+      "image_local": "../assets/news/2026-08-17/ccc81334cbb38aa7_base.jpg"
     },
     {
-      "title": "How a Bitcoin Treasury company sold 600 BTC to cut debt but still ended up with $60 million due in December",
-      "link": "https://cryptoslate.com/how-a-bitcoin-treasury-company-sold-600-btc-to-cut-debt-but-still-ended-up-with-60-million-due-in-december/",
-      "summary": "Its June 30 snapshot showed $19.1 million cash and about 662 unencumbered BTC against the upcoming principal. The post How a Bitcoin Treasury company sold 600 BTC to cut debt but still ended up with $60 million due in December appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-16",
-      "date_human": "Aug 16, 2026",
-      "pub_ts": 1786924215,
+      "title": "Harmony plans rollback, wiping 109,000 transactions after ONE exploit",
+      "link": "https://cointelegraph.com/news/harmony-plans-rollback-transactions-one-exploit",
+      "summary": "Harmony said selectively restoring transactions could create inconsistent chain state, as Ravencoin faces a separate rollback dispute after an exploit.",
+      "source": "Cointelegraph",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786969896,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/nakamoto-liquidity-shark.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/piece-unite-blockchain-cube-1.jpg"
       ],
-      "image": "../assets/news/2026-08-17/4b9409f073f8bfdc_base.jpg",
-      "image_local": "../assets/news/2026-08-17/4b9409f073f8bfdc_base.jpg"
+      "image": "../assets/news/2026-08-17/45b001fb16ae3c30_base.jpg",
+      "image_local": "../assets/news/2026-08-17/45b001fb16ae3c30_base.jpg"
     }
   ]
 }
