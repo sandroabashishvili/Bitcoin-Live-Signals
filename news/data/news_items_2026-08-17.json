@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-08-16",
-  "generated_at_utc": "2026-08-16 22:05:24 UTC",
+  "day_iso": "2026-08-17",
+  "generated_at_utc": "2026-08-17 04:05:20 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,18 +16,32 @@
   "count": 12,
   "items": [
     {
-      "title": "Slowing ETF demand and corporate treasury selling are breaking the math behind Wall Street's $16 trillion Bitcoin target",
-      "link": "https://cryptoslate.com/bitcoin-market-cap-16-trillion-2030-model-etf-reality-check-us/",
-      "summary": "ARK's scenario now requires 78.6% annual growth, with institutional allocation and digital gold supplying 92.8% of modeled value. The post Slowing ETF demand and corporate treasury selling are breaking the math behind Wall Street’s $16 trillion Bitcoin target appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-16",
-      "date_human": "Aug 16, 2026",
-      "pub_ts": 1786911649,
+      "title": "Chainalysis sues US over $95M ICE contract with TRM Labs",
+      "link": "https://cointelegraph.com/news/chainalysis-sues-us-over-ices-sole-source-contract-with-trm-labs",
+      "summary": "The sealed complaint leaves Chainalysis’ specific objections and requested remedy undisclosed as briefing continues.",
+      "source": "Cointelegraph",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786938168,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-ark-base-case.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/court-crypto-lawsuit-us.png"
       ],
-      "image": "../assets/news/2026-08-16/7a84aba6a86674e1_base.jpg",
-      "image_local": "../assets/news/2026-08-16/7a84aba6a86674e1_base.jpg"
+      "image": "../assets/news/2026-08-17/d8489fd1535c8a66_base.jpg",
+      "image_local": "../assets/news/2026-08-17/d8489fd1535c8a66_base.jpg"
+    },
+    {
+      "title": "This public company quit solar for a $5 million Bitcoin bet, now it has just $166,000 in cash",
+      "link": "https://cryptoslate.com/this-public-company-quit-solar-for-a-5-million-bitcoin-bet-now-it-has-just-166000-in-cash/",
+      "summary": "The June 30 filing puts $4.118 million of Bitcoin at the center of an unresolved going-concern problem. The post This public company quit solar for a $5 million Bitcoin bet, now it has just $166,000 in cash appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786928443,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/sono-emergency-bitcoin-reserve.jpg"
+      ],
+      "image": "../assets/news/2026-08-17/a2f91a5df30d5fc5_base.jpg",
+      "image_local": "../assets/news/2026-08-17/a2f91a5df30d5fc5_base.jpg"
     },
     {
       "title": "The SEC meeting that wasn't: State of Crypto",
@@ -41,8 +55,8 @@
         "https://cdn.sanity.io/images/s3y3vcno/production/fbc7e541d283d1ca139795169dd388c0890fdf2e-2854x1606.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
         "https://cdn.sanity.io/images/s3y3vcno/production/fbc7e541d283d1ca139795169dd388c0890fdf2e-2854x1606.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-16/fe3579ca9a4676f8_base.jpg",
-      "image_local": "../assets/news/2026-08-16/fe3579ca9a4676f8_base.jpg"
+      "image": "../assets/news/2026-08-17/fe3579ca9a4676f8_base.jpg",
+      "image_local": "../assets/news/2026-08-17/fe3579ca9a4676f8_base.jpg"
     },
     {
       "title": "Gemini 3.7 Flash Review: Google's Cheap Model Isn't Dumb Anymore",
@@ -57,36 +71,36 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-2-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/google-decrypt-style-2-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-16/f43b7c1144dba2e5_base.jpg",
-      "image_local": "../assets/news/2026-08-16/f43b7c1144dba2e5_base.jpg"
+      "image": "../assets/news/2026-08-17/f43b7c1144dba2e5_base.jpg",
+      "image_local": "../assets/news/2026-08-17/f43b7c1144dba2e5_base.jpg"
     },
     {
-      "title": "DefiLlama delayed mobile launch over phishing apps on Apple Store, founder says",
-      "link": "https://cointelegraph.com/news/defillama-delayed-app-launch-fake-phishing-apps-apple",
-      "summary": "DefiLlama’s founder said Apple removed one fake app within days after the company documented it draining funds from a small crypto wallet.",
+      "title": "Data of 54,000 wallet users leaked, CLARITY odds just 10%: Hodler's Digest",
+      "link": "https://cointelegraph.com/magazine/data-of-54000-wallet-users-leaked-clarity-odds-just-10-hodlers-digest",
+      "summary": "Owners of Trezor and SafePal crypto wallets at high risk of phishing attempts after separate data leaks, CLARITY odds at 10% despite White House meeting this week.",
       "source": "Cointelegraph",
       "date": "2026-08-16",
       "date_human": "Aug 16, 2026",
-      "pub_ts": 1786884489,
+      "pub_ts": 1786924490,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-hackers-fishing.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hodlers-15-aug.jpg"
       ],
-      "image": "../assets/news/2026-08-16/ff239b5a4bfc8c9d_base.jpg",
-      "image_local": "../assets/news/2026-08-16/ff239b5a4bfc8c9d_base.jpg"
+      "image": "../assets/news/2026-08-17/0a9d7ca9944244a7_base.jpg",
+      "image_local": "../assets/news/2026-08-17/0a9d7ca9944244a7_base.jpg"
     },
     {
-      "title": "Inside the Solana reinsurance sale where parent company Oxbridge supplied 95% of public token demand",
-      "link": "https://cryptoslate.com/t20-and-t42-suranceplus-raise-oxbridge/",
-      "summary": "Oxbridge supplied $744,623 to T20 and T42 while third parties provided $37,143, and filings do not disclose the purchaser mix for three HCI-linked placements. The post Inside the Solana reinsurance sale where parent company Oxbridge supplied 95% of public token demand appeared first on CryptoSlate.",
+      "title": "How a Bitcoin Treasury company sold 600 BTC to cut debt but still ended up with $60 million due in December",
+      "link": "https://cryptoslate.com/how-a-bitcoin-treasury-company-sold-600-btc-to-cut-debt-but-still-ended-up-with-60-million-due-in-december/",
+      "summary": "Its June 30 snapshot showed $19.1 million cash and about 662 unencumbered BTC against the upcoming principal. The post How a Bitcoin Treasury company sold 600 BTC to cut debt but still ended up with $60 million due in December appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-16",
       "date_human": "Aug 16, 2026",
-      "pub_ts": 1786907458,
+      "pub_ts": 1786924215,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/oxbridge-capital-funnel.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/nakamoto-liquidity-shark.jpg"
       ],
-      "image": "../assets/news/2026-08-16/c2797913db7ef21f_base.jpg",
-      "image_local": "../assets/news/2026-08-16/c2797913db7ef21f_base.jpg"
+      "image": "../assets/news/2026-08-17/4b9409f073f8bfdc_base.jpg",
+      "image_local": "../assets/news/2026-08-17/4b9409f073f8bfdc_base.jpg"
     },
     {
       "title": "Crypto investors are looking past market-cap rankings and back to fundamentals",
@@ -100,8 +114,8 @@
         "https://cdn.sanity.io/images/s3y3vcno/production/e32c73c877e257ea0e665dae0d3fa751d19cf3cc-1920x1231.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
         "https://cdn.sanity.io/images/s3y3vcno/production/e32c73c877e257ea0e665dae0d3fa751d19cf3cc-1920x1231.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-16/e911aa943289022c_base.jpg",
-      "image_local": "../assets/news/2026-08-16/e911aa943289022c_base.jpg"
+      "image": "../assets/news/2026-08-17/e911aa943289022c_base.jpg",
+      "image_local": "../assets/news/2026-08-17/e911aa943289022c_base.jpg"
     },
     {
       "title": "People Are Turning to AI for Mental Health, California Wants It Banned",
@@ -116,36 +130,36 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-16/9b0a7e2c9eb5e0f6_base.jpg",
-      "image_local": "../assets/news/2026-08-16/9b0a7e2c9eb5e0f6_base.jpg"
+      "image": "../assets/news/2026-08-17/9b0a7e2c9eb5e0f6_base.jpg",
+      "image_local": "../assets/news/2026-08-17/9b0a7e2c9eb5e0f6_base.jpg"
     },
     {
-      "title": "Ethereum devs to narrow 66 proposals tied to Hegotá upgrade",
-      "link": "https://cointelegraph.com/news/ethereum-devs-66-proposals-hegota-upgrade",
-      "summary": "The Hegotá upgrade aims to introduce more native privacy for Ethereum applications.",
+      "title": "DefiLlama delayed mobile launch over phishing apps on Apple Store, founder says",
+      "link": "https://cointelegraph.com/news/defillama-delayed-app-launch-fake-phishing-apps-apple",
+      "summary": "DefiLlama’s founder said Apple removed one fake app within days after the company documented it draining funds from a small crypto wallet.",
       "source": "Cointelegraph",
       "date": "2026-08-16",
       "date_human": "Aug 16, 2026",
-      "pub_ts": 1786878771,
+      "pub_ts": 1786884489,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-ethereum-encryption.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-hackers-fishing.jpg"
       ],
-      "image": "../assets/news/2026-08-16/67a23f8831a361d9_base.jpg",
-      "image_local": "../assets/news/2026-08-16/67a23f8831a361d9_base.jpg"
+      "image": "../assets/news/2026-08-17/ff239b5a4bfc8c9d_base.jpg",
+      "image_local": "../assets/news/2026-08-17/ff239b5a4bfc8c9d_base.jpg"
     },
     {
-      "title": "This Nasdaq-listed Bitcoin treasury diluted shareholders 18-fold to survive a $212 million crypto loss without selling its stash",
-      "link": "https://cryptoslate.com/gd-cultures-share-count-jumped-18-fold-as-bitcoin-loss-hit-212-million/",
-      "summary": "The 7,500-BTC holder’s filing separates a noncash crypto loss from equity sales that supported its operating runway. The post This Nasdaq-listed Bitcoin treasury diluted shareholders 18-fold to survive a $212 million crypto loss without selling its stash appeared first on CryptoSlate.",
+      "title": "How a public firm's $70 million altcoin bet crashed 77% and left it facing Nasdaq delisting",
+      "link": "https://cryptoslate.com/how-a-public-firms-70-million-altcoin-bet-crashed-77-and-left-it-facing-nasdaq-delisting/",
+      "summary": "The rule is not operative, but Greenlane’s disclosed share count implies a steep price hurdle if the stay is lifted. The post How a public firm’s $70 million altcoin bet crashed 77% and left it facing Nasdaq delisting appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-16",
       "date_human": "Aug 16, 2026",
-      "pub_ts": 1786902952,
+      "pub_ts": 1786919449,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-stock-boat-sinking.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/greenlane-listing-elevator.jpg"
       ],
-      "image": "../assets/news/2026-08-16/955157ccd5ab9c8b_base.jpg",
-      "image_local": "../assets/news/2026-08-16/955157ccd5ab9c8b_base.jpg"
+      "image": "../assets/news/2026-08-17/172ead830b518c84_base.jpg",
+      "image_local": "../assets/news/2026-08-17/172ead830b518c84_base.jpg"
     },
     {
       "title": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
@@ -159,8 +173,8 @@
         "https://cdn.sanity.io/images/s3y3vcno/production/af945cfdd3152f9ebc96d44f89ccafea550ccb57-5760x3840.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
         "https://cdn.sanity.io/images/s3y3vcno/production/af945cfdd3152f9ebc96d44f89ccafea550ccb57-5760x3840.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-16/c161ddc761cc26f8_base.jpg",
-      "image_local": "../assets/news/2026-08-16/c161ddc761cc26f8_base.jpg"
+      "image": "../assets/news/2026-08-17/c161ddc761cc26f8_base.jpg",
+      "image_local": "../assets/news/2026-08-17/c161ddc761cc26f8_base.jpg"
     },
     {
       "title": "Apple Turns to Alibaba to Help Build AI Model for China",
@@ -175,22 +189,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/05/apple-logo-decrypy-style-01-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/05/apple-logo-decrypy-style-01-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-16/f835969b669a32b7_base.jpg",
-      "image_local": "../assets/news/2026-08-16/f835969b669a32b7_base.jpg"
-    },
-    {
-      "title": "Bybit adds Unitree, Moonshot AI to pre-IPO perpetuals lineup",
-      "link": "https://cointelegraph.com/news/bybit-launches-unitree-pre-ipo-perpetual-as-crypto-platforms-push-into-private-markets",
-      "summary": "The additions come as Bybit’s TradFi perpetuals lineup grows to more than 200 products spanning equities, ETFs, commodities, indices and private companies.",
-      "source": "Cointelegraph",
-      "date": "2026-08-15",
-      "date_human": "Aug 15, 2026",
-      "pub_ts": 1786822049,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-bond-follow-up-bybit-2.jpg"
-      ],
-      "image": "../assets/news/2026-08-16/53ed8638a69120be_base.jpg",
-      "image_local": "../assets/news/2026-08-16/53ed8638a69120be_base.jpg"
+      "image": "../assets/news/2026-08-17/f835969b669a32b7_base.jpg",
+      "image_local": "../assets/news/2026-08-17/f835969b669a32b7_base.jpg"
     }
   ]
 }
