@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-18",
-  "generated_at_utc": "2026-08-18 04:05:51 UTC",
+  "generated_at_utc": "2026-08-18 10:05:46 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,32 +16,91 @@
   "count": 12,
   "items": [
     {
-      "title": "Alleged $165M crypto Ponzi mastermind faces US charges after Fiji deportation",
-      "link": "https://cointelegraph.com/news/edward-zimbardi-165m-crypto-ponzi-fiji-deportation",
-      "summary": "Prosecutors allege Edward Zimbardi collected crypto from thousands of investors, lost over $34 million on currency trades and spent at least $10 million personally.",
+      "title": "Polymarket's 20% CLARITY Act odds sit on a market one $100K trade could radically reprice",
+      "link": "https://cryptoslate.com/polymarkets-20-clarity-act-odds-sit-on-a-market-one-100k-trade-could-radically-reprice/",
+      "summary": "An anonymous trader on Polymarket holds a No position on the CLARITY Act worth about $414,895, roughly 2.6 times larger than the $160,200 in liquidity currently available on the market where it sits. CryptoSlate's live market data puts CLARITY Act odds near 20% Yes, a number now widely read as Washington's probability estimate for the […] The post Polymarket’s 20% CLARITY Act odds sit on a market one $100K trade could radically reprice appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-18",
+      "date_human": "Aug 18, 2026",
+      "pub_ts": 1787046019,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/clarity-anonymous-whale-bet.jpg"
+      ],
+      "image": "../assets/news/2026-08-18/5f72bb3ceeff6853_base.jpg",
+      "image_local": "../assets/news/2026-08-18/5f72bb3ceeff6853_base.jpg"
+    },
+    {
+      "title": "Bitcoin price spike to $64.5K was ‘low-volume liquidity trap': Analysis",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-spike-to-645k-was-low-volume-liquidity-trap-analysis",
+      "summary": "Bitcoin derivatives markets created a short squeeze that took BTC price action 3% higher on Monday.",
       "source": "Cointelegraph",
       "date": "2026-08-18",
       "date_human": "Aug 18, 2026",
-      "pub_ts": 1787023286,
+      "pub_ts": 1787045475,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/judge-hammer-regulation-breaking-news.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/price-fall-up-road1.jpg"
       ],
-      "image": "../assets/news/2026-08-18/3ea82c0e28bbad50_base.jpg",
-      "image_local": "../assets/news/2026-08-18/3ea82c0e28bbad50_base.jpg"
+      "image": "../assets/news/2026-08-18/b53183bc4d45a2e3_base.jpg",
+      "image_local": "../assets/news/2026-08-18/b53183bc4d45a2e3_base.jpg"
     },
     {
-      "title": "Solana treasury firm cuts shares 700-for-1 but leaves room for nearly 100 billion more",
-      "link": "https://cryptoslate.com/solana-treasury-firm-cuts-shares-700-for-1-but-leaves-room-for-nearly-100-billion-more/",
-      "summary": "Shareholders approved the vast capacity after the former BIT Mining’s NYSE suspension, but no specific use or exact post-consolidation share count was disclosed. The post Solana treasury firm cuts shares 700-for-1 but leaves room for nearly 100 billion more appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-17",
-      "date_human": "Aug 17, 2026",
-      "pub_ts": 1787006418,
+      "title": "Bitpanda Hit With Europe's First Published MiCA Penalty in Austria",
+      "link": "https://decrypt.co/375841/bitpanda-europe-first-mica-penalty",
+      "summary": "Austria's Financial Market Authority fined the Vienna-based exchange 70,000 euros for procedural and disclosure breaches, an early marker of how EU regulators intend to enforce the bloc's new crypto rulebook.",
+      "source": "Decrypt",
+      "date": "2026-08-18",
+      "date_human": "Aug 18, 2026",
+      "pub_ts": 1787045464,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/solai-dilution-reservoir.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/09/eu-flag-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/eu-flag-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/eu-flag-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-18/f594d737e74ae54e_base.jpg",
-      "image_local": "../assets/news/2026-08-18/f594d737e74ae54e_base.jpg"
+      "image": "../assets/news/2026-08-18/d7a18b7163703146_base.jpg",
+      "image_local": "../assets/news/2026-08-18/d7a18b7163703146_base.jpg"
+    },
+    {
+      "title": "Live updates: Bitcoin holds $64,000 as surging yields and oil drain risk appetite",
+      "link": "https://www.coindesk.com/tech/2026/08/18/live-updates-bitcoin-holds-usd64-000-as-surging-yields-and-oil-drain-risk-appetite",
+      "summary": "Live updates: Bitcoin holds $64,000 as surging yields and oil drain risk appetite",
+      "source": "CoinDesk",
+      "date": "2026-08-18",
+      "date_human": "Aug 18, 2026",
+      "pub_ts": 1787040971,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/4c0689c2d5fe97c36365f4d88811b0aa0648c90f-2800x1470.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/4c0689c2d5fe97c36365f4d88811b0aa0648c90f-2800x1470.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-18/ecfdae70624c38dc_base.jpg",
+      "image_local": "../assets/news/2026-08-18/ecfdae70624c38dc_base.jpg"
+    },
+    {
+      "title": "Bitcoin turned $10,000 into $870,000 in a decade where 87% of active stock funds failed to beat passive rivals",
+      "link": "https://cryptoslate.com/bitcoin-turned-10000-into-870000-in-a-decade-where-87-of-active-stock-funds-failed-to-beat-passive-rivals/",
+      "summary": "Bitcoin returned 87 times over a decade, while only 13% of actively managed US large-cap equity funds beat comparable passive funds' benchmarks through June 30, according to Morningstar data reported by The Wall Street Journal. That rate rose to 27% over the latest 12 months, and Wall Street has argued that AI-driven dispersion and higher […] The post Bitcoin turned $10,000 into $870,000 in a decade where 87% of active stock funds failed to beat passive rivals appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-18",
+      "date_human": "Aug 18, 2026",
+      "pub_ts": 1787041252,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-investment-crossroads.jpg"
+      ],
+      "image": "../assets/news/2026-08-18/d321dac98931f5f0_base.jpg",
+      "image_local": "../assets/news/2026-08-18/d321dac98931f5f0_base.jpg"
+    },
+    {
+      "title": "China adds 8 banks to digital yuan network as operator count hits 30",
+      "link": "https://cointelegraph.com/news/china-adds-8-banks-to-digital-yuan-network-as-operator-count-hits-30",
+      "summary": "The newly authorized lenders will begin offering e-CNY services after completing operational and technical preparations.",
+      "source": "Cointelegraph",
+      "date": "2026-08-18",
+      "date_human": "Aug 18, 2026",
+      "pub_ts": 1787042931,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-an-overview-of-chinas-e-cny.jpg"
+      ],
+      "image": "../assets/news/2026-08-18/2e51fa1d4e5218b0_base.jpg",
+      "image_local": "../assets/news/2026-08-18/2e51fa1d4e5218b0_base.jpg"
     },
     {
       "title": "Kraken Parent Payward Joins Glasswing, Gets Access to Claude Mythos to Hunt Security Flaws",
@@ -60,47 +119,47 @@
       "image_local": "../assets/news/2026-08-18/deb67ffe16aa4275_base.jpg"
     },
     {
-      "title": "Kraken parent Payward joins Anthropic's Project Glasswing for AI security push",
-      "link": "https://www.coindesk.com/tech/2026/08/17/kraken-parent-payward-joins-anthropic-s-project-glasswing-for-ai-security-push",
-      "summary": "Kraken parent Payward joins Anthropic's Project Glasswing for AI security push",
+      "title": "The bitcoin price level where leveraged bulls could get whacked",
+      "link": "https://www.coindesk.com/markets/2026/08/18/the-bitcoin-price-level-where-leveraged-bulls-could-get-whacked",
+      "summary": "The bitcoin price level where leveraged bulls could get whacked",
       "source": "CoinDesk",
-      "date": "2026-08-17",
-      "date_human": "Aug 17, 2026",
-      "pub_ts": 1787004720,
+      "date": "2026-08-18",
+      "date_human": "Aug 18, 2026",
+      "pub_ts": 1787032543,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/60eaa4392d735a85d254d5ac89ec08baf0b7a62e-2048x1152.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/60eaa4392d735a85d254d5ac89ec08baf0b7a62e-2048x1152.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/04f05b5cd4023bff86ebd19b9d5981356f50f8eb-8640x5760.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/04f05b5cd4023bff86ebd19b9d5981356f50f8eb-8640x5760.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-18/3262013c90472b09_base.jpg",
-      "image_local": "../assets/news/2026-08-18/3262013c90472b09_base.jpg"
+      "image": "../assets/news/2026-08-18/99654d82a6998191_base.jpg",
+      "image_local": "../assets/news/2026-08-18/99654d82a6998191_base.jpg"
     },
     {
-      "title": "‘Fabricated rumors' about BitMart founder, Binance bStocks dominate: Asia Express",
-      "link": "https://cointelegraph.com/magazine/fabricated-rumors-about-bitmart-founder-binance-bstocks-dominate-asia-express",
-      "summary": "Binance’s bStocks are the second largest tokenized stock issuer just two months after launch, and BitMart’s internal feud erupts into the spotlight ahead of its closure",
+      "title": "KuCoin's new perp rule can turn one funding-rate extreme into 36 hours of hourly settlements",
+      "link": "https://cryptoslate.com/kucoins-new-perp-rule-can-turn-one-funding-rate-extreme-into-36-hours-of-hourly-settlements/",
+      "summary": "USDT and USDC contracts move from the next period, while returning to four-hour settlement requires 36 stable hours. The post KuCoin’s new perp rule can turn one funding-rate extreme into 36 hours of hourly settlements appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-18",
+      "date_human": "Aug 18, 2026",
+      "pub_ts": 1787036441,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/kucoin_funding_rule_standard_image.jpg"
+      ],
+      "image": "../assets/news/2026-08-18/d0705803c7aad08a_base.jpg",
+      "image_local": "../assets/news/2026-08-18/d0705803c7aad08a_base.jpg"
+    },
+    {
+      "title": "South Korea moves to block Polymarket over gambling concerns",
+      "link": "https://cointelegraph.com/news/south-korea-block-polymarket-gambling-concerns",
+      "summary": "The Korea Media and Communications Commission said Polymarket’s structure and operations amount to illegal gambling despite its noncustodial design and smart contracts.",
       "source": "Cointelegraph",
       "date": "2026-08-18",
       "date_human": "Aug 18, 2026",
-      "pub_ts": 1787016517,
+      "pub_ts": 1787042397,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/asia-express-9.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-you-are-once-again-banning-crypto-content-polymarket.jpg"
       ],
-      "image": "../assets/news/2026-08-18/461afe3021401829_base.jpg",
-      "image_local": "../assets/news/2026-08-18/461afe3021401829_base.jpg"
-    },
-    {
-      "title": "Crypto miner warns of potential bankruptcy as unclosed financing leaves $33 million in maturing debt exposed",
-      "link": "https://cryptoslate.com/crypto-miner-warns-of-potential-bankruptcy-as-unclosed-financing-leaves-33-million-in-maturing-debt-exposed/",
-      "summary": "The PIPE’s Oct. 10 outside date lands 21 days before the notes mature, with $9.2 million of June liquidity. The post Crypto miner warns of potential bankruptcy as unclosed financing leaves $33 million in maturing debt exposed appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-17",
-      "date_human": "Aug 17, 2026",
-      "pub_ts": 1787002505,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/vulcan-debt-cliff.jpg"
-      ],
-      "image": "../assets/news/2026-08-18/460e92274c56cc93_base.jpg",
-      "image_local": "../assets/news/2026-08-18/460e92274c56cc93_base.jpg"
+      "image": "../assets/news/2026-08-18/fd7d26adec8b863d_base.jpg",
+      "image_local": "../assets/news/2026-08-18/fd7d26adec8b863d_base.jpg"
     },
     {
       "title": "Minnesota Says xAI's Grok Created 'Marketplace for Digital Sexual Violence'",
@@ -119,78 +178,19 @@
       "image_local": "../assets/news/2026-08-18/b96aa4734704b2be_base.jpg"
     },
     {
-      "title": "Saylor says share buyback isn't priority as Strategy builds $4.8 billion cash reserve",
-      "link": "https://www.coindesk.com/markets/2026/08/17/saylor-says-share-buyback-isn-t-a-priority-as-it-builds-its-usd4-8-billion-cash-reserve-though-a-possibility",
-      "summary": "Saylor says share buyback isn't priority as Strategy builds $4.8 billion cash reserve",
+      "title": "XRP sinks below $1 for first time since 2024 even as Korean bank adopts Ripple Payments",
+      "link": "https://www.coindesk.com/markets/2026/08/18/xrp-slips-below-usd1-even-as-korean-regional-bank-adopts-ripple-payments",
+      "summary": "XRP sinks below $1 for first time since 2024 even as Korean bank adopts Ripple Payments",
       "source": "CoinDesk",
-      "date": "2026-08-17",
-      "date_human": "Aug 17, 2026",
-      "pub_ts": 1786992827,
+      "date": "2026-08-18",
+      "date_human": "Aug 18, 2026",
+      "pub_ts": 1787031272,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/dd98498dbda09f933fbeac48aac3591d14c0deee-3018x1697.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/dd98498dbda09f933fbeac48aac3591d14c0deee-3018x1697.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/b7d512ba660aea0dd60d8f3f58b1ae6ddd1786d8-1920x1282.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/b7d512ba660aea0dd60d8f3f58b1ae6ddd1786d8-1920x1282.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-08-18/2a78316584d5de94_base.jpg",
-      "image_local": "../assets/news/2026-08-18/2a78316584d5de94_base.jpg"
-    },
-    {
-      "title": "OCC approves Trump family crypto company for trust charter",
-      "link": "https://cointelegraph.com/news/occ-donald-trump-world-liberty-financial-trust-charter",
-      "summary": "The US financial regulator gave conditional approval for World Liberty Financial’s charter bid as ten Democrats signed onto a bill to “prevent corruption in banking applications.“",
-      "source": "Cointelegraph",
-      "date": "2026-08-17",
-      "date_human": "Aug 17, 2026",
-      "pub_ts": 1787001450,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-donald-trump-and-wlfi.jpg"
-      ],
-      "image": "../assets/news/2026-08-18/7c370d77111880dd_base.jpg",
-      "image_local": "../assets/news/2026-08-18/7c370d77111880dd_base.jpg"
-    },
-    {
-      "title": "Forced liquidations begin in 30 days for business crypto accounts missing new verification rules on Bybit",
-      "link": "https://cryptoslate.com/forced-liquidations-begin-in-30-days-for-business-crypto-accounts-missing-new-verification-rules-on-bybit/",
-      "summary": "Only notified business users are covered; access restrictions follow Aug. 21 and market-price liquidation starts Sept. 21. The post Forced liquidations begin in 30 days for business crypto accounts missing new verification rules on Bybit appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-17",
-      "date_human": "Aug 17, 2026",
-      "pub_ts": 1786998606,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bybit-brazil-liquidation-countdown.jpg"
-      ],
-      "image": "../assets/news/2026-08-18/f17910ee64de6ecf_base.jpg",
-      "image_local": "../assets/news/2026-08-18/f17910ee64de6ecf_base.jpg"
-    },
-    {
-      "title": "Prediction Markets Give the Fed 74% Odds of Standing Pat in September",
-      "link": "https://decrypt.co/375821/prediction-fed-rate-change-september",
-      "summary": "Traders across Polymarket, Kalshi, and Myriad are leaning the same way: no change at the September meeting.",
-      "source": "Decrypt",
-      "date": "2026-08-17",
-      "date_human": "Aug 17, 2026",
-      "pub_ts": 1787001377,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/08/Federal-Reserve-Bank-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/Federal-Reserve-Bank-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/Federal-Reserve-Bank-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-18/339740c0b6289df4_base.jpg",
-      "image_local": "../assets/news/2026-08-18/339740c0b6289df4_base.jpg"
-    },
-    {
-      "title": "BitMart founder dismisses calls for audit as users report blocked funds, unpaid employees",
-      "link": "https://www.coindesk.com/business/2026/08/17/bitmart-founder-dismisses-calls-for-audit-as-users-report-blocked-funds-unpaid-employees",
-      "summary": "BitMart founder dismisses calls for audit as users report blocked funds, unpaid employees",
-      "source": "CoinDesk",
-      "date": "2026-08-17",
-      "date_human": "Aug 17, 2026",
-      "pub_ts": 1786984808,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/49be1ebccbc9a0cf5576123027361e2caf08bc8e-5999x3999.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/49be1ebccbc9a0cf5576123027361e2caf08bc8e-5999x3999.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-08-18/d11d1bb8bcb79f26_base.jpg",
-      "image_local": "../assets/news/2026-08-18/d11d1bb8bcb79f26_base.jpg"
+      "image": "../assets/news/2026-08-18/bb0d6f7c14cc9566_base.jpg",
+      "image_local": "../assets/news/2026-08-18/bb0d6f7c14cc9566_base.jpg"
     }
   ]
 }
