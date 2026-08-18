@@ -1,0 +1,196 @@
+{
+  "day_iso": "2026-08-18",
+  "generated_at_utc": "2026-08-18 04:05:51 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Alleged $165M crypto Ponzi mastermind faces US charges after Fiji deportation",
+      "link": "https://cointelegraph.com/news/edward-zimbardi-165m-crypto-ponzi-fiji-deportation",
+      "summary": "Prosecutors allege Edward Zimbardi collected crypto from thousands of investors, lost over $34 million on currency trades and spent at least $10 million personally.",
+      "source": "Cointelegraph",
+      "date": "2026-08-18",
+      "date_human": "Aug 18, 2026",
+      "pub_ts": 1787023286,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/judge-hammer-regulation-breaking-news.jpg"
+      ],
+      "image": "../assets/news/2026-08-18/3ea82c0e28bbad50_base.jpg",
+      "image_local": "../assets/news/2026-08-18/3ea82c0e28bbad50_base.jpg"
+    },
+    {
+      "title": "Solana treasury firm cuts shares 700-for-1 but leaves room for nearly 100 billion more",
+      "link": "https://cryptoslate.com/solana-treasury-firm-cuts-shares-700-for-1-but-leaves-room-for-nearly-100-billion-more/",
+      "summary": "Shareholders approved the vast capacity after the former BIT Mining’s NYSE suspension, but no specific use or exact post-consolidation share count was disclosed. The post Solana treasury firm cuts shares 700-for-1 but leaves room for nearly 100 billion more appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1787006418,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/solai-dilution-reservoir.jpg"
+      ],
+      "image": "../assets/news/2026-08-18/f594d737e74ae54e_base.jpg",
+      "image_local": "../assets/news/2026-08-18/f594d737e74ae54e_base.jpg"
+    },
+    {
+      "title": "Kraken Parent Payward Joins Glasswing, Gets Access to Claude Mythos to Hunt Security Flaws",
+      "link": "https://decrypt.co/375836/kraken-payward-anthropic-project-glasswing-claude-mythos",
+      "summary": "Payward is joining Project Glasswing, Anthropic’s program for giving vetted organizations access to its powerful cybersecurity AI.",
+      "source": "Decrypt",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1787006146,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-claude-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-claude-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/decrypt-style-anthropic-claude-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-18/deb67ffe16aa4275_base.jpg",
+      "image_local": "../assets/news/2026-08-18/deb67ffe16aa4275_base.jpg"
+    },
+    {
+      "title": "Kraken parent Payward joins Anthropic's Project Glasswing for AI security push",
+      "link": "https://www.coindesk.com/tech/2026/08/17/kraken-parent-payward-joins-anthropic-s-project-glasswing-for-ai-security-push",
+      "summary": "Kraken parent Payward joins Anthropic's Project Glasswing for AI security push",
+      "source": "CoinDesk",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1787004720,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/60eaa4392d735a85d254d5ac89ec08baf0b7a62e-2048x1152.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/60eaa4392d735a85d254d5ac89ec08baf0b7a62e-2048x1152.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-18/3262013c90472b09_base.jpg",
+      "image_local": "../assets/news/2026-08-18/3262013c90472b09_base.jpg"
+    },
+    {
+      "title": "‘Fabricated rumors' about BitMart founder, Binance bStocks dominate: Asia Express",
+      "link": "https://cointelegraph.com/magazine/fabricated-rumors-about-bitmart-founder-binance-bstocks-dominate-asia-express",
+      "summary": "Binance’s bStocks are the second largest tokenized stock issuer just two months after launch, and BitMart’s internal feud erupts into the spotlight ahead of its closure",
+      "source": "Cointelegraph",
+      "date": "2026-08-18",
+      "date_human": "Aug 18, 2026",
+      "pub_ts": 1787016517,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/asia-express-9.jpg"
+      ],
+      "image": "../assets/news/2026-08-18/461afe3021401829_base.jpg",
+      "image_local": "../assets/news/2026-08-18/461afe3021401829_base.jpg"
+    },
+    {
+      "title": "Crypto miner warns of potential bankruptcy as unclosed financing leaves $33 million in maturing debt exposed",
+      "link": "https://cryptoslate.com/crypto-miner-warns-of-potential-bankruptcy-as-unclosed-financing-leaves-33-million-in-maturing-debt-exposed/",
+      "summary": "The PIPE’s Oct. 10 outside date lands 21 days before the notes mature, with $9.2 million of June liquidity. The post Crypto miner warns of potential bankruptcy as unclosed financing leaves $33 million in maturing debt exposed appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1787002505,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/vulcan-debt-cliff.jpg"
+      ],
+      "image": "../assets/news/2026-08-18/460e92274c56cc93_base.jpg",
+      "image_local": "../assets/news/2026-08-18/460e92274c56cc93_base.jpg"
+    },
+    {
+      "title": "Minnesota Says xAI's Grok Created 'Marketplace for Digital Sexual Violence'",
+      "link": "https://decrypt.co/375828/minnesota-xai-grok-marketplace-digital-sexual-violence",
+      "summary": "Elon Musk’s AI firm says the state’s first-of-its-kind nudification ban violates the First Amendment. Minnesota says it regulates a tool, not speech.",
+      "source": "Decrypt",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1787004963,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/Grok-app-on-a-smartphone-screen-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/Grok-app-on-a-smartphone-screen-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/Grok-app-on-a-smartphone-screen-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-18/b96aa4734704b2be_base.jpg",
+      "image_local": "../assets/news/2026-08-18/b96aa4734704b2be_base.jpg"
+    },
+    {
+      "title": "Saylor says share buyback isn't priority as Strategy builds $4.8 billion cash reserve",
+      "link": "https://www.coindesk.com/markets/2026/08/17/saylor-says-share-buyback-isn-t-a-priority-as-it-builds-its-usd4-8-billion-cash-reserve-though-a-possibility",
+      "summary": "Saylor says share buyback isn't priority as Strategy builds $4.8 billion cash reserve",
+      "source": "CoinDesk",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786992827,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/dd98498dbda09f933fbeac48aac3591d14c0deee-3018x1697.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/dd98498dbda09f933fbeac48aac3591d14c0deee-3018x1697.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-18/2a78316584d5de94_base.jpg",
+      "image_local": "../assets/news/2026-08-18/2a78316584d5de94_base.jpg"
+    },
+    {
+      "title": "OCC approves Trump family crypto company for trust charter",
+      "link": "https://cointelegraph.com/news/occ-donald-trump-world-liberty-financial-trust-charter",
+      "summary": "The US financial regulator gave conditional approval for World Liberty Financial’s charter bid as ten Democrats signed onto a bill to “prevent corruption in banking applications.“",
+      "source": "Cointelegraph",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1787001450,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-donald-trump-and-wlfi.jpg"
+      ],
+      "image": "../assets/news/2026-08-18/7c370d77111880dd_base.jpg",
+      "image_local": "../assets/news/2026-08-18/7c370d77111880dd_base.jpg"
+    },
+    {
+      "title": "Forced liquidations begin in 30 days for business crypto accounts missing new verification rules on Bybit",
+      "link": "https://cryptoslate.com/forced-liquidations-begin-in-30-days-for-business-crypto-accounts-missing-new-verification-rules-on-bybit/",
+      "summary": "Only notified business users are covered; access restrictions follow Aug. 21 and market-price liquidation starts Sept. 21. The post Forced liquidations begin in 30 days for business crypto accounts missing new verification rules on Bybit appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786998606,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bybit-brazil-liquidation-countdown.jpg"
+      ],
+      "image": "../assets/news/2026-08-18/f17910ee64de6ecf_base.jpg",
+      "image_local": "../assets/news/2026-08-18/f17910ee64de6ecf_base.jpg"
+    },
+    {
+      "title": "Prediction Markets Give the Fed 74% Odds of Standing Pat in September",
+      "link": "https://decrypt.co/375821/prediction-fed-rate-change-september",
+      "summary": "Traders across Polymarket, Kalshi, and Myriad are leaning the same way: no change at the September meeting.",
+      "source": "Decrypt",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1787001377,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/Federal-Reserve-Bank-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/Federal-Reserve-Bank-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/Federal-Reserve-Bank-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-18/339740c0b6289df4_base.jpg",
+      "image_local": "../assets/news/2026-08-18/339740c0b6289df4_base.jpg"
+    },
+    {
+      "title": "BitMart founder dismisses calls for audit as users report blocked funds, unpaid employees",
+      "link": "https://www.coindesk.com/business/2026/08/17/bitmart-founder-dismisses-calls-for-audit-as-users-report-blocked-funds-unpaid-employees",
+      "summary": "BitMart founder dismisses calls for audit as users report blocked funds, unpaid employees",
+      "source": "CoinDesk",
+      "date": "2026-08-17",
+      "date_human": "Aug 17, 2026",
+      "pub_ts": 1786984808,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/49be1ebccbc9a0cf5576123027361e2caf08bc8e-5999x3999.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/49be1ebccbc9a0cf5576123027361e2caf08bc8e-5999x3999.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-08-18/d11d1bb8bcb79f26_base.jpg",
+      "image_local": "../assets/news/2026-08-18/d11d1bb8bcb79f26_base.jpg"
+    }
+  ]
+}
