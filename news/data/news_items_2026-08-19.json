@@ -1,0 +1,193 @@
+{
+  "day_iso": "2026-08-19",
+  "generated_at_utc": "2026-08-19 10:05:30 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "SEC opens door to day-one crypto insider sales that Senate draft would block",
+      "link": "https://cryptoslate.com/sec-opens-door-to-day-one-crypto-insider-sales-that-senate-draft-would-block/",
+      "summary": "The SEC's new crypto fundraising proposal deliberately treats tokens as free to trade as soon as a buyer acquires them, unless the issuer or another law says otherwise. Insiders typically know more than the public while a token project is still being built, and their incentives do not always line up with everyone else's. The […] The post SEC opens door to day-one crypto insider sales that Senate draft would block appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-19",
+      "date_human": "Aug 19, 2026",
+      "pub_ts": 1787132712,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/crypto-lockup-cage-debate.jpg?ver=1787131451"
+      ],
+      "image": "../assets/news/2026-08-19/1115b7e31293d636_base.jpg",
+      "image_local": "../assets/news/2026-08-19/1115b7e31293d636_base.jpg"
+    },
+    {
+      "title": "Winklevoss-Backed Cypherpunk Launches 'World's Largest' Zcash Mining Fleet",
+      "link": "https://decrypt.co/375926/winklevoss-cypherpunk-zcash-mining-fleet",
+      "summary": "The Nasdaq-listed privacy firm launched Cypherpunk Mining through a $33.33 million equity deal with Winklevoss Capital, adding roughly 18% of the Zcash network's hashrate to accelerate its treasury ambitions.",
+      "source": "Decrypt",
+      "date": "2026-08-19",
+      "date_human": "Aug 19, 2026",
+      "pub_ts": 1787131863,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/03/cameron-tyler-winklevoss-twins-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/cameron-tyler-winklevoss-twins-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/cameron-tyler-winklevoss-twins-decrypt-style-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-19/ecb6600f283cde62_base.jpg",
+      "image_local": "../assets/news/2026-08-19/ecb6600f283cde62_base.jpg"
+    },
+    {
+      "title": "OpenAI trails Anthropic as losses deepen and Altman pauses frontier AI training",
+      "link": "https://www.coindesk.com/markets/2026/08/19/openai-trails-anthropic-as-losses-deepen-and-altman-pauses-frontier-ai-training",
+      "summary": "OpenAI trails Anthropic as losses deepen and Altman pauses frontier AI training",
+      "source": "CoinDesk",
+      "date": "2026-08-19",
+      "date_human": "Aug 19, 2026",
+      "pub_ts": 1787130622,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/2fcf1aecd60b99a72f50543931ecd3025187c591-3000x2000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-19/278d661708c9cba7_base.jpg",
+      "image_local": "../assets/news/2026-08-19/278d661708c9cba7_base.jpg"
+    },
+    {
+      "title": "Arthur Hayes takes CEO role at Flop Labs ahead of Q4 airdrop",
+      "link": "https://cointelegraph.com/news/arthur-hayes-ceo-role-flop-labs-q4-airdrop",
+      "summary": "Hayes revealed his new role as Flop Labs CEO and teased a “massive airdrop” from the AI inference protocol in the fourth quarter of 2026.",
+      "source": "Cointelegraph",
+      "date": "2026-08-19",
+      "date_human": "Aug 19, 2026",
+      "pub_ts": 1787128491,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/arthur-hayes3.jpg"
+      ],
+      "image": "../assets/news/2026-08-19/17c323abc53ebe37_base.jpg",
+      "image_local": "../assets/news/2026-08-19/17c323abc53ebe37_base.jpg"
+    },
+    {
+      "title": "This Solana treasury company may sell SOL as a DeFi loan ties up more than half its treasury",
+      "link": "https://cryptoslate.com/this-solana-treasury-company-may-sell-sol-as-a-defi-loan-ties-up-more-than-half-its-treasury/",
+      "summary": "Even after its estimated C$22 million unencumbered crypto, roughly C$12.2 million of the illustrative gap remains. The post This Solana treasury company may sell SOL as a DeFi loan ties up more than half its treasury appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-19",
+      "date_human": "Aug 19, 2026",
+      "pub_ts": 1787128245,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/sol-strategies-liability-jump.jpg"
+      ],
+      "image": "../assets/news/2026-08-19/f4d839e30f0beb81_base.jpg",
+      "image_local": "../assets/news/2026-08-19/f4d839e30f0beb81_base.jpg"
+    },
+    {
+      "title": "Pennsylvania Cracks Down on AI Data Centers as Backlash Grows",
+      "link": "https://decrypt.co/375923/pennsylvania-ai-data-centers-backlash",
+      "summary": "Gov. Josh Shapiro ordered new restrictions on large data centers aimed at shielding residents from higher electricity costs and giving communities more control over proposed projects.",
+      "source": "Decrypt",
+      "date": "2026-08-18",
+      "date_human": "Aug 18, 2026",
+      "pub_ts": 1787093764,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-15-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-15-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-15-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-19/ccdcc297dc10236a_base.jpg",
+      "image_local": "../assets/news/2026-08-19/ccdcc297dc10236a_base.jpg"
+    },
+    {
+      "title": "Live updates: Bitcoin remains above $64,000 as oil rises and the Kospi tumbles 6%",
+      "link": "https://www.coindesk.com/markets/2026/08/19/live-updates-bitcoin-holds-firm-above-usd64-000-as-south-korea-s-kospi-sinks-5-8",
+      "summary": "Live updates: Bitcoin remains above $64,000 as oil rises and the Kospi tumbles 6%",
+      "source": "CoinDesk",
+      "date": "2026-08-19",
+      "date_human": "Aug 19, 2026",
+      "pub_ts": 1787130345,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/7e419388b6426c6ba82d7484f7cca17b98b220bf-1280x853.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-19/efabd3818035cf67_base.jpg",
+      "image_local": "../assets/news/2026-08-19/efabd3818035cf67_base.jpg"
+    },
+    {
+      "title": "Bitcoin ETFs add $189M as August net inflows approach $1B",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-august-net-inflows-approach-1b",
+      "summary": "US spot Bitcoin ETFs took in $189 million on Tuesday, lifting August net inflows to $951 million, while Ether ETFs added $71.5 million.",
+      "source": "Cointelegraph",
+      "date": "2026-08-19",
+      "date_human": "Aug 19, 2026",
+      "pub_ts": 1787126356,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/bitcoin-investment-pump.jpg"
+      ],
+      "image": "../assets/news/2026-08-19/4c44701c09e06c88_base.jpg",
+      "image_local": "../assets/news/2026-08-19/4c44701c09e06c88_base.jpg"
+    },
+    {
+      "title": "Ethereum's 12-GPU proving problem just got a 4-GPU answer",
+      "link": "https://cryptoslate.com/ethereums-12-gpu-proving-problem-just-got-a-4-gpu-answer/",
+      "summary": "Its claimed 9.62-second p99 fits Ethereum's latency target, while workload, proof and whole-system power details remain undisclosed. The post Ethereum’s 12-GPU proving problem just got a 4-GPU answer appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-19",
+      "date_human": "Aug 19, 2026",
+      "pub_ts": 1787122812,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/zisk-gpu-inspection-case.jpg"
+      ],
+      "image": "../assets/news/2026-08-19/1b355eb3369e5b7b_base.jpg",
+      "image_local": "../assets/news/2026-08-19/1b355eb3369e5b7b_base.jpg"
+    },
+    {
+      "title": "Mozilla Tests an AI 'Smart Window' in Firefox—But Only If You Opt In",
+      "link": "https://decrypt.co/375903/mozilla-ai-smart-firefox-opt-in",
+      "summary": "The optional window puts an assistant of your choice next to your tabs, with a switch to disable it.",
+      "source": "Decrypt",
+      "date": "2026-08-18",
+      "date_human": "Aug 18, 2026",
+      "pub_ts": 1787092264,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/firefox-decrypt-style-scaled-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/firefox-decrypt-style-scaled-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/firefox-decrypt-style-scaled-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-19/003b8a9385fd9c5f_base.jpg",
+      "image_local": "../assets/news/2026-08-19/003b8a9385fd9c5f_base.jpg"
+    },
+    {
+      "title": "Maya Protocol exploit drains bitcoin and other assets as pool value drops $11 million",
+      "link": "https://www.coindesk.com/markets/2026/08/19/maya-protocol-exploit-drains-bitcoin-and-other-assets-as-pool-value-drops-usd11-million",
+      "summary": "Maya Protocol exploit drains bitcoin and other assets as pool value drops $11 million",
+      "source": "CoinDesk",
+      "date": "2026-08-19",
+      "date_human": "Aug 19, 2026",
+      "pub_ts": 1787121371,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/5844591d4fc53908b4ecc1fda0511af88a269620-6024x4024.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-19/8359eb24855d6337_base.jpg",
+      "image_local": "../assets/news/2026-08-19/8359eb24855d6337_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-19",
+      "date_human": "Aug 19, 2026",
+      "pub_ts": 1787118829,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-19/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-19/57bd1a60f4d67ba1_base.jpg"
+    }
+  ]
+}
