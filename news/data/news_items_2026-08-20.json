@@ -1,0 +1,193 @@
+{
+  "day_iso": "2026-08-20",
+  "generated_at_utc": "2026-08-20 10:05:24 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Trump wants the US to become a Bitcoin whale, but Congress controls the wallet",
+      "link": "https://cryptoslate.com/trump-wants-the-us-to-become-a-bitcoin-whale-but-congress-controls-the-wallet/",
+      "summary": "President Donald Trump said on Aug. 20 that the US is considering accumulating sizable amounts of Bitcoin and other cryptocurrencies. Current law gives his administration several ways to increase federal crypto holdings, though no public authority gives Treasury a funded program for multibillion-dollar open-market purchases. For Bitcoin, Trump's 2025 executive order already directs Treasury and […] The post Trump wants the US to become a Bitcoin whale, but Congress controls the wallet appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-20",
+      "date_human": "Aug 20, 2026",
+      "pub_ts": 1787218811,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-reserve-sorting-machine.jpg"
+      ],
+      "image": "../assets/news/2026-08-20/9d02681fcb902e83_base.jpg",
+      "image_local": "../assets/news/2026-08-20/9d02681fcb902e83_base.jpg"
+    },
+    {
+      "title": "Banking Regulator Races to Finalize GENIUS Act Stablecoin Rules",
+      "link": "https://decrypt.co/376048/banking-regulator-occ-genius-act-stablecoin-rules-november",
+      "summary": "OCC Comptroller Jonathan Gould told the Wyoming Blockchain Symposium the agency is moving at a rapid pace to beat a January statutory deadline, after already missing an earlier July target.",
+      "source": "Decrypt",
+      "date": "2026-08-20",
+      "date_human": "Aug 20, 2026",
+      "pub_ts": 1787218263,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/10/jonathan-gould-office-of-the-comptroller-of-the-currency-occ-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/10/jonathan-gould-office-of-the-comptroller-of-the-currency-occ-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/jonathan-gould-office-of-the-comptroller-of-the-currency-occ-decrypt-style-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-20/99a4b9c7a0c7e556_base.jpg",
+      "image_local": "../assets/news/2026-08-20/99a4b9c7a0c7e556_base.jpg"
+    },
+    {
+      "title": "GnosisDAO approves Gnosis Chain for Ethereum Economic Zone",
+      "link": "https://cointelegraph.com/news/gnosisdao-approves-gnosis-chain-ethereum-economic-zone",
+      "summary": "Gnosis Chain was approved to transition to an EEZ rollup, enabling it to settle directly to Ethereum rather than continue with an independent validator set.",
+      "source": "Cointelegraph",
+      "date": "2026-08-20",
+      "date_human": "Aug 20, 2026",
+      "pub_ts": 1787216380,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-crypto-derivatives-see-explosive-growth-with-interest-in-eth-especially-high.jpg"
+      ],
+      "image": "../assets/news/2026-08-20/824bf683e9b817d5_base.jpg",
+      "image_local": "../assets/news/2026-08-20/824bf683e9b817d5_base.jpg"
+    },
+    {
+      "title": "Live updates: Bitcoin hits $71,000, ETFs draw $700 million in biggest inflows in months",
+      "link": "https://www.coindesk.com/tech/2026/08/20/live-updates-bitcoin-etfs-draw-usd517-million-ether-pulls-usd189-million-in-biggest-inflows-in-months",
+      "summary": "Live updates: Bitcoin hits $71,000, ETFs draw $700 million in biggest inflows in months",
+      "source": "CoinDesk",
+      "date": "2026-08-20",
+      "date_human": "Aug 20, 2026",
+      "pub_ts": 1787206877,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/ca0ed25f53e417eaa5bdbad915398aaf0f884b27-1080x1006.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-20/1c893714184df75e_base.jpg",
+      "image_local": "../assets/news/2026-08-20/1c893714184df75e_base.jpg"
+    },
+    {
+      "title": "A crypto network just voted to abandon its standalone blockchain and unlock 27% of its token supply",
+      "link": "https://cryptoslate.com/a-crypto-network-just-voted-to-abandon-its-standalone-blockchain-and-unlock-27-of-its-token-supply/",
+      "summary": "GnosisDAO has approved a plan to retire Gnosis Chain’s standalone Layer 1, a shift that will unlock roughly 350,000 staked GNO. Under GIP-153, Gnosis Chain will become a zero-knowledge-proven Ethereum Economic Zone rollup that settles directly to Ethereum every block. The network will eventually retire its independent validator set and inherit security from Ethereum validators […] The post A crypto network just voted to abandon its standalone blockchain and unlock 27% of its token supply appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-20",
+      "date_human": "Aug 20, 2026",
+      "pub_ts": 1787214625,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/gnosis-validator-model-retirement.jpg"
+      ],
+      "image": "../assets/news/2026-08-20/34dde6cd5f78cbed_base.jpg",
+      "image_local": "../assets/news/2026-08-20/34dde6cd5f78cbed_base.jpg"
+    },
+    {
+      "title": "Bitcoin's Sharpest Rally in Five Months Flips Markets From Bearish to Coin Flip",
+      "link": "https://decrypt.co/376030/bitcoin-rally-flips-markets-bearish-coin-flip",
+      "summary": "Bitcoin's steepest daily gain since March caught traders off guard, and Myriad's pump-or-dump market swung from 70-30 odds to nearly even in a single day.",
+      "source": "Decrypt",
+      "date": "2026-08-19",
+      "date_human": "Aug 19, 2026",
+      "pub_ts": 1787177881,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin_bull-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin_bull-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin_bull-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-20/754c61d184ab3108_base.jpg",
+      "image_local": "../assets/news/2026-08-20/754c61d184ab3108_base.jpg"
+    },
+    {
+      "title": "BitGo Korea secures VASP registration for institutional crypto custody",
+      "link": "https://cointelegraph.com/news/bitgo-korea-vasp-registration-institutional-crypto-custody",
+      "summary": "Regulators reportedly accepted BitGo Korea’s registration on Tuesday, two days before stricter VASP entry requirements took effect.",
+      "source": "Cointelegraph",
+      "date": "2026-08-20",
+      "date_human": "Aug 20, 2026",
+      "pub_ts": 1787212120,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-what-is-a-crypto-vault-and-how-does-it-work.png"
+      ],
+      "image": "../assets/news/2026-08-20/9f5a47d62bce7c7e_base.jpg",
+      "image_local": "../assets/news/2026-08-20/9f5a47d62bce7c7e_base.jpg"
+    },
+    {
+      "title": "Trader who made $49 million shorting crypto lost $24 million on ether in 12 seconds",
+      "link": "https://www.coindesk.com/markets/2026/08/20/trader-who-made-usd49-million-shorting-crypto-lost-usd24-million-on-ether-in-12-seconds",
+      "summary": "Trader who made $49 million shorting crypto lost $24 million on ether in 12 seconds",
+      "source": "CoinDesk",
+      "date": "2026-08-20",
+      "date_human": "Aug 20, 2026",
+      "pub_ts": 1787204454,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/8ed9eae23e39b33ac663078c2aadf3dd5a909cc2-1497x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-20/58097e037e9daaf3_base.jpg",
+      "image_local": "../assets/news/2026-08-20/58097e037e9daaf3_base.jpg"
+    },
+    {
+      "title": "Bitcoin flashes 8 capitulation signals, but traders just spent $552 million protecting against another crash",
+      "link": "https://cryptoslate.com/bitcoin-flashes-8-capitulation-signals-but-traders-just-spent-552-million-protecting-against-another-crash/",
+      "summary": "Bitcoin is showing some of the strongest capitulation signals of the current downturn, suggesting the selloff may be entering a later stage even as the market offers little evidence of an imminent rebound. Eight of the 12 indicators tracked by VanEck are currently flashing capitulation, while all 12 reached extreme levels at some point during […] The post Bitcoin flashes 8 capitulation signals, but traders just spent $552 million protecting against another crash appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-20",
+      "date_human": "Aug 20, 2026",
+      "pub_ts": 1787209201,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-capitulation-risk-hedge.jpg"
+      ],
+      "image": "../assets/news/2026-08-20/3a0c5d657a84b41a_base.jpg",
+      "image_local": "../assets/news/2026-08-20/3a0c5d657a84b41a_base.jpg"
+    },
+    {
+      "title": "Trump Says AI Could Be 'Bigger Than the Internet' as He Pushes Light-Touch Regulation",
+      "link": "https://decrypt.co/376026/trump-ai-bigger-than-internet-light-touch-regulation",
+      "summary": "The president said the U.S. is far ahead of China in artificial intelligence and defended the rapid construction of data centers and power plants needed to fuel the industry.",
+      "source": "Decrypt",
+      "date": "2026-08-19",
+      "date_human": "Aug 19, 2026",
+      "pub_ts": 1787175410,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-09-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-09-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Trump-decrypt-style-09-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-20/fbda9a34c12bbd06_base.jpg",
+      "image_local": "../assets/news/2026-08-20/fbda9a34c12bbd06_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-20",
+      "date_human": "Aug 20, 2026",
+      "pub_ts": 1787205830,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-20/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-20/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Bearish crypto bets lose record $3 billion as bitcoin tops $71,000",
+      "link": "https://www.coindesk.com/markets/2026/08/20/bearish-crypto-bets-lose-record-usd2-7-billion-as-bitcoin-surges-toward-usd70-000",
+      "summary": "Bearish crypto bets lose record $3 billion as bitcoin tops $71,000",
+      "source": "CoinDesk",
+      "date": "2026-08-20",
+      "date_human": "Aug 20, 2026",
+      "pub_ts": 1787200196,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/9134585356bb1d8116cb93f749e94c54efd20237-1024x768.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-20/527dfb4a20bdb532_base.jpg",
+      "image_local": "../assets/news/2026-08-20/527dfb4a20bdb532_base.jpg"
+    }
+  ]
+}
