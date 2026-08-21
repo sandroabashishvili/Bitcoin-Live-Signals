@@ -4,7 +4,7 @@
   const loader = document.currentScript;
   const measurementId = loader?.dataset.measurementId || "G-PLE3C4PMNF";
   const consentKey = "smartSignalHubAnalyticsConsent";
-  const productionHost = "sandroabashishvili.github.io";
+  const productionHost = "sandro-abashishvili.de";
   const privacyUrl = "/Bitcoin-Live-Signals/legal/datenschutz.html";
   let banner = null;
   let analyticsLoaded = false;

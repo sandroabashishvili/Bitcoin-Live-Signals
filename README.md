@@ -12,7 +12,7 @@ Das Projekt verbindet Datenverarbeitung, regelbasierte Entscheidungen,
 Positionssimulation, Diagnosewerkzeuge und automatisch erzeugte Web-Dashboards
 in einem durchgängigen System.
 
-**Live:** [sandroabashishvili.github.io/Bitcoin-Live-Signals](https://sandroabashishvili.github.io/Bitcoin-Live-Signals/)
+**Live:** [sandro-abashishvili.de/Bitcoin-Live-Signals](https://sandro-abashishvili.de/Bitcoin-Live-Signals/)
 
 ## Was die Plattform zeigt
 
@@ -62,7 +62,7 @@ Das Projekt demonstriert unter anderem:
 
 Sandro Abashishvili
 
-[Portfolio](https://sandroabashishvili.github.io/) ·
+[Portfolio](https://sandro-abashishvili.de/) ·
 [GitHub](https://github.com/sandroabashishvili) ·
 [LinkedIn](https://www.linkedin.com/in/aleksandre-abashishvili-03417617a/)
 
