@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-23",
-  "generated_at_utc": "2026-08-23 10:05:12 UTC",
+  "generated_at_utc": "2026-08-23 16:05:08 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,19 +16,90 @@
   "count": 12,
   "items": [
     {
-      "title": "America is creating a new class of crypto banks – but they aren't really banks",
-      "link": "https://cryptoslate.com/america-is-creating-a-new-class-of-crypto-banks-but-they-arent-really-banks/",
-      "summary": "Circle now has a federal bank charter. However, the charter provides no ordinary checking accounts, FDIC-insured savings accounts, or mortgages. Circle National Trust is part of a new federal cohort built around custody, fiduciary administration, stablecoin reserves, and settlement. Ripple, BitGo, Fidelity Digital Assets, Paxos, Bridge, Crypto.com, Coinbase, Morgan Stanley and World Liberty Financial have […] The post America is creating a new class of crypto banks – but they aren’t really banks appeared first on CryptoSlate.",
+      "title": "How a $20M crypto payout left a micro-cap firm with under $83K in usable cash reserves",
+      "link": "https://cryptoslate.com/how-a-20m-crypto-payout-left-a-micro-cap-firm-with-under-83k-in-usable-cash-reserves/",
+      "summary": "The August 21 filing said 205,512.5 tokens remained unmonetized, with their receipt-date fair value still unresolved. The post How a $20M crypto payout left a micro-cap firm with under $83K in usable cash reserves appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-23",
       "date_human": "Aug 23, 2026",
-      "pub_ts": 1787475649,
+      "pub_ts": 1787499911,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/floating-crypto-trust-bank.jpg?ver=1787477253",
-        "https://cryptoslate.com/wp-content/uploads/2026/08/floating-crypto-trust-bank.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/zk-awa-stranded-assets.jpg"
       ],
-      "image": "../assets/news/2026-08-23/4cce8a36be1b6efb_base.jpg",
-      "image_local": "../assets/news/2026-08-23/4cce8a36be1b6efb_base.jpg"
+      "image": "../assets/news/2026-08-23/499f768fcc0906cc_base.jpg",
+      "image_local": "../assets/news/2026-08-23/499f768fcc0906cc_base.jpg"
+    },
+    {
+      "title": "Fed study finds crypto investors driven by beliefs, easily swayed by returns",
+      "link": "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns",
+      "summary": "A Federal Reserve Bank of Cleveland study finds crypto investors hold sharply different views on returns and risk, while information about Bitcoin’s past gains can increase both desired allocations and actual crypto purchases.",
+      "source": "Cointelegraph",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787499053,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-the-future-of-public-finance-will-be-crypto-assets-for-liquid-democracy.jpg"
+      ],
+      "image": "../assets/news/2026-08-23/2d70be3f407d9d4d_base.jpg",
+      "image_local": "../assets/news/2026-08-23/2d70be3f407d9d4d_base.jpg"
+    },
+    {
+      "title": "Robot Brains Could Have Their ‘ChatGPT Moment' by 2027, ACE Robotics Chairman Says",
+      "link": "https://decrypt.co/376265/robot-brains-chatgpt-moment-ace-robotics",
+      "summary": "The breakthrough could come from AI models that help robots understand and interact with the physical world, though widespread adoption may still be years away.",
+      "source": "Decrypt",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787495464,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-robots-decrypt-style-01-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-robots-decrypt-style-01-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-robots-decrypt-style-01-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-23/89651e95c1d4f471_base.jpg",
+      "image_local": "../assets/news/2026-08-23/89651e95c1d4f471_base.jpg"
+    },
+    {
+      "title": "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
+      "link": "https://www.coindesk.com/business/2026/08/22/crypto-exchange-bitmart-weighs-partial-restart-and-creditor-payouts-weeks-after-announcing-shutdown",
+      "summary": "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
+      "source": "CoinDesk",
+      "date": "2026-08-22",
+      "date_human": "Aug 22, 2026",
+      "pub_ts": 1787411801,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/420f2af41b8e84b394d9798060c7ccfa92703ed7-2280x1284.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-23/5684e62bc0f35134_base.jpg",
+      "image_local": "../assets/news/2026-08-23/5684e62bc0f35134_base.jpg"
+    },
+    {
+      "title": "The US approved high-leverage Bitcoin trading while crypto founders remain legally blocked from raising funds",
+      "link": "https://cryptoslate.com/the-us-approved-high-leverage-bitcoin-trading-while-crypto-founders-remain-legally-blocked-from-raising-funds/",
+      "summary": "On May 29, the CFTC approved a Bitcoin perpetual contract for a regulated US exchange. Almost three months later, on Aug. 18, the SEC proposed a legal route through which crypto projects could someday raise money from the public under rules written for token networks. That's a pretty unusual order in which Washington is rebuilding […] The post The US approved high-leverage Bitcoin trading while crypto founders remain legally blocked from raising funds appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787495439,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-regulatory-green-light.jpg"
+      ],
+      "image": "../assets/news/2026-08-23/0ad99d1da2d6d8a7_base.jpg",
+      "image_local": "../assets/news/2026-08-23/0ad99d1da2d6d8a7_base.jpg"
+    },
+    {
+      "title": "MiCA is coming for DeFi vaults, but regulation will be difficult",
+      "link": "https://cointelegraph.com/magazine/mica-is-coming-for-defi-vaults-but-regulation-will-be-difficult",
+      "summary": "Brussels is reviewing whether crypto lending should fall under MiCA, but DeFi lending vaults are making it harder to determine who, exactly, should be regulated.",
+      "source": "Cointelegraph",
+      "date": "2026-08-22",
+      "date_human": "Aug 22, 2026",
+      "pub_ts": 1787405400,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/defi-lending-vaults-live-in-micas-blind-spot-but-brussels-may-be-about-to-close-it.jpg"
+      ],
+      "image": "../assets/news/2026-08-23/294dade3a35d2de2_base.jpg",
+      "image_local": "../assets/news/2026-08-23/294dade3a35d2de2_base.jpg"
     },
     {
       "title": "Microsoft Fixes 'Perfect 10' Exploit That Could Have Let Hackers Run Code Remotely",
@@ -47,46 +118,46 @@
       "image_local": "../assets/news/2026-08-23/3aefefba7bd5a114_base.jpg"
     },
     {
-      "title": "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
-      "link": "https://www.coindesk.com/business/2026/08/22/crypto-exchange-bitmart-weighs-partial-restart-and-creditor-payouts-weeks-after-announcing-shutdown",
-      "summary": "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
+      "title": "Web3 gaming network Sandbox stops Base and BNB chain bridging after exploit",
+      "link": "https://www.coindesk.com/web3/2026/08/22/web3-gaming-network-sandbox-stops-base-and-bnb-chain-bridging-after-exploit",
+      "summary": "Web3 gaming network Sandbox stops Base and BNB chain bridging after exploit",
       "source": "CoinDesk",
       "date": "2026-08-22",
       "date_human": "Aug 22, 2026",
-      "pub_ts": 1787411801,
+      "pub_ts": 1787407817,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/420f2af41b8e84b394d9798060c7ccfa92703ed7-2280x1284.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/c910fc1d77a080b35fa9ee1b719813158511ee07-1600x900.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-23/5684e62bc0f35134_base.jpg",
-      "image_local": "../assets/news/2026-08-23/5684e62bc0f35134_base.jpg"
+      "image": "../assets/news/2026-08-23/3b25463ec6032d45_base.jpg",
+      "image_local": "../assets/news/2026-08-23/3b25463ec6032d45_base.jpg"
     },
     {
-      "title": "MiCA is coming for DeFi vaults, but regulation will be difficult",
-      "link": "https://cointelegraph.com/magazine/mica-is-coming-for-defi-vaults-but-regulation-will-be-difficult",
-      "summary": "Brussels is reviewing whether crypto lending should fall under MiCA, but DeFi lending vaults are making it harder to determine who, exactly, should be regulated.",
-      "source": "Cointelegraph",
-      "date": "2026-08-22",
-      "date_human": "Aug 22, 2026",
-      "pub_ts": 1787405400,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/defi-lending-vaults-live-in-micas-blind-spot-but-brussels-may-be-about-to-close-it.jpg"
-      ],
-      "image": "../assets/news/2026-08-23/294dade3a35d2de2_base.jpg",
-      "image_local": "../assets/news/2026-08-23/294dade3a35d2de2_base.jpg"
-    },
-    {
-      "title": "Local's access to global crypto platforms could end under Nigeria's proposed capital floor",
-      "link": "https://cryptoslate.com/seamless-access-to-global-crypto-platforms-could-evaporate-for-locals-under-nigerias-proposed-%e2%82%a62-billion-capital-floor/",
-      "summary": "Exchanges and custodians would need ₦2 billion in capital, while foreign-currency stablecoins face 120% backing. The post Local’s access to global crypto platforms could end under Nigeria’s proposed capital floor appeared first on CryptoSlate.",
+      "title": "Layer 1 network dilutes supply by 75% overnight to fund survival after main developer quits",
+      "link": "https://cryptoslate.com/layer-1-network-dilutes-supply-by-75-overnight-to-fund-survival-after-main-developer-quits/",
+      "summary": "The executed mint reduced the proposal’s pre-existing supply base to about 25.1% of its estimated post-mint total. The post Layer 1 network dilutes supply by 75% overnight to fund survival after main developer quits appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-23",
       "date_human": "Aug 23, 2026",
-      "pub_ts": 1787468407,
+      "pub_ts": 1787491252,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/offshore-platform-drag.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/scrt-continuance-under-pressure.jpg"
       ],
-      "image": "../assets/news/2026-08-23/53ff8cea7661d317_base.jpg",
-      "image_local": "../assets/news/2026-08-23/53ff8cea7661d317_base.jpg"
+      "image": "../assets/news/2026-08-23/877916e77029320c_base.jpg",
+      "image_local": "../assets/news/2026-08-23/877916e77029320c_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-21",
+      "date_human": "Aug 21, 2026",
+      "pub_ts": 1787345328,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-23/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-23/57bd1a60f4d67ba1_base.jpg"
     },
     {
       "title": "AI Has Made Bitcoin Software a Target—This Group Is Fighting Back",
@@ -105,64 +176,6 @@
       "image_local": "../assets/news/2026-08-23/5da8e502bb2e2902_base.jpg"
     },
     {
-      "title": "Web3 gaming network Sandbox stops Base and BNB chain bridging after exploit",
-      "link": "https://www.coindesk.com/web3/2026/08/22/web3-gaming-network-sandbox-stops-base-and-bnb-chain-bridging-after-exploit",
-      "summary": "Web3 gaming network Sandbox stops Base and BNB chain bridging after exploit",
-      "source": "CoinDesk",
-      "date": "2026-08-22",
-      "date_human": "Aug 22, 2026",
-      "pub_ts": 1787407817,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/c910fc1d77a080b35fa9ee1b719813158511ee07-1600x900.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-23/3b25463ec6032d45_base.jpg",
-      "image_local": "../assets/news/2026-08-23/3b25463ec6032d45_base.jpg"
-    },
-    {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-08-21",
-      "date_human": "Aug 21, 2026",
-      "pub_ts": 1787345328,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-08-23/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-08-23/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "Coldcard now requires 65 key presses after seed exploit, while exposed funds still must move",
-      "link": "https://cryptoslate.com/coldcard-now-requires-65-key-presses-after-seed-exploit-while-exposed-funds-still-must-move/",
-      "summary": "Firmware 5.6.1 and 1.5.1Q harden new wallet creation but cannot repair a seed made on an affected release. The post Coldcard now requires 65 key presses after seed exploit, while exposed funds still must move appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-23",
-      "date_human": "Aug 23, 2026",
-      "pub_ts": 1787461207,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/coldcard-keypress-seed-security.jpg"
-      ],
-      "image": "../assets/news/2026-08-23/1b44e5d7854ea731_base.jpg",
-      "image_local": "../assets/news/2026-08-23/1b44e5d7854ea731_base.jpg"
-    },
-    {
-      "title": "A Third of the Post-ChatGPT Web Is AI-Written, Pew Finds",
-      "link": "https://decrypt.co/376271/chatgpt-web-ai-written-pew",
-      "summary": "Pew Research scanned nearly half a million webpages with an AI detector and found the fingerprints concentrated on .com domains—and multiplying fast.",
-      "source": "Decrypt",
-      "date": "2026-08-22",
-      "date_human": "Aug 22, 2026",
-      "pub_ts": 1787405463,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-04-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-04-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-04-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-23/1353e58b1cb8670e_base.jpg",
-      "image_local": "../assets/news/2026-08-23/1353e58b1cb8670e_base.jpg"
-    },
-    {
       "title": "Tokenized stocks risk repeating Wall Street's 1960s ‘paper crisis,' Fairmint CEO says",
       "link": "https://www.coindesk.com/tech/2026/08/22/tokenized-stocks-risk-repeating-wall-street-s-1960s-paper-crisis-fairmint-ceo-says",
       "summary": "Tokenized stocks risk repeating Wall Street's 1960s ‘paper crisis,' Fairmint CEO says",
@@ -175,20 +188,6 @@
       ],
       "image": "../assets/news/2026-08-23/13060f2d5d72a322_base.jpg",
       "image_local": "../assets/news/2026-08-23/13060f2d5d72a322_base.jpg"
-    },
-    {
-      "title": "Onchain, in court: What happened in crypto legal news this week",
-      "link": "https://cointelegraph.com/news/on-chain-in-court-crypto-legal-news5",
-      "summary": "The CFTC ordered a trading ban for former Alameda and FTX executives, and US prosecutors opposed a motion from a US soldier accused of profiting from the removal of Nicolas Maduro.",
-      "source": "Cointelegraph",
-      "date": "2026-08-21",
-      "date_human": "Aug 21, 2026",
-      "pub_ts": 1787339967,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-5-key-highlights-of-the-secs-lawsuit-against-binance-1280x853.webp"
-      ],
-      "image": "https://s3-images.ctmedia.io/media/article-covers/hi-5-key-highlights-of-the-secs-lawsuit-against-binance-1280x853.webp",
-      "image_local": null
     }
   ]
 }
