@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-24",
-  "generated_at_utc": "2026-08-24 04:05:08 UTC",
+  "generated_at_utc": "2026-08-24 10:05:10 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,46 +16,46 @@
   "count": 12,
   "items": [
     {
-      "title": "Term Finance loses estimated $8.5M in vault governance exploit",
-      "link": "https://cointelegraph.com/news/term-finance-8-5m-vault-governance-exploit",
-      "summary": "Term permanently closed its Meta Vaults after an attack reportedly removed nearly all of their Ethereum deposits.",
+      "title": "Bitcoin ETF inflows hit $1.9B in strongest week since October 2025",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-inflows-billion-strongest-week-october",
+      "summary": "US spot Bitcoin ETFs attracted $1.92 billion last week, their strongest weekly inflow since October 2025, as Bitcoin briefly climbed above $78,000 on Friday.",
       "source": "Cointelegraph",
       "date": "2026-08-24",
       "date_human": "Aug 24, 2026",
-      "pub_ts": 1787543969,
+      "pub_ts": 1787561812,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-how-scammers-exploit-trusted-platforms-for-crypto-fraud-3.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/b-man-character-running.png"
       ],
-      "image": "../assets/news/2026-08-24/d348d1b3db7c56ed_base.jpg",
-      "image_local": "../assets/news/2026-08-24/d348d1b3db7c56ed_base.jpg"
+      "image": "../assets/news/2026-08-24/7b9e951ef6498269_base.jpg",
+      "image_local": "../assets/news/2026-08-24/7b9e951ef6498269_base.jpg"
     },
     {
-      "title": "The next phase of tokenization is utility",
-      "link": "https://cryptoslate.com/the-next-phase-of-tokenization-is-utility/",
-      "summary": "The following is a guest post and opinion from Vincent Maliepaard, VP of Marketing at Sentora. Tokenized funds have stopped being a novelty. Tokenized US Treasury funds alone now hold roughly $16 billion in distributed value and the list of issuers includes most of the largest names in traditional asset management. Issuance is a solved […] The post The next phase of tokenization is utility appeared first on CryptoSlate.",
+      "title": "EVM network halts block production after supply exploit as TON connection remains dark",
+      "link": "https://cryptoslate.com/evm-network-halts-block-production-after-supply-exploit-as-ton-connection-remains-dark/",
+      "summary": "The validator-coordinated response is broader than TAC's May bridge containment, but the project has not disclosed the affected supply or a restart timetable. The post EVM network halts block production after supply exploit as TON connection remains dark appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-23",
-      "date_human": "Aug 23, 2026",
-      "pub_ts": 1787524223,
+      "date": "2026-08-24",
+      "date_human": "Aug 24, 2026",
+      "pub_ts": 1787561438,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/treasury-onchain-bridge.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/tac-supply-shutdown.jpg"
       ],
-      "image": "../assets/news/2026-08-24/23981d34dfee4d08_base.jpg",
-      "image_local": "../assets/news/2026-08-24/23981d34dfee4d08_base.jpg"
+      "image": "../assets/news/2026-08-24/80f03b16d31a5e5a_base.jpg",
+      "image_local": "../assets/news/2026-08-24/80f03b16d31a5e5a_base.jpg"
     },
     {
-      "title": "Regulation Crypto is here: State of Crypto",
-      "link": "https://www.coindesk.com/policy/2026/08/23/regulation-crypto-is-here-state-of-crypto",
-      "summary": "Regulation Crypto is here: State of Crypto",
+      "title": "Crypto roars back as bitcoin posts its second-best week since early 2021",
+      "link": "https://www.coindesk.com/markets/2026/08/24/crypto-roars-back-as-bitcoin-posts-its-second-best-week-since-early-2021",
+      "summary": "Crypto roars back as bitcoin posts its second-best week since early 2021",
       "source": "CoinDesk",
-      "date": "2026-08-23",
-      "date_human": "Aug 23, 2026",
-      "pub_ts": 1787509800,
+      "date": "2026-08-24",
+      "date_human": "Aug 24, 2026",
+      "pub_ts": 1787560094,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/eb8dcd6a8ff7a00d092a7e659c13193ec9cd42ea-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/a2e4b01791ef0da39400c9497a72cb149dc00d0f-3200x1800.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-24/7924836c0ad799c4_base.jpg",
-      "image_local": "../assets/news/2026-08-24/7924836c0ad799c4_base.jpg"
+      "image": "../assets/news/2026-08-24/b1294c4fc0f4dc8d_base.jpg",
+      "image_local": "../assets/news/2026-08-24/b1294c4fc0f4dc8d_base.jpg"
     },
     {
       "title": "63% of Religious Books on Amazon Are Likely AI-Written, Study Finds",
@@ -74,46 +74,46 @@
       "image_local": "../assets/news/2026-08-24/ad7c6efac5944b6a_base.jpg"
     },
     {
-      "title": "We are so back! Bitcoin's 23% rally on US debt policy: Hodler's Digest",
-      "link": "https://cointelegraph.com/magazine/we-are-back-bitcoins-23-rally-on-us-debt-policy-hodlers-digest",
-      "summary": "The US may face a debt crisis within three years according to Ray Dalio, and debt-related issues helped fuel a rally in Bitcoin that could mark the beginning of a new cycle.",
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
-      "date": "2026-08-23",
-      "date_human": "Aug 23, 2026",
-      "pub_ts": 1787529360,
+      "date": "2026-08-24",
+      "date_human": "Aug 24, 2026",
+      "pub_ts": 1787550954,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/ray-dalio-replacement.png"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-08-24/6eabaa2035cbd025_base.jpg",
-      "image_local": "../assets/news/2026-08-24/6eabaa2035cbd025_base.jpg"
+      "image": "../assets/news/2026-08-24/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-24/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher",
-      "link": "https://cryptoslate.com/wall-street-just-poured-nearly-90-million-into-altcoins-as-xrp-sol-and-hype-rip-higher/",
-      "summary": "US-listed crypto exchange-traded funds outside Bitcoin and Ethereum drew nearly $90 million last week. Investors followed a sharp market rally into XRP, Solana, Chainlink and Hyperliquid. XRP products led the group with $39.78 million of net inflows in the week ended Aug. 21, their strongest showing since the week ended May 15, when they attracted […] The post Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher appeared first on CryptoSlate.",
+      "title": "Bitcoin weekend blip wiped out $250M in over leveraged long traders while open interest weakens",
+      "link": "https://cryptoslate.com/bitcoin-weekend-dip-wiped-out-250m-in-leveraged-long-traders-while-open-interest-weakens/",
+      "summary": "Open interest fell 2.65% and funding stayed near baseline, pointing to leverage clearing rather than longs rebuilding. The post Bitcoin weekend blip wiped out $250M in over leveraged long traders while open interest weakens appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-23",
-      "date_human": "Aug 23, 2026",
-      "pub_ts": 1787519458,
+      "date": "2026-08-24",
+      "date_human": "Aug 24, 2026",
+      "pub_ts": 1787558021,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/altcoin-etf-bull-run.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-liquidation-wave.jpg"
       ],
-      "image": "../assets/news/2026-08-24/a1e1065dfd6f7b42_base.jpg",
-      "image_local": "../assets/news/2026-08-24/a1e1065dfd6f7b42_base.jpg"
+      "image": "../assets/news/2026-08-24/211793d3778d48b3_base.jpg",
+      "image_local": "../assets/news/2026-08-24/211793d3778d48b3_base.jpg"
     },
     {
-      "title": "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
-      "link": "https://www.coindesk.com/markets/2026/08/23/xrp-on-track-for-biggest-weekly-gain-in-21-months-as-treasury-buyback-spurs-curve-control-hopes",
-      "summary": "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
+      "title": "Jackson Hole Symposium, U.S. PCE prices, IREN earnings: Crypto Week Ahead",
+      "link": "https://www.coindesk.com/markets/2026/08/24/jackson-hole-symposium-u-s-pce-prices-iren-earnings-crypto-week-ahead",
+      "summary": "Jackson Hole Symposium, U.S. PCE prices, IREN earnings: Crypto Week Ahead",
       "source": "CoinDesk",
-      "date": "2026-08-23",
-      "date_human": "Aug 23, 2026",
-      "pub_ts": 1787500341,
+      "date": "2026-08-24",
+      "date_human": "Aug 24, 2026",
+      "pub_ts": 1787559389,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/5f60efd49e0a819f81091f39acbb1766f5bf3819-2961x995.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/a103b6311bda34f3de954f20713a86edc0ea2dbe-5411x3044.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-24/20e8299e9237c543_base.jpg",
-      "image_local": "../assets/news/2026-08-24/20e8299e9237c543_base.jpg"
+      "image": "../assets/news/2026-08-24/1f5a5c6099235524_base.jpg",
+      "image_local": "../assets/news/2026-08-24/1f5a5c6099235524_base.jpg"
     },
     {
       "title": "Robot Brains Could Have Their ‘ChatGPT Moment' by 2027, ACE Robotics Chairman Says",
@@ -132,46 +132,46 @@
       "image_local": "../assets/news/2026-08-24/89651e95c1d4f471_base.jpg"
     },
     {
-      "title": "Fed study finds crypto investors driven by beliefs, easily swayed by returns",
-      "link": "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns",
-      "summary": "A Federal Reserve Bank of Cleveland study finds crypto investors hold sharply different views on returns and risk, while information about Bitcoin’s past gains can increase both desired allocations and actual crypto purchases.",
+      "title": "Banks, regulators join quantum-resistant crypto transfer pilot",
+      "link": "https://cointelegraph.com/news/banks-regulators-quantum-resistant-crypto-pilot",
+      "summary": "Participating banks will test post-quantum wallets and onchain transfers while regulators from Abu Dhabi, Bhutan and Malta initially observe.",
       "source": "Cointelegraph",
-      "date": "2026-08-23",
-      "date_human": "Aug 23, 2026",
-      "pub_ts": 1787499053,
+      "date": "2026-08-24",
+      "date_human": "Aug 24, 2026",
+      "pub_ts": 1787550689,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-the-future-of-public-finance-will-be-crypto-assets-for-liquid-democracy.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-why-quantum-security-is-rising-on-layer-1-roadmaps-and-which-networks-are-preparing-first.jpg"
       ],
-      "image": "../assets/news/2026-08-24/2d70be3f407d9d4d_base.jpg",
-      "image_local": "../assets/news/2026-08-24/2d70be3f407d9d4d_base.jpg"
+      "image": "../assets/news/2026-08-24/3a38e849fc40264e_base.jpg",
+      "image_local": "../assets/news/2026-08-24/3a38e849fc40264e_base.jpg"
     },
     {
-      "title": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher",
-      "link": "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/",
-      "summary": "US spot Bitcoin and Ethereum ETFs recorded their strongest inflow week of 2026 as a sharp crypto rally pulled investors back into funds that had struggled to attract sustained demand for much of the year. Bitcoin ETFs drew $1.918 billion in the five trading sessions through Aug. 21, while funds holding Ethereum attracted $697.2 million, […] The post Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher appeared first on CryptoSlate.",
+      "title": "Bitcoin holders face unresolved fork risks as new eCash test chain launches ahead of October deadline",
+      "link": "https://cryptoslate.com/bitcoin-holders-face-unresolved-fork-risks-as-new-ecash-test-chain-launches-ahead-of-october-deadline/",
+      "summary": "The Aug. 23 blocks used practice pECX while final software, replay rules and exchange handling remain unresolved. The post Bitcoin holders face unresolved fork risks as new eCash test chain launches ahead of October deadline appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-23",
-      "date_human": "Aug 23, 2026",
-      "pub_ts": 1787515510,
+      "date": "2026-08-24",
+      "date_human": "Aug 24, 2026",
+      "pub_ts": 1787547606,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/crypto-etf-bull-rally.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-ecash-fork.jpg"
       ],
-      "image": "../assets/news/2026-08-24/41d8b7c015974735_base.jpg",
-      "image_local": "../assets/news/2026-08-24/41d8b7c015974735_base.jpg"
+      "image": "../assets/news/2026-08-24/bcfb4e21cb722498_base.jpg",
+      "image_local": "../assets/news/2026-08-24/bcfb4e21cb722498_base.jpg"
     },
     {
-      "title": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
-      "link": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases",
-      "summary": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
+      "title": "Live updates: Bitcoin holds $77,000 as XRP, Zcash pull back after a big weekly rally",
+      "link": "https://www.coindesk.com/business/2026/08/24/live-updates-bitcoin-holds-usd77-000-as-xrp-zcash-pull-back-after-a-big-weekly-rally",
+      "summary": "Live updates: Bitcoin holds $77,000 as XRP, Zcash pull back after a big weekly rally",
       "source": "CoinDesk",
-      "date": "2026-08-23",
-      "date_human": "Aug 23, 2026",
-      "pub_ts": 1787497200,
+      "date": "2026-08-24",
+      "date_human": "Aug 24, 2026",
+      "pub_ts": 1787558757,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/da5caf65adc295012880cf200ddf9e937f2db11c-1920x1282.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/cd18eda683c70e79b1a216101c6597d4892df0a1-1518x846.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-24/9c3f4d46d26bcf88_base.jpg",
-      "image_local": "../assets/news/2026-08-24/9c3f4d46d26bcf88_base.jpg"
+      "image": "../assets/news/2026-08-24/a9d6b630433e8f2f_base.jpg",
+      "image_local": "../assets/news/2026-08-24/a9d6b630433e8f2f_base.jpg"
     },
     {
       "title": "Microsoft Fixes 'Perfect 10' Exploit That Could Have Let Hackers Run Code Remotely",
