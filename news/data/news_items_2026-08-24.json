@@ -1,0 +1,193 @@
+{
+  "day_iso": "2026-08-24",
+  "generated_at_utc": "2026-08-24 04:05:08 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Term Finance loses estimated $8.5M in vault governance exploit",
+      "link": "https://cointelegraph.com/news/term-finance-8-5m-vault-governance-exploit",
+      "summary": "Term permanently closed its Meta Vaults after an attack reportedly removed nearly all of their Ethereum deposits.",
+      "source": "Cointelegraph",
+      "date": "2026-08-24",
+      "date_human": "Aug 24, 2026",
+      "pub_ts": 1787543969,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-how-scammers-exploit-trusted-platforms-for-crypto-fraud-3.jpg"
+      ],
+      "image": "../assets/news/2026-08-24/d348d1b3db7c56ed_base.jpg",
+      "image_local": "../assets/news/2026-08-24/d348d1b3db7c56ed_base.jpg"
+    },
+    {
+      "title": "The next phase of tokenization is utility",
+      "link": "https://cryptoslate.com/the-next-phase-of-tokenization-is-utility/",
+      "summary": "The following is a guest post and opinion from Vincent Maliepaard, VP of Marketing at Sentora. Tokenized funds have stopped being a novelty. Tokenized US Treasury funds alone now hold roughly $16 billion in distributed value and the list of issuers includes most of the largest names in traditional asset management. Issuance is a solved […] The post The next phase of tokenization is utility appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787524223,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/treasury-onchain-bridge.jpg"
+      ],
+      "image": "../assets/news/2026-08-24/23981d34dfee4d08_base.jpg",
+      "image_local": "../assets/news/2026-08-24/23981d34dfee4d08_base.jpg"
+    },
+    {
+      "title": "Regulation Crypto is here: State of Crypto",
+      "link": "https://www.coindesk.com/policy/2026/08/23/regulation-crypto-is-here-state-of-crypto",
+      "summary": "Regulation Crypto is here: State of Crypto",
+      "source": "CoinDesk",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787509800,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/eb8dcd6a8ff7a00d092a7e659c13193ec9cd42ea-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-24/7924836c0ad799c4_base.jpg",
+      "image_local": "../assets/news/2026-08-24/7924836c0ad799c4_base.jpg"
+    },
+    {
+      "title": "63% of Religious Books on Amazon Are Likely AI-Written, Study Finds",
+      "link": "https://decrypt.co/376295/religious-books-amazon-ai-written-study",
+      "summary": "Witchcraft books had the highest rate of likely AI-generated content at 78%, according to an Originality.ai analysis of more than 2,000 titles.",
+      "source": "Decrypt",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787502664,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-24/ad7c6efac5944b6a_base.jpg",
+      "image_local": "../assets/news/2026-08-24/ad7c6efac5944b6a_base.jpg"
+    },
+    {
+      "title": "We are so back! Bitcoin's 23% rally on US debt policy: Hodler's Digest",
+      "link": "https://cointelegraph.com/magazine/we-are-back-bitcoins-23-rally-on-us-debt-policy-hodlers-digest",
+      "summary": "The US may face a debt crisis within three years according to Ray Dalio, and debt-related issues helped fuel a rally in Bitcoin that could mark the beginning of a new cycle.",
+      "source": "Cointelegraph",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787529360,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/ray-dalio-replacement.png"
+      ],
+      "image": "../assets/news/2026-08-24/6eabaa2035cbd025_base.jpg",
+      "image_local": "../assets/news/2026-08-24/6eabaa2035cbd025_base.jpg"
+    },
+    {
+      "title": "Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher",
+      "link": "https://cryptoslate.com/wall-street-just-poured-nearly-90-million-into-altcoins-as-xrp-sol-and-hype-rip-higher/",
+      "summary": "US-listed crypto exchange-traded funds outside Bitcoin and Ethereum drew nearly $90 million last week. Investors followed a sharp market rally into XRP, Solana, Chainlink and Hyperliquid. XRP products led the group with $39.78 million of net inflows in the week ended Aug. 21, their strongest showing since the week ended May 15, when they attracted […] The post Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787519458,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/altcoin-etf-bull-run.jpg"
+      ],
+      "image": "../assets/news/2026-08-24/a1e1065dfd6f7b42_base.jpg",
+      "image_local": "../assets/news/2026-08-24/a1e1065dfd6f7b42_base.jpg"
+    },
+    {
+      "title": "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
+      "link": "https://www.coindesk.com/markets/2026/08/23/xrp-on-track-for-biggest-weekly-gain-in-21-months-as-treasury-buyback-spurs-curve-control-hopes",
+      "summary": "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
+      "source": "CoinDesk",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787500341,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/5f60efd49e0a819f81091f39acbb1766f5bf3819-2961x995.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-24/20e8299e9237c543_base.jpg",
+      "image_local": "../assets/news/2026-08-24/20e8299e9237c543_base.jpg"
+    },
+    {
+      "title": "Robot Brains Could Have Their ‘ChatGPT Moment' by 2027, ACE Robotics Chairman Says",
+      "link": "https://decrypt.co/376265/robot-brains-chatgpt-moment-ace-robotics",
+      "summary": "The breakthrough could come from AI models that help robots understand and interact with the physical world, though widespread adoption may still be years away.",
+      "source": "Decrypt",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787495464,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-robots-decrypt-style-01-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-robots-decrypt-style-01-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-robots-decrypt-style-01-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-24/89651e95c1d4f471_base.jpg",
+      "image_local": "../assets/news/2026-08-24/89651e95c1d4f471_base.jpg"
+    },
+    {
+      "title": "Fed study finds crypto investors driven by beliefs, easily swayed by returns",
+      "link": "https://cointelegraph.com/news/fed-study-finds-crypto-investors-driven-by-beliefs-easily-swayed-by-returns",
+      "summary": "A Federal Reserve Bank of Cleveland study finds crypto investors hold sharply different views on returns and risk, while information about Bitcoin’s past gains can increase both desired allocations and actual crypto purchases.",
+      "source": "Cointelegraph",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787499053,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-the-future-of-public-finance-will-be-crypto-assets-for-liquid-democracy.jpg"
+      ],
+      "image": "../assets/news/2026-08-24/2d70be3f407d9d4d_base.jpg",
+      "image_local": "../assets/news/2026-08-24/2d70be3f407d9d4d_base.jpg"
+    },
+    {
+      "title": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher",
+      "link": "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/",
+      "summary": "US spot Bitcoin and Ethereum ETFs recorded their strongest inflow week of 2026 as a sharp crypto rally pulled investors back into funds that had struggled to attract sustained demand for much of the year. Bitcoin ETFs drew $1.918 billion in the five trading sessions through Aug. 21, while funds holding Ethereum attracted $697.2 million, […] The post Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787515510,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/crypto-etf-bull-rally.jpg"
+      ],
+      "image": "../assets/news/2026-08-24/41d8b7c015974735_base.jpg",
+      "image_local": "../assets/news/2026-08-24/41d8b7c015974735_base.jpg"
+    },
+    {
+      "title": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
+      "link": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases",
+      "summary": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
+      "source": "CoinDesk",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787497200,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/da5caf65adc295012880cf200ddf9e937f2db11c-1920x1282.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-24/9c3f4d46d26bcf88_base.jpg",
+      "image_local": "../assets/news/2026-08-24/9c3f4d46d26bcf88_base.jpg"
+    },
+    {
+      "title": "Microsoft Fixes 'Perfect 10' Exploit That Could Have Let Hackers Run Code Remotely",
+      "link": "https://decrypt.co/376287/microsoft-perfect-10-exploit-hackers-run-code",
+      "summary": "The Entra ID flaw earned the highest possible severity score, but Microsoft says it patched the bug before publishing the CVE and found no evidence it was ever exploited.",
+      "source": "Decrypt",
+      "date": "2026-08-22",
+      "date_human": "Aug 22, 2026",
+      "pub_ts": 1787419863,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/microsoft-decrypt-style-01-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/microsoft-decrypt-style-01-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/microsoft-decrypt-style-01-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-24/3aefefba7bd5a114_base.jpg",
+      "image_local": "../assets/news/2026-08-24/3aefefba7bd5a114_base.jpg"
+    }
+  ]
+}

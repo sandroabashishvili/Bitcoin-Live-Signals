@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-23",
-  "generated_at_utc": "2026-08-23 16:05:08 UTC",
+  "generated_at_utc": "2026-08-23 22:05:08 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,18 +16,48 @@
   "count": 12,
   "items": [
     {
-      "title": "How a $20M crypto payout left a micro-cap firm with under $83K in usable cash reserves",
-      "link": "https://cryptoslate.com/how-a-20m-crypto-payout-left-a-micro-cap-firm-with-under-83k-in-usable-cash-reserves/",
-      "summary": "The August 21 filing said 205,512.5 tokens remained unmonetized, with their receipt-date fair value still unresolved. The post How a $20M crypto payout left a micro-cap firm with under $83K in usable cash reserves appeared first on CryptoSlate.",
+      "title": "Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher",
+      "link": "https://cryptoslate.com/wall-street-just-poured-nearly-90-million-into-altcoins-as-xrp-sol-and-hype-rip-higher/",
+      "summary": "US-listed crypto exchange-traded funds outside Bitcoin and Ethereum drew nearly $90 million last week. Investors followed a sharp market rally into XRP, Solana, Chainlink and Hyperliquid. XRP products led the group with $39.78 million of net inflows in the week ended Aug. 21, their strongest showing since the week ended May 15, when they attracted […] The post Wall Street just poured nearly $90 million into altcoins as XRP, SOL and HYPE rip higher appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-23",
       "date_human": "Aug 23, 2026",
-      "pub_ts": 1787499911,
+      "pub_ts": 1787519458,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/zk-awa-stranded-assets.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/altcoin-etf-bull-run.jpg"
       ],
-      "image": "../assets/news/2026-08-23/499f768fcc0906cc_base.jpg",
-      "image_local": "../assets/news/2026-08-23/499f768fcc0906cc_base.jpg"
+      "image": "../assets/news/2026-08-23/a1e1065dfd6f7b42_base.jpg",
+      "image_local": "../assets/news/2026-08-23/a1e1065dfd6f7b42_base.jpg"
+    },
+    {
+      "title": "Regulation Crypto is here: State of Crypto",
+      "link": "https://www.coindesk.com/policy/2026/08/23/regulation-crypto-is-here-state-of-crypto",
+      "summary": "Regulation Crypto is here: State of Crypto",
+      "source": "CoinDesk",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787509800,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/eb8dcd6a8ff7a00d092a7e659c13193ec9cd42ea-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-23/7924836c0ad799c4_base.jpg",
+      "image_local": "../assets/news/2026-08-23/7924836c0ad799c4_base.jpg"
+    },
+    {
+      "title": "63% of Religious Books on Amazon Are Likely AI-Written, Study Finds",
+      "link": "https://decrypt.co/376295/religious-books-amazon-ai-written-study",
+      "summary": "Witchcraft books had the highest rate of likely AI-generated content at 78%, according to an Originality.ai analysis of more than 2,000 titles.",
+      "source": "Decrypt",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787502664,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/amazon-logo-1-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-23/ad7c6efac5944b6a_base.jpg",
+      "image_local": "../assets/news/2026-08-23/ad7c6efac5944b6a_base.jpg"
     },
     {
       "title": "Fed study finds crypto investors driven by beliefs, easily swayed by returns",
@@ -42,6 +72,34 @@
       ],
       "image": "../assets/news/2026-08-23/2d70be3f407d9d4d_base.jpg",
       "image_local": "../assets/news/2026-08-23/2d70be3f407d9d4d_base.jpg"
+    },
+    {
+      "title": "Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher",
+      "link": "https://cryptoslate.com/bitcoin-and-ethereum-etfs-just-had-their-biggest-week-of-2026-as-crypto-exploded-higher/",
+      "summary": "US spot Bitcoin and Ethereum ETFs recorded their strongest inflow week of 2026 as a sharp crypto rally pulled investors back into funds that had struggled to attract sustained demand for much of the year. Bitcoin ETFs drew $1.918 billion in the five trading sessions through Aug. 21, while funds holding Ethereum attracted $697.2 million, […] The post Bitcoin and Ethereum ETFs just had their biggest week of 2026 as crypto exploded higher appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787515510,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/crypto-etf-bull-rally.jpg"
+      ],
+      "image": "../assets/news/2026-08-23/41d8b7c015974735_base.jpg",
+      "image_local": "../assets/news/2026-08-23/41d8b7c015974735_base.jpg"
+    },
+    {
+      "title": "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
+      "link": "https://www.coindesk.com/markets/2026/08/23/xrp-on-track-for-biggest-weekly-gain-in-21-months-as-treasury-buyback-spurs-curve-control-hopes",
+      "summary": "XRP on track for biggest weekly gain in 21 months as Treasury buyback spurs 'curve control' hopes",
+      "source": "CoinDesk",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787500341,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/5f60efd49e0a819f81091f39acbb1766f5bf3819-2961x995.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-23/20e8299e9237c543_base.jpg",
+      "image_local": "../assets/news/2026-08-23/20e8299e9237c543_base.jpg"
     },
     {
       "title": "Robot Brains Could Have Their ‘ChatGPT Moment' by 2027, ACE Robotics Chairman Says",
@@ -60,34 +118,6 @@
       "image_local": "../assets/news/2026-08-23/89651e95c1d4f471_base.jpg"
     },
     {
-      "title": "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
-      "link": "https://www.coindesk.com/business/2026/08/22/crypto-exchange-bitmart-weighs-partial-restart-and-creditor-payouts-weeks-after-announcing-shutdown",
-      "summary": "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
-      "source": "CoinDesk",
-      "date": "2026-08-22",
-      "date_human": "Aug 22, 2026",
-      "pub_ts": 1787411801,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/420f2af41b8e84b394d9798060c7ccfa92703ed7-2280x1284.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-23/5684e62bc0f35134_base.jpg",
-      "image_local": "../assets/news/2026-08-23/5684e62bc0f35134_base.jpg"
-    },
-    {
-      "title": "The US approved high-leverage Bitcoin trading while crypto founders remain legally blocked from raising funds",
-      "link": "https://cryptoslate.com/the-us-approved-high-leverage-bitcoin-trading-while-crypto-founders-remain-legally-blocked-from-raising-funds/",
-      "summary": "On May 29, the CFTC approved a Bitcoin perpetual contract for a regulated US exchange. Almost three months later, on Aug. 18, the SEC proposed a legal route through which crypto projects could someday raise money from the public under rules written for token networks. That's a pretty unusual order in which Washington is rebuilding […] The post The US approved high-leverage Bitcoin trading while crypto founders remain legally blocked from raising funds appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-23",
-      "date_human": "Aug 23, 2026",
-      "pub_ts": 1787495439,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-regulatory-green-light.jpg"
-      ],
-      "image": "../assets/news/2026-08-23/0ad99d1da2d6d8a7_base.jpg",
-      "image_local": "../assets/news/2026-08-23/0ad99d1da2d6d8a7_base.jpg"
-    },
-    {
       "title": "MiCA is coming for DeFi vaults, but regulation will be difficult",
       "link": "https://cointelegraph.com/magazine/mica-is-coming-for-defi-vaults-but-regulation-will-be-difficult",
       "summary": "Brussels is reviewing whether crypto lending should fall under MiCA, but DeFi lending vaults are making it harder to determine who, exactly, should be regulated.",
@@ -100,6 +130,34 @@
       ],
       "image": "../assets/news/2026-08-23/294dade3a35d2de2_base.jpg",
       "image_local": "../assets/news/2026-08-23/294dade3a35d2de2_base.jpg"
+    },
+    {
+      "title": "Bitcoin Core considers dropping encrypted routing support as poor node health exposes users to eclipse attacks",
+      "link": "https://cryptoslate.com/bitcoin-core-considers-dropping-encrypted-routing-support-as-poor-node-health-exposes-users-to-eclipse-attacks/",
+      "summary": "The 32.x warning and 33.x removal sequence remains a proposal as maintainers test whether sparse fallback routes add resilience. The post Bitcoin Core considers dropping encrypted routing support as poor node health exposes users to eclipse attacks appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787512229,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/cjdns-deprecation-debate.jpg"
+      ],
+      "image": "../assets/news/2026-08-23/629d2e9f1e6d1cbc_base.jpg",
+      "image_local": "../assets/news/2026-08-23/629d2e9f1e6d1cbc_base.jpg"
+    },
+    {
+      "title": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
+      "link": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases",
+      "summary": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
+      "source": "CoinDesk",
+      "date": "2026-08-23",
+      "date_human": "Aug 23, 2026",
+      "pub_ts": 1787497200,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/da5caf65adc295012880cf200ddf9e937f2db11c-1920x1282.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-23/9c3f4d46d26bcf88_base.jpg",
+      "image_local": "../assets/news/2026-08-23/9c3f4d46d26bcf88_base.jpg"
     },
     {
       "title": "Microsoft Fixes 'Perfect 10' Exploit That Could Have Let Hackers Run Code Remotely",
@@ -118,76 +176,18 @@
       "image_local": "../assets/news/2026-08-23/3aefefba7bd5a114_base.jpg"
     },
     {
-      "title": "Web3 gaming network Sandbox stops Base and BNB chain bridging after exploit",
-      "link": "https://www.coindesk.com/web3/2026/08/22/web3-gaming-network-sandbox-stops-base-and-bnb-chain-bridging-after-exploit",
-      "summary": "Web3 gaming network Sandbox stops Base and BNB chain bridging after exploit",
-      "source": "CoinDesk",
-      "date": "2026-08-22",
-      "date_human": "Aug 22, 2026",
-      "pub_ts": 1787407817,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/c910fc1d77a080b35fa9ee1b719813158511ee07-1600x900.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-23/3b25463ec6032d45_base.jpg",
-      "image_local": "../assets/news/2026-08-23/3b25463ec6032d45_base.jpg"
-    },
-    {
-      "title": "Layer 1 network dilutes supply by 75% overnight to fund survival after main developer quits",
-      "link": "https://cryptoslate.com/layer-1-network-dilutes-supply-by-75-overnight-to-fund-survival-after-main-developer-quits/",
-      "summary": "The executed mint reduced the proposal’s pre-existing supply base to about 25.1% of its estimated post-mint total. The post Layer 1 network dilutes supply by 75% overnight to fund survival after main developer quits appeared first on CryptoSlate.",
+      "title": "Bitcoin miner IPO demands 99.8% of funds from public buyers while handing them just 10% equity",
+      "link": "https://cryptoslate.com/bitcoin-miner-ipo-demands-99-8-of-funds-from-public-buyers-while-handing-them-just-10-equity/",
+      "summary": "The preliminary S-1 compares $30,000,005 from new investors with $45,000 from existing holders and leaves buyers immediately diluted. The post Bitcoin miner IPO demands 99.8% of funds from public buyers while handing them just 10% equity appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-23",
       "date_human": "Aug 23, 2026",
-      "pub_ts": 1787491252,
+      "pub_ts": 1787508340,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/scrt-continuance-under-pressure.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitari-ipo-equity-split.jpg"
       ],
-      "image": "../assets/news/2026-08-23/877916e77029320c_base.jpg",
-      "image_local": "../assets/news/2026-08-23/877916e77029320c_base.jpg"
-    },
-    {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-08-21",
-      "date_human": "Aug 21, 2026",
-      "pub_ts": 1787345328,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-08-23/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-08-23/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "AI Has Made Bitcoin Software a Target—This Group Is Fighting Back",
-      "link": "https://decrypt.co/376296/bitcoin-target-ai-red-team-group-fighting-back",
-      "summary": "A group of 20-odd developers is scanning the Bitcoin ecosystem for AI-discoverable flaws, warning that cheap, powerful models have handed attackers unprecedented reach.",
-      "source": "Decrypt",
-      "date": "2026-08-22",
-      "date_human": "Aug 22, 2026",
-      "pub_ts": 1787412664,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-specs-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-specs-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-specs-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-23/5da8e502bb2e2902_base.jpg",
-      "image_local": "../assets/news/2026-08-23/5da8e502bb2e2902_base.jpg"
-    },
-    {
-      "title": "Tokenized stocks risk repeating Wall Street's 1960s ‘paper crisis,' Fairmint CEO says",
-      "link": "https://www.coindesk.com/tech/2026/08/22/tokenized-stocks-risk-repeating-wall-street-s-1960s-paper-crisis-fairmint-ceo-says",
-      "summary": "Tokenized stocks risk repeating Wall Street's 1960s ‘paper crisis,' Fairmint CEO says",
-      "source": "CoinDesk",
-      "date": "2026-08-22",
-      "date_human": "Aug 22, 2026",
-      "pub_ts": 1787407200,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/155e3ead47a755d673f9182dd4ef2a4d2eaecf98-1500x1001.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-23/13060f2d5d72a322_base.jpg",
-      "image_local": "../assets/news/2026-08-23/13060f2d5d72a322_base.jpg"
+      "image": "../assets/news/2026-08-23/e7678888a494cd94_base.jpg",
+      "image_local": "../assets/news/2026-08-23/e7678888a494cd94_base.jpg"
     }
   ]
 }
