@@ -3,8 +3,9 @@
 
   const loader = document.currentScript;
   const measurementId = loader?.dataset.measurementId || "G-BMKYWEPNHB";
-  const consentKey = "smartSignalHubAnalyticsConsent";
+  const consentKey = "sandroAnalyticsConsentV1";
   const productionHost = "sandro-abashishvili.de";
+  document.documentElement.dataset.analyticsConsentMode = "basic";
   const privacyUrl = "/Bitcoin-Live-Signals/legal/datenschutz.html";
   let banner = null;
   let analyticsLoaded = false;
