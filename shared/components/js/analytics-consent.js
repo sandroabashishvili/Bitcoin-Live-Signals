@@ -2,7 +2,7 @@
   "use strict";
 
   const loader = document.currentScript;
-  const measurementId = loader?.dataset.measurementId || "G-PLE3C4PMNF";
+  const measurementId = loader?.dataset.measurementId || "G-BMKYWEPNHB";
   const consentKey = "smartSignalHubAnalyticsConsent";
   const productionHost = "sandro-abashishvili.de";
   const privacyUrl = "/Bitcoin-Live-Signals/legal/datenschutz.html";

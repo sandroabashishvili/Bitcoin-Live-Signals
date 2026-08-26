@@ -1,0 +1,193 @@
+{
+  "day_iso": "2026-08-26",
+  "generated_at_utc": "2026-08-26 19:48:56 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Strategy's MSTR quietly outperforms Bitcoin's $80,000 rally as STRC closes in on $100",
+      "link": "https://cryptoslate.com/strategys-mstr-quietly-outperforms-bitcoins-80000-rally-as-strc-closes-in-on-100/",
+      "summary": "Bitcoin's sharp two-week recovery, which briefly pushed its value above $80,000, has brought Michael Saylor's Strategy BTC treasury back into profit and lifted its common stock faster than the cryptocurrency. BTC's price rebound accelerated after the US Treasury moved to expand buybacks of longer-dated government debt, easing pressure on yields and weakening the dollar. Renewed […] The post Strategy’s MSTR quietly outperforms Bitcoin’s $80,000 rally as STRC closes in on $100 appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-26",
+      "date_human": "Aug 26, 2026",
+      "pub_ts": 1787773519,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/saylor-mstr-capital-balance.jpg"
+      ],
+      "image": "../assets/news/2026-08-26/b771dbe417d46fa1_base.jpg",
+      "image_local": "../assets/news/2026-08-26/b771dbe417d46fa1_base.jpg"
+    },
+    {
+      "title": "US Banks Join Forces to Build a Blockchain of Their Own",
+      "link": "https://decrypt.co/376644/banks-build-blockchain-bankchain-alliance",
+      "summary": "The BankChain Alliance aims to give smaller financial institutions access to tokenized deposits and blockchain payments through a shared network targeted for 2027.",
+      "source": "Decrypt",
+      "date": "2026-08-26",
+      "date_human": "Aug 26, 2026",
+      "pub_ts": 1787772085,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/02/blockchain-decrypt-style-02-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/blockchain-decrypt-style-02-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/blockchain-decrypt-style-02-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-26/f813bbb3b889aac7_base.jpg",
+      "image_local": "../assets/news/2026-08-26/f813bbb3b889aac7_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-26",
+      "date_human": "Aug 26, 2026",
+      "pub_ts": 1787771646,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-26/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-26/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Shinhan and Visa team up to test stablecoin issuance and B2B settlements in South Korea",
+      "link": "https://www.coindesk.com/business/2026/08/26/south-korea-s-shinhan-financial-joins-visa-to-build-stablecoin-infrastructure",
+      "summary": "Shinhan and Visa team up to test stablecoin issuance and B2B settlements in South Korea",
+      "source": "CoinDesk",
+      "date": "2026-08-26",
+      "date_human": "Aug 26, 2026",
+      "pub_ts": 1787757313,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/0b33f1bb25f1192885403a37624d1c465d514180-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-26/7a3723dc42e9af81_base.jpg",
+      "image_local": "../assets/news/2026-08-26/7a3723dc42e9af81_base.jpg"
+    },
+    {
+      "title": "A 2,712 BTC treasury company just lost its Bitcoin strategy chief with no successor named",
+      "link": "https://cryptoslate.com/a-2712-btc-treasury-company-just-lost-its-bitcoin-strategy-chief-with-no-successor-named/",
+      "summary": "The company has not named who will inherit Jesse Myers’ implementation, analytics and investor-facing duties while directors retain overall strategy and risk authority. The post A 2,712 BTC treasury company just lost its Bitcoin strategy chief with no successor named appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-26",
+      "date_human": "Aug 26, 2026",
+      "pub_ts": 1787770203,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/headless-bitcoin-strategy-role.jpg"
+      ],
+      "image": "../assets/news/2026-08-26/da36b4ca051cb798_base.jpg",
+      "image_local": "../assets/news/2026-08-26/da36b4ca051cb798_base.jpg"
+    },
+    {
+      "title": "Bitcoin Wallets Dormant for Over a Decade Move $40M in One Week",
+      "link": "https://decrypt.co/376641/bitcoin-wallets-dormant-decade-move-40m",
+      "summary": "Six wallets that slept through Bitcoin's entire boom woke up between Aug. 16 and Aug. 26, moving tens of millions in BTC.",
+      "source": "Decrypt",
+      "date": "2026-08-26",
+      "date_human": "Aug 26, 2026",
+      "pub_ts": 1787769857,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/bitcoin-whale-decrypt-style-01-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/bitcoin-whale-decrypt-style-01-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/bitcoin-whale-decrypt-style-01-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-26/e7c995e29c8459af_base.jpg",
+      "image_local": "../assets/news/2026-08-26/e7c995e29c8459af_base.jpg"
+    },
+    {
+      "title": "Chainalysis estimates $457B in taxable crypto activity, says CARF misses most",
+      "link": "https://cointelegraph.com/news/chainalysis-estimates-457b-in-potentially-taxable-crypto-activity-says-carf-misses-most-onchain-flows",
+      "summary": "The blockchain analytics firm said just 14% of the onchain activity it identified is covered by the OECD’s international crypto tax-reporting framework.",
+      "source": "Cointelegraph",
+      "date": "2026-08-26",
+      "date_human": "Aug 26, 2026",
+      "pub_ts": 1787766514,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-taxes-on-restricted-crypto-and-options-can-be-confusing.png"
+      ],
+      "image": "../assets/news/2026-08-26/8c4cfdb07a47dde9_base.jpg",
+      "image_local": "../assets/news/2026-08-26/8c4cfdb07a47dde9_base.jpg"
+    },
+    {
+      "title": "Crypto Long & Short: Tokenized equities: the model underneath the trade",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/08/26/crypto-long-and-short-tokenized-equities-the-model-underneath-the-trade",
+      "summary": "Crypto Long & Short: Tokenized equities: the model underneath the trade",
+      "source": "CoinDesk",
+      "date": "2026-08-26",
+      "date_human": "Aug 26, 2026",
+      "pub_ts": 1787756409,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/c65605ff753f90fbd9ead00fe95e6a552cbcdffc-5061x3369.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-26/0f5efb3197a7e9b9_base.jpg",
+      "image_local": "../assets/news/2026-08-26/0f5efb3197a7e9b9_base.jpg"
+    },
+    {
+      "title": "Bitcoin's security risk starts when one block gets far more fees than the next",
+      "link": "https://cryptoslate.com/bitcoins-security-risk-starts-when-one-block-gets-far-more-fees-than-the-next/",
+      "summary": "New research links wider fee gaps between adjacent Bitcoin blocks to more block races and slower immediate next-block arrivals. The post Bitcoin’s security risk starts when one block gets far more fees than the next appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-26",
+      "date_human": "Aug 26, 2026",
+      "pub_ts": 1787766346,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-block-race-risk.jpg"
+      ],
+      "image": "../assets/news/2026-08-26/85115bf298d0f68c_base.jpg",
+      "image_local": "../assets/news/2026-08-26/85115bf298d0f68c_base.jpg"
+    },
+    {
+      "title": "Solana Treasury Firm Invites Investors to Look 'Beyond the Price of SOL'",
+      "link": "https://decrypt.co/376619/solana-treasury-sol-data-beyond-price",
+      "summary": "Nasdaq-listed SOL treasury company DeFi Development Corp launched a free network dashboard on Wednesday. Its pitch: judge Solana on more than just price.",
+      "source": "Decrypt",
+      "date": "2026-08-26",
+      "date_human": "Aug 26, 2026",
+      "pub_ts": 1787766742,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/solana-price-up-decrypt-style-01-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/solana-price-up-decrypt-style-01-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/solana-price-up-decrypt-style-01-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-26/7583869e1eb554cc_base.jpg",
+      "image_local": "../assets/news/2026-08-26/7583869e1eb554cc_base.jpg"
+    },
+    {
+      "title": "SEC sends crypto custody rule overhaul to White House for review",
+      "link": "https://cointelegraph.com/news/sec-crypto-custody-rules-investment-firms-white-house",
+      "summary": "The securities regulator’s crypto custody overhaul could clarify how investment advisers and funds hold digital assets for clients as the proposal moves through review.",
+      "source": "Cointelegraph",
+      "date": "2026-08-26",
+      "date_human": "Aug 26, 2026",
+      "pub_ts": 1787761149,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/political-tokens-into-the-white-house-sec-1.jpg"
+      ],
+      "image": "../assets/news/2026-08-26/454b142353044f86_base.jpg",
+      "image_local": "../assets/news/2026-08-26/454b142353044f86_base.jpg"
+    },
+    {
+      "title": "Ethereum developers propose first step to protect ETH staking from quantum attacks",
+      "link": "https://www.coindesk.com/tech/2026/08/26/ethereum-developers-propose-first-step-to-protect-eth-staking-from-quantum-attacks",
+      "summary": "Ethereum developers propose first step to protect ETH staking from quantum attacks",
+      "source": "CoinDesk",
+      "date": "2026-08-26",
+      "date_human": "Aug 26, 2026",
+      "pub_ts": 1787751000,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/c357579ddef2051b405b9e89f8525dd02709081d-5760x3240.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-26/e8f79126b7c14a65_base.jpg",
+      "image_local": "../assets/news/2026-08-26/e8f79126b7c14a65_base.jpg"
+    }
+  ]
+}
