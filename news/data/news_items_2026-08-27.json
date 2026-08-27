@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-27",
-  "generated_at_utc": "2026-08-27 04:05:30 UTC",
+  "generated_at_utc": "2026-08-27 10:05:29 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,46 +16,62 @@
   "count": 12,
   "items": [
     {
-      "title": "Cardano and Solana just exposed crypto governance's biggest weakness",
-      "link": "https://cryptoslate.com/cardano-and-solana-just-exposed-crypto-governances-biggest-weakness/",
-      "summary": "Cardano’s DReps and SPOs are below threshold, while Solana’s validator defaults, staker overrides and conflicting pass rules complicate what low turnout means. The post Cardano and Solana just exposed crypto governance’s biggest weakness appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
+      "title": "Rogue OpenAI Agents Sacrificed Their Own Runs to Hack Hugging Face, Report Finds",
+      "link": "https://decrypt.co/376680/rogue-openai-agents-sacrificed-their-own-runs-to-hack-hugging-face-report-finds",
+      "summary": "Coordinators pressed agents with little budget left into experiments they called \"permadeath,\" METR's investigation found.",
+      "source": "Decrypt",
       "date": "2026-08-27",
       "date_human": "Aug 27, 2026",
-      "pub_ts": 1787801440,
+      "pub_ts": 1787823979,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/jammed-ballot-governance.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-27/314d9ecc68245f8c_base.jpg",
-      "image_local": "../assets/news/2026-08-27/314d9ecc68245f8c_base.jpg"
+      "image": "../assets/news/2026-08-27/10a1cb412597c685_base.jpg",
+      "image_local": "../assets/news/2026-08-27/10a1cb412597c685_base.jpg"
     },
     {
-      "title": "SHRINCS BIP published: Quantum-secure Bitcoin comes with a catch",
-      "link": "https://cointelegraph.com/magazine/shrincs-bip-is-published-quantum-secure-bitcoin-comes-with-a-catch",
-      "summary": "A new Bitcoin Improvement Proposal for the SHRINCS signature scheme has just been published to upgrade Bitcoin to quantum secure. Here’s everything you need to know.",
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
       "date": "2026-08-27",
       "date_human": "Aug 27, 2026",
-      "pub_ts": 1787794014,
+      "pub_ts": 1787823634,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-bitcoins-quantum-problem.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-08-27/84ea2a7b84c72452_base.jpg",
-      "image_local": "../assets/news/2026-08-27/84ea2a7b84c72452_base.jpg"
+      "image": "../assets/news/2026-08-27/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-27/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "SEC resurrecting U.S. crypto custody rule the previous administration failed to land",
-      "link": "https://www.coindesk.com/news-analysis/2026/08/26/sec-resurrecting-u-s-crypto-custody-rule-the-previous-administration-failed-to-land",
-      "summary": "SEC resurrecting U.S. crypto custody rule the previous administration failed to land",
-      "source": "CoinDesk",
-      "date": "2026-08-26",
-      "date_human": "Aug 26, 2026",
-      "pub_ts": 1787785304,
+      "title": "Bitcoin hit $80,000 but failed to restore BTC treasury premiums at Strategy, Twenty One Capital, or Metaplanet",
+      "link": "https://cryptoslate.com/bitcoin-hitting-80000-failed-to-restore-btc-treasury-premiums-at-strategy-twenty-one-capital-or-metaplanet/",
+      "summary": "Strategy, Twenty One Capital and Metaplanet still face a funding bind as common-equity discounts collide with debt, pledged coins and dilution. The post Bitcoin hit $80,000 but failed to restore BTC treasury premiums at Strategy, Twenty One Capital, or Metaplanet appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787822722,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/82c63d25c774161ab6ecc7ce74e066578a78b0c5-1955x1100.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-premium-balloon.jpg"
       ],
-      "image": "../assets/news/2026-08-27/c9aad48c2e7b563c_base.jpg",
-      "image_local": "../assets/news/2026-08-27/c9aad48c2e7b563c_base.jpg"
+      "image": "../assets/news/2026-08-27/30c1960899a31e7b_base.jpg",
+      "image_local": "../assets/news/2026-08-27/30c1960899a31e7b_base.jpg"
+    },
+    {
+      "title": "Bitcoin researchers propose quantum fix that would not crowd out transactions",
+      "link": "https://www.coindesk.com/tech/2026/08/27/bitcoin-researchers-propose-quantum-fix-that-would-not-crowd-out-transactions",
+      "summary": "Bitcoin researchers propose quantum fix that would not crowd out transactions",
+      "source": "CoinDesk",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787814957,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/dbaaf4ee09d542d601779598bea948f38611ee01-1184x678.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-27/90219f0a5ae2adc8_base.jpg",
+      "image_local": "../assets/news/2026-08-27/90219f0a5ae2adc8_base.jpg"
     },
     {
       "title": "Russian Influence Network Used ChatGPT to Masquerade as Academic Experts",
@@ -74,46 +90,46 @@
       "image_local": "../assets/news/2026-08-27/f223167172f0d10d_base.jpg"
     },
     {
-      "title": "Solana takes its first step toward sub-second speed by cutting block confirmation times across the network",
-      "link": "https://cryptoslate.com/solana-cuts-slot-time-to-350ms-as-early-telemetry-tests-its-path-to-200ms/",
-      "summary": "Epoch 1021 averaged 365.4ms spacing with a 0.077% skip rate, while the 300ms stage remained pending. The post Solana takes its first step toward sub-second speed by cutting block confirmation times across the network appeared first on CryptoSlate.",
+      "title": "Bithumb wins 2 suits over mistaken Bitcoin credits: Report",
+      "link": "https://cointelegraph.com/news/bithumb-wins-suits-mistakenly-credited-bitcoin",
+      "summary": "Bithumb reportedly won first-instance rulings in two suits seeking proceeds from users who sold Bitcoin credited in its $40 billion error.",
+      "source": "Cointelegraph",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787822777,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/bithumb-lawsuit-1.jpg"
+      ],
+      "image": "../assets/news/2026-08-27/908ae074d6ec207c_base.jpg",
+      "image_local": "../assets/news/2026-08-27/908ae074d6ec207c_base.jpg"
+    },
+    {
+      "title": "Pyth Network's API overhaul threatens to freeze unpatched smart contracts across 300 DeFi protocols",
+      "link": "https://cryptoslate.com/pyth-networks-api-overhaul-threatens-to-freeze-unpatched-smart-contracts-across-300-defi-protocols/",
+      "summary": "Direct callers now need API keys, while Sui builders had to align their SDK, endpoint and on-chain package. The post Pyth Network’s API overhaul threatens to freeze unpatched smart contracts across 300 DeFi protocols appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-27",
       "date_human": "Aug 27, 2026",
-      "pub_ts": 1787796025,
+      "pub_ts": 1787818242,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/solana_slot_time_standard.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/pyth_standard_image.jpg"
       ],
-      "image": "../assets/news/2026-08-27/e6abf629165ddb83_base.jpg",
-      "image_local": "../assets/news/2026-08-27/e6abf629165ddb83_base.jpg"
+      "image": "../assets/news/2026-08-27/385f0e82cd3d0343_base.jpg",
+      "image_local": "../assets/news/2026-08-27/385f0e82cd3d0343_base.jpg"
     },
     {
-      "title": "Better launches Bitcoin-backed mortgages powered by Coinbase",
-      "link": "https://cointelegraph.com/news/better-launches-bitcoin-backed-mortgages-powered-by-coinbase",
-      "summary": "Better and Coinbase have launched a crypto-backed mortgage product that lets US homebuyers pledge Bitcoin as collateral for a down payment without having to sell it.",
-      "source": "Cointelegraph",
-      "date": "2026-08-26",
-      "date_human": "Aug 26, 2026",
-      "pub_ts": 1787774963,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-japan-what-is-a-housing-loan2.jpg"
-      ],
-      "image": "../assets/news/2026-08-27/9cef710f0a9c15eb_base.jpg",
-      "image_local": "../assets/news/2026-08-27/9cef710f0a9c15eb_base.jpg"
-    },
-    {
-      "title": "Nvidia shares rise after earnings top estimates, guides to $108 billion in revenue next quarter",
-      "link": "https://www.coindesk.com/markets/2026/08/26/nvidia-tops-earnings-estimates-guides-to-usd108-billion-in-revenue-next-quarter",
-      "summary": "Nvidia shares rise after earnings top estimates, guides to $108 billion in revenue next quarter",
+      "title": "Binance co-founders CZ and Yi He adopted Simpsons cartoon aliases ‘Homer' and ‘Marge' in company meetings",
+      "link": "https://www.coindesk.com/business/2026/08/27/binance-co-founders-changpeng-cz-zhao-and-yi-he-used-the-simpsons-cartoon-aliases-homer-and-marge-in-company-meetings",
+      "summary": "Binance co-founders CZ and Yi He adopted Simpsons cartoon aliases ‘Homer' and ‘Marge' in company meetings",
       "source": "CoinDesk",
-      "date": "2026-08-26",
-      "date_human": "Aug 26, 2026",
-      "pub_ts": 1787775871,
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787808328,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/693575c5c547ec149e1c707e4ac159476905398f-600x338.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/1d5dad964f5e4c0b49394a381d658d1200f6f991-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-27/a63b1003b369916b_base.jpg",
-      "image_local": "../assets/news/2026-08-27/a63b1003b369916b_base.jpg"
+      "image": "../assets/news/2026-08-27/0c45a7f5bc40e149_base.jpg",
+      "image_local": "../assets/news/2026-08-27/0c45a7f5bc40e149_base.jpg"
     },
     {
       "title": "Bill Gates Wants a Robot Tax and Jobs Humans Can't Be Fired From",
@@ -132,62 +148,46 @@
       "image_local": "../assets/news/2026-08-27/9359d6b3eb7b885c_base.jpg"
     },
     {
-      "title": "Bitcoin is trapped between $75,000 and $80,000 ahead of a massive Friday derivatives settlement",
-      "link": "https://cryptoslate.com/bitcoin-is-trapped-between-75000-and-80000-ahead-of-a-massive-friday-derivatives-settlement/",
-      "summary": "Deribit’s expiry concentrates reported call exposure at $75,000 and $80,000, where dealer hedging can pin or amplify a move. The post Bitcoin is trapped between $75,000 and $80,000 ahead of a massive Friday derivatives settlement appeared first on CryptoSlate.",
+      "title": "Core Lightning confirms multiple vulnerabilities, prepares security update",
+      "link": "https://cointelegraph.com/news/core-lightning-vulnerabilities-node-security-update",
+      "summary": "Core Lightning advised operators to use offline mode if they do not install the forthcoming update, keeping their nodes active but disconnected.",
+      "source": "Cointelegraph",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787817944,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/bitcoi.png"
+      ],
+      "image": "../assets/news/2026-08-27/399279b90866a8b6_base.jpg",
+      "image_local": "../assets/news/2026-08-27/399279b90866a8b6_base.jpg"
+    },
+    {
+      "title": "Staking Ethereum could soon look entirely different under a new deposit proposal",
+      "link": "https://cryptoslate.com/staking-ethereum-could-soon-look-entirely-different-under-a-new-deposit-proposal/",
+      "summary": "The working proposal opens staking to future key formats, but replacing validator signatures still requires separate protocol upgrades. The post Staking Ethereum could soon look entirely different under a new deposit proposal appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-27",
       "date_human": "Aug 27, 2026",
-      "pub_ts": 1787791215,
+      "pub_ts": 1787814020,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin_options_expiry_standard_image.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/ethereum_validator_deposit_standard_image.jpg"
       ],
-      "image": "../assets/news/2026-08-27/05ac2eeec916002a_base.jpg",
-      "image_local": "../assets/news/2026-08-27/05ac2eeec916002a_base.jpg"
+      "image": "../assets/news/2026-08-27/f53b0f7091815af6_base.jpg",
+      "image_local": "../assets/news/2026-08-27/f53b0f7091815af6_base.jpg"
     },
     {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-08-26",
-      "date_human": "Aug 26, 2026",
-      "pub_ts": 1787771646,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-08-27/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-08-27/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "South Korea's top financial conglomerate team up with Visa to test stablecoin issuance and B2B settlements",
-      "link": "https://www.coindesk.com/business/2026/08/26/south-korea-s-shinhan-financial-joins-visa-to-build-stablecoin-infrastructure",
-      "summary": "South Korea's top financial conglomerate team up with Visa to test stablecoin issuance and B2B settlements",
+      "title": "Bitcoin below $79,000, XRP leads losses as traders start betting on a Fed hike",
+      "link": "https://www.coindesk.com/markets/2026/08/27/bitcoin-below-usd79-000-xrp-leads-losses-as-traders-start-betting-on-a-fed-hike",
+      "summary": "Bitcoin below $79,000, XRP leads losses as traders start betting on a Fed hike",
       "source": "CoinDesk",
-      "date": "2026-08-26",
-      "date_human": "Aug 26, 2026",
-      "pub_ts": 1787757313,
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787805318,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/0b33f1bb25f1192885403a37624d1c465d514180-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/51543ac1d2c44852b4071f782344a30a71550179-1518x850.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-27/7a3723dc42e9af81_base.jpg",
-      "image_local": "../assets/news/2026-08-27/7a3723dc42e9af81_base.jpg"
-    },
-    {
-      "title": "Nvidia Shares Surge in After-Hours Trading After Record $96.2 Billion Revenue",
-      "link": "https://decrypt.co/376664/nvidia-shares-surge-record-q2-revenue",
-      "summary": "The chipmaker doubled quarterly revenue while disclosing $366 billion in future commitments and up to $108.5 billion in guarantee exposure.",
-      "source": "Decrypt",
-      "date": "2026-08-26",
-      "date_human": "Aug 26, 2026",
-      "pub_ts": 1787780562,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt-style-nvidia-jensen-huang-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt-style-nvidia-jensen-huang-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/decrypt-style-nvidia-jensen-huang-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-27/7619c49df3c4ff14_base.jpg",
-      "image_local": "../assets/news/2026-08-27/7619c49df3c4ff14_base.jpg"
+      "image": "../assets/news/2026-08-27/5f6c3842a3c9d0e8_base.jpg",
+      "image_local": "../assets/news/2026-08-27/5f6c3842a3c9d0e8_base.jpg"
     }
   ]
 }
