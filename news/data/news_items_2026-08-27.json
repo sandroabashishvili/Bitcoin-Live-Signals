@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-27",
-  "generated_at_utc": "2026-08-27 16:05:29 UTC",
+  "generated_at_utc": "2026-08-27 22:05:31 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,178 +16,178 @@
   "count": 12,
   "items": [
     {
-      "title": "UK government reports 240 crypto millionaires in 2025",
-      "link": "https://cointelegraph.com/news/uk-government-crypto-millionaires-2025",
-      "summary": "About 17,600 people in the UK reported a combined $1.9 billion in gains tied to crypto in the 2024 to 2025 tax year, with 240 each declaring more than $1.4 million.",
-      "source": "Cointelegraph",
-      "date": "2026-08-27",
-      "date_human": "Aug 27, 2026",
-      "pub_ts": 1787846160,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-uk-and-crypto.jpg"
-      ],
-      "image": "../assets/news/2026-08-27/003acdb8fb45d2db_base.jpg",
-      "image_local": "../assets/news/2026-08-27/003acdb8fb45d2db_base.jpg"
-    },
-    {
-      "title": "Is the Jackson Hole central bank retreat now a crypto conference?",
-      "link": "https://cryptoslate.com/is-jackson-hole-now-a-crypto-conference/",
-      "summary": "There was an actual crypto conference that took place in Jackson Hole between Aug. 17 and Aug. 20, where about 500 guests gathered at the Four Seasons for the Wyoming Blockchain Symposium and listened to executives, investors, and lawmakers discuss digital assets. Today, on Aug. 27, roughly 120 central bankers, economists, and officials will meet […] The post Is the Jackson Hole central bank retreat now a crypto conference? appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-27",
-      "date_human": "Aug 27, 2026",
-      "pub_ts": 1787845859,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/jackson-hole-conference-badge.jpg"
-      ],
-      "image": "../assets/news/2026-08-27/fda9034a98f55f24_base.jpg",
-      "image_local": "../assets/news/2026-08-27/fda9034a98f55f24_base.jpg"
-    },
-    {
-      "title": "AI Finds Critical Flaw in Bitcoin Lightning, Devs Issue Emergency Warning",
-      "link": "https://decrypt.co/376714/ai-critical-flaw-bitcoin-lightning-warning",
-      "summary": "The Lightning software project said it is preparing fixes after confirming that several AI-generated vulnerability reports were accurate.",
+      "title": "Bitcoin Privacy Wallet Sparrow Issues Update After AI Flags Fixes",
+      "link": "https://decrypt.co/376755/bitcoin-sparrow-wallet-update-ai-fixes",
+      "summary": "Developer Craig Raw said an AI-assisted review produced most of the fixes in version 2.5.4, though none appeared likely to put users’ funds at risk.",
       "source": "Decrypt",
       "date": "2026-08-27",
       "date_human": "Aug 27, 2026",
-      "pub_ts": 1787845528,
+      "pub_ts": 1787866565,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-04-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-04-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-04-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-27/b9e4c80ed4c0a1f5_base.jpg",
-      "image_local": "../assets/news/2026-08-27/b9e4c80ed4c0a1f5_base.jpg"
+      "image": "../assets/news/2026-08-27/dfc1e3e87e7c0303_base.jpg",
+      "image_local": "../assets/news/2026-08-27/dfc1e3e87e7c0303_base.jpg"
     },
     {
-      "title": "Clearing firm RQD* raises $74 million as Wall Street prepares for tokenized markets",
-      "link": "https://www.coindesk.com/business/2026/08/27/clearing-firm-rqd-raises-usd74-million-as-wall-street-prepares-for-tokenized-markets",
-      "summary": "Clearing firm RQD* raises $74 million as Wall Street prepares for tokenized markets",
-      "source": "CoinDesk",
-      "date": "2026-08-27",
-      "date_human": "Aug 27, 2026",
-      "pub_ts": 1787841161,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/981f113099a5d95dd101524386439043bf2a255f-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-27/2b4f15ec29c3a9be_base.jpg",
-      "image_local": "../assets/news/2026-08-27/2b4f15ec29c3a9be_base.jpg"
-    },
-    {
-      "title": "Ripple Prime expands into US equity derivatives with Delta One business",
-      "link": "https://cointelegraph.com/news/ripple-prime-us-equities-delta-one",
-      "summary": "Institutional clients can access total return swaps across linked to US-listed equities, indexes and digital assets and cross-margin exposures.",
-      "source": "Cointelegraph",
-      "date": "2026-08-27",
-      "date_human": "Aug 27, 2026",
-      "pub_ts": 1787838862,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-people-start-trust-crypto-in-period-of-crisis-stablecoin-ripple.jpg"
-      ],
-      "image": "../assets/news/2026-08-27/4dfd126eb6a78c25_base.jpg",
-      "image_local": "../assets/news/2026-08-27/4dfd126eb6a78c25_base.jpg"
-    },
-    {
-      "title": "Crypto users lost at least $5.69 million because their wallet seeds were too predictable",
-      "link": "https://cryptoslate.com/crypto-users-lost-at-least-5-69-million-because-their-wallet-seeds-were-too-predictable/",
-      "summary": "Affected users need a new recovery phrase and must move funds because an app update cannot repair a compromised seed. The post Crypto users lost at least $5.69 million because their wallet seeds were too predictable appeared first on CryptoSlate.",
+      "title": "The next currency crisis may be harder to contain because of stablecoins, New York Fed report shows",
+      "link": "https://cryptoslate.com/the-next-currency-crisis-may-be-harder-to-contain-because-of-stablecoins-new-york-fed-report-shows/",
+      "summary": "A 4.5 million-observation event study finds crisis-week inflows among ENS-tagged wallets, while its model shows how adoption can strain capital controls. The post The next currency crisis may be harder to contain because of stablecoins, New York Fed report shows appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-27",
       "date_human": "Aug 27, 2026",
-      "pub_ts": 1787841618,
+      "pub_ts": 1787865640,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/weak-seed-wallet-breach.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/stablecoin-crisis-hand.jpg"
       ],
-      "image": "../assets/news/2026-08-27/7561ae673d06cb9c_base.jpg",
-      "image_local": "../assets/news/2026-08-27/7561ae673d06cb9c_base.jpg"
+      "image": "../assets/news/2026-08-27/f78e8a5384b6619d_base.jpg",
+      "image_local": "../assets/news/2026-08-27/f78e8a5384b6619d_base.jpg"
     },
     {
-      "title": "Solana Is Having Its Best Month Since 2024—With a Historic Governance Vote on Deck",
-      "link": "https://decrypt.co/376706/solana-best-month-since-2024-historic-governance-vote",
-      "summary": "Solana is up more than 8% in 24 hours and 44% on the month. Coming changes to the network could add a supply squeeze to the mix.",
-      "source": "Decrypt",
-      "date": "2026-08-27",
-      "date_human": "Aug 27, 2026",
-      "pub_ts": 1787843538,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Solana-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Solana-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Solana-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-27/f50778ccc19551c1_base.jpg",
-      "image_local": "../assets/news/2026-08-27/f50778ccc19551c1_base.jpg"
-    },
-    {
-      "title": "Crypto traders brace for Fed Chair Kevin Warsh's Jackson Hole speech",
-      "link": "https://www.coindesk.com/markets/2026/08/27/bitcoin-holds-near-usd80-000-as-traders-brace-for-warsh-s-jackson-hole-fed-speech",
-      "summary": "Crypto traders brace for Fed Chair Kevin Warsh's Jackson Hole speech",
-      "source": "CoinDesk",
-      "date": "2026-08-27",
-      "date_human": "Aug 27, 2026",
-      "pub_ts": 1787839265,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/a103b6311bda34f3de954f20713a86edc0ea2dbe-5411x3044.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-27/1f5a5c6099235524_base.jpg",
-      "image_local": "../assets/news/2026-08-27/1f5a5c6099235524_base.jpg"
-    },
-    {
-      "title": "Bank of England set for new innovation mandate covering stablecoins",
-      "link": "https://cointelegraph.com/news/uk-boe-innovation-mandate-stablecoins",
-      "summary": "The UK plans to expand the Bank of England’s remit to support digital payments innovation, including stablecoins, while keeping financial stability first.",
+      "title": "Virtu, Tradeweb complete onchain repo using Marshall Islands digital bond",
+      "link": "https://cointelegraph.com/news/virtu-tradeweb-complete-onchain-repo-using-marshall-islands-digital-bond",
+      "summary": "The transaction used the Marshall Islands-issued USDM1 bond as collateral and completed the full repo cycle on the Canton Network in under 10 minutes.",
       "source": "Cointelegraph",
       "date": "2026-08-27",
       "date_human": "Aug 27, 2026",
-      "pub_ts": 1787835119,
+      "pub_ts": 1787863180,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-uk-regulations2-1.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/hi-bond-follow-up-bybit-2.png"
       ],
-      "image": "../assets/news/2026-08-27/a9a0e8fe73195995_base.jpg",
-      "image_local": "../assets/news/2026-08-27/a9a0e8fe73195995_base.jpg"
+      "image": "../assets/news/2026-08-27/53b0a4169b122abc_base.jpg",
+      "image_local": "../assets/news/2026-08-27/53b0a4169b122abc_base.jpg"
     },
     {
-      "title": "Onslaught of AI-found bugs forces Bitcoin's Core Lightning into a secret 14-day emergency lockdown",
-      "link": "https://cryptoslate.com/onslaught-of-ai-found-bugs-forces-bitcoins-core-lightning-into-a-secret-14-day-emergency-lockdown/",
-      "summary": "Core Lightning developers have asked node operators to make a security decision before they can fully assess the threat. An Aug. 23 message posted on Stacker News urged operators to install new binaries that fix multiple reported vulnerabilities. CLN told operators who decline the upgrade to run their nodes offline, and the team plans to […] The post Onslaught of AI-found bugs forces Bitcoin’s Core Lightning into a secret 14-day emergency lockdown appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-27",
-      "date_human": "Aug 27, 2026",
-      "pub_ts": 1787837744,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/core-lightning-emergency-lockdown.jpg"
-      ],
-      "image": "../assets/news/2026-08-27/59f0a9cde02af522_base.jpg",
-      "image_local": "../assets/news/2026-08-27/59f0a9cde02af522_base.jpg"
-    },
-    {
-      "title": "Flock CEO Asks Americans to 'Compromise' on Privacy as Camera Backlash Grows",
-      "link": "https://decrypt.co/376690/flock-ceo-asks-americans-to-compromise-on-privacy-as-camera-backlash-grows",
-      "summary": "Garrett Langley says 99.9% of police are good actors, days after a report identified at least 69 officials accused of misusing plate readers.",
-      "source": "Decrypt",
-      "date": "2026-08-27",
-      "date_human": "Aug 27, 2026",
-      "pub_ts": 1787841190,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/08/flock-ceo-garrett-langley-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/flock-ceo-garrett-langley-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/flock-ceo-garrett-langley-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-27/f4f75472b1922cd2_base.jpg",
-      "image_local": "../assets/news/2026-08-27/f4f75472b1922cd2_base.jpg"
-    },
-    {
-      "title": "The Clarity Act will put Main Street banks at a disadvantage",
-      "link": "https://www.coindesk.com/opinion/2026/08/27/the-clarity-act-will-put-main-street-banks-at-a-disadvantage",
-      "summary": "The Clarity Act will put Main Street banks at a disadvantage",
+      "title": "Connecticut's new lawsuit against Kalshi piles on to prediction market legal fight",
+      "link": "https://www.coindesk.com/news-analysis/2026/08/27/connecticut-s-new-lawsuit-against-kalshi-piles-on-to-prediction-market-legal-fight",
+      "summary": "Connecticut's new lawsuit against Kalshi piles on to prediction market legal fight",
       "source": "CoinDesk",
       "date": "2026-08-27",
       "date_human": "Aug 27, 2026",
-      "pub_ts": 1787833800,
+      "pub_ts": 1787855333,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/ad53ec57f63a718481b501cc2a5f1cbfe6f34d66-5616x3744.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/bcad99c0ee451c62c60071a6af229113ede0fa77-1500x878.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-27/ec3dbb77caca0526_base.jpg",
-      "image_local": "../assets/news/2026-08-27/ec3dbb77caca0526_base.jpg"
+      "image": "../assets/news/2026-08-27/c435d1f0fb25c2f9_base.jpg",
+      "image_local": "../assets/news/2026-08-27/c435d1f0fb25c2f9_base.jpg"
+    },
+    {
+      "title": "Red Flag? OpenAI's Agentic ChatGPT Work Signs Into Your Accounts Without You",
+      "link": "https://decrypt.co/376757/openai-agentic-chatgpt-work-signs-in-without-you",
+      "summary": "OpenAI says the model never sees your password—but a signed-in session can persist across tasks, and you can step away while it works.",
+      "source": "Decrypt",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787864457,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-27/0758d3684812fb83_base.jpg",
+      "image_local": "../assets/news/2026-08-27/0758d3684812fb83_base.jpg"
+    },
+    {
+      "title": "It just got 25 times easier to move self-custody Bitcoin directly onto Wall Street, and $5 billion already has",
+      "link": "https://cryptoslate.com/it-just-got-25-times-easier-to-move-self-custody-bitcoin-directly-onto-wall-street-and-5-billion-already-has/",
+      "summary": "BlackRock cut the minimum for converting privately held Bitcoin into IBIT shares from $25 million to $1 million, while Bitwise lowered its floor from $100 million to $3 million. While this might sound like a niche development for a small number of institutional users, it signals that custody is no longer just a slogan for […] The post It just got 25 times easier to move self-custody Bitcoin directly onto Wall Street, and $5 billion already has appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787861131,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-etf-printing-press.jpg"
+      ],
+      "image": "../assets/news/2026-08-27/07d47bef3c79e57b_base.jpg",
+      "image_local": "../assets/news/2026-08-27/07d47bef3c79e57b_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787858873,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-27/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-27/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Ethena surges as buyback vote, VC unlock overhaul boost token outlook",
+      "link": "https://www.coindesk.com/markets/2026/08/27/ethena-surges-as-buyback-vote-vc-unlock-overhaul-boost-token-outlook",
+      "summary": "Ethena surges as buyback vote, VC unlock overhaul boost token outlook",
+      "source": "CoinDesk",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787851940,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/4f2c96f3cc47bb440512f4f7a38cb2ed453a6fec-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-27/0d37f6471ab18982_base.jpg",
+      "image_local": "../assets/news/2026-08-27/0d37f6471ab18982_base.jpg"
+    },
+    {
+      "title": "$6.4 Billion in Bitcoin Options Expire Tomorrow—Here's What It Means",
+      "link": "https://decrypt.co/376752/billion-bitcoin-options-expire-what-it-means",
+      "summary": "Deribit's Friday settlement covers nearly a fifth of the exchange's Bitcoin open interest, and max pain sits well below where BTC is trading right now.",
+      "source": "Decrypt",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787860041,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/09/bitcoin-whale-decrypt-style-02-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/bitcoin-whale-decrypt-style-02-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/bitcoin-whale-decrypt-style-02-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-27/4d3d56892d62a5cd_base.jpg",
+      "image_local": "../assets/news/2026-08-27/4d3d56892d62a5cd_base.jpg"
+    },
+    {
+      "title": "Investors just moved $7 billion into Bitcoin and gold in five days to escape an accelerating dollar crisis",
+      "link": "https://cryptoslate.com/investors-just-moved-7-billion-into-bitcoin-and-gold-in-five-days-to-escape-an-accelerating-dollar-crisis/",
+      "summary": "GLD and IBIT supplied about 70% of the five-session record as yields and the dollar eased, leaving the hedge thesis untested under pressure. The post Investors just moved $7 billion into Bitcoin and gold in five days to escape an accelerating dollar crisis appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787856959,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/old-bitcoin-yield-test.jpg"
+      ],
+      "image": "../assets/news/2026-08-27/5840b8d916697589_base.jpg",
+      "image_local": "../assets/news/2026-08-27/5840b8d916697589_base.jpg"
+    },
+    {
+      "title": "Trump cost investors $4.7B through crypto ‘schemes': Public Citizen",
+      "link": "https://cointelegraph.com/news/donald-trump-crypto-investors-losses-public-citizen",
+      "summary": "While investors in World Liberty Financial‘s USD1 stablecoin “haven’t suffered major losses,” many lost billions of dollars in other Trump ventures, according to Public Citizen.",
+      "source": "Cointelegraph",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787858534,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/analytics-red-trump.jpg"
+      ],
+      "image": "../assets/news/2026-08-27/b04b329f9ef1e37f_base.jpg",
+      "image_local": "../assets/news/2026-08-27/b04b329f9ef1e37f_base.jpg"
+    },
+    {
+      "title": "GTA 6 leaker cashes out of his own memecoin hours before Rockstar's gameplay reveal",
+      "link": "https://www.coindesk.com/business/2026/08/27/gta-6-leaker-cashes-out-of-his-own-memecoin-hours-before-rockstar-s-gameplay-reveal",
+      "summary": "GTA 6 leaker cashes out of his own memecoin hours before Rockstar's gameplay reveal",
+      "source": "CoinDesk",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787848358,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/62388bde80f8e4232ed973e0da85eeaedabd3d79-7959x5306.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-27/f3db7e9b10360f85_base.jpg",
+      "image_local": "../assets/news/2026-08-27/f3db7e9b10360f85_base.jpg"
     }
   ]
 }

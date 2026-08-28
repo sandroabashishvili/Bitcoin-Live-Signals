@@ -1,0 +1,193 @@
+{
+  "day_iso": "2026-08-28",
+  "generated_at_utc": "2026-08-28 04:05:30 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Ethereum and Solana are hosting trillions in dollar volume, yet their native tokens risk losing direct consumer demand",
+      "link": "https://cryptoslate.com/stablecoin-apps-can-hide-ethereum-and-solana-but-they-cannot-erase-the-gas-bill/",
+      "summary": "Paymasters and sponsors can keep native tokens out of sight, but Ethereum and Solana still require fees funded in ETH or SOL. The post Ethereum and Solana are hosting trillions in dollar volume, yet their native tokens risk losing direct consumer demand appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787887251,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/hidden-stablecoin-gas-fees.jpg"
+      ],
+      "image": "../assets/news/2026-08-28/430fdac435b79378_base.jpg",
+      "image_local": "../assets/news/2026-08-28/430fdac435b79378_base.jpg"
+    },
+    {
+      "title": "Bitcoin Completes First Experimental Quantum-Safe Transaction, Starkware Says",
+      "link": "https://decrypt.co/376767/bitcoin-quantum-safe-transaction-starkware",
+      "summary": "The transaction used Bitcoin’s existing rules to protect funds from a future quantum attack without requiring a network upgrade.",
+      "source": "Decrypt",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787870164,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/10/google-quantum-decrypt-style-01-2-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/10/google-quantum-decrypt-style-01-2-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/google-quantum-decrypt-style-01-2-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-28/83c130467665070d_base.jpg",
+      "image_local": "../assets/news/2026-08-28/83c130467665070d_base.jpg"
+    },
+    {
+      "title": "Virtu, Tradeweb complete onchain repo using Marshall Islands digital bond",
+      "link": "https://cointelegraph.com/news/virtu-tradeweb-complete-onchain-repo-using-marshall-islands-digital-bond",
+      "summary": "The transaction used the Marshall Islands-issued USDM1 bond as collateral and completed the full repo cycle on the Canton Network in under 10 minutes.",
+      "source": "Cointelegraph",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787863180,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-bond-follow-up-bybit-2.png"
+      ],
+      "image": "../assets/news/2026-08-28/53b0a4169b122abc_base.jpg",
+      "image_local": "../assets/news/2026-08-28/53b0a4169b122abc_base.jpg"
+    },
+    {
+      "title": "Connecticut's new lawsuit against Kalshi piles on to prediction market legal fight",
+      "link": "https://www.coindesk.com/news-analysis/2026/08/27/connecticut-s-new-lawsuit-against-kalshi-piles-on-to-prediction-market-legal-fight",
+      "summary": "Connecticut's new lawsuit against Kalshi piles on to prediction market legal fight",
+      "source": "CoinDesk",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787855333,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/bcad99c0ee451c62c60071a6af229113ede0fa77-1500x878.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-28/c435d1f0fb25c2f9_base.jpg",
+      "image_local": "../assets/news/2026-08-28/c435d1f0fb25c2f9_base.jpg"
+    },
+    {
+      "title": "HashKey Cloud backs Stacks' Genesis Bond to prove institutional appetite for native Bitcoin yield",
+      "link": "https://cryptoslate.com/hashkey-cloud-backs-stacks-genesis-bond-to-prove-institutional-appetite-for-native-bitcoin-yield/",
+      "summary": "The Genesis Bond avoids BTC lending and custody transfers while adding a 5% STX lock, managed parameters and variable payouts. The post HashKey Cloud backs Stacks’ Genesis Bond to prove institutional appetite for native Bitcoin yield appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787879450,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-stacks-self-custody.jpg"
+      ],
+      "image": "../assets/news/2026-08-28/68c230ce7d56577e_base.jpg",
+      "image_local": "../assets/news/2026-08-28/68c230ce7d56577e_base.jpg"
+    },
+    {
+      "title": "Google's Android 17 Turns On New Privacy Feature—But Your Browsing Isn't Fully Hidden",
+      "link": "https://decrypt.co/376760/google-android-17-privacy-encrypted-client-hello",
+      "summary": "Google's new privacy standard scrambles the one field of a web request that still travels in the clear: the name of the site being opened.",
+      "source": "Decrypt",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787868365,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-28/7f3e8bb9141d9c1f_base.jpg",
+      "image_local": "../assets/news/2026-08-28/7f3e8bb9141d9c1f_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787858873,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-28/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-28/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Ethena surges as buyback vote, VC unlock overhaul boost token outlook",
+      "link": "https://www.coindesk.com/markets/2026/08/27/ethena-surges-as-buyback-vote-vc-unlock-overhaul-boost-token-outlook",
+      "summary": "Ethena surges as buyback vote, VC unlock overhaul boost token outlook",
+      "source": "CoinDesk",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787851940,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/4f2c96f3cc47bb440512f4f7a38cb2ed453a6fec-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-28/0d37f6471ab18982_base.jpg",
+      "image_local": "../assets/news/2026-08-28/0d37f6471ab18982_base.jpg"
+    },
+    {
+      "title": "KuCoin can block your crypto transactions even if you never sent it to these 17 sanctioned platforms",
+      "link": "https://cryptoslate.com/kucoin-can-block-your-crypto-transactions-even-if-you-never-sent-it-to-these-17-sanctioned-platforms/",
+      "summary": "A listed intermediary can trigger review, rejection, wallet restrictions, and possible suspension or termination. The post KuCoin can block your crypto transactions even if you never sent it to these 17 sanctioned platforms appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787874005,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/kucoin-sanctions-account-lock.jpg"
+      ],
+      "image": "../assets/news/2026-08-28/23b18401ec9832fe_base.jpg",
+      "image_local": "../assets/news/2026-08-28/23b18401ec9832fe_base.jpg"
+    },
+    {
+      "title": "Bitcoin Privacy Wallet Sparrow Issues Update After AI Flags Fixes",
+      "link": "https://decrypt.co/376755/bitcoin-sparrow-wallet-update-ai-fixes",
+      "summary": "Developer Craig Raw said an AI-assisted review produced most of the fixes in version 2.5.4, though none appeared likely to put users’ funds at risk.",
+      "source": "Decrypt",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787866565,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-04-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-04-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-04-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-28/dfc1e3e87e7c0303_base.jpg",
+      "image_local": "../assets/news/2026-08-28/dfc1e3e87e7c0303_base.jpg"
+    },
+    {
+      "title": "Trump cost investors $4.7B through crypto ‘schemes': Public Citizen",
+      "link": "https://cointelegraph.com/news/donald-trump-crypto-investors-losses-public-citizen",
+      "summary": "While investors in World Liberty Financial‘s USD1 stablecoin “haven’t suffered major losses,” many lost billions of dollars in other Trump ventures, according to Public Citizen.",
+      "source": "Cointelegraph",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787858534,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/analytics-red-trump.jpg"
+      ],
+      "image": "../assets/news/2026-08-28/b04b329f9ef1e37f_base.jpg",
+      "image_local": "../assets/news/2026-08-28/b04b329f9ef1e37f_base.jpg"
+    },
+    {
+      "title": "GTA 6 leaker cashes out of his own memecoin hours before Rockstar's gameplay reveal",
+      "link": "https://www.coindesk.com/business/2026/08/27/gta-6-leaker-cashes-out-of-his-own-memecoin-hours-before-rockstar-s-gameplay-reveal",
+      "summary": "GTA 6 leaker cashes out of his own memecoin hours before Rockstar's gameplay reveal",
+      "source": "CoinDesk",
+      "date": "2026-08-27",
+      "date_human": "Aug 27, 2026",
+      "pub_ts": 1787848358,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/62388bde80f8e4232ed973e0da85eeaedabd3d79-7959x5306.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-28/f3db7e9b10360f85_base.jpg",
+      "image_local": "../assets/news/2026-08-28/f3db7e9b10360f85_base.jpg"
+    }
+  ]
+}
