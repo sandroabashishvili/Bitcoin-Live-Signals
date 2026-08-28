@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-28",
-  "generated_at_utc": "2026-08-28 04:05:30 UTC",
+  "generated_at_utc": "2026-08-28 10:05:31 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,18 +16,46 @@
   "count": 12,
   "items": [
     {
-      "title": "Ethereum and Solana are hosting trillions in dollar volume, yet their native tokens risk losing direct consumer demand",
-      "link": "https://cryptoslate.com/stablecoin-apps-can-hide-ethereum-and-solana-but-they-cannot-erase-the-gas-bill/",
-      "summary": "Paymasters and sponsors can keep native tokens out of sight, but Ethereum and Solana still require fees funded in ETH or SOL. The post Ethereum and Solana are hosting trillions in dollar volume, yet their native tokens risk losing direct consumer demand appeared first on CryptoSlate.",
+      "title": "Solana traders on OnlyFans just saved a 64-year marmot wildlife study after federal funding stopped",
+      "link": "https://cryptoslate.com/solana-crypto-traders-on-onlyfans-just-saved-a-64-year-marmot-wildlife-study-after-federal-funding-stopped/",
+      "summary": "Every summer in Gothic, Colorado, a yellow-bellied marmot walks into a wire trap baited with oats and peanut butter. A scientist weighs it, takes samples, checks its ear tags, paints a temporary identification mark on its back, and releases it back into the mountain meadow. The scientific value of this emerges through accumulation, with thousands […] The post Solana traders on OnlyFans just saved a 64-year marmot wildlife study after federal funding stopped appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-28",
       "date_human": "Aug 28, 2026",
-      "pub_ts": 1787887251,
+      "pub_ts": 1787910008,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/hidden-stablecoin-gas-fees.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/onlymarms-science-funding-gap.jpg"
       ],
-      "image": "../assets/news/2026-08-28/430fdac435b79378_base.jpg",
-      "image_local": "../assets/news/2026-08-28/430fdac435b79378_base.jpg"
+      "image": "../assets/news/2026-08-28/5b5a3fab2778584f_base.jpg",
+      "image_local": "../assets/news/2026-08-28/5b5a3fab2778584f_base.jpg"
+    },
+    {
+      "title": "ENA token rises 10% as Ethena puts revenue-funded token buybacks to vote",
+      "link": "https://cointelegraph.com/markets/ena-rises-10-ethena-token-buyback-proposal",
+      "summary": "The Ethena Foundation proposed buying the token supply held by major early investors and revealed a fee switch to turn 95% of net protocol revenue into ENA buybacks.",
+      "source": "Cointelegraph",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787909250,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-overview-of-synthetic-crypto-assets-for-ethena.jpg"
+      ],
+      "image": "../assets/news/2026-08-28/de7f835de1c9162e_base.jpg",
+      "image_local": "../assets/news/2026-08-28/de7f835de1c9162e_base.jpg"
+    },
+    {
+      "title": "Here's why Warsh's Jackson Hole speech is a major event for bitcoin and gold",
+      "link": "https://www.coindesk.com/markets/2026/08/28/here-s-why-warsh-s-jackson-hole-speech-is-a-major-event-for-bitcoin-and-gold",
+      "summary": "Here's why Warsh's Jackson Hole speech is a major event for bitcoin and gold",
+      "source": "CoinDesk",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787898610,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/17bee3af9fe1ac84bbe5e96e709475f22fb089ca-3542x2362.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-28/4b6f6819f42d5328_base.jpg",
+      "image_local": "../assets/news/2026-08-28/4b6f6819f42d5328_base.jpg"
     },
     {
       "title": "Bitcoin Completes First Experimental Quantum-Safe Transaction, Starkware Says",
@@ -46,46 +74,46 @@
       "image_local": "../assets/news/2026-08-28/83c130467665070d_base.jpg"
     },
     {
-      "title": "Virtu, Tradeweb complete onchain repo using Marshall Islands digital bond",
-      "link": "https://cointelegraph.com/news/virtu-tradeweb-complete-onchain-repo-using-marshall-islands-digital-bond",
-      "summary": "The transaction used the Marshall Islands-issued USDM1 bond as collateral and completed the full repo cycle on the Canton Network in under 10 minutes.",
-      "source": "Cointelegraph",
-      "date": "2026-08-27",
-      "date_human": "Aug 27, 2026",
-      "pub_ts": 1787863180,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/hi-bond-follow-up-bybit-2.png"
-      ],
-      "image": "../assets/news/2026-08-28/53b0a4169b122abc_base.jpg",
-      "image_local": "../assets/news/2026-08-28/53b0a4169b122abc_base.jpg"
-    },
-    {
-      "title": "Connecticut's new lawsuit against Kalshi piles on to prediction market legal fight",
-      "link": "https://www.coindesk.com/news-analysis/2026/08/27/connecticut-s-new-lawsuit-against-kalshi-piles-on-to-prediction-market-legal-fight",
-      "summary": "Connecticut's new lawsuit against Kalshi piles on to prediction market legal fight",
-      "source": "CoinDesk",
-      "date": "2026-08-27",
-      "date_human": "Aug 27, 2026",
-      "pub_ts": 1787855333,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/bcad99c0ee451c62c60071a6af229113ede0fa77-1500x878.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-28/c435d1f0fb25c2f9_base.jpg",
-      "image_local": "../assets/news/2026-08-28/c435d1f0fb25c2f9_base.jpg"
-    },
-    {
-      "title": "HashKey Cloud backs Stacks' Genesis Bond to prove institutional appetite for native Bitcoin yield",
-      "link": "https://cryptoslate.com/hashkey-cloud-backs-stacks-genesis-bond-to-prove-institutional-appetite-for-native-bitcoin-yield/",
-      "summary": "The Genesis Bond avoids BTC lending and custody transfers while adding a 5% STX lock, managed parameters and variable payouts. The post HashKey Cloud backs Stacks’ Genesis Bond to prove institutional appetite for native Bitcoin yield appeared first on CryptoSlate.",
+      "title": "Crypto startups have 54 days left to shape the SEC's proposed $75 million fundraising cap",
+      "link": "https://cryptoslate.com/secs-75-million-crypto-proposal-has-31-comments-and-54-days-left-to-reshape-it/",
+      "summary": "The visible docket labels identify no major exchange, asset manager, large token issuer or established investor group. The post Crypto startups have 54 days left to shape the SEC’s proposed $75 million fundraising cap appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-28",
       "date_human": "Aug 28, 2026",
-      "pub_ts": 1787879450,
+      "pub_ts": 1787904655,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-stacks-self-custody.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/sec-crypto-rule-deadline.jpg"
       ],
-      "image": "../assets/news/2026-08-28/68c230ce7d56577e_base.jpg",
-      "image_local": "../assets/news/2026-08-28/68c230ce7d56577e_base.jpg"
+      "image": "../assets/news/2026-08-28/61ff601b1194b240_base.jpg",
+      "image_local": "../assets/news/2026-08-28/61ff601b1194b240_base.jpg"
+    },
+    {
+      "title": "BitGo buys NYDIG trading arm to deepen institutional crypto push",
+      "link": "https://cointelegraph.com/news/bitgo-nydig-trading-arm-acquisition",
+      "summary": "BitGo completed its acquisition of NYDIG’s institutional trading business, adding about 30 employees and expanding its derivatives and financing capabilities.",
+      "source": "Cointelegraph",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787908904,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/car-exchange-smartphone-blockchain-bitgo.jpg"
+      ],
+      "image": "../assets/news/2026-08-28/aec793217502cfd3_base.jpg",
+      "image_local": "../assets/news/2026-08-28/aec793217502cfd3_base.jpg"
+    },
+    {
+      "title": "Solana's faster disinflation plan leads vote as $800K burn proposal trails",
+      "link": "https://www.coindesk.com/tech/2026/08/28/solana-s-faster-supply-cuts-lead-vote-while-usd800-000-daily-burn-plan-trails",
+      "summary": "Solana's faster disinflation plan leads vote as $800K burn proposal trails",
+      "source": "CoinDesk",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787898130,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/2e14ef9e0ece47068da06c0d0405ba1e13c15bd8-3904x2196.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-28/72ca71c008eae7bc_base.jpg",
+      "image_local": "../assets/news/2026-08-28/72ca71c008eae7bc_base.jpg"
     },
     {
       "title": "Google's Android 17 Turns On New Privacy Feature—But Your Browsing Isn't Fully Hidden",
@@ -104,46 +132,46 @@
       "image_local": "../assets/news/2026-08-28/7f3e8bb9141d9c1f_base.jpg"
     },
     {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-08-27",
-      "date_human": "Aug 27, 2026",
-      "pub_ts": 1787858873,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-08-28/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-08-28/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "Ethena surges as buyback vote, VC unlock overhaul boost token outlook",
-      "link": "https://www.coindesk.com/markets/2026/08/27/ethena-surges-as-buyback-vote-vc-unlock-overhaul-boost-token-outlook",
-      "summary": "Ethena surges as buyback vote, VC unlock overhaul boost token outlook",
-      "source": "CoinDesk",
-      "date": "2026-08-27",
-      "date_human": "Aug 27, 2026",
-      "pub_ts": 1787851940,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/4f2c96f3cc47bb440512f4f7a38cb2ed453a6fec-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-28/0d37f6471ab18982_base.jpg",
-      "image_local": "../assets/news/2026-08-28/0d37f6471ab18982_base.jpg"
-    },
-    {
-      "title": "KuCoin can block your crypto transactions even if you never sent it to these 17 sanctioned platforms",
-      "link": "https://cryptoslate.com/kucoin-can-block-your-crypto-transactions-even-if-you-never-sent-it-to-these-17-sanctioned-platforms/",
-      "summary": "A listed intermediary can trigger review, rejection, wallet restrictions, and possible suspension or termination. The post KuCoin can block your crypto transactions even if you never sent it to these 17 sanctioned platforms appeared first on CryptoSlate.",
+      "title": "MANTRA Chain is back online, but silent code changes spark developer concerns",
+      "link": "https://cryptoslate.com/mantra-chain-is-back-online-but-silent-code-changes-spark-developer-concerns/",
+      "summary": "Mainnet is running on v8.4.0, while wallet addresses, transaction hashes, amounts and the attack path remain undisclosed. The post MANTRA Chain is back online, but silent code changes spark developer concerns appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-27",
-      "date_human": "Aug 27, 2026",
-      "pub_ts": 1787874005,
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787898032,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/kucoin-sanctions-account-lock.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/mantra-postmortem-missing.jpg"
       ],
-      "image": "../assets/news/2026-08-28/23b18401ec9832fe_base.jpg",
-      "image_local": "../assets/news/2026-08-28/23b18401ec9832fe_base.jpg"
+      "image": "../assets/news/2026-08-28/4481348f27904f05_base.jpg",
+      "image_local": "../assets/news/2026-08-28/4481348f27904f05_base.jpg"
+    },
+    {
+      "title": "OneKey reproduces transaction replacement attack on outdated Ledger Ethereum app",
+      "link": "https://cointelegraph.com/news/onekey-transaction-replacement-attack-old-version-ledger",
+      "summary": "OneKey said it reproduced an exploit against an older version of the Ledger app in its lab environment, which Ledger fixed in its Ethereum app 1.22.2, with no user funds lost.",
+      "source": "Cointelegraph",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787905276,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/hi-how-great-big-companies-use-blockchain2.jpg"
+      ],
+      "image": "../assets/news/2026-08-28/9294be63050598ab_base.jpg",
+      "image_local": "../assets/news/2026-08-28/9294be63050598ab_base.jpg"
+    },
+    {
+      "title": "Bitcoin is trading at a premium on Coinbase after a long time. Here's what it means",
+      "link": "https://www.coindesk.com/markets/2026/08/28/bitcoin-is-trading-at-a-premium-on-coinbase-after-a-long-time",
+      "summary": "Bitcoin is trading at a premium on Coinbase after a long time. Here's what it means",
+      "source": "CoinDesk",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787893342,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/7f9a8bf8731625906738faac957eee0f6ad99369-2315x1277.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-28/5f28ac56a4a07e9e_base.jpg",
+      "image_local": "../assets/news/2026-08-28/5f28ac56a4a07e9e_base.jpg"
     },
     {
       "title": "Bitcoin Privacy Wallet Sparrow Issues Update After AI Flags Fixes",
@@ -160,34 +188,6 @@
       ],
       "image": "../assets/news/2026-08-28/dfc1e3e87e7c0303_base.jpg",
       "image_local": "../assets/news/2026-08-28/dfc1e3e87e7c0303_base.jpg"
-    },
-    {
-      "title": "Trump cost investors $4.7B through crypto ‘schemes': Public Citizen",
-      "link": "https://cointelegraph.com/news/donald-trump-crypto-investors-losses-public-citizen",
-      "summary": "While investors in World Liberty Financial‘s USD1 stablecoin “haven’t suffered major losses,” many lost billions of dollars in other Trump ventures, according to Public Citizen.",
-      "source": "Cointelegraph",
-      "date": "2026-08-27",
-      "date_human": "Aug 27, 2026",
-      "pub_ts": 1787858534,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/analytics-red-trump.jpg"
-      ],
-      "image": "../assets/news/2026-08-28/b04b329f9ef1e37f_base.jpg",
-      "image_local": "../assets/news/2026-08-28/b04b329f9ef1e37f_base.jpg"
-    },
-    {
-      "title": "GTA 6 leaker cashes out of his own memecoin hours before Rockstar's gameplay reveal",
-      "link": "https://www.coindesk.com/business/2026/08/27/gta-6-leaker-cashes-out-of-his-own-memecoin-hours-before-rockstar-s-gameplay-reveal",
-      "summary": "GTA 6 leaker cashes out of his own memecoin hours before Rockstar's gameplay reveal",
-      "source": "CoinDesk",
-      "date": "2026-08-27",
-      "date_human": "Aug 27, 2026",
-      "pub_ts": 1787848358,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/62388bde80f8e4232ed973e0da85eeaedabd3d79-7959x5306.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-28/f3db7e9b10360f85_base.jpg",
-      "image_local": "../assets/news/2026-08-28/f3db7e9b10360f85_base.jpg"
     }
   ]
 }
