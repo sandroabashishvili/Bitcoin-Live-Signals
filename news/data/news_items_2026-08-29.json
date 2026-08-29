@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-29",
-  "generated_at_utc": "2026-08-29 10:05:25 UTC",
+  "generated_at_utc": "2026-08-29 16:05:25 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,32 +16,92 @@
   "count": 12,
   "items": [
     {
-      "title": "Polygon Labs issues urgent client upgrade notice following Austin and Kyoto hardforks",
-      "link": "https://cryptoslate.com/polygon-labs-issues-urgent-client-upgrade-notice-following-austin-and-kyoto-hardforks/",
-      "summary": "The completed upgrades closed separate block-stall, peer-crash and validator-work risks, leaving nodes on older binaries outside canonical consensus. The post Polygon Labs issues urgent client upgrade notice following Austin and Kyoto hardforks appeared first on CryptoSlate.",
+      "title": "Bitcoin's Oldest Coins Are Waking Up in 2026 at a Pace Rarely Seen",
+      "link": "https://decrypt.co/376866/bitcoin-oldest-coins-waking-up-2026",
+      "summary": "Galaxy Research shows coins untouched for 10-plus years moving at an unusual pace in 2026, with six ancient wallets shifting $40 million in a single 10-day stretch this month.",
+      "source": "Decrypt",
+      "date": "2026-08-29",
+      "date_human": "Aug 29, 2026",
+      "pub_ts": 1788017464,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-29/01646b261fcd6859_base.jpg",
+      "image_local": "../assets/news/2026-08-29/01646b261fcd6859_base.jpg"
+    },
+    {
+      "title": "The SEC is reviewing automatic filing pathways after exotic crypto and event-linked ETF proposals flooded the market",
+      "link": "https://cryptoslate.com/the-sec-is-reviewing-automatic-filing-pathways-after-exotic-crypto-and-event-linked-etf-proposals-flooded-the-market/",
+      "summary": "Wall Street now wants a ticker to hold almost any financial idea an investor might type into a brokerage search bar, from Bitcoin and funds promising two or three times a stock's daily return to private assets and contracts tied to elections or economic events. The ETF began as a cheap way to own a […] The post The SEC is reviewing automatic filing pathways after exotic crypto and event-linked ETF proposals flooded the market appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-29",
       "date_human": "Aug 29, 2026",
-      "pub_ts": 1787994611,
+      "pub_ts": 1788017447,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/polygon-consensus-chain-break.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/cracked-etf-capsule.jpg"
       ],
-      "image": "../assets/news/2026-08-29/f2b506ddc1acbe97_base.jpg",
-      "image_local": "../assets/news/2026-08-29/f2b506ddc1acbe97_base.jpg"
+      "image": "../assets/news/2026-08-29/8b6f8c01ff815d02_base.jpg",
+      "image_local": "../assets/news/2026-08-29/8b6f8c01ff815d02_base.jpg"
     },
     {
-      "title": "Stablecoins not credible for payments at scale, BIS chief says",
-      "link": "https://cointelegraph.com/news/stablecoins-not-credible-payments-scale-bis-chief",
-      "summary": "BIS chief Pablo Hernández de Cos said stablecoins lack credibility for payments at scale, while a new FSI study highlights sharp differences in issuer rules.",
+      "title": "Tokenized assets are busier than the data shows",
+      "link": "https://www.coindesk.com/opinion/2026/08/29/tokenized-assets-are-busier-than-the-data-shows",
+      "summary": "Tokenized assets are busier than the data shows",
+      "source": "CoinDesk",
+      "date": "2026-08-29",
+      "date_human": "Aug 29, 2026",
+      "pub_ts": 1788008400,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/8063c00aa61892be74b3d456dde16b88df485efc-8000x4099.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-29/b2383a0cde3514de_base.jpg",
+      "image_local": "../assets/news/2026-08-29/b2383a0cde3514de_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
       "date": "2026-08-29",
       "date_human": "Aug 29, 2026",
-      "pub_ts": 1787990464,
+      "pub_ts": 1788007199,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M166CFV826H6EC9FT9NRRV7E/hi-stablecoin-has-been-listed-an-exchange-traded-note-in-europe.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-08-29/24d186993d5dd753_base.jpg",
-      "image_local": "../assets/news/2026-08-29/24d186993d5dd753_base.jpg"
+      "image": "../assets/news/2026-08-29/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-29/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "BitGo Buys NYDIG's Institutional Trading Arm to Beef Up Derivatives and Financing",
+      "link": "https://decrypt.co/376864/bitgo-buys-nydig-institutional-trading-arm",
+      "summary": "The roughly $42.5 million cash-and-stock deal adds derivatives, structured products and capital-markets capabilities, while letting NYDIG focus on its power and data-center business.",
+      "source": "Decrypt",
+      "date": "2026-08-29",
+      "date_human": "Aug 29, 2026",
+      "pub_ts": 1788010264,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/01/bitgo-nyse-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/bitgo-nyse-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/bitgo-nyse-decrypt-style-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-29/ddc8ecb9555ed11c_base.jpg",
+      "image_local": "../assets/news/2026-08-29/ddc8ecb9555ed11c_base.jpg"
+    },
+    {
+      "title": "Evernorth's XRP strategy hinges on one number after Nasdaq vote",
+      "link": "https://cryptoslate.com/evernorths-xrp-strategy-hinges-on-one-number-after-nasdaq-vote/",
+      "summary": "Armada II holders can approve and still redeem, making trust cash and public float the measures that matter next. The post Evernorth’s XRP strategy hinges on one number after Nasdaq vote appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-29",
+      "date_human": "Aug 29, 2026",
+      "pub_ts": 1788013829,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/evernorth-xrp-ballot-box.jpg"
+      ],
+      "image": "../assets/news/2026-08-29/8b850e689cbb011b_base.jpg",
+      "image_local": "../assets/news/2026-08-29/8b850e689cbb011b_base.jpg"
     },
     {
       "title": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
@@ -56,6 +116,20 @@
       ],
       "image": "../assets/news/2026-08-29/e99afefcd1132b85_base.jpg",
       "image_local": "../assets/news/2026-08-29/e99afefcd1132b85_base.jpg"
+    },
+    {
+      "title": "Stablecoins not credible for payments at scale, BIS chief says",
+      "link": "https://cointelegraph.com/news/stablecoins-not-credible-payments-scale-bis-chief",
+      "summary": "BIS chief Pablo Hernández de Cos said stablecoins lack credibility for payments at scale, while a new FSI study highlights sharp differences in issuer rules.",
+      "source": "Cointelegraph",
+      "date": "2026-08-29",
+      "date_human": "Aug 29, 2026",
+      "pub_ts": 1787990464,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M166CFV826H6EC9FT9NRRV7E/hi-stablecoin-has-been-listed-an-exchange-traded-note-in-europe.jpg"
+      ],
+      "image": "../assets/news/2026-08-29/24d186993d5dd753_base.jpg",
+      "image_local": "../assets/news/2026-08-29/24d186993d5dd753_base.jpg"
     },
     {
       "title": "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish",
@@ -74,32 +148,18 @@
       "image_local": "../assets/news/2026-08-29/73436c7b10858901_base.jpg"
     },
     {
-      "title": "Crypto ETFs appeared to hit $10B in hours, but filing data exposes where that money really came from",
-      "link": "https://cryptoslate.com/crypto-etfs-appeared-to-hit-10b-in-hours-but-filing-data-exposes-where-that-money-really-came-from/",
-      "summary": "US spot Ethereum ETFs appeared to begin trading with $10.36 billion already inside them, an opening balance large enough to resemble an institutional buying wave before the first full session ended. However, almost all of that amount came from ETH that Grayscale's older trusts already held, so the launch moved an existing pool into exchange-traded […] The post Crypto ETFs appeared to hit $10B in hours, but filing data exposes where that money really came from appeared first on CryptoSlate.",
+      "title": "Bitcoin miners are no longer pure crypto proxies and are morphing into high-performance computing hubs",
+      "link": "https://cryptoslate.com/bitcoin-miners-are-no-longer-pure-crypto-proxies-and-are-morphing-into-high-performance-computing-hubs/",
+      "summary": "Bitcoin gained 21.5% from the Aug. 17 close through Aug. 21, yet six of seven large US-listed miners finished the same trading stretch much lower. MARA Holdings rose 16.1% and came closest to BTC, while Cipher Digital fell 14.8%, TeraWulf lost 11.2%, Hut 8 dropped 8.1%, and IREN declined 6.8%. The stocks still sold as […] The post Bitcoin miners are no longer pure crypto proxies and are morphing into high-performance computing hubs appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-29",
       "date_human": "Aug 29, 2026",
-      "pub_ts": 1787987407,
+      "pub_ts": 1788010222,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/ethereum-etf-piggy-bank.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-data-center-pivot.jpg"
       ],
-      "image": "../assets/news/2026-08-29/79d6f14e07070633_base.jpg",
-      "image_local": "../assets/news/2026-08-29/79d6f14e07070633_base.jpg"
-    },
-    {
-      "title": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
-      "link": "https://cointelegraph.com/markets/bitcoin-etf-end-9-day-inflow-streak-btc-below-78k",
-      "summary": "US spot Bitcoin ETFs posted $201.8 million in net outflows Friday, led by ARK 21Shares, as total fund assets slipped back below $100 billion.",
-      "source": "Cointelegraph",
-      "date": "2026-08-29",
-      "date_human": "Aug 29, 2026",
-      "pub_ts": 1787986032,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M162QNJPWZZW5MZ2NTH7GFQ2/hi-what-is-a-bitcoin-node-a-beginners-guide-on-blockchain-nodes-etf3-1.jpg"
-      ],
-      "image": "../assets/news/2026-08-29/0ec66907f575b0b1_base.jpg",
-      "image_local": "../assets/news/2026-08-29/0ec66907f575b0b1_base.jpg"
+      "image": "../assets/news/2026-08-29/e892c97de73d0550_base.jpg",
+      "image_local": "../assets/news/2026-08-29/e892c97de73d0550_base.jpg"
     },
     {
       "title": "Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day' arrives",
@@ -116,78 +176,18 @@
       "image_local": "../assets/news/2026-08-29/89f60038fc681948_base.jpg"
     },
     {
-      "title": "Meta Tests Robots to Handle Data Center Work",
-      "link": "https://decrypt.co/376843/meta-tests-robots-data-center",
-      "summary": "The company says it needs more skilled workers as its AI infrastructure expands, but employees fear automation could reduce or eliminate some roles.",
-      "source": "Decrypt",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787948384,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-29/914913fe3dde6870_base.jpg",
-      "image_local": "../assets/news/2026-08-29/914913fe3dde6870_base.jpg"
-    },
-    {
-      "title": "Kraken and Galaxy flipped late as Solana approved a major supply cut",
-      "link": "https://cryptoslate.com/solana-sgp-0002-passes-with-176-million-sol-as-governance-debate-shifts-to-technical-execution/",
-      "summary": "Abstentions created the smaller public margin, while on-chain finalization remained pending at the latest check. The post Kraken and Galaxy flipped late as Solana approved a major supply cut appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
+      "title": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-end-9-day-inflow-streak-btc-below-78k",
+      "summary": "US spot Bitcoin ETFs posted $201.8 million in net outflows Friday, led by ARK 21Shares, as total fund assets slipped back below $100 billion.",
+      "source": "Cointelegraph",
       "date": "2026-08-29",
       "date_human": "Aug 29, 2026",
-      "pub_ts": 1787974206,
+      "pub_ts": 1787986032,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/solana-split-vote-tally.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M162QNJPWZZW5MZ2NTH7GFQ2/hi-what-is-a-bitcoin-node-a-beginners-guide-on-blockchain-nodes-etf3-1.jpg"
       ],
-      "image": "../assets/news/2026-08-29/7c98835a20164636_base.jpg",
-      "image_local": "../assets/news/2026-08-29/7c98835a20164636_base.jpg"
-    },
-    {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787949774,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-08-29/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-08-29/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
-      "link": "https://www.coindesk.com/policy/2026/08/28/kalshi-takes-legal-blow-in-court-ruling-confirming-state-powers-over-prediction-markets",
-      "summary": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
-      "source": "CoinDesk",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787952492,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/cd68dbf11ea2b03847eb5020d28aec70f8c83de4-2321x1306.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-29/9033f73eb9bac8aa_base.jpg",
-      "image_local": "../assets/news/2026-08-29/9033f73eb9bac8aa_base.jpg"
-    },
-    {
-      "title": "XRP Treasury Company Gets One Step Closer to Listing on Nasdaq",
-      "link": "https://decrypt.co/376840/xrp-treasury-evernorths-clears-sec-nasdaq",
-      "summary": "Evernorth has gained SEC clearance, teeing up a shareholder vote on its Nasdaq listing—while the firm's XRP stash sits well below what it paid for it.",
-      "source": "Decrypt",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787946363,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/07/xrp-decrypt-style-02-scaled-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/xrp-decrypt-style-02-scaled-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/xrp-decrypt-style-02-scaled-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-29/f8a197af5a68e7cc_base.jpg",
-      "image_local": "../assets/news/2026-08-29/f8a197af5a68e7cc_base.jpg"
+      "image": "../assets/news/2026-08-29/0ec66907f575b0b1_base.jpg",
+      "image_local": "../assets/news/2026-08-29/0ec66907f575b0b1_base.jpg"
     }
   ]
 }
