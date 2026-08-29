@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-29",
-  "generated_at_utc": "2026-08-29 04:05:29 UTC",
+  "generated_at_utc": "2026-08-29 10:05:25 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,32 +16,46 @@
   "count": 12,
   "items": [
     {
-      "title": "Kraken and Galaxy flipped late as Solana approved a major supply cut",
-      "link": "https://cryptoslate.com/solana-sgp-0002-passes-with-176-million-sol-as-governance-debate-shifts-to-technical-execution/",
-      "summary": "Abstentions created the smaller public margin, while on-chain finalization remained pending at the latest check. The post Kraken and Galaxy flipped late as Solana approved a major supply cut appeared first on CryptoSlate.",
+      "title": "Polygon Labs issues urgent client upgrade notice following Austin and Kyoto hardforks",
+      "link": "https://cryptoslate.com/polygon-labs-issues-urgent-client-upgrade-notice-following-austin-and-kyoto-hardforks/",
+      "summary": "The completed upgrades closed separate block-stall, peer-crash and validator-work risks, leaving nodes on older binaries outside canonical consensus. The post Polygon Labs issues urgent client upgrade notice following Austin and Kyoto hardforks appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-29",
       "date_human": "Aug 29, 2026",
-      "pub_ts": 1787974206,
+      "pub_ts": 1787994611,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/solana-split-vote-tally.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/polygon-consensus-chain-break.jpg"
       ],
-      "image": "../assets/news/2026-08-29/7c98835a20164636_base.jpg",
-      "image_local": "../assets/news/2026-08-29/7c98835a20164636_base.jpg"
+      "image": "../assets/news/2026-08-29/f2b506ddc1acbe97_base.jpg",
+      "image_local": "../assets/news/2026-08-29/f2b506ddc1acbe97_base.jpg"
     },
     {
-      "title": "Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day' arrives",
-      "link": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives",
-      "summary": "Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day' arrives",
+      "title": "Stablecoins not credible for payments at scale, BIS chief says",
+      "link": "https://cointelegraph.com/news/stablecoins-not-credible-payments-scale-bis-chief",
+      "summary": "BIS chief Pablo Hernández de Cos said stablecoins lack credibility for payments at scale, while a new FSI study highlights sharp differences in issuer rules.",
+      "source": "Cointelegraph",
+      "date": "2026-08-29",
+      "date_human": "Aug 29, 2026",
+      "pub_ts": 1787990464,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M166CFV826H6EC9FT9NRRV7E/hi-stablecoin-has-been-listed-an-exchange-traded-note-in-europe.jpg"
+      ],
+      "image": "../assets/news/2026-08-29/24d186993d5dd753_base.jpg",
+      "image_local": "../assets/news/2026-08-29/24d186993d5dd753_base.jpg"
+    },
+    {
+      "title": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
+      "link": "https://www.coindesk.com/markets/2026/08/28/bitcoin-wallets-untouched-for-10-years-moved-usd40-million-most-avoided-exchanges",
+      "summary": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
       "source": "CoinDesk",
       "date": "2026-08-29",
       "date_human": "Aug 29, 2026",
-      "pub_ts": 1787970600,
+      "pub_ts": 1787977800,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/3fdb04bd3eb1c1413ad0d70e8d1e464ee4866ad9-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/70198f64252bcded39f90b505eb1a2f4f3b2fb92-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-29/89f60038fc681948_base.jpg",
-      "image_local": "../assets/news/2026-08-29/89f60038fc681948_base.jpg"
+      "image": "../assets/news/2026-08-29/e99afefcd1132b85_base.jpg",
+      "image_local": "../assets/news/2026-08-29/e99afefcd1132b85_base.jpg"
     },
     {
       "title": "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish",
@@ -60,46 +74,46 @@
       "image_local": "../assets/news/2026-08-29/73436c7b10858901_base.jpg"
     },
     {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787949774,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-08-29/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-08-29/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "Capital B's €21 million Bitcoin raise comes with heavy warrant dilution risk",
-      "link": "https://cryptoslate.com/capital-bs-e21-million-bitcoin-raise-comes-with-heavy-warrant-dilution-risk/",
-      "summary": "The planned 270 BTC nearly offsets the placement, while full warrant exercise would cut the displayed ratio about 24%. The post Capital B’s €21 million Bitcoin raise comes with heavy warrant dilution risk appeared first on CryptoSlate.",
+      "title": "Crypto ETFs appeared to hit $10B in hours, but filing data exposes where that money really came from",
+      "link": "https://cryptoslate.com/crypto-etfs-appeared-to-hit-10b-in-hours-but-filing-data-exposes-where-that-money-really-came-from/",
+      "summary": "US spot Ethereum ETFs appeared to begin trading with $10.36 billion already inside them, an opening balance large enough to resemble an institutional buying wave before the first full session ended. However, almost all of that amount came from ETH that Grayscale's older trusts already held, so the launch moved an existing pool into exchange-traded […] The post Crypto ETFs appeared to hit $10B in hours, but filing data exposes where that money really came from appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787959240,
+      "date": "2026-08-29",
+      "date_human": "Aug 29, 2026",
+      "pub_ts": 1787987407,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-warrant-press.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/ethereum-etf-piggy-bank.jpg"
       ],
-      "image": "../assets/news/2026-08-29/1fb20bb153c5d677_base.jpg",
-      "image_local": "../assets/news/2026-08-29/1fb20bb153c5d677_base.jpg"
+      "image": "../assets/news/2026-08-29/79d6f14e07070633_base.jpg",
+      "image_local": "../assets/news/2026-08-29/79d6f14e07070633_base.jpg"
     },
     {
-      "title": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
-      "link": "https://www.coindesk.com/policy/2026/08/28/kalshi-takes-legal-blow-in-court-ruling-confirming-state-powers-over-prediction-markets",
-      "summary": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
-      "source": "CoinDesk",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787952492,
+      "title": "Bitcoin ETFs end 9-day inflow streak as BTC dips below $78K",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-end-9-day-inflow-streak-btc-below-78k",
+      "summary": "US spot Bitcoin ETFs posted $201.8 million in net outflows Friday, led by ARK 21Shares, as total fund assets slipped back below $100 billion.",
+      "source": "Cointelegraph",
+      "date": "2026-08-29",
+      "date_human": "Aug 29, 2026",
+      "pub_ts": 1787986032,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/cd68dbf11ea2b03847eb5020d28aec70f8c83de4-2321x1306.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M162QNJPWZZW5MZ2NTH7GFQ2/hi-what-is-a-bitcoin-node-a-beginners-guide-on-blockchain-nodes-etf3-1.jpg"
       ],
-      "image": "../assets/news/2026-08-29/9033f73eb9bac8aa_base.jpg",
-      "image_local": "../assets/news/2026-08-29/9033f73eb9bac8aa_base.jpg"
+      "image": "../assets/news/2026-08-29/0ec66907f575b0b1_base.jpg",
+      "image_local": "../assets/news/2026-08-29/0ec66907f575b0b1_base.jpg"
+    },
+    {
+      "title": "Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day' arrives",
+      "link": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives",
+      "summary": "Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day' arrives",
+      "source": "CoinDesk",
+      "date": "2026-08-29",
+      "date_human": "Aug 29, 2026",
+      "pub_ts": 1787970600,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/3fdb04bd3eb1c1413ad0d70e8d1e464ee4866ad9-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-29/89f60038fc681948_base.jpg",
+      "image_local": "../assets/news/2026-08-29/89f60038fc681948_base.jpg"
     },
     {
       "title": "Meta Tests Robots to Handle Data Center Work",
@@ -118,46 +132,46 @@
       "image_local": "../assets/news/2026-08-29/914913fe3dde6870_base.jpg"
     },
     {
-      "title": "Solana validators approve proposal to accelerate SOL disinflation",
-      "link": "https://cointelegraph.com/news/solana-validators-approve-proposal-to-accelerate-sol-disinflation",
-      "summary": "The approved proposal doubles Solana’s annual disinflation rate from 15% to 30%, reducing future SOL issuance while leaving its long-term inflation target unchanged.",
+      "title": "Kraken and Galaxy flipped late as Solana approved a major supply cut",
+      "link": "https://cryptoslate.com/solana-sgp-0002-passes-with-176-million-sol-as-governance-debate-shifts-to-technical-execution/",
+      "summary": "Abstentions created the smaller public margin, while on-chain finalization remained pending at the latest check. The post Kraken and Galaxy flipped late as Solana approved a major supply cut appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-29",
+      "date_human": "Aug 29, 2026",
+      "pub_ts": 1787974206,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/solana-split-vote-tally.jpg"
+      ],
+      "image": "../assets/news/2026-08-29/7c98835a20164636_base.jpg",
+      "image_local": "../assets/news/2026-08-29/7c98835a20164636_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
       "date": "2026-08-28",
       "date_human": "Aug 28, 2026",
-      "pub_ts": 1787946792,
+      "pub_ts": 1787949774,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M14TAFCZGB4VMQ151R2N0EKE/hi-bitcoin-vs-fiat-currencies-over-the-past-several-years-have-they-been-hampered-by-the-inflation2-2.png"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-08-29/56baa03bfb72f414_base.jpg",
-      "image_local": "../assets/news/2026-08-29/56baa03bfb72f414_base.jpg"
+      "image": "../assets/news/2026-08-29/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-29/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "Ethena is targeting the $120 trillion Wall Street stock market to hunt yields 5x higher than Bitcoin",
-      "link": "https://cryptoslate.com/ethena-is-targeting-the-120-trillion-wall-street-stocks-market-to-hunt-yields-5x-higher-than-bitcoin/",
-      "summary": "Ethena is expanding USDe into equity perpetual-basis trades, targeting funding yields more than five times higher than Bitcoin’s as the synthetic dollar looks to recover from its 2026 contraction. On Aug. 28, Ethena revealed plans to extend the basis strategy behind USDe into equity perpetual futures, where open interest has surged to about $6.2 billion […] The post Ethena is targeting the $120 trillion Wall Street stock market to hunt yields 5x higher than Bitcoin appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787952627,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/usde-equity-rebuild.jpg"
-      ],
-      "image": "../assets/news/2026-08-29/ecae23d9f5826975_base.jpg",
-      "image_local": "../assets/news/2026-08-29/ecae23d9f5826975_base.jpg"
-    },
-    {
-      "title": "Solana vote to double disinflation passes by a hair in dramatic finish",
-      "link": "https://www.coindesk.com/tech/2026/08/28/solana-vote-to-double-disinflation-passes-by-a-hair-in-dramatic-finish",
-      "summary": "Solana vote to double disinflation passes by a hair in dramatic finish",
+      "title": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
+      "link": "https://www.coindesk.com/policy/2026/08/28/kalshi-takes-legal-blow-in-court-ruling-confirming-state-powers-over-prediction-markets",
+      "summary": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
       "source": "CoinDesk",
       "date": "2026-08-28",
       "date_human": "Aug 28, 2026",
-      "pub_ts": 1787933565,
+      "pub_ts": 1787952492,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/54c0f3b41e62df4cdf774aab4c7d68c64e5e976c-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/cd68dbf11ea2b03847eb5020d28aec70f8c83de4-2321x1306.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-29/b52d3692f2c9d18b_base.jpg",
-      "image_local": "../assets/news/2026-08-29/b52d3692f2c9d18b_base.jpg"
+      "image": "../assets/news/2026-08-29/9033f73eb9bac8aa_base.jpg",
+      "image_local": "../assets/news/2026-08-29/9033f73eb9bac8aa_base.jpg"
     },
     {
       "title": "XRP Treasury Company Gets One Step Closer to Listing on Nasdaq",
@@ -174,20 +188,6 @@
       ],
       "image": "../assets/news/2026-08-29/f8a197af5a68e7cc_base.jpg",
       "image_local": "../assets/news/2026-08-29/f8a197af5a68e7cc_base.jpg"
-    },
-    {
-      "title": "Chelsea FC gets a stablecoin sponsor after UK FCA warning to clubs",
-      "link": "https://cointelegraph.com/news/chelsea-football-circle-sponsor-fca-warning-questionable-deals",
-      "summary": "According to Circle, the USDC stablecoin name will appear on the front of club jerseys for Chelsea’s upcoming football season.",
-      "source": "Cointelegraph",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787939172,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M14JXJEKJGWZPA4CPWG622Q2/gamecredits-football4.jpg"
-      ],
-      "image": "../assets/news/2026-08-29/5cb998f57dfd90b2_base.jpg",
-      "image_local": "../assets/news/2026-08-29/5cb998f57dfd90b2_base.jpg"
     }
   ]
 }
