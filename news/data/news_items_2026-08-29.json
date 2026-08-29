@@ -1,0 +1,193 @@
+{
+  "day_iso": "2026-08-29",
+  "generated_at_utc": "2026-08-29 04:05:29 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Kraken and Galaxy flipped late as Solana approved a major supply cut",
+      "link": "https://cryptoslate.com/solana-sgp-0002-passes-with-176-million-sol-as-governance-debate-shifts-to-technical-execution/",
+      "summary": "Abstentions created the smaller public margin, while on-chain finalization remained pending at the latest check. The post Kraken and Galaxy flipped late as Solana approved a major supply cut appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-29",
+      "date_human": "Aug 29, 2026",
+      "pub_ts": 1787974206,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/solana-split-vote-tally.jpg"
+      ],
+      "image": "../assets/news/2026-08-29/7c98835a20164636_base.jpg",
+      "image_local": "../assets/news/2026-08-29/7c98835a20164636_base.jpg"
+    },
+    {
+      "title": "Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day' arrives",
+      "link": "https://www.coindesk.com/tech/2026/08/28/ripple-is-preparing-xrp-ledger-for-quantum-computers-before-q-day-arrives",
+      "summary": "Ripple is preparing XRP Ledger for quantum computers before ‘Q-Day' arrives",
+      "source": "CoinDesk",
+      "date": "2026-08-29",
+      "date_human": "Aug 29, 2026",
+      "pub_ts": 1787970600,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/3fdb04bd3eb1c1413ad0d70e8d1e464ee4866ad9-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-29/89f60038fc681948_base.jpg",
+      "image_local": "../assets/news/2026-08-29/89f60038fc681948_base.jpg"
+    },
+    {
+      "title": "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish",
+      "link": "https://decrypt.co/376846/bitcoin-rally-stalls-sentiment-bullish",
+      "summary": "BTC gave back some of its gains after Fed Chair Kevin Warsh talked tough on inflation, but prediction market traders are still leaning bullish.",
+      "source": "Decrypt",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787951764,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-15-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-15-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-15-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-29/73436c7b10858901_base.jpg",
+      "image_local": "../assets/news/2026-08-29/73436c7b10858901_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787949774,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-29/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-29/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Capital B's €21 million Bitcoin raise comes with heavy warrant dilution risk",
+      "link": "https://cryptoslate.com/capital-bs-e21-million-bitcoin-raise-comes-with-heavy-warrant-dilution-risk/",
+      "summary": "The planned 270 BTC nearly offsets the placement, while full warrant exercise would cut the displayed ratio about 24%. The post Capital B’s €21 million Bitcoin raise comes with heavy warrant dilution risk appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787959240,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-warrant-press.jpg"
+      ],
+      "image": "../assets/news/2026-08-29/1fb20bb153c5d677_base.jpg",
+      "image_local": "../assets/news/2026-08-29/1fb20bb153c5d677_base.jpg"
+    },
+    {
+      "title": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
+      "link": "https://www.coindesk.com/policy/2026/08/28/kalshi-takes-legal-blow-in-court-ruling-confirming-state-powers-over-prediction-markets",
+      "summary": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
+      "source": "CoinDesk",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787952492,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/cd68dbf11ea2b03847eb5020d28aec70f8c83de4-2321x1306.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-29/9033f73eb9bac8aa_base.jpg",
+      "image_local": "../assets/news/2026-08-29/9033f73eb9bac8aa_base.jpg"
+    },
+    {
+      "title": "Meta Tests Robots to Handle Data Center Work",
+      "link": "https://decrypt.co/376843/meta-tests-robots-data-center",
+      "summary": "The company says it needs more skilled workers as its AI infrastructure expands, but employees fear automation could reduce or eliminate some roles.",
+      "source": "Decrypt",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787948384,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-29/914913fe3dde6870_base.jpg",
+      "image_local": "../assets/news/2026-08-29/914913fe3dde6870_base.jpg"
+    },
+    {
+      "title": "Solana validators approve proposal to accelerate SOL disinflation",
+      "link": "https://cointelegraph.com/news/solana-validators-approve-proposal-to-accelerate-sol-disinflation",
+      "summary": "The approved proposal doubles Solana’s annual disinflation rate from 15% to 30%, reducing future SOL issuance while leaving its long-term inflation target unchanged.",
+      "source": "Cointelegraph",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787946792,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M14TAFCZGB4VMQ151R2N0EKE/hi-bitcoin-vs-fiat-currencies-over-the-past-several-years-have-they-been-hampered-by-the-inflation2-2.png"
+      ],
+      "image": "../assets/news/2026-08-29/56baa03bfb72f414_base.jpg",
+      "image_local": "../assets/news/2026-08-29/56baa03bfb72f414_base.jpg"
+    },
+    {
+      "title": "Ethena is targeting the $120 trillion Wall Street stock market to hunt yields 5x higher than Bitcoin",
+      "link": "https://cryptoslate.com/ethena-is-targeting-the-120-trillion-wall-street-stocks-market-to-hunt-yields-5x-higher-than-bitcoin/",
+      "summary": "Ethena is expanding USDe into equity perpetual-basis trades, targeting funding yields more than five times higher than Bitcoin’s as the synthetic dollar looks to recover from its 2026 contraction. On Aug. 28, Ethena revealed plans to extend the basis strategy behind USDe into equity perpetual futures, where open interest has surged to about $6.2 billion […] The post Ethena is targeting the $120 trillion Wall Street stock market to hunt yields 5x higher than Bitcoin appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787952627,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/usde-equity-rebuild.jpg"
+      ],
+      "image": "../assets/news/2026-08-29/ecae23d9f5826975_base.jpg",
+      "image_local": "../assets/news/2026-08-29/ecae23d9f5826975_base.jpg"
+    },
+    {
+      "title": "Solana vote to double disinflation passes by a hair in dramatic finish",
+      "link": "https://www.coindesk.com/tech/2026/08/28/solana-vote-to-double-disinflation-passes-by-a-hair-in-dramatic-finish",
+      "summary": "Solana vote to double disinflation passes by a hair in dramatic finish",
+      "source": "CoinDesk",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787933565,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/54c0f3b41e62df4cdf774aab4c7d68c64e5e976c-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-29/b52d3692f2c9d18b_base.jpg",
+      "image_local": "../assets/news/2026-08-29/b52d3692f2c9d18b_base.jpg"
+    },
+    {
+      "title": "XRP Treasury Company Gets One Step Closer to Listing on Nasdaq",
+      "link": "https://decrypt.co/376840/xrp-treasury-evernorths-clears-sec-nasdaq",
+      "summary": "Evernorth has gained SEC clearance, teeing up a shareholder vote on its Nasdaq listing—while the firm's XRP stash sits well below what it paid for it.",
+      "source": "Decrypt",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787946363,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/xrp-decrypt-style-02-scaled-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/xrp-decrypt-style-02-scaled-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/xrp-decrypt-style-02-scaled-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-29/f8a197af5a68e7cc_base.jpg",
+      "image_local": "../assets/news/2026-08-29/f8a197af5a68e7cc_base.jpg"
+    },
+    {
+      "title": "Chelsea FC gets a stablecoin sponsor after UK FCA warning to clubs",
+      "link": "https://cointelegraph.com/news/chelsea-football-circle-sponsor-fca-warning-questionable-deals",
+      "summary": "According to Circle, the USDC stablecoin name will appear on the front of club jerseys for Chelsea’s upcoming football season.",
+      "source": "Cointelegraph",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787939172,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M14JXJEKJGWZPA4CPWG622Q2/gamecredits-football4.jpg"
+      ],
+      "image": "../assets/news/2026-08-29/5cb998f57dfd90b2_base.jpg",
+      "image_local": "../assets/news/2026-08-29/5cb998f57dfd90b2_base.jpg"
+    }
+  ]
+}

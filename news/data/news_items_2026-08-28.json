@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-28",
-  "generated_at_utc": "2026-08-28 16:05:29 UTC",
+  "generated_at_utc": "2026-08-28 22:05:31 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,48 +16,134 @@
   "count": 12,
   "items": [
     {
-      "title": "Bitcoin dips to $78.4K as Fed's Warsh downplays softer inflation prints",
-      "link": "https://cointelegraph.com/markets/bitcoin-dips-fed-warsh-dismisses-recent-low-inflation-prints",
-      "summary": "Bitcoin failed to make a decisive break above $80,000 as traders digested Fed Chair Kevin Warsh’s Jackson Hole keynote speech, which remained wary of US inflation trends.",
-      "source": "Cointelegraph",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787931085,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M14FYEG846MR0X3M7RG3N9AD/hi-us-bitcoin-reserve-asset-bill-explained.jpg"
-      ],
-      "image": "../assets/news/2026-08-28/ef27a7cef1dc2732_base.jpg",
-      "image_local": "../assets/news/2026-08-28/ef27a7cef1dc2732_base.jpg"
-    },
-    {
-      "title": "Bitcoin Traders Watch Fed Chair Warsh for Clues—And Get Nothing",
-      "link": "https://decrypt.co/376813/bitcoin-traders-watch-fed-chair-warsh-for-clues-and-get-nothing",
-      "summary": "Fed Chair Warsh's first Jackson Hole keynote doubled down on giving markets zero rate hints as inflation runs hot and Bitcoin traders wait on September's call.",
-      "source": "Decrypt",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787930051,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/09/federal-reserve-decrypt-style-02-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/federal-reserve-decrypt-style-02-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/federal-reserve-decrypt-style-02-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-28/56998cea17814925_base.jpg",
-      "image_local": "../assets/news/2026-08-28/56998cea17814925_base.jpg"
-    },
-    {
-      "title": "BlackRock just pulled in 115% of all Bitcoin ETF inflows in a single day as rival funds bleed cash",
-      "link": "https://cryptoslate.com/blackrock-just-pulled-in-115-of-all-bitcoin-etf-inflows-in-a-single-day-as-rival-funds-bleed-cash/",
-      "summary": "IBIT exceeded the market’s $242.3 million net gain as five smaller positive funds failed to keep non-IBIT flows above zero. The post BlackRock just pulled in 115% of all Bitcoin ETF inflows in a single day as rival funds bleed cash appeared first on CryptoSlate.",
+      "title": "Ethena is targeting the $120 trillion Wall Street stock market to hunt yields 5x higher than Bitcoin",
+      "link": "https://cryptoslate.com/ethena-is-targeting-the-120-trillion-wall-street-stocks-market-to-hunt-yields-5x-higher-than-bitcoin/",
+      "summary": "Ethena is expanding USDe into equity perpetual-basis trades, targeting funding yields more than five times higher than Bitcoin’s as the synthetic dollar looks to recover from its 2026 contraction. On Aug. 28, Ethena revealed plans to extend the basis strategy behind USDe into equity perpetual futures, where open interest has surged to about $6.2 billion […] The post Ethena is targeting the $120 trillion Wall Street stock market to hunt yields 5x higher than Bitcoin appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-28",
       "date_human": "Aug 28, 2026",
-      "pub_ts": 1787928910,
+      "pub_ts": 1787952627,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/ibit-etf-support-pillar.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/usde-equity-rebuild.jpg"
       ],
-      "image": "../assets/news/2026-08-28/7cd0cfb73a17e1ed_base.jpg",
-      "image_local": "../assets/news/2026-08-28/7cd0cfb73a17e1ed_base.jpg"
+      "image": "../assets/news/2026-08-28/ecae23d9f5826975_base.jpg",
+      "image_local": "../assets/news/2026-08-28/ecae23d9f5826975_base.jpg"
+    },
+    {
+      "title": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
+      "link": "https://www.coindesk.com/policy/2026/08/28/kalshi-takes-legal-blow-in-court-ruling-confirming-state-powers-over-prediction-markets",
+      "summary": "Kalshi takes legal blow in court ruling confirming state powers over prediction markets",
+      "source": "CoinDesk",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787952492,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/cd68dbf11ea2b03847eb5020d28aec70f8c83de4-2321x1306.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-28/9033f73eb9bac8aa_base.jpg",
+      "image_local": "../assets/news/2026-08-28/9033f73eb9bac8aa_base.jpg"
+    },
+    {
+      "title": "Bitcoin Rally Stalls, But Long-Term Sentiment Remains Bullish",
+      "link": "https://decrypt.co/376846/bitcoin-rally-stalls-sentiment-bullish",
+      "summary": "BTC gave back some of its gains after Fed Chair Kevin Warsh talked tough on inflation, but prediction market traders are still leaning bullish.",
+      "source": "Decrypt",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787951764,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-15-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-15-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-15-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-28/73436c7b10858901_base.jpg",
+      "image_local": "../assets/news/2026-08-28/73436c7b10858901_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787949774,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-28/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-28/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Cosmos misjudged a critical bug for 4 months before hackers stole nearly $6 million across 6 chains",
+      "link": "https://cryptoslate.com/cosmos-misjudged-a-critical-bug-for-4-months-before-hackers-stole-nearly-6-million-across-6-chains/",
+      "summary": "The upstream fix reached release branches hours before the incident, while MANTRA says none of the tokens have been recovered. The post Cosmos misjudged a critical bug for 4 months before hackers stole nearly $6 million across 6 chains appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787947823,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/cosmos-network-breach-shield.jpg"
+      ],
+      "image": "../assets/news/2026-08-28/0aa84834e205b12a_base.jpg",
+      "image_local": "../assets/news/2026-08-28/0aa84834e205b12a_base.jpg"
+    },
+    {
+      "title": "Solana vote to double disinflation passes by a hair in dramatic finish",
+      "link": "https://www.coindesk.com/tech/2026/08/28/solana-vote-to-double-disinflation-passes-by-a-hair-in-dramatic-finish",
+      "summary": "Solana vote to double disinflation passes by a hair in dramatic finish",
+      "source": "CoinDesk",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787933565,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/54c0f3b41e62df4cdf774aab4c7d68c64e5e976c-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-28/b52d3692f2c9d18b_base.jpg",
+      "image_local": "../assets/news/2026-08-28/b52d3692f2c9d18b_base.jpg"
+    },
+    {
+      "title": "Meta Tests Robots to Handle Data Center Work",
+      "link": "https://decrypt.co/376843/meta-tests-robots-data-center",
+      "summary": "The company says it needs more skilled workers as its AI infrastructure expands, but employees fear automation could reduce or eliminate some roles.",
+      "source": "Decrypt",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787948384,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-28/914913fe3dde6870_base.jpg",
+      "image_local": "../assets/news/2026-08-28/914913fe3dde6870_base.jpg"
+    },
+    {
+      "title": "Solana validators approve proposal to accelerate SOL disinflation",
+      "link": "https://cointelegraph.com/news/solana-validators-approve-proposal-to-accelerate-sol-disinflation",
+      "summary": "The approved proposal doubles Solana’s annual disinflation rate from 15% to 30%, reducing future SOL issuance while leaving its long-term inflation target unchanged.",
+      "source": "Cointelegraph",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787946792,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M14TAFCZGB4VMQ151R2N0EKE/hi-bitcoin-vs-fiat-currencies-over-the-past-several-years-have-they-been-hampered-by-the-inflation2-2.png"
+      ],
+      "image": "../assets/news/2026-08-28/56baa03bfb72f414_base.jpg",
+      "image_local": "../assets/news/2026-08-28/56baa03bfb72f414_base.jpg"
+    },
+    {
+      "title": "After selling all its Bitcoin to pay off debt, AI firm tries to rebuild $827 million treasury from scratch",
+      "link": "https://cryptoslate.com/after-selling-all-its-bitcoin-to-pay-off-debt-ai-firm-tries-to-rebuild-827-million-treasury-from-scratch/",
+      "summary": "The proposed preferred raise covers 1.51% of the target before AI allocations and an 18-month dividend reserve. The post After selling all its Bitcoin to pay off debt, AI firm tries to rebuild $827 million treasury from scratch appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-28",
+      "date_human": "Aug 28, 2026",
+      "pub_ts": 1787943930,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-treasury-drip-gap.jpg"
+      ],
+      "image": "../assets/news/2026-08-28/6d23106656a80dcd_base.jpg",
+      "image_local": "../assets/news/2026-08-28/6d23106656a80dcd_base.jpg"
     },
     {
       "title": "Fed Chair Kevin Warsh at Jackson Hole: 'We have work to do' on inflation",
@@ -74,120 +160,34 @@
       "image_local": "../assets/news/2026-08-28/4643bf115d2a74e1_base.jpg"
     },
     {
-      "title": "Crypto Biz: Bitcoin pumps, Wall Street does the paperwork",
-      "link": "https://cointelegraph.com/news/crypto-biz-bitcoin-rally-crypto-stocks-circle-strategy-solana",
-      "summary": "Bitcoin’s $80,000 rebound lifts crypto stocks as Circle, Strategy and Solana show how capital markets, stablecoins and onchain growth are driving crypto’s recovery.",
-      "source": "Cointelegraph",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787928820,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M14DS05X6DTJB5K7J056DP3A/hi-how-bitcoins-legal-victory-turned-it-into-wall-streets-favorite-crypto.jpg"
-      ],
-      "image": "../assets/news/2026-08-28/a1f3cdd0267ab9b6_base.jpg",
-      "image_local": "../assets/news/2026-08-28/a1f3cdd0267ab9b6_base.jpg"
-    },
-    {
-      "title": "Ethereum ETFs Take $226M in a Day, Almost Matching Bitcoin's Haul",
-      "link": "https://decrypt.co/376810/ethereum-etfs-take-226m-in-a-day-almost-matching-bitcoins-haul",
-      "summary": "Nine straight sessions have brought in $1.4 billion, with Thursday marking the funds' strongest day in 10 months.",
+      "title": "XRP Treasury Company Gets One Step Closer to Listing on Nasdaq",
+      "link": "https://decrypt.co/376840/xrp-treasury-evernorths-clears-sec-nasdaq",
+      "summary": "Evernorth has gained SEC clearance, teeing up a shareholder vote on its Nasdaq listing—while the firm's XRP stash sits well below what it paid for it.",
       "source": "Decrypt",
       "date": "2026-08-28",
       "date_human": "Aug 28, 2026",
-      "pub_ts": 1787926641,
+      "pub_ts": 1787946363,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/08/ethereum-decrypt-style-08-scaled-gID_7.jpeg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/ethereum-decrypt-style-08-scaled-gID_7.jpeg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/ethereum-decrypt-style-08-scaled-gID_7.jpeg"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/xrp-decrypt-style-02-scaled-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/xrp-decrypt-style-02-scaled-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/xrp-decrypt-style-02-scaled-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-28/ffd8a732ab2f6e52_base.jpg",
-      "image_local": "../assets/news/2026-08-28/ffd8a732ab2f6e52_base.jpg"
+      "image": "../assets/news/2026-08-28/f8a197af5a68e7cc_base.jpg",
+      "image_local": "../assets/news/2026-08-28/f8a197af5a68e7cc_base.jpg"
     },
     {
-      "title": "JPMorgan's IBIT Bitcoin ETF bet just missed its escape hatch to avoid 6% deduction",
-      "link": "https://cryptoslate.com/jpmorgans-21-million-ibit-bitcoin-etf-bet-just-missed-its-escape-hatch-the-next-wave-adds-a-6-cost/",
-      "summary": "IBIT’s published Aug. 26 close left investors in unlisted debt while preliminary terms layer on SOFR-linked financing. The post JPMorgan’s IBIT Bitcoin ETF bet just missed its escape hatch to avoid 6% deduction appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787924731,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-cost-drag.jpg"
-      ],
-      "image": "../assets/news/2026-08-28/578d0eb7713be56d_base.jpg",
-      "image_local": "../assets/news/2026-08-28/578d0eb7713be56d_base.jpg"
-    },
-    {
-      "title": "The Clarity Act slipped to September. Banks are building anyway",
-      "link": "https://www.coindesk.com/opinion/2026/08/28/the-clarity-act-slipped-to-september-banks-are-building-anyway",
-      "summary": "The Clarity Act slipped to September. Banks are building anyway",
-      "source": "CoinDesk",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787922000,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/019c4dbbfffe197bf777aaea7b45c3fba72db330-6240x4160.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-28/03644c5a9995bc6b_base.jpg",
-      "image_local": "../assets/news/2026-08-28/03644c5a9995bc6b_base.jpg"
-    },
-    {
-      "title": "Who is legally liable when an AI agent goes rogue?",
-      "link": "https://cointelegraph.com/magazine/who-is-legally-liable-when-an-ai-agent-goes-rogue",
-      "summary": "If your personal AI agent goes rogue and causes harm or financial damage in the real world, can you be held liable?",
+      "title": "Chelsea FC gets a stablecoin sponsor after UK FCA warning to clubs",
+      "link": "https://cointelegraph.com/news/chelsea-football-circle-sponsor-fca-warning-questionable-deals",
+      "summary": "According to Circle, the USDC stablecoin name will appear on the front of club jerseys for Chelsea’s upcoming football season.",
       "source": "Cointelegraph",
       "date": "2026-08-28",
       "date_human": "Aug 28, 2026",
-      "pub_ts": 1787923800,
+      "pub_ts": 1787939172,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/charlyn-ho-2.webp"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M14JXJEKJGWZPA4CPWG622Q2/gamecredits-football4.jpg"
       ],
-      "image": "https://s3-images.ctmedia.io/media/article-covers/charlyn-ho-2.webp",
-      "image_local": null
-    },
-    {
-      "title": "Morning Minute: Solana Jumps with Network Inflation Set to Drop",
-      "link": "https://decrypt.co/376800/morning-minute-solana-jumps-with-network-inflation-set-to-drop",
-      "summary": "Two majors proposals are set to pass, its leading DATs are back, and Schwab is offering SOL to its clients—quite the setup for Solana.",
-      "source": "Decrypt",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787919215,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/solana-price-up-decrypt-style-01-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/solana-price-up-decrypt-style-01-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/solana-price-up-decrypt-style-01-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-28/7583869e1eb554cc_base.jpg",
-      "image_local": "../assets/news/2026-08-28/7583869e1eb554cc_base.jpg"
-    },
-    {
-      "title": "A zero-revenue public company tried to copy Michael Saylor to avoid delisting, but its stock immediately crashed 25%",
-      "link": "https://cryptoslate.com/a-zero-revenue-public-company-tried-to-copy-michael-saylor-to-avoid-delisting-but-its-stock-immediately-crashed-25/",
-      "summary": "The company plans 51.6 million new shares against fewer than 5 million outstanding, while any Nasdaq cure remains conditional. The post A zero-revenue public company tried to copy Michael Saylor to avoid delisting, but its stock immediately crashed 25% appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787921431,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/alpha-modus-dilution-impact-.jpg"
-      ],
-      "image": "../assets/news/2026-08-28/ee4d7d3511f05afc_base.jpg",
-      "image_local": "../assets/news/2026-08-28/ee4d7d3511f05afc_base.jpg"
-    },
-    {
-      "title": "Ethena looks beyond crypto to squeeze yield from booming equity perpetuals",
-      "link": "https://www.coindesk.com/business/2026/08/28/ethena-looks-beyond-crypto-to-squeeze-yield-from-booming-equity-perpetuals",
-      "summary": "Ethena looks beyond crypto to squeeze yield from booming equity perpetuals",
-      "source": "CoinDesk",
-      "date": "2026-08-28",
-      "date_human": "Aug 28, 2026",
-      "pub_ts": 1787920257,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/c48dd32903d41ec222f4a093c9aefa108c259b98-2960x1665.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-28/3d374cf052e0c2f6_base.jpg",
-      "image_local": "../assets/news/2026-08-28/3d374cf052e0c2f6_base.jpg"
+      "image": "../assets/news/2026-08-28/5cb998f57dfd90b2_base.jpg",
+      "image_local": "../assets/news/2026-08-28/5cb998f57dfd90b2_base.jpg"
     }
   ]
 }
