@@ -248,6 +248,12 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  /* Basket charts need the full narrow viewport; side-by-side cards make the
+     canvases unreadably thin on phones. */
+  .grid-main {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .hedge-equity-chart-panel .chart-shell {
     height: 300px;
   }
