@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-08-29",
-  "generated_at_utc": "2026-08-29 22:05:23 UTC",
+  "day_iso": "2026-08-30",
+  "generated_at_utc": "2026-08-30 04:05:19 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,18 +16,32 @@
   "count": 12,
   "items": [
     {
-      "title": "Coinbase's $104M US500 trading spike hits an early reality check",
-      "link": "https://cryptoslate.com/coinbase-us500-futures-volume-demand-test/",
-      "summary": "Armstrong’s launch-week chart captured $104 million in turnover, while one later snapshot left persistence to open interest and repeat sessions. The post Coinbase’s $104M US500 trading spike hits an early reality check appeared first on CryptoSlate.",
+      "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
+      "link": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49",
+      "summary": "A $1.1 million crypto card hack crashed a neobank's token 49%",
+      "source": "CoinDesk",
+      "date": "2026-08-29",
+      "date_human": "Aug 29, 2026",
+      "pub_ts": 1788047357,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/da5caf65adc295012880cf200ddf9e937f2db11c-1920x1282.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-30/9c3f4d46d26bcf88_base.jpg",
+      "image_local": "../assets/news/2026-08-30/9c3f4d46d26bcf88_base.jpg"
+    },
+    {
+      "title": "Deribit moved 90% of client assets to Coinbase, then killed its daily proof-of-reserves check",
+      "link": "https://cryptoslate.com/deribit-moved-90-of-client-assets-to-coinbase-then-killed-its-daily-proof-of-reserves-check/",
+      "summary": "The Sept. 1 change removes a client Merkle check, leaving VARA reports and audited materials that are less public. The post Deribit moved 90% of client assets to Coinbase, then killed its daily proof-of-reserves check appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-29",
       "date_human": "Aug 29, 2026",
-      "pub_ts": 1788037342,
+      "pub_ts": 1788045614,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/us500-demand-rollercoaster.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/deribit-assets-custody-transfer.jpg"
       ],
-      "image": "../assets/news/2026-08-29/22c5fea7dd12d986_base.jpg",
-      "image_local": "../assets/news/2026-08-29/22c5fea7dd12d986_base.jpg"
+      "image": "../assets/news/2026-08-30/79e499f1dd0e3100_base.jpg",
+      "image_local": "../assets/news/2026-08-30/79e499f1dd0e3100_base.jpg"
     },
     {
       "title": "Polygon discloses security flaws fixed in recent hard forks",
@@ -40,8 +54,8 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M17JHBKVPG032T0G1E4PGVX3/hi-quadrigacx-ceo-died-what-next.png"
       ],
-      "image": "../assets/news/2026-08-29/fa58ffd7888a1e3e_base.jpg",
-      "image_local": "../assets/news/2026-08-29/fa58ffd7888a1e3e_base.jpg"
+      "image": "../assets/news/2026-08-30/fa58ffd7888a1e3e_base.jpg",
+      "image_local": "../assets/news/2026-08-30/fa58ffd7888a1e3e_base.jpg"
     },
     {
       "title": "Bernie Sanders Vows Legislation to 'Stop Flock and AI Mass Surveillance'",
@@ -56,8 +70,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-bernie-sanders-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/06/decrypt-style-bernie-sanders-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-29/3515ccd8e6d4ac3a_base.jpg",
-      "image_local": "../assets/news/2026-08-29/3515ccd8e6d4ac3a_base.jpg"
+      "image": "../assets/news/2026-08-30/3515ccd8e6d4ac3a_base.jpg",
+      "image_local": "../assets/news/2026-08-30/3515ccd8e6d4ac3a_base.jpg"
     },
     {
       "title": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
@@ -70,22 +84,22 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/a157306e943dd581a50f1881a075dc427bda6fad-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-29/b775ba632152304b_base.jpg",
-      "image_local": "../assets/news/2026-08-29/b775ba632152304b_base.jpg"
+      "image": "../assets/news/2026-08-30/b775ba632152304b_base.jpg",
+      "image_local": "../assets/news/2026-08-30/b775ba632152304b_base.jpg"
     },
     {
-      "title": "UK crypto investors declared £1.38B in gains, but half came from just 240 people",
-      "link": "https://cryptoslate.com/uk-crypto-investors-declared-1-38b-in-gains-but-half-came-from-just-240-people/",
-      "summary": "Its first crypto gains table covers 17,600 taxpayers, while CARF data will begin reaching the agency in 2027. The post UK crypto investors declared £1.38B in gains, but half came from just 240 people appeared first on CryptoSlate.",
+      "title": "Bitcoin miner IREN still gets 82% of revenue from BTC after clearing room for Microsoft AI cloud",
+      "link": "https://cryptoslate.com/iren-ai-cloud-revenue-639m-impairment-bitcoin-82-revenue/",
+      "summary": "The company’s $4 billion contracted AI run-rate target was four times the $1 billion operating level measured Aug. 26, with recognition still gated by delivery and customer acceptance. The post Bitcoin miner IREN still gets 82% of revenue from BTC after clearing room for Microsoft AI cloud appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-29",
       "date_human": "Aug 29, 2026",
-      "pub_ts": 1788033630,
+      "pub_ts": 1788041438,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/exec-327b211d-c207-4bbf-902f-304997a14412.png"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/iren-mining-ai-crossing.jpg"
       ],
-      "image": "../assets/news/2026-08-29/dac6bd323460db5c_base.jpg",
-      "image_local": "../assets/news/2026-08-29/dac6bd323460db5c_base.jpg"
+      "image": "../assets/news/2026-08-30/3687d5e88554877f_base.jpg",
+      "image_local": "../assets/news/2026-08-30/3687d5e88554877f_base.jpg"
     },
     {
       "title": "Stellar tokenized RWA market more than quadruples to nearly $4B",
@@ -98,8 +112,8 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M17DHDVASPVRK9KZ8KYFMNK1/hi-how-binance-plans-to-bring-tokenized-us-stocks-3.png"
       ],
-      "image": "../assets/news/2026-08-29/9e9016d0f11e844a_base.jpg",
-      "image_local": "../assets/news/2026-08-29/9e9016d0f11e844a_base.jpg"
+      "image": "../assets/news/2026-08-30/9e9016d0f11e844a_base.jpg",
+      "image_local": "../assets/news/2026-08-30/9e9016d0f11e844a_base.jpg"
     },
     {
       "title": "Bitcoin's Oldest Coins Are Waking Up in 2026 at a Pace Rarely Seen",
@@ -114,13 +128,13 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-29/01646b261fcd6859_base.jpg",
-      "image_local": "../assets/news/2026-08-29/01646b261fcd6859_base.jpg"
+      "image": "../assets/news/2026-08-30/01646b261fcd6859_base.jpg",
+      "image_local": "../assets/news/2026-08-30/01646b261fcd6859_base.jpg"
     },
     {
-      "title": "Swift's $1.5 quadrillion network faces a blockchain test",
+      "title": "Inside the high-stakes battle between digital dollars and Swift's massive money engine",
       "link": "https://www.coindesk.com/business/2026/08/29/swift-s-usd1-5-quadrillion-network-faces-a-blockchain-test",
-      "summary": "Swift's $1.5 quadrillion network faces a blockchain test",
+      "summary": "Inside the high-stakes battle between digital dollars and Swift's massive money engine",
       "source": "CoinDesk",
       "date": "2026-08-29",
       "date_human": "Aug 29, 2026",
@@ -128,22 +142,22 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/508c78185616861e76dfe16cc9d55787a0ff9c41-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-29/9bde6409350135b8_base.jpg",
-      "image_local": "../assets/news/2026-08-29/9bde6409350135b8_base.jpg"
+      "image": "../assets/news/2026-08-30/9bde6409350135b8_base.jpg",
+      "image_local": "../assets/news/2026-08-30/9bde6409350135b8_base.jpg"
     },
     {
-      "title": "Bitcoin Knots is trying to fork Bitcoin again after its last chain died in two blocks",
-      "link": "https://cryptoslate.com/bitcoin-knots-is-trying-to-fork-bitcoin-again-after-its-last-chain-died-in-two-blocks/",
-      "summary": "Luke Dashjr's conditional rehearsal still lacks settled activation settings, disclosed day-one hash, named service policies and universal replay protection. The post Bitcoin Knots is trying to fork Bitcoin again after its last chain died in two blocks appeared first on CryptoSlate.",
+      "title": "Coinbase's $104M US500 trading spike hits an early reality check",
+      "link": "https://cryptoslate.com/coinbase-us500-futures-volume-demand-test/",
+      "summary": "Armstrong’s launch-week chart captured $104 million in turnover, while one later snapshot left persistence to open interest and repeat sessions. The post Coinbase’s $104M US500 trading spike hits an early reality check appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-29",
       "date_human": "Aug 29, 2026",
-      "pub_ts": 1788029453,
+      "pub_ts": 1788037342,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-fork-pressure-test.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/us500-demand-rollercoaster.jpg"
       ],
-      "image": "../assets/news/2026-08-29/1285f5c94aec3395_base.jpg",
-      "image_local": "../assets/news/2026-08-29/1285f5c94aec3395_base.jpg"
+      "image": "../assets/news/2026-08-30/22c5fea7dd12d986_base.jpg",
+      "image_local": "../assets/news/2026-08-30/22c5fea7dd12d986_base.jpg"
     },
     {
       "title": "Tokenized stock transfer volume jumps 415% in 30 days to $29.5B",
@@ -156,8 +170,8 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M174Y6XQHY999NVSQCZY6B3V/hi-cryptocurrency-vs-stocks-breaking-news-1.png"
       ],
-      "image": "../assets/news/2026-08-29/be1d855d59b48373_base.jpg",
-      "image_local": "../assets/news/2026-08-29/be1d855d59b48373_base.jpg"
+      "image": "../assets/news/2026-08-30/be1d855d59b48373_base.jpg",
+      "image_local": "../assets/news/2026-08-30/be1d855d59b48373_base.jpg"
     },
     {
       "title": "BitGo Buys NYDIG's Institutional Trading Arm to Beef Up Derivatives and Financing",
@@ -172,22 +186,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/bitgo-nyse-decrypt-style-gID_7.jpg@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/bitgo-nyse-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-29/ddc8ecb9555ed11c_base.jpg",
-      "image_local": "../assets/news/2026-08-29/ddc8ecb9555ed11c_base.jpg"
-    },
-    {
-      "title": "The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet",
-      "link": "https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet",
-      "summary": "The next trillion-dollar currency may not be a stablecoin — it might not even have a name yet",
-      "source": "CoinDesk",
-      "date": "2026-08-29",
-      "date_human": "Aug 29, 2026",
-      "pub_ts": 1788015600,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/486b2136ce091f05ce9e6f0e16a7660ee1fabe27-3840x2160.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-29/0e927aa6af29cc48_base.jpg",
-      "image_local": "../assets/news/2026-08-29/0e927aa6af29cc48_base.jpg"
+      "image": "../assets/news/2026-08-30/ddc8ecb9555ed11c_base.jpg",
+      "image_local": "../assets/news/2026-08-30/ddc8ecb9555ed11c_base.jpg"
     }
   ]
 }
