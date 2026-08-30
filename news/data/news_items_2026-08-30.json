@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-30",
-  "generated_at_utc": "2026-08-30 10:05:13 UTC",
+  "generated_at_utc": "2026-08-30 16:05:13 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,46 +16,76 @@
   "count": 12,
   "items": [
     {
-      "title": "Russia's Sber eyes USDT loans, questions digital ruble demand",
-      "link": "https://cointelegraph.com/news/russia-sber-bank-bitcoin-ether-usdt-crypto-loans",
-      "summary": "Russia’s largest bank, Sber, plans to accept USDT and Ether alongside Bitcoin as loan collateral as the country introduces regulated crypto trading under a new law.",
-      "source": "Cointelegraph",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788083101,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M190WE0Y455BRFFWWXC00QY4/1-44.png"
-      ],
-      "image": "../assets/news/2026-08-30/68cdb1087b5669bf_base.jpg",
-      "image_local": "../assets/news/2026-08-30/68cdb1087b5669bf_base.jpg"
-    },
-    {
-      "title": "Popular Bitcoin wallets risk losing support for new hardware devices as critical security bridge stops accepting new devices",
-      "link": "https://cryptoslate.com/popular-bitcoin-wallets-risk-losing-support-for-new-hardware-devices-as-critical-security-bridge-stops-accepting-new-devices/",
-      "summary": "BHWI has published parity tests, but downstream wallets still face packaging, platform and integration work. The post Popular Bitcoin wallets risk losing support for new hardware devices as critical security bridge stops accepting new devices appeared first on CryptoSlate.",
+      "title": "One mid-tier Bitcoin treasury just gambled its entire BTC reserve on a single 30-day reset price",
+      "link": "https://cryptoslate.com/one-mid-tier-bitcoin-treasury-just-gambled-its-entire-btc-reserve-on-a-single-30-day-reset-price/",
+      "summary": "The Aug. 25 unwind was capitalized into principal, while a one-time Sept. 24 test determines whether the $75,000 ceiling applies. The post One mid-tier Bitcoin treasury just gambled its entire BTC reserve on a single 30-day reset price appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-30",
       "date_human": "Aug 30, 2026",
-      "pub_ts": 1788082210,
+      "pub_ts": 1788102344,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/hardware-wallet-transition.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/powercompute-conditional-debt-balance.jpg"
       ],
-      "image": "../assets/news/2026-08-30/6bf7197e8b3ba700_base.jpg",
-      "image_local": "../assets/news/2026-08-30/6bf7197e8b3ba700_base.jpg"
+      "image": "../assets/news/2026-08-30/2e4a35375a1d76a7_base.jpg",
+      "image_local": "../assets/news/2026-08-30/2e4a35375a1d76a7_base.jpg"
     },
     {
-      "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
-      "link": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49",
-      "summary": "A $1.1 million crypto card hack crashed a neobank's token 49%",
-      "source": "CoinDesk",
-      "date": "2026-08-29",
-      "date_human": "Aug 29, 2026",
-      "pub_ts": 1788047357,
+      "title": "After Their AI Models Hacked Real Companies, AI Labs Call for Stronger Cyber Defenses",
+      "link": "https://decrypt.co/376863/ai-models-hacked-companies-ai-labs-cyber-defenses",
+      "summary": "More than 100 AI, security, finance, and technology organizations want governments and industry to prepare for attacks powered by increasingly capable models.",
+      "source": "Decrypt",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788096664,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/da5caf65adc295012880cf200ddf9e937f2db11c-1920x1282.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-2-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-2-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-sam-altman-2-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-30/9c3f4d46d26bcf88_base.jpg",
-      "image_local": "../assets/news/2026-08-30/9c3f4d46d26bcf88_base.jpg"
+      "image": "../assets/news/2026-08-30/64561d745c4bf52b_base.jpg",
+      "image_local": "../assets/news/2026-08-30/64561d745c4bf52b_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788094177,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-30/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-30/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
+      "link": "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction",
+      "summary": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
+      "source": "CoinDesk",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788091200,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/3ec0faabb4311a9cbb3b547c5d4d2d107b6d405e-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-30/5cbbb88d26a24b06_base.jpg",
+      "image_local": "../assets/news/2026-08-30/5cbbb88d26a24b06_base.jpg"
+    },
+    {
+      "title": "Veteran Bitcoin developer Luke Dashjr exits OCEAN pool – Will hash power follow him to new pool?",
+      "link": "https://cryptoslate.com/veteran-bitcoin-developer-luke-dashjr-exits-ocean-pool-will-hash-power-follow-him-to-new-pool/",
+      "summary": "OCEAN still represented 2.45% of trailing-day blocks after buying out its co-founder, while CONVOY disclosed no operational footprint. The post Veteran Bitcoin developer Luke Dashjr exits OCEAN pool – Will hash power follow him to new pool? appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788098458,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/ocean-convoy-crossroads.jpg"
+      ],
+      "image": "../assets/news/2026-08-30/0cfd10823f47b3f7_base.jpg",
+      "image_local": "../assets/news/2026-08-30/0cfd10823f47b3f7_base.jpg"
     },
     {
       "title": "Bernie Sanders Vows Legislation to 'Stop Flock and AI Mass Surveillance'",
@@ -74,46 +104,46 @@
       "image_local": "../assets/news/2026-08-30/3515ccd8e6d4ac3a_base.jpg"
     },
     {
-      "title": "Real Trump Coins denies launching GOLD token, blames ‘bad actors'",
-      "link": "https://cointelegraph.com/news/real-trump-coins-denies-gold-token-launch",
-      "summary": "Trump-linked Real Trump Coins said it never authorized GOLD or any digital token as questions persisted over its X account, associated domains and the concentrated token supply.",
+      "title": "Russia's Sber eyes USDT loans, questions digital ruble demand",
+      "link": "https://cointelegraph.com/news/russia-sber-bank-bitcoin-ether-usdt-crypto-loans",
+      "summary": "Russia’s largest bank, Sber, plans to accept USDT and Ether alongside Bitcoin as loan collateral as the country introduces regulated crypto trading under a new law.",
       "source": "Cointelegraph",
       "date": "2026-08-30",
       "date_human": "Aug 30, 2026",
-      "pub_ts": 1788077096,
+      "pub_ts": 1788083700,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M18SAPB6CQTXR7T638XMWVRB/hi-top-crypto-cyber-threats.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M190WE0Y455BRFFWWXC00QY4/1-44.png"
       ],
-      "image": "../assets/news/2026-08-30/b214ed64eac99336_base.jpg",
-      "image_local": "../assets/news/2026-08-30/b214ed64eac99336_base.jpg"
+      "image": "../assets/news/2026-08-30/68cdb1087b5669bf_base.jpg",
+      "image_local": "../assets/news/2026-08-30/68cdb1087b5669bf_base.jpg"
     },
     {
-      "title": "The next shadow-banking problem comes from insurance companies, where nobody was looking for a bank run",
-      "link": "https://cryptoslate.com/the-next-shadow-banking-problem-may-come-from-insurance-companies-where-nobody-was-looking-for-a-bank-run/",
-      "summary": "Delaware Life Insurance Company's 2025 balance sheet took on a startling new shape when the insurer corrected its annual filing: roughly $17 billion of investments were classified as related-party holdings, about 39% of invested assets, versus roughly $1.4 billion and 3% in the earlier version. Clear Spring Life and Annuity Company made a separate correction […] The post The next shadow-banking problem comes from insurance companies, where nobody was looking for a bank run appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788078799,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/insurance-shadow-bank.jpg"
-      ],
-      "image": "../assets/news/2026-08-30/7f48e35627c6f6a8_base.jpg",
-      "image_local": "../assets/news/2026-08-30/7f48e35627c6f6a8_base.jpg"
-    },
-    {
-      "title": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
-      "link": "https://www.coindesk.com/business/2026/08/28/ditch-digital-gold-bpi-study-suggests-everyday-americans-prefer-control-and-micro-investing",
-      "summary": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
+      "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
+      "link": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49",
+      "summary": "A $1.1 million crypto card hack crashed a neobank's token 49%",
       "source": "CoinDesk",
       "date": "2026-08-29",
       "date_human": "Aug 29, 2026",
-      "pub_ts": 1788015600,
+      "pub_ts": 1788047357,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/a157306e943dd581a50f1881a075dc427bda6fad-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/da5caf65adc295012880cf200ddf9e937f2db11c-1920x1282.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-30/b775ba632152304b_base.jpg",
-      "image_local": "../assets/news/2026-08-30/b775ba632152304b_base.jpg"
+      "image": "../assets/news/2026-08-30/9c3f4d46d26bcf88_base.jpg",
+      "image_local": "../assets/news/2026-08-30/9c3f4d46d26bcf88_base.jpg"
+    },
+    {
+      "title": "Treasury proposed GENIUS change forces US exchanges to audit foreign stablecoin or face delisting",
+      "link": "https://cryptoslate.com/treasury-proposed-genius-change-forces-us-exchanges-to-audit-foreign-stablecoin-or-face-delisting/",
+      "summary": "Platforms could rely on foreign issuers only after reasonable diligence, while comments on the proposed standard remain open through Oct. 19. The post Treasury proposed GENIUS change forces US exchanges to audit foreign stablecoin or face delisting appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788096914,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/stablecoin-access-denied.jpg"
+      ],
+      "image": "../assets/news/2026-08-30/05a2cfe93d66ed2a_base.jpg",
+      "image_local": "../assets/news/2026-08-30/05a2cfe93d66ed2a_base.jpg"
     },
     {
       "title": "Bitcoin's Oldest Coins Are Waking Up in 2026 at a Pace Rarely Seen",
@@ -132,62 +162,32 @@
       "image_local": "../assets/news/2026-08-30/01646b261fcd6859_base.jpg"
     },
     {
-      "title": "Polygon discloses security flaws fixed in recent hard forks",
-      "link": "https://cointelegraph.com/news/polygon-discloses-security-flaws-fixed-in-recent-hard-forks",
-      "summary": "The vulnerabilities posed denial-of-service and validator resource risks but were patched before Polygon publicly disclosed them.",
+      "title": "Real Trump Coins denies launching GOLD token, blames ‘bad actors'",
+      "link": "https://cointelegraph.com/news/real-trump-coins-denies-gold-token-launch",
+      "summary": "Trump-linked Real Trump Coins said it never authorized GOLD or any digital token as questions persisted over its X account, associated domains and the concentrated token supply.",
       "source": "Cointelegraph",
-      "date": "2026-08-29",
-      "date_human": "Aug 29, 2026",
-      "pub_ts": 1788035331,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M17JHBKVPG032T0G1E4PGVX3/hi-quadrigacx-ceo-died-what-next.png"
-      ],
-      "image": "../assets/news/2026-08-30/fa58ffd7888a1e3e_base.jpg",
-      "image_local": "../assets/news/2026-08-30/fa58ffd7888a1e3e_base.jpg"
-    },
-    {
-      "title": "Borrowers can now use $250k in Bitcoin for a house down payment without margin calls, but one trap remains",
-      "link": "https://cryptoslate.com/borrowers-can-now-use-250k-in-bitcoin-for-a-house-down-payment-without-margin-calls-but-one-trap-remains/",
-      "summary": "Price moves will not trigger margin calls, but 60 days of delinquency can put the pledged Bitcoin at risk of sale. The post Borrowers can now use $250k in Bitcoin for a house down payment without margin calls, but one trap remains appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
       "date": "2026-08-30",
       "date_human": "Aug 30, 2026",
-      "pub_ts": 1788069948,
+      "pub_ts": 1788077096,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-mortgage-collateral-risk.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M18SAPB6CQTXR7T638XMWVRB/hi-top-crypto-cyber-threats.jpg"
       ],
-      "image": "../assets/news/2026-08-30/b806cdc98292c977_base.jpg",
-      "image_local": "../assets/news/2026-08-30/b806cdc98292c977_base.jpg"
+      "image": "../assets/news/2026-08-30/b214ed64eac99336_base.jpg",
+      "image_local": "../assets/news/2026-08-30/b214ed64eac99336_base.jpg"
     },
     {
-      "title": "Inside the high-stakes battle between digital dollars and Swift's massive money engine",
-      "link": "https://www.coindesk.com/business/2026/08/29/swift-s-usd1-5-quadrillion-network-faces-a-blockchain-test",
-      "summary": "Inside the high-stakes battle between digital dollars and Swift's massive money engine",
+      "title": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
+      "link": "https://www.coindesk.com/business/2026/08/28/ditch-digital-gold-bpi-study-suggests-everyday-americans-prefer-control-and-micro-investing",
+      "summary": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
       "source": "CoinDesk",
       "date": "2026-08-29",
       "date_human": "Aug 29, 2026",
       "pub_ts": 1788015600,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/508c78185616861e76dfe16cc9d55787a0ff9c41-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/a157306e943dd581a50f1881a075dc427bda6fad-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-30/9bde6409350135b8_base.jpg",
-      "image_local": "../assets/news/2026-08-30/9bde6409350135b8_base.jpg"
-    },
-    {
-      "title": "BitGo Buys NYDIG's Institutional Trading Arm to Beef Up Derivatives and Financing",
-      "link": "https://decrypt.co/376864/bitgo-buys-nydig-institutional-trading-arm",
-      "summary": "The roughly $42.5 million cash-and-stock deal adds derivatives, structured products and capital-markets capabilities, while letting NYDIG focus on its power and data-center business.",
-      "source": "Decrypt",
-      "date": "2026-08-29",
-      "date_human": "Aug 29, 2026",
-      "pub_ts": 1788010264,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/01/bitgo-nyse-decrypt-style-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/bitgo-nyse-decrypt-style-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/bitgo-nyse-decrypt-style-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-08-30/ddc8ecb9555ed11c_base.jpg",
-      "image_local": "../assets/news/2026-08-30/ddc8ecb9555ed11c_base.jpg"
+      "image": "../assets/news/2026-08-30/b775ba632152304b_base.jpg",
+      "image_local": "../assets/news/2026-08-30/b775ba632152304b_base.jpg"
     }
   ]
 }
