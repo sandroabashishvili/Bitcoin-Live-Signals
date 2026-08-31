@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-31",
-  "generated_at_utc": "2026-08-31 10:05:15 UTC",
+  "generated_at_utc": "2026-08-31 16:05:19 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,178 +16,178 @@
   "count": 12,
   "items": [
     {
-      "title": "Crypto.com's Cronos Halts Entire Blockchain After $75M Tectonic Exploit",
-      "link": "https://decrypt.co/376913/crypto-coms-cronos-halts-entire-blockchain-after-75m-tectonic-exploit",
-      "summary": "Some $6 million reached Ethereum before validators froze the chain, stranding the rest on a network that still is not producing blocks.",
-      "source": "Decrypt",
-      "date": "2026-08-31",
-      "date_human": "Aug 31, 2026",
-      "pub_ts": 1788169287,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-31/3da84fe0ce97e8a4_base.jpg",
-      "image_local": "../assets/news/2026-08-31/3da84fe0ce97e8a4_base.jpg"
-    },
-    {
-      "title": "More Markets lending reserve drained for $9.3M: Blockaid",
-      "link": "https://cointelegraph.com/news/more-markets-lending-reserve-drained-93m",
-      "summary": "Blockaid said an attacker used an Ankr liquid staking token and E-mode to overborrow from More Markets and drain about $9.3 million in WFLOW from a lending reserve.",
-      "source": "Cointelegraph",
-      "date": "2026-08-31",
-      "date_human": "Aug 31, 2026",
-      "pub_ts": 1788166630,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1BE6GQ6SXNVS4KFF2WV7WJH/hi-what-is-dns-hijacking-1.jpg"
-      ],
-      "image": "../assets/news/2026-08-31/5d92da016981f7b2_base.jpg",
-      "image_local": "../assets/news/2026-08-31/5d92da016981f7b2_base.jpg"
-    },
-    {
-      "title": "A 36-day staking bottleneck is costing Ethereum depositors over $350,000 in lost rewards daily",
-      "link": "https://cryptoslate.com/a-36-day-staking-bottleneck-is-costing-ethereum-depositors-over-350000-in-lost-rewards-daily/",
-      "summary": "The 35.75-day backlog represents an annualized opportunity-cost estimate as deposits share a 256 ETH-per-epoch activation gate. The post A 36-day staking bottleneck is costing Ethereum depositors over $350,000 in lost rewards daily appeared first on CryptoSlate.",
+      "title": "Bitcoin on course for best August since 2017 despite renewed US-Iran hostilities",
+      "link": "https://cryptoslate.com/bitcoin-on-course-for-best-august-since-2017-despite-renewed-us-iran-hostilities/",
+      "summary": "Bitcoin is on track to log its best August performance since 2017, demonstrating remarkable resilience against back-to-back macro shocks as escalating US-Iran hostilities and a hawkish pivot from the Federal Reserve test the durability of the digital-asset rebound. Data from CryptoSlate shows that the largest cryptocurrency is trading near $78,400 as of press time, bringing […] The post Bitcoin on course for best August since 2017 despite renewed US-Iran hostilities appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-31",
       "date_human": "Aug 31, 2026",
-      "pub_ts": 1788164754,
+      "pub_ts": 1788191444,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/ethereum-staking-entry-backlog.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-umbrella-market-storm.jpg"
       ],
-      "image": "../assets/news/2026-08-31/1901c559e063c848_base.jpg",
-      "image_local": "../assets/news/2026-08-31/1901c559e063c848_base.jpg"
+      "image": "../assets/news/2026-08-31/1b30c7c64e8b120c_base.jpg",
+      "image_local": "../assets/news/2026-08-31/1b30c7c64e8b120c_base.jpg"
     },
     {
-      "title": "U.S. jobs report, Russia's digital ruble rollout: Crypto Week Ahead",
-      "link": "https://www.coindesk.com/markets/2026/08/31/u-s-jobs-report-russia-s-digital-ruble-rollout-crypto-week-ahead",
-      "summary": "U.S. jobs report, Russia's digital ruble rollout: Crypto Week Ahead",
-      "source": "CoinDesk",
+      "title": "Sony Argues in Court That Digital Games Can't Be Owned",
+      "link": "https://decrypt.co/376935/sony-argues-in-court-that-digital-games-cant-be-owned",
+      "summary": "The PlayStation maker is fighting a California class action over \"Buy Now\" buttons, and has asked the judge to send the case to arbitration.",
+      "source": "Decrypt",
       "date": "2026-08-31",
       "date_human": "Aug 31, 2026",
-      "pub_ts": 1788164548,
+      "pub_ts": 1788191163,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/177fe0d442a9bb8ec8bb8ee503d2332e2d65478d-1710x958.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/08/sony-ps5-playstation-5-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/sony-ps5-playstation-5-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/sony-ps5-playstation-5-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-31/501578b35740e703_base.jpg",
-      "image_local": "../assets/news/2026-08-31/501578b35740e703_base.jpg"
+      "image": "../assets/news/2026-08-31/94b67178237154f5_base.jpg",
+      "image_local": "../assets/news/2026-08-31/94b67178237154f5_base.jpg"
     },
     {
-      "title": "Ex-White House Teleprompter Operator Fined for Prediction Market Insider Trading",
-      "link": "https://decrypt.co/376909/white-house-teleprompter-fined-prediction-market-trading",
-      "summary": "Gabriel Perez used his access to Trump's speeches before delivery to bet on \"presidential mention market\" contracts, profiting more than $107,500 before the CFTC caught up with him.",
-      "source": "Decrypt",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788132663,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/07/white-house-podium-decrypt-style-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/white-house-podium-decrypt-style-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/white-house-podium-decrypt-style-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-31/76f7f5cec3ff469c_base.jpg",
-      "image_local": "../assets/news/2026-08-31/76f7f5cec3ff469c_base.jpg"
-    },
-    {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "title": "Bitmine now controls 4.9% of Ethereum supply after adding 53.5K ETH",
+      "link": "https://cointelegraph.com/news/bitmine-ether-buying-streak-65-weeks-ethereum",
+      "summary": "Bitmine has bought Ether for 65 consecutive weeks, maintaining its accumulation strategy through a prolonged crypto downturn and $5.1 billion in paper losses.",
       "source": "Cointelegraph",
       "date": "2026-08-31",
       "date_human": "Aug 31, 2026",
-      "pub_ts": 1788155948,
+      "pub_ts": 1788190740,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1C5X0EPKFXAYHMT2JV9CT5W/doctor-medicine-crypto-eth.jpg"
       ],
-      "image": "../assets/news/2026-08-31/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-08-31/57bd1a60f4d67ba1_base.jpg"
+      "image": "../assets/news/2026-08-31/0805f79eba2d4e8a_base.jpg",
+      "image_local": "../assets/news/2026-08-31/0805f79eba2d4e8a_base.jpg"
     },
     {
-      "title": "XRP's next rally could put this 115 million-token short under pressure",
-      "link": "https://cryptoslate.com/xrps-next-rally-could-put-this-115-million-token-short-under-pressure/",
-      "summary": "The Aug. 25 CFTC snapshot shows 115.7 million XRP-equivalent net short against rising dealer and asset-manager net longs. The post XRP’s next rally could put this 115 million-token short under pressure appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-31",
-      "date_human": "Aug 31, 2026",
-      "pub_ts": 1788157846,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/xrp-market-tug-war.jpg"
-      ],
-      "image": "../assets/news/2026-08-31/b87886e0aca57cfd_base.jpg",
-      "image_local": "../assets/news/2026-08-31/b87886e0aca57cfd_base.jpg"
-    },
-    {
-      "title": "Live updates: Bitcoin holds $78,000 as yen breaks 160 and rate-hike bets lift the dollar",
-      "link": "https://www.coindesk.com/tech/2026/08/31/live-updates-bitcoin-holds-usd78-000-as-yen-breaks-160-and-rate-hike-bets-lift-the-dollar",
-      "summary": "Live updates: Bitcoin holds $78,000 as yen breaks 160 and rate-hike bets lift the dollar",
+      "title": "NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm",
+      "link": "https://www.coindesk.com/business/2026/08/31/nyse-owner-ice-taps-tzero-for-tokenized-securities-push-takes-stake-in-firm",
+      "summary": "NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm",
       "source": "CoinDesk",
       "date": "2026-08-31",
       "date_human": "Aug 31, 2026",
-      "pub_ts": 1788164283,
+      "pub_ts": 1788187466,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/07bc9c92549a732db3eb91f2f39febfc233e62d8-1512x848.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/903e318acd6dff33bc9b0083d0f98e3ea9edf92b-1420x916.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-31/e508a9340b94a38f_base.jpg",
-      "image_local": "../assets/news/2026-08-31/e508a9340b94a38f_base.jpg"
+      "image": "../assets/news/2026-08-31/d15e81523009ad7f_base.jpg",
+      "image_local": "../assets/news/2026-08-31/d15e81523009ad7f_base.jpg"
     },
     {
-      "title": "Polygon Quietly Patched Security Flaws in Two Hard Forks Before Disclosing Them",
-      "link": "https://decrypt.co/376911/polygon-quietly-patched-security-flaws",
-      "summary": "The Austin and Kyoto hard forks, deployed quietly on the Bor and Heimdall clients before public disclosure, closed denial-of-service and consensus-hardening flaws that Polygon says were never exploited.",
+      "title": "Why the SEC's $75 million crypto path is not the same deal Congress is offering",
+      "link": "https://cryptoslate.com/why-the-secs-75-million-crypto-path-isnt-the-same-deal-congress-is-offering/",
+      "summary": "The SEC proposal and Congress’s unfinished ancillary-asset framework diverge on who qualifies, what investors can enforce and how overlapping rules would interact. The post Why the SEC’s $75 million crypto path is not the same deal Congress is offering appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-31",
+      "date_human": "Aug 31, 2026",
+      "pub_ts": 1788187846,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/crypto-rulebook-tug.jpg"
+      ],
+      "image": "../assets/news/2026-08-31/a999d829cf2714b9_base.jpg",
+      "image_local": "../assets/news/2026-08-31/a999d829cf2714b9_base.jpg"
+    },
+    {
+      "title": "Tom Lee's Bitmine Buys $131M of ETH in Largest Ethereum Purchase Since June",
+      "link": "https://decrypt.co/376932/tom-lee-bitmine-largest-ethereum-purchase-since-june",
+      "summary": "The purchase lifts Bitmine's stash to 5.9 million ETH—4.9% of supply—as chairman Tom Lee points to crypto's strong third quarter.",
       "source": "Decrypt",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788129064,
+      "date": "2026-08-31",
+      "date_human": "Aug 31, 2026",
+      "pub_ts": 1788188087,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/01/polygon-pol-decrypt-style-01-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/polygon-pol-decrypt-style-01-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/polygon-pol-decrypt-style-01-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-fundstrat-decrypt-style-02-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-fundstrat-decrypt-style-02-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/tom-lee-fundstrat-decrypt-style-02-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-31/ada276864e275df8_base.jpg",
-      "image_local": "../assets/news/2026-08-31/ada276864e275df8_base.jpg"
+      "image": "../assets/news/2026-08-31/aebd9c27a110698a_base.jpg",
+      "image_local": "../assets/news/2026-08-31/aebd9c27a110698a_base.jpg"
     },
     {
-      "title": "Cronos halts network after Tectonic exploit involving estimated $75M",
-      "link": "https://cointelegraph.com/news/cronos-network-halt-tectonic-exploit-75-million",
-      "summary": "Crypto.com CEO Kris Marszalek said the company’s app and exchange were unaffected by the Tectonic breach and continued operating normally.",
+      "title": "Strive buys 1,800 Bitcoin for $143M, becomes fifth-biggest corporate holder",
+      "link": "https://cointelegraph.com/news/strive-buys-1800-bitcoin-143m-btc-purchase",
+      "summary": "Strive’s latest Bitcoin purchase lifted its holdings to 23,156 BTC, making it the fifth-largest publicly traded corporate holder as crypto markets rebound.",
       "source": "Cointelegraph",
       "date": "2026-08-31",
       "date_human": "Aug 31, 2026",
-      "pub_ts": 1788146748,
+      "pub_ts": 1788188892,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1AX3ZN7EESDX1ZF7WKP963R/hi-transactions-stopped-1.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1C52C7MYQ0QY4TB55BX8Z68/moses-and-bitcoins.jpg"
       ],
-      "image": "../assets/news/2026-08-31/96e0ef73537ae38a_base.jpg",
-      "image_local": "../assets/news/2026-08-31/96e0ef73537ae38a_base.jpg"
+      "image": "../assets/news/2026-08-31/b44e63d6839fa37d_base.jpg",
+      "image_local": "../assets/news/2026-08-31/b44e63d6839fa37d_base.jpg"
     },
     {
-      "title": "CEO Jeremy Allaire says Circle built “the platform for the internet financial system”, but cirBTC has only 40 BTC",
-      "link": "https://cryptoslate.com/ceo-jeremy-allaire-says-circle-built-the-internet-financial-system-but-cirbtc-has-only-40-btc/",
-      "summary": "Circle's wrapped Bitcoin was overcollateralized at its Aug. 27 snapshot, yet WBTC and cbBTC remain thousands of times larger as Arc becomes the next distribution test. The post CEO Jeremy Allaire says Circle built “the platform for the internet financial system”, but cirBTC has only 40 BTC appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788120026,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/cirbtc-glass-case-gap.jpg"
-      ],
-      "image": "../assets/news/2026-08-31/99c4c3a4bad6d151_base.jpg",
-      "image_local": "../assets/news/2026-08-31/99c4c3a4bad6d151_base.jpg"
-    },
-    {
-      "title": "Luke Dashjr exits mining pool Ocean after split over Bitcoin mining's future",
-      "link": "https://www.coindesk.com/business/2026/08/31/luke-dashjr-exits-mining-pool-ocean-after-split-over-bitcoin-mining-s-future",
-      "summary": "Luke Dashjr exits mining pool Ocean after split over Bitcoin mining's future",
+      "title": "Ireland bars crypto from new tax-advantaged investment accounts",
+      "link": "https://www.coindesk.com/business/2026/08/31/ireland-bars-crypto-from-new-tax-advantaged-investment-accounts",
+      "summary": "Ireland bars crypto from new tax-advantaged investment accounts",
       "source": "CoinDesk",
       "date": "2026-08-31",
       "date_human": "Aug 31, 2026",
-      "pub_ts": 1788163494,
+      "pub_ts": 1788182996,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/dc4c12877ab4eb63b5f44ae62d0347edcbabaa90-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/1f36f4b6075554c7a225b5bdef6b7d0bb9142a62-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-31/dba7c8aa4b5f4c89_base.jpg",
-      "image_local": "../assets/news/2026-08-31/dba7c8aa4b5f4c89_base.jpg"
+      "image": "../assets/news/2026-08-31/86a1383b6d819d89_base.jpg",
+      "image_local": "../assets/news/2026-08-31/86a1383b6d819d89_base.jpg"
+    },
+    {
+      "title": "DeFi protocols just lost $83 million to an attack financial regulators already warned about",
+      "link": "https://cryptoslate.com/defi-protocols-just-lost-83-million-to-an-attack-financial-regulators-already-warned-about/",
+      "summary": "Malicious actors exposed two decentralized finance (DeFi) lenders to over $84 million in losses over four days, using variations of a price-manipulation strategy previously targeted by US regulators. The larger incident hit Tectonic on the Cronos blockchain, where security firm GoPlus estimated roughly $75 million was affected. Three days earlier, Moonwell’s MAMO lending market on […] The post DeFi protocols just lost $83 million to an attack financial regulators already warned about appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-31",
+      "date_human": "Aug 31, 2026",
+      "pub_ts": 1788183933,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/defi-predator-liquidity-attack.jpg"
+      ],
+      "image": "../assets/news/2026-08-31/6eda195c728ea125_base.jpg",
+      "image_local": "../assets/news/2026-08-31/6eda195c728ea125_base.jpg"
+    },
+    {
+      "title": "South Korea Will Give Every Citizen Free AI Access With Unlimited Tokens",
+      "link": "https://decrypt.co/376929/south-korea-will-give-every-citizen-free-ai-access-with-unlimited-tokens",
+      "summary": "Three consortia will run the service, sharing up to 512 Nvidia B200 chips supplied by the state, with beta testing due in September.",
+      "source": "Decrypt",
+      "date": "2026-08-31",
+      "date_human": "Aug 31, 2026",
+      "pub_ts": 1788185019,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/AI-decrypt-style-03-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/AI-decrypt-style-03-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/AI-decrypt-style-03-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-31/2999cd8d503a3943_base.jpg",
+      "image_local": "../assets/news/2026-08-31/2999cd8d503a3943_base.jpg"
+    },
+    {
+      "title": "Russian crypto trading to bring $46B to regulated exchanges in first year after legalization: Report",
+      "link": "https://cointelegraph.com/news/russian-crypto-trading-bring-46b-regulated-exchanges-legalization",
+      "summary": "Regulated cryptocurrency exchanges may see more than $46 billion in crypto trading volume during the first year after legalization, according to estimates from the country’s largest bank.",
+      "source": "Cointelegraph",
+      "date": "2026-08-31",
+      "date_human": "Aug 31, 2026",
+      "pub_ts": 1788187858,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1C10WR962EQNTM5JC7YMRXS/russia-coin-moscow-minin-and-pozharskiy.jpg"
+      ],
+      "image": "../assets/news/2026-08-31/b5a551713ae5423d_base.jpg",
+      "image_local": "../assets/news/2026-08-31/b5a551713ae5423d_base.jpg"
+    },
+    {
+      "title": "Bitmine makes largest ether purchase since June as Tom Lee points to crypto's strong Q3",
+      "link": "https://www.coindesk.com/business/2026/08/31/bitmine-makes-largest-ether-purchase-since-june-as-tom-lee-points-to-crypto-s-strong-q3",
+      "summary": "Bitmine makes largest ether purchase since June as Tom Lee points to crypto's strong Q3",
+      "source": "CoinDesk",
+      "date": "2026-08-31",
+      "date_human": "Aug 31, 2026",
+      "pub_ts": 1788180797,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/83de81f28e582745c3329978c86006afe80011b2-2048x1152.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-31/70740e4a24e12bd0_base.jpg",
+      "image_local": "../assets/news/2026-08-31/70740e4a24e12bd0_base.jpg"
     }
   ]
 }
