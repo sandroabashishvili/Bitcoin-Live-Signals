@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-31",
-  "generated_at_utc": "2026-08-31 04:05:12 UTC",
+  "generated_at_utc": "2026-08-31 10:05:15 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,18 +16,62 @@
   "count": 12,
   "items": [
     {
-      "title": "Cronos halts network after Tectonic exploit involving estimated $75M",
-      "link": "https://cointelegraph.com/news/cronos-network-halt-tectonic-exploit-75-million",
-      "summary": "Crypto.com CEO Kris Marszalek said the company’s app and exchange were unaffected by the Tectonic breach and continued operating normally.",
+      "title": "Crypto.com's Cronos Halts Entire Blockchain After $75M Tectonic Exploit",
+      "link": "https://decrypt.co/376913/crypto-coms-cronos-halts-entire-blockchain-after-75m-tectonic-exploit",
+      "summary": "Some $6 million reached Ethereum before validators froze the chain, stranding the rest on a network that still is not producing blocks.",
+      "source": "Decrypt",
+      "date": "2026-08-31",
+      "date_human": "Aug 31, 2026",
+      "pub_ts": 1788169287,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-31/3da84fe0ce97e8a4_base.jpg",
+      "image_local": "../assets/news/2026-08-31/3da84fe0ce97e8a4_base.jpg"
+    },
+    {
+      "title": "More Markets lending reserve drained for $9.3M: Blockaid",
+      "link": "https://cointelegraph.com/news/more-markets-lending-reserve-drained-93m",
+      "summary": "Blockaid said an attacker used an Ankr liquid staking token and E-mode to overborrow from More Markets and drain about $9.3 million in WFLOW from a lending reserve.",
       "source": "Cointelegraph",
       "date": "2026-08-31",
       "date_human": "Aug 31, 2026",
-      "pub_ts": 1788146748,
+      "pub_ts": 1788166630,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1AX3ZN7EESDX1ZF7WKP963R/hi-transactions-stopped-1.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1BE6GQ6SXNVS4KFF2WV7WJH/hi-what-is-dns-hijacking-1.jpg"
       ],
-      "image": "../assets/news/2026-08-31/96e0ef73537ae38a_base.jpg",
-      "image_local": "../assets/news/2026-08-31/96e0ef73537ae38a_base.jpg"
+      "image": "../assets/news/2026-08-31/5d92da016981f7b2_base.jpg",
+      "image_local": "../assets/news/2026-08-31/5d92da016981f7b2_base.jpg"
+    },
+    {
+      "title": "A 36-day staking bottleneck is costing Ethereum depositors over $350,000 in lost rewards daily",
+      "link": "https://cryptoslate.com/a-36-day-staking-bottleneck-is-costing-ethereum-depositors-over-350000-in-lost-rewards-daily/",
+      "summary": "The 35.75-day backlog represents an annualized opportunity-cost estimate as deposits share a 256 ETH-per-epoch activation gate. The post A 36-day staking bottleneck is costing Ethereum depositors over $350,000 in lost rewards daily appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-31",
+      "date_human": "Aug 31, 2026",
+      "pub_ts": 1788164754,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/ethereum-staking-entry-backlog.jpg"
+      ],
+      "image": "../assets/news/2026-08-31/1901c559e063c848_base.jpg",
+      "image_local": "../assets/news/2026-08-31/1901c559e063c848_base.jpg"
+    },
+    {
+      "title": "U.S. jobs report, Russia's digital ruble rollout: Crypto Week Ahead",
+      "link": "https://www.coindesk.com/markets/2026/08/31/u-s-jobs-report-russia-s-digital-ruble-rollout-crypto-week-ahead",
+      "summary": "U.S. jobs report, Russia's digital ruble rollout: Crypto Week Ahead",
+      "source": "CoinDesk",
+      "date": "2026-08-31",
+      "date_human": "Aug 31, 2026",
+      "pub_ts": 1788164548,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/177fe0d442a9bb8ec8bb8ee503d2332e2d65478d-1710x958.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-31/501578b35740e703_base.jpg",
+      "image_local": "../assets/news/2026-08-31/501578b35740e703_base.jpg"
     },
     {
       "title": "Ex-White House Teleprompter Operator Fined for Prediction Market Insider Trading",
@@ -46,46 +90,46 @@
       "image_local": "../assets/news/2026-08-31/76f7f5cec3ff469c_base.jpg"
     },
     {
-      "title": "CEO Jeremy Allaire says Circle built “the platform for the internet financial system”, but cirBTC has only 40 BTC",
-      "link": "https://cryptoslate.com/ceo-jeremy-allaire-says-circle-built-the-internet-financial-system-but-cirbtc-has-only-40-btc/",
-      "summary": "Circle's wrapped Bitcoin was overcollateralized at its Aug. 27 snapshot, yet WBTC and cbBTC remain thousands of times larger as Arc becomes the next distribution test. The post CEO Jeremy Allaire says Circle built “the platform for the internet financial system”, but cirBTC has only 40 BTC appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788120026,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/cirbtc-glass-case-gap.jpg"
-      ],
-      "image": "../assets/news/2026-08-31/99c4c3a4bad6d151_base.jpg",
-      "image_local": "../assets/news/2026-08-31/99c4c3a4bad6d151_base.jpg"
-    },
-    {
-      "title": "Michael Saylor hints at first bitcoin purchase in two months",
-      "link": "https://www.coindesk.com/markets/2026/08/30/bitcoin-nears-usd79-000-as-michael-saylor-hints-at-first-bitcoin-purchase-in-two-months",
-      "summary": "Michael Saylor hints at first bitcoin purchase in two months",
-      "source": "CoinDesk",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788104395,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/dd98498dbda09f933fbeac48aac3591d14c0deee-3018x1697.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-31/2a78316584d5de94_base.jpg",
-      "image_local": "../assets/news/2026-08-31/2a78316584d5de94_base.jpg"
-    },
-    {
-      "title": "Bitcoin's new quantum defenses, 18.9M SOL cancelled: Hodler's Digest",
-      "link": "https://cointelegraph.com/magazine/bitcoins-new-quantum-defenses-189m-sol-cancelled-hodlers-digest",
-      "summary": "Bitcoin moves toward a post quantum future, Solana validators agree to curb rampant inflation and the bull case from Bernstein is for Bitcoin to peak at $500K this cycle.",
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788132976,
+      "date": "2026-08-31",
+      "date_human": "Aug 31, 2026",
+      "pub_ts": 1788155948,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1ABTCJ2NCZ56B6Y07HVQZ2T/magazine-cover-collage.png"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-08-31/7921938e247b3fca_base.jpg",
-      "image_local": "../assets/news/2026-08-31/7921938e247b3fca_base.jpg"
+      "image": "../assets/news/2026-08-31/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-31/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "XRP's next rally could put this 115 million-token short under pressure",
+      "link": "https://cryptoslate.com/xrps-next-rally-could-put-this-115-million-token-short-under-pressure/",
+      "summary": "The Aug. 25 CFTC snapshot shows 115.7 million XRP-equivalent net short against rising dealer and asset-manager net longs. The post XRP’s next rally could put this 115 million-token short under pressure appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-31",
+      "date_human": "Aug 31, 2026",
+      "pub_ts": 1788157846,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/xrp-market-tug-war.jpg"
+      ],
+      "image": "../assets/news/2026-08-31/b87886e0aca57cfd_base.jpg",
+      "image_local": "../assets/news/2026-08-31/b87886e0aca57cfd_base.jpg"
+    },
+    {
+      "title": "Live updates: Bitcoin holds $78,000 as yen breaks 160 and rate-hike bets lift the dollar",
+      "link": "https://www.coindesk.com/tech/2026/08/31/live-updates-bitcoin-holds-usd78-000-as-yen-breaks-160-and-rate-hike-bets-lift-the-dollar",
+      "summary": "Live updates: Bitcoin holds $78,000 as yen breaks 160 and rate-hike bets lift the dollar",
+      "source": "CoinDesk",
+      "date": "2026-08-31",
+      "date_human": "Aug 31, 2026",
+      "pub_ts": 1788164283,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/07bc9c92549a732db3eb91f2f39febfc233e62d8-1512x848.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-31/e508a9340b94a38f_base.jpg",
+      "image_local": "../assets/news/2026-08-31/e508a9340b94a38f_base.jpg"
     },
     {
       "title": "Polygon Quietly Patched Security Flaws in Two Hard Forks Before Disclosing Them",
@@ -104,90 +148,46 @@
       "image_local": "../assets/news/2026-08-31/ada276864e275df8_base.jpg"
     },
     {
-      "title": "US treasury relies on stablecoins to fund short-term debt, but they can't fix its $28B long-bond problem",
-      "link": "https://cryptoslate.com/us-treasury-relies-on-stablecoins-to-fund-short-term-debt-but-they-cant-fix-its-28b-long-bond-problem/",
-      "summary": "GENIUS reserves stop at 93 days while Treasury expands liquidity buybacks across 10- to 30-year debt. The post US treasury relies on stablecoins to fund short-term debt, but they can’t fix its $28B long-bond problem appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788114324,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/stablecoin-93-day-gate.jpg"
-      ],
-      "image": "../assets/news/2026-08-31/16a667340f78418c_base.jpg",
-      "image_local": "../assets/news/2026-08-31/16a667340f78418c_base.jpg"
-    },
-    {
-      "title": "From Hawala to Swift: Inside the 1,000-year battle to move money safely",
-      "link": "https://www.coindesk.com/business/2026/08/30/from-hawala-to-swift-inside-the-1-000-year-battle-to-move-money-safely",
-      "summary": "From Hawala to Swift: Inside the 1,000-year battle to move money safely",
-      "source": "CoinDesk",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788102000,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/9783d7b206819da6e468694efca72dd18e27ac27-1186x667.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-31/d05597374813b765_base.jpg",
-      "image_local": "../assets/news/2026-08-31/d05597374813b765_base.jpg"
-    },
-    {
-      "title": "Saylor signals Strategy is ‘Back' to Bitcoin buying",
-      "link": "https://cointelegraph.com/news/saylor-signals-strategy-is-back-to-bitcoin-buying",
-      "summary": "Michael Saylor’s “We’re Back” post hints Strategy may resume Bitcoin buying after a two-month pause to strengthen its balance sheet.",
+      "title": "Cronos halts network after Tectonic exploit involving estimated $75M",
+      "link": "https://cointelegraph.com/news/cronos-network-halt-tectonic-exploit-75-million",
+      "summary": "Crypto.com CEO Kris Marszalek said the company’s app and exchange were unaffected by the Tectonic breach and continued operating normally.",
       "source": "Cointelegraph",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788112740,
+      "date": "2026-08-31",
+      "date_human": "Aug 31, 2026",
+      "pub_ts": 1788146748,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M19WS2MWX8WK42HTJNANTQJ5/hi-michael-saylor.png"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1AX3ZN7EESDX1ZF7WKP963R/hi-transactions-stopped-1.jpg"
       ],
-      "image": "../assets/news/2026-08-31/26340075490d36fe_base.jpg",
-      "image_local": "../assets/news/2026-08-31/26340075490d36fe_base.jpg"
+      "image": "../assets/news/2026-08-31/96e0ef73537ae38a_base.jpg",
+      "image_local": "../assets/news/2026-08-31/96e0ef73537ae38a_base.jpg"
     },
     {
-      "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run",
-      "link": "https://decrypt.co/376897/bitcoin-etfs-snap-streak-ethereum-funds-extend",
-      "summary": "Spot Bitcoin ETFs shed $201.9 million on Aug. 28, ending a nine-day inflow run, even as Ethereum funds extended a 10-day streak with fresh cash.",
-      "source": "Decrypt",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788125464,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-14-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-14-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-14-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-31/2ce7cc2d163efbe2_base.jpg",
-      "image_local": "../assets/news/2026-08-31/2ce7cc2d163efbe2_base.jpg"
-    },
-    {
-      "title": "Wall Street's favorite Bitcoin broker just walked away from institutional trading to chase gigawatts of power",
-      "link": "https://cryptoslate.com/bitgos-nydig-deal-sets-up-bitcoin-infrastructures-next-margin-test/",
-      "summary": "BitGo is paying roughly $42.5 million upfront for institutional trading capabilities as NYDIG prioritizes a claimed 3+ GW power-and-compute footprint, leaving profitability unproven on both sides. The post Wall Street’s favorite Bitcoin broker just walked away from institutional trading to chase gigawatts of power appeared first on CryptoSlate.",
+      "title": "CEO Jeremy Allaire says Circle built “the platform for the internet financial system”, but cirBTC has only 40 BTC",
+      "link": "https://cryptoslate.com/ceo-jeremy-allaire-says-circle-built-the-internet-financial-system-but-cirbtc-has-only-40-btc/",
+      "summary": "Circle's wrapped Bitcoin was overcollateralized at its Aug. 27 snapshot, yet WBTC and cbBTC remain thousands of times larger as Arc becomes the next distribution test. The post CEO Jeremy Allaire says Circle built “the platform for the internet financial system”, but cirBTC has only 40 BTC appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-30",
       "date_human": "Aug 30, 2026",
-      "pub_ts": 1788109847,
+      "pub_ts": 1788120026,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitgo-nydig-tug-war.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/cirbtc-glass-case-gap.jpg"
       ],
-      "image": "../assets/news/2026-08-31/c7ceda46dd48e2d3_base.jpg",
-      "image_local": "../assets/news/2026-08-31/c7ceda46dd48e2d3_base.jpg"
+      "image": "../assets/news/2026-08-31/99c4c3a4bad6d151_base.jpg",
+      "image_local": "../assets/news/2026-08-31/99c4c3a4bad6d151_base.jpg"
     },
     {
-      "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
-      "link": "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction",
-      "summary": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
+      "title": "Luke Dashjr exits mining pool Ocean after split over Bitcoin mining's future",
+      "link": "https://www.coindesk.com/business/2026/08/31/luke-dashjr-exits-mining-pool-ocean-after-split-over-bitcoin-mining-s-future",
+      "summary": "Luke Dashjr exits mining pool Ocean after split over Bitcoin mining's future",
       "source": "CoinDesk",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788091200,
+      "date": "2026-08-31",
+      "date_human": "Aug 31, 2026",
+      "pub_ts": 1788163494,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/3ec0faabb4311a9cbb3b547c5d4d2d107b6d405e-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/dc4c12877ab4eb63b5f44ae62d0347edcbabaa90-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-31/5cbbb88d26a24b06_base.jpg",
-      "image_local": "../assets/news/2026-08-31/5cbbb88d26a24b06_base.jpg"
+      "image": "../assets/news/2026-08-31/dba7c8aa4b5f4c89_base.jpg",
+      "image_local": "../assets/news/2026-08-31/dba7c8aa4b5f4c89_base.jpg"
     }
   ]
 }
