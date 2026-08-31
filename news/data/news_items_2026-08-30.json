@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-08-30",
-  "generated_at_utc": "2026-08-30 16:05:13 UTC",
+  "generated_at_utc": "2026-08-30 22:05:09 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,18 +16,120 @@
   "count": 12,
   "items": [
     {
-      "title": "One mid-tier Bitcoin treasury just gambled its entire BTC reserve on a single 30-day reset price",
-      "link": "https://cryptoslate.com/one-mid-tier-bitcoin-treasury-just-gambled-its-entire-btc-reserve-on-a-single-30-day-reset-price/",
-      "summary": "The Aug. 25 unwind was capitalized into principal, while a one-time Sept. 24 test determines whether the $75,000 ceiling applies. The post One mid-tier Bitcoin treasury just gambled its entire BTC reserve on a single 30-day reset price appeared first on CryptoSlate.",
+      "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run",
+      "link": "https://decrypt.co/376897/bitcoin-etfs-snap-streak-ethereum-funds-extend",
+      "summary": "Spot Bitcoin ETFs shed $201.9 million on Aug. 28, ending a nine-day inflow run, even as Ethereum funds extended a 10-day streak with fresh cash.",
+      "source": "Decrypt",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788125464,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-14-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-14-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-14-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-30/2ce7cc2d163efbe2_base.jpg",
+      "image_local": "../assets/news/2026-08-30/2ce7cc2d163efbe2_base.jpg"
+    },
+    {
+      "title": "CEO Jeremy Allaire says Circle built “the platform for the internet financial system”, but cirBTC has only 40 BTC",
+      "link": "https://cryptoslate.com/ceo-jeremy-allaire-says-circle-built-the-internet-financial-system-but-cirbtc-has-only-40-btc/",
+      "summary": "Circle's wrapped Bitcoin was overcollateralized at its Aug. 27 snapshot, yet WBTC and cbBTC remain thousands of times larger as Arc becomes the next distribution test. The post CEO Jeremy Allaire says Circle built “the platform for the internet financial system”, but cirBTC has only 40 BTC appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-30",
       "date_human": "Aug 30, 2026",
-      "pub_ts": 1788102344,
+      "pub_ts": 1788120026,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/powercompute-conditional-debt-balance.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/cirbtc-glass-case-gap.jpg"
       ],
-      "image": "../assets/news/2026-08-30/2e4a35375a1d76a7_base.jpg",
-      "image_local": "../assets/news/2026-08-30/2e4a35375a1d76a7_base.jpg"
+      "image": "../assets/news/2026-08-30/99c4c3a4bad6d151_base.jpg",
+      "image_local": "../assets/news/2026-08-30/99c4c3a4bad6d151_base.jpg"
+    },
+    {
+      "title": "Saylor signals Strategy is ‘Back' to Bitcoin buying",
+      "link": "https://cointelegraph.com/news/saylor-signals-strategy-is-back-to-bitcoin-buying",
+      "summary": "Michael Saylor’s “We’re Back” post hints Strategy may resume Bitcoin buying after a two-month pause to strengthen its balance sheet.",
+      "source": "Cointelegraph",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788112740,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M19WS2MWX8WK42HTJNANTQJ5/hi-michael-saylor.png"
+      ],
+      "image": "../assets/news/2026-08-30/26340075490d36fe_base.jpg",
+      "image_local": "../assets/news/2026-08-30/26340075490d36fe_base.jpg"
+    },
+    {
+      "title": "Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000",
+      "link": "https://www.coindesk.com/markets/2026/08/30/bitcoin-nears-usd79-000-as-michael-saylor-hints-at-first-bitcoin-purchase-in-two-months",
+      "summary": "Michael Saylor hints at first bitcoin purchase in two months as bitcoin nears $79,000",
+      "source": "CoinDesk",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788104395,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/dd98498dbda09f933fbeac48aac3591d14c0deee-3018x1697.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-30/2a78316584d5de94_base.jpg",
+      "image_local": "../assets/news/2026-08-30/2a78316584d5de94_base.jpg"
+    },
+    {
+      "title": "Strategy's Bitcoin Is $2.8 Billion in Profit—Is Saylor Teeing Up a Buy?",
+      "link": "https://decrypt.co/376884/strategy-bitcoin-2-8-billion-profit-saylor-btc-buy",
+      "summary": "A Bitcoin rally to around $79,000 lifted the company's 840,447 BTC roughly $2.8 billion above its cost basis, as Saylor's \"We're Back\" post fueled speculation that Strategy may resume buying.",
+      "source": "Decrypt",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788118795,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/strategy-logo-x-twitter-2-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/strategy-logo-x-twitter-2-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/strategy-logo-x-twitter-2-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-30/6dc809eaaebc4d9a_base.jpg",
+      "image_local": "../assets/news/2026-08-30/6dc809eaaebc4d9a_base.jpg"
+    },
+    {
+      "title": "US treasury relies on stablecoins to fund short-term debt, but they can't fix its $28B long-bond problem",
+      "link": "https://cryptoslate.com/us-treasury-relies-on-stablecoins-to-fund-short-term-debt-but-they-cant-fix-its-28b-long-bond-problem/",
+      "summary": "GENIUS reserves stop at 93 days while Treasury expands liquidity buybacks across 10- to 30-year debt. The post US treasury relies on stablecoins to fund short-term debt, but they can’t fix its $28B long-bond problem appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788114324,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/stablecoin-93-day-gate.jpg"
+      ],
+      "image": "../assets/news/2026-08-30/16a667340f78418c_base.jpg",
+      "image_local": "../assets/news/2026-08-30/16a667340f78418c_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788094177,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-08-30/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-08-30/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "From Hawala to Swift: Inside the 1,000-year battle to move money safely",
+      "link": "https://www.coindesk.com/business/2026/08/30/from-hawala-to-swift-inside-the-1-000-year-battle-to-move-money-safely",
+      "summary": "From Hawala to Swift: Inside the 1,000-year battle to move money safely",
+      "source": "CoinDesk",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788102000,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/9783d7b206819da6e468694efca72dd18e27ac27-1186x667.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-30/d05597374813b765_base.jpg",
+      "image_local": "../assets/news/2026-08-30/d05597374813b765_base.jpg"
     },
     {
       "title": "After Their AI Models Hacked Real Companies, AI Labs Call for Stronger Cyber Defenses",
@@ -46,62 +148,18 @@
       "image_local": "../assets/news/2026-08-30/64561d745c4bf52b_base.jpg"
     },
     {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788094177,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-08-30/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-08-30/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
-      "link": "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction",
-      "summary": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
-      "source": "CoinDesk",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788091200,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/3ec0faabb4311a9cbb3b547c5d4d2d107b6d405e-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-30/5cbbb88d26a24b06_base.jpg",
-      "image_local": "../assets/news/2026-08-30/5cbbb88d26a24b06_base.jpg"
-    },
-    {
-      "title": "Veteran Bitcoin developer Luke Dashjr exits OCEAN pool – Will hash power follow him to new pool?",
-      "link": "https://cryptoslate.com/veteran-bitcoin-developer-luke-dashjr-exits-ocean-pool-will-hash-power-follow-him-to-new-pool/",
-      "summary": "OCEAN still represented 2.45% of trailing-day blocks after buying out its co-founder, while CONVOY disclosed no operational footprint. The post Veteran Bitcoin developer Luke Dashjr exits OCEAN pool – Will hash power follow him to new pool? appeared first on CryptoSlate.",
+      "title": "Wall Street's favorite Bitcoin broker just walked away from institutional trading to chase gigawatts of power",
+      "link": "https://cryptoslate.com/bitgos-nydig-deal-sets-up-bitcoin-infrastructures-next-margin-test/",
+      "summary": "BitGo is paying roughly $42.5 million upfront for institutional trading capabilities as NYDIG prioritizes a claimed 3+ GW power-and-compute footprint, leaving profitability unproven on both sides. The post Wall Street’s favorite Bitcoin broker just walked away from institutional trading to chase gigawatts of power appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-30",
       "date_human": "Aug 30, 2026",
-      "pub_ts": 1788098458,
+      "pub_ts": 1788109847,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/ocean-convoy-crossroads.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitgo-nydig-tug-war.jpg"
       ],
-      "image": "../assets/news/2026-08-30/0cfd10823f47b3f7_base.jpg",
-      "image_local": "../assets/news/2026-08-30/0cfd10823f47b3f7_base.jpg"
-    },
-    {
-      "title": "Bernie Sanders Vows Legislation to 'Stop Flock and AI Mass Surveillance'",
-      "link": "https://decrypt.co/376878/bernie-sanders-ban-flock-ai-surveillance",
-      "summary": "The Vermont senator warned that the surveillance company's 120,000-plus AI cameras are pushing the US toward a \"surveillance state,\" adding a prominent voice to a growing bipartisan backlash.",
-      "source": "Decrypt",
-      "date": "2026-08-29",
-      "date_human": "Aug 29, 2026",
-      "pub_ts": 1788024663,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-bernie-sanders-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-bernie-sanders-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/06/decrypt-style-bernie-sanders-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-30/3515ccd8e6d4ac3a_base.jpg",
-      "image_local": "../assets/news/2026-08-30/3515ccd8e6d4ac3a_base.jpg"
+      "image": "../assets/news/2026-08-30/c7ceda46dd48e2d3_base.jpg",
+      "image_local": "../assets/news/2026-08-30/c7ceda46dd48e2d3_base.jpg"
     },
     {
       "title": "Russia's Sber eyes USDT loans, questions digital ruble demand",
@@ -118,76 +176,18 @@
       "image_local": "../assets/news/2026-08-30/68cdb1087b5669bf_base.jpg"
     },
     {
-      "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
-      "link": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49",
-      "summary": "A $1.1 million crypto card hack crashed a neobank's token 49%",
+      "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
+      "link": "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction",
+      "summary": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
       "source": "CoinDesk",
-      "date": "2026-08-29",
-      "date_human": "Aug 29, 2026",
-      "pub_ts": 1788047357,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/da5caf65adc295012880cf200ddf9e937f2db11c-1920x1282.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-30/9c3f4d46d26bcf88_base.jpg",
-      "image_local": "../assets/news/2026-08-30/9c3f4d46d26bcf88_base.jpg"
-    },
-    {
-      "title": "Treasury proposed GENIUS change forces US exchanges to audit foreign stablecoin or face delisting",
-      "link": "https://cryptoslate.com/treasury-proposed-genius-change-forces-us-exchanges-to-audit-foreign-stablecoin-or-face-delisting/",
-      "summary": "Platforms could rely on foreign issuers only after reasonable diligence, while comments on the proposed standard remain open through Oct. 19. The post Treasury proposed GENIUS change forces US exchanges to audit foreign stablecoin or face delisting appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
       "date": "2026-08-30",
       "date_human": "Aug 30, 2026",
-      "pub_ts": 1788096914,
+      "pub_ts": 1788091200,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/stablecoin-access-denied.jpg"
+        "https://cdn.sanity.io/images/s3y3vcno/production/3ec0faabb4311a9cbb3b547c5d4d2d107b6d405e-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-30/05a2cfe93d66ed2a_base.jpg",
-      "image_local": "../assets/news/2026-08-30/05a2cfe93d66ed2a_base.jpg"
-    },
-    {
-      "title": "Bitcoin's Oldest Coins Are Waking Up in 2026 at a Pace Rarely Seen",
-      "link": "https://decrypt.co/376866/bitcoin-oldest-coins-waking-up-2026",
-      "summary": "Galaxy Research shows coins untouched for 10-plus years moving at an unusual pace in 2026, with six ancient wallets shifting $40 million in a single 10-day stretch this month.",
-      "source": "Decrypt",
-      "date": "2026-08-29",
-      "date_human": "Aug 29, 2026",
-      "pub_ts": 1788017464,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png"
-      ],
-      "image": "../assets/news/2026-08-30/01646b261fcd6859_base.jpg",
-      "image_local": "../assets/news/2026-08-30/01646b261fcd6859_base.jpg"
-    },
-    {
-      "title": "Real Trump Coins denies launching GOLD token, blames ‘bad actors'",
-      "link": "https://cointelegraph.com/news/real-trump-coins-denies-gold-token-launch",
-      "summary": "Trump-linked Real Trump Coins said it never authorized GOLD or any digital token as questions persisted over its X account, associated domains and the concentrated token supply.",
-      "source": "Cointelegraph",
-      "date": "2026-08-30",
-      "date_human": "Aug 30, 2026",
-      "pub_ts": 1788077096,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M18SAPB6CQTXR7T638XMWVRB/hi-top-crypto-cyber-threats.jpg"
-      ],
-      "image": "../assets/news/2026-08-30/b214ed64eac99336_base.jpg",
-      "image_local": "../assets/news/2026-08-30/b214ed64eac99336_base.jpg"
-    },
-    {
-      "title": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
-      "link": "https://www.coindesk.com/business/2026/08/28/ditch-digital-gold-bpi-study-suggests-everyday-americans-prefer-control-and-micro-investing",
-      "summary": "Ditching 'digital gold': BPI study suggests everyday Americans prefer control and micro-investing",
-      "source": "CoinDesk",
-      "date": "2026-08-29",
-      "date_human": "Aug 29, 2026",
-      "pub_ts": 1788015600,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/a157306e943dd581a50f1881a075dc427bda6fad-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-08-30/b775ba632152304b_base.jpg",
-      "image_local": "../assets/news/2026-08-30/b775ba632152304b_base.jpg"
+      "image": "../assets/news/2026-08-30/5cbbb88d26a24b06_base.jpg",
+      "image_local": "../assets/news/2026-08-30/5cbbb88d26a24b06_base.jpg"
     }
   ]
 }

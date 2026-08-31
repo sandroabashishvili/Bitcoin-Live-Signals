@@ -1,0 +1,193 @@
+{
+  "day_iso": "2026-08-31",
+  "generated_at_utc": "2026-08-31 04:05:12 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Cronos halts network after Tectonic exploit involving estimated $75M",
+      "link": "https://cointelegraph.com/news/cronos-network-halt-tectonic-exploit-75-million",
+      "summary": "Crypto.com CEO Kris Marszalek said the company’s app and exchange were unaffected by the Tectonic breach and continued operating normally.",
+      "source": "Cointelegraph",
+      "date": "2026-08-31",
+      "date_human": "Aug 31, 2026",
+      "pub_ts": 1788146748,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1AX3ZN7EESDX1ZF7WKP963R/hi-transactions-stopped-1.jpg"
+      ],
+      "image": "../assets/news/2026-08-31/96e0ef73537ae38a_base.jpg",
+      "image_local": "../assets/news/2026-08-31/96e0ef73537ae38a_base.jpg"
+    },
+    {
+      "title": "Ex-White House Teleprompter Operator Fined for Prediction Market Insider Trading",
+      "link": "https://decrypt.co/376909/white-house-teleprompter-fined-prediction-market-trading",
+      "summary": "Gabriel Perez used his access to Trump's speeches before delivery to bet on \"presidential mention market\" contracts, profiting more than $107,500 before the CFTC caught up with him.",
+      "source": "Decrypt",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788132663,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/white-house-podium-decrypt-style-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/white-house-podium-decrypt-style-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/white-house-podium-decrypt-style-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-31/76f7f5cec3ff469c_base.jpg",
+      "image_local": "../assets/news/2026-08-31/76f7f5cec3ff469c_base.jpg"
+    },
+    {
+      "title": "CEO Jeremy Allaire says Circle built “the platform for the internet financial system”, but cirBTC has only 40 BTC",
+      "link": "https://cryptoslate.com/ceo-jeremy-allaire-says-circle-built-the-internet-financial-system-but-cirbtc-has-only-40-btc/",
+      "summary": "Circle's wrapped Bitcoin was overcollateralized at its Aug. 27 snapshot, yet WBTC and cbBTC remain thousands of times larger as Arc becomes the next distribution test. The post CEO Jeremy Allaire says Circle built “the platform for the internet financial system”, but cirBTC has only 40 BTC appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788120026,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/cirbtc-glass-case-gap.jpg"
+      ],
+      "image": "../assets/news/2026-08-31/99c4c3a4bad6d151_base.jpg",
+      "image_local": "../assets/news/2026-08-31/99c4c3a4bad6d151_base.jpg"
+    },
+    {
+      "title": "Michael Saylor hints at first bitcoin purchase in two months",
+      "link": "https://www.coindesk.com/markets/2026/08/30/bitcoin-nears-usd79-000-as-michael-saylor-hints-at-first-bitcoin-purchase-in-two-months",
+      "summary": "Michael Saylor hints at first bitcoin purchase in two months",
+      "source": "CoinDesk",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788104395,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/dd98498dbda09f933fbeac48aac3591d14c0deee-3018x1697.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-31/2a78316584d5de94_base.jpg",
+      "image_local": "../assets/news/2026-08-31/2a78316584d5de94_base.jpg"
+    },
+    {
+      "title": "Bitcoin's new quantum defenses, 18.9M SOL cancelled: Hodler's Digest",
+      "link": "https://cointelegraph.com/magazine/bitcoins-new-quantum-defenses-189m-sol-cancelled-hodlers-digest",
+      "summary": "Bitcoin moves toward a post quantum future, Solana validators agree to curb rampant inflation and the bull case from Bernstein is for Bitcoin to peak at $500K this cycle.",
+      "source": "Cointelegraph",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788132976,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1ABTCJ2NCZ56B6Y07HVQZ2T/magazine-cover-collage.png"
+      ],
+      "image": "../assets/news/2026-08-31/7921938e247b3fca_base.jpg",
+      "image_local": "../assets/news/2026-08-31/7921938e247b3fca_base.jpg"
+    },
+    {
+      "title": "Polygon Quietly Patched Security Flaws in Two Hard Forks Before Disclosing Them",
+      "link": "https://decrypt.co/376911/polygon-quietly-patched-security-flaws",
+      "summary": "The Austin and Kyoto hard forks, deployed quietly on the Bor and Heimdall clients before public disclosure, closed denial-of-service and consensus-hardening flaws that Polygon says were never exploited.",
+      "source": "Decrypt",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788129064,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/01/polygon-pol-decrypt-style-01-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/polygon-pol-decrypt-style-01-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/polygon-pol-decrypt-style-01-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-08-31/ada276864e275df8_base.jpg",
+      "image_local": "../assets/news/2026-08-31/ada276864e275df8_base.jpg"
+    },
+    {
+      "title": "US treasury relies on stablecoins to fund short-term debt, but they can't fix its $28B long-bond problem",
+      "link": "https://cryptoslate.com/us-treasury-relies-on-stablecoins-to-fund-short-term-debt-but-they-cant-fix-its-28b-long-bond-problem/",
+      "summary": "GENIUS reserves stop at 93 days while Treasury expands liquidity buybacks across 10- to 30-year debt. The post US treasury relies on stablecoins to fund short-term debt, but they can’t fix its $28B long-bond problem appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788114324,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/stablecoin-93-day-gate.jpg"
+      ],
+      "image": "../assets/news/2026-08-31/16a667340f78418c_base.jpg",
+      "image_local": "../assets/news/2026-08-31/16a667340f78418c_base.jpg"
+    },
+    {
+      "title": "From Hawala to Swift: Inside the 1,000-year battle to move money safely",
+      "link": "https://www.coindesk.com/business/2026/08/30/from-hawala-to-swift-inside-the-1-000-year-battle-to-move-money-safely",
+      "summary": "From Hawala to Swift: Inside the 1,000-year battle to move money safely",
+      "source": "CoinDesk",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788102000,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/9783d7b206819da6e468694efca72dd18e27ac27-1186x667.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-31/d05597374813b765_base.jpg",
+      "image_local": "../assets/news/2026-08-31/d05597374813b765_base.jpg"
+    },
+    {
+      "title": "Saylor signals Strategy is ‘Back' to Bitcoin buying",
+      "link": "https://cointelegraph.com/news/saylor-signals-strategy-is-back-to-bitcoin-buying",
+      "summary": "Michael Saylor’s “We’re Back” post hints Strategy may resume Bitcoin buying after a two-month pause to strengthen its balance sheet.",
+      "source": "Cointelegraph",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788112740,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M19WS2MWX8WK42HTJNANTQJ5/hi-michael-saylor.png"
+      ],
+      "image": "../assets/news/2026-08-31/26340075490d36fe_base.jpg",
+      "image_local": "../assets/news/2026-08-31/26340075490d36fe_base.jpg"
+    },
+    {
+      "title": "Bitcoin ETFs Snap Nine-Day Inflow Streak as Ethereum Funds Extend Their Run",
+      "link": "https://decrypt.co/376897/bitcoin-etfs-snap-streak-ethereum-funds-extend",
+      "summary": "Spot Bitcoin ETFs shed $201.9 million on Aug. 28, ending a nine-day inflow run, even as Ethereum funds extended a 10-day streak with fresh cash.",
+      "source": "Decrypt",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788125464,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-14-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-14-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-14-gID_7.png"
+      ],
+      "image": "../assets/news/2026-08-31/2ce7cc2d163efbe2_base.jpg",
+      "image_local": "../assets/news/2026-08-31/2ce7cc2d163efbe2_base.jpg"
+    },
+    {
+      "title": "Wall Street's favorite Bitcoin broker just walked away from institutional trading to chase gigawatts of power",
+      "link": "https://cryptoslate.com/bitgos-nydig-deal-sets-up-bitcoin-infrastructures-next-margin-test/",
+      "summary": "BitGo is paying roughly $42.5 million upfront for institutional trading capabilities as NYDIG prioritizes a claimed 3+ GW power-and-compute footprint, leaving profitability unproven on both sides. The post Wall Street’s favorite Bitcoin broker just walked away from institutional trading to chase gigawatts of power appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788109847,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/bitgo-nydig-tug-war.jpg"
+      ],
+      "image": "../assets/news/2026-08-31/c7ceda46dd48e2d3_base.jpg",
+      "image_local": "../assets/news/2026-08-31/c7ceda46dd48e2d3_base.jpg"
+    },
+    {
+      "title": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
+      "link": "https://www.coindesk.com/markets/2026/08/28/crypto-market-makers-are-cashing-in-on-bitcoin-s-rally-without-betting-on-direction",
+      "summary": "Crypto market makers are cashing in on bitcoin's rally - without betting on direction",
+      "source": "CoinDesk",
+      "date": "2026-08-30",
+      "date_human": "Aug 30, 2026",
+      "pub_ts": 1788091200,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/3ec0faabb4311a9cbb3b547c5d4d2d107b6d405e-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-08-31/5cbbb88d26a24b06_base.jpg",
+      "image_local": "../assets/news/2026-08-31/5cbbb88d26a24b06_base.jpg"
+    }
+  ]
+}
