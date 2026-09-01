@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-08-31",
-  "generated_at_utc": "2026-08-31 22:05:22 UTC",
+  "day_iso": "2026-09-01",
+  "generated_at_utc": "2026-09-01 04:05:16 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,18 +16,32 @@
   "count": 12,
   "items": [
     {
-      "title": "Phemex puts 82 tokens on notice over liquidity and project compliance concerns",
-      "link": "https://cryptoslate.com/phemex-puts-82-tokens-on-notice-over-liquidity-and-project-compliance-concerns/",
-      "summary": "Each market met at least one risk criterion, but Phemex did not disclose which issue applied to each pair. The post Phemex puts 82 tokens on notice over liquidity and project compliance concerns appeared first on CryptoSlate.",
+      "title": "Thailand SEC proposes retail access to regulated overseas crypto derivatives",
+      "link": "https://cointelegraph.com/news/thailand-sec-retail-overseas-crypto-derivatives",
+      "summary": "Thailand’s SEC seeks comments on rules requiring retail-accessible overseas crypto derivatives to trade on qualifying, centrally cleared exchanges.",
+      "source": "Cointelegraph",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788234540,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1DH1WEZ277YHH7XH1QMY4YC/regulations-thailand-crypto.jpg"
+      ],
+      "image": "../assets/news/2026-09-01/6bb42f4e4867ad4f_base.jpg",
+      "image_local": "../assets/news/2026-09-01/6bb42f4e4867ad4f_base.jpg"
+    },
+    {
+      "title": "Strategy splits $603 million share sale between Bitcoin purchases and STRC support",
+      "link": "https://cryptoslate.com/strategy-splits-603-million-share-sale-between-bitcoin-purchases-and-strc-support/",
+      "summary": "One week of common-stock sales funded a $369.7 million Bitcoin purchase, $202.5 million of STRC buybacks and dividends, and a $30 million cash increase. The post Strategy splits $603 million share sale between Bitcoin purchases and STRC support appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-31",
       "date_human": "Aug 31, 2026",
-      "pub_ts": 1788213011,
+      "pub_ts": 1788218442,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/phemex-token-risk-review.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/strategy_standard_image_1280x720.jpg"
       ],
-      "image": "../assets/news/2026-08-31/5f9e2906f8909676_base.jpg",
-      "image_local": "../assets/news/2026-08-31/5f9e2906f8909676_base.jpg"
+      "image": "../assets/news/2026-09-01/b6072fe4ff821494_base.jpg",
+      "image_local": "../assets/news/2026-09-01/b6072fe4ff821494_base.jpg"
     },
     {
       "title": "As Public Fury Mounts, Texas Pulls the Plug on Flock Surveillance Funding",
@@ -42,8 +56,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/privacy-gID_7.jpg@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/privacy-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-31/2459454c5b3667de_base.jpg",
-      "image_local": "../assets/news/2026-08-31/2459454c5b3667de_base.jpg"
+      "image": "../assets/news/2026-09-01/2459454c5b3667de_base.jpg",
+      "image_local": "../assets/news/2026-09-01/2459454c5b3667de_base.jpg"
     },
     {
       "title": "North Korean hackers are moving tens of millions on Hyperliquid as Trump pushes to onshore the crypto platform",
@@ -56,8 +70,8 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/c6906ffe314f6cc214b35551286f61a093e5f8fd-5760x3840.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-31/5cfb4346cbae6fb1_base.jpg",
-      "image_local": "../assets/news/2026-08-31/5cfb4346cbae6fb1_base.jpg"
+      "image": "../assets/news/2026-09-01/5cfb4346cbae6fb1_base.jpg",
+      "image_local": "../assets/news/2026-09-01/5cfb4346cbae6fb1_base.jpg"
     },
     {
       "title": "Here's what happened in crypto today",
@@ -70,22 +84,22 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-08-31/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-08-31/57bd1a60f4d67ba1_base.jpg"
+      "image": "../assets/news/2026-09-01/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-01/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "AI data centers are learning the power trick Bitcoin miners mastered first",
-      "link": "https://cryptoslate.com/ai-data-centers-are-learning-the-power-trick-bitcoin-miners-mastered-first/",
-      "summary": "Every answer you get from an AI chatbot begins with electricity. The words appear on your screen, but the actual work happens in a distant building packed with computer chips. Those chips draw power, move data, and produce enough heat to require heavy-duty cooling from AI data centers. When you multiply that process across millions […] The post AI data centers are learning the power trick Bitcoin miners mastered first appeared first on CryptoSlate.",
+      "title": "Ontology halts mainnet transactions as technical team investigates potential security issue",
+      "link": "https://cryptoslate.com/ontology-halts-mainnet-transactions-as-technical-team-investigates-potential-security-issue/",
+      "summary": "The project said no incident or asset loss had been confirmed, while a public node remained at block 20,770,893 and no restart time was disclosed. The post Ontology halts mainnet transactions as technical team investigates potential security issue appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-31",
       "date_human": "Aug 31, 2026",
-      "pub_ts": 1788209126,
+      "pub_ts": 1788216023,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/ai-grid-curtailment.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/ontology-mainnet-red-light.jpg"
       ],
-      "image": "../assets/news/2026-08-31/99a3d61f2da6fd04_base.jpg",
-      "image_local": "../assets/news/2026-08-31/99a3d61f2da6fd04_base.jpg"
+      "image": "../assets/news/2026-09-01/2107b346d0b6b754_base.jpg",
+      "image_local": "../assets/news/2026-09-01/2107b346d0b6b754_base.jpg"
     },
     {
       "title": "Strive Adds $143 Million in Bitcoin as Treasury Firms Pile Back In",
@@ -100,8 +114,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-07-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-07-gID_7.png"
       ],
-      "image": "../assets/news/2026-08-31/b8636b452e1d47cb_base.jpg",
-      "image_local": "../assets/news/2026-08-31/b8636b452e1d47cb_base.jpg"
+      "image": "../assets/news/2026-09-01/b8636b452e1d47cb_base.jpg",
+      "image_local": "../assets/news/2026-09-01/b8636b452e1d47cb_base.jpg"
     },
     {
       "title": "Kalshi lays down first lifetime ban for ex-member of Congress George Santos",
@@ -114,8 +128,8 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/7811376536bd7e0a18011d88543caf1418cf7f29-6000x4002.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-31/8793a5b8ddbbc30d_base.jpg",
-      "image_local": "../assets/news/2026-08-31/8793a5b8ddbbc30d_base.jpg"
+      "image": "../assets/news/2026-09-01/8793a5b8ddbbc30d_base.jpg",
+      "image_local": "../assets/news/2026-09-01/8793a5b8ddbbc30d_base.jpg"
     },
     {
       "title": "Ireland excludes crypto from new tax-advantaged investment accounts",
@@ -128,22 +142,22 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1CQVNKP1CBN6ADW12R42Z0B/crypto-ireland.jpg"
       ],
-      "image": "../assets/news/2026-08-31/8903d3cd3c963ab9_base.jpg",
-      "image_local": "../assets/news/2026-08-31/8903d3cd3c963ab9_base.jpg"
+      "image": "../assets/news/2026-09-01/8903d3cd3c963ab9_base.jpg",
+      "image_local": "../assets/news/2026-09-01/8903d3cd3c963ab9_base.jpg"
     },
     {
-      "title": "Why Bitcoin's $2B corporate treasuries are a ticking time bomb of hidden conditional supply",
-      "link": "https://cryptoslate.com/why-bitcoins-2b-corporate-treasuries-are-a-ticking-time-bomb-of-hidden-conditional-supply/",
-      "summary": "PowerCompute and USBC show how collars, options and secured loans can turn passive holdings into contractual obligations. The post Why Bitcoin’s $2B corporate treasuries are a ticking time bomb of hidden conditional supply appeared first on CryptoSlate.",
+      "title": "Phemex puts 82 tokens on notice over liquidity and project compliance concerns",
+      "link": "https://cryptoslate.com/phemex-puts-82-tokens-on-notice-over-liquidity-and-project-compliance-concerns/",
+      "summary": "Each market met at least one risk criterion, but Phemex did not disclose which issue applied to each pair. The post Phemex puts 82 tokens on notice over liquidity and project compliance concerns appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-31",
       "date_human": "Aug 31, 2026",
-      "pub_ts": 1788199827,
+      "pub_ts": 1788213011,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/bitcoin-options-trap.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/phemex-token-risk-review.jpg"
       ],
-      "image": "../assets/news/2026-08-31/f649068da4632b7b_base.jpg",
-      "image_local": "../assets/news/2026-08-31/f649068da4632b7b_base.jpg"
+      "image": "../assets/news/2026-09-01/5f9e2906f8909676_base.jpg",
+      "image_local": "../assets/news/2026-09-01/5f9e2906f8909676_base.jpg"
     },
     {
       "title": "George Santos Bet on Whether He'd Show Up to the State of the Union—Kalshi Just Banned Him for Life",
@@ -158,8 +172,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/06/george-santos-decrypt-style-gID_7.jpg@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/06/george-santos-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-08-31/fbc519cb72bf21e5_base.jpg",
-      "image_local": "../assets/news/2026-08-31/fbc519cb72bf21e5_base.jpg"
+      "image": "../assets/news/2026-09-01/fbc519cb72bf21e5_base.jpg",
+      "image_local": "../assets/news/2026-09-01/fbc519cb72bf21e5_base.jpg"
     },
     {
       "title": "NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm",
@@ -172,22 +186,8 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/903e318acd6dff33bc9b0083d0f98e3ea9edf92b-1420x916.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-08-31/d15e81523009ad7f_base.jpg",
-      "image_local": "../assets/news/2026-08-31/d15e81523009ad7f_base.jpg"
-    },
-    {
-      "title": "Webull expands crypto trading into Canada through Coinbase collaboration",
-      "link": "https://cointelegraph.com/news/webull-canada-crypto-trading-coinbase",
-      "summary": "The brokerage is adding digital assets alongside stocks, ETFs and options as Canadian crypto ownership rises and regulators move toward clearer industry rules.",
-      "source": "Cointelegraph",
-      "date": "2026-08-31",
-      "date_human": "Aug 31, 2026",
-      "pub_ts": 1788197299,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1C82GGTPW1R06193D045R8Q/canada-coin.jpg"
-      ],
-      "image": "../assets/news/2026-08-31/52fac02106e982d2_base.jpg",
-      "image_local": "../assets/news/2026-08-31/52fac02106e982d2_base.jpg"
+      "image": "../assets/news/2026-09-01/d15e81523009ad7f_base.jpg",
+      "image_local": "../assets/news/2026-09-01/d15e81523009ad7f_base.jpg"
     }
   ]
 }
