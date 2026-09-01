@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-01",
-  "generated_at_utc": "2026-09-01 04:05:16 UTC",
+  "generated_at_utc": "2026-09-01 10:05:26 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,32 +16,76 @@
   "count": 12,
   "items": [
     {
-      "title": "Thailand SEC proposes retail access to regulated overseas crypto derivatives",
-      "link": "https://cointelegraph.com/news/thailand-sec-retail-overseas-crypto-derivatives",
-      "summary": "Thailand’s SEC seeks comments on rules requiring retail-accessible overseas crypto derivatives to trade on qualifying, centrally cleared exchanges.",
+      "title": "Bitfinex Securities lists tokenized notes tied to Strategy, Metaplanet",
+      "link": "https://cointelegraph.com/news/bitfinex-tokenized-strategy-metaplanet-notes",
+      "summary": "Five equity-backed notes issued through Luxembourg’s ORO II fund will trade against dollars, USDT and Bitcoin for eligible non-US investors.",
       "source": "Cointelegraph",
       "date": "2026-09-01",
       "date_human": "Sep 1, 2026",
-      "pub_ts": 1788234540,
+      "pub_ts": 1788256800,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1DH1WEZ277YHH7XH1QMY4YC/regulations-thailand-crypto.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1E3FQ7QVW5EGFFBWY7YXEK7/bitfinex-s.png"
       ],
-      "image": "../assets/news/2026-09-01/6bb42f4e4867ad4f_base.jpg",
-      "image_local": "../assets/news/2026-09-01/6bb42f4e4867ad4f_base.jpg"
+      "image": "../assets/news/2026-09-01/611f18567a276d38_base.jpg",
+      "image_local": "../assets/news/2026-09-01/611f18567a276d38_base.jpg"
     },
     {
-      "title": "Strategy splits $603 million share sale between Bitcoin purchases and STRC support",
-      "link": "https://cryptoslate.com/strategy-splits-603-million-share-sale-between-bitcoin-purchases-and-strc-support/",
-      "summary": "One week of common-stock sales funded a $369.7 million Bitcoin purchase, $202.5 million of STRC buybacks and dividends, and a $30 million cash increase. The post Strategy splits $603 million share sale between Bitcoin purchases and STRC support appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-08-31",
-      "date_human": "Aug 31, 2026",
-      "pub_ts": 1788218442,
+      "title": "UK's National Crime Agency Freezes $13.6M of Premier League Money in Sorare Probe: Report",
+      "link": "https://decrypt.co/377006/uks-national-crime-agency-freezes-13-6m-of-premier-league-money-in-sorare-probe-report",
+      "summary": "The sum was the first payment under a $163 million deal with the Messi-backed fantasy card game, now facing a gambling prosecution.",
+      "source": "Decrypt",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788255987,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/strategy_standard_image_1280x720.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/10/soccer-football-decrypt-style-01-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/10/soccer-football-decrypt-style-01-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/soccer-football-decrypt-style-01-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-01/b6072fe4ff821494_base.jpg",
-      "image_local": "../assets/news/2026-09-01/b6072fe4ff821494_base.jpg"
+      "image": "../assets/news/2026-09-01/9df2567297b9681b_base.jpg",
+      "image_local": "../assets/news/2026-09-01/9df2567297b9681b_base.jpg"
+    },
+    {
+      "title": "Cronos validators erase transaction history to contain massive $75 million lending protocol exploit",
+      "link": "https://cryptoslate.com/cronos-restart-after-tectonic-exploit-chain-rollback/",
+      "summary": "The network-wide pause appears to have kept most affected assets on-chain, but users still lack a restart timetable or official accounting. The post Cronos validators erase transaction history to contain massive $75 million lending protocol exploit appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788252981,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/08/cronos-tectonic-exploit-halt.jpg"
+      ],
+      "image": "../assets/news/2026-09-01/d68eb86d972bf60c_base.jpg",
+      "image_local": "../assets/news/2026-09-01/d68eb86d972bf60c_base.jpg"
+    },
+    {
+      "title": "Live updates: Bitcoin ETFs resume buying as ether funds stretch streak to 11 days",
+      "link": "https://www.coindesk.com/business/2026/09/01/live-updates-bitcoin-etfs-resume-buying-as-ether-funds-stretch-streak-to-11-days",
+      "summary": "Live updates: Bitcoin ETFs resume buying as ether funds stretch streak to 11 days",
+      "source": "CoinDesk",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788251757,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/f627ff5d750ae9851c9b16e3e9e76e8f1b55a6ec-1402x776.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-01/e42e31ab3de5c625_base.jpg",
+      "image_local": "../assets/news/2026-09-01/e42e31ab3de5c625_base.jpg"
+    },
+    {
+      "title": "Singapore weighs recognizing some foreign-issued stablecoins",
+      "link": "https://cointelegraph.com/news/singapore-weighs-foreign-regulated-stablecoins-mas-framework",
+      "summary": "Singapore is considering allowing jointly issued cross-border stablecoins into its regulatory regime, revisiting its earlier decision to restrict the framework to domestic issuance.",
+      "source": "Cointelegraph",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788256511,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1E3MSKNNCKBC04B5EH6ZER3/sponsored-marina-bay-sand-singapore-light-water11.jpg"
+      ],
+      "image": "../assets/news/2026-09-01/29753074867c2395_base.jpg",
+      "image_local": "../assets/news/2026-09-01/29753074867c2395_base.jpg"
     },
     {
       "title": "As Public Fury Mounts, Texas Pulls the Plug on Flock Surveillance Funding",
@@ -60,46 +104,46 @@
       "image_local": "../assets/news/2026-09-01/2459454c5b3667de_base.jpg"
     },
     {
-      "title": "North Korean hackers are moving tens of millions on Hyperliquid as Trump pushes to onshore the crypto platform",
-      "link": "https://www.coindesk.com/business/2026/08/31/north-korean-hackers-are-moving-tens-of-millions-on-hyperliquid-as-trump-pushes-to-onshore-the-crypto-platform",
-      "summary": "North Korean hackers are moving tens of millions on Hyperliquid as Trump pushes to onshore the crypto platform",
-      "source": "CoinDesk",
-      "date": "2026-08-31",
-      "date_human": "Aug 31, 2026",
-      "pub_ts": 1788209320,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/c6906ffe314f6cc214b35551286f61a093e5f8fd-5760x3840.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-01/5cfb4346cbae6fb1_base.jpg",
-      "image_local": "../assets/news/2026-09-01/5cfb4346cbae6fb1_base.jpg"
-    },
-    {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-08-31",
-      "date_human": "Aug 31, 2026",
-      "pub_ts": 1788208320,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-09-01/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-09-01/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "Ontology halts mainnet transactions as technical team investigates potential security issue",
-      "link": "https://cryptoslate.com/ontology-halts-mainnet-transactions-as-technical-team-investigates-potential-security-issue/",
-      "summary": "The project said no incident or asset loss had been confirmed, while a public node remained at block 20,770,893 and no restart time was disclosed. The post Ontology halts mainnet transactions as technical team investigates potential security issue appeared first on CryptoSlate.",
+      "title": "How Saylor's $2 billion capital loop is quietly rewriting the rules of Bitcoin ownership",
+      "link": "https://cryptoslate.com/how-saylors-2-billion-capital-loop-is-quietly-rewriting-the-rules-of-bitcoin-ownership/",
+      "summary": "His essay preserves self-custody while legitimizing the layered claims that now finance Strategy’s balance sheet. The post How Saylor’s $2 billion capital loop is quietly rewriting the rules of Bitcoin ownership appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-08-31",
-      "date_human": "Aug 31, 2026",
-      "pub_ts": 1788216023,
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788245719,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/ontology-mainnet-red-light.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/strategy-bitcoin-finance-throne.jpg"
       ],
-      "image": "../assets/news/2026-09-01/2107b346d0b6b754_base.jpg",
-      "image_local": "../assets/news/2026-09-01/2107b346d0b6b754_base.jpg"
+      "image": "../assets/news/2026-09-01/470a619f7fc83ec8_base.jpg",
+      "image_local": "../assets/news/2026-09-01/470a619f7fc83ec8_base.jpg"
+    },
+    {
+      "title": "London Stock Exchange to work with Payward to bring biggest UK stocks onchain",
+      "link": "https://www.coindesk.com/markets/2026/09/01/london-stock-exchange-to-work-with-payward-to-bring-biggest-uk-stocks-onchain",
+      "summary": "London Stock Exchange to work with Payward to bring biggest UK stocks onchain",
+      "source": "CoinDesk",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788248956,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/e02406bce2b87ba004fa28bcfc12c3ae039a12c9-1200x675.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-01/952cc843eb638185_base.jpg",
+      "image_local": "../assets/news/2026-09-01/952cc843eb638185_base.jpg"
+    },
+    {
+      "title": "Trump Jr.-linked 1789 Capital leads Polymarket's $1B raise: Report",
+      "link": "https://cointelegraph.com/news/trump-jr-linked-fund-invest-300m-polymarket-1b-round",
+      "summary": "Donald Trump Jr.-linked 1789 Capital will reportedly lead a $1 billion investment round into Polymarket, which would value the platform at $21 billion, just below Kalshi’s $22 billion valuation.",
+      "source": "Cointelegraph",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788248833,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1DY16J8V7YX1BYDHMX0HB5A/hi-fungible-tokens-turn-monopoly-money-into-cryptocurrency-trump-1.jpg"
+      ],
+      "image": "../assets/news/2026-09-01/045b78ff7d270b4c_base.jpg",
+      "image_local": "../assets/news/2026-09-01/045b78ff7d270b4c_base.jpg"
     },
     {
       "title": "Strive Adds $143 Million in Bitcoin as Treasury Firms Pile Back In",
@@ -118,76 +162,32 @@
       "image_local": "../assets/news/2026-09-01/b8636b452e1d47cb_base.jpg"
     },
     {
-      "title": "Kalshi lays down first lifetime ban for ex-member of Congress George Santos",
-      "link": "https://www.coindesk.com/policy/2026/08/31/kalshi-lays-down-first-lifetime-ban-for-ex-member-of-congress-george-santos",
-      "summary": "Kalshi lays down first lifetime ban for ex-member of Congress George Santos",
-      "source": "CoinDesk",
-      "date": "2026-08-31",
-      "date_human": "Aug 31, 2026",
-      "pub_ts": 1788190394,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/7811376536bd7e0a18011d88543caf1418cf7f29-6000x4002.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-01/8793a5b8ddbbc30d_base.jpg",
-      "image_local": "../assets/news/2026-09-01/8793a5b8ddbbc30d_base.jpg"
-    },
-    {
-      "title": "Ireland excludes crypto from new tax-advantaged investment accounts",
-      "link": "https://cointelegraph.com/news/ireland-crypto-tax-advantaged-investment-accounts",
-      "summary": "Ireland’s planned investment accounts will offer tax benefits for stocks, bonds and ETFs, while excluding crypto and derivatives as higher-risk products.",
-      "source": "Cointelegraph",
-      "date": "2026-08-31",
-      "date_human": "Aug 31, 2026",
-      "pub_ts": 1788207925,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M1CQVNKP1CBN6ADW12R42Z0B/crypto-ireland.jpg"
-      ],
-      "image": "../assets/news/2026-09-01/8903d3cd3c963ab9_base.jpg",
-      "image_local": "../assets/news/2026-09-01/8903d3cd3c963ab9_base.jpg"
-    },
-    {
-      "title": "Phemex puts 82 tokens on notice over liquidity and project compliance concerns",
-      "link": "https://cryptoslate.com/phemex-puts-82-tokens-on-notice-over-liquidity-and-project-compliance-concerns/",
-      "summary": "Each market met at least one risk criterion, but Phemex did not disclose which issue applied to each pair. The post Phemex puts 82 tokens on notice over liquidity and project compliance concerns appeared first on CryptoSlate.",
+      "title": "Strategy splits $603 million share sale between Bitcoin purchases and STRC support",
+      "link": "https://cryptoslate.com/strategy-splits-603-million-share-sale-between-bitcoin-purchases-and-strc-support/",
+      "summary": "One week of common-stock sales funded a $369.7 million Bitcoin purchase, $202.5 million of STRC buybacks and dividends, and a $30 million cash increase. The post Strategy splits $603 million share sale between Bitcoin purchases and STRC support appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-08-31",
       "date_human": "Aug 31, 2026",
-      "pub_ts": 1788213011,
+      "pub_ts": 1788218442,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/08/phemex-token-risk-review.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/08/strategy_standard_image_1280x720.jpg"
       ],
-      "image": "../assets/news/2026-09-01/5f9e2906f8909676_base.jpg",
-      "image_local": "../assets/news/2026-09-01/5f9e2906f8909676_base.jpg"
+      "image": "../assets/news/2026-09-01/b6072fe4ff821494_base.jpg",
+      "image_local": "../assets/news/2026-09-01/b6072fe4ff821494_base.jpg"
     },
     {
-      "title": "George Santos Bet on Whether He'd Show Up to the State of the Union—Kalshi Just Banned Him for Life",
-      "link": "https://decrypt.co/376985/george-santos-kalshi-lifetime-ban",
-      "summary": "The exchange found the former congressman placed large trades on his own State of the Union attendance, then made false statements to move prices, profiting nearly $18,000.",
-      "source": "Decrypt",
-      "date": "2026-08-31",
-      "date_human": "Aug 31, 2026",
-      "pub_ts": 1788207363,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/06/george-santos-decrypt-style-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/06/george-santos-decrypt-style-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/06/george-santos-decrypt-style-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-09-01/fbc519cb72bf21e5_base.jpg",
-      "image_local": "../assets/news/2026-09-01/fbc519cb72bf21e5_base.jpg"
-    },
-    {
-      "title": "NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm",
-      "link": "https://www.coindesk.com/business/2026/08/31/nyse-owner-ice-taps-tzero-for-tokenized-securities-push-takes-stake-in-firm",
-      "summary": "NYSE owner ICE taps tZERO for tokenized securities push, takes stake in firm",
+      "title": "OpenAI's ‘Trust Us' TIME cover raises an old warning for AI bulls",
+      "link": "https://www.coindesk.com/markets/2026/09/01/time-is-putting-openai-s-founders-on-its-cover-paul-montgomery-s-contrary-indicator-says-hello",
+      "summary": "OpenAI's ‘Trust Us' TIME cover raises an old warning for AI bulls",
       "source": "CoinDesk",
-      "date": "2026-08-31",
-      "date_human": "Aug 31, 2026",
-      "pub_ts": 1788187466,
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788245530,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/903e318acd6dff33bc9b0083d0f98e3ea9edf92b-1420x916.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/24e158dc172914f8d1d6b9b4165e6ca991594da0-4979x2801.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-01/d15e81523009ad7f_base.jpg",
-      "image_local": "../assets/news/2026-09-01/d15e81523009ad7f_base.jpg"
+      "image": "../assets/news/2026-09-01/819e2bcfd4ef7330_base.jpg",
+      "image_local": "../assets/news/2026-09-01/819e2bcfd4ef7330_base.jpg"
     }
   ]
 }
