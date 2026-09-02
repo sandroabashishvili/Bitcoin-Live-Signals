@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-02",
-  "generated_at_utc": "2026-09-02 04:05:28 UTC",
+  "generated_at_utc": "2026-09-02 10:05:29 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,32 +16,90 @@
   "count": 12,
   "items": [
     {
-      "title": "$2.7 million poured into Robinhood Chain apps in one day, but it barely touches corporate revenue",
-      "link": "https://cryptoslate.com/robinhood-chains-2-7-million-app-day-says-little-about-robinhoods-actual-take/",
-      "summary": "Apps captured the headline revenue while Robinhood’s disclosed fee split offers no bridge to its corporate accounts. The post $2.7 million poured into Robinhood Chain apps in one day, but it barely touches corporate revenue appeared first on CryptoSlate.",
+      "title": "Crypto industry urges SEC to avoid blanket novel ETF restrictions",
+      "link": "https://cointelegraph.com/news/crypto-industry-sec-novel-etf-restrictions",
+      "summary": "Grayscale, a16z, and the CCI asked the SEC to preserve existing classification rules and avoid treating novel exchange-traded products as a single category, while proposing different routes to clearer and faster reviews.",
+      "source": "Cointelegraph",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788342529,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1GP20DVTRFKRWTMYV78JG6F/hi-a-beginners-guide-on-launching-a-security-token-offering-copy.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/d7a09d7858919d06_base.jpg",
+      "image_local": "../assets/news/2026-09-02/d7a09d7858919d06_base.jpg"
+    },
+    {
+      "title": "Cardano clears key voting thresholds for constitutional committee renewal by 0.18% margin",
+      "link": "https://cryptoslate.com/cardano-clears-key-voting-thresholds-for-constitutional-committee-renewal-by-0-18-margin/",
+      "summary": "The pre-boundary vote shows how non-participating SPO stake can weigh against renewal even without an explicit No. The post Cardano clears key voting thresholds for constitutional committee renewal by 0.18% margin appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788320445,
+      "pub_ts": 1788341433,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/robinhood-revenue-piggy-bank.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/cardano-governance-bridge.jpg"
       ],
-      "image": "../assets/news/2026-09-02/b4cda09eb0fdd734_base.jpg",
-      "image_local": "../assets/news/2026-09-02/b4cda09eb0fdd734_base.jpg"
+      "image": "../assets/news/2026-09-02/7a7ee1f5da5c57ba_base.jpg",
+      "image_local": "../assets/news/2026-09-02/7a7ee1f5da5c57ba_base.jpg"
     },
     {
-      "title": "SEC proposes transfer agent rule, sets event to figure out round-the-clock U.S. trading",
-      "link": "https://www.coindesk.com/policy/2026/09/01/sec-proposes-transfer-agent-rule-sets-event-to-figure-out-round-the-clock-u-s-trading",
-      "summary": "SEC proposes transfer agent rule, sets event to figure out round-the-clock U.S. trading",
-      "source": "CoinDesk",
-      "date": "2026-09-01",
-      "date_human": "Sep 1, 2026",
-      "pub_ts": 1788306946,
+      "title": "Kalshi Suspends House Candidate Laurie Buckhout for Betting on Herself",
+      "link": "https://decrypt.co/377142/kalshi-suspends-house-candidate-laurie-buckhout-for-betting-on-herself",
+      "summary": "The North Carolina Republican bought less than $1,000 of contracts on her own race and drew a three-year ban.",
+      "source": "Decrypt",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788339982,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/f5e51d142f4aa8a9a66d07435fa821e33f12872b-4858x2733.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt_style_kalshi-02-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt_style_kalshi-02-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/decrypt_style_kalshi-02-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-02/e1c4fa03ed9c9943_base.jpg",
-      "image_local": "../assets/news/2026-09-02/e1c4fa03ed9c9943_base.jpg"
+      "image": "../assets/news/2026-09-02/9dab8e749338709a_base.jpg",
+      "image_local": "../assets/news/2026-09-02/9dab8e749338709a_base.jpg"
+    },
+    {
+      "title": "Live updates: BlackRock's IBIT drives $236 million bitcoin ETF outflow",
+      "link": "https://www.coindesk.com/business/2026/09/02/live-updates-blackrock-s-ibit-drives-usd236-million-bitcoin-etf-outflow",
+      "summary": "Live updates: BlackRock's IBIT drives $236 million bitcoin ETF outflow",
+      "source": "CoinDesk",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788337860,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/2e7f7708703aa832a09975915095e15a92b84cc6-1394x852.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-02/3530f5ed4ec9fd9f_base.jpg",
+      "image_local": "../assets/news/2026-09-02/3530f5ed4ec9fd9f_base.jpg"
+    },
+    {
+      "title": "Bitcoin ETFs notch best month of 2026 as BTC gains 25% in August",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-best-month-2026-btc-up-25-august",
+      "summary": "US spot Bitcoin ETFs reduced their year-to-date net outflows by 66% as Bitcoin gained about 25% in August, while Ether ETFs turned positive YTD at $732 million and XRP ETFs reached $502 million.",
+      "source": "Cointelegraph",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788335983,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1GE6N92Z9CKPGGD4FTE0QQP/hi-bitcoin-etf-is-now-superior-over-dollar-3.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/60d4efba66a3a0bf_base.jpg",
+      "image_local": "../assets/news/2026-09-02/60d4efba66a3a0bf_base.jpg"
+    },
+    {
+      "title": "DeFi Technologies misses Nasdaq $1 deadline as DEFT faces delisting review",
+      "link": "https://cryptoslate.com/defi-technologies-misses-nasdaq-1-deadline-as-deft-faces-delisting-review/",
+      "summary": "DEFT missed the required closing-price streak but could qualify for another 180 days as its consolidation option remains unused. The post DeFi Technologies misses Nasdaq $1 deadline as DEFT faces delisting review appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788337213,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/deft-nasdaq-cliff.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/459d21f8092e9adb_base.jpg",
+      "image_local": "../assets/news/2026-09-02/459d21f8092e9adb_base.jpg"
     },
     {
       "title": "OpenClaw 2.0 Is Here: What Changed, Why It Took Two Months, and How It Stacks Up Against Hermes",
@@ -60,46 +118,46 @@
       "image_local": "../assets/news/2026-09-02/ffcde60a28d99ec1_base.jpg"
     },
     {
-      "title": "Crypto-backed PAC scales back ad spending in Massachusetts primary",
-      "link": "https://cointelegraph.com/news/crypto-pac-protect-progress-spending-massachusetts-primary",
-      "summary": "The $189,000 in media spending to support Representative Jake Auchincloss marked Fairshake’s latest attempt to influence the 2026 elections with funds from the crypto industry.",
-      "source": "Cointelegraph",
-      "date": "2026-09-01",
-      "date_human": "Sep 1, 2026",
-      "pub_ts": 1788297927,
+      "title": "XRP ETFs pull in $170 million over eleven days. Goldman tops institutional holders",
+      "link": "https://www.coindesk.com/markets/2026/09/02/xrp-etfs-pull-in-usd160-million-over-nine-days-as-goldman-tops-institutional-holders",
+      "summary": "XRP ETFs pull in $170 million over eleven days. Goldman tops institutional holders",
+      "source": "CoinDesk",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788333603,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1F9CHX26RTFEYCMMVC55WQZ/hi-pacs-in-crypto-and-blockchain2.jpg"
+        "https://cdn.sanity.io/images/s3y3vcno/production/93f3474dccf04b68a7729dea48459237f95b7758-1400x766.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-02/ccf41b7f036ba0ad_base.jpg",
-      "image_local": "../assets/news/2026-09-02/ccf41b7f036ba0ad_base.jpg"
+      "image": "../assets/news/2026-09-02/0d30757d9a84d148_base.jpg",
+      "image_local": "../assets/news/2026-09-02/0d30757d9a84d148_base.jpg"
     },
     {
-      "title": "Leaked compliance records shatter anonymity of 291 crypto users by matching names directly to wallet activity",
-      "link": "https://cryptoslate.com/leaked-compliance-records-shatter-anonymity-of-291-crypto-users-by-matching-names-directly-to-wallet-activity/",
-      "summary": "Copied support records exposed varying combinations of identity, location and compliance data, while private keys and customer funds remained safe. The post Leaked compliance records shatter anonymity of 291 crypto users by matching names directly to wallet activity appeared first on CryptoSlate.",
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788328446,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-02/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Deribit already holds 96.6% of Coinbase's derivatives open interest ahead of Sept. 9 migration",
+      "link": "https://cryptoslate.com/deribit-already-holds-96-6-of-coinbases-derivatives-open-interest-ahead-of-sept-9-migration/",
+      "summary": "The Sept. 1 snapshot shows the Sept. 9 cutover moves a far smaller International Exchange book onto the dominant offshore venue. The post Deribit already holds 96.6% of Coinbase’s derivatives open interest ahead of Sept. 9 migration appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788316259,
+      "pub_ts": 1788333029,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-shadow-phishing-risk.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/coinbase_deribit_standard_image.jpg"
       ],
-      "image": "../assets/news/2026-09-02/528cb2d86ab4d4f7_base.jpg",
-      "image_local": "../assets/news/2026-09-02/528cb2d86ab4d4f7_base.jpg"
-    },
-    {
-      "title": "Citi, Goldman, other global banks and asset managers team up on stablecoin venture",
-      "link": "https://www.coindesk.com/business/2026/09/01/citi-goldman-other-global-banks-and-asset-managers-team-up-on-stablecoin-venture",
-      "summary": "Citi, Goldman, other global banks and asset managers team up on stablecoin venture",
-      "source": "CoinDesk",
-      "date": "2026-09-01",
-      "date_human": "Sep 1, 2026",
-      "pub_ts": 1788276987,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/b88cc3bb0be5078f6fee0948dd9408a814ffa0c2-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-02/090ad671c65e3337_base.jpg",
-      "image_local": "../assets/news/2026-09-02/090ad671c65e3337_base.jpg"
+      "image": "../assets/news/2026-09-02/529a45c4cc4e4ebb_base.jpg",
+      "image_local": "../assets/news/2026-09-02/529a45c4cc4e4ebb_base.jpg"
     },
     {
       "title": "Nvidia Invests $3.5 Billion in MediaTek to Expand Beyond GPUs",
@@ -118,76 +176,18 @@
       "image_local": "../assets/news/2026-09-02/1c3957ddb2d75714_base.jpg"
     },
     {
-      "title": "Binance expands TradFi push with options on 1,000 US stocks, ETFs",
-      "link": "https://cointelegraph.com/news/binance-adds-options-on-1000-us-stocks-and-etfs-in-tradfi-expansion",
-      "summary": "The launch gives eligible non-US users access to physically settled options on more than 1,000 US stocks and ETFs through a single Binance account.",
-      "source": "Cointelegraph",
-      "date": "2026-09-01",
-      "date_human": "Sep 1, 2026",
-      "pub_ts": 1788295349,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1FC2WR1JDBZ2YXX51TY5S5E/man-office-screen-computer02.png"
-      ],
-      "image": "../assets/news/2026-09-02/7c2c2789ef7c8cc0_base.jpg",
-      "image_local": "../assets/news/2026-09-02/7c2c2789ef7c8cc0_base.jpg"
-    },
-    {
-      "title": "Circle processed $32 trillion in USDC transfers, yet 95% of its revenue relies entirely on interest rates",
-      "link": "https://cryptoslate.com/circle-processed-32-trillion-in-usdc-transfers-yet-95-of-its-revenue-relies-entirely-on-interest-rates/",
-      "summary": "Coin Metrics found market plumbing drove much of the volume while reserve income supplied 95.2% of Q2 revenue. The post Circle processed $32 trillion in USDC transfers, yet 95% of its revenue relies entirely on interest rates appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
+      "title": "A China indicator that supports risk-taking in stocks and bitcoin is flashing red",
+      "link": "https://www.coindesk.com/markets/2026/09/02/a-china-indicator-that-greases-risk-taking-in-stocks-and-bitcoin-is-flashing-red",
+      "summary": "A China indicator that supports risk-taking in stocks and bitcoin is flashing red",
+      "source": "CoinDesk",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788309308,
+      "pub_ts": 1788332002,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/usdc-flow-reserve-tank.jpg"
+        "https://cdn.sanity.io/images/s3y3vcno/production/e0bd1a5c4aa4165f5e1f072ecae009bea2cf1aea-1080x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-02/52918502b8e4c593_base.jpg",
-      "image_local": "../assets/news/2026-09-02/52918502b8e4c593_base.jpg"
-    },
-    {
-      "title": "Robinhood's new crypto network is printing cash, and it's sending Arbitrum's token soaring",
-      "link": "https://www.coindesk.com/markets/2026/09/01/robinhood-s-new-crypto-network-is-printing-cash-and-it-s-sending-arbitrum-s-token-soaring",
-      "summary": "Robinhood's new crypto network is printing cash, and it's sending Arbitrum's token soaring",
-      "source": "CoinDesk",
-      "date": "2026-09-01",
-      "date_human": "Sep 1, 2026",
-      "pub_ts": 1788276509,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/638d03a6a077f489fda3be37b30b45b37f2273a3-1920x1050.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-02/0f3720c6179efa8e_base.jpg",
-      "image_local": "../assets/news/2026-09-02/0f3720c6179efa8e_base.jpg"
-    },
-    {
-      "title": "Robinhood Chain DEX Volume Jumps to $1.6 billion",
-      "link": "https://decrypt.co/377126/robinhood-chain-dex-volume-jumps",
-      "summary": "Trading on the Ethereum Layer 2 climbed 61% in a matter of days as DeFi deposits and stablecoin holdings approached $800 million.",
-      "source": "Decrypt",
-      "date": "2026-09-01",
-      "date_human": "Sep 1, 2026",
-      "pub_ts": 1788296464,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-02/9d5ed1f57d8471a2_base.jpg",
-      "image_local": "../assets/news/2026-09-02/9d5ed1f57d8471a2_base.jpg"
-    },
-    {
-      "title": "UK crime agency froze $13.5M amid probe into Premier League crypto sponsor",
-      "link": "https://cointelegraph.com/news/uk-crime-agency-froze-premier-league-crypto-partner-sorare",
-      "summary": "UK authorities froze $13.5 million in cash following a January 2025 order from the Westminster Magistrates’ Court as part of an investigation into Sorare.",
-      "source": "Cointelegraph",
-      "date": "2026-09-01",
-      "date_human": "Sep 1, 2026",
-      "pub_ts": 1788293652,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1F30K3TFNEHQA4RAGQF4Y0F/official-clerk-document-screen-regulation-gambling.jpg"
-      ],
-      "image": "../assets/news/2026-09-02/b5376334cde5ec4a_base.jpg",
-      "image_local": "../assets/news/2026-09-02/b5376334cde5ec4a_base.jpg"
+      "image": "../assets/news/2026-09-02/8934a869531e5bf7_base.jpg",
+      "image_local": "../assets/news/2026-09-02/8934a869531e5bf7_base.jpg"
     }
   ]
 }
