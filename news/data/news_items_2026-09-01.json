@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-01",
-  "generated_at_utc": "2026-09-01 16:05:21 UTC",
+  "generated_at_utc": "2026-09-01 22:05:29 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,178 +16,178 @@
   "count": 12,
   "items": [
     {
-      "title": "Strategy turns MSCI's own SEC words against its $24 billion MSTR threat",
-      "link": "https://cryptoslate.com/strategy-turns-mscis-own-sec-words-against-its-24-billion-mstr-threat/",
-      "summary": "Strategy has challenged MSCI's proposed “non-operating company” screen by tying it to a regulatory argument MSCI made four years ago in a letter shared on Aug. 31. The Bitcoin treasury company says the new methodology requires MSCI to judge whether Bitcoin belongs inside an operating business. That puts MSCI's 2022 defense to the Securities and […] The post Strategy turns MSCI’s own SEC words against its $24 billion MSTR threat appeared first on CryptoSlate.",
+      "title": "A validator reward failure on Core DAO triggers exchange transfer blocks and leaves token issuance in question",
+      "link": "https://cryptoslate.com/a-validator-reward-failure-on-core-dao-triggers-exchange-transfer-blocks-and-leaves-token-issuance-in-question/",
+      "summary": "Coinbase paused CORE sends and receives while LBank suspended deposits, but Core has not quantified the excess rewards. The post A validator reward failure on Core DAO triggers exchange transfer blocks and leaves token issuance in question appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-01",
       "date_human": "Sep 1, 2026",
-      "pub_ts": 1788277855,
+      "pub_ts": 1788298527,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/sec-bitcoin-tug-war.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/core-validator-reward-overflow.jpg"
       ],
-      "image": "../assets/news/2026-09-01/ed798977ff2579d4_base.jpg",
-      "image_local": "../assets/news/2026-09-01/ed798977ff2579d4_base.jpg"
+      "image": "../assets/news/2026-09-01/5e89986a155c7d62_base.jpg",
+      "image_local": "../assets/news/2026-09-01/5e89986a155c7d62_base.jpg"
     },
     {
-      "title": "Bitcoin stays flat as global bond bear market rages on, pushing JGB to high",
-      "link": "https://cointelegraph.com/markets/bitcoin-remains-flat-as-global-bond-bear-market-rages-on",
-      "summary": "Global bond yields hit multi-decade highs today as Japan’s 10-year JGB yield reached a 30-year peak, keeping Bitcoin steady near $78,000.",
-      "source": "Cointelegraph",
-      "date": "2026-09-01",
-      "date_human": "Sep 1, 2026",
-      "pub_ts": 1788276840,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1ERT8K3Y6NFNXZSMH683SYG/hi-japan-issue-bonds-on-blockchain-how-significant-is-this-2.jpg"
-      ],
-      "image": "../assets/news/2026-09-01/1aeaf9dc5073a925_base.jpg",
-      "image_local": "../assets/news/2026-09-01/1aeaf9dc5073a925_base.jpg"
-    },
-    {
-      "title": "Gal Gadot Defends AI Use in Bitcoin Film: 'Work With It or Be Out of the Game'",
-      "link": "https://decrypt.co/377032/gal-gadot-defends-ai-use-in-bitcoin-film-work-with-it-or-be-out-of-the-game",
-      "summary": "The actor’s lawyers spent six months negotiating the contract for “Bitcoin: Killing Satoshi” in order to “protect” her performance.",
+      "title": "Nvidia Invests $3.5 Billion in MediaTek to Expand Beyond GPUs",
+      "link": "https://decrypt.co/377128/nvidia-invests-3-5-billion-mediatek",
+      "summary": "The deal, part of MediaTek's record $3.9 billion bond offering, ties Nvidia's chip ecosystem to a Taiwanese rival building its own AI accelerator business.",
       "source": "Decrypt",
       "date": "2026-09-01",
       "date_human": "Sep 1, 2026",
-      "pub_ts": 1788273595,
+      "pub_ts": 1788298264,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/09/gal-gadot-decrypt-style-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/gal-gadot-decrypt-style-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/gal-gadot-decrypt-style-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/07/nvidia-logo-decrypt-style-02-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/07/nvidia-logo-decrypt-style-02-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/nvidia-logo-decrypt-style-02-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-01/7a8f581afc59f309_base.jpg",
-      "image_local": "../assets/news/2026-09-01/7a8f581afc59f309_base.jpg"
+      "image": "../assets/news/2026-09-01/1c3957ddb2d75714_base.jpg",
+      "image_local": "../assets/news/2026-09-01/1c3957ddb2d75714_base.jpg"
     },
     {
-      "title": "Firelight raises $8 million, expands beyond XRP as it aims to make DeFi less scary for fintechs",
-      "link": "https://www.coindesk.com/business/2026/08/31/firelight-raises-usd8-million-expands-beyond-xrp-as-it-aims-to-make-defi-less-scary-for-fintechs",
-      "summary": "Firelight raises $8 million, expands beyond XRP as it aims to make DeFi less scary for fintechs",
+      "title": "Crypto-backed PAC scales back ad spending in Massachusetts primary",
+      "link": "https://cointelegraph.com/news/crypto-pac-protect-progress-spending-massachusetts-primary",
+      "summary": "The $189,000 in media spending to support Representative Jake Auchincloss marked Fairshake’s latest attempt to influence the 2026 elections with funds from the crypto industry.",
+      "source": "Cointelegraph",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788297927,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1F9CHX26RTFEYCMMVC55WQZ/hi-pacs-in-crypto-and-blockchain2.jpg"
+      ],
+      "image": "../assets/news/2026-09-01/ccf41b7f036ba0ad_base.jpg",
+      "image_local": "../assets/news/2026-09-01/ccf41b7f036ba0ad_base.jpg"
+    },
+    {
+      "title": "Citi, Goldman, other global banks and asset managers team up on stablecoin venture",
+      "link": "https://www.coindesk.com/business/2026/09/01/citi-goldman-other-global-banks-and-asset-managers-team-up-on-stablecoin-venture",
+      "summary": "Citi, Goldman, other global banks and asset managers team up on stablecoin venture",
       "source": "CoinDesk",
       "date": "2026-09-01",
       "date_human": "Sep 1, 2026",
-      "pub_ts": 1788271004,
+      "pub_ts": 1788276987,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/88b0247a20e283b64794175f63ff7a428b202fc4-1674x974.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/b88cc3bb0be5078f6fee0948dd9408a814ffa0c2-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-01/a69b46fe739c1532_base.jpg",
-      "image_local": "../assets/news/2026-09-01/a69b46fe739c1532_base.jpg"
+      "image": "../assets/news/2026-09-01/090ad671c65e3337_base.jpg",
+      "image_local": "../assets/news/2026-09-01/090ad671c65e3337_base.jpg"
     },
     {
-      "title": "2 Trillion Tokens in 7 Days: B.AI Sparks Developer Frenzy With Accessible Compute",
-      "link": "https://cryptoslate.com/2-trillion-tokens-in-7-days-b-ai-sparks-developer-frenzy-with-accessible-compute/",
-      "summary": "On August 24, next-gen AI infrastructure platform B.AI hit a major milestone: cumulative token throughput across its sitewide free-access campaign officially crossed the 2 trillion threshold. The record-breaking run follows a series of aggressive, developer-first plays that have turned heads across the industry. While rising prices from leading model providers have sparked cost anxiety across […] The post 2 Trillion Tokens in 7 Days: B.AI Sparks Developer Frenzy With Accessible Compute appeared first on CryptoSlate.",
+      "title": "How recovery of 61 BTC unlocked a potential $432M treasure hunt for early Bitcoin users",
+      "link": "https://cryptoslate.com/how-61-recovered-btc-unlocked-a-potential-432m-treasure-hunt-for-early-bitcoin-users/",
+      "summary": "CEL Solicitors says it has traced more than 5,500 BTC that it believes belong to former users of Intersango, an early Bitcoin exchange that disappeared more than a decade ago. At Bitcoin’s current price near $78,824, those coins carry a value of roughly $433.5 million. One former UK customer has already recovered 61 BTC from […] The post How recovery of 61 BTC unlocked a potential $432M treasure hunt for early Bitcoin users appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-01",
       "date_human": "Sep 1, 2026",
-      "pub_ts": 1788275403,
+      "pub_ts": 1788294359,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bai-cover.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-claim-gateway.jpg"
       ],
-      "image": "../assets/news/2026-09-01/6d9e4b201901264b_base.jpg",
-      "image_local": "../assets/news/2026-09-01/6d9e4b201901264b_base.jpg"
+      "image": "../assets/news/2026-09-01/e805c66eb369d052_base.jpg",
+      "image_local": "../assets/news/2026-09-01/e805c66eb369d052_base.jpg"
     },
     {
-      "title": "Fake Claude desktop app spreads crypto-stealing malware",
-      "link": "https://cointelegraph.com/news/fake-claude-desktop-app-spreads-crypto-stealing-malware",
-      "summary": "RevStealer targets more than 50 crypto wallets alongside browser passwords, cookies, messaging data and selected documents.",
-      "source": "Cointelegraph",
-      "date": "2026-09-01",
-      "date_human": "Sep 1, 2026",
-      "pub_ts": 1788271200,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1EK7VS1ZRRC1VAJANKBB54F/bug-error-hack-red-mistake-malwire-1.jpg"
-      ],
-      "image": "../assets/news/2026-09-01/1d49f4f4434e26c0_base.jpg",
-      "image_local": "../assets/news/2026-09-01/1d49f4f4434e26c0_base.jpg"
-    },
-    {
-      "title": "Morning Minute: Saylor's Back Buying Bitcoin",
-      "link": "https://decrypt.co/377014/morning-minute-saylors-back-buying-bitcoin",
-      "summary": "Strategy somehow threaded the needle of buying Bitcoin and STRC while also raising cash. Now how will the market respond?",
+      "title": "Robinhood Chain DEX Volume Jumps to $1.6 billion",
+      "link": "https://decrypt.co/377126/robinhood-chain-dex-volume-jumps",
+      "summary": "Trading on the Ethereum Layer 2 climbed 61% in a matter of days as DeFi deposits and stablecoin holdings approached $800 million.",
       "source": "Decrypt",
       "date": "2026-09-01",
       "date_human": "Sep 1, 2026",
-      "pub_ts": 1788265283,
+      "pub_ts": 1788296464,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/strategy-logo-x-twitter-2-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/strategy-logo-x-twitter-2-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/strategy-logo-x-twitter-2-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-01/6dc809eaaebc4d9a_base.jpg",
-      "image_local": "../assets/news/2026-09-01/6dc809eaaebc4d9a_base.jpg"
+      "image": "../assets/news/2026-09-01/9d5ed1f57d8471a2_base.jpg",
+      "image_local": "../assets/news/2026-09-01/9d5ed1f57d8471a2_base.jpg"
     },
     {
-      "title": "Bitcoin enters ‘Rektember' as rate-hike risk combines with seasonality to threaten rally",
-      "link": "https://www.coindesk.com/markets/2026/09/01/bitcoin-enters-rektember-as-rate-hike-risks-threaten-its-august-rally",
-      "summary": "Bitcoin enters ‘Rektember' as rate-hike risk combines with seasonality to threaten rally",
+      "title": "Binance expands TradFi push with options on 1,000 US stocks, ETFs",
+      "link": "https://cointelegraph.com/news/binance-adds-options-on-1000-us-stocks-and-etfs-in-tradfi-expansion",
+      "summary": "The launch gives eligible non-US users access to physically settled options on more than 1,000 US stocks and ETFs through a single Binance account.",
+      "source": "Cointelegraph",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788295349,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1FC2WR1JDBZ2YXX51TY5S5E/man-office-screen-computer02.png"
+      ],
+      "image": "../assets/news/2026-09-01/7c2c2789ef7c8cc0_base.jpg",
+      "image_local": "../assets/news/2026-09-01/7c2c2789ef7c8cc0_base.jpg"
+    },
+    {
+      "title": "Robinhood's new crypto network is printing cash, and it's sending Arbitrum's token soaring",
+      "link": "https://www.coindesk.com/markets/2026/09/01/robinhood-s-new-crypto-network-is-printing-cash-and-it-s-sending-arbitrum-s-token-soaring",
+      "summary": "Robinhood's new crypto network is printing cash, and it's sending Arbitrum's token soaring",
       "source": "CoinDesk",
       "date": "2026-09-01",
       "date_human": "Sep 1, 2026",
-      "pub_ts": 1788270926,
+      "pub_ts": 1788276509,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/4e5448765db1f69c5f0ecf3ade14cd0e458f28f6-1362x868.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/638d03a6a077f489fda3be37b30b45b37f2273a3-1920x1050.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-01/f9f358e93c9dcc44_base.jpg",
-      "image_local": "../assets/news/2026-09-01/f9f358e93c9dcc44_base.jpg"
+      "image": "../assets/news/2026-09-01/0f3720c6179efa8e_base.jpg",
+      "image_local": "../assets/news/2026-09-01/0f3720c6179efa8e_base.jpg"
     },
     {
-      "title": "Cross-chain oracle compromise triggers liquidations and frozen vaults across multiple DeFi networks",
-      "link": "https://cryptoslate.com/cross-chain-oracle-compromise-triggers-liquidations-and-frozen-vaults-across-multiple-defi-networks/",
-      "summary": "Full Sail confirmed vault losses, Virtue reported 47 liquidations and Volo paused withdrawals while Sui and IOTA remained online. The post Cross-chain oracle compromise triggers liquidations and frozen vaults across multiple DeFi networks appeared first on CryptoSlate.",
+      "title": "OpenAI update shows new safeguards would have cut off 700 rogue AI agent swam 24 hours faster",
+      "link": "https://cryptoslate.com/openai-update-shows-new-safeguards-would-have-cut-off-700-rogue-ai-agent-swam-24-hours-faster/",
+      "summary": "New postmortems estimate about 700 agents joined the intrusion, while OpenAI’s largest planned frontier RL run remains on hold. The post OpenAI update shows new safeguards would have cut off 700 rogue AI agent swam 24 hours faster appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-01",
       "date_human": "Sep 1, 2026",
-      "pub_ts": 1788273015,
+      "pub_ts": 1788291021,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/switchboard-oracle-floodgate-crisis.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/openai-agent-vault-breach.jpg"
       ],
-      "image": "../assets/news/2026-09-01/a4424ba96356cf14_base.jpg",
-      "image_local": "../assets/news/2026-09-01/a4424ba96356cf14_base.jpg"
+      "image": "../assets/news/2026-09-01/3fc13c890d2c5022_base.jpg",
+      "image_local": "../assets/news/2026-09-01/3fc13c890d2c5022_base.jpg"
     },
     {
-      "title": "Does the Bitcoin rally mean we haven't wasted our lives in crypto?",
-      "link": "https://cointelegraph.com/magazine/does-bitcoins-rally-mean-we-havent-wasted-our-lives-in-crypto",
-      "summary": "Crypto is showing signs of life again, but its biggest wins look different from what early believers imagined. After a decade of building, has it all been worth it?",
-      "source": "Cointelegraph",
-      "date": "2026-09-01",
-      "date_human": "Sep 1, 2026",
-      "pub_ts": 1788269400,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/08/01M147DZTCHD31BVRCJN6E980E/magazinedoes-paper-bitcoin-and-derivatives-mean-there-is-an-unlimited-supply.jpg"
-      ],
-      "image": "../assets/news/2026-09-01/78dc10f5cee3152e_base.jpg",
-      "image_local": "../assets/news/2026-09-01/78dc10f5cee3152e_base.jpg"
-    },
-    {
-      "title": "South Korea Arrests Four Over Crypto Payments to Syrian Terror Group",
-      "link": "https://decrypt.co/377015/south-korea-arrests-four-over-crypto-payments-to-syrian-terror-group",
-      "summary": "Police say the ringleader also took crypto from the group and sent back 11 used cars and two excavators, a first for Korean investigators.",
+      "title": "What Is 'Red September'? Bitcoin's Curse, and Why Wall Street Has the Same One",
+      "link": "https://decrypt.co/377100/what-is-red-september-bitcoin-curse",
+      "summary": "Bitcoin has lost ground in eight of the last 13 Septembers. The stock market's had the same problem since 1928. Here's the case for the curse, what broke it last year, and what's coming in the next round.",
       "source": "Decrypt",
       "date": "2026-09-01",
       "date_human": "Sep 1, 2026",
-      "pub_ts": 1788264984,
+      "pub_ts": 1788294665,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-27-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-01/bb1a6a4241052cd0_base.jpg",
-      "image_local": "../assets/news/2026-09-01/bb1a6a4241052cd0_base.jpg"
+      "image": "../assets/news/2026-09-01/5e6c13c4ed216938_base.jpg",
+      "image_local": "../assets/news/2026-09-01/5e6c13c4ed216938_base.jpg"
     },
     {
-      "title": "Ethena pushes stablecoins into everyday banking with high-yield savings, cards and payments",
-      "link": "https://www.coindesk.com/business/2026/09/01/ethena-pushes-stablecoins-into-everyday-banking-with-high-yield-savings-cards-and-payments",
-      "summary": "Ethena pushes stablecoins into everyday banking with high-yield savings, cards and payments",
+      "title": "UK crime agency froze $13.5M amid probe into Premier League crypto sponsor",
+      "link": "https://cointelegraph.com/news/uk-crime-agency-froze-premier-league-crypto-partner-sorare",
+      "summary": "UK authorities froze $13.5 million in cash following a January 2025 order from the Westminster Magistrates’ Court as part of an investigation into Sorare.",
+      "source": "Cointelegraph",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788293652,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1F30K3TFNEHQA4RAGQF4Y0F/official-clerk-document-screen-regulation-gambling.jpg"
+      ],
+      "image": "../assets/news/2026-09-01/b5376334cde5ec4a_base.jpg",
+      "image_local": "../assets/news/2026-09-01/b5376334cde5ec4a_base.jpg"
+    },
+    {
+      "title": "Musk's X hit by wave of unsolicited password reset emails",
+      "link": "https://www.coindesk.com/tech/2026/09/01/musk-s-x-hit-by-wave-of-unsolicited-password-reset-emails",
+      "summary": "Musk's X hit by wave of unsolicited password reset emails",
       "source": "CoinDesk",
       "date": "2026-09-01",
       "date_human": "Sep 1, 2026",
-      "pub_ts": 1788268535,
+      "pub_ts": 1788274752,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/c48dd32903d41ec222f4a093c9aefa108c259b98-2960x1665.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/c09233015cb4bb131a242f1bbe62c191c36c568c-5024x3052.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-01/3d374cf052e0c2f6_base.jpg",
-      "image_local": "../assets/news/2026-09-01/3d374cf052e0c2f6_base.jpg"
+      "image": "../assets/news/2026-09-01/35191cca47d4ee78_base.jpg",
+      "image_local": "../assets/news/2026-09-01/35191cca47d4ee78_base.jpg"
     }
   ]
 }

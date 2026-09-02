@@ -1,0 +1,193 @@
+{
+  "day_iso": "2026-09-02",
+  "generated_at_utc": "2026-09-02 04:05:28 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "$2.7 million poured into Robinhood Chain apps in one day, but it barely touches corporate revenue",
+      "link": "https://cryptoslate.com/robinhood-chains-2-7-million-app-day-says-little-about-robinhoods-actual-take/",
+      "summary": "Apps captured the headline revenue while Robinhood’s disclosed fee split offers no bridge to its corporate accounts. The post $2.7 million poured into Robinhood Chain apps in one day, but it barely touches corporate revenue appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788320445,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/robinhood-revenue-piggy-bank.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/b4cda09eb0fdd734_base.jpg",
+      "image_local": "../assets/news/2026-09-02/b4cda09eb0fdd734_base.jpg"
+    },
+    {
+      "title": "SEC proposes transfer agent rule, sets event to figure out round-the-clock U.S. trading",
+      "link": "https://www.coindesk.com/policy/2026/09/01/sec-proposes-transfer-agent-rule-sets-event-to-figure-out-round-the-clock-u-s-trading",
+      "summary": "SEC proposes transfer agent rule, sets event to figure out round-the-clock U.S. trading",
+      "source": "CoinDesk",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788306946,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/f5e51d142f4aa8a9a66d07435fa821e33f12872b-4858x2733.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-02/e1c4fa03ed9c9943_base.jpg",
+      "image_local": "../assets/news/2026-09-02/e1c4fa03ed9c9943_base.jpg"
+    },
+    {
+      "title": "OpenClaw 2.0 Is Here: What Changed, Why It Took Two Months, and How It Stacks Up Against Hermes",
+      "link": "https://decrypt.co/377135/openclaw-2-0-is-here-whats-new",
+      "summary": "The open-source agent framework that started the \"autonomous AI\" hype cycle just shipped its biggest update ever, almost by accident, and it's coming for the enterprise now.",
+      "source": "Decrypt",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788300964,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/03/OpenClaw2-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/OpenClaw2-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/OpenClaw2-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/ffcde60a28d99ec1_base.jpg",
+      "image_local": "../assets/news/2026-09-02/ffcde60a28d99ec1_base.jpg"
+    },
+    {
+      "title": "Crypto-backed PAC scales back ad spending in Massachusetts primary",
+      "link": "https://cointelegraph.com/news/crypto-pac-protect-progress-spending-massachusetts-primary",
+      "summary": "The $189,000 in media spending to support Representative Jake Auchincloss marked Fairshake’s latest attempt to influence the 2026 elections with funds from the crypto industry.",
+      "source": "Cointelegraph",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788297927,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1F9CHX26RTFEYCMMVC55WQZ/hi-pacs-in-crypto-and-blockchain2.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/ccf41b7f036ba0ad_base.jpg",
+      "image_local": "../assets/news/2026-09-02/ccf41b7f036ba0ad_base.jpg"
+    },
+    {
+      "title": "Leaked compliance records shatter anonymity of 291 crypto users by matching names directly to wallet activity",
+      "link": "https://cryptoslate.com/leaked-compliance-records-shatter-anonymity-of-291-crypto-users-by-matching-names-directly-to-wallet-activity/",
+      "summary": "Copied support records exposed varying combinations of identity, location and compliance data, while private keys and customer funds remained safe. The post Leaked compliance records shatter anonymity of 291 crypto users by matching names directly to wallet activity appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788316259,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-shadow-phishing-risk.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/528cb2d86ab4d4f7_base.jpg",
+      "image_local": "../assets/news/2026-09-02/528cb2d86ab4d4f7_base.jpg"
+    },
+    {
+      "title": "Citi, Goldman, other global banks and asset managers team up on stablecoin venture",
+      "link": "https://www.coindesk.com/business/2026/09/01/citi-goldman-other-global-banks-and-asset-managers-team-up-on-stablecoin-venture",
+      "summary": "Citi, Goldman, other global banks and asset managers team up on stablecoin venture",
+      "source": "CoinDesk",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788276987,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/b88cc3bb0be5078f6fee0948dd9408a814ffa0c2-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-02/090ad671c65e3337_base.jpg",
+      "image_local": "../assets/news/2026-09-02/090ad671c65e3337_base.jpg"
+    },
+    {
+      "title": "Nvidia Invests $3.5 Billion in MediaTek to Expand Beyond GPUs",
+      "link": "https://decrypt.co/377128/nvidia-invests-3-5-billion-mediatek",
+      "summary": "The deal, part of MediaTek's record $3.9 billion bond offering, ties Nvidia's chip ecosystem to a Taiwanese rival building its own AI accelerator business.",
+      "source": "Decrypt",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788298264,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/07/nvidia-logo-decrypt-style-02-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/07/nvidia-logo-decrypt-style-02-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/nvidia-logo-decrypt-style-02-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-02/1c3957ddb2d75714_base.jpg",
+      "image_local": "../assets/news/2026-09-02/1c3957ddb2d75714_base.jpg"
+    },
+    {
+      "title": "Binance expands TradFi push with options on 1,000 US stocks, ETFs",
+      "link": "https://cointelegraph.com/news/binance-adds-options-on-1000-us-stocks-and-etfs-in-tradfi-expansion",
+      "summary": "The launch gives eligible non-US users access to physically settled options on more than 1,000 US stocks and ETFs through a single Binance account.",
+      "source": "Cointelegraph",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788295349,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1FC2WR1JDBZ2YXX51TY5S5E/man-office-screen-computer02.png"
+      ],
+      "image": "../assets/news/2026-09-02/7c2c2789ef7c8cc0_base.jpg",
+      "image_local": "../assets/news/2026-09-02/7c2c2789ef7c8cc0_base.jpg"
+    },
+    {
+      "title": "Circle processed $32 trillion in USDC transfers, yet 95% of its revenue relies entirely on interest rates",
+      "link": "https://cryptoslate.com/circle-processed-32-trillion-in-usdc-transfers-yet-95-of-its-revenue-relies-entirely-on-interest-rates/",
+      "summary": "Coin Metrics found market plumbing drove much of the volume while reserve income supplied 95.2% of Q2 revenue. The post Circle processed $32 trillion in USDC transfers, yet 95% of its revenue relies entirely on interest rates appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788309308,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/usdc-flow-reserve-tank.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/52918502b8e4c593_base.jpg",
+      "image_local": "../assets/news/2026-09-02/52918502b8e4c593_base.jpg"
+    },
+    {
+      "title": "Robinhood's new crypto network is printing cash, and it's sending Arbitrum's token soaring",
+      "link": "https://www.coindesk.com/markets/2026/09/01/robinhood-s-new-crypto-network-is-printing-cash-and-it-s-sending-arbitrum-s-token-soaring",
+      "summary": "Robinhood's new crypto network is printing cash, and it's sending Arbitrum's token soaring",
+      "source": "CoinDesk",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788276509,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/638d03a6a077f489fda3be37b30b45b37f2273a3-1920x1050.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-02/0f3720c6179efa8e_base.jpg",
+      "image_local": "../assets/news/2026-09-02/0f3720c6179efa8e_base.jpg"
+    },
+    {
+      "title": "Robinhood Chain DEX Volume Jumps to $1.6 billion",
+      "link": "https://decrypt.co/377126/robinhood-chain-dex-volume-jumps",
+      "summary": "Trading on the Ethereum Layer 2 climbed 61% in a matter of days as DeFi deposits and stablecoin holdings approached $800 million.",
+      "source": "Decrypt",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788296464,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/robinhood-decrypt-style-01-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-02/9d5ed1f57d8471a2_base.jpg",
+      "image_local": "../assets/news/2026-09-02/9d5ed1f57d8471a2_base.jpg"
+    },
+    {
+      "title": "UK crime agency froze $13.5M amid probe into Premier League crypto sponsor",
+      "link": "https://cointelegraph.com/news/uk-crime-agency-froze-premier-league-crypto-partner-sorare",
+      "summary": "UK authorities froze $13.5 million in cash following a January 2025 order from the Westminster Magistrates’ Court as part of an investigation into Sorare.",
+      "source": "Cointelegraph",
+      "date": "2026-09-01",
+      "date_human": "Sep 1, 2026",
+      "pub_ts": 1788293652,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1F30K3TFNEHQA4RAGQF4Y0F/official-clerk-document-screen-regulation-gambling.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/b5376334cde5ec4a_base.jpg",
+      "image_local": "../assets/news/2026-09-02/b5376334cde5ec4a_base.jpg"
+    }
+  ]
+}
