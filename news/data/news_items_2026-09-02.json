@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-02",
-  "generated_at_utc": "2026-09-02 10:05:29 UTC",
+  "generated_at_utc": "2026-09-02 16:05:31 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,178 +16,178 @@
   "count": 12,
   "items": [
     {
-      "title": "Crypto industry urges SEC to avoid blanket novel ETF restrictions",
-      "link": "https://cointelegraph.com/news/crypto-industry-sec-novel-etf-restrictions",
-      "summary": "Grayscale, a16z, and the CCI asked the SEC to preserve existing classification rules and avoid treating novel exchange-traded products as a single category, while proposing different routes to clearer and faster reviews.",
-      "source": "Cointelegraph",
-      "date": "2026-09-02",
-      "date_human": "Sep 2, 2026",
-      "pub_ts": 1788342529,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1GP20DVTRFKRWTMYV78JG6F/hi-a-beginners-guide-on-launching-a-security-token-offering-copy.jpg"
-      ],
-      "image": "../assets/news/2026-09-02/d7a09d7858919d06_base.jpg",
-      "image_local": "../assets/news/2026-09-02/d7a09d7858919d06_base.jpg"
-    },
-    {
-      "title": "Cardano clears key voting thresholds for constitutional committee renewal by 0.18% margin",
-      "link": "https://cryptoslate.com/cardano-clears-key-voting-thresholds-for-constitutional-committee-renewal-by-0-18-margin/",
-      "summary": "The pre-boundary vote shows how non-participating SPO stake can weigh against renewal even without an explicit No. The post Cardano clears key voting thresholds for constitutional committee renewal by 0.18% margin appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-02",
-      "date_human": "Sep 2, 2026",
-      "pub_ts": 1788341433,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/cardano-governance-bridge.jpg"
-      ],
-      "image": "../assets/news/2026-09-02/7a7ee1f5da5c57ba_base.jpg",
-      "image_local": "../assets/news/2026-09-02/7a7ee1f5da5c57ba_base.jpg"
-    },
-    {
-      "title": "Kalshi Suspends House Candidate Laurie Buckhout for Betting on Herself",
-      "link": "https://decrypt.co/377142/kalshi-suspends-house-candidate-laurie-buckhout-for-betting-on-herself",
-      "summary": "The North Carolina Republican bought less than $1,000 of contracts on her own race and drew a three-year ban.",
+      "title": "Tether Sued Over Alleged Unlawful Freeze of $42.4 Million in USDT",
+      "link": "https://decrypt.co/377171/tether-sued-freeze-42-4-million-usdt",
+      "summary": "Two Thai businessmen claim Tether blocked access to their stablecoins months before federal authorities secured a seizure warrant.",
       "source": "Decrypt",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788339982,
+      "pub_ts": 1788363733,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt_style_kalshi-02-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt_style_kalshi-02-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/decrypt_style_kalshi-02-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Tether-decrypt-style-03-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Tether-decrypt-style-03-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Tether-decrypt-style-03-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-02/9dab8e749338709a_base.jpg",
-      "image_local": "../assets/news/2026-09-02/9dab8e749338709a_base.jpg"
+      "image": "../assets/news/2026-09-02/6113ca046d56b68a_base.jpg",
+      "image_local": "../assets/news/2026-09-02/6113ca046d56b68a_base.jpg"
     },
     {
-      "title": "Live updates: BlackRock's IBIT drives $236 million bitcoin ETF outflow",
-      "link": "https://www.coindesk.com/business/2026/09/02/live-updates-blackrock-s-ibit-drives-usd236-million-bitcoin-etf-outflow",
-      "summary": "Live updates: BlackRock's IBIT drives $236 million bitcoin ETF outflow",
-      "source": "CoinDesk",
-      "date": "2026-09-02",
-      "date_human": "Sep 2, 2026",
-      "pub_ts": 1788337860,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/2e7f7708703aa832a09975915095e15a92b84cc6-1394x852.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-02/3530f5ed4ec9fd9f_base.jpg",
-      "image_local": "../assets/news/2026-09-02/3530f5ed4ec9fd9f_base.jpg"
-    },
-    {
-      "title": "Bitcoin ETFs notch best month of 2026 as BTC gains 25% in August",
-      "link": "https://cointelegraph.com/markets/bitcoin-etf-best-month-2026-btc-up-25-august",
-      "summary": "US spot Bitcoin ETFs reduced their year-to-date net outflows by 66% as Bitcoin gained about 25% in August, while Ether ETFs turned positive YTD at $732 million and XRP ETFs reached $502 million.",
-      "source": "Cointelegraph",
-      "date": "2026-09-02",
-      "date_human": "Sep 2, 2026",
-      "pub_ts": 1788335983,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1GE6N92Z9CKPGGD4FTE0QQP/hi-bitcoin-etf-is-now-superior-over-dollar-3.jpg"
-      ],
-      "image": "../assets/news/2026-09-02/60d4efba66a3a0bf_base.jpg",
-      "image_local": "../assets/news/2026-09-02/60d4efba66a3a0bf_base.jpg"
-    },
-    {
-      "title": "DeFi Technologies misses Nasdaq $1 deadline as DEFT faces delisting review",
-      "link": "https://cryptoslate.com/defi-technologies-misses-nasdaq-1-deadline-as-deft-faces-delisting-review/",
-      "summary": "DEFT missed the required closing-price streak but could qualify for another 180 days as its consolidation option remains unused. The post DeFi Technologies misses Nasdaq $1 deadline as DEFT faces delisting review appeared first on CryptoSlate.",
+      "title": "What the $344M crypto political spending spree wants from Congress next",
+      "link": "https://cryptoslate.com/what-the-344m-crypto-political-spending-spree-wants-from-congress-next/",
+      "summary": "Corporate political donations hit a record $646 million over the 18 months through June, according to Public Citizen's analysis of FEC filings. Crypto political spending led every other corporate sector at $206 million, while crypto, AI, and online betting together accounted for $344 million, more than half the total. The GENIUS Act already created a […] The post What the $344M crypto political spending spree wants from Congress next appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788337213,
+      "pub_ts": 1788363632,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/deft-nasdaq-cliff.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/crypto-money-capitol-path.jpg"
       ],
-      "image": "../assets/news/2026-09-02/459d21f8092e9adb_base.jpg",
-      "image_local": "../assets/news/2026-09-02/459d21f8092e9adb_base.jpg"
+      "image": "../assets/news/2026-09-02/745a37aac92dd4f6_base.jpg",
+      "image_local": "../assets/news/2026-09-02/745a37aac92dd4f6_base.jpg"
     },
     {
-      "title": "OpenClaw 2.0 Is Here: What Changed, Why It Took Two Months, and How It Stacks Up Against Hermes",
-      "link": "https://decrypt.co/377135/openclaw-2-0-is-here-whats-new",
-      "summary": "The open-source agent framework that started the \"autonomous AI\" hype cycle just shipped its biggest update ever, almost by accident, and it's coming for the enterprise now.",
-      "source": "Decrypt",
-      "date": "2026-09-01",
-      "date_human": "Sep 1, 2026",
-      "pub_ts": 1788300964,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/03/OpenClaw2-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/OpenClaw2-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/OpenClaw2-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-09-02/ffcde60a28d99ec1_base.jpg",
-      "image_local": "../assets/news/2026-09-02/ffcde60a28d99ec1_base.jpg"
-    },
-    {
-      "title": "XRP ETFs pull in $170 million over eleven days. Goldman tops institutional holders",
-      "link": "https://www.coindesk.com/markets/2026/09/02/xrp-etfs-pull-in-usd160-million-over-nine-days-as-goldman-tops-institutional-holders",
-      "summary": "XRP ETFs pull in $170 million over eleven days. Goldman tops institutional holders",
-      "source": "CoinDesk",
-      "date": "2026-09-02",
-      "date_human": "Sep 2, 2026",
-      "pub_ts": 1788333603,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/93f3474dccf04b68a7729dea48459237f95b7758-1400x766.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-02/0d30757d9a84d148_base.jpg",
-      "image_local": "../assets/news/2026-09-02/0d30757d9a84d148_base.jpg"
-    },
-    {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "title": "G20 members tout ‘clear pathways' for digital asset innovation",
+      "link": "https://cointelegraph.com/news/g20-members-clear-pathways-digital-asset-innovation",
+      "summary": "Officials in the G20, under the US’ presidency, recognized that digital assets could support “broad-based economic growth” and called for improvements in cross-border transactions.",
       "source": "Cointelegraph",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788328446,
+      "pub_ts": 1788363246,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1H85V728VXBM9KYCSEJAD01/g20-discuss-crypto-desk-table-meeting-hand-paper-people2.jpg"
       ],
-      "image": "../assets/news/2026-09-02/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-09-02/57bd1a60f4d67ba1_base.jpg"
+      "image": "../assets/news/2026-09-02/657c499f550a390b_base.jpg",
+      "image_local": "../assets/news/2026-09-02/657c499f550a390b_base.jpg"
     },
     {
-      "title": "Deribit already holds 96.6% of Coinbase's derivatives open interest ahead of Sept. 9 migration",
-      "link": "https://cryptoslate.com/deribit-already-holds-96-6-of-coinbases-derivatives-open-interest-ahead-of-sept-9-migration/",
-      "summary": "The Sept. 1 snapshot shows the Sept. 9 cutover moves a far smaller International Exchange book onto the dominant offshore venue. The post Deribit already holds 96.6% of Coinbase’s derivatives open interest ahead of Sept. 9 migration appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-02",
-      "date_human": "Sep 2, 2026",
-      "pub_ts": 1788333029,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/coinbase_deribit_standard_image.jpg"
-      ],
-      "image": "../assets/news/2026-09-02/529a45c4cc4e4ebb_base.jpg",
-      "image_local": "../assets/news/2026-09-02/529a45c4cc4e4ebb_base.jpg"
-    },
-    {
-      "title": "Nvidia Invests $3.5 Billion in MediaTek to Expand Beyond GPUs",
-      "link": "https://decrypt.co/377128/nvidia-invests-3-5-billion-mediatek",
-      "summary": "The deal, part of MediaTek's record $3.9 billion bond offering, ties Nvidia's chip ecosystem to a Taiwanese rival building its own AI accelerator business.",
-      "source": "Decrypt",
-      "date": "2026-09-01",
-      "date_human": "Sep 1, 2026",
-      "pub_ts": 1788298264,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/07/nvidia-logo-decrypt-style-02-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/07/nvidia-logo-decrypt-style-02-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/nvidia-logo-decrypt-style-02-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-02/1c3957ddb2d75714_base.jpg",
-      "image_local": "../assets/news/2026-09-02/1c3957ddb2d75714_base.jpg"
-    },
-    {
-      "title": "A China indicator that supports risk-taking in stocks and bitcoin is flashing red",
-      "link": "https://www.coindesk.com/markets/2026/09/02/a-china-indicator-that-greases-risk-taking-in-stocks-and-bitcoin-is-flashing-red",
-      "summary": "A China indicator that supports risk-taking in stocks and bitcoin is flashing red",
+      "title": "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/09/02/crypto-long-and-short-crypto-vcs-are-mistaking-consensus-for-discipline",
+      "summary": "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline",
       "source": "CoinDesk",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788332002,
+      "pub_ts": 1788362102,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/e0bd1a5c4aa4165f5e1f072ecae009bea2cf1aea-1080x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/b88cc3bb0be5078f6fee0948dd9408a814ffa0c2-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-02/8934a869531e5bf7_base.jpg",
-      "image_local": "../assets/news/2026-09-02/8934a869531e5bf7_base.jpg"
+      "image": "../assets/news/2026-09-02/090ad671c65e3337_base.jpg",
+      "image_local": "../assets/news/2026-09-02/090ad671c65e3337_base.jpg"
+    },
+    {
+      "title": "Norway Moves to Regulate 'Pervert Glasses,' Weighs Facial Recognition Ban",
+      "link": "https://decrypt.co/377169/norway-moves-to-regulate-pervert-glasses-weighs-facial-recognition-ban",
+      "summary": "The country's consumer watchdog went further, urging retailers to stop selling the devices until the law is clear.",
+      "source": "Decrypt",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788362324,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/c12fb2cce7fba126_base.jpg",
+      "image_local": "../assets/news/2026-09-02/c12fb2cce7fba126_base.jpg"
+    },
+    {
+      "title": "North Korea's $30M crypto cashout just handed legacy finance its best weapon to kill DeFi's US debut",
+      "link": "https://cryptoslate.com/north-koreas-30m-crypto-cashout-just-handed-legacy-finance-its-best-weapon-to-kill-defis-us-debut/",
+      "summary": "CME and ICE told Washington in May that Hyperliquid's pseudonymous, always-on markets could let sanctioned state actors circumvent enforcement. On Aug. 31, an Arkham analysis reviewed by CoinDesk found that wallets linked to North Korea's Lazarus Group had sold more than $30 million of Bitcoin through Hyperliquid over the prior three weeks. The proceeds were […] The post North Korea’s $30M crypto cashout just handed legacy finance its best weapon to kill DeFi’s US debut appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788359711,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/crypto-regulation-turnstile-1.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/75af0f9ac439e400_base.jpg",
+      "image_local": "../assets/news/2026-09-02/75af0f9ac439e400_base.jpg"
+    },
+    {
+      "title": "Sui DeFi protocol Full Sail to wind down after Switchboard incident",
+      "link": "https://cointelegraph.com/news/full-sail-sui-wind-down-switchboard-incident",
+      "summary": "Full Sail is shutting down after an attacker removed about $91,000 from three vaults during a security incident linked to oracle provider Switchboard.",
+      "source": "Cointelegraph",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788356403,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1H2YME5WK16MEE643RQSSVQ/layoffs-fired-human-resource-hr-leaving-quit-closing-breaking-news-3.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/cd4e6e3c98ddaf69_base.jpg",
+      "image_local": "../assets/news/2026-09-02/cd4e6e3c98ddaf69_base.jpg"
+    },
+    {
+      "title": "CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years",
+      "link": "https://www.coindesk.com/tech/2026/09/02/crowdstrike-and-federal-authorities-dismantle-russian-malware-that-secretly-stole-crypto-for-8-years",
+      "summary": "CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years",
+      "source": "CoinDesk",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788354887,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/43bcebed4b4df55c6cef38bae8e8969d1a077019-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-02/5d1463ff90036678_base.jpg",
+      "image_local": "../assets/news/2026-09-02/5d1463ff90036678_base.jpg"
+    },
+    {
+      "title": "AI Billionaires Fund Ad Blitz as Data Center Opposition Hits 61%",
+      "link": "https://decrypt.co/377162/ai-billionaires-fund-ad-blitz-as-data-center-opposition-hits-61",
+      "summary": "Marc Andreessen, Ben Horowitz and OpenAI's Greg Brockman have backed the super PAC behind the campaign, which faces surging opposition.",
+      "source": "Decrypt",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788358604,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/ai-artificial-intelligence-decrypt-style-1-scaled-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/ai-artificial-intelligence-decrypt-style-1-scaled-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/ai-artificial-intelligence-decrypt-style-1-scaled-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/233c3dd235773df2_base.jpg",
+      "image_local": "../assets/news/2026-09-02/233c3dd235773df2_base.jpg"
+    },
+    {
+      "title": "TRON H1 2026 Strategy Report: Dual-Engine Growth via DeFi and AI Delivers Record Traction",
+      "link": "https://cryptoslate.com/tron-h1-2026-strategy-report-dual-engine-growth-via-defi-and-ai-delivers-record-traction/",
+      "summary": "Abstract: In H1 2026, TRON bucked broader market headwinds through a twin-track strategy: solidifying its core DeFi engine while aggressively expanding into AI. As recurring deflationary mechanics anchored value across DeFi protocols, a rapid wave of AI product launches unlocked new vectors for ecosystem growth. Throughout the first half of 2026, global crypto markets faced […] The post TRON H1 2026 Strategy Report: Dual-Engine Growth via DeFi and AI Delivers Record Traction appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788358518,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/tron-strategy-report.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/d7093cc0083d6ffc_base.jpg",
+      "image_local": "../assets/news/2026-09-02/d7093cc0083d6ffc_base.jpg"
+    },
+    {
+      "title": "BTC will hit $1M by 2030... but Arthur Hayes is buying ETH instead",
+      "link": "https://cointelegraph.com/magazine/btc-will-hit-1m-by-2030-but-arthur-hayes-is-buying-eth-instead",
+      "summary": "Arthur Hayes says Bitcoin is going to grind higher from here, but Ethereum is his number one pick due to its potential to increase “3x to 5x pretty quickly.”",
+      "source": "Cointelegraph",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788355800,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1FNPVV54PCXHCZQHZ8DRZWN/arthur.webp"
+      ],
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1FNPVV54PCXHCZQHZ8DRZWN/arthur.webp",
+      "image_local": null
+    },
+    {
+      "title": "The token supercycle: everything of value is becoming programmable",
+      "link": "https://www.coindesk.com/opinion/2026/09/02/the-token-supercycle-everything-of-value-is-becoming-programmable",
+      "summary": "The token supercycle: everything of value is becoming programmable",
+      "source": "CoinDesk",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788354000,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/436253b5496708d8dc3a743f0f035ee3c2284db4-5700x3800.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-02/518debb0da101eab_base.jpg",
+      "image_local": "../assets/news/2026-09-02/518debb0da101eab_base.jpg"
     }
   ]
 }
