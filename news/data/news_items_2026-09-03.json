@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-03",
-  "generated_at_utc": "2026-09-03 10:05:26 UTC",
+  "generated_at_utc": "2026-09-03 16:05:31 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,178 +16,178 @@
   "count": 12,
   "items": [
     {
-      "title": "Ukraine Busts Kyiv Crypto Drainer Ring Moving Up to $1M Monthly",
-      "link": "https://decrypt.co/377245/ukraine-busts-kyiv-crypto-drainer-ring-moving-up-to-1m-monthly",
-      "summary": "Fake investment ads on Telegram channels funneled EU victims to a lookalike exchange that emptied their wallets.",
-      "source": "Decrypt",
-      "date": "2026-09-03",
-      "date_human": "Sep 3, 2026",
-      "pub_ts": 1788429221,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-03/bb1a6a4241052cd0_base.jpg",
-      "image_local": "../assets/news/2026-09-03/bb1a6a4241052cd0_base.jpg"
-    },
-    {
-      "title": "Coldcard hacker swaps stolen Bitcoin for ETH via THORChain",
-      "link": "https://cointelegraph.com/news/coldcard-hacker-swaps-stolen-bitcoin-eth-thorchain",
-      "summary": "The third-wave Coldcard exploiter moved about 10% of stolen funds through THORChain as researchers traced the assets to a new Ethereum address.",
-      "source": "Cointelegraph",
-      "date": "2026-09-03",
-      "date_human": "Sep 3, 2026",
-      "pub_ts": 1788427867,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1K817QH0K358EBX7ENA8QG7/hacker-and-lasers-ethereum.jpg"
-      ],
-      "image": "../assets/news/2026-09-03/aa92620f51e9f257_base.jpg",
-      "image_local": "../assets/news/2026-09-03/aa92620f51e9f257_base.jpg"
-    },
-    {
-      "title": "Bitcoin cannot break out past $80,000 until it devours an 880k BTC roadblock that choked every rally",
-      "link": "https://cryptoslate.com/bitcoin-cannot-break-out-past-80000-until-it-devours-an-880k-btc-roadblock-that-choked-every-rally/",
-      "summary": "Bitcoin is testing a roughly $68 billion breakeven wall that has repeatedly stalled its push back above $80,000. About 880,000 BTC carry a cost basis between roughly $77,500 and $80,300, leaving a large group of holders close to where they originally bought, Bitfinex Alpha data shows. Data from CryptoSlate shows Bitcoin trading near $77,890 as […] The post Bitcoin cannot break out past $80,000 until it devours an 880k BTC roadblock that choked every rally appeared first on CryptoSlate.",
+      "title": "Kalshi's new oil contract promises non-stop exposure, but a hidden flaw could expose traders to massive weekend shocks",
+      "link": "https://cryptoslate.com/kalshis-new-oil-contract-promises-non-stop-exposure-but-a-hidden-flaw-could-expose-traders-to-massive-weekend-shocks/",
+      "summary": "The reported contract could eliminate expiry while leaving traders exposed to an oil market that still closes. The post Kalshi’s new oil contract promises non-stop exposure, but a hidden flaw could expose traders to massive weekend shocks appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-03",
       "date_human": "Sep 3, 2026",
-      "pub_ts": 1788426828,
+      "pub_ts": 1788451219,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-supply-bottleneck.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/weekend-gap-barrel.jpg"
       ],
-      "image": "../assets/news/2026-09-03/d24debeaa483ea2b_base.jpg",
-      "image_local": "../assets/news/2026-09-03/d24debeaa483ea2b_base.jpg"
+      "image": "../assets/news/2026-09-03/c1bd3328ecd614ab_base.jpg",
+      "image_local": "../assets/news/2026-09-03/c1bd3328ecd614ab_base.jpg"
     },
     {
-      "title": "CFTC asks judge to dismiss CME lawsuit over crypto perpetual futures",
-      "link": "https://www.coindesk.com/policy/2026/09/03/cftc-asks-judge-to-dismiss-cme-lawsuit-over-crypto-perpetual-futures",
-      "summary": "CFTC asks judge to dismiss CME lawsuit over crypto perpetual futures",
-      "source": "CoinDesk",
-      "date": "2026-09-03",
-      "date_human": "Sep 3, 2026",
-      "pub_ts": 1788426820,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/3488397e93351ed3a88de739300c35ce1824573b-1420x916.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-03/06475fcc63534f71_base.jpg",
-      "image_local": "../assets/news/2026-09-03/06475fcc63534f71_base.jpg"
-    },
-    {
-      "title": "Michigan Judge Bars Kalshi Sports Bets, Threatens $500K Daily Fine",
-      "link": "https://decrypt.co/377238/michigan-judge-bars-kalshi-sports-bets-threatens-500k-daily-fine",
-      "summary": "The order calls the prediction market platform a sports betting operation \"masquerading as an investment opportunity.\"",
+      "title": "SoFi Links Banking Network and Stablecoin to Kraken in New Deal",
+      "link": "https://decrypt.co/377283/sofi-banking-network-stablecoin-kraken",
+      "summary": "Kraken will list SoFiUSD and gain access to SoFi’s round-the-clock dollar settlement network, while Kraken Prime will execute trades for SoFi’s crypto customers.",
       "source": "Decrypt",
       "date": "2026-09-03",
       "date_human": "Sep 3, 2026",
-      "pub_ts": 1788425254,
+      "pub_ts": 1788450008,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Judge-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Judge-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Judge-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/12/sofi-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/12/sofi-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/12/sofi-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-03/ed8f8ee247d3f822_base.jpg",
-      "image_local": "../assets/news/2026-09-03/ed8f8ee247d3f822_base.jpg"
+      "image": "../assets/news/2026-09-03/3649eb6fbb8038cf_base.jpg",
+      "image_local": "../assets/news/2026-09-03/3649eb6fbb8038cf_base.jpg"
     },
     {
-      "title": "Kalshi seeks CFTC approval for WTI crude perpetual futures: Report",
-      "link": "https://cointelegraph.com/news/kalshi-cftc-greenlight-regulated-wti-oil-perpetuals",
-      "summary": "Kalshi reportedly plans to file for approval of a WTI crude oil perpetual futures contract that would trade around the clock five days a week without an expiration date.",
+      "title": "Recovery specialists crack $1B crypto wallet... but find just $10",
+      "link": "https://cointelegraph.com/magazine/recovery-specialists-crack-1b-crypto-wallet-but-find-just-10",
+      "summary": "Crypto recovery specialists reveal how lost wallets, passwords and seed phrases can sometimes be recovered — but that’s of no help if the money was never there in the first place.",
       "source": "Cointelegraph",
       "date": "2026-09-03",
       "date_human": "Sep 3, 2026",
-      "pub_ts": 1788427714,
+      "pub_ts": 1788442200,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1K6CAJ83RBB5T87V61EY97D/political-tokens-into-the-white-house-oil.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1JCXG2R7DCZ2470D2Y6764D/magazine-crypto-sec-3.jpg"
       ],
-      "image": "../assets/news/2026-09-03/829f83d343dea334_base.jpg",
-      "image_local": "../assets/news/2026-09-03/829f83d343dea334_base.jpg"
+      "image": "../assets/news/2026-09-03/368180626a2238fb_base.jpg",
+      "image_local": "../assets/news/2026-09-03/368180626a2238fb_base.jpg"
     },
     {
-      "title": "Ontology forces urgent node upgrade after restarting chain hit by malicious activity",
-      "link": "https://cryptoslate.com/ontology-forces-urgent-node-upgrade-after-restarting-chain-hit-by-malicious-activity/",
-      "summary": "Version 3.1.5 is mandatory for compatibility while the attack path and wider service recovery remain undisclosed. The post Ontology forces urgent node upgrade after restarting chain hit by malicious activity appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-03",
-      "date_human": "Sep 3, 2026",
-      "pub_ts": 1788418834,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/ontology-mainnet-recovery-bridge.jpg"
-      ],
-      "image": "../assets/news/2026-09-03/92bf66c4b98c2f8e_base.jpg",
-      "image_local": "../assets/news/2026-09-03/92bf66c4b98c2f8e_base.jpg"
-    },
-    {
-      "title": "Catastrophe bonds may join tokenization rush, with plans for test issuance in 2027",
-      "link": "https://www.coindesk.com/business/2026/09/03/catastrophe-bonds-may-join-tokenization-rush-with-plans-for-test-issuance-in-2027",
-      "summary": "Catastrophe bonds may join tokenization rush, with plans for test issuance in 2027",
+      "title": "SoFi, Kraken tie up as crypto and banking push into each other's turf",
+      "link": "https://www.coindesk.com/business/2026/09/03/sofi-kraken-tie-up-as-crypto-and-banking-push-into-each-other-s-turf",
+      "summary": "SoFi, Kraken tie up as crypto and banking push into each other's turf",
       "source": "CoinDesk",
       "date": "2026-09-03",
       "date_human": "Sep 3, 2026",
-      "pub_ts": 1788424200,
+      "pub_ts": 1788436800,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/a36b1f7434d35b05d2987ef8273b698408bdd842-5077x2856.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/6729e1c305b50c141cc3d56e8ad78bb80d24b6e7-1500x968.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-03/490d4aa27ee81024_base.jpg",
-      "image_local": "../assets/news/2026-09-03/490d4aa27ee81024_base.jpg"
+      "image": "../assets/news/2026-09-03/fe4110e1e05ed611_base.jpg",
+      "image_local": "../assets/news/2026-09-03/fe4110e1e05ed611_base.jpg"
     },
     {
-      "title": "Anthropic Admits Security Failures Behind Claude Hacking Incidents",
-      "link": "https://decrypt.co/377232/anthropic-security-claude-ai-hacks",
-      "summary": "After Claude models accessed real systems during cyber tests, Anthropic tightened its safeguards and warned that flawed training can encourage dangerous behavior.",
+      "title": "Bitcoin keeps whipsawing around $77,000, and ETF investors are doing the same",
+      "link": "https://cryptoslate.com/bitcoin-keeps-whipsawing-around-77000-and-etf-investors-are-doing-the-same/",
+      "summary": "A $70.1 million outflow ended the two-session divide, but one day cannot settle whether demand is retreating. The post Bitcoin keeps whipsawing around $77,000, and ETF investors are doing the same appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788447020,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-etf-rollercoaster.jpg"
+      ],
+      "image": "../assets/news/2026-09-03/7d067fc8de8f71af_base.jpg",
+      "image_local": "../assets/news/2026-09-03/7d067fc8de8f71af_base.jpg"
+    },
+    {
+      "title": "Morning Minute: Strategy CEO Says Selling The Bottom Was Correct Move",
+      "link": "https://decrypt.co/377264/morning-minute-strategy-ceo-says-selling-the-bottom-was-correct-move",
+      "summary": "Strategy sold millions in Bitcoin in the low $60k range and just rebought at $80k. Now they’re sharing the rationale behind the moves.",
       "source": "Decrypt",
-      "date": "2026-09-02",
-      "date_human": "Sep 2, 2026",
-      "pub_ts": 1788392764,
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788435794,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-anthropic-dario-amodei-2-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-anthropic-dario-amodei-2-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/06/decrypt-style-anthropic-dario-amodei-2-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Strategy-B-logo-decrypt-style-01-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Strategy-B-logo-decrypt-style-01-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Strategy-B-logo-decrypt-style-01-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-03/21d69a701e914ee8_base.jpg",
-      "image_local": "../assets/news/2026-09-03/21d69a701e914ee8_base.jpg"
+      "image": "../assets/news/2026-09-03/a70b9c728d437f1d_base.jpg",
+      "image_local": "../assets/news/2026-09-03/a70b9c728d437f1d_base.jpg"
     },
     {
-      "title": "Australia warns unlicensed crypto firms of fines up to 10% of annual turnover",
-      "link": "https://cointelegraph.com/news/australia-warns-unlicensed-crypto-firms-of-fines-up-to-10-of-annual-turnover",
-      "summary": "ASIC has recorded more than 45 digital asset-related license applications as its temporary enforcement relief approaches Sept. 30 expiration.",
+      "title": "VARA, Securitize sign MoU for tokenization innovation in Dubai",
+      "link": "https://cointelegraph.com/news/vara-securitize-mou-tokenization-dubai",
+      "summary": "VARA and Securitize signed an MoU to foster more tokenization innovation in Dubai and explore how tokenized financial innovation should be regulated in the region.",
       "source": "Cointelegraph",
       "date": "2026-09-03",
       "date_human": "Sep 3, 2026",
-      "pub_ts": 1788421674,
+      "pub_ts": 1788440400,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1K3G0K6ACW549NXWWTXAETH/hi-time-to-switch-license-australia-1.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1KGRZRFAT4PNFKDRGKF3YTG/hi-crypto-in-gulf-a-new-trend-1.jpg"
       ],
-      "image": "../assets/news/2026-09-03/665f997c386f79e8_base.jpg",
-      "image_local": "../assets/news/2026-09-03/665f997c386f79e8_base.jpg"
+      "image": "../assets/news/2026-09-03/8fbb3c94fcd8e6ad_base.jpg",
+      "image_local": "../assets/news/2026-09-03/8fbb3c94fcd8e6ad_base.jpg"
     },
     {
-      "title": "Thailand puts private wallets and offshore crypto transfers on notice in a major new crypto rule",
-      "link": "https://cryptoslate.com/thailand-puts-private-wallets-and-offshore-crypto-transfers-on-notice-in-a-major-new-crypto-rule/",
-      "summary": "Licensed operators must add recipient data to transfers, collect extra details above 30,000 baht and verify some self-hosted wallets. The post Thailand puts private wallets and offshore crypto transfers on notice in a major new crypto rule appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-03",
-      "date_human": "Sep 3, 2026",
-      "pub_ts": 1788413434,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/thailand-crypto-identity-checks.jpg"
-      ],
-      "image": "../assets/news/2026-09-03/4c2d15ed84354be3_base.jpg",
-      "image_local": "../assets/news/2026-09-03/4c2d15ed84354be3_base.jpg"
-    },
-    {
-      "title": "Bitcoin's fabled golden cross is coming. And USDT may be the real signal this time",
-      "link": "https://www.coindesk.com/markets/2026/09/03/bitcoin-s-fabled-golden-cross-is-coming-and-usdt-may-be-the-real-signal-this-time",
-      "summary": "Bitcoin's fabled golden cross is coming. And USDT may be the real signal this time",
+      "title": "FX has stopped reading bond yields the old way. Bitcoin should too.",
+      "link": "https://www.coindesk.com/daybook-us/2026/09/03/fx-has-stopped-reading-bond-yields-the-old-way-bitcoin-should-too",
+      "summary": "FX has stopped reading bond yields the old way. Bitcoin should too.",
       "source": "CoinDesk",
       "date": "2026-09-03",
       "date_human": "Sep 3, 2026",
-      "pub_ts": 1788418888,
+      "pub_ts": 1788434760,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/dea9176a7413ba48eea64fd2fc5d051e1e7b3740-1398x884.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/e9cece00af9ea3fd353ddf4d1516036ee006ff55-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-03/fda6672b392db3e2_base.jpg",
-      "image_local": "../assets/news/2026-09-03/fda6672b392db3e2_base.jpg"
+      "image": "../assets/news/2026-09-03/be2e8b5daa37179f_base.jpg",
+      "image_local": "../assets/news/2026-09-03/be2e8b5daa37179f_base.jpg"
+    },
+    {
+      "title": "How FBI turned Hamas' crypto fundraising pipeline into a law-enforcement trap",
+      "link": "https://cryptoslate.com/how-fbi-turned-hamas-crypto-fundraising-pipeline-into-a-law-enforcement-trap/",
+      "summary": "DOJ says three 2025 warrants seized more than $560,000 before captured systems enabled agents to obtain additional donations. The post How FBI turned Hamas’ crypto fundraising pipeline into a law-enforcement trap appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788442845,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/crypto-donation-trap.jpg"
+      ],
+      "image": "../assets/news/2026-09-03/5aecdbddf0d8731e_base.jpg",
+      "image_local": "../assets/news/2026-09-03/5aecdbddf0d8731e_base.jpg"
+    },
+    {
+      "title": "Mamdani Imposes One-Year Moratorium on Generative AI in NYC Schools",
+      "link": "https://decrypt.co/377253/mamdani-imposes-one-year-moratorium-on-generative-ai-in-nyc-schools",
+      "summary": "Nearly 600,000 students lose access to generative AI tools, while five named vendors keep metered pilots running in high schools.",
+      "source": "Decrypt",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788435401,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/09/zohran-mamdani-decrypt-style-1-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/zohran-mamdani-decrypt-style-1-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/zohran-mamdani-decrypt-style-1-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-03/2ea185497fcb56f1_base.jpg",
+      "image_local": "../assets/news/2026-09-03/2ea185497fcb56f1_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788440400,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-09-03/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-03/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "The yen is surging and it's helping bitcoin, for now",
+      "link": "https://www.coindesk.com/markets/2026/09/03/the-yen-is-surging-and-it-s-helping-bitcoin-for-now",
+      "summary": "The yen is surging and it's helping bitcoin, for now",
+      "source": "CoinDesk",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788434396,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/6217d8efe0f2ee0052067fac89d679d34c53ce27-3068x1938.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-03/af7ec90a1c6a6880_base.jpg",
+      "image_local": "../assets/news/2026-09-03/af7ec90a1c6a6880_base.jpg"
     }
   ]
 }
