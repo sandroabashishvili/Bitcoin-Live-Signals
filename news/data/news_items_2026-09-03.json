@@ -1,0 +1,193 @@
+{
+  "day_iso": "2026-09-03",
+  "generated_at_utc": "2026-09-03 04:05:21 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Coinbase co-founder joins rush for Venezuelan oil assets under new US-backed framework",
+      "link": "https://cryptoslate.com/coinbase-co-founder-joins-rush-for-venezuelan-oil-assets-under-new-us-backed-framework/",
+      "summary": "Primavera is reportedly negotiating for three fields, but no signed agreement or transfer has been announced. The post Coinbase co-founder joins rush for Venezuelan oil assets under new US-backed framework appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788407438,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/ehrsam-venezuela-field-map.jpg"
+      ],
+      "image": "../assets/news/2026-09-03/ff6a84941c1e78d5_base.jpg",
+      "image_local": "../assets/news/2026-09-03/ff6a84941c1e78d5_base.jpg"
+    },
+    {
+      "title": "Anthropic Admits Security Failures Behind Claude Hacking Incidents",
+      "link": "https://decrypt.co/377232/anthropic-security-claude-ai-hacks",
+      "summary": "After Claude models accessed real systems during cyber tests, Anthropic tightened its safeguards and warned that flawed training can encourage dangerous behavior.",
+      "source": "Decrypt",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788392764,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-anthropic-dario-amodei-2-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-anthropic-dario-amodei-2-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/06/decrypt-style-anthropic-dario-amodei-2-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-03/21d69a701e914ee8_base.jpg",
+      "image_local": "../assets/news/2026-09-03/21d69a701e914ee8_base.jpg"
+    },
+    {
+      "title": "US officials work with CrowdStrike to fight malware behind crypto theft",
+      "link": "https://cointelegraph.com/news/us-officials-crowdstrike-malware-stealing-crypto",
+      "summary": "Federal authorities and private-sector partners were part of an operation to disrupt malware that redirected about $150,000 in crypto over the last eight years.",
+      "source": "Cointelegraph",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788384435,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1HV8E147WPWCMKXKN1K3NV1/pcvirusmalware.jpg"
+      ],
+      "image": "../assets/news/2026-09-03/8ba38d17b31464e9_base.jpg",
+      "image_local": "../assets/news/2026-09-03/8ba38d17b31464e9_base.jpg"
+    },
+    {
+      "title": "DOJ says Hamas crypto seizures reached $560,000 as FBI took over fundraising sites",
+      "link": "https://www.coindesk.com/business/2026/09/02/doj-says-hamas-crypto-seizures-reached-usd560-000-as-fbi-took-over-fundraising-sites",
+      "summary": "DOJ says Hamas crypto seizures reached $560,000 as FBI took over fundraising sites",
+      "source": "CoinDesk",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788384266,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/daff9ba693e030b0bf954a2c3bd97fd9395cc604-1920x1403.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-03/e5751bc4e86c0deb_base.jpg",
+      "image_local": "../assets/news/2026-09-03/e5751bc4e86c0deb_base.jpg"
+    },
+    {
+      "title": "How stablecoins are quietly becoming the Fed's debt buyer of last resort",
+      "link": "https://cryptoslate.com/how-stablecoins-are-quietly-becoming-the-feds-debt-buyer-of-last-resort/",
+      "summary": "Dollar tokens can expand private use and Treasury-bill demand without deciding how central banks allocate reserves. The post How stablecoins are quietly becoming the Fed’s debt buyer of last resort appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788402623,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/globe-dollar-liquidity.jpg"
+      ],
+      "image": "../assets/news/2026-09-03/372cc3226d981ea4_base.jpg",
+      "image_local": "../assets/news/2026-09-03/372cc3226d981ea4_base.jpg"
+    },
+    {
+      "title": "An AI Training Data Startup Just Became Y Combinator's Fastest-Ever Unicorn",
+      "link": "https://decrypt.co/377231/afterquery-ai-tradining-data-unicorn-y-combinator",
+      "summary": "Afterquery's valuation jumped more than tenfold in five months, making it Y Combinator's fastest unicorn ever.",
+      "source": "Decrypt",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788390964,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/07/decrypt-style-woman-money-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/07/decrypt-style-woman-money-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/decrypt-style-woman-money-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-03/5c123553426f35b1_base.jpg",
+      "image_local": "../assets/news/2026-09-03/5c123553426f35b1_base.jpg"
+    },
+    {
+      "title": "Coinbase launches regulated crypto derivatives in Canada",
+      "link": "https://cointelegraph.com/news/coinbase-launches-regulated-crypto-derivatives-in-canada",
+      "summary": "Coinbase is offering eligible Canadian traders perpetual and dated futures with up to 10x leverage as major US trading platforms expand their crypto presence in Canada.",
+      "source": "Cointelegraph",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788382555,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1HT238M4JD1C8SQAQHTYKWY/people-street-futures.jpg"
+      ],
+      "image": "../assets/news/2026-09-03/17cdcb883fc24f84_base.jpg",
+      "image_local": "../assets/news/2026-09-03/17cdcb883fc24f84_base.jpg"
+    },
+    {
+      "title": "Kraken parent Payward delays IPO to second quarter of 2027 at earliest",
+      "link": "https://www.coindesk.com/business/2026/09/02/kraken-parent-payward-pushes-ipo-back-to-mid-2027-at-earliest",
+      "summary": "Kraken parent Payward delays IPO to second quarter of 2027 at earliest",
+      "source": "CoinDesk",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788379714,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/60eaa4392d735a85d254d5ac89ec08baf0b7a62e-2048x1152.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-03/3262013c90472b09_base.jpg",
+      "image_local": "../assets/news/2026-09-03/3262013c90472b09_base.jpg"
+    },
+    {
+      "title": "Nearly $10 million must escape a dying Ethereum L2 network before New Year's Eve or risk becoming unrecoverable",
+      "link": "https://cryptoslate.com/nearly-10-million-must-escape-a-dying-ethereum-network-before-new-years-eve-or-risk-becoming-unrecoverable/",
+      "summary": "The Ethereum layer 2 stopped deposits and warned that exit routes differ before its network and explorer shut down. The post Nearly $10 million must escape a dying Ethereum L2 network before New Year’s Eve or risk becoming unrecoverable appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788397259,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/silicon-last-departure.jpg"
+      ],
+      "image": "../assets/news/2026-09-03/4d4563b686862b6d_base.jpg",
+      "image_local": "../assets/news/2026-09-03/4d4563b686862b6d_base.jpg"
+    },
+    {
+      "title": "FBI Seizes $560K in Crypto Bound for Hamas, Takes Over Fundraising Sites",
+      "link": "https://decrypt.co/377230/fbi-seizes-560k-crypto-hamas",
+      "summary": "Agents seized digital assets, domains, and servers allegedly used by Hamas’ military wing to collect donations and recruit supporters.",
+      "source": "Decrypt",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788389226,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/02/money-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/money-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/money-decrypt-style-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-03/0b000c9ae71316b4_base.jpg",
+      "image_local": "../assets/news/2026-09-03/0b000c9ae71316b4_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788376275,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-09-03/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-03/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Crypto made new friends in U.S. primaries, but focus now shifts to general election",
+      "link": "https://www.coindesk.com/news-analysis/2026/09/02/crypto-made-new-friends-in-u-s-primaries-but-focus-now-shifts-to-general-election",
+      "summary": "Crypto made new friends in U.S. primaries, but focus now shifts to general election",
+      "source": "CoinDesk",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788370740,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/f2ac925a7a768a3a034001f0cf6c3ecdc6749b81-4000x2250.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-03/a1b5639d692ad601_base.jpg",
+      "image_local": "../assets/news/2026-09-03/a1b5639d692ad601_base.jpg"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-02",
-  "generated_at_utc": "2026-09-02 16:05:31 UTC",
+  "generated_at_utc": "2026-09-02 22:05:36 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,178 +16,178 @@
   "count": 12,
   "items": [
     {
-      "title": "Tether Sued Over Alleged Unlawful Freeze of $42.4 Million in USDT",
-      "link": "https://decrypt.co/377171/tether-sued-freeze-42-4-million-usdt",
-      "summary": "Two Thai businessmen claim Tether blocked access to their stablecoins months before federal authorities secured a seizure warrant.",
+      "title": "Japan's Remixpoint Dumps Ethereum, XRP in Shift to Bitcoin-Only Treasury",
+      "link": "https://decrypt.co/377228/remixpoint-xrp-ethereum-bitcoin-only",
+      "summary": "The Japanese company booked a ¥117.8 million profit after selling its ETH, SOL, XRP and DOGE, leaving roughly 1,506 BTC as its only cryptocurrency holding.",
       "source": "Decrypt",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788363733,
+      "pub_ts": 1788384665,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Tether-decrypt-style-03-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Tether-decrypt-style-03-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Tether-decrypt-style-03-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/08/bitcoin-savings-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/bitcoin-savings-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/bitcoin-savings-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-02/6113ca046d56b68a_base.jpg",
-      "image_local": "../assets/news/2026-09-02/6113ca046d56b68a_base.jpg"
+      "image": "../assets/news/2026-09-02/57b00dc4a781360a_base.jpg",
+      "image_local": "../assets/news/2026-09-02/57b00dc4a781360a_base.jpg"
     },
     {
-      "title": "What the $344M crypto political spending spree wants from Congress next",
-      "link": "https://cryptoslate.com/what-the-344m-crypto-political-spending-spree-wants-from-congress-next/",
-      "summary": "Corporate political donations hit a record $646 million over the 18 months through June, according to Public Citizen's analysis of FEC filings. Crypto political spending led every other corporate sector at $206 million, while crypto, AI, and online betting together accounted for $344 million, more than half the total. The GENIUS Act already created a […] The post What the $344M crypto political spending spree wants from Congress next appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-02",
-      "date_human": "Sep 2, 2026",
-      "pub_ts": 1788363632,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/crypto-money-capitol-path.jpg"
-      ],
-      "image": "../assets/news/2026-09-02/745a37aac92dd4f6_base.jpg",
-      "image_local": "../assets/news/2026-09-02/745a37aac92dd4f6_base.jpg"
-    },
-    {
-      "title": "G20 members tout ‘clear pathways' for digital asset innovation",
-      "link": "https://cointelegraph.com/news/g20-members-clear-pathways-digital-asset-innovation",
-      "summary": "Officials in the G20, under the US’ presidency, recognized that digital assets could support “broad-based economic growth” and called for improvements in cross-border transactions.",
+      "title": "US officials work with CrowdStrike to fight malware behind crypto theft",
+      "link": "https://cointelegraph.com/news/us-officials-crowdstrike-malware-stealing-crypto",
+      "summary": "Federal authorities and private-sector partners were part of an operation to disrupt malware that redirected about $150,000 in crypto over the last eight years.",
       "source": "Cointelegraph",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788363246,
+      "pub_ts": 1788384435,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1H85V728VXBM9KYCSEJAD01/g20-discuss-crypto-desk-table-meeting-hand-paper-people2.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1HV8E147WPWCMKXKN1K3NV1/pcvirusmalware.jpg"
       ],
-      "image": "../assets/news/2026-09-02/657c499f550a390b_base.jpg",
-      "image_local": "../assets/news/2026-09-02/657c499f550a390b_base.jpg"
+      "image": "../assets/news/2026-09-02/8ba38d17b31464e9_base.jpg",
+      "image_local": "../assets/news/2026-09-02/8ba38d17b31464e9_base.jpg"
     },
     {
-      "title": "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/09/02/crypto-long-and-short-crypto-vcs-are-mistaking-consensus-for-discipline",
-      "summary": "Crypto Long & Short: Crypto VCs are mistaking consensus for discipline",
+      "title": "USDC may be only as quantum-safe as its slowest wallet, bridge or blockchain",
+      "link": "https://cryptoslate.com/usdc-may-be-only-as-quantum-safe-as-its-slowest-wallet-bridge-or-blockchain/",
+      "summary": "The 813-logical-qubit record is not a Q-day clock, but it shows why host chains, wallets, custodians, bridges and users must move with Circle. The post USDC may be only as quantum-safe as its slowest wallet, bridge or blockchain appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788383430,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/usdc-weakest-chain-break.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/5658fc84941a0615_base.jpg",
+      "image_local": "../assets/news/2026-09-02/5658fc84941a0615_base.jpg"
+    },
+    {
+      "title": "Kraken parent Payward delays IPO to second quarter of 2027 at earliest",
+      "link": "https://www.coindesk.com/business/2026/09/02/kraken-parent-payward-pushes-ipo-back-to-mid-2027-at-earliest",
+      "summary": "Kraken parent Payward delays IPO to second quarter of 2027 at earliest",
       "source": "CoinDesk",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788362102,
+      "pub_ts": 1788379714,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/b88cc3bb0be5078f6fee0948dd9408a814ffa0c2-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/60eaa4392d735a85d254d5ac89ec08baf0b7a62e-2048x1152.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-02/090ad671c65e3337_base.jpg",
-      "image_local": "../assets/news/2026-09-02/090ad671c65e3337_base.jpg"
+      "image": "../assets/news/2026-09-02/3262013c90472b09_base.jpg",
+      "image_local": "../assets/news/2026-09-02/3262013c90472b09_base.jpg"
     },
     {
-      "title": "Norway Moves to Regulate 'Pervert Glasses,' Weighs Facial Recognition Ban",
-      "link": "https://decrypt.co/377169/norway-moves-to-regulate-pervert-glasses-weighs-facial-recognition-ban",
-      "summary": "The country's consumer watchdog went further, urging retailers to stop selling the devices until the law is clear.",
+      "title": "Top Pentagon AI Official Sold Millions in Perplexity Stock, Disclosures Show",
+      "link": "https://decrypt.co/377225/pentagon-ai-official-sold-millions-perplexity-stock",
+      "summary": "Emil Michael's latest financial filings show a summer exit from Perplexity, months after a January sale of xAI stock that reportedly netted him up to $24 million.",
       "source": "Decrypt",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788362324,
+      "pub_ts": 1788381964,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/us-government-illustration-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/us-government-illustration-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/us-government-illustration-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-02/c12fb2cce7fba126_base.jpg",
-      "image_local": "../assets/news/2026-09-02/c12fb2cce7fba126_base.jpg"
+      "image": "../assets/news/2026-09-02/9cd52bce5d9948b4_base.jpg",
+      "image_local": "../assets/news/2026-09-02/9cd52bce5d9948b4_base.jpg"
     },
     {
-      "title": "North Korea's $30M crypto cashout just handed legacy finance its best weapon to kill DeFi's US debut",
-      "link": "https://cryptoslate.com/north-koreas-30m-crypto-cashout-just-handed-legacy-finance-its-best-weapon-to-kill-defis-us-debut/",
-      "summary": "CME and ICE told Washington in May that Hyperliquid's pseudonymous, always-on markets could let sanctioned state actors circumvent enforcement. On Aug. 31, an Arkham analysis reviewed by CoinDesk found that wallets linked to North Korea's Lazarus Group had sold more than $30 million of Bitcoin through Hyperliquid over the prior three weeks. The proceeds were […] The post North Korea’s $30M crypto cashout just handed legacy finance its best weapon to kill DeFi’s US debut appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-02",
-      "date_human": "Sep 2, 2026",
-      "pub_ts": 1788359711,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/crypto-regulation-turnstile-1.jpg"
-      ],
-      "image": "../assets/news/2026-09-02/75af0f9ac439e400_base.jpg",
-      "image_local": "../assets/news/2026-09-02/75af0f9ac439e400_base.jpg"
-    },
-    {
-      "title": "Sui DeFi protocol Full Sail to wind down after Switchboard incident",
-      "link": "https://cointelegraph.com/news/full-sail-sui-wind-down-switchboard-incident",
-      "summary": "Full Sail is shutting down after an attacker removed about $91,000 from three vaults during a security incident linked to oracle provider Switchboard.",
+      "title": "Coinbase launches regulated crypto derivatives in Canada",
+      "link": "https://cointelegraph.com/news/coinbase-launches-regulated-crypto-derivatives-in-canada",
+      "summary": "Coinbase is offering eligible Canadian traders perpetual and dated futures with up to 10x leverage as major US trading platforms expand their crypto presence in Canada.",
       "source": "Cointelegraph",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788356403,
+      "pub_ts": 1788382555,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1H2YME5WK16MEE643RQSSVQ/layoffs-fired-human-resource-hr-leaving-quit-closing-breaking-news-3.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1HT238M4JD1C8SQAQHTYKWY/people-street-futures.jpg"
       ],
-      "image": "../assets/news/2026-09-02/cd4e6e3c98ddaf69_base.jpg",
-      "image_local": "../assets/news/2026-09-02/cd4e6e3c98ddaf69_base.jpg"
+      "image": "../assets/news/2026-09-02/17cdcb883fc24f84_base.jpg",
+      "image_local": "../assets/news/2026-09-02/17cdcb883fc24f84_base.jpg"
     },
     {
-      "title": "CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years",
-      "link": "https://www.coindesk.com/tech/2026/09/02/crowdstrike-and-federal-authorities-dismantle-russian-malware-that-secretly-stole-crypto-for-8-years",
-      "summary": "CrowdStrike and federal authorities dismantle Russian malware that secretly stole crypto for 8 years",
+      "title": "Solana processed 5.2 billion transactions after revenue collapsed 87% – here's what changed",
+      "link": "https://cryptoslate.com/solana-processed-5-2-billion-transactions-after-revenue-collapsed-87-heres-what-changed/",
+      "summary": "August activity reached a new high after the memecoin fee boom that inflated revenue a year earlier had faded. The post Solana processed 5.2 billion transactions after revenue collapsed 87% – here’s what changed appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788379517,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/solana-throughput-revenue-collapse.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/698a06f859d1220d_base.jpg",
+      "image_local": "../assets/news/2026-09-02/698a06f859d1220d_base.jpg"
+    },
+    {
+      "title": "Crypto made new friends in U.S. primaries, but focus now shifts to general election",
+      "link": "https://www.coindesk.com/news-analysis/2026/09/02/crypto-made-new-friends-in-u-s-primaries-but-focus-now-shifts-to-general-election",
+      "summary": "Crypto made new friends in U.S. primaries, but focus now shifts to general election",
       "source": "CoinDesk",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788354887,
+      "pub_ts": 1788370740,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/43bcebed4b4df55c6cef38bae8e8969d1a077019-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/f2ac925a7a768a3a034001f0cf6c3ecdc6749b81-4000x2250.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-02/5d1463ff90036678_base.jpg",
-      "image_local": "../assets/news/2026-09-02/5d1463ff90036678_base.jpg"
+      "image": "../assets/news/2026-09-02/a1b5639d692ad601_base.jpg",
+      "image_local": "../assets/news/2026-09-02/a1b5639d692ad601_base.jpg"
     },
     {
-      "title": "AI Billionaires Fund Ad Blitz as Data Center Opposition Hits 61%",
-      "link": "https://decrypt.co/377162/ai-billionaires-fund-ad-blitz-as-data-center-opposition-hits-61",
-      "summary": "Marc Andreessen, Ben Horowitz and OpenAI's Greg Brockman have backed the super PAC behind the campaign, which faces surging opposition.",
+      "title": "Goldman Sachs, BofA Among 21 Banks Planning Joint Dollar Stablecoin Launch",
+      "link": "https://decrypt.co/377216/goldman-sachs-bofa-banks-stablecoin",
+      "summary": "The bank-led consortium wants a U.S. dollar token live by the first half of 2027, with a euro version queued up next.",
       "source": "Decrypt",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788358604,
+      "pub_ts": 1788379264,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/ai-artificial-intelligence-decrypt-style-1-scaled-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/ai-artificial-intelligence-decrypt-style-1-scaled-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/ai-artificial-intelligence-decrypt-style-1-scaled-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/stablecoins-decrypt-style-01-scaled-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/stablecoins-decrypt-style-01-scaled-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/stablecoins-decrypt-style-01-scaled-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-02/233c3dd235773df2_base.jpg",
-      "image_local": "../assets/news/2026-09-02/233c3dd235773df2_base.jpg"
+      "image": "../assets/news/2026-09-02/1f27a9632000f5c0_base.jpg",
+      "image_local": "../assets/news/2026-09-02/1f27a9632000f5c0_base.jpg"
     },
     {
-      "title": "TRON H1 2026 Strategy Report: Dual-Engine Growth via DeFi and AI Delivers Record Traction",
-      "link": "https://cryptoslate.com/tron-h1-2026-strategy-report-dual-engine-growth-via-defi-and-ai-delivers-record-traction/",
-      "summary": "Abstract: In H1 2026, TRON bucked broader market headwinds through a twin-track strategy: solidifying its core DeFi engine while aggressively expanding into AI. As recurring deflationary mechanics anchored value across DeFi protocols, a rapid wave of AI product launches unlocked new vectors for ecosystem growth. Throughout the first half of 2026, global crypto markets faced […] The post TRON H1 2026 Strategy Report: Dual-Engine Growth via DeFi and AI Delivers Record Traction appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-02",
-      "date_human": "Sep 2, 2026",
-      "pub_ts": 1788358518,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/tron-strategy-report.jpg"
-      ],
-      "image": "../assets/news/2026-09-02/d7093cc0083d6ffc_base.jpg",
-      "image_local": "../assets/news/2026-09-02/d7093cc0083d6ffc_base.jpg"
-    },
-    {
-      "title": "BTC will hit $1M by 2030... but Arthur Hayes is buying ETH instead",
-      "link": "https://cointelegraph.com/magazine/btc-will-hit-1m-by-2030-but-arthur-hayes-is-buying-eth-instead",
-      "summary": "Arthur Hayes says Bitcoin is going to grind higher from here, but Ethereum is his number one pick due to its potential to increase “3x to 5x pretty quickly.”",
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788355800,
+      "pub_ts": 1788376275,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1FNPVV54PCXHCZQHZ8DRZWN/arthur.webp"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1FNPVV54PCXHCZQHZ8DRZWN/arthur.webp",
-      "image_local": null
+      "image": "../assets/news/2026-09-02/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-02/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "The token supercycle: everything of value is becoming programmable",
-      "link": "https://www.coindesk.com/opinion/2026/09/02/the-token-supercycle-everything-of-value-is-becoming-programmable",
-      "summary": "The token supercycle: everything of value is becoming programmable",
+      "title": "Uniswap trading volume explodes to record levels over 7 million per day – but actual fees lag far behind",
+      "link": "https://cryptoslate.com/uniswap-trading-volume-explodes-to-record-levels-over-7-million-per-day-but-actual-fees-lag-far-behind/",
+      "summary": "More than 7 million daily swaps fit the record pace, while public data cannot show what share reached fee-enabled pools. The post Uniswap trading volume explodes to record levels over 7 million per day – but actual fees lag far behind appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-02",
+      "date_human": "Sep 2, 2026",
+      "pub_ts": 1788375626,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/uniswap-crosschain-charge.jpg"
+      ],
+      "image": "../assets/news/2026-09-02/abc60c5394c02996_base.jpg",
+      "image_local": "../assets/news/2026-09-02/abc60c5394c02996_base.jpg"
+    },
+    {
+      "title": "New Jersey becomes first state to ask Supreme Court to weigh in on prediction markets",
+      "link": "https://www.coindesk.com/policy/2026/09/02/new-jersey-becomes-first-state-to-ask-supreme-court-to-weigh-in-on-prediction-markets",
+      "summary": "New Jersey becomes first state to ask Supreme Court to weigh in on prediction markets",
       "source": "CoinDesk",
       "date": "2026-09-02",
       "date_human": "Sep 2, 2026",
-      "pub_ts": 1788354000,
+      "pub_ts": 1788369828,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/436253b5496708d8dc3a743f0f035ee3c2284db4-5700x3800.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/7912f8af2cf1731212d8aac5aa93c6fbbde00c1e-1280x622.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-02/518debb0da101eab_base.jpg",
-      "image_local": "../assets/news/2026-09-02/518debb0da101eab_base.jpg"
+      "image": "../assets/news/2026-09-02/9293e1e03cb5de35_base.jpg",
+      "image_local": "../assets/news/2026-09-02/9293e1e03cb5de35_base.jpg"
     }
   ]
 }
