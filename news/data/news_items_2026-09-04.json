@@ -1,0 +1,193 @@
+{
+  "day_iso": "2026-09-04",
+  "generated_at_utc": "2026-09-04 04:05:26 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "U.S. banking agency gives blockchain bank OpenReserve initial OK to operate",
+      "link": "https://www.coindesk.com/policy/2026/09/03/u-s-banking-agency-gives-blockchain-bank-openreserve-initial-ok-to-operate",
+      "summary": "U.S. banking agency gives blockchain bank OpenReserve initial OK to operate",
+      "source": "CoinDesk",
+      "date": "2026-09-04",
+      "date_human": "Sep 4, 2026",
+      "pub_ts": 1788492410,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/7150e9147434709d0f26c49d26f21b2219558bef-2803x1577.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-04/ac20676f5988a402_base.jpg",
+      "image_local": "../assets/news/2026-09-04/ac20676f5988a402_base.jpg"
+    },
+    {
+      "title": "Monad's mainnet upgrade makes storing data together 98% cheaper",
+      "link": "https://cryptoslate.com/monads-mainnet-upgrade-makes-storing-data-together-98-cheaper/",
+      "summary": "A block-pinned mainnet call reproduced the 8,100-to-100 step-down and showed the cold charge returning at slot 128. The post Monad’s mainnet upgrade makes storing data together 98% cheaper appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-04",
+      "date_human": "Sep 4, 2026",
+      "pub_ts": 1788489028,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/monad-mip8-storage-page-warming.jpg"
+      ],
+      "image": "../assets/news/2026-09-04/1d0fd97f441255a6_base.jpg",
+      "image_local": "../assets/news/2026-09-04/1d0fd97f441255a6_base.jpg"
+    },
+    {
+      "title": "Tether sued over frozen ‘pig butcher' coins, 6,600 students get crypto loans: Asia Express",
+      "link": "https://cointelegraph.com/magazine/tether-sued-over-frozen-pig-butcher-coins-6600-students-get-crypto-loans-asia-express",
+      "summary": "Thai businessmen sue Tether over $42M frozen USDT tied to pig butchering scam, Aussie crypto firms face big fines unless they meet licensing deadline.",
+      "source": "Cointelegraph",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788478809,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1MT8AVRA0N4FG4HK9PK2CZ5/asia-express-11.jpg"
+      ],
+      "image": "../assets/news/2026-09-04/8f2e136ed9d7d34a_base.jpg",
+      "image_local": "../assets/news/2026-09-04/8f2e136ed9d7d34a_base.jpg"
+    },
+    {
+      "title": "Utah Becomes First State to Target VPNs in Age-Verification Crackdown",
+      "link": "https://decrypt.co/377370/utah-websites-check-vpn-age-verification",
+      "summary": "Privacy advocates say the law raises First Amendment questions the courts have yet to address.",
+      "source": "Decrypt",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788473764,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-shhh-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-shhh-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/decrypt-style-shhh-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-04/3b81d0d9a3bc09cf_base.jpg",
+      "image_local": "../assets/news/2026-09-04/3b81d0d9a3bc09cf_base.jpg"
+    },
+    {
+      "title": "AMC CEO blasts Robinhood for stock token, putting synthetic shares in spotlight",
+      "link": "https://www.coindesk.com/business/2026/09/03/amc-ceo-blasts-robinhood-for-stock-token-putting-synthetic-shares-in-spotlight",
+      "summary": "AMC CEO blasts Robinhood for stock token, putting synthetic shares in spotlight",
+      "source": "CoinDesk",
+      "date": "2026-09-04",
+      "date_human": "Sep 4, 2026",
+      "pub_ts": 1788491005,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/38cd2b70cdca484bd9ec02cc2f08f9f8d4a1c857-2560x1707.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-04/27b0598aed57b524_base.jpg",
+      "image_local": "../assets/news/2026-09-04/27b0598aed57b524_base.jpg"
+    },
+    {
+      "title": "Scan reveals 96,000 fake-address outputs clogging Bitcoin's unspent database",
+      "link": "https://cryptoslate.com/scan-reveals-96000-fake-address-outputs-clogging-bitcoins-unspent-database/",
+      "summary": "Bitquery’s scan shows why cheap OP_RETURN repetition and fake-address text impose radically different costs on Bitcoin nodes. The post Scan reveals 96,000 fake-address outputs clogging Bitcoin’s unspent database appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-04",
+      "date_human": "Sep 4, 2026",
+      "pub_ts": 1788481215,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-text-node-state-op-return-vs-fake-address.jpg"
+      ],
+      "image": "../assets/news/2026-09-04/b44893312bd1cfa9_base.jpg",
+      "image_local": "../assets/news/2026-09-04/b44893312bd1cfa9_base.jpg"
+    },
+    {
+      "title": "CFTC files to dismiss CME lawsuit over crypto perpetual futures",
+      "link": "https://cointelegraph.com/news/cftc-dismiss-cme-lawsuit-crypto-perpetual-futures",
+      "summary": "The CFTC’s lawyers called the lawsuit “much ado about nothing,“ claiming that the CME Group lacked standing to file and argued against its claims over crypto perpetual futures.",
+      "source": "Cointelegraph",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788469753,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1MD85WHZ0X0XYT5WKK8H3PD/man-documents-cftc-1.jpg"
+      ],
+      "image": "../assets/news/2026-09-04/6f42bfcb4c537f18_base.jpg",
+      "image_local": "../assets/news/2026-09-04/6f42bfcb4c537f18_base.jpg"
+    },
+    {
+      "title": "Bitcoin Miner Ditches Site for AI Deal That Could Top $1.2 Billion",
+      "link": "https://decrypt.co/377363/bitcoin-mine-ai-deal-1-2-billion",
+      "summary": "The projected revenue requires two contract extensions, while an option for more computing capacity could bring the total above $3 billion.",
+      "source": "Decrypt",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788471065,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/bitcoin-mining-decrypt-style-03-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/bitcoin-mining-decrypt-style-03-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/bitcoin-mining-decrypt-style-03-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-04/d5a20f296a8e0dee_base.jpg",
+      "image_local": "../assets/news/2026-09-04/d5a20f296a8e0dee_base.jpg"
+    },
+    {
+      "title": "Standard Chartered brings spot crypto trading to Dubai FX platform",
+      "link": "https://www.coindesk.com/business/2026/09/03/standard-chartered-first-top-global-bank-to-offer-bitcoin-and-ether-trading-in-uae",
+      "summary": "Standard Chartered brings spot crypto trading to Dubai FX platform",
+      "source": "CoinDesk",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788451082,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/340d393dde0aee90bc02178a19a6f92588da4886-3200x1800.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-04/11cb16758070f9ee_base.jpg",
+      "image_local": "../assets/news/2026-09-04/11cb16758070f9ee_base.jpg"
+    },
+    {
+      "title": "Parked Coldcard loot begins moving as attacker routes $1.6M in stolen Bitcoin to Ethereum",
+      "link": "https://cryptoslate.com/parked-coldcard-loot-begins-moving-as-attacker-routes-1-6m-in-stolen-bitcoin-to-ethereum/",
+      "summary": "Bitquery traced 20.45 BTC through 34 Sept. 2–3 swaps, and the main destination later held roughly 5 ETH less. The post Parked Coldcard loot begins moving as attacker routes $1.6M in stolen Bitcoin to Ethereum appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788475813,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/coldcard-bitcoin-ethereum-cross-chain.jpg"
+      ],
+      "image": "../assets/news/2026-09-04/ac5592d8977da765_base.jpg",
+      "image_local": "../assets/news/2026-09-04/ac5592d8977da765_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788467414,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-09-04/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-04/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "What Is Pons? The Robinhood Chain Meme Coin Factory Token Up 18,000% Since July",
+      "link": "https://decrypt.co/377349/pons-robinhood-chain-meme-coin-token-factory",
+      "summary": "PONS, the token behind Robinhood Chain's biggest meme coin factory, flipped CASHCAT to become the chain's largest cryptocurrency by market cap—and its chart looks like a hockey stick.",
+      "source": "Decrypt",
+      "date": "2026-09-03",
+      "date_human": "Sep 3, 2026",
+      "pub_ts": 1788468364,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/money-printer-decrypt-style-scaled-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/money-printer-decrypt-style-scaled-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/money-printer-decrypt-style-scaled-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-04/9f127b8942a5e112_base.jpg",
+      "image_local": "../assets/news/2026-09-04/9f127b8942a5e112_base.jpg"
+    }
+  ]
+}
