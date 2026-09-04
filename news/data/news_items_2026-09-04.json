@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-04",
-  "generated_at_utc": "2026-09-04 10:05:29 UTC",
+  "generated_at_utc": "2026-09-04 16:05:27 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,120 +16,164 @@
   "count": 12,
   "items": [
     {
-      "title": "AMC chief criticizes Robinhood's tokenized stock plan",
-      "link": "https://cointelegraph.com/news/amc-ceo-criticizes-robinhoods-tokenized-stock",
-      "summary": "AMC’s CEO criticized Robinhood’s tokenized stock offerings for being unregulated in the US and said he will request an investigation from an external securities counsel.",
-      "source": "Cointelegraph",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788515812,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1NX00RHX337C9BD43FDVDSS/hi-robinhood-down-several-times-as-dj-sees-biggest-one-day-gains-1.jpg"
-      ],
-      "image": "../assets/news/2026-09-04/af7b825611b052b1_base.jpg",
-      "image_local": "../assets/news/2026-09-04/af7b825611b052b1_base.jpg"
-    },
-    {
-      "title": "Bitcoin just crossed the line that ended 4 out of 5 bear markets, but one deadly historical trap could still trigger a crash to $62,000",
-      "link": "https://cryptoslate.com/bitcoin-just-crossed-the-line-that-ended-4-out-of-5-bear-markets-but-one-deadly-historical-trap-could-still-trigger-a-crash-to-62000/",
-      "summary": "Bitcoin registered an intraday high above $82,000 on Sept. 3, pushing above the 50-week moving average that Galaxy Research says marked the definitive end of four of Bitcoin's five comparable completed bear markets. Galaxy's signal requires a weekly close above that line, and the Sept. 3 push through it happened well before the week's close. […] The post Bitcoin just crossed the line that ended 4 out of 5 bear markets, but one deadly historical trap could still trigger a crash to $62,000 appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788515434,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-ridge-reclaim.jpg"
-      ],
-      "image": "../assets/news/2026-09-04/4f24460cb31b51c0_base.jpg",
-      "image_local": "../assets/news/2026-09-04/4f24460cb31b51c0_base.jpg"
-    },
-    {
-      "title": "AMC CEO Calls Robinhood Stock Tokens 'Contemptible' and 'Vile'",
-      "link": "https://decrypt.co/377378/amc-ceo-calls-robinhood-stock-tokens-contemptible-and-vile",
-      "summary": "Adam Aron says AMC Entertainment has no connection to the tokens and is putting outside securities counsel on the case.",
+      "title": "OpenAI Agents Hack German Website to Share Rule-Breaking Tactics: Report",
+      "link": "https://decrypt.co/377412/openai-agents-hack-german-website",
+      "summary": "The activity began in May and remained undisclosed until Friday, a day after OpenAI launched Astra and U.S. lawmakers proposed restrictions on advanced AI.",
       "source": "Decrypt",
       "date": "2026-09-04",
       "date_human": "Sep 4, 2026",
-      "pub_ts": 1788513896,
+      "pub_ts": 1788536164,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/02/amc-cinemas-decrypt-style-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/amc-cinemas-decrypt-style-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/amc-cinemas-decrypt-style-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-04/ee20c45090453d7a_base.jpg",
-      "image_local": "../assets/news/2026-09-04/ee20c45090453d7a_base.jpg"
+      "image": "../assets/news/2026-09-04/0758d3684812fb83_base.jpg",
+      "image_local": "../assets/news/2026-09-04/0758d3684812fb83_base.jpg"
     },
     {
-      "title": "Live updates: Bitcoin ETFs take $731 million, their biggest day since January",
-      "link": "https://www.coindesk.com/business/2026/09/04/live-updates-bitcoin-etfs-take-usd731-million-their-biggest-day-since-january",
-      "summary": "Live updates: Bitcoin ETFs take $731 million, their biggest day since January",
-      "source": "CoinDesk",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788507247,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/4f4026bacc3bff27d53812946dd3e1d5513fff7f-1398x786.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-04/897dfb47abdef420_base.jpg",
-      "image_local": "../assets/news/2026-09-04/897dfb47abdef420_base.jpg"
-    },
-    {
-      "title": "Bitcoin ETF inflows hit $731M, highest since January as BTC reclaims $80K",
-      "link": "https://cointelegraph.com/markets/bitcoin-etf-draw-731-million-highest-january-btc-80k",
-      "summary": "US Bitcoin ETFs drew $730.9 million on Thursday as Bitcoin reclaimed $80,000, though CryptoQuant flagged weak fresh demand and a key $83,000 test.",
-      "source": "Cointelegraph",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788507433,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1NJXA13RF9N1Q13C8RH5D6G/surfing-blockchain-wave-etf-1.jpg"
-      ],
-      "image": "../assets/news/2026-09-04/9e19e9e22f3bab9f_base.jpg",
-      "image_local": "../assets/news/2026-09-04/9e19e9e22f3bab9f_base.jpg"
-    },
-    {
-      "title": "CLARITY Act may be heading for lame duck after House Republicans slash the calendar",
-      "link": "https://cryptoslate.com/clarity-act-may-be-heading-for-lame-duck-after-house-republicans-slash-the-calendar/",
-      "summary": "The Senate’s procedural step lands Sept. 15, just two days before the House’s newly scheduled departure. The post CLARITY Act may be heading for lame duck after House Republicans slash the calendar appeared first on CryptoSlate.",
+      "title": "Why GENIUS could leave digital dollars vulnerable to sudden blockchain network ‘bank runs'",
+      "link": "https://cryptoslate.com/why-genius-could-leave-digital-dollars-vulnerable-to-sudden-blockchain-network-bank-runs/",
+      "summary": "A Federal Reserve staff paper shows how congestion and weak network effects can push holders toward redemptions or chain migration even with safe backing. The post Why GENIUS could leave digital dollars vulnerable to sudden blockchain network ‘bank runs’ appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-04",
       "date_human": "Sep 4, 2026",
-      "pub_ts": 1788510615,
+      "pub_ts": 1788535813,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/clarity-act-exit.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/ethereum-fee-turnstile.jpg"
       ],
-      "image": "../assets/news/2026-09-04/b80a4b46f5998398_base.jpg",
-      "image_local": "../assets/news/2026-09-04/b80a4b46f5998398_base.jpg"
+      "image": "../assets/news/2026-09-04/89d240538271bea8_base.jpg",
+      "image_local": "../assets/news/2026-09-04/89d240538271bea8_base.jpg"
     },
     {
-      "title": "Utah Becomes First State to Target VPNs in Age-Verification Crackdown",
-      "link": "https://decrypt.co/377370/utah-websites-check-vpn-age-verification",
-      "summary": "Privacy advocates say the law raises First Amendment questions the courts have yet to address.",
-      "source": "Decrypt",
-      "date": "2026-09-03",
-      "date_human": "Sep 3, 2026",
-      "pub_ts": 1788473764,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-shhh-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-shhh-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/decrypt-style-shhh-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-04/3b81d0d9a3bc09cf_base.jpg",
-      "image_local": "../assets/news/2026-09-04/3b81d0d9a3bc09cf_base.jpg"
-    },
-    {
-      "title": "OpenAI puts $1 billion behind cyber defense after unveiling AI that can find zero-days",
-      "link": "https://www.coindesk.com/tech/2026/09/04/openai-puts-usd1-billion-behind-cyber-defense-after-unveiling-ai-that-can-find-zero-days",
-      "summary": "OpenAI puts $1 billion behind cyber defense after unveiling AI that can find zero-days",
+      "title": "AMC CEO tells Robinhood to stop issuing stock token as industry executives weigh in",
+      "link": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
+      "summary": "AMC CEO tells Robinhood to stop issuing stock token as industry executives weigh in",
       "source": "CoinDesk",
       "date": "2026-09-04",
       "date_human": "Sep 4, 2026",
-      "pub_ts": 1788500983,
+      "pub_ts": 1788533760,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/d2b4b82edc6ff0637b37466e20cadf90ebe36839-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/922887aed0e47fe82d8ea0f44a3116b66c314232-5000x3383.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-04/ac4944585048e4b0_base.jpg",
-      "image_local": "../assets/news/2026-09-04/ac4944585048e4b0_base.jpg"
+      "image": "../assets/news/2026-09-04/517910be4061d22f_base.jpg",
+      "image_local": "../assets/news/2026-09-04/517910be4061d22f_base.jpg"
+    },
+    {
+      "title": "Revolut, OpenReserve get preliminary US bank approval with crypto plans",
+      "link": "https://cointelegraph.com/news/revolut-openreserve-occ-approval-national-bank-crypto-plan",
+      "summary": "Revolut and OpenReserve received preliminary OCC approval to form US national banks, with both planning cryptocurrency and stablecoin-related services.",
+      "source": "Cointelegraph",
+      "date": "2026-09-04",
+      "date_human": "Sep 4, 2026",
+      "pub_ts": 1788528870,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1P74NCJ7VVQEWSD26T81DZH/digital-bank-2.jpg"
+      ],
+      "image": "../assets/news/2026-09-04/5dde7ff461222a62_base.jpg",
+      "image_local": "../assets/news/2026-09-04/5dde7ff461222a62_base.jpg"
+    },
+    {
+      "title": "Bitcoin Slides as Blowout Jobs Report Revives Fed Hike Odds",
+      "link": "https://decrypt.co/377414/bitcoin-slides-blowout-jobs-report-fed-hike-odds",
+      "summary": "The Dow dropped 226 points and Bitcoin erased some of its gains after August payrolls tripled estimates, pushing September rate-hike odds to 58%.",
+      "source": "Decrypt",
+      "date": "2026-09-04",
+      "date_human": "Sep 4, 2026",
+      "pub_ts": 1788534808,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/01/nyse-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/nyse-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/nyse-decrypt-style-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-04/7b204a1d530d27d3_base.jpg",
+      "image_local": "../assets/news/2026-09-04/7b204a1d530d27d3_base.jpg"
+    },
+    {
+      "title": "Cracking 1.33 Trillion Daily Tokens: B.AI Powers the “AI Grid” with Full-Stack Infrastructure to Fuel the Agentic Era",
+      "link": "https://cryptoslate.com/cracking-1-33-trillion-daily-tokens-b-ai-powers-the-ai-grid-with-full-stack-infrastructure-to-fuel-the-agentic-era/",
+      "summary": "B.AI, a next-generation AI infrastructure platform, recently set off a developer frenzy by offering free access to top-tier models. Within days, daily token throughput across the platform crossed 1.33 trillion—a historic milestone. The record-breaking figure underscores the campaign's explosive rollout, but it marks only the first step in B.AI's broader strategic roadmap. Moving beyond traditional […] The post Cracking 1.33 Trillion Daily Tokens: B.AI Powers the “AI Grid” with Full-Stack Infrastructure to Fuel the Agentic Era appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-04",
+      "date_human": "Sep 4, 2026",
+      "pub_ts": 1788533914,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/b-ai-cover-1.jpg"
+      ],
+      "image": "../assets/news/2026-09-04/b6f15d426ff9a396_base.jpg",
+      "image_local": "../assets/news/2026-09-04/b6f15d426ff9a396_base.jpg"
+    },
+    {
+      "title": "From warning to listing: UK's largest retail investment platform opens access to crypto ETNs",
+      "link": "https://www.coindesk.com/business/2026/09/04/from-warning-to-listing-uk-s-largest-wealth-platform-opens-access-to-crypto-etns",
+      "summary": "From warning to listing: UK's largest retail investment platform opens access to crypto ETNs",
+      "source": "CoinDesk",
+      "date": "2026-09-04",
+      "date_human": "Sep 4, 2026",
+      "pub_ts": 1788531791,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/ee3c156fd6556c91ea2313190a0bb068f3590737-1264x794.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-04/0ea842577a6f2e22_base.jpg",
+      "image_local": "../assets/news/2026-09-04/0ea842577a6f2e22_base.jpg"
+    },
+    {
+      "title": "Token buybacks are booming. But are they good for crypto projects?",
+      "link": "https://cointelegraph.com/magazine/token-buybacks-are-booming-but-are-they-good-for-crypto-projects",
+      "summary": "Crypto projects are spending hundreds of millions buying their own tokens. But are buybacks creating lasting value — or just making tokens look more valuable than they really are?",
+      "source": "Cointelegraph",
+      "date": "2026-09-04",
+      "date_human": "Sep 4, 2026",
+      "pub_ts": 1788528600,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1K8AJR546DD0XM3RM8FJK76/magazine-tokenomics.jpg"
+      ],
+      "image": "../assets/news/2026-09-04/cc63a0677ac5915b_base.jpg",
+      "image_local": "../assets/news/2026-09-04/cc63a0677ac5915b_base.jpg"
+    },
+    {
+      "title": "BitMEX Co-Founder Ben Delo Gives Farage's Reform UK Another £4 Million",
+      "link": "https://decrypt.co/377411/bitmex-co-founder-ben-delo-gives-farages-reform-uk-another-4-million",
+      "summary": "Two April payments supplied three-quarters of the party's donations for the quarter, where the next largest single gift was £180,000.",
+      "source": "Decrypt",
+      "date": "2026-09-04",
+      "date_human": "Sep 4, 2026",
+      "pub_ts": 1788534600,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/06/nigel-farage-decrypt-style-04-2-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/06/nigel-farage-decrypt-style-04-2-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/06/nigel-farage-decrypt-style-04-2-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-04/41aa8bf23f37649a_base.jpg",
+      "image_local": "../assets/news/2026-09-04/41aa8bf23f37649a_base.jpg"
+    },
+    {
+      "title": "Wall Street just poured nearly $900 million into Bitcoin and Ethereum ETFs",
+      "link": "https://cryptoslate.com/wall-street-just-poured-nearly-900-million-into-bitcoin-and-ethereum-etfs/",
+      "summary": "Bitcoin funds recorded their third-biggest inflow day of 2026, while Ether products reversed the prior session's outflow. The post Wall Street just poured nearly $900 million into Bitcoin and Ethereum ETFs appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-04",
+      "date_human": "Sep 4, 2026",
+      "pub_ts": 1788533726,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-ether-etf-gateways.jpg"
+      ],
+      "image": "../assets/news/2026-09-04/fdd5a7436b2fefcf_base.jpg",
+      "image_local": "../assets/news/2026-09-04/fdd5a7436b2fefcf_base.jpg"
+    },
+    {
+      "title": "U.S. Sheriff's association shifts opposition stance to Clarity Act to 'neutral'",
+      "link": "https://www.coindesk.com/policy/2026/09/04/u-s-sheriff-s-association-shifts-opposition-stance-to-clarity-act-to-neutral",
+      "summary": "U.S. Sheriff's association shifts opposition stance to Clarity Act to 'neutral'",
+      "source": "CoinDesk",
+      "date": "2026-09-04",
+      "date_human": "Sep 4, 2026",
+      "pub_ts": 1788531154,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/9a17fcb061c085aa06628eb11086287448b35a09-5701x3801.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-04/f5d99b20d0a00226_base.jpg",
+      "image_local": "../assets/news/2026-09-04/f5d99b20d0a00226_base.jpg"
     },
     {
       "title": "Here's what happened in crypto today",
@@ -138,56 +182,12 @@
       "source": "Cointelegraph",
       "date": "2026-09-04",
       "date_human": "Sep 4, 2026",
-      "pub_ts": 1788502949,
+      "pub_ts": 1788528600,
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
       "image": "../assets/news/2026-09-04/57bd1a60f4d67ba1_base.jpg",
       "image_local": "../assets/news/2026-09-04/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "After selling every coin it owned, a public company is using Strategy's STRC playbook to restart its $827M Bitcoin treasury plan",
-      "link": "https://cryptoslate.com/after-selling-every-coin-it-owned-a-public-company-is-using-strategys-strc-playbook-to-restart-its-827m-bitcoin-treasury-plan/",
-      "summary": "The existing order no longer restrains the company, while its proposed first raise covers just 1.51% of an $827 million Bitcoin target before allocation. The post After selling every coin it owned, a public company is using Strategy’s STRC playbook to restart its $827M Bitcoin treasury plan appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788503403,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/vacated-bitcoin-bridge-.jpg"
-      ],
-      "image": "../assets/news/2026-09-04/e7398965b3311798_base.jpg",
-      "image_local": "../assets/news/2026-09-04/e7398965b3311798_base.jpg"
-    },
-    {
-      "title": "Bitcoin Miner Ditches Site for AI Deal That Could Top $1.2 Billion",
-      "link": "https://decrypt.co/377363/bitcoin-mine-ai-deal-1-2-billion",
-      "summary": "The projected revenue requires two contract extensions, while an option for more computing capacity could bring the total above $3 billion.",
-      "source": "Decrypt",
-      "date": "2026-09-03",
-      "date_human": "Sep 3, 2026",
-      "pub_ts": 1788471065,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/07/bitcoin-mining-decrypt-style-03-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/bitcoin-mining-decrypt-style-03-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/bitcoin-mining-decrypt-style-03-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-04/d5a20f296a8e0dee_base.jpg",
-      "image_local": "../assets/news/2026-09-04/d5a20f296a8e0dee_base.jpg"
-    },
-    {
-      "title": "One full bitcoin now buys a little more than 18 ounces of gold, the most since January",
-      "link": "https://www.coindesk.com/markets/2026/09/04/one-full-bitcoin-now-buys-a-little-more-than-18-ounces-of-gold-the-most-since-january",
-      "summary": "One full bitcoin now buys a little more than 18 ounces of gold, the most since January",
-      "source": "CoinDesk",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788498634,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/4f043d332f866a0caec6c3e16fd6913c453ca418-2854x1488.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-04/5738d92d25fadee3_base.jpg",
-      "image_local": "../assets/news/2026-09-04/5738d92d25fadee3_base.jpg"
     }
   ]
 }
