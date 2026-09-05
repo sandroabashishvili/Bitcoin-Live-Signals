@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-05",
-  "generated_at_utc": "2026-09-05 10:05:26 UTC",
+  "generated_at_utc": "2026-09-05 16:05:25 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,32 +16,92 @@
   "count": 12,
   "items": [
     {
-      "title": "Robinhood rejects AMC CEO's demand to halt AMC tokenized ‘meme stock' which offers no shareholder rights",
-      "link": "https://cryptoslate.com/robinhood-rejects-amc-ceos-demand-to-halt-amc-tokenized-stock-offering-holders-no-shareholder-rights/",
-      "summary": "Adam Aron threatened legal and SEC scrutiny; Robinhood's legal chief said the Jersey-issued debt product will remain. The post Robinhood rejects AMC CEO’s demand to halt AMC tokenized ‘meme stock’ which offers no shareholder rights appeared first on CryptoSlate.",
+      "title": "Solana's plan to cut account deposits by 90% could weaken a reason to hold SOL",
+      "link": "https://cryptoslate.com/solanas-plan-to-cut-account-deposits-by-90-could-weaken-a-reason-to-hold-sol/",
+      "summary": "Only the first cut is live; the full plan would require tenfold persistent account state to preserve the old minimum SOL reserves. The post Solana’s plan to cut account deposits by 90% could weaken a reason to hold SOL appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-05",
       "date_human": "Sep 5, 2026",
-      "pub_ts": 1788602450,
+      "pub_ts": 1788622217,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/amc-robinhood-token-split.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/solana-rent-growth-hurdle.jpg"
       ],
-      "image": "../assets/news/2026-09-05/d9309d5de47172aa_base.jpg",
-      "image_local": "../assets/news/2026-09-05/d9309d5de47172aa_base.jpg"
+      "image": "../assets/news/2026-09-05/34fc3428704cf439_base.jpg",
+      "image_local": "../assets/news/2026-09-05/34fc3428704cf439_base.jpg"
     },
     {
-      "title": "Bitcoin ETF inflows hit $3.8B in strongest three-week stretch of 2026",
-      "link": "https://cointelegraph.com/markets/bitcoin-etf-inflows-3-8-billion-strongest-three-week-run-2026",
-      "summary": "US spot Bitcoin ETFs drew nearly $1 billion in the latest week as Friday inflows stayed positive despite Bitcoin briefly falling below $79,000.",
+      "title": "Update Your Browser: Google Patches Chrome Flaw Hackers Were Already Using",
+      "link": "https://decrypt.co/377501/google-chrome-zero-day-exploited",
+      "summary": "The update fixes a high-severity flaw in Chrome’s V8 engine, but Google has not revealed who is using it or whom they targeted.",
+      "source": "Decrypt",
+      "date": "2026-09-05",
+      "date_human": "Sep 5, 2026",
+      "pub_ts": 1788620464,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-05/7f3e8bb9141d9c1f_base.jpg",
+      "image_local": "../assets/news/2026-09-05/7f3e8bb9141d9c1f_base.jpg"
+    },
+    {
+      "title": "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
+      "link": "https://www.coindesk.com/business/2026/09/02/british-investor-thought-he-lost-usd2-000-in-bitcoin-in-2012-he-just-recovered-usd4-5-million",
+      "summary": "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
+      "source": "CoinDesk",
+      "date": "2026-09-05",
+      "date_human": "Sep 5, 2026",
+      "pub_ts": 1788609600,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/54662a5b70f0b4676e2b252594789b82117e88e3-1920x1281.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-05/1d88edb330d8e3f5_base.jpg",
+      "image_local": "../assets/news/2026-09-05/1d88edb330d8e3f5_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
       "date": "2026-09-05",
       "date_human": "Sep 5, 2026",
-      "pub_ts": 1788595386,
+      "pub_ts": 1788606979,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1R63FX0B48YA7B473RBB8TA/hi-bitcoin-etf-infrastructure-investment-2.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-09-05/9c4246e46fc05842_base.jpg",
-      "image_local": "../assets/news/2026-09-05/9c4246e46fc05842_base.jpg"
+      "image": "../assets/news/2026-09-05/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-05/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Zcash breaks $1,000 as its spot ETF crosses $400 million in assets",
+      "link": "https://cryptoslate.com/zcash-breaks-1000-as-its-spot-etf-crosses-400-million-in-assets/",
+      "summary": "Zcash broke above $1,000 on Sept. 4, pushing the asset value of Grayscale’s recently listed ZCSH ETF past $400 million less than two weeks after its debut. ZEC registered an intraday high of $1,050.70, up roughly 20% over 24 hours and nearly 100% over the past month. The move lifted ZCSH’s assets to $414.7 million […] The post Zcash breaks $1,000 as its spot ETF crosses $400 million in assets appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-05",
+      "date_human": "Sep 5, 2026",
+      "pub_ts": 1788616805,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/zcash-1000-zcsh-etf-privacy-rally.jpg"
+      ],
+      "image": "../assets/news/2026-09-05/187157b32d4df178_base.jpg",
+      "image_local": "../assets/news/2026-09-05/187157b32d4df178_base.jpg"
+    },
+    {
+      "title": "AI Just Solved a 350-Year-Old Math Problem By Writing the Longest Proof Ever",
+      "link": "https://decrypt.co/377491/ai-solved-350-year-old-math-problem",
+      "summary": "Anthropic says Claude spent 11 days turning Fermat's Last Theorem into 13 million lines of code a computer can check itself, no human trust required",
+      "source": "Decrypt",
+      "date": "2026-09-05",
+      "date_human": "Sep 5, 2026",
+      "pub_ts": 1788613263,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2019/12/math-1500720_1920-gID_4.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2019/12/math-1500720_1920-gID_4.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2019/12/math-1500720_1920-gID_4.jpg"
+      ],
+      "image": "../assets/news/2026-09-05/ab710bd61342910c_base.jpg",
+      "image_local": "../assets/news/2026-09-05/ab710bd61342910c_base.jpg"
     },
     {
       "title": "XRP Ledger has fewer active accounts than last year, but bigger trades and more value",
@@ -56,6 +116,34 @@
       ],
       "image": "../assets/news/2026-09-05/13ebcfb4fa499ad0_base.jpg",
       "image_local": "../assets/news/2026-09-05/13ebcfb4fa499ad0_base.jpg"
+    },
+    {
+      "title": "Poland upholds crypto bill veto as Zondacrypto scandal widens",
+      "link": "https://cointelegraph.com/news/poland-upholds-crypto-bill-veto-zondacrypto-scandal-widens",
+      "summary": "Polish lawmakers failed to overturn a presidential veto of crypto legislation as the Zondacrypto investigation expands and its Estonian operator enters bankruptcy.",
+      "source": "Cointelegraph",
+      "date": "2026-09-05",
+      "date_human": "Sep 5, 2026",
+      "pub_ts": 1788605069,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1RDG59G42A1KT2B2MD6EQRF/poland.png"
+      ],
+      "image": "../assets/news/2026-09-05/5540a388bf8c6a6a_base.jpg",
+      "image_local": "../assets/news/2026-09-05/5540a388bf8c6a6a_base.jpg"
+    },
+    {
+      "title": "How the “buy, borrow, die” tax trade is quietly loading DeFi pools with hidden credit risk",
+      "link": "https://cryptoslate.com/how-the-buy-borrow-die-tax-trade-is-quietly-loading-defi-pools-with-hidden-credit-risk/",
+      "summary": "Imagine someone who bought ETH for $1,000, watched it climb to $4,000, and now wants to cash out $1,000. Selling one-quarter of the ETH would provide the cash, but it would also realize a $750 gain under US tax treatment of digital assets held for investment. However, DeFi offers another way. The owner can deposit […] The post How the “buy, borrow, die” tax trade is quietly loading DeFi pools with hidden credit risk appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-05",
+      "date_human": "Sep 5, 2026",
+      "pub_ts": 1788609605,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/ethereum-liquidation-seesaw.jpg"
+      ],
+      "image": "../assets/news/2026-09-05/1d1488b0d9bdc46c_base.jpg",
+      "image_local": "../assets/news/2026-09-05/1d1488b0d9bdc46c_base.jpg"
     },
     {
       "title": "TikTok's Parent Company Just Borrowed $30 Billion to Go All-In on AI",
@@ -74,34 +162,6 @@
       "image_local": "../assets/news/2026-09-05/114c44465875430d_base.jpg"
     },
     {
-      "title": "Wall Street is turning AI's massive electricity appetite into a $61 billion bond market",
-      "link": "https://cryptoslate.com/wall-street-is-turning-ais-massive-electricity-appetite-into-a-61-billion-bond-market/",
-      "summary": "Every interaction with AI uses electricity in a data center. Servers calculate the answer, cooling equipment carries away the heat, and network connections send the result back to the user. Multiply that process across millions of requests and the electric bill becomes one of the facility's highest costs, while access to enough power determines how […] The post Wall Street is turning AI’s massive electricity appetite into a $61 billion bond market appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-05",
-      "date_human": "Sep 5, 2026",
-      "pub_ts": 1788591644,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/megawatts-into-bonds.jpg"
-      ],
-      "image": "../assets/news/2026-09-05/c4da19e2fb730e2f_base.jpg",
-      "image_local": "../assets/news/2026-09-05/c4da19e2fb730e2f_base.jpg"
-    },
-    {
-      "title": "Surprise nonfarm payrolls print sends Bitcoin back below 80K",
-      "link": "https://cointelegraph.com/markets/surprise-labor-market-print-sends-bitcoin-back-below-80k",
-      "summary": "The US economy added far more jobs than expected in August, pressuring Bitcoin lower as traders repriced the odds of a Federal Reserve rate cut this month.",
-      "source": "Cointelegraph",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788553847,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1PYWBWRST3XMBJ9PF2QDTTB/hi-how-a-weakening-us-labour-market-is-putting-pressure-on-bitcoin-and-crypto-prices.jpg"
-      ],
-      "image": "../assets/news/2026-09-05/0aba2b7f52494ae4_base.jpg",
-      "image_local": "../assets/news/2026-09-05/0aba2b7f52494ae4_base.jpg"
-    },
-    {
       "title": "Southeast Asia's crypto funding rebounds to $680 million as investors focus on mature firms",
       "link": "https://www.coindesk.com/business/2026/09/05/southeast-asia-s-crypto-funding-rebounds-to-usd680-million-as-investors-focus-on-mature-firms",
       "summary": "Southeast Asia's crypto funding rebounds to $680 million as investors focus on mature firms",
@@ -116,78 +176,18 @@
       "image_local": "../assets/news/2026-09-05/a6af48c1a66db937_base.jpg"
     },
     {
-      "title": "G7 Warns Quantum Threat Demands Action as Crypto Industry Weighs Fixes",
-      "link": "https://decrypt.co/377486/g7-warns-quantum-threat-crypto-fixes",
-      "summary": "The group is urging organizations to adopt post-quantum security before powerful computers can compromise today’s encryption and digital signatures.",
-      "source": "Decrypt",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788556564,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/04/quantum-decrypt-style-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/quantum-decrypt-style-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/quantum-decrypt-style-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-09-05/31ca3fcf5590373b_base.jpg",
-      "image_local": "../assets/news/2026-09-05/31ca3fcf5590373b_base.jpg"
-    },
-    {
-      "title": "Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations",
-      "link": "https://cryptoslate.com/bitcoins-80000-rally-just-lost-the-feds-labor-market-escape-hatch/",
-      "summary": "August payrolls weakened the case for patience, leaving Sept. 11 CPI as Bitcoin’s next decisive volatility test. The post Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
+      "title": "Bitcoin ETF inflows hit $3.8B in strongest three-week stretch of 2026",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-inflows-3-8-billion-strongest-three-week-run-2026",
+      "summary": "US spot Bitcoin ETFs drew nearly $1 billion in the latest week as Friday inflows stayed positive despite Bitcoin briefly falling below $79,000.",
+      "source": "Cointelegraph",
       "date": "2026-09-05",
       "date_human": "Sep 5, 2026",
-      "pub_ts": 1788580832,
+      "pub_ts": 1788595386,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-jobs-cpi-fed-pressure.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1R63FX0B48YA7B473RBB8TA/hi-bitcoin-etf-infrastructure-investment-2.jpg"
       ],
-      "image": "../assets/news/2026-09-05/09825d51d951752f_base.jpg",
-      "image_local": "../assets/news/2026-09-05/09825d51d951752f_base.jpg"
-    },
-    {
-      "title": "Pineapple Financial puts $1B in mortgage records on Injective",
-      "link": "https://cointelegraph.com/news/pineapple-financial-puts-1b-in-mortgage-records-on-injective",
-      "summary": "The mortgage lender plans to bring more than $10 billion in historical loans onchain, turning thousands of mortgage files into blockchain-based records.",
-      "source": "Cointelegraph",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788550298,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1PRJC4TJX7RTS99QE3AJN32/hi-tokenizing-real-estate-in-the-united-states-crypto-market-1.jpg"
-      ],
-      "image": "../assets/news/2026-09-05/233ef07c77c2c44a_base.jpg",
-      "image_local": "../assets/news/2026-09-05/233ef07c77c2c44a_base.jpg"
-    },
-    {
-      "title": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
-      "link": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
-      "summary": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
-      "source": "CoinDesk",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788533760,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/922887aed0e47fe82d8ea0f44a3116b66c314232-5000x3383.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-05/517910be4061d22f_base.jpg",
-      "image_local": "../assets/news/2026-09-05/517910be4061d22f_base.jpg"
-    },
-    {
-      "title": "Polymarket Launches Crypto Perpetual Futures With Up to 20x Leverage",
-      "link": "https://decrypt.co/377483/polymarket-crypto-perpetual-futures",
-      "summary": "The prediction market platform's new Perps product scaled from 10 markets to 67 on its first day—though the 20x leverage ceiling only applies to some of them, and none of it reaches U.S. traders.",
-      "source": "Decrypt",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788553863,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/09/polymarket-decrypt-style-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/polymarket-decrypt-style-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/polymarket-decrypt-style-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-09-05/4417f8044f62ef5c_base.jpg",
-      "image_local": "../assets/news/2026-09-05/4417f8044f62ef5c_base.jpg"
+      "image": "../assets/news/2026-09-05/9c4246e46fc05842_base.jpg",
+      "image_local": "../assets/news/2026-09-05/9c4246e46fc05842_base.jpg"
     }
   ]
 }
