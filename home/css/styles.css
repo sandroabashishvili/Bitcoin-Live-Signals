@@ -245,6 +245,14 @@ h1 {
   letter-spacing: -0.02em;
 }
 
+@media (min-width: 921px) {
+  .assistant-heading h2 {
+    max-width: none;
+    white-space: nowrap;
+    font-size: clamp(26px, 3vw, 38px);
+  }
+}
+
 .assistant-secondary-links {
   display: flex;
   flex-wrap: wrap;
