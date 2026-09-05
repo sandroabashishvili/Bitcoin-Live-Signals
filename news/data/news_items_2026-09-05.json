@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-09-04",
-  "generated_at_utc": "2026-09-04 22:05:29 UTC",
+  "day_iso": "2026-09-05",
+  "generated_at_utc": "2026-09-05 04:05:30 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,6 +16,20 @@
   "count": 12,
   "items": [
     {
+      "title": "Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations",
+      "link": "https://cryptoslate.com/bitcoins-80000-rally-just-lost-the-feds-labor-market-escape-hatch/",
+      "summary": "August payrolls weakened the case for patience, leaving Sept. 11 CPI as Bitcoin’s next decisive volatility test. The post Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-05",
+      "date_human": "Sep 5, 2026",
+      "pub_ts": 1788580832,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-jobs-cpi-fed-pressure.jpg"
+      ],
+      "image": "../assets/news/2026-09-05/09825d51d951752f_base.jpg",
+      "image_local": "../assets/news/2026-09-05/09825d51d951752f_base.jpg"
+    },
+    {
       "title": "TikTok's Parent Company Just Borrowed $30 Billion to Go All-In on AI",
       "link": "https://decrypt.co/377489/tiktok-bytedance-loan-ai",
       "summary": "Nearly 30 banks backed the rare unsecured facility as TikTok’s parent company spends heavily on AI chips, models, and overseas data centers.",
@@ -28,22 +42,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/07/tiktok-logo-decrypt-style-03-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/tiktok-logo-decrypt-style-03-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-04/114c44465875430d_base.jpg",
-      "image_local": "../assets/news/2026-09-04/114c44465875430d_base.jpg"
-    },
-    {
-      "title": "Bitwise 14% yield gap in XRP futures shows how institutions are quietly extracting cash from traders",
-      "link": "https://cryptoslate.com/bitwise-14-yield-gap-in-xrp-futures-shows-how-institutions-are-quietly-extracting-cash-from-traders/",
-      "summary": "Its 10.8 million-XRP custody position is 97.5% offset by futures, and CFTC categories complicate the obvious answer. The post Bitwise 14% yield gap in XRP futures shows how institutions are quietly extracting cash from traders appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788556252,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/xrp-basis-trade-crate.jpg"
-      ],
-      "image": "../assets/news/2026-09-04/a405c6f638f0282f_base.jpg",
-      "image_local": "../assets/news/2026-09-04/a405c6f638f0282f_base.jpg"
+      "image": "../assets/news/2026-09-05/114c44465875430d_base.jpg",
+      "image_local": "../assets/news/2026-09-05/114c44465875430d_base.jpg"
     },
     {
       "title": "Surprise nonfarm payrolls print sends Bitcoin back below 80K",
@@ -56,8 +56,8 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1PYWBWRST3XMBJ9PF2QDTTB/hi-how-a-weakening-us-labour-market-is-putting-pressure-on-bitcoin-and-crypto-prices.jpg"
       ],
-      "image": "../assets/news/2026-09-04/0aba2b7f52494ae4_base.jpg",
-      "image_local": "../assets/news/2026-09-04/0aba2b7f52494ae4_base.jpg"
+      "image": "../assets/news/2026-09-05/0aba2b7f52494ae4_base.jpg",
+      "image_local": "../assets/news/2026-09-05/0aba2b7f52494ae4_base.jpg"
     },
     {
       "title": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
@@ -70,8 +70,22 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/922887aed0e47fe82d8ea0f44a3116b66c314232-5000x3383.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-04/517910be4061d22f_base.jpg",
-      "image_local": "../assets/news/2026-09-04/517910be4061d22f_base.jpg"
+      "image": "../assets/news/2026-09-05/517910be4061d22f_base.jpg",
+      "image_local": "../assets/news/2026-09-05/517910be4061d22f_base.jpg"
+    },
+    {
+      "title": "A major outage and corporate backlash hit Robinhood Chain at the peak of its growth",
+      "link": "https://cryptoslate.com/a-major-outage-and-corporate-backlash-hit-robinhood-chain-at-the-peak-of-its-growth/",
+      "summary": "Robinhood Chain’s rapid growth ran into two problems at once on Sept. 4 as the network briefly stopped producing blocks while AMC challenged its fast-growing Stock Token business. On Sept. 4, the Ethereum layer-2 network halted block production for at least 14 minutes, stalling transactions before activity began recovering. Robinhood had not publicly disclosed the […] The post A major outage and corporate backlash hit Robinhood Chain at the peak of its growth appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-05",
+      "date_human": "Sep 5, 2026",
+      "pub_ts": 1788567600,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/robinhood-chain-broken-bridge.jpg"
+      ],
+      "image": "../assets/news/2026-09-05/b63acf550ce6d8b3_base.jpg",
+      "image_local": "../assets/news/2026-09-05/b63acf550ce6d8b3_base.jpg"
     },
     {
       "title": "G7 Warns Quantum Threat Demands Action as Crypto Industry Weighs Fixes",
@@ -86,22 +100,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/quantum-decrypt-style-gID_7.jpg@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/quantum-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-04/31ca3fcf5590373b_base.jpg",
-      "image_local": "../assets/news/2026-09-04/31ca3fcf5590373b_base.jpg"
-    },
-    {
-      "title": "Privacy coin flaw risks endless token creation, leaving node operators with a deadline in hours to fix it",
-      "link": "https://cryptoslate.com/privacy-coin-flaw-risks-endless-token-creation-leaving-node-operators-with-a-deadline-in-hours-to-fix-it/",
-      "summary": "At block 1,371,000, v0.14.18.0 restores multi-input private spending and makes older software incompatible. The post Privacy coin flaw risks endless token creation, leaving node operators with a deadline in hours to fix it appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788552337,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/firo-network-split.jpg"
-      ],
-      "image": "../assets/news/2026-09-04/f75bce1dd257ccf5_base.jpg",
-      "image_local": "../assets/news/2026-09-04/f75bce1dd257ccf5_base.jpg"
+      "image": "../assets/news/2026-09-05/31ca3fcf5590373b_base.jpg",
+      "image_local": "../assets/news/2026-09-05/31ca3fcf5590373b_base.jpg"
     },
     {
       "title": "Pineapple Financial puts $1B in mortgage records on Injective",
@@ -114,8 +114,8 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1PRJC4TJX7RTS99QE3AJN32/hi-tokenizing-real-estate-in-the-united-states-crypto-market-1.jpg"
       ],
-      "image": "../assets/news/2026-09-04/233ef07c77c2c44a_base.jpg",
-      "image_local": "../assets/news/2026-09-04/233ef07c77c2c44a_base.jpg"
+      "image": "../assets/news/2026-09-05/233ef07c77c2c44a_base.jpg",
+      "image_local": "../assets/news/2026-09-05/233ef07c77c2c44a_base.jpg"
     },
     {
       "title": "From warning to listing: UK's largest retail investment platform opens access to crypto ETNs",
@@ -128,8 +128,22 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/ee3c156fd6556c91ea2313190a0bb068f3590737-1264x794.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-04/0ea842577a6f2e22_base.jpg",
-      "image_local": "../assets/news/2026-09-04/0ea842577a6f2e22_base.jpg"
+      "image": "../assets/news/2026-09-05/0ea842577a6f2e22_base.jpg",
+      "image_local": "../assets/news/2026-09-05/0ea842577a6f2e22_base.jpg"
+    },
+    {
+      "title": "El Salvador added 1,540 Bitcoin, but the IMF says Bukele's government didn't pay for them",
+      "link": "https://cryptoslate.com/el-salvador-added-1540-bitcoin-but-the-imf-says-bukeles-government-didnt-pay-for-them/",
+      "summary": "A new IMF disclosure says no public resources funded the accumulation since its first review, exposing a gap in the country's one-Bitcoin-a-day message. The post El Salvador added 1,540 Bitcoin, but the IMF says Bukele’s government didn’t pay for them appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-04",
+      "date_human": "Sep 4, 2026",
+      "pub_ts": 1788563702,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-donation-reservoir.jpg"
+      ],
+      "image": "../assets/news/2026-09-05/d30821ba62d872e3_base.jpg",
+      "image_local": "../assets/news/2026-09-05/d30821ba62d872e3_base.jpg"
     },
     {
       "title": "Polymarket Launches Crypto Perpetual Futures With Up to 20x Leverage",
@@ -144,22 +158,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/polymarket-decrypt-style-gID_7.jpg@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/polymarket-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-04/4417f8044f62ef5c_base.jpg",
-      "image_local": "../assets/news/2026-09-04/4417f8044f62ef5c_base.jpg"
-    },
-    {
-      "title": "Bitcoin faces a two-week Fed trap as inflation rewrite threatens to upend rate cuts",
-      "link": "https://cryptoslate.com/bitcoin-faces-a-two-week-fed-trap-as-inflation-rewrite-threatens-to-upend-rate-cuts/",
-      "summary": "Policymakers will have CPI but not official August PCE when they decide, leaving a second market test on Sept. 30. The post Bitcoin faces a two-week Fed trap as inflation rewrite threatens to upend rate cuts appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788547833,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-fed-calendar-test.jpg"
-      ],
-      "image": "../assets/news/2026-09-04/ea068bd2a9ff6684_base.jpg",
-      "image_local": "../assets/news/2026-09-04/ea068bd2a9ff6684_base.jpg"
+      "image": "../assets/news/2026-09-05/4417f8044f62ef5c_base.jpg",
+      "image_local": "../assets/news/2026-09-05/4417f8044f62ef5c_base.jpg"
     },
     {
       "title": "FinCEN ties $13B in crypto scams to non-US operations",
@@ -172,8 +172,8 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1PW3BH4HC5DKEEBWSEEE29W/regulation-semen-lot-of-papers-fincen.jpg"
       ],
-      "image": "../assets/news/2026-09-04/a6368279f2b4d68a_base.jpg",
-      "image_local": "../assets/news/2026-09-04/a6368279f2b4d68a_base.jpg"
+      "image": "../assets/news/2026-09-05/a6368279f2b4d68a_base.jpg",
+      "image_local": "../assets/news/2026-09-05/a6368279f2b4d68a_base.jpg"
     },
     {
       "title": "U.S. Sheriff's association shifts opposition stance to Clarity Act to 'neutral'",
@@ -186,8 +186,8 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/9a17fcb061c085aa06628eb11086287448b35a09-5701x3801.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-04/f5d99b20d0a00226_base.jpg",
-      "image_local": "../assets/news/2026-09-04/f5d99b20d0a00226_base.jpg"
+      "image": "../assets/news/2026-09-05/f5d99b20d0a00226_base.jpg",
+      "image_local": "../assets/news/2026-09-05/f5d99b20d0a00226_base.jpg"
     }
   ]
 }
