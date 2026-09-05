@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-05",
-  "generated_at_utc": "2026-09-05 04:05:30 UTC",
+  "generated_at_utc": "2026-09-05 10:05:26 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,18 +16,46 @@
   "count": 12,
   "items": [
     {
-      "title": "Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations",
-      "link": "https://cryptoslate.com/bitcoins-80000-rally-just-lost-the-feds-labor-market-escape-hatch/",
-      "summary": "August payrolls weakened the case for patience, leaving Sept. 11 CPI as Bitcoin’s next decisive volatility test. The post Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations appeared first on CryptoSlate.",
+      "title": "Robinhood rejects AMC CEO's demand to halt AMC tokenized ‘meme stock' which offers no shareholder rights",
+      "link": "https://cryptoslate.com/robinhood-rejects-amc-ceos-demand-to-halt-amc-tokenized-stock-offering-holders-no-shareholder-rights/",
+      "summary": "Adam Aron threatened legal and SEC scrutiny; Robinhood's legal chief said the Jersey-issued debt product will remain. The post Robinhood rejects AMC CEO’s demand to halt AMC tokenized ‘meme stock’ which offers no shareholder rights appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-05",
       "date_human": "Sep 5, 2026",
-      "pub_ts": 1788580832,
+      "pub_ts": 1788602450,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-jobs-cpi-fed-pressure.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/amc-robinhood-token-split.jpg"
       ],
-      "image": "../assets/news/2026-09-05/09825d51d951752f_base.jpg",
-      "image_local": "../assets/news/2026-09-05/09825d51d951752f_base.jpg"
+      "image": "../assets/news/2026-09-05/d9309d5de47172aa_base.jpg",
+      "image_local": "../assets/news/2026-09-05/d9309d5de47172aa_base.jpg"
+    },
+    {
+      "title": "Bitcoin ETF inflows hit $3.8B in strongest three-week stretch of 2026",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-inflows-3-8-billion-strongest-three-week-run-2026",
+      "summary": "US spot Bitcoin ETFs drew nearly $1 billion in the latest week as Friday inflows stayed positive despite Bitcoin briefly falling below $79,000.",
+      "source": "Cointelegraph",
+      "date": "2026-09-05",
+      "date_human": "Sep 5, 2026",
+      "pub_ts": 1788595386,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1R63FX0B48YA7B473RBB8TA/hi-bitcoin-etf-infrastructure-investment-2.jpg"
+      ],
+      "image": "../assets/news/2026-09-05/9c4246e46fc05842_base.jpg",
+      "image_local": "../assets/news/2026-09-05/9c4246e46fc05842_base.jpg"
+    },
+    {
+      "title": "XRP Ledger has fewer active accounts than last year, but bigger trades and more value",
+      "link": "https://www.coindesk.com/markets/2026/09/05/xrp-ledger-has-fewer-active-accounts-but-bigger-trades-and-more-value",
+      "summary": "XRP Ledger has fewer active accounts than last year, but bigger trades and more value",
+      "source": "CoinDesk",
+      "date": "2026-09-05",
+      "date_human": "Sep 5, 2026",
+      "pub_ts": 1788586245,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/8bf979a95bb8bd770f55450f95b92789f72cb4c2-1500x1001.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-05/13ebcfb4fa499ad0_base.jpg",
+      "image_local": "../assets/news/2026-09-05/13ebcfb4fa499ad0_base.jpg"
     },
     {
       "title": "TikTok's Parent Company Just Borrowed $30 Billion to Go All-In on AI",
@@ -46,6 +74,20 @@
       "image_local": "../assets/news/2026-09-05/114c44465875430d_base.jpg"
     },
     {
+      "title": "Wall Street is turning AI's massive electricity appetite into a $61 billion bond market",
+      "link": "https://cryptoslate.com/wall-street-is-turning-ais-massive-electricity-appetite-into-a-61-billion-bond-market/",
+      "summary": "Every interaction with AI uses electricity in a data center. Servers calculate the answer, cooling equipment carries away the heat, and network connections send the result back to the user. Multiply that process across millions of requests and the electric bill becomes one of the facility's highest costs, while access to enough power determines how […] The post Wall Street is turning AI’s massive electricity appetite into a $61 billion bond market appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-05",
+      "date_human": "Sep 5, 2026",
+      "pub_ts": 1788591644,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/megawatts-into-bonds.jpg"
+      ],
+      "image": "../assets/news/2026-09-05/c4da19e2fb730e2f_base.jpg",
+      "image_local": "../assets/news/2026-09-05/c4da19e2fb730e2f_base.jpg"
+    },
+    {
       "title": "Surprise nonfarm payrolls print sends Bitcoin back below 80K",
       "link": "https://cointelegraph.com/markets/surprise-labor-market-print-sends-bitcoin-back-below-80k",
       "summary": "The US economy added far more jobs than expected in August, pressuring Bitcoin lower as traders repriced the odds of a Federal Reserve rate cut this month.",
@@ -60,32 +102,18 @@
       "image_local": "../assets/news/2026-09-05/0aba2b7f52494ae4_base.jpg"
     },
     {
-      "title": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
-      "link": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
-      "summary": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
+      "title": "Southeast Asia's crypto funding rebounds to $680 million as investors focus on mature firms",
+      "link": "https://www.coindesk.com/business/2026/09/05/southeast-asia-s-crypto-funding-rebounds-to-usd680-million-as-investors-focus-on-mature-firms",
+      "summary": "Southeast Asia's crypto funding rebounds to $680 million as investors focus on mature firms",
       "source": "CoinDesk",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788533760,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/922887aed0e47fe82d8ea0f44a3116b66c314232-5000x3383.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-05/517910be4061d22f_base.jpg",
-      "image_local": "../assets/news/2026-09-05/517910be4061d22f_base.jpg"
-    },
-    {
-      "title": "A major outage and corporate backlash hit Robinhood Chain at the peak of its growth",
-      "link": "https://cryptoslate.com/a-major-outage-and-corporate-backlash-hit-robinhood-chain-at-the-peak-of-its-growth/",
-      "summary": "Robinhood Chain’s rapid growth ran into two problems at once on Sept. 4 as the network briefly stopped producing blocks while AMC challenged its fast-growing Stock Token business. On Sept. 4, the Ethereum layer-2 network halted block production for at least 14 minutes, stalling transactions before activity began recovering. Robinhood had not publicly disclosed the […] The post A major outage and corporate backlash hit Robinhood Chain at the peak of its growth appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
       "date": "2026-09-05",
       "date_human": "Sep 5, 2026",
-      "pub_ts": 1788567600,
+      "pub_ts": 1788584400,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/robinhood-chain-broken-bridge.jpg"
+        "https://cdn.sanity.io/images/s3y3vcno/production/64b4be6c0167e3963234f2fedcb523e831450d4f-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-05/b63acf550ce6d8b3_base.jpg",
-      "image_local": "../assets/news/2026-09-05/b63acf550ce6d8b3_base.jpg"
+      "image": "../assets/news/2026-09-05/a6af48c1a66db937_base.jpg",
+      "image_local": "../assets/news/2026-09-05/a6af48c1a66db937_base.jpg"
     },
     {
       "title": "G7 Warns Quantum Threat Demands Action as Crypto Industry Weighs Fixes",
@@ -104,6 +132,20 @@
       "image_local": "../assets/news/2026-09-05/31ca3fcf5590373b_base.jpg"
     },
     {
+      "title": "Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations",
+      "link": "https://cryptoslate.com/bitcoins-80000-rally-just-lost-the-feds-labor-market-escape-hatch/",
+      "summary": "August payrolls weakened the case for patience, leaving Sept. 11 CPI as Bitcoin’s next decisive volatility test. The post Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-05",
+      "date_human": "Sep 5, 2026",
+      "pub_ts": 1788580832,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-jobs-cpi-fed-pressure.jpg"
+      ],
+      "image": "../assets/news/2026-09-05/09825d51d951752f_base.jpg",
+      "image_local": "../assets/news/2026-09-05/09825d51d951752f_base.jpg"
+    },
+    {
       "title": "Pineapple Financial puts $1B in mortgage records on Injective",
       "link": "https://cointelegraph.com/news/pineapple-financial-puts-1b-in-mortgage-records-on-injective",
       "summary": "The mortgage lender plans to bring more than $10 billion in historical loans onchain, turning thousands of mortgage files into blockchain-based records.",
@@ -118,32 +160,18 @@
       "image_local": "../assets/news/2026-09-05/233ef07c77c2c44a_base.jpg"
     },
     {
-      "title": "From warning to listing: UK's largest retail investment platform opens access to crypto ETNs",
-      "link": "https://www.coindesk.com/business/2026/09/04/from-warning-to-listing-uk-s-largest-wealth-platform-opens-access-to-crypto-etns",
-      "summary": "From warning to listing: UK's largest retail investment platform opens access to crypto ETNs",
+      "title": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
+      "link": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
+      "summary": "Robinhood isn't backing down after AMC CEO demands halt to stock tokens",
       "source": "CoinDesk",
       "date": "2026-09-04",
       "date_human": "Sep 4, 2026",
-      "pub_ts": 1788531791,
+      "pub_ts": 1788533760,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/ee3c156fd6556c91ea2313190a0bb068f3590737-1264x794.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/922887aed0e47fe82d8ea0f44a3116b66c314232-5000x3383.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-05/0ea842577a6f2e22_base.jpg",
-      "image_local": "../assets/news/2026-09-05/0ea842577a6f2e22_base.jpg"
-    },
-    {
-      "title": "El Salvador added 1,540 Bitcoin, but the IMF says Bukele's government didn't pay for them",
-      "link": "https://cryptoslate.com/el-salvador-added-1540-bitcoin-but-the-imf-says-bukeles-government-didnt-pay-for-them/",
-      "summary": "A new IMF disclosure says no public resources funded the accumulation since its first review, exposing a gap in the country's one-Bitcoin-a-day message. The post El Salvador added 1,540 Bitcoin, but the IMF says Bukele’s government didn’t pay for them appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788563702,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-donation-reservoir.jpg"
-      ],
-      "image": "../assets/news/2026-09-05/d30821ba62d872e3_base.jpg",
-      "image_local": "../assets/news/2026-09-05/d30821ba62d872e3_base.jpg"
+      "image": "../assets/news/2026-09-05/517910be4061d22f_base.jpg",
+      "image_local": "../assets/news/2026-09-05/517910be4061d22f_base.jpg"
     },
     {
       "title": "Polymarket Launches Crypto Perpetual Futures With Up to 20x Leverage",
@@ -160,34 +188,6 @@
       ],
       "image": "../assets/news/2026-09-05/4417f8044f62ef5c_base.jpg",
       "image_local": "../assets/news/2026-09-05/4417f8044f62ef5c_base.jpg"
-    },
-    {
-      "title": "FinCEN ties $13B in crypto scams to non-US operations",
-      "link": "https://cointelegraph.com/news/fincen-crypto-overseas-scam-centers-analysis",
-      "summary": "The agency reported that “transnational criminal organizations” based in compounds in Southeast Asia were largely behind digital asset scams targeting US residents.",
-      "source": "Cointelegraph",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788549746,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1PW3BH4HC5DKEEBWSEEE29W/regulation-semen-lot-of-papers-fincen.jpg"
-      ],
-      "image": "../assets/news/2026-09-05/a6368279f2b4d68a_base.jpg",
-      "image_local": "../assets/news/2026-09-05/a6368279f2b4d68a_base.jpg"
-    },
-    {
-      "title": "U.S. Sheriff's association shifts opposition stance to Clarity Act to 'neutral'",
-      "link": "https://www.coindesk.com/policy/2026/09/04/u-s-sheriff-s-association-shifts-opposition-stance-to-clarity-act-to-neutral",
-      "summary": "U.S. Sheriff's association shifts opposition stance to Clarity Act to 'neutral'",
-      "source": "CoinDesk",
-      "date": "2026-09-04",
-      "date_human": "Sep 4, 2026",
-      "pub_ts": 1788531154,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/9a17fcb061c085aa06628eb11086287448b35a09-5701x3801.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-05/f5d99b20d0a00226_base.jpg",
-      "image_local": "../assets/news/2026-09-05/f5d99b20d0a00226_base.jpg"
     }
   ]
 }
