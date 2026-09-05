@@ -1,4 +1,4 @@
-import { buildGradient, mountChart } from "../../../../shared/frontend/charts/common.js";
+import { buildGradient, mountChart } from "/Bitcoin-Live-Signals/shared/charts/common.js";
 
 function asNumber(value) {
   const parsed = Number(value);
