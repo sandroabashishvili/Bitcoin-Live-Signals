@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-06",
-  "generated_at_utc": "2026-09-06 04:05:17 UTC",
+  "generated_at_utc": "2026-09-06 10:05:20 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,23 +16,37 @@
   "count": 12,
   "items": [
     {
-      "title": "Users exposed by Trezor breach grows sixfold after supposedly deleted shipping logs are found",
-      "link": "https://cryptoslate.com/users-exposed-by-trezor-breach-grows-sixfold-after-supposedly-deleted-shipping-logs-are-found/",
-      "summary": "The larger disclosure implies roughly 80,689 affected customers, though no combined total or row-level overlap check is public. The post Users exposed by Trezor breach grows sixfold after supposedly deleted shipping logs are found appeared first on CryptoSlate.",
+      "title": "Strategy and Robinhood now lead a $4.5 billion large-cap ETF that was not built for crypto",
+      "link": "https://cryptoslate.com/strategy-and-robinhood-now-lead-a-4-5-billion-large-cap-etf-that-was-not-built-for-crypto/",
+      "summary": "Their 6.01% combined weight shows how crypto-linked volatility can reach a generalist stock portfolio. The post Strategy and Robinhood now lead a $4.5 billion large-cap ETF that was not built for crypto appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-09-05",
-      "date_human": "Sep 5, 2026",
-      "pub_ts": 1788634802,
+      "date": "2026-09-06",
+      "date_human": "Sep 6, 2026",
+      "pub_ts": 1788688843,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/trezor-shipping-breach.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/crypto-road-mainstream-etf.jpg"
       ],
-      "image": "../assets/news/2026-09-06/3c298db9aa5bc78a_base.jpg",
-      "image_local": "../assets/news/2026-09-06/3c298db9aa5bc78a_base.jpg"
+      "image": "../assets/news/2026-09-06/4a29e314909afb9b_base.jpg",
+      "image_local": "../assets/news/2026-09-06/4a29e314909afb9b_base.jpg"
     },
     {
-      "title": "Why crypto experts say buying and holding bitcoin easily beats trying to time the market",
+      "title": "Tether-backed Orionx to shut down after audit flags $7M custody gap",
+      "link": "https://cointelegraph.com/news/orionx-shut-down-7-million-move-outside-wallets",
+      "summary": "Tether-backed Orionx is permanently closing after an audit found more than $7 million in customer assets had moved to wallets outside its custody.",
+      "source": "Cointelegraph",
+      "date": "2026-09-06",
+      "date_human": "Sep 6, 2026",
+      "pub_ts": 1788685628,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1TTSPPYA631ETX2200VF1YM/orionx1.png"
+      ],
+      "image": "../assets/news/2026-09-06/25d41149d6e2f33c_base.jpg",
+      "image_local": "../assets/news/2026-09-06/25d41149d6e2f33c_base.jpg"
+    },
+    {
+      "title": "Timing the bitcoin market is exciting but nearly impossible. Here's why",
       "link": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
-      "summary": "Why crypto experts say buying and holding bitcoin easily beats trying to time the market",
+      "summary": "Timing the bitcoin market is exciting but nearly impossible. Here's why",
       "source": "CoinDesk",
       "date": "2026-09-05",
       "date_human": "Sep 5, 2026",
@@ -60,6 +74,20 @@
       "image_local": "../assets/news/2026-09-06/61a5b9c68d9f8fbc_base.jpg"
     },
     {
+      "title": "From power laws to AI networks, why complex Bitcoin price models memorize market noise",
+      "link": "https://cryptoslate.com/the-smartest-bitcoin-price-models-keep-losing-to-the-dumbest-forecast/",
+      "summary": "Bitcoin price forecasting has accumulated an unusually colorful collection of methods. You have basic scarcity models that convert the halving schedule into a price, and run-of-the-mill on-chain models that turn address or transaction activity into value. The highly contested power-law charts draw an ascending corridor through Bitcoin's history, and machine-learning systems feed market and macroeconomic […] The post From power laws to AI networks, why complex Bitcoin price models memorize market noise appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-06",
+      "date_human": "Sep 6, 2026",
+      "pub_ts": 1788678057,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-benchmark-shot.jpg"
+      ],
+      "image": "../assets/news/2026-09-06/68ba92a1f9894ea1_base.jpg",
+      "image_local": "../assets/news/2026-09-06/68ba92a1f9894ea1_base.jpg"
+    },
+    {
       "title": "Here's what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
@@ -72,20 +100,6 @@
       ],
       "image": "../assets/news/2026-09-06/57bd1a60f4d67ba1_base.jpg",
       "image_local": "../assets/news/2026-09-06/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "DAOs are forcing crypto protocols to choose between code and emergency brakes",
-      "link": "https://cryptoslate.com/daos-are-forcing-crypto-protocols-to-choose-between-code-and-emergency-brakes/",
-      "summary": "Compound is a crypto lending protocol governed by holders who delegate their COMP tokens, a setup known as a decentralized autonomous organization, or DAO. It works like an online republic, with token holders debating proposals, voting, and letting software carry out the result. In July 2024, that republic nearly sent a fortune to a small […] The post DAOs are forcing crypto protocols to choose between code and emergency brakes appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-05",
-      "date_human": "Sep 5, 2026",
-      "pub_ts": 1788627609,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/dao-delegate-throne.jpg"
-      ],
-      "image": "../assets/news/2026-09-06/0d3cd7f7c0807c29_base.jpg",
-      "image_local": "../assets/news/2026-09-06/0d3cd7f7c0807c29_base.jpg"
     },
     {
       "title": "Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds",
@@ -118,6 +132,20 @@
       "image_local": "../assets/news/2026-09-06/8b92a76d7762874b_base.jpg"
     },
     {
+      "title": "Users exposed by Trezor breach grows sixfold after supposedly deleted shipping logs are found",
+      "link": "https://cryptoslate.com/users-exposed-by-trezor-breach-grows-sixfold-after-supposedly-deleted-shipping-logs-are-found/",
+      "summary": "The larger disclosure implies roughly 80,689 affected customers, though no combined total or row-level overlap check is public. The post Users exposed by Trezor breach grows sixfold after supposedly deleted shipping logs are found appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-05",
+      "date_human": "Sep 5, 2026",
+      "pub_ts": 1788634802,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/trezor-shipping-breach.jpg"
+      ],
+      "image": "../assets/news/2026-09-06/3c298db9aa5bc78a_base.jpg",
+      "image_local": "../assets/news/2026-09-06/3c298db9aa5bc78a_base.jpg"
+    },
+    {
       "title": "Poland upholds crypto bill veto as Zondacrypto scandal widens",
       "link": "https://cointelegraph.com/news/poland-upholds-crypto-bill-veto-zondacrypto-scandal-widens",
       "summary": "Polish lawmakers failed to overturn a presidential veto of crypto legislation as the Zondacrypto investigation expands and its Estonian operator enters bankruptcy.",
@@ -130,20 +158,6 @@
       ],
       "image": "../assets/news/2026-09-06/5540a388bf8c6a6a_base.jpg",
       "image_local": "../assets/news/2026-09-06/5540a388bf8c6a6a_base.jpg"
-    },
-    {
-      "title": "Fed stablecoin research exposes how the same dollar could count twice in M1 or M2",
-      "link": "https://cryptoslate.com/fed-economists-stablecoin-research-exposes-how-the-same-dollar-could-count-twice-in-m1-or-m2/",
-      "summary": "Their staff note makes classification possible in theory, while reserve overlap and offshore circulation block a clean liquidity measure. The post Fed stablecoin research exposes how the same dollar could count twice in M1 or M2 appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-05",
-      "date_human": "Sep 5, 2026",
-      "pub_ts": 1788626723,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/fed-stablecoin-money-pipes.jpg"
-      ],
-      "image": "../assets/news/2026-09-06/993bb0aea68858b8_base.jpg",
-      "image_local": "../assets/news/2026-09-06/993bb0aea68858b8_base.jpg"
     },
     {
       "title": "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
@@ -174,20 +188,6 @@
       ],
       "image": "../assets/news/2026-09-06/7f3e8bb9141d9c1f_base.jpg",
       "image_local": "../assets/news/2026-09-06/7f3e8bb9141d9c1f_base.jpg"
-    },
-    {
-      "title": "Bitcoin ETF inflows hit $3.8B in strongest three-week stretch of 2026",
-      "link": "https://cointelegraph.com/markets/bitcoin-etf-inflows-3-8-billion-strongest-three-week-run-2026",
-      "summary": "US spot Bitcoin ETFs drew nearly $1 billion in the latest week as Friday inflows stayed positive despite Bitcoin briefly falling below $79,000.",
-      "source": "Cointelegraph",
-      "date": "2026-09-05",
-      "date_human": "Sep 5, 2026",
-      "pub_ts": 1788595386,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1R63FX0B48YA7B473RBB8TA/hi-bitcoin-etf-infrastructure-investment-2.jpg"
-      ],
-      "image": "../assets/news/2026-09-06/9c4246e46fc05842_base.jpg",
-      "image_local": "../assets/news/2026-09-06/9c4246e46fc05842_base.jpg"
     }
   ]
 }
