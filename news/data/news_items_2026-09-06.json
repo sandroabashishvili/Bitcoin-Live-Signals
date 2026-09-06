@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-06",
-  "generated_at_utc": "2026-09-06 10:05:20 UTC",
+  "generated_at_utc": "2026-09-06 16:05:19 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,32 +16,92 @@
   "count": 12,
   "items": [
     {
-      "title": "Strategy and Robinhood now lead a $4.5 billion large-cap ETF that was not built for crypto",
-      "link": "https://cryptoslate.com/strategy-and-robinhood-now-lead-a-4-5-billion-large-cap-etf-that-was-not-built-for-crypto/",
-      "summary": "Their 6.01% combined weight shows how crypto-linked volatility can reach a generalist stock portfolio. The post Strategy and Robinhood now lead a $4.5 billion large-cap ETF that was not built for crypto appeared first on CryptoSlate.",
+      "title": "XRP Gets Another Boost Through Ripple Deal With Florida Athletics",
+      "link": "https://decrypt.co/377512/xrp-boost-ripple-florida-athletics",
+      "summary": "The multi-year deal will place the XRP logo on the field at Ben Hill Griffin Stadium starting this season, extending Ripple's push into college athletics.",
+      "source": "Decrypt",
+      "date": "2026-09-06",
+      "date_human": "Sep 6, 2026",
+      "pub_ts": 1788710463,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/ripple-logo-decrypt-style-01-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/ripple-logo-decrypt-style-01-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/ripple-logo-decrypt-style-01-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-06/2efae01bb0f4f9ca_base.jpg",
+      "image_local": "../assets/news/2026-09-06/2efae01bb0f4f9ca_base.jpg"
+    },
+    {
+      "title": "Aave crypto lending proposal would let emergency tools freeze markets – but not unfreeze them",
+      "link": "https://cryptoslate.com/aave-lending-proposal-would-grant-emergency-powers-without-requiring-public-reports-on-their-use/",
+      "summary": "The proposal would grant bounded emergency roles now, but the current Risk Steward release cannot invoke their one-way safety calls. The post Aave crypto lending proposal would let emergency tools freeze markets – but not unfreeze them appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-06",
       "date_human": "Sep 6, 2026",
-      "pub_ts": 1788688843,
+      "pub_ts": 1788708788,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/crypto-road-mainstream-etf.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/aave-emergency-powers.jpg"
       ],
-      "image": "../assets/news/2026-09-06/4a29e314909afb9b_base.jpg",
-      "image_local": "../assets/news/2026-09-06/4a29e314909afb9b_base.jpg"
+      "image": "../assets/news/2026-09-06/b270b80d34e360b1_base.jpg",
+      "image_local": "../assets/news/2026-09-06/b270b80d34e360b1_base.jpg"
     },
     {
-      "title": "Tether-backed Orionx to shut down after audit flags $7M custody gap",
-      "link": "https://cointelegraph.com/news/orionx-shut-down-7-million-move-outside-wallets",
-      "summary": "Tether-backed Orionx is permanently closing after an audit found more than $7 million in customer assets had moved to wallets outside its custody.",
+      "title": "Better and Coinbase's bitcoin-backed mortgages can reuse borrowers' collateral",
+      "link": "https://www.coindesk.com/business/2026/09/06/better-and-coinbase-s-bitcoin-backed-mortgages-can-reuse-borrowers-collateral",
+      "summary": "Better and Coinbase's bitcoin-backed mortgages can reuse borrowers' collateral",
+      "source": "CoinDesk",
+      "date": "2026-09-06",
+      "date_human": "Sep 6, 2026",
+      "pub_ts": 1788703200,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/a02993e4b0be694cb7d7b4718d4e0922311ed0c6-5472x3648.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-06/bc6c8fcbfb69d45c_base.jpg",
+      "image_local": "../assets/news/2026-09-06/bc6c8fcbfb69d45c_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
       "date": "2026-09-06",
       "date_human": "Sep 6, 2026",
-      "pub_ts": 1788685628,
+      "pub_ts": 1788701083,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1TTSPPYA631ETX2200VF1YM/orionx1.png"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-09-06/25d41149d6e2f33c_base.jpg",
-      "image_local": "../assets/news/2026-09-06/25d41149d6e2f33c_base.jpg"
+      "image": "../assets/news/2026-09-06/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-06/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Stablecoins Won't Scale Without Banks",
+      "link": "https://decrypt.co/377280/stablecoins-wont-scale-without-banks",
+      "summary": "With a growing number of institutions exploring stablecoins, the bottleneck is regulated infrastructure they can trust.",
+      "source": "Decrypt",
+      "date": "2026-09-06",
+      "date_human": "Sep 6, 2026",
+      "pub_ts": 1788706863,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/stablecoins-decrypt-style-01-scaled-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/stablecoins-decrypt-style-01-scaled-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/stablecoins-decrypt-style-01-scaled-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-06/1f27a9632000f5c0_base.jpg",
+      "image_local": "../assets/news/2026-09-06/1f27a9632000f5c0_base.jpg"
+    },
+    {
+      "title": "The $63 billion revolving door carrying the entire US Bitcoin ETF market",
+      "link": "https://cryptoslate.com/the-63-billion-revolving-door-carrying-the-entire-us-bitcoin-etf-market/",
+      "summary": "Bitcoin's best and newest large buyer has no face, no investment committee, and no public opinion about whether the price looks cheap. It appears near the end of the US trading day as an entry beside an ETF ticker, and on Aug. 27 that entry showed $277.6 million flowing into IBIT while the entire US […] The post The $63 billion revolving door carrying the entire US Bitcoin ETF market appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-06",
+      "date_human": "Sep 6, 2026",
+      "pub_ts": 1788706820,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/ibit-wall-street-gateway.jpg"
+      ],
+      "image": "../assets/news/2026-09-06/9ede7545898d88af_base.jpg",
+      "image_local": "../assets/news/2026-09-06/9ede7545898d88af_base.jpg"
     },
     {
       "title": "Timing the bitcoin market is exciting but nearly impossible. Here's why",
@@ -58,48 +118,48 @@
       "image_local": "../assets/news/2026-09-06/1d03ac39e3c34337_base.jpg"
     },
     {
-      "title": "Ancient Bitcoin Wallet That Turned $120 Into $3 Million Wakes Up",
-      "link": "https://decrypt.co/377510/ancient-bitcoin-wallet-3-million-wakes-up",
-      "summary": "At least four more decade-old wallets moved a combined $15.7 million between Aug. 29 and Sept. 4, with one batch of coins sent to Coinbase in a likely sign of a sale.",
-      "source": "Decrypt",
-      "date": "2026-09-05",
-      "date_human": "Sep 5, 2026",
-      "pub_ts": 1788627664,
+      "title": "Satoshi-era Bitcoin wakes after 16 years of dormancy as 600 BTC moves",
+      "link": "https://cointelegraph.com/news/satoshi-era-bitcoin-wakes-16-years-600-btc-moves",
+      "summary": "Whale Alert identified 12 mining rewards totaling 600 BTC that moved after 16 years of dormancy, with the onchain tracking platform finding no connection to Satoshi Nakamoto.",
+      "source": "Cointelegraph",
+      "date": "2026-09-06",
+      "date_human": "Sep 6, 2026",
+      "pub_ts": 1788699780,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-screen-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/bitcoin-decrypt-style-screen-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/bitcoin-decrypt-style-screen-gID_7.png"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1V60Q7PWMX34D3B56J6E2WP/hi-who-is-the-whale-from-2018.jpg"
       ],
-      "image": "../assets/news/2026-09-06/61a5b9c68d9f8fbc_base.jpg",
-      "image_local": "../assets/news/2026-09-06/61a5b9c68d9f8fbc_base.jpg"
+      "image": "../assets/news/2026-09-06/d368071de99a0b72_base.jpg",
+      "image_local": "../assets/news/2026-09-06/d368071de99a0b72_base.jpg"
     },
     {
-      "title": "From power laws to AI networks, why complex Bitcoin price models memorize market noise",
-      "link": "https://cryptoslate.com/the-smartest-bitcoin-price-models-keep-losing-to-the-dumbest-forecast/",
-      "summary": "Bitcoin price forecasting has accumulated an unusually colorful collection of methods. You have basic scarcity models that convert the halving schedule into a price, and run-of-the-mill on-chain models that turn address or transaction activity into value. The highly contested power-law charts draw an ascending corridor through Bitcoin's history, and machine-learning systems feed market and macroeconomic […] The post From power laws to AI networks, why complex Bitcoin price models memorize market noise appeared first on CryptoSlate.",
+      "title": "This Crypto Project Just Funded 1,000 Student Loans Entirely On-Chain",
+      "link": "https://decrypt.co/377494/pencil-finance-1-million-student-loan",
+      "summary": "The team behind Pencil Finance says the financing supported thousands of Southeast Asian students, but it did not disclose borrower costs, defaults, or investor returns.",
+      "source": "Decrypt",
+      "date": "2026-09-06",
+      "date_human": "Sep 6, 2026",
+      "pub_ts": 1788699664,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/01/high-school-classroom-gID_4.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/01/high-school-classroom-gID_4.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/01/high-school-classroom-gID_4.jpg"
+      ],
+      "image": "../assets/news/2026-09-06/1d5594fa6873c011_base.jpg",
+      "image_local": "../assets/news/2026-09-06/1d5594fa6873c011_base.jpg"
+    },
+    {
+      "title": "Solana's weekly ETF inflows fell 97% while CME funds became less net short",
+      "link": "https://cryptoslate.com/solanas-weekly-etf-inflows-fell-97-while-cme-funds-became-less-net-short/",
+      "summary": "SOL ETFs stayed net positive in the week ending Sept. 4, while a separate Sept. 1 snapshot showed reduced net short exposure. The post Solana’s weekly ETF inflows fell 97% while CME funds became less net short appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-06",
       "date_human": "Sep 6, 2026",
-      "pub_ts": 1788678057,
+      "pub_ts": 1788697838,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-benchmark-shot.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/solana-leaky-capital-funnel.jpg"
       ],
-      "image": "../assets/news/2026-09-06/68ba92a1f9894ea1_base.jpg",
-      "image_local": "../assets/news/2026-09-06/68ba92a1f9894ea1_base.jpg"
-    },
-    {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-09-05",
-      "date_human": "Sep 5, 2026",
-      "pub_ts": 1788606979,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-09-06/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-09-06/57bd1a60f4d67ba1_base.jpg"
+      "image": "../assets/news/2026-09-06/26a423a388f847b4_base.jpg",
+      "image_local": "../assets/news/2026-09-06/26a423a388f847b4_base.jpg"
     },
     {
       "title": "Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds",
@@ -116,78 +176,18 @@
       "image_local": "../assets/news/2026-09-06/17c1e1d9f60b46e4_base.jpg"
     },
     {
-      "title": "What Is Robinhood Chain? The Ethereum Layer-2 Network for Tokenized Stocks and Meme Coins",
-      "link": "https://decrypt.co/resources/what-robinhood-chain-ethereum-layer-2-network-tokenized-stocks",
-      "summary": "Robinhood Chain is an Ethereum layer-2 network built with Arbitrum technology for tokenized assets, crypto apps, and on-chain financial products.",
-      "source": "Decrypt",
-      "date": "2026-09-05",
-      "date_human": "Sep 5, 2026",
-      "pub_ts": 1788624401,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/07/robinhood-chain-learn-gID_7-pID_2.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/07/robinhood-chain-learn-gID_7-pID_2.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/07/robinhood-chain-learn-gID_7-pID_2.png"
-      ],
-      "image": "../assets/news/2026-09-06/8b92a76d7762874b_base.jpg",
-      "image_local": "../assets/news/2026-09-06/8b92a76d7762874b_base.jpg"
-    },
-    {
-      "title": "Users exposed by Trezor breach grows sixfold after supposedly deleted shipping logs are found",
-      "link": "https://cryptoslate.com/users-exposed-by-trezor-breach-grows-sixfold-after-supposedly-deleted-shipping-logs-are-found/",
-      "summary": "The larger disclosure implies roughly 80,689 affected customers, though no combined total or row-level overlap check is public. The post Users exposed by Trezor breach grows sixfold after supposedly deleted shipping logs are found appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-05",
-      "date_human": "Sep 5, 2026",
-      "pub_ts": 1788634802,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/trezor-shipping-breach.jpg"
-      ],
-      "image": "../assets/news/2026-09-06/3c298db9aa5bc78a_base.jpg",
-      "image_local": "../assets/news/2026-09-06/3c298db9aa5bc78a_base.jpg"
-    },
-    {
-      "title": "Poland upholds crypto bill veto as Zondacrypto scandal widens",
-      "link": "https://cointelegraph.com/news/poland-upholds-crypto-bill-veto-zondacrypto-scandal-widens",
-      "summary": "Polish lawmakers failed to overturn a presidential veto of crypto legislation as the Zondacrypto investigation expands and its Estonian operator enters bankruptcy.",
+      "title": "Tether-backed Orionx to shut down after audit flags $7M custody gap",
+      "link": "https://cointelegraph.com/news/orionx-shut-down-7-million-move-outside-wallets",
+      "summary": "Tether-backed Orionx is permanently closing after an audit found more than $7 million in customer assets had moved to wallets outside its custody.",
       "source": "Cointelegraph",
-      "date": "2026-09-05",
-      "date_human": "Sep 5, 2026",
-      "pub_ts": 1788605069,
+      "date": "2026-09-06",
+      "date_human": "Sep 6, 2026",
+      "pub_ts": 1788685628,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1RDG59G42A1KT2B2MD6EQRF/poland.png"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1TTSPPYA631ETX2200VF1YM/orionx1.png"
       ],
-      "image": "../assets/news/2026-09-06/5540a388bf8c6a6a_base.jpg",
-      "image_local": "../assets/news/2026-09-06/5540a388bf8c6a6a_base.jpg"
-    },
-    {
-      "title": "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
-      "link": "https://www.coindesk.com/business/2026/09/02/british-investor-thought-he-lost-usd2-000-in-bitcoin-in-2012-he-just-recovered-usd4-5-million",
-      "summary": "British investor thought he lost $2,000 in bitcoin in 2012. He just recovered $4.5 million",
-      "source": "CoinDesk",
-      "date": "2026-09-05",
-      "date_human": "Sep 5, 2026",
-      "pub_ts": 1788609600,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/54662a5b70f0b4676e2b252594789b82117e88e3-1920x1281.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-06/1d88edb330d8e3f5_base.jpg",
-      "image_local": "../assets/news/2026-09-06/1d88edb330d8e3f5_base.jpg"
-    },
-    {
-      "title": "Update Your Browser: Google Patches Chrome Flaw Hackers Were Already Using",
-      "link": "https://decrypt.co/377501/google-chrome-zero-day-exploited",
-      "summary": "The update fixes a high-severity flaw in Chrome’s V8 engine, but Google has not revealed who is using it or whom they targeted.",
-      "source": "Decrypt",
-      "date": "2026-09-05",
-      "date_human": "Sep 5, 2026",
-      "pub_ts": 1788620464,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/google-decrypt-style-1-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-06/7f3e8bb9141d9c1f_base.jpg",
-      "image_local": "../assets/news/2026-09-06/7f3e8bb9141d9c1f_base.jpg"
+      "image": "../assets/news/2026-09-06/25d41149d6e2f33c_base.jpg",
+      "image_local": "../assets/news/2026-09-06/25d41149d6e2f33c_base.jpg"
     }
   ]
 }
