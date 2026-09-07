@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-09-06",
-  "generated_at_utc": "2026-09-06 22:05:10 UTC",
+  "day_iso": "2026-09-07",
+  "generated_at_utc": "2026-09-07 04:05:14 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,6 +16,20 @@
   "count": 12,
   "items": [
     {
+      "title": "‘White hats' take 4000 BTC from Liquid, ETFs see best inflows of 2026: Hodler's Digest",
+      "link": "https://cointelegraph.com/magazine/white-hats-take-4000-btc-from-liquid-btc-etfs-best-week-of-2026-hodlers-digest",
+      "summary": "Purported white hat hackers have taken 4000 Bitcoin from the Liquid sidechain in a major security breach. The Bitcoin ETFs see the best three weeks of inflows in 2026.",
+      "source": "Cointelegraph",
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788739502,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1WEJ8K82HDZFDZDMKSQ89V0/cover-collage.png"
+      ],
+      "image": "../assets/news/2026-09-07/47c5a5ba7a0df0be_base.jpg",
+      "image_local": "../assets/news/2026-09-07/47c5a5ba7a0df0be_base.jpg"
+    },
+    {
       "title": "Three DeFi projects face possible exclusion from future Arbitrum DAO programs",
       "link": "https://cryptoslate.com/three-defi-projects-face-possible-exclusion-from-future-arbitrum-dao-programs/",
       "summary": "Good Entry, Limitless and APX Finance could face separate off-chain ban votes, but the combined figure is not one repayable balance. The post Three DeFi projects face possible exclusion from future Arbitrum DAO programs appeared first on CryptoSlate.",
@@ -26,8 +40,8 @@
       "image_candidates": [
         "https://cryptoslate.com/wp-content/uploads/2026/09/arbitrum-access-brink.jpg"
       ],
-      "image": "../assets/news/2026-09-06/d68cd1e0c250d954_base.jpg",
-      "image_local": "../assets/news/2026-09-06/d68cd1e0c250d954_base.jpg"
+      "image": "../assets/news/2026-09-07/d68cd1e0c250d954_base.jpg",
+      "image_local": "../assets/news/2026-09-07/d68cd1e0c250d954_base.jpg"
     },
     {
       "title": "Prediction markets inch closer to the Supreme Court: State of Crypto",
@@ -40,8 +54,8 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/64a3b8b28556a566f583d451a219e2f7a97f9318-5315x3421.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-06/784b5e58386c4947_base.jpg",
-      "image_local": "../assets/news/2026-09-06/784b5e58386c4947_base.jpg"
+      "image": "../assets/news/2026-09-07/784b5e58386c4947_base.jpg",
+      "image_local": "../assets/news/2026-09-07/784b5e58386c4947_base.jpg"
     },
     {
       "title": "OpenAI's GPT-6 Astra Is Shockingly Good at Almost Everything",
@@ -56,8 +70,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/ChatGPT-gID_7.jpg@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/ChatGPT-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-06/f223167172f0d10d_base.jpg",
-      "image_local": "../assets/news/2026-09-06/f223167172f0d10d_base.jpg"
+      "image": "../assets/news/2026-09-07/f223167172f0d10d_base.jpg",
+      "image_local": "../assets/news/2026-09-07/f223167172f0d10d_base.jpg"
     },
     {
       "title": "Here's what happened in crypto today",
@@ -70,8 +84,8 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-09-06/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-09-06/57bd1a60f4d67ba1_base.jpg"
+      "image": "../assets/news/2026-09-07/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-07/57bd1a60f4d67ba1_base.jpg"
     },
     {
       "title": "Bitcoin's faces a weird new macro reality as the Fed turns off the tap and Treasury opens the floodgates",
@@ -84,8 +98,8 @@
       "image_candidates": [
         "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-fed-tap-treasury-floodgates.jpg"
       ],
-      "image": "../assets/news/2026-09-06/f3ff89ad5d3b8eba_base.jpg",
-      "image_local": "../assets/news/2026-09-06/f3ff89ad5d3b8eba_base.jpg"
+      "image": "../assets/news/2026-09-07/f3ff89ad5d3b8eba_base.jpg",
+      "image_local": "../assets/news/2026-09-07/f3ff89ad5d3b8eba_base.jpg"
     },
     {
       "title": "Ukrainian police took down a crypto scam that stole up to $1 million a month",
@@ -98,8 +112,8 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/ac6842abf59685d7a979fa176e4dc1908a44ebdf-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-06/b16a6a00e3db6b29_base.jpg",
-      "image_local": "../assets/news/2026-09-06/b16a6a00e3db6b29_base.jpg"
+      "image": "../assets/news/2026-09-07/b16a6a00e3db6b29_base.jpg",
+      "image_local": "../assets/news/2026-09-07/b16a6a00e3db6b29_base.jpg"
     },
     {
       "title": "XRP Gets Another Boost Through Ripple Deal With Florida Athletics",
@@ -114,8 +128,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/ripple-logo-decrypt-style-01-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/ripple-logo-decrypt-style-01-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-06/2efae01bb0f4f9ca_base.jpg",
-      "image_local": "../assets/news/2026-09-06/2efae01bb0f4f9ca_base.jpg"
+      "image": "../assets/news/2026-09-07/2efae01bb0f4f9ca_base.jpg",
+      "image_local": "../assets/news/2026-09-07/2efae01bb0f4f9ca_base.jpg"
     },
     {
       "title": "Satoshi-era Bitcoin wakes after 16 years of dormancy as 600 BTC moves",
@@ -128,8 +142,8 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1V60Q7PWMX34D3B56J6E2WP/hi-who-is-the-whale-from-2018.jpg"
       ],
-      "image": "../assets/news/2026-09-06/d368071de99a0b72_base.jpg",
-      "image_local": "../assets/news/2026-09-06/d368071de99a0b72_base.jpg"
+      "image": "../assets/news/2026-09-07/d368071de99a0b72_base.jpg",
+      "image_local": "../assets/news/2026-09-07/d368071de99a0b72_base.jpg"
     },
     {
       "title": "How Bitmine could surpass its 5% Ethereum goal without buying more ETH",
@@ -142,8 +156,8 @@
       "image_candidates": [
         "https://cryptoslate.com/wp-content/uploads/2026/09/bitmine-ethereum-staking-target.jpg"
       ],
-      "image": "../assets/news/2026-09-06/1f78455512e1245a_base.jpg",
-      "image_local": "../assets/news/2026-09-06/1f78455512e1245a_base.jpg"
+      "image": "../assets/news/2026-09-07/1f78455512e1245a_base.jpg",
+      "image_local": "../assets/news/2026-09-07/1f78455512e1245a_base.jpg"
     },
     {
       "title": "Better and Coinbase's bitcoin-backed mortgages can reuse borrowers' collateral",
@@ -156,8 +170,8 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/a02993e4b0be694cb7d7b4718d4e0922311ed0c6-5472x3648.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-06/bc6c8fcbfb69d45c_base.jpg",
-      "image_local": "../assets/news/2026-09-06/bc6c8fcbfb69d45c_base.jpg"
+      "image": "../assets/news/2026-09-07/bc6c8fcbfb69d45c_base.jpg",
+      "image_local": "../assets/news/2026-09-07/bc6c8fcbfb69d45c_base.jpg"
     },
     {
       "title": "Stablecoins Won't Scale Without Banks",
@@ -172,22 +186,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/stablecoins-decrypt-style-01-scaled-gID_7.jpg@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/stablecoins-decrypt-style-01-scaled-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-06/1f27a9632000f5c0_base.jpg",
-      "image_local": "../assets/news/2026-09-06/1f27a9632000f5c0_base.jpg"
-    },
-    {
-      "title": "Tether-backed Orionx to shut down after audit flags $7M custody gap",
-      "link": "https://cointelegraph.com/news/orionx-shut-down-7-million-move-outside-wallets",
-      "summary": "Tether-backed Orionx is permanently closing after an audit found more than $7 million in customer assets had moved to wallets outside its custody.",
-      "source": "Cointelegraph",
-      "date": "2026-09-06",
-      "date_human": "Sep 6, 2026",
-      "pub_ts": 1788685628,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1TTSPPYA631ETX2200VF1YM/orionx1.png"
-      ],
-      "image": "../assets/news/2026-09-06/25d41149d6e2f33c_base.jpg",
-      "image_local": "../assets/news/2026-09-06/25d41149d6e2f33c_base.jpg"
+      "image": "../assets/news/2026-09-07/1f27a9632000f5c0_base.jpg",
+      "image_local": "../assets/news/2026-09-07/1f27a9632000f5c0_base.jpg"
     }
   ]
 }
