@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-07",
-  "generated_at_utc": "2026-09-07 10:05:08 UTC",
+  "generated_at_utc": "2026-09-07 16:05:15 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,178 +16,178 @@
   "count": 12,
   "items": [
     {
-      "title": "A Coinbase-backed crypto bridge is shutting down after its business model stopped working",
-      "link": "https://cryptoslate.com/a-coinbase-backed-crypto-bridge-is-shutting-down-after-its-business-model-stopped-working/",
-      "summary": "The cross-chain project says thin bridge fees cannot sustain always-on infrastructure, while a planned 303.3 million ROUTE burn remains pending. The post A Coinbase-backed crypto bridge is shutting down after its business model stopped working appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788775229,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/router-protocol-broken-link.jpg"
-      ],
-      "image": "../assets/news/2026-09-07/e6224048d8c64de7_base.jpg",
-      "image_local": "../assets/news/2026-09-07/e6224048d8c64de7_base.jpg"
-    },
-    {
-      "title": "'Purported White-Hat Hackers' Withdraw $320M in Bitcoin From Liquid",
-      "link": "https://decrypt.co/377528/purported-white-hat-hackers-withdraw-320m-in-bitcoin-from-liquid",
-      "summary": "Blockstream and the hackers are engaging with each other through PGP-signed messages in Bitcoin transactions.",
-      "source": "Decrypt",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788774942,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-07/3da84fe0ce97e8a4_base.jpg",
-      "image_local": "../assets/news/2026-09-07/3da84fe0ce97e8a4_base.jpg"
-    },
-    {
-      "title": "Philippines eyes payment operator registration freeze, tighter VASP checks",
-      "link": "https://cointelegraph.com/news/philippines-payment-operator-freeze-vasp-checks",
-      "summary": "A central bank proposal would pause new payment operator registrations while requiring enhanced monitoring and transaction limits for arrangements involving virtual asset firms.",
+      "title": "Bitcoin chips away at weekend upside as $80K hangs in the balance",
+      "link": "https://cointelegraph.com/markets/bitcoin-chips-away-at-weekend-upside-as-80k-hangs-in-the-balance",
+      "summary": "Bitcoin price fell 2% in low-liquidity conditions as the US Labor Day holiday saw $80,000 once again slip from bulls’ grasp.",
       "source": "Cointelegraph",
       "date": "2026-09-07",
       "date_human": "Sep 7, 2026",
-      "pub_ts": 1788774660,
+      "pub_ts": 1788796667,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1XKZJXYZJ9AMRCN0CK32C6E/digital-bank-philippines.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1Y8ZNSF5WMPGFQ1661WSGAG/hi-why-bitcoin-treasury-stocks-fall-faster-than-the-assets-they-hold-2.jpg"
       ],
-      "image": "../assets/news/2026-09-07/70b19e629b2ddd7d_base.jpg",
-      "image_local": "../assets/news/2026-09-07/70b19e629b2ddd7d_base.jpg"
+      "image": "../assets/news/2026-09-07/f72c86a9c9b753c1_base.jpg",
+      "image_local": "../assets/news/2026-09-07/f72c86a9c9b753c1_base.jpg"
     },
     {
-      "title": "Live updates: Bitcoin holds $79,000 as hike odds climb, zcash runs 45% in a week",
-      "link": "https://www.coindesk.com/business/2026/09/07/live-updates-bitcoin-holds-usd79-000-as-hike-odds-climb-zcash-runs-45-in-a-week",
-      "summary": "Live updates: Bitcoin holds $79,000 as hike odds climb, zcash runs 45% in a week",
-      "source": "CoinDesk",
+      "title": "Bitcoin Starts the Week Flat, But Chainlink Is Flying—Here's Why",
+      "link": "https://decrypt.co/377566/bitcoin-starts-flat-chainlink-price-flying",
+      "summary": "LINK hit an eight-month high after Bottomline, a top-three SWIFT services provider moving $16 trillion a year, tapped Chainlink to connect 600-plus banks to blockchain settlement.",
+      "source": "Decrypt",
       "date": "2026-09-07",
       "date_human": "Sep 7, 2026",
-      "pub_ts": 1788769032,
+      "pub_ts": 1788795754,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/e74ccaccbfc0f79c365a6b9fcd91e28d3c469457-1516x850.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/09/chainlink-decrypt-style-01-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/chainlink-decrypt-style-01-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/chainlink-decrypt-style-01-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-07/5702feb5049edf58_base.jpg",
-      "image_local": "../assets/news/2026-09-07/5702feb5049edf58_base.jpg"
+      "image": "../assets/news/2026-09-07/b98bb3a184ffeaa3_base.jpg",
+      "image_local": "../assets/news/2026-09-07/b98bb3a184ffeaa3_base.jpg"
     },
     {
-      "title": "A whitehat hacker is holding $320 million in drained Bitcoin until developers prove they patched a fatal network flaw",
-      "link": "https://cryptoslate.com/a-whitehat-hacker-is-holding-320-million-in-drained-bitcoin-until-developers-prove-they-patched-a-fatal-network-flaw/",
-      "summary": "SideSwap says bug-created L-BTC passed a valid authorization as bridge nodes paused and reserve reconciliation became the restart test. The post A whitehat hacker is holding $320 million in drained Bitcoin until developers prove they patched a fatal network flaw appeared first on CryptoSlate.",
+      "title": "XRP lending model leaves depositors with 90% of a bad loan's loss despite reserves twice its size",
+      "link": "https://cryptoslate.com/xrp-lending-model-leaves-depositors-with-90-of-a-bad-loans-loss-despite-reserves-twice-its-size/",
+      "summary": "With the same reserve and cover rates, one modeled default leaves 90,000 tokens of vault loss; ten smaller loans leave 4,500. The post XRP lending model leaves depositors with 90% of a bad loan’s loss despite reserves twice its size appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-07",
       "date_human": "Sep 7, 2026",
-      "pub_ts": 1788771313,
+      "pub_ts": 1788795040,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/liquid-bridge-pause.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/xrp-depositor-eye-risk.jpg"
       ],
-      "image": "../assets/news/2026-09-07/cb9dca93479108ca_base.jpg",
-      "image_local": "../assets/news/2026-09-07/cb9dca93479108ca_base.jpg"
+      "image": "../assets/news/2026-09-07/97e6b6ad3c5ec719_base.jpg",
+      "image_local": "../assets/news/2026-09-07/97e6b6ad3c5ec719_base.jpg"
     },
     {
-      "title": "OpenAI's GPT-6 Astra Is Shockingly Good at Almost Everything",
-      "link": "https://decrypt.co/377514/openai-gpt-6-astra-review-shockingly-good",
-      "summary": "Early testers spent OpenAI's launch weekend pushing Astra through 3D cities, playable games, Bach chorales and research papers.",
-      "source": "Decrypt",
-      "date": "2026-09-06",
-      "date_human": "Sep 6, 2026",
-      "pub_ts": 1788714064,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/07/ChatGPT-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/ChatGPT-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/ChatGPT-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-09-07/f223167172f0d10d_base.jpg",
-      "image_local": "../assets/news/2026-09-07/f223167172f0d10d_base.jpg"
-    },
-    {
-      "title": "Coldcard third-wave attacker moves 45% of stolen Bitcoin",
-      "link": "https://cointelegraph.com/news/coldcard-third-wave-attacker-moves-bitcoin-stolen",
-      "summary": "Galaxy said 82% of Bitcoin stolen across all Coldcard attacks remains in the original addresses, with 18% moved in apparent laundering.",
-      "source": "Cointelegraph",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788773779,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1XGRZ6TAY9ZXV32M12BDT6R/hi-the-hidden-force-behind-bitcoin-and-ethereum-price-swings.jpg"
-      ],
-      "image": "../assets/news/2026-09-07/d9935e96f69a48ca_base.jpg",
-      "image_local": "../assets/news/2026-09-07/d9935e96f69a48ca_base.jpg"
-    },
-    {
-      "title": "U.S. inflation, Coinbase's Deribit switch: Crypto Week Ahead",
-      "link": "https://www.coindesk.com/markets/2026/09/07/u-s-inflation-coinbase-s-deribit-switch-crypto-week-ahead",
-      "summary": "U.S. inflation, Coinbase's Deribit switch: Crypto Week Ahead",
+      "title": "Polish prosecutors charge fifth suspect in a massive crypto probe",
+      "link": "https://www.coindesk.com/policy/2026/09/07/polish-prosecutors-charge-fifth-suspect-in-a-massive-crypto-probe",
+      "summary": "Polish prosecutors charge fifth suspect in a massive crypto probe",
       "source": "CoinDesk",
       "date": "2026-09-07",
       "date_human": "Sep 7, 2026",
-      "pub_ts": 1788768425,
+      "pub_ts": 1788794923,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/6e8ed1cd0f17a1509349ad7cb7c31b8324847527-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/e811d957616f476007bbc63485c4cb73baac3c0d-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-07/1194d76bba83b7db_base.jpg",
-      "image_local": "../assets/news/2026-09-07/1194d76bba83b7db_base.jpg"
+      "image": "../assets/news/2026-09-07/a6cd5191e0a949dd_base.jpg",
+      "image_local": "../assets/news/2026-09-07/a6cd5191e0a949dd_base.jpg"
     },
     {
-      "title": "Three DeFi projects face possible exclusion from future Arbitrum DAO programs",
-      "link": "https://cryptoslate.com/three-defi-projects-face-possible-exclusion-from-future-arbitrum-dao-programs/",
-      "summary": "Good Entry, Limitless and APX Finance could face separate off-chain ban votes, but the combined figure is not one repayable balance. The post Three DeFi projects face possible exclusion from future Arbitrum DAO programs appeared first on CryptoSlate.",
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788785654,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-09-07/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-07/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Ethereum Proposal Would Let Users Pay Gas Without Holding ETH",
+      "link": "https://decrypt.co/377559/ethereum-proposal-would-let-users-pay-gas-without-holding-eth",
+      "summary": "EIP-8141 has been a draft since January, and its authors pitch it first as a defense against quantum computers.",
+      "source": "Decrypt",
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788793424,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/ethereum-decrypt-style-06-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/ethereum-decrypt-style-06-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/ethereum-decrypt-style-06-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-07/3029d4633e4a65b3_base.jpg",
+      "image_local": "../assets/news/2026-09-07/3029d4633e4a65b3_base.jpg"
+    },
+    {
+      "title": "Solana's “million-payments-a-second” AI system can leave sellers unpaid even after they deliver",
+      "link": "https://cryptoslate.com/solanas-million-payments-a-second-ai-system-can-leave-sellers-unpaid-even-after-they-deliver/",
+      "summary": "Behind the million-per-second benchmark, operator failure tests who funds customer recovery and whether merchants can still collect their final bill. The post Solana’s “million-payments-a-second” AI system can leave sellers unpaid even after they deliver appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-09-06",
-      "date_human": "Sep 6, 2026",
-      "pub_ts": 1788728728,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/arbitrum-access-brink.jpg"
-      ],
-      "image": "../assets/news/2026-09-07/d68cd1e0c250d954_base.jpg",
-      "image_local": "../assets/news/2026-09-07/d68cd1e0c250d954_base.jpg"
-    },
-    {
-      "title": "XRP Gets Another Boost Through Ripple Deal With Florida Athletics",
-      "link": "https://decrypt.co/377512/xrp-boost-ripple-florida-athletics",
-      "summary": "The multi-year deal will place the XRP logo on the field at Ben Hill Griffin Stadium starting this season, extending Ripple's push into college athletics.",
-      "source": "Decrypt",
-      "date": "2026-09-06",
-      "date_human": "Sep 6, 2026",
-      "pub_ts": 1788710463,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/ripple-logo-decrypt-style-01-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/ripple-logo-decrypt-style-01-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/ripple-logo-decrypt-style-01-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-07/2efae01bb0f4f9ca_base.jpg",
-      "image_local": "../assets/news/2026-09-07/2efae01bb0f4f9ca_base.jpg"
-    },
-    {
-      "title": "Fomo overtakes Pump.fun in daily revenue on Solana",
-      "link": "https://cointelegraph.com/news/fomo-pumpfun-revenue-app-solana",
-      "summary": "Fomo generated $1.76 million on Friday, beating Pump.fun’s $1.1 million, though the memecoin launchpad remains ahead over 30 days.",
-      "source": "Cointelegraph",
       "date": "2026-09-07",
       "date_human": "Sep 7, 2026",
-      "pub_ts": 1788767139,
+      "pub_ts": 1788790831,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1XA5XHGVP1S4E8DGH0JJ4XZ/sponsor-screen-traid2.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/solana-ai-refund-flow.jpg"
       ],
-      "image": "../assets/news/2026-09-07/0fc40787537239a3_base.jpg",
-      "image_local": "../assets/news/2026-09-07/0fc40787537239a3_base.jpg"
+      "image": "../assets/news/2026-09-07/9e4f5436647e6965_base.jpg",
+      "image_local": "../assets/news/2026-09-07/9e4f5436647e6965_base.jpg"
     },
     {
-      "title": "Once-hyped Ethereum rival Harmony wants to shut its blockchain over AI threats",
-      "link": "https://www.coindesk.com/markets/2026/09/07/once-hyped-ethereum-rival-harmony-wants-to-shut-its-blockchain-over-ai-threats",
-      "summary": "Once-hyped Ethereum rival Harmony wants to shut its blockchain over AI threats",
+      "title": "Stablecoin wallets challenge traditional bank accounts as main consumer money hub",
+      "link": "https://www.coindesk.com/business/2026/09/07/stablecoin-wallets-challenge-traditional-bank-accounts-as-main-consumer-money-hub",
+      "summary": "Stablecoin wallets challenge traditional bank accounts as main consumer money hub",
       "source": "CoinDesk",
       "date": "2026-09-07",
       "date_human": "Sep 7, 2026",
-      "pub_ts": 1788768138,
+      "pub_ts": 1788790335,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/f0562e90c7231023af7460a147d52ceef82fbf48-1500x998.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/342f8890301beb5acf9ca08064a218d0b94619e1-1732x974.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-07/1f24fb5b5b2df0a5_base.jpg",
-      "image_local": "../assets/news/2026-09-07/1f24fb5b5b2df0a5_base.jpg"
+      "image": "../assets/news/2026-09-07/cda7b8e135cb14c8_base.jpg",
+      "image_local": "../assets/news/2026-09-07/cda7b8e135cb14c8_base.jpg"
+    },
+    {
+      "title": "Zcash hits highest price since 2016 as market cap tops $20B",
+      "link": "https://cointelegraph.com/markets/zcash-highest-price-market-cap-20-billion",
+      "summary": "ZEC gained 45% over the past week, extending its rally since Grayscale converted its Zcash Trust into an ETF that began trading Aug. 25.",
+      "source": "Cointelegraph",
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788784283,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1XWJSJ8XM9PBWB2HGFX3KCS/zcash-rally-etf-grayscale-privacy-coins.jpg"
+      ],
+      "image": "../assets/news/2026-09-07/87daa58a6422f9a0_base.jpg",
+      "image_local": "../assets/news/2026-09-07/87daa58a6422f9a0_base.jpg"
+    },
+    {
+      "title": "Irish Gangs Are Renting Private Vaults to Hide Crypto Keys",
+      "link": "https://decrypt.co/377546/irish-gangs-are-renting-private-vaults-to-hide-crypto-keys",
+      "summary": "Keys are going into rented boxes alongside cash, watches and passports, Ireland’s Criminal Assets Bureau says.",
+      "source": "Decrypt",
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788785030,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/09/vault-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/vault-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/vault-decrypt-style-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-07/a960804a305ec716_base.jpg",
+      "image_local": "../assets/news/2026-09-07/a960804a305ec716_base.jpg"
+    },
+    {
+      "title": "Ethereum may have a simpler way to ease the computing burden of its growing rollup ecosystem",
+      "link": "https://cryptoslate.com/ethereum-may-have-a-simpler-way-to-ease-the-computing-burden-of-its-growing-rollup-ecosystem/",
+      "summary": "A reduced RowDAS design shares reconstruction duties in 1,000-node tests, while retaining reliance on high-custody nodes. The post Ethereum may have a simpler way to ease the computing burden of its growing rollup ecosystem appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788787800,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/ethereum-recovery-funnel-system.jpg"
+      ],
+      "image": "../assets/news/2026-09-07/b90029f34cae878d_base.jpg",
+      "image_local": "../assets/news/2026-09-07/b90029f34cae878d_base.jpg"
+    },
+    {
+      "title": "Ethereum commits to letting users pay gas fees without having to hold ETH",
+      "link": "https://www.coindesk.com/tech/2026/09/07/ethereum-commits-to-letting-users-pay-gas-fees-without-having-to-hold-eth",
+      "summary": "Ethereum commits to letting users pay gas fees without having to hold ETH",
+      "source": "CoinDesk",
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788789247,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/c357579ddef2051b405b9e89f8525dd02709081d-5760x3240.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-07/e8f79126b7c14a65_base.jpg",
+      "image_local": "../assets/news/2026-09-07/e8f79126b7c14a65_base.jpg"
     }
   ]
 }
