@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-07",
-  "generated_at_utc": "2026-09-07 04:05:14 UTC",
+  "generated_at_utc": "2026-09-07 10:05:08 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,46 +16,76 @@
   "count": 12,
   "items": [
     {
-      "title": "‘White hats' take 4000 BTC from Liquid, ETFs see best inflows of 2026: Hodler's Digest",
-      "link": "https://cointelegraph.com/magazine/white-hats-take-4000-btc-from-liquid-btc-etfs-best-week-of-2026-hodlers-digest",
-      "summary": "Purported white hat hackers have taken 4000 Bitcoin from the Liquid sidechain in a major security breach. The Bitcoin ETFs see the best three weeks of inflows in 2026.",
+      "title": "A Coinbase-backed crypto bridge is shutting down after its business model stopped working",
+      "link": "https://cryptoslate.com/a-coinbase-backed-crypto-bridge-is-shutting-down-after-its-business-model-stopped-working/",
+      "summary": "The cross-chain project says thin bridge fees cannot sustain always-on infrastructure, while a planned 303.3 million ROUTE burn remains pending. The post A Coinbase-backed crypto bridge is shutting down after its business model stopped working appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788775229,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/router-protocol-broken-link.jpg"
+      ],
+      "image": "../assets/news/2026-09-07/e6224048d8c64de7_base.jpg",
+      "image_local": "../assets/news/2026-09-07/e6224048d8c64de7_base.jpg"
+    },
+    {
+      "title": "'Purported White-Hat Hackers' Withdraw $320M in Bitcoin From Liquid",
+      "link": "https://decrypt.co/377528/purported-white-hat-hackers-withdraw-320m-in-bitcoin-from-liquid",
+      "summary": "Blockstream and the hackers are engaging with each other through PGP-signed messages in Bitcoin transactions.",
+      "source": "Decrypt",
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788774942,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker-decrypt-style-02-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-07/3da84fe0ce97e8a4_base.jpg",
+      "image_local": "../assets/news/2026-09-07/3da84fe0ce97e8a4_base.jpg"
+    },
+    {
+      "title": "Philippines eyes payment operator registration freeze, tighter VASP checks",
+      "link": "https://cointelegraph.com/news/philippines-payment-operator-freeze-vasp-checks",
+      "summary": "A central bank proposal would pause new payment operator registrations while requiring enhanced monitoring and transaction limits for arrangements involving virtual asset firms.",
       "source": "Cointelegraph",
       "date": "2026-09-07",
       "date_human": "Sep 7, 2026",
-      "pub_ts": 1788739502,
+      "pub_ts": 1788774660,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1WEJ8K82HDZFDZDMKSQ89V0/cover-collage.png"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1XKZJXYZJ9AMRCN0CK32C6E/digital-bank-philippines.jpg"
       ],
-      "image": "../assets/news/2026-09-07/47c5a5ba7a0df0be_base.jpg",
-      "image_local": "../assets/news/2026-09-07/47c5a5ba7a0df0be_base.jpg"
+      "image": "../assets/news/2026-09-07/70b19e629b2ddd7d_base.jpg",
+      "image_local": "../assets/news/2026-09-07/70b19e629b2ddd7d_base.jpg"
     },
     {
-      "title": "Three DeFi projects face possible exclusion from future Arbitrum DAO programs",
-      "link": "https://cryptoslate.com/three-defi-projects-face-possible-exclusion-from-future-arbitrum-dao-programs/",
-      "summary": "Good Entry, Limitless and APX Finance could face separate off-chain ban votes, but the combined figure is not one repayable balance. The post Three DeFi projects face possible exclusion from future Arbitrum DAO programs appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-06",
-      "date_human": "Sep 6, 2026",
-      "pub_ts": 1788728728,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/arbitrum-access-brink.jpg"
-      ],
-      "image": "../assets/news/2026-09-07/d68cd1e0c250d954_base.jpg",
-      "image_local": "../assets/news/2026-09-07/d68cd1e0c250d954_base.jpg"
-    },
-    {
-      "title": "Prediction markets inch closer to the Supreme Court: State of Crypto",
-      "link": "https://www.coindesk.com/news-analysis/2026/09/06/prediction-markets-inch-closer-to-the-supreme-court-state-of-crypto",
-      "summary": "Prediction markets inch closer to the Supreme Court: State of Crypto",
+      "title": "Live updates: Bitcoin holds $79,000 as hike odds climb, zcash runs 45% in a week",
+      "link": "https://www.coindesk.com/business/2026/09/07/live-updates-bitcoin-holds-usd79-000-as-hike-odds-climb-zcash-runs-45-in-a-week",
+      "summary": "Live updates: Bitcoin holds $79,000 as hike odds climb, zcash runs 45% in a week",
       "source": "CoinDesk",
-      "date": "2026-09-06",
-      "date_human": "Sep 6, 2026",
-      "pub_ts": 1788719400,
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788769032,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/64a3b8b28556a566f583d451a219e2f7a97f9318-5315x3421.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/e74ccaccbfc0f79c365a6b9fcd91e28d3c469457-1516x850.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-07/784b5e58386c4947_base.jpg",
-      "image_local": "../assets/news/2026-09-07/784b5e58386c4947_base.jpg"
+      "image": "../assets/news/2026-09-07/5702feb5049edf58_base.jpg",
+      "image_local": "../assets/news/2026-09-07/5702feb5049edf58_base.jpg"
+    },
+    {
+      "title": "A whitehat hacker is holding $320 million in drained Bitcoin until developers prove they patched a fatal network flaw",
+      "link": "https://cryptoslate.com/a-whitehat-hacker-is-holding-320-million-in-drained-bitcoin-until-developers-prove-they-patched-a-fatal-network-flaw/",
+      "summary": "SideSwap says bug-created L-BTC passed a valid authorization as bridge nodes paused and reserve reconciliation became the restart test. The post A whitehat hacker is holding $320 million in drained Bitcoin until developers prove they patched a fatal network flaw appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788771313,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/liquid-bridge-pause.jpg"
+      ],
+      "image": "../assets/news/2026-09-07/cb9dca93479108ca_base.jpg",
+      "image_local": "../assets/news/2026-09-07/cb9dca93479108ca_base.jpg"
     },
     {
       "title": "OpenAI's GPT-6 Astra Is Shockingly Good at Almost Everything",
@@ -74,46 +104,46 @@
       "image_local": "../assets/news/2026-09-07/f223167172f0d10d_base.jpg"
     },
     {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "title": "Coldcard third-wave attacker moves 45% of stolen Bitcoin",
+      "link": "https://cointelegraph.com/news/coldcard-third-wave-attacker-moves-bitcoin-stolen",
+      "summary": "Galaxy said 82% of Bitcoin stolen across all Coldcard attacks remains in the original addresses, with 18% moved in apparent laundering.",
       "source": "Cointelegraph",
-      "date": "2026-09-06",
-      "date_human": "Sep 6, 2026",
-      "pub_ts": 1788701083,
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788773779,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1XGRZ6TAY9ZXV32M12BDT6R/hi-the-hidden-force-behind-bitcoin-and-ethereum-price-swings.jpg"
       ],
-      "image": "../assets/news/2026-09-07/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-09-07/57bd1a60f4d67ba1_base.jpg"
+      "image": "../assets/news/2026-09-07/d9935e96f69a48ca_base.jpg",
+      "image_local": "../assets/news/2026-09-07/d9935e96f69a48ca_base.jpg"
     },
     {
-      "title": "Bitcoin's faces a weird new macro reality as the Fed turns off the tap and Treasury opens the floodgates",
-      "link": "https://cryptoslate.com/bitcoin-uncertain-the-fed-and-treasury-are-pulling-the-bond-market-in-opposite-directions/",
-      "summary": "Bitcoin's current rally started when the Treasury Department announced on Aug. 19 that, beginning Sept. 9, it would at least double the maximum size of certain buyback operations for government bonds with 10 to 30 years left to maturity, raising the cap from $2 billion to $4 billion per operation. Simply put, the Treasury was […] The post Bitcoin’s faces a weird new macro reality as the Fed turns off the tap and Treasury opens the floodgates appeared first on CryptoSlate.",
+      "title": "U.S. inflation, Coinbase's Deribit switch: Crypto Week Ahead",
+      "link": "https://www.coindesk.com/markets/2026/09/07/u-s-inflation-coinbase-s-deribit-switch-crypto-week-ahead",
+      "summary": "U.S. inflation, Coinbase's Deribit switch: Crypto Week Ahead",
+      "source": "CoinDesk",
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788768425,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/6e8ed1cd0f17a1509349ad7cb7c31b8324847527-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-07/1194d76bba83b7db_base.jpg",
+      "image_local": "../assets/news/2026-09-07/1194d76bba83b7db_base.jpg"
+    },
+    {
+      "title": "Three DeFi projects face possible exclusion from future Arbitrum DAO programs",
+      "link": "https://cryptoslate.com/three-defi-projects-face-possible-exclusion-from-future-arbitrum-dao-programs/",
+      "summary": "Good Entry, Limitless and APX Finance could face separate off-chain ban votes, but the combined figure is not one repayable balance. The post Three DeFi projects face possible exclusion from future Arbitrum DAO programs appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-06",
       "date_human": "Sep 6, 2026",
-      "pub_ts": 1788721220,
+      "pub_ts": 1788728728,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-fed-tap-treasury-floodgates.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/arbitrum-access-brink.jpg"
       ],
-      "image": "../assets/news/2026-09-07/f3ff89ad5d3b8eba_base.jpg",
-      "image_local": "../assets/news/2026-09-07/f3ff89ad5d3b8eba_base.jpg"
-    },
-    {
-      "title": "Ukrainian police took down a crypto scam that stole up to $1 million a month",
-      "link": "https://www.coindesk.com/business/2026/09/06/ukrainian-police-took-down-a-crypto-scam-that-stole-up-to-usd1-million-a-month",
-      "summary": "Ukrainian police took down a crypto scam that stole up to $1 million a month",
-      "source": "CoinDesk",
-      "date": "2026-09-06",
-      "date_human": "Sep 6, 2026",
-      "pub_ts": 1788710400,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/ac6842abf59685d7a979fa176e4dc1908a44ebdf-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-07/b16a6a00e3db6b29_base.jpg",
-      "image_local": "../assets/news/2026-09-07/b16a6a00e3db6b29_base.jpg"
+      "image": "../assets/news/2026-09-07/d68cd1e0c250d954_base.jpg",
+      "image_local": "../assets/news/2026-09-07/d68cd1e0c250d954_base.jpg"
     },
     {
       "title": "XRP Gets Another Boost Through Ripple Deal With Florida Athletics",
@@ -132,62 +162,32 @@
       "image_local": "../assets/news/2026-09-07/2efae01bb0f4f9ca_base.jpg"
     },
     {
-      "title": "Satoshi-era Bitcoin wakes after 16 years of dormancy as 600 BTC moves",
-      "link": "https://cointelegraph.com/news/satoshi-era-bitcoin-wakes-16-years-600-btc-moves",
-      "summary": "Whale Alert identified 12 mining rewards totaling 600 BTC that moved after 16 years of dormancy, with the onchain tracking platform finding no connection to Satoshi Nakamoto.",
+      "title": "Fomo overtakes Pump.fun in daily revenue on Solana",
+      "link": "https://cointelegraph.com/news/fomo-pumpfun-revenue-app-solana",
+      "summary": "Fomo generated $1.76 million on Friday, beating Pump.fun’s $1.1 million, though the memecoin launchpad remains ahead over 30 days.",
       "source": "Cointelegraph",
-      "date": "2026-09-06",
-      "date_human": "Sep 6, 2026",
-      "pub_ts": 1788699780,
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788767139,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1V60Q7PWMX34D3B56J6E2WP/hi-who-is-the-whale-from-2018.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1XA5XHGVP1S4E8DGH0JJ4XZ/sponsor-screen-traid2.jpg"
       ],
-      "image": "../assets/news/2026-09-07/d368071de99a0b72_base.jpg",
-      "image_local": "../assets/news/2026-09-07/d368071de99a0b72_base.jpg"
+      "image": "../assets/news/2026-09-07/0fc40787537239a3_base.jpg",
+      "image_local": "../assets/news/2026-09-07/0fc40787537239a3_base.jpg"
     },
     {
-      "title": "How Bitmine could surpass its 5% Ethereum goal without buying more ETH",
-      "link": "https://cryptoslate.com/how-bitmine-could-surpass-its-5-ethereum-goal-without-buying-more-eth/",
-      "summary": "A two-year model needs about 74% reward retention with flat ETH supply, rising to 96.5% at 0.5% annual supply growth. The post How Bitmine could surpass its 5% Ethereum goal without buying more ETH appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-06",
-      "date_human": "Sep 6, 2026",
-      "pub_ts": 1788718204,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitmine-ethereum-staking-target.jpg"
-      ],
-      "image": "../assets/news/2026-09-07/1f78455512e1245a_base.jpg",
-      "image_local": "../assets/news/2026-09-07/1f78455512e1245a_base.jpg"
-    },
-    {
-      "title": "Better and Coinbase's bitcoin-backed mortgages can reuse borrowers' collateral",
-      "link": "https://www.coindesk.com/business/2026/09/06/better-and-coinbase-s-bitcoin-backed-mortgages-can-reuse-borrowers-collateral",
-      "summary": "Better and Coinbase's bitcoin-backed mortgages can reuse borrowers' collateral",
+      "title": "Once-hyped Ethereum rival Harmony wants to shut its blockchain over AI threats",
+      "link": "https://www.coindesk.com/markets/2026/09/07/once-hyped-ethereum-rival-harmony-wants-to-shut-its-blockchain-over-ai-threats",
+      "summary": "Once-hyped Ethereum rival Harmony wants to shut its blockchain over AI threats",
       "source": "CoinDesk",
-      "date": "2026-09-06",
-      "date_human": "Sep 6, 2026",
-      "pub_ts": 1788703200,
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788768138,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/a02993e4b0be694cb7d7b4718d4e0922311ed0c6-5472x3648.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/f0562e90c7231023af7460a147d52ceef82fbf48-1500x998.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-07/bc6c8fcbfb69d45c_base.jpg",
-      "image_local": "../assets/news/2026-09-07/bc6c8fcbfb69d45c_base.jpg"
-    },
-    {
-      "title": "Stablecoins Won't Scale Without Banks",
-      "link": "https://decrypt.co/377280/stablecoins-wont-scale-without-banks",
-      "summary": "With a growing number of institutions exploring stablecoins, the bottleneck is regulated infrastructure they can trust.",
-      "source": "Decrypt",
-      "date": "2026-09-06",
-      "date_human": "Sep 6, 2026",
-      "pub_ts": 1788706863,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/stablecoins-decrypt-style-01-scaled-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/stablecoins-decrypt-style-01-scaled-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/stablecoins-decrypt-style-01-scaled-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-09-07/1f27a9632000f5c0_base.jpg",
-      "image_local": "../assets/news/2026-09-07/1f27a9632000f5c0_base.jpg"
+      "image": "../assets/news/2026-09-07/1f24fb5b5b2df0a5_base.jpg",
+      "image_local": "../assets/news/2026-09-07/1f24fb5b5b2df0a5_base.jpg"
     }
   ]
 }
