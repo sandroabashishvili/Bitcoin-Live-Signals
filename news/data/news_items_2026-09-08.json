@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-09-07",
-  "generated_at_utc": "2026-09-07 22:05:21 UTC",
+  "day_iso": "2026-09-08",
+  "generated_at_utc": "2026-09-08 04:05:19 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,6 +16,48 @@
   "count": 12,
   "items": [
     {
+      "title": "Liquid ‘white hats' return $270M in Bitcoin as network prepares restart",
+      "link": "https://cointelegraph.com/news/liquid-white-hats-return-270m-bitcoin-network-restart",
+      "summary": "The actors returned 85% of the Bitcoin withdrawn from Liquid’s federation wallet following the security incident.",
+      "source": "Cointelegraph",
+      "date": "2026-09-08",
+      "date_human": "Sep 8, 2026",
+      "pub_ts": 1788839177,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1ZHYDRMBN9CQ2AV6CCP6WB8/hacky-hack.png"
+      ],
+      "image": "../assets/news/2026-09-08/a4cdb4f7d55ad0d1_base.jpg",
+      "image_local": "../assets/news/2026-09-08/a4cdb4f7d55ad0d1_base.jpg"
+    },
+    {
+      "title": "Tether-backed crypto exchange freezes withdrawals after $7 million leaves custody",
+      "link": "https://cryptoslate.com/tether-backed-crypto-exchange-freezes-withdrawals-after-7-million-leaves-custody/",
+      "summary": "The exchange reports more than $7 million moved from custody to outside wallets, with recovery still at an early stage. The post Tether-backed crypto exchange freezes withdrawals after $7 million leaves custody appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-08",
+      "date_human": "Sep 8, 2026",
+      "pub_ts": 1788826852,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/orionx-withdrawals-frozen.jpg"
+      ],
+      "image": "../assets/news/2026-09-08/c132db7f73e087bf_base.jpg",
+      "image_local": "../assets/news/2026-09-08/c132db7f73e087bf_base.jpg"
+    },
+    {
+      "title": "Metaplanet CEO breaks silence but shareholders say the hard questions remain unanswered",
+      "link": "https://www.coindesk.com/markets/2026/09/08/metaplanet-ceo-breaks-silence-but-shareholders-say-the-hard-questions-remain-unanswered",
+      "summary": "Metaplanet CEO breaks silence but shareholders say the hard questions remain unanswered",
+      "source": "CoinDesk",
+      "date": "2026-09-07",
+      "date_human": "Sep 7, 2026",
+      "pub_ts": 1788822060,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/ae0eefbbe99f7161ece4bcb1b3f82b9a3ef46b11-1920x1100.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-08/3a4199e4005b80d6_base.jpg",
+      "image_local": "../assets/news/2026-09-08/3a4199e4005b80d6_base.jpg"
+    },
+    {
       "title": "Your LG TV Might Still Be Listening to You—Even When It Looks Like It's Off",
       "link": "https://decrypt.co/377637/lg-tv-might-be-listening-even-when-off",
       "summary": "A Gamers Nexus investigation found LG sets scanning every device on a home network and capturing microphone audio with the screen off, four months after LG promised Texas regulators it had cleaned up its tracking.",
@@ -28,8 +70,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/tv-listening-gID_1.jpg@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/tv-listening-gID_1.jpg"
       ],
-      "image": "../assets/news/2026-09-07/45e08ef4a8d148ec_base.jpg",
-      "image_local": "../assets/news/2026-09-07/45e08ef4a8d148ec_base.jpg"
+      "image": "../assets/news/2026-09-08/45e08ef4a8d148ec_base.jpg",
+      "image_local": "../assets/news/2026-09-08/45e08ef4a8d148ec_base.jpg"
     },
     {
       "title": "Here's what happened in crypto today",
@@ -42,22 +84,22 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-09-07/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-09-07/57bd1a60f4d67ba1_base.jpg"
+      "image": "../assets/news/2026-09-08/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-08/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "Ethereum arbitrage study reveals builders receive $5 for every $1 burned by the network",
-      "link": "https://cryptoslate.com/ethereum-arbitrage-study-reveals-builders-receive-5-for-every-1-burned-by-the-network/",
-      "summary": "Bitquery's 30-day sample separates trading proceeds from ETH supply reduction, while builders' onward payments leave final profit shares unresolved. The post Ethereum arbitrage study reveals builders receive $5 for every $1 burned by the network appeared first on CryptoSlate.",
+      "title": "A seven-year-old blockchain is permanently abandoning its own network to seek refuge on Ethereum",
+      "link": "https://cryptoslate.com/a-seven-year-old-blockchain-is-permanently-abandoning-its-own-network-to-seek-refuge-on-ethereum/",
+      "summary": "The plan would move ONE to Ethereum after an exploit and rollback, while urging users to exit smart contracts before Sept. 10. The post A seven-year-old blockchain is permanently abandoning its own network to seek refuge on Ethereum appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-07",
       "date_human": "Sep 7, 2026",
-      "pub_ts": 1788815107,
+      "pub_ts": 1788822648,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/ethereum-builder-value-flow-.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/harmony-token-ethereum-exit.jpg"
       ],
-      "image": "../assets/news/2026-09-07/5d0bf789c947e239_base.jpg",
-      "image_local": "../assets/news/2026-09-07/5d0bf789c947e239_base.jpg"
+      "image": "../assets/news/2026-09-08/937d5cc85f258a22_base.jpg",
+      "image_local": "../assets/news/2026-09-08/937d5cc85f258a22_base.jpg"
     },
     {
       "title": "Hunter Biden debuts 'LAPTOP' memecoin targeting TRUMP holders",
@@ -70,8 +112,8 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/3cd740b222f532e367c30f90f1b5170696358cde-1280x792.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-07/2e4be7820adf74d3_base.jpg",
-      "image_local": "../assets/news/2026-09-07/2e4be7820adf74d3_base.jpg"
+      "image": "../assets/news/2026-09-08/2e4be7820adf74d3_base.jpg",
+      "image_local": "../assets/news/2026-09-08/2e4be7820adf74d3_base.jpg"
     },
     {
       "title": "OpenAI Chief Scientist Warns AI Labs May Need to Slow Down",
@@ -86,8 +128,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-07/9b0a7e2c9eb5e0f6_base.jpg",
-      "image_local": "../assets/news/2026-09-07/9b0a7e2c9eb5e0f6_base.jpg"
+      "image": "../assets/news/2026-09-08/9b0a7e2c9eb5e0f6_base.jpg",
+      "image_local": "../assets/news/2026-09-08/9b0a7e2c9eb5e0f6_base.jpg"
     },
     {
       "title": "UK financial watchdog weighs lifting prediction markets ban: Report",
@@ -100,22 +142,22 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1YQN8JRRNR258R2ASED73KY/hi-prediction-market-uk.png"
       ],
-      "image": "../assets/news/2026-09-07/f3c5a0fbf0db8d0a_base.jpg",
-      "image_local": "../assets/news/2026-09-07/f3c5a0fbf0db8d0a_base.jpg"
+      "image": "../assets/news/2026-09-08/f3c5a0fbf0db8d0a_base.jpg",
+      "image_local": "../assets/news/2026-09-08/f3c5a0fbf0db8d0a_base.jpg"
     },
     {
-      "title": "DeFi lender proposes bad-debt fix, but user USDC funds remain locked",
-      "link": "https://cryptoslate.com/lending-protocol-offers-bad-debt-fix-while-trapped-depositors-face-missing-usdc-funds-and-zero-cash-access/",
-      "summary": "Anthias projects lower monthly debt accrual under unchanged market conditions, while reserve transfers and supplier cash access remain unverified. The post DeFi lender proposes bad-debt fix, but user USDC funds remain locked appeared first on CryptoSlate.",
+      "title": "Strong jobs just triggered a hawkish UBS reversal that could pressure Bitcoin through December",
+      "link": "https://cryptoslate.com/strong-jobs-just-triggered-a-hawkish-ubs-reversal-that-could-pressure-bitcoin-through-december/",
+      "summary": "Strong jobs give the Fed room to focus on inflation, but September data could still change the tightening path. The post Strong jobs just triggered a hawkish UBS reversal that could pressure Bitcoin through December appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-07",
       "date_human": "Sep 7, 2026",
-      "pub_ts": 1788811530,
+      "pub_ts": 1788818744,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/moonwell-usdc-floodgate-recovery.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-fed-squeeze.jpg"
       ],
-      "image": "../assets/news/2026-09-07/3178902cfac98da3_base.jpg",
-      "image_local": "../assets/news/2026-09-07/3178902cfac98da3_base.jpg"
+      "image": "../assets/news/2026-09-08/64668a3bff34d409_base.jpg",
+      "image_local": "../assets/news/2026-09-08/64668a3bff34d409_base.jpg"
     },
     {
       "title": "Polish prosecutors charge fifth suspect in a massive crypto probe",
@@ -128,8 +170,8 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/e811d957616f476007bbc63485c4cb73baac3c0d-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-07/a6cd5191e0a949dd_base.jpg",
-      "image_local": "../assets/news/2026-09-07/a6cd5191e0a949dd_base.jpg"
+      "image": "../assets/news/2026-09-08/a6cd5191e0a949dd_base.jpg",
+      "image_local": "../assets/news/2026-09-08/a6cd5191e0a949dd_base.jpg"
     },
     {
       "title": "Brazilian Banks Expand Crypto Offerings as Regulation Takes Hold",
@@ -144,50 +186,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-brazil-bitcoin-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/decrypt-style-brazil-bitcoin-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-07/0afef2642b4577bf_base.jpg",
-      "image_local": "../assets/news/2026-09-07/0afef2642b4577bf_base.jpg"
-    },
-    {
-      "title": "Ethereum Foundation names 2 ‘must ship' EIPs for Hegotá upgrade",
-      "link": "https://cointelegraph.com/news/ethereum-foundation-names-2-must-ship-eips-for-hegot-upgrade",
-      "summary": "Ethereum’s Hegotá upgrade will center on FOCIL and Frame Transactions as developers weigh dozens of other proposed changes for inclusion.",
-      "source": "Cointelegraph",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788812491,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1YPGJP56PPJ9HZPSQ3THD23/hi-how-the-fusaka-upgrade-fits-into-ethereums-long-term-roadmap.jpg"
-      ],
-      "image": "../assets/news/2026-09-07/fca4c1c0681df1c6_base.jpg",
-      "image_local": "../assets/news/2026-09-07/fca4c1c0681df1c6_base.jpg"
-    },
-    {
-      "title": "Solana beats Bitcoin on one key metric, but a single software bug could still take down the network",
-      "link": "https://cryptoslate.com/solana-beats-bitcoin-on-one-key-metric-but-a-single-software-bug-could-still-take-down-the-network/",
-      "summary": "A live reading is already 18, showing why institutions need more than one decentralization metric. The post Solana beats Bitcoin on one key metric, but a single software bug could still take down the network appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788807642,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/solana-threshold-fortress.jpg"
-      ],
-      "image": "../assets/news/2026-09-07/f8e3ad14433c2ab1_base.jpg",
-      "image_local": "../assets/news/2026-09-07/f8e3ad14433c2ab1_base.jpg"
-    },
-    {
-      "title": "Stablecoin wallets challenge traditional bank accounts as main consumer money hub",
-      "link": "https://www.coindesk.com/business/2026/09/07/stablecoin-wallets-challenge-traditional-bank-accounts-as-main-consumer-money-hub",
-      "summary": "Stablecoin wallets challenge traditional bank accounts as main consumer money hub",
-      "source": "CoinDesk",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788790335,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/342f8890301beb5acf9ca08064a218d0b94619e1-1732x974.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-07/cda7b8e135cb14c8_base.jpg",
-      "image_local": "../assets/news/2026-09-07/cda7b8e135cb14c8_base.jpg"
+      "image": "../assets/news/2026-09-08/0afef2642b4577bf_base.jpg",
+      "image_local": "../assets/news/2026-09-08/0afef2642b4577bf_base.jpg"
     }
   ]
 }
