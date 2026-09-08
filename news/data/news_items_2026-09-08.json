@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-08",
-  "generated_at_utc": "2026-09-08 10:05:19 UTC",
+  "generated_at_utc": "2026-09-08 16:05:28 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,178 +16,178 @@
   "count": 12,
   "items": [
     {
-      "title": "Polish Court Detains Fifth Suspect in Zondacrypto Exchange Probe",
-      "link": "https://decrypt.co/377650/polish-court-detains-fifth-suspect-in-zondacrypto-exchange-probe",
-      "summary": "Two chief executives of the exchange have now vanished, four years apart, leaving 1.3 million clients locked out.",
-      "source": "Decrypt",
-      "date": "2026-09-08",
-      "date_human": "Sep 8, 2026",
-      "pub_ts": 1788861299,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-08/bb1a6a4241052cd0_base.jpg",
-      "image_local": "../assets/news/2026-09-08/bb1a6a4241052cd0_base.jpg"
-    },
-    {
-      "title": "Robinhood chain to generate $160M in annual fees by 2028: Bernstein",
-      "link": "https://cointelegraph.com/news/robinhood-chain-160m-annual-fees-2028-bernstein",
-      "summary": "Growing demand for tokenized stock trading may drive the Robinhood chain’s annual fees to $160 million by 2028, predicted analysts from Bernstein.",
+      "title": "Bitcoin faces key support test at $78.3K as US crude oil hits three-month high",
+      "link": "https://cointelegraph.com/markets/bitcoin-faces-key-support-test-at-783k-as-us-crude-oil-hits-three-month-high",
+      "summary": "Bitcoin fell with US stocks on the opening of Tuesday’s Wall Street trading session as analysis warns that BTC price support at $78,300 must hold.",
       "source": "Cointelegraph",
       "date": "2026-09-08",
       "date_human": "Sep 8, 2026",
-      "pub_ts": 1788861280,
+      "pub_ts": 1788882071,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M205GJS8Q5S11AJAQ7022PC1/robinhood2-1.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M20T148B6W28RQ4JBENHW4HR/hi-how-to-make-a-profit-when-bitcoin-prices-are-stagnant-oil-1.jpg"
       ],
-      "image": "../assets/news/2026-09-08/e0c9a07411f8b1e8_base.jpg",
-      "image_local": "../assets/news/2026-09-08/e0c9a07411f8b1e8_base.jpg"
+      "image": "../assets/news/2026-09-08/4142fe5c222e9d87_base.jpg",
+      "image_local": "../assets/news/2026-09-08/4142fe5c222e9d87_base.jpg"
     },
     {
-      "title": "Hunter Biden's new “LAPTOP” memecoin targets traders who lost money on TRUMP",
-      "link": "https://cryptoslate.com/hunter-bidens-new-laptop-memecoin-targets-traders-who-lost-money-on-trump/",
-      "summary": "Hunter Biden is about to test whether his criticism of political profiteering through crypto applies to his own business ventures. According to The Wall Street Journal, former President Joe Biden's son plans to launch a memecoin called LAPTOP on Sept. 9, turning one of the most politically charged episodes of his father’s 2020 election campaign […] The post Hunter Biden’s new “LAPTOP” memecoin targets traders who lost money on TRUMP appeared first on CryptoSlate.",
+      "title": "Paolo Ardoino wants AI agents to hold Tether, but developers are left on the hook for overspending",
+      "link": "https://cryptoslate.com/paolo-ardoino-wants-ai-agents-to-hold-tether-but-developers-are-left-on-the-hook-for-overspending/",
+      "summary": "Tether’s WDK design separates wallet access from payment approval, leaving developers to enforce the limits users expect. The post Paolo Ardoino wants AI agents to hold Tether, but developers are left on the hook for overspending appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-08",
       "date_human": "Sep 8, 2026",
-      "pub_ts": 1788860131,
+      "pub_ts": 1788882020,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/laptop-token-auction.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/tether-ai-wallet-control.jpg"
       ],
-      "image": "../assets/news/2026-09-08/ae5990ce57f3b44c_base.jpg",
-      "image_local": "../assets/news/2026-09-08/ae5990ce57f3b44c_base.jpg"
+      "image": "../assets/news/2026-09-08/7298e3d79f6366a5_base.jpg",
+      "image_local": "../assets/news/2026-09-08/7298e3d79f6366a5_base.jpg"
     },
     {
-      "title": "Live updates: Yen rally and rising bond yields pressure bitcoin and risk assets",
-      "link": "https://www.coindesk.com/tech/2026/09/08/live-updates",
-      "summary": "Live updates: Yen rally and rising bond yields pressure bitcoin and risk assets",
+      "title": "US Police Fear Meta Glasses Are Watching Them Back: Report",
+      "link": "https://decrypt.co/377675/us-police-fear-meta-glasses-are-watching-them-back-report",
+      "summary": "Memos from the NYPD to Homeland Security warn the devices could be used for covert filming inside jails and police facilities.",
+      "source": "Decrypt",
+      "date": "2026-09-08",
+      "date_human": "Sep 8, 2026",
+      "pub_ts": 1788881323,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Ray-Ban-Meta-Smart-Glasses1-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-08/c12fb2cce7fba126_base.jpg",
+      "image_local": "../assets/news/2026-09-08/c12fb2cce7fba126_base.jpg"
+    },
+    {
+      "title": "Strive's SATA nears $1 billion market cap as Strategy's STRC continues to underperform",
+      "link": "https://www.coindesk.com/markets/2026/09/08/strive-s-sata-nears-usd1-billion-market-cap-as-strategy-s-strc-continues-to-underperform",
+      "summary": "Strive's SATA nears $1 billion market cap as Strategy's STRC continues to underperform",
       "source": "CoinDesk",
       "date": "2026-09-08",
       "date_human": "Sep 8, 2026",
-      "pub_ts": 1788856230,
+      "pub_ts": 1788878012,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/d3c36f86c5d814d9ec493dae6d7fde7687526f38-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/2688a309ccf027625e4bf19277b7e78cfc32859f-2123x1084.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-08/16aac3db738d6ad2_base.jpg",
-      "image_local": "../assets/news/2026-09-08/16aac3db738d6ad2_base.jpg"
+      "image": "../assets/news/2026-09-08/eb0acf28a86cc957_base.jpg",
+      "image_local": "../assets/news/2026-09-08/eb0acf28a86cc957_base.jpg"
     },
     {
-      "title": "Your LG TV Might Still Be Listening to You—Even When It Looks Like It's Off",
-      "link": "https://decrypt.co/377637/lg-tv-might-be-listening-even-when-off",
-      "summary": "A Gamers Nexus investigation found LG sets scanning every device on a home network and capturing microphone audio with the screen off, four months after LG promised Texas regulators it had cleaned up its tracking.",
-      "source": "Decrypt",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788817564,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/09/tv-listening-gID_1.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/tv-listening-gID_1.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/tv-listening-gID_1.jpg"
-      ],
-      "image": "../assets/news/2026-09-08/45e08ef4a8d148ec_base.jpg",
-      "image_local": "../assets/news/2026-09-08/45e08ef4a8d148ec_base.jpg"
-    },
-    {
-      "title": "New Bitcoin whales spark sell-side risk as unrealized gains hit $9B",
-      "link": "https://cointelegraph.com/markets/new-bitcoin-whales-spark-sell-side-risk-as-unrealized-gains-hit-9b",
-      "summary": "Unrealized gains by whale speculators hit their highest levels on record last week, per data going back to 2016.",
+      "title": "Bitmine buys 28k ETH, completes 97% of treasury accumulation goal",
+      "link": "https://cointelegraph.com/news/bitmine-buys-28k-eth-completes-97-treasury-goal",
+      "summary": "While Bitmine’s completed 97% of its goal to acquire 5% of Ether’s supply, Tom Lee’s team faces a $5.1 billion unrealized loss on its main treasury asset.",
       "source": "Cointelegraph",
       "date": "2026-09-08",
       "date_human": "Sep 8, 2026",
-      "pub_ts": 1788860426,
+      "pub_ts": 1788875464,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2062K6V4M4F1DR5TM0F23TH/hi-daos-dexs-and-whales-how-web3-organizations-became-the-new-crypto-beasts1.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M20KSZECABXAPAY6J96Y7ZX7/hi-the-7-largest-ethereum-treasury-companies-right-now-ranked-by-holdings-bitmine-4.jpg"
       ],
-      "image": "../assets/news/2026-09-08/817d19215b9a85ef_base.jpg",
-      "image_local": "../assets/news/2026-09-08/817d19215b9a85ef_base.jpg"
+      "image": "../assets/news/2026-09-08/127fef7752f29b32_base.jpg",
+      "image_local": "../assets/news/2026-09-08/127fef7752f29b32_base.jpg"
     },
     {
-      "title": "Poland's crypto licensing deadlock is handing foreign EU firms an advantage",
-      "link": "https://cryptoslate.com/polands-crypto-licensing-deadlock-is-handing-foreign-eu-firms-an-advantage/",
-      "summary": "The Sept. 4 vote leaves domestic applicants waiting for a legal authorization route while qualifying EU providers retain access to Polish customers. The post Poland’s crypto licensing deadlock is handing foreign EU firms an advantage appeared first on CryptoSlate.",
+      "title": "Active crypto address “copy and paste attack” threatens users even after major malware cleanup cut off hackers",
+      "link": "https://cryptoslate.com/copy-and-paste-crypto-address-attack-remains-active-after-major-malware-cleanup-cut-off-hacker-controls/",
+      "summary": "CrowdStrike says the Aug. 31 disruption blocked new payload delivery while installed malware can still swap cryptocurrency payment addresses. The post Active crypto address “copy and paste attack” threatens users even after major malware cleanup cut off hackers appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-08",
       "date_human": "Sep 8, 2026",
-      "pub_ts": 1788857416,
+      "pub_ts": 1788878104,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/poland-crypto-licensing-gap.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/sality-crypto-address-swap.jpg"
       ],
-      "image": "../assets/news/2026-09-08/edd0f3ab2ecf2b7d_base.jpg",
-      "image_local": "../assets/news/2026-09-08/edd0f3ab2ecf2b7d_base.jpg"
+      "image": "../assets/news/2026-09-08/a3d25f18640e2e6c_base.jpg",
+      "image_local": "../assets/news/2026-09-08/a3d25f18640e2e6c_base.jpg"
     },
     {
-      "title": "Bit2Me sets up specialized unit to help law enforcement track down crypto assets",
-      "link": "https://www.coindesk.com/business/2026/09/02/bit2me-sets-up-specialized-unit-to-help-law-enforcement-track-down-crypto-assets",
-      "summary": "Bit2Me sets up specialized unit to help law enforcement track down crypto assets",
+      "title": "Robinhood Takes Equity Stake in Crypto.com, Taps Exchange to Power Prediction Markets",
+      "link": "https://decrypt.co/377676/robinhood-equity-crypto-com-prediction-markets",
+      "summary": "The multi-year deal makes OG.com the infrastructure and clearing engine behind Robinhood's fastest-growing business.",
+      "source": "Decrypt",
+      "date": "2026-09-08",
+      "date_human": "Sep 8, 2026",
+      "pub_ts": 1788881116,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/02/crypto-com-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/crypto-com-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/crypto-com-decrypt-style-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-08/575b88f1a77d4cfc_base.jpg",
+      "image_local": "../assets/news/2026-09-08/575b88f1a77d4cfc_base.jpg"
+    },
+    {
+      "title": "Visa combines VisaNet data with onchain lending to power stablecoin card working capital",
+      "link": "https://www.coindesk.com/business/2026/09/08/visa-opens-settlement-data-to-help-blockchain-lenders-finance-crypto-cards-as-volume-surges",
+      "summary": "Visa combines VisaNet data with onchain lending to power stablecoin card working capital",
       "source": "CoinDesk",
       "date": "2026-09-08",
       "date_human": "Sep 8, 2026",
-      "pub_ts": 1788850800,
+      "pub_ts": 1788877754,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/23e2945b7f1cdacbebd3f42923b110bd7196c153-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/e400c51cc73487de1b2a87a882ce2955729b2d16-2204x1240.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-08/93191e1032e2b797_base.jpg",
-      "image_local": "../assets/news/2026-09-08/93191e1032e2b797_base.jpg"
+      "image": "../assets/news/2026-09-08/e1ffc2495aa44298_base.jpg",
+      "image_local": "../assets/news/2026-09-08/e1ffc2495aa44298_base.jpg"
     },
     {
-      "title": "OpenAI Chief Scientist Warns AI Labs May Need to Slow Down",
-      "link": "https://decrypt.co/377635/openai-chief-scientist-warns-ai-slow-down",
-      "summary": "Jakub Pachocki is calling for mandatory safety standards as OpenAI finds it harder to monitor advanced AI models’ reasoning.",
-      "source": "Decrypt",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788815763,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-decrypt-style-09-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-08/9b0a7e2c9eb5e0f6_base.jpg",
-      "image_local": "../assets/news/2026-09-08/9b0a7e2c9eb5e0f6_base.jpg"
-    },
-    {
-      "title": "Cronos confirms $9.2M slipped away before Tectonic exploit rollback",
-      "link": "https://cointelegraph.com/news/cronos-tectonic-rollback-111m-9m-escaped",
-      "summary": "Cronos’s post-mortem put the Tectonic exploit’s affected borrowing at $120.4 million, with 7.6% transferred off-network before validators intervened.",
+      "title": "Is Bitcoin too volatile to risk your retirement on?",
+      "link": "https://cointelegraph.com/magazine/is-bitcoin-too-volatile-to-risk-your-retirement-on",
+      "summary": "Bitcoin believers see it as an almost certain long-term investment, but retirement demands a different approach. How much crypto exposure is too much for your retirement account?",
       "source": "Cointelegraph",
       "date": "2026-09-08",
       "date_human": "Sep 8, 2026",
-      "pub_ts": 1788855044,
+      "pub_ts": 1788874200,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2005NQRX5E6SV5DN6KN3Z8T/hi-how-great-big-companies-use-blockchain3.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1ZBNEHJ54QYSM9PS5HZF0CH/magazine-retire-early-with-crypto.jpg"
       ],
-      "image": "../assets/news/2026-09-08/982ab0059ac82a8b_base.jpg",
-      "image_local": "../assets/news/2026-09-08/982ab0059ac82a8b_base.jpg"
+      "image": "../assets/news/2026-09-08/ccc90cbb720afaec_base.jpg",
+      "image_local": "../assets/news/2026-09-08/ccc90cbb720afaec_base.jpg"
     },
     {
-      "title": "Tether-backed crypto exchange freezes withdrawals after $7 million leaves custody",
-      "link": "https://cryptoslate.com/tether-backed-crypto-exchange-freezes-withdrawals-after-7-million-leaves-custody/",
-      "summary": "The exchange reports more than $7 million moved from custody to outside wallets, with recovery still at an early stage. The post Tether-backed crypto exchange freezes withdrawals after $7 million leaves custody appeared first on CryptoSlate.",
+      "title": "The fight over Ethereum's supply is forcing a choice between high staking yields and the value of your ETH",
+      "link": "https://cryptoslate.com/the-fight-over-ethereums-supply-is-forcing-a-choice-between-high-staking-yields-and-the-value-of-your-eth/",
+      "summary": "EF Protocol wants a broader issuance debate, while unchanged rewards preserve validator income and dilution for unstaked holders. The post The fight over Ethereum’s supply is forcing a choice between high staking yields and the value of your ETH appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-08",
       "date_human": "Sep 8, 2026",
-      "pub_ts": 1788826852,
+      "pub_ts": 1788870947,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/orionx-withdrawals-frozen.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/ethereum-monetary-policy-gavel.jpg"
       ],
-      "image": "../assets/news/2026-09-08/c132db7f73e087bf_base.jpg",
-      "image_local": "../assets/news/2026-09-08/c132db7f73e087bf_base.jpg"
+      "image": "../assets/news/2026-09-08/e4cdb7fe825f0bfc_base.jpg",
+      "image_local": "../assets/news/2026-09-08/e4cdb7fe825f0bfc_base.jpg"
     },
     {
-      "title": "Hunter Biden wants to launch a LAPTOP memecoin. Crypto traders hate it already",
-      "link": "https://www.coindesk.com/markets/2026/09/08/crypto-traders-turn-on-hunter-biden-s-laptop-memecoin-before-it-even-launches",
-      "summary": "Hunter Biden wants to launch a LAPTOP memecoin. Crypto traders hate it already",
+      "title": "Tom Lee's Bitmine Adds $70 Million in Ethereum, Holdings Reach 5.93 Million ETH",
+      "link": "https://decrypt.co/377672/tom-lee-bitmine-adds-70-million-ethereum",
+      "summary": "The company says it holds roughly 4.9% of Ethereum’s supply, with most of its tokens staked to earn rewards.",
+      "source": "Decrypt",
+      "date": "2026-09-08",
+      "date_human": "Sep 8, 2026",
+      "pub_ts": 1788879884,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-decrypt-style-03-1-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-decrypt-style-03-1-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/tom-lee-decrypt-style-03-1-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-08/1f5a20b5ccc22724_base.jpg",
+      "image_local": "../assets/news/2026-09-08/1f5a20b5ccc22724_base.jpg"
+    },
+    {
+      "title": "Ethereum makes quantum resistance a top priority with a 2029 deadline",
+      "link": "https://www.coindesk.com/tech/2026/09/08/ethereum-makes-quantum-resistance-a-top-priority-with-a-2029-deadline",
+      "summary": "Ethereum makes quantum resistance a top priority with a 2029 deadline",
       "source": "CoinDesk",
       "date": "2026-09-08",
       "date_human": "Sep 8, 2026",
-      "pub_ts": 1788848633,
+      "pub_ts": 1788873504,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/300eebf65983cfe6ab9ded851acad00338091a17-1438x809.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/422bf0c58d3c5d984b8ee7f8a379b85250db7bc2-6016x4016.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-08/dc4c0c2a3d45cba1_base.jpg",
-      "image_local": "../assets/news/2026-09-08/dc4c0c2a3d45cba1_base.jpg"
+      "image": "../assets/news/2026-09-08/dc44efcbf96d7d01_base.jpg",
+      "image_local": "../assets/news/2026-09-08/dc44efcbf96d7d01_base.jpg"
     }
   ]
 }
