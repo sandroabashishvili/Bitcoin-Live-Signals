@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-08",
-  "generated_at_utc": "2026-09-08 04:05:19 UTC",
+  "generated_at_utc": "2026-09-08 10:05:19 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,46 +16,62 @@
   "count": 12,
   "items": [
     {
-      "title": "Liquid ‘white hats' return $270M in Bitcoin as network prepares restart",
-      "link": "https://cointelegraph.com/news/liquid-white-hats-return-270m-bitcoin-network-restart",
-      "summary": "The actors returned 85% of the Bitcoin withdrawn from Liquid’s federation wallet following the security incident.",
+      "title": "Polish Court Detains Fifth Suspect in Zondacrypto Exchange Probe",
+      "link": "https://decrypt.co/377650/polish-court-detains-fifth-suspect-in-zondacrypto-exchange-probe",
+      "summary": "Two chief executives of the exchange have now vanished, four years apart, leaving 1.3 million clients locked out.",
+      "source": "Decrypt",
+      "date": "2026-09-08",
+      "date_human": "Sep 8, 2026",
+      "pub_ts": 1788861299,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/crime_jail-handcuffs-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-08/bb1a6a4241052cd0_base.jpg",
+      "image_local": "../assets/news/2026-09-08/bb1a6a4241052cd0_base.jpg"
+    },
+    {
+      "title": "Robinhood chain to generate $160M in annual fees by 2028: Bernstein",
+      "link": "https://cointelegraph.com/news/robinhood-chain-160m-annual-fees-2028-bernstein",
+      "summary": "Growing demand for tokenized stock trading may drive the Robinhood chain’s annual fees to $160 million by 2028, predicted analysts from Bernstein.",
       "source": "Cointelegraph",
       "date": "2026-09-08",
       "date_human": "Sep 8, 2026",
-      "pub_ts": 1788839177,
+      "pub_ts": 1788861280,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1ZHYDRMBN9CQ2AV6CCP6WB8/hacky-hack.png"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M205GJS8Q5S11AJAQ7022PC1/robinhood2-1.jpg"
       ],
-      "image": "../assets/news/2026-09-08/a4cdb4f7d55ad0d1_base.jpg",
-      "image_local": "../assets/news/2026-09-08/a4cdb4f7d55ad0d1_base.jpg"
+      "image": "../assets/news/2026-09-08/e0c9a07411f8b1e8_base.jpg",
+      "image_local": "../assets/news/2026-09-08/e0c9a07411f8b1e8_base.jpg"
     },
     {
-      "title": "Tether-backed crypto exchange freezes withdrawals after $7 million leaves custody",
-      "link": "https://cryptoslate.com/tether-backed-crypto-exchange-freezes-withdrawals-after-7-million-leaves-custody/",
-      "summary": "The exchange reports more than $7 million moved from custody to outside wallets, with recovery still at an early stage. The post Tether-backed crypto exchange freezes withdrawals after $7 million leaves custody appeared first on CryptoSlate.",
+      "title": "Hunter Biden's new “LAPTOP” memecoin targets traders who lost money on TRUMP",
+      "link": "https://cryptoslate.com/hunter-bidens-new-laptop-memecoin-targets-traders-who-lost-money-on-trump/",
+      "summary": "Hunter Biden is about to test whether his criticism of political profiteering through crypto applies to his own business ventures. According to The Wall Street Journal, former President Joe Biden's son plans to launch a memecoin called LAPTOP on Sept. 9, turning one of the most politically charged episodes of his father’s 2020 election campaign […] The post Hunter Biden’s new “LAPTOP” memecoin targets traders who lost money on TRUMP appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-08",
       "date_human": "Sep 8, 2026",
-      "pub_ts": 1788826852,
+      "pub_ts": 1788860131,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/orionx-withdrawals-frozen.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/laptop-token-auction.jpg"
       ],
-      "image": "../assets/news/2026-09-08/c132db7f73e087bf_base.jpg",
-      "image_local": "../assets/news/2026-09-08/c132db7f73e087bf_base.jpg"
+      "image": "../assets/news/2026-09-08/ae5990ce57f3b44c_base.jpg",
+      "image_local": "../assets/news/2026-09-08/ae5990ce57f3b44c_base.jpg"
     },
     {
-      "title": "Metaplanet CEO breaks silence but shareholders say the hard questions remain unanswered",
-      "link": "https://www.coindesk.com/markets/2026/09/08/metaplanet-ceo-breaks-silence-but-shareholders-say-the-hard-questions-remain-unanswered",
-      "summary": "Metaplanet CEO breaks silence but shareholders say the hard questions remain unanswered",
+      "title": "Live updates: Yen rally and rising bond yields pressure bitcoin and risk assets",
+      "link": "https://www.coindesk.com/tech/2026/09/08/live-updates",
+      "summary": "Live updates: Yen rally and rising bond yields pressure bitcoin and risk assets",
       "source": "CoinDesk",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788822060,
+      "date": "2026-09-08",
+      "date_human": "Sep 8, 2026",
+      "pub_ts": 1788856230,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/ae0eefbbe99f7161ece4bcb1b3f82b9a3ef46b11-1920x1100.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/d3c36f86c5d814d9ec493dae6d7fde7687526f38-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-08/3a4199e4005b80d6_base.jpg",
-      "image_local": "../assets/news/2026-09-08/3a4199e4005b80d6_base.jpg"
+      "image": "../assets/news/2026-09-08/16aac3db738d6ad2_base.jpg",
+      "image_local": "../assets/news/2026-09-08/16aac3db738d6ad2_base.jpg"
     },
     {
       "title": "Your LG TV Might Still Be Listening to You—Even When It Looks Like It's Off",
@@ -74,46 +90,46 @@
       "image_local": "../assets/news/2026-09-08/45e08ef4a8d148ec_base.jpg"
     },
     {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "title": "New Bitcoin whales spark sell-side risk as unrealized gains hit $9B",
+      "link": "https://cointelegraph.com/markets/new-bitcoin-whales-spark-sell-side-risk-as-unrealized-gains-hit-9b",
+      "summary": "Unrealized gains by whale speculators hit their highest levels on record last week, per data going back to 2016.",
       "source": "Cointelegraph",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788815437,
+      "date": "2026-09-08",
+      "date_human": "Sep 8, 2026",
+      "pub_ts": 1788860426,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2062K6V4M4F1DR5TM0F23TH/hi-daos-dexs-and-whales-how-web3-organizations-became-the-new-crypto-beasts1.jpg"
       ],
-      "image": "../assets/news/2026-09-08/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-09-08/57bd1a60f4d67ba1_base.jpg"
+      "image": "../assets/news/2026-09-08/817d19215b9a85ef_base.jpg",
+      "image_local": "../assets/news/2026-09-08/817d19215b9a85ef_base.jpg"
     },
     {
-      "title": "A seven-year-old blockchain is permanently abandoning its own network to seek refuge on Ethereum",
-      "link": "https://cryptoslate.com/a-seven-year-old-blockchain-is-permanently-abandoning-its-own-network-to-seek-refuge-on-ethereum/",
-      "summary": "The plan would move ONE to Ethereum after an exploit and rollback, while urging users to exit smart contracts before Sept. 10. The post A seven-year-old blockchain is permanently abandoning its own network to seek refuge on Ethereum appeared first on CryptoSlate.",
+      "title": "Poland's crypto licensing deadlock is handing foreign EU firms an advantage",
+      "link": "https://cryptoslate.com/polands-crypto-licensing-deadlock-is-handing-foreign-eu-firms-an-advantage/",
+      "summary": "The Sept. 4 vote leaves domestic applicants waiting for a legal authorization route while qualifying EU providers retain access to Polish customers. The post Poland’s crypto licensing deadlock is handing foreign EU firms an advantage appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788822648,
+      "date": "2026-09-08",
+      "date_human": "Sep 8, 2026",
+      "pub_ts": 1788857416,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/harmony-token-ethereum-exit.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/poland-crypto-licensing-gap.jpg"
       ],
-      "image": "../assets/news/2026-09-08/937d5cc85f258a22_base.jpg",
-      "image_local": "../assets/news/2026-09-08/937d5cc85f258a22_base.jpg"
+      "image": "../assets/news/2026-09-08/edd0f3ab2ecf2b7d_base.jpg",
+      "image_local": "../assets/news/2026-09-08/edd0f3ab2ecf2b7d_base.jpg"
     },
     {
-      "title": "Hunter Biden debuts 'LAPTOP' memecoin targeting TRUMP holders",
-      "link": "https://www.coindesk.com/business/2026/09/07/hunter-biden-is-launching-a-memecoin-named-after-his-laptop",
-      "summary": "Hunter Biden debuts 'LAPTOP' memecoin targeting TRUMP holders",
+      "title": "Bit2Me sets up specialized unit to help law enforcement track down crypto assets",
+      "link": "https://www.coindesk.com/business/2026/09/02/bit2me-sets-up-specialized-unit-to-help-law-enforcement-track-down-crypto-assets",
+      "summary": "Bit2Me sets up specialized unit to help law enforcement track down crypto assets",
       "source": "CoinDesk",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788795870,
+      "date": "2026-09-08",
+      "date_human": "Sep 8, 2026",
+      "pub_ts": 1788850800,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/3cd740b222f532e367c30f90f1b5170696358cde-1280x792.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/23e2945b7f1cdacbebd3f42923b110bd7196c153-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-08/2e4be7820adf74d3_base.jpg",
-      "image_local": "../assets/news/2026-09-08/2e4be7820adf74d3_base.jpg"
+      "image": "../assets/news/2026-09-08/93191e1032e2b797_base.jpg",
+      "image_local": "../assets/news/2026-09-08/93191e1032e2b797_base.jpg"
     },
     {
       "title": "OpenAI Chief Scientist Warns AI Labs May Need to Slow Down",
@@ -132,62 +148,46 @@
       "image_local": "../assets/news/2026-09-08/9b0a7e2c9eb5e0f6_base.jpg"
     },
     {
-      "title": "UK financial watchdog weighs lifting prediction markets ban: Report",
-      "link": "https://cointelegraph.com/news/uk-financial-watchdog-prediction-markets-ban",
-      "summary": "Companies offering binary options for retail investors have been barred from selling, marketing and distributing products in the UK since 2019 following a directive from the FCA.",
+      "title": "Cronos confirms $9.2M slipped away before Tectonic exploit rollback",
+      "link": "https://cointelegraph.com/news/cronos-tectonic-rollback-111m-9m-escaped",
+      "summary": "Cronos’s post-mortem put the Tectonic exploit’s affected borrowing at $120.4 million, with 7.6% transferred off-network before validators intervened.",
       "source": "Cointelegraph",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788813617,
+      "date": "2026-09-08",
+      "date_human": "Sep 8, 2026",
+      "pub_ts": 1788855044,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1YQN8JRRNR258R2ASED73KY/hi-prediction-market-uk.png"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2005NQRX5E6SV5DN6KN3Z8T/hi-how-great-big-companies-use-blockchain3.jpg"
       ],
-      "image": "../assets/news/2026-09-08/f3c5a0fbf0db8d0a_base.jpg",
-      "image_local": "../assets/news/2026-09-08/f3c5a0fbf0db8d0a_base.jpg"
+      "image": "../assets/news/2026-09-08/982ab0059ac82a8b_base.jpg",
+      "image_local": "../assets/news/2026-09-08/982ab0059ac82a8b_base.jpg"
     },
     {
-      "title": "Strong jobs just triggered a hawkish UBS reversal that could pressure Bitcoin through December",
-      "link": "https://cryptoslate.com/strong-jobs-just-triggered-a-hawkish-ubs-reversal-that-could-pressure-bitcoin-through-december/",
-      "summary": "Strong jobs give the Fed room to focus on inflation, but September data could still change the tightening path. The post Strong jobs just triggered a hawkish UBS reversal that could pressure Bitcoin through December appeared first on CryptoSlate.",
+      "title": "Tether-backed crypto exchange freezes withdrawals after $7 million leaves custody",
+      "link": "https://cryptoslate.com/tether-backed-crypto-exchange-freezes-withdrawals-after-7-million-leaves-custody/",
+      "summary": "The exchange reports more than $7 million moved from custody to outside wallets, with recovery still at an early stage. The post Tether-backed crypto exchange freezes withdrawals after $7 million leaves custody appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788818744,
+      "date": "2026-09-08",
+      "date_human": "Sep 8, 2026",
+      "pub_ts": 1788826852,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-fed-squeeze.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/orionx-withdrawals-frozen.jpg"
       ],
-      "image": "../assets/news/2026-09-08/64668a3bff34d409_base.jpg",
-      "image_local": "../assets/news/2026-09-08/64668a3bff34d409_base.jpg"
+      "image": "../assets/news/2026-09-08/c132db7f73e087bf_base.jpg",
+      "image_local": "../assets/news/2026-09-08/c132db7f73e087bf_base.jpg"
     },
     {
-      "title": "Polish prosecutors charge fifth suspect in a massive crypto probe",
-      "link": "https://www.coindesk.com/policy/2026/09/07/polish-prosecutors-charge-fifth-suspect-in-a-massive-crypto-probe",
-      "summary": "Polish prosecutors charge fifth suspect in a massive crypto probe",
+      "title": "Hunter Biden wants to launch a LAPTOP memecoin. Crypto traders hate it already",
+      "link": "https://www.coindesk.com/markets/2026/09/08/crypto-traders-turn-on-hunter-biden-s-laptop-memecoin-before-it-even-launches",
+      "summary": "Hunter Biden wants to launch a LAPTOP memecoin. Crypto traders hate it already",
       "source": "CoinDesk",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788794923,
+      "date": "2026-09-08",
+      "date_human": "Sep 8, 2026",
+      "pub_ts": 1788848633,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/e811d957616f476007bbc63485c4cb73baac3c0d-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/300eebf65983cfe6ab9ded851acad00338091a17-1438x809.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-08/a6cd5191e0a949dd_base.jpg",
-      "image_local": "../assets/news/2026-09-08/a6cd5191e0a949dd_base.jpg"
-    },
-    {
-      "title": "Brazilian Banks Expand Crypto Offerings as Regulation Takes Hold",
-      "link": "https://decrypt.co/377621/brazilian-banks-expand-crypto-offerings",
-      "summary": "Itaú, Nubank, and Banco do Brasil now sell more than a dozen tokens each to retail clients, even as none of them touch crypto with their own balance sheet.",
-      "source": "Decrypt",
-      "date": "2026-09-07",
-      "date_human": "Sep 7, 2026",
-      "pub_ts": 1788813063,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-brazil-bitcoin-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-brazil-bitcoin-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/decrypt-style-brazil-bitcoin-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-08/0afef2642b4577bf_base.jpg",
-      "image_local": "../assets/news/2026-09-08/0afef2642b4577bf_base.jpg"
+      "image": "../assets/news/2026-09-08/dc4c0c2a3d45cba1_base.jpg",
+      "image_local": "../assets/news/2026-09-08/dc4c0c2a3d45cba1_base.jpg"
     }
   ]
 }
