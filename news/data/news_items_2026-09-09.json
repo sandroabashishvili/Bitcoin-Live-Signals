@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-09-08",
-  "generated_at_utc": "2026-09-08 22:05:25 UTC",
+  "day_iso": "2026-09-09",
+  "generated_at_utc": "2026-09-09 04:05:30 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,6 +16,20 @@
   "count": 12,
   "items": [
     {
+      "title": "Strategy doubles its stock buyback to $2 billion to pull its STRC shares back to $100",
+      "link": "https://cryptoslate.com/strategy-doubles-its-stock-buyback-to-2-billion-to-pull-its-strc-shares-back-to-100/",
+      "summary": "Strategy doubled the size of its preferred-stock repurchase program to $2 billion Tuesday as Michael Saylor’s Sept. 8 recovery benchmark arrived with STRC still short of its $100 stated value. The board’s decision extends a campaign that was approaching the limits of its original $1 billion authorization after seven weeks of increasingly large purchases. Data […] The post Strategy doubles its stock buyback to $2 billion to pull its STRC shares back to $100 appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788919804,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/strategy-strc-rescue-gauge.jpg"
+      ],
+      "image": "../assets/news/2026-09-09/bb3d5565a2d16697_base.jpg",
+      "image_local": "../assets/news/2026-09-09/bb3d5565a2d16697_base.jpg"
+    },
+    {
       "title": "OpenAI Says It Solved a $1M Math Problem. A Rival Mathematician Says He Did It First",
       "link": "https://decrypt.co/resources/openai-solved-1m-math-problem-rival-mathematician",
       "summary": "NYU's Tristan Buckmaster accuses OpenAI's Sébastien Bubeck of racing to claim credit for a Navier-Stokes proof after learning about his unpublished work with Anthropic's Levent Alpöge.",
@@ -28,8 +42,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7-pID_2.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7-pID_2.png"
       ],
-      "image": "../assets/news/2026-09-08/9fb76c97c8e14f70_base.jpg",
-      "image_local": "../assets/news/2026-09-08/9fb76c97c8e14f70_base.jpg"
+      "image": "../assets/news/2026-09-09/9fb76c97c8e14f70_base.jpg",
+      "image_local": "../assets/news/2026-09-09/9fb76c97c8e14f70_base.jpg"
     },
     {
       "title": "New York town weighs crypto mining and AI data center ban",
@@ -42,22 +56,8 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M21D11KB4BXD9GBM5H39S2WK/hi-anti-dumping-policy-in-crypto-bitcoin-miner.jpg"
       ],
-      "image": "../assets/news/2026-09-08/69e500953a5a2c88_base.jpg",
-      "image_local": "../assets/news/2026-09-08/69e500953a5a2c88_base.jpg"
-    },
-    {
-      "title": "Strategy's $250 Bitcoin Jordans sold out as Saylor turns 4% of BTC supply into a consumer brand",
-      "link": "https://cryptoslate.com/strategys-250-bitcoin-jordans-sold-out-as-saylor-turns-4-of-btc-supply-into-a-consumer-brand/",
-      "summary": "The store advertises cards, Apple Pay and Google Pay, while all nine listed shoe sizes are unavailable. The post Strategy’s $250 Bitcoin Jordans sold out as Saylor turns 4% of BTC supply into a consumer brand appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-08",
-      "date_human": "Sep 8, 2026",
-      "pub_ts": 1788903042,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/strategy-sneaker-checkout-gap.jpg"
-      ],
-      "image": "../assets/news/2026-09-08/a48230cf4618390b_base.jpg",
-      "image_local": "../assets/news/2026-09-08/a48230cf4618390b_base.jpg"
+      "image": "../assets/news/2026-09-09/69e500953a5a2c88_base.jpg",
+      "image_local": "../assets/news/2026-09-09/69e500953a5a2c88_base.jpg"
     },
     {
       "title": "Copper CEO Amar Kuchinad departs as search for a buyer enters a fourth month",
@@ -70,8 +70,22 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/bde2c5f424b0f4b56edfc76ae278cc3190749d62-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-08/201f9e460a39eda3_base.jpg",
-      "image_local": "../assets/news/2026-09-08/201f9e460a39eda3_base.jpg"
+      "image": "../assets/news/2026-09-09/201f9e460a39eda3_base.jpg",
+      "image_local": "../assets/news/2026-09-09/201f9e460a39eda3_base.jpg"
+    },
+    {
+      "title": "Metaplanet's Bitcoin boom quietly turned a 46 million-share executive pay plan into a 319 million-share windfall",
+      "link": "https://cryptoslate.com/metaplanets-bitcoin-boom-quietly-turned-a-46-million-share-executive-pay-plan-into-a-319-million-share-windfall/",
+      "summary": "Metaplanet’s Bitcoin expansion has exposed an executive compensation windfall that shareholders want the company to unwind. The dispute centers on an executive options pool that expanded as the Tokyo-listed company repeatedly issued equity to finance its Bitcoin purchases. Shareholders are now demanding the cancellation of roughly 273 million potential shares added to management’s compensation package […] The post Metaplanet’s Bitcoin boom quietly turned a 46 million-share executive pay plan into a 319 million-share windfall appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-08",
+      "date_human": "Sep 8, 2026",
+      "pub_ts": 1788910851,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/metaplanet-dilution-scale.jpg"
+      ],
+      "image": "../assets/news/2026-09-09/53a38c9c71f78601_base.jpg",
+      "image_local": "../assets/news/2026-09-09/53a38c9c71f78601_base.jpg"
     },
     {
       "title": "$47M Still Missing After Liquid Hack as Blockstream Bargains With 'White Hats'",
@@ -86,8 +100,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker1-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker1-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-08/f077fbee0a101528_base.jpg",
-      "image_local": "../assets/news/2026-09-08/f077fbee0a101528_base.jpg"
+      "image": "../assets/news/2026-09-09/f077fbee0a101528_base.jpg",
+      "image_local": "../assets/news/2026-09-09/f077fbee0a101528_base.jpg"
     },
     {
       "title": "Franklin Templeton digital asset veteran takes helm at StablecoinX",
@@ -100,22 +114,8 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M21BC7WR8S6QJNY728RV1B71/handshake-agreement-union-partnership-cooperation-collaboration-join-deal-breaking-news.png"
       ],
-      "image": "../assets/news/2026-09-08/a93eac79e35f56f6_base.jpg",
-      "image_local": "../assets/news/2026-09-08/a93eac79e35f56f6_base.jpg"
-    },
-    {
-      "title": "Bitcoin bulls are loading up on calls while spot traders keep selling",
-      "link": "https://cryptoslate.com/bitcoin-bulls-are-loading-up-on-calls-while-spot-traders-keep-selling/",
-      "summary": "Glassnode’s September 8 report shows richer calls and easing net spot selling, while stronger ETF inflows complicate the demand picture. The post Bitcoin bulls are loading up on calls while spot traders keep selling appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-08",
-      "date_human": "Sep 8, 2026",
-      "pub_ts": 1788898850,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-bull-bear-pull.jpg"
-      ],
-      "image": "../assets/news/2026-09-08/0f9103f0e0fce214_base.jpg",
-      "image_local": "../assets/news/2026-09-08/0f9103f0e0fce214_base.jpg"
+      "image": "../assets/news/2026-09-09/a93eac79e35f56f6_base.jpg",
+      "image_local": "../assets/news/2026-09-09/a93eac79e35f56f6_base.jpg"
     },
     {
       "title": "Strive's SATA nears $1 billion market cap as Strategy's STRC continues to underperform",
@@ -128,8 +128,22 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/2688a309ccf027625e4bf19277b7e78cfc32859f-2123x1084.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-08/eb0acf28a86cc957_base.jpg",
-      "image_local": "../assets/news/2026-09-08/eb0acf28a86cc957_base.jpg"
+      "image": "../assets/news/2026-09-09/eb0acf28a86cc957_base.jpg",
+      "image_local": "../assets/news/2026-09-09/eb0acf28a86cc957_base.jpg"
+    },
+    {
+      "title": "Why Bitcoin bulls shouldn't mistake a shrinking dollar reserve share for central bank buying",
+      "link": "https://cryptoslate.com/why-bitcoin-bulls-shouldnt-mistake-a-shrinking-dollar-reserve-share-for-central-bank-buying/",
+      "summary": "The New York Fed’s Sept. 2 analysis separates currency choices from reserve-size changes, leaving sovereign Bitcoin demand unproven. The post Why Bitcoin bulls shouldn’t mistake a shrinking dollar reserve share for central bank buying appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-08",
+      "date_human": "Sep 8, 2026",
+      "pub_ts": 1788906014,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-reserve-share-data.jpg"
+      ],
+      "image": "../assets/news/2026-09-09/3ab08302e50432dd_base.jpg",
+      "image_local": "../assets/news/2026-09-09/3ab08302e50432dd_base.jpg"
     },
     {
       "title": "Bitcoin Holds, Wall Street Stalls as Oil Shock Revives Fed Hike Bets",
@@ -144,8 +158,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-10-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-10-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-08/dd8b20d4f7099888_base.jpg",
-      "image_local": "../assets/news/2026-09-08/dd8b20d4f7099888_base.jpg"
+      "image": "../assets/news/2026-09-09/dd8b20d4f7099888_base.jpg",
+      "image_local": "../assets/news/2026-09-09/dd8b20d4f7099888_base.jpg"
     },
     {
       "title": "Here's what happened in crypto today",
@@ -158,22 +172,8 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-09-08/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-09-08/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "Bitcoin could get the dollar drop bulls want this week without getting the liquidity rally they need",
-      "link": "https://cryptoslate.com/bitcoin-could-get-the-dollar-drop-bulls-want-this-week-without-getting-the-liquidity-rally-they-need/",
-      "summary": "A euro-led decline in DXY would need confirmation from real yields, credit conditions and Bitcoin’s performance across currencies. The post Bitcoin could get the dollar drop bulls want this week without getting the liquidity rally they need appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-08",
-      "date_human": "Sep 8, 2026",
-      "pub_ts": 1788894634,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-ecb-pressure-test.jpg"
-      ],
-      "image": "../assets/news/2026-09-08/76b32e9cddd43d4d_base.jpg",
-      "image_local": "../assets/news/2026-09-08/76b32e9cddd43d4d_base.jpg"
+      "image": "../assets/news/2026-09-09/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-09/57bd1a60f4d67ba1_base.jpg"
     },
     {
       "title": "Visa combines VisaNet data with onchain lending to power stablecoin card working capital",
@@ -186,8 +186,8 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/e400c51cc73487de1b2a87a882ce2955729b2d16-2204x1240.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-08/e1ffc2495aa44298_base.jpg",
-      "image_local": "../assets/news/2026-09-08/e1ffc2495aa44298_base.jpg"
+      "image": "../assets/news/2026-09-09/e1ffc2495aa44298_base.jpg",
+      "image_local": "../assets/news/2026-09-09/e1ffc2495aa44298_base.jpg"
     }
   ]
 }
