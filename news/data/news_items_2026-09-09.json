@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-09",
-  "generated_at_utc": "2026-09-09 10:05:32 UTC",
+  "generated_at_utc": "2026-09-09 16:05:33 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,178 +16,178 @@
   "count": 12,
   "items": [
     {
-      "title": "Bitcoin just hit a decade-low S&P 500 correlation, but the daily data tells a different story",
-      "link": "https://cryptoslate.com/bitcoin-just-hit-a-decade-low-sp-500-correlation-but-the-daily-data-tells-a-different-story/",
-      "summary": "Bitwise’s negative trend measure coexists with positive return correlation in a FRED proxy, while portfolio results change across lookbacks. The post Bitcoin just hit a decade-low S&P 500 correlation, but the daily data tells a different story appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788946237,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-shared-down-days.jpg"
-      ],
-      "image": "../assets/news/2026-09-09/2fd9530e759a6b5e_base.jpg",
-      "image_local": "../assets/news/2026-09-09/2fd9530e759a6b5e_base.jpg"
-    },
-    {
-      "title": "Mexico Seizes 300 Crypto Mining Rigs Wired Into a Hydroelectric Dam",
-      "link": "https://decrypt.co/377748/mexico-seizes-300-crypto-mining-rigs-wired-into-a-hydroelectric-dam",
-      "summary": "Forensic accountants are tracing who paid for the mining hardware, and money laundering has not been ruled out.",
-      "source": "Decrypt",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788946109,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/01/bitcoin-mining-decrypt-style-03-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/bitcoin-mining-decrypt-style-03-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/bitcoin-mining-decrypt-style-03-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-09/f46334f9ff3759dc_base.jpg",
-      "image_local": "../assets/news/2026-09-09/f46334f9ff3759dc_base.jpg"
-    },
-    {
-      "title": "India's financial intelligence unit flags 15 crypto platforms for AML lapses",
-      "link": "https://www.coindesk.com/policy/2026/09/09/india-s-financial-intelligence-unit-flags-15-crypto-platforms-for-aml-lapses",
-      "summary": "India's financial intelligence unit flags 15 crypto platforms for AML lapses",
-      "source": "CoinDesk",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788941874,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/b78441ab5c99e64e7726ef1b6c932e4d18b9bbc2-1028x578.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-09/9f3122e4c843def7_base.jpg",
-      "image_local": "../assets/news/2026-09-09/9f3122e4c843def7_base.jpg"
-    },
-    {
-      "title": "Iran eases currency rules to bypass US sanctions with crypto: Report",
-      "link": "https://cointelegraph.com/news/iran-central-bank-encourages-crypto-evade-sanctions",
-      "summary": "Exporters can now fund imports with overseas earnings without first selling their foreign currency at official rates, the Financial Times reported.",
+      "title": "Hunter Biden's laptop controversy gets a memecoin afterlife",
+      "link": "https://cointelegraph.com/news/hunter-bidens-laptop-memecoin-afterlife",
+      "summary": "The project’s disclosures say LAPTOP has no utility, lock founder tokens for six months and reserve 2% for wallets that lost money on TRUMP.",
       "source": "Cointelegraph",
       "date": "2026-09-09",
       "date_human": "Sep 9, 2026",
-      "pub_ts": 1788939399,
+      "pub_ts": 1788969519,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M22ESE8ZYFYS2R1YN4CJ0FMK/hi-iran-launching-a-currency.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M230B9QSF000WZ911VXTFNH1/hi-bidens-crypto-memecoin-laptop.png"
       ],
-      "image": "../assets/news/2026-09-09/5b2e7c5d7b35fa34_base.jpg",
-      "image_local": "../assets/news/2026-09-09/5b2e7c5d7b35fa34_base.jpg"
+      "image": "../assets/news/2026-09-09/4771f59bd606bf23_base.jpg",
+      "image_local": "../assets/news/2026-09-09/4771f59bd606bf23_base.jpg"
     },
     {
-      "title": "Bitcoin Core Lightning Docker bug leaves node operators exposed despite showing updated version",
-      "link": "https://cryptoslate.com/bitcoin-core-lightning-docker-bug-leaves-node-operators-exposed-despite-showing-updated-version/",
-      "summary": "Four tags served images that reported v26.06.7 without its fixes, prompting digest checks before planned source disclosure. The post Bitcoin Core Lightning Docker bug leaves node operators exposed despite showing updated version appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788942648,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/lightning-digest-check.jpg"
-      ],
-      "image": "../assets/news/2026-09-09/f835beb1b255c554_base.jpg",
-      "image_local": "../assets/news/2026-09-09/f835beb1b255c554_base.jpg"
-    },
-    {
-      "title": "Jack Dorsey's Block Applies for Bank Charter to Custody Bitcoin",
-      "link": "https://decrypt.co/377746/jack-dorseys-block-applies-for-bank-charter-to-custody-bitcoin",
-      "summary": "Builders Bank would consolidate custody work Block now runs under more than 50 state money transmitter licenses.",
+      "title": "Hunter Biden's LAPTOP Meme Coin Crashes 99% on Debut",
+      "link": "https://decrypt.co/377783/hunter-biden-laptop-meme-coin-crashes",
+      "summary": "LAPTOP hit a $190.81 peak within minutes of launching on Base, then shed roughly 99% as thin liquidity met a wave of selling.",
       "source": "Decrypt",
       "date": "2026-09-09",
       "date_human": "Sep 9, 2026",
-      "pub_ts": 1788942368,
+      "pub_ts": 1788968829,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/07/jack-dorsey-twitter-square-bitcoin-decrypt-style-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/jack-dorsey-twitter-square-bitcoin-decrypt-style-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/jack-dorsey-twitter-square-bitcoin-decrypt-style-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/09/hunter-biden-decrypt-style-01-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/hunter-biden-decrypt-style-01-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/hunter-biden-decrypt-style-01-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-09/e9790c77b1e38dfe_base.jpg",
-      "image_local": "../assets/news/2026-09-09/e9790c77b1e38dfe_base.jpg"
+      "image": "../assets/news/2026-09-09/c04cca0720f94a54_base.jpg",
+      "image_local": "../assets/news/2026-09-09/c04cca0720f94a54_base.jpg"
     },
     {
-      "title": "Live updates: Brent crude hits $100 for first time since July as bitcoin holds above $79,000",
-      "link": "https://www.coindesk.com/business/2026/09/09/live-updates-xrp-funds-stand-out-among-u-s-etfs-as-bitcoin-ether-solana-funds-see-outflows",
-      "summary": "Live updates: Brent crude hits $100 for first time since July as bitcoin holds above $79,000",
-      "source": "CoinDesk",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788938451,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/1a7e847ae5db519714fc70988164e3a17441ed2a-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-09/600ec674fdefd776_base.jpg",
-      "image_local": "../assets/news/2026-09-09/600ec674fdefd776_base.jpg"
-    },
-    {
-      "title": "Jack Dorsey's Block seeks US trust bank charter for Bitcoin, stablecoin",
-      "link": "https://cointelegraph.com/news/block-us-trust-bank-charter-bitcoin-stablecoin-custody",
-      "summary": "The proposed Builders Bank would offer federally supervised digital asset custody but would not accept deposits or issue loans.",
-      "source": "Cointelegraph",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788939381,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M22GDYQR3DVCE1PJVZEV5JJ4/hi-who-is-jack-dorsey-profile-and-biography.jpg"
-      ],
-      "image": "../assets/news/2026-09-09/17d93e1736f642b3_base.jpg",
-      "image_local": "../assets/news/2026-09-09/17d93e1736f642b3_base.jpg"
-    },
-    {
-      "title": "Crypto lobbies launch a last-minute TV campaign against banks to pass the CLARITY Act",
-      "link": "https://cryptoslate.com/crypto-lobbies-launch-a-last-minute-tv-campaign-against-banks-to-pass-the-clarity-act/",
-      "summary": "The crypto industry is launching a seven-figure national advertising campaign to rescue the CLARITY Act ahead of a crucial Senate vote next week. The Senate is scheduled to vote Sept. 15 on whether to invoke cloture on a motion to proceed to the Digital Asset Market Clarity Act, a procedural hurdle requiring 60 votes. The […] The post Crypto lobbies launch a last-minute TV campaign against banks to pass the CLARITY Act appeared first on CryptoSlate.",
+      "title": "Bitcoin traders bet borrowed money on a rally as oil surges ahead of Friday's inflation test",
+      "link": "https://cryptoslate.com/bitcoin-traders-bet-borrowed-money-on-a-rally-as-oil-surges-ahead-of-fridays-inflation-test/",
+      "summary": "Bitcoin is holding above $78,000 as Brent crude breached $100 and rising Treasury yields revived inflation fears. Data from CryptoSlate showed the flagship cryptocurrency trading around $78,451 at press time, with little sign of the pressure spreading across bond and energy markets after an escalation in the Middle East pushed Brent above the threshold for […] The post Bitcoin traders bet borrowed money on a rally as oil surges ahead of Friday’s inflation test appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-09",
       "date_human": "Sep 9, 2026",
-      "pub_ts": 1788927600,
+      "pub_ts": 1788966309,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/clarity-act-senate-vote.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-downtrend-macro-pressure.jpg"
       ],
-      "image": "../assets/news/2026-09-09/78bd2b2406d51feb_base.jpg",
-      "image_local": "../assets/news/2026-09-09/78bd2b2406d51feb_base.jpg"
+      "image": "../assets/news/2026-09-09/8330e275258cadab_base.jpg",
+      "image_local": "../assets/news/2026-09-09/8330e275258cadab_base.jpg"
     },
     {
-      "title": "OpenAI Says It Solved a $1M Math Problem. A Rival Mathematician Says He Did It First",
-      "link": "https://decrypt.co/resources/openai-solved-1m-math-problem-rival-mathematician",
-      "summary": "NYU's Tristan Buckmaster accuses OpenAI's Sébastien Bubeck of racing to claim credit for a Navier-Stokes proof after learning about his unpublished work with Anthropic's Levent Alpöge.",
-      "source": "Decrypt",
-      "date": "2026-09-08",
-      "date_human": "Sep 8, 2026",
-      "pub_ts": 1788903514,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7-pID_2.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7-pID_2.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-openai-logo-gID_7-pID_2.png"
-      ],
-      "image": "../assets/news/2026-09-09/9fb76c97c8e14f70_base.jpg",
-      "image_local": "../assets/news/2026-09-09/9fb76c97c8e14f70_base.jpg"
-    },
-    {
-      "title": "Anthropic researcher quits with a warning on AI that echoes 'The Terminator' script",
-      "link": "https://www.coindesk.com/markets/2026/09/09/anthropic-researcher-quits-with-a-warning-on-ai-that-echoes-the-terminator-script",
-      "summary": "Anthropic researcher quits with a warning on AI that echoes 'The Terminator' script",
+      "title": "Crypto Long & Short: Inside the 300-to-1 onchain gap between the dollar and euro",
+      "link": "https://www.coindesk.com/coindesk-indices/2026/09/08/crypto-long-and-short-inside-the-300-to-1-onchain-gap-between-the-dollar-and-euro",
+      "summary": "Crypto Long & Short: Inside the 300-to-1 onchain gap between the dollar and euro",
       "source": "CoinDesk",
       "date": "2026-09-09",
       "date_human": "Sep 9, 2026",
-      "pub_ts": 1788934838,
+      "pub_ts": 1788965887,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/4560be8aed0a5640eda1469956aed80cce9bd960-6177x4118.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/fb0be30a3e48f1fb94d280bb43857c9e80f6edc0-1440x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-09/febc345b91952912_base.jpg",
-      "image_local": "../assets/news/2026-09-09/febc345b91952912_base.jpg"
+      "image": "../assets/news/2026-09-09/28b95b03a1defb14_base.jpg",
+      "image_local": "../assets/news/2026-09-09/28b95b03a1defb14_base.jpg"
     },
     {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "title": "Trade groups seek to block Illinois crypto tax before January effective date",
+      "link": "https://cointelegraph.com/news/trade-groups-seek-block-illinois-crypto-tax-before-january-effective-date",
+      "summary": "Following on their earlier lawsuit, CCI and the Blockchain Association seek to block Illinois’ 0.2% crypto tax, arguing it is unconstitutional and would impose costly compliance burdens.",
       "source": "Cointelegraph",
       "date": "2026-09-09",
       "date_human": "Sep 9, 2026",
-      "pub_ts": 1788933081,
+      "pub_ts": 1788969427,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M23CVCZMG85BQMYT0FDR7K9V/year-of-crypto-tax-legislation-960x640.webp"
       ],
-      "image": "../assets/news/2026-09-09/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-09-09/57bd1a60f4d67ba1_base.jpg"
+      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M23CVCZMG85BQMYT0FDR7K9V/year-of-crypto-tax-legislation-960x640.webp",
+      "image_local": null
+    },
+    {
+      "title": "Prediction Markets Abandon Cheap Oil as Brent Passes $100",
+      "link": "https://decrypt.co/377766/prediction-markets-abandon-cheap-oil-as-brent-passes-100",
+      "summary": "Myriad's $120 side overtook $55 at the start of September, while Polymarket puts WTI reaching $100 this month at 59%.",
+      "source": "Decrypt",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788966901,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/09/oil-market-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/oil-market-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/oil-market-decrypt-style-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-09/cdeb26eefdc3effe_base.jpg",
+      "image_local": "../assets/news/2026-09-09/cdeb26eefdc3effe_base.jpg"
+    },
+    {
+      "title": "You can borrow against Bitcoin without selling it, but there's a catch",
+      "link": "https://cryptoslate.com/you-can-borrow-against-bitcoin-without-selling-it-but-theres-a-catch/",
+      "summary": "Bitcoin holders who need cash do not necessarily have to sell their BTC. They can borrow against it instead, keeping exposure to Bitcoin while using its value as collateral for a loan. The complication is that the loan they want may exist on another network. Many blockchain lending applications run on Ethereum, which keeps its […] The post You can borrow against Bitcoin without selling it, but there’s a catch appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788962725,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-collateral-market-access.jpg"
+      ],
+      "image": "../assets/news/2026-09-09/dae3f1dfb66540ec_base.jpg",
+      "image_local": "../assets/news/2026-09-09/dae3f1dfb66540ec_base.jpg"
+    },
+    {
+      "title": "Kalshi election data goes live on DoubleZero ahead of U.S. midterms",
+      "link": "https://www.coindesk.com/tech/2026/09/09/kalshi-election-data-goes-live-on-doublezero-ahead-of-u-s-midterms",
+      "summary": "Kalshi election data goes live on DoubleZero ahead of U.S. midterms",
+      "source": "CoinDesk",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788962400,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/901944c6dda50496883edca6a70899e618bfde9e-1367x769.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-09/6d6585f9a80d61eb_base.jpg",
+      "image_local": "../assets/news/2026-09-09/6d6585f9a80d61eb_base.jpg"
+    },
+    {
+      "title": "Tether, Fasanara launch $400M private credit fund targeting $3B",
+      "link": "https://cointelegraph.com/news/tether-fasanara-launch-400m-private-credit-fund-targeting-3b",
+      "summary": "The evergreen fund will use USDT infrastructure to support asset-backed lending through fintech platforms in more than 60 countries.",
+      "source": "Cointelegraph",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788967304,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M23AK6XN00P8QY2D9WJ8JAAW/hi-crypto-negotiation-2.png"
+      ],
+      "image": "../assets/news/2026-09-09/2934493b856e9af6_base.jpg",
+      "image_local": "../assets/news/2026-09-09/2934493b856e9af6_base.jpg"
+    },
+    {
+      "title": "Consensys Is Splitting in Two as MetaMask Goes Its Own Way",
+      "link": "https://decrypt.co/377768/consensys-split-metamask-new-institutional-crypto-company",
+      "summary": "Consensys Software Inc. will become MetaMask, while a newly formed Consensys will take over the firm's Ethereum protocols and institutional blockchain infrastructure business.",
+      "source": "Decrypt",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788966444,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-metamask-fox-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-metamask-fox-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/06/decrypt-style-metamask-fox-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-09/88b90a559e0673e0_base.jpg",
+      "image_local": "../assets/news/2026-09-09/88b90a559e0673e0_base.jpg"
+    },
+    {
+      "title": "Nearly a fifth of all Bitcoin mining power is sitting completely dark, and turning it back on could trigger a brutal margin trap",
+      "link": "https://cryptoslate.com/nearly-a-fifth-of-all-bitcoin-mining-power-is-sitting-completely-dark-and-turning-it-back-on-could-trigger-a-brutal-margin-trap/",
+      "summary": "Luxor estimates 235 EH/s of capacity is idle for mixed reasons, complicating the capitulation signal as Texas’s summer curtailment window ends. The post Nearly a fifth of all Bitcoin mining power is sitting completely dark, and turning it back on could trigger a brutal margin trap appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788958257,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-reward-cable-split.jpg"
+      ],
+      "image": "../assets/news/2026-09-09/547c8dcbed412407_base.jpg",
+      "image_local": "../assets/news/2026-09-09/547c8dcbed412407_base.jpg"
+    },
+    {
+      "title": "PayPal expands stablecoin rails with custom token issuance platform",
+      "link": "https://www.coindesk.com/business/2026/09/09/paypal-expands-stablecoin-rails-with-launch-of-custom-token-issuance-platform",
+      "summary": "PayPal expands stablecoin rails with custom token issuance platform",
+      "source": "CoinDesk",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788962400,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/ca66c441f504e730e61f0eb01b6d3a16206523c5-1920x1172.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-09/d20630aa02d2d899_base.jpg",
+      "image_local": "../assets/news/2026-09-09/d20630aa02d2d899_base.jpg"
     }
   ]
 }
