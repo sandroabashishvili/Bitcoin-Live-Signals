@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-09",
-  "generated_at_utc": "2026-09-09 04:05:30 UTC",
+  "generated_at_utc": "2026-09-09 10:05:32 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,18 +16,134 @@
   "count": 12,
   "items": [
     {
-      "title": "Strategy doubles its stock buyback to $2 billion to pull its STRC shares back to $100",
-      "link": "https://cryptoslate.com/strategy-doubles-its-stock-buyback-to-2-billion-to-pull-its-strc-shares-back-to-100/",
-      "summary": "Strategy doubled the size of its preferred-stock repurchase program to $2 billion Tuesday as Michael Saylor’s Sept. 8 recovery benchmark arrived with STRC still short of its $100 stated value. The board’s decision extends a campaign that was approaching the limits of its original $1 billion authorization after seven weeks of increasingly large purchases. Data […] The post Strategy doubles its stock buyback to $2 billion to pull its STRC shares back to $100 appeared first on CryptoSlate.",
+      "title": "Bitcoin just hit a decade-low S&P 500 correlation, but the daily data tells a different story",
+      "link": "https://cryptoslate.com/bitcoin-just-hit-a-decade-low-sp-500-correlation-but-the-daily-data-tells-a-different-story/",
+      "summary": "Bitwise’s negative trend measure coexists with positive return correlation in a FRED proxy, while portfolio results change across lookbacks. The post Bitcoin just hit a decade-low S&P 500 correlation, but the daily data tells a different story appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-09",
       "date_human": "Sep 9, 2026",
-      "pub_ts": 1788919804,
+      "pub_ts": 1788946237,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/strategy-strc-rescue-gauge.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-shared-down-days.jpg"
       ],
-      "image": "../assets/news/2026-09-09/bb3d5565a2d16697_base.jpg",
-      "image_local": "../assets/news/2026-09-09/bb3d5565a2d16697_base.jpg"
+      "image": "../assets/news/2026-09-09/2fd9530e759a6b5e_base.jpg",
+      "image_local": "../assets/news/2026-09-09/2fd9530e759a6b5e_base.jpg"
+    },
+    {
+      "title": "Mexico Seizes 300 Crypto Mining Rigs Wired Into a Hydroelectric Dam",
+      "link": "https://decrypt.co/377748/mexico-seizes-300-crypto-mining-rigs-wired-into-a-hydroelectric-dam",
+      "summary": "Forensic accountants are tracing who paid for the mining hardware, and money laundering has not been ruled out.",
+      "source": "Decrypt",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788946109,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/01/bitcoin-mining-decrypt-style-03-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/bitcoin-mining-decrypt-style-03-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/01/bitcoin-mining-decrypt-style-03-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-09/f46334f9ff3759dc_base.jpg",
+      "image_local": "../assets/news/2026-09-09/f46334f9ff3759dc_base.jpg"
+    },
+    {
+      "title": "India's financial intelligence unit flags 15 crypto platforms for AML lapses",
+      "link": "https://www.coindesk.com/policy/2026/09/09/india-s-financial-intelligence-unit-flags-15-crypto-platforms-for-aml-lapses",
+      "summary": "India's financial intelligence unit flags 15 crypto platforms for AML lapses",
+      "source": "CoinDesk",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788941874,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/b78441ab5c99e64e7726ef1b6c932e4d18b9bbc2-1028x578.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-09/9f3122e4c843def7_base.jpg",
+      "image_local": "../assets/news/2026-09-09/9f3122e4c843def7_base.jpg"
+    },
+    {
+      "title": "Iran eases currency rules to bypass US sanctions with crypto: Report",
+      "link": "https://cointelegraph.com/news/iran-central-bank-encourages-crypto-evade-sanctions",
+      "summary": "Exporters can now fund imports with overseas earnings without first selling their foreign currency at official rates, the Financial Times reported.",
+      "source": "Cointelegraph",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788939399,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M22ESE8ZYFYS2R1YN4CJ0FMK/hi-iran-launching-a-currency.jpg"
+      ],
+      "image": "../assets/news/2026-09-09/5b2e7c5d7b35fa34_base.jpg",
+      "image_local": "../assets/news/2026-09-09/5b2e7c5d7b35fa34_base.jpg"
+    },
+    {
+      "title": "Bitcoin Core Lightning Docker bug leaves node operators exposed despite showing updated version",
+      "link": "https://cryptoslate.com/bitcoin-core-lightning-docker-bug-leaves-node-operators-exposed-despite-showing-updated-version/",
+      "summary": "Four tags served images that reported v26.06.7 without its fixes, prompting digest checks before planned source disclosure. The post Bitcoin Core Lightning Docker bug leaves node operators exposed despite showing updated version appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788942648,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/lightning-digest-check.jpg"
+      ],
+      "image": "../assets/news/2026-09-09/f835beb1b255c554_base.jpg",
+      "image_local": "../assets/news/2026-09-09/f835beb1b255c554_base.jpg"
+    },
+    {
+      "title": "Jack Dorsey's Block Applies for Bank Charter to Custody Bitcoin",
+      "link": "https://decrypt.co/377746/jack-dorseys-block-applies-for-bank-charter-to-custody-bitcoin",
+      "summary": "Builders Bank would consolidate custody work Block now runs under more than 50 state money transmitter licenses.",
+      "source": "Decrypt",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788942368,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/jack-dorsey-twitter-square-bitcoin-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/jack-dorsey-twitter-square-bitcoin-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/jack-dorsey-twitter-square-bitcoin-decrypt-style-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-09/e9790c77b1e38dfe_base.jpg",
+      "image_local": "../assets/news/2026-09-09/e9790c77b1e38dfe_base.jpg"
+    },
+    {
+      "title": "Live updates: Brent crude hits $100 for first time since July as bitcoin holds above $79,000",
+      "link": "https://www.coindesk.com/business/2026/09/09/live-updates-xrp-funds-stand-out-among-u-s-etfs-as-bitcoin-ether-solana-funds-see-outflows",
+      "summary": "Live updates: Brent crude hits $100 for first time since July as bitcoin holds above $79,000",
+      "source": "CoinDesk",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788938451,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/1a7e847ae5db519714fc70988164e3a17441ed2a-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-09/600ec674fdefd776_base.jpg",
+      "image_local": "../assets/news/2026-09-09/600ec674fdefd776_base.jpg"
+    },
+    {
+      "title": "Jack Dorsey's Block seeks US trust bank charter for Bitcoin, stablecoin",
+      "link": "https://cointelegraph.com/news/block-us-trust-bank-charter-bitcoin-stablecoin-custody",
+      "summary": "The proposed Builders Bank would offer federally supervised digital asset custody but would not accept deposits or issue loans.",
+      "source": "Cointelegraph",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788939381,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M22GDYQR3DVCE1PJVZEV5JJ4/hi-who-is-jack-dorsey-profile-and-biography.jpg"
+      ],
+      "image": "../assets/news/2026-09-09/17d93e1736f642b3_base.jpg",
+      "image_local": "../assets/news/2026-09-09/17d93e1736f642b3_base.jpg"
+    },
+    {
+      "title": "Crypto lobbies launch a last-minute TV campaign against banks to pass the CLARITY Act",
+      "link": "https://cryptoslate.com/crypto-lobbies-launch-a-last-minute-tv-campaign-against-banks-to-pass-the-clarity-act/",
+      "summary": "The crypto industry is launching a seven-figure national advertising campaign to rescue the CLARITY Act ahead of a crucial Senate vote next week. The Senate is scheduled to vote Sept. 15 on whether to invoke cloture on a motion to proceed to the Digital Asset Market Clarity Act, a procedural hurdle requiring 60 votes. The […] The post Crypto lobbies launch a last-minute TV campaign against banks to pass the CLARITY Act appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788927600,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/clarity-act-senate-vote.jpg"
+      ],
+      "image": "../assets/news/2026-09-09/78bd2b2406d51feb_base.jpg",
+      "image_local": "../assets/news/2026-09-09/78bd2b2406d51feb_base.jpg"
     },
     {
       "title": "OpenAI Says It Solved a $1M Math Problem. A Rival Mathematician Says He Did It First",
@@ -46,148 +162,32 @@
       "image_local": "../assets/news/2026-09-09/9fb76c97c8e14f70_base.jpg"
     },
     {
-      "title": "New York town weighs crypto mining and AI data center ban",
-      "link": "https://cointelegraph.com/news/new-york-plattsburgh-crypto-mining-ai-ban",
-      "summary": "One of the first towns in the US to ban Bitcoin mining for 18 months is considering another temporary moratorium extending to data centers and other crypto mining operations.",
-      "source": "Cointelegraph",
-      "date": "2026-09-08",
-      "date_human": "Sep 8, 2026",
-      "pub_ts": 1788903229,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M21D11KB4BXD9GBM5H39S2WK/hi-anti-dumping-policy-in-crypto-bitcoin-miner.jpg"
-      ],
-      "image": "../assets/news/2026-09-09/69e500953a5a2c88_base.jpg",
-      "image_local": "../assets/news/2026-09-09/69e500953a5a2c88_base.jpg"
-    },
-    {
-      "title": "Copper CEO Amar Kuchinad departs as search for a buyer enters a fourth month",
-      "link": "https://www.coindesk.com/business/2026/09/08/copper-ceo-amar-kuchinad-departs-as-search-for-a-buyer-enters-a-fourth-month",
-      "summary": "Copper CEO Amar Kuchinad departs as search for a buyer enters a fourth month",
+      "title": "Anthropic researcher quits with a warning on AI that echoes 'The Terminator' script",
+      "link": "https://www.coindesk.com/markets/2026/09/09/anthropic-researcher-quits-with-a-warning-on-ai-that-echoes-the-terminator-script",
+      "summary": "Anthropic researcher quits with a warning on AI that echoes 'The Terminator' script",
       "source": "CoinDesk",
-      "date": "2026-09-08",
-      "date_human": "Sep 8, 2026",
-      "pub_ts": 1788881026,
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788934838,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/bde2c5f424b0f4b56edfc76ae278cc3190749d62-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/4560be8aed0a5640eda1469956aed80cce9bd960-6177x4118.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-09/201f9e460a39eda3_base.jpg",
-      "image_local": "../assets/news/2026-09-09/201f9e460a39eda3_base.jpg"
-    },
-    {
-      "title": "Metaplanet's Bitcoin boom quietly turned a 46 million-share executive pay plan into a 319 million-share windfall",
-      "link": "https://cryptoslate.com/metaplanets-bitcoin-boom-quietly-turned-a-46-million-share-executive-pay-plan-into-a-319-million-share-windfall/",
-      "summary": "Metaplanet’s Bitcoin expansion has exposed an executive compensation windfall that shareholders want the company to unwind. The dispute centers on an executive options pool that expanded as the Tokyo-listed company repeatedly issued equity to finance its Bitcoin purchases. Shareholders are now demanding the cancellation of roughly 273 million potential shares added to management’s compensation package […] The post Metaplanet’s Bitcoin boom quietly turned a 46 million-share executive pay plan into a 319 million-share windfall appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-08",
-      "date_human": "Sep 8, 2026",
-      "pub_ts": 1788910851,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/metaplanet-dilution-scale.jpg"
-      ],
-      "image": "../assets/news/2026-09-09/53a38c9c71f78601_base.jpg",
-      "image_local": "../assets/news/2026-09-09/53a38c9c71f78601_base.jpg"
-    },
-    {
-      "title": "$47M Still Missing After Liquid Hack as Blockstream Bargains With 'White Hats'",
-      "link": "https://decrypt.co/377723/liquid-hack-47m-blockstream-bargains-white-hat",
-      "summary": "The hackers have returned 3,400 of the roughly 4,000 BTC drained from the sidechain, but about 600 BTC remains outstanding—and some doubt the actors' \"white hat\" claims.",
-      "source": "Decrypt",
-      "date": "2026-09-08",
-      "date_human": "Sep 8, 2026",
-      "pub_ts": 1788900394,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker1-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker1-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Hacker1-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-09/f077fbee0a101528_base.jpg",
-      "image_local": "../assets/news/2026-09-09/f077fbee0a101528_base.jpg"
-    },
-    {
-      "title": "Franklin Templeton digital asset veteran takes helm at StablecoinX",
-      "link": "https://cointelegraph.com/news/stablecoinx-franklin-templeton-veteran-to-oversee-roughly-480m-ena-treasury",
-      "summary": "Former Franklin Templeton digital asset executive Christopher Jensen will lead StablecoinX, the largest corporate holder of Ethena’s ENA token.",
-      "source": "Cointelegraph",
-      "date": "2026-09-08",
-      "date_human": "Sep 8, 2026",
-      "pub_ts": 1788901160,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M21BC7WR8S6QJNY728RV1B71/handshake-agreement-union-partnership-cooperation-collaboration-join-deal-breaking-news.png"
-      ],
-      "image": "../assets/news/2026-09-09/a93eac79e35f56f6_base.jpg",
-      "image_local": "../assets/news/2026-09-09/a93eac79e35f56f6_base.jpg"
-    },
-    {
-      "title": "Strive's SATA nears $1 billion market cap as Strategy's STRC continues to underperform",
-      "link": "https://www.coindesk.com/markets/2026/09/08/strive-s-sata-nears-usd1-billion-market-cap-as-strategy-s-strc-continues-to-underperform",
-      "summary": "Strive's SATA nears $1 billion market cap as Strategy's STRC continues to underperform",
-      "source": "CoinDesk",
-      "date": "2026-09-08",
-      "date_human": "Sep 8, 2026",
-      "pub_ts": 1788878012,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/2688a309ccf027625e4bf19277b7e78cfc32859f-2123x1084.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-09/eb0acf28a86cc957_base.jpg",
-      "image_local": "../assets/news/2026-09-09/eb0acf28a86cc957_base.jpg"
-    },
-    {
-      "title": "Why Bitcoin bulls shouldn't mistake a shrinking dollar reserve share for central bank buying",
-      "link": "https://cryptoslate.com/why-bitcoin-bulls-shouldnt-mistake-a-shrinking-dollar-reserve-share-for-central-bank-buying/",
-      "summary": "The New York Fed’s Sept. 2 analysis separates currency choices from reserve-size changes, leaving sovereign Bitcoin demand unproven. The post Why Bitcoin bulls shouldn’t mistake a shrinking dollar reserve share for central bank buying appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-08",
-      "date_human": "Sep 8, 2026",
-      "pub_ts": 1788906014,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-reserve-share-data.jpg"
-      ],
-      "image": "../assets/news/2026-09-09/3ab08302e50432dd_base.jpg",
-      "image_local": "../assets/news/2026-09-09/3ab08302e50432dd_base.jpg"
-    },
-    {
-      "title": "Bitcoin Holds, Wall Street Stalls as Oil Shock Revives Fed Hike Bets",
-      "link": "https://decrypt.co/377705/bitcoin-holds-wall-street-stalls-oil-shock-fed-hike",
-      "summary": "Bitcoin is defending its golden zone support while the S&P 500 grinds inside its tightest range yet, both waiting on Friday's inflation report before the Fed's September 16 rate call.",
-      "source": "Decrypt",
-      "date": "2026-09-08",
-      "date_human": "Sep 8, 2026",
-      "pub_ts": 1788893975,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-10-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-10-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-10-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-09/dd8b20d4f7099888_base.jpg",
-      "image_local": "../assets/news/2026-09-09/dd8b20d4f7099888_base.jpg"
+      "image": "../assets/news/2026-09-09/febc345b91952912_base.jpg",
+      "image_local": "../assets/news/2026-09-09/febc345b91952912_base.jpg"
     },
     {
       "title": "Here's what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
       "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
-      "date": "2026-09-08",
-      "date_human": "Sep 8, 2026",
-      "pub_ts": 1788898407,
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788933081,
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
       "image": "../assets/news/2026-09-09/57bd1a60f4d67ba1_base.jpg",
       "image_local": "../assets/news/2026-09-09/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "Visa combines VisaNet data with onchain lending to power stablecoin card working capital",
-      "link": "https://www.coindesk.com/business/2026/09/08/visa-opens-settlement-data-to-help-blockchain-lenders-finance-crypto-cards-as-volume-surges",
-      "summary": "Visa combines VisaNet data with onchain lending to power stablecoin card working capital",
-      "source": "CoinDesk",
-      "date": "2026-09-08",
-      "date_human": "Sep 8, 2026",
-      "pub_ts": 1788877754,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/e400c51cc73487de1b2a87a882ce2955729b2d16-2204x1240.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-09/e1ffc2495aa44298_base.jpg",
-      "image_local": "../assets/news/2026-09-09/e1ffc2495aa44298_base.jpg"
     }
   ]
 }
