@@ -1,0 +1,193 @@
+{
+  "day_iso": "2026-09-10",
+  "generated_at_utc": "2026-09-10 04:05:28 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Bitcoin sell pressure reaches one-month low as long-term holders slow down profit taking",
+      "link": "https://cryptoslate.com/bitcoin-sell-pressure-reaches-one-month-low-as-long-term-holders-slow-down-profit-taking/",
+      "summary": "Glassnode’s seven-day measure fell to 7 basis points from 16 at August’s peak, while overhead holdings barely moved. The post Bitcoin sell pressure reaches one-month low as long-term holders slow down profit taking appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789012211,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-potential-supply-exit.jpg"
+      ],
+      "image": "../assets/news/2026-09-10/1d30d7957a35ad49_base.jpg",
+      "image_local": "../assets/news/2026-09-10/1d30d7957a35ad49_base.jpg"
+    },
+    {
+      "title": "Bitcoin Wallet Maker Trezor Says Hackers Breached Its Email Provider",
+      "link": "https://decrypt.co/377831/bitcoin-wallet-trezor-hackers-breach-email",
+      "summary": "The hardware wallet maker said a fake security alert claimed a hardware flaw could expose users’ recovery phrases.",
+      "source": "Decrypt",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788994943,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/10/trezor-safe-7-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/10/trezor-safe-7-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/10/trezor-safe-7-decrypt-style-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-10/f97e04e16cb0c7e0_base.jpg",
+      "image_local": "../assets/news/2026-09-10/f97e04e16cb0c7e0_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788989400,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-09-10/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-10/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Robinhood CEO Vlad Tenev fires back at AMC's Aron in escalating fight over stock tokens",
+      "link": "https://www.coindesk.com/markets/2026/09/09/robinhood-s-ceo-vlad-tenev-defends-stock-tokens-in-escalating-fight-with-amc-ceo",
+      "summary": "Robinhood CEO Vlad Tenev fires back at AMC's Aron in escalating fight over stock tokens",
+      "source": "CoinDesk",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788970267,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/777380e065809566f31e83f71a5eab0c67e97d87-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-10/4a037c0ea37ffa68_base.jpg",
+      "image_local": "../assets/news/2026-09-10/4a037c0ea37ffa68_base.jpg"
+    },
+    {
+      "title": "Hunter Biden launched LAPTOP to cure memecoin grift and created a whole new batch of losers",
+      "link": "https://cryptoslate.com/hunter-biden-launched-laptop-to-cure-memecoin-grift-and-created-a-whole-new-batch-of-losers/",
+      "summary": "Hunter Biden’s LAPTOP token left nearly 80% of traders underwater within hours despite being pitched as an answer to memecoin grift. Hunter Biden is the son of former US President Joe Biden. Data from Bubblemaps showed that 12,151 of the token’s 15,206 traders lost money, while only 3,026 were profitable and 29 were at break-even […] The post Hunter Biden launched LAPTOP to cure memecoin grift and created a whole new batch of losers appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789003252,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/laptop-token-trader-losses.jpg"
+      ],
+      "image": "../assets/news/2026-09-10/7b45b1d9e1bbb510_base.jpg",
+      "image_local": "../assets/news/2026-09-10/7b45b1d9e1bbb510_base.jpg"
+    },
+    {
+      "title": "AI Is Solving Math's Best Problems Faster Than They Can Be Replaced, Terence Tao Warns",
+      "link": "https://decrypt.co/377818/ai-math-best-problems-terence-tao",
+      "summary": "The Fields medalist points to a real race between OpenAI and Anthropic as proof: AI can now flatten a hard problem the moment someone starts working on it.",
+      "source": "Decrypt",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788985889,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/09/math-problems-AI-gID_4.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/math-problems-AI-gID_4.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/math-problems-AI-gID_4.jpg"
+      ],
+      "image": "../assets/news/2026-09-10/72f92d375c4b6724_base.jpg",
+      "image_local": "../assets/news/2026-09-10/72f92d375c4b6724_base.jpg"
+    },
+    {
+      "title": "DoubleZero adds Kalshi election market data ahead of US midterms",
+      "link": "https://cointelegraph.com/news/doublezero-adds-kalshi-election-market-data-ahead-of-us-midterms",
+      "summary": "The expansion gives institutional and automated traders real-time access to Kalshi’s political markets as election betting activity continues to grow.",
+      "source": "Cointelegraph",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788984489,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M23VG1E8VXF1CMN933GG7NC8/republicans-vs-democrats-crypto2-2.jpg"
+      ],
+      "image": "../assets/news/2026-09-10/a7456c4af7295a3b_base.jpg",
+      "image_local": "../assets/news/2026-09-10/a7456c4af7295a3b_base.jpg"
+    },
+    {
+      "title": "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
+      "link": "https://www.coindesk.com/policy/2026/09/09/u-s-treasury-sanctions-another-widespread-cyber-scam-hub-xinbi-guarantee",
+      "summary": "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
+      "source": "CoinDesk",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788969911,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/5b751c64af19824fc862118663629188f655c38e-4032x2268.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-10/0a19492c1cd0796a_base.jpg",
+      "image_local": "../assets/news/2026-09-10/0a19492c1cd0796a_base.jpg"
+    },
+    {
+      "title": "OpenAI just showed why one of its former researchers thinks AI could kill everyone",
+      "link": "https://cryptoslate.com/openai-just-showed-why-one-of-its-former-researchers-thinks-ai-could-kill-everyone/",
+      "summary": "OpenAI says its latest AI system solved a 90-year-old math problem in 88 hours, reigniting fears over runaway intelligence. On Sept. 8, the company said that an internal model significantly more capable than its recently released GPT-6 Astra coordinated roughly 10,000 AI agents to solve the Navier-Stokes existence and smoothness problem. This is one of […] The post OpenAI just showed why one of its former researchers thinks AI could kill everyone appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788993652,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/ai-math-control-collapse.jpg"
+      ],
+      "image": "../assets/news/2026-09-10/1dce9fe19c659747_base.jpg",
+      "image_local": "../assets/news/2026-09-10/1dce9fe19c659747_base.jpg"
+    },
+    {
+      "title": "Crypto, Banks Take Clarity Act Lobbying Fight to Senators' Home States",
+      "link": "https://decrypt.co/377810/crypto-banks-clarity-act-lobbying-senators",
+      "summary": "Crypto advocates and community bankers are targeting lawmakers in their home states as the Senate prepares for a September 15 procedural vote.",
+      "source": "Decrypt",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788980218,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/us-capitol-decrypt-style-01-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/us-capitol-decrypt-style-01-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/us-capitol-decrypt-style-01-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-10/f78a0071b5691f08_base.jpg",
+      "image_local": "../assets/news/2026-09-10/f78a0071b5691f08_base.jpg"
+    },
+    {
+      "title": "Consensys to split into MetaMask and institutional blockchain company",
+      "link": "https://cointelegraph.com/news/consensys-to-split-into-metamask-and-institutional-blockchain-company",
+      "summary": "The restructuring will separate MetaMask’s consumer business from Consensys’ Ethereum protocols and institutional blockchain infrastructure operations.",
+      "source": "Cointelegraph",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788979652,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M23QBD87GQQKWH5JQGT142KQ/hi-crypto-loan-platforms-how-they-work-and-who-are-the-main-players-consensys.png"
+      ],
+      "image": "../assets/news/2026-09-10/5f520c3eae18ff4d_base.jpg",
+      "image_local": "../assets/news/2026-09-10/5f520c3eae18ff4d_base.jpg"
+    },
+    {
+      "title": "Tether pushes into private credit with $400 million fund with Fasanara",
+      "link": "https://www.coindesk.com/business/2026/09/09/tether-pushes-into-private-credit-with-usd400-million-fund-with-fasanara",
+      "summary": "Tether pushes into private credit with $400 million fund with Fasanara",
+      "source": "CoinDesk",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788969085,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/bfd80702a660a5deef3d056a315228038910dde5-1405x790.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-10/8a68123dc90f7d35_base.jpg",
+      "image_local": "../assets/news/2026-09-10/8a68123dc90f7d35_base.jpg"
+    }
+  ]
+}

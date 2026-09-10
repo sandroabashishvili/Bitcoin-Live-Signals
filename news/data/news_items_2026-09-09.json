@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-09",
-  "generated_at_utc": "2026-09-09 16:05:33 UTC",
+  "generated_at_utc": "2026-09-09 22:05:33 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,178 +16,178 @@
   "count": 12,
   "items": [
     {
-      "title": "Hunter Biden's laptop controversy gets a memecoin afterlife",
-      "link": "https://cointelegraph.com/news/hunter-bidens-laptop-memecoin-afterlife",
-      "summary": "The project’s disclosures say LAPTOP has no utility, lock founder tokens for six months and reserve 2% for wallets that lost money on TRUMP.",
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
       "date": "2026-09-09",
       "date_human": "Sep 9, 2026",
-      "pub_ts": 1788969519,
+      "pub_ts": 1788989400,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M230B9QSF000WZ911VXTFNH1/hi-bidens-crypto-memecoin-laptop.png"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-09-09/4771f59bd606bf23_base.jpg",
-      "image_local": "../assets/news/2026-09-09/4771f59bd606bf23_base.jpg"
+      "image": "../assets/news/2026-09-09/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-09/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "Hunter Biden's LAPTOP Meme Coin Crashes 99% on Debut",
-      "link": "https://decrypt.co/377783/hunter-biden-laptop-meme-coin-crashes",
-      "summary": "LAPTOP hit a $190.81 peak within minutes of launching on Base, then shed roughly 99% as thin liquidity met a wave of selling.",
-      "source": "Decrypt",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788968829,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/09/hunter-biden-decrypt-style-01-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/hunter-biden-decrypt-style-01-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/hunter-biden-decrypt-style-01-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-09-09/c04cca0720f94a54_base.jpg",
-      "image_local": "../assets/news/2026-09-09/c04cca0720f94a54_base.jpg"
-    },
-    {
-      "title": "Bitcoin traders bet borrowed money on a rally as oil surges ahead of Friday's inflation test",
-      "link": "https://cryptoslate.com/bitcoin-traders-bet-borrowed-money-on-a-rally-as-oil-surges-ahead-of-fridays-inflation-test/",
-      "summary": "Bitcoin is holding above $78,000 as Brent crude breached $100 and rising Treasury yields revived inflation fears. Data from CryptoSlate showed the flagship cryptocurrency trading around $78,451 at press time, with little sign of the pressure spreading across bond and energy markets after an escalation in the Middle East pushed Brent above the threshold for […] The post Bitcoin traders bet borrowed money on a rally as oil surges ahead of Friday’s inflation test appeared first on CryptoSlate.",
+      "title": "Solana's 300ms speed boost to outrun trading bots might come with a hidden cost",
+      "link": "https://cryptoslate.com/solanas-300ms-speed-boost-to-outrun-trading-bots-might-come-with-a-hidden-cost/",
+      "summary": "Fee-charging pools have the clearest modeled benefit, while proprietary market makers and validators face different trade-offs. The post Solana’s 300ms speed boost to outrun trading bots might come with a hidden cost appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-09",
       "date_human": "Sep 9, 2026",
-      "pub_ts": 1788966309,
+      "pub_ts": 1788987059,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-downtrend-macro-pressure.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/solana-liquidity-funnel.jpg"
       ],
-      "image": "../assets/news/2026-09-09/8330e275258cadab_base.jpg",
-      "image_local": "../assets/news/2026-09-09/8330e275258cadab_base.jpg"
+      "image": "../assets/news/2026-09-09/6c59e169c414054d_base.jpg",
+      "image_local": "../assets/news/2026-09-09/6c59e169c414054d_base.jpg"
     },
     {
-      "title": "Crypto Long & Short: Inside the 300-to-1 onchain gap between the dollar and euro",
-      "link": "https://www.coindesk.com/coindesk-indices/2026/09/08/crypto-long-and-short-inside-the-300-to-1-onchain-gap-between-the-dollar-and-euro",
-      "summary": "Crypto Long & Short: Inside the 300-to-1 onchain gap between the dollar and euro",
+      "title": "AI Is Solving Math's Best Problems Faster Than They Can Be Replaced, Terence Tao Warns",
+      "link": "https://decrypt.co/377818/ai-math-best-problems-terence-tao",
+      "summary": "The Fields medalist points to a real race between OpenAI and Anthropic as proof: AI can now flatten a hard problem the moment someone starts working on it.",
+      "source": "Decrypt",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788985889,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/09/math-problems-AI-gID_4.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/math-problems-AI-gID_4.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/math-problems-AI-gID_4.jpg"
+      ],
+      "image": "../assets/news/2026-09-09/72f92d375c4b6724_base.jpg",
+      "image_local": "../assets/news/2026-09-09/72f92d375c4b6724_base.jpg"
+    },
+    {
+      "title": "Robinhood's CEO Vlad Tenev fires back at AMC CEO in escalating fight over stock tokens",
+      "link": "https://www.coindesk.com/markets/2026/09/09/robinhood-s-ceo-vlad-tenev-defends-stock-tokens-in-escalating-fight-with-amc-ceo",
+      "summary": "Robinhood's CEO Vlad Tenev fires back at AMC CEO in escalating fight over stock tokens",
       "source": "CoinDesk",
       "date": "2026-09-09",
       "date_human": "Sep 9, 2026",
-      "pub_ts": 1788965887,
+      "pub_ts": 1788970267,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/fb0be30a3e48f1fb94d280bb43857c9e80f6edc0-1440x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/777380e065809566f31e83f71a5eab0c67e97d87-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-09/28b95b03a1defb14_base.jpg",
-      "image_local": "../assets/news/2026-09-09/28b95b03a1defb14_base.jpg"
+      "image": "../assets/news/2026-09-09/4a037c0ea37ffa68_base.jpg",
+      "image_local": "../assets/news/2026-09-09/4a037c0ea37ffa68_base.jpg"
     },
     {
-      "title": "Trade groups seek to block Illinois crypto tax before January effective date",
-      "link": "https://cointelegraph.com/news/trade-groups-seek-block-illinois-crypto-tax-before-january-effective-date",
-      "summary": "Following on their earlier lawsuit, CCI and the Blockchain Association seek to block Illinois’ 0.2% crypto tax, arguing it is unconstitutional and would impose costly compliance burdens.",
+      "title": "DoubleZero adds Kalshi election market data ahead of US midterms",
+      "link": "https://cointelegraph.com/news/doublezero-adds-kalshi-election-market-data-ahead-of-us-midterms",
+      "summary": "The expansion gives institutional and automated traders real-time access to Kalshi’s political markets as election betting activity continues to grow.",
       "source": "Cointelegraph",
       "date": "2026-09-09",
       "date_human": "Sep 9, 2026",
-      "pub_ts": 1788969427,
+      "pub_ts": 1788984489,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M23CVCZMG85BQMYT0FDR7K9V/year-of-crypto-tax-legislation-960x640.webp"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M23VG1E8VXF1CMN933GG7NC8/republicans-vs-democrats-crypto2-2.jpg"
       ],
-      "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M23CVCZMG85BQMYT0FDR7K9V/year-of-crypto-tax-legislation-960x640.webp",
-      "image_local": null
+      "image": "../assets/news/2026-09-09/a7456c4af7295a3b_base.jpg",
+      "image_local": "../assets/news/2026-09-09/a7456c4af7295a3b_base.jpg"
     },
     {
-      "title": "Prediction Markets Abandon Cheap Oil as Brent Passes $100",
-      "link": "https://decrypt.co/377766/prediction-markets-abandon-cheap-oil-as-brent-passes-100",
-      "summary": "Myriad's $120 side overtook $55 at the start of September, while Polymarket puts WTI reaching $100 this month at 59%.",
-      "source": "Decrypt",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788966901,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/09/oil-market-decrypt-style-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/oil-market-decrypt-style-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/oil-market-decrypt-style-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-09-09/cdeb26eefdc3effe_base.jpg",
-      "image_local": "../assets/news/2026-09-09/cdeb26eefdc3effe_base.jpg"
-    },
-    {
-      "title": "You can borrow against Bitcoin without selling it, but there's a catch",
-      "link": "https://cryptoslate.com/you-can-borrow-against-bitcoin-without-selling-it-but-theres-a-catch/",
-      "summary": "Bitcoin holders who need cash do not necessarily have to sell their BTC. They can borrow against it instead, keeping exposure to Bitcoin while using its value as collateral for a loan. The complication is that the loan they want may exist on another network. Many blockchain lending applications run on Ethereum, which keeps its […] The post You can borrow against Bitcoin without selling it, but there’s a catch appeared first on CryptoSlate.",
+      "title": "It looks like a stock and trades like a stock, but it isn't actually a stock – what is it?",
+      "link": "https://cryptoslate.com/looks-like-a-stock-trades-like-a-stock-but-it-isnt-actually-a-stock/",
+      "summary": "Tokenized stocks promise cheaper trading and wider access, while some products make speculation easier without passing shareholder rights to the buyer. Two people can open their investment apps, see the same company name beside a similar price, and still own different things. One holds shares in the company, and the other holds a token designed […] The post It looks like a stock and trades like a stock, but it isn’t actually a stock – what is it? appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-09",
       "date_human": "Sep 9, 2026",
-      "pub_ts": 1788962725,
+      "pub_ts": 1788982542,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-collateral-market-access.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/stock-rights-tokenized-exposure.jpg"
       ],
-      "image": "../assets/news/2026-09-09/dae3f1dfb66540ec_base.jpg",
-      "image_local": "../assets/news/2026-09-09/dae3f1dfb66540ec_base.jpg"
+      "image": "../assets/news/2026-09-09/24ba07832e4e4c1b_base.jpg",
+      "image_local": "../assets/news/2026-09-09/24ba07832e4e4c1b_base.jpg"
     },
     {
-      "title": "Kalshi election data goes live on DoubleZero ahead of U.S. midterms",
-      "link": "https://www.coindesk.com/tech/2026/09/09/kalshi-election-data-goes-live-on-doublezero-ahead-of-u-s-midterms",
-      "summary": "Kalshi election data goes live on DoubleZero ahead of U.S. midterms",
+      "title": "Crypto, Banks Take Clarity Act Lobbying Fight to Senators' Home States",
+      "link": "https://decrypt.co/377810/crypto-banks-clarity-act-lobbying-senators",
+      "summary": "Crypto advocates and community bankers are targeting lawmakers in their home states as the Senate prepares for a September 15 procedural vote.",
+      "source": "Decrypt",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788980218,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/us-capitol-decrypt-style-01-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/us-capitol-decrypt-style-01-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/us-capitol-decrypt-style-01-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-09/f78a0071b5691f08_base.jpg",
+      "image_local": "../assets/news/2026-09-09/f78a0071b5691f08_base.jpg"
+    },
+    {
+      "title": "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
+      "link": "https://www.coindesk.com/policy/2026/09/09/u-s-treasury-sanctions-another-widespread-cyber-scam-hub-xinbi-guarantee",
+      "summary": "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
       "source": "CoinDesk",
       "date": "2026-09-09",
       "date_human": "Sep 9, 2026",
-      "pub_ts": 1788962400,
+      "pub_ts": 1788969911,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/901944c6dda50496883edca6a70899e618bfde9e-1367x769.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/5b751c64af19824fc862118663629188f655c38e-4032x2268.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-09/6d6585f9a80d61eb_base.jpg",
-      "image_local": "../assets/news/2026-09-09/6d6585f9a80d61eb_base.jpg"
+      "image": "../assets/news/2026-09-09/0a19492c1cd0796a_base.jpg",
+      "image_local": "../assets/news/2026-09-09/0a19492c1cd0796a_base.jpg"
     },
     {
-      "title": "Tether, Fasanara launch $400M private credit fund targeting $3B",
-      "link": "https://cointelegraph.com/news/tether-fasanara-launch-400m-private-credit-fund-targeting-3b",
-      "summary": "The evergreen fund will use USDT infrastructure to support asset-backed lending through fintech platforms in more than 60 countries.",
+      "title": "Consensys to split into MetaMask and institutional blockchain company",
+      "link": "https://cointelegraph.com/news/consensys-to-split-into-metamask-and-institutional-blockchain-company",
+      "summary": "The restructuring will separate MetaMask’s consumer business from Consensys’ Ethereum protocols and institutional blockchain infrastructure operations.",
       "source": "Cointelegraph",
       "date": "2026-09-09",
       "date_human": "Sep 9, 2026",
-      "pub_ts": 1788967304,
+      "pub_ts": 1788979652,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M23AK6XN00P8QY2D9WJ8JAAW/hi-crypto-negotiation-2.png"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M23QBD87GQQKWH5JQGT142KQ/hi-crypto-loan-platforms-how-they-work-and-who-are-the-main-players-consensys.png"
       ],
-      "image": "../assets/news/2026-09-09/2934493b856e9af6_base.jpg",
-      "image_local": "../assets/news/2026-09-09/2934493b856e9af6_base.jpg"
+      "image": "../assets/news/2026-09-09/5f520c3eae18ff4d_base.jpg",
+      "image_local": "../assets/news/2026-09-09/5f520c3eae18ff4d_base.jpg"
     },
     {
-      "title": "Consensys Is Splitting in Two as MetaMask Goes Its Own Way",
-      "link": "https://decrypt.co/377768/consensys-split-metamask-new-institutional-crypto-company",
-      "summary": "Consensys Software Inc. will become MetaMask, while a newly formed Consensys will take over the firm's Ethereum protocols and institutional blockchain infrastructure business.",
-      "source": "Decrypt",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788966444,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-metamask-fox-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/06/decrypt-style-metamask-fox-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/06/decrypt-style-metamask-fox-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-09-09/88b90a559e0673e0_base.jpg",
-      "image_local": "../assets/news/2026-09-09/88b90a559e0673e0_base.jpg"
-    },
-    {
-      "title": "Nearly a fifth of all Bitcoin mining power is sitting completely dark, and turning it back on could trigger a brutal margin trap",
-      "link": "https://cryptoslate.com/nearly-a-fifth-of-all-bitcoin-mining-power-is-sitting-completely-dark-and-turning-it-back-on-could-trigger-a-brutal-margin-trap/",
-      "summary": "Luxor estimates 235 EH/s of capacity is idle for mixed reasons, complicating the capitulation signal as Texas’s summer curtailment window ends. The post Nearly a fifth of all Bitcoin mining power is sitting completely dark, and turning it back on could trigger a brutal margin trap appeared first on CryptoSlate.",
+      "title": "How 4,100 stolen Bitcoin bankrolled a life of private jets and supercars",
+      "link": "https://cryptoslate.com/how-4100-stolen-bitcoin-bankrolled-a-life-of-private-jets-and-supercars/",
+      "summary": "Prosecutors say the group stole and laundered more than $245 million in crypto, spending proceeds on club parties, private jets and exotic cars. The post How 4,100 stolen Bitcoin bankrolled a life of private jets and supercars appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-09",
       "date_human": "Sep 9, 2026",
-      "pub_ts": 1788958257,
+      "pub_ts": 1788978607,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-reward-cable-split.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/malone-lam-luxury-loot.jpg"
       ],
-      "image": "../assets/news/2026-09-09/547c8dcbed412407_base.jpg",
-      "image_local": "../assets/news/2026-09-09/547c8dcbed412407_base.jpg"
+      "image": "../assets/news/2026-09-09/f113cf567b0c8c11_base.jpg",
+      "image_local": "../assets/news/2026-09-09/f113cf567b0c8c11_base.jpg"
     },
     {
-      "title": "PayPal expands stablecoin rails with custom token issuance platform",
-      "link": "https://www.coindesk.com/business/2026/09/09/paypal-expands-stablecoin-rails-with-launch-of-custom-token-issuance-platform",
-      "summary": "PayPal expands stablecoin rails with custom token issuance platform",
+      "title": "Apple Unveils Redesigned Siri AI and A20 Pro Chip as CEO John Ternus Makes Debut",
+      "link": "https://decrypt.co/377807/apple-redesigned-siri-ai-a20-pro-chip",
+      "summary": "The company's first fall keynote under new leadership paired a Gemini-powered Siri overhaul with Apple's first 2-nanometer chip, plus a $1,999 foldable iPhone that won't ship until October.",
+      "source": "Decrypt",
+      "date": "2026-09-09",
+      "date_human": "Sep 9, 2026",
+      "pub_ts": 1788976214,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/05/apple-logo-decrypy-style-01-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/05/apple-logo-decrypy-style-01-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/05/apple-logo-decrypy-style-01-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-09/f835969b669a32b7_base.jpg",
+      "image_local": "../assets/news/2026-09-09/f835969b669a32b7_base.jpg"
+    },
+    {
+      "title": "Tether pushes into private credit with $400 million fund with Fasanara",
+      "link": "https://www.coindesk.com/business/2026/09/09/tether-pushes-into-private-credit-with-usd400-million-fund-with-fasanara",
+      "summary": "Tether pushes into private credit with $400 million fund with Fasanara",
       "source": "CoinDesk",
       "date": "2026-09-09",
       "date_human": "Sep 9, 2026",
-      "pub_ts": 1788962400,
+      "pub_ts": 1788969085,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/ca66c441f504e730e61f0eb01b6d3a16206523c5-1920x1172.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/bfd80702a660a5deef3d056a315228038910dde5-1405x790.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-09/d20630aa02d2d899_base.jpg",
-      "image_local": "../assets/news/2026-09-09/d20630aa02d2d899_base.jpg"
+      "image": "../assets/news/2026-09-09/8a68123dc90f7d35_base.jpg",
+      "image_local": "../assets/news/2026-09-09/8a68123dc90f7d35_base.jpg"
     }
   ]
 }
