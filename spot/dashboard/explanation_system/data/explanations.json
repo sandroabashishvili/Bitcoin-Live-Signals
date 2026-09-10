@@ -158,7 +158,7 @@
     "summary": "Closed-trade result summary for executed BUY trades only.",
     "details": [
       "TP/SL counts are based on confirmed closed trades.",
-      "Win Rate uses TP vs SL outcomes only."
+      "Win Rate counts closed trades with positive net PnL after fees, including profit locks and force closes."
     ],
     "severity": "neutral",
     "cta_label": "See full trade history in Portfolio",
@@ -169,7 +169,7 @@
     "summary": "Which gates appear most often in BUY setups, and how those gates align with TP/SL outcomes.",
     "details": [
       "Gate counts are computed from closed trades only.",
-      "Win Rate is TP divided by TP + SL for trades that used the gate."
+      "Win Rate is positive-net closed trades divided by all closed trades that used the gate."
     ],
     "severity": "neutral"
   },

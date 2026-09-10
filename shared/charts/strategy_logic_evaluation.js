@@ -11,6 +11,7 @@ function buildDonutOption(title, totals, mode, theme) {
   const tooltipFontSize = isMobile ? 12 : 13;
   const tp = Number(totals?.tp || 0);
   const sl = Number(totals?.sl || 0);
+  const lock = Number(totals?.lock || 0);
   const hasForceClose = totals && Object.prototype.hasOwnProperty.call(totals, "force_close");
   const thirdKey = hasForceClose ? "force_close" : "open";
   const thirdLabel = hasForceClose ? "Force Close" : "Open";
@@ -59,7 +60,7 @@ function buildDonutOption(title, totals, mode, theme) {
         return [left, top];
       },
       formatter(params) {
-        const totalCount = tp + sl + thirdValue;
+        const totalCount = tp + sl + lock + thirdValue;
         const tone = params.name === "TP" ? theme.green : params.name === "SL" ? theme.red : theme.amber;
         const percent = totalCount ? (Number(params.value || 0) / totalCount) * 100 : 0;
         return `
@@ -83,6 +84,7 @@ function buildDonutOption(title, totals, mode, theme) {
         data: [
           { value: tp || 0.0001, name: "TP", itemStyle: { color: theme.green } },
           { value: sl || 0.0001, name: "SL", itemStyle: { color: theme.red } },
+          ...(lock ? [{ value: lock, name: "Profit Lock", itemStyle: { color: theme.green } }] : []),
           { value: thirdValue || 0.0001, name: thirdLabel, itemStyle: { color: theme.amber } },
         ],
       },

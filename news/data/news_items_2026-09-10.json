@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-10",
-  "generated_at_utc": "2026-09-10 04:05:28 UTC",
+  "generated_at_utc": "2026-09-10 10:05:38 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,18 +16,46 @@
   "count": 12,
   "items": [
     {
-      "title": "Bitcoin sell pressure reaches one-month low as long-term holders slow down profit taking",
-      "link": "https://cryptoslate.com/bitcoin-sell-pressure-reaches-one-month-low-as-long-term-holders-slow-down-profit-taking/",
-      "summary": "Glassnode’s seven-day measure fell to 7 basis points from 16 at August’s peak, while overhead holdings barely moved. The post Bitcoin sell pressure reaches one-month low as long-term holders slow down profit taking appeared first on CryptoSlate.",
+      "title": "Paolo Ardoino says 650 million people decentralized US debt, but Tether still controls the T-bills",
+      "link": "https://cryptoslate.com/paolo-ardoino-says-650-million-people-decentralized-us-debt-but-tether-still-controls-the-t-bills/",
+      "summary": "USDT spreads dollar claims and Treasury funding demand while Tether keeps reserve ownership, portfolio control and gains above face value. The post Paolo Ardoino says 650 million people decentralized US debt, but Tether still controls the T-bills appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-10",
       "date_human": "Sep 10, 2026",
-      "pub_ts": 1789012211,
+      "pub_ts": 1789033527,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-potential-supply-exit.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/tether-treasury-vault.jpg"
       ],
-      "image": "../assets/news/2026-09-10/1d30d7957a35ad49_base.jpg",
-      "image_local": "../assets/news/2026-09-10/1d30d7957a35ad49_base.jpg"
+      "image": "../assets/news/2026-09-10/19348320eb1d5e79_base.jpg",
+      "image_local": "../assets/news/2026-09-10/19348320eb1d5e79_base.jpg"
+    },
+    {
+      "title": "Bitcoin sell-side risk returns to rare lows as $80K sellers fade from view",
+      "link": "https://cointelegraph.com/markets/bitcoin-sell-side-risk-returns-rare-lows-fade",
+      "summary": "Bitcoin investors showed little sign of panic selling as BTC held most of its August gains and sell-side risk fell to rare lows, data showed.",
+      "source": "Cointelegraph",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789033002,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M259VB1C6WATJW98PNV7EBMY/bitcoin-relax-adoption.jpg"
+      ],
+      "image": "../assets/news/2026-09-10/166af80a9ceee5fc_base.jpg",
+      "image_local": "../assets/news/2026-09-10/166af80a9ceee5fc_base.jpg"
+    },
+    {
+      "title": "Live updates: Bitcoin ETFs post a second straight outflow while other major funds turns green",
+      "link": "https://www.coindesk.com/business/2026/09/10/live-updates-bitcoin-etfs-post-a-second-straight-outflow-while-every-other-fund-turns-green",
+      "summary": "Live updates: Bitcoin ETFs post a second straight outflow while other major funds turns green",
+      "source": "CoinDesk",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789026346,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/ec9ad9b7314c704b4ba9574c0e07436674b8a141-1408x804.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-10/67d7912d630512c9_base.jpg",
+      "image_local": "../assets/news/2026-09-10/67d7912d630512c9_base.jpg"
     },
     {
       "title": "Bitcoin Wallet Maker Trezor Says Hackers Breached Its Email Provider",
@@ -46,46 +74,46 @@
       "image_local": "../assets/news/2026-09-10/f97e04e16cb0c7e0_base.jpg"
     },
     {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788989400,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-09-10/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-09-10/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "Robinhood CEO Vlad Tenev fires back at AMC's Aron in escalating fight over stock tokens",
-      "link": "https://www.coindesk.com/markets/2026/09/09/robinhood-s-ceo-vlad-tenev-defends-stock-tokens-in-escalating-fight-with-amc-ceo",
-      "summary": "Robinhood CEO Vlad Tenev fires back at AMC's Aron in escalating fight over stock tokens",
-      "source": "CoinDesk",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788970267,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/777380e065809566f31e83f71a5eab0c67e97d87-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-10/4a037c0ea37ffa68_base.jpg",
-      "image_local": "../assets/news/2026-09-10/4a037c0ea37ffa68_base.jpg"
-    },
-    {
-      "title": "Hunter Biden launched LAPTOP to cure memecoin grift and created a whole new batch of losers",
-      "link": "https://cryptoslate.com/hunter-biden-launched-laptop-to-cure-memecoin-grift-and-created-a-whole-new-batch-of-losers/",
-      "summary": "Hunter Biden’s LAPTOP token left nearly 80% of traders underwater within hours despite being pitched as an answer to memecoin grift. Hunter Biden is the son of former US President Joe Biden. Data from Bubblemaps showed that 12,151 of the token’s 15,206 traders lost money, while only 3,026 were profitable and 29 were at break-even […] The post Hunter Biden launched LAPTOP to cure memecoin grift and created a whole new batch of losers appeared first on CryptoSlate.",
+      "title": "Osmosis freezes 22.65 BTC after Nomic forwarding bug compromises Bitcoin reserves",
+      "link": "https://cryptoslate.com/osmosis-freezes-22-65-btc-after-nomic-forwarding-bug-compromises-bitcoin-reserves/",
+      "summary": "Even full recovery of the frozen funds would leave roughly 17.19 BTC for the community pool to replace. The post Osmosis freezes 22.65 BTC after Nomic forwarding bug compromises Bitcoin reserves appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-10",
       "date_human": "Sep 10, 2026",
-      "pub_ts": 1789003252,
+      "pub_ts": 1789030229,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/laptop-token-trader-losses.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/allbtc-nomic-double-spend-governance-collage.jpg"
       ],
-      "image": "../assets/news/2026-09-10/7b45b1d9e1bbb510_base.jpg",
-      "image_local": "../assets/news/2026-09-10/7b45b1d9e1bbb510_base.jpg"
+      "image": "../assets/news/2026-09-10/ac8fa5c42dbb50d9_base.jpg",
+      "image_local": "../assets/news/2026-09-10/ac8fa5c42dbb50d9_base.jpg"
+    },
+    {
+      "title": "India's Arya.ag to put grain ownership records on Avalanche",
+      "link": "https://cointelegraph.com/news/arya-ag-tests-tokenized-grain-receipts-avalanche",
+      "summary": "The system will combine farmer, grain, warehouse, insurance and loan data for lenders, though no launch date or initial deployment size was disclosed.",
+      "source": "Cointelegraph",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789032600,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M255E52AW9256839B574KAMH/india-tokenization-grain.png"
+      ],
+      "image": "../assets/news/2026-09-10/cb573ea12da823a7_base.jpg",
+      "image_local": "../assets/news/2026-09-10/cb573ea12da823a7_base.jpg"
+    },
+    {
+      "title": "SGX's bitcoin and ether perpetual futures are now open to U.S. institutions",
+      "link": "https://www.coindesk.com/markets/2026/09/10/sgx-s-bitcoin-and-ether-perpetual-futures-are-now-open-to-u-s-institutions",
+      "summary": "SGX's bitcoin and ether perpetual futures are now open to U.S. institutions",
+      "source": "CoinDesk",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789023704,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/32c66d3cef6d1b4baa682e2a0c688da59be56be1-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-10/cc6fa5ca5abeedcf_base.jpg",
+      "image_local": "../assets/news/2026-09-10/cc6fa5ca5abeedcf_base.jpg"
     },
     {
       "title": "AI Is Solving Math's Best Problems Faster Than They Can Be Replaced, Terence Tao Warns",
@@ -104,46 +132,46 @@
       "image_local": "../assets/news/2026-09-10/72f92d375c4b6724_base.jpg"
     },
     {
-      "title": "DoubleZero adds Kalshi election market data ahead of US midterms",
-      "link": "https://cointelegraph.com/news/doublezero-adds-kalshi-election-market-data-ahead-of-us-midterms",
-      "summary": "The expansion gives institutional and automated traders real-time access to Kalshi’s political markets as election betting activity continues to grow.",
-      "source": "Cointelegraph",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788984489,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M23VG1E8VXF1CMN933GG7NC8/republicans-vs-democrats-crypto2-2.jpg"
-      ],
-      "image": "../assets/news/2026-09-10/a7456c4af7295a3b_base.jpg",
-      "image_local": "../assets/news/2026-09-10/a7456c4af7295a3b_base.jpg"
-    },
-    {
-      "title": "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
-      "link": "https://www.coindesk.com/policy/2026/09/09/u-s-treasury-sanctions-another-widespread-cyber-scam-hub-xinbi-guarantee",
-      "summary": "U.S. Treasury sanctions another widespread cyber-scam hub, Xinbi Guarantee",
-      "source": "CoinDesk",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788969911,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/5b751c64af19824fc862118663629188f655c38e-4032x2268.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-10/0a19492c1cd0796a_base.jpg",
-      "image_local": "../assets/news/2026-09-10/0a19492c1cd0796a_base.jpg"
-    },
-    {
-      "title": "OpenAI just showed why one of its former researchers thinks AI could kill everyone",
-      "link": "https://cryptoslate.com/openai-just-showed-why-one-of-its-former-researchers-thinks-ai-could-kill-everyone/",
-      "summary": "OpenAI says its latest AI system solved a 90-year-old math problem in 88 hours, reigniting fears over runaway intelligence. On Sept. 8, the company said that an internal model significantly more capable than its recently released GPT-6 Astra coordinated roughly 10,000 AI agents to solve the Navier-Stokes existence and smoothness problem. This is one of […] The post OpenAI just showed why one of its former researchers thinks AI could kill everyone appeared first on CryptoSlate.",
+      "title": "Tether is pushing USDT into a cracking $3 trillion Wall Street debt machine as defaults hit five-year highs at major funds",
+      "link": "https://cryptoslate.com/tether-is-pushing-usdt-into-a-cracking-3-trillion-wall-street-debt-machine-as-defaults-hit-five-year-highs-at-major-funds/",
+      "summary": "The USDT issuer will originate and advise on deals while Fasanara manages the $400 million-backed fund, which targets up to $3 billion from outside institutions. The post Tether is pushing USDT into a cracking $3 trillion Wall Street debt machine as defaults hit five-year highs at major funds appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788993652,
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789026607,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/ai-math-control-collapse.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/tether-private-credit-grinder.jpg"
       ],
-      "image": "../assets/news/2026-09-10/1dce9fe19c659747_base.jpg",
-      "image_local": "../assets/news/2026-09-10/1dce9fe19c659747_base.jpg"
+      "image": "../assets/news/2026-09-10/4b0df1828fe97f22_base.jpg",
+      "image_local": "../assets/news/2026-09-10/4b0df1828fe97f22_base.jpg"
+    },
+    {
+      "title": "Unicoin sues Uniswap Labs, seeks to cancel UNI registration",
+      "link": "https://cointelegraph.com/news/unicoin-sues-uniswap-court-cancel-uni-trademark",
+      "summary": "The complaint says Uniswap’s counsel sent three letters before Unicoin’s Sept. 28 launch and seeks declarations on its marks and domains.",
+      "source": "Cointelegraph",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789030511,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M25608EVZEXN61YVC0S0C6R6/regulation-judgement-judge-crypto-breaking-news.jpg"
+      ],
+      "image": "../assets/news/2026-09-10/bbe6fe114b8ed91f_base.jpg",
+      "image_local": "../assets/news/2026-09-10/bbe6fe114b8ed91f_base.jpg"
+    },
+    {
+      "title": "Hunter Biden's LAPTOP blames bots after 98% crash as traders rack up six-figure losses",
+      "link": "https://www.coindesk.com/markets/2026/09/10/hunter-biden-s-laptop-blames-bots-after-98-crash-as-traders-rack-up-six-figure-losses",
+      "summary": "Hunter Biden's LAPTOP blames bots after 98% crash as traders rack up six-figure losses",
+      "source": "CoinDesk",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789020825,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/ba0a36a6d6ad5c5c59f41719b0738f5a90a5a0c8-2010x1082.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-10/845f7130c9f09a43_base.jpg",
+      "image_local": "../assets/news/2026-09-10/845f7130c9f09a43_base.jpg"
     },
     {
       "title": "Crypto, Banks Take Clarity Act Lobbying Fight to Senators' Home States",
@@ -160,34 +188,6 @@
       ],
       "image": "../assets/news/2026-09-10/f78a0071b5691f08_base.jpg",
       "image_local": "../assets/news/2026-09-10/f78a0071b5691f08_base.jpg"
-    },
-    {
-      "title": "Consensys to split into MetaMask and institutional blockchain company",
-      "link": "https://cointelegraph.com/news/consensys-to-split-into-metamask-and-institutional-blockchain-company",
-      "summary": "The restructuring will separate MetaMask’s consumer business from Consensys’ Ethereum protocols and institutional blockchain infrastructure operations.",
-      "source": "Cointelegraph",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788979652,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M23QBD87GQQKWH5JQGT142KQ/hi-crypto-loan-platforms-how-they-work-and-who-are-the-main-players-consensys.png"
-      ],
-      "image": "../assets/news/2026-09-10/5f520c3eae18ff4d_base.jpg",
-      "image_local": "../assets/news/2026-09-10/5f520c3eae18ff4d_base.jpg"
-    },
-    {
-      "title": "Tether pushes into private credit with $400 million fund with Fasanara",
-      "link": "https://www.coindesk.com/business/2026/09/09/tether-pushes-into-private-credit-with-usd400-million-fund-with-fasanara",
-      "summary": "Tether pushes into private credit with $400 million fund with Fasanara",
-      "source": "CoinDesk",
-      "date": "2026-09-09",
-      "date_human": "Sep 9, 2026",
-      "pub_ts": 1788969085,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/bfd80702a660a5deef3d056a315228038910dde5-1405x790.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-10/8a68123dc90f7d35_base.jpg",
-      "image_local": "../assets/news/2026-09-10/8a68123dc90f7d35_base.jpg"
     }
   ]
 }
