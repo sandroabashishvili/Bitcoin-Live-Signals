@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-10",
-  "generated_at_utc": "2026-09-10 16:05:31 UTC",
+  "generated_at_utc": "2026-09-10 22:05:39 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,178 +16,178 @@
   "count": 12,
   "items": [
     {
-      "title": "EU finance groups push to remove tokenized securities cap",
-      "link": "https://cointelegraph.com/news/european-finance-groups-urge-eu-to-scrap-tokenized-securities-cap-propose-15t-fallback",
-      "summary": "European finance and tokenization groups say Brussels should remove limits on assets admitted to DLT infrastructure or set a 1.5 trillion euro baseline if a cap remains.",
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
       "date": "2026-09-10",
       "date_human": "Sep 10, 2026",
-      "pub_ts": 1789055362,
+      "pub_ts": 1789075800,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M25YE6DKF8ZSF4J32E1GZPK8/regulations-eu-europe-bitcoin.png"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-09-10/abe069c52ab082bb_base.jpg",
-      "image_local": "../assets/news/2026-09-10/abe069c52ab082bb_base.jpg"
+      "image": "../assets/news/2026-09-10/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-10/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "Anthropic Discloses Fourth Claude Hacking Incident as Debate Around Regulation Grows",
-      "link": "https://decrypt.co/377889/anthropic-discloses-fourth-claude-hacking-incident-as-debate-around-regulation-grows",
-      "summary": "The company now says attacks during security tests exposed model behavior failures, after initially emphasizing errors in its testing infrastructure.",
+      "title": "Senate Republicans Release Revised Clarity Act Ahead of September 15 Vote",
+      "link": "https://decrypt.co/377928/senate-republicans-revised-clarity-act-draft",
+      "summary": "The draft adds registration requirements for controlled trading protocols and leaves its ethics provisions largely unchanged.",
       "source": "Decrypt",
       "date": "2026-09-10",
       "date_human": "Sep 10, 2026",
-      "pub_ts": 1789054391,
+      "pub_ts": 1789075128,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-claude-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-anthropic-claude-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/decrypt-style-anthropic-claude-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/cynthia-lummis-decrypt-style-scaled-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/cynthia-lummis-decrypt-style-scaled-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/cynthia-lummis-decrypt-style-scaled-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-10/deb67ffe16aa4275_base.jpg",
-      "image_local": "../assets/news/2026-09-10/deb67ffe16aa4275_base.jpg"
+      "image": "../assets/news/2026-09-10/cec228c4dd2f8bd1_base.jpg",
+      "image_local": "../assets/news/2026-09-10/cec228c4dd2f8bd1_base.jpg"
     },
     {
-      "title": "XRP Ledger crossed 5 billion transactions, but 92% of August activity came from just 767 bots",
-      "link": "https://cryptoslate.com/xrp-ledger-crossed-5-billion-transactions-but-92-of-august-activity-came-from-just-767-bots/",
-      "summary": "Bitquery’s audit says a 767-account machine subset generated 92%, separating ledger throughput from durable XRP demand. The post XRP Ledger crossed 5 billion transactions, but 92% of August activity came from just 767 bots appeared first on CryptoSlate.",
+      "title": "MetaMask and Consensys split exposes the gap between Ethereum adoption and ETH demand",
+      "link": "https://cryptoslate.com/metamask-and-consensys-split-exposes-the-gap-between-ethereum-adoption-and-eth-demand/",
+      "summary": "The wallet and infrastructure businesses now operate independently, while Monad products and private networks complicate the link to ETH demand. The post MetaMask and Consensys split exposes the gap between Ethereum adoption and ETH demand appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-10",
       "date_human": "Sep 10, 2026",
-      "pub_ts": 1789053617,
+      "pub_ts": 1789074004,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/xrp-machine-shadow.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/ethereum-wallet-infrastructure-split.jpg"
       ],
-      "image": "../assets/news/2026-09-10/2cab2f817fe54030_base.jpg",
-      "image_local": "../assets/news/2026-09-10/2cab2f817fe54030_base.jpg"
+      "image": "../assets/news/2026-09-10/3a085d807468af97_base.jpg",
+      "image_local": "../assets/news/2026-09-10/3a085d807468af97_base.jpg"
     },
     {
-      "title": "MoneyGram unveils stablecoin-backed card as digital dollars move into everyday spending",
-      "link": "https://www.coindesk.com/business/2026/09/08/moneygram-unveils-stablecoin-backed-card-as-digital-dollars-move-into-everyday-spending",
-      "summary": "MoneyGram unveils stablecoin-backed card as digital dollars move into everyday spending",
+      "title": "Why a new SEC plan could ease a legal headache for tokenized securities",
+      "link": "https://www.coindesk.com/business/2026/09/10/why-a-new-sec-plan-could-end-the-legal-headaches-of-holding-tokenized-securities",
+      "summary": "Why a new SEC plan could ease a legal headache for tokenized securities",
       "source": "CoinDesk",
       "date": "2026-09-10",
       "date_human": "Sep 10, 2026",
-      "pub_ts": 1789050600,
+      "pub_ts": 1789066890,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/d7959f555e24e90cf0a41c4677d90edb55b5cd06-2048x1152.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/333db2ac6429c13170ebdacdfd4cae413b017a08-4922x2769.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-10/67b117fd3ae340bf_base.jpg",
-      "image_local": "../assets/news/2026-09-10/67b117fd3ae340bf_base.jpg"
+      "image": "../assets/news/2026-09-10/70c2409b96cee5b8_base.jpg",
+      "image_local": "../assets/news/2026-09-10/70c2409b96cee5b8_base.jpg"
     },
     {
-      "title": "Bitcoin falls on US PPI overshoot as 30-year bond yield hits new 19-year high",
-      "link": "https://cointelegraph.com/markets/bitcoin-falls-on-us-ppi-overshoot-as-30-year-bond-yield-hits-new-19-year-high",
-      "summary": "Bitcoin fell with US stocks as high inflation and a further surge in oil prices coincided with another multidecade high for US bond yields.",
+      "title": "ESMA warns growing crypto ties could amplify risks to traditional finance",
+      "link": "https://cointelegraph.com/news/esma-warns-growing-crypto-ties-could-amplify-risks-to-traditional-finance",
+      "summary": "The EU securities regulator flagged tokenized equities, DeFi exploits and prediction markets as areas where growing crypto ties could pose risks to the broader financial system.",
       "source": "Cointelegraph",
       "date": "2026-09-10",
       "date_human": "Sep 10, 2026",
-      "pub_ts": 1789051935,
+      "pub_ts": 1789071029,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M25WNWCPP6BF687FEHQSBZ6X/money-dollar-calculator-inflation.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M26CZHVMKBYHAAV7EA21J68E/hi-what-is-mica-markets-in-crypto-assets-regulation-esma.png"
       ],
-      "image": "../assets/news/2026-09-10/5260e1c76a299a6d_base.jpg",
-      "image_local": "../assets/news/2026-09-10/5260e1c76a299a6d_base.jpg"
+      "image": "../assets/news/2026-09-10/b74a37cb39327749_base.jpg",
+      "image_local": "../assets/news/2026-09-10/b74a37cb39327749_base.jpg"
     },
     {
-      "title": "Bitcoin at $400K by 2030 Still 'Reasonable Target': Coinbase CEO",
-      "link": "https://decrypt.co/377875/bitcoin-at-400k-by-2030-still-reasonable-target-coinbase-ceo",
-      "summary": "Brian Armstrong argues the bottom is in, a year into the downturn, with the next halving roughly 18 months out.",
+      "title": "DeepSeek's New Model Nearly Matches GPT-6 Astra on Design—at 1.4% of the Cost",
+      "link": "https://decrypt.co/377917/deepseek-openai-gpt-6-astra-design-benchmark",
+      "summary": "OpenDesign put 13 AI models through the same design tasks. DeepSeek V4.1 Flash landed a point and a half behind GPT-6 Astra and roughly 70 times cheaper.",
       "source": "Decrypt",
       "date": "2026-09-10",
       "date_human": "Sep 10, 2026",
-      "pub_ts": 1789045467,
+      "pub_ts": 1789074963,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/brian-armstrong-coinbase-decrypt-style-2-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/brian-armstrong-coinbase-decrypt-style-2-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/brian-armstrong-coinbase-decrypt-style-2-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/08/china-deepSeek-AI-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/china-deepSeek-AI-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/china-deepSeek-AI-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-10/5124219c23737b64_base.jpg",
-      "image_local": "../assets/news/2026-09-10/5124219c23737b64_base.jpg"
+      "image": "../assets/news/2026-09-10/58fc742bf2fd6a72_base.jpg",
+      "image_local": "../assets/news/2026-09-10/58fc742bf2fd6a72_base.jpg"
     },
     {
-      "title": "US hit on $24 billion crypto black market sends rival money launderers running for exits",
-      "link": "https://cryptoslate.com/us-hit-on-24-billion-crypto-black-market-sends-rival-money-launderers-running-for-exits/",
-      "summary": "DOJ seized Telegram channels and two wallets while OFAC sanctioned Xinbi and the developers behind SafeW and XinbiPay. The post US hit on $24 billion crypto black market sends rival money launderers running for exits appeared first on CryptoSlate.",
+      "title": "Visa's $2.5 billion crypto credit bet puts card settlement financing onchain",
+      "link": "https://cryptoslate.com/visas-2-5-billion-onchain-credit-bet-puts-card-settlement-financing-onchain/",
+      "summary": "Private Visa files size the loans, smart contracts collect repayment, and undisclosed terms determine who takes the first loss. The post Visa’s $2.5 billion crypto credit bet puts card settlement financing onchain appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-10",
       "date_human": "Sep 10, 2026",
-      "pub_ts": 1789048851,
+      "pub_ts": 1789070419,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/xinbi-seizure-crackdown.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/visa-settlement-card-bridge-.jpg"
       ],
-      "image": "../assets/news/2026-09-10/2fb149b7ab392833_base.jpg",
-      "image_local": "../assets/news/2026-09-10/2fb149b7ab392833_base.jpg"
+      "image": "../assets/news/2026-09-10/9b17131a794917fe_base.jpg",
+      "image_local": "../assets/news/2026-09-10/9b17131a794917fe_base.jpg"
     },
     {
-      "title": "Nasdaq, Boerse Stuttgart, others ask EU to remove or increase cap in tokenization trial",
-      "link": "https://www.coindesk.com/business/2026/09/10/nasdaq-boerse-stuttgart-others-ask-eu-to-remove-or-increase-cap-in-tokenization-trial",
-      "summary": "Nasdaq, Boerse Stuttgart, others ask EU to remove or increase cap in tokenization trial",
+      "title": "Europe's top regulator questions Polymarket and Kalshi's EU access, warns of authorization gaps",
+      "link": "https://www.coindesk.com/business/2026/09/10/europe-s-top-regulator-questions-polymarket-and-kalshi-s-eu-access-warns-of-authorization-gaps",
+      "summary": "Europe's top regulator questions Polymarket and Kalshi's EU access, warns of authorization gaps",
       "source": "CoinDesk",
       "date": "2026-09-10",
       "date_human": "Sep 10, 2026",
-      "pub_ts": 1789048614,
+      "pub_ts": 1789059814,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/0787d5f032ca85f77ffa1a385d7fd6d77c3d64a6-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/6d84d85eddfea0214122fb8436cd96c91a7a922e-2880x1620.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-10/28d0468575095e6d_base.jpg",
-      "image_local": "../assets/news/2026-09-10/28d0468575095e6d_base.jpg"
+      "image": "../assets/news/2026-09-10/7ebd15dca5ae5688_base.jpg",
+      "image_local": "../assets/news/2026-09-10/7ebd15dca5ae5688_base.jpg"
     },
     {
-      "title": "Coinbase, Moov to provide stablecoin infrastructure for US community banks",
-      "link": "https://cointelegraph.com/news/coinbase-moov-stablecoin-infrastructure-banks",
-      "summary": "The partnership will provide stablecoin acceptance, settlement and real-time funding capabilities to over 1,000 community banks and credit unions.",
+      "title": "UK House of Lords backs mandatory digital asset strategy over Labour position",
+      "link": "https://cointelegraph.com/news/uk-house-of-lords-backs-mandatory-digital-asset-strategy-in-194138-vote",
+      "summary": "The amendment would require the UK Treasury to develop a strategy covering cryptoassets, stablecoins, tokenized securities and digital financial infrastructure.",
       "source": "Cointelegraph",
       "date": "2026-09-10",
       "date_human": "Sep 10, 2026",
-      "pub_ts": 1789047323,
+      "pub_ts": 1789062852,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M25QS3J7E4QKZ8FBTX1J64KM/hi-listing-frenzy-coinbase-has-added-nearly-100-assets-for-trading-in-2021-3.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M265GXQKJCP1QSNW42GTAMVF/hi-uk-and-crypto-new.png"
       ],
-      "image": "../assets/news/2026-09-10/e977470502adcff6_base.jpg",
-      "image_local": "../assets/news/2026-09-10/e977470502adcff6_base.jpg"
+      "image": "../assets/news/2026-09-10/aed392cb8eb3fe6d_base.jpg",
+      "image_local": "../assets/news/2026-09-10/aed392cb8eb3fe6d_base.jpg"
     },
     {
-      "title": "Morning Minute: Hunter Biden's LAPTOP Crashes",
-      "link": "https://decrypt.co/377867/morning-minute-hunter-bidens-laptop-crashes",
-      "summary": "The meme coin plunged on its debut, as recent alt leaders and many onchain darlings slipped in a nasty day for crypto.",
+      "title": "AI Agents Just Slashed the Cost of a Quantum Attack on Bitcoin",
+      "link": "https://decrypt.co/377925/ai-agents-slash-cost-quantum-attack-bitcoin",
+      "summary": "The ECDSA.Fail challenge cut a resource benchmark for one component of a potential quantum attack by 86%.",
       "source": "Decrypt",
       "date": "2026-09-10",
       "date_human": "Sep 10, 2026",
-      "pub_ts": 1789042248,
+      "pub_ts": 1789072490,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/09/hunter-biden-decrypt-style-02-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/hunter-biden-decrypt-style-02-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/hunter-biden-decrypt-style-02-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-10/199b7d00a41611a1_base.jpg",
-      "image_local": "../assets/news/2026-09-10/199b7d00a41611a1_base.jpg"
+      "image": "../assets/news/2026-09-10/b9e4c80ed4c0a1f5_base.jpg",
+      "image_local": "../assets/news/2026-09-10/b9e4c80ed4c0a1f5_base.jpg"
     },
     {
-      "title": "SEC gives Bitcoin-heavy trusts a new 15% window to venture beyond existing listing rules",
-      "link": "https://cryptoslate.com/sec-gives-bitcoin-heavy-trusts-new-15-percent-window-to-venture-beyond-existing-listing-rules/",
-      "summary": "Qualifying trusts can use a faster generic route while derivatives measured at gross notional can quickly exhaust the flexible sleeve. The post SEC gives Bitcoin-heavy trusts a new 15% window to venture beyond existing listing rules appeared first on CryptoSlate.",
+      "title": "Wall Street's altcoin ETF rotation is not producing an altseason, and the old playbook may be breaking",
+      "link": "https://cryptoslate.com/wall-streets-altcoin-etf-rotation-is-not-producing-an-altseason-and-the-old-playbook-may-be-breaking/",
+      "summary": "Regulated funds can concentrate demand in Ethereum and Solana while broad altcoin leadership remains absent. The post Wall Street’s altcoin ETF rotation is not producing an altseason, and the old playbook may be breaking appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-10",
       "date_human": "Sep 10, 2026",
-      "pub_ts": 1789044637,
+      "pub_ts": 1789066811,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/nasdaq-texas-bitcoin-sleeve.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/etf-claw-crypto-rotation.jpg"
       ],
-      "image": "../assets/news/2026-09-10/ac9a22cc9819c0c4_base.jpg",
-      "image_local": "../assets/news/2026-09-10/ac9a22cc9819c0c4_base.jpg"
+      "image": "../assets/news/2026-09-10/e48a13cf62e314cc_base.jpg",
+      "image_local": "../assets/news/2026-09-10/e48a13cf62e314cc_base.jpg"
     },
     {
-      "title": "Threatened with arrest online? Recognizing a law enforcement impersonation scam",
-      "link": "https://www.coindesk.com/opinion/2026/09/10/threatened-with-arrest-online-recognizing-a-law-enforcement-impersonation-scam",
-      "summary": "Threatened with arrest online? Recognizing a law enforcement impersonation scam",
+      "title": "Polymarket names former Amazon finance chief Warren Jenson as its first CFO",
+      "link": "https://www.coindesk.com/markets/2026/09/10/polymarket-names-former-amazon-finance-chief-warren-jenson-as-its-first-cfo",
+      "summary": "Polymarket names former Amazon finance chief Warren Jenson as its first CFO",
       "source": "CoinDesk",
       "date": "2026-09-10",
       "date_human": "Sep 10, 2026",
-      "pub_ts": 1789045200,
+      "pub_ts": 1789056603,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/7772f0f3498a9b928f18a3848965016192b63387-7008x4672.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/3b1739df7db3f7a1068921484a035a297ca8de23-1600x1067.webp?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-10/8e56abed2f36d888_base.jpg",
-      "image_local": "../assets/news/2026-09-10/8e56abed2f36d888_base.jpg"
+      "image": "../assets/news/2026-09-10/3c0153738fa7d9d3_base.jpg",
+      "image_local": "../assets/news/2026-09-10/3c0153738fa7d9d3_base.jpg"
     }
   ]
 }

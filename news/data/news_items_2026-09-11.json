@@ -1,0 +1,193 @@
+{
+  "day_iso": "2026-09-11",
+  "generated_at_utc": "2026-09-11 04:05:29 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Bitcoin mining supplies 90% of HIVE's $1 million daily revenue despite ongoing AI expansion",
+      "link": "https://cryptoslate.com/bitcoin-mining-supplies-90-of-hives-1-million-daily-revenue-despite-ongoing-ai-expansion/",
+      "summary": "Preliminary figures for Aug. 21 through Sept. 10 put GPU-cloud revenue at about $100,000 a day as Swedish reuse remains under evaluation. The post Bitcoin mining supplies 90% of HIVE’s $1 million daily revenue despite ongoing AI expansion appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-11",
+      "date_human": "Sep 11, 2026",
+      "pub_ts": 1789098627,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/hive-bitcoin-ai-engine.jpg"
+      ],
+      "image": "../assets/news/2026-09-11/7fba2c9fd6d50418_base.jpg",
+      "image_local": "../assets/news/2026-09-11/7fba2c9fd6d50418_base.jpg"
+    },
+    {
+      "title": "Metaplanet equity backlash, SE Asia crypto funding doubles: Asia Express",
+      "link": "https://cointelegraph.com/magazine/metaplanet-equity-backlash-se-asia-crypto-funding-doubles-asia-express",
+      "summary": "Shareholders of Bitcoin treasury company Metaplanet are seething over equity allocations for insiders, while new figures cement Singapore’s role as the top Asian crypto hub.",
+      "source": "Cointelegraph",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789082486,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M26Q2WGDD8GDA5QMCWQF3GB3/magazineasia-expresssnow.jpg"
+      ],
+      "image": "../assets/news/2026-09-11/b80e897709ef0617_base.jpg",
+      "image_local": "../assets/news/2026-09-11/b80e897709ef0617_base.jpg"
+    },
+    {
+      "title": "Senate Republicans Release Revised Clarity Act Ahead of September 15 Vote",
+      "link": "https://decrypt.co/377928/senate-republicans-revised-clarity-act-draft",
+      "summary": "The draft adds registration requirements for controlled trading protocols and leaves its ethics provisions largely unchanged.",
+      "source": "Decrypt",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789075128,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/cynthia-lummis-decrypt-style-scaled-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/cynthia-lummis-decrypt-style-scaled-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/cynthia-lummis-decrypt-style-scaled-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-11/cec228c4dd2f8bd1_base.jpg",
+      "image_local": "../assets/news/2026-09-11/cec228c4dd2f8bd1_base.jpg"
+    },
+    {
+      "title": "New Clarity Act text tweaks DeFi, credit union provisions, but road ahead for bill remains murky",
+      "link": "https://www.coindesk.com/policy/2026/09/10/new-clarity-act-text-tweaks-defi-credit-union-provisions-but-road-ahead-for-bill-remains-murky",
+      "summary": "New Clarity Act text tweaks DeFi, credit union provisions, but road ahead for bill remains murky",
+      "source": "CoinDesk",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789071717,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/27f181c6ee0ec7f329ad40b57f8403e3338d7346-4928x2772.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-11/2fc79a0b03c63900_base.jpg",
+      "image_local": "../assets/news/2026-09-11/2fc79a0b03c63900_base.jpg"
+    },
+    {
+      "title": "Bitcoin tests critical $76,000 support cluster during macro energy shock",
+      "link": "https://cryptoslate.com/bitcoin-tests-critical-76000-support-cluster-during-macro-energy-shock/",
+      "summary": "Bitcoin fell below $77,000 on Sept. 10 as oil rose above $100, and a global bond selloff pushed traders toward another Fed hike. BTC reached an intraday low of $76,676.07, Nasdaq 100 futures fell 0.7%, and the 10-year Treasury yield climbed to 4.93% while the 30-year touched 5.35%, its highest level in 19 years. The […] The post Bitcoin tests critical $76,000 support cluster during macro energy shock appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-11",
+      "date_human": "Sep 11, 2026",
+      "pub_ts": 1789094434,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-liquidation-collapse.jpg"
+      ],
+      "image": "../assets/news/2026-09-11/58f876ca38b754dc_base.jpg",
+      "image_local": "../assets/news/2026-09-11/58f876ca38b754dc_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789075800,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-09-11/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-11/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "DeepSeek's New Model Nearly Matches GPT-6 Astra on Design—at 1.4% of the Cost",
+      "link": "https://decrypt.co/377917/deepseek-openai-gpt-6-astra-design-benchmark",
+      "summary": "OpenDesign put 13 AI models through the same design tasks. DeepSeek V4.1 Flash landed a point and a half behind GPT-6 Astra and roughly 70 times cheaper.",
+      "source": "Decrypt",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789074963,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/08/china-deepSeek-AI-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/china-deepSeek-AI-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/08/china-deepSeek-AI-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-11/58fc742bf2fd6a72_base.jpg",
+      "image_local": "../assets/news/2026-09-11/58fc742bf2fd6a72_base.jpg"
+    },
+    {
+      "title": "Why a new SEC plan could ease a legal headache for tokenized securities",
+      "link": "https://www.coindesk.com/business/2026/09/10/why-a-new-sec-plan-could-end-the-legal-headaches-of-holding-tokenized-securities",
+      "summary": "Why a new SEC plan could ease a legal headache for tokenized securities",
+      "source": "CoinDesk",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789066890,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/333db2ac6429c13170ebdacdfd4cae413b017a08-4922x2769.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-11/70c2409b96cee5b8_base.jpg",
+      "image_local": "../assets/news/2026-09-11/70c2409b96cee5b8_base.jpg"
+    },
+    {
+      "title": "Strategy erased nearly $8 billion of net debt in 11 months and put S&P's junk rating on the clock",
+      "link": "https://cryptoslate.com/strategy-erased-nearly-8-billion-of-net-debt-in-11-months-and-put-sps-junk-rating-on-the-clock/",
+      "summary": "Strategy, the largest Bitcoin treasury firm, is making a case for an escape from its B- junk credit rating after building billions of dollars in liquidity and reducing debt. On Sept. 10, Strategy’s head of investor relations, Chaitanya Jain, said the Michael Saylor-led company has strengthened its balance sheet in the three areas S&P Global Ratings […] The post Strategy erased nearly $8 billion of net debt in 11 months and put S&P’s junk rating on the clock appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-11",
+      "date_human": "Sep 11, 2026",
+      "pub_ts": 1789089625,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/saylor-bitcoin-credit-rating.jpg"
+      ],
+      "image": "../assets/news/2026-09-11/b8df06901fdbfc2c_base.jpg",
+      "image_local": "../assets/news/2026-09-11/b8df06901fdbfc2c_base.jpg"
+    },
+    {
+      "title": "ESMA warns growing crypto ties could amplify risks to traditional finance",
+      "link": "https://cointelegraph.com/news/esma-warns-growing-crypto-ties-could-amplify-risks-to-traditional-finance",
+      "summary": "The EU securities regulator flagged tokenized equities, DeFi exploits and prediction markets as areas where growing crypto ties could pose risks to the broader financial system.",
+      "source": "Cointelegraph",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789071029,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M26CZHVMKBYHAAV7EA21J68E/hi-what-is-mica-markets-in-crypto-assets-regulation-esma.png"
+      ],
+      "image": "../assets/news/2026-09-11/b74a37cb39327749_base.jpg",
+      "image_local": "../assets/news/2026-09-11/b74a37cb39327749_base.jpg"
+    },
+    {
+      "title": "AI Agents Just Slashed the Cost of a Quantum Attack on Bitcoin",
+      "link": "https://decrypt.co/377925/ai-agents-slash-cost-quantum-attack-bitcoin",
+      "summary": "The ECDSA.Fail challenge cut a resource benchmark for one component of a potential quantum attack by 86%.",
+      "source": "Decrypt",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789072490,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-11/b9e4c80ed4c0a1f5_base.jpg",
+      "image_local": "../assets/news/2026-09-11/b9e4c80ed4c0a1f5_base.jpg"
+    },
+    {
+      "title": "Europe's top regulator questions Polymarket and Kalshi's EU access, warns of authorization gaps",
+      "link": "https://www.coindesk.com/business/2026/09/10/europe-s-top-regulator-questions-polymarket-and-kalshi-s-eu-access-warns-of-authorization-gaps",
+      "summary": "Europe's top regulator questions Polymarket and Kalshi's EU access, warns of authorization gaps",
+      "source": "CoinDesk",
+      "date": "2026-09-10",
+      "date_human": "Sep 10, 2026",
+      "pub_ts": 1789059814,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/6d84d85eddfea0214122fb8436cd96c91a7a922e-2880x1620.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-11/7ebd15dca5ae5688_base.jpg",
+      "image_local": "../assets/news/2026-09-11/7ebd15dca5ae5688_base.jpg"
+    }
+  ]
+}
