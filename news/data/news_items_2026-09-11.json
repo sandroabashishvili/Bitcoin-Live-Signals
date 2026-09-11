@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-11",
-  "generated_at_utc": "2026-09-11 04:05:29 UTC",
+  "generated_at_utc": "2026-09-11 10:05:29 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,32 +16,90 @@
   "count": 12,
   "items": [
     {
-      "title": "Bitcoin mining supplies 90% of HIVE's $1 million daily revenue despite ongoing AI expansion",
-      "link": "https://cryptoslate.com/bitcoin-mining-supplies-90-of-hives-1-million-daily-revenue-despite-ongoing-ai-expansion/",
-      "summary": "Preliminary figures for Aug. 21 through Sept. 10 put GPU-cloud revenue at about $100,000 a day as Swedish reuse remains under evaluation. The post Bitcoin mining supplies 90% of HIVE’s $1 million daily revenue despite ongoing AI expansion appeared first on CryptoSlate.",
+      "title": "Anthropic says Claude used for cyberattacks and surveillance",
+      "link": "https://cointelegraph.com/news/claude-ai-cyberattacks-surveillance-weapons-anthropic",
+      "summary": "A Russian-speaking operator targeted more than 20 organizations, while a Mali consultant used Claude to build a mass-surveillance platform.",
+      "source": "Cointelegraph",
+      "date": "2026-09-11",
+      "date_human": "Sep 11, 2026",
+      "pub_ts": 1789120051,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M27SRX88XKNDWW1G5YXF19F2/hi-amm-are-dead-1.jpg"
+      ],
+      "image": "../assets/news/2026-09-11/580d83c39a19c0b7_base.jpg",
+      "image_local": "../assets/news/2026-09-11/580d83c39a19c0b7_base.jpg"
+    },
+    {
+      "title": "CLARITY Act's biggest Senate vote could happen before the bill is actually finished",
+      "link": "https://cryptoslate.com/clarity-acts-biggest-senate-vote-could-happen-before-the-bill-is-actually-finished/",
+      "summary": "The Sept. 15 cloture vote would open negotiations while ethics, stablecoin rewards and Tribal demands remain unresolved. The post CLARITY Act’s biggest Senate vote could happen before the bill is actually finished appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-11",
       "date_human": "Sep 11, 2026",
-      "pub_ts": 1789098627,
+      "pub_ts": 1789118453,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/hive-bitcoin-ai-engine.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/clarity-senate-debate-door.jpg"
       ],
-      "image": "../assets/news/2026-09-11/7fba2c9fd6d50418_base.jpg",
-      "image_local": "../assets/news/2026-09-11/7fba2c9fd6d50418_base.jpg"
+      "image": "../assets/news/2026-09-11/34edf4fe30536e28_base.jpg",
+      "image_local": "../assets/news/2026-09-11/34edf4fe30536e28_base.jpg"
     },
     {
-      "title": "Metaplanet equity backlash, SE Asia crypto funding doubles: Asia Express",
-      "link": "https://cointelegraph.com/magazine/metaplanet-equity-backlash-se-asia-crypto-funding-doubles-asia-express",
-      "summary": "Shareholders of Bitcoin treasury company Metaplanet are seething over equity allocations for insiders, while new figures cement Singapore’s role as the top Asian crypto hub.",
-      "source": "Cointelegraph",
-      "date": "2026-09-10",
-      "date_human": "Sep 10, 2026",
-      "pub_ts": 1789082486,
+      "title": "Sam Bankman-Fried Asks Supreme Court to Overturn FTX Fraud Conviction",
+      "link": "https://decrypt.co/377931/sam-bankman-fried-asks-supreme-court-to-overturn-ftx-fraud-conviction",
+      "summary": "SBF’s lawyers say he was barred from arguing customers lost nothing, and call the $11 billion forfeiture an \"crushing fine.\"",
+      "source": "Decrypt",
+      "date": "2026-09-11",
+      "date_human": "Sep 11, 2026",
+      "pub_ts": 1789117451,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M26Q2WGDD8GDA5QMCWQF3GB3/magazineasia-expresssnow.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/04/sam-bankman-fried-ftx-sbf-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/sam-bankman-fried-ftx-sbf-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/sam-bankman-fried-ftx-sbf-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-11/b80e897709ef0617_base.jpg",
-      "image_local": "../assets/news/2026-09-11/b80e897709ef0617_base.jpg"
+      "image": "../assets/news/2026-09-11/aa92e8c044f3686d_base.jpg",
+      "image_local": "../assets/news/2026-09-11/aa92e8c044f3686d_base.jpg"
+    },
+    {
+      "title": "Kalshi wants 24/7 Tesla and Nvidia perps as Wall Street fights over who regulates them",
+      "link": "https://www.coindesk.com/markets/2026/09/11/kalshi-wants-24-7-tesla-and-nvidia-perps-as-wall-street-fights-over-who-regulates-them",
+      "summary": "Kalshi wants 24/7 Tesla and Nvidia perps as Wall Street fights over who regulates them",
+      "source": "CoinDesk",
+      "date": "2026-09-11",
+      "date_human": "Sep 11, 2026",
+      "pub_ts": 1789107451,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/4e50c9195dba15e6ee82b37a243ee05c82ea6b97-6960x4640.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-11/7e8d65379b699649_base.jpg",
+      "image_local": "../assets/news/2026-09-11/7e8d65379b699649_base.jpg"
+    },
+    {
+      "title": "Blockstream rejects ransom as Liquid hackers hold nearly 600 BTC",
+      "link": "https://cointelegraph.com/news/blockstream-rejects-ransom-liquid-hackers-return-bitcoin",
+      "summary": "Blockstream said it would work with law enforcement, exchanges and forensic specialists to recover the Bitcoin if the hackers do not return it.",
+      "source": "Cointelegraph",
+      "date": "2026-09-11",
+      "date_human": "Sep 11, 2026",
+      "pub_ts": 1789116199,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M27QFNQHXK4AQ23CPKY39BZF/hi-can-bitcoin-be-hacked-3.jpg"
+      ],
+      "image": "../assets/news/2026-09-11/e71538e676408bde_base.jpg",
+      "image_local": "../assets/news/2026-09-11/e71538e676408bde_base.jpg"
+    },
+    {
+      "title": "Attackers exploit fake STM32 vulnerability alert to target Trezor and BitBox holders",
+      "link": "https://cryptoslate.com/attackers-exploit-fake-stm32-vulnerability-alert-to-target-trezor-and-bitbox-holders/",
+      "summary": "Trezor confirms an email-provider breach and says its wallets remain safe, while BitBox investigates a likely newsletter-provider compromise. The post Attackers exploit fake STM32 vulnerability alert to target Trezor and BitBox holders appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-11",
+      "date_human": "Sep 11, 2026",
+      "pub_ts": 1789114254,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/trezor-bitbox-phishing-alert.jpg"
+      ],
+      "image": "../assets/news/2026-09-11/31708ad557c0b47c_base.jpg",
+      "image_local": "../assets/news/2026-09-11/31708ad557c0b47c_base.jpg"
     },
     {
       "title": "Senate Republicans Release Revised Clarity Act Ahead of September 15 Vote",
@@ -60,46 +118,46 @@
       "image_local": "../assets/news/2026-09-11/cec228c4dd2f8bd1_base.jpg"
     },
     {
-      "title": "New Clarity Act text tweaks DeFi, credit union provisions, but road ahead for bill remains murky",
-      "link": "https://www.coindesk.com/policy/2026/09/10/new-clarity-act-text-tweaks-defi-credit-union-provisions-but-road-ahead-for-bill-remains-murky",
-      "summary": "New Clarity Act text tweaks DeFi, credit union provisions, but road ahead for bill remains murky",
+      "title": "India starts tokenizing $620 billion corporate bond market with digital rupee settlement",
+      "link": "https://www.coindesk.com/markets/2026/09/11/india-starts-tokenizing-usd620-billion-corporate-bond-market-with-digital-rupee-settlement",
+      "summary": "India starts tokenizing $620 billion corporate bond market with digital rupee settlement",
       "source": "CoinDesk",
-      "date": "2026-09-10",
-      "date_human": "Sep 10, 2026",
-      "pub_ts": 1789071717,
+      "date": "2026-09-11",
+      "date_human": "Sep 11, 2026",
+      "pub_ts": 1789103595,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/27f181c6ee0ec7f329ad40b57f8403e3338d7346-4928x2772.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/a3eceb8aeec24d03372ed17e149a9e6c5b546972-2304x1296.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-11/2fc79a0b03c63900_base.jpg",
-      "image_local": "../assets/news/2026-09-11/2fc79a0b03c63900_base.jpg"
+      "image": "../assets/news/2026-09-11/ee51cbdd48c0fe66_base.jpg",
+      "image_local": "../assets/news/2026-09-11/ee51cbdd48c0fe66_base.jpg"
     },
     {
-      "title": "Bitcoin tests critical $76,000 support cluster during macro energy shock",
-      "link": "https://cryptoslate.com/bitcoin-tests-critical-76000-support-cluster-during-macro-energy-shock/",
-      "summary": "Bitcoin fell below $77,000 on Sept. 10 as oil rose above $100, and a global bond selloff pushed traders toward another Fed hike. BTC reached an intraday low of $76,676.07, Nasdaq 100 futures fell 0.7%, and the 10-year Treasury yield climbed to 4.93% while the 30-year touched 5.35%, its highest level in 19 years. The […] The post Bitcoin tests critical $76,000 support cluster during macro energy shock appeared first on CryptoSlate.",
+      "title": "Bitwise to put down Dogecoin ETF less than a year after launch",
+      "link": "https://cointelegraph.com/news/bitwise-put-down-dogecoin-etf-year-launch",
+      "summary": "BWOW held about $688,000 in net assets as of Sept. 9. Trading is expected to end Oct. 14, with cash payouts to follow around Oct. 22.",
+      "source": "Cointelegraph",
+      "date": "2026-09-11",
+      "date_human": "Sep 11, 2026",
+      "pub_ts": 1789112833,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M27PG6K246A1E33FQTARMGXQ/hi-how-to-buy-and-sell-dogecoin-etf.png"
+      ],
+      "image": "../assets/news/2026-09-11/9547cecad45a09e1_base.jpg",
+      "image_local": "../assets/news/2026-09-11/9547cecad45a09e1_base.jpg"
+    },
+    {
+      "title": "Rising Aave borrow rates threaten to flip Ethena's USDe yield loops into negative carry",
+      "link": "https://cryptoslate.com/rising-aave-borrow-rates-threaten-to-flip-ethenas-usde-yield-loops-into-negative-carry/",
+      "summary": "The proposed curve change adds 13 to 89 basis points across a $323.8 million debt snapshot. The post Rising Aave borrow rates threaten to flip Ethena’s USDe yield loops into negative carry appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-11",
       "date_human": "Sep 11, 2026",
-      "pub_ts": 1789094434,
+      "pub_ts": 1789108827,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-liquidation-collapse.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/aave-usde-rate-valve.jpg"
       ],
-      "image": "../assets/news/2026-09-11/58f876ca38b754dc_base.jpg",
-      "image_local": "../assets/news/2026-09-11/58f876ca38b754dc_base.jpg"
-    },
-    {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-09-10",
-      "date_human": "Sep 10, 2026",
-      "pub_ts": 1789075800,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-09-11/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-09-11/57bd1a60f4d67ba1_base.jpg"
+      "image": "../assets/news/2026-09-11/dfa33cc7aca0152c_base.jpg",
+      "image_local": "../assets/news/2026-09-11/dfa33cc7aca0152c_base.jpg"
     },
     {
       "title": "DeepSeek's New Model Nearly Matches GPT-6 Astra on Design—at 1.4% of the Cost",
@@ -118,76 +176,18 @@
       "image_local": "../assets/news/2026-09-11/58fc742bf2fd6a72_base.jpg"
     },
     {
-      "title": "Why a new SEC plan could ease a legal headache for tokenized securities",
-      "link": "https://www.coindesk.com/business/2026/09/10/why-a-new-sec-plan-could-end-the-legal-headaches-of-holding-tokenized-securities",
-      "summary": "Why a new SEC plan could ease a legal headache for tokenized securities",
+      "title": "Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike",
+      "link": "https://www.coindesk.com/markets/2026/09/11/bitcoin-below-usd77-000-zcash-leads-losses-as-traders-bet-on-a-fed-rate-hike",
+      "summary": "Bitcoin below $77,000, Zcash leads losses as traders bet on a Fed rate hike",
       "source": "CoinDesk",
-      "date": "2026-09-10",
-      "date_human": "Sep 10, 2026",
-      "pub_ts": 1789066890,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/333db2ac6429c13170ebdacdfd4cae413b017a08-4922x2769.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-11/70c2409b96cee5b8_base.jpg",
-      "image_local": "../assets/news/2026-09-11/70c2409b96cee5b8_base.jpg"
-    },
-    {
-      "title": "Strategy erased nearly $8 billion of net debt in 11 months and put S&P's junk rating on the clock",
-      "link": "https://cryptoslate.com/strategy-erased-nearly-8-billion-of-net-debt-in-11-months-and-put-sps-junk-rating-on-the-clock/",
-      "summary": "Strategy, the largest Bitcoin treasury firm, is making a case for an escape from its B- junk credit rating after building billions of dollars in liquidity and reducing debt. On Sept. 10, Strategy’s head of investor relations, Chaitanya Jain, said the Michael Saylor-led company has strengthened its balance sheet in the three areas S&P Global Ratings […] The post Strategy erased nearly $8 billion of net debt in 11 months and put S&P’s junk rating on the clock appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
       "date": "2026-09-11",
       "date_human": "Sep 11, 2026",
-      "pub_ts": 1789089625,
+      "pub_ts": 1789101975,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/saylor-bitcoin-credit-rating.jpg"
+        "https://cdn.sanity.io/images/s3y3vcno/production/a53e2f62ad9d1a24b5d39adee59d91e931e9aea6-1506x842.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-11/b8df06901fdbfc2c_base.jpg",
-      "image_local": "../assets/news/2026-09-11/b8df06901fdbfc2c_base.jpg"
-    },
-    {
-      "title": "ESMA warns growing crypto ties could amplify risks to traditional finance",
-      "link": "https://cointelegraph.com/news/esma-warns-growing-crypto-ties-could-amplify-risks-to-traditional-finance",
-      "summary": "The EU securities regulator flagged tokenized equities, DeFi exploits and prediction markets as areas where growing crypto ties could pose risks to the broader financial system.",
-      "source": "Cointelegraph",
-      "date": "2026-09-10",
-      "date_human": "Sep 10, 2026",
-      "pub_ts": 1789071029,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M26CZHVMKBYHAAV7EA21J68E/hi-what-is-mica-markets-in-crypto-assets-regulation-esma.png"
-      ],
-      "image": "../assets/news/2026-09-11/b74a37cb39327749_base.jpg",
-      "image_local": "../assets/news/2026-09-11/b74a37cb39327749_base.jpg"
-    },
-    {
-      "title": "AI Agents Just Slashed the Cost of a Quantum Attack on Bitcoin",
-      "link": "https://decrypt.co/377925/ai-agents-slash-cost-quantum-attack-bitcoin",
-      "summary": "The ECDSA.Fail challenge cut a resource benchmark for one component of a potential quantum attack by 86%.",
-      "source": "Decrypt",
-      "date": "2026-09-10",
-      "date_human": "Sep 10, 2026",
-      "pub_ts": 1789072490,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Bitcoin-decrypt-style-19-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-11/b9e4c80ed4c0a1f5_base.jpg",
-      "image_local": "../assets/news/2026-09-11/b9e4c80ed4c0a1f5_base.jpg"
-    },
-    {
-      "title": "Europe's top regulator questions Polymarket and Kalshi's EU access, warns of authorization gaps",
-      "link": "https://www.coindesk.com/business/2026/09/10/europe-s-top-regulator-questions-polymarket-and-kalshi-s-eu-access-warns-of-authorization-gaps",
-      "summary": "Europe's top regulator questions Polymarket and Kalshi's EU access, warns of authorization gaps",
-      "source": "CoinDesk",
-      "date": "2026-09-10",
-      "date_human": "Sep 10, 2026",
-      "pub_ts": 1789059814,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/6d84d85eddfea0214122fb8436cd96c91a7a922e-2880x1620.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-11/7ebd15dca5ae5688_base.jpg",
-      "image_local": "../assets/news/2026-09-11/7ebd15dca5ae5688_base.jpg"
+      "image": "../assets/news/2026-09-11/01b376579f6559b7_base.jpg",
+      "image_local": "../assets/news/2026-09-11/01b376579f6559b7_base.jpg"
     }
   ]
 }
