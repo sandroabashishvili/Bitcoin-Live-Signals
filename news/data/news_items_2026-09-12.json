@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-12",
-  "generated_at_utc": "2026-09-12 04:05:27 UTC",
+  "generated_at_utc": "2026-09-12 10:05:27 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,18 +16,18 @@
   "count": 12,
   "items": [
     {
-      "title": "Why Nasdaq surveillance cannot settle the fight over 24/7 tokenized markets",
-      "link": "https://cryptoslate.com/why-nasdaq-surveillance-cannot-settle-the-fight-over-24-7-tokenized-markets/",
-      "summary": "Payward plans monitoring across five market types, but legal classification still controls U.S. access and investor protections. The post Why Nasdaq surveillance cannot settle the fight over 24/7 tokenized markets appeared first on CryptoSlate.",
+      "title": "Bitwise is closing the lowest-fee Dogecoin ETF after rivals captured nearly all the capital",
+      "link": "https://cryptoslate.com/bitwise-is-closing-the-lowest-fee-dogecoin-etf-after-rivals-captured-nearly-all-the-capital/",
+      "summary": "BWOW held about $687,730 while the three spot products tracked by SoSoValue held $11.83 million as of Sept. 10. The post Bitwise is closing the lowest-fee Dogecoin ETF after rivals captured nearly all the capital appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-12",
       "date_human": "Sep 12, 2026",
-      "pub_ts": 1789177556,
+      "pub_ts": 1789203619,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/nasdaq-token-surveillance-gate.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitwise-doge-abandoned.jpg"
       ],
-      "image": "../assets/news/2026-09-12/84d77bd253e64292_base.jpg",
-      "image_local": "../assets/news/2026-09-12/84d77bd253e64292_base.jpg"
+      "image": "../assets/news/2026-09-12/5db57b7e9e78dadc_base.jpg",
+      "image_local": "../assets/news/2026-09-12/5db57b7e9e78dadc_base.jpg"
     },
     {
       "title": "Robinhood CEO says companies shouldn't get veto over stock tokens in AMC feud",
@@ -74,18 +74,18 @@
       "image_local": "../assets/news/2026-09-12/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "L-BTC resumes trading with reserves covering just 85% of supply",
-      "link": "https://cryptoslate.com/l-btc-resumes-trading-with-reserves-covering-just-85-of-supply/",
-      "summary": "A Sept. 10 onchain snapshot put backing at 85.15%, while federation peg-outs remained suspended and live market depth stayed unmeasured. The post L-BTC resumes trading with reserves covering just 85% of supply appeared first on CryptoSlate.",
+      "title": "Blockstream bets 600 Bitcoin by rejecting Liquid hacker's $50 million bounty demand",
+      "link": "https://cryptoslate.com/blockstream-bets-600-bitcoin-by-rejecting-liquid-hackers-50-million-bounty-demand/",
+      "summary": "Blockstream is refusing to pay the Liquid attacker nearly 600 Bitcoin (roughly $50 million), escalating a dispute over how the crypto industry should reward partial restitution. The standoff follows an unusual recovery from the Sept. 6 exploit, when a vulnerability allowed the attacker to create about 4,000 unbacked L-BTC and withdraw roughly 3,996 real BTC through […] The post Blockstream bets 600 Bitcoin by rejecting Liquid hacker’s $50 million bounty demand appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-12",
       "date_human": "Sep 12, 2026",
-      "pub_ts": 1789173041,
+      "pub_ts": 1789197637,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/sideswap-lbtc-crossroads.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/blockstream-bitcoin-bounty-gap.jpg"
       ],
-      "image": "../assets/news/2026-09-12/d432eff06c1216b9_base.jpg",
-      "image_local": "../assets/news/2026-09-12/d432eff06c1216b9_base.jpg"
+      "image": "../assets/news/2026-09-12/35596ba30a366671_base.jpg",
+      "image_local": "../assets/news/2026-09-12/35596ba30a366671_base.jpg"
     },
     {
       "title": "The legal drama of imprisoned Sam Bankman-Fried is waiting on its last act",
@@ -132,18 +132,18 @@
       "image_local": "../assets/news/2026-09-12/344a394c1d931c9d_base.jpg"
     },
     {
-      "title": "US Bank moves USBDC across borders on Stellar, but only inside its own walls",
-      "link": "https://cryptoslate.com/us-bank-moves-usbdc-across-borders-on-stellar-but-only-inside-its-own-walls/",
-      "summary": "The live payment linked the bank's North American and European entities while testing minting, redemption and issuer controls. The post US Bank moves USBDC across borders on Stellar, but only inside its own walls appeared first on CryptoSlate.",
+      "title": "Metaplanet CEO surrenders $220 million in stock rights to rebuild trust with investors",
+      "link": "https://cryptoslate.com/metaplanet-ceo-surrenders-220-million-in-stock-rights-to-rebuild-trust-with-investors/",
+      "summary": "Metaplanet is cutting executive rewards after concluding that later Bitcoin purchases created less value per share. On Sept. 11, the Tokyo-listed Bitcoin treasury company announced it has reset its Series 10 stock acquisition rights, eliminating more than $220 million in warrant value. This also removes compensation generated by share issuance after September 2025, when its […] The post Metaplanet CEO surrenders $220 million in stock rights to rebuild trust with investors appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-09-11",
-      "date_human": "Sep 11, 2026",
-      "pub_ts": 1789169404,
+      "date": "2026-09-12",
+      "date_human": "Sep 12, 2026",
+      "pub_ts": 1789186206,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/usbdc-bank-control-console.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/metaplanet-executive-rewards-bitcoin.jpg"
       ],
-      "image": "../assets/news/2026-09-12/69139c1725610cb6_base.jpg",
-      "image_local": "../assets/news/2026-09-12/69139c1725610cb6_base.jpg"
+      "image": "../assets/news/2026-09-12/8e05be835d1607f2_base.jpg",
+      "image_local": "../assets/news/2026-09-12/8e05be835d1607f2_base.jpg"
     },
     {
       "title": "With Fed rate hike all but assured, here's how markets might react",
