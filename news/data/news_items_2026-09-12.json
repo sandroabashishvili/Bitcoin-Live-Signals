@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-09-11",
-  "generated_at_utc": "2026-09-11 22:05:27 UTC",
+  "day_iso": "2026-09-12",
+  "generated_at_utc": "2026-09-12 04:05:27 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,6 +16,34 @@
   "count": 12,
   "items": [
     {
+      "title": "Why Nasdaq surveillance cannot settle the fight over 24/7 tokenized markets",
+      "link": "https://cryptoslate.com/why-nasdaq-surveillance-cannot-settle-the-fight-over-24-7-tokenized-markets/",
+      "summary": "Payward plans monitoring across five market types, but legal classification still controls U.S. access and investor protections. The post Why Nasdaq surveillance cannot settle the fight over 24/7 tokenized markets appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-12",
+      "date_human": "Sep 12, 2026",
+      "pub_ts": 1789177556,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/nasdaq-token-surveillance-gate.jpg"
+      ],
+      "image": "../assets/news/2026-09-12/84d77bd253e64292_base.jpg",
+      "image_local": "../assets/news/2026-09-12/84d77bd253e64292_base.jpg"
+    },
+    {
+      "title": "Robinhood CEO says companies shouldn't get veto over stock tokens in AMC feud",
+      "link": "https://www.coindesk.com/markets/2026/09/11/robinhood-ceo-says-companies-shouldn-t-get-veto-over-stock-tokens-in-amc-feud",
+      "summary": "Robinhood CEO says companies shouldn't get veto over stock tokens in AMC feud",
+      "source": "CoinDesk",
+      "date": "2026-09-11",
+      "date_human": "Sep 11, 2026",
+      "pub_ts": 1789170471,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/5a77d3d03bca929880510e1d9a587793372dd83a-6000x3999.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-12/391ee3e43b1d7797_base.jpg",
+      "image_local": "../assets/news/2026-09-12/391ee3e43b1d7797_base.jpg"
+    },
+    {
       "title": "Cyberattacks on Law Firms Nearly Double as Stolen Documents Hit the Dark Web",
       "link": "https://decrypt.co/378094/cyberattacks-law-firms-stolen-documents-dark-web",
       "summary": "Greenberg Traurig said documents were posted to the dark web, while BakerHostetler recorded a near-doubling of law-firm incidents in 2025.",
@@ -28,8 +56,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-11/456482b8d3e6f218_base.jpg",
-      "image_local": "../assets/news/2026-09-11/456482b8d3e6f218_base.jpg"
+      "image": "../assets/news/2026-09-12/456482b8d3e6f218_base.jpg",
+      "image_local": "../assets/news/2026-09-12/456482b8d3e6f218_base.jpg"
     },
     {
       "title": "Here's what happened in crypto today",
@@ -42,22 +70,22 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-09-11/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-09-11/57bd1a60f4d67ba1_base.jpg"
+      "image": "../assets/news/2026-09-12/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-12/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "Coinbase CEO sees Bitcoin at $400,000, but first it has to clear $81,000",
-      "link": "https://cryptoslate.com/coinbase-ceo-sees-bitcoin-at-400000-but-first-it-has-to-clear-81000/",
-      "summary": "The Coinbase CEO’s personal outlook anticipates gains ahead of the next halving, with Bitcoin still well below its previous peak. The post Coinbase CEO sees Bitcoin at $400,000, but first it has to clear $81,000 appeared first on CryptoSlate.",
+      "title": "L-BTC resumes trading with reserves covering just 85% of supply",
+      "link": "https://cryptoslate.com/l-btc-resumes-trading-with-reserves-covering-just-85-of-supply/",
+      "summary": "A Sept. 10 onchain snapshot put backing at 85.15%, while federation peg-outs remained suspended and live market depth stayed unmeasured. The post L-BTC resumes trading with reserves covering just 85% of supply appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-09-11",
-      "date_human": "Sep 11, 2026",
-      "pub_ts": 1789161606,
+      "date": "2026-09-12",
+      "date_human": "Sep 12, 2026",
+      "pub_ts": 1789173041,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-81k-breakout-climb.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/sideswap-lbtc-crossroads.jpg"
       ],
-      "image": "../assets/news/2026-09-11/3add9c2fb1ba24e9_base.jpg",
-      "image_local": "../assets/news/2026-09-11/3add9c2fb1ba24e9_base.jpg"
+      "image": "../assets/news/2026-09-12/d432eff06c1216b9_base.jpg",
+      "image_local": "../assets/news/2026-09-12/d432eff06c1216b9_base.jpg"
     },
     {
       "title": "The legal drama of imprisoned Sam Bankman-Fried is waiting on its last act",
@@ -70,8 +98,8 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/550882cd1c9405cbe0c4bfae04412895bdfcb8a6-1937x1089.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-11/ffc8cfbc334b823f_base.jpg",
-      "image_local": "../assets/news/2026-09-11/ffc8cfbc334b823f_base.jpg"
+      "image": "../assets/news/2026-09-12/ffc8cfbc334b823f_base.jpg",
+      "image_local": "../assets/news/2026-09-12/ffc8cfbc334b823f_base.jpg"
     },
     {
       "title": "Bitcoin Golden Cross Flickers Off as Rate-Hike Bets Firm Up",
@@ -86,8 +114,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/crypto-trading-decrypt-style-02-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-02-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-11/2602a54e13c22cfe_base.jpg",
-      "image_local": "../assets/news/2026-09-11/2602a54e13c22cfe_base.jpg"
+      "image": "../assets/news/2026-09-12/2602a54e13c22cfe_base.jpg",
+      "image_local": "../assets/news/2026-09-12/2602a54e13c22cfe_base.jpg"
     },
     {
       "title": "Bitcoin Suisse to shift up to half of Swiss jobs abroad",
@@ -100,22 +128,22 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M28YVKDSD0D0GM8BAF7TVC45/hi-layoffs-might-be-a-sign-of-the-market-maturing.png"
       ],
-      "image": "../assets/news/2026-09-11/344a394c1d931c9d_base.jpg",
-      "image_local": "../assets/news/2026-09-11/344a394c1d931c9d_base.jpg"
+      "image": "../assets/news/2026-09-12/344a394c1d931c9d_base.jpg",
+      "image_local": "../assets/news/2026-09-12/344a394c1d931c9d_base.jpg"
     },
     {
-      "title": "Philadelphia Fed finds Bitcoin traders follow whale signals faster than Ethereum users",
-      "link": "https://cryptoslate.com/philadelphia-fed-finds-bitcoin-traders-follow-whale-signals-faster-than-ethereum-users/",
-      "summary": "A Philadelphia Fed event study found broad same-direction activity among non-whale BTC wallets, while ETH's clearest response was concentrated among larger sellers. The post Philadelphia Fed finds Bitcoin traders follow whale signals faster than Ethereum users appeared first on CryptoSlate.",
+      "title": "US Bank moves USBDC across borders on Stellar, but only inside its own walls",
+      "link": "https://cryptoslate.com/us-bank-moves-usbdc-across-borders-on-stellar-but-only-inside-its-own-walls/",
+      "summary": "The live payment linked the bank's North American and European entities while testing minting, redemption and issuer controls. The post US Bank moves USBDC across borders on Stellar, but only inside its own walls appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-11",
       "date_human": "Sep 11, 2026",
-      "pub_ts": 1789157409,
+      "pub_ts": 1789169404,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-whale-wallet-wake.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/usbdc-bank-control-console.jpg"
       ],
-      "image": "../assets/news/2026-09-11/2987e43940c58f1f_base.jpg",
-      "image_local": "../assets/news/2026-09-11/2987e43940c58f1f_base.jpg"
+      "image": "../assets/news/2026-09-12/69139c1725610cb6_base.jpg",
+      "image_local": "../assets/news/2026-09-12/69139c1725610cb6_base.jpg"
     },
     {
       "title": "With Fed rate hike all but assured, here's how markets might react",
@@ -128,8 +156,8 @@
       "image_candidates": [
         "https://cdn.sanity.io/images/s3y3vcno/production/8c113b39af04fe5a9700ed1765841f345087018a-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-11/bd4843eb019bad5a_base.jpg",
-      "image_local": "../assets/news/2026-09-11/bd4843eb019bad5a_base.jpg"
+      "image": "../assets/news/2026-09-12/bd4843eb019bad5a_base.jpg",
+      "image_local": "../assets/news/2026-09-12/bd4843eb019bad5a_base.jpg"
     },
     {
       "title": "OpenAI Asks Congress Whether an AI Slowdown Would Be Legal",
@@ -144,8 +172,8 @@
         "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-3-gID_7.png@png",
         "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-sam-altman-3-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-11/aacc9f4772a1620f_base.jpg",
-      "image_local": "../assets/news/2026-09-11/aacc9f4772a1620f_base.jpg"
+      "image": "../assets/news/2026-09-12/aacc9f4772a1620f_base.jpg",
+      "image_local": "../assets/news/2026-09-12/aacc9f4772a1620f_base.jpg"
     },
     {
       "title": "Hyperliquid's biggest risk is regulation, says Ran Neuner",
@@ -158,36 +186,8 @@
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M28T3HE65MV02Y41NGX63EDN/wall-warning-hyperliquid.png"
       ],
-      "image": "../assets/news/2026-09-11/228bff9a10e87210_base.jpg",
-      "image_local": "../assets/news/2026-09-11/228bff9a10e87210_base.jpg"
-    },
-    {
-      "title": "Why Circle is spending $400M to fix the last mile holding stablecoins back from real-world payouts",
-      "link": "https://cryptoslate.com/why-circle-is-spending-400m-to-fix-the-last-mile-holding-stablecoins-back-from-real-world-payouts/",
-      "summary": "The purchase could tighten Circle’s control of regulated payout infrastructure while partner banks retain their own risks and duties. The post Why Circle is spending $400M to fix the last mile holding stablecoins back from real-world payouts appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-11",
-      "date_human": "Sep 11, 2026",
-      "pub_ts": 1789153503,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/tazapay-local-payout-key.jpg"
-      ],
-      "image": "../assets/news/2026-09-11/35e74348ab4642cb_base.jpg",
-      "image_local": "../assets/news/2026-09-11/35e74348ab4642cb_base.jpg"
-    },
-    {
-      "title": "India's richest state is exploring tokenizing its own assets to fund new infrastructure",
-      "link": "https://www.coindesk.com/markets/2026/09/11/india-s-richest-state-is-exploring-tokenizing-its-own-assets-to-fund-new-infrastructure",
-      "summary": "India's richest state is exploring tokenizing its own assets to fund new infrastructure",
-      "source": "CoinDesk",
-      "date": "2026-09-11",
-      "date_human": "Sep 11, 2026",
-      "pub_ts": 1789139828,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/d2d635a94af6650d58a3dbcda666805d2d1930bf-1280x851.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-11/4a13fc2f28084ca4_base.jpg",
-      "image_local": "../assets/news/2026-09-11/4a13fc2f28084ca4_base.jpg"
+      "image": "../assets/news/2026-09-12/228bff9a10e87210_base.jpg",
+      "image_local": "../assets/news/2026-09-12/228bff9a10e87210_base.jpg"
     }
   ]
 }
