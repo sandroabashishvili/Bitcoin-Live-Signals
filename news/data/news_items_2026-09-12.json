@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-12",
-  "generated_at_utc": "2026-09-12 10:05:27 UTC",
+  "generated_at_utc": "2026-09-12 16:05:23 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,48 +16,136 @@
   "count": 12,
   "items": [
     {
-      "title": "Bitwise is closing the lowest-fee Dogecoin ETF after rivals captured nearly all the capital",
-      "link": "https://cryptoslate.com/bitwise-is-closing-the-lowest-fee-dogecoin-etf-after-rivals-captured-nearly-all-the-capital/",
-      "summary": "BWOW held about $687,730 while the three spot products tracked by SoSoValue held $11.83 million as of Sept. 10. The post Bitwise is closing the lowest-fee Dogecoin ETF after rivals captured nearly all the capital appeared first on CryptoSlate.",
+      "title": "GPT-6 Astra Users Say OpenAI's Newest Model Got Dumber. It Happened Before, Too",
+      "link": "https://decrypt.co/378101/gpt-6-astra-openai-model-dumber-nerfed",
+      "summary": "A week after launch, complaints are rolling in from users that GPT-6 Astra has been nerfed. OpenAI's last model went through the same cycle in July.",
+      "source": "Decrypt",
+      "date": "2026-09-12",
+      "date_human": "Sep 12, 2026",
+      "pub_ts": 1789228864,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-12/10a1cb412597c685_base.jpg",
+      "image_local": "../assets/news/2026-09-12/10a1cb412597c685_base.jpg"
+    },
+    {
+      "title": "Farage's Reform UK gets biggest donation ever from crypto billionaire: Reports",
+      "link": "https://cointelegraph.com/news/farages-reform-uk-gets-biggest-donation-ever-from-crypto-billionaire-reports",
+      "summary": "Ben Delo, co-founder of BitMEX, donated almost $50 million to Nigel Farage’s Reform UK party.",
+      "source": "Cointelegraph",
+      "date": "2026-09-12",
+      "date_human": "Sep 12, 2026",
+      "pub_ts": 1789228214,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2B4SZEJGTEYF48AQYSKZ13Q/farage-donation-illustration.png"
+      ],
+      "image": "../assets/news/2026-09-12/767a6751ee7872ef_base.jpg",
+      "image_local": "../assets/news/2026-09-12/767a6751ee7872ef_base.jpg"
+    },
+    {
+      "title": "Revolut tricked into handing hackers the passports and Bitcoin histories of wealthy customers",
+      "link": "https://cryptoslate.com/revolut-tricked-into-handing-hackers-the-passports-and-bitcoin-histories-of-wealthy-customers/",
+      "summary": "Revolut disclosed customers’ passports, verification selfies and Bitcoin transaction histories after treating a fraudulent government request as legitimate. Affected customers were told Friday that the disclosed information could include passport or driver’s license copies, verification selfies, names, dates of birth, occupations, home addresses, phone numbers, IBANs, and account statements. Withdrawal records and complete transaction histories, […] The post Revolut tricked into handing hackers the passports and Bitcoin histories of wealthy customers appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-12",
       "date_human": "Sep 12, 2026",
-      "pub_ts": 1789203619,
+      "pub_ts": 1789227034,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitwise-doge-abandoned.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/revolut-bitcoin-data-breach-1.jpg"
       ],
-      "image": "../assets/news/2026-09-12/5db57b7e9e78dadc_base.jpg",
-      "image_local": "../assets/news/2026-09-12/5db57b7e9e78dadc_base.jpg"
+      "image": "../assets/news/2026-09-12/89a99fb665f95c9b_base.jpg",
+      "image_local": "../assets/news/2026-09-12/89a99fb665f95c9b_base.jpg"
     },
     {
-      "title": "Robinhood CEO says companies shouldn't get veto over stock tokens in AMC feud",
-      "link": "https://www.coindesk.com/markets/2026/09/11/robinhood-ceo-says-companies-shouldn-t-get-veto-over-stock-tokens-in-amc-feud",
-      "summary": "Robinhood CEO says companies shouldn't get veto over stock tokens in AMC feud",
+      "title": "Staked ether should be seen as the benchmark of the decentralized economy",
+      "link": "https://www.coindesk.com/opinion/2026/09/12/staked-ether-should-be-seen-as-the-benchmark-of-the-decentralized-economy",
+      "summary": "Staked ether should be seen as the benchmark of the decentralized economy",
       "source": "CoinDesk",
-      "date": "2026-09-11",
-      "date_human": "Sep 11, 2026",
-      "pub_ts": 1789170471,
+      "date": "2026-09-12",
+      "date_human": "Sep 12, 2026",
+      "pub_ts": 1789221600,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/5a77d3d03bca929880510e1d9a587793372dd83a-6000x3999.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/3f541ca1c4a292027ccea331a59077292160ec46-5700x3800.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-12/391ee3e43b1d7797_base.jpg",
-      "image_local": "../assets/news/2026-09-12/391ee3e43b1d7797_base.jpg"
+      "image": "../assets/news/2026-09-12/4d42e79c454e0508_base.jpg",
+      "image_local": "../assets/news/2026-09-12/4d42e79c454e0508_base.jpg"
     },
     {
-      "title": "Cyberattacks on Law Firms Nearly Double as Stolen Documents Hit the Dark Web",
-      "link": "https://decrypt.co/378094/cyberattacks-law-firms-stolen-documents-dark-web",
-      "summary": "Greenberg Traurig said documents were posted to the dark web, while BakerHostetler recorded a near-doubling of law-firm incidents in 2025.",
+      "title": "Crypto Billionaires Hand Reform UK $97M in Record Donations",
+      "link": "https://decrypt.co/378107/crypto-billionaires-hand-reform-uk-97m-in-record-donations",
+      "summary": "Ben Delo and Christopher Harborne each gave £36 million, and between them beat what every UK party raised last year.",
       "source": "Decrypt",
-      "date": "2026-09-11",
-      "date_human": "Sep 11, 2026",
-      "pub_ts": 1789163105,
+      "date": "2026-09-12",
+      "date_human": "Sep 12, 2026",
+      "pub_ts": 1789228275,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Hacker-hack-decrypt-style-04-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/04/nigel-farage-reform-uk-decrypt-style-03-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/nigel-farage-reform-uk-decrypt-style-03-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/nigel-farage-reform-uk-decrypt-style-03-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-12/456482b8d3e6f218_base.jpg",
-      "image_local": "../assets/news/2026-09-12/456482b8d3e6f218_base.jpg"
+      "image": "../assets/news/2026-09-12/10c2dd17980effee_base.jpg",
+      "image_local": "../assets/news/2026-09-12/10c2dd17980effee_base.jpg"
+    },
+    {
+      "title": "Nvidia considers $10B investment in potential record Anthropic IPO: Reuters",
+      "link": "https://cointelegraph.com/news/nvidia-considers-10b-investment-in-anthropic-record-ipo-reuters",
+      "summary": "Anthropic is said to be seeking to raise as much as $100 billion in the offering, which could value the AI company at about $2 trillion.",
+      "source": "Cointelegraph",
+      "date": "2026-09-12",
+      "date_human": "Sep 12, 2026",
+      "pub_ts": 1789225960,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2B2TW953PW8GZE67G0P6MYC/nvidia-anthropic-ipo-artwork.png"
+      ],
+      "image": "../assets/news/2026-09-12/c20a938103793429_base.jpg",
+      "image_local": "../assets/news/2026-09-12/c20a938103793429_base.jpg"
+    },
+    {
+      "title": "XRP Ledger just quietly activated critical foundation for its upcoming new lending protocol",
+      "link": "https://cryptoslate.com/xrp-ledger-just-quietly-activated-critical-foundation-for-its-upcoming-new-lending-protocol/",
+      "summary": "fixCleanup3_3_0 corrects AMM, vault, lending, Checks and pseudo-account code paths without launching XRPL’s pending feature amendments. The post XRP Ledger just quietly activated critical foundation for its upcoming new lending protocol appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-12",
+      "date_human": "Sep 12, 2026",
+      "pub_ts": 1789224043,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/xrpl-stitched-ledger.jpg"
+      ],
+      "image": "../assets/news/2026-09-12/15317b07dea340b1_base.jpg",
+      "image_local": "../assets/news/2026-09-12/15317b07dea340b1_base.jpg"
+    },
+    {
+      "title": "Bitcoin activity, passports exposed after Revolut falls for fake government request",
+      "link": "https://www.coindesk.com/tech/2026/09/12/bitcoin-activity-passports-exposed-after-revolut-falls-for-fake-government-request",
+      "summary": "Bitcoin activity, passports exposed after Revolut falls for fake government request",
+      "source": "CoinDesk",
+      "date": "2026-09-12",
+      "date_human": "Sep 12, 2026",
+      "pub_ts": 1789207861,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/6ca19b29e8ab173881d07a500314e2d207392d68-1152x648.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-12/4ad973bc498631ec_base.jpg",
+      "image_local": "../assets/news/2026-09-12/4ad973bc498631ec_base.jpg"
+    },
+    {
+      "title": "GTA Mod Adds Flock Cameras—And Lets Players Destroy Them",
+      "link": "https://decrypt.co/377997/gta-mod-flock-cameras-players-destroy",
+      "summary": "The surveillance mod on GTA V brings the privacy fight to Los Santos, where players can demolish the cameras tracking them.",
+      "source": "Decrypt",
+      "date": "2026-09-12",
+      "date_human": "Sep 12, 2026",
+      "pub_ts": 1789225263,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2023/08/gta5-1-Cropped-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2023/08/gta5-1-Cropped-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2023/08/gta5-1-Cropped-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-12/c0658e502227fce3_base.jpg",
+      "image_local": "../assets/news/2026-09-12/c0658e502227fce3_base.jpg"
     },
     {
       "title": "Here's what happened in crypto today",
@@ -74,120 +162,32 @@
       "image_local": "../assets/news/2026-09-12/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "Blockstream bets 600 Bitcoin by rejecting Liquid hacker's $50 million bounty demand",
-      "link": "https://cryptoslate.com/blockstream-bets-600-bitcoin-by-rejecting-liquid-hackers-50-million-bounty-demand/",
-      "summary": "Blockstream is refusing to pay the Liquid attacker nearly 600 Bitcoin (roughly $50 million), escalating a dispute over how the crypto industry should reward partial restitution. The standoff follows an unusual recovery from the Sept. 6 exploit, when a vulnerability allowed the attacker to create about 4,000 unbacked L-BTC and withdraw roughly 3,996 real BTC through […] The post Blockstream bets 600 Bitcoin by rejecting Liquid hacker’s $50 million bounty demand appeared first on CryptoSlate.",
+      "title": "The dilution trap where Bitcoin holdings rise while shareholder value stalls",
+      "link": "https://cryptoslate.com/the-dilution-trap-where-bitcoin-holdings-rise-while-shareholder-value-stalls/",
+      "summary": "Buying shares in a Bitcoin treasury company gives ownership in a business that holds Bitcoin, and management decides how to pay for the coins and when to buy or sell them. The company also has bills to pay and may owe money to lenders, so the shares' value depends on those decisions and Bitcoin's price. […] The post The dilution trap where Bitcoin holdings rise while shareholder value stalls appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-12",
       "date_human": "Sep 12, 2026",
-      "pub_ts": 1789197637,
+      "pub_ts": 1789220426,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/blockstream-bitcoin-bounty-gap.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-company-trunk.jpg_.jpg"
       ],
-      "image": "../assets/news/2026-09-12/35596ba30a366671_base.jpg",
-      "image_local": "../assets/news/2026-09-12/35596ba30a366671_base.jpg"
+      "image": "../assets/news/2026-09-12/63b67e06a2213f23_base.jpg",
+      "image_local": "../assets/news/2026-09-12/63b67e06a2213f23_base.jpg"
     },
     {
-      "title": "The legal drama of imprisoned Sam Bankman-Fried is waiting on its last act",
-      "link": "https://www.coindesk.com/news-analysis/2026/09/11/the-legal-drama-of-imprisoned-sam-bankman-fried-is-waiting-on-its-last-act",
-      "summary": "The legal drama of imprisoned Sam Bankman-Fried is waiting on its last act",
+      "title": "Robinhood CEO says companies shouldn't get veto over stock tokens in AMC feud",
+      "link": "https://www.coindesk.com/markets/2026/09/11/robinhood-ceo-says-companies-shouldn-t-get-veto-over-stock-tokens-in-amc-feud",
+      "summary": "Robinhood CEO says companies shouldn't get veto over stock tokens in AMC feud",
       "source": "CoinDesk",
       "date": "2026-09-11",
       "date_human": "Sep 11, 2026",
-      "pub_ts": 1789146765,
+      "pub_ts": 1789170471,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/550882cd1c9405cbe0c4bfae04412895bdfcb8a6-1937x1089.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/5a77d3d03bca929880510e1d9a587793372dd83a-6000x3999.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-12/ffc8cfbc334b823f_base.jpg",
-      "image_local": "../assets/news/2026-09-12/ffc8cfbc334b823f_base.jpg"
-    },
-    {
-      "title": "Bitcoin Golden Cross Flickers Off as Rate-Hike Bets Firm Up",
-      "link": "https://decrypt.co/378081/bitcoin-golden-cross-flickers-off",
-      "summary": "A rapidly changing interest rates market has changed the near-term outlook on the Bitcoin chart. Here’s why.",
-      "source": "Decrypt",
-      "date": "2026-09-11",
-      "date_human": "Sep 11, 2026",
-      "pub_ts": 1789160019,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/crypto-trading-decrypt-style-02-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/crypto-trading-decrypt-style-02-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-trading-decrypt-style-02-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-12/2602a54e13c22cfe_base.jpg",
-      "image_local": "../assets/news/2026-09-12/2602a54e13c22cfe_base.jpg"
-    },
-    {
-      "title": "Bitcoin Suisse to shift up to half of Swiss jobs abroad",
-      "link": "https://cointelegraph.com/news/bitcoin-suisse-to-shift-up-to-half-of-swiss-jobs-abroad",
-      "summary": "The Swiss crypto financial services firm plans to move back-office functions to lower-cost international hubs as it expands its global wealth and asset management business, according to Finews.",
-      "source": "Cointelegraph",
-      "date": "2026-09-11",
-      "date_human": "Sep 11, 2026",
-      "pub_ts": 1789155984,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M28YVKDSD0D0GM8BAF7TVC45/hi-layoffs-might-be-a-sign-of-the-market-maturing.png"
-      ],
-      "image": "../assets/news/2026-09-12/344a394c1d931c9d_base.jpg",
-      "image_local": "../assets/news/2026-09-12/344a394c1d931c9d_base.jpg"
-    },
-    {
-      "title": "Metaplanet CEO surrenders $220 million in stock rights to rebuild trust with investors",
-      "link": "https://cryptoslate.com/metaplanet-ceo-surrenders-220-million-in-stock-rights-to-rebuild-trust-with-investors/",
-      "summary": "Metaplanet is cutting executive rewards after concluding that later Bitcoin purchases created less value per share. On Sept. 11, the Tokyo-listed Bitcoin treasury company announced it has reset its Series 10 stock acquisition rights, eliminating more than $220 million in warrant value. This also removes compensation generated by share issuance after September 2025, when its […] The post Metaplanet CEO surrenders $220 million in stock rights to rebuild trust with investors appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-12",
-      "date_human": "Sep 12, 2026",
-      "pub_ts": 1789186206,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/metaplanet-executive-rewards-bitcoin.jpg"
-      ],
-      "image": "../assets/news/2026-09-12/8e05be835d1607f2_base.jpg",
-      "image_local": "../assets/news/2026-09-12/8e05be835d1607f2_base.jpg"
-    },
-    {
-      "title": "With Fed rate hike all but assured, here's how markets might react",
-      "link": "https://www.coindesk.com/markets/2026/09/11/hotter-cpi-complicates-fed-hold-as-warsh-s-preferred-inflation-gauge-tells-different-story",
-      "summary": "With Fed rate hike all but assured, here's how markets might react",
-      "source": "CoinDesk",
-      "date": "2026-09-11",
-      "date_human": "Sep 11, 2026",
-      "pub_ts": 1789141556,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/8c113b39af04fe5a9700ed1765841f345087018a-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-12/bd4843eb019bad5a_base.jpg",
-      "image_local": "../assets/news/2026-09-12/bd4843eb019bad5a_base.jpg"
-    },
-    {
-      "title": "OpenAI Asks Congress Whether an AI Slowdown Would Be Legal",
-      "link": "https://decrypt.co/377990/openai-congress-ai-slowdown-legal",
-      "summary": "The company is seeking clarity on antitrust rules as researchers call for restraint and experts warn that competition encourages companies to overlook risks.",
-      "source": "Decrypt",
-      "date": "2026-09-11",
-      "date_human": "Sep 11, 2026",
-      "pub_ts": 1789150564,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-3-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-3-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-sam-altman-3-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-12/aacc9f4772a1620f_base.jpg",
-      "image_local": "../assets/news/2026-09-12/aacc9f4772a1620f_base.jpg"
-    },
-    {
-      "title": "Hyperliquid's biggest risk is regulation, says Ran Neuner",
-      "link": "https://cointelegraph.com/news/hyperliquids-biggest-risk-is-regulation-says-ran-neuner",
-      "summary": "The Crypto Banter founder said Hyperliquid’s network effects give it a strong competitive moat, but regulatory uncertainty remains its biggest threat.",
-      "source": "Cointelegraph",
-      "date": "2026-09-11",
-      "date_human": "Sep 11, 2026",
-      "pub_ts": 1789152315,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M28T3HE65MV02Y41NGX63EDN/wall-warning-hyperliquid.png"
-      ],
-      "image": "../assets/news/2026-09-12/228bff9a10e87210_base.jpg",
-      "image_local": "../assets/news/2026-09-12/228bff9a10e87210_base.jpg"
+      "image": "../assets/news/2026-09-12/391ee3e43b1d7797_base.jpg",
+      "image_local": "../assets/news/2026-09-12/391ee3e43b1d7797_base.jpg"
     }
   ]
 }
