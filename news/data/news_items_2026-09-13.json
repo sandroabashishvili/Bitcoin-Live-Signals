@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-13",
-  "generated_at_utc": "2026-09-13 10:05:28 UTC",
+  "generated_at_utc": "2026-09-13 16:05:21 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,46 +16,76 @@
   "count": 12,
   "items": [
     {
-      "title": "Revolut says customer data exposed through fake government email",
-      "link": "https://cointelegraph.com/news/revolut-says-customer-data-exposed-through-fake-government-email",
-      "summary": "Passports, selfies and financial transaction histories of some customers were revealed to a fraudster using a government agency domain.",
+      "title": "Critical Bitcoin Lightning bugs exposed nodes to fund theft and restart failure",
+      "link": "https://cryptoslate.com/critical-bitcoin-lightning-bugs-exposed-nodes-to-fund-theft-and-restart-failure/",
+      "summary": "LDK v0.2.6 addresses small splice-related fund losses and a payment-handling flaw that could prevent saved channel state from loading. The post Critical Bitcoin Lightning bugs exposed nodes to fund theft and restart failure appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-13",
+      "date_human": "Sep 13, 2026",
+      "pub_ts": 1789314914,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-lightning-patch.jpg"
+      ],
+      "image": "../assets/news/2026-09-13/9f5f417c89c27180_base.jpg",
+      "image_local": "../assets/news/2026-09-13/9f5f417c89c27180_base.jpg"
+    },
+    {
+      "title": "AI Agents Spending Money Online? New Research Says Not Really",
+      "link": "https://decrypt.co/378103/ai-agents-spending-money-research",
+      "summary": "TRM examined roughly $52.7 million across 198.9 million settlements using the x402 protocol. Most of it isn’t coming from AI agents, it says.",
+      "source": "Decrypt",
+      "date": "2026-09-13",
+      "date_human": "Sep 13, 2026",
+      "pub_ts": 1789304463,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/robot-typing-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/robot-typing-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/robot-typing-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-13/8e17e0866dad97b2_base.jpg",
+      "image_local": "../assets/news/2026-09-13/8e17e0866dad97b2_base.jpg"
+    },
+    {
+      "title": "Fed rate hike is about Wall Street, not inflation, says economist",
+      "link": "https://www.coindesk.com/markets/2026/09/13/fed-rate-hike-is-about-wall-street-not-inflation-says-economist",
+      "summary": "Fed rate hike is about Wall Street, not inflation, says economist",
+      "source": "CoinDesk",
+      "date": "2026-09-13",
+      "date_human": "Sep 13, 2026",
+      "pub_ts": 1789304400,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/e8d8df4259af82f8ea238aee5c1f1e2fa3dce49a-1920x1000.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-13/bbf3dd68e6c1b41d_base.jpg",
+      "image_local": "../assets/news/2026-09-13/bbf3dd68e6c1b41d_base.jpg"
+    },
+    {
+      "title": "Anthropic chief urges slowdown in AI development to safer pace",
+      "link": "https://cointelegraph.com/news/anthropic-chief-urges-slowdown-in-ai-development-to-safer-pace",
+      "summary": "OpenAI CEO Sam Altman agrees with safety concerns regarding AI development, says no initial share sale this year.",
       "source": "Cointelegraph",
       "date": "2026-09-13",
       "date_human": "Sep 13, 2026",
-      "pub_ts": 1789291641,
+      "pub_ts": 1789297794,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2D17VM4EG7ZBFYRBDRS7SSC/revolut-data-disclosure.png"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2D73RC4KZ3H9HDSX589ZA4R/dario-amodei-ai-caution.png"
       ],
-      "image": "../assets/news/2026-09-13/607de918a84779ee_base.jpg",
-      "image_local": "../assets/news/2026-09-13/607de918a84779ee_base.jpg"
+      "image": "../assets/news/2026-09-13/de3a45bf8231827a_base.jpg",
+      "image_local": "../assets/news/2026-09-13/de3a45bf8231827a_base.jpg"
     },
     {
-      "title": "Thailand's stablecoin proposal would block transfers to other people's wallets",
-      "link": "https://cryptoslate.com/thailands-stablecoin-proposal-would-block-transfers-to-other-peoples-wallets/",
-      "summary": "Licensed crypto firms could accept deposits and withdrawals only through accounts verified as the customer’s own. The post Thailand’s stablecoin proposal would block transfers to other people’s wallets appeared first on CryptoSlate.",
+      "title": "Bitcoin's slide below $77,000 sets up a Monday tech test as AI leaders sound warning",
+      "link": "https://cryptoslate.com/bitcoins-slide-below-77000-sets-up-a-monday-tech-test-as-ai-leaders-sound-warning/",
+      "summary": "Sunday’s 0.8% decline extends earlier weakness, while AI slowdown calls and the coming Fed meeting pose separate risks. The post Bitcoin’s slide below $77,000 sets up a Monday tech test as AI leaders sound warning appeared first on CryptoSlate.",
       "source": "CryptoSlate",
-      "date": "2026-09-12",
-      "date_human": "Sep 12, 2026",
-      "pub_ts": 1789248329,
+      "date": "2026-09-13",
+      "date_human": "Sep 13, 2026",
+      "pub_ts": 1789312810,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/thailand-wallet-transfer-block.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-bear-market-pressure.jpg"
       ],
-      "image": "../assets/news/2026-09-13/6439a220b671577a_base.jpg",
-      "image_local": "../assets/news/2026-09-13/6439a220b671577a_base.jpg"
-    },
-    {
-      "title": "OpenAI IPO won't happen this year, says Sam Altman",
-      "link": "https://www.coindesk.com/markets/2026/09/12/openai-ipo-won-t-happen-this-year-says-sam-altman",
-      "summary": "OpenAI IPO won't happen this year, says Sam Altman",
-      "source": "CoinDesk",
-      "date": "2026-09-12",
-      "date_human": "Sep 12, 2026",
-      "pub_ts": 1789247371,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/24e158dc172914f8d1d6b9b4165e6ca991594da0-4979x2801.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-13/819e2bcfd4ef7330_base.jpg",
-      "image_local": "../assets/news/2026-09-13/819e2bcfd4ef7330_base.jpg"
+      "image": "../assets/news/2026-09-13/da2c3359fdb4714b_base.jpg",
+      "image_local": "../assets/news/2026-09-13/da2c3359fdb4714b_base.jpg"
     },
     {
       "title": "Revolut Leaks Passports, Bitcoin Transaction Histories to Fake Government Request",
@@ -74,46 +104,46 @@
       "image_local": "../assets/news/2026-09-13/8e88d07abe7d5028_base.jpg"
     },
     {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-09-12",
-      "date_human": "Sep 12, 2026",
-      "pub_ts": 1789229381,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-09-13/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-09-13/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "Bitcoin's $80,000 ceiling looks fragile after stocks shrugged off near-5% Treasury yields",
-      "link": "https://cryptoslate.com/bitcoins-80000-ceiling-looks-different-after-stocks-shrugged-off-near-5-treasury-yields/",
-      "summary": "With Bitcoin near $77,743 and weekend options volatility elevated, Wednesday’s Fed decision will test whether the gap persists. The post Bitcoin’s $80,000 ceiling looks fragile after stocks shrugged off near-5% Treasury yields appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-12",
-      "date_human": "Sep 12, 2026",
-      "pub_ts": 1789244410,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-fed-key.jpg"
-      ],
-      "image": "../assets/news/2026-09-13/f84cc85f5b4bd4cf_base.jpg",
-      "image_local": "../assets/news/2026-09-13/f84cc85f5b4bd4cf_base.jpg"
-    },
-    {
-      "title": "Bitcoin Suisse plans to cut up to half its Swiss jobs as it shifts work abroad",
-      "link": "https://www.coindesk.com/business/2026/09/12/bitcoin-suisse-plans-to-cut-up-to-half-its-swiss-jobs-as-it-shifts-work-abroad",
-      "summary": "Bitcoin Suisse plans to cut up to half its Swiss jobs as it shifts work abroad",
+      "title": "Circle's $400M Tazapay deal buys emerging market links that take ‘years to build'",
+      "link": "https://www.coindesk.com/business/2026/09/13/circle-s-usd400m-tazapay-deal-buys-emerging-market-links-that-take-years-to-build",
+      "summary": "Circle's $400M Tazapay deal buys emerging market links that take ‘years to build'",
       "source": "CoinDesk",
-      "date": "2026-09-12",
-      "date_human": "Sep 12, 2026",
-      "pub_ts": 1789247346,
+      "date": "2026-09-13",
+      "date_human": "Sep 13, 2026",
+      "pub_ts": 1789304400,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/3ef3afd448edde39821d9fb15979c93228552e33-6641x3736.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/024ae1afdc1672e747814cc0546828b965ecf695-5162x3441.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-13/1ffe2fb01e210ac6_base.jpg",
-      "image_local": "../assets/news/2026-09-13/1ffe2fb01e210ac6_base.jpg"
+      "image": "../assets/news/2026-09-13/20634e5e8871717e_base.jpg",
+      "image_local": "../assets/news/2026-09-13/20634e5e8871717e_base.jpg"
+    },
+    {
+      "title": "Revolut says customer data exposed through fake government email",
+      "link": "https://cointelegraph.com/news/revolut-says-customer-data-exposed-through-fake-government-email",
+      "summary": "Passports, selfies and financial transaction histories of some customers were revealed to a fraudster using a government agency domain.",
+      "source": "Cointelegraph",
+      "date": "2026-09-13",
+      "date_human": "Sep 13, 2026",
+      "pub_ts": 1789291641,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2D17VM4EG7ZBFYRBDRS7SSC/revolut-data-disclosure.png"
+      ],
+      "image": "../assets/news/2026-09-13/607de918a84779ee_base.jpg",
+      "image_local": "../assets/news/2026-09-13/607de918a84779ee_base.jpg"
+    },
+    {
+      "title": "Bitcoin's oil risk stretches into 2027 as IEA cuts supply outlook again",
+      "link": "https://cryptoslate.com/bitcoins-oil-risk-stretches-into-2027-as-iea-cuts-supply-outlook-again/",
+      "summary": "Weaker oil demand offers a counterweight, but the lower supply forecast complicates the case for financing relief. The post Bitcoin’s oil risk stretches into 2027 as IEA cuts supply outlook again appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-13",
+      "date_human": "Sep 13, 2026",
+      "pub_ts": 1789311015,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-oil-vortex.jpg"
+      ],
+      "image": "../assets/news/2026-09-13/df593ff2f0c660ef_base.jpg",
+      "image_local": "../assets/news/2026-09-13/df593ff2f0c660ef_base.jpg"
     },
     {
       "title": "GPT-6 Astra Users Say OpenAI's Newest Model Got Dumber. It Happened Before, Too",
@@ -132,62 +162,32 @@
       "image_local": "../assets/news/2026-09-13/10a1cb412597c685_base.jpg"
     },
     {
-      "title": "North Korea using foreign talent to help infiltrate US companies: Report",
-      "link": "https://cointelegraph.com/news/north-korea-using-foreign-talent-to-help-infiltrate-us-companies-report",
-      "summary": "The DPRK has turned to third-country IT workers to pass job interviews, after which, the positions are usually taken over by North Korean operatives.",
+      "title": "Crypto's Clarity Act is a Schrödinger's cat in life-death limbo as U.S. Senate returns",
+      "link": "https://www.coindesk.com/news-analysis/2026/09/11/crypto-s-clarity-act-is-a-schroedinger-s-cat-in-life-death-limbo-as-u-s-senate-returns",
+      "summary": "Crypto's Clarity Act is a Schrödinger's cat in life-death limbo as U.S. Senate returns",
+      "source": "CoinDesk",
+      "date": "2026-09-13",
+      "date_human": "Sep 13, 2026",
+      "pub_ts": 1789300800,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/fdf7f5a1bfc3ea1d7708ef0c24ddb8c1297cbb2f-3480x1958.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-13/b72e85c0fe67090f_base.jpg",
+      "image_local": "../assets/news/2026-09-13/b72e85c0fe67090f_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
       "date": "2026-09-12",
       "date_human": "Sep 12, 2026",
-      "pub_ts": 1789229309,
+      "pub_ts": 1789229381,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2B5SN57G44ZRVJ1417WPGSB/job-interview-handover-scene.png"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-09-13/dd7a5876aa9d9d3d_base.jpg",
-      "image_local": "../assets/news/2026-09-13/dd7a5876aa9d9d3d_base.jpg"
-    },
-    {
-      "title": "The biggest vulnerability in your Bitcoin wallet might be the shipping label",
-      "link": "https://cryptoslate.com/your-bitcoin-wallet-has-a-shipping-problem/",
-      "summary": "Hardware wallets might be able to protect your keys, but the paperwork from buying them could expose your identity. To buy a hardware wallet, you give a company your name and address so it can send you a device designed to put you in control of your money. Once you've unpacked the box and set […] The post The biggest vulnerability in your Bitcoin wallet might be the shipping label appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-12",
-      "date_human": "Sep 12, 2026",
-      "pub_ts": 1789241423,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/wallet-shipping-paper-trail.jpg?ver=1789227102"
-      ],
-      "image": "../assets/news/2026-09-13/cfeb3a3e6dc63839_base.jpg",
-      "image_local": "../assets/news/2026-09-13/cfeb3a3e6dc63839_base.jpg"
-    },
-    {
-      "title": "Nigel Farage's Reform UK lands $97 million donations from two crypto billionaires in 24 hours",
-      "link": "https://www.coindesk.com/business/2026/09/12/nigel-farage-s-reform-uk-lands-usd97-million-donations-from-two-crypto-billionaires-in-24-hours",
-      "summary": "Nigel Farage's Reform UK lands $97 million donations from two crypto billionaires in 24 hours",
-      "source": "CoinDesk",
-      "date": "2026-09-12",
-      "date_human": "Sep 12, 2026",
-      "pub_ts": 1789239064,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/54d425afad71df8d6e1593c490cf930909b6742f-640x360.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-13/df04cd978d6a977b_base.jpg",
-      "image_local": "../assets/news/2026-09-13/df04cd978d6a977b_base.jpg"
-    },
-    {
-      "title": "Crypto Billionaires Hand Reform UK $97M in Record Donations",
-      "link": "https://decrypt.co/378107/crypto-billionaires-hand-reform-uk-97m-in-record-donations",
-      "summary": "Ben Delo and Christopher Harborne each gave £36 million, and between them beat what every UK party raised last year.",
-      "source": "Decrypt",
-      "date": "2026-09-12",
-      "date_human": "Sep 12, 2026",
-      "pub_ts": 1789228275,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/04/nigel-farage-reform-uk-decrypt-style-03-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/nigel-farage-reform-uk-decrypt-style-03-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/nigel-farage-reform-uk-decrypt-style-03-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-09-13/10c2dd17980effee_base.jpg",
-      "image_local": "../assets/news/2026-09-13/10c2dd17980effee_base.jpg"
+      "image": "../assets/news/2026-09-13/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-13/57bd1a60f4d67ba1_base.jpg"
     }
   ]
 }
