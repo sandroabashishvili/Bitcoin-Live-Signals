@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-13",
-  "generated_at_utc": "2026-09-13 04:05:32 UTC",
+  "generated_at_utc": "2026-09-13 10:05:28 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -15,6 +15,20 @@
   ],
   "count": 12,
   "items": [
+    {
+      "title": "Revolut says customer data exposed through fake government email",
+      "link": "https://cointelegraph.com/news/revolut-says-customer-data-exposed-through-fake-government-email",
+      "summary": "Passports, selfies and financial transaction histories of some customers were revealed to a fraudster using a government agency domain.",
+      "source": "Cointelegraph",
+      "date": "2026-09-13",
+      "date_human": "Sep 13, 2026",
+      "pub_ts": 1789291641,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2D17VM4EG7ZBFYRBDRS7SSC/revolut-data-disclosure.png"
+      ],
+      "image": "../assets/news/2026-09-13/607de918a84779ee_base.jpg",
+      "image_local": "../assets/news/2026-09-13/607de918a84779ee_base.jpg"
+    },
     {
       "title": "Thailand's stablecoin proposal would block transfers to other people's wallets",
       "link": "https://cryptoslate.com/thailands-stablecoin-proposal-would-block-transfers-to-other-peoples-wallets/",
@@ -174,20 +188,6 @@
       ],
       "image": "../assets/news/2026-09-13/10c2dd17980effee_base.jpg",
       "image_local": "../assets/news/2026-09-13/10c2dd17980effee_base.jpg"
-    },
-    {
-      "title": "Farage's Reform UK gets $97M from two crypto billionaires",
-      "link": "https://cointelegraph.com/news/farages-reform-uk-gets-biggest-donation-ever-from-crypto-billionaire-reports",
-      "summary": "Ben Delo, co-founder of BitMEX, donated almost $50 million to Nigel Farage’s Reform UK party, matched a day later by Christopher Harborne.",
-      "source": "Cointelegraph",
-      "date": "2026-09-12",
-      "date_human": "Sep 12, 2026",
-      "pub_ts": 1789228214,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2BA6J7HTH44ZK3SGYTVPE4V/two-donors-cheques.png"
-      ],
-      "image": "../assets/news/2026-09-13/302554e6da94dfa2_base.jpg",
-      "image_local": "../assets/news/2026-09-13/302554e6da94dfa2_base.jpg"
     }
   ]
 }
