@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-14",
-  "generated_at_utc": "2026-09-14 04:05:12 UTC",
+  "generated_at_utc": "2026-09-14 10:05:15 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,46 +16,104 @@
   "count": 12,
   "items": [
     {
-      "title": "US Republicans send ‘final' CLARITY Act offer to Democrats",
-      "link": "https://cointelegraph.com/news/us-republicans-send-final-clarity-act-offer-to-democrats",
-      "summary": "The 635-page revised proposal includes Trump-backed ethics provisions and comes just two days before a key procedural vote.",
+      "title": "CLARITY Act vote meets Fed rate hike: Five things to know in Bitcoin this week",
+      "link": "https://cointelegraph.com/markets/clarity-act-vote-meets-fed-rate-hike-five-things-to-know-in-bitcoin-this-week",
+      "summary": "Bitcoin traders brace for volatility as the CLARITY Act awaits a Senate vote to move forward and the Fed is due to announce its latest rate decision.",
       "source": "Cointelegraph",
       "date": "2026-09-14",
       "date_human": "Sep 14, 2026",
-      "pub_ts": 1789356169,
+      "pub_ts": 1789380017,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2EYQFNBQWHSKS9XVTDG9HXS/regulation-papers.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2FNBW97VVK5XYKANMB2SP3G/hi-us-senate-infrastructure-bill-doom-and-gloom-for-crypto-clarity-act-1.jpg"
       ],
-      "image": "../assets/news/2026-09-14/c8c2113c493c8f01_base.jpg",
-      "image_local": "../assets/news/2026-09-14/c8c2113c493c8f01_base.jpg"
+      "image": "../assets/news/2026-09-14/8b40c56c2e0ce2a2_base.jpg",
+      "image_local": "../assets/news/2026-09-14/8b40c56c2e0ce2a2_base.jpg"
     },
     {
-      "title": "Hackers mint trillions in fake Bitcoin, but 15 BTC bridge recovery leaves liquidity providers unpaid",
-      "link": "https://cryptoslate.com/hackers-mint-trillions-in-fake-bitcoin-but-15-btc-bridge-recovery-leaves-liquidity-providers-unpaid/",
-      "summary": "The native bridge remains paused as a 20% bounty window closes Sep. 13 and final accounting continues. The post Hackers mint trillions in fake Bitcoin, but 15 BTC bridge recovery leaves liquidity providers unpaid appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-13",
-      "date_human": "Sep 13, 2026",
-      "pub_ts": 1789334410,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/symbiosis-bridge-detour.jpg"
-      ],
-      "image": "../assets/news/2026-09-14/d555ee1409d6026a_base.jpg",
-      "image_local": "../assets/news/2026-09-14/d555ee1409d6026a_base.jpg"
-    },
-    {
-      "title": "Is Clarity dead? A vibes-based analysis: State of Crypto",
-      "link": "https://www.coindesk.com/policy/2026/09/13/is-clarity-dead-a-vibes-based-analysis-state-of-crypto",
-      "summary": "Is Clarity dead? A vibes-based analysis: State of Crypto",
+      "title": "TikTok developer ByteDance arranges $29.6 billion loan as it builds AI ambitions",
+      "link": "https://www.coindesk.com/business/2026/09/14/tiktok-developer-bytedance-arranges-usd29-6-billion-loan-as-it-builds-ai-ambitions",
+      "summary": "TikTok developer ByteDance arranges $29.6 billion loan as it builds AI ambitions",
       "source": "CoinDesk",
-      "date": "2026-09-13",
-      "date_human": "Sep 13, 2026",
-      "pub_ts": 1789325108,
+      "date": "2026-09-14",
+      "date_human": "Sep 14, 2026",
+      "pub_ts": 1789379025,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/bb0e02fe77cc6bb9eae2b1c4887014c319e9800f-4928x2772.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/98fa26209b9655d6994b0fefb23bf2ce0423341d-1920x1060.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-14/c6dad8effe919db3_base.jpg",
-      "image_local": "../assets/news/2026-09-14/c6dad8effe919db3_base.jpg"
+      "image": "../assets/news/2026-09-14/da98fdcb2ec828c6_base.jpg",
+      "image_local": "../assets/news/2026-09-14/da98fdcb2ec828c6_base.jpg"
+    },
+    {
+      "title": "Bitcoin ETFs just lost $463 million as the Fed puts BTC at risk of losing $75,000",
+      "link": "https://cryptoslate.com/bitcoin-etfs-just-lost-463-million-as-the-fed-puts-btcs-75000-breakout-at-risk/",
+      "summary": "US spot Bitcoin exchange-traded funds (ETFs) posted $462.7 million in weekly outflows, ending a three-week stretch of heavy investor demand. The funds recorded withdrawals across all four trading sessions in the holiday-shortened week, marking their first weekly loss since mid-August. SoSoValue data showed net withdrawals of $46.7 million Tuesday, the first trading day after the […] The post Bitcoin ETFs just lost $463 million as the Fed puts BTC at risk of losing $75,000 appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-14",
+      "date_human": "Sep 14, 2026",
+      "pub_ts": 1789378852,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-breakout-balance.jpg"
+      ],
+      "image": "../assets/news/2026-09-14/99c7ca5a885ba45b_base.jpg",
+      "image_local": "../assets/news/2026-09-14/99c7ca5a885ba45b_base.jpg"
+    },
+    {
+      "title": "Bitcoin Suisse to Cut Up to Half Its Swiss Jobs in Overseas Shift",
+      "link": "https://decrypt.co/378119/bitcoin-suisse-cut-half-swiss-jobs",
+      "summary": "The Crypto Valley pioneer is moving up to 60 Zug jobs to Bratislava or Vietnam as it pivots from a Swiss crypto specialist into a global wealth manager.",
+      "source": "Decrypt",
+      "date": "2026-09-14",
+      "date_human": "Sep 14, 2026",
+      "pub_ts": 1789376463,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-14/7067857b32db3eaa_base.jpg",
+      "image_local": "../assets/news/2026-09-14/7067857b32db3eaa_base.jpg"
+    },
+    {
+      "title": "Symbiosis says recovered 15 BTC from bridge hack, offers 20% bounty",
+      "link": "https://cointelegraph.com/news/symbiosis-recovered-15-btc-bridge-hack-20-bounty",
+      "summary": "Symbiosis is offering a 20% bounty for information leading to asset recovery after the hacker refused to return the stolen funds for the same white-hat bounty.",
+      "source": "Cointelegraph",
+      "date": "2026-09-14",
+      "date_human": "Sep 14, 2026",
+      "pub_ts": 1789379735,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2FK6GAEQRFQBFCE1EBGAMG5/hi-what-is-a-crypto-money-mule-scam-and-how-to-avoid-it-1.jpg"
+      ],
+      "image": "../assets/news/2026-09-14/0d982717603b259a_base.jpg",
+      "image_local": "../assets/news/2026-09-14/0d982717603b259a_base.jpg"
+    },
+    {
+      "title": "Fed, BOE, BOJ interest-rate decisions: Crypto Week Ahead",
+      "link": "https://www.coindesk.com/markets/2026/09/14/fed-boe-boj-interest-rate-decisions-crypto-week-ahead",
+      "summary": "Fed, BOE, BOJ interest-rate decisions: Crypto Week Ahead",
+      "source": "CoinDesk",
+      "date": "2026-09-14",
+      "date_human": "Sep 14, 2026",
+      "pub_ts": 1789378197,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/86094ea78f944f140cc21b29434392b1d1380382-1920x1080.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-14/f6487b19331dcfea_base.jpg",
+      "image_local": "../assets/news/2026-09-14/f6487b19331dcfea_base.jpg"
+    },
+    {
+      "title": "Trump concession sends CLARITY Act odds above 32% before make-or-break Senate vote",
+      "link": "https://cryptoslate.com/trump-concession-sends-clarity-act-odds-above-32-before-make-or-break-senate-vote/",
+      "summary": "The CLARITY Act’s chances of becoming law climbed above 32% as Senate Republicans unveiled their final compromise before Tuesday’s cloture vote. Polymarket traders pushed the probability of the landmark crypto market-structure legislation being enacted in 2026 to its highest level since Aug. 2 after Republicans released a 635-page final draft designed to resolve several disputes […] The post Trump concession sends CLARITY Act odds above 32% before make-or-break Senate vote appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-14",
+      "date_human": "Sep 14, 2026",
+      "pub_ts": 1789374898,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/blind-trust-cloture.webp"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/blind-trust-cloture.webp",
+      "image_local": null
     },
     {
       "title": "AI Agents Spending Money Online? New Research Says Not Really",
@@ -74,46 +132,46 @@
       "image_local": "../assets/news/2026-09-14/8e17e0866dad97b2_base.jpg"
     },
     {
-      "title": "Revolut attackers threaten daily customer data leaks",
-      "link": "https://cointelegraph.com/news/revolut-attackers-threaten-daily-customer-data-leaks",
-      "summary": "Attackers reportedly published identity documents and selfies belonging to Revolut customers and threatened to release more data each day until the fintech pays.",
+      "title": "UK FCA considers bespoke rules and fund exemptions for tokenized gold: FT",
+      "link": "https://cointelegraph.com/news/uk-fca-weighs-fund-rules-exemption-for-tokenized-gold-ft",
+      "summary": "Unnamed industry participants reportedly warned that UK fund rule uncertainty could slow tokenized gold development and limit investor access.",
       "source": "Cointelegraph",
       "date": "2026-09-14",
       "date_human": "Sep 14, 2026",
-      "pub_ts": 1789347248,
+      "pub_ts": 1789376220,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2EP9WWPA3TQ0VSDG71BW9GG/data-leak.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2FH25D983BQTGVJMM116BR7/hi-fintech-in-the-united-kingdom-after-brexit-fca.jpg"
       ],
-      "image": "../assets/news/2026-09-14/cd78eef95462dfb5_base.jpg",
-      "image_local": "../assets/news/2026-09-14/cd78eef95462dfb5_base.jpg"
+      "image": "../assets/news/2026-09-14/a05954df47abc5b0_base.jpg",
+      "image_local": "../assets/news/2026-09-14/a05954df47abc5b0_base.jpg"
     },
     {
-      "title": "Audited DeFi protocols lost $885M to attacks that occurred completely outside their audit scopes",
-      "link": "https://cryptoslate.com/audited-defi-protocols-lost-885m-to-attacks-that-occurred-completely-outside-their-audit-scopes/",
-      "summary": "The ack3-affiliated preprint found a 72.1% outside-scope share after excluding two H1 2026 outliers, while August incidents add operational context. The post Audited DeFi protocols lost $885M to attacks that occurred completely outside their audit scopes appeared first on CryptoSlate.",
+      "title": "Bitcoin bucks tech selloff as AI safety concerns weigh on stocks",
+      "link": "https://www.coindesk.com/markets/2026/09/14/bitcoin-bucks-tech-selloff-as-ai-safety-concerns-weigh-on-stocks",
+      "summary": "Bitcoin bucks tech selloff as AI safety concerns weigh on stocks",
+      "source": "CoinDesk",
+      "date": "2026-09-14",
+      "date_human": "Sep 14, 2026",
+      "pub_ts": 1789373236,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/3a958c07a8e330779bda9e3b0543e725149b9d48-802x503.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-14/d4a7a98e1b08ee52_base.jpg",
+      "image_local": "../assets/news/2026-09-14/d4a7a98e1b08ee52_base.jpg"
+    },
+    {
+      "title": "Hackers mint trillions in fake Bitcoin, but 15 BTC bridge recovery leaves liquidity providers unpaid",
+      "link": "https://cryptoslate.com/hackers-mint-trillions-in-fake-bitcoin-but-15-btc-bridge-recovery-leaves-liquidity-providers-unpaid/",
+      "summary": "The native bridge remains paused as a 20% bounty window closes Sep. 13 and final accounting continues. The post Hackers mint trillions in fake Bitcoin, but 15 BTC bridge recovery leaves liquidity providers unpaid appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-13",
       "date_human": "Sep 13, 2026",
-      "pub_ts": 1789330508,
+      "pub_ts": 1789334410,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/defi-audit-blindspot.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/symbiosis-bridge-detour.jpg"
       ],
-      "image": "../assets/news/2026-09-14/aa053322255351d7_base.jpg",
-      "image_local": "../assets/news/2026-09-14/aa053322255351d7_base.jpg"
-    },
-    {
-      "title": "Quantum-proof blockchain: why math, not machines, holds the key",
-      "link": "https://www.coindesk.com/opinion/2026/09/13/quantum-proof-blockchain-why-math-not-machines-holds-the-key",
-      "summary": "Quantum-proof blockchain: why math, not machines, holds the key",
-      "source": "CoinDesk",
-      "date": "2026-09-13",
-      "date_human": "Sep 13, 2026",
-      "pub_ts": 1789318800,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/49c14a849cd698ca328264f8336914c0c5e41c33-8000x4500.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-14/84ee7f7553d5ec12_base.jpg",
-      "image_local": "../assets/news/2026-09-14/84ee7f7553d5ec12_base.jpg"
+      "image": "../assets/news/2026-09-14/d555ee1409d6026a_base.jpg",
+      "image_local": "../assets/news/2026-09-14/d555ee1409d6026a_base.jpg"
     },
     {
       "title": "Revolut Leaks Passports, Bitcoin Transaction Histories to Fake Government Request",
@@ -130,64 +188,6 @@
       ],
       "image": "../assets/news/2026-09-14/8e88d07abe7d5028_base.jpg",
       "image_local": "../assets/news/2026-09-14/8e88d07abe7d5028_base.jpg"
-    },
-    {
-      "title": "Crypto's biggest week ever? Swarm fears prompt AI slowdown: Hodler's Digest",
-      "link": "https://cointelegraph.com/magazine/cryptos-biggest-week-ever-swarm-fears-prompt-ai-slowdown-hodlers-digest",
-      "summary": "Crypto’s moment of CLARITY finally arrives with a key Senate vote on Tuesday. AI swarm fears prompt development slowdown, with some predicting big falls in AI stock prices.",
-      "source": "Cointelegraph",
-      "date": "2026-09-14",
-      "date_human": "Sep 14, 2026",
-      "pub_ts": 1789344937,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2EK46FSXWXQTA0ENWV5Z0W4/three-figures-no-text.png"
-      ],
-      "image": "../assets/news/2026-09-14/6b729890b07e8eef_base.jpg",
-      "image_local": "../assets/news/2026-09-14/6b729890b07e8eef_base.jpg"
-    },
-    {
-      "title": "Coinbase gives community banks a stablecoin bridge while supplying infrastructure underneath",
-      "link": "https://cryptoslate.com/coinbase-gives-community-banks-a-stablecoin-bridge-while-supplying-infrastructure-underneath/",
-      "summary": "Banks retain the customer interface, while undisclosed pricing, data, compliance and settlement terms will determine who captures the value. The post Coinbase gives community banks a stablecoin bridge while supplying infrastructure underneath appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-13",
-      "date_human": "Sep 13, 2026",
-      "pub_ts": 1789326630,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/main-street-money-pipeline.jpg"
-      ],
-      "image": "../assets/news/2026-09-14/82ddba5c7ffabc5b_base.jpg",
-      "image_local": "../assets/news/2026-09-14/82ddba5c7ffabc5b_base.jpg"
-    },
-    {
-      "title": "Fed rate hike is about Wall Street, not inflation, says economist",
-      "link": "https://www.coindesk.com/markets/2026/09/13/fed-rate-hike-is-about-wall-street-not-inflation-says-economist",
-      "summary": "Fed rate hike is about Wall Street, not inflation, says economist",
-      "source": "CoinDesk",
-      "date": "2026-09-13",
-      "date_human": "Sep 13, 2026",
-      "pub_ts": 1789304400,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/e8d8df4259af82f8ea238aee5c1f1e2fa3dce49a-1920x1000.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-14/bbf3dd68e6c1b41d_base.jpg",
-      "image_local": "../assets/news/2026-09-14/bbf3dd68e6c1b41d_base.jpg"
-    },
-    {
-      "title": "GPT-6 Astra Users Say OpenAI's Newest Model Got Dumber. It Happened Before, Too",
-      "link": "https://decrypt.co/378101/gpt-6-astra-openai-model-dumber-nerfed",
-      "summary": "A week after launch, complaints are rolling in from users that GPT-6 Astra has been nerfed. OpenAI's last model went through the same cycle in July.",
-      "source": "Decrypt",
-      "date": "2026-09-12",
-      "date_human": "Sep 12, 2026",
-      "pub_ts": 1789228864,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-14/10a1cb412597c685_base.jpg",
-      "image_local": "../assets/news/2026-09-14/10a1cb412597c685_base.jpg"
     }
   ]
 }
