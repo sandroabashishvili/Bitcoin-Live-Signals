@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-14",
-  "generated_at_utc": "2026-09-14 16:05:15 UTC",
+  "generated_at_utc": "2026-09-14 22:05:24 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,136 +16,92 @@
   "count": 12,
   "items": [
     {
-      "title": "Bitmine Adds $68 Million in Ethereum as Holdings Near 6 Million ETH",
-      "link": "https://decrypt.co/378132/bitmine-adds-68-million-ethereum",
-      "summary": "The purchase brings the company closer to its goal of owning 5% of Ethereum’s supply, with most of its tokens earning staking rewards.",
+      "title": "Banks Want More: Trade Groups Demand Stricter Stablecoin Limits in Clarity Act",
+      "link": "https://decrypt.co/378181/banks-senate-clarity-act-stablecoin-rules-key-vote",
+      "summary": "Eight trade associations say exceptions for interest-like rewards could pull deposits from banks and reduce lending.",
       "source": "Decrypt",
       "date": "2026-09-14",
       "date_human": "Sep 14, 2026",
-      "pub_ts": 1789401745,
+      "pub_ts": 1789422364,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-fundstrat-decrypt-style-02-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/11/tom-lee-fundstrat-decrypt-style-02-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/11/tom-lee-fundstrat-decrypt-style-02-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/us-capitol-decrypt-style-02-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/us-capitol-decrypt-style-02-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/us-capitol-decrypt-style-02-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-14/aebd9c27a110698a_base.jpg",
-      "image_local": "../assets/news/2026-09-14/aebd9c27a110698a_base.jpg"
+      "image": "../assets/news/2026-09-14/f5932214fa239cd9_base.jpg",
+      "image_local": "../assets/news/2026-09-14/f5932214fa239cd9_base.jpg"
     },
     {
-      "title": "Bitmine projects $334M in annual staking revenue from $15.8B crypto treasury",
-      "link": "https://cointelegraph.com/news/bitmine-5-million-eth-staked-334-million-revenue",
-      "summary": "Bitmine now has more than 5 million ETH staked, turning most of its Ether holdings into a recurring income stream as it continues to accumulate.",
-      "source": "Cointelegraph",
-      "date": "2026-09-14",
-      "date_human": "Sep 14, 2026",
-      "pub_ts": 1789401359,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M20KSZECABXAPAY6J96Y7ZX7/hi-the-7-largest-ethereum-treasury-companies-right-now-ranked-by-holdings-bitmine-4.jpg"
-      ],
-      "image": "../assets/news/2026-09-14/127fef7752f29b32_base.jpg",
-      "image_local": "../assets/news/2026-09-14/127fef7752f29b32_base.jpg"
-    },
-    {
-      "title": "Here's what's new in the final CLARITY Act before Tuesday's Senate vote",
-      "link": "https://cryptoslate.com/heres-whats-new-in-the-final-clarity-act-before-tuesdays-senate-vote/",
-      "summary": "Senate Republicans rewrote key parts of the CLARITY Act as they made a final push for Democratic votes Tuesday. “This text is truly bipartisan and includes more than 120 of Democrats’ demands,” Sen. Cynthia Lummis said Monday as she, Senate Banking Committee Chairman Tim Scott and Senate Agriculture Committee Chairman John Boozman released the final […] The post Here’s what’s new in the final CLARITY Act before Tuesday’s Senate vote appeared first on CryptoSlate.",
+      "title": "XRP holders could earn new yield, but getting out may take up to 60 days",
+      "link": "https://cryptoslate.com/xrp-holders-could-earn-new-yield-but-getting-out-may-take-up-to-60-days/",
+      "summary": "Firelight's planned coverage rollout would lengthen withdrawals while eligible claims could reduce exiting collateral after emissions stop. The post XRP holders could earn new yield, but getting out may take up to 60 days appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-14",
       "date_human": "Sep 14, 2026",
-      "pub_ts": 1789400759,
+      "pub_ts": 1789422351,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/clarity-act-vote-showdown.webp"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/xrp-firelight-exit-maze.jpg"
       ],
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/clarity-act-vote-showdown.webp",
-      "image_local": null
+      "image": "../assets/news/2026-09-14/8f1d1cf6d8a694fc_base.jpg",
+      "image_local": "../assets/news/2026-09-14/8f1d1cf6d8a694fc_base.jpg"
     },
     {
-      "title": "Consensus heads to Hong Kong for third year with expanded focus on AI",
-      "link": "https://www.coindesk.com/business/2026/09/14/consensus-heads-to-hong-kong-for-third-straight-year-with-expanded-focus-on-ai",
-      "summary": "Consensus heads to Hong Kong for third year with expanded focus on AI",
-      "source": "CoinDesk",
-      "date": "2026-09-14",
-      "date_human": "Sep 14, 2026",
-      "pub_ts": 1789396676,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/c46cef010628bc34b86ea59cb1f967bfd8041c42-7949x5302.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
-      ],
-      "image": "../assets/news/2026-09-14/f4e5d521a6e50cf4_base.jpg",
-      "image_local": "../assets/news/2026-09-14/f4e5d521a6e50cf4_base.jpg"
-    },
-    {
-      "title": "Strategy Buys Back $139 Million of STRC, Bitcoin Stack Frozen for Second Week",
-      "link": "https://decrypt.co/378134/strategy-buys-139-million-strc-bitcoin-frozen",
-      "summary": "The Bitcoin treasury firm slowed its preferred-stock buyback from last week's $176 million pace and left its 845,050 BTC untouched, per a Monday SEC filing.",
-      "source": "Decrypt",
-      "date": "2026-09-14",
-      "date_human": "Sep 14, 2026",
-      "pub_ts": 1789400506,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/strategy-logo-x-twitter-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/strategy-logo-x-twitter-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/strategy-logo-x-twitter-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-14/87a6dd102d96b01b_base.jpg",
-      "image_local": "../assets/news/2026-09-14/87a6dd102d96b01b_base.jpg"
-    },
-    {
-      "title": "Why are AI's biggest companies suddenly asking to slow down?",
-      "link": "https://cointelegraph.com/magazine/why-are-biggest-ai-companies-suddenly-asking-to-slow-down",
-      "summary": "AI’s biggest labs are suddenly calling for a slower pace of development. Is it because AI risks are catching up with the technology, or because the economics of the race are getting harder to justify?",
+      "title": "Kraken brings DeFi yield to tokenized stocks and ETFs",
+      "link": "https://cointelegraph.com/news/kraken-brings-defi-yield-to-tokenized-stocks-and-etfs",
+      "summary": "Kraken’s new xStocks vaults let investors earn yield on tokenized versions of Nvidia and major US stock market ETFs by lending the assets in DeFi markets.",
       "source": "Cointelegraph",
       "date": "2026-09-14",
       "date_human": "Sep 14, 2026",
-      "pub_ts": 1789399126,
+      "pub_ts": 1789419250,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2G1M9RG81KG7CSFP69XNX5A/hi-what-is-chaosgpt-an-ai-tool-that-wants-to-destroy-humanity.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2GSWMB1C2Z7PZH9MAVV9T6X/hi-crypto-market-trading-1-breaking-news.png"
       ],
-      "image": "../assets/news/2026-09-14/229093712327793f_base.jpg",
-      "image_local": "../assets/news/2026-09-14/229093712327793f_base.jpg"
+      "image": "../assets/news/2026-09-14/25daf27666c3af63_base.jpg",
+      "image_local": "../assets/news/2026-09-14/25daf27666c3af63_base.jpg"
     },
     {
-      "title": "BlackRock's staking Ethereum ETF pays yield but investors still prefer its $9 billion ETHA fund",
-      "link": "https://cryptoslate.com/blackrocks-staking-ethereum-etf-pays-yield-but-investors-still-prefer-its-9-billion-etha-fund/",
-      "summary": "September 11 data show demand for both ETHA and ETHB, with a wide trading gap but similar median spreads. The post BlackRock’s staking Ethereum ETF pays yield but investors still prefer its $9 billion ETHA fund appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-14",
-      "date_human": "Sep 14, 2026",
-      "pub_ts": 1789397453,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/ethereum-etf-balance-scale.jpg"
-      ],
-      "image": "../assets/news/2026-09-14/32039763077067b3_base.jpg",
-      "image_local": "../assets/news/2026-09-14/32039763077067b3_base.jpg"
-    },
-    {
-      "title": "Don't let perfect be the enemy of Clarity",
-      "link": "https://www.coindesk.com/opinion/2026/09/14/don-t-let-perfect-be-the-enemy-of-clarity",
-      "summary": "Don't let perfect be the enemy of Clarity",
+      "title": "Trump's $800 million stake into World Liberty Financial's token now has a timeline to becoming sellable",
+      "link": "https://www.coindesk.com/business/2026/09/14/trump-s-usd800-million-stake-into-world-liberty-financial-s-token-now-has-a-timeline-to-becoming-sellable",
+      "summary": "Trump's $800 million stake into World Liberty Financial's token now has a timeline to becoming sellable",
       "source": "CoinDesk",
       "date": "2026-09-14",
       "date_human": "Sep 14, 2026",
-      "pub_ts": 1789396496,
+      "pub_ts": 1789413718,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/93263e05ad45e28fa5543e92516131ad86036b50-5471x3221.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/799ec82cc06f93430744f2439c852ecaaddad110-7318x4879.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-14/2159822cc412aab7_base.jpg",
-      "image_local": "../assets/news/2026-09-14/2159822cc412aab7_base.jpg"
+      "image": "../assets/news/2026-09-14/dd5b594fbb81e7f2_base.jpg",
+      "image_local": "../assets/news/2026-09-14/dd5b594fbb81e7f2_base.jpg"
     },
     {
-      "title": "Why Trump Backed Tougher Ethics Rules in Clarity Act, and Why the Crypto Industry Thinks It Can Pass",
-      "link": "https://decrypt.co/378125/clarity-act-crypto-ethics-trump-key-vote",
-      "summary": "Republicans' \"last, best and final offer\" wins Trump's backing on stronger ethics rules and concedes on DeFi and stablecoin sticking points, but it's unclear if enough Democrats will cross over Tuesday.",
+      "title": "OpenAI's Sam Altman Warns Humans Could Lose Control of AI",
+      "link": "https://decrypt.co/378179/openai-sam-altman-humans-lose-control-ai",
+      "summary": "The OpenAI chief called for safeguards during training and shared industry standards, saying developers can act before legislation arrives.",
       "source": "Decrypt",
       "date": "2026-09-14",
       "date_human": "Sep 14, 2026",
-      "pub_ts": 1789399371,
+      "pub_ts": 1789420564,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/trump-decrypt-style-01-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/trump-decrypt-style-01-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/trump-decrypt-style-01-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-2-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-2-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-sam-altman-2-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-14/7d4591e7a9a2d643_base.jpg",
-      "image_local": "../assets/news/2026-09-14/7d4591e7a9a2d643_base.jpg"
+      "image": "../assets/news/2026-09-14/64561d745c4bf52b_base.jpg",
+      "image_local": "../assets/news/2026-09-14/64561d745c4bf52b_base.jpg"
+    },
+    {
+      "title": "Aave V4 proposal would put DAO funds first in line to absorb lending losses",
+      "link": "https://cryptoslate.com/aave-v4-proposal-would-put-dao-funds-first-in-line-to-absorb-lending-losses/",
+      "summary": "TokenLogic proposes Core WETH, USDC and USDT protection, with DAO offsets absorbing first losses before volunteer underwriters. The post Aave V4 proposal would put DAO funds first in line to absorb lending losses appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-14",
+      "date_human": "Sep 14, 2026",
+      "pub_ts": 1789419030,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/aave-three-market-shield.jpg"
+      ],
+      "image": "../assets/news/2026-09-14/35b4bfed17728910_base.jpg",
+      "image_local": "../assets/news/2026-09-14/35b4bfed17728910_base.jpg"
     },
     {
       "title": "Here's what happened in crypto today",
@@ -154,7 +110,7 @@
       "source": "Cointelegraph",
       "date": "2026-09-14",
       "date_human": "Sep 14, 2026",
-      "pub_ts": 1789396698,
+      "pub_ts": 1789418498,
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
@@ -162,32 +118,76 @@
       "image_local": "../assets/news/2026-09-14/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "Another Bitcoin liquidity test arrives with Tuesday's US tax deadline",
-      "link": "https://cryptoslate.com/another-bitcoin-liquidity-test-arrives-with-tuesdays-us-tax-deadline/",
-      "summary": "September 15 payments could absorb bank reserves before the Fed decision, while Treasury spending and Fed tools can cushion pressure. The post Another Bitcoin liquidity test arrives with Tuesday’s US tax deadline appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-14",
-      "date_human": "Sep 14, 2026",
-      "pub_ts": 1789393551,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-liquidity-whirlpool.jpg"
-      ],
-      "image": "../assets/news/2026-09-14/7bce82701251ad05_base.jpg",
-      "image_local": "../assets/news/2026-09-14/7bce82701251ad05_base.jpg"
-    },
-    {
-      "title": "Here is the revised Clarity Act ethics provision Donald Trump has agreed to",
-      "link": "https://www.coindesk.com/policy/2026/09/14/here-is-the-revised-clarity-act-ethics-provision-donald-trump-has-agreed-to",
-      "summary": "Here is the revised Clarity Act ethics provision Donald Trump has agreed to",
+      "title": "White House crypto adviser says Trump gave up 'historic' ethics powers in compromise",
+      "link": "https://www.coindesk.com/policy/2026/09/14/white-house-crypto-adviser-says-trump-gave-up-historic-ethics-powers-in-compromise",
+      "summary": "White House crypto adviser says Trump gave up 'historic' ethics powers in compromise",
       "source": "CoinDesk",
       "date": "2026-09-14",
       "date_human": "Sep 14, 2026",
-      "pub_ts": 1789396068,
+      "pub_ts": 1789410849,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/bdc3e99d8e18ce0244ef24e5c52d4f58eb05f3cc-5242x3496.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+        "https://cdn.sanity.io/images/s3y3vcno/production/a557d00cbe2a4f9b6f42b53082f2cd587490332b-4031x2267.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
       ],
-      "image": "../assets/news/2026-09-14/28a6399162400d9e_base.jpg",
-      "image_local": "../assets/news/2026-09-14/28a6399162400d9e_base.jpg"
+      "image": "../assets/news/2026-09-14/c383ac9c9def13c8_base.jpg",
+      "image_local": "../assets/news/2026-09-14/c383ac9c9def13c8_base.jpg"
+    },
+    {
+      "title": "Trump Says He 'Likes' Flock Surveillance Cameras Amid Bipartisan Pushback",
+      "link": "https://decrypt.co/378171/trump-likes-flocks-ai-surveillance-cameras",
+      "summary": "Aboard Air Force One, the president threw his support behind the AI-powered license plate readers that have drawn a Senate investigation and a pledged bill from Bernie Sanders.",
+      "source": "Decrypt",
+      "date": "2026-09-14",
+      "date_human": "Sep 14, 2026",
+      "pub_ts": 1789416461,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-11-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Trump-decrypt-style-11-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/Trump-decrypt-style-11-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-14/f3c2ebfb501a50bc_base.jpg",
+      "image_local": "../assets/news/2026-09-14/f3c2ebfb501a50bc_base.jpg"
+    },
+    {
+      "title": "TRON's quantum plan could leave some wallets able to pay but unable to replace their keys",
+      "link": "https://cryptoslate.com/trons-quantum-plan-could-leave-some-wallets-able-to-pay-but-unable-to-replace-their-keys/",
+      "summary": "If validators disable a signing scheme, the draft design’s recovery path depends on which owner permissions survive. The post TRON’s quantum plan could leave some wallets able to pay but unable to replace their keys appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-14",
+      "date_human": "Sep 14, 2026",
+      "pub_ts": 1789415157,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/tron-quantum-key-risk.jpg"
+      ],
+      "image": "../assets/news/2026-09-14/4bb5695a97dc8a34_base.jpg",
+      "image_local": "../assets/news/2026-09-14/4bb5695a97dc8a34_base.jpg"
+    },
+    {
+      "title": "Bitcoin tops $79K, oil falls as Trump says Iran war could end",
+      "link": "https://cointelegraph.com/markets/bitcoin-passes-79k-oil-prices-cool-on-trump-iran-war-hints",
+      "summary": "Bitcoin’s price rose toward $80,000 after US President Donald Trump hinted that the US-Iran war would end, pushing oil prices lower.",
+      "source": "Cointelegraph",
+      "date": "2026-09-14",
+      "date_human": "Sep 14, 2026",
+      "pub_ts": 1789412188,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2GMDWFDT25SQYFK0HHP7F8E/oil-bitcoin-petrol-2.jpg"
+      ],
+      "image": "../assets/news/2026-09-14/b99fbcefb66488f1_base.jpg",
+      "image_local": "../assets/news/2026-09-14/b99fbcefb66488f1_base.jpg"
+    },
+    {
+      "title": "Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote",
+      "link": "https://www.coindesk.com/policy/2026/09/14/banks-escalate-stablecoin-rewards-fight-as-senate-prepares-for-a-clarity-act-vote",
+      "summary": "Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote",
+      "source": "CoinDesk",
+      "date": "2026-09-14",
+      "date_human": "Sep 14, 2026",
+      "pub_ts": 1789408280,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/251d169e36a7ff197362dfd08f2689e57a408916-5184x3456.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-14/a91bf33c11112280_base.jpg",
+      "image_local": "../assets/news/2026-09-14/a91bf33c11112280_base.jpg"
     }
   ]
 }

@@ -1,0 +1,193 @@
+{
+  "day_iso": "2026-09-15",
+  "generated_at_utc": "2026-09-15 10:05:41 UTC",
+  "source_names": [
+    "CoinDesk",
+    "Cointelegraph",
+    "Decrypt",
+    "CryptoSlate"
+  ],
+  "lookback_hours": [
+    48,
+    72,
+    96,
+    168
+  ],
+  "count": 12,
+  "items": [
+    {
+      "title": "Ethereum, Base wallet standards talks fail, Ethlabs researcher says",
+      "link": "https://cointelegraph.com/news/ethereum-base-wallet-standards-collaboration-breaks",
+      "summary": "Ethereum and Base are pursuing different account abstraction designs after talks failed, according to Ethlabs researcher Derek Chiang.",
+      "source": "Cointelegraph",
+      "date": "2026-09-15",
+      "date_human": "Sep 15, 2026",
+      "pub_ts": 1789465227,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2J4CY20932Q9DX6CEYR4793/robotethereum.jpg"
+      ],
+      "image": "../assets/news/2026-09-15/0fcdb35b1af4ccfc_base.jpg",
+      "image_local": "../assets/news/2026-09-15/0fcdb35b1af4ccfc_base.jpg"
+    },
+    {
+      "title": "The US Bitcoin reserve faces a crucial bipartisan test Wednesday",
+      "link": "https://cryptoslate.com/us-bitcoin-reserve-faces-crucial-bipartisan-test-wednesday/",
+      "summary": "The American Reserve Modernization Act (ARMA) would put the federal government's Bitcoin reserve into law for the first time. But ahead of its first House committee vote on Sept. 16, the bill has attracted just one Democratic cosponsor, and he does not sit on the committee considering it. That goes against Congress's broader crypto push. […] The post The US Bitcoin reserve faces a crucial bipartisan test Wednesday appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-15",
+      "date_human": "Sep 15, 2026",
+      "pub_ts": 1789465226,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-reserve-bridge.webp"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-reserve-bridge.webp",
+      "image_local": null
+    },
+    {
+      "title": "Hong Kong crypto exchange CoinEx to cease operations after 9 years in business",
+      "link": "https://www.coindesk.com/business/2026/09/15/hong-kong-crypto-exchange-coinex-to-cease-operations-after-9-years-in-business",
+      "summary": "Hong Kong crypto exchange CoinEx to cease operations after 9 years in business",
+      "source": "CoinDesk",
+      "date": "2026-09-15",
+      "date_human": "Sep 15, 2026",
+      "pub_ts": 1789464658,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/bd826ce3a449dbf6a021b11b1fd3117ac2127196-2560x1707.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-15/dd05c401164ad7f0_base.jpg",
+      "image_local": "../assets/news/2026-09-15/dd05c401164ad7f0_base.jpg"
+    },
+    {
+      "title": "Strive's Bitcoin Stash Hits an Even 25,000 BTC After $36.6 Million Buy",
+      "link": "https://decrypt.co/378190/strive-bitcoin-25000-btc-after-buy",
+      "summary": "The asset manager funded the entire purchase through preferred stock, pushing SATA's notional value past $1 billion for the first time.",
+      "source": "Decrypt",
+      "date": "2026-09-15",
+      "date_human": "Sep 15, 2026",
+      "pub_ts": 1789462865,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/Bitcoin-decrypt-style-26-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-15/01646b261fcd6859_base.jpg",
+      "image_local": "../assets/news/2026-09-15/01646b261fcd6859_base.jpg"
+    },
+    {
+      "title": "Bitcoin short-term holders hit 30-day profit streak as bull-market odds improve: CryptoQuant",
+      "link": "https://cointelegraph.com/markets/bitcoin-short-term-holders-hit-30-day-profit-streak-as-bull-market-odds-improve-cryptoquant",
+      "summary": "Bitcoin short-term holders approached a full month in partial profit as analysis saw improving odds of an enduring bullish BTC price reversal.",
+      "source": "Cointelegraph",
+      "date": "2026-09-15",
+      "date_human": "Sep 15, 2026",
+      "pub_ts": 1789464631,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2J63GGEEN1J9P0Q9KPEPHYH/hodler-investment-bitcoin.jpg"
+      ],
+      "image": "../assets/news/2026-09-15/8aa8146f856ce7fa_base.jpg",
+      "image_local": "../assets/news/2026-09-15/8aa8146f856ce7fa_base.jpg"
+    },
+    {
+      "title": "Bitcoin self-custody creates a massive cost-basis blind spot on your 2026 crypto tax forms",
+      "link": "https://cryptoslate.com/bitcoin-self-custody-creates-a-massive-cost-basis-blind-spot-on-your-2026-crypto-tax-forms/",
+      "summary": "Under 2026 US rules, transferred coins remain outside mandatory basis reporting even when the investor's purchase cost is unchanged. The post Bitcoin self-custody creates a massive cost-basis blind spot on your 2026 crypto tax forms appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-15",
+      "date_human": "Sep 15, 2026",
+      "pub_ts": 1789461657,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/brave_nK34KL0aD4.jpg"
+      ],
+      "image": "../assets/news/2026-09-15/6e544606f9aee3b7_base.jpg",
+      "image_local": "../assets/news/2026-09-15/6e544606f9aee3b7_base.jpg"
+    },
+    {
+      "title": "Live updates: Bitcoin slides from nearly $80,000 as Senate votes on Clarity Act",
+      "link": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act",
+      "summary": "Live updates: Bitcoin slides from nearly $80,000 as Senate votes on Clarity Act",
+      "source": "CoinDesk",
+      "date": "2026-09-15",
+      "date_human": "Sep 15, 2026",
+      "pub_ts": 1789454244,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/5f892539ae582e2156365547bf09d38cc5a28195-1508x840.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-15/b6ef5b9e96c7cce2_base.jpg",
+      "image_local": "../assets/news/2026-09-15/b6ef5b9e96c7cce2_base.jpg"
+    },
+    {
+      "title": "Banks Want More: Trade Groups Demand Stricter Stablecoin Limits in Clarity Act",
+      "link": "https://decrypt.co/378181/banks-senate-clarity-act-stablecoin-rules-key-vote",
+      "summary": "Eight trade associations say exceptions for interest-like rewards could pull deposits from banks and reduce lending.",
+      "source": "Decrypt",
+      "date": "2026-09-14",
+      "date_human": "Sep 14, 2026",
+      "pub_ts": 1789422364,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/us-capitol-decrypt-style-02-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/us-capitol-decrypt-style-02-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/us-capitol-decrypt-style-02-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-15/f5932214fa239cd9_base.jpg",
+      "image_local": "../assets/news/2026-09-15/f5932214fa239cd9_base.jpg"
+    },
+    {
+      "title": "US seeks $61M in USDT allegedly tied to sanctioned Iranian oil sales",
+      "link": "https://cointelegraph.com/news/doj-61m-usdt-forfeiture-iranian-oil",
+      "summary": "Tether froze $61.19 million across 10 Tron addresses in 2025 that prosecutors allege were connected to black-market Iranian oil proceeds.",
+      "source": "Cointelegraph",
+      "date": "2026-09-15",
+      "date_human": "Sep 15, 2026",
+      "pub_ts": 1789461995,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2J0JSDM845NTQMSBRH4G509/stablecoin-tetherr.png"
+      ],
+      "image": "../assets/news/2026-09-15/2670b965e80446ae_base.jpg",
+      "image_local": "../assets/news/2026-09-15/2670b965e80446ae_base.jpg"
+    },
+    {
+      "title": "Proposed stablecoin rules might guarantee your dollar while making you wait a week to spend it",
+      "link": "https://cryptoslate.com/proposed-stablecoin-rules-might-guarantee-your-dollar-while-making-you-wait-a-week-to-spend-it/",
+      "summary": "Proposed OCC redemption extensions leave buyers and conversion providers to finance an earlier exit when they pay before recovering dollars. The post Proposed stablecoin rules might guarantee your dollar while making you wait a week to spend it appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-15",
+      "date_human": "Sep 15, 2026",
+      "pub_ts": 1789457458,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/brave_ochN637brX.jpg"
+      ],
+      "image": "../assets/news/2026-09-15/c0eef8c94d2714fc_base.jpg",
+      "image_local": "../assets/news/2026-09-15/c0eef8c94d2714fc_base.jpg"
+    },
+    {
+      "title": "XRP Ledger is one vote away from starting its next big payments upgrade",
+      "link": "https://www.coindesk.com/tech/2026/09/15/xrp-ledger-is-one-vote-away-from-starting-its-next-big-payments-upgrade",
+      "summary": "XRP Ledger is one vote away from starting its next big payments upgrade",
+      "source": "CoinDesk",
+      "date": "2026-09-15",
+      "date_human": "Sep 15, 2026",
+      "pub_ts": 1789451921,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/7062083f3eac875ac832f0c15d78be2612e57afe-1440x810.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip"
+      ],
+      "image": "../assets/news/2026-09-15/e12634913bfdd754_base.jpg",
+      "image_local": "../assets/news/2026-09-15/e12634913bfdd754_base.jpg"
+    },
+    {
+      "title": "OpenAI's Sam Altman Warns Humans Could Lose Control of AI",
+      "link": "https://decrypt.co/378179/openai-sam-altman-humans-lose-control-ai",
+      "summary": "The OpenAI chief called for safeguards during training and shared industry standards, saying developers can act before legislation arrives.",
+      "source": "Decrypt",
+      "date": "2026-09-14",
+      "date_human": "Sep 14, 2026",
+      "pub_ts": 1789420564,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-2-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-sam-altman-2-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-sam-altman-2-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-15/64561d745c4bf52b_base.jpg",
+      "image_local": "../assets/news/2026-09-15/64561d745c4bf52b_base.jpg"
+    }
+  ]
+}
