@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-16",
-  "generated_at_utc": "2026-09-16 04:05:56 UTC",
+  "generated_at_utc": "2026-09-16 10:05:56 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,181 +16,181 @@
   "count": 12,
   "items": [
     {
-      "title": "XRP sinks 10% as the Clarity Act fails and bitcoin slides toward $76,000",
-      "link": "https://www.coindesk.com/markets/2026/09/16/xrp-sinks-10-as-the-clarity-act-fails-and-bitcoin-slides-toward-usd76-000",
-      "summary": "XRP sinks 10% as the Clarity Act fails and bitcoin slides toward $76,000",
-      "source": "CoinDesk",
-      "date": "2026-09-16",
-      "date_human": "Sep 16, 2026",
-      "pub_ts": 1789529865,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/55ba2a640cec129eaef5d1af1e6784542f791833-1498x844.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/55ba2a640cec129eaef5d1af1e6784542f791833-1498x844.png?auto=format&q=75"
-      ],
-      "image": "../assets/news/2026-09-16/8ba825c4586e6c9d_base.jpg",
-      "image_local": "../assets/news/2026-09-16/8ba825c4586e6c9d_base.jpg"
-    },
-    {
-      "title": "Crypto industry turns to US regulators after CLARITY setback",
-      "link": "https://cointelegraph.com/news/crypto-industry-turns-to-us-regulators-after-clarity-setback",
-      "summary": "The CLARITY Act still has a procedural path after Senator Thom Tillis moved to reconsider the failed cloture vote, though industry executives are divided over whether Congress has enough time left.",
+      "title": "Italy investigates government email breach linked to Revolut data leak",
+      "link": "https://cointelegraph.com/news/italy-government-email-breach-revolut-data-leak",
+      "summary": "Italy is probing the Revolut-linked breach after its cyber agency reported more than 650 cases involving abused or illicit certified email accounts.",
       "source": "Cointelegraph",
       "date": "2026-09-16",
       "date_human": "Sep 16, 2026",
-      "pub_ts": 1789525447,
+      "pub_ts": 1789552728,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2KZR03KE34Y9VHPZ0JQFRS3/congress.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2MR34XNG4FX52A9ECZQCPR3/11111.png"
       ],
-      "image": "../assets/news/2026-09-16/19d039cc2c7071ca_base.jpg",
-      "image_local": "../assets/news/2026-09-16/19d039cc2c7071ca_base.jpg"
+      "image": "../assets/news/2026-09-16/ac219543364a290c_base.jpg",
+      "image_local": "../assets/news/2026-09-16/ac219543364a290c_base.jpg"
     },
     {
-      "title": "Ripple's university strategy is evolving from blockchain labs to XRP logos in packed stadiums",
-      "link": "https://cryptoslate.com/ripples-university-strategy-is-evolving-from-blockchain-labs-to-xrp-logos-in-packed-stadiums/",
-      "summary": "The 69-day rollout spans Kansas uniforms, Florida’s football field and Louisville basketball, but stops short of token adoption. The post Ripple’s university strategy is evolving from blockchain labs to XRP logos in packed stadiums appeared first on CryptoSlate.",
+      "title": "UK Backs Money Laundering Crackdown With $676M and 500 New Officers",
+      "link": "https://decrypt.co/378337/uk-backs-money-laundering-crackdown-with-676m-and-500-new-officers",
+      "summary": "The Home Office names crypto alongside fintech and AI as drivers of a threat the NCA puts at £100 billion a year in the UK.",
+      "source": "Decrypt",
+      "date": "2026-09-16",
+      "date_human": "Sep 16, 2026",
+      "pub_ts": 1789551713,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/03/UK-Parliament-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/UK-Parliament-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/UK-Parliament-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-16/084d8553ff3f4521_base.jpg",
+      "image_local": "../assets/news/2026-09-16/084d8553ff3f4521_base.jpg"
+    },
+    {
+      "title": "Bitcoin ETF exits erase Monday's rebound as spot selling deepens before the Fed",
+      "link": "https://cryptoslate.com/bitcoin-etf-exits-erase-mondays-rebound-as-spot-selling-deepens-before-the-fed/",
+      "summary": "Spot and perpetual selling deepened while futures positioning stayed large enough to amplify the next move. The post Bitcoin ETF exits erase Monday’s rebound as spot selling deepens before the Fed appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-16",
       "date_human": "Sep 16, 2026",
-      "pub_ts": 1789522828,
+      "pub_ts": 1789549519,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/ripple-louisville-basketball.webp"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-bear-market-pressure.webp"
       ],
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/ripple-louisville-basketball.webp",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-bear-market-pressure.webp",
       "image_local": null
     },
     {
-      "title": "Wall Street Bets on Fed Rate Hike: Here's What It Means for Bitcoin, Bonds and Trump",
-      "link": "https://decrypt.co/378306/wall-street-fed-rate-hike-bitcoin-bonds-trump",
-      "summary": "Nearly every major bank now expects the Fed to raise rates for the first time in three years. Markets have mostly priced it in, but the political fallout could run deeper than one hike.",
-      "source": "Decrypt",
-      "date": "2026-09-15",
-      "date_human": "Sep 15, 2026",
-      "pub_ts": 1789508763,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/08/Federal-Reserve-Bank-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/Federal-Reserve-Bank-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/Federal-Reserve-Bank-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-09-16/339740c0b6289df4_base.jpg",
-      "image_local": "../assets/news/2026-09-16/339740c0b6289df4_base.jpg"
-    },
-    {
-      "title": "Inside the last-minute political breakdown that doomed the Clarity Act vote",
-      "link": "https://www.coindesk.com/news-analysis/2026/09/15/there-were-many-conductors-in-the-derailment-of-the-crypto-industry-s-clarity-act",
-      "summary": "Inside the last-minute political breakdown that doomed the Clarity Act vote",
+      "title": "Ethereum, Base give up on common wallet standard after months of talks",
+      "link": "https://www.coindesk.com/tech/2026/09/16/ethereum-base-give-up-on-common-wallet-standard-after-months-of-talks",
+      "summary": "Ethereum, Base give up on common wallet standard after months of talks",
       "source": "CoinDesk",
-      "date": "2026-09-15",
-      "date_human": "Sep 15, 2026",
-      "pub_ts": 1789509528,
+      "date": "2026-09-16",
+      "date_human": "Sep 16, 2026",
+      "pub_ts": 1789546079,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/f8e9db6032b036eea626f59666fc8e84629ad8d6-1027x576.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/f8e9db6032b036eea626f59666fc8e84629ad8d6-1027x576.png?auto=format&fit=crop&crop=focalpoint&fp-x=0.5597&fp-y=0.693&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/fac8e66ee0cef664e189ed56170a5a95737c7f37-1920x1280.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/fac8e66ee0cef664e189ed56170a5a95737c7f37-1920x1280.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-09-16/882b21677ebc4bbb_base.jpg",
-      "image_local": "../assets/news/2026-09-16/882b21677ebc4bbb_base.jpg"
+      "image": "../assets/news/2026-09-16/8a833bf424026f23_base.jpg",
+      "image_local": "../assets/news/2026-09-16/8a833bf424026f23_base.jpg"
     },
     {
-      "title": "BIS paper finds major gap in Bitcoin onchain transfer estimates",
-      "link": "https://cointelegraph.com/news/bis-paper-finds-major-gap-in-bitcoin-onchain-transfer-estimates",
-      "summary": "A BIS study found widely used crypto metrics can obscure economic activity, with measurement challenges spanning Bitcoin, Ethereum and stablecoins.",
+      "title": "Bitcoin Coinbase Premium hits monthly low as CLARITY Act vote squeezes US demand",
+      "link": "https://cointelegraph.com/markets/bitcoin-coinbase-premium-hits-monthly-low-as-clarity-act-vote-squeezes-us-demand",
+      "summary": "Bitcoin exchange demand on Coinbase declined after the US Senate voted against the CLARITY Act, while traders sent BTC to exchanges at an unrealized loss.",
       "source": "Cointelegraph",
-      "date": "2026-09-15",
-      "date_human": "Sep 15, 2026",
-      "pub_ts": 1789507380,
+      "date": "2026-09-16",
+      "date_human": "Sep 16, 2026",
+      "pub_ts": 1789552516,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2KD2EQC101MZQX67TJ3JJQB/hi-statistical-indicators-for-crypto-investments.png"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2MT4V83BPCA5X7B3XFWNYE8/hi-crypto-derivatives-are-now-available-how-much-interest-is-there-for-us-coinbase.jpg"
       ],
-      "image": "../assets/news/2026-09-16/3e8b8d72d57537f5_base.jpg",
-      "image_local": "../assets/news/2026-09-16/3e8b8d72d57537f5_base.jpg"
+      "image": "../assets/news/2026-09-16/8c86665b651aa83c_base.jpg",
+      "image_local": "../assets/news/2026-09-16/8c86665b651aa83c_base.jpg"
     },
     {
-      "title": "Congress wants to make crypto easier to use and still collect $500 million more in taxes",
-      "link": "https://cryptoslate.com/congress-wants-to-make-crypto-easier-to-use-and-still-collect-500-million-more-in-taxes/",
-      "summary": "H.R. 10357 would ease payments, fees and qualifying loans while widening loss-deferral and trader-accounting rules. The post Congress wants to make crypto easier to use and still collect $500 million more in taxes appeared first on CryptoSlate.",
+      "title": "Tonkeeper Becomes Keeper as Wallet Adds Bitcoin, Ethereum, and Tron",
+      "link": "https://decrypt.co/378265/tonkeeper-keeper-adds-bitcoin-ethereum-tron",
+      "summary": "The self-custodial wallet is expanding beyond The Open Network, with support for seven blockchains and more financial products planned.",
+      "source": "Decrypt",
+      "date": "2026-09-16",
+      "date_human": "Sep 16, 2026",
+      "pub_ts": 1789549263,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/05/toncoin-ton-decrypt-style-1-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/05/toncoin-ton-decrypt-style-1-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/05/toncoin-ton-decrypt-style-1-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-16/4a3c8fb2b59335ed_base.jpg",
+      "image_local": "../assets/news/2026-09-16/4a3c8fb2b59335ed_base.jpg"
+    },
+    {
+      "title": "Bitcoin drops below $76,000 as Senate rejects CLARITY Act motion",
+      "link": "https://cryptoslate.com/bitcoin-drops-below-76000-as-senate-rejects-clarity-act-motion/",
+      "summary": "The 49-50 cloture defeat stalled the bill, while the crypto selloff and liquidations had already begun before the vote. The post Bitcoin drops below $76,000 as Senate rejects CLARITY Act motion appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-16",
       "date_human": "Sep 16, 2026",
-      "pub_ts": 1789518034,
+      "pub_ts": 1789547430,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/crypto-tax-relief-bridge.webp"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-clarity-vote-pressure-standard-image.jpg"
       ],
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/crypto-tax-relief-bridge.webp",
-      "image_local": null
+      "image": "../assets/news/2026-09-16/c06178ae23ab9c44_base.jpg",
+      "image_local": "../assets/news/2026-09-16/c06178ae23ab9c44_base.jpg"
     },
     {
-      "title": "Coinbase-Backed Crypto Group Warns of Midterms Payback After Clarity Act Fails",
-      "link": "https://decrypt.co/378303/coinbase-crypto-group-midterms-vote-clarity-act",
-      "summary": "The Coinbase-backed Stand With Crypto will add senators’ votes to its scorecards as it rallies crypto voters ahead of November’s elections.",
-      "source": "Decrypt",
-      "date": "2026-09-15",
-      "date_human": "Sep 15, 2026",
-      "pub_ts": 1789506606,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/US-Capitol-decrypt-style-03-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/US-Capitol-decrypt-style-03-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/US-Capitol-decrypt-style-03-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-16/2efb3ed07880459e_base.jpg",
-      "image_local": "../assets/news/2026-09-16/2efb3ed07880459e_base.jpg"
-    },
-    {
-      "title": "Crypto stocks sink after Senate rejects Clarity Act",
-      "link": "https://www.coindesk.com/markets/2026/09/15/crypto-stocks-sink-after-senate-rejects-clarity-act",
-      "summary": "Crypto stocks sink after Senate rejects Clarity Act",
+      "title": "Fed meeting is shaping up to be a nightmare for Warsh. Bitcoin might still shine",
+      "link": "https://www.coindesk.com/markets/2026/09/16/fed-meeting-is-shaping-up-to-be-a-nightmare-for-warsh-bitcoin-might-still-shine",
+      "summary": "Fed meeting is shaping up to be a nightmare for Warsh. Bitcoin might still shine",
       "source": "CoinDesk",
-      "date": "2026-09-15",
-      "date_human": "Sep 15, 2026",
-      "pub_ts": 1789502597,
+      "date": "2026-09-16",
+      "date_human": "Sep 16, 2026",
+      "pub_ts": 1789540942,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/c7d242469e65ee7e6f0e9ceac50286334728802f-5458x3638.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/c7d242469e65ee7e6f0e9ceac50286334728802f-5458x3638.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/8c113b39af04fe5a9700ed1765841f345087018a-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/8c113b39af04fe5a9700ed1765841f345087018a-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-09-16/7672979ee0fd7177_base.jpg",
-      "image_local": "../assets/news/2026-09-16/7672979ee0fd7177_base.jpg"
+      "image": "../assets/news/2026-09-16/bd4843eb019bad5a_base.jpg",
+      "image_local": "../assets/news/2026-09-16/bd4843eb019bad5a_base.jpg"
     },
     {
-      "title": "Crypto stocks slide after CLARITY Act fails to advance in Senate",
-      "link": "https://cointelegraph.com/markets/crypto-stocks-slide-after-clarity-act-fails-to-advance-in-senate",
-      "summary": "Circle and Coinbase shares fell about 10% as the failed Senate vote weighed on crypto-linked equities, with Bitcoin miners and treasury companies also declining.",
+      "title": "ECB seeks online merchants for 2027 digital euro pilot",
+      "link": "https://cointelegraph.com/news/ecb-online-merchants-2027-digital-euro-pilot",
+      "summary": "Euro-area online and mobile merchants can apply until Oct. 27 to test beta digital euro payments in a 12-month pilot.",
       "source": "Cointelegraph",
-      "date": "2026-09-15",
-      "date_human": "Sep 15, 2026",
-      "pub_ts": 1789504654,
+      "date": "2026-09-16",
+      "date_human": "Sep 16, 2026",
+      "pub_ts": 1789547804,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2KBJH6XJV6JTEGJY5Q2A9NA/hi-intel-research.png"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2MM52JKJD0W2B0RMKWYF0RK/euro-pilot.png"
       ],
-      "image": "../assets/news/2026-09-16/8e3fa4d1b4a48209_base.jpg",
-      "image_local": "../assets/news/2026-09-16/8e3fa4d1b4a48209_base.jpg"
+      "image": "../assets/news/2026-09-16/f337699953aa7f89_base.jpg",
+      "image_local": "../assets/news/2026-09-16/f337699953aa7f89_base.jpg"
     },
     {
-      "title": "Tether, Binance and a $1.5 billion Iran oil network converge in new US forfeiture case",
-      "link": "https://cryptoslate.com/tether-binance-and-a-1-5-billion-iran-oil-network-converge-in-new-us-forfeiture-case/",
-      "summary": "The September 14 complaint targets ten Tron addresses frozen in 2025 and outlines a planned transfer into FBI custody. The post Tether, Binance and a $1.5 billion Iran oil network converge in new US forfeiture case appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-15",
-      "date_human": "Sep 15, 2026",
-      "pub_ts": 1789513236,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/iran-oil-crypto-network.webp"
-      ],
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/iran-oil-crypto-network.webp",
-      "image_local": null
-    },
-    {
-      "title": "OpenAI's Brockman Says Safety Concerns Have Already Slowed Its Most Advanced AI Work",
-      "link": "https://decrypt.co/378300/openai-safety-concerns-slowed-most-advanced-ai-work",
-      "summary": "Greg Brockman says OpenAI delayed launches and reworked its processes after a pre-release model broke out of a sandbox and hacked into Hugging Face.",
+      "title": "Crypto Exchange CoinEx Is Shutting Down After Nine Years, Giving Users Until December to Cash Out",
+      "link": "https://decrypt.co/378324/coinex-shutting-down",
+      "summary": "The Hong Kong-founded exchange blamed a prolonged crypto winter and rising compliance costs, closing the books on a run that began in December 2017.",
       "source": "Decrypt",
-      "date": "2026-09-15",
-      "date_human": "Sep 15, 2026",
-      "pub_ts": 1789502959,
+      "date": "2026-09-16",
+      "date_human": "Sep 16, 2026",
+      "pub_ts": 1789545663,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/02/closed-sign-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/closed-sign-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/02/closed-sign-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-16/10a1cb412597c685_base.jpg",
-      "image_local": "../assets/news/2026-09-16/10a1cb412597c685_base.jpg"
+      "image": "../assets/news/2026-09-16/140d21d0cfb2326d_base.jpg",
+      "image_local": "../assets/news/2026-09-16/140d21d0cfb2326d_base.jpg"
+    },
+    {
+      "title": "A $100 million launch balance doesn't mean a crypto ETF has real investors",
+      "link": "https://cryptoslate.com/a-100-million-launch-balance-doesnt-mean-a-crypto-etf-has-real-investors/",
+      "summary": "Sponsor-funded seed can swell opening assets before creations, redemptions and persistent capital reveal whether investors followed. The post A $100 million launch balance doesn’t mean a crypto ETF has real investors appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-16",
+      "date_human": "Sep 16, 2026",
+      "pub_ts": 1789544450,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/etf-launch-aum-seed-capital-standard-image.jpg"
+      ],
+      "image": "../assets/news/2026-09-16/d6f84f048422c8b9_base.jpg",
+      "image_local": "../assets/news/2026-09-16/d6f84f048422c8b9_base.jpg"
+    },
+    {
+      "title": "Zcash holders overwhelmingly back faster transactions and bitcoin-style halvings",
+      "link": "https://www.coindesk.com/tech/2026/09/16/zcash-holders-overwhelmingly-back-faster-transactions-and-bitcoin-style-halvings",
+      "summary": "Zcash holders overwhelmingly back faster transactions and bitcoin-style halvings",
+      "source": "CoinDesk",
+      "date": "2026-09-16",
+      "date_human": "Sep 16, 2026",
+      "pub_ts": 1789538044,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/6359a9ff83ee7ba7465c0ff2289cb8ae23e7ac43-1500x1000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/6359a9ff83ee7ba7465c0ff2289cb8ae23e7ac43-1500x1000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-09-16/491a3742c1f072b8_base.jpg",
+      "image_local": "../assets/news/2026-09-16/491a3742c1f072b8_base.jpg"
     }
   ]
 }
