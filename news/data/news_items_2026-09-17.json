@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-17",
-  "generated_at_utc": "2026-09-17 04:06:01 UTC",
+  "generated_at_utc": "2026-09-17 10:06:07 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,32 +16,32 @@
   "count": 12,
   "items": [
     {
-      "title": "Ethereum's client diversity picture fractures under incompatible estimates",
-      "link": "https://cryptoslate.com/ethereums-client-diversity-picture-fractures-under-incompatible-estimates/",
-      "summary": "Client estimates already disagree, while daily key rotation could weaken the public traces used to detect concentrated risk. The post Ethereum’s client diversity picture fractures under incompatible estimates appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-17",
-      "date_human": "Sep 17, 2026",
-      "pub_ts": 1789615837,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/brave_yU2ZX1xZdq.jpg"
-      ],
-      "image": "../assets/news/2026-09-17/5944256198a13c94_base.jpg",
-      "image_local": "../assets/news/2026-09-17/5944256198a13c94_base.jpg"
-    },
-    {
-      "title": "Bitcoin absorbs Fed rate hike as officials see more tightening",
-      "link": "https://cointelegraph.com/markets/bitcoin-absorbs-fed-rate-hike-as-officials-see-more-tightening",
-      "summary": "Bitcoin showed little immediate reaction to the Fed’s first rate increase since 2023, but 16 of 18 officials expect at least one more hike before the end of the year.",
+      "title": "Revolut says no direct contact after $3 million public ransom demand",
+      "link": "https://cointelegraph.com/news/revolut-data-breach-monero-ransom-no-direct-contact",
+      "summary": "Revolut says it received no direct contact despite separate ransom demands for $3 million in Monero and 10,000 Bitcoin from competing breach claimants.",
       "source": "Cointelegraph",
       "date": "2026-09-17",
       "date_human": "Sep 17, 2026",
-      "pub_ts": 1789613528,
+      "pub_ts": 1789639071,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2PM955XFQTW2Q74Q14WCFR2/fed.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2Q83QQQWRKSXT4SW5VX5T0H/man-hacker-breaking-blockchain-2.jpg"
       ],
-      "image": "../assets/news/2026-09-17/679626f625fadc11_base.jpg",
-      "image_local": "../assets/news/2026-09-17/679626f625fadc11_base.jpg"
+      "image": "../assets/news/2026-09-17/f0dddc3ac1272416_base.jpg",
+      "image_local": "../assets/news/2026-09-17/f0dddc3ac1272416_base.jpg"
+    },
+    {
+      "title": "Bitcoin holds $76,000 after Fed rate hike, but 4 demand signals flash warning",
+      "link": "https://cryptoslate.com/bitcoin-holds-76000-after-fed-rate-hike-but-4-demand-signals-flash-warning/",
+      "summary": "Bitcoin fell to an intraday low of $75,064.82 on Sept. 16, but recovered and reclaimed the $76,000 zone after Fed Chair Kevin Warsh's press conference wrapped up. The S&P 500 fell roughly 0.7%, the Dow dropped 1.2%, and the 2-year Treasury yield climbed to 4.734% in the same window, while Bitcoin held its ground. Warsh's […] The post Bitcoin holds $76,000 after Fed rate hike, but 4 demand signals flash warning appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789637453,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-fed-showdown.webp"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-fed-showdown.webp",
+      "image_local": null
     },
     {
       "title": "Crypto Tax Bill Clears House Committee After Clarity Act Setback",
@@ -75,32 +75,32 @@
       "image_local": "../assets/news/2026-09-17/1db6dbfa9427f9e0_base.jpg"
     },
     {
-      "title": "Circle opens Arc mainnet as it seeks an edge for USDC utility",
-      "link": "https://cryptoslate.com/circle-opens-arc-mainnet-as-it-seeks-an-edge-for-usdc-utility/",
-      "summary": "The network uses one USDC balance for payments and fees, but catching its rival depends on additional demand. The post Circle opens Arc mainnet as it seeks an edge for USDC utility appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-17",
-      "date_human": "Sep 17, 2026",
-      "pub_ts": 1789609826,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/brave_BxDNX9Gb3M.jpg"
-      ],
-      "image": "../assets/news/2026-09-17/1e98425f30f46bb7_base.jpg",
-      "image_local": "../assets/news/2026-09-17/1e98425f30f46bb7_base.jpg"
-    },
-    {
-      "title": "US lawmakers advance bill to lock Trump's Bitcoin reserve into law",
-      "link": "https://cointelegraph.com/news/us-bitcoin-reserve-bill-passes-house-committee",
-      "summary": "The legislation seeks to codify Trump’s Bitcoin reserve policy, locking up Bitcoin acquired through civil and criminal forfeiture for 20 years.",
+      "title": "Polymarket users referred to prosecutors in South Korea: Report",
+      "link": "https://cointelegraph.com/news/south-korea-polymarket-users-prosecutors-gambling-probe",
+      "summary": "South Korean police reportedly referred 18 Polymarket users to prosecutors in a gambling probe involving 26 people and $12.7 million in bets.",
       "source": "Cointelegraph",
       "date": "2026-09-17",
       "date_human": "Sep 17, 2026",
-      "pub_ts": 1789604624,
+      "pub_ts": 1789637852,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2PBVVSYAZJ83B7SZQBHEASY/bitcoin-3.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2Q8HM2XMP2QNNDJSY3Y2316/hi-polymarket-ban-sk.png"
       ],
-      "image": "../assets/news/2026-09-17/844916d41561cf1d_base.jpg",
-      "image_local": "../assets/news/2026-09-17/844916d41561cf1d_base.jpg"
+      "image": "../assets/news/2026-09-17/023ad2da5e4802e4_base.jpg",
+      "image_local": "../assets/news/2026-09-17/023ad2da5e4802e4_base.jpg"
+    },
+    {
+      "title": "Chainflip to reset TRON USDT provider balances to zero following $736,000 exploit",
+      "link": "https://cryptoslate.com/chainflip-to-reset-tron-usdt-provider-balances-to-zero-following-736000-exploit/",
+      "summary": "Providers retain a separate on-chain record of what they are owed, but Chainflip has not disclosed repayment timing. The post Chainflip to reset TRON USDT provider balances to zero following $736,000 exploit appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789632008,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/chainflip-tron-usdt-recovery-standard-image.jpg"
+      ],
+      "image": "../assets/news/2026-09-17/85357f318fffa7b5_base.jpg",
+      "image_local": "../assets/news/2026-09-17/85357f318fffa7b5_base.jpg"
     },
     {
       "title": "Meta May Have Found a Fix for Its 'Pervert Glasses'",
@@ -134,32 +134,32 @@
       "image_local": "../assets/news/2026-09-17/4068f242514fb76f_base.jpg"
     },
     {
-      "title": "ECB opens merchant applications for controlled 2027 digital euro pilot",
-      "link": "https://cryptoslate.com/ecb-opens-merchant-applications-for-controlled-2027-digital-euro-pilot/",
-      "summary": "Online merchants can apply by Oct. 27 for the controlled 2027 pilot, while issuance remains contingent on EU legislation. The post ECB opens merchant applications for controlled 2027 digital euro pilot appeared first on CryptoSlate.",
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789624891,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-09-17/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-17/57bd1a60f4d67ba1_base.jpg"
+    },
+    {
+      "title": "Avalanche's Helicon upgrade cuts validator lockups from 14 days to 48 hours",
+      "link": "https://cryptoslate.com/avalanches-helicon-upgrade-cuts-validator-lockups-from-14-days-to-48-hours/",
+      "summary": "Scheduled for Sept. 22, the upgrade adds validator auto-renewal while making full cycle rewards harder to secure. The post Avalanche’s Helicon upgrade cuts validator lockups from 14 days to 48 hours appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-17",
       "date_human": "Sep 17, 2026",
-      "pub_ts": 1789604431,
+      "pub_ts": 1789623612,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/brave_7z866tJp93.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/avalanche-helicon-validator-loop-standard-image.jpg"
       ],
-      "image": "../assets/news/2026-09-17/ab1ac329379a826d_base.jpg",
-      "image_local": "../assets/news/2026-09-17/ab1ac329379a826d_base.jpg"
-    },
-    {
-      "title": "CLARITY Act could get another shot during lame-duck session, policy advocate says",
-      "link": "https://cointelegraph.com/news/clarity-act-could-get-another-shot-during-lame-duck-session-policy-advocate-says",
-      "summary": "Digital Sovereignty Alliance managing director Adrian Wall said senators from both parties are considering another attempt to advance the crypto market structure bill before the current Congress ends.",
-      "source": "Cointelegraph",
-      "date": "2026-09-16",
-      "date_human": "Sep 16, 2026",
-      "pub_ts": 1789591898,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2NY2SA6460QWXX3EP9NYFFC/hi-us-senate-infrastructure-bill-doom-and-gloom-for-memecoin-trump-2.png"
-      ],
-      "image": "../assets/news/2026-09-17/fae5a14cb6711152_base.jpg",
-      "image_local": "../assets/news/2026-09-17/fae5a14cb6711152_base.jpg"
+      "image": "../assets/news/2026-09-17/fc4563c539cf1160_base.jpg",
+      "image_local": "../assets/news/2026-09-17/fc4563c539cf1160_base.jpg"
     },
     {
       "title": "OpenAI's Rogue AI Agents Were Probing Hugging Face Two Months Before Hack",
