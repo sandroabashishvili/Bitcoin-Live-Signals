@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-17",
-  "generated_at_utc": "2026-09-17 10:06:07 UTC",
+  "generated_at_utc": "2026-09-17 16:06:12 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,122 +16,63 @@
   "count": 12,
   "items": [
     {
-      "title": "Revolut says no direct contact after $3 million public ransom demand",
-      "link": "https://cointelegraph.com/news/revolut-data-breach-monero-ransom-no-direct-contact",
-      "summary": "Revolut says it received no direct contact despite separate ransom demands for $3 million in Monero and 10,000 Bitcoin from competing breach claimants.",
+      "title": "Zcash miner Fortitude taps former Hut 8 CEO to lead ahead of public listing",
+      "link": "https://cointelegraph.com/news/former-hut-8-ceo-jaime-leverton-to-lead-zcash-miner-fortitude-ahead-of-nasdaq-listing",
+      "summary": "Former Hut 8 CEO Jaime Leverton will take the helm at Fortitude as the Zcash-focused miner expands its operations and moves toward a planned public listing.",
       "source": "Cointelegraph",
       "date": "2026-09-17",
       "date_human": "Sep 17, 2026",
-      "pub_ts": 1789639071,
+      "pub_ts": 1789660713,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2Q83QQQWRKSXT4SW5VX5T0H/man-hacker-breaking-blockchain-2.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2QZ8PA38PE2N6K2QE0N13TT/hi-top-5-biggest-mining-farms-zcash-2.jpg"
       ],
-      "image": "../assets/news/2026-09-17/f0dddc3ac1272416_base.jpg",
-      "image_local": "../assets/news/2026-09-17/f0dddc3ac1272416_base.jpg"
+      "image": "../assets/news/2026-09-17/9c89e814559f7e86_base.jpg",
+      "image_local": "../assets/news/2026-09-17/9c89e814559f7e86_base.jpg"
     },
     {
-      "title": "Bitcoin holds $76,000 after Fed rate hike, but 4 demand signals flash warning",
-      "link": "https://cryptoslate.com/bitcoin-holds-76000-after-fed-rate-hike-but-4-demand-signals-flash-warning/",
-      "summary": "Bitcoin fell to an intraday low of $75,064.82 on Sept. 16, but recovered and reclaimed the $76,000 zone after Fed Chair Kevin Warsh's press conference wrapped up. The S&P 500 fell roughly 0.7%, the Dow dropped 1.2%, and the 2-year Treasury yield climbed to 4.734% in the same window, while Bitcoin held its ground. Warsh's […] The post Bitcoin holds $76,000 after Fed rate hike, but 4 demand signals flash warning appeared first on CryptoSlate.",
+      "title": "Cardano's Splash fix patches the exploit, but leaves 2.4M ADA missing and holders trapped",
+      "link": "https://cryptoslate.com/cardanos-splash-fix-patches-the-exploit-but-leaves-2-4m-ada-missing-and-holders-trapped/",
+      "summary": "The exploit drained 2.42 million ADA net, while OADA lacks protocol redemption and faces a thin-pool overhang. The post Cardano’s Splash fix patches the exploit, but leaves 2.4M ADA missing and holders trapped appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-17",
       "date_human": "Sep 17, 2026",
-      "pub_ts": 1789637453,
+      "pub_ts": 1789659948,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-fed-showdown.webp"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/locked-ada-exit.webp"
       ],
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-fed-showdown.webp",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/locked-ada-exit.webp",
       "image_local": null
     },
     {
-      "title": "Crypto Tax Bill Clears House Committee After Clarity Act Setback",
-      "link": "https://decrypt.co/378449/crypto-tax-bill-clears-house-committee",
-      "summary": "The bill would exempt qualifying crypto fees from gain-or-loss calculations and restrict tax-loss deductions on tokens sold and quickly repurchased.",
+      "title": "FCA Targets Three More London Sites Over Unregistered P2P Crypto Trading",
+      "link": "https://decrypt.co/378495/fca-targets-three-more-london-sites-over-unregistered-p2p-crypto-trading",
+      "summary": "\"Anyone running an unregistered peer-to-peer crypto business should assume we are looking at them,\" the FCA's enforcement chief said.",
       "source": "Decrypt",
-      "date": "2026-09-16",
-      "date_human": "Sep 16, 2026",
-      "pub_ts": 1789595163,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/08/us-capitol-decrypt-style-02-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/us-capitol-decrypt-style-02-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/us-capitol-decrypt-style-02-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-09-17/f5932214fa239cd9_base.jpg",
-      "image_local": "../assets/news/2026-09-17/f5932214fa239cd9_base.jpg"
-    },
-    {
-      "title": "Revolut hackers demand $3 million in Monero, threaten to sell customer data",
-      "link": "https://www.coindesk.com/markets/2026/09/16/revolut-hackers-demand-usd3-million-in-monero-threaten-to-sell-customer-data",
-      "summary": "Revolut hackers demand $3 million in Monero, threaten to sell customer data",
-      "source": "CoinDesk",
-      "date": "2026-09-16",
-      "date_human": "Sep 16, 2026",
-      "pub_ts": 1789585654,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/b08655496c72c8658f860327377b4fc4bb202061-1500x903.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/b08655496c72c8658f860327377b4fc4bb202061-1500x903.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-09-17/1db6dbfa9427f9e0_base.jpg",
-      "image_local": "../assets/news/2026-09-17/1db6dbfa9427f9e0_base.jpg"
-    },
-    {
-      "title": "Polymarket users referred to prosecutors in South Korea: Report",
-      "link": "https://cointelegraph.com/news/south-korea-polymarket-users-prosecutors-gambling-probe",
-      "summary": "South Korean police reportedly referred 18 Polymarket users to prosecutors in a gambling probe involving 26 people and $12.7 million in bets.",
-      "source": "Cointelegraph",
       "date": "2026-09-17",
       "date_human": "Sep 17, 2026",
-      "pub_ts": 1789637852,
+      "pub_ts": 1789658479,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2Q8HM2XMP2QNNDJSY3Y2316/hi-polymarket-ban-sk.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/09/uk-police-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/uk-police-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/uk-police-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-17/023ad2da5e4802e4_base.jpg",
-      "image_local": "../assets/news/2026-09-17/023ad2da5e4802e4_base.jpg"
+      "image": "../assets/news/2026-09-17/783602ae1ae93de6_base.jpg",
+      "image_local": "../assets/news/2026-09-17/783602ae1ae93de6_base.jpg"
     },
     {
-      "title": "Chainflip to reset TRON USDT provider balances to zero following $736,000 exploit",
-      "link": "https://cryptoslate.com/chainflip-to-reset-tron-usdt-provider-balances-to-zero-following-736000-exploit/",
-      "summary": "Providers retain a separate on-chain record of what they are owed, but Chainflip has not disclosed repayment timing. The post Chainflip to reset TRON USDT provider balances to zero following $736,000 exploit appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
+      "title": "Clarity Act failure may hamper U.S. crypto as industry seeks legal clarity elsewhere",
+      "link": "https://www.coindesk.com/policy/2026/09/17/crypto-industry-leaders-debate-who-the-winners-and-losers-of-the-clarity-act-vote-failure-are",
+      "summary": "Clarity Act failure may hamper U.S. crypto as industry seeks legal clarity elsewhere",
+      "source": "CoinDesk",
       "date": "2026-09-17",
       "date_human": "Sep 17, 2026",
-      "pub_ts": 1789632008,
+      "pub_ts": 1789656658,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/chainflip-tron-usdt-recovery-standard-image.jpg"
+        "https://cdn.sanity.io/images/s3y3vcno/production/822b54f142ab14b2c15954a87529a4bed9d926aa-5107x3405.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/822b54f142ab14b2c15954a87529a4bed9d926aa-5107x3405.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-09-17/85357f318fffa7b5_base.jpg",
-      "image_local": "../assets/news/2026-09-17/85357f318fffa7b5_base.jpg"
-    },
-    {
-      "title": "Meta May Have Found a Fix for Its 'Pervert Glasses'",
-      "link": "https://decrypt.co/378448/meta-fix-pervert-glasses",
-      "summary": "Meta is reportedly developing a version of its smart glasses without a camera, potentially addressing one of the biggest privacy objections to AI wearables.",
-      "source": "Decrypt",
-      "date": "2026-09-16",
-      "date_human": "Sep 16, 2026",
-      "pub_ts": 1789593363,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/06/meta-logo-decrypt-style-1-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/meta-logo-decrypt-style-1-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/meta-logo-decrypt-style-1-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-17/3d91b901506bd642_base.jpg",
-      "image_local": "../assets/news/2026-09-17/3d91b901506bd642_base.jpg"
-    },
-    {
-      "title": "Fed raises rates by 25 basis points in first hike since July 2023",
-      "link": "https://www.coindesk.com/markets/2026/09/16/fed-raises-rates-by-25-basis-points-in-first-hike-since-july-2023",
-      "summary": "Fed raises rates by 25 basis points in first hike since July 2023",
-      "source": "CoinDesk",
-      "date": "2026-09-16",
-      "date_human": "Sep 16, 2026",
-      "pub_ts": 1789581295,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/91249261c4cf7e9e62ee5838d44d8d8de8253080-1920x1000.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/91249261c4cf7e9e62ee5838d44d8d8de8253080-1920x1000.png?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-09-17/4068f242514fb76f_base.jpg",
-      "image_local": "../assets/news/2026-09-17/4068f242514fb76f_base.jpg"
+      "image": "../assets/news/2026-09-17/0968f073bfafeee1_base.jpg",
+      "image_local": "../assets/news/2026-09-17/0968f073bfafeee1_base.jpg"
     },
     {
       "title": "Here's what happened in crypto today",
@@ -140,7 +81,7 @@
       "source": "Cointelegraph",
       "date": "2026-09-17",
       "date_human": "Sep 17, 2026",
-      "pub_ts": 1789624891,
+      "pub_ts": 1789653194,
       "image_candidates": [
         "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
@@ -148,49 +89,108 @@
       "image_local": "../assets/news/2026-09-17/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "Avalanche's Helicon upgrade cuts validator lockups from 14 days to 48 hours",
-      "link": "https://cryptoslate.com/avalanches-helicon-upgrade-cuts-validator-lockups-from-14-days-to-48-hours/",
-      "summary": "Scheduled for Sept. 22, the upgrade adds validator auto-renewal while making full cycle rewards harder to secure. The post Avalanche’s Helicon upgrade cuts validator lockups from 14 days to 48 hours appeared first on CryptoSlate.",
+      "title": "Lawmakers pass bill to freeze federal Bitcoin holdings for two decades",
+      "link": "https://cryptoslate.com/lawmakers-pass-bill-to-freeze-federal-bitcoin-holdings-for-two-decades/",
+      "summary": "ARMA would lock qualifying reserve Bitcoin in place from enactment and require annual audited reporting, while purchases remain a study. The post Lawmakers pass bill to freeze federal Bitcoin holdings for two decades appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-17",
       "date_human": "Sep 17, 2026",
-      "pub_ts": 1789623612,
+      "pub_ts": 1789655416,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/avalanche-helicon-validator-loop-standard-image.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-reserve-treasury-records.webp"
       ],
-      "image": "../assets/news/2026-09-17/fc4563c539cf1160_base.jpg",
-      "image_local": "../assets/news/2026-09-17/fc4563c539cf1160_base.jpg"
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-reserve-treasury-records.webp",
+      "image_local": null
     },
     {
-      "title": "OpenAI's Rogue AI Agents Were Probing Hugging Face Two Months Before Hack",
-      "link": "https://decrypt.co/378446/openai-rogue-agents-hugging-face-two-months-before-hack",
-      "summary": "An independent researcher found the agents hijacked Hugging Face accounts and mapped the platform's defenses as early as May 13—activity OpenAI's own incident report never fully described.",
+      "title": "SEC Clears a Path for Tokenized Stocks After Clarity Act Stumbles",
+      "link": "https://decrypt.co/378492/sec-innovation-exemption-tokenized-stocks-clarity-act",
+      "summary": "The \"innovation exemption\" lets qualifying venues trade tokenized versions of U.S. stocks on public blockchains without registering as exchanges—though it excludes price-tracking \"synthetics\" and lets companies block tokenization of their shares.",
       "source": "Decrypt",
-      "date": "2026-09-16",
-      "date_human": "Sep 16, 2026",
-      "pub_ts": 1789590663,
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789656723,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/08/Open-AI-decrypt-style-01-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/Open-AI-decrypt-style-01-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/Open-AI-decrypt-style-01-gID_7.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/08/paul-atkins-decrypt-style-01-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/paul-atkins-decrypt-style-01-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/paul-atkins-decrypt-style-01-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-17/ae0c742fb89be630_base.jpg",
-      "image_local": "../assets/news/2026-09-17/ae0c742fb89be630_base.jpg"
+      "image": "../assets/news/2026-09-17/dd45533ec175f94c_base.jpg",
+      "image_local": "../assets/news/2026-09-17/dd45533ec175f94c_base.jpg"
     },
     {
-      "title": "Celsius sues BitMEX for $495 million over 2020 crash liquidations",
-      "link": "https://www.coindesk.com/business/2026/09/16/celsius-sues-bitmex-for-usd495-million-over-2020-crash-liquidations",
-      "summary": "Celsius sues BitMEX for $495 million over 2020 crash liquidations",
+      "title": "Ratings giant S&P Global acquires OpenZeppelin in tokenized finance risk push",
+      "link": "https://www.coindesk.com/business/2026/09/17/ratings-giant-s-and-p-global-acquires-openzeppelin-in-tokenized-finance-risk-push",
+      "summary": "Ratings giant S&P Global acquires OpenZeppelin in tokenized finance risk push",
       "source": "CoinDesk",
-      "date": "2026-09-16",
-      "date_human": "Sep 16, 2026",
-      "pub_ts": 1789580044,
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789650921,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/60aebd54ba86be12588505ff7b7b03b2e32c2fa1-1200x807.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/60aebd54ba86be12588505ff7b7b03b2e32c2fa1-1200x807.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/8124d5817232e2a5c9bb3d2dd20a5d30b0f10d51-1264x711.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/8124d5817232e2a5c9bb3d2dd20a5d30b0f10d51-1264x711.jpg?auto=format&q=75"
       ],
-      "image": "../assets/news/2026-09-17/54da8d0b4556e2a6_base.jpg",
-      "image_local": "../assets/news/2026-09-17/54da8d0b4556e2a6_base.jpg"
+      "image": "../assets/news/2026-09-17/a2ca4114445de2a8_base.jpg",
+      "image_local": "../assets/news/2026-09-17/a2ca4114445de2a8_base.jpg"
+    },
+    {
+      "title": "OG.com cleared by SEC to offer single-stock futures, says Crypto.com CEO",
+      "link": "https://cointelegraph.com/news/ogcom-cleared-sec-stock-futures-cryptocom-ceo",
+      "summary": "Crypto.com’s CEO said its sister exchange was cleared to offer US access to single-stock perpetual futures, as the latest platform to bridge TradFi and digital assets.",
+      "source": "Cointelegraph",
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789652157,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2QQC5X3Z7N19JN9MSH4SD45/hi-cryptocom-is-granted-conditional-approval-for-bank-trust-charter-1.jpg"
+      ],
+      "image": "../assets/news/2026-09-17/4de53e73344c77ba_base.jpg",
+      "image_local": "../assets/news/2026-09-17/4de53e73344c77ba_base.jpg"
+    },
+    {
+      "title": "Why standard Bitcoin transfer figures are off by up to six times, according to the BIS",
+      "link": "https://cryptoslate.com/why-standard-bitcoin-transfer-figures-are-off-by-up-to-six-times-according-to-the-bis/",
+      "summary": "The working paper says contract proliferation and cross-chain stablecoin use make raw activity totals noisy measures of economic reality. The post Why standard Bitcoin transfer figures are off by up to six times, according to the BIS appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789651822,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-methods-shadow-variance.webp"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-methods-shadow-variance.webp",
+      "image_local": null
+    },
+    {
+      "title": "What Is Arc? The Stablecoin Blockchain From USDC Issuer Circle",
+      "link": "https://decrypt.co/resources/what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle",
+      "summary": "Arc is a new layer-1 blockchain developed by USDC issuer Circle, designed specifically for stablecoin-native finance.",
+      "source": "Decrypt",
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789656007,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/09/arc-learn-gID_5-pID_1.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/arc-learn-gID_5-pID_1.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/arc-learn-gID_5-pID_1.png"
+      ],
+      "image": "../assets/news/2026-09-17/e7f4d1dec3c8fe26_base.jpg",
+      "image_local": "../assets/news/2026-09-17/e7f4d1dec3c8fe26_base.jpg"
+    },
+    {
+      "title": "SEC rolls out long-awaited 'innovation exemption' for tokenized securities venues",
+      "link": "https://www.coindesk.com/policy/2026/09/17/sec-rolls-out-long-awaited-innovation-exemption-for-tokenized-securities-venues",
+      "summary": "SEC rolls out long-awaited 'innovation exemption' for tokenized securities venues",
+      "source": "CoinDesk",
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789650000,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/72d2d0f41575a69ebb63c81c3ae0aa0e4b7b3e5c-3308x1862.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/72d2d0f41575a69ebb63c81c3ae0aa0e4b7b3e5c-3308x1862.jpg?auto=format&fit=crop&crop=focalpoint&fp-x=0.6471&fp-y=0.2395&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-09-17/9503974fb418961b_base.jpg",
+      "image_local": "../assets/news/2026-09-17/9503974fb418961b_base.jpg"
     }
   ]
 }
