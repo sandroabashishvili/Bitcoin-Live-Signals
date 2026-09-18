@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-17",
-  "generated_at_utc": "2026-09-17 16:06:12 UTC",
+  "generated_at_utc": "2026-09-17 22:05:57 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,48 +16,48 @@
   "count": 12,
   "items": [
     {
-      "title": "Zcash miner Fortitude taps former Hut 8 CEO to lead ahead of public listing",
-      "link": "https://cointelegraph.com/news/former-hut-8-ceo-jaime-leverton-to-lead-zcash-miner-fortitude-ahead-of-nasdaq-listing",
-      "summary": "Former Hut 8 CEO Jaime Leverton will take the helm at Fortitude as the Zcash-focused miner expands its operations and moves toward a planned public listing.",
-      "source": "Cointelegraph",
-      "date": "2026-09-17",
-      "date_human": "Sep 17, 2026",
-      "pub_ts": 1789660713,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2QZ8PA38PE2N6K2QE0N13TT/hi-top-5-biggest-mining-farms-zcash-2.jpg"
-      ],
-      "image": "../assets/news/2026-09-17/9c89e814559f7e86_base.jpg",
-      "image_local": "../assets/news/2026-09-17/9c89e814559f7e86_base.jpg"
-    },
-    {
-      "title": "Cardano's Splash fix patches the exploit, but leaves 2.4M ADA missing and holders trapped",
-      "link": "https://cryptoslate.com/cardanos-splash-fix-patches-the-exploit-but-leaves-2-4m-ada-missing-and-holders-trapped/",
-      "summary": "The exploit drained 2.42 million ADA net, while OADA lacks protocol redemption and faces a thin-pool overhang. The post Cardano’s Splash fix patches the exploit, but leaves 2.4M ADA missing and holders trapped appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-17",
-      "date_human": "Sep 17, 2026",
-      "pub_ts": 1789659948,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/locked-ada-exit.webp"
-      ],
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/locked-ada-exit.webp",
-      "image_local": null
-    },
-    {
-      "title": "FCA Targets Three More London Sites Over Unregistered P2P Crypto Trading",
-      "link": "https://decrypt.co/378495/fca-targets-three-more-london-sites-over-unregistered-p2p-crypto-trading",
-      "summary": "\"Anyone running an unregistered peer-to-peer crypto business should assume we are looking at them,\" the FCA's enforcement chief said.",
+      "title": "Security Experts Want the US and China to Promise Never to Let AI Control Nukes",
+      "link": "https://decrypt.co/378575/us-china-never-let-ai-control-nukes",
+      "summary": "Brookings researchers in the US and China are urging Washington and Beijing to agree to keep humans in control of nuclear weapons.",
       "source": "Decrypt",
       "date": "2026-09-17",
       "date_human": "Sep 17, 2026",
-      "pub_ts": 1789658479,
+      "pub_ts": 1789681563,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/09/uk-police-decrypt-style-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/uk-police-decrypt-style-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/uk-police-decrypt-style-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/06/atom-bomb-decrypt-style-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/06/atom-bomb-decrypt-style-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/06/atom-bomb-decrypt-style-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-17/783602ae1ae93de6_base.jpg",
-      "image_local": "../assets/news/2026-09-17/783602ae1ae93de6_base.jpg"
+      "image": "../assets/news/2026-09-17/e212c10b5f37f359_base.jpg",
+      "image_local": "../assets/news/2026-09-17/e212c10b5f37f359_base.jpg"
+    },
+    {
+      "title": "After Congress killed its landmark crypto bill, the SEC unlocked the $77 trillion US stock market through tokenization",
+      "link": "https://cryptoslate.com/after-congress-killed-its-landmark-crypto-bill-the-sec-unlocked-the-77-trillion-us-stock-market-through-tokenization/",
+      "summary": "The US Securities and Exchange Commission (SEC) has opened a five-year pathway for regulated US stocks to trade on blockchain-native venues. The Innovation Exemption came two days after the Senate failed to advance the CLARITY Act, a broad crypto market-structure bill that sought to establish statutory rules for digital assets and clarify regulatory responsibilities. The […] The post After Congress killed its landmark crypto bill, the SEC unlocked the $77 trillion US stock market through tokenization appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789678820,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/brave_807IV9XBD1.jpg"
+      ],
+      "image": "../assets/news/2026-09-17/f7bd7dcdbb85a09c_base.jpg",
+      "image_local": "../assets/news/2026-09-17/f7bd7dcdbb85a09c_base.jpg"
+    },
+    {
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+      "source": "Cointelegraph",
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789677840,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
+      ],
+      "image": "../assets/news/2026-09-17/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-17/57bd1a60f4d67ba1_base.jpg"
     },
     {
       "title": "Clarity Act failure may hamper U.S. crypto as industry seeks legal clarity elsewhere",
@@ -75,48 +75,48 @@
       "image_local": "../assets/news/2026-09-17/0968f073bfafeee1_base.jpg"
     },
     {
-      "title": "Here's what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
-      "source": "Cointelegraph",
-      "date": "2026-09-17",
-      "date_human": "Sep 17, 2026",
-      "pub_ts": 1789653194,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
-      ],
-      "image": "../assets/news/2026-09-17/57bd1a60f4d67ba1_base.jpg",
-      "image_local": "../assets/news/2026-09-17/57bd1a60f4d67ba1_base.jpg"
-    },
-    {
-      "title": "Lawmakers pass bill to freeze federal Bitcoin holdings for two decades",
-      "link": "https://cryptoslate.com/lawmakers-pass-bill-to-freeze-federal-bitcoin-holdings-for-two-decades/",
-      "summary": "ARMA would lock qualifying reserve Bitcoin in place from enactment and require annual audited reporting, while purchases remain a study. The post Lawmakers pass bill to freeze federal Bitcoin holdings for two decades appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-17",
-      "date_human": "Sep 17, 2026",
-      "pub_ts": 1789655416,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-reserve-treasury-records.webp"
-      ],
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-reserve-treasury-records.webp",
-      "image_local": null
-    },
-    {
-      "title": "SEC Clears a Path for Tokenized Stocks After Clarity Act Stumbles",
-      "link": "https://decrypt.co/378492/sec-innovation-exemption-tokenized-stocks-clarity-act",
-      "summary": "The \"innovation exemption\" lets qualifying venues trade tokenized versions of U.S. stocks on public blockchains without registering as exchanges—though it excludes price-tracking \"synthetics\" and lets companies block tokenization of their shares.",
+      "title": "Why Is Chipotle Now Working With the CIA-Funded Palantir?",
+      "link": "https://decrypt.co/378553/why-chipotle-working-with-palantir",
+      "summary": "Chipotle is piloting a Palantir-built food safety dashboard after a summer of outbreaks, putting employee data in the hands of a company seeded by the CIA's venture arm.",
       "source": "Decrypt",
       "date": "2026-09-17",
       "date_human": "Sep 17, 2026",
-      "pub_ts": 1789656723,
+      "pub_ts": 1789677963,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/08/paul-atkins-decrypt-style-01-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/paul-atkins-decrypt-style-01-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/08/paul-atkins-decrypt-style-01-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2026/09/chipotle-unsplash-gID_4.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/chipotle-unsplash-gID_4.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/chipotle-unsplash-gID_4.jpg"
       ],
-      "image": "../assets/news/2026-09-17/dd45533ec175f94c_base.jpg",
-      "image_local": "../assets/news/2026-09-17/dd45533ec175f94c_base.jpg"
+      "image": "../assets/news/2026-09-17/be104248e37671d4_base.jpg",
+      "image_local": "../assets/news/2026-09-17/be104248e37671d4_base.jpg"
+    },
+    {
+      "title": "Optimism just approved the upgrade its Superchain needs before interoperability can go live",
+      "link": "https://cryptoslate.com/optimism-just-approved-the-upgrade-its-superchain-needs-before-interoperability-can-go-live/",
+      "summary": "Operators must update fault-proof services and withdrawal tooling before a targeted cutover, while users need no action. The post Optimism just approved the upgrade its Superchain needs before interoperability can go live appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789674013,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/optimism-upgrade-testnets-1.webp"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/optimism-upgrade-testnets-1.webp",
+      "image_local": null
+    },
+    {
+      "title": "CFTC expands regulatory relief for passive trading software providers",
+      "link": "https://cointelegraph.com/news/cftc-expands-regulatory-relief-for-passive-trading-software-providers",
+      "summary": "The US regulator’s move could make it easier for crypto wallets and other apps to offer access to regulated derivatives and prediction markets without registering as introducing brokers.",
+      "source": "Cointelegraph",
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789673448,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2RCXR1ZF4MGZQYC31CCHQC8/paper-document-man-office-cftc-2.jpg"
+      ],
+      "image": "../assets/news/2026-09-17/05f951efec761c0d_base.jpg",
+      "image_local": "../assets/news/2026-09-17/05f951efec761c0d_base.jpg"
     },
     {
       "title": "Ratings giant S&P Global acquires OpenZeppelin in tokenized finance risk push",
@@ -134,48 +134,48 @@
       "image_local": "../assets/news/2026-09-17/a2ca4114445de2a8_base.jpg"
     },
     {
-      "title": "OG.com cleared by SEC to offer single-stock futures, says Crypto.com CEO",
-      "link": "https://cointelegraph.com/news/ogcom-cleared-sec-stock-futures-cryptocom-ceo",
-      "summary": "Crypto.com’s CEO said its sister exchange was cleared to offer US access to single-stock perpetual futures, as the latest platform to bridge TradFi and digital assets.",
-      "source": "Cointelegraph",
-      "date": "2026-09-17",
-      "date_human": "Sep 17, 2026",
-      "pub_ts": 1789652157,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2QQC5X3Z7N19JN9MSH4SD45/hi-cryptocom-is-granted-conditional-approval-for-bank-trust-charter-1.jpg"
-      ],
-      "image": "../assets/news/2026-09-17/4de53e73344c77ba_base.jpg",
-      "image_local": "../assets/news/2026-09-17/4de53e73344c77ba_base.jpg"
-    },
-    {
-      "title": "Why standard Bitcoin transfer figures are off by up to six times, according to the BIS",
-      "link": "https://cryptoslate.com/why-standard-bitcoin-transfer-figures-are-off-by-up-to-six-times-according-to-the-bis/",
-      "summary": "The working paper says contract proliferation and cross-chain stablecoin use make raw activity totals noisy measures of economic reality. The post Why standard Bitcoin transfer figures are off by up to six times, according to the BIS appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-17",
-      "date_human": "Sep 17, 2026",
-      "pub_ts": 1789651822,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-methods-shadow-variance.webp"
-      ],
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-methods-shadow-variance.webp",
-      "image_local": null
-    },
-    {
-      "title": "What Is Arc? The Stablecoin Blockchain From USDC Issuer Circle",
-      "link": "https://decrypt.co/resources/what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle",
-      "summary": "Arc is a new layer-1 blockchain developed by USDC issuer Circle, designed specifically for stablecoin-native finance.",
+      "title": "CFTC Opens Door for Crypto Apps to Offer Regulated Derivatives Access",
+      "link": "https://decrypt.co/378560/cftc-crypto-apps-regulated-derivatives-access",
+      "summary": "In a no-action letter, the CFTC said certain software providers can connect users to regulated derivatives markets without registering as brokers.",
       "source": "Decrypt",
       "date": "2026-09-17",
       "date_human": "Sep 17, 2026",
-      "pub_ts": 1789656007,
+      "pub_ts": 1789676164,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/09/arc-learn-gID_5-pID_1.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/arc-learn-gID_5-pID_1.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/09/arc-learn-gID_5-pID_1.png"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/cftc-decrypt-style-01-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/cftc-decrypt-style-01-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/cftc-decrypt-style-01-gID_7.jpg"
       ],
-      "image": "../assets/news/2026-09-17/e7f4d1dec3c8fe26_base.jpg",
-      "image_local": "../assets/news/2026-09-17/e7f4d1dec3c8fe26_base.jpg"
+      "image": "../assets/news/2026-09-17/21c6c8cf03e5f4dd_base.jpg",
+      "image_local": "../assets/news/2026-09-17/21c6c8cf03e5f4dd_base.jpg"
+    },
+    {
+      "title": "Stellar activates Protocol 28 as network hits record throughput and RWA value climbs",
+      "link": "https://cryptoslate.com/stellar-activates-protocol-28-as-network-hits-record-throughput-and-rwa-value-climbs/",
+      "summary": "The opt-in Soroban tools also ease data migrations, while raw-ledger systems must handle a new empty-ledger value. The post Stellar activates Protocol 28 as network hits record throughput and RWA value climbs appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789670446,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/protocol-zip-upgrade.webp"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/protocol-zip-upgrade.webp",
+      "image_local": null
+    },
+    {
+      "title": "WisdomTree, MoonPay team up to expand US access to tokenized money market fund",
+      "link": "https://cointelegraph.com/news/wisdomtree-moonpay-team-up-to-expand-us-access-to-tokenized-money-market-fund",
+      "summary": "MoonPay plans to use WisdomTree’s $1.2 billion WTGXX tokenized fund as part of its stablecoin reserves while helping expand access to US investors.",
+      "source": "Cointelegraph",
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789666272,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2R5J17NDWSVXF414T1MASHP/hi-why-weisdomtree-needs-a-stablecoin.png"
+      ],
+      "image": "../assets/news/2026-09-17/e40cb88da162eb46_base.jpg",
+      "image_local": "../assets/news/2026-09-17/e40cb88da162eb46_base.jpg"
     },
     {
       "title": "SEC rolls out long-awaited 'innovation exemption' for tokenized securities venues",
