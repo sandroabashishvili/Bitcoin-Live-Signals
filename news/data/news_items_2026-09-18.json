@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-18",
-  "generated_at_utc": "2026-09-18 04:05:59 UTC",
+  "generated_at_utc": "2026-09-18 10:05:57 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,47 +16,122 @@
   "count": 12,
   "items": [
     {
-      "title": "XRPL's new lending tool could lock up your XRP from minutes to decades",
-      "link": "https://cryptoslate.com/xrpls-new-lending-tool-could-lock-up-your-xrp-from-minutes-to-decades/",
-      "summary": "Closed-ended vaults would bar withdrawals during fixed investment terms and count interest only when paid, but activation and XRP-denominated use remain unproven. The post XRPL’s new lending tool could lock up your XRP from minutes to decades appeared first on CryptoSlate.",
+      "title": "UAE, Sweden Arrest Seven Over $7.1M Crypto Laundering Ring Linked to Contract Killings",
+      "link": "https://decrypt.co/378611/uae-sweden-arrest-seven-over-7-1m-crypto-laundering-ring-linked-to-contract-killings",
+      "summary": "Investigators say tracing the network's crypto transactions exposed links to organized crime and murder-for-hire.",
+      "source": "Decrypt",
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789725453,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/crypto-crime-decrypt-style-1-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/crypto-crime-decrypt-style-1-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-crime-decrypt-style-1-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-18/c6eaece922254ddc_base.jpg",
+      "image_local": "../assets/news/2026-09-18/c6eaece922254ddc_base.jpg"
+    },
+    {
+      "title": "CLARITY Act needs 3 more senators and a race against the clock for a 2026 revival",
+      "link": "https://cryptoslate.com/clarity-act-needs-3-more-senators-and-a-race-against-the-clock-for-a-2026-revival/",
+      "summary": "Seven Democratic senators said Sept. 16 that CLARITY's failed Senate vote was not the end. The crypto market-structure bill fell short 49-50 the previous day on a procedural motion that needed 60 votes to advance. Getting from that statement to a law now depends on a compressed legislative calendar, still-unresolved policy disputes, and a House […] The post CLARITY Act needs 3 more senators and a race against the clock for a 2026 revival appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
-      "pub_ts": 1789702857,
+      "pub_ts": 1789723255,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/xrpl-xrp-vault-lock.webp"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/clarity-act-partisan-gridlock.webp"
       ],
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/xrpl-xrp-vault-lock.webp",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/clarity-act-partisan-gridlock.webp",
       "image_local": null
     },
     {
-      "title": "World launches self-custodial ‘super app' World Money",
-      "link": "https://cointelegraph.com/news/world-launches-self-custodial-super-app-world-money",
-      "summary": "World Money is rolling out across more than 150 countries, combining stablecoin payments, digital asset rewards and trading in a self-custodial app.",
+      "title": "Stablecoin payments firm dtcpay closes $25M round with SBI backing",
+      "link": "https://cointelegraph.com/news/dtcpay-25m-series-a-sbi-stablecoin-payments",
+      "summary": "Dtcpay plans to expand its merchant network and payment products after completing a $25 million Series A backed by Japan’s SBI Group.",
       "source": "Cointelegraph",
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
-      "pub_ts": 1789702828,
+      "pub_ts": 1789722843,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2S9HGXJ2F33PMBZSJ22CVNG/world-app.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2SW0NN1AJCM8SBK7NYC8PRK/hi-crypto-negotiation-1.jpg"
       ],
-      "image": "../assets/news/2026-09-18/48fa6d206e748eeb_base.jpg",
-      "image_local": "../assets/news/2026-09-18/48fa6d206e748eeb_base.jpg"
+      "image": "../assets/news/2026-09-18/a393bc1a9a90873e_base.jpg",
+      "image_local": "../assets/news/2026-09-18/a393bc1a9a90873e_base.jpg"
     },
     {
-      "title": "Bank of Japan raises interest rates by 25 basis points. Bitcoin tops $77,000",
-      "link": "https://www.coindesk.com/markets/2026/09/17/boj-rate-hike",
-      "summary": "Bank of Japan raises interest rates by 25 basis points. Bitcoin tops $77,000",
+      "title": "SBI Group backs payments firm dtcpay in $25 million funding round",
+      "link": "https://www.coindesk.com/markets/2026/09/18/sbi-group-backs-payments-firm-dtcpay-in-usd25-million-funding-round",
+      "summary": "SBI Group backs payments firm dtcpay in $25 million funding round",
       "source": "CoinDesk",
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
-      "pub_ts": 1789700618,
+      "pub_ts": 1789717052,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/1d87eabe2ada7e5c5fb5014805876879c803feba-3388x2472.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/1d87eabe2ada7e5c5fb5014805876879c803feba-3388x2472.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/7d7fa3eb980a963484b88dc6e702539fda68b6b7-1280x853.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/7d7fa3eb980a963484b88dc6e702539fda68b6b7-1280x853.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-09-18/082ec13f43eba42e_base.jpg",
-      "image_local": "../assets/news/2026-09-18/082ec13f43eba42e_base.jpg"
+      "image": "../assets/news/2026-09-18/42eef4473dce6437_base.jpg",
+      "image_local": "../assets/news/2026-09-18/42eef4473dce6437_base.jpg"
+    },
+    {
+      "title": "Treasury Sanctions Crypto Exchange Behind Iran's Bitcoin Tolls on Hormuz Ships",
+      "link": "https://decrypt.co/378604/treasury-sanctions-crypto-exchange-behind-irans-bitcoin-tolls-on-hormuz-ships",
+      "summary": "OFAC says hundreds of millions of dollars in Bitcoin moved through BitBank to the Revolutionary Guards in two months.",
+      "source": "Decrypt",
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789722115,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg"
+      ],
+      "image": "../assets/news/2026-09-18/56573896bb515f17_base.jpg",
+      "image_local": "../assets/news/2026-09-18/56573896bb515f17_base.jpg"
+    },
+    {
+      "title": "Why risk a smart contract exploit when safe US Treasuries pay better crypto yields?",
+      "link": "https://cryptoslate.com/why-risk-a-smart-contract-exploit-when-safe-us-treasuries-pay-better-crypto-yields/",
+      "summary": "The Federal Reserve raised its target range by 25 basis points to 3.75%-4.00% on Sept. 16, pushing the one-year Treasury yield to 4.45% the same day and pressuring crypto lending yields. That move lifts the return available to anyone willing to hold nothing riskier than government debt, setting a fresh benchmark for crypto lending yields […] The post Why risk a smart contract exploit when safe US Treasuries pay better crypto yields? appeared first on CryptoSlate.",
+      "source": "CryptoSlate",
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789721429,
+      "image_candidates": [
+        "https://cryptoslate.com/wp-content/uploads/2026/09/treasury-defi-risk-bridge.webp"
+      ],
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/treasury-defi-risk-bridge.webp",
+      "image_local": null
+    },
+    {
+      "title": "Binance brushes off Lagarde MiCA speculation, reaffirms Europe commitment",
+      "link": "https://cointelegraph.com/news/binance-cites-speculation-report-ecb-chief-mica-intervention",
+      "summary": "Binance declined to address reports of ECB intervention in its Greek MiCA bid, saying it remains committed to securing authorization in Europe.",
+      "source": "Cointelegraph",
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789721438,
+      "image_candidates": [
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2STMBSK2VDWAGTJC3MX17R7/europe-binance-1.jpg"
+      ],
+      "image": "../assets/news/2026-09-18/cdc3db2d1a0d6fd9_base.jpg",
+      "image_local": "../assets/news/2026-09-18/cdc3db2d1a0d6fd9_base.jpg"
+    },
+    {
+      "title": "Iran's Strait of Hormuz toll booth ran through a bitcoin exchange, U.S. says",
+      "link": "https://www.coindesk.com/policy/2026/09/18/iran-s-strait-of-hormuz-toll-booth-ran-through-a-bitcoin-exchange-u-s-says",
+      "summary": "Iran's Strait of Hormuz toll booth ran through a bitcoin exchange, U.S. says",
+      "source": "CoinDesk",
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789714343,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/ea6e0ec4cd84026d0707ce39424079748bd5f9fb-3449x2300.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/ea6e0ec4cd84026d0707ce39424079748bd5f9fb-3449x2300.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+      ],
+      "image": "../assets/news/2026-09-18/16a4fa720a89b909_base.jpg",
+      "image_local": "../assets/news/2026-09-18/16a4fa720a89b909_base.jpg"
     },
     {
       "title": "OpenAI Models Are Writing Their Own Jailbreak Instructions—And Sometimes Obeying Them",
@@ -75,122 +150,47 @@
       "image_local": "../assets/news/2026-09-18/89651e95c1d4f471_base.jpg"
     },
     {
-      "title": "From Kaiko to OpenZeppelin, S&P Global is quietly preparing for markets that never close",
-      "link": "https://cryptoslate.com/from-kaiko-to-openzeppelin-sp-global-is-quietly-preparing-for-markets-that-never-close/",
-      "summary": "S&P Global agreed to acquire smart contract security firm OpenZeppelin, expanding its digital asset business into the technology underpinning tokenized finance. On Sept. 17, the financial data and ratings company said that OpenZeppelin will continue operating under its own name as a separate business unit. Chief Executive Demian Brener will remain in charge and report […] The post From Kaiko to OpenZeppelin, S&P Global is quietly preparing for markets that never close appeared first on CryptoSlate.",
+      "title": "Wall Street gains direct oversight of Web3 security as S&P Global buys OpenZeppelin",
+      "link": "https://cryptoslate.com/wall-street-gains-direct-oversight-of-web3-security-as-sp-global-buys-openzeppelin/",
+      "summary": "The security firm says its team and tools will continue, while S&P adds data, research and institutional reach after closing. The post Wall Street gains direct oversight of Web3 security as S&P Global buys OpenZeppelin appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
-      "pub_ts": 1789695037,
+      "pub_ts": 1789716656,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/sp-global-24-7-markets.webp"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/sp-global-openzeppelin-standard-image.jpg"
       ],
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/sp-global-24-7-markets.webp",
-      "image_local": null
+      "image": "../assets/news/2026-09-18/2d52e73d67584c92_base.jpg",
+      "image_local": "../assets/news/2026-09-18/2d52e73d67584c92_base.jpg"
     },
     {
-      "title": "US sanctions Iran's BitBank, saying it processes ‘Hormuz Safe' Bitcoin payments",
-      "link": "https://cointelegraph.com/news/us-sanctions-irans-bitbank-saying-it-processes-hormuz-safe-bitcoin-payments",
-      "summary": "US Treasury says the Iranian exchange processed payments received through Iran’s Strait of Hormuz maritime scheme and helped move hundreds of millions of dollars in Bitcoin to the IRGC.",
+      "title": "Bitcoin cycle bottom may already be in at $58K, says analyst James Check",
+      "link": "https://cointelegraph.com/markets/bitcoin-cycle-bottom-58k-james-check",
+      "summary": "Onchain analyst James Check says Bitcoin may have bottomed near $58,000 after two capitulations and warns against anchoring to an October low.",
       "source": "Cointelegraph",
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
-      "pub_ts": 1789695234,
+      "pub_ts": 1789721240,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2S256YQ45ANHSRCNHS5BZ56/bitbank.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2SN22TNQ4C3YHZG80V0QR6A/bitcoin-domination-token-altcoin.jpg"
       ],
-      "image": "../assets/news/2026-09-18/aca18e292825d99e_base.jpg",
-      "image_local": "../assets/news/2026-09-18/aca18e292825d99e_base.jpg"
+      "image": "../assets/news/2026-09-18/89ef94428c20ab83_base.jpg",
+      "image_local": "../assets/news/2026-09-18/89ef94428c20ab83_base.jpg"
     },
     {
-      "title": "Real stocks are finally coming on blockchain. Here's how the SEC wants it to work",
-      "link": "https://www.coindesk.com/business/2026/09/17/real-stocks-are-finally-coming-on-blockchain-here-s-how-the-sec-wants-it-to-work",
-      "summary": "Real stocks are finally coming on blockchain. Here's how the SEC wants it to work",
+      "title": "Solana speeds up blocks by 17%, but transaction capacity stays the same",
+      "link": "https://www.coindesk.com/tech/2026/09/18/solana-speeds-up-blocks-by-17-but-transaction-capacity-stays-the-same",
+      "summary": "Solana speeds up blocks by 17%, but transaction capacity stays the same",
       "source": "CoinDesk",
-      "date": "2026-09-17",
-      "date_human": "Sep 17, 2026",
-      "pub_ts": 1789681642,
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789712217,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/12fc8f9343218cf1308738931c45f470a97379bd-6000x4000.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/12fc8f9343218cf1308738931c45f470a97379bd-6000x4000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/54c0f3b41e62df4cdf774aab4c7d68c64e5e976c-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/54c0f3b41e62df4cdf774aab4c7d68c64e5e976c-1920x1080.png?auto=format&q=75"
       ],
-      "image": "../assets/news/2026-09-18/3ea617414c608973_base.jpg",
-      "image_local": "../assets/news/2026-09-18/3ea617414c608973_base.jpg"
-    },
-    {
-      "title": "Security Experts Want the US and China to Promise Never to Let AI Control Nukes",
-      "link": "https://decrypt.co/378575/us-china-never-let-ai-control-nukes",
-      "summary": "Brookings researchers in the US and China are urging Washington and Beijing to agree to keep humans in control of nuclear weapons.",
-      "source": "Decrypt",
-      "date": "2026-09-17",
-      "date_human": "Sep 17, 2026",
-      "pub_ts": 1789681563,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/06/atom-bomb-decrypt-style-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/06/atom-bomb-decrypt-style-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/06/atom-bomb-decrypt-style-gID_7.jpg"
-      ],
-      "image": "../assets/news/2026-09-18/e212c10b5f37f359_base.jpg",
-      "image_local": "../assets/news/2026-09-18/e212c10b5f37f359_base.jpg"
-    },
-    {
-      "title": "Aave V4's Arc market is swimming in $76 million of USDC nobody is borrowing",
-      "link": "https://cryptoslate.com/aave-v4s-arc-market-is-swimming-in-76-million-of-usdc-nobody-is-borrowing/",
-      "summary": "Less than $100,000 was borrowed as utilization hovered near 0.1%, separating supply appetite from credit demand. The post Aave V4’s Arc market is swimming in $76 million of USDC nobody is borrowing appeared first on CryptoSlate.",
-      "source": "CryptoSlate",
-      "date": "2026-09-17",
-      "date_human": "Sep 17, 2026",
-      "pub_ts": 1789686630,
-      "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/brave_pKzy3Y9zIR.jpg"
-      ],
-      "image": "../assets/news/2026-09-18/006d401d75e6e4a1_base.jpg",
-      "image_local": "../assets/news/2026-09-18/006d401d75e6e4a1_base.jpg"
-    },
-    {
-      "title": "North Korea drives onchain malware surge, CoinEx shuts: Asia Express",
-      "link": "https://cointelegraph.com/magazine/north-korea-drives-onchain-malware-surge-coinex-shuts-asia-express",
-      "summary": "North Korea and Iran account for the majority of onchain malware, while Malaysia has been named among the most crypto curious Islamic nations.",
-      "source": "Cointelegraph",
-      "date": "2026-09-17",
-      "date_human": "Sep 17, 2026",
-      "pub_ts": 1789688963,
-      "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2RR0R87D4ZNY7FB45GN96P2/magazineasia-expressriver.jpg"
-      ],
-      "image": "../assets/news/2026-09-18/ba1aeed874e82755_base.jpg",
-      "image_local": "../assets/news/2026-09-18/ba1aeed874e82755_base.jpg"
-    },
-    {
-      "title": "The Ondo Finance succession crisis gets messier as Kathleen Allman's daughter alleges ‘dementia', alcoholism and reckless spending",
-      "link": "https://www.coindesk.com/business/2026/09/17/the-ondo-finance-succession-crisis-gets-messier-as-kathleen-allman-s-daughter-alleges-dementia-alcoholism-and-reckless-spending",
-      "summary": "The Ondo Finance succession crisis gets messier as Kathleen Allman's daughter alleges ‘dementia', alcoholism and reckless spending",
-      "source": "CoinDesk",
-      "date": "2026-09-17",
-      "date_human": "Sep 17, 2026",
-      "pub_ts": 1789680515,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/80c70565576dca57e467a9c505945531db3c6631-1452x817.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/80c70565576dca57e467a9c505945531db3c6631-1452x817.jpg?auto=format&q=75"
-      ],
-      "image": "../assets/news/2026-09-18/e514ce9f571fadb9_base.jpg",
-      "image_local": "../assets/news/2026-09-18/e514ce9f571fadb9_base.jpg"
-    },
-    {
-      "title": "Why Is Chipotle Now Working With the CIA-Funded Palantir?",
-      "link": "https://decrypt.co/378553/why-chipotle-working-with-palantir",
-      "summary": "Chipotle is piloting a Palantir-built food safety dashboard after a summer of outbreaks, putting employee data in the hands of a company seeded by the CIA's venture arm.",
-      "source": "Decrypt",
-      "date": "2026-09-17",
-      "date_human": "Sep 17, 2026",
-      "pub_ts": 1789677963,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/09/chipotle-unsplash-gID_4.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/chipotle-unsplash-gID_4.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/09/chipotle-unsplash-gID_4.jpg"
-      ],
-      "image": "../assets/news/2026-09-18/be104248e37671d4_base.jpg",
-      "image_local": "../assets/news/2026-09-18/be104248e37671d4_base.jpg"
+      "image": "../assets/news/2026-09-18/b52d3692f2c9d18b_base.jpg",
+      "image_local": "../assets/news/2026-09-18/b52d3692f2c9d18b_base.jpg"
     }
   ]
 }
