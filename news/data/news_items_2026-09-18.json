@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-18",
-  "generated_at_utc": "2026-09-18 10:05:57 UTC",
+  "generated_at_utc": "2026-09-18 16:05:59 UTC",
   "source_names": [
     "CoinDesk",
     "Cointelegraph",
@@ -16,181 +16,181 @@
   "count": 12,
   "items": [
     {
-      "title": "UAE, Sweden Arrest Seven Over $7.1M Crypto Laundering Ring Linked to Contract Killings",
-      "link": "https://decrypt.co/378611/uae-sweden-arrest-seven-over-7-1m-crypto-laundering-ring-linked-to-contract-killings",
-      "summary": "Investigators say tracing the network's crypto transactions exposed links to organized crime and murder-for-hire.",
-      "source": "Decrypt",
-      "date": "2026-09-18",
-      "date_human": "Sep 18, 2026",
-      "pub_ts": 1789725453,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/crypto-crime-decrypt-style-1-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/crypto-crime-decrypt-style-1-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/crypto-crime-decrypt-style-1-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-18/c6eaece922254ddc_base.jpg",
-      "image_local": "../assets/news/2026-09-18/c6eaece922254ddc_base.jpg"
-    },
-    {
-      "title": "CLARITY Act needs 3 more senators and a race against the clock for a 2026 revival",
-      "link": "https://cryptoslate.com/clarity-act-needs-3-more-senators-and-a-race-against-the-clock-for-a-2026-revival/",
-      "summary": "Seven Democratic senators said Sept. 16 that CLARITY's failed Senate vote was not the end. The crypto market-structure bill fell short 49-50 the previous day on a procedural motion that needed 60 votes to advance. Getting from that statement to a law now depends on a compressed legislative calendar, still-unresolved policy disputes, and a House […] The post CLARITY Act needs 3 more senators and a race against the clock for a 2026 revival appeared first on CryptoSlate.",
+      "title": "Why Bitcoin hit $80k today hours before bad US data even landed",
+      "link": "https://cryptoslate.com/why-bitcoin-is-up-today-the-rally-began-before-weak-us-data/",
+      "summary": "The September 18 advance accompanied a tech rebound and yen weakness, while prior-session ETF inflows offered a tentative demand signal. The post Why Bitcoin hit $80k today hours before bad US data even landed appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
-      "pub_ts": 1789723255,
+      "pub_ts": 1789747245,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/clarity-act-partisan-gridlock.webp"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-bull-rebound.webp"
       ],
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/clarity-act-partisan-gridlock.webp",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/bitcoin-bull-rebound.webp",
       "image_local": null
     },
     {
-      "title": "Stablecoin payments firm dtcpay closes $25M round with SBI backing",
-      "link": "https://cointelegraph.com/news/dtcpay-25m-series-a-sbi-stablecoin-payments",
-      "summary": "Dtcpay plans to expand its merchant network and payment products after completing a $25 million Series A backed by Japan’s SBI Group.",
+      "title": "Bitcoin hits $81K as US bond yields rebound on global oil woes",
+      "link": "https://cointelegraph.com/markets/bitcoin-hits-81k-as-us-bond-yields-rebound-on-global-oil-woes",
+      "summary": "Bitcoin price action made swift gains at the start of Friday’s Wall Street trading session as US 30-year bond yields began rising again.",
       "source": "Cointelegraph",
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
-      "pub_ts": 1789722843,
+      "pub_ts": 1789745759,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2SW0NN1AJCM8SBK7NYC8PRK/hi-crypto-negotiation-1.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2TJDKWQFE5TAXZVRTNBSB4T/oil-bitcoin-coin-stablecoin-blockchain-sky-platform-production-iran.jpg"
       ],
-      "image": "../assets/news/2026-09-18/a393bc1a9a90873e_base.jpg",
-      "image_local": "../assets/news/2026-09-18/a393bc1a9a90873e_base.jpg"
+      "image": "../assets/news/2026-09-18/5170fc6a665e36ae_base.jpg",
+      "image_local": "../assets/news/2026-09-18/5170fc6a665e36ae_base.jpg"
     },
     {
-      "title": "SBI Group backs payments firm dtcpay in $25 million funding round",
-      "link": "https://www.coindesk.com/markets/2026/09/18/sbi-group-backs-payments-firm-dtcpay-in-usd25-million-funding-round",
-      "summary": "SBI Group backs payments firm dtcpay in $25 million funding round",
-      "source": "CoinDesk",
-      "date": "2026-09-18",
-      "date_human": "Sep 18, 2026",
-      "pub_ts": 1789717052,
-      "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/7d7fa3eb980a963484b88dc6e702539fda68b6b7-1280x853.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/7d7fa3eb980a963484b88dc6e702539fda68b6b7-1280x853.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
-      ],
-      "image": "../assets/news/2026-09-18/42eef4473dce6437_base.jpg",
-      "image_local": "../assets/news/2026-09-18/42eef4473dce6437_base.jpg"
-    },
-    {
-      "title": "Treasury Sanctions Crypto Exchange Behind Iran's Bitcoin Tolls on Hormuz Ships",
-      "link": "https://decrypt.co/378604/treasury-sanctions-crypto-exchange-behind-irans-bitcoin-tolls-on-hormuz-ships",
-      "summary": "OFAC says hundreds of millions of dollars in Bitcoin moved through BitBank to the Revolutionary Guards in two months.",
+      "title": "Bitcoin Blasts Past $80K and a Fresh Short Squeeze Is On",
+      "link": "https://decrypt.co/378630/bitcoin-blasts-short-squeeze-crypto-liquidations",
+      "summary": "Bitcoin just ripped 5.88% higher in a single session, tearing back toward its 2026 highs. The charts say the move is real, but they also say it's gotten ahead of itself.",
       "source": "Decrypt",
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
-      "pub_ts": 1789722115,
+      "pub_ts": 1789744969,
       "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2026/03/Iran-Bitcoin-1-gID_7.jpg"
+        "https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/07/Bitcoin-B1-decrypt-style-gID_7.png"
       ],
-      "image": "../assets/news/2026-09-18/56573896bb515f17_base.jpg",
-      "image_local": "../assets/news/2026-09-18/56573896bb515f17_base.jpg"
+      "image": "../assets/news/2026-09-18/7067857b32db3eaa_base.jpg",
+      "image_local": "../assets/news/2026-09-18/7067857b32db3eaa_base.jpg"
     },
     {
-      "title": "Why risk a smart contract exploit when safe US Treasuries pay better crypto yields?",
-      "link": "https://cryptoslate.com/why-risk-a-smart-contract-exploit-when-safe-us-treasuries-pay-better-crypto-yields/",
-      "summary": "The Federal Reserve raised its target range by 25 basis points to 3.75%-4.00% on Sept. 16, pushing the one-year Treasury yield to 4.45% the same day and pressuring crypto lending yields. That move lifts the return available to anyone willing to hold nothing riskier than government debt, setting a fresh benchmark for crypto lending yields […] The post Why risk a smart contract exploit when safe US Treasuries pay better crypto yields? appeared first on CryptoSlate.",
+      "title": "CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act",
+      "link": "https://www.coindesk.com/policy/2026/09/18/cftc-sends-crypto-rules-to-white-house-to-review-as-congress-stalls-on-clarity-act",
+      "summary": "CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act",
+      "source": "CoinDesk",
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789744597,
+      "image_candidates": [
+        "https://cdn.sanity.io/images/s3y3vcno/production/f8247ad03ed0ee80d0bc837f451e14221f8fa7f3-1900x1067.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/f8247ad03ed0ee80d0bc837f451e14221f8fa7f3-1900x1067.png?auto=format&q=75"
+      ],
+      "image": "../assets/news/2026-09-18/4c2a825811ae3943_base.jpg",
+      "image_local": "../assets/news/2026-09-18/4c2a825811ae3943_base.jpg"
+    },
+    {
+      "title": "XRPL tries to mathematically prove its new lending market cannot be drained",
+      "link": "https://cryptoslate.com/xrpl-tries-to-mathematically-prove-its-new-lending-market-cannot-be-drained/",
+      "summary": "XRP Ledger (XRPL) developers are using mathematical proofs to test whether the network’s forthcoming lending market can be drained or become insolvent. On Sept. 17, protocol research firm Common Prefix said it is formally verifying XRPL’s Lending Protocol with Lean 4, a theorem-proving language designed to establish whether software satisfies defined mathematical properties across possible system […] The post XRPL tries to mathematically prove its new lending market cannot be drained appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
-      "pub_ts": 1789721429,
+      "pub_ts": 1789745712,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/treasury-defi-risk-bridge.webp"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/xrpl-formal-proof-vault.webp"
       ],
-      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/treasury-defi-risk-bridge.webp",
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/xrpl-formal-proof-vault.webp",
       "image_local": null
     },
     {
-      "title": "Binance brushes off Lagarde MiCA speculation, reaffirms Europe commitment",
-      "link": "https://cointelegraph.com/news/binance-cites-speculation-report-ecb-chief-mica-intervention",
-      "summary": "Binance declined to address reports of ECB intervention in its Greek MiCA bid, saying it remains committed to securing authorization in Europe.",
+      "title": "Banks double on EU MiCA crypto provider list as share hits 23%",
+      "link": "https://cointelegraph.com/news/banks-double-eu-mica-crypto-register-esma",
+      "summary": "Banks now represent nearly one in four providers on ESMA’s MiCA register after roughly doubling their presence since late June.",
       "source": "Cointelegraph",
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
-      "pub_ts": 1789721438,
+      "pub_ts": 1789740283,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2STMBSK2VDWAGTJC3MX17R7/europe-binance-1.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2T9WY6ZEBREY64C7KQFFW2D/2222222.png"
       ],
-      "image": "../assets/news/2026-09-18/cdc3db2d1a0d6fd9_base.jpg",
-      "image_local": "../assets/news/2026-09-18/cdc3db2d1a0d6fd9_base.jpg"
+      "image": "../assets/news/2026-09-18/dd21126196657e87_base.jpg",
+      "image_local": "../assets/news/2026-09-18/dd21126196657e87_base.jpg"
     },
     {
-      "title": "Iran's Strait of Hormuz toll booth ran through a bitcoin exchange, U.S. says",
-      "link": "https://www.coindesk.com/policy/2026/09/18/iran-s-strait-of-hormuz-toll-booth-ran-through-a-bitcoin-exchange-u-s-says",
-      "summary": "Iran's Strait of Hormuz toll booth ran through a bitcoin exchange, U.S. says",
+      "title": "Microsoft Staff Asked If AI Scraping Was 'Largest Theft of Labor in Human History'",
+      "link": "https://decrypt.co/378622/microsoft-staff-asked-if-ai-scraping-was-largest-theft-of-labor-in-human-history",
+      "summary": "Internal memos warned of a \"doom loop\" threatening the quality of the very models it was building with OpenAI.",
+      "source": "Decrypt",
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789735923,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/05/microsoft-decrypt-style-01-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/microsoft-decrypt-style-01-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/microsoft-decrypt-style-01-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-18/3aefefba7bd5a114_base.jpg",
+      "image_local": "../assets/news/2026-09-18/3aefefba7bd5a114_base.jpg"
+    },
+    {
+      "title": "Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost",
+      "link": "https://www.coindesk.com/business/2026/09/18/crypto-tech-provider-haruko-hit-by-cyberattack-affecting-15-clients-some-funds-lost",
+      "summary": "Crypto tech provider Haruko hit by cyberattack affecting 15 clients, some funds lost",
       "source": "CoinDesk",
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
-      "pub_ts": 1789714343,
+      "pub_ts": 1789743991,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/ea6e0ec4cd84026d0707ce39424079748bd5f9fb-3449x2300.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/ea6e0ec4cd84026d0707ce39424079748bd5f9fb-3449x2300.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/df75194a14ee0137a319a24c95c7971dfac737a2-4896x3268.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/df75194a14ee0137a319a24c95c7971dfac737a2-4896x3268.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-09-18/16a4fa720a89b909_base.jpg",
-      "image_local": "../assets/news/2026-09-18/16a4fa720a89b909_base.jpg"
+      "image": "../assets/news/2026-09-18/7c111aaf0934cb7e_base.jpg",
+      "image_local": "../assets/news/2026-09-18/7c111aaf0934cb7e_base.jpg"
     },
     {
-      "title": "OpenAI Models Are Writing Their Own Jailbreak Instructions—And Sometimes Obeying Them",
-      "link": "https://decrypt.co/378582/openai-models-ai-jailbreak-instructions-obeying",
-      "summary": "OpenAI's new transparency framework reveals AI models that invented fake \"breach alerts,\" coached themselves to hide mistakes, and smuggled a file onto the public internet to talk to each other.",
-      "source": "Decrypt",
-      "date": "2026-09-17",
-      "date_human": "Sep 17, 2026",
-      "pub_ts": 1789684263,
-      "image_candidates": [
-        "https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-robots-decrypt-style-01-gID_7.png",
-        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/ai-robots-decrypt-style-01-gID_7.png@png",
-        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/ai-robots-decrypt-style-01-gID_7.png"
-      ],
-      "image": "../assets/news/2026-09-18/89651e95c1d4f471_base.jpg",
-      "image_local": "../assets/news/2026-09-18/89651e95c1d4f471_base.jpg"
-    },
-    {
-      "title": "Wall Street gains direct oversight of Web3 security as S&P Global buys OpenZeppelin",
-      "link": "https://cryptoslate.com/wall-street-gains-direct-oversight-of-web3-security-as-sp-global-buys-openzeppelin/",
-      "summary": "The security firm says its team and tools will continue, while S&P adds data, research and institutional reach after closing. The post Wall Street gains direct oversight of Web3 security as S&P Global buys OpenZeppelin appeared first on CryptoSlate.",
+      "title": "Hyperliquid opens native lending as HYPE hits new ATH above $90",
+      "link": "https://cryptoslate.com/hyperliquid-opens-native-lending-as-hype-hits-new-ath-above-90/",
+      "summary": "Hyperliquid has launched native manual borrowing, extending its trading infrastructure into credit as HYPE climbed to a fresh all-time high above $90. The Sept. 18 rollout lets users pledge HYPE or Bitcoin as collateral to borrow USDC or USDT directly through HyperCore. Hyperliquid said $269 million in assets were borrowed Friday, giving the new product […] The post Hyperliquid opens native lending as HYPE hits new ATH above $90 appeared first on CryptoSlate.",
       "source": "CryptoSlate",
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
-      "pub_ts": 1789716656,
+      "pub_ts": 1789742405,
       "image_candidates": [
-        "https://cryptoslate.com/wp-content/uploads/2026/09/sp-global-openzeppelin-standard-image.jpg"
+        "https://cryptoslate.com/wp-content/uploads/2026/09/hyperliquid-collateral-unlock.webp"
       ],
-      "image": "../assets/news/2026-09-18/2d52e73d67584c92_base.jpg",
-      "image_local": "../assets/news/2026-09-18/2d52e73d67584c92_base.jpg"
+      "image": "https://cryptoslate.com/wp-content/uploads/2026/09/hyperliquid-collateral-unlock.webp",
+      "image_local": null
     },
     {
-      "title": "Bitcoin cycle bottom may already be in at $58K, says analyst James Check",
-      "link": "https://cointelegraph.com/markets/bitcoin-cycle-bottom-58k-james-check",
-      "summary": "Onchain analyst James Check says Bitcoin may have bottomed near $58,000 after two capitulations and warns against anchoring to an October low.",
+      "title": "Here's what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
       "source": "Cointelegraph",
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
-      "pub_ts": 1789721240,
+      "pub_ts": 1789738451,
       "image_candidates": [
-        "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2SN22TNQ4C3YHZG80V0QR6A/bitcoin-domination-token-altcoin.jpg"
+        "https://s3-images.ctmedia.io/media/article-covers/article-covers-110589-what-happened-in-crypto-today.jpg"
       ],
-      "image": "../assets/news/2026-09-18/89ef94428c20ab83_base.jpg",
-      "image_local": "../assets/news/2026-09-18/89ef94428c20ab83_base.jpg"
+      "image": "../assets/news/2026-09-18/57bd1a60f4d67ba1_base.jpg",
+      "image_local": "../assets/news/2026-09-18/57bd1a60f4d67ba1_base.jpg"
     },
     {
-      "title": "Solana speeds up blocks by 17%, but transaction capacity stays the same",
-      "link": "https://www.coindesk.com/tech/2026/09/18/solana-speeds-up-blocks-by-17-but-transaction-capacity-stays-the-same",
-      "summary": "Solana speeds up blocks by 17%, but transaction capacity stays the same",
+      "title": "Morning Minute: SEC Approves ‘Innovation Exemption' Moving Tokenized Stocks Forward",
+      "link": "https://decrypt.co/378619/morning-minute-sec-approves-innovation-exemption-moving-tokenized-stocks-forward",
+      "summary": "It came just hours after S&P Global announced its acquisition of OpenZeppelin, as everything TradFi moves onchain.",
+      "source": "Decrypt",
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789734890,
+      "image_candidates": [
+        "https://cdn.decrypt.co/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png",
+        "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png@png",
+        "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/06/SecuritiesExchange_logo-gID_7.png"
+      ],
+      "image": "../assets/news/2026-09-18/3b8fc7ed8964722c_base.jpg",
+      "image_local": "../assets/news/2026-09-18/3b8fc7ed8964722c_base.jpg"
+    },
+    {
+      "title": "DHS's predictive policing is unconstitutional, un-American and should be stopped",
+      "link": "https://www.coindesk.com/opinion/2026/09/18/dhs-s-predictive-policing-is-unconstitutional-un-american-and-should-be-stopped",
+      "summary": "DHS's predictive policing is unconstitutional, un-American and should be stopped",
       "source": "CoinDesk",
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
-      "pub_ts": 1789712217,
+      "pub_ts": 1789736400,
       "image_candidates": [
-        "https://cdn.sanity.io/images/s3y3vcno/production/54c0f3b41e62df4cdf774aab4c7d68c64e5e976c-1920x1080.png?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
-        "https://cdn.sanity.io/images/s3y3vcno/production/54c0f3b41e62df4cdf774aab4c7d68c64e5e976c-1920x1080.png?auto=format&q=75"
+        "https://cdn.sanity.io/images/s3y3vcno/production/c5f29d956f8c68dcb1e876203b0d49558b374ae5-5083x3453.jpg?fm=jpg&w=1920&h=1080&crop=focalpoint&fit=clip",
+        "https://cdn.sanity.io/images/s3y3vcno/production/c5f29d956f8c68dcb1e876203b0d49558b374ae5-5083x3453.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75"
       ],
-      "image": "../assets/news/2026-09-18/b52d3692f2c9d18b_base.jpg",
-      "image_local": "../assets/news/2026-09-18/b52d3692f2c9d18b_base.jpg"
+      "image": "../assets/news/2026-09-18/0926f6c3f6ddd1a0_base.jpg",
+      "image_local": "../assets/news/2026-09-18/0926f6c3f6ddd1a0_base.jpg"
     }
   ]
 }
