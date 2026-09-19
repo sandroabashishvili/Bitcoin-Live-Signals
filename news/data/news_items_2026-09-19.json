@@ -1,7 +1,8 @@
 {
   "day_iso": "2026-09-19",
-  "generated_at_utc": "2026-09-19 18:37:07 UTC",
+  "generated_at_utc": "2026-09-19 19:21:43 UTC",
   "source_names": [
+    "NewsBTC",
     "NIST",
     "Cryptonews",
     "U.S. Bureau of Labor Statistics",
@@ -12,10 +13,196 @@
     "Federal Reserve Board"
   ],
   "lookback_hours": [
-    24
+    48
   ],
-  "count": 1,
+  "collection_diagnostics": {
+    "collected_at": "2026-09-19T19:21:39.466699+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 9,
+        "within_window": 9,
+        "eligible": 9,
+        "rejected": {
+          "older_than_window": 1
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 39
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 14,
+        "eligible": 5,
+        "rejected": {
+          "unreviewed_link": 3,
+          "title_filter": 3,
+          "topic_author_or_category": 3,
+          "older_than_window": 6
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 48,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 48
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 25
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 2,
+        "eligible": 1,
+        "rejected": {
+          "unreviewed_link": 1,
+          "older_than_window": 13
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 9
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 9,
+      "Cryptonews": 5,
+      "European Central Bank": 1,
+      "Bitcoin Optech": 1
+    },
+    "unique_by_source": {
+      "NewsBTC": 9,
+      "Cryptonews": 5,
+      "European Central Bank": 1,
+      "Bitcoin Optech": 1
+    },
+    "selected_by_source": {
+      "NewsBTC": 4,
+      "Cryptonews": 4,
+      "European Central Bank": 1,
+      "Bitcoin Optech": 1
+    }
+  },
+  "count": 10,
   "items": [
+    {
+      "title": "Coinbase And Stablecore Open Digital Asset Rails To 3,000+ Banks And Credit Unions",
+      "link": "https://www.newsbtc.com/news/coinbase-and-stablecore-open-digital-asset-rails-to-3-000-banks-and-credit/",
+      "summary": "Read the latest update on Coinbase And Stablecore Open Digital Asset Rails To 3,000+ Banks And Credit Unions.",
+      "source": "NewsBTC",
+      "date": "2026-09-19",
+      "date_human": "Sep 19, 2026",
+      "pub_ts": 1789844400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "XRP News: 16-Cross History Complicates the Golden Cross Signal",
       "link": "https://cryptonews.com/news/xrp-news-golden-cross-history/",
@@ -24,6 +211,110 @@
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
       "pub_ts": 1789758360,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "ECB Consumer Expectations Survey results – August 2026",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
+      "summary": "ECB Consumer Expectations Survey results – August 2026",
+      "source": "European Central Bank",
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789718400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Optech Newsletter #423",
+      "link": "https://bitcoinops.org/en/newsletters/2026/09/18/",
+      "summary": "This week’s newsletter summarizes an analysis of mining pool difficulty controllers stranding slowed miners, describes a proposed improvement to Utreexo’s initial block download, and links to a draft BIP for specifying unspendable taproot internal keys. Also included are our regular sections describing recent changes to services and client software, announcing new releases and release candidates, and describing notable changes to popular Bitcoin infrastructure software.",
+      "source": "Bitcoin Optech",
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789689600,
+      "image_candidates": [],
+      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Treasury Sanctions BitBank Over Iranian Crypto Sanctions-Evasion Network",
+      "link": "https://www.newsbtc.com/news/treasury-sanctions-bitbank-over-iranian-crypto-sanctions-evasion-network/",
+      "summary": "Read the latest update on Treasury Sanctions BitBank Over Iranian Crypto Sanctions-Evasion Network.",
+      "source": "NewsBTC",
+      "date": "2026-09-19",
+      "date_human": "Sep 19, 2026",
+      "pub_ts": 1789841700,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Could Reach 1%-3% of Institutional Alternative Portfolios",
+      "link": "https://cryptonews.com/news/kevin-oleary-institutional-crypto-adoption/",
+      "summary": "Institutional crypto adoption drives O’Leary’s thesis: 1%-3% allocations, exchange adoption and a conditional $1 million Bitcoin forecast.",
+      "source": "Cryptonews",
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789748597,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "SEC Grants Five-Year Exemption For Tokenized Stock Trading Venues",
+      "link": "https://www.newsbtc.com/news/sec-grants-five-year-exemption-for-tokenized-stock-trading-venues/",
+      "summary": "Read the latest update on SEC Grants Five-Year Exemption For Tokenized Stock Trading Venues.",
+      "source": "NewsBTC",
+      "date": "2026-09-19",
+      "date_human": "Sep 19, 2026",
+      "pub_ts": 1789839000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin's $80,000 Return Faces an $82,300 Confirmation Test",
+      "link": "https://cryptonews.com/news/bitcoin-breakout-80000-test/",
+      "summary": "Bitcoin breakout above $80,000 triggered $192 million in hourly liquidations, but $82,300 remains the key test for lasting recovery.",
+      "source": "Cryptonews",
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789745437,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "FCA Crypto Authorisation Gateway Opens September 30",
+      "link": "https://www.newsbtc.com/news/fca-crypto-authorisation-gateway-opens-september-30/",
+      "summary": "Read the latest update on FCA Crypto Authorisation Gateway Opens September 30.",
+      "source": "NewsBTC",
+      "date": "2026-09-19",
+      "date_human": "Sep 19, 2026",
+      "pub_ts": 1789836300,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Grayscale Sees Limited Bitcoin Impact From 25-Basis-Point Hike",
+      "link": "https://cryptonews.com/news/federal-reserve-bitcoin-price-impact/",
+      "summary": "Grayscale says the Federal Reserve’s 25-basis-point hike is unlikely to materially reshape crypto markets, unless tightening extends into 2026.",
+      "source": "Cryptonews",
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789728385,
       "image_candidates": [],
       "license_url": null,
       "image": null,
