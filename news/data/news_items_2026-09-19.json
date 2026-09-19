@@ -1,7 +1,8 @@
 {
   "day_iso": "2026-09-19",
-  "generated_at_utc": "2026-09-19 04:05:01 UTC",
+  "generated_at_utc": "2026-09-19 05:33:40 UTC",
   "source_names": [
+    "Bitcoin Optech",
     "Federal Reserve Board"
   ],
   "lookback_hours": [
@@ -10,8 +11,21 @@
     96,
     168
   ],
-  "count": 2,
+  "count": 3,
   "items": [
+    {
+      "title": "Bitcoin Optech Newsletter #423",
+      "link": "https://bitcoinops.org/en/newsletters/2026/09/18/",
+      "summary": "This week’s newsletter summarizes an analysis of mining pool difficulty controllers stranding slowed miners, describes a proposed improvement to Utreexo’s initial block download, and links to a draft BIP for specifying unspendable taproot internal keys. Also included are our regular sections describing recent changes to services and client software, announcing new releases and release candidates, and describing notable changes to popular Bitcoin infrastructure software.",
+      "source": "Bitcoin Optech",
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789689600,
+      "image_candidates": [],
+      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
@@ -21,6 +35,7 @@
       "date_human": "Sep 16, 2026",
       "pub_ts": 1789581600,
       "image_candidates": [],
+      "license_url": null,
       "image": null,
       "image_local": null
     },
@@ -33,6 +48,7 @@
       "date_human": "Sep 16, 2026",
       "pub_ts": 1789581600,
       "image_candidates": [],
+      "license_url": null,
       "image": null,
       "image_local": null
     }
