@@ -1,7 +1,9 @@
 {
   "day_iso": "2026-09-19",
-  "generated_at_utc": "2026-09-19 05:33:40 UTC",
+  "generated_at_utc": "2026-09-19 06:14:38 UTC",
   "source_names": [
+    "SEC",
+    "European Central Bank",
     "Bitcoin Optech",
     "Federal Reserve Board"
   ],
@@ -11,8 +13,21 @@
     96,
     168
   ],
-  "count": 3,
+  "count": 6,
   "items": [
+    {
+      "title": "ECB Consumer Expectations Survey results – August 2026",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
+      "summary": "ECB Consumer Expectations Survey results – August 2026",
+      "source": "European Central Bank",
+      "date": "2026-09-18",
+      "date_human": "Sep 18, 2026",
+      "pub_ts": 1789718400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Bitcoin Optech Newsletter #423",
       "link": "https://bitcoinops.org/en/newsletters/2026/09/18/",
@@ -27,6 +42,19 @@
       "image_local": null
     },
     {
+      "title": "SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
+      "link": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
+      "summary": "The SEC is taking a significant step forward, within its statutory authority, to bring America’s capital markets into the digital age by facilitating onchain trading of certain tokenized stocks.",
+      "source": "SEC",
+      "date": "2026-09-17",
+      "date_human": "Sep 17, 2026",
+      "pub_ts": 1789649700,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Federal Reserve issues FOMC statement",
       "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "summary": "Federal Reserve issues FOMC statement",
@@ -34,6 +62,19 @@
       "date": "2026-09-16",
       "date_human": "Sep 16, 2026",
       "pub_ts": 1789581600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html",
+      "summary": "ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth",
+      "source": "European Central Bank",
+      "date": "2026-09-16",
+      "date_human": "Sep 16, 2026",
+      "pub_ts": 1789545600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
