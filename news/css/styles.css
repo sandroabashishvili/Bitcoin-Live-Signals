@@ -360,15 +360,17 @@
 .news-card-illustration-link:hover svg { transform: scale(1.035); filter: brightness(1.18); }
 .news-card-illustration-link:focus-visible,
 .news-card-media:focus-visible { outline: 3px solid #f5c96b; outline-offset: -4px; }
-.news-card:not(.news-card-empty) .news-card-title {
-  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3;
-  overflow: hidden; min-height: 3.75em; max-height: 3.75em;
-}
+/* Let content set its height; no empty title/summary line reservations. */
+.news-card:not(.news-card-empty) .news-card-title,
 .news-card:not(.news-card-empty) .news-card-summary {
-  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4;
-  overflow: hidden; min-height: 6.32em; max-height: 6.32em;
+  display: block;
+  min-height: 0;
+  max-height: none;
+  overflow: visible;
 }
-.news-card:not(.news-card-empty) .news-card-body { min-height: 252px; }
+.news-card:not(.news-card-empty) .news-card-body { min-height: 0; gap: 9px; }
+.news-grid { align-items: start; }
+.news-card { min-height: 0; }
 @media (prefers-reduced-motion: reduce) {
   .news-card-illustration-link svg, .news-card-media img, .news-card-title a,
   .news-card-summary { transition: none; }
