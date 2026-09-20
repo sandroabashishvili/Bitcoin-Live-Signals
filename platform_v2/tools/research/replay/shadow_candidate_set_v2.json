@@ -1,0 +1,71 @@
+{
+  "candidate_set_version": "futures-shadow-v2",
+  "status": "approved_for_forward_shadow_main_baseline_unchanged",
+  "frozen_at_utc": "2026-08-01",
+  "training_snapshot": "/home/sandro/research_snapshots/smartsignalhub_20260731_153256",
+  "evaluation_cutoff_ms_exclusive": 1785511799999,
+  "evaluation_cutoff_utc": "2026-07-31 15:29:59 UTC",
+  "live_strategy_changed": true,
+  "baseline_pair": "futures_long_baseline_v1__futures_short_baseline_v1",
+  "candidate_arms": [
+    {
+      "id": "short_timing_only",
+      "long_profile": "futures_long_baseline_v1",
+      "short_profile": "futures_short_flip_confirmation_v1",
+      "purpose": "Measure one-candle confirmation of true LONG-to-SHORT flips without changing scoring or exits.",
+      "training_replay": {
+        "net_pnl": 3.82,
+        "train_net_pnl": -27.5,
+        "test_net_pnl": 31.32,
+        "short_net_pnl": 4.83,
+        "max_sequential_drawdown": 47.91
+      }
+    },
+    {
+      "id": "short_timing_plus_exit",
+      "long_profile": "futures_long_baseline_v1",
+      "short_profile": "futures_short_flip_stop_cap_25_v1",
+      "purpose": "Measure flip confirmation together with a 2.5 ATR cap on baseline SHORT stops that fall in the 2.5-3.5 ATR band.",
+      "training_replay": {
+        "net_pnl": 13.33,
+        "train_net_pnl": -20.78,
+        "test_net_pnl": 34.11,
+        "short_net_pnl": 14.34,
+        "max_sequential_drawdown": 45.08,
+        "exit_edits": 34
+      }
+    },
+    {
+      "id": "long_scoring_only",
+      "long_profile": "futures_long_macd_spread_02_05_neutral_v1",
+      "short_profile": "futures_short_baseline_v1",
+      "purpose": "Measure removal of the LONG MACD alignment reward only at 0.2-0.5 ATR directional spread.",
+      "training_replay": {
+        "net_pnl": -14.54,
+        "train_net_pnl": -35.96,
+        "test_net_pnl": 21.43,
+        "long_net_pnl": 16.34,
+        "max_sequential_drawdown": 53.66
+      }
+    }
+  ],
+  "joint_reference": {
+    "long_profile": "futures_long_macd_spread_02_05_neutral_v1",
+    "short_profile": "futures_short_flip_stop_cap_25_v1",
+    "net_pnl": 23.1,
+    "train_net_pnl": -21.16,
+    "test_net_pnl": 44.27,
+    "max_sequential_drawdown": 45.84,
+    "note": "Reference only. Keep separate arms in forward shadow so attribution is not lost."
+  },
+  "baseline_replay": {
+    "net_pnl": -31.89,
+    "train_net_pnl": -43.16,
+    "test_net_pnl": 11.27,
+    "short_net_pnl": -30.88,
+    "long_net_pnl": -1.01,
+    "max_sequential_drawdown": 60.86
+  },
+  "promotion_guard": "The selected short_timing_plus_exit arm was promoted to simulation by owner decision on 2026-08-01. Keep the cutoff frozen for comparison; other arms remain research-only.",
+  "promotion_record": "futures_strategy_promotion_v2.json"
+}

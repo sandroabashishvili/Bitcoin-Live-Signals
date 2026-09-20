@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtualenv
+venv/
+.venv/
+
+# Editor / local workspace
+.vscode/
+.idea/
+.codex
+.codex/
+.continue/
+platform_v2/.codex
+.env
+.env.*
+!.env.example
+
+# Archived notes (active platform_v2/docs is versioned)
+docs_archive_platform_v2/
+
+# Local logs/backups/artifacts
+logs/
+backups/
+*.log
+*.zip
+*.tar
+*.tar.gz
+*.7z
+publish/
+platform_v2/spot/runtime/
+platform_v2/spot/runtime_spot/
+platform_v2/runtime/
+platform_v2/runtime_archives/
+platform_v2/futures/runtime_futures/
+platform_v2/futures_hedge/runtime_hedge/
+# video_reels/output contains Python source; generated videos are excluded below
+platform_v2/tools/video_reels/**/*.mp4
+*.mp4
+platform_v2/tools/telegram_bot_system/state/
+portfolio_projects/
+
+# Generated GitHub Pages snapshots (published from the separate main branch)
+/.nojekyll
+/favicon.ico
+/index.html
+/platform_v2/spot/dashboard/*/index.html
+/platform_v2/futures/dashboard/*/index.html
+/platform_v2/futures_hedge/dashboard/*/index.html
+/platform_v2/public_site/assets/news/
+/platform_v2/public_site/news/archive/
+/platform_v2/public_site/news/data/
+/platform_v2/public_site/news/index.html
+/platform_v2/public_site/sitemap.xml
+
+# Test/type/tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local databases and credentials (including SQLite journal companions)
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.db
+*.db-*
+*.pem
+*.key
+*.p12
+*.pfx
+.netrc
+.git-credentials
+
+# Generated research reports; keep scripts and curated replay fixtures
+/platform_v2/tools/research/artifacts/**/*.json
+/platform_v2/tools/research/artifacts/**/*.csv
+/platform_v2/tools/research/artifacts/**/*.html
+/platform_v2/tools/research/artifacts/**/*.png

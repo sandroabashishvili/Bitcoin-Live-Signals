@@ -1,0 +1,76 @@
+.metric-grid,
+.timeframe-grid,
+.kpi-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.metric-grid {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.kpi-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.metric-card,
+.timeframe-card {
+  padding: 12px;
+  border-radius: 14px;
+  border: 0;
+  background: rgba(255,255,255,0.02);
+}
+
+.metric-card span,
+.timeframe-card span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.metric-card strong {
+  font-size: 18px;
+}
+
+.value-green {
+  color: var(--green);
+}
+
+.value-red {
+  color: var(--red);
+}
+
+.value-amber {
+  color: var(--amber);
+}
+
+.value-muted {
+  color: var(--muted);
+}
+
+.timeframe-stats strong.value-green,
+.metric-card strong.value-green,
+.runtime-table strong.value-green {
+  color: var(--green);
+}
+
+.timeframe-stats strong.value-red,
+.metric-card strong.value-red,
+.runtime-table strong.value-red {
+  color: var(--red);
+}
+
+.timeframe-stats strong.value-amber,
+.metric-card strong.value-amber,
+.runtime-table strong.value-amber {
+  color: var(--amber);
+}
+
+.timeframe-stats strong.value-muted,
+.metric-card strong.value-muted,
+.runtime-table strong.value-muted {
+  color: var(--muted);
+}

@@ -1,0 +1,165 @@
+{
+  "hedge.capital_snapshot.panel": {
+    "title": "Capital Snapshot",
+    "summary": "Current state of the independent Hedge simulation strategy: capital, margin, PnL, exposure, capacity, and risk visibility.",
+    "details": [
+      "Starting Capital is the configured Hedge account baseline.",
+      "Open Equity is the current Hedge account value including open LONG and SHORT basket PnL, before estimated exit fees.",
+      "If Closed Now subtracts estimated exit fees from current open equity.",
+      "Available Capital is open equity minus used Hedge margin.",
+      "Used Margin is Hedge capital currently tied to open basket entries.",
+      "Unrealized PnL is current open basket movement; Realized PnL is only from completed Hedge resets.",
+      "Total Fees combines recorded Hedge entry fees and reset/close fee effects currently known to the replay.",
+      "Peak Capital and Lowest Capital come from Hedge-owned account snapshots.",
+      "Entry Capacity shows whether the next standard Hedge entry can be opened and how many same-size entries fit into available capital.",
+      "Net Exposure shows the notional difference between LONG and SHORT baskets; FLAT can still mean both baskets are open but balanced.",
+      "Side Imbalance shows which side is larger by notional; BALANCED means LONG and SHORT notional are equal.",
+      "Margin Used, Worst Basket ROE, Danger Distance, and Liquidation Risk are first-pass visibility metrics, not exchange-grade liquidation modeling.",
+      "Accepted Hedge Entries are Futures OPENED events copied into Hedge; Skipped Hedge Entries are source events Hedge did not accept."
+    ],
+    "severity": "neutral"
+  },
+  "hedge.capital.open_equity": {
+    "title": "Open Equity",
+    "summary": "Current Hedge account equity including open basket PnL, before estimated exit fees.",
+    "details": [
+      "Formula: cash plus unrealized LONG and SHORT basket PnL.",
+      "Green means the value is above starting capital; red means below starting capital.",
+      "This is mark-to-market state, not a closed realized result."
+    ],
+    "severity": "neutral"
+  },
+  "hedge.capital.if_closed_now": {
+    "title": "If Closed Now",
+    "summary": "Estimated Hedge equity if both baskets were closed at the current mark price.",
+    "details": [
+      "Formula: Open Equity minus estimated exit fees.",
+      "This is only an estimate because slippage and funding fees are not modeled yet.",
+      "Use this to compare open mark-to-market value against close-after-fees value."
+    ],
+    "severity": "neutral"
+  },
+  "hedge.capital.entry_capacity": {
+    "title": "Entry Capacity",
+    "summary": "Whether the Hedge account can open the next standard Hedge entry and approximately how many entries remain before capital exhaustion.",
+    "details": [
+      "YES means available capital is enough for one more configured Hedge entry.",
+      "The LEFT count estimates how many same-size entries fit into available capital.",
+      "This does not force a reset by itself; reset happens when a new Hedge entry cannot be opened from Hedge capital."
+    ],
+    "severity": "neutral"
+  },
+  "hedge.capital.peak_lowest": {
+    "title": "Peak And Lowest Capital",
+    "summary": "Highest and lowest Hedge equity recorded in Hedge-owned account history.",
+    "details": [
+      "These values come from Hedge-owned account snapshots instead of frontend recalculation.",
+      "They do not depend on how many Futures candles are currently retained.",
+      "The chart uses full Hedge basket snapshot history when available and live equity timeline data as fallback."
+    ],
+    "severity": "neutral"
+  },
+  "hedge.capital.net_exposure": {
+    "title": "Net Exposure",
+    "summary": "The notional difference between the LONG and SHORT Hedge baskets.",
+    "details": [
+      "FLAT means LONG notional and SHORT notional are equal.",
+      "LONG means the LONG basket is larger by notional.",
+      "SHORT means the SHORT basket is larger by notional.",
+      "This is not the same as no positions; balanced LONG and SHORT baskets can still have open PnL risk."
+    ],
+    "severity": "neutral"
+  },
+  "hedge.capital.side_imbalance": {
+    "title": "Side Imbalance",
+    "summary": "Shows which basket is larger and by what ratio.",
+    "details": [
+      "BALANCED means LONG and SHORT notional are equal.",
+      "SHORT 2.00x means the SHORT notional is twice the LONG notional.",
+      "This is visibility only; it does not block entries in the current Hedge rules."
+    ],
+    "severity": "neutral"
+  },
+  "hedge.capital.margin_used": {
+    "title": "Margin Used",
+    "summary": "Used Hedge margin as a percentage of current open equity.",
+    "details": [
+      "Formula: used margin divided by open equity.",
+      "Higher values mean more Hedge capital is tied in baskets.",
+      "It is a pressure metric, not a direct liquidation calculation."
+    ],
+    "severity": "neutral"
+  },
+  "hedge.capital.worst_basket_roe": {
+    "title": "Worst Basket ROE",
+    "summary": "The weaker ROE value between the LONG and SHORT baskets.",
+    "details": [
+      "ROE is unrealized PnL divided by that basket's used margin.",
+      "This helps identify which side is currently under pressure.",
+      "If both baskets are positive, worst basket ROE is capped at 0 for risk-label calculations."
+    ],
+    "severity": "neutral"
+  },
+  "hedge.capital.danger_distance": {
+    "title": "Danger Distance",
+    "summary": "How many percentage points remain before the first HIGH-risk threshold in the current simple risk label.",
+    "details": [
+      "The current first-pass danger threshold is worst basket ROE at -80%.",
+      "A larger value is safer; a smaller value means the weakest basket is closer to the danger zone.",
+      "This is a visibility metric only, not an exchange liquidation-price model."
+    ],
+    "severity": "neutral"
+  },
+  "hedge.capital.liquidation_risk": {
+    "title": "Liquidation Risk",
+    "summary": "First-pass LOW / ELEVATED / MEDIUM / HIGH risk label based on worst basket ROE.",
+    "details": [
+      "LOW means the weakest basket is not near the configured danger bands.",
+      "ELEVATED, MEDIUM, and HIGH are based on simple ROE thresholds.",
+      "This is not exchange-grade liquidation modeling and does not change Hedge entries or resets yet."
+    ],
+    "severity": "neutral"
+  },
+  "hedge.long_basket.panel": {
+    "title": "LONG Basket",
+    "summary": "Aggregated Hedge LONG entries created from confirmed Futures LONG opened events.",
+    "details": [
+      "Entries are accumulated into one virtual LONG basket.",
+      "Average entry is not a single trade entry; it is the weighted basket average.",
+      "Unrealized PnL and ROE are measured at the current mark price."
+    ],
+    "severity": "neutral"
+  },
+  "hedge.short_basket.panel": {
+    "title": "SHORT Basket",
+    "summary": "Aggregated Hedge SHORT entries created from confirmed Futures SHORT opened events.",
+    "details": [
+      "Entries are accumulated into one virtual SHORT basket.",
+      "Average entry is not a single trade entry; it is the weighted basket average.",
+      "Unrealized PnL improves when mark price moves below the average entry and worsens when mark price moves above it."
+    ],
+    "severity": "neutral"
+  },
+  "hedge.equity_chart.panel": {
+    "title": "Equity Δ% from Start",
+    "summary": "Hedge account equity movement measured against the configured starting capital.",
+    "details": [
+      "The chart reads full Hedge basket snapshot history when available.",
+      "If basket snapshots are missing, it falls back to Hedge-owned equity timeline cycle snapshots.",
+      "0% is the configured Hedge starting capital baseline.",
+      "Green means Hedge equity is above starting capital; red means below starting capital.",
+      "This chart does not read Futures portfolio equity and does not use rendered page values."
+    ],
+    "severity": "neutral"
+  },
+  "hedge.entries.panel": {
+    "title": "Hedge Entries",
+    "summary": "Accepted Hedge entries copied from confirmed Futures OPENED events into the independent Hedge account.",
+    "details": [
+      "Each row has its own Hedge ID and source Futures position ID.",
+      "These entries ignore the original Futures TP/SL lifecycle after being copied.",
+      "The table defaults to the latest five entries and can show more rows from the selector."
+    ],
+    "severity": "neutral"
+  }
+}

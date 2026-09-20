@@ -1,0 +1,226 @@
+.explanation-anchor {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.explanation-anchor::after {
+  content: "!";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  border: 0;
+  background: color-mix(in oklab, var(--text) 8%, transparent);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  box-shadow: none;
+  transition:
+    background 180ms ease,
+    color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+.metric-label-with-action {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 6px;
+}
+
+.panel-title-with-action {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 7px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.panel-title-with-action .explanation-anchor {
+  transform: translateY(-1px);
+}
+
+.panel-title-with-action > span:first-child {
+  min-width: 0;
+  white-space: normal;
+}
+
+.explanation-anchor:hover::after,
+.explanation-anchor:focus-visible::after {
+  background: color-mix(in oklab, var(--text) 14%, transparent);
+  color: var(--text);
+  box-shadow: none;
+  transform: scale(1.04);
+}
+
+.explanation-hover-tooltip {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: min(320px, calc(100vw - 32px));
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: color-mix(in oklab, var(--bg) 94%, black 6%);
+  border: 0;
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  white-space: normal;
+  text-align: left;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.22);
+  z-index: 160;
+  pointer-events: none;
+  opacity: 1;
+}
+
+.explanation-hover-tooltip[aria-hidden="true"] {
+  display: none;
+}
+
+.explanation-drawer {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  pointer-events: none;
+}
+
+.explanation-drawer[aria-hidden="false"] {
+  pointer-events: auto;
+}
+
+.explanation-drawer-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 10, 16, 0.56);
+  opacity: 0;
+  transition: opacity 180ms ease;
+}
+
+.explanation-drawer-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: min(420px, calc(100vw - 24px));
+  height: 100%;
+  padding: 18px 18px 28px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02)), var(--panel);
+  border-left: 1px solid var(--line);
+  box-shadow: -20px 0 40px rgba(0, 0, 0, 0.28);
+  transform: translateX(104%);
+  transition: transform 220ms ease;
+}
+
+.explanation-drawer[aria-hidden="false"] .explanation-drawer-backdrop {
+  opacity: 1;
+}
+
+.explanation-drawer[aria-hidden="false"] .explanation-drawer-panel {
+  transform: translateX(0);
+}
+
+.explanation-drawer-close {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.explanation-drawer-body {
+  margin-top: 18px;
+}
+
+.explanation-drawer-kicker {
+  margin: 0 0 8px;
+  color: var(--amber);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 11px;
+}
+
+.explanation-drawer-body h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  line-height: 1.1;
+}
+
+.explanation-drawer-summary {
+  margin: 0 0 14px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.explanation-drawer-list {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.explanation-drawer-list li + li {
+  margin-top: 8px;
+}
+
+.explanation-drawer-cta {
+  margin: 16px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+}
+
+.explanation-drawer-link {
+  color: var(--blue);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .panel-title-with-action {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+    white-space: normal;
+  }
+
+  .panel-title-with-action .explanation-anchor {
+    margin-left: 0;
+    flex: 0 0 auto;
+    transform: none;
+  }
+
+  .panel-title-with-action > span:first-child {
+    display: inline;
+  }
+
+  .explanation-drawer-panel {
+    width: min(312px, calc(100vw - 92px));
+    padding: 16px 16px 24px;
+  }
+
+  .explanation-hover-tooltip {
+    display: none;
+  }
+
+  .explanation-drawer-body {
+    margin-top: 14px;
+  }
+
+  .explanation-drawer-body h2 {
+    font-size: 22px;
+  }
+}

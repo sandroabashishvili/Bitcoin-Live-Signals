@@ -1,0 +1,34 @@
+{
+  "candidate_version": "short-flip-confirmation-v1",
+  "status": "promoted_as_part_of_futures_short_flip_stop_cap_v2",
+  "reviewed_at_utc": "2026-07-31",
+  "strategy_version": "research-futures-short-flip-confirmation-v1",
+  "training_snapshot": "/home/sandro/research_snapshots/smartsignalhub_20260731_153256",
+  "rule": "Hold the first LONG-to-SHORT direction change for one closed 15-minute candle; allow the next consecutive SHORT to re-enter the complete permission pipeline.",
+  "unchanged": [
+    "position_size",
+    "component_weights",
+    "signal_threshold",
+    "long_entry_timing"
+  ],
+  "baseline_replay": {
+    "opened_positions": 159,
+    "net_pnl": -31.89,
+    "avg_net_pnl": -0.2018,
+    "max_sequential_drawdown": 60.86,
+    "train_net_pnl": -43.16,
+    "test_net_pnl": 11.27,
+    "short_net_pnl": -30.88
+  },
+  "candidate_replay": {
+    "opened_positions": 152,
+    "net_pnl": 3.82,
+    "avg_net_pnl": 0.0253,
+    "max_sequential_drawdown": 47.91,
+    "train_net_pnl": -27.5,
+    "test_net_pnl": 31.32,
+    "short_net_pnl": 4.83
+  },
+  "rejected_variant": "LONG one-candle confirmation worsened net PnL and drawdown.",
+  "forward_guard": "Historical standalone candidate record. The owner later promoted confirmation together with the narrow SHORT stop cap to the main simulation."
+}

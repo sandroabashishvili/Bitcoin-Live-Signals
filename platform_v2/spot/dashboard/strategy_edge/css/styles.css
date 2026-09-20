@@ -1,0 +1,52 @@
+@import url("../../trade_outcomes/css/styles.css");
+
+.strategy-summary-grid {
+  grid-template-columns: 1fr;
+}
+
+.strategy-summary-grid .panel-intro {
+  margin-bottom: 12px;
+}
+
+.strategy-summary-grid .kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  width: 100%;
+}
+
+.strategy-summary-grid .metric-card {
+  flex: 1 1 0;
+  min-width: 0;
+  min-height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 9px 11px;
+  border-radius: 16px;
+}
+
+.strategy-summary-grid .metric-card span {
+  white-space: nowrap;
+  margin-bottom: 6px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  font-size: 11px;
+}
+
+.table-shell .recent-signals-table {
+  width: 100%;
+  min-width: 100%;
+}
+
+@media (max-width: 1240px) {
+  .strategy-summary-grid .kpi-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .strategy-summary-grid .kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

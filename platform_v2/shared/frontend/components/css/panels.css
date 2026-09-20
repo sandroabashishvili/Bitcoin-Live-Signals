@@ -1,0 +1,76 @@
+.panel {
+  border: 0;
+  background: transparent;
+  border-radius: 18px;
+  box-shadow: none;
+  position: relative;
+  overflow: visible;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.panel {
+  padding: 18px;
+}
+
+.panel-wide {
+  grid-column: span 2;
+}
+
+.panel-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 4px;
+  position: relative;
+  overflow: visible;
+  z-index: 2;
+}
+
+.panel-head h2,
+.panel h3 {
+  margin: 0;
+}
+
+.panel-intro {
+  margin: 0 0 8px;
+  color: var(--muted);
+  line-height: 1.4;
+  max-width: 72ch;
+  font-size: 14px;
+}
+
+.panel-note {
+  margin: 10px 0 0;
+  color: var(--muted);
+  line-height: 1.45;
+  font-size: 13px;
+}
+
+.panel-note-link {
+  color: inherit;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.panel-note-link:hover,
+.panel-note-link:focus-visible {
+  text-decoration: underline;
+}
+
+.panel h3 {
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.runtime-panel {
+  margin-top: 18px;
+}

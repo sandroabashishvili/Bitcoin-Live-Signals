@@ -1,0 +1,148 @@
+{
+  "registry_version": "calibration-findings-v1",
+  "snapshot": "/home/sandro/research_snapshots/smartsignalhub_20260731_153256",
+  "status": "research_only",
+  "live_strategy_changed": false,
+  "confirmed_technical_bugs": [
+    {
+      "id": "macd_histogram_overwritten_by_structure_defaults",
+      "status": "storage_fixed_signal_reward_guarded_off",
+      "impact": "rising/falling MACD histogram checks never received their three-point history",
+      "replay_result": "Immediate reward activation worsened Spot theoretical replay, so live scoring remains disabled behind a feature flag"
+    }
+  ],
+  "priority_findings": [
+    {
+      "id": "futures_short_macd_spread_reward",
+      "current_rule": "0.0 to 0.2 ATR spread receives +0.9 momentum points",
+      "evidence": "30 trades, -60.43 net; negative in train and test"
+    },
+    {
+      "id": "futures_short_structure_distance_reward",
+      "current_rule": "1.5 to 2.5 ATR from swing high receives +1.3 structure points",
+      "evidence": "20 trades, -52.20 net; negative in train and test"
+    },
+    {
+      "id": "futures_short_di_alignment_reward",
+      "current_rule": "bearish DI alignment can add +1.0 trend point",
+      "evidence": "74 aligned trades, -62.10 net; opposed cohort +36.67"
+    },
+    {
+      "id": "futures_long_rsi_reward",
+      "current_rule": "RSI 58 to 65 receives +1.4 momentum points",
+      "evidence": "31 trades, -14.33 net; negative in train and test"
+    },
+    {
+      "id": "futures_long_macd_alignment_reward",
+      "current_rule": "MACD above signal receives +0.8 momentum points",
+      "evidence": "46 aligned trades, -33.28 net; negative in train and test"
+    },
+    {
+      "id": "spot_orderflow_reward",
+      "current_rule": "directional ratio 1.1 to 1.8 receives strong positive points",
+      "evidence": "1.1 to 1.3: -1.80; 1.3 to 1.8: -3.14; both negative in train and test"
+    },
+    {
+      "id": "spot_bounce_reward",
+      "current_rule": "bounce_confirmed adds +0.2 structure points",
+      "evidence": "13 trades, -4.80 net; negative in train and test"
+    }
+  ],
+  "portfolio_replay_candidates": [
+    {
+      "id": "futures_shadow_v1_combined",
+      "status": "retired_user_rejected_conditional_position_sizing",
+      "result": "Research evidence only. LONG MACD reward neutral at RSI >=58 plus SHORT 25% size produced net +36.92, but conditional sizing is not an accepted solution."
+    },
+    {
+      "id": "futures_long_mtf_half_v1",
+      "status": "promising_not_stable",
+      "result": "LONG net -1.01 to +14.72; train delta +8.65; test delta +7.08, but test net remains -8.16"
+    },
+    {
+      "id": "futures_long_macd_alignment_neutral_v1",
+      "status": "promising_not_stable",
+      "result": "LONG net -1.01 to +12.32; train delta +5.56; test delta +7.77, but test net remains -7.47"
+    },
+    {
+      "id": "futures_long_mtf075_macd_half_v1",
+      "status": "promising_not_stable",
+      "result": "LONG net -1.01 to +11.75; both halves improve relative to baseline, but test net remains -11.45"
+    },
+    {
+      "id": "futures_long_rsi_58_65_reward_changes",
+      "status": "rejected_current_forms",
+      "result": "Both zero and half reward variants worsened LONG portfolio replay; executed-cohort association was not causal"
+    },
+    {
+      "id": "futures_long_rsi_momentum_disabled_v1",
+      "status": "rejected",
+      "result": "Keeping RSI only in MTF and removing its Momentum contribution changed LONG net from -1.01 to -19.18; train +8.23 and test -27.41."
+    },
+    {
+      "id": "futures_long_rsi_momentum_pullback_v1",
+      "status": "rejected",
+      "result": "Replacing the Momentum RSI map with the existing MTF pullback map changed LONG net from -1.01 to -16.02; train +3.84 and test -19.86."
+    },
+    {
+      "id": "futures_long_macd_rsi_boundary_grid_v1",
+      "status": "rsi58_promising_not_stable",
+      "result": "MACD reward removal at RSI 55/58/60/65 produced LONG +5.92/+18.59/+1.30/+3.10. RSI 58 improved both halves relatively, but test remained -10.41."
+    },
+    {
+      "id": "futures_long_macd_spread_02_05_neutral_v1",
+      "status": "best_balanced_long_candidate_not_live",
+      "result": "LONG -1.01 to +16.34; train +14.23 to +21.43; test -15.24 to -5.09; direction drawdown 40.38 to 33.57. Hold for separate-period or forward validation."
+    },
+    {
+      "id": "futures_long_component_weight_grid_v1",
+      "status": "screen_complete_not_live",
+      "result": "MTF 0.5 produced LONG +14.72 and Orderbook 0.45 produced +12.87 with relative train/test gains. All whole-Momentum weight changes worsened LONG; no candidate had positive absolute test performance."
+    },
+    {
+      "id": "spot_component_weight_grid_v1",
+      "status": "screen_complete_not_live",
+      "result": "After canonical score/18.0 setup confidence parity, baseline is -2.40 versus actual -2.44. Regime 1.2 reached -1.05 with positive relative train/test deltas and remains the best stable lead. Orderbook 0.675 reached -1.75 but worsened test; Trend 0.975 reached +1.00 but also worsened test. No Spot weight candidate is approved."
+    },
+    {
+      "id": "spot_minus_rule_force_close_parity_v1",
+      "status": "implemented_replay_fidelity_high",
+      "result": "Spot signal preview and replay now share actual execution confidence score/18.0. Replay is -2.40 versus actual -2.44; 60/60 closed, 41.67% win rate, three force closes in both, and 58/60 exact entry timestamps. The two remaining shifted entries are explained by current buy_entry_location_block applied over pre-rule history."
+    },
+    {
+      "id": "futures_short_narrow_reward_removals_v1",
+      "status": "rejected",
+      "result": "MACD 0-0.2, Structure 1.5-2.5, DI alignment, and combined removals did not improve SHORT portfolio replay"
+    },
+    {
+      "id": "futures_short_macd_0_02_sizing_grid_v1",
+      "status": "retired_user_rejected_conditional_position_sizing",
+      "result": "Research evidence only. SHORT baseline -30.88; 75% size -14.48; 50% +1.93; 25% +18.33. No sizing variant is approved for shadow."
+    },
+    {
+      "id": "futures_short_flip_confirmation_v1",
+      "status": "approved_for_forward_shadow_main_baseline_unchanged",
+      "result": "One-candle SHORT flip confirmation: portfolio net -31.89 to +3.82; train -43.16 to -27.50; test +11.27 to +31.32; drawdown 60.86 to 47.91."
+    },
+    {
+      "id": "futures_short_component_weight_grid_v1",
+      "status": "hold_for_cross_period_validation_not_live",
+      "result": "Narrow replay: Regime 1.16 produced SHORT -3.36; Orderbook 0.6975 produced SHORT +0.49 and total portfolio -0.52, with positive relative train/test deltas and drawdown 49.93. Stop further decimal fitting on the same snapshot."
+    },
+    {
+      "id": "futures_short_exit_geometry_v1",
+      "status": "screen_complete_cap_25_approved_for_forward_shadow",
+      "result": "SHORT 2.5-3.5 ATR stop cap to 2.5 ATR improved SHORT -30.88 to -20.43, train -57.39 to -50.38, test +26.51 to +29.96, and portfolio drawdown 60.86 to 56.76. Widening to 3.5 ATR was rejected; moving 2.0-2.2 R targets to 1.8 R was time-unstable and rejected."
+    },
+    {
+      "id": "futures_short_flip_stop_cap_25_v1",
+      "status": "promoted_to_main_simulation_2026_08_01",
+      "result": "SHORT flip confirmation plus the 2.5 ATR stop cap improved portfolio -31.89 to +13.33, train -43.16 to -20.78, test +11.27 to +34.11, SHORT -30.88 to +14.34, and drawdown 60.86 to 45.08."
+    },
+    {
+      "id": "futures_shadow_v2",
+      "status": "frozen_three_arm_forward_shadow",
+      "result": "Three separate arms preserve attribution: SHORT timing only, SHORT timing plus exit cap, and LONG narrow MACD scoring. Joint replay is +23.10 but remains reference-only until later data is evaluated."
+    }
+  ]
+}

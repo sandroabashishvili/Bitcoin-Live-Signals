@@ -1,0 +1,42 @@
+{
+  "strategy_version": "futures-short-flip-stop-cap-v2",
+  "promoted_at": "2026-08-01",
+  "mode": "simulation",
+  "source_candidate_set": "futures-shadow-v2",
+  "selected_candidate": "short_timing_plus_exit",
+  "rules": {
+    "short_flip_confirmation": "Require the first true LONG-to-SHORT flip to persist through the immediately next closed 15-minute candle.",
+    "short_stop_cap": "If the adaptive SHORT stop is 2.5-3.5 ATR above entry, cap it at 2.5 ATR while keeping TP unchanged."
+  },
+  "unchanged": [
+    "spot_strategy",
+    "futures_long_scoring",
+    "futures_component_weights",
+    "futures_thresholds",
+    "position_size",
+    "take_profit_policy"
+  ],
+  "training_replay": {
+    "baseline_net_pnl": -31.89,
+    "candidate_net_pnl": 13.33,
+    "baseline_short_net_pnl": -30.88,
+    "candidate_short_net_pnl": 14.34,
+    "baseline_drawdown": 60.86,
+    "candidate_drawdown": 45.08
+  },
+  "post_integration_replay_report": "platform_v2/runtime/artifacts/research/replay/portfolio_state_replay_20260731_224517_357243.md",
+  "rollback_version": "futures-baseline-v1",
+  "runtime_action": {
+    "status": "completed",
+    "activated_at_utc": "2026-07-31 22:52:59Z",
+    "archive": "/home/sandro/runtime_archives/reset_2026-07-31_22-52-59",
+    "first_futures_cycle": {
+      "signal": "SHORT",
+      "entry_status": "ALLOWED",
+      "entry_timing_status": "INITIAL_DIRECTION",
+      "selected_score": 15.56,
+      "threshold": 8.5,
+      "note": "This was the first direction after reset, not a LONG-to-SHORT flip. The existing adaptive stop was outside the 2.5-3.5 ATR cap band, so no stop cap was expected."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "candidate_set_version": "futures-shadow-v1",
+  "status": "retired_not_for_promotion",
+  "rejection_reason": "Conditional SHORT position sizing was rejected as a solution; continue with entry-timing logic research instead.",
+  "frozen_at_utc": "2026-07-31",
+  "training_snapshot": "/home/sandro/research_snapshots/smartsignalhub_20260731_153256",
+  "evaluation_cutoff_ms_exclusive": 1785511799999,
+  "live_strategy_changed": false,
+  "long_profile": "futures_long_macd_neutral_rsi58_v1",
+  "short_profile": "futures_short_macd_0_02_size025_v1",
+  "rules": {
+    "long": "Keep MACD +0.8 reward below RSI 58; remove that reward only when RSI is 58 or higher.",
+    "short": "Keep eligible SHORT signal logic; use 25% margin/notional only when directional MACD spread is 0.0-0.2 ATR."
+  },
+  "training_replay": {
+    "closed_trades": 152,
+    "net_pnl": 36.92,
+    "avg_net_pnl": 0.2429,
+    "max_sequential_drawdown": 40.78,
+    "train_net_pnl": 8.24,
+    "test_net_pnl": 28.69,
+    "long_net_pnl": 18.59,
+    "short_net_pnl": 18.33
+  },
+  "baseline_replay": {
+    "closed_trades": 158,
+    "net_pnl": -31.89,
+    "avg_net_pnl": -0.2018,
+    "max_sequential_drawdown": 60.86
+  },
+  "promotion_guard": "Retired candidate. Do not promote or use it as the active forward candidate."
+}

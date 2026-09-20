@@ -1,0 +1,36 @@
+{
+  "strategy_version": "futures-short-flip-stop-cap-long-profit-lock-v3",
+  "promoted_at": "2026-08-01",
+  "mode": "simulation",
+  "parent_version": "futures-short-flip-stop-cap-v2",
+  "selected_candidate": "futures_long_profit_lock_70_25_v1",
+  "rule": {
+    "direction": "LONG",
+    "activation": "After price reaches 70% of the original entry-to-TP path.",
+    "protected_exit": "From the next closed 5m candle, protect 25% of the original entry-to-TP path.",
+    "same_candle_policy": "Stop first; activation never changes the activation candle retroactively.",
+    "scope": "Only LONG positions opened after this version is active."
+  },
+  "unchanged": [
+    "spot_strategy",
+    "futures_long_scoring",
+    "futures_short_scoring",
+    "futures_component_weights",
+    "futures_thresholds",
+    "position_size",
+    "original_take_profit"
+  ],
+  "state_aware_replay": {
+    "parent_net_pnl": 13.33,
+    "candidate_net_pnl": 17.53,
+    "parent_long_net_pnl": -1.01,
+    "candidate_long_net_pnl": 3.19,
+    "long_train_delta": 0.92,
+    "long_test_delta": 3.28,
+    "parent_long_test_drawdown": 32.20,
+    "candidate_long_test_drawdown": 24.25,
+    "profit_lock_exits": 15
+  },
+  "replay_report": "platform_v2/runtime/artifacts/research/replay/portfolio_state_replay_20260801_102615_722579.md",
+  "rollback_version": "futures-short-flip-stop-cap-v2"
+}

@@ -1,0 +1,35 @@
+{
+  "strategy_version": "futures-short-flip-stop-cap-long-profit-lock-1m-v4",
+  "promoted_at": "2026-08-01",
+  "mode": "simulation",
+  "parent_version": "futures-short-flip-stop-cap-long-profit-lock-v3",
+  "selected_position_management": "long_profit_lock_70_25",
+  "execution_monitoring_timeframe": "1m",
+  "decision": {
+    "long": "Retain the existing 70/25 one-step profit protection; all tested break-even and stepped alternatives were worse.",
+    "short": "Do not add moving profit protection; every tested SHORT variant materially worsened the state-aware replay.",
+    "signal_logic": "Frozen and unchanged on 5m/15m/4h inputs.",
+    "exit_evidence": "Use the first full closed 1m candle after entry for Spot and Futures TP/SL/profit-lock evaluation."
+  },
+  "frozen_history_replay": {
+    "active_v3_net_pnl": 17.53,
+    "active_v3_train_net_pnl": -19.87,
+    "active_v3_test_net_pnl": 37.39,
+    "long_break_even_60_0_net_pnl": 6.92,
+    "long_stepped_50_0_75_35_net_pnl": 4.74,
+    "long_stepped_50_0_70_25_85_50_net_pnl": 2.34,
+    "best_short_trailing_combination_5m_net_pnl": -13.12,
+    "best_short_trailing_combination_1m_net_pnl": -15.94,
+    "active_policy_1m_net_pnl": 17.53
+  },
+  "operational_safety": {
+    "additional_requests": "Two public kline requests per 15-minute system cycle: one Spot 1m and one Futures 1m.",
+    "rate_limit_behavior": "Bounded retry honors Retry-After for HTTP 429/418 and backs off on temporary server/network failures.",
+    "api_key_required": false
+  },
+  "replay_reports": {
+    "5m": "platform_v2/runtime/artifacts/research/replay/position_management_grid_20260801_195400_808818.json",
+    "1m": "platform_v2/runtime/artifacts/research/replay/position_management_grid_20260801_200513_863236.json"
+  },
+  "rollback_version": "futures-short-flip-stop-cap-long-profit-lock-v3"
+}

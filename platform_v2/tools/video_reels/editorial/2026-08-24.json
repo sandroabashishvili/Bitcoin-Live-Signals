@@ -1,0 +1,22 @@
+{
+  "stories": [
+    {
+      "index": 1,
+      "expected_title": "Bitcoin ETF inflows hit $1.9B in strongest week since October 2025",
+      "title": "Bitcoin ETFs attract $1.9B",
+      "summary": "Their strongest weekly inflows since October 2025."
+    },
+    {
+      "index": 6,
+      "expected_title": "Bitcoin weekend blip wiped out $250M in over leveraged long traders while open interest weakens",
+      "title": "$250M in leveraged longs liquidated",
+      "summary": "Bitcoin's weekend dip cleared leverage as open interest weakened."
+    },
+    {
+      "index": 9,
+      "expected_title": "Banks, regulators join quantum-resistant crypto transfer pilot",
+      "title": "Banks join quantum-resistant crypto pilot",
+      "summary": "Banks will test wallets and transfers; regulators initially observe."
+    }
+  ]
+}
