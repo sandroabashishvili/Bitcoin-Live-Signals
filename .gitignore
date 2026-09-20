@@ -41,7 +41,7 @@ platform_v2/tools/video_reels/**/*.mp4
 platform_v2/tools/telegram_bot_system/state/
 portfolio_projects/
 
-# Generated GitHub Pages snapshots (published from the separate main branch)
+# Generated GitHub Pages snapshots (published from the separate gh-pages branch)
 /.nojekyll
 /favicon.ico
 /index.html

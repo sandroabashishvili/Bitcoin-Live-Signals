@@ -6,13 +6,13 @@ Public base: https://sandro-abashishvili.de/Bitcoin-Live-Signals/
 Repository: https://github.com/sandroabashishvili/Bitcoin-Live-Signals
 Local publication checkout: `/home/sandro/SmartSignalHub/publish/Bitcoin-Live-Signals`.
 
-The public remote's default branch is `main`, containing static publication output. On September 12 no `source` branch was returned by the remote check. `/home/sandro/SmartSignalHub` itself is not a Git checkout; do not describe the public repository as a verified full-source backup. Local project backups are separate.
+The public remote's default branch `main` contains application source, tests and documentation. `gh-pages` contains generated static publication output. The local source checkout and nested publication checkout share the remote but use different branches. Runtime/database backups remain separate. See [source repository](../operations/source_repository.md).
 
 ## Build and publish
 
 `python3 -m platform_v2.tools.sitemap_system` rebuilds the local source sitemap using the custom domain. `python3 -m platform_v2.tools.github_publish_system --dry-run` previews publication. The command without `--dry-run` can update the publication checkout, commit and push; it is a publishing action.
 
-The publisher updates origin/main, syncs public_site to root, Spot/Futures/Hedge dashboards to their respective `*/dashboard/` paths, and shared/frontend to shared/. It rewrites local links, cleans compatibility directories and builds the final sitemap before commit/push. Default sync is incremental, without general `--delete`.
+The publisher updates origin/gh-pages, syncs public_site to root, Spot/Futures/Hedge dashboards to their respective `*/dashboard/` paths, and shared/frontend to shared/. It rewrites local links, cleans compatibility directories and builds the final sitemap before commit/push. Default sync is incremental, without general `--delete`.
 
 Canonical, Open Graph URL and JSON-LD page identity must match the final published path. Spot pages belong below `/spot/dashboard/`. September 12 fixed four renderer templates that retained old root-level identities. Diagnostics now checks published dashboard canonicals too.
 
