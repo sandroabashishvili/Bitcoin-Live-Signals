@@ -59,4 +59,4 @@ python3 -m platform_v2.tools.sitemap_system
 python3 -m platform_v2.tools.github_publish_system --dry-run
 ```
 
-Publishing without `--dry-run` can commit and push to public `main`. Read [SEO and publishing](../product/seo_and_publishing.md) and the [current review](../current/system_review_20260912.md) first. No reset is needed for metadata fixes.
+Publishing without `--dry-run` can commit and push to public `gh-pages`. Read [SEO and publishing](../product/seo_and_publishing.md) and the [current review](../current/system_review_20260912.md) first. No reset is needed for metadata fixes.

@@ -1,9 +1,9 @@
 # Source repository and local setup
 
-The private `sandroabashishvili/SmartSignalHub` repository versions the application
-source at `~/SmartSignalHub`. The nested `publish/Bitcoin-Live-Signals` repository
-is independently managed and ignored by the source repository. Its public `main`
-branch continues to serve GitHub Pages. Never change its origin to the source repo.
+The public `sandroabashishvili/Bitcoin-Live-Signals` repository versions the application
+source on `main` at `~/SmartSignalHub`. The nested `publish/Bitcoin-Live-Signals` repository
+is independently managed and ignored by the source repository. Its `gh-pages`
+branch continues to serve GitHub Pages. Both checkouts use the same origin, but different branches. Never publish generated pages to `main`.
 
 ## Included
 
@@ -22,7 +22,7 @@ files does not delete them. Source history is not a backup of trading data.
 ## Fresh machine
 
 ```bash
-gh repo clone sandroabashishvili/SmartSignalHub ~/SmartSignalHub
+gh repo clone sandroabashishvili/Bitcoin-Live-Signals ~/SmartSignalHub
 cd ~/SmartSignalHub
 python3.12 -m venv venv
 source venv/bin/activate
@@ -45,7 +45,7 @@ python3 -m platform_v2.tools.runtime_start_system
 
 ```bash
 mkdir -p publish
-git clone https://github.com/sandroabashishvili/Bitcoin-Live-Signals.git publish/Bitcoin-Live-Signals
+git clone --branch gh-pages https://github.com/sandroabashishvili/Bitcoin-Live-Signals.git publish/Bitcoin-Live-Signals
 python3 -m platform_v2.tools.github_publish_system --dry-run
 ```
 
@@ -80,3 +80,7 @@ The old ignore rule for `video_reels/output/` was removed because that directory
 contains the imported Python subtitle writer, not merely generated media. Active
 documentation is now tracked. Existing Markdown hard breaks and cosmetic legacy
 whitespace were retained during the initial source import.
+
+## Branch migration
+
+Source is on main; Pages serves gh-pages at the unchanged project URL. The previous private SmartSignalHub repository is retained only as an archived migration snapshot. The source import preserves the preceding public history via a merge commit; no force-push is needed.

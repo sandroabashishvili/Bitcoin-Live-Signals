@@ -11,10 +11,10 @@ Einstiege, TP-/SL-Strukturen, Positionen und Ergebnisse sichtbar.
 
 ## Projekt und Veröffentlichung
 
-Der Entwicklungsordner ist das private Quellcode-Repository `SmartSignalHub`.
+Der Entwicklungsordner enthält den öffentlichen Quellcode von `Bitcoin-Live-Signals` auf `main`.
 Es enthält Python-Code, Generatoren, Tests, Dokumentation und statische Ressourcen.
 `publish/Bitcoin-Live-Signals` bleibt ein separates öffentliches Git-Repository
-für die erzeugte Website auf `main`. Änderungen am Quellcode veröffentlichen
+für die erzeugte Website auf `gh-pages`. Änderungen am Quellcode veröffentlichen
 nicht automatisch die Website.
 
 `.env`, Zugangsdaten, virtuelle Umgebungen, SQLite-Datenbanken, Logs, Caches

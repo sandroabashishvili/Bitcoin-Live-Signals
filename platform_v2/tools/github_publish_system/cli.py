@@ -25,7 +25,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--repo-root", default="~/SmartSignalHub/platform_v2", help="Path to platform_v2 root.")
     parser.add_argument("--pages-repo", default="~/SmartSignalHub/publish/Bitcoin-Live-Signals", help="Path to GitHub Pages repo.")
     parser.add_argument("--repo-url", default="git@github.com:sandroabashishvili/Bitcoin-Live-Signals.git", help="GitHub Pages repository URL.")
-    parser.add_argument("--branch", default="main", help="Pages repo branch.")
+    parser.add_argument("--branch", default="gh-pages", help="Pages repo branch.")
     parser.add_argument("--dry-run", action="store_true", help="Preview sync without writing.")
     parser.add_argument("--full-sync", action="store_true", help="Use a full mirror sync; this is destructive and should be used only when explicitly needed.")
     parser.add_argument("--stats", action="store_true", help="Print a summary of which files changed during the publish run.")
@@ -80,6 +80,8 @@ def _run_publish(config: PublishConfig) -> None:
         ),
         expected_id=GA_MEASUREMENT_ID,
     )
+    if config.branch == "main":
+        raise SystemExit("[!] main contains application source. Publish the website to gh-pages.")
     clone_if_missing(config.pages_repo, config.repo_url, config.branch, dry_run=config.dry_run)
     if not config.pages_repo.exists():
         raise SystemExit(f"[!] pages repo not found: {config.pages_repo}")
