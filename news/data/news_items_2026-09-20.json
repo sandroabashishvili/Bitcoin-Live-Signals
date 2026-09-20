@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-20",
-  "generated_at_utc": "2026-09-20 04:05:07 UTC",
+  "generated_at_utc": "2026-09-20 05:35:45 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-20T04:05:03.693675+00:00",
+    "collected_at": "2026-09-20T05:35:41.477144+00:00",
     "window_hours": 48,
     "feeds": [
       {
