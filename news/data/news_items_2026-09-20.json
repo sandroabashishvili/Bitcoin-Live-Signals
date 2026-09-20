@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-20",
-  "generated_at_utc": "2026-09-20 05:56:57 UTC",
+  "generated_at_utc": "2026-09-20 10:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-20T05:56:53.207203+00:00",
+    "collected_at": "2026-09-20T10:05:03.789343+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,13 +48,12 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 1,
-        "within_window": 12,
+        "within_window": 8,
         "eligible": 4,
         "rejected": {
-          "topic_author_or_category": 2,
+          "topic_author_or_category": 1,
           "unreviewed_link": 3,
-          "title_filter": 3,
-          "older_than_window": 8
+          "older_than_window": 12
         }
       },
       {
@@ -99,11 +98,10 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 2,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "unreviewed_link": 1,
-          "older_than_window": 13
+          "older_than_window": 15
         }
       },
       {
@@ -182,18 +180,15 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 4,
-      "European Central Bank": 1
+      "Cryptonews": 4
     },
     "unique_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 4,
-      "European Central Bank": 1
+      "Cryptonews": 4
     },
     "selected_by_source": {
-      "NewsBTC": 7,
-      "Cryptonews": 4,
-      "European Central Bank": 1
+      "NewsBTC": 8,
+      "Cryptonews": 4
     }
   },
   "count": 12,
@@ -219,19 +214,6 @@
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
       "pub_ts": 1789758360,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "ECB Consumer Expectations Survey results – August 2026",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
-      "summary": "ECB Consumer Expectations Survey results – August 2026",
-      "source": "European Central Bank",
-      "date": "2026-09-18",
-      "date_human": "Sep 18, 2026",
-      "pub_ts": 1789718400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -349,6 +331,19 @@
       "date": "2026-09-19",
       "date_human": "Sep 19, 2026",
       "pub_ts": 1789830900,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum ETFs Add $29.4M Friday As Fidelity Leads Reported Flows",
+      "link": "https://www.newsbtc.com/news/ethereum-etfs-add-29-4m-friday-as-fidelity-leads-reported-flows/",
+      "summary": "Read the latest update on Ethereum ETFs Add $29.4M Friday As Fidelity Leads Reported Flows.",
+      "source": "NewsBTC",
+      "date": "2026-09-19",
+      "date_human": "Sep 19, 2026",
+      "pub_ts": 1789828200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
