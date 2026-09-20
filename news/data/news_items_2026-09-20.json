@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-09-19",
-  "generated_at_utc": "2026-09-19 22:05:07 UTC",
+  "day_iso": "2026-09-20",
+  "generated_at_utc": "2026-09-20 04:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-19T22:05:03.282180+00:00",
+    "collected_at": "2026-09-20T04:05:03.693675+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,13 +48,13 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 1,
-        "within_window": 13,
+        "within_window": 12,
         "eligible": 4,
         "rejected": {
-          "topic_author_or_category": 3,
+          "topic_author_or_category": 2,
           "unreviewed_link": 3,
           "title_filter": 3,
-          "older_than_window": 7
+          "older_than_window": 8
         }
       },
       {
@@ -112,10 +112,10 @@
         "status": "ok",
         "entries": 10,
         "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 9
+          "older_than_window": 10
         }
       },
       {
@@ -170,23 +170,20 @@
     "eligible_by_source": {
       "NewsBTC": 10,
       "Cryptonews": 4,
-      "European Central Bank": 1,
-      "Bitcoin Optech": 1
+      "European Central Bank": 1
     },
     "unique_by_source": {
       "NewsBTC": 10,
       "Cryptonews": 4,
-      "European Central Bank": 1,
-      "Bitcoin Optech": 1
+      "European Central Bank": 1
     },
     "selected_by_source": {
       "NewsBTC": 4,
       "Cryptonews": 4,
-      "European Central Bank": 1,
-      "Bitcoin Optech": 1
+      "European Central Bank": 1
     }
   },
-  "count": 10,
+  "count": 9,
   "items": [
     {
       "title": "EU Cyber Resilience Act Brings 24-Hour Vulnerability Reporting Into Force",
@@ -224,19 +221,6 @@
       "pub_ts": 1789718400,
       "image_candidates": [],
       "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Optech Newsletter #423",
-      "link": "https://bitcoinops.org/en/newsletters/2026/09/18/",
-      "summary": "This week’s newsletter summarizes an analysis of mining pool difficulty controllers stranding slowed miners, describes a proposed improvement to Utreexo’s initial block download, and links to a draft BIP for specifying unspendable taproot internal keys. Also included are our regular sections describing recent changes to services and client software, announcing new releases and release candidates, and describing notable changes to popular Bitcoin infrastructure software.",
-      "source": "Bitcoin Optech",
-      "date": "2026-09-18",
-      "date_human": "Sep 18, 2026",
-      "pub_ts": 1789689600,
-      "image_candidates": [],
-      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
       "image": null,
       "image_local": null
     },
