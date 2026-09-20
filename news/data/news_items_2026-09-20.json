@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-20",
-  "generated_at_utc": "2026-09-20 05:35:45 UTC",
+  "generated_at_utc": "2026-09-20 05:56:57 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-20T05:35:41.477144+00:00",
+    "collected_at": "2026-09-20T05:56:53.207203+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -165,6 +165,19 @@
         "rejected": {
           "older_than_window": 12
         }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 2,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 2,
+          "older_than_window": 18
+        }
       }
     ],
     "eligible_by_source": {
@@ -178,12 +191,12 @@
       "European Central Bank": 1
     },
     "selected_by_source": {
-      "NewsBTC": 4,
+      "NewsBTC": 7,
       "Cryptonews": 4,
       "European Central Bank": 1
     }
   },
-  "count": 9,
+  "count": 12,
   "items": [
     {
       "title": "EU Cyber Resilience Act Brings 24-Hour Vulnerability Reporting Into Force",
@@ -297,6 +310,45 @@
       "date": "2026-09-18",
       "date_human": "Sep 18, 2026",
       "pub_ts": 1789728385,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "FCA Crypto Authorisation Gateway Opens September 30",
+      "link": "https://www.newsbtc.com/news/fca-crypto-authorisation-gateway-opens-september-30/",
+      "summary": "Read the latest update on FCA Crypto Authorisation Gateway Opens September 30.",
+      "source": "NewsBTC",
+      "date": "2026-09-19",
+      "date_human": "Sep 19, 2026",
+      "pub_ts": 1789836300,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "CleanSpark Prices $2.276B Secured Notes For Sandersville Data Center",
+      "link": "https://www.newsbtc.com/news/cleanspark-prices-2-276b-secured-notes-for-sandersville-data-center/",
+      "summary": "Read the latest update on CleanSpark Prices $2.276B Secured Notes For Sandersville Data Center.",
+      "source": "NewsBTC",
+      "date": "2026-09-19",
+      "date_human": "Sep 19, 2026",
+      "pub_ts": 1789833600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Chainalysis Warns Malware Operators Are Turning Blockchains Into Dead Drops",
+      "link": "https://www.newsbtc.com/news/chainalysis-warns-malware-operators-are-turning-blockchains-into-dead-drops/",
+      "summary": "Read the latest update on Chainalysis Warns Malware Operators Are Turning Blockchains Into Dead Drops.",
+      "source": "NewsBTC",
+      "date": "2026-09-19",
+      "date_human": "Sep 19, 2026",
+      "pub_ts": 1789830900,
       "image_candidates": [],
       "license_url": null,
       "image": null,
