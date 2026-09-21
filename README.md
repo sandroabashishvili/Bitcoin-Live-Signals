@@ -48,6 +48,12 @@ Wichtige Einstiegspunkte:
 - [`platform_v2/tools/tools_system.md`](platform_v2/tools/tools_system.md)
 - [`platform_v2/docs/operations/runbook.md`](platform_v2/docs/operations/runbook.md)
 
+## Mr.B — öffentliche KI-Projektvertretung
+
+[Knowledge Pack und Pflegeanleitung](platform_v2/docs/product/mr_b/README.md)
+gehören zur Projektdokumentation. Die Dateien konfigurieren eine erklärende
+Projektvertretung; sie führen keine Handelsaufträge aus.
+
 ## Status und Grenzen
 
 SmartSignalHub befindet sich in aktiver Entwicklung. Alle sichtbaren
