@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-21",
-  "generated_at_utc": "2026-09-21 10:05:08 UTC",
+  "generated_at_utc": "2026-09-21 16:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-21T10:05:04.382040+00:00",
+    "collected_at": "2026-09-21T16:05:04.986980+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -47,13 +47,13 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 12,
-        "within_window": 13,
-        "eligible": 5,
+        "within_window": 16,
+        "eligible": 7,
         "rejected": {
+          "unreviewed_link": 2,
           "topic_author_or_category": 4,
-          "unreviewed_link": 1,
           "title_filter": 3,
-          "older_than_window": 7
+          "older_than_window": 4
         }
       },
       {
@@ -179,28 +179,67 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 5,
-      "NewsBTC": 10
+      "NewsBTC": 10,
+      "Cryptonews": 7
     },
     "unique_by_source": {
-      "Cryptonews": 5,
-      "NewsBTC": 10
+      "NewsBTC": 10,
+      "Cryptonews": 7
     },
     "selected_by_source": {
-      "Cryptonews": 4,
-      "NewsBTC": 8
+      "NewsBTC": 6,
+      "Cryptonews": 6
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Apple Pay Crypto Hiring Fuels New Stablecoin Speculation",
-      "link": "https://cryptonews.com/news/crypto-stablecoins-apple-pay-google-roles/",
-      "summary": "Apple and Google are hiring for stablecoins, tokenized deposits and Web3 roles, but the listings do not confirm plans for company-issued tokens.",
+      "title": "USDT on TRON Becomes Most Used Onchain Payment Option on CoinsBee as Stablecoin Spending Grows",
+      "link": "https://www.newsbtc.com/news/usdt-on-tron-becomes-most-used-onchain-payment-option-on-coinsbee-as-stablecoin-spending-grows/",
+      "summary": "CoinsBee payment data shows USDT on TRON recorded nearly twice as many payments as Bitcoin over the past 90 days, while its share of all payments on CoinsBee increased by 64% compared with 2025. Stuttgart, Germany, September 21, 2026 – CoinsBee, a global platform that makes it easy to use cryptocurrency for everyday purchases, today announced that USDT (TRC-20) on the TRON network has become the most-used onchain token and network payment option on CoinsBee, according to payment data from the global crypto gift card platform. Over the 90-day period ending September 1, 2026, USDT on TRON record",
+      "source": "NewsBTC",
+      "date": "2026-09-21",
+      "date_human": "Sep 21, 2026",
+      "pub_ts": 1789998616,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Robinhood Crypto Chain's $146M Tokenized-Stock Bet Faces Its First Fee Test",
+      "link": "https://cryptonews.com/news/robinhood-crypto-chain-gas-subsidy/",
+      "summary": "Robinhood Chain holds $146 million in tokenized stocks, but activity after the Sept. 29 gas subsidy ends will test whether growth lasts.",
       "source": "Cryptonews",
       "date": "2026-09-21",
       "date_human": "Sep 21, 2026",
-      "pub_ts": 1789984580,
+      "pub_ts": 1789996560,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Zoomex to Host Traders After Party During TOKEN2049 Singapore, Connecting Traders and the Web3 Community",
+      "link": "https://www.newsbtc.com/news/zoomex-to-host-traders-after-party-during-token2049-singapore-connecting-traders-and-the-web3-community/",
+      "summary": "Industry KOL panels, an interactive session with F1 driver Ollie Bearman, live music, and grand prizes including a MacBook Air and iPhone Duo will highlight the evening. Global cryptocurrency derivatives platform Zoomex will host the “ZOOMEX TRADERS AFTER PARTY @ TOKEN2049 SINGAPORE” on October 7, 2026, at Echo Live Party in Singapore. Organized as an official side event during TOKEN2049 Singapore, the gathering invites traders, Web3 founders, creators, and partners to connect beyond the main conference floor, exchange market insights, and expand their industry networks. (Luma) Centering on th",
+      "source": "NewsBTC",
+      "date": "2026-09-21",
+      "date_human": "Sep 21, 2026",
+      "pub_ts": 1789991857,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Arthur Hayes Says Crypto Regulation Was Never the Catalyst as Bitcoin Blasts Past $84,000",
+      "link": "https://cryptonews.com/news/bitcoin-81000-rate-hike-clarity-arthur-hayes/",
+      "summary": "Bitcoin $81,000 rebound follows a failed CLARITY Act vote and Fed rate hike, leaving markets split over which event moved crypto this week.",
+      "source": "Cryptonews",
+      "date": "2026-09-21",
+      "date_human": "Sep 21, 2026",
+      "pub_ts": 1789988409,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -220,13 +259,13 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin Price Pumps Above $80,000: Jason Calacanis Challenges Michael Saylor and Cathie Wood",
-      "link": "https://cryptonews.com/news/bitcoin-price-80000-debate/",
-      "summary": "Bitcoin price returns to $80,000 as Jason Calacanis, Michael Saylor and Cathie Wood clash over utility, adoption and wealth preservation.",
+      "title": "Apple Pay Crypto Hiring Fuels New Stablecoin Speculation",
+      "link": "https://cryptonews.com/news/crypto-stablecoins-apple-pay-google-roles/",
+      "summary": "Apple and Google are hiring for stablecoins, tokenized deposits and Web3 roles, but the listings do not confirm plans for company-issued tokens.",
       "source": "Cryptonews",
       "date": "2026-09-21",
       "date_human": "Sep 21, 2026",
-      "pub_ts": 1789982984,
+      "pub_ts": 1789984580,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -246,6 +285,19 @@
       "image_local": null
     },
     {
+      "title": "Bitcoin Price Pumps Above $80,000: Jason Calacanis Challenges Michael Saylor and Cathie Wood",
+      "link": "https://cryptonews.com/news/bitcoin-price-80000-debate/",
+      "summary": "Bitcoin price returns to $80,000 as Jason Calacanis, Michael Saylor and Cathie Wood clash over utility, adoption and wealth preservation.",
+      "source": "Cryptonews",
+      "date": "2026-09-21",
+      "date_human": "Sep 21, 2026",
+      "pub_ts": 1789982984,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Cardano News: DReps' Pogun Vote Opens a New Chapter for ADA",
       "link": "https://cryptonews.com/news/cardano-news-governance-pogun-vote/",
       "summary": "Cardano governance rejected 12.29 million ADA for Pogun, keeping funds in the treasury while IOG rethinks its Cardano-first policy.",
@@ -253,19 +305,6 @@
       "date": "2026-09-21",
       "date_human": "Sep 21, 2026",
       "pub_ts": 1789981800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "World Rolls Out World Money App With Stablecoins And Stripe Integration",
-      "link": "https://www.newsbtc.com/news/world-rolls-out-world-money-app-with-stablecoins-and-stripe-integration/",
-      "summary": "Read the latest update on World Rolls Out World Money App With Stablecoins And Stripe Integration.",
-      "source": "NewsBTC",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1789958700,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -285,6 +324,19 @@
       "image_local": null
     },
     {
+      "title": "World Rolls Out World Money App With Stablecoins And Stripe Integration",
+      "link": "https://www.newsbtc.com/news/world-rolls-out-world-money-app-with-stablecoins-and-stripe-integration/",
+      "summary": "Read the latest update on World Rolls Out World Money App With Stablecoins And Stripe Integration.",
+      "source": "NewsBTC",
+      "date": "2026-09-21",
+      "date_human": "Sep 21, 2026",
+      "pub_ts": 1789958700,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "WisdomTree And MoonPay Expand US Access To Tokenized Funds",
       "link": "https://www.newsbtc.com/news/wisdomtree-and-moonpay-expand-us-access-to-tokenized-funds/",
       "summary": "Read the latest update on WisdomTree And MoonPay Expand US Access To Tokenized Funds.",
@@ -292,58 +344,6 @@
       "date": "2026-09-21",
       "date_human": "Sep 21, 2026",
       "pub_ts": 1789956000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "S&P Global Agrees To Acquire Smart Contract Security Firm OpenZeppelin",
-      "link": "https://www.newsbtc.com/news/sp-global-agrees-to-acquire-smart-contract-security-firm-openzeppelin/",
-      "summary": "Read the latest update on S&P Global Agrees To Acquire Smart Contract Security Firm OpenZeppelin.",
-      "source": "NewsBTC",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1789953300,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "dtcpay Completes $25M Series A As SBI Group Joins Stablecoin Payments Push",
-      "link": "https://www.newsbtc.com/news/dtcpay-completes-25m-series-a-as-sbi-group-joins-stablecoin-payments-push/",
-      "summary": "Read the latest update on dtcpay Completes $25M Series A As SBI Group Joins Stablecoin Payments Push.",
-      "source": "NewsBTC",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1789950600,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Binance Announces 24/7 FX Perpetuals With USD/BRL Contract Set For September 21",
-      "link": "https://www.newsbtc.com/news/binance-announces-247-fx-perpetuals-with-usdbrl-contract-set-for-september-21/",
-      "summary": "Read the latest update on Binance Announces 24/7 FX Perpetuals With USD/BRL Contract Set For September 21.",
-      "source": "NewsBTC",
-      "date": "2026-09-20",
-      "date_human": "Sep 20, 2026",
-      "pub_ts": 1789947900,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Coinbase Files To Bring Single-Stock Perpetual Futures To US Market",
-      "link": "https://www.newsbtc.com/news/coinbase-files-to-bring-single-stock-perpetual-futures-to-us-market/",
-      "summary": "Read the latest update on Coinbase Files To Bring Single-Stock Perpetual Futures To US Market.",
-      "source": "NewsBTC",
-      "date": "2026-09-20",
-      "date_human": "Sep 20, 2026",
-      "pub_ts": 1789945200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
