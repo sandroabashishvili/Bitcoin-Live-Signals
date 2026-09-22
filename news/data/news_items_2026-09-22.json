@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-09-21",
-  "generated_at_utc": "2026-09-21 22:05:11 UTC",
+  "day_iso": "2026-09-22",
+  "generated_at_utc": "2026-09-22 04:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-21T22:05:04.303531+00:00",
+    "collected_at": "2026-09-22T04:05:01.709349+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -187,20 +187,20 @@
       "Cryptonews": 8
     },
     "selected_by_source": {
-      "NewsBTC": 5,
-      "Cryptonews": 7
+      "NewsBTC": 8,
+      "Cryptonews": 4
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Bitcoin Reclaims $85,000 For First Time In Eight Months",
-      "link": "https://www.newsbtc.com/news/bitcoin-reclaims-85000-for-first-time-in-eight-months/",
-      "summary": "TL;DR Bitcoin crossed $85,000 on September 21, reaching a session high of $85,174.35. That marked BTC’s highest spot level since January 2026. The move is a price milestone, not confirmation of a new bull-market leg. Bitcoin pushed through $85,000 on September 21, putting the market back at a level it had not seen since January. The move took BTC to a session high of $85,174.35, according to the validated spot-price snapshot used for this report. That makes the reclaim notable for a simple reason: the market spent roughly eight months below this part of the range. Bitcoin Returns To An Eight-M",
+      "title": "Coinbase Opens IPO Allocations To US Retail Traders Starting With Oura",
+      "link": "https://www.newsbtc.com/news/coinbase-opens-ipo-allocations-to-us-retail-traders-starting-with-oura/",
+      "summary": "TL;DR Eligible US retail Coinbase customers can now request allocations in IPOs through the Coinbase app. The service is offered through FINRA-registered Coinbase Capital Markets. Oura is the first IPO on the platform, with allocation rules designed to discourage immediate flipping. Coinbase is adding initial public offerings to the list of financial products available inside its app. The exchange announced that eligible US retail customers can now request IPO allocations through Coinbase, with the service provided by Coinbase Capital Markets, its FINRA-registered broker-dealer. Oura Becomes T",
       "source": "NewsBTC",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1790026200,
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790047800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -220,13 +220,13 @@
       "image_local": null
     },
     {
-      "title": "USDT on TRON Becomes Most Used Onchain Payment Option on CoinsBee as Stablecoin Spending Grows",
-      "link": "https://www.newsbtc.com/news/usdt-on-tron-becomes-most-used-onchain-payment-option-on-coinsbee-as-stablecoin-spending-grows/",
-      "summary": "CoinsBee payment data shows USDT on TRON recorded nearly twice as many payments as Bitcoin over the past 90 days, while its share of all payments on CoinsBee increased by 64% compared with 2025. Stuttgart, Germany, September 21, 2026 – CoinsBee, a global platform that makes it easy to use cryptocurrency for everyday purchases, today announced that USDT (TRC-20) on the TRON network has become the most-used onchain token and network payment option on CoinsBee, according to payment data from the global crypto gift card platform. Over the 90-day period ending September 1, 2026, USDT on TRON record",
+      "title": "ECB Plans Direct Investment In Tokenized Securities Using Pontes",
+      "link": "https://www.newsbtc.com/news/ecb-plans-direct-investment-in-tokenized-securities-using-pontes/",
+      "summary": "TL;DR The ECB has started preparatory work to invest a small portion of its own-funds portfolio in tokenized euro-denominated securities. Initial eligible assets are expected to include euro-area public-sector and supranational issuers. The future purchases are intended to settle in central-bank money through Pontes; purchases have not yet been executed. The European Central Bank is moving from building tokenized-settlement infrastructure to preparing to use it for part of its own investment portfolio. The ECB said on September 21 that it has begun preparatory work to invest a small portion of",
       "source": "NewsBTC",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1789998616,
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790044200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -246,13 +246,13 @@
       "image_local": null
     },
     {
-      "title": "Zoomex to Host Traders After Party During TOKEN2049 Singapore, Connecting Traders and the Web3 Community",
-      "link": "https://www.newsbtc.com/news/zoomex-to-host-traders-after-party-during-token2049-singapore-connecting-traders-and-the-web3-community/",
-      "summary": "Industry KOL panels, an interactive session with F1 driver Ollie Bearman, live music, and grand prizes including a MacBook Air and iPhone Duo will highlight the evening. Global cryptocurrency derivatives platform Zoomex will host the “ZOOMEX TRADERS AFTER PARTY @ TOKEN2049 SINGAPORE” on October 7, 2026, at Echo Live Party in Singapore. Organized as an official side event during TOKEN2049 Singapore, the gathering invites traders, Web3 founders, creators, and partners to connect beyond the main conference floor, exchange market insights, and expand their industry networks. (Luma) Centering on th",
+      "title": "ECB Launches Pontes For Central-Bank Settlement Of Tokenized Assets",
+      "link": "https://www.newsbtc.com/news/ecb-launches-pontes-for-central-bank-settlement-of-tokenized-assets/",
+      "summary": "TL;DR The European Central Bank has launched Pontes, a wholesale settlement service for tokenized financial assets. Pontes settles transactions in central-bank money through TARGET Services and DLT interoperability. The system is institutional infrastructure and is separate from the retail digital-euro project. The European Central Bank has launched Pontes, giving institutions a new route for settling tokenized financial assets in central-bank money. The September 21 launch is part of the Eurosystem’s effort to connect distributed-ledger markets with existing central-bank settlement infrastruc",
       "source": "NewsBTC",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1789991857,
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790040600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -272,13 +272,13 @@
       "image_local": null
     },
     {
-      "title": "FCA Targets Three London Premises In Illegal P2P Crypto Trading Crackdown",
-      "link": "https://www.newsbtc.com/news/fca-targets-three-london-premises-in-illegal-p2p-crypto-trading-crackdown/",
-      "summary": "Read the latest update on FCA Targets Three London Premises In Illegal P2P Crypto Trading Crackdown.",
+      "title": "BitMine ETH Treasury Nears 6 Million Tokens As Total Holdings Reach $17.1B",
+      "link": "https://www.newsbtc.com/news/bitmine-eth-treasury-nears-6-million-tokens-as-total-holdings-reach-171b/",
+      "summary": "TL;DR BitMine reported 5,983,940 ETH in its treasury, just short of 6 million tokens. The company valued its combined treasury holdings at $17.1 billion. The disclosure also listed 212 BTC, $714 million in cash and securities, and stakes in Beast Industries and Eightco. BitMine Immersion Technologies has pushed its Ethereum treasury to within touching distance of 6 million ETH. A September 21 filing shows the company holds 5,983,940 ETH, alongside 212 BTC and a wider portfolio of cash, securities and strategic investments. BitMine put the combined value of those holdings at $17.1 billion. BitM",
       "source": "NewsBTC",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1789964100,
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790037000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -298,52 +298,52 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin Price Pumps Above $80,000: Jason Calacanis Challenges Michael Saylor and Cathie Wood",
-      "link": "https://cryptonews.com/news/bitcoin-price-80000-debate/",
-      "summary": "Bitcoin price returns to $80,000 as Jason Calacanis, Michael Saylor and Cathie Wood clash over utility, adoption and wealth preservation.",
-      "source": "Cryptonews",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1789982984,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Cardano News: DReps' Pogun Vote Opens a New Chapter for ADA",
-      "link": "https://cryptonews.com/news/cardano-news-governance-pogun-vote/",
-      "summary": "Cardano governance rejected 12.29 million ADA for Pogun, keeping funds in the treasury while IOG rethinks its Cardano-first policy.",
-      "source": "Cryptonews",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1789981800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Binance News: Christine Lagarde Allegedly Blocks the Exchange from Gaining MiCA License",
-      "link": "https://cryptonews.com/news/binance-news-mica-license-greece/",
-      "summary": "Binance MiCA license plans in Greece collapsed after an unconfirmed report of ECB pressure, with no official confirmation of a veto.",
-      "source": "Cryptonews",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1789979773,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Ondo's Oasis Pro Joins DTCC Fund/SERV In Tokenized Fund Milestone",
-      "link": "https://www.newsbtc.com/news/ondos-oasis-pro-joins-dtcc-fundserv-in-tokenized-fund-milestone/",
-      "summary": "Read the latest update on Ondo's Oasis Pro Joins DTCC Fund/SERV In Tokenized Fund Milestone.",
+      "title": "Strive Adds 1,355 Bitcoin As Corporate Treasury Reaches 26,355 BTC",
+      "link": "https://www.newsbtc.com/news/strive-adds-1355-bitcoin-as-corporate-treasury-reaches-26355-btc/",
+      "summary": "TL;DR Strive disclosed the purchase of 1,355 BTC at an average price of about $79,475. Its corporate Bitcoin treasury increased from 25,000 BTC to 26,355 BTC. The disclosure relates to Strive’s own balance sheet, not third-party fund assets. Strive has increased its corporate Bitcoin holdings to 26,355 BTC after disclosing another 1,355 BTC purchase. The company reported the acquisition in a September 21 SEC filing, with the new coins purchased at an average price of roughly $79,475 each. Strive Pushes Past 26,000 BTC Before the latest addition, Strive held 25,000 BTC. The new purchase takes t",
       "source": "NewsBTC",
       "date": "2026-09-21",
       "date_human": "Sep 21, 2026",
-      "pub_ts": 1789961400,
+      "pub_ts": 1790033400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Strategy Buys Another 950 Bitcoin As Holdings Reach 846,000 BTC",
+      "link": "https://www.newsbtc.com/news/strategy-buys-another-950-bitcoin-as-holdings-reach-846000-btc/",
+      "summary": "TL;DR Strategy bought 950 BTC during the week ending September 20 for $75.7 million. The purchases were made at an average price of $79,670 per Bitcoin. Strategy now reports 846,000 BTC acquired for an aggregate $63.80 billion. Strategy has added another 950 Bitcoin to its balance sheet, extending the corporate treasury strategy that continues to define the company. An SEC filing dated September 21 shows the purchases were made between September 14 and September 20 for an aggregate $75.7 million in cash. The average purchase price was $79,670 per BTC. Strategy’s Bitcoin Stack Reaches 846,000 B",
+      "source": "NewsBTC",
+      "date": "2026-09-21",
+      "date_human": "Sep 21, 2026",
+      "pub_ts": 1790029800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Reclaims $85,000 For First Time In Eight Months",
+      "link": "https://www.newsbtc.com/news/bitcoin-reclaims-85000-for-first-time-in-eight-months/",
+      "summary": "TL;DR Bitcoin crossed $85,000 on September 21, reaching a session high of $85,174.35. That marked BTC’s highest spot level since January 2026. The move is a price milestone, not confirmation of a new bull-market leg. Bitcoin pushed through $85,000 on September 21, putting the market back at a level it had not seen since January. The move took BTC to a session high of $85,174.35, according to the validated spot-price snapshot used for this report. That makes the reclaim notable for a simple reason: the market spent roughly eight months below this part of the range. Bitcoin Returns To An Eight-M",
+      "source": "NewsBTC",
+      "date": "2026-09-21",
+      "date_human": "Sep 21, 2026",
+      "pub_ts": 1790026200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "USDT on TRON Becomes Most Used Onchain Payment Option on CoinsBee as Stablecoin Spending Grows",
+      "link": "https://www.newsbtc.com/news/usdt-on-tron-becomes-most-used-onchain-payment-option-on-coinsbee-as-stablecoin-spending-grows/",
+      "summary": "CoinsBee payment data shows USDT on TRON recorded nearly twice as many payments as Bitcoin over the past 90 days, while its share of all payments on CoinsBee increased by 64% compared with 2025. Stuttgart, Germany, September 21, 2026 – CoinsBee, a global platform that makes it easy to use cryptocurrency for everyday purchases, today announced that USDT (TRC-20) on the TRON network has become the most-used onchain token and network payment option on CoinsBee, according to payment data from the global crypto gift card platform. Over the 90-day period ending September 1, 2026, USDT on TRON record",
+      "source": "NewsBTC",
+      "date": "2026-09-21",
+      "date_human": "Sep 21, 2026",
+      "pub_ts": 1789998616,
       "image_candidates": [],
       "license_url": null,
       "image": null,
