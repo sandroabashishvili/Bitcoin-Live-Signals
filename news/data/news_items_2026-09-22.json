@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-22",
-  "generated_at_utc": "2026-09-22 04:05:06 UTC",
+  "generated_at_utc": "2026-09-22 10:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-22T04:05:01.709349+00:00",
+    "collected_at": "2026-09-22T10:05:01.787941+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -46,14 +46,14 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 14,
-        "within_window": 17,
-        "eligible": 8,
+        "within_24h": 6,
+        "within_window": 18,
+        "eligible": 9,
         "rejected": {
           "topic_author_or_category": 4,
           "unreviewed_link": 2,
           "title_filter": 3,
-          "older_than_window": 3
+          "older_than_window": 2
         }
       },
       {
@@ -97,12 +97,13 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 2,
-        "within_window": 2,
+        "within_24h": 1,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
+          "unreviewed_link": 1,
           "topic_author_or_category": 2,
-          "older_than_window": 13
+          "older_than_window": 12
         }
       },
       {
@@ -180,11 +181,11 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 8
+      "Cryptonews": 9
     },
     "unique_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 8
+      "Cryptonews": 9
     },
     "selected_by_source": {
       "NewsBTC": 8,
@@ -194,13 +195,39 @@
   "count": 12,
   "items": [
     {
-      "title": "Coinbase Opens IPO Allocations To US Retail Traders Starting With Oura",
-      "link": "https://www.newsbtc.com/news/coinbase-opens-ipo-allocations-to-us-retail-traders-starting-with-oura/",
-      "summary": "TL;DR Eligible US retail Coinbase customers can now request allocations in IPOs through the Coinbase app. The service is offered through FINRA-registered Coinbase Capital Markets. Oura is the first IPO on the platform, with allocation rules designed to discourage immediate flipping. Coinbase is adding initial public offerings to the list of financial products available inside its app. The exchange announced that eligible US retail customers can now request IPO allocations through Coinbase, with the service provided by Coinbase Capital Markets, its FINRA-registered broker-dealer. Oura Becomes T",
+      "title": "Cipher Mining Expands AI Data Center Push With ERCOT Capacity And Long-Term Lease",
+      "link": "https://www.newsbtc.com/news/cipher-mining-expands-ai-data-center-push-with-ercot-capacity-and-long-term-lease/",
+      "summary": "TL;DR Cipher Mining disclosed conditional ERCOT interconnection capacity for up to 300 MW. The company also reported a 15-year hyperscaler master lease tied to HPC data-center infrastructure. The SEC filing does not identify the hyperscaler tenant by name. Cipher Mining is pushing further into high-performance computing and AI infrastructure, using the power assets built around its mining business as a platform for longer-term data-center contracts. A September 21 SEC filing outlines conditional ERCOT interconnection capacity for up to 300 MW alongside a 15-year hyperscaler master lease. Ciphe",
       "source": "NewsBTC",
       "date": "2026-09-22",
       "date_human": "Sep 22, 2026",
-      "pub_ts": 1790047800,
+      "pub_ts": 1790069400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Reclaims $85,000 as Oil and Yields Retreat",
+      "link": "https://cryptonews.com/news/bitcoin-reclaims-85000/",
+      "summary": "Bitcoin climbed 5.6% to $85,435 as oil fell below $100 and Treasury yields eased, but Monday's relief does not prove the rally can last.",
+      "source": "Cryptonews",
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790069284,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "REX Launches 2X Leveraged ETF Tracking Bitcoin Treasury Firm Strive",
+      "link": "https://www.newsbtc.com/news/rex-launches-2x-leveraged-etf-tracking-bitcoin-treasury-firm-strive/",
+      "summary": "TL;DR REX Shares has launched the T-REX 2X Long Strive Daily Target ETF under ticker ASSX. The fund seeks 200% of the daily performance of Strive Asset Management stock. ASSX is a leveraged single-stock ETF, not a spot Bitcoin ETF. Investors now have a leveraged ETF tied to one of the public companies building a large Bitcoin treasury. REX Shares has launched the T-REX 2X Long Strive Daily Target ETF, trading under ticker ASSX, with an objective of delivering 200% of the daily performance of Strive Asset Management shares. ASSX Adds Leverage On Top Of A Bitcoin Treasury Stock Strive’s own bala",
+      "source": "NewsBTC",
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790065800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -220,13 +247,13 @@
       "image_local": null
     },
     {
-      "title": "ECB Plans Direct Investment In Tokenized Securities Using Pontes",
-      "link": "https://www.newsbtc.com/news/ecb-plans-direct-investment-in-tokenized-securities-using-pontes/",
-      "summary": "TL;DR The ECB has started preparatory work to invest a small portion of its own-funds portfolio in tokenized euro-denominated securities. Initial eligible assets are expected to include euro-area public-sector and supranational issuers. The future purchases are intended to settle in central-bank money through Pontes; purchases have not yet been executed. The European Central Bank is moving from building tokenized-settlement infrastructure to preparing to use it for part of its own investment portfolio. The ECB said on September 21 that it has begun preparatory work to invest a small portion of",
+      "title": "Bitwise Updates XRP ETF Prospectus In New SEC Filing",
+      "link": "https://www.newsbtc.com/news/bitwise-updates-xrp-etf-prospectus-in-new-sec-filing/",
+      "summary": "TL;DR Bitwise filed a post-effective amendment updating disclosures for its XRP ETF trust. The September 21 filing registered zero new shares. The filing is a prospectus update, not an SEC approval notice or a new ETF launch. Bitwise has filed an updated prospectus for its XRP exchange-traded fund trust, adding another SEC filing to the product’s regulatory record. The September 21 submission was made on Form POS AM, a post-effective amendment used to update registration-statement disclosures. What The Bitwise XRP Filing Actually Does The filing is notable because XRP ETF paperwork continues t",
       "source": "NewsBTC",
       "date": "2026-09-22",
       "date_human": "Sep 22, 2026",
-      "pub_ts": 1790044200,
+      "pub_ts": 1790062200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -246,13 +273,13 @@
       "image_local": null
     },
     {
-      "title": "ECB Launches Pontes For Central-Bank Settlement Of Tokenized Assets",
-      "link": "https://www.newsbtc.com/news/ecb-launches-pontes-for-central-bank-settlement-of-tokenized-assets/",
-      "summary": "TL;DR The European Central Bank has launched Pontes, a wholesale settlement service for tokenized financial assets. Pontes settles transactions in central-bank money through TARGET Services and DLT interoperability. The system is institutional infrastructure and is separate from the retail digital-euro project. The European Central Bank has launched Pontes, giving institutions a new route for settling tokenized financial assets in central-bank money. The September 21 launch is part of the Eurosystem’s effort to connect distributed-ledger markets with existing central-bank settlement infrastruc",
+      "title": "New York Life Takes High-Yield Bond Strategy Onchain With Centrifuge",
+      "link": "https://www.newsbtc.com/news/new-york-life-takes-high-yield-bond-strategy-onchain-with-centrifuge/",
+      "summary": "TL;DR New York Life Investment Management is working with Centrifuge to tokenize a US high-yield corporate bond strategy. The product is being built on Avalanche with USDC subscriptions and redemptions. Access is restricted to qualified institutional buyers. New York Life Investment Management is taking one of its fixed-income strategies onchain through a partnership with Centrifuge. The firms announced plans to tokenize a US high-yield corporate bond strategy on Avalanche, with qualified institutional buyers able to subscribe and redeem using USDC. A Traditional Bond Strategy Gets Blockchain ",
       "source": "NewsBTC",
       "date": "2026-09-22",
       "date_human": "Sep 22, 2026",
-      "pub_ts": 1790040600,
+      "pub_ts": 1790058600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -272,78 +299,52 @@
       "image_local": null
     },
     {
-      "title": "BitMine ETH Treasury Nears 6 Million Tokens As Total Holdings Reach $17.1B",
-      "link": "https://www.newsbtc.com/news/bitmine-eth-treasury-nears-6-million-tokens-as-total-holdings-reach-171b/",
-      "summary": "TL;DR BitMine reported 5,983,940 ETH in its treasury, just short of 6 million tokens. The company valued its combined treasury holdings at $17.1 billion. The disclosure also listed 212 BTC, $714 million in cash and securities, and stakes in Beast Industries and Eightco. BitMine Immersion Technologies has pushed its Ethereum treasury to within touching distance of 6 million ETH. A September 21 filing shows the company holds 5,983,940 ETH, alongside 212 BTC and a wider portfolio of cash, securities and strategic investments. BitMine put the combined value of those holdings at $17.1 billion. BitM",
+      "title": "USDT On TRON Overtakes Bitcoin In CoinsBee Payment Activity",
+      "link": "https://www.newsbtc.com/news/usdt-on-tron-overtakes-bitcoin-in-coinsbee-payment-activity/",
+      "summary": "TL;DR CoinsBee says USDT on TRON generated about 1.8 times as many completed payments as Bitcoin over its measured 90-day window. USDT on TRON accounted for 16.23% of CoinsBee’s 2026 year-to-date payments, up from 9.92% in 2025. The figures describe CoinsBee activity only and should not be generalized to global crypto payments. USDT on TRON has overtaken Bitcoin in payment activity on CoinsBee, according to a new data release covering a 90-day period from June 4 through September 1. CoinsBee’s figures show TRC-20 USDT generated roughly 1.8 times as many completed payments as Bitcoin and around",
       "source": "NewsBTC",
       "date": "2026-09-22",
       "date_human": "Sep 22, 2026",
-      "pub_ts": 1790037000,
+      "pub_ts": 1790055000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Apple Pay Crypto Hiring Fuels New Stablecoin Speculation",
-      "link": "https://cryptonews.com/news/crypto-stablecoins-apple-pay-google-roles/",
-      "summary": "Apple and Google are hiring for stablecoins, tokenized deposits and Web3 roles, but the listings do not confirm plans for company-issued tokens.",
-      "source": "Cryptonews",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1789984580,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Strive Adds 1,355 Bitcoin As Corporate Treasury Reaches 26,355 BTC",
-      "link": "https://www.newsbtc.com/news/strive-adds-1355-bitcoin-as-corporate-treasury-reaches-26355-btc/",
-      "summary": "TL;DR Strive disclosed the purchase of 1,355 BTC at an average price of about $79,475. Its corporate Bitcoin treasury increased from 25,000 BTC to 26,355 BTC. The disclosure relates to Strive’s own balance sheet, not third-party fund assets. Strive has increased its corporate Bitcoin holdings to 26,355 BTC after disclosing another 1,355 BTC purchase. The company reported the acquisition in a September 21 SEC filing, with the new coins purchased at an average price of roughly $79,475 each. Strive Pushes Past 26,000 BTC Before the latest addition, Strive held 25,000 BTC. The new purchase takes t",
+      "title": "ShredPay Joins Jack Henry Network To Bring Stablecoin Infrastructure To Banks",
+      "link": "https://www.newsbtc.com/news/shredpay-joins-jack-henry-network-to-bring-stablecoin-infrastructure-to-banks/",
+      "summary": "TL;DR ShredPay has joined the Jack Henry Fintech Integration Network. The integration can connect ShredPay’s stablecoin and digital-asset services with Jack Henry institutions through jXchange and SymXchange APIs. Jack Henry serves about 7,400 banks and credit unions combined. ShredPay has joined Jack Henry’s Fintech Integration Network, opening a path for banks and credit unions on Jack Henry technology to connect with stablecoin and digital-asset services. The partnership was announced on September 21 and centers on integration rather than a blanket rollout to every Jack Henry customer. Shre",
       "source": "NewsBTC",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1790033400,
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790051400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Strategy Buys Another 950 Bitcoin As Holdings Reach 846,000 BTC",
-      "link": "https://www.newsbtc.com/news/strategy-buys-another-950-bitcoin-as-holdings-reach-846000-btc/",
-      "summary": "TL;DR Strategy bought 950 BTC during the week ending September 20 for $75.7 million. The purchases were made at an average price of $79,670 per Bitcoin. Strategy now reports 846,000 BTC acquired for an aggregate $63.80 billion. Strategy has added another 950 Bitcoin to its balance sheet, extending the corporate treasury strategy that continues to define the company. An SEC filing dated September 21 shows the purchases were made between September 14 and September 20 for an aggregate $75.7 million in cash. The average purchase price was $79,670 per BTC. Strategy’s Bitcoin Stack Reaches 846,000 B",
+      "title": "Coinbase Opens IPO Allocations To US Retail Traders Starting With Oura",
+      "link": "https://www.newsbtc.com/news/coinbase-opens-ipo-allocations-to-us-retail-traders-starting-with-oura/",
+      "summary": "TL;DR Eligible US retail Coinbase customers can now request allocations in IPOs through the Coinbase app. The service is offered through FINRA-registered Coinbase Capital Markets. Oura is the first IPO on the platform, with allocation rules designed to discourage immediate flipping. Coinbase is adding initial public offerings to the list of financial products available inside its app. The exchange announced that eligible US retail customers can now request IPO allocations through Coinbase, with the service provided by Coinbase Capital Markets, its FINRA-registered broker-dealer. Oura Becomes T",
       "source": "NewsBTC",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1790029800,
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790047800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Bitcoin Reclaims $85,000 For First Time In Eight Months",
-      "link": "https://www.newsbtc.com/news/bitcoin-reclaims-85000-for-first-time-in-eight-months/",
-      "summary": "TL;DR Bitcoin crossed $85,000 on September 21, reaching a session high of $85,174.35. That marked BTC’s highest spot level since January 2026. The move is a price milestone, not confirmation of a new bull-market leg. Bitcoin pushed through $85,000 on September 21, putting the market back at a level it had not seen since January. The move took BTC to a session high of $85,174.35, according to the validated spot-price snapshot used for this report. That makes the reclaim notable for a simple reason: the market spent roughly eight months below this part of the range. Bitcoin Returns To An Eight-M",
+      "title": "ECB Plans Direct Investment In Tokenized Securities Using Pontes",
+      "link": "https://www.newsbtc.com/news/ecb-plans-direct-investment-in-tokenized-securities-using-pontes/",
+      "summary": "TL;DR The ECB has started preparatory work to invest a small portion of its own-funds portfolio in tokenized euro-denominated securities. Initial eligible assets are expected to include euro-area public-sector and supranational issuers. The future purchases are intended to settle in central-bank money through Pontes; purchases have not yet been executed. The European Central Bank is moving from building tokenized-settlement infrastructure to preparing to use it for part of its own investment portfolio. The ECB said on September 21 that it has begun preparatory work to invest a small portion of",
       "source": "NewsBTC",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1790026200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "USDT on TRON Becomes Most Used Onchain Payment Option on CoinsBee as Stablecoin Spending Grows",
-      "link": "https://www.newsbtc.com/news/usdt-on-tron-becomes-most-used-onchain-payment-option-on-coinsbee-as-stablecoin-spending-grows/",
-      "summary": "CoinsBee payment data shows USDT on TRON recorded nearly twice as many payments as Bitcoin over the past 90 days, while its share of all payments on CoinsBee increased by 64% compared with 2025. Stuttgart, Germany, September 21, 2026 – CoinsBee, a global platform that makes it easy to use cryptocurrency for everyday purchases, today announced that USDT (TRC-20) on the TRON network has become the most-used onchain token and network payment option on CoinsBee, according to payment data from the global crypto gift card platform. Over the 90-day period ending September 1, 2026, USDT on TRON record",
-      "source": "NewsBTC",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1789998616,
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790044200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
