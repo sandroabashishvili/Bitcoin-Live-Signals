@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-22",
-  "generated_at_utc": "2026-09-22 10:05:06 UTC",
+  "generated_at_utc": "2026-09-22 16:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-22T10:05:01.787941+00:00",
+    "collected_at": "2026-09-22T16:05:01.696522+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -46,14 +46,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 6,
-        "within_window": 18,
-        "eligible": 9,
+        "within_24h": 10,
+        "within_window": 20,
+        "eligible": 12,
         "rejected": {
-          "topic_author_or_category": 4,
-          "unreviewed_link": 2,
           "title_filter": 3,
-          "older_than_window": 2
+          "unreviewed_link": 3,
+          "topic_author_or_category": 2
         }
       },
       {
@@ -180,20 +179,111 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 10,
-      "Cryptonews": 9
+      "Cryptonews": 12,
+      "NewsBTC": 10
     },
     "unique_by_source": {
-      "NewsBTC": 10,
-      "Cryptonews": 9
+      "Cryptonews": 12,
+      "NewsBTC": 10
     },
     "selected_by_source": {
-      "NewsBTC": 8,
-      "Cryptonews": 4
+      "Cryptonews": 5,
+      "NewsBTC": 7
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "Bitcoin News: X Launches Cashtag Partner Program",
+      "link": "https://cryptonews.com/news/bitcoin-news-etfs-market-access-x-cashtag/",
+      "summary": "Bitcoin ETFs drew $998.95 million as X added broker links and Coinbase launched fixed-term BTC-backed borrowing through Morpho Midnight.",
+      "source": "Cryptonews",
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790092359,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Coincheck Group Confirms Executive Chairperson Change In SEC Filing",
+      "link": "https://www.newsbtc.com/news/coincheck-group-confirms-executive-chairperson-change-in-sec-filing/",
+      "summary": "TL;DR Coincheck Group disclosed that Executive Chairperson Takashi Oyagi resigned effective September 21. The company said the resignation was for personal reasons. The filing supports a leadership-transition story, not speculation about enforcement or financial distress. Coincheck Group has confirmed a change at the top of its leadership structure after Executive Chairperson Takashi Oyagi resigned. The crypto group disclosed the move in a September 21 Form 6-K filed with the US Securities and Exchange Commission. Oyagi Steps Down For Personal Reasons According to the filing, Oyagi’s resignati",
+      "source": "NewsBTC",
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790076600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "x402's $50B Scale Gives Solana an AI Payments Edge",
+      "link": "https://cryptonews.com/news/x402-solana-news-ai-payments/",
+      "summary": "x402 has reached roughly $50 billion in volume and 150,000 endpoints, but stablecoins leave token demand across Solana, XRP Ledger and Cardano unproven.",
+      "source": "Cryptonews",
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790088301,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Kalshi Files To Bring Perpetual Futures To US Stocks And ETFs",
+      "link": "https://www.newsbtc.com/news/kalshi-files-to-bring-perpetual-futures-to-us-stocks-and-etfs/",
+      "summary": "TL;DR KalshiEX has filed proposed listing standards for perpetual security futures tied to 58 stocks and ETFs. The proposal was published on September 18 under SEC File No. SR-KALSHIEX-2026-02. The products are not live; CFTC approval is still pending. KalshiEX is seeking regulatory clearance for a product that would bring crypto-style perpetual futures mechanics into the US equity market. A rule filing published by the SEC under File No. SR-KALSHIEX-2026-02 proposes listing standards for perpetual security futures tied to 58 stocks and exchange-traded funds. Kalshi Targets Perpetual Exposure ",
+      "source": "NewsBTC",
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790073000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Trump-Xi Polymarket Odds for Handshake Hit 50%",
+      "link": "https://cryptonews.com/news/trump-xi-polymarket-odds-handshake/",
+      "summary": "Handshake odds on Polymarket put a 10-15 second Trump-Xi greeting at 50%, while hug and kiss contracts trail at 5% and 1%, respectively.",
+      "source": "Cryptonews",
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790081566,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "MEXC Expands Opportunity Compass with Stock Trading Handbook to Help Crypto Users Build Investment Knowledge",
+      "link": "https://www.newsbtc.com/news/mexc-expands-opportunity-compass-with-stock-trading-handbook-to-help-crypto-users-build-investment-knowledge/",
+      "summary": "Mutsamudu, Comoros, September 22, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has expanded its Opportunity Compass education initiative by introducing the MEXC Stock Trading Handbook, a new guide designed to help crypto traders bridge the knowledge gap as they enter the stock market. The Handbook reflects a broader evolution in how MEXC empowers users, moving beyond access to Wall Street to help users understand the market, navigate trading tools, and build long-term trading systems. Opportunity Compass is MEXC’s global markets education initiative, guided by the core message, “Know",
+      "source": "NewsBTC",
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790072968,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Contrarian Crypto Analyst Who Predicted 2026 Perfectly Calls for Caution and Q4 Crash",
+      "link": "https://cryptonews.com/news/crypto-analyst-who-predicted-2026-calls-for-caution/",
+      "summary": "Bitcoin pushing back toward $86,000 has many retail traders convinced the bear market is dead and the bulls are back in full control. But Dan Krupka, founder of Connection Capital and former research head at Coin Bureau, sees something far uglier: the tail end of a textbook relief rally setting up a brutal liquidity trap […]",
+      "source": "Cryptonews",
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790071614,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Cipher Mining Expands AI Data Center Push With ERCOT Capacity And Long-Term Lease",
       "link": "https://www.newsbtc.com/news/cipher-mining-expands-ai-data-center-push-with-ercot-capacity-and-long-term-lease/",
@@ -234,19 +324,6 @@
       "image_local": null
     },
     {
-      "title": "XRP News: Exchange Churn Surges, Binance Reserves Barely Move",
-      "link": "https://cryptonews.com/news/xrp-news-whale-activity-binance/",
-      "summary": "XRP whale activity surged as Binance inflows rose 663%, but reserve data point to market repositioning rather than confirmed selling.",
-      "source": "Cryptonews",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1790015280,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Bitwise Updates XRP ETF Prospectus In New SEC Filing",
       "link": "https://www.newsbtc.com/news/bitwise-updates-xrp-etf-prospectus-in-new-sec-filing/",
       "summary": "TL;DR Bitwise filed a post-effective amendment updating disclosures for its XRP ETF trust. The September 21 filing registered zero new shares. The filing is a prospectus update, not an SEC approval notice or a new ETF launch. Bitwise has filed an updated prospectus for its XRP exchange-traded fund trust, adding another SEC filing to the product’s regulatory record. The September 21 submission was made on Form POS AM, a post-effective amendment used to update registration-statement disclosures. What The Bitwise XRP Filing Actually Does The filing is notable because XRP ETF paperwork continues t",
@@ -260,19 +337,6 @@
       "image_local": null
     },
     {
-      "title": "Robinhood Crypto Chain's $146M Tokenized-Stock Bet Faces Its First Fee Test",
-      "link": "https://cryptonews.com/news/robinhood-crypto-chain-gas-subsidy/",
-      "summary": "Robinhood Chain holds $146 million in tokenized stocks, but activity after the Sept. 29 gas subsidy ends will test whether growth lasts.",
-      "source": "Cryptonews",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1789996560,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "New York Life Takes High-Yield Bond Strategy Onchain With Centrifuge",
       "link": "https://www.newsbtc.com/news/new-york-life-takes-high-yield-bond-strategy-onchain-with-centrifuge/",
       "summary": "TL;DR New York Life Investment Management is working with Centrifuge to tokenize a US high-yield corporate bond strategy. The product is being built on Avalanche with USDC subscriptions and redemptions. Access is restricted to qualified institutional buyers. New York Life Investment Management is taking one of its fixed-income strategies onchain through a partnership with Centrifuge. The firms announced plans to tokenize a US high-yield corporate bond strategy on Avalanche, with qualified institutional buyers able to subscribe and redeem using USDC. A Traditional Bond Strategy Gets Blockchain ",
@@ -280,71 +344,6 @@
       "date": "2026-09-22",
       "date_human": "Sep 22, 2026",
       "pub_ts": 1790058600,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Arthur Hayes Says Crypto Regulation Was Never the Catalyst as Bitcoin Blasts Past $84,000",
-      "link": "https://cryptonews.com/news/bitcoin-81000-rate-hike-clarity-arthur-hayes/",
-      "summary": "Bitcoin $81,000 rebound follows a failed CLARITY Act vote and Fed rate hike, leaving markets split over which event moved crypto this week.",
-      "source": "Cryptonews",
-      "date": "2026-09-21",
-      "date_human": "Sep 21, 2026",
-      "pub_ts": 1789988409,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "USDT On TRON Overtakes Bitcoin In CoinsBee Payment Activity",
-      "link": "https://www.newsbtc.com/news/usdt-on-tron-overtakes-bitcoin-in-coinsbee-payment-activity/",
-      "summary": "TL;DR CoinsBee says USDT on TRON generated about 1.8 times as many completed payments as Bitcoin over its measured 90-day window. USDT on TRON accounted for 16.23% of CoinsBee’s 2026 year-to-date payments, up from 9.92% in 2025. The figures describe CoinsBee activity only and should not be generalized to global crypto payments. USDT on TRON has overtaken Bitcoin in payment activity on CoinsBee, according to a new data release covering a 90-day period from June 4 through September 1. CoinsBee’s figures show TRC-20 USDT generated roughly 1.8 times as many completed payments as Bitcoin and around",
-      "source": "NewsBTC",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790055000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "ShredPay Joins Jack Henry Network To Bring Stablecoin Infrastructure To Banks",
-      "link": "https://www.newsbtc.com/news/shredpay-joins-jack-henry-network-to-bring-stablecoin-infrastructure-to-banks/",
-      "summary": "TL;DR ShredPay has joined the Jack Henry Fintech Integration Network. The integration can connect ShredPay’s stablecoin and digital-asset services with Jack Henry institutions through jXchange and SymXchange APIs. Jack Henry serves about 7,400 banks and credit unions combined. ShredPay has joined Jack Henry’s Fintech Integration Network, opening a path for banks and credit unions on Jack Henry technology to connect with stablecoin and digital-asset services. The partnership was announced on September 21 and centers on integration rather than a blanket rollout to every Jack Henry customer. Shre",
-      "source": "NewsBTC",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790051400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Coinbase Opens IPO Allocations To US Retail Traders Starting With Oura",
-      "link": "https://www.newsbtc.com/news/coinbase-opens-ipo-allocations-to-us-retail-traders-starting-with-oura/",
-      "summary": "TL;DR Eligible US retail Coinbase customers can now request allocations in IPOs through the Coinbase app. The service is offered through FINRA-registered Coinbase Capital Markets. Oura is the first IPO on the platform, with allocation rules designed to discourage immediate flipping. Coinbase is adding initial public offerings to the list of financial products available inside its app. The exchange announced that eligible US retail customers can now request IPO allocations through Coinbase, with the service provided by Coinbase Capital Markets, its FINRA-registered broker-dealer. Oura Becomes T",
-      "source": "NewsBTC",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790047800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "ECB Plans Direct Investment In Tokenized Securities Using Pontes",
-      "link": "https://www.newsbtc.com/news/ecb-plans-direct-investment-in-tokenized-securities-using-pontes/",
-      "summary": "TL;DR The ECB has started preparatory work to invest a small portion of its own-funds portfolio in tokenized euro-denominated securities. Initial eligible assets are expected to include euro-area public-sector and supranational issuers. The future purchases are intended to settle in central-bank money through Pontes; purchases have not yet been executed. The European Central Bank is moving from building tokenized-settlement infrastructure to preparing to use it for part of its own investment portfolio. The ECB said on September 21 that it has begun preparatory work to invest a small portion of",
-      "source": "NewsBTC",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790044200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
