@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-23",
-  "generated_at_utc": "2026-09-23 04:05:07 UTC",
+  "generated_at_utc": "2026-09-23 10:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-23T04:05:03.258527+00:00",
+    "collected_at": "2026-09-23T10:05:02.642073+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,10 +24,12 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 9,
+        "within_24h": 6,
         "within_window": 10,
-        "eligible": 10,
-        "rejected": {}
+        "eligible": 8,
+        "rejected": {
+          "unreviewed_link": 2
+        }
       },
       {
         "source": "NIST",
@@ -46,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 10,
+        "within_24h": 14,
         "within_window": 20,
-        "eligible": 11,
+        "eligible": 8,
         "rejected": {
           "topic_author_or_category": 4,
-          "title_filter": 2,
-          "unreviewed_link": 3
+          "title_filter": 4,
+          "unreviewed_link": 4
         }
       },
       {
@@ -98,12 +100,12 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 1,
-        "within_window": 3,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
+          "topic_author_or_category": 1,
           "unreviewed_link": 1,
-          "topic_author_or_category": 2,
-          "older_than_window": 12
+          "older_than_window": 13
         }
       },
       {
@@ -182,20 +184,33 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 11,
-      "NewsBTC": 10
+      "NewsBTC": 8,
+      "Cryptonews": 8
     },
     "unique_by_source": {
-      "Cryptonews": 11,
-      "NewsBTC": 10
+      "NewsBTC": 8,
+      "Cryptonews": 8
     },
     "selected_by_source": {
-      "Cryptonews": 5,
-      "NewsBTC": 7
+      "NewsBTC": 7,
+      "Cryptonews": 5
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "Ethereum ETFs Pull In $270M As BlackRock Leads September 21 Rebound",
+      "link": "https://www.newsbtc.com/news/ethereum/ethereum-etfs-pull-in-270m-as-blackrock-leads-september-21-rebound/",
+      "summary": "TL;DR US spot Ethereum ETFs recorded $270.0 million of net inflows for the September 21 session. BlackRock’s ETHA led the day with $110.0 million, while Fidelity’s FETH added roughly $73.0 million. The numbers are single-session ETF flows, not direct purchases by the Ethereum network or protocol. US spot Ethereum ETFs bounced back with a $270 million net inflow day, giving the market one of its stronger institutional-demand readings of the month. The figures cover the September 21 trading session and were reported on September 22. BlackRock And Fidelity Lead The Day BlackRock’s ETHA took in $1",
+      "source": "NewsBTC",
+      "date": "2026-09-23",
+      "date_human": "Sep 23, 2026",
+      "pub_ts": 1790152200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Bitcoin News: X Launches Cashtag Partner Program",
       "link": "https://cryptonews.com/news/bitcoin-news-etfs-market-access-x-cashtag/",
@@ -334,19 +349,6 @@
       "date": "2026-09-22",
       "date_human": "Sep 22, 2026",
       "pub_ts": 1790062200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "New York Life Takes High-Yield Bond Strategy Onchain With Centrifuge",
-      "link": "https://www.newsbtc.com/news/new-york-life-takes-high-yield-bond-strategy-onchain-with-centrifuge/",
-      "summary": "TL;DR New York Life Investment Management is working with Centrifuge to tokenize a US high-yield corporate bond strategy. The product is being built on Avalanche with USDC subscriptions and redemptions. Access is restricted to qualified institutional buyers. New York Life Investment Management is taking one of its fixed-income strategies onchain through a partnership with Centrifuge. The firms announced plans to tokenize a US high-yield corporate bond strategy on Avalanche, with qualified institutional buyers able to subscribe and redeem using USDC. A Traditional Bond Strategy Gets Blockchain ",
-      "source": "NewsBTC",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790058600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
