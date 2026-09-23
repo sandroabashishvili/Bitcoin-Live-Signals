@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-23",
-  "generated_at_utc": "2026-09-23 10:05:07 UTC",
+  "generated_at_utc": "2026-09-23 16:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-23T10:05:02.642073+00:00",
+    "collected_at": "2026-09-23T16:05:04.516640+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 6,
+        "within_24h": 9,
         "within_window": 10,
-        "eligible": 8,
+        "eligible": 2,
         "rejected": {
-          "unreviewed_link": 2
+          "unreviewed_link": 8
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 14,
+        "within_24h": 15,
         "within_window": 20,
-        "eligible": 8,
+        "eligible": 6,
         "rejected": {
-          "topic_author_or_category": 4,
-          "title_filter": 4,
-          "unreviewed_link": 4
+          "topic_author_or_category": 8,
+          "title_filter": 3,
+          "unreviewed_link": 3
         }
       },
       {
@@ -99,13 +99,13 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
-        "within_window": 2,
+        "within_24h": 2,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
+          "unreviewed_link": 2,
           "topic_author_or_category": 1,
-          "unreviewed_link": 1,
-          "older_than_window": 13
+          "older_than_window": 12
         }
       },
       {
@@ -184,20 +184,33 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 8,
-      "Cryptonews": 8
+      "Cryptonews": 6,
+      "NewsBTC": 2
     },
     "unique_by_source": {
-      "NewsBTC": 8,
-      "Cryptonews": 8
+      "Cryptonews": 6,
+      "NewsBTC": 2
     },
     "selected_by_source": {
-      "NewsBTC": 7,
-      "Cryptonews": 5
+      "Cryptonews": 6,
+      "NewsBTC": 2
     }
   },
-  "count": 12,
+  "count": 8,
   "items": [
+    {
+      "title": "USDT Dominates, Sun Gives Prize, TRX Lands in Moscow: TRON News Roundup",
+      "link": "https://cryptonews.com/news/usdt-tron-payment-data/",
+      "summary": "USDT on TRON led CoinsBee payments, while MOEX launched TRX futures and a sponsored Justin Sun prize drew scrutiny over promotional claims.",
+      "source": "Cryptonews",
+      "date": "2026-09-23",
+      "date_human": "Sep 23, 2026",
+      "pub_ts": 1790160295,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Ethereum ETFs Pull In $270M As BlackRock Leads September 21 Rebound",
       "link": "https://www.newsbtc.com/news/ethereum/ethereum-etfs-pull-in-270m-as-blackrock-leads-september-21-rebound/",
@@ -212,13 +225,13 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin News: X Launches Cashtag Partner Program",
-      "link": "https://cryptonews.com/news/bitcoin-news-etfs-market-access-x-cashtag/",
-      "summary": "Bitcoin ETFs drew $998.95 million as X added broker links and Coinbase launched fixed-term BTC-backed borrowing through Morpho Midnight.",
+      "title": "XRP Ledger Batch Upgrade Nears Activation, but Demand Is Unclear",
+      "link": "https://cryptonews.com/news/batch-upgrade-xrp-demand/",
+      "summary": "The Batch upgrade has 30 of 35 validator votes for September 29 activation, but XRP’s 22.2% weekly rally may not signal new demand.",
       "source": "Cryptonews",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790092359,
+      "date": "2026-09-23",
+      "date_human": "Sep 23, 2026",
+      "pub_ts": 1790159671,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -238,6 +251,32 @@
       "image_local": null
     },
     {
+      "title": "HYPE's Rally Has Real Fuel but $100 Is a Critical Test",
+      "link": "https://cryptonews.com/news/hype-price-hyperliquid-100/",
+      "summary": "HYPE price is nearing $100 as revenue and buybacks accelerate, but record $8.8B open interest raises the risk of a sharp pullback.",
+      "source": "Cryptonews",
+      "date": "2026-09-23",
+      "date_human": "Sep 23, 2026",
+      "pub_ts": 1790159427,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin News: X Launches Cashtag Partner Program",
+      "link": "https://cryptonews.com/news/bitcoin-news-etfs-market-access-x-cashtag/",
+      "summary": "Bitcoin ETFs drew $998.95 million as X added broker links and Coinbase launched fixed-term BTC-backed borrowing through Morpho Midnight.",
+      "source": "Cryptonews",
+      "date": "2026-09-22",
+      "date_human": "Sep 22, 2026",
+      "pub_ts": 1790092359,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "x402's $50B Scale Gives Solana an AI Payments Edge",
       "link": "https://cryptonews.com/news/x402-solana-news-ai-payments/",
       "summary": "x402 has reached roughly $50 billion in volume and 150,000 endpoints, but stablecoins leave token demand across Solana, XRP Ledger and Cardano unproven.",
@@ -251,19 +290,6 @@
       "image_local": null
     },
     {
-      "title": "Kalshi Files To Bring Perpetual Futures To US Stocks And ETFs",
-      "link": "https://www.newsbtc.com/news/kalshi-files-to-bring-perpetual-futures-to-us-stocks-and-etfs/",
-      "summary": "TL;DR KalshiEX has filed proposed listing standards for perpetual security futures tied to 58 stocks and ETFs. The proposal was published on September 18 under SEC File No. SR-KALSHIEX-2026-02. The products are not live; CFTC approval is still pending. KalshiEX is seeking regulatory clearance for a product that would bring crypto-style perpetual futures mechanics into the US equity market. A rule filing published by the SEC under File No. SR-KALSHIEX-2026-02 proposes listing standards for perpetual security futures tied to 58 stocks and exchange-traded funds. Kalshi Targets Perpetual Exposure ",
-      "source": "NewsBTC",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790073000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Trump-Xi Polymarket Odds for Handshake Hit 50%",
       "link": "https://cryptonews.com/news/trump-xi-polymarket-odds-handshake/",
       "summary": "Handshake odds on Polymarket put a 10-15 second Trump-Xi greeting at 50%, while hug and kiss contracts trail at 5% and 1%, respectively.",
@@ -271,84 +297,6 @@
       "date": "2026-09-22",
       "date_human": "Sep 22, 2026",
       "pub_ts": 1790081566,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "MEXC Expands Opportunity Compass with Stock Trading Handbook to Help Crypto Users Build Investment Knowledge",
-      "link": "https://www.newsbtc.com/news/mexc-expands-opportunity-compass-with-stock-trading-handbook-to-help-crypto-users-build-investment-knowledge/",
-      "summary": "Mutsamudu, Comoros, September 22, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has expanded its Opportunity Compass education initiative by introducing the MEXC Stock Trading Handbook, a new guide designed to help crypto traders bridge the knowledge gap as they enter the stock market. The Handbook reflects a broader evolution in how MEXC empowers users, moving beyond access to Wall Street to help users understand the market, navigate trading tools, and build long-term trading systems. Opportunity Compass is MEXC’s global markets education initiative, guided by the core message, “Know",
-      "source": "NewsBTC",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790072968,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Contrarian Crypto Analyst Who Predicted 2026 Perfectly Calls for Caution and Q4 Crash",
-      "link": "https://cryptonews.com/news/crypto-analyst-who-predicted-2026-calls-for-caution/",
-      "summary": "Bitcoin pushing back toward $86,000 has many retail traders convinced the bear market is dead and the bulls are back in full control. But Dan Krupka, founder of Connection Capital and former research head at Coin Bureau, sees something far uglier: the tail end of a textbook relief rally setting up a brutal liquidity trap […]",
-      "source": "Cryptonews",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790071614,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Cipher Mining Expands AI Data Center Push With ERCOT Capacity And Long-Term Lease",
-      "link": "https://www.newsbtc.com/news/cipher-mining-expands-ai-data-center-push-with-ercot-capacity-and-long-term-lease/",
-      "summary": "TL;DR Cipher Mining disclosed conditional ERCOT interconnection capacity for up to 300 MW. The company also reported a 15-year hyperscaler master lease tied to HPC data-center infrastructure. The SEC filing does not identify the hyperscaler tenant by name. Cipher Mining is pushing further into high-performance computing and AI infrastructure, using the power assets built around its mining business as a platform for longer-term data-center contracts. A September 21 SEC filing outlines conditional ERCOT interconnection capacity for up to 300 MW alongside a 15-year hyperscaler master lease. Ciphe",
-      "source": "NewsBTC",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790069400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Reclaims $85,000 as Oil and Yields Retreat",
-      "link": "https://cryptonews.com/news/bitcoin-reclaims-85000/",
-      "summary": "Bitcoin climbed 5.6% to $85,435 as oil fell below $100 and Treasury yields eased, but Monday's relief does not prove the rally can last.",
-      "source": "Cryptonews",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790069284,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "REX Launches 2X Leveraged ETF Tracking Bitcoin Treasury Firm Strive",
-      "link": "https://www.newsbtc.com/news/rex-launches-2x-leveraged-etf-tracking-bitcoin-treasury-firm-strive/",
-      "summary": "TL;DR REX Shares has launched the T-REX 2X Long Strive Daily Target ETF under ticker ASSX. The fund seeks 200% of the daily performance of Strive Asset Management stock. ASSX is a leveraged single-stock ETF, not a spot Bitcoin ETF. Investors now have a leveraged ETF tied to one of the public companies building a large Bitcoin treasury. REX Shares has launched the T-REX 2X Long Strive Daily Target ETF, trading under ticker ASSX, with an objective of delivering 200% of the daily performance of Strive Asset Management shares. ASSX Adds Leverage On Top Of A Bitcoin Treasury Stock Strive’s own bala",
-      "source": "NewsBTC",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790065800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitwise Updates XRP ETF Prospectus In New SEC Filing",
-      "link": "https://www.newsbtc.com/news/bitwise-updates-xrp-etf-prospectus-in-new-sec-filing/",
-      "summary": "TL;DR Bitwise filed a post-effective amendment updating disclosures for its XRP ETF trust. The September 21 filing registered zero new shares. The filing is a prospectus update, not an SEC approval notice or a new ETF launch. Bitwise has filed an updated prospectus for its XRP exchange-traded fund trust, adding another SEC filing to the product’s regulatory record. The September 21 submission was made on Form POS AM, a post-effective amendment used to update registration-statement disclosures. What The Bitwise XRP Filing Actually Does The filing is notable because XRP ETF paperwork continues t",
-      "source": "NewsBTC",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790062200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
