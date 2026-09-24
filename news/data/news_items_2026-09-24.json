@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-24",
-  "generated_at_utc": "2026-09-24 04:05:08 UTC",
+  "generated_at_utc": "2026-09-24 10:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-24T04:05:04.343506+00:00",
+    "collected_at": "2026-09-24T10:05:04.311015+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 1,
+        "eligible": 0,
         "rejected": {
-          "unreviewed_link": 9
+          "unreviewed_link": 10
         }
       },
       {
@@ -50,11 +50,11 @@
         "entries": 20,
         "within_24h": 13,
         "within_window": 20,
-        "eligible": 6,
+        "eligible": 5,
         "rejected": {
+          "title_filter": 5,
           "topic_author_or_category": 8,
-          "title_filter": 3,
-          "unreviewed_link": 3
+          "unreviewed_link": 2
         }
       },
       {
@@ -171,32 +171,52 @@
       {
         "source": "Federal Reserve Board",
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-        "status": "ok",
-        "entries": 20,
+        "status": "failed",
+        "entries": 0,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
-        "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 19
-        }
+        "rejected": {}
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 6,
-      "NewsBTC": 1
+      "Cryptonews": 5
     },
     "unique_by_source": {
-      "Cryptonews": 6,
-      "NewsBTC": 1
+      "Cryptonews": 5
     },
     "selected_by_source": {
-      "Cryptonews": 6,
-      "NewsBTC": 1
+      "Cryptonews": 5
     }
   },
-  "count": 7,
+  "count": 5,
   "items": [
+    {
+      "title": "XRP News: SEC Opens AMM Door for Tokenized Stocks as XRPL Already Has the Tech",
+      "link": "https://cryptonews.com/news/xrp-news-sec-amm-boost/",
+      "summary": "XRPL lending proposals XLS-65 and XLS-66 are in validator voting, but need sustained 80% support and have no confirmed Mainnet launch date.",
+      "source": "Cryptonews",
+      "date": "2026-09-24",
+      "date_human": "Sep 24, 2026",
+      "pub_ts": 1790238976,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Mid-Sized Bitcoin Wallets Add 113,950 Bitcoin as Price Rally Nears Test",
+      "link": "https://cryptonews.com/news/bitcoin-price-resistance-whale-accumulation/",
+      "summary": "Bitcoin resistance at $88,000-$90,000 looms after wallets added 113,950 BTC, but ETF flows and stablecoin growth will test the rally.",
+      "source": "Cryptonews",
+      "date": "2026-09-24",
+      "date_human": "Sep 24, 2026",
+      "pub_ts": 1790237515,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "USDT Dominates, Sun Gives Prize, TRX Lands in Moscow: TRON News Roundup",
       "link": "https://cryptonews.com/news/usdt-tron-payment-data/",
@@ -205,19 +225,6 @@
       "date": "2026-09-23",
       "date_human": "Sep 23, 2026",
       "pub_ts": 1790160295,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Ethereum ETFs Pull In $270M As BlackRock Leads September 21 Rebound",
-      "link": "https://www.newsbtc.com/news/ethereum/ethereum-etfs-pull-in-270m-as-blackrock-leads-september-21-rebound/",
-      "summary": "TL;DR US spot Ethereum ETFs recorded $270.0 million of net inflows for the September 21 session. BlackRock’s ETHA led the day with $110.0 million, while Fidelity’s FETH added roughly $73.0 million. The numbers are single-session ETF flows, not direct purchases by the Ethereum network or protocol. US spot Ethereum ETFs bounced back with a $270 million net inflow day, giving the market one of its stronger institutional-demand readings of the month. The figures cover the September 21 trading session and were reported on September 22. BlackRock And Fidelity Lead The Day BlackRock’s ETHA took in $1",
-      "source": "NewsBTC",
-      "date": "2026-09-23",
-      "date_human": "Sep 23, 2026",
-      "pub_ts": 1790152200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -244,45 +251,6 @@
       "date": "2026-09-23",
       "date_human": "Sep 23, 2026",
       "pub_ts": 1790159427,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin News: X Launches Cashtag Partner Program",
-      "link": "https://cryptonews.com/news/bitcoin-news-etfs-market-access-x-cashtag/",
-      "summary": "Bitcoin ETFs drew $998.95 million as X added broker links and Coinbase launched fixed-term BTC-backed borrowing through Morpho Midnight.",
-      "source": "Cryptonews",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790092359,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "x402's $50B Scale Gives Solana an AI Payments Edge",
-      "link": "https://cryptonews.com/news/x402-solana-news-ai-payments/",
-      "summary": "x402 has reached roughly $50 billion in volume and 150,000 endpoints, but stablecoins leave token demand across Solana, XRP Ledger and Cardano unproven.",
-      "source": "Cryptonews",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790088301,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Trump-Xi Polymarket Odds for Handshake Hit 50%",
-      "link": "https://cryptonews.com/news/trump-xi-polymarket-odds-handshake/",
-      "summary": "Handshake odds on Polymarket put a 10-15 second Trump-Xi greeting at 50%, while hug and kiss contracts trail at 5% and 1%, respectively.",
-      "source": "Cryptonews",
-      "date": "2026-09-22",
-      "date_human": "Sep 22, 2026",
-      "pub_ts": 1790081566,
       "image_candidates": [],
       "license_url": null,
       "image": null,
