@@ -126,7 +126,7 @@ Frontend must not calculate trading/accounting truth.
 The trusted SmartSignalHub assistant is planned as an internal tool:
 
 ```text
-platform_v2/tools/ai_assistant/
+/home/sandro/workspace_tools/ai_assistant/ai_assistant/
 ```
 
 It should read runtime/docs/source files through deterministic Python readers before asking a model to explain anything.

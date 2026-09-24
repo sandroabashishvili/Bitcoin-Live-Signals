@@ -75,6 +75,6 @@ gültige Produktversprechen behandelt.
 
 Seit 21. September 2026 gehört dieser Pack zur SmartSignalHub-Dokumentation
 unter `platform_v2/docs/product/mr_b/`. Mr.B ist die öffentliche Projektvertretung;
-`platform_v2/tools/ai_assistant` ist ein separates internes Werkzeug.
+`/home/sandro/workspace_tools/ai_assistant` ist ein separates internes Werkzeug.
 Die Ablageänderung aktualisiert keine bereits hochgeladenen Custom-GPT-Dateien.
 Die fachlichen Angaben vom Juli sind vor einem erneuten Upload zu überprüfen.

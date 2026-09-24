@@ -47,7 +47,7 @@ Future Telegram commands may call the planned assistant, for example:
 But assistant logic should live in:
 
 ```text
-platform_v2/tools/ai_assistant/
+/home/sandro/workspace_tools/ai_assistant/ai_assistant/
 ```
 
 Telegram should remain a transport and notification layer. It should not own runtime readers, intent routing, model prompts, or assistant reasoning.

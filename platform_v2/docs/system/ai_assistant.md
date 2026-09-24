@@ -11,7 +11,7 @@ Purpose: Define the SmartSignalHub-aware assistant, its boundaries, and the stag
 The trusted assistant will be a project-owned, model-agnostic tool under:
 
 ```text
-platform_v2/tools/ai_assistant/
+/home/sandro/workspace_tools/ai_assistant/ai_assistant/
 ```
 
 Runtime outputs and logs will live under:
@@ -176,7 +176,7 @@ The first version answers without a model. Accuracy comes first.
 Capability modules live under:
 
 ```text
-platform_v2/tools/ai_assistant/capabilities/
+/home/sandro/workspace_tools/ai_assistant/ai_assistant/capabilities/
 ```
 
 Current modules:
@@ -471,7 +471,7 @@ Future integration may add Telegram commands that call assistant readers, for ex
 But the assistant logic should stay in:
 
 ```text
-platform_v2/tools/ai_assistant/
+/home/sandro/workspace_tools/ai_assistant/ai_assistant/
 ```
 
 Telegram should remain a transport/UI layer, not the source of assistant logic.
@@ -481,7 +481,7 @@ Telegram should remain a transport/UI layer, not the source of assistant logic.
 Assistant source:
 
 ```text
-platform_v2/tools/ai_assistant/
+/home/sandro/workspace_tools/ai_assistant/ai_assistant/
 ```
 
 Assistant runtime artifacts:
