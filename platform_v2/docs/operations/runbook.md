@@ -19,7 +19,7 @@ Normal stop/start keeps SQLite positions/history. Do not reset to load code chan
 Stop the running launcher before any reset. Verify a backup first. A full reset deliberately clears current trading and market history; do not run it during a normal maintenance restart.
 
 ```bash
-python3 -m platform_v2.tools.backup_system --help
+~/workspace_tools/backup/run.sh --help
 python3 -m platform_v2.tools.runtime_reset_system --dry-run
 ```
 
@@ -44,7 +44,7 @@ python3 -m platform_v2.tools.runtime_database_system --check-parity
 
 Reports go under `platform_v2/runtime/artifacts/`. Full diagnostics includes complexity/refactoring candidates; a finding's severity alone is not proof of a trading failure. Operational checks are also not proof of profitable logic. Read the findings and validate new signals/orders/exits together.
 
-Backups use `platform_v2.tools.backup_system`; inspect `--help` for current profiles and targets. SQLite backups use the backup API rather than copying a changing main DB alone. Review verification output and manifests before relying on a backup.
+Backups use `~/workspace_tools/backup/run.sh`; inspect `--help` for current profiles and targets. SQLite backups use the backup API rather than copying a changing main DB alone. Review verification output and manifests before relying on a backup.
 
 ## Local pages and publishing
 
@@ -56,7 +56,7 @@ Run from `~/SmartSignalHub`; dashboards are under `/platform_v2/spot/dashboard/`
 
 ```bash
 python3 -m platform_v2.tools.sitemap_system
-python3 -m platform_v2.tools.github_publish_system --dry-run
+~/workspace_tools/site_publish/run.sh --dry-run
 ```
 
 Publishing without `--dry-run` can commit and push to public `gh-pages`. Read [SEO and publishing](../product/seo_and_publishing.md) and the [current review](../current/system_review_20260912.md) first. No reset is needed for metadata fixes.

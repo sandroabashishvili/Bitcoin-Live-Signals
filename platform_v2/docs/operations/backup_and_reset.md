@@ -38,7 +38,7 @@ platform_v2/runtime/logs/tools/
 ```bash
 cd ~/SmartSignalHub
 source venv/bin/activate
-python3 -m platform_v2.tools.backup_system
+~/workspace_tools/backup/run.sh
 ```
 
 Default local backup destination:
@@ -72,7 +72,7 @@ and `PRAGMA quick_check` for every copied SQLite database. To recheck the latest
 local backups later, run:
 
 ```bash
-python3 -m platform_v2.tools.backup_system --diagnose
+~/workspace_tools/backup/run.sh --diagnose
 ```
 
 Backup scope note: all three active SQLite databases are copied consistently.
@@ -82,7 +82,7 @@ the GitHub Pages publish mirror stays excluded because it is rebuildable.
 ```bash
 cd ~/SmartSignalHub
 source venv/bin/activate
-python3 -m platform_v2.tools.backup_system
+~/workspace_tools/backup/run.sh
 ```
 
 ## External Drive Mount Example

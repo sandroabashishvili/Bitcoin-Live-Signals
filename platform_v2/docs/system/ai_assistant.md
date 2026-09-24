@@ -83,7 +83,7 @@ The first version is CLI-only and reads real runtime files through deterministic
 ```bash
 cd ~/SmartSignalHub
 source venv/bin/activate
-python3 -m platform_v2.tools.ai_assistant ask "ბოლო ფუჩერს სიგნალზე რას მეტყვი?"
+~/workspace_tools/ai_assistant/run.sh ask "ბოლო ფუჩერს სიგნალზე რას მეტყვი?"
 ```
 
 Browser chat is available with:
@@ -91,7 +91,7 @@ Browser chat is available with:
 ```bash
 cd ~/SmartSignalHub
 source venv/bin/activate
-python3 -m platform_v2.tools.ai_assistant serve --model ollama:qwen2.5-coder:7b
+~/workspace_tools/ai_assistant/run.sh serve --model ollama:qwen2.5-coder:7b
 ```
 
 Default local URL:
@@ -327,7 +327,7 @@ Stage 5: browser chat
 Command:
 
 ```bash
-python3 -m platform_v2.tools.ai_assistant serve
+~/workspace_tools/ai_assistant/run.sh serve
 ```
 
 Target local URL:
@@ -352,8 +352,8 @@ The assistant should not depend on a single model vendor, editor extension, or c
 Initial Ollama composer was added on `2026-06-03`:
 
 ```bash
-python3 -m platform_v2.tools.ai_assistant ask "..." --model ollama:qwen2.5-coder:7b
-python3 -m platform_v2.tools.ai_assistant serve --model ollama:qwen2.5-coder:7b
+~/workspace_tools/ai_assistant/run.sh ask "..." --model ollama:qwen2.5-coder:7b
+~/workspace_tools/ai_assistant/run.sh serve --model ollama:qwen2.5-coder:7b
 ```
 
 It is optional and disabled by default.

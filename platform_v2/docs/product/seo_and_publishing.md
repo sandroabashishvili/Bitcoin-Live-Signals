@@ -10,7 +10,7 @@ The public remote's default branch `main` contains application source, tests and
 
 ## Build and publish
 
-`python3 -m platform_v2.tools.sitemap_system` rebuilds the local source sitemap using the custom domain. `python3 -m platform_v2.tools.github_publish_system --dry-run` previews publication. The command without `--dry-run` can update the publication checkout, commit and push; it is a publishing action.
+`python3 -m platform_v2.tools.sitemap_system` rebuilds the local source sitemap using the custom domain. `~/workspace_tools/site_publish/run.sh --dry-run` previews publication. The command without `--dry-run` can update the publication checkout, commit and push; it is a publishing action.
 
 The publisher updates origin/gh-pages, syncs public_site to root, Spot/Futures/Hedge dashboards to their respective `*/dashboard/` paths, and shared/frontend to shared/. It rewrites local links, cleans compatibility directories and builds the final sitemap before commit/push. Default sync is incremental, without general `--delete`.
 

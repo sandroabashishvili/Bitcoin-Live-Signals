@@ -46,7 +46,7 @@ python3 -m platform_v2.tools.runtime_start_system
 ```bash
 mkdir -p publish
 git clone --branch gh-pages https://github.com/sandroabashishvili/Bitcoin-Live-Signals.git publish/Bitcoin-Live-Signals
-python3 -m platform_v2.tools.github_publish_system --dry-run
+~/workspace_tools/site_publish/run.sh --dry-run
 ```
 
 Review the output and generate the required dashboards/news first. Source clones
