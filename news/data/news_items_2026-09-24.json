@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-24",
-  "generated_at_utc": "2026-09-24 10:05:08 UTC",
+  "generated_at_utc": "2026-09-24 16:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-24T10:05:04.311015+00:00",
+    "collected_at": "2026-09-24T16:05:04.223656+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 0,
+        "eligible": 4,
         "rejected": {
-          "unreviewed_link": 10
+          "unreviewed_link": 6
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 13,
+        "within_24h": 11,
         "within_window": 20,
-        "eligible": 5,
+        "eligible": 8,
         "rejected": {
-          "title_filter": 5,
-          "topic_author_or_category": 8,
-          "unreviewed_link": 2
+          "topic_author_or_category": 7,
+          "unreviewed_link": 2,
+          "title_filter": 3
         }
       },
       {
@@ -74,11 +74,12 @@
         "url": "https://apps.bea.gov/rss/rss.xml",
         "status": "ok",
         "entries": 48,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 48
+          "unreviewed_link": 1,
+          "older_than_window": 47
         }
       },
       {
@@ -86,7 +87,7 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 2,
+        "within_24h": 1,
         "within_window": 3,
         "eligible": 0,
         "rejected": {
@@ -100,12 +101,12 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 3,
-        "within_window": 4,
+        "within_window": 5,
         "eligible": 0,
         "rejected": {
+          "topic_author_or_category": 2,
           "unreviewed_link": 3,
-          "topic_author_or_category": 1,
-          "older_than_window": 11
+          "older_than_window": 10
         }
       },
       {
@@ -171,26 +172,110 @@
       {
         "source": "Federal Reserve Board",
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-        "status": "failed",
-        "entries": 0,
-        "within_24h": 0,
-        "within_window": 0,
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 1,
+        "within_window": 2,
         "eligible": 0,
-        "rejected": {}
+        "rejected": {
+          "topic_author_or_category": 2,
+          "older_than_window": 18
+        }
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 5
+      "Cryptonews": 8,
+      "NewsBTC": 4
     },
     "unique_by_source": {
-      "Cryptonews": 5
+      "Cryptonews": 8,
+      "NewsBTC": 4
     },
     "selected_by_source": {
-      "Cryptonews": 5
+      "Cryptonews": 8,
+      "NewsBTC": 4
     }
   },
-  "count": 5,
+  "count": 12,
   "items": [
+    {
+      "title": "Fed Rate Cut Delayed as Strong Jobs Data Tests Bitcoin",
+      "link": "https://cryptonews.com/news/bitcoin-citi-fed-rate-cut/",
+      "summary": "Citi sees the Fed's first rate cut in June 2027 after 162,000 August jobs, while Bitcoin ETF inflows show demand can rebound despite higher yields.",
+      "source": "Cryptonews",
+      "date": "2026-09-24",
+      "date_human": "Sep 24, 2026",
+      "pub_ts": 1790255580,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Optimism Says Superchain TVL Has Crossed $14 Billion",
+      "link": "https://www.newsbtc.com/news/ethereum/optimism-says-superchain-tvl-has-crossed-14-billion/",
+      "summary": "TL;DR Optimism says aggregate TVL across the Superchain has moved above $14 billion. The figure combines multiple OP Stack networks rather than representing OP Mainnet alone. The milestone highlights the growing economic footprint of Base, World Chain and other interconnected OP Stack chains. Optimism’s Superchain has crossed a reported $14 billion in aggregate total value locked, giving the OP Stack another way to measure how far the ecosystem has expanded beyond a single Layer 2. The number combines several networks built around Optimism’s shared technology rather than measuring OP Mainnet o",
+      "source": "NewsBTC",
+      "date": "2026-09-24",
+      "date_human": "Sep 24, 2026",
+      "pub_ts": 1790249400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "NEAR Crypto Tokenized Stock Launch Puts Distribution Ahead of Scale",
+      "link": "https://cryptonews.com/news/tokenized-stocks-near-crypto-ondo-finance/",
+      "summary": "NEAR and Ondo Finance offer 20 tokenized stocks and ETFs to eligible non-U.S. users, with cross-chain access planned through NEAR Intents.",
+      "source": "Cryptonews",
+      "date": "2026-09-24",
+      "date_human": "Sep 24, 2026",
+      "pub_ts": 1790255237,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Base Activity Climbs To 7.5 Million Transactions In A Day",
+      "link": "https://www.newsbtc.com/news/ethereum/base-activity-climbs-to-7-5-million-transactions-in-a-day/",
+      "summary": "TL;DR Base network activity reached roughly 7.5 million transactions over a single day in the validated September 22 data. The count includes all recorded transactions, including low-value and automated activity. High transaction count is a usage metric, not proof of equivalent economic value. Base has pushed daily transaction activity to roughly 7.5 million, adding another scale milestone for Coinbase’s Ethereum Layer 2 ecosystem. The number is eye-catching, but the more interesting question is what it says about the type of activity happening on the network. Cheap Transactions Change What Us",
+      "source": "NewsBTC",
+      "date": "2026-09-24",
+      "date_human": "Sep 24, 2026",
+      "pub_ts": 1790245800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Who is Ronald Spektor? New York Coinbase Scam Mastermind That Stole $15.9M",
+      "link": "https://cryptonews.com/news/coinbase-scam-ronald-spektor-sentencing/",
+      "summary": "A Coinbase scam stole roughly $15.944 million from about 100 users before Ronald Spektor was sentenced to four to 12 years in prison in New York.",
+      "source": "Cryptonews",
+      "date": "2026-09-24",
+      "date_human": "Sep 24, 2026",
+      "pub_ts": 1790249332,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "TRON Surpasses $30T in Total Transaction Volume as it Secures its Place as Leading Chain for Stablecoins",
+      "link": "https://www.newsbtc.com/news/tron-surpasses-30t-in-total-transaction-volume-as-it-secures-its-place-as-leading-chain-for-stablecoins/",
+      "summary": "Geneva, Switzerland, September 24, 2026 — TRON DAO, the community-governed DAO dedicated to accelerating the decentralization of the internet through blockchain technology and decentralized applications (dApps), today announced that total transaction volume settled on the TRON blockchain has surpassed $30 trillion. A milestone driven by the network’s high throughput, low costs, and deep liquidity, making TRON the settlement layer of choice for stablecoin transfers, payments, and digital asset activity worldwide. TRON has now recorded more than 405 million total user accounts, over 15 billion t",
+      "source": "NewsBTC",
+      "date": "2026-09-24",
+      "date_human": "Sep 24, 2026",
+      "pub_ts": 1790244743,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "XRP News: SEC Opens AMM Door for Tokenized Stocks as XRPL Already Has the Tech",
       "link": "https://cryptonews.com/news/xrp-news-sec-amm-boost/",
@@ -199,6 +284,19 @@
       "date": "2026-09-24",
       "date_human": "Sep 24, 2026",
       "pub_ts": 1790238976,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Privy Expands Support for TRON with Enhanced Wallet and Payment Infrastructure for Developers",
+      "link": "https://www.newsbtc.com/news/privy-expands-support-for-tron-with-enhanced-wallet-and-payment-infrastructure-for-developers/",
+      "summary": "Geneva, Switzerland, September 24, 2026 – TRON DAO, the community-governed DAO dedicated to accelerating the decentralization of the internet through blockchain technology and decentralized applications (dApps), announced today that Privy is expanding its support for the TRON blockchain, giving developers and businesses more tools to build and operate financial applications at scale on the network. With the expanded integration, developers can use Privy to build and manage wallets and financial applications on TRON with enhanced transaction, policy, transfer, and monitoring capabilities. Devel",
+      "source": "NewsBTC",
+      "date": "2026-09-24",
+      "date_human": "Sep 24, 2026",
+      "pub_ts": 1790244581,
       "image_candidates": [],
       "license_url": null,
       "image": null,
