@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-25",
-  "generated_at_utc": "2026-09-25 04:05:06 UTC",
+  "generated_at_utc": "2026-09-25 10:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-25T04:05:01.915277+00:00",
+    "collected_at": "2026-09-25T10:05:01.926873+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 4,
+        "eligible": 2,
         "rejected": {
-          "unreviewed_link": 6
+          "unreviewed_link": 8
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 14,
+        "within_24h": 12,
         "within_window": 20,
         "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 8,
-          "unreviewed_link": 2,
-          "title_filter": 3
+          "unreviewed_link": 3,
+          "title_filter": 4,
+          "topic_author_or_category": 6
         }
       },
       {
@@ -100,13 +100,13 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 2,
-        "within_window": 5,
+        "within_24h": 1,
+        "within_window": 4,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 2,
+          "topic_author_or_category": 1,
           "unreviewed_link": 3,
-          "older_than_window": 10
+          "older_than_window": 11
         }
       },
       {
@@ -172,29 +172,87 @@
       {
         "source": "Federal Reserve Board",
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-        "status": "failed",
-        "entries": 0,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
-        "rejected": {}
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 2,
+        "within_window": 2,
+        "eligible": 1,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 18
+        }
       }
     ],
     "eligible_by_source": {
+      "NewsBTC": 2,
       "Cryptonews": 7,
-      "NewsBTC": 4
+      "Federal Reserve Board": 1
     },
     "unique_by_source": {
+      "NewsBTC": 2,
       "Cryptonews": 7,
-      "NewsBTC": 4
+      "Federal Reserve Board": 1
     },
     "selected_by_source": {
+      "NewsBTC": 2,
       "Cryptonews": 7,
-      "NewsBTC": 4
+      "Federal Reserve Board": 1
     }
   },
-  "count": 11,
+  "count": 10,
   "items": [
+    {
+      "title": "Bitcoin Falls Back Below $85K As Treasury Yields Jump Above 5%",
+      "link": "https://www.newsbtc.com/news/bitcoin/bitcoin-falls-back-below-85k-as-treasury-yields-jump-above-5/",
+      "summary": "TL;DR Bitcoin fell below $85,000 after stronger U.S. business data pushed Treasury yields higher. S&P Global’s flash U.S. Composite PMI rose to 58.4 in September, the strongest reading since July 2021. The move shows how quickly Bitcoin’s recent rebound can be challenged when markets price in tighter monetary policy. Bitcoin’s rebound has run into a familiar obstacle: rising interest rates. BTC fell back below $85,000 as U.S. Treasury yields climbed, with the 10-year yield moving above 5% after stronger-than-expected economic data renewed concerns that monetary policy may have to stay tight. S",
+      "source": "NewsBTC",
+      "date": "2026-09-25",
+      "date_human": "Sep 25, 2026",
+      "pub_ts": 1790325000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitget Wallet Hack Steals $351.6M: Gracy Chen Points Finger at North Korea",
+      "link": "https://cryptonews.com/news/bitget-hack-wallet-breach/",
+      "summary": "The Bitget hack triggered a $351.6M loss, froze withdrawals and left its claimed $464M protection fund unverified while trading continues normally.",
+      "source": "Cryptonews",
+      "date": "2026-09-25",
+      "date_human": "Sep 25, 2026",
+      "pub_ts": 1790319847,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
+      "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+      "source": "Federal Reserve Board",
+      "date": "2026-09-24",
+      "date_human": "Sep 24, 2026",
+      "pub_ts": 1790274600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Hut 8 Wins $140M Bid For Poolin's Texas Data Centers",
+      "link": "https://www.newsbtc.com/news/bitcoin/hut-8-wins-140m-bid-for-poolins-texas-data-centers/",
+      "summary": "TL;DR Hut 8 has been named the winning bidder for two Poolin data-center sites in Texas with a $140 million offer. The bid is nearly three times the combined $52 million stalking-horse offer that opened the auction process. The transaction is not final: bankruptcy-court approval is still required at a hearing scheduled for September 29. Hut 8 has emerged as the winning bidder for two Texas data-center sites owned by bankrupt mining company Poolin, putting $140 million on the table for infrastructure that could extend well beyond Bitcoin mining. The bid covers Poolin’s Pyote and Tarbush locatio",
+      "source": "NewsBTC",
+      "date": "2026-09-25",
+      "date_human": "Sep 25, 2026",
+      "pub_ts": 1790317800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "XRP Price Under Pressure: Spot Selling Overwhelms ETF Demand",
       "link": "https://cryptonews.com/news/xrp-price-spot-volume/",
@@ -203,19 +261,6 @@
       "date": "2026-09-24",
       "date_human": "Sep 24, 2026",
       "pub_ts": 1790277780,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "OpenZeppelin Integrates with TRON to Bring Its Security Standard to the Network",
-      "link": "https://www.newsbtc.com/news/openzeppelin-integrates-with-tron-to-bring-its-security-standard-to-the-network/",
-      "summary": "LONDON, UK, September 24, 2026 – OpenZeppelin, the security standard for onchain finance and secure smart contract development, today announced that its smart contract libraries and secure development suite are now available for the TRON network. The integration gives developers building on TRON access to OpenZeppelin’s widely used security-focused development framework, adapted specifically for the TRON network. Teams can now build applications using audited contract components, familiar upgrade workflows, and developer tooling designed around TRON’s standards and network capabilities. OpenZe",
-      "source": "NewsBTC",
-      "date": "2026-09-24",
-      "date_human": "Sep 24, 2026",
-      "pub_ts": 1790269580,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -235,19 +280,6 @@
       "image_local": null
     },
     {
-      "title": "Optimism Says Superchain TVL Has Crossed $14 Billion",
-      "link": "https://www.newsbtc.com/news/ethereum/optimism-says-superchain-tvl-has-crossed-14-billion/",
-      "summary": "TL;DR Optimism says aggregate TVL across the Superchain has moved above $14 billion. The figure combines multiple OP Stack networks rather than representing OP Mainnet alone. The milestone highlights the growing economic footprint of Base, World Chain and other interconnected OP Stack chains. Optimism’s Superchain has crossed a reported $14 billion in aggregate total value locked, giving the OP Stack another way to measure how far the ecosystem has expanded beyond a single Layer 2. The number combines several networks built around Optimism’s shared technology rather than measuring OP Mainnet o",
-      "source": "NewsBTC",
-      "date": "2026-09-24",
-      "date_human": "Sep 24, 2026",
-      "pub_ts": 1790249400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "NEAR Crypto Tokenized Stock Launch Puts Distribution Ahead of Scale",
       "link": "https://cryptonews.com/news/tokenized-stocks-near-crypto-ondo-finance/",
       "summary": "NEAR and Ondo Finance offer 20 tokenized stocks and ETFs to eligible non-U.S. users, with cross-chain access planned through NEAR Intents.",
@@ -261,19 +293,6 @@
       "image_local": null
     },
     {
-      "title": "Base Activity Climbs To 7.5 Million Transactions In A Day",
-      "link": "https://www.newsbtc.com/news/ethereum/base-activity-climbs-to-7-5-million-transactions-in-a-day/",
-      "summary": "TL;DR Base network activity reached roughly 7.5 million transactions over a single day in the validated September 22 data. The count includes all recorded transactions, including low-value and automated activity. High transaction count is a usage metric, not proof of equivalent economic value. Base has pushed daily transaction activity to roughly 7.5 million, adding another scale milestone for Coinbase’s Ethereum Layer 2 ecosystem. The number is eye-catching, but the more interesting question is what it says about the type of activity happening on the network. Cheap Transactions Change What Us",
-      "source": "NewsBTC",
-      "date": "2026-09-24",
-      "date_human": "Sep 24, 2026",
-      "pub_ts": 1790245800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Who is Ronald Spektor? New York Coinbase Scam Mastermind That Stole $15.9M",
       "link": "https://cryptonews.com/news/coinbase-scam-ronald-spektor-sentencing/",
       "summary": "A Coinbase scam stole roughly $15.944 million from about 100 users before Ronald Spektor was sentenced to four to 12 years in prison in New York.",
@@ -281,19 +300,6 @@
       "date": "2026-09-24",
       "date_human": "Sep 24, 2026",
       "pub_ts": 1790249332,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "TRON Surpasses $30T in Total Transaction Volume as it Secures its Place as Leading Chain for Stablecoins",
-      "link": "https://www.newsbtc.com/news/tron-surpasses-30t-in-total-transaction-volume-as-it-secures-its-place-as-leading-chain-for-stablecoins/",
-      "summary": "Geneva, Switzerland, September 24, 2026 — TRON DAO, the community-governed DAO dedicated to accelerating the decentralization of the internet through blockchain technology and decentralized applications (dApps), today announced that total transaction volume settled on the TRON blockchain has surpassed $30 trillion. A milestone driven by the network’s high throughput, low costs, and deep liquidity, making TRON the settlement layer of choice for stablecoin transfers, payments, and digital asset activity worldwide. TRON has now recorded more than 405 million total user accounts, over 15 billion t",
-      "source": "NewsBTC",
-      "date": "2026-09-24",
-      "date_human": "Sep 24, 2026",
-      "pub_ts": 1790244743,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -320,19 +326,6 @@
       "date": "2026-09-24",
       "date_human": "Sep 24, 2026",
       "pub_ts": 1790237515,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "USDT Dominates, Sun Gives Prize, TRX Lands in Moscow: TRON News Roundup",
-      "link": "https://cryptonews.com/news/usdt-tron-payment-data/",
-      "summary": "USDT on TRON led CoinsBee payments, while MOEX launched TRX futures and a sponsored Justin Sun prize drew scrutiny over promotional claims.",
-      "source": "Cryptonews",
-      "date": "2026-09-23",
-      "date_human": "Sep 23, 2026",
-      "pub_ts": 1790160295,
       "image_candidates": [],
       "license_url": null,
       "image": null,
