@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-09-24",
-  "generated_at_utc": "2026-09-24 22:05:10 UTC",
+  "day_iso": "2026-09-25",
+  "generated_at_utc": "2026-09-25 04:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-24T22:05:05.843216+00:00",
+    "collected_at": "2026-09-25T04:05:01.915277+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 5,
+        "eligible": 4,
         "rejected": {
-          "unreviewed_link": 5
+          "unreviewed_link": 6
         }
       },
       {
@@ -48,11 +48,11 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 13,
+        "within_24h": 14,
         "within_window": 20,
-        "eligible": 8,
+        "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 7,
+          "topic_author_or_category": 8,
           "unreviewed_link": 2,
           "title_filter": 3
         }
@@ -172,34 +172,28 @@
       {
         "source": "Federal Reserve Board",
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-        "status": "ok",
-        "entries": 20,
-        "within_24h": 2,
-        "within_window": 2,
-        "eligible": 1,
-        "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 18
-        }
+        "status": "failed",
+        "entries": 0,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {}
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 8,
-      "Federal Reserve Board": 1,
-      "NewsBTC": 5
+      "Cryptonews": 7,
+      "NewsBTC": 4
     },
     "unique_by_source": {
-      "Cryptonews": 8,
-      "Federal Reserve Board": 1,
-      "NewsBTC": 5
+      "Cryptonews": 7,
+      "NewsBTC": 4
     },
     "selected_by_source": {
-      "Cryptonews": 6,
-      "Federal Reserve Board": 1,
-      "NewsBTC": 5
+      "Cryptonews": 7,
+      "NewsBTC": 4
     }
   },
-  "count": 12,
+  "count": 11,
   "items": [
     {
       "title": "XRP Price Under Pressure: Spot Selling Overwhelms ETF Demand",
@@ -209,19 +203,6 @@
       "date": "2026-09-24",
       "date_human": "Sep 24, 2026",
       "pub_ts": 1790277780,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
-      "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "source": "Federal Reserve Board",
-      "date": "2026-09-24",
-      "date_human": "Sep 24, 2026",
-      "pub_ts": 1790274600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -319,19 +300,6 @@
       "image_local": null
     },
     {
-      "title": "Privy Expands Support for TRON with Enhanced Wallet and Payment Infrastructure for Developers",
-      "link": "https://www.newsbtc.com/news/privy-expands-support-for-tron-with-enhanced-wallet-and-payment-infrastructure-for-developers/",
-      "summary": "Geneva, Switzerland, September 24, 2026 – TRON DAO, the community-governed DAO dedicated to accelerating the decentralization of the internet through blockchain technology and decentralized applications (dApps), announced today that Privy is expanding its support for the TRON blockchain, giving developers and businesses more tools to build and operate financial applications at scale on the network. With the expanded integration, developers can use Privy to build and manage wallets and financial applications on TRON with enhanced transaction, policy, transfer, and monitoring capabilities. Devel",
-      "source": "NewsBTC",
-      "date": "2026-09-24",
-      "date_human": "Sep 24, 2026",
-      "pub_ts": 1790244581,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "XRP News: SEC Opens AMM Door for Tokenized Stocks as XRPL Already Has the Tech",
       "link": "https://cryptonews.com/news/xrp-news-sec-amm-boost/",
       "summary": "XRPL lending proposals XLS-65 and XLS-66 are in validator voting, but need sustained 80% support and have no confirmed Mainnet launch date.",
@@ -352,6 +320,19 @@
       "date": "2026-09-24",
       "date_human": "Sep 24, 2026",
       "pub_ts": 1790237515,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "USDT Dominates, Sun Gives Prize, TRX Lands in Moscow: TRON News Roundup",
+      "link": "https://cryptonews.com/news/usdt-tron-payment-data/",
+      "summary": "USDT on TRON led CoinsBee payments, while MOEX launched TRX futures and a sponsored Justin Sun prize drew scrutiny over promotional claims.",
+      "source": "Cryptonews",
+      "date": "2026-09-23",
+      "date_human": "Sep 23, 2026",
+      "pub_ts": 1790160295,
       "image_candidates": [],
       "license_url": null,
       "image": null,
