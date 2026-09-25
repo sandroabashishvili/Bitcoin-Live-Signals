@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-25",
-  "generated_at_utc": "2026-09-25 10:05:07 UTC",
+  "generated_at_utc": "2026-09-25 16:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-25T10:05:01.926873+00:00",
+    "collected_at": "2026-09-25T16:05:02.055582+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 2,
+        "eligible": 4,
         "rejected": {
-          "unreviewed_link": 8
+          "unreviewed_link": 6
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 12,
+        "within_24h": 9,
         "within_window": 20,
-        "eligible": 7,
+        "eligible": 8,
         "rejected": {
+          "title_filter": 6,
           "unreviewed_link": 3,
-          "title_filter": 4,
-          "topic_author_or_category": 6
+          "topic_author_or_category": 3
         }
       },
       {
@@ -74,7 +74,7 @@
         "url": "https://apps.bea.gov/rss/rss.xml",
         "status": "ok",
         "entries": 48,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -88,11 +88,11 @@
         "status": "ok",
         "entries": 25,
         "within_24h": 0,
-        "within_window": 2,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 2,
-          "older_than_window": 23
+          "topic_author_or_category": 1,
+          "older_than_window": 24
         }
       },
       {
@@ -100,13 +100,13 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
-        "within_window": 4,
+        "within_24h": 0,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
           "topic_author_or_category": 1,
-          "unreviewed_link": 3,
-          "older_than_window": 11
+          "unreviewed_link": 2,
+          "older_than_window": 12
         }
       },
       {
@@ -114,11 +114,11 @@
         "url": "https://bitcoinops.org/feed.xml",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 10
+          "older_than_window": 9
         }
       },
       {
@@ -174,7 +174,7 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 2,
+        "within_24h": 1,
         "within_window": 2,
         "eligible": 1,
         "rejected": {
@@ -184,31 +184,73 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 7,
+      "Cryptonews": 8,
+      "NewsBTC": 4,
+      "Bitcoin Optech": 1,
       "Federal Reserve Board": 1
     },
     "unique_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 7,
+      "Cryptonews": 8,
+      "NewsBTC": 4,
+      "Bitcoin Optech": 1,
       "Federal Reserve Board": 1
     },
     "selected_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 7,
+      "Cryptonews": 6,
+      "NewsBTC": 4,
+      "Bitcoin Optech": 1,
       "Federal Reserve Board": 1
     }
   },
-  "count": 10,
+  "count": 12,
   "items": [
     {
-      "title": "Bitcoin Falls Back Below $85K As Treasury Yields Jump Above 5%",
-      "link": "https://www.newsbtc.com/news/bitcoin/bitcoin-falls-back-below-85k-as-treasury-yields-jump-above-5/",
-      "summary": "TL;DR Bitcoin fell below $85,000 after stronger U.S. business data pushed Treasury yields higher. S&P Global’s flash U.S. Composite PMI rose to 58.4 in September, the strongest reading since July 2021. The move shows how quickly Bitcoin’s recent rebound can be challenged when markets price in tighter monetary policy. Bitcoin’s rebound has run into a familiar obstacle: rising interest rates. BTC fell back below $85,000 as U.S. Treasury yields climbed, with the 10-year yield moving above 5% after stronger-than-expected economic data renewed concerns that monetary policy may have to stay tight. S",
+      "title": "AI Crypto Coins Revenue Gap Puts Token Value to the Test",
+      "link": "https://cryptonews.com/news/ai-crypto-revenue-token-demand/",
+      "summary": "AI crypto projects are drawing major investment and attention, but Bittensor and Render show why revenue and token value capture matter to investors.",
+      "source": "Cryptonews",
+      "date": "2026-09-25",
+      "date_human": "Sep 25, 2026",
+      "pub_ts": 1790335019,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "MEXC Returns to TOKEN2049 Singapore as Platinum Sponsor with Interactive Experiences and Industry Conversations",
+      "link": "https://www.newsbtc.com/news/mexc-returns-to-token2049-singapore-as-platinum-sponsor-with-interactive-experiences-and-industry-conversations/",
+      "summary": "Mutsamudu, Comoros, September 25, 2026 – MEXC, a pioneer in 0-fee digital asset trading, will return to TOKEN2049 Singapore as a Platinum Sponsor, with a broader on-site presence spanning interactive booth experiences, product showcases and conversations on the MEXC Stage. The event will give users, partners and industry participants more ways to engage directly with MEXC, from exploring new AI experiences to joining discussions on how trading platforms and global markets are evolving. This year, MEXC’s presence will spotlight how AI is evolving from market analysis into active, agentic execut",
       "source": "NewsBTC",
       "date": "2026-09-25",
       "date_human": "Sep 25, 2026",
-      "pub_ts": 1790325000,
+      "pub_ts": 1790332305,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Optech Newsletter #424",
+      "link": "https://bitcoinops.org/en/newsletters/2026/09/25/",
+      "summary": "This week’s newsletter describes a proposal for upgrading the offchain protocols of the Lightning Network to post-quantum security. Also included are our regular sections with selected questions and answers from the Bitcoin Stack Exchange, announcements of new releases and release candidates, and descriptions of notable changes to popular Bitcoin infrastructure software.",
+      "source": "Bitcoin Optech",
+      "date": "2026-09-25",
+      "date_human": "Sep 25, 2026",
+      "pub_ts": 1790294400,
+      "image_candidates": [],
+      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
+      "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+      "source": "Federal Reserve Board",
+      "date": "2026-09-24",
+      "date_human": "Sep 24, 2026",
+      "pub_ts": 1790274600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -228,26 +270,13 @@
       "image_local": null
     },
     {
-      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
-      "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "source": "Federal Reserve Board",
-      "date": "2026-09-24",
-      "date_human": "Sep 24, 2026",
-      "pub_ts": 1790274600,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Hut 8 Wins $140M Bid For Poolin's Texas Data Centers",
-      "link": "https://www.newsbtc.com/news/bitcoin/hut-8-wins-140m-bid-for-poolins-texas-data-centers/",
-      "summary": "TL;DR Hut 8 has been named the winning bidder for two Poolin data-center sites in Texas with a $140 million offer. The bid is nearly three times the combined $52 million stalking-horse offer that opened the auction process. The transaction is not final: bankruptcy-court approval is still required at a hearing scheduled for September 29. Hut 8 has emerged as the winning bidder for two Texas data-center sites owned by bankrupt mining company Poolin, putting $140 million on the table for infrastructure that could extend well beyond Bitcoin mining. The bid covers Poolin’s Pyote and Tarbush locatio",
+      "title": "TokenInsight September Report: MEXC Posts Deepest BTC and ETH Futures Depth at $21.03M, Lowest Silver Slippage at 0.002%",
+      "link": "https://www.newsbtc.com/news/tokeninsight-september-report-mexc-posts-deepest-btc-and-eth-futures-depth-at-21-03m-lowest-silver-slippage-at-0-002/",
+      "summary": "Mutsamudu, Comoros, September 25, 2026 – MEXC, a pioneer in 0-fee digital asset trading, recorded the deepest combined BTC and ETH futures order book depth within the 0.03% band, and the lowest median slippage for a $300,000 silver futures sell order among all surveyed exchanges, according to TokenInsight’s Crypto Exchange Liquidity Report for September 2026. The report provides a systematic assessment of liquidity performance across nine major global crypto exchanges based on order book depth, trading slippage, and bid-ask spread, covering BTC and ETH across spot and futures markets, as well ",
       "source": "NewsBTC",
       "date": "2026-09-25",
       "date_human": "Sep 25, 2026",
-      "pub_ts": 1790317800,
+      "pub_ts": 1790330787,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -267,6 +296,19 @@
       "image_local": null
     },
     {
+      "title": "Bitcoin Falls Back Below $85K As Treasury Yields Jump Above 5%",
+      "link": "https://www.newsbtc.com/news/bitcoin/bitcoin-falls-back-below-85k-as-treasury-yields-jump-above-5/",
+      "summary": "TL;DR Bitcoin fell below $85,000 after stronger U.S. business data pushed Treasury yields higher. S&P Global’s flash U.S. Composite PMI rose to 58.4 in September, the strongest reading since July 2021. The move shows how quickly Bitcoin’s recent rebound can be challenged when markets price in tighter monetary policy. Bitcoin’s rebound has run into a familiar obstacle: rising interest rates. BTC fell back below $85,000 as U.S. Treasury yields climbed, with the 10-year yield moving above 5% after stronger-than-expected economic data renewed concerns that monetary policy may have to stay tight. S",
+      "source": "NewsBTC",
+      "date": "2026-09-25",
+      "date_human": "Sep 25, 2026",
+      "pub_ts": 1790325000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Fed Rate Cut Delayed as Strong Jobs Data Tests Bitcoin",
       "link": "https://cryptonews.com/news/bitcoin-citi-fed-rate-cut/",
       "summary": "Citi sees the Fed's first rate cut in June 2027 after 162,000 August jobs, while Bitcoin ETF inflows show demand can rebound despite higher yields.",
@@ -274,6 +316,19 @@
       "date": "2026-09-24",
       "date_human": "Sep 24, 2026",
       "pub_ts": 1790255580,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Hut 8 Wins $140M Bid For Poolin's Texas Data Centers",
+      "link": "https://www.newsbtc.com/news/bitcoin/hut-8-wins-140m-bid-for-poolins-texas-data-centers/",
+      "summary": "TL;DR Hut 8 has been named the winning bidder for two Poolin data-center sites in Texas with a $140 million offer. The bid is nearly three times the combined $52 million stalking-horse offer that opened the auction process. The transaction is not final: bankruptcy-court approval is still required at a hearing scheduled for September 29. Hut 8 has emerged as the winning bidder for two Texas data-center sites owned by bankrupt mining company Poolin, putting $140 million on the table for infrastructure that could extend well beyond Bitcoin mining. The bid covers Poolin’s Pyote and Tarbush locatio",
+      "source": "NewsBTC",
+      "date": "2026-09-25",
+      "date_human": "Sep 25, 2026",
+      "pub_ts": 1790317800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -300,32 +355,6 @@
       "date": "2026-09-24",
       "date_human": "Sep 24, 2026",
       "pub_ts": 1790249332,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: SEC Opens AMM Door for Tokenized Stocks as XRPL Already Has the Tech",
-      "link": "https://cryptonews.com/news/xrp-news-sec-amm-boost/",
-      "summary": "XRPL lending proposals XLS-65 and XLS-66 are in validator voting, but need sustained 80% support and have no confirmed Mainnet launch date.",
-      "source": "Cryptonews",
-      "date": "2026-09-24",
-      "date_human": "Sep 24, 2026",
-      "pub_ts": 1790238976,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Mid-Sized Bitcoin Wallets Add 113,950 Bitcoin as Price Rally Nears Test",
-      "link": "https://cryptonews.com/news/bitcoin-price-resistance-whale-accumulation/",
-      "summary": "Bitcoin resistance at $88,000-$90,000 looms after wallets added 113,950 BTC, but ETF flows and stablecoin growth will test the rally.",
-      "source": "Cryptonews",
-      "date": "2026-09-24",
-      "date_human": "Sep 24, 2026",
-      "pub_ts": 1790237515,
       "image_candidates": [],
       "license_url": null,
       "image": null,
