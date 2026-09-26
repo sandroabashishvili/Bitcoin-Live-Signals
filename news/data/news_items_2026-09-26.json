@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-26",
-  "generated_at_utc": "2026-09-26 04:05:06 UTC",
+  "generated_at_utc": "2026-09-26 10:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-26T04:05:01.715929+00:00",
+    "collected_at": "2026-09-26T10:05:01.989912+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 1,
+        "eligible": 0,
         "rejected": {
-          "unreviewed_link": 9
+          "unreviewed_link": 10
         }
       },
       {
@@ -48,13 +48,14 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 6,
-        "within_window": 20,
-        "eligible": 8,
+        "within_24h": 4,
+        "within_window": 15,
+        "eligible": 6,
         "rejected": {
-          "title_filter": 6,
+          "title_filter": 3,
           "unreviewed_link": 3,
-          "topic_author_or_category": 3
+          "topic_author_or_category": 3,
+          "older_than_window": 5
         }
       },
       {
@@ -100,12 +101,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 2,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
           "topic_author_or_category": 1,
-          "unreviewed_link": 1,
-          "older_than_window": 13
+          "older_than_window": 14
         }
       },
       {
@@ -183,25 +183,22 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 8,
-      "NewsBTC": 1,
+      "Cryptonews": 6,
       "Bitcoin Optech": 1,
       "Federal Reserve Board": 1
     },
     "unique_by_source": {
-      "Cryptonews": 8,
-      "NewsBTC": 1,
+      "Cryptonews": 6,
       "Bitcoin Optech": 1,
       "Federal Reserve Board": 1
     },
     "selected_by_source": {
-      "Cryptonews": 8,
-      "NewsBTC": 1,
+      "Cryptonews": 6,
       "Bitcoin Optech": 1,
       "Federal Reserve Board": 1
     }
   },
-  "count": 11,
+  "count": 8,
   "items": [
     {
       "title": "AI Crypto Coins Revenue Gap Puts Token Value to the Test",
@@ -211,19 +208,6 @@
       "date": "2026-09-25",
       "date_human": "Sep 25, 2026",
       "pub_ts": 1790335019,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "MEXC Returns to TOKEN2049 Singapore as Platinum Sponsor with Interactive Experiences and Industry Conversations",
-      "link": "https://www.newsbtc.com/news/mexc-returns-to-token2049-singapore-as-platinum-sponsor-with-interactive-experiences-and-industry-conversations/",
-      "summary": "Mutsamudu, Comoros, September 25, 2026 – MEXC, a pioneer in 0-fee digital asset trading, will return to TOKEN2049 Singapore as a Platinum Sponsor, with a broader on-site presence spanning interactive booth experiences, product showcases and conversations on the MEXC Stage. The event will give users, partners and industry participants more ways to engage directly with MEXC, from exploring new AI experiences to joining discussions on how trading platforms and global markets are evolving. This year, MEXC’s presence will spotlight how AI is evolving from market analysis into active, agentic execut",
-      "source": "NewsBTC",
-      "date": "2026-09-25",
-      "date_human": "Sep 25, 2026",
-      "pub_ts": 1790332305,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -315,32 +299,6 @@
       "date": "2026-09-24",
       "date_human": "Sep 24, 2026",
       "pub_ts": 1790249332,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: SEC Opens AMM Door for Tokenized Stocks as XRPL Already Has the Tech",
-      "link": "https://cryptonews.com/news/xrp-news-sec-amm-boost/",
-      "summary": "XRPL lending proposals XLS-65 and XLS-66 are in validator voting, but need sustained 80% support and have no confirmed Mainnet launch date.",
-      "source": "Cryptonews",
-      "date": "2026-09-24",
-      "date_human": "Sep 24, 2026",
-      "pub_ts": 1790238976,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Mid-Sized Bitcoin Wallets Add 113,950 Bitcoin as Price Rally Nears Test",
-      "link": "https://cryptonews.com/news/bitcoin-price-resistance-whale-accumulation/",
-      "summary": "Bitcoin resistance at $88,000-$90,000 looms after wallets added 113,950 BTC, but ETF flows and stablecoin growth will test the rally.",
-      "source": "Cryptonews",
-      "date": "2026-09-24",
-      "date_human": "Sep 24, 2026",
-      "pub_ts": 1790237515,
       "image_candidates": [],
       "license_url": null,
       "image": null,
