@@ -6,9 +6,9 @@ Updated: `2026-08-01`
 Author: Codex
 Purpose: Research-only replay and what-if tools for signal, execution, and permission tuning.
 
-This folder will host the historical replay / backtest-style research tools for `platform_v2`.
+This folder contains historical replay and research tools for `platform_v2`.
 
-Planned responsibilities:
+Research responsibilities:
 
 - candle-by-candle replay
 - signal-only research runs
@@ -22,7 +22,7 @@ Output family:
 
 ## Safe workflow
 
-Do not reset live runtime before research. First create a validated snapshot:
+Do not reset live runtime before research. First create a validated SQLite-derived snapshot:
 
 ```bash
 cd /home/sandro/SmartSignalHub
@@ -34,8 +34,7 @@ Snapshots are stored outside the project in:
 
 - `/home/sandro/research_snapshots/smartsignalhub_YYYYMMDD_HHMMSS`
 
-Each snapshot has a `manifest.json` with the SHA-256 hash of every copied JSON
-file. Verify an existing snapshot with:
+The default snapshot command reads canonical SQLite through persistence APIs and exports JSON for offline replay. It does not rely on legacy runtime JSON folders. Each snapshot has a `manifest.json` with the SHA-256 hash of every exported JSON file. Explicit JSON roots are a compatibility input only. The export is not a guaranteed cross-database transaction; consistency must be checked before research. Verify an existing snapshot with:
 
 ```bash
 python3 -m platform_v2.tools.research verify-snapshot \
@@ -318,3 +317,22 @@ python3 -m platform_v2.tools.research.replay.spot_entry_quality_what_if \
 ## Current-live comparison limit — 2026-09-12
 
 Some archived replay/audit tools below explicitly use 5m evidence. Active v5 Spot/Futures use 1m exits and fresh execution quotes. Do not treat an older replay result as current portfolio parity without checking its input resolution, entry/fee assumptions and permissions. The September 11 indicator-path candidate remains archived, not deployed. See [research status](../../../docs/trading/strategy_research.md).
+
+
+## Reproducible runs
+
+Use `python3 -m platform_v2.tools.research.recorded_run --help` for the snapshot-only recorded launcher. It writes a unique run directory and `run_metadata.json` before executing an approved replay, then records completion/failure and input stability. Existing direct replay CLIs remain unchanged and do not automatically gain this metadata.
+
+Metadata records source revision and file hashes, effective settings and candidate profiles, snapshot file hashes, observed timestamp coverage, command, Python version and UTC run times. Current settings are captured at launch: a historical candidate name does NOT freeze its original weights. Metadata identifies a run; retaining the source checkout and input snapshot is still required to reproduce it. Original historical metadata must never be fabricated retroactively. Dataset timestamp coverage is descriptive, not a guarantee of decision-time feature availability or a signal edge analysis.
+
+The one-off `artifacts/entry_timing_20260916` bundle remains in place until its original input snapshot/revision can be established. Its existing result is historical evidence, not proof that rerunning it against today's database reproduces that result.
+
+Example for a later, separately approved research run (not executed during Phase 1):
+
+```bash
+python3 -m platform_v2.tools.research.recorded_run portfolio_state_replay \
+  /home/sandro/research_snapshots/EXISTING_VERIFIED_SNAPSHOT \
+  --output-root /home/sandro/research_runs
+```
+
+Do not treat archived trade-outcome replay as the planned unbiased signal-decision dataset. The future signal edge audit requires its own dataset and label validation.

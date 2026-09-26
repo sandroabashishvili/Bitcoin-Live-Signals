@@ -20,7 +20,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Safe SmartSignalHub research workspace tools.")
     commands = parser.add_subparsers(dest="command", required=True)
 
-    snapshot = commands.add_parser("snapshot", help="Copy and hash all current runtime JSON for research.")
+    snapshot = commands.add_parser("snapshot", help="Export canonical SQLite data as hashed JSON for offline research.")
     snapshot.add_argument("--output-parent", type=Path, default=DEFAULT_SNAPSHOT_PARENT)
 
     verify = commands.add_parser("verify-snapshot", help="Verify snapshot JSON files and hashes.")
