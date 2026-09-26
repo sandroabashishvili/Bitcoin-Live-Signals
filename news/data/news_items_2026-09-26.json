@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-09-25",
-  "generated_at_utc": "2026-09-25 22:05:08 UTC",
+  "day_iso": "2026-09-26",
+  "generated_at_utc": "2026-09-26 04:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-25T22:05:03.572611+00:00",
+    "collected_at": "2026-09-26T04:05:01.715929+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 4,
+        "eligible": 1,
         "rejected": {
-          "unreviewed_link": 6
+          "unreviewed_link": 9
         }
       },
       {
@@ -48,7 +48,7 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 7,
+        "within_24h": 6,
         "within_window": 20,
         "eligible": 8,
         "rejected": {
@@ -113,7 +113,7 @@
         "url": "https://bitcoinops.org/feed.xml",
         "status": "ok",
         "entries": 10,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 1,
         "rejected": {
@@ -184,24 +184,24 @@
     ],
     "eligible_by_source": {
       "Cryptonews": 8,
-      "NewsBTC": 4,
+      "NewsBTC": 1,
       "Bitcoin Optech": 1,
       "Federal Reserve Board": 1
     },
     "unique_by_source": {
       "Cryptonews": 8,
-      "NewsBTC": 4,
+      "NewsBTC": 1,
       "Bitcoin Optech": 1,
       "Federal Reserve Board": 1
     },
     "selected_by_source": {
-      "Cryptonews": 6,
-      "NewsBTC": 4,
+      "Cryptonews": 8,
+      "NewsBTC": 1,
       "Bitcoin Optech": 1,
       "Federal Reserve Board": 1
     }
   },
-  "count": 12,
+  "count": 11,
   "items": [
     {
       "title": "AI Crypto Coins Revenue Gap Puts Token Value to the Test",
@@ -269,19 +269,6 @@
       "image_local": null
     },
     {
-      "title": "TokenInsight September Report: MEXC Posts Deepest BTC and ETH Futures Depth at $21.03M, Lowest Silver Slippage at 0.002%",
-      "link": "https://www.newsbtc.com/news/tokeninsight-september-report-mexc-posts-deepest-btc-and-eth-futures-depth-at-21-03m-lowest-silver-slippage-at-0-002/",
-      "summary": "Mutsamudu, Comoros, September 25, 2026 – MEXC, a pioneer in 0-fee digital asset trading, recorded the deepest combined BTC and ETH futures order book depth within the 0.03% band, and the lowest median slippage for a $300,000 silver futures sell order among all surveyed exchanges, according to TokenInsight’s Crypto Exchange Liquidity Report for September 2026. The report provides a systematic assessment of liquidity performance across nine major global crypto exchanges based on order book depth, trading slippage, and bid-ask spread, covering BTC and ETH across spot and futures markets, as well ",
-      "source": "NewsBTC",
-      "date": "2026-09-25",
-      "date_human": "Sep 25, 2026",
-      "pub_ts": 1790330787,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "XRP Price Under Pressure: Spot Selling Overwhelms ETF Demand",
       "link": "https://cryptonews.com/news/xrp-price-spot-volume/",
       "summary": "XRP price fell 8.5% to $1.46 despite $18.04M in ETF inflows, as $4.576B in spot volume overwhelmed regulated fund demand in the session.",
@@ -295,19 +282,6 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin Falls Back Below $85K As Treasury Yields Jump Above 5%",
-      "link": "https://www.newsbtc.com/news/bitcoin/bitcoin-falls-back-below-85k-as-treasury-yields-jump-above-5/",
-      "summary": "TL;DR Bitcoin fell below $85,000 after stronger U.S. business data pushed Treasury yields higher. S&P Global’s flash U.S. Composite PMI rose to 58.4 in September, the strongest reading since July 2021. The move shows how quickly Bitcoin’s recent rebound can be challenged when markets price in tighter monetary policy. Bitcoin’s rebound has run into a familiar obstacle: rising interest rates. BTC fell back below $85,000 as U.S. Treasury yields climbed, with the 10-year yield moving above 5% after stronger-than-expected economic data renewed concerns that monetary policy may have to stay tight. S",
-      "source": "NewsBTC",
-      "date": "2026-09-25",
-      "date_human": "Sep 25, 2026",
-      "pub_ts": 1790325000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Fed Rate Cut Delayed as Strong Jobs Data Tests Bitcoin",
       "link": "https://cryptonews.com/news/bitcoin-citi-fed-rate-cut/",
       "summary": "Citi sees the Fed's first rate cut in June 2027 after 162,000 August jobs, while Bitcoin ETF inflows show demand can rebound despite higher yields.",
@@ -315,19 +289,6 @@
       "date": "2026-09-24",
       "date_human": "Sep 24, 2026",
       "pub_ts": 1790255580,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Hut 8 Wins $140M Bid For Poolin's Texas Data Centers",
-      "link": "https://www.newsbtc.com/news/bitcoin/hut-8-wins-140m-bid-for-poolins-texas-data-centers/",
-      "summary": "TL;DR Hut 8 has been named the winning bidder for two Poolin data-center sites in Texas with a $140 million offer. The bid is nearly three times the combined $52 million stalking-horse offer that opened the auction process. The transaction is not final: bankruptcy-court approval is still required at a hearing scheduled for September 29. Hut 8 has emerged as the winning bidder for two Texas data-center sites owned by bankrupt mining company Poolin, putting $140 million on the table for infrastructure that could extend well beyond Bitcoin mining. The bid covers Poolin’s Pyote and Tarbush locatio",
-      "source": "NewsBTC",
-      "date": "2026-09-25",
-      "date_human": "Sep 25, 2026",
-      "pub_ts": 1790317800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -354,6 +315,32 @@
       "date": "2026-09-24",
       "date_human": "Sep 24, 2026",
       "pub_ts": 1790249332,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: SEC Opens AMM Door for Tokenized Stocks as XRPL Already Has the Tech",
+      "link": "https://cryptonews.com/news/xrp-news-sec-amm-boost/",
+      "summary": "XRPL lending proposals XLS-65 and XLS-66 are in validator voting, but need sustained 80% support and have no confirmed Mainnet launch date.",
+      "source": "Cryptonews",
+      "date": "2026-09-24",
+      "date_human": "Sep 24, 2026",
+      "pub_ts": 1790238976,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Mid-Sized Bitcoin Wallets Add 113,950 Bitcoin as Price Rally Nears Test",
+      "link": "https://cryptonews.com/news/bitcoin-price-resistance-whale-accumulation/",
+      "summary": "Bitcoin resistance at $88,000-$90,000 looms after wallets added 113,950 BTC, but ETF flows and stablecoin growth will test the rally.",
+      "source": "Cryptonews",
+      "date": "2026-09-24",
+      "date_human": "Sep 24, 2026",
+      "pub_ts": 1790237515,
       "image_candidates": [],
       "license_url": null,
       "image": null,
