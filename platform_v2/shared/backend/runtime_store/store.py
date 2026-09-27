@@ -127,6 +127,8 @@ class RuntimeStore:
             raise ValueError("match_keys must contain at least one key.")
         rows = self.load_family_rows(family_name, date_iso)
         runtime_row = self._runtime_row(row)
+        from platform_v2.shared.backend.research_evidence.runtime import observe_decision
+        observe_decision(self.system, family_name, runtime_row)
         match_values = tuple(runtime_row.get(key) for key in match_keys)
         if any(value is None for value in match_values):
             missing = ", ".join(key for key, value in zip(match_keys, match_values) if value is None)

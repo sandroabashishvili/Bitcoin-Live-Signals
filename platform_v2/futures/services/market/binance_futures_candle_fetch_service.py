@@ -30,6 +30,11 @@ class BinanceFuturesCandleFetchService:
             venue="binance", asset_class="crypto", market_type="futures",
             dataset="candles", symbol=symbol, timeframe=timeframe,
         )
+        from platform_v2.shared.backend.research_evidence.backfill import recover_missing_tail
+        recovered = recover_missing_tail(self._http_client, self.BASE_URL,
+            existing=existing, current=rows, symbol=symbol, timeframe=timeframe)
+        if recovered:
+            rows = self._normalize_klines(symbol=symbol, timeframe=timeframe, raw_klines=recovered) + rows
         merged = self._merge_rows(existing, rows)
         replace_market_series(
             venue="binance",

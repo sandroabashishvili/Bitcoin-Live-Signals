@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from platform_v2.shared.backend.research_evidence.runtime import recorded_read
+
 from contextlib import closing
 import json
 from pathlib import Path
@@ -35,6 +37,7 @@ def write_runtime_state(
         connection.commit()
 
 
+@recorded_read("sqlite_runtime_state.py:read_runtime_state")
 def read_runtime_state(
     *,
     system: str,

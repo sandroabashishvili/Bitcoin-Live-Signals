@@ -97,6 +97,7 @@ class MainCycleExecutionService:
         date_iso: str,
         fetched_candle_paths: tuple[Path, ...],
         cycle_info: CycleKeyInfo,
+        commit_callback=None,
     ) -> MainCycleResult:
         fetched_orderflow_path = self._orderflow_service.fetch_and_store(
             symbol=profile.symbol,
@@ -110,6 +111,8 @@ class MainCycleExecutionService:
             timeframe=profile.timeframe,
         )
         summary = self._simulation_service.run(profile=profile, date_iso=date_iso)
+        if commit_callback is not None:
+            commit_callback()
         self._trade_entry_audit_service.build_and_store(date_iso=date_iso)
         self._entry_timing_summary_service.build_and_store(date_iso=date_iso)
         self._aggregate_audit_report_service.build_and_store(date_iso=date_iso)

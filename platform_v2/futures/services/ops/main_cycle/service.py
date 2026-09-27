@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from platform_v2.shared.backend.research_evidence.runtime import recorded_cycle
+
 from platform_v2.futures.config import ExecutionProfile
 
 from .execution import MainCycleExecutionService
@@ -24,6 +26,7 @@ class MainCycleService:
         self._execution_service = execution_service or MainCycleExecutionService()
         self._finalize_service = finalize_service or MainCycleFinalizeService()
 
+    @recorded_cycle("futures")
     def run(
         self,
         *,
@@ -63,6 +66,16 @@ class MainCycleService:
                     fetched_candle_paths=fetched_candle_paths,
                 )
 
+            from platform_v2.shared.backend.research_evidence.runtime import ACTIVE
+            from platform_v2.shared.backend.research_evidence.execution import ProjectionStage, committed
+            import os
+            attempt = ACTIVE.get()
+            atomic = attempt is not None and os.environ.get("SSH_RESEARCH_ATOMIC_SIMULATION") == "1"
+            if atomic and profile.mode != "simulation":
+                raise RuntimeError("atomic projection staging supports simulation only")
+            if atomic and committed(attempt.ledger.path, "futures", cycle_info.key):
+                return self._build_skipped_result(cycle_info=cycle_info,
+                    skip_reason="cycle_already_committed", fetched_candle_paths=fetched_candle_paths)
             marker_info = self._guard_service.read_cycle_marker(cycle_info.key)
             if marker_info.already_processed:
                 return self._build_skipped_result(
@@ -71,6 +84,19 @@ class MainCycleService:
                     fetched_candle_paths=fetched_candle_paths,
                 )
 
+            if atomic:
+                with ProjectionStage(attempt.ledger.path, "futures", cycle_info.key,
+                        attempt.attempt_id, before_commit=lambda: self._guard_service.write_cycle_marker(cycle_info.key)) as stage:
+                    result = self._execution_service.run_ready_cycle(
+                        profile=profile,
+                        date_iso=date_iso,
+                        fetched_candle_paths=fetched_candle_paths,
+                        cycle_info=cycle_info,
+                        commit_callback=stage.publish,
+                    )
+                    if not stage.published:
+                        raise RuntimeError("simulation returned without atomic publication")
+                    return result
             ready_result = self._execution_service.run_ready_cycle(
                 profile=profile,
                 date_iso=date_iso,

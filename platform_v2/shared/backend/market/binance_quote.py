@@ -50,8 +50,12 @@ class BinanceQuoteService:
             raise ValueError(f"Unsupported Binance market_type: {market_type!r}")
 
         query = urlencode({"symbol": str(symbol).strip().upper()})
-        with self._opener(f"{base_url}?{query}", timeout=self._timeout_seconds) as response:
-            payload = json.loads(response.read().decode("utf-8"))
+        from platform_v2.shared.backend.research_evidence.runtime import observe_acquisition
+        url = f"{base_url}?{query}"
+        def request():
+            with self._opener(url, timeout=self._timeout_seconds) as response:
+                return json.loads(response.read().decode("utf-8"))
+        payload = observe_acquisition(url, request)
         if not isinstance(payload, dict):
             raise ValueError("Binance ticker response must be an object")
         try:

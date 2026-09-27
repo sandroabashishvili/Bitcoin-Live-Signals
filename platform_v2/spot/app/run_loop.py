@@ -88,6 +88,8 @@ def _regenerate_frontend_pages() -> None:
 def main() -> int:
     """Run V2 continuously on the quarter-hour schedule."""
 
+    from platform_v2.shared.backend.research_evidence.runtime import initialize_run
+    initialize_run("spot")
     service = MainCycleService()
     result = _run_one_cycle(service)
     if result is not None and not result.skipped:

@@ -173,9 +173,10 @@ def read_market_series(
             initialize_market_database(db_path)
     else:  # pragma: no cover - loop either succeeds or raises
         return []
-    if exists is None:
-        return []
-    return [item for row in rows if isinstance((item := json.loads(row[0])), dict)]
+    result = [] if exists is None else [item for row in rows if isinstance((item := json.loads(row[0])), dict)]
+    from platform_v2.shared.backend.research_evidence.runtime import observe_input
+    observe_input(identity, result)
+    return result
 
 
 def read_market_series_safely(**kwargs: Any) -> list[dict[str, Any]]:

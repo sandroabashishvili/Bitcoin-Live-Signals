@@ -36,12 +36,15 @@ class BinancePublicHttpClient:
         self._sleeper = sleeper
 
     def get_json(self, url: str) -> Any:
+        from platform_v2.shared.backend.research_evidence.runtime import observe_acquisition
         last_error: Exception | None = None
         for attempt in range(self._max_attempts):
             try:
                 request = Request(url, headers={"User-Agent": "SmartSignalHub/1.0"})
-                with self._opener(request, timeout=self._timeout_seconds) as response:
-                    return json.loads(response.read().decode("utf-8"))
+                def fetch():
+                    with self._opener(request, timeout=self._timeout_seconds) as response:
+                        return json.loads(response.read().decode("utf-8"))
+                return observe_acquisition(url, fetch)
             except HTTPError as exc:
                 last_error = exc
                 retryable = exc.code in {418, 429} or 500 <= exc.code < 600

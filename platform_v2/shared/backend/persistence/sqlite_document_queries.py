@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from platform_v2.shared.backend.research_evidence.runtime import recorded_read
+
 from contextlib import closing
 import json
 from pathlib import Path
@@ -11,6 +13,7 @@ from .runtime_document_codec import canonical_json, row_count
 from .sqlite_schema import DEFAULT_DATABASE_PATH, connect, initialize_database
 
 
+@recorded_read("sqlite_document_queries.py:read_document")
 def read_document(
     *, system: str, family: str, date_iso: str, db_path: Path = DEFAULT_DATABASE_PATH
 ) -> list[Any] | dict[str, Any] | None:
@@ -34,6 +37,7 @@ def read_document(
     return (payload[0] if payload else {}) if document[0] == "object" else payload
 
 
+@recorded_read("sqlite_document_queries.py:read_latest_document")
 def read_latest_document(
     *, system: str, family: str, db_path: Path = DEFAULT_DATABASE_PATH
 ) -> tuple[str, list[Any] | dict[str, Any]] | None:

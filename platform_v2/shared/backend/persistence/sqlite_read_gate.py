@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from platform_v2.shared.backend.research_evidence.runtime import recorded_read
+
 from contextlib import closing
 import json
 from pathlib import Path
@@ -36,6 +38,7 @@ def read_daily_json_dict(
     return _read_json_dict_fallback(path)
 
 
+@recorded_read("sqlite_read_gate.py:read_family_rows")
 def read_family_rows(
     *,
     system: str,
@@ -97,6 +100,7 @@ def _read_json_family_rows(json_folder: Path) -> list[dict[str, Any]]:
     return combined
 
 
+@recorded_read("sqlite_read_gate.py:_read_json_list_fallback")
 def _read_json_list_fallback(path: Path) -> list[dict[str, Any]]:
     if not path.exists():
         return []
@@ -107,6 +111,7 @@ def _read_json_list_fallback(path: Path) -> list[dict[str, Any]]:
     return [row for row in payload if isinstance(row, dict)] if isinstance(payload, list) else []
 
 
+@recorded_read("sqlite_read_gate.py:_read_json_dict_fallback")
 def _read_json_dict_fallback(path: Path) -> dict[str, Any]:
     if not path.exists():
         return {}

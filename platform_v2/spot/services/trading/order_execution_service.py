@@ -33,6 +33,10 @@ class OrderExecutionService:
     ) -> OrderResult:
         """Submit a market order for an allowed signal."""
 
+        from platform_v2.shared.backend.research_evidence.execution import STAGED
+        if STAGED.get() is not None and (not dry_run or not isinstance(self._exchange_adapter, PaperExecutionAdapter)):
+            raise RuntimeError("atomic projection staging requires the paper execution adapter")
+
         if entry_price <= 0:
             raise ValueError(f"entry_price must be > 0, got {entry_price!r}")
 

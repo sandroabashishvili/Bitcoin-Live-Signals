@@ -46,6 +46,11 @@ class BinanceCandleFetchService:
             venue="binance", asset_class="crypto", market_type="spot",
             dataset="candles", symbol=symbol, timeframe=timeframe,
         )
+        from platform_v2.shared.backend.research_evidence.backfill import recover_missing_tail
+        recovered = recover_missing_tail(self._http_client, self.BASE_URL,
+            existing=existing_rows, current=normalized_rows, symbol=symbol, timeframe=timeframe)
+        if recovered:
+            normalized_rows = self._normalize_klines(symbol=symbol, timeframe=timeframe, raw_klines=recovered) + normalized_rows
         merged_rows = self._merge_rows(existing_rows, normalized_rows)
 
         replace_market_series(

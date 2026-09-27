@@ -82,6 +82,10 @@ def main() -> int:
     signal.signal(signal.SIGTERM, _request_stop)
 
     for name, command in targets:
+        pinned = getattr(sys, "_ssh_release_launch", None)
+        if pinned is not None:
+            command = [sys.executable, pinned["runner"], "--release", pinned["source"],
+                       "--sha256", pinned["sha256"], "--module", command[2], "--", *command[3:]]
         print_process_start(name=name, command=command)
         children[name] = subprocess.Popen(command)
 

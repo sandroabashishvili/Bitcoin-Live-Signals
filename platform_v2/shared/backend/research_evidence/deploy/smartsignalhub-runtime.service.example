@@ -1,0 +1,26 @@
+# TEMPLATE ONLY. Do not install before R2 acceptance and controlled cutover.
+[Unit]
+Description=SmartSignalHub supervised runtime
+After=network-online.target
+Wants=network-online.target
+# Absent by default: prevents this draft from starting automatically.
+ConditionPathExists=/home/sandro/SmartSignalHub/platform_v2/runtime/research-cutover-approved
+
+[Service]
+Type=simple
+User=sandro
+WorkingDirectory=/home/sandro/SmartSignalHub
+ExecStart=/home/sandro/SmartSignalHub/venv/bin/python -m platform_v2.tools.runtime_start_system
+Environment=PYTHONUNBUFFERED=1
+Environment=SSH_RESEARCH_EVIDENCE=0
+Environment=SSH_RESEARCH_ATOMIC_SIMULATION=0
+Environment=SSH_RESEARCH_BACKFILL=0
+Restart=on-failure
+RestartSec=60
+KillMode=control-group
+TimeoutStopSec=30
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

@@ -56,9 +56,13 @@ class BinanceFuturesOrderflowService:
                 "limit": limit,
             }
         )
+        from platform_v2.shared.backend.research_evidence.runtime import observe_acquisition
+        url = f"{self.BASE_URL}?{query}"
+        def request():
+            with urlopen(url, timeout=15) as response:
+                return json.loads(response.read().decode("utf-8"))
         try:
-            with urlopen(f"{self.BASE_URL}?{query}", timeout=15) as response:
-                payload = json.loads(response.read().decode("utf-8"))
+            payload = observe_acquisition(url, request)
         except (URLError, OSError, ValueError) as exc:
             warn_runtime_fallback(
                 scope="binance_futures_orderflow_service",

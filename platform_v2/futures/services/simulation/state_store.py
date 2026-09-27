@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from platform_v2.shared.backend.research_evidence.runtime import recorded_read
+
 import json
 from typing import Any
 
@@ -15,6 +17,7 @@ from .common import coerce_int, utc_now_ms
 class FuturesSimulationStateStore:
     _STATE_KEY = "simulation_engine"
 
+    @recorded_read("futures_resolved_engine_state")
     def load(self) -> dict[str, Any]:
         path = engine_state_path()
         payload = read_runtime_state(system="futures", state_key=self._STATE_KEY)

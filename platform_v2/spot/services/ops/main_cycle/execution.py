@@ -68,6 +68,7 @@ class MainCycleExecutionService:
         starting_balance: float,
         fetched_candle_paths: tuple[Path, ...],
         cycle_info: CycleKeyInfo,
+        commit_callback=None,
     ) -> MainCycleResult:
         fetched_orderbook_path = self._fetch_orderbook(symbol=symbol, timeframe=timeframe)
         built_indicator_paths = self._build_indicators(symbol=symbol)
@@ -79,6 +80,8 @@ class MainCycleExecutionService:
             position_size=position_size,
             starting_balance=starting_balance,
         )
+        if commit_callback is not None:
+            commit_callback()
         try:
             self._notification_service.notify_position_closes(
                 updated_positions,

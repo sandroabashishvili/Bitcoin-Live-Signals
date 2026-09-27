@@ -51,6 +51,8 @@ def _run_one_cycle() -> None:
 
 
 def main() -> int:
+    from platform_v2.shared.backend.research_evidence.runtime import initialize_run
+    initialize_run("futures")
     _run_one_cycle()
     while True:
         _sleep_until_next_boundary()

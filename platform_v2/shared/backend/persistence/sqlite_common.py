@@ -10,6 +10,10 @@ from platform_v2.shared.backend.time import utc_now_ms
 
 
 def connect_sqlite(db_path: Path) -> sqlite3.Connection:
+    from platform_v2.shared.backend.research_evidence.execution import staged_connection
+    staged = staged_connection(db_path)
+    if staged is not None:
+        return staged
     connection = sqlite3.connect(db_path, timeout=5.0)
     connection.execute("PRAGMA foreign_keys=ON")
     connection.execute("PRAGMA journal_mode=WAL")

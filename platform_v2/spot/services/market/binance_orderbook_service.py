@@ -94,8 +94,11 @@ class BinanceOrderbookService:
             }
         )
         url = f"{self.base_url}?{params}"
-        with urlopen(url, timeout=15) as response:
-            payload = json.loads(response.read().decode("utf-8"))
+        from platform_v2.shared.backend.research_evidence.runtime import observe_acquisition
+        def request():
+            with urlopen(url, timeout=15) as response:
+                return json.loads(response.read().decode("utf-8"))
+        payload = observe_acquisition(url, request)
         if isinstance(payload, list):
             return [row for row in payload if isinstance(row, dict)]
         return []
