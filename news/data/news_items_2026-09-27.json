@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-27",
-  "generated_at_utc": "2026-09-27 04:05:06 UTC",
+  "generated_at_utc": "2026-09-27 10:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-27T04:05:02.095222+00:00",
+    "collected_at": "2026-09-27T10:05:02.208914+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -49,13 +49,13 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 4,
-        "within_window": 10,
-        "eligible": 5,
+        "within_window": 8,
+        "eligible": 4,
         "rejected": {
           "topic_author_or_category": 1,
-          "title_filter": 3,
+          "title_filter": 2,
           "unreviewed_link": 1,
-          "older_than_window": 10
+          "older_than_window": 12
         }
       },
       {
@@ -181,19 +181,19 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 5,
+      "Cryptonews": 4,
       "NewsBTC": 1
     },
     "unique_by_source": {
-      "Cryptonews": 5,
+      "Cryptonews": 4,
       "NewsBTC": 1
     },
     "selected_by_source": {
-      "Cryptonews": 5,
+      "Cryptonews": 4,
       "NewsBTC": 1
     }
   },
-  "count": 6,
+  "count": 5,
   "items": [
     {
       "title": "Bitcoin Price Never Closed Below Expectation in 2026 Bear Market",
@@ -255,19 +255,6 @@
       "date": "2026-09-25",
       "date_human": "Sep 25, 2026",
       "pub_ts": 1790335019,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitget Wallet Hack Steals $351.6M: Gracy Chen Points Finger at North Korea",
-      "link": "https://cryptonews.com/news/bitget-hack-wallet-breach/",
-      "summary": "The Bitget hack triggered a $351.6M loss, froze withdrawals and left its claimed $464M protection fund unverified while trading continues normally.",
-      "source": "Cryptonews",
-      "date": "2026-09-25",
-      "date_human": "Sep 25, 2026",
-      "pub_ts": 1790319847,
       "image_candidates": [],
       "license_url": null,
       "image": null,
