@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-09-26",
-  "generated_at_utc": "2026-09-26 22:05:06 UTC",
+  "day_iso": "2026-09-27",
+  "generated_at_utc": "2026-09-27 04:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-26T22:05:01.889065+00:00",
+    "collected_at": "2026-09-27T04:05:02.095222+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -49,13 +49,13 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 4,
-        "within_window": 11,
+        "within_window": 10,
         "eligible": 5,
         "rejected": {
-          "topic_author_or_category": 2,
+          "topic_author_or_category": 1,
           "title_filter": 3,
           "unreviewed_link": 1,
-          "older_than_window": 9
+          "older_than_window": 10
         }
       },
       {
@@ -112,10 +112,10 @@
         "status": "ok",
         "entries": 10,
         "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 9
+          "older_than_window": 10
         }
       },
       {
@@ -182,21 +182,18 @@
     ],
     "eligible_by_source": {
       "Cryptonews": 5,
-      "NewsBTC": 1,
-      "Bitcoin Optech": 1
+      "NewsBTC": 1
     },
     "unique_by_source": {
       "Cryptonews": 5,
-      "NewsBTC": 1,
-      "Bitcoin Optech": 1
+      "NewsBTC": 1
     },
     "selected_by_source": {
       "Cryptonews": 5,
-      "NewsBTC": 1,
-      "Bitcoin Optech": 1
+      "NewsBTC": 1
     }
   },
-  "count": 7,
+  "count": 6,
   "items": [
     {
       "title": "Bitcoin Price Never Closed Below Expectation in 2026 Bear Market",
@@ -221,19 +218,6 @@
       "pub_ts": 1790443800,
       "image_candidates": [],
       "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Optech Newsletter #424",
-      "link": "https://bitcoinops.org/en/newsletters/2026/09/25/",
-      "summary": "This week’s newsletter describes a proposal for upgrading the offchain protocols of the Lightning Network to post-quantum security. Also included are our regular sections with selected questions and answers from the Bitcoin Stack Exchange, announcements of new releases and release candidates, and descriptions of notable changes to popular Bitcoin infrastructure software.",
-      "source": "Bitcoin Optech",
-      "date": "2026-09-25",
-      "date_human": "Sep 25, 2026",
-      "pub_ts": 1790294400,
-      "image_candidates": [],
-      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
       "image": null,
       "image_local": null
     },
