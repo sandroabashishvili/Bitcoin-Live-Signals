@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-28",
-  "generated_at_utc": "2026-09-28 04:05:09 UTC",
+  "generated_at_utc": "2026-09-28 10:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-28T04:05:03.559131+00:00",
+    "collected_at": "2026-09-28T10:05:04.227221+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
+        "within_24h": 1,
         "within_window": 10,
-        "eligible": 1,
+        "eligible": 2,
         "rejected": {
-          "unreviewed_link": 9
+          "unreviewed_link": 8
         }
       },
       {
@@ -48,12 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 5,
-        "within_window": 9,
-        "eligible": 7,
+        "within_24h": 10,
+        "within_window": 14,
+        "eligible": 10,
         "rejected": {
+          "title_filter": 2,
           "topic_author_or_category": 2,
-          "older_than_window": 11
+          "older_than_window": 6
         }
       },
       {
@@ -178,28 +179,54 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 7,
-      "NewsBTC": 1
+      "Cryptonews": 10,
+      "NewsBTC": 2
     },
     "unique_by_source": {
-      "Cryptonews": 7,
-      "NewsBTC": 1
+      "Cryptonews": 10,
+      "NewsBTC": 2
     },
     "selected_by_source": {
-      "Cryptonews": 7,
-      "NewsBTC": 1
+      "Cryptonews": 10,
+      "NewsBTC": 2
     }
   },
-  "count": 8,
+  "count": 12,
   "items": [
     {
-      "title": "Quant Crypto Blasts 3x in a Week Following Huge US Bank Deal",
-      "link": "https://cryptonews.com/news/quant-crypto-blasts-3x-in-a-week-following-huge-us-bank-deal/",
-      "summary": "Quant crypto has exploded roughly +178% over the last seven days, including an extraordinary +72% daily surge. Quant is quickly becoming the most talked-about cryptocurrency, as its price action is tied to a major deal with US banks.At press time, Quant is trading around $178.46, though the price is moving extremely quickly amid unusually intense […]",
+      "title": "Why Is Crypto Down Today? Oil, Fed Bets and $330M Liquidations Stall the Market",
+      "link": "https://cryptonews.com/news/why-is-crypto-down-today-market-rebound/",
+      "summary": "The crypto market fell 1.85% as oil topped $93, October Fed hike odds hit 68.1% and $330.18M was liquidated across 107,013 traders.",
       "source": "Cryptonews",
-      "date": "2026-09-27",
-      "date_human": "Sep 27, 2026",
-      "pub_ts": 1790526123,
+      "date": "2026-09-28",
+      "date_human": "Sep 28, 2026",
+      "pub_ts": 1790589482,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Jumper to Launch JUMP Token Sale on Legion as it Spins Out to Build the Super-App for Onchain Finance",
+      "link": "https://www.newsbtc.com/news/jumper-to-launch-jump-token-sale-on-legion-as-it-spins-out-to-build-the-super-app-for-onchain-finance/",
+      "summary": "With more than $40 billion in lifetime volume and over 100,000 monthly active users, Jumper is entering its next phase of growth as an independent company. September 28, 2026 | British Virgin Islands – Jumper, one of the leading consumer applications for moving and trading assets onchain, today announced plans for its first JUMP token sale through Legion as it becomes an independent company. Jumper has processed more than $40 billion in lifetime volume, serves over 100,000 monthly active users, and is the #1 aggregator by bridging volume. Having built significant distribution through cross-cha",
+      "source": "NewsBTC",
+      "date": "2026-09-28",
+      "date_human": "Sep 28, 2026",
+      "pub_ts": 1790583432,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "CLARITY Act 2.0: Failed Senate Vote Opens Door to a Rewrite",
+      "link": "https://cryptonews.com/news/clarity-act-senate-vote-5/",
+      "summary": "The CLARITY Act remains stalled after Senate cloture failed, while lawmakers weigh changes to stablecoin yield, ethics, oversight and more.",
+      "source": "Cryptonews",
+      "date": "2026-09-28",
+      "date_human": "Sep 28, 2026",
+      "pub_ts": 1790585933,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -213,6 +240,32 @@
       "date": "2026-09-26",
       "date_human": "Sep 26, 2026",
       "pub_ts": 1790443800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: Bitget Hacker Moves 54M XRP, Putting Fresh Selling Pressure",
+      "link": "https://cryptonews.com/news/xrp-news-transfers-bitget-breach/",
+      "summary": "XRP transfers from the Bitget breach now span new wallets, but $83 million in moved coins has not been linked to an exchange or confirmed sale.",
+      "source": "Cryptonews",
+      "date": "2026-09-28",
+      "date_human": "Sep 28, 2026",
+      "pub_ts": 1790583000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Quant Crypto Blasts 3x in a Week Following Huge US Bank Deal",
+      "link": "https://cryptonews.com/news/quant-crypto-blasts-3x-in-a-week-following-huge-us-bank-deal/",
+      "summary": "Quant crypto has exploded roughly +178% over the last seven days, including an extraordinary +72% daily surge. Quant is quickly becoming the most talked-about cryptocurrency, as its price action is tied to a major deal with US banks.At press time, Quant is trading around $178.46, though the price is moving extremely quickly amid unusually intense […]",
+      "source": "Cryptonews",
+      "date": "2026-09-27",
+      "date_human": "Sep 27, 2026",
+      "pub_ts": 1790526123,
       "image_candidates": [],
       "license_url": null,
       "image": null,
