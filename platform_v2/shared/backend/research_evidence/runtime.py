@@ -16,6 +16,7 @@ import marshal
 import os
 from pathlib import Path
 import socket
+import sqlite3
 import sys
 import types
 from urllib.parse import parse_qs, urlsplit
@@ -123,6 +124,13 @@ def observe_decision(system, family, row):
         # Legacy readable timestamps have second precision (xx:xx:59).
         if close is not None and close % 1000 == 0:
             close += 999
+        # Spot first persists its raw SignalDecision, then enriches it with
+        # readable timestamps/permission context. timestamp_ms is already the
+        # originating candle's exact close in that first projection.
+        if close is None and system == 'spot':
+            stamp = row.get('timestamp_ms')
+            if isinstance(stamp, int) and not isinstance(stamp, bool):
+                close = stamp
         if close is None:
             raise ValueError('missing decision candle close; do not substitute expected slot')
         if not row.get('symbol') or row.get('timeframe') != '15m' or close % 900000 != 899999:
@@ -200,6 +208,8 @@ def initialize_run(system):
     ref = ledger.blob(captured)
     boot = Path('/proc/sys/kernel/random/boot_id').read_text().strip()
     process_start_ticks = Path('/proc/self/stat').read_text().rsplit(')',1)[1].split()[19]
+    with sqlite3.connect(':memory:') as identity_db:
+        sqlite_source_id = identity_db.execute('SELECT sqlite_source_id()').fetchone()[0]
     ledger.append('research_runs',run_id=run_id,system=system,kind='STARTED',event_key=run_id,
         payload={'startup_capture_ms':now_ms(),'provenance_ref':ref,
             'config_sha256':hashlib.sha256(canonical(captured['effective_config']).encode()).hexdigest(),
@@ -207,6 +217,7 @@ def initialize_run(system):
             'release_verified':verified,'release_source_ref':release_ref,
             'release_sha256':pinned['sha256'] if verified else None,
             'python':sys.version,'executable':sys.executable,
+            'sqlite_version':sqlite3.sqlite_version,'sqlite_source_id':sqlite_source_id,
             'dependencies':sorted((d.metadata['Name'],d.version) for d in importlib.metadata.distributions() if d.metadata['Name']),
             'host':socket.gethostname(),'boot_id':boot,'pid':os.getpid(),'process_start_ticks':process_start_ticks,
             'atomic_simulation':os.environ.get('SSH_RESEARCH_ATOMIC_SIMULATION') == '1',

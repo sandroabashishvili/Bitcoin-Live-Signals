@@ -236,6 +236,32 @@ def test_payload_projection_hook_keeps_exact_values(ledger):
     assert saved['record']==row and saved['evidence_complete']
 
 
+def test_spot_raw_then_enriched_decision_preserves_first_evaluation(ledger):
+    raw={'symbol':'BTCUSDT','timeframe':'15m','timestamp_ms':899999,
+         'candle_close_time':None,'score':9}
+    enriched={**raw,'candle_close_time':'1970-01-01 00:14:59','decision_time':'1970-01-01 00:16:00'}
+    with active(ledger) as a:
+        a.capture_input(('candles',),[{'close':100}])
+        rt.observe_decision('spot','signals',raw)
+        rt.observe_decision('spot','signals',enriched)
+        assert not a.errors
+    observations=rows(ledger,'decision_observations')
+    assert len(observations)==2
+    assert {r['cycle_key'] for r in observations}=={'BTCUSDT:15m:899999'}
+    assert [json.loads(r['payload_json'])['record'] for r in observations]==[raw,enriched]
+    with ledger.connection() as db:
+        first=db.execute('SELECT payload_json FROM research_first_live_decisions').fetchone()[0]
+    assert json.loads(first)['record']==raw
+
+
+@pytest.mark.parametrize('stamp',[None,True,900000,'899999',899999.0])
+def test_missing_or_invalid_raw_spot_candle_never_uses_expected_slot(ledger,stamp):
+    with active(ledger) as a:
+        rt.observe_decision('spot','signals',{'symbol':'BTCUSDT','timeframe':'15m','timestamp_ms':stamp})
+        assert a.errors==['ValueError']
+    assert not rows(ledger,'decision_observations')
+
+
 def test_migration_additive_repeatable_and_health_readonly(tmp_path):
     from .health import inspect
     path=tmp_path/'db.sqlite3'

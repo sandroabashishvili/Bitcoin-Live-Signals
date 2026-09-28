@@ -89,6 +89,10 @@ replace its legacy ExecStart with that pinned command before approved deployment
 Market reads, runtime documents/history, runtime state, generic JSON fallbacks and
 resolved Futures engine state are captured as exact returned values. Signal payloads
 include persisted scores/weights/gates/thresholds without historical reconstruction.
+Spot's raw decision precedes its readable timestamp/permission enrichment. Its
+exact integer `timestamp_ms` supplies the initial candle identity; both writes
+are retained, and the first-live view selects the raw evaluation. Research that
+needs later permission fields must explicitly select that subsequent observation.
 `evidence_complete` means captured refs exist and no observed recorder error;
 it is not a mathematical proof that every future custom input is instrumented.
 
@@ -144,9 +148,27 @@ Existing strategy/entry/exit regressions run separately; no historical test outc
 analysis. Synthetic60-day performance probes and3-DB online backup/restore checks
 are documented in the local R2 completion report.
 
+The copied-runtime comparison has passed for one ready Spot/Futures candle with
+fixed market/clock, no external IO, identical business rows and complete evidence.
+This is not coverage of every market state or a live operational soak.
+
 Before production signoff: reviewed SQLite WAL-reset patch/backport status;
-full copied-runtime end-to-end replay with fixed market/clock and no notifications;
 approved restart/service/Windows→WSL boot verification; installed independent health
 monitor; observation of first real pinned atomic cycles. Power-loss tests were not
 performed on the user's machine. Enable flags only in that controlled cutover;
 disabling them for a later process does not delete evidence.
+
+## R2.1 operational helpers (explicit, not installed automatically)
+
+`python -m platform_v2.shared.backend.research_evidence.checkpoint --source DIR
+--destination NEW_DIR` makes online backups of all three canonical DBs and verifies
+isolated restores; a successful manifest is written only after all succeed.
+
+`python -m platform_v2.shared.backend.research_evidence.monitor --database DB
+--expectations REVIEWED_JSON --backup-manifest MANIFEST --output LOG_DIR` is a local
+cron-compatible monitor. It writes latest.json and daily JSONL, retaining 90 days;
+it does not repair databases or change expected identities. It detects stale
+actual decisions, stale open attempts, recent failures, release/config/epoch drift,
+SQLite identity mismatch, disk/WAL size and backup-manifest age. Monitor failures
+return nonzero and are visible in its report. The backup age check is not a restore
+test. Deployment and Windows/WSL boot acceptance remain separate from these tools.
