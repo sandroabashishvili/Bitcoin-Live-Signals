@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-28",
-  "generated_at_utc": "2026-09-28 10:05:08 UTC",
+  "generated_at_utc": "2026-09-28 16:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-28T10:05:04.227221+00:00",
+    "collected_at": "2026-09-28T16:05:03.337622+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 1,
+        "within_24h": 2,
         "within_window": 10,
-        "eligible": 2,
+        "eligible": 3,
         "rejected": {
-          "unreviewed_link": 8
+          "unreviewed_link": 7
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 10,
-        "within_window": 14,
-        "eligible": 10,
+        "within_24h": 11,
+        "within_window": 17,
+        "eligible": 13,
         "rejected": {
-          "title_filter": 2,
-          "topic_author_or_category": 2,
-          "older_than_window": 6
+          "title_filter": 3,
+          "topic_author_or_category": 1,
+          "older_than_window": 3
         }
       },
       {
@@ -98,11 +98,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 15
+          "unreviewed_link": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -179,28 +180,54 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 10,
-      "NewsBTC": 2
+      "Cryptonews": 13,
+      "NewsBTC": 3
     },
     "unique_by_source": {
-      "Cryptonews": 10,
-      "NewsBTC": 2
+      "Cryptonews": 13,
+      "NewsBTC": 3
     },
     "selected_by_source": {
-      "Cryptonews": 10,
-      "NewsBTC": 2
+      "Cryptonews": 9,
+      "NewsBTC": 3
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Why Is Crypto Down Today? Oil, Fed Bets and $330M Liquidations Stall the Market",
-      "link": "https://cryptonews.com/news/why-is-crypto-down-today-market-rebound/",
-      "summary": "The crypto market fell 1.85% as oil topped $93, October Fed hike odds hit 68.1% and $330.18M was liquidated across 107,013 traders.",
+      "title": "Bitcoin Price 33% Rebound Faces ETF, Rate, and AI Tests",
+      "link": "https://cryptonews.com/news/bitcoin-price-2027-prediction/",
+      "summary": "The Bitcoin 2027 outlook weighs a 33% rebound against ETF risks, higher rates and Nvidia’s $1.3 trillion AI spending estimate by 2027.",
       "source": "Cryptonews",
       "date": "2026-09-28",
       "date_human": "Sep 28, 2026",
-      "pub_ts": 1790589482,
+      "pub_ts": 1790608860,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "MEXC Launches MEXC CLI, Connecting AI Agents From Trading Intent to Execution",
+      "link": "https://www.newsbtc.com/news/mexc-launches-mexc-cli-connecting-ai-agents-from-trading-intent-to-execution/",
+      "summary": "Mutsamudu, Comoros, September 28, 2026 – MEXC, a pioneer in 0-fee digital asset trading, today announced the launch of MEXC CLI, a new command-line tool that lets users connect their own AI Agents directly to MEXC and move more seamlessly from trading intent to execution. Once installed, MEXC CLI enables users to express what they want to do in natural language within AI environments they already use, while their AI agents interpret that intent and call the relevant MEXC capabilities through the CLI. The launch extends the role of AI beyond research, analysis and strategy generation. Users can",
+      "source": "NewsBTC",
+      "date": "2026-09-28",
+      "date_human": "Sep 28, 2026",
+      "pub_ts": 1790591880,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Whisper Web3 Super-App to Reveal New Ecosystem Plans at Korea Blockchain Week",
+      "link": "https://cryptonews.com/news/whisper-web3-super-app-to-reveal-new-ecosystem-plans-at-korea-blockchain-week/",
+      "summary": "Whisper, the Web3 wallet and secure messaging platform, will present a new ecosystem built around its signature app during Korea Blockchain Week in Seoul. The company behind the app (Seoul-based EQBR Holdings Co.) has announced that its Chairman, Paulus J. Lee, who also founded Whisper, will deliver a keynote speech at 4:40 p.m. on September […]",
+      "source": "Cryptonews",
+      "date": "2026-09-28",
+      "date_human": "Sep 28, 2026",
+      "pub_ts": 1790591444,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -220,13 +247,13 @@
       "image_local": null
     },
     {
-      "title": "CLARITY Act 2.0: Failed Senate Vote Opens Door to a Rewrite",
-      "link": "https://cryptonews.com/news/clarity-act-senate-vote-5/",
-      "summary": "The CLARITY Act remains stalled after Senate cloture failed, while lawmakers weigh changes to stablecoin yield, ethics, oversight and more.",
+      "title": "Pons V2 Exemptions Put Robinhood Chain Memecoins Under Scrutiny",
+      "link": "https://cryptonews.com/news/robinhood-chain-under-fire-analyst-exposes-18m-extraction/",
+      "summary": "Pons V2 anti-sniping exemptions helped concentrate up to 86% of supply in friendly wallets, raising questions about launches on Robinhood Chain.",
       "source": "Cryptonews",
       "date": "2026-09-28",
       "date_human": "Sep 28, 2026",
-      "pub_ts": 1790585933,
+      "pub_ts": 1790591442,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -240,6 +267,45 @@
       "date": "2026-09-26",
       "date_human": "Sep 26, 2026",
       "pub_ts": 1790443800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "South Korea Weighs Crypto Market Makers After JPYC Price Surge",
+      "link": "https://cryptonews.com/news/crypto-market-makers-south-korea/",
+      "summary": "South Korea's FSC is reviewing crypto market makers after JPYC surged on Upbit, exposing how thin liquidity can break a stablecoin's peg.",
+      "source": "Cryptonews",
+      "date": "2026-09-28",
+      "date_human": "Sep 28, 2026",
+      "pub_ts": 1790589787,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Why Is Crypto Down Today? Oil, Fed Bets and $330M Liquidations Stall the Market",
+      "link": "https://cryptonews.com/news/why-is-crypto-down-today-market-rebound/",
+      "summary": "The crypto market fell 1.85% as oil topped $93, October Fed hike odds hit 68.1% and $330.18M was liquidated across 107,013 traders.",
+      "source": "Cryptonews",
+      "date": "2026-09-28",
+      "date_human": "Sep 28, 2026",
+      "pub_ts": 1790589482,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "CLARITY Act 2.0: Failed Senate Vote Opens Door to a Rewrite",
+      "link": "https://cryptonews.com/news/clarity-act-senate-vote-5/",
+      "summary": "The CLARITY Act remains stalled after Senate cloture failed, while lawmakers weigh changes to stablecoin yield, ethics, oversight and more.",
+      "source": "Cryptonews",
+      "date": "2026-09-28",
+      "date_human": "Sep 28, 2026",
+      "pub_ts": 1790585933,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -279,71 +345,6 @@
       "date": "2026-09-27",
       "date_human": "Sep 27, 2026",
       "pub_ts": 1790523000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Crypto Hacks: Three Projects Hacked in One Day as Losses Hit Over $11M",
-      "link": "https://cryptonews.com/news/crypto-hacks-three-projects-hacked-in-one-day-as-losses-hit-11m/",
-      "summary": "​Three crypto projects were attacked on September 24, suffering combined losses of more than $11M. Attackers drained around $1.8M from Payy Network, stole $7M from Duelbits, and minted $2.3M in unbacked tokens on the Meter network; these three are the latest crypto hacks to hit the industry.The incidents affected different parts of crypto infrastructure, ranging […]",
-      "source": "Cryptonews",
-      "date": "2026-09-27",
-      "date_human": "Sep 27, 2026",
-      "pub_ts": 1790515800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Fed October Decision Polymarket Odds: October Rate Hike Sits at 64%",
-      "link": "https://cryptonews.com/news/bitcoin-faces-fresh-fed-headwind-as-polymarket-puts-october-rate-hike-at-64/",
-      "summary": "Bitcoin and the wider cryptocurrency market are facing a renewed macroeconomic headwind as traders increasingly anticipate another Federal Reserve interest-rate hike in October. Fed October decision Polymarket odds are sitting at a 65% chance of a rate hike next month. The latest shift in expectations follows comments from Federal Reserve Governor Michael Barr, who said […]",
-      "source": "Cryptonews",
-      "date": "2026-09-27",
-      "date_human": "Sep 27, 2026",
-      "pub_ts": 1790508415,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Price Never Closed Below Expectation in 2026 Bear Market",
-      "link": "https://cryptonews.com/news/realized-price-bitcoin-bear-market/",
-      "summary": "Bitcoin’s realized price held through the June 2026 low, while $77,000 and $84,000 mark levels that could confirm or break the thesis.",
-      "source": "Cryptonews",
-      "date": "2026-09-26",
-      "date_human": "Sep 26, 2026",
-      "pub_ts": 1790446800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: Ripple Takes Aim at SWIFT, Pantera CEO Says",
-      "link": "https://cryptonews.com/news/xrp-adoption-ripple-swift/",
-      "summary": "Ripple targets SWIFT with payments across 60 markets and over $100 billion processed, but XRP adoption remains unproven, the article finds.",
-      "source": "Cryptonews",
-      "date": "2026-09-26",
-      "date_human": "Sep 26, 2026",
-      "pub_ts": 1790444340,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: Ripple's Multi-Asset Payments Model Predates Resurfaced XRP Remarks",
-      "link": "https://cryptonews.com/news/xrp-news-multi-asset-payments/",
-      "summary": "Brad Garlinghouse’s January comments show Ripple’s XRP strategy supports multiple settlement assets, including stablecoins, rather than an XRP-only model.",
-      "source": "Cryptonews",
-      "date": "2026-09-26",
-      "date_human": "Sep 26, 2026",
-      "pub_ts": 1790422500,
       "image_candidates": [],
       "license_url": null,
       "image": null,
