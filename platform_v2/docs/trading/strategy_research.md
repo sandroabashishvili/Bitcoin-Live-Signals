@@ -12,7 +12,7 @@ Active versions are Spot independent direction/quality v5 and Futures SHORT-zone
 
 Evidence: `/home/sandro/research_snapshots/score_fix_20260911/RESULT.md`, `/home/sandro/research_snapshots/indicator_audit_20260911/REPORT.md` and per-experiment manifests. Preserve candidate inputs and baseline parity limits. Current equations reproducing saved indicators do not independently prove market logic is effective.
 
-The sections below describe the **July 31 / August 1 research snapshot**, not the new post-reset period or current deployment status. Use [active tasks](../current/active_tasks.md) and [current rules](futures_rules.md) for today's behavior.
+The sections below describe the **July 31 / August 1 research snapshot**, not the new post-reset period or current deployment status. Use [current operating status](../operations/runbook.md) and [current rules](futures_rules.md) for today's behavior.
 
 ## Objective
 

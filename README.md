@@ -39,6 +39,10 @@ und erzeugt die öffentlichen Ansichten. HTML, CSS und JavaScript bilden die
 statische Benutzeroberfläche. Die internen Module sind nach Spot, Futures,
 Hedge, gemeinsam genutzter Infrastruktur und Werkzeugen getrennt.
 
+Aktueller Betriebsstatus, Befehle und nächste Schritte stehen zentral im
+[Operating Guide](platform_v2/docs/operations/runbook.md). Technische Detaildokumente
+ergänzen diesen Leitfaden; datierte Forschungsberichte sind historische Nachweise.
+
 Wichtige Einstiegspunkte:
 
 - [`platform_v2/spot/spot_system.md`](platform_v2/spot/spot_system.md)

@@ -1,8 +1,12 @@
 # Research evidence and atomic simulation — R2
 
-Default **OFF**. Implementation candidate; no production research-ready signoff,
-live migration, process restart, installed service or new cron task. Source and
-runtime history are preserved. No predictive test outcomes were opened.
+Feature defaults remain **OFF** for unconfigured launches. On the configured host,
+R2.1 collection and atomic simulation were activated on 2026-09-28 using a pinned
+release and private SQLite 3.51.3. Service and independent cron monitoring are
+installed. Final long-run acceptance remains pending the WSL boot-management issue.
+See the [operating guide](../../../docs/operations/runbook.md) for current status,
+commands and remaining work. This document describes the implementation contract.
+No predictive test outcomes were opened during activation.
 
 ## Evidence schema (additive versions1–2)
 
@@ -131,8 +135,7 @@ Checks include integrity, staleness, open attempts, recorded failures, gap histo
 run/config changes, disk space, pinned release/atomic/epoch configuration. Optional
 `--backup-manifest PATH` checks manifest age only, not restore completeness. Nonzero
 exit indicates findings. `ready_for_signoff` deliberately remains false pending
-operational acceptance. No Codex automation has been created. Local cron/service
-installation is a separate cutover action.
+operational acceptance. No Codex automation has been created. Installation is host-specific; current deployment status is in the operating guide.
 
 Run isolated tests:
 
@@ -152,11 +155,11 @@ The copied-runtime comparison has passed for one ready Spot/Futures candle with
 fixed market/clock, no external IO, identical business rows and complete evidence.
 This is not coverage of every market state or a live operational soak.
 
-Before production signoff: reviewed SQLite WAL-reset patch/backport status;
-approved restart/service/Windows→WSL boot verification; installed independent health
-monitor; observation of first real pinned atomic cycles. Power-loss tests were not
-performed on the user's machine. Enable flags only in that controlled cutover;
-disabling them for a later process does not delete evidence.
+The configured cutover verified a private SQLite runtime, installed monitoring,
+and observed pinned atomic cycles and controlled restarts. Final boot acceptance
+is still pending; see the operating guide. No physical power-loss test was performed.
+On other installations, flags require a separately reviewed cutover. Disabling
+flags does not remove historical evidence.
 
 ## R2.1 operational helpers (explicit, not installed automatically)
 

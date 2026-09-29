@@ -1,105 +1,34 @@
-# Backup And Reset
+# Backup and Reset Semantics
 
-Status: `active - SQLite-aware backup and reset`  
-Created: `2026-05-19`  
-Updated: `2026-09-12`  
-Author: Codex  
-Purpose: Runtime reset and backup workflow.
+Updated: 2026-09-28. Everyday backup commands, destinations and current deployment
+are maintained in the [operating guide](runbook.md). Implementation belongs to
+`~/workspace_tools/backup`; there is no project-local backup launcher.
 
-## Runtime Reset
+## Consistent backups
 
-```bash
-cd ~/SmartSignalHub
-source venv/bin/activate
-python3 -m platform_v2.tools.runtime_reset_system
-```
+Use the tool's SQLite backup API snapshots, not a raw copy of a changing database
+file. The three databases are individually consistent snapshots, not necessarily
+one shared instant. Preserve verification manifests and inspect errors, missing
+external targets and restore evidence. Manifest age alone does not verify restore.
+GitHub source history does not contain runtime databases or private configuration.
+Full backup includes sensitive recovery state and is not a whole-disk image.
 
-Stop the running system before reset; this tool does not stop processes.
-Reset archives current runtime output and rebuilds 11 clean Spot/Futures/Hedge dashboard pages.
-It also archives the SQLite database files and creates a clean database state.
-Spot-only reset removes only Spot documents from SQLite.
+## Deliberate reset only
 
-Default reset archive destination:
-
-```text
-/home/sandro/runtime_archives/
-```
-
-This folder intentionally lives next to the project folder, not inside `platform_v2`.
-
-Tool runtime logs belong under:
-
-```text
-platform_v2/runtime/logs/tools/
-```
-
-## Backup
+Reset is not needed for restart, code updates or documentation changes. It ends
+the continuity of the current collection epoch. Never reset during accumulation
+without an explicit new-experiment decision and a reviewed activation/epoch plan.
+Stop the owning service first and verify a backup; the reset tool does not stop
+processes itself. To inspect the proposed scope without resetting:
 
 ```bash
 cd ~/SmartSignalHub
-source venv/bin/activate
-~/workspace_tools/backup/run.sh
+venv/bin/python -m platform_v2.tools.runtime_reset_system --dry-run
 ```
 
-Default local backup destination:
-
-```text
-/home/sandro/SmartSignalHub_backups/
-```
-
-Windows path:
-
-```text
-\\wsl.localhost\Ubuntu\home\sandro\SmartSignalHub_backups
-```
-
-This folder intentionally lives next to the project folder, not inside:
-
-```text
-/home/sandro/SmartSignalHub/
-```
-
-The backup command creates the backup root automatically if it does not exist.
-
-The live SQLite file, WAL and SHM files are excluded from ordinary raw file
-copying. The backup tool creates a transactionally consistent SQLite snapshot
-with SQLite's backup API and places it at the canonical database path inside
-the backup. This remains safe while the runtime is writing.
-
-Every new local backup is verified before the command reports success. The
-verification checks manifest hashes, required content, ZIP membership and CRC,
-and `PRAGMA quick_check` for every copied SQLite database. To recheck the latest
-local backups later, run:
-
-```bash
-~/workspace_tools/backup/run.sh --diagnose
-```
-
-Backup scope note: all three active SQLite databases are copied consistently.
-Generated dashboards and project artifacts remain in the normal project backup;
-the GitHub Pages publish mirror stays excluded because it is rebuildable.
-
-```bash
-cd ~/SmartSignalHub
-source venv/bin/activate
-~/workspace_tools/backup/run.sh
-```
-
-## External Drive Mount Example
-
-```bash
-sudo mkdir -p /mnt/f
-sudo mount -t drvfs F: /mnt/f
-findmnt /mnt/f
-```
-
-Mounting the drive is not the backup itself. It only makes the Windows drive visible inside WSL. The backup command writes the actual backup.
-
-## Current Notes
-
-- local full backups are written as `full_YYYY-MM-DD_HH-MM-SS/`
-- a matching `.zip` is created next to the folder
-- external sync still uses `/mnt/d/SmartSignalHub_V2` and `/mnt/f/SmartSignalHub_V2`
-- old project-local `backups/` remains excluded from backup input
-
-Ordinary stop/start preserves positions and history. Full reset clears market history too. Public news HTML/JSON remain outside runtime roots; retained news may need content-only restoration after reset. Do not delete WAL/SHM files independently. See [runbook](runbook.md).
+A full reset archives runtime roots/databases under `~/runtime_archives/` and
+rebuilds empty dashboards. It clears trading and market history in the active
+storage. Spot-only reset has a narrower scope. Consult the tool help for flags.
+Do not delete WAL/SHM companions independently. Public HTML/news JSON can remain
+outside reset roots; they are not proof that a new content database has those rows.
+Historical content-only recovery scripts are not general restoration commands.

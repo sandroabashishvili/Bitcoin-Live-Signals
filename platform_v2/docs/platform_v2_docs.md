@@ -1,14 +1,14 @@
 # Platform V2 Documentation
 
-Updated: 2026-09-12. Active operating and architecture documentation.
+Updated: 2026-09-28. Documentation map; current status is maintained in the operating guide.
 
-Start with [current review](current/system_review_20260912.md), [active tasks](current/active_tasks.md) and [runbook](operations/runbook.md). Verify source code and current runtime when a dated document conflicts with evidence. Historical experiment results are not deployment claims.
+Start with the [Operating Guide and Current Status](operations/runbook.md). Verify source code and current runtime when a dated document conflicts with evidence. Historical experiment results are not deployment claims.
 
 ## Documents
 
-- [current/system_review_20260912.md](current/system_review_20260912.md)
+- Historical: [September 12 review](current/system_review_20260912.md)
+- Historical: [September 25 research preparation](current/phase1_research_preparation_20260925.md)
 
-- [current/active_tasks.md](current/active_tasks.md)
 - [operations/backup_and_reset.md](operations/backup_and_reset.md)
 - [operations/diagnostics.md](operations/diagnostics.md)
 - [operations/runbook.md](operations/runbook.md)

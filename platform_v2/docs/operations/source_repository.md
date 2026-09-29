@@ -21,6 +21,11 @@ files does not delete them. Source history is not a backup of trading data.
 
 ## Fresh machine
 
+These instructions are for a separate installation, not a second launcher on the
+configured service host. See the [operating guide](runbook.md) for that host.
+A source clone does not recreate its pinned release, service or activation epoch.
+
+
 ```bash
 gh repo clone sandroabashishvili/Bitcoin-Live-Signals ~/SmartSignalHub
 cd ~/SmartSignalHub
@@ -83,4 +88,4 @@ whitespace were retained during the initial source import.
 
 ## Branch migration
 
-Source is on main; Pages serves gh-pages at the unchanged project URL. The previous private SmartSignalHub repository is retained only as an archived migration snapshot. The source import preserves the preceding public history via a merge commit; no force-push is needed.
+Source is on main; Pages serves gh-pages at the unchanged project URL. Do not depend on the former private SmartSignalHub repository for recovery. The source import preserves the preceding public history via a merge commit; no force-push is needed.

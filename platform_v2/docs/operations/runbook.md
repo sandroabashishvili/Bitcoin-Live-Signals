@@ -1,62 +1,148 @@
-# Runbook
+# Operating Guide and Current Status
 
-Updated: 2026-09-12.
+Updated: 2026-09-28. This is the single maintained entry point for current status,
+everyday commands and next work. Technical specifications remain in their module
+and topic documents. Dated reports describe historical checkpoints, not current deployment.
 
-## Normal start and stop
+## Current checkpoint
+
+The local simulation service and research evidence collection are active. R2.1
+activation began 2026-09-28 06:00:10 UTC (08:00:10 Europe/Berlin); the first expected
+collection candle closed at 05:59:59.999 UTC. Earlier history is not relabelled as
+first-live evidence. The service uses a pinned Python source bundle and verified
+private SQLite 3.51.3. Updating checkout files or GitHub does not update that bundle.
+A service restart alone also does not select a new release.
+
+Immutable observations, input capture, cycle receipts, atomic simulation publication,
+backfill provenance and independent health monitoring are enabled. Three-database
+backup/restore verification and isolated validation passed; the implementation
+checkpoint recorded 74 passing tests. These are dated results, not a test run on
+every future revision. Strategy profitability is not established.
+
+**Final long-run signoff remains pending.** A real reboot started the runtime,
+but a stacked WSL runtime-directory mount hid the user systemd bus. Removing the
+upper mount repaired management access for that boot without restarting trading.
+A permanent recurrence fix and subsequent boot acceptance remain outstanding.
+Do not blindly repeat mount commands or start another runtime if the bus is unavailable.
+The latest inspected health report had no issues; this is not a permanent health guarantee.
+
+Local evidence (not shipped with GitHub):
+- `~/research_snapshots/readiness_R21_20260928/REPORT.md` — activation checkpoint.
+- `~/research_snapshots/readiness_R21_20260928/user-bus-repair.md` — later boot finding.
+- `~/research_snapshots/readiness_R21_20260927/deploy/` — approved deployment files.
+Preserve the release and SQLite library referenced by activation configuration.
+
+## Everyday operation on the configured WSL host
+
+Run these commands in Ubuntu:
 
 ```bash
-cd ~/SmartSignalHub
-source venv/bin/activate
-python3 -m platform_v2.tools.runtime_start_system
+systemctl --user status smartsignalhub-runtime.service --no-pager
+journalctl --user -u smartsignalhub-runtime.service -n 100 --no-pager
+journalctl --user -u smartsignalhub-runtime.service -f
+cat ~/SmartSignalHub/platform_v2/runtime/research_health/latest.json
 ```
 
-Starts Spot, Futures and Telegram; Futures also runs Hedge replay. `--spot-only` and `--futures-only` limit trading loops but still start Telegram. Ctrl+C requests child shutdown. The September 12 loop entrypoints suppress the expected KeyboardInterrupt traceback; this is a display fix, not a strategy or scheduling change. Running Python processes need a normal restart to load changed modules.
-
-Normal stop/start keeps SQLite positions/history. Do not reset to load code changes. The main loops process closed 15m decisions after a 60-second scheduling offset and processing time. Closed 1m exits are checked within those cycles, not every minute independently.
-
-## Intentional clean experiment
-
-Stop the running launcher before any reset. Verify a backup first. A full reset deliberately clears current trading and market history; do not run it during a normal maintenance restart.
+Ctrl+C closes the log viewer only. The service owns one parent with Spot, Futures
+and Telegram children; Futures also updates Hedge replay. Windows task
+`SmartSignalHub-WSL` starts WSL at the configured user's sign-in, not before login.
+Repeated service start requests do not create extra instances.
 
 ```bash
-~/workspace_tools/backup/run.sh --help
-python3 -m platform_v2.tools.runtime_reset_system --dry-run
+systemctl --user stop smartsignalhub-runtime.service
+systemctl --user start smartsignalhub-runtime.service
+systemctl --user restart smartsignalhub-runtime.service
 ```
 
-When a full new experiment is explicitly intended:
+Stop/start preserves databases. An intentional stop remains stopped for that
+session; enabled startup can start it on the next boot/sign-in. Do not run
+`python3 -m platform_v2.tools.runtime_start_system` beside the service.
+A fresh source clone does not include this host's service, release or private
+configuration; see [fresh setup](source_repository.md).
+
+## Monitoring, data and backups
+
+Local cron checks health at minutes 05, 20, 35 and 50. It reports stale/incomplete
+cycles, evidence failures, identity drift, database/disk/WAL issues and backup age.
+It does not create backups; manifest age is not a restore test. Read `issues` and
+`ready_for_signoff` separately. No Codex automation is involved.
+
+The three canonical SQLite databases are under `platform_v2/runtime/database/`.
+Market candles cover 1m, 5m, 15m and 4h; UTC timestamps ending in Z are not local
+time. Candle open and close times differ. Running candles are not closed-candle
+history. Orderflow stores its values in `payload_json`; empty OHLC columns in
+those rows are expected. Filter `dataset = candles` to inspect price bars.
+Backfilled market candles do not recreate missed live decisions.
+
+Use SQLite online backup for an inspection copy, rather than copying a changing
+main DB alone. On Windows, open a verified self-contained copy on a local Windows
+path. Such a copy does not refresh itself. Do not delete live WAL/SHM companions.
 
 ```bash
-python3 -m platform_v2.tools.runtime_reset_system
-python3 -m platform_v2.tools.runtime_start_system
+~/workspace_tools/backup/run.sh
+~/workspace_tools/backup/run.sh --mode full
 ```
 
-Full reset moves existing database/Spot/Futures/Hedge runtime roots to `/home/sandro/runtime_archives/reset_<UTC timestamp>/` and rebuilds 11 empty dashboards. It does not stop active processes itself. Databases and optional mutable state are recreated on demand. `.sqlite3-wal` and `.sqlite3-shm` are SQLite companions, not additional databases; retain them with archived databases.
+Daily covers projects, workspace tools and docs; full adds private recovery and
+selected Windows/Codex state, not a complete disk image. Local output is under
+`~/backups/{smartsignalhub,home,private,windows}`. Daily warns and skips unavailable
+external targets; full reports them as failures. Verify results and manifests.
+See [backup and reset details](backup_and_reset.md). A reset is destructive to the
+current research epoch and is not part of ordinary maintenance.
 
-Public HTML/news JSON are outside those runtime roots. Consequently, a clean content DB can lack retained public snapshots. September 12 restored only missing news days with the reviewed script in `/home/sandro/research_snapshots/system_review_20260912/restore_missing_news.py`, after a SQLite backup. It leaves existing content batches and all trading/market state untouched. Do not use a broad `--import-json` command to repair only news; that also imports trading and market state.
-
-## Checks
+## Local website and GitHub
 
 ```bash
-python3 -m platform_v2.tools.diagnostics --profile operational
-python3 -m platform_v2.tools.diagnostics --profile full
-python3 -m platform_v2.tools.runtime_database_system --check-parity
+python3 -m http.server 8080 --bind 127.0.0.1 --directory "$HOME/SmartSignalHub"
 ```
 
-Reports go under `platform_v2/runtime/artifacts/`. Full diagnostics includes complexity/refactoring candidates; a finding's severity alone is not proof of a trading failure. Operational checks are also not proof of profitable logic. Read the findings and validate new signals/orders/exits together.
+Open `/platform_v2/public_site/`, `/platform_v2/spot/dashboard/` or
+`/platform_v2/futures/dashboard/` on that local server.
 
-Backups use `~/workspace_tools/backup/run.sh`; inspect `--help` for current profiles and targets. SQLite backups use the backup API rather than copying a changing main DB alone. Review verification output and manifests before relying on a backup.
+Source is on `main`; generated public pages are on `gh-pages`, staged in the
+ignored `publish/Bitcoin-Live-Signals` checkout. Runtime DBs, credentials, logs and
+backups do not belong on GitHub. Source synchronization and website publishing
+are separate operations.
 
-## Local pages and publishing
+Configured host schedules (Europe/Berlin): code upload daily 06:00; public website
+publication 06:19, 12:19, 18:19, 23:19. Fifteen-minute publication is deferred.
+Code synchronization skips remote changes/conflicts and continues other projects;
+it never automatically pulls or overwrites remote work.
 
 ```bash
-python3 -m http.server 8080 --bind 127.0.0.1
-```
-
-Run from `~/SmartSignalHub`; dashboards are under `/platform_v2/spot/dashboard/`, `/platform_v2/futures/dashboard/` and `/platform_v2/futures_hedge/dashboard/`.
-
-```bash
-python3 -m platform_v2.tools.sitemap_system
+~/workspace_tools/github_sync/run.sh
 ~/workspace_tools/site_publish/run.sh --dry-run
+# Explicit publication of reviewed generated pages:
+~/workspace_tools/site_publish/run.sh
 ```
 
-Publishing without `--dry-run` can commit and push to public `gh-pages`. Read [SEO and publishing](../product/seo_and_publishing.md) and the [current review](../current/system_review_20260912.md) first. No reset is needed for metadata fixes.
+See [publishing details](../product/seo_and_publishing.md). These workspace tools
+are local dependencies, not included in a fresh public source clone.
+
+## Next work and research boundaries
+
+1. Resolve the WSL management-bus recurrence risk and finish boot/long-run acceptance.
+2. Continue simulation evidence accumulation with a fixed, identified strategy.
+3. Add candle charts with signal, entry/exit and TP/SL markers after reliability acceptance.
+4. Continue reproducible predictive research with sufficient usable history and
+   frozen comparisons; keep the untouched test cohort closed until its approved stage.
+
+Exploration has shown weak/unstable total-score relationships. This neither proves
+profitability nor establishes a profitable replacement. Candidate baselines and
+ablations belong in isolated research. Fix proven implementation defects, but do
+not tune live weights, thresholds, permissions or TP/SL opportunistically. Keep
+signal quality separate from execution costs and position management. Elapsed
+months alone do not establish sample sufficiency.
+
+Historical candidates (orderbook reweighting, RSI/MACD/ADX/rejection changes and
+full trailing TP/SL) are not deployment recommendations. Exit inspection remains
+inside the 15-minute cycle, not an independent one-minute monitor. Google Search
+Console coverage and field performance still require account evidence; HTTP checks
+alone do not establish indexing.
+
+## Documentation maintenance
+
+Update this guide when deployment, commands or next work changes. Keep low-level
+contracts in their technical documents and link here for operational status.
+Do not rewrite dated research evidence as if it described a later deployment.
+[Documentation map](../platform_v2_docs.md) lists the technical references.
