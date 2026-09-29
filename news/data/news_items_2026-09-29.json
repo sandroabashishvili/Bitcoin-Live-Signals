@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-29",
-  "generated_at_utc": "2026-09-29 04:05:09 UTC",
+  "generated_at_utc": "2026-09-29 10:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-29T04:05:04.807129+00:00",
+    "collected_at": "2026-09-29T10:05:05.039450+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 3,
+        "within_24h": 2,
         "within_window": 3,
         "eligible": 3,
         "rejected": {
@@ -50,12 +50,11 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 13,
-        "within_window": 18,
+        "within_window": 20,
         "eligible": 12,
         "rejected": {
-          "topic_author_or_category": 3,
-          "title_filter": 3,
-          "older_than_window": 2
+          "title_filter": 6,
+          "topic_author_or_category": 2
         }
       },
       {
@@ -100,12 +99,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
-        "within_window": 1,
-        "eligible": 0,
+        "within_24h": 2,
+        "within_window": 2,
+        "eligible": 1,
         "rejected": {
           "unreviewed_link": 1,
-          "older_than_window": 14
+          "older_than_window": 13
         }
       },
       {
@@ -182,20 +181,49 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 12
+      "Cryptonews": 12,
+      "European Central Bank": 1,
+      "NewsBTC": 3
     },
     "unique_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 12
+      "Cryptonews": 12,
+      "European Central Bank": 1,
+      "NewsBTC": 3
     },
     "selected_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 9
+      "Cryptonews": 8,
+      "European Central Bank": 1,
+      "NewsBTC": 3
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "Hester Peirce AKA Crypto Mom SEC Exit Leaves Crypto Oversight in Limbo",
+      "link": "https://cryptonews.com/news/hester-peirce-crypto-mom-sec-exit-limbo/",
+      "summary": "Hester Peirce leaves the SEC on October 2, 2026, as the stalled CLARITY Act leaves crypto oversight split between the SEC and CFTC.",
+      "source": "Cryptonews",
+      "date": "2026-09-29",
+      "date_human": "Sep 29, 2026",
+      "pub_ts": 1790674425,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "ECB amends monetary policy implementation guidelines as part of regular review",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
+      "summary": "ECB amends monetary policy implementation guidelines as part of regular review",
+      "source": "European Central Bank",
+      "date": "2026-09-29",
+      "date_human": "Sep 29, 2026",
+      "pub_ts": 1790668800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "PrimeXBT Insights: Bitcoin rallied through a rate hike; Can it rally through a bond selloff?",
       "link": "https://www.newsbtc.com/news/primexbt-insights-bitcoin-rallied-through-a-rate-hike-can-it-rally-through-a-bond-selloff/",
@@ -210,13 +238,13 @@
       "image_local": null
     },
     {
-      "title": "XRP Price Slides 2.9% as $1.50 Reclaim Becomes Critical",
-      "link": "https://cryptonews.com/news/xrp-price-150-reclaim/",
-      "summary": "XRP price slips 2.9% to $1.47 as bulls face a key test: reclaim $1.50 or risk a deeper pullback toward $1.37 and $1.30 if support fails.",
+      "title": "Bitcoin Price in Limbo: Congress Lost the Vote, but Fed Sets The Tone",
+      "link": "https://cryptonews.com/news/federal-reserve-bitcoin-direction/",
+      "summary": "Bitcoin held $83,000-$83,600 as Federal Reserve policy outweighed rising 2026 midterm odds, while failed crypto legislation kept risk alive.",
       "source": "Cryptonews",
-      "date": "2026-09-28",
-      "date_human": "Sep 28, 2026",
-      "pub_ts": 1790622960,
+      "date": "2026-09-29",
+      "date_human": "Sep 29, 2026",
+      "pub_ts": 1790668955,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -236,13 +264,13 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin Price 33% Rebound Faces ETF, Rate, and AI Tests",
-      "link": "https://cryptonews.com/news/bitcoin-price-2027-prediction/",
-      "summary": "The Bitcoin 2027 outlook weighs a 33% rebound against ETF risks, higher rates and Nvidia’s $1.3 trillion AI spending estimate by 2027.",
+      "title": "Coinbase Brings Derivatives Clearing In-House After CFTC Registration",
+      "link": "https://cryptonews.com/news/coinbase-clearing-cftc-registration/",
+      "summary": "Coinbase Clearing is now registered by the CFTC to clear fully collateralized derivatives, with USDC-based settlement planned but no launch date set.",
       "source": "Cryptonews",
-      "date": "2026-09-28",
-      "date_human": "Sep 28, 2026",
-      "pub_ts": 1790608860,
+      "date": "2026-09-29",
+      "date_human": "Sep 29, 2026",
+      "pub_ts": 1790663568,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -256,6 +284,32 @@
       "date": "2026-09-28",
       "date_human": "Sep 28, 2026",
       "pub_ts": 1790583432,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Price Slides 2.9% as $1.50 Reclaim Becomes Critical",
+      "link": "https://cryptonews.com/news/xrp-price-150-reclaim/",
+      "summary": "XRP price slips 2.9% to $1.47 as bulls face a key test: reclaim $1.50 or risk a deeper pullback toward $1.37 and $1.30 if support fails.",
+      "source": "Cryptonews",
+      "date": "2026-09-28",
+      "date_human": "Sep 28, 2026",
+      "pub_ts": 1790622960,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price 33% Rebound Faces ETF, Rate, and AI Tests",
+      "link": "https://cryptonews.com/news/bitcoin-price-2027-prediction/",
+      "summary": "The Bitcoin 2027 outlook weighs a 33% rebound against ETF risks, higher rates and Nvidia’s $1.3 trillion AI spending estimate by 2027.",
+      "source": "Cryptonews",
+      "date": "2026-09-28",
+      "date_human": "Sep 28, 2026",
+      "pub_ts": 1790608860,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -295,58 +349,6 @@
       "date": "2026-09-28",
       "date_human": "Sep 28, 2026",
       "pub_ts": 1790589787,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Why Is Crypto Down Today? Oil, Fed Bets and $330M Liquidations Stall the Market",
-      "link": "https://cryptonews.com/news/why-is-crypto-down-today-market-rebound/",
-      "summary": "The crypto market fell 1.85% as oil topped $93, October Fed hike odds hit 68.1% and $330.18M was liquidated across 107,013 traders.",
-      "source": "Cryptonews",
-      "date": "2026-09-28",
-      "date_human": "Sep 28, 2026",
-      "pub_ts": 1790589482,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "CLARITY Act 2.0: Failed Senate Vote Opens Door to a Rewrite",
-      "link": "https://cryptonews.com/news/clarity-act-senate-vote-5/",
-      "summary": "The CLARITY Act remains stalled after Senate cloture failed, while lawmakers weigh changes to stablecoin yield, ethics, oversight and more.",
-      "source": "Cryptonews",
-      "date": "2026-09-28",
-      "date_human": "Sep 28, 2026",
-      "pub_ts": 1790585933,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: Bitget Hacker Moves 54M XRP, Putting Fresh Selling Pressure",
-      "link": "https://cryptonews.com/news/xrp-news-transfers-bitget-breach/",
-      "summary": "XRP transfers from the Bitget breach now span new wallets, but $83 million in moved coins has not been linked to an exchange or confirmed sale.",
-      "source": "Cryptonews",
-      "date": "2026-09-28",
-      "date_human": "Sep 28, 2026",
-      "pub_ts": 1790583000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Quant Crypto Blasts 3x in a Week Following Huge US Bank Deal",
-      "link": "https://cryptonews.com/news/quant-crypto-blasts-3x-in-a-week-following-huge-us-bank-deal/",
-      "summary": "Quant crypto has exploded roughly +178% over the last seven days, including an extraordinary +72% daily surge. Quant is quickly becoming the most talked-about cryptocurrency, as its price action is tied to a major deal with US banks.At press time, Quant is trading around $178.46, though the price is moving extremely quickly amid unusually intense […]",
-      "source": "Cryptonews",
-      "date": "2026-09-27",
-      "date_human": "Sep 27, 2026",
-      "pub_ts": 1790526123,
       "image_candidates": [],
       "license_url": null,
       "image": null,
