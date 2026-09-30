@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-09-29",
-  "generated_at_utc": "2026-09-29 22:05:11 UTC",
+  "day_iso": "2026-09-30",
+  "generated_at_utc": "2026-09-30 04:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-29T22:05:04.114207+00:00",
+    "collected_at": "2026-09-30T04:05:02.079351+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -49,11 +49,11 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 13,
+        "within_24h": 14,
         "within_window": 20,
-        "eligible": 12,
+        "eligible": 11,
         "rejected": {
-          "topic_author_or_category": 4,
+          "topic_author_or_category": 5,
           "title_filter": 4
         }
       },
@@ -99,12 +99,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
-        "within_window": 2,
+        "within_24h": 2,
+        "within_window": 3,
         "eligible": 1,
         "rejected": {
-          "unreviewed_link": 1,
-          "older_than_window": 13
+          "unreviewed_link": 2,
+          "older_than_window": 12
         }
       },
       {
@@ -182,13 +182,13 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 12,
+      "Cryptonews": 11,
       "NewsBTC": 2,
       "U.S. Bureau of Labor Statistics": 1,
       "European Central Bank": 1
     },
     "unique_by_source": {
-      "Cryptonews": 12,
+      "Cryptonews": 11,
       "NewsBTC": 2,
       "U.S. Bureau of Labor Statistics": 1,
       "European Central Bank": 1
