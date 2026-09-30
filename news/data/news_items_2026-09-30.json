@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-09-30",
-  "generated_at_utc": "2026-09-30 04:05:06 UTC",
+  "generated_at_utc": "2026-09-30 10:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-30T04:05:02.079351+00:00",
+    "collected_at": "2026-09-30T10:05:01.538948+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -51,10 +51,10 @@
         "entries": 20,
         "within_24h": 14,
         "within_window": 20,
-        "eligible": 11,
+        "eligible": 10,
         "rejected": {
           "topic_author_or_category": 5,
-          "title_filter": 4
+          "title_filter": 5
         }
       },
       {
@@ -99,7 +99,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 2,
+        "within_24h": 1,
         "within_window": 3,
         "eligible": 1,
         "rejected": {
@@ -182,13 +182,13 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 11,
+      "Cryptonews": 10,
       "NewsBTC": 2,
       "U.S. Bureau of Labor Statistics": 1,
       "European Central Bank": 1
     },
     "unique_by_source": {
-      "Cryptonews": 11,
+      "Cryptonews": 10,
       "NewsBTC": 2,
       "U.S. Bureau of Labor Statistics": 1,
       "European Central Bank": 1
@@ -203,13 +203,13 @@
   "count": 12,
   "items": [
     {
-      "title": "XRP News: Price Ceiling Versus ZEC and QNT Playbook",
-      "link": "https://cryptonews.com/news/xrp-news-price-discovery-zec-qnt/",
-      "summary": "XRP price discovery now hinges on sustained ETF demand and XRPL BatchV1_1 adoption, not just QNT and ZEC’s delayed breakouts alone.",
+      "title": "Pokemon Crypto Case: Collector Faces Trial Over $55 Million Hack",
+      "link": "https://cryptonews.com/news/uranium-finance-crypto-pokemon/",
+      "summary": "The Uranium Finance case shows how prosecutors allege crypto from two exploits moved through Tornado Cash into high-value collectibles.",
       "source": "Cryptonews",
-      "date": "2026-09-29",
-      "date_human": "Sep 29, 2026",
-      "pub_ts": 1790707260,
+      "date": "2026-09-30",
+      "date_human": "Sep 30, 2026",
+      "pub_ts": 1790760251,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -255,13 +255,13 @@
       "image_local": null
     },
     {
-      "title": "CME Nine-Asset Crypto Basket Is 86.29% Bitcoin and Ethereum",
-      "link": "https://cryptonews.com/news/nasdaq-cme-crypto-index-concentration/",
-      "summary": "The Nasdaq CME Crypto Index gives institutions one CME futures trade, but Bitcoin and Ether make up 86.29% of its nine-asset basket.",
+      "title": "XRP News: Brazil $4T Financial Infrastructure Expands Onto XRPL",
+      "link": "https://cryptonews.com/news/xrp-ledger-btg-fund-news-records/",
+      "summary": "CSD BR mirrors live BTG Pactual fund ownership records on the XRP Ledger, adding public verification without replacing its official database.",
       "source": "Cryptonews",
-      "date": "2026-09-29",
-      "date_human": "Sep 29, 2026",
-      "pub_ts": 1790690340,
+      "date": "2026-09-30",
+      "date_human": "Sep 30, 2026",
+      "pub_ts": 1790752345,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -275,6 +275,32 @@
       "date": "2026-09-29",
       "date_human": "Sep 29, 2026",
       "pub_ts": 1790691286,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: Price Ceiling Versus ZEC and QNT Playbook",
+      "link": "https://cryptonews.com/news/xrp-news-price-discovery-zec-qnt/",
+      "summary": "XRP price discovery now hinges on sustained ETF demand and XRPL BatchV1_1 adoption, not just QNT and ZEC’s delayed breakouts alone.",
+      "source": "Cryptonews",
+      "date": "2026-09-29",
+      "date_human": "Sep 29, 2026",
+      "pub_ts": 1790707260,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "CME Nine-Asset Crypto Basket Is 86.29% Bitcoin and Ethereum",
+      "link": "https://cryptonews.com/news/nasdaq-cme-crypto-index-concentration/",
+      "summary": "The Nasdaq CME Crypto Index gives institutions one CME futures trade, but Bitcoin and Ether make up 86.29% of its nine-asset basket.",
+      "source": "Cryptonews",
+      "date": "2026-09-29",
+      "date_human": "Sep 29, 2026",
+      "pub_ts": 1790690340,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -327,32 +353,6 @@
       "date": "2026-09-29",
       "date_human": "Sep 29, 2026",
       "pub_ts": 1790674425,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Price in Limbo: Congress Lost the Vote, but Fed Sets The Tone",
-      "link": "https://cryptonews.com/news/federal-reserve-bitcoin-direction/",
-      "summary": "Bitcoin held $83,000-$83,600 as Federal Reserve policy outweighed rising 2026 midterm odds, while failed crypto legislation kept risk alive.",
-      "source": "Cryptonews",
-      "date": "2026-09-29",
-      "date_human": "Sep 29, 2026",
-      "pub_ts": 1790668955,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Coinbase Brings Derivatives Clearing In-House After CFTC Registration",
-      "link": "https://cryptonews.com/news/coinbase-clearing-cftc-registration/",
-      "summary": "Coinbase Clearing is now registered by the CFTC to clear fully collateralized derivatives, with USDC-based settlement planned but no launch date set.",
-      "source": "Cryptonews",
-      "date": "2026-09-29",
-      "date_human": "Sep 29, 2026",
-      "pub_ts": 1790663568,
       "image_candidates": [],
       "license_url": null,
       "image": null,
