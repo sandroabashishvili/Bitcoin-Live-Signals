@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-01",
-  "generated_at_utc": "2026-10-01 04:05:07 UTC",
+  "generated_at_utc": "2026-10-01 10:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-01T04:05:03.400531+00:00",
+    "collected_at": "2026-10-01T10:05:04.625596+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 12,
+        "within_24h": 9,
         "within_window": 20,
-        "eligible": 10,
+        "eligible": 8,
         "rejected": {
-          "topic_author_or_category": 7,
-          "title_filter": 3
+          "title_filter": 6,
+          "topic_author_or_category": 6
         }
       },
       {
@@ -99,11 +99,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 2,
-        "within_window": 4,
-        "eligible": 1,
+        "within_window": 3,
+        "eligible": 0,
         "rejected": {
           "unreviewed_link": 3,
-          "older_than_window": 11
+          "older_than_window": 12
         }
       },
       {
@@ -181,32 +181,42 @@
       }
     ],
     "eligible_by_source": {
+      "Cryptonews": 8,
       "NewsBTC": 3,
-      "Cryptonews": 10,
       "Federal Reserve Board": 1,
       "U.S. Bureau of Economic Analysis": 2,
-      "U.S. Bureau of Labor Statistics": 1,
-      "European Central Bank": 1
+      "U.S. Bureau of Labor Statistics": 1
     },
     "unique_by_source": {
+      "Cryptonews": 8,
       "NewsBTC": 3,
-      "Cryptonews": 10,
       "Federal Reserve Board": 1,
       "U.S. Bureau of Economic Analysis": 2,
-      "U.S. Bureau of Labor Statistics": 1,
-      "European Central Bank": 1
+      "U.S. Bureau of Labor Statistics": 1
     },
     "selected_by_source": {
+      "Cryptonews": 5,
       "NewsBTC": 3,
-      "Cryptonews": 4,
       "Federal Reserve Board": 1,
       "U.S. Bureau of Economic Analysis": 2,
-      "U.S. Bureau of Labor Statistics": 1,
-      "European Central Bank": 1
+      "U.S. Bureau of Labor Statistics": 1
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "Bitcoin Price Tests $85,000 as Citi Raises Target to $113K",
+      "link": "https://cryptonews.com/news/bitcoin-price-forecast-citi-target/",
+      "summary": "Citi’s Bitcoin price forecast rises to $113,000, but its $5 billion inflow outlook depends on steady institutional demand over 12 months.",
+      "source": "Cryptonews",
+      "date": "2026-10-01",
+      "date_human": "Oct 1, 2026",
+      "pub_ts": 1790845314,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "EigenLayer Unveils Dual-Staking Extension For Bitcoin Asset Security",
       "link": "https://www.newsbtc.com/news/defi/eigenlayer-unveils-dual-staking-extension-for-bitcoin-asset-security/",
@@ -215,19 +225,6 @@
       "date": "2026-09-30",
       "date_human": "Sep 30, 2026",
       "pub_ts": 1790809200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP Price Battling Resistances as BlackRock Rumors Pop",
-      "link": "https://cryptonews.com/news/xrp-price-outlook-support-range-blackrock/",
-      "summary": "The XRP price outlook hinges on $1.45-$1.56 levels as ETF demand grows, but BlackRock has not filed for a spot XRP fund or announced plans.",
-      "source": "Cryptonews",
-      "date": "2026-09-30",
-      "date_human": "Sep 30, 2026",
-      "pub_ts": 1790792580,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -273,13 +270,13 @@
       "image_local": null
     },
     {
-      "title": "ECB amends monetary policy implementation guidelines as part of regular review",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html",
-      "summary": "ECB amends monetary policy implementation guidelines as part of regular review",
-      "source": "European Central Bank",
-      "date": "2026-09-29",
-      "date_human": "Sep 29, 2026",
-      "pub_ts": 1790668800,
+      "title": "MetaMask Lido Validators Exit After Infrastructure Compromise",
+      "link": "https://cryptonews.com/news/metamask-lido-validator-exits/",
+      "summary": "MetaMask validator exits could take up to 45 days as Lido investigates an infrastructure incident, with affected validators and ETH undisclosed.",
+      "source": "Cryptonews",
+      "date": "2026-10-01",
+      "date_human": "Oct 1, 2026",
+      "pub_ts": 1790835339,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -299,19 +296,6 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin Price Tests $83,000 Ahead of Key PCE Inflation Release",
-      "link": "https://cryptonews.com/news/core-pce-bitcoin-price-levels/",
-      "summary": "Bitcoin sits near $82,735 ahead of the August core PCE release, with Fed rate expectations and leverage shaping the next market move for traders.",
-      "source": "Cryptonews",
-      "date": "2026-09-30",
-      "date_human": "Sep 30, 2026",
-      "pub_ts": 1790765234,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "GDP, (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025",
       "link": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
       "summary": "Real gross domestic product (GDP) increased at an annual rate of 2.2 percent in the second quarter of 2026 (April, May, and June), according to the third estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the first quarter, real GDP increased 2.5 percent (revised). The contributors to the increase in real GDP in the second quarter were consumer spending, investment, and exports. Imports, which are a subtraction in the calculation of GDP, increased.At the state level, real GDP ranged from a 4.0 percent increase in New York to a 2.3 percent decrease in West Virginia.",
@@ -319,6 +303,19 @@
       "date": "2026-09-30",
       "date_human": "Sep 30, 2026",
       "pub_ts": 1790771400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Price Battling Resistances as BlackRock Rumors Pop",
+      "link": "https://cryptonews.com/news/xrp-price-outlook-support-range-blackrock/",
+      "summary": "The XRP price outlook hinges on $1.45-$1.56 levels as ETF demand grows, but BlackRock has not filed for a spot XRP fund or announced plans.",
+      "source": "Cryptonews",
+      "date": "2026-09-30",
+      "date_human": "Sep 30, 2026",
+      "pub_ts": 1790792580,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -338,6 +335,19 @@
       "image_local": null
     },
     {
+      "title": "Bitcoin Price Tests $83,000 Ahead of Key PCE Inflation Release",
+      "link": "https://cryptonews.com/news/core-pce-bitcoin-price-levels/",
+      "summary": "Bitcoin sits near $82,735 ahead of the August core PCE release, with Fed rate expectations and leverage shaping the next market move for traders.",
+      "source": "Cryptonews",
+      "date": "2026-09-30",
+      "date_human": "Sep 30, 2026",
+      "pub_ts": 1790765234,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "FOMC Polymarket Odds: A Rate Hold Regains the Edge in October Pricing",
       "link": "https://cryptonews.com/news/fomc-polymarket-odds-october-fed-hold/",
       "summary": "Polymarket pricing now gives a hold a 58.5% chance at the October Fed meeting after hike odds fell 27 points in 24 hours on September 30.",
@@ -345,19 +355,6 @@
       "date": "2026-09-30",
       "date_human": "Sep 30, 2026",
       "pub_ts": 1790762442,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Pokemon Crypto Case: Collector Faces Trial Over $55 Million Hack",
-      "link": "https://cryptonews.com/news/uranium-finance-crypto-pokemon/",
-      "summary": "The Uranium Finance case shows how prosecutors allege crypto from two exploits moved through Tornado Cash into high-value collectibles.",
-      "source": "Cryptonews",
-      "date": "2026-09-30",
-      "date_human": "Sep 30, 2026",
-      "pub_ts": 1790760251,
       "image_candidates": [],
       "license_url": null,
       "image": null,
