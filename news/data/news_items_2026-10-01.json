@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-01",
-  "generated_at_utc": "2026-10-01 10:05:11 UTC",
+  "generated_at_utc": "2026-10-01 16:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-01T10:05:04.625596+00:00",
+    "collected_at": "2026-10-01T16:05:04.881866+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 3,
+        "eligible": 5,
         "rejected": {
-          "unreviewed_link": 7
+          "unreviewed_link": 5
         }
       },
       {
@@ -48,12 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
+        "within_24h": 12,
         "within_window": 20,
-        "eligible": 8,
+        "eligible": 9,
         "rejected": {
-          "title_filter": 6,
-          "topic_author_or_category": 6
+          "topic_author_or_category": 5,
+          "unreviewed_link": 1,
+          "title_filter": 5
         }
       },
       {
@@ -73,7 +74,7 @@
         "url": "https://apps.bea.gov/rss/rss.xml",
         "status": "ok",
         "entries": 49,
-        "within_24h": 2,
+        "within_24h": 0,
         "within_window": 2,
         "eligible": 2,
         "rejected": {
@@ -98,12 +99,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 2,
-        "within_window": 3,
+        "within_24h": 3,
+        "within_window": 5,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 3,
-          "older_than_window": 12
+          "unreviewed_link": 5,
+          "older_than_window": 10
         }
       },
       {
@@ -160,10 +161,10 @@
         "status": "ok",
         "entries": 12,
         "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 11
+          "older_than_window": 12
         }
       },
       {
@@ -171,7 +172,7 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 2,
         "eligible": 1,
         "rejected": {
@@ -181,50 +182,47 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 8,
-      "NewsBTC": 3,
+      "Cryptonews": 9,
+      "NewsBTC": 5,
       "Federal Reserve Board": 1,
-      "U.S. Bureau of Economic Analysis": 2,
-      "U.S. Bureau of Labor Statistics": 1
+      "U.S. Bureau of Economic Analysis": 2
     },
     "unique_by_source": {
-      "Cryptonews": 8,
-      "NewsBTC": 3,
+      "Cryptonews": 9,
+      "NewsBTC": 5,
       "Federal Reserve Board": 1,
-      "U.S. Bureau of Economic Analysis": 2,
-      "U.S. Bureau of Labor Statistics": 1
+      "U.S. Bureau of Economic Analysis": 2
     },
     "selected_by_source": {
       "Cryptonews": 5,
-      "NewsBTC": 3,
+      "NewsBTC": 4,
       "Federal Reserve Board": 1,
-      "U.S. Bureau of Economic Analysis": 2,
-      "U.S. Bureau of Labor Statistics": 1
+      "U.S. Bureau of Economic Analysis": 2
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Bitcoin Price Tests $85,000 as Citi Raises Target to $113K",
-      "link": "https://cryptonews.com/news/bitcoin-price-forecast-citi-target/",
-      "summary": "Citi’s Bitcoin price forecast rises to $113,000, but its $5 billion inflow outlook depends on steady institutional demand over 12 months.",
+      "title": "XRP News: $1.49B Unlock Leaves Net Supply Unclear",
+      "link": "https://cryptonews.com/news/xrp-price-escrow-unlock-news/",
+      "summary": "XRP price analysis weighs Ripple’s 1 billion XRP escrow release against $1.50 resistance, with sales and net supply still unconfirmed.",
       "source": "Cryptonews",
       "date": "2026-10-01",
       "date_human": "Oct 1, 2026",
-      "pub_ts": 1790845314,
+      "pub_ts": 1790867820,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "EigenLayer Unveils Dual-Staking Extension For Bitcoin Asset Security",
-      "link": "https://www.newsbtc.com/news/defi/eigenlayer-unveils-dual-staking-extension-for-bitcoin-asset-security/",
-      "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for EigenLayer Unveils Dual-Staking Extension For Bitcoin Asset Security. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filings verified on SEPTEMBER 30, 2026, this development introduces crucial infrastructure enhancements. Industry leaders note that maintaining robust compliance, security, and market liquidity remains essential ",
+      "title": "TopNod Wallet Debuts Access to Axil's APT (Axil Pot), a T+0 On-Chain Yield Product for Everyday Idle Liquidity",
+      "link": "https://www.newsbtc.com/news/topnod-wallet-debuts-access-to-axils-apt-axil-pot-a-t0-on-chain-yield-product-for-everyday-idle-liquidity/",
+      "summary": "Offering ~8% Target APY and Instant T+0 Liquidity with an Initial $10M Capacity Cap Singapore, October 1, 2026 —TopNod has integrated Axil Pot (APT), a new on-chain yield vault curated by Axil, now accessible directly through TopNod Wallet. Targeting an estimated ~8% APY alongside T+0/T+7 liquidity options for everyday capital needs, the vault opens with an initial $10 million capacity cap, letting users put idle on-chain capital to work without lock-up periods—keeping their capital accessible whenever they need it. Modeled after the everyday cash-management tools popularized by fintech super-",
       "source": "NewsBTC",
-      "date": "2026-09-30",
-      "date_human": "Sep 30, 2026",
-      "pub_ts": 1790809200,
+      "date": "2026-10-01",
+      "date_human": "Oct 1, 2026",
+      "pub_ts": 1790855036,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -257,39 +255,26 @@
       "image_local": null
     },
     {
-      "title": "August job openings and hires change little; total separations unchanged",
-      "link": "https://www.bls.gov/news.release/archives/jolts_09292026.htm",
-      "summary": "The number of job openings and hires were little changed at 7.1 million and 5.2 million, respectively, in August. Total separations were unchanged at 5.1 million.",
-      "source": "U.S. Bureau of Labor Statistics",
-      "date": "2026-09-29",
-      "date_human": "Sep 29, 2026",
-      "pub_ts": 1790688032,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "MetaMask Lido Validators Exit After Infrastructure Compromise",
-      "link": "https://cryptonews.com/news/metamask-lido-validator-exits/",
-      "summary": "MetaMask validator exits could take up to 45 days as Lido investigates an infrastructure incident, with affected validators and ETH undisclosed.",
+      "title": "China Crypto Future: Solana Co. CEO Joseph Chee on Regulation",
+      "link": "https://cryptonews.com/news/china-crypto-policy-forecast/",
+      "summary": "China crypto policy remains uncertain after Joseph Chee forecast tighter oversight, with no timeline or confirmed plan for mainland market access.",
       "source": "Cryptonews",
       "date": "2026-10-01",
       "date_human": "Oct 1, 2026",
-      "pub_ts": 1790835339,
+      "pub_ts": 1790859720,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Orderly Network Surpasses $100 Billion In Cumulative Trading Volume",
-      "link": "https://www.newsbtc.com/news/defi/orderly-network-surpasses-100-billion-in-cumulative-trading-volume/",
-      "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for Orderly Network Surpasses $100 Billion In Cumulative Trading Volume. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filings verified on SEPTEMBER 30, 2026, this development introduces crucial infrastructure enhancements. Industry leaders note that maintaining robust compliance, security, and market liquidity remains essential a",
+      "title": "MEXC adds another 1,000 BTC to Guardian Fund, strengthening user protection",
+      "link": "https://www.newsbtc.com/news/mexc-adds-another-1000-btc-to-guardian-fund-strengthening-user-protection/",
+      "summary": "Mutsamudu, Comoros, October 1, 2026 – MEXC, a pioneer in 0-fee digital asset trading, today announced the addition of another 1,000 BTC to its Guardian Fund, marking the second major BTC allocation to the fund this year. The latest addition follows MEXC’s May commitment to expand the Guardian Fund from $100 million to $500 million over two years, further strengthening the fund to keep pace with changing market conditions, security risks, and broader user protection needs. Following the latest allocation, the Guardian Fund now comprises 100 million USDT and 2,000 BTC, further strengthening MEXC",
       "source": "NewsBTC",
-      "date": "2026-09-30",
-      "date_human": "Sep 30, 2026",
-      "pub_ts": 1790805600,
+      "date": "2026-10-01",
+      "date_human": "Oct 1, 2026",
+      "pub_ts": 1790854679,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -309,52 +294,65 @@
       "image_local": null
     },
     {
-      "title": "XRP Price Battling Resistances as BlackRock Rumors Pop",
-      "link": "https://cryptonews.com/news/xrp-price-outlook-support-range-blackrock/",
-      "summary": "The XRP price outlook hinges on $1.45-$1.56 levels as ETF demand grows, but BlackRock has not filed for a spot XRP fund or announced plans.",
+      "title": "The Ethena Crypto Buyback Math Puts the $2 ENA Target to the Test",
+      "link": "https://cryptonews.com/news/ethena-crypto-ena-2-price-target-standard-chartered/",
+      "summary": "Standard Chartered’s ENA price target of $2 depends on USDe reaching $40 billion and buybacks scaling with protocol revenue by 2028.",
       "source": "Cryptonews",
-      "date": "2026-09-30",
-      "date_human": "Sep 30, 2026",
-      "pub_ts": 1790792580,
+      "date": "2026-10-01",
+      "date_human": "Oct 1, 2026",
+      "pub_ts": 1790851030,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Superstate Expands Tokenized Short-Duration US Treasury Fund (USTB) To Base",
-      "link": "https://www.newsbtc.com/news/defi/superstate-expands-tokenized-short-duration-us-treasury-fund-ustb-to-b/",
-      "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for Superstate Expands Tokenized Short-Duration US Treasury Fund (USTB) To Base. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filings verified on SEPTEMBER 30, 2026, this development introduces crucial infrastructure enhancements. Industry leaders note that maintaining robust compliance, security, and market liquidity remains ess",
+      "title": "EigenLayer Unveils Dual-Staking Extension For Bitcoin Asset Security",
+      "link": "https://www.newsbtc.com/news/defi/eigenlayer-unveils-dual-staking-extension-for-bitcoin-asset-security/",
+      "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for EigenLayer Unveils Dual-Staking Extension For Bitcoin Asset Security. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filings verified on SEPTEMBER 30, 2026, this development introduces crucial infrastructure enhancements. Industry leaders note that maintaining robust compliance, security, and market liquidity remains essential ",
       "source": "NewsBTC",
       "date": "2026-09-30",
       "date_human": "Sep 30, 2026",
-      "pub_ts": 1790802000,
+      "pub_ts": 1790809200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Bitcoin Price Tests $83,000 Ahead of Key PCE Inflation Release",
-      "link": "https://cryptonews.com/news/core-pce-bitcoin-price-levels/",
-      "summary": "Bitcoin sits near $82,735 ahead of the August core PCE release, with Fed rate expectations and leverage shaping the next market move for traders.",
+      "title": "Bitcoin Price Tests $85,000 as Citi Raises Target to $113K",
+      "link": "https://cryptonews.com/news/bitcoin-price-forecast-citi-target/",
+      "summary": "Citi’s Bitcoin price forecast rises to $113,000, but its $5 billion inflow outlook depends on steady institutional demand over 12 months.",
       "source": "Cryptonews",
-      "date": "2026-09-30",
-      "date_human": "Sep 30, 2026",
-      "pub_ts": 1790765234,
+      "date": "2026-10-01",
+      "date_human": "Oct 1, 2026",
+      "pub_ts": 1790845314,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "FOMC Polymarket Odds: A Rate Hold Regains the Edge in October Pricing",
-      "link": "https://cryptonews.com/news/fomc-polymarket-odds-october-fed-hold/",
-      "summary": "Polymarket pricing now gives a hold a 58.5% chance at the October Fed meeting after hike odds fell 27 points in 24 hours on September 30.",
-      "source": "Cryptonews",
+      "title": "Orderly Network Surpasses $100 Billion In Cumulative Trading Volume",
+      "link": "https://www.newsbtc.com/news/defi/orderly-network-surpasses-100-billion-in-cumulative-trading-volume/",
+      "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for Orderly Network Surpasses $100 Billion In Cumulative Trading Volume. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filings verified on SEPTEMBER 30, 2026, this development introduces crucial infrastructure enhancements. Industry leaders note that maintaining robust compliance, security, and market liquidity remains essential a",
+      "source": "NewsBTC",
       "date": "2026-09-30",
       "date_human": "Sep 30, 2026",
-      "pub_ts": 1790762442,
+      "pub_ts": 1790805600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "MetaMask Lido Validators Exit After Infrastructure Compromise",
+      "link": "https://cryptonews.com/news/metamask-lido-validator-exits/",
+      "summary": "MetaMask validator exits could take up to 45 days as Lido investigates an infrastructure incident, with affected validators and ETH undisclosed.",
+      "source": "Cryptonews",
+      "date": "2026-10-01",
+      "date_human": "Oct 1, 2026",
+      "pub_ts": 1790835339,
       "image_candidates": [],
       "license_url": null,
       "image": null,
