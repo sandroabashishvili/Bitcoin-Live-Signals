@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-09-30",
-  "generated_at_utc": "2026-09-30 22:05:07 UTC",
+  "day_iso": "2026-10-01",
+  "generated_at_utc": "2026-10-01 04:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-09-30T22:05:02.322251+00:00",
+    "collected_at": "2026-10-01T04:05:03.400531+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 2,
+        "eligible": 3,
         "rejected": {
-          "unreviewed_link": 8
+          "unreviewed_link": 7
         }
       },
       {
@@ -50,9 +50,9 @@
         "entries": 20,
         "within_24h": 12,
         "within_window": 20,
-        "eligible": 11,
+        "eligible": 10,
         "rejected": {
-          "topic_author_or_category": 6,
+          "topic_author_or_category": 7,
           "title_filter": 3
         }
       },
@@ -98,7 +98,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 3,
+        "within_24h": 2,
         "within_window": 4,
         "eligible": 1,
         "rejected": {
@@ -181,24 +181,24 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 11,
+      "NewsBTC": 3,
+      "Cryptonews": 10,
       "Federal Reserve Board": 1,
       "U.S. Bureau of Economic Analysis": 2,
       "U.S. Bureau of Labor Statistics": 1,
       "European Central Bank": 1
     },
     "unique_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 11,
+      "NewsBTC": 3,
+      "Cryptonews": 10,
       "Federal Reserve Board": 1,
       "U.S. Bureau of Economic Analysis": 2,
       "U.S. Bureau of Labor Statistics": 1,
       "European Central Bank": 1
     },
     "selected_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 5,
+      "NewsBTC": 3,
+      "Cryptonews": 4,
       "Federal Reserve Board": 1,
       "U.S. Bureau of Economic Analysis": 2,
       "U.S. Bureau of Labor Statistics": 1,
@@ -208,13 +208,13 @@
   "count": 12,
   "items": [
     {
-      "title": "Orderly Network Surpasses $100 Billion In Cumulative Trading Volume",
-      "link": "https://www.newsbtc.com/news/defi/orderly-network-surpasses-100-billion-in-cumulative-trading-volume/",
-      "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for Orderly Network Surpasses $100 Billion In Cumulative Trading Volume. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filings verified on SEPTEMBER 30, 2026, this development introduces crucial infrastructure enhancements. Industry leaders note that maintaining robust compliance, security, and market liquidity remains essential a",
+      "title": "EigenLayer Unveils Dual-Staking Extension For Bitcoin Asset Security",
+      "link": "https://www.newsbtc.com/news/defi/eigenlayer-unveils-dual-staking-extension-for-bitcoin-asset-security/",
+      "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for EigenLayer Unveils Dual-Staking Extension For Bitcoin Asset Security. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filings verified on SEPTEMBER 30, 2026, this development introduces crucial infrastructure enhancements. Industry leaders note that maintaining robust compliance, security, and market liquidity remains essential ",
       "source": "NewsBTC",
       "date": "2026-09-30",
       "date_human": "Sep 30, 2026",
-      "pub_ts": 1790805600,
+      "pub_ts": 1790809200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -286,13 +286,13 @@
       "image_local": null
     },
     {
-      "title": "Superstate Expands Tokenized Short-Duration US Treasury Fund (USTB) To Base",
-      "link": "https://www.newsbtc.com/news/defi/superstate-expands-tokenized-short-duration-us-treasury-fund-ustb-to-b/",
-      "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for Superstate Expands Tokenized Short-Duration US Treasury Fund (USTB) To Base. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filings verified on SEPTEMBER 30, 2026, this development introduces crucial infrastructure enhancements. Industry leaders note that maintaining robust compliance, security, and market liquidity remains ess",
+      "title": "Orderly Network Surpasses $100 Billion In Cumulative Trading Volume",
+      "link": "https://www.newsbtc.com/news/defi/orderly-network-surpasses-100-billion-in-cumulative-trading-volume/",
+      "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for Orderly Network Surpasses $100 Billion In Cumulative Trading Volume. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filings verified on SEPTEMBER 30, 2026, this development introduces crucial infrastructure enhancements. Industry leaders note that maintaining robust compliance, security, and market liquidity remains essential a",
       "source": "NewsBTC",
       "date": "2026-09-30",
       "date_human": "Sep 30, 2026",
-      "pub_ts": 1790802000,
+      "pub_ts": 1790805600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -325,6 +325,19 @@
       "image_local": null
     },
     {
+      "title": "Superstate Expands Tokenized Short-Duration US Treasury Fund (USTB) To Base",
+      "link": "https://www.newsbtc.com/news/defi/superstate-expands-tokenized-short-duration-us-treasury-fund-ustb-to-b/",
+      "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for Superstate Expands Tokenized Short-Duration US Treasury Fund (USTB) To Base. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filings verified on SEPTEMBER 30, 2026, this development introduces crucial infrastructure enhancements. Industry leaders note that maintaining robust compliance, security, and market liquidity remains ess",
+      "source": "NewsBTC",
+      "date": "2026-09-30",
+      "date_human": "Sep 30, 2026",
+      "pub_ts": 1790802000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "FOMC Polymarket Odds: A Rate Hold Regains the Edge in October Pricing",
       "link": "https://cryptonews.com/news/fomc-polymarket-odds-october-fed-hold/",
       "summary": "Polymarket pricing now gives a hold a 58.5% chance at the October Fed meeting after hike odds fell 27 points in 24 hours on September 30.",
@@ -345,19 +358,6 @@
       "date": "2026-09-30",
       "date_human": "Sep 30, 2026",
       "pub_ts": 1790760251,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: Brazil $4T Financial Infrastructure Expands Onto XRPL",
-      "link": "https://cryptonews.com/news/xrp-ledger-btg-fund-news-records/",
-      "summary": "CSD BR mirrors live BTG Pactual fund ownership records on the XRP Ledger, adding public verification without replacing its official database.",
-      "source": "Cryptonews",
-      "date": "2026-09-30",
-      "date_human": "Sep 30, 2026",
-      "pub_ts": 1790752345,
       "image_candidates": [],
       "license_url": null,
       "image": null,
