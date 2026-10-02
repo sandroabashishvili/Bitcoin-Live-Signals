@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-02",
-  "generated_at_utc": "2026-10-02 10:05:11 UTC",
+  "generated_at_utc": "2026-10-02 16:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-02T10:05:06.018357+00:00",
+    "collected_at": "2026-10-02T16:05:05.237326+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 14,
+        "within_24h": 12,
         "within_window": 20,
         "eligible": 9,
         "rejected": {
-          "title_filter": 4,
-          "topic_author_or_category": 5,
+          "title_filter": 5,
+          "topic_author_or_category": 4,
           "unreviewed_link": 2
         }
       },
@@ -75,10 +75,10 @@
         "status": "ok",
         "entries": 49,
         "within_24h": 0,
-        "within_window": 2,
-        "eligible": 2,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 47
+          "older_than_window": 49
         }
       },
       {
@@ -86,12 +86,12 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 2,
-        "within_window": 5,
+        "within_24h": 1,
+        "within_window": 4,
         "eligible": 1,
         "rejected": {
-          "topic_author_or_category": 4,
-          "older_than_window": 20
+          "topic_author_or_category": 3,
+          "older_than_window": 21
         }
       },
       {
@@ -100,11 +100,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 2,
-        "within_window": 4,
+        "within_window": 5,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 4,
-          "older_than_window": 11
+          "unreviewed_link": 5,
+          "older_than_window": 10
         }
       },
       {
@@ -112,11 +112,11 @@
         "url": "https://bitcoinops.org/feed.xml",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 10
+          "older_than_window": 9
         }
       },
       {
@@ -148,11 +148,11 @@
         "url": "https://www.bls.gov/feed/empsit.rss",
         "status": "ok",
         "entries": 12,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 12
+          "older_than_window": 11
         }
       },
       {
@@ -172,45 +172,72 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 0,
+        "within_24h": 1,
         "within_window": 1,
-        "eligible": 1,
+        "eligible": 0,
         "rejected": {
+          "topic_author_or_category": 1,
           "older_than_window": 19
         }
       }
     ],
     "eligible_by_source": {
       "Cryptonews": 9,
-      "SEC": 1,
-      "Federal Reserve Board": 1,
-      "U.S. Bureau of Economic Analysis": 2
+      "U.S. Bureau of Labor Statistics": 1,
+      "Bitcoin Optech": 1,
+      "SEC": 1
     },
     "unique_by_source": {
       "Cryptonews": 9,
-      "SEC": 1,
-      "Federal Reserve Board": 1,
-      "U.S. Bureau of Economic Analysis": 2
+      "U.S. Bureau of Labor Statistics": 1,
+      "Bitcoin Optech": 1,
+      "SEC": 1
     },
     "selected_by_source": {
-      "Cryptonews": 8,
-      "SEC": 1,
-      "Federal Reserve Board": 1,
-      "U.S. Bureau of Economic Analysis": 2
+      "Cryptonews": 9,
+      "U.S. Bureau of Labor Statistics": 1,
+      "Bitcoin Optech": 1,
+      "SEC": 1
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "El Salvador Agrees to Halt Further Bitcoin Accumulation Under IMF Deal",
-      "link": "https://cryptonews.com/news/el-salvador-bitcoin-imf-funding/",
-      "summary": "El Salvador Bitcoin policy shifts as the IMF releases $138 million, waives a missed criterion and presses for less state involvement in crypto.",
+      "title": "Tokenized Stocks, Investor Rights, and Their Crypto Role",
+      "link": "https://cryptonews.com/news/tokenized-stocks-ownership-liquidity/",
+      "summary": "Tokenized stocks may expand crypto access to equities, but legal rights, custody and liquidity determine what investors actually own on-chain.",
       "source": "Cryptonews",
       "date": "2026-10-02",
       "date_human": "Oct 2, 2026",
-      "pub_ts": 1790932620,
+      "pub_ts": 1790951400,
       "image_candidates": [],
       "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",
+      "link": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
+      "summary": "Both nonfarm payroll employment (+29,000) and the unemployment rate (4.2 percent) changed little in September. Employment in all major industries changed little over the month.",
+      "source": "U.S. Bureau of Labor Statistics",
+      "date": "2026-10-02",
+      "date_human": "Oct 2, 2026",
+      "pub_ts": 1790941868,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Optech Newsletter #425",
+      "link": "https://bitcoinops.org/en/newsletters/2026/10/02/",
+      "summary": "This week’s newsletter summarizes the responsible disclosure of two denial-of-service vulnerabilities affecting older versions of Eclair and describes a proposal for synchronizing wallet labels between devices through an untrusted store. Also included are our regular sections summarizing proposals and discussion about changing Bitcoin’s consensus rules, announcing new releases and release candidates, and describing notable changes to popular Bitcoin infrastructure software.",
+      "source": "Bitcoin Optech",
+      "date": "2026-10-02",
+      "date_human": "Oct 2, 2026",
+      "pub_ts": 1790899200,
+      "image_candidates": [],
+      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
       "image": null,
       "image_local": null
     },
@@ -228,26 +255,13 @@
       "image_local": null
     },
     {
-      "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
-      "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-      "source": "Federal Reserve Board",
-      "date": "2026-09-30",
-      "date_human": "Sep 30, 2026",
-      "pub_ts": 1790773200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Personal Income and Outlays, August 2026",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-august-2026",
-      "summary": "Personal income increased $66.6 billion (0.2 percent at a monthly rate) in August, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)-personal income less personal current taxes-increased $68.6 billion (0.3 percent), and personal consumption expenditures (PCE) increased $190.8 billion (0.9 percent). Personal outlays-the sum of PCE, personal interest payments, and personal current transfer payments-increased $190.7 billion in August. Personal saving was $990.2 billion, and the personal saving rate-personal saving as a percentage",
-      "source": "U.S. Bureau of Economic Analysis",
-      "date": "2026-09-30",
-      "date_human": "Sep 30, 2026",
-      "pub_ts": 1790771460,
+      "title": "El Salvador Agrees to Halt Further Bitcoin Accumulation Under IMF Deal",
+      "link": "https://cryptonews.com/news/el-salvador-bitcoin-imf-funding/",
+      "summary": "El Salvador Bitcoin policy shifts as the IMF releases $138 million, waives a missed criterion and presses for less state involvement in crypto.",
+      "source": "Cryptonews",
+      "date": "2026-10-02",
+      "date_human": "Oct 2, 2026",
+      "pub_ts": 1790932620,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -261,19 +275,6 @@
       "date": "2026-10-02",
       "date_human": "Oct 2, 2026",
       "pub_ts": 1790923643,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "GDP, (Third Estimate), Industries, Corporate Profits, State GDP, and State Personal Income, 2nd Quarter 2026; State PCE, 2025",
-      "link": "https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-2nd",
-      "summary": "Real gross domestic product (GDP) increased at an annual rate of 2.2 percent in the second quarter of 2026 (April, May, and June), according to the third estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the first quarter, real GDP increased 2.5 percent (revised). The contributors to the increase in real GDP in the second quarter were consumer spending, investment, and exports. Imports, which are a subtraction in the calculation of GDP, increased.At the state level, real GDP ranged from a 4.0 percent increase in New York to a 2.3 percent decrease in West Virginia.",
-      "source": "U.S. Bureau of Economic Analysis",
-      "date": "2026-09-30",
-      "date_human": "Sep 30, 2026",
-      "pub_ts": 1790771400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
