@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-02",
-  "generated_at_utc": "2026-10-02 04:05:08 UTC",
+  "generated_at_utc": "2026-10-02 10:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-02T04:05:03.310574+00:00",
+    "collected_at": "2026-10-02T10:05:06.018357+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 2,
+        "within_24h": 10,
         "within_window": 10,
-        "eligible": 5,
+        "eligible": 0,
         "rejected": {
-          "unreviewed_link": 5
+          "unreviewed_link": 10
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 15,
+        "within_24h": 14,
         "within_window": 20,
-        "eligible": 8,
+        "eligible": 9,
         "rejected": {
-          "topic_author_or_category": 6,
-          "unreviewed_link": 2,
-          "title_filter": 4
+          "title_filter": 4,
+          "topic_author_or_category": 5,
+          "unreviewed_link": 2
         }
       },
       {
@@ -181,23 +181,20 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 8,
+      "Cryptonews": 9,
       "SEC": 1,
-      "NewsBTC": 5,
       "Federal Reserve Board": 1,
       "U.S. Bureau of Economic Analysis": 2
     },
     "unique_by_source": {
-      "Cryptonews": 8,
+      "Cryptonews": 9,
       "SEC": 1,
-      "NewsBTC": 5,
       "Federal Reserve Board": 1,
       "U.S. Bureau of Economic Analysis": 2
     },
     "selected_by_source": {
-      "Cryptonews": 4,
+      "Cryptonews": 8,
       "SEC": 1,
-      "NewsBTC": 4,
       "Federal Reserve Board": 1,
       "U.S. Bureau of Economic Analysis": 2
     }
@@ -205,13 +202,13 @@
   "count": 12,
   "items": [
     {
-      "title": "Vault Access and Interest Rules at Center of XRPL Lending Vote",
-      "link": "https://cryptonews.com/news/xrpl-lending-vote-changes/",
-      "summary": "XRPL lending proposal would introduce closed-ended vaults and cash-basis interest accounting, but three amendments are needed before launch.",
+      "title": "El Salvador Agrees to Halt Further Bitcoin Accumulation Under IMF Deal",
+      "link": "https://cryptonews.com/news/el-salvador-bitcoin-imf-funding/",
+      "summary": "El Salvador Bitcoin policy shifts as the IMF releases $138 million, waives a missed criterion and presses for less state involvement in crypto.",
       "source": "Cryptonews",
-      "date": "2026-10-01",
-      "date_human": "Oct 1, 2026",
-      "pub_ts": 1790884200,
+      "date": "2026-10-02",
+      "date_human": "Oct 2, 2026",
+      "pub_ts": 1790932620,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -225,19 +222,6 @@
       "date": "2026-10-01",
       "date_human": "Oct 1, 2026",
       "pub_ts": 1790871367,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "TopNod Wallet Debuts Access to Axil's APT (Axil Pot), a T+0 On-Chain Yield Product for Everyday Idle Liquidity",
-      "link": "https://www.newsbtc.com/news/topnod-wallet-debuts-access-to-axils-apt-axil-pot-a-t0-on-chain-yield-product-for-everyday-idle-liquidity/",
-      "summary": "Offering ~8% Target APY and Instant T+0 Liquidity with an Initial $10M Capacity Cap Singapore, October 1, 2026 —TopNod has integrated Axil Pot (APT), a new on-chain yield vault curated by Axil, now accessible directly through TopNod Wallet. Targeting an estimated ~8% APY alongside T+0/T+7 liquidity options for everyday capital needs, the vault opens with an initial $10 million capacity cap, letting users put idle on-chain capital to work without lock-up periods—keeping their capital accessible whenever they need it. Modeled after the everyday cash-management tools popularized by fintech super-",
-      "source": "NewsBTC",
-      "date": "2026-10-01",
-      "date_human": "Oct 1, 2026",
-      "pub_ts": 1790855036,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -270,26 +254,13 @@
       "image_local": null
     },
     {
-      "title": "XRP News: $1.49B Unlock Leaves Net Supply Unclear",
-      "link": "https://cryptonews.com/news/xrp-price-escrow-unlock-news/",
-      "summary": "XRP price analysis weighs Ripple’s 1 billion XRP escrow release against $1.50 resistance, with sales and net supply still unconfirmed.",
+      "title": "Two Safe Wallets Lose $305,000 in FlashLoopAdapter Attack",
+      "link": "https://cryptonews.com/news/aave-hack-flashloopadapter-safe-wallet-exploit/",
+      "summary": "A FlashLoopAdapter exploit on Ethereum caused an estimated $305,000 net loss for two Safe wallets, while Aave says its core contracts were unaffected.",
       "source": "Cryptonews",
-      "date": "2026-10-01",
-      "date_human": "Oct 1, 2026",
-      "pub_ts": 1790867820,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "MEXC adds another 1,000 BTC to Guardian Fund, strengthening user protection",
-      "link": "https://www.newsbtc.com/news/mexc-adds-another-1000-btc-to-guardian-fund-strengthening-user-protection/",
-      "summary": "Mutsamudu, Comoros, October 1, 2026 – MEXC, a pioneer in 0-fee digital asset trading, today announced the addition of another 1,000 BTC to its Guardian Fund, marking the second major BTC allocation to the fund this year. The latest addition follows MEXC’s May commitment to expand the Guardian Fund from $100 million to $500 million over two years, further strengthening the fund to keep pace with changing market conditions, security risks, and broader user protection needs. Following the latest allocation, the Guardian Fund now comprises 100 million USDT and 2,000 BTC, further strengthening MEXC",
-      "source": "NewsBTC",
-      "date": "2026-10-01",
-      "date_human": "Oct 1, 2026",
-      "pub_ts": 1790854679,
+      "date": "2026-10-02",
+      "date_human": "Oct 2, 2026",
+      "pub_ts": 1790923643,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -309,6 +280,45 @@
       "image_local": null
     },
     {
+      "title": "Evernorth XRP Treasury Clears Vote, Awaits October Closing",
+      "link": "https://cryptonews.com/news/xrp-news-treasury-evernorth-vote/",
+      "summary": "Evernorth’s XRP treasury wins shareholder approval, with about $300 million in gross proceeds and an October 7 closing still conditional.",
+      "source": "Cryptonews",
+      "date": "2026-10-02",
+      "date_human": "Oct 2, 2026",
+      "pub_ts": 1790922808,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Vault Access and Interest Rules at Center of XRPL Lending Vote",
+      "link": "https://cryptonews.com/news/xrpl-lending-vote-changes/",
+      "summary": "XRPL lending proposal would introduce closed-ended vaults and cash-basis interest accounting, but three amendments are needed before launch.",
+      "source": "Cryptonews",
+      "date": "2026-10-01",
+      "date_human": "Oct 1, 2026",
+      "pub_ts": 1790884200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: $1.49B Unlock Leaves Net Supply Unclear",
+      "link": "https://cryptonews.com/news/xrp-price-escrow-unlock-news/",
+      "summary": "XRP price analysis weighs Ripple’s 1 billion XRP escrow release against $1.50 resistance, with sales and net supply still unconfirmed.",
+      "source": "Cryptonews",
+      "date": "2026-10-01",
+      "date_human": "Oct 1, 2026",
+      "pub_ts": 1790867820,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "China Crypto Future: Solana Co. CEO Joseph Chee on Regulation",
       "link": "https://cryptonews.com/news/china-crypto-policy-forecast/",
       "summary": "China crypto policy remains uncertain after Joseph Chee forecast tighter oversight, with no timeline or confirmed plan for mainland market access.",
@@ -316,19 +326,6 @@
       "date": "2026-10-01",
       "date_human": "Oct 1, 2026",
       "pub_ts": 1790859720,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "EigenLayer Unveils Dual-Staking Extension For Bitcoin Asset Security",
-      "link": "https://www.newsbtc.com/news/defi/eigenlayer-unveils-dual-staking-extension-for-bitcoin-asset-security/",
-      "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for EigenLayer Unveils Dual-Staking Extension For Bitcoin Asset Security. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filings verified on SEPTEMBER 30, 2026, this development introduces crucial infrastructure enhancements. Industry leaders note that maintaining robust compliance, security, and market liquidity remains essential ",
-      "source": "NewsBTC",
-      "date": "2026-09-30",
-      "date_human": "Sep 30, 2026",
-      "pub_ts": 1790809200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -348,13 +345,13 @@
       "image_local": null
     },
     {
-      "title": "Orderly Network Surpasses $100 Billion In Cumulative Trading Volume",
-      "link": "https://www.newsbtc.com/news/defi/orderly-network-surpasses-100-billion-in-cumulative-trading-volume/",
-      "summary": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for Orderly Network Surpasses $100 Billion In Cumulative Trading Volume. This operational move highlights expanding activity across the digital asset ecosystem and underscores key developments for market participants. Key Operational Milestones & Context According to primary regulatory and corporate filings verified on SEPTEMBER 30, 2026, this development introduces crucial infrastructure enhancements. Industry leaders note that maintaining robust compliance, security, and market liquidity remains essential a",
-      "source": "NewsBTC",
-      "date": "2026-09-30",
-      "date_human": "Sep 30, 2026",
-      "pub_ts": 1790805600,
+      "title": "Bitcoin Price Tests $85,000 as Citi Raises Target to $113K",
+      "link": "https://cryptonews.com/news/bitcoin-price-forecast-citi-target/",
+      "summary": "Citi’s Bitcoin price forecast rises to $113,000, but its $5 billion inflow outlook depends on steady institutional demand over 12 months.",
+      "source": "Cryptonews",
+      "date": "2026-10-01",
+      "date_human": "Oct 1, 2026",
+      "pub_ts": 1790845314,
       "image_candidates": [],
       "license_url": null,
       "image": null,
