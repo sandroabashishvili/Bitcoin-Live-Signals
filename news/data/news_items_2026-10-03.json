@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-03",
-  "generated_at_utc": "2026-10-03 10:05:06 UTC",
+  "generated_at_utc": "2026-10-03 16:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-03T10:05:01.679738+00:00",
+    "collected_at": "2026-10-03T16:05:01.735490+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,14 +48,14 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 4,
-        "within_window": 18,
-        "eligible": 9,
+        "within_24h": 2,
+        "within_window": 14,
+        "eligible": 6,
         "rejected": {
-          "title_filter": 3,
           "topic_author_or_category": 4,
-          "unreviewed_link": 2,
-          "older_than_window": 2
+          "title_filter": 3,
+          "unreviewed_link": 1,
+          "older_than_window": 6
         }
       },
       {
@@ -88,11 +88,10 @@
         "status": "ok",
         "entries": 25,
         "within_24h": 0,
-        "within_window": 2,
+        "within_window": 1,
         "eligible": 1,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 23
+          "older_than_window": 24
         }
       },
       {
@@ -100,12 +99,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 2,
-        "within_window": 4,
+        "within_24h": 0,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 4,
-          "older_than_window": 11
+          "unreviewed_link": 2,
+          "older_than_window": 13
         }
       },
       {
@@ -149,7 +148,7 @@
         "url": "https://www.bls.gov/feed/empsit.rss",
         "status": "ok",
         "entries": 12,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 1,
         "rejected": {
@@ -173,7 +172,7 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 3,
+        "within_24h": 2,
         "within_window": 3,
         "eligible": 0,
         "rejected": {
@@ -183,25 +182,25 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 9,
+      "Cryptonews": 6,
       "U.S. Bureau of Labor Statistics": 1,
       "Bitcoin Optech": 1,
       "SEC": 1
     },
     "unique_by_source": {
-      "Cryptonews": 9,
+      "Cryptonews": 6,
       "U.S. Bureau of Labor Statistics": 1,
       "Bitcoin Optech": 1,
       "SEC": 1
     },
     "selected_by_source": {
-      "Cryptonews": 9,
+      "Cryptonews": 6,
       "U.S. Bureau of Labor Statistics": 1,
       "Bitcoin Optech": 1,
       "SEC": 1
     }
   },
-  "count": 12,
+  "count": 9,
   "items": [
     {
       "title": "XRP Price, $300M ETF Demand, and 45% Q3 Supply Overhang",
@@ -315,45 +314,6 @@
       "date": "2026-10-01",
       "date_human": "Oct 1, 2026",
       "pub_ts": 1790884200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: $1.49B Unlock Leaves Net Supply Unclear",
-      "link": "https://cryptonews.com/news/xrp-price-escrow-unlock-news/",
-      "summary": "XRP price analysis weighs Ripple’s 1 billion XRP escrow release against $1.50 resistance, with sales and net supply still unconfirmed.",
-      "source": "Cryptonews",
-      "date": "2026-10-01",
-      "date_human": "Oct 1, 2026",
-      "pub_ts": 1790867820,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "China Crypto Future: Solana Co. CEO Joseph Chee on Regulation",
-      "link": "https://cryptonews.com/news/china-crypto-policy-forecast/",
-      "summary": "China crypto policy remains uncertain after Joseph Chee forecast tighter oversight, with no timeline or confirmed plan for mainland market access.",
-      "source": "Cryptonews",
-      "date": "2026-10-01",
-      "date_human": "Oct 1, 2026",
-      "pub_ts": 1790859720,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "The Ethena Crypto Buyback Math Puts the $2 ENA Target to the Test",
-      "link": "https://cryptonews.com/news/ethena-crypto-ena-2-price-target-standard-chartered/",
-      "summary": "Standard Chartered’s ENA price target of $2 depends on USDe reaching $40 billion and buybacks scaling with protocol revenue by 2028.",
-      "source": "Cryptonews",
-      "date": "2026-10-01",
-      "date_human": "Oct 1, 2026",
-      "pub_ts": 1790851030,
       "image_candidates": [],
       "license_url": null,
       "image": null,
