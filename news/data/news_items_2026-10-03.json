@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-10-02",
-  "generated_at_utc": "2026-10-02 22:05:10 UTC",
+  "day_iso": "2026-10-03",
+  "generated_at_utc": "2026-10-03 04:05:05 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-02T22:05:06.863157+00:00",
+    "collected_at": "2026-10-03T04:05:01.834150+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -112,7 +112,7 @@
         "url": "https://bitcoinops.org/feed.xml",
         "status": "ok",
         "entries": 10,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 1,
         "rejected": {
