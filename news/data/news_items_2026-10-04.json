@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-04",
-  "generated_at_utc": "2026-10-04 10:05:08 UTC",
+  "generated_at_utc": "2026-10-04 16:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-04T10:05:04.319447+00:00",
+    "collected_at": "2026-10-04T16:05:03.739274+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 2,
-        "within_window": 6,
-        "eligible": 2,
+        "within_24h": 1,
+        "within_window": 3,
+        "eligible": 1,
         "rejected": {
-          "title_filter": 3,
+          "title_filter": 1,
           "topic_author_or_category": 1,
-          "older_than_window": 14
+          "older_than_window": 17
         }
       },
       {
@@ -99,11 +99,10 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 2,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 2,
-          "older_than_window": 13
+          "older_than_window": 15
         }
       },
       {
@@ -148,10 +147,10 @@
         "status": "ok",
         "entries": 12,
         "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 11
+          "older_than_window": 12
         }
       },
       {
@@ -172,28 +171,25 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 0,
-        "within_window": 3,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 3,
-          "older_than_window": 17
+          "topic_author_or_category": 2,
+          "older_than_window": 18
         }
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 2,
-      "U.S. Bureau of Labor Statistics": 1
+      "Cryptonews": 1
     },
     "unique_by_source": {
-      "Cryptonews": 2,
-      "U.S. Bureau of Labor Statistics": 1
+      "Cryptonews": 1
     },
     "selected_by_source": {
-      "Cryptonews": 2,
-      "U.S. Bureau of Labor Statistics": 1
+      "Cryptonews": 1
     }
   },
-  "count": 3,
+  "count": 1,
   "items": [
     {
       "title": "XRP Price, $300M ETF Demand, and 45% Q3 Supply Overhang",
@@ -203,32 +199,6 @@
       "date": "2026-10-02",
       "date_human": "Oct 2, 2026",
       "pub_ts": 1790962200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Both payroll employment (+29,000) and unemployment rate (4.2%) change little in September",
-      "link": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
-      "summary": "Both nonfarm payroll employment (+29,000) and the unemployment rate (4.2 percent) changed little in September. Employment in all major industries changed little over the month.",
-      "source": "U.S. Bureau of Labor Statistics",
-      "date": "2026-10-02",
-      "date_human": "Oct 2, 2026",
-      "pub_ts": 1790941868,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Tokenized Stocks, Investor Rights, and Their Crypto Role",
-      "link": "https://cryptonews.com/news/tokenized-stocks-ownership-liquidity/",
-      "summary": "Tokenized stocks may expand crypto access to equities, but legal rights, custody and liquidity determine what investors actually own on-chain.",
-      "source": "Cryptonews",
-      "date": "2026-10-02",
-      "date_human": "Oct 2, 2026",
-      "pub_ts": 1790951400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
