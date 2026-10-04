@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-04",
-  "generated_at_utc": "2026-10-04 04:05:10 UTC",
+  "generated_at_utc": "2026-10-04 10:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-04T04:05:04.059244+00:00",
+    "collected_at": "2026-10-04T10:05:04.319447+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -25,10 +25,10 @@
         "status": "ok",
         "entries": 10,
         "within_24h": 0,
-        "within_window": 10,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 10
+          "older_than_window": 10
         }
       },
       {
@@ -49,12 +49,12 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 2,
-        "within_window": 10,
-        "eligible": 5,
+        "within_window": 6,
+        "eligible": 2,
         "rejected": {
-          "title_filter": 4,
+          "title_filter": 3,
           "topic_author_or_category": 1,
-          "older_than_window": 10
+          "older_than_window": 14
         }
       },
       {
@@ -181,19 +181,19 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 5,
+      "Cryptonews": 2,
       "U.S. Bureau of Labor Statistics": 1
     },
     "unique_by_source": {
-      "Cryptonews": 5,
+      "Cryptonews": 2,
       "U.S. Bureau of Labor Statistics": 1
     },
     "selected_by_source": {
-      "Cryptonews": 5,
+      "Cryptonews": 2,
       "U.S. Bureau of Labor Statistics": 1
     }
   },
-  "count": 6,
+  "count": 3,
   "items": [
     {
       "title": "XRP Price, $300M ETF Demand, and 45% Q3 Supply Overhang",
@@ -229,45 +229,6 @@
       "date": "2026-10-02",
       "date_human": "Oct 2, 2026",
       "pub_ts": 1790951400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "El Salvador Agrees to Halt Further Bitcoin Accumulation Under IMF Deal",
-      "link": "https://cryptonews.com/news/el-salvador-bitcoin-imf-funding/",
-      "summary": "El Salvador Bitcoin policy shifts as the IMF releases $138 million, waives a missed criterion and presses for less state involvement in crypto.",
-      "source": "Cryptonews",
-      "date": "2026-10-02",
-      "date_human": "Oct 2, 2026",
-      "pub_ts": 1790932620,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Two Safe Wallets Lose $305,000 in FlashLoopAdapter Attack",
-      "link": "https://cryptonews.com/news/aave-hack-flashloopadapter-safe-wallet-exploit/",
-      "summary": "A FlashLoopAdapter exploit on Ethereum caused an estimated $305,000 net loss for two Safe wallets, while Aave says its core contracts were unaffected.",
-      "source": "Cryptonews",
-      "date": "2026-10-02",
-      "date_human": "Oct 2, 2026",
-      "pub_ts": 1790923643,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Evernorth XRP Treasury Clears Vote, Awaits October Closing",
-      "link": "https://cryptonews.com/news/xrp-news-treasury-evernorth-vote/",
-      "summary": "Evernorth’s XRP treasury wins shareholder approval, with about $300 million in gross proceeds and an October 7 closing still conditional.",
-      "source": "Cryptonews",
-      "date": "2026-10-02",
-      "date_human": "Oct 2, 2026",
-      "pub_ts": 1790922808,
       "image_candidates": [],
       "license_url": null,
       "image": null,
