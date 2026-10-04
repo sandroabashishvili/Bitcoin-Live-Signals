@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-10-03",
-  "generated_at_utc": "2026-10-03 22:05:07 UTC",
+  "day_iso": "2026-10-04",
+  "generated_at_utc": "2026-10-04 04:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-03T22:05:03.083413+00:00",
+    "collected_at": "2026-10-04T04:05:04.059244+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -112,10 +112,10 @@
         "status": "ok",
         "entries": 10,
         "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 9
+          "older_than_window": 10
         }
       },
       {
@@ -182,21 +182,18 @@
     ],
     "eligible_by_source": {
       "Cryptonews": 5,
-      "U.S. Bureau of Labor Statistics": 1,
-      "Bitcoin Optech": 1
+      "U.S. Bureau of Labor Statistics": 1
     },
     "unique_by_source": {
       "Cryptonews": 5,
-      "U.S. Bureau of Labor Statistics": 1,
-      "Bitcoin Optech": 1
+      "U.S. Bureau of Labor Statistics": 1
     },
     "selected_by_source": {
       "Cryptonews": 5,
-      "U.S. Bureau of Labor Statistics": 1,
-      "Bitcoin Optech": 1
+      "U.S. Bureau of Labor Statistics": 1
     }
   },
-  "count": 7,
+  "count": 6,
   "items": [
     {
       "title": "XRP Price, $300M ETF Demand, and 45% Q3 Supply Overhang",
@@ -221,19 +218,6 @@
       "pub_ts": 1790941868,
       "image_candidates": [],
       "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Optech Newsletter #425",
-      "link": "https://bitcoinops.org/en/newsletters/2026/10/02/",
-      "summary": "This week’s newsletter summarizes the responsible disclosure of two denial-of-service vulnerabilities affecting older versions of Eclair and describes a proposal for synchronizing wallet labels between devices through an untrusted store. Also included are our regular sections summarizing proposals and discussion about changing Bitcoin’s consensus rules, announcing new releases and release candidates, and describing notable changes to popular Bitcoin infrastructure software.",
-      "source": "Bitcoin Optech",
-      "date": "2026-10-02",
-      "date_human": "Oct 2, 2026",
-      "pub_ts": 1790899200,
-      "image_candidates": [],
-      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
       "image": null,
       "image_local": null
     },
