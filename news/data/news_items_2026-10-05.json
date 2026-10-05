@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-05",
-  "generated_at_utc": "2026-10-05 04:05:09 UTC",
+  "generated_at_utc": "2026-10-05 10:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-05T04:05:05.370040+00:00",
+    "collected_at": "2026-10-05T10:05:04.243624+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
-        "within_window": 3,
-        "eligible": 0,
+        "within_24h": 6,
+        "within_window": 8,
+        "eligible": 3,
         "rejected": {
+          "title_filter": 3,
           "topic_author_or_category": 2,
-          "title_filter": 1,
-          "older_than_window": 17
+          "older_than_window": 12
         }
       },
       {
@@ -98,11 +98,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 15
+          "unreviewed_link": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -178,10 +179,56 @@
         }
       }
     ],
-    "eligible_by_source": {},
-    "unique_by_source": {},
-    "selected_by_source": {}
+    "eligible_by_source": {
+      "Cryptonews": 3
+    },
+    "unique_by_source": {
+      "Cryptonews": 3
+    },
+    "selected_by_source": {
+      "Cryptonews": 3
+    }
   },
-  "count": 0,
-  "items": []
+  "count": 3,
+  "items": [
+    {
+      "title": "ADA Price Surges 11%: Why is Cardano Pumping As DEX Activity Falls?",
+      "link": "https://cryptonews.com/news/cardano-news-dex-volume-ada-rally/",
+      "summary": "ADA climbed 10.11% to $0.2678, but Cardano DEX volume fell to $5.72 million on October 3, leaving the rally’s on-chain support unproven.",
+      "source": "Cryptonews",
+      "date": "2026-10-05",
+      "date_human": "Oct 5, 2026",
+      "pub_ts": 1791190454,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Hyperliquid Data Now Live on Bloomberg Terminal as Trump Working to Bring The Platform to The US",
+      "link": "https://cryptonews.com/news/bloomberg-terminal-hyperliquid-data/",
+      "summary": "Bloomberg Terminal access puts Hyperliquid perpetual data in front of professionals, but the listing does not confirm execution, custody or clearing.",
+      "source": "Cryptonews",
+      "date": "2026-10-05",
+      "date_human": "Oct 5, 2026",
+      "pub_ts": 1791187340,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "S&P Global Targets $10B Blockchain Lending Market With New Risk Tool",
+      "link": "https://cryptonews.com/news/sp-global-vault-risk-assessment-defi-lending/",
+      "summary": "S&P’s Vault Risk Assessment weighs six risks in DeFi lending as vault deposits reach $10 billion, but it is not a credit rating.",
+      "source": "Cryptonews",
+      "date": "2026-10-05",
+      "date_human": "Oct 5, 2026",
+      "pub_ts": 1791181804,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
 }
