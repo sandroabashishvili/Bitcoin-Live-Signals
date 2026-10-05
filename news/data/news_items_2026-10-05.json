@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-05",
-  "generated_at_utc": "2026-10-05 10:05:08 UTC",
+  "generated_at_utc": "2026-10-05 16:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-05T10:05:04.243624+00:00",
+    "collected_at": "2026-10-05T16:05:06.628541+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 10
+          "older_than_window": 9
         }
       },
       {
@@ -36,11 +36,12 @@
         "url": "https://www.nist.gov/news-events/news/rss.xml",
         "status": "ok",
         "entries": 40,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 40
+          "topic_author_or_category": 1,
+          "older_than_window": 39
         }
       },
       {
@@ -48,13 +49,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 6,
-        "within_window": 8,
-        "eligible": 3,
+        "within_24h": 11,
+        "within_window": 12,
+        "eligible": 7,
         "rejected": {
-          "title_filter": 3,
-          "topic_author_or_category": 2,
-          "older_than_window": 12
+          "title_filter": 4,
+          "topic_author_or_category": 1,
+          "older_than_window": 8
         }
       },
       {
@@ -86,11 +87,12 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 25
+          "topic_author_or_category": 1,
+          "older_than_window": 24
         }
       },
       {
@@ -180,17 +182,85 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 3
+      "Cryptonews": 7,
+      "NewsBTC": 1
     },
     "unique_by_source": {
-      "Cryptonews": 3
+      "Cryptonews": 7,
+      "NewsBTC": 1
     },
     "selected_by_source": {
-      "Cryptonews": 3
+      "Cryptonews": 7,
+      "NewsBTC": 1
     }
   },
-  "count": 3,
+  "count": 8,
   "items": [
+    {
+      "title": "XRP News: Seoul Event Shows Ripple Reach",
+      "link": "https://cryptonews.com/news/xrp-news-seoul-institutional-ties/",
+      "summary": "Ripple’s Seoul showcase highlights institutional ties in South Korea, but disclosures do not confirm XRP settlement assets, volumes or demand.",
+      "source": "Cryptonews",
+      "date": "2026-10-05",
+      "date_human": "Oct 5, 2026",
+      "pub_ts": 1791214560,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "MEXC and Payward Signal Intent to Explore Broader Collaboration Ahead of TOKEN2049",
+      "link": "https://www.newsbtc.com/news/mexc-and-payward-signal-intent-to-explore-broader-collaboration-ahead-of-token2049/",
+      "summary": "Mutsamudu, Comoros, October 5, 2026, MEXC, a pioneer in 0-fee digital asset trading, and Payward, the parent company of Kraken, are in discussions to explore a collaboration as both platforms look at how exchanges can better serve users across evolving global markets. The two companies will bring the conversation to TOKEN2049 Singapore, where MEXC CEO Vugar Usi Zade and Payward Co-CEO Arjun Sethi will join a panel on the MEXC Stage to discuss the next phase of trading platforms and share further perspectives on collaboration between exchanges. The discussion comes as trading platforms respond ",
+      "source": "NewsBTC",
+      "date": "2026-10-05",
+      "date_human": "Oct 5, 2026",
+      "pub_ts": 1791194963,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Stays Out of the Red as This Bear Market Breaks a Historic Pattern",
+      "link": "https://cryptonews.com/news/bitcoin-price-never-red-this-bear-data/",
+      "summary": "Bitcoin avoided a key bear-market threshold this cycle as Realized Price held, while NUPL stayed positive despite significant investor stress.",
+      "source": "Cryptonews",
+      "date": "2026-10-05",
+      "date_human": "Oct 5, 2026",
+      "pub_ts": 1791205800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Near Protocol ETF Puts NEAR Back on Institutional Investors' Radar",
+      "link": "https://cryptonews.com/news/bitwise-near-protocol-etf/",
+      "summary": "The Bitwise NEAR ETF prospectus outlines NRR’s staking, custody, fees and risks, while noting the proposed NYSE Arca listing.",
+      "source": "Cryptonews",
+      "date": "2026-10-05",
+      "date_human": "Oct 5, 2026",
+      "pub_ts": 1791202623,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Zcash NU7 Upgrade: ZEC Targets 25-Second Blocks In Testnet",
+      "link": "https://cryptonews.com/news/zcash-news-nu7-upgrade-250second-blocks-testnet-zec/",
+      "summary": "Zcash's NU7 upgrade tests 25-second blocks, fee changes and Sprout shutdown before a planned Nov. 5 mainnet rollout, pending review.",
+      "source": "Cryptonews",
+      "date": "2026-10-05",
+      "date_human": "Oct 5, 2026",
+      "pub_ts": 1791197700,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "ADA Price Surges 11%: Why is Cardano Pumping As DEX Activity Falls?",
       "link": "https://cryptonews.com/news/cardano-news-dex-volume-ada-rally/",
