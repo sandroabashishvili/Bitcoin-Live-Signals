@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-06",
-  "generated_at_utc": "2026-10-06 10:05:07 UTC",
+  "generated_at_utc": "2026-10-06 16:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-06T10:05:01.670922+00:00",
+    "collected_at": "2026-10-06T16:05:02.210669+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,12 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 2,
-        "within_window": 2,
-        "eligible": 2,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 8
+          "unreviewed_link": 8,
+          "title_filter": 1
         }
       },
       {
@@ -36,7 +37,7 @@
         "url": "https://www.nist.gov/news-events/news/rss.xml",
         "status": "ok",
         "entries": 40,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -49,12 +50,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 17,
+        "within_24h": 14,
         "within_window": 20,
         "eligible": 11,
         "rejected": {
-          "topic_author_or_category": 4,
-          "title_filter": 5
+          "topic_author_or_category": 5,
+          "title_filter": 4
         }
       },
       {
@@ -73,12 +74,12 @@
         "source": "U.S. Bureau of Economic Analysis",
         "url": "https://apps.bea.gov/rss/rss.xml",
         "status": "ok",
-        "entries": 49,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "entries": 48,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 49
+          "older_than_window": 47
         }
       },
       {
@@ -87,11 +88,11 @@
         "status": "ok",
         "entries": 25,
         "within_24h": 1,
-        "within_window": 1,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 24
+          "topic_author_or_category": 2,
+          "older_than_window": 23
         }
       },
       {
@@ -99,12 +100,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
-        "within_window": 2,
+        "within_24h": 3,
+        "within_window": 4,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 2,
-          "older_than_window": 13
+          "unreviewed_link": 4,
+          "older_than_window": 11
         }
       },
       {
@@ -182,20 +183,62 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 11,
-      "NewsBTC": 2
+      "NewsBTC": 1,
+      "U.S. Bureau of Economic Analysis": 1,
+      "Cryptonews": 11
     },
     "unique_by_source": {
-      "Cryptonews": 11,
-      "NewsBTC": 2
+      "NewsBTC": 1,
+      "U.S. Bureau of Economic Analysis": 1,
+      "Cryptonews": 11
     },
     "selected_by_source": {
-      "Cryptonews": 10,
-      "NewsBTC": 2
+      "NewsBTC": 1,
+      "U.S. Bureau of Economic Analysis": 1,
+      "Cryptonews": 10
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "Genius Group Restarts Bitcoin Buying With 10 BTC Purchase",
+      "link": "https://www.newsbtc.com/news/bitcoin/genius-group-restarts-bitcoin-buying-with-10-btc-purchase/",
+      "summary": "TL;DR Genius Group has restarted Bitcoin purchases, buying 10 BTC for approximately $854,000. The company paid an average of $85,364 per Bitcoin across purchases made between October 2 and October 5. The renewed buying follows the removal of a court injunction that had previously restricted the company’s ability to raise funds and purchase Bitcoin. Genius Group is buying Bitcoin again. The AI-powered education company said on October 6 that it acquired 10 BTC for about $854,000 between October 2 and October 5, paying an average price of $85,364 per coin. The purchase marks the resumption of a ",
+      "source": "NewsBTC",
+      "date": "2026-10-06",
+      "date_human": "Oct 6, 2026",
+      "pub_ts": 1791302432,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "U.S. International Trade in Goods and Services, August 2026",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
+      "summary": "The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in August, as imports increased more than exports. The goods deficit increased $12.8 billion in August to $136.6 billion. The services surplus increased less than $0.1 billion in August to $31.0 billion.",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-10-06",
+      "date_human": "Oct 6, 2026",
+      "pub_ts": 1791289800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: Clearpool's XRPL Move Points to RLUSD",
+      "link": "https://cryptonews.com/news/xrp-news-demand-clearpool-xrpl/",
+      "summary": "Clearpool’s 97% migration vote expands on XRPL, but RLUSD loans and CLEAR buybacks leave XRP demand largely unproven ahead of Q4 2026.",
+      "source": "Cryptonews",
+      "date": "2026-10-06",
+      "date_human": "Oct 6, 2026",
+      "pub_ts": 1791288840,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Two Enjin Chain Upgrades Await Governance Approval: Will They Pass?",
       "link": "https://cryptonews.com/news/fort-canning-upgrade-enjin-networ/",
@@ -210,19 +253,6 @@
       "image_local": null
     },
     {
-      "title": "Justin Sun Prize's New Round Honors Human–AI Collaboration on Erdős Problems",
-      "link": "https://www.newsbtc.com/news/justin-sun-prizes-new-round-honors-human-ai-collaboration-on-erdos-problems/",
-      "summary": "Geneva, Switzerland — October 5, 2026 — The Office of Justin Sun today announced the newest recipients of the Justin Sun Prize: independent researcher Wouter van Doorn, mathematics Ph.D. student Quanyu Tang, and mathematics researcher Yanyang Li from Nanjing’s Southeast University, recognized for contributions spanning six Erdős problems. Wouter van Doorn is an independent number theorist who began researching mathematics as an undergraduate in 2010 and continued collaborating and publishing after leaving academia following his master’s degree. Quanyu Tang (汤泉宇) is a mathematics Ph.D. student ",
-      "source": "NewsBTC",
-      "date": "2026-10-05",
-      "date_human": "Oct 5, 2026",
-      "pub_ts": 1791223232,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Solana News: DvP Targets Atomic Settlement",
       "link": "https://cryptonews.com/news/solana-news-dvp-atomic-settlement/",
       "summary": "Solana DvP is an open-source rail for atomic tokenized-asset settlement in seconds, while JPMorgan’s role remains advisory, not a deployment.",
@@ -230,19 +260,6 @@
       "date": "2026-10-06",
       "date_human": "Oct 6, 2026",
       "pub_ts": 1791276000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "MEXC and Payward Signal Intent to Explore Broader Collaboration Ahead of TOKEN2049",
-      "link": "https://www.newsbtc.com/news/mexc-and-payward-signal-intent-to-explore-broader-collaboration-ahead-of-token2049/",
-      "summary": "Mutsamudu, Comoros, October 5, 2026, MEXC, a pioneer in 0-fee digital asset trading, and Payward, the parent company of Kraken, are in discussions to explore a collaboration as both platforms look at how exchanges can better serve users across evolving global markets. The two companies will bring the conversation to TOKEN2049 Singapore, where MEXC CEO Vugar Usi Zade and Payward Co-CEO Arjun Sethi will join a panel on the MEXC Stage to discuss the next phase of trading platforms and share further perspectives on collaboration between exchanges. The discussion comes as trading platforms respond ",
-      "source": "NewsBTC",
-      "date": "2026-10-05",
-      "date_human": "Oct 5, 2026",
-      "pub_ts": 1791194963,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -334,19 +351,6 @@
       "date": "2026-10-05",
       "date_human": "Oct 5, 2026",
       "pub_ts": 1791197700,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "ADA Price Surges 11%: Why is Cardano Pumping As DEX Activity Falls?",
-      "link": "https://cryptonews.com/news/cardano-news-dex-volume-ada-rally/",
-      "summary": "ADA climbed 10.11% to $0.2678, but Cardano DEX volume fell to $5.72 million on October 3, leaving the rally’s on-chain support unproven.",
-      "source": "Cryptonews",
-      "date": "2026-10-05",
-      "date_human": "Oct 5, 2026",
-      "pub_ts": 1791190454,
       "image_candidates": [],
       "license_url": null,
       "image": null,
