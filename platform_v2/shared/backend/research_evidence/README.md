@@ -156,8 +156,10 @@ fixed market/clock, no external IO, identical business rows and complete evidenc
 This is not coverage of every market state or a live operational soak.
 
 The configured cutover verified a private SQLite runtime, installed monitoring,
-and observed pinned atomic cycles and controlled restarts. Final boot acceptance
-is still pending; see the operating guide. No physical power-loss test was performed.
+and observed pinned atomic cycles and controlled restarts. This host completed
+boot acceptance on 2026-10-05 after updating WSL and verifying a clean user bus,
+one supervised runtime tree and fresh cycles; see the operating guide and dated
+local evidence. No physical power-loss test was performed.
 On other installations, flags require a separately reviewed cutover. Disabling
 flags does not remove historical evidence.
 

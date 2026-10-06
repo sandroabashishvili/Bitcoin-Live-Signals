@@ -1,6 +1,6 @@
 # Operating Guide and Current Status
 
-Updated: 2026-09-28. This is the single maintained entry point for current status,
+Updated: 2026-10-05. This is the single maintained entry point for current status,
 everyday commands and next work. Technical specifications remain in their module
 and topic documents. Dated reports describe historical checkpoints, not current deployment.
 
@@ -19,16 +19,21 @@ backup/restore verification and isolated validation passed; the implementation
 checkpoint recorded 74 passing tests. These are dated results, not a test run on
 every future revision. Strategy profitability is not established.
 
-**Final long-run signoff remains pending.** A real reboot started the runtime,
-but a stacked WSL runtime-directory mount hid the user systemd bus. Removing the
-upper mount repaired management access for that boot without restarting trading.
-A permanent recurrence fix and subsequent boot acceptance remain outstanding.
-Do not blindly repeat mount commands or start another runtime if the bus is unavailable.
-The latest inspected health report had no issues; this is not a permanent health guarantee.
+**Long-run operational acceptance passed on 2026-10-05.** The first repeat reboot
+reproduced a WSL 2.5.9/WSLg runtime-directory overlay that hid the user systemd bus.
+WSL was upgraded through Microsoft's supported updater to 3.0.1 (kernel
+6.18.40.1-1), followed by another full Windows reboot. That boot exposed one
+`/run/user/1000` mount, a working bus, one enabled/active runtime service and one
+parent with the expected Spot, Futures and Telegram children. Fresh Spot,
+Futures and Hedge cycles committed against the same pinned release and databases;
+the independent health report had no issues. No custom root mount workaround was
+installed. The monitor's `ready_for_signoff` field deliberately remains false by
+design; operational acceptance is recorded here and in the dated local evidence.
 
 Local evidence (not shipped with GitHub):
 - `~/research_snapshots/readiness_R21_20260928/REPORT.md` — activation checkpoint.
 - `~/research_snapshots/readiness_R21_20260928/user-bus-repair.md` — later boot finding.
+- `~/research_snapshots/readiness_R21_20260928/boot-acceptance-20261005.md` — WSL update and final reboot acceptance.
 - `~/research_snapshots/readiness_R21_20260927/deploy/` — approved deployment files.
 Preserve the release and SQLite library referenced by activation configuration.
 
@@ -121,10 +126,10 @@ are local dependencies, not included in a fresh public source clone.
 
 ## Next work and research boundaries
 
-1. Resolve the WSL management-bus recurrence risk and finish boot/long-run acceptance.
-2. Continue simulation evidence accumulation with a fixed, identified strategy.
-3. Add candle charts with signal, entry/exit and TP/SL markers after reliability acceptance.
-4. Continue reproducible predictive research with sufficient usable history and
+1. Continue simulation evidence accumulation with a fixed, identified strategy.
+2. Add candle charts in an isolated workspace, starting with closed candles and
+   decision-time Spot/Futures signal markers; add entry/exit and TP/SL later.
+3. Continue reproducible predictive research with sufficient usable history and
    frozen comparisons; keep the untouched test cohort closed until its approved stage.
 
 Exploration has shown weak/unstable total-score relationships. This neither proves
