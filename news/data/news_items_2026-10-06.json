@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-06",
-  "generated_at_utc": "2026-10-06 04:05:06 UTC",
+  "generated_at_utc": "2026-10-06 10:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-06T04:05:02.142643+00:00",
+    "collected_at": "2026-10-06T10:05:01.670922+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -49,13 +49,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 14,
-        "within_window": 15,
-        "eligible": 8,
+        "within_24h": 17,
+        "within_window": 20,
+        "eligible": 11,
         "rejected": {
           "topic_author_or_category": 4,
-          "title_filter": 3,
-          "older_than_window": 5
+          "title_filter": 5
         }
       },
       {
@@ -101,11 +100,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 1,
-        "within_window": 1,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 1,
-          "older_than_window": 14
+          "unreviewed_link": 2,
+          "older_than_window": 13
         }
       },
       {
@@ -183,28 +182,28 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 8,
+      "Cryptonews": 11,
       "NewsBTC": 2
     },
     "unique_by_source": {
-      "Cryptonews": 8,
+      "Cryptonews": 11,
       "NewsBTC": 2
     },
     "selected_by_source": {
-      "Cryptonews": 8,
+      "Cryptonews": 10,
       "NewsBTC": 2
     }
   },
-  "count": 10,
+  "count": 12,
   "items": [
     {
-      "title": "XRP Price and Open Interest Leave Room for Positioning as Range Holds",
-      "link": "https://cryptonews.com/news/xrp-price-range-breakout/",
-      "summary": "XRP price remains near $1.52 in a $1.45–$1.55 range, with $1.55 and $1.45 setting the next breakout or downside triggers for traders.",
+      "title": "Two Enjin Chain Upgrades Await Governance Approval: Will They Pass?",
+      "link": "https://cryptonews.com/news/fort-canning-upgrade-enjin-networ/",
+      "summary": "Enjin’s Fort Canning upgrade is scheduled for November 9, with Matrixchain following November 16, but both depend on governance approval.",
       "source": "Cryptonews",
-      "date": "2026-10-05",
-      "date_human": "Oct 5, 2026",
-      "pub_ts": 1791223980,
+      "date": "2026-10-06",
+      "date_human": "Oct 6, 2026",
+      "pub_ts": 1791278100,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -224,13 +223,13 @@
       "image_local": null
     },
     {
-      "title": "XRP News: Seoul Event Shows Ripple Reach",
-      "link": "https://cryptonews.com/news/xrp-news-seoul-institutional-ties/",
-      "summary": "Ripple’s Seoul showcase highlights institutional ties in South Korea, but disclosures do not confirm XRP settlement assets, volumes or demand.",
+      "title": "Solana News: DvP Targets Atomic Settlement",
+      "link": "https://cryptonews.com/news/solana-news-dvp-atomic-settlement/",
+      "summary": "Solana DvP is an open-source rail for atomic tokenized-asset settlement in seconds, while JPMorgan’s role remains advisory, not a deployment.",
       "source": "Cryptonews",
-      "date": "2026-10-05",
-      "date_human": "Oct 5, 2026",
-      "pub_ts": 1791214560,
+      "date": "2026-10-06",
+      "date_human": "Oct 6, 2026",
+      "pub_ts": 1791276000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -244,6 +243,58 @@
       "date": "2026-10-05",
       "date_human": "Oct 5, 2026",
       "pub_ts": 1791194963,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Could Reverse Following Tech Stocks, Peter Schiff Says",
+      "link": "https://cryptonews.com/news/bitcoin-price-strategy-funding/",
+      "summary": "Strategy bought 334 BTC, but its $176.3 million STRC buyback leaves the Bitcoin price outlook tied to whether funding can sustain future purchases.",
+      "source": "Cryptonews",
+      "date": "2026-10-06",
+      "date_human": "Oct 6, 2026",
+      "pub_ts": 1791273668,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "TOKEN2049 Singapore Schedule Puts Institutional DeFi on the 2026 Agenda",
+      "link": "https://cryptonews.com/news/token2049-singapore-institutional-defi/",
+      "summary": "TOKEN2049 Singapore’s 2026 agenda pairs institutional finance with DeFi, on-chain trading and market structure—without confirming deals or launches.",
+      "source": "Cryptonews",
+      "date": "2026-10-06",
+      "date_human": "Oct 6, 2026",
+      "pub_ts": 1791272220,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Price and Open Interest Leave Room for Positioning as Range Holds",
+      "link": "https://cryptonews.com/news/xrp-price-range-breakout/",
+      "summary": "XRP price remains near $1.52 in a $1.45–$1.55 range, with $1.55 and $1.45 setting the next breakout or downside triggers for traders.",
+      "source": "Cryptonews",
+      "date": "2026-10-05",
+      "date_human": "Oct 5, 2026",
+      "pub_ts": 1791223980,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: Seoul Event Shows Ripple Reach",
+      "link": "https://cryptonews.com/news/xrp-news-seoul-institutional-ties/",
+      "summary": "Ripple’s Seoul showcase highlights institutional ties in South Korea, but disclosures do not confirm XRP settlement assets, volumes or demand.",
+      "source": "Cryptonews",
+      "date": "2026-10-05",
+      "date_human": "Oct 5, 2026",
+      "pub_ts": 1791214560,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -296,32 +347,6 @@
       "date": "2026-10-05",
       "date_human": "Oct 5, 2026",
       "pub_ts": 1791190454,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Hyperliquid Data Now Live on Bloomberg Terminal as Trump Working to Bring The Platform to The US",
-      "link": "https://cryptonews.com/news/bloomberg-terminal-hyperliquid-data/",
-      "summary": "Bloomberg Terminal access puts Hyperliquid perpetual data in front of professionals, but the listing does not confirm execution, custody or clearing.",
-      "source": "Cryptonews",
-      "date": "2026-10-05",
-      "date_human": "Oct 5, 2026",
-      "pub_ts": 1791187340,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "S&P Global Targets $10B Blockchain Lending Market With New Risk Tool",
-      "link": "https://cryptonews.com/news/sp-global-vault-risk-assessment-defi-lending/",
-      "summary": "S&P’s Vault Risk Assessment weighs six risks in DeFi lending as vault deposits reach $10 billion, but it is not a credit rating.",
-      "source": "Cryptonews",
-      "date": "2026-10-05",
-      "date_human": "Oct 5, 2026",
-      "pub_ts": 1791181804,
       "image_candidates": [],
       "license_url": null,
       "image": null,
