@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-07",
-  "generated_at_utc": "2026-10-07 10:05:08 UTC",
+  "generated_at_utc": "2026-10-07 16:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-07T10:05:03.997500+00:00",
+    "collected_at": "2026-10-07T16:05:03.960277+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 10,
+        "within_24h": 1,
         "within_window": 10,
         "eligible": 2,
         "rejected": {
@@ -38,11 +38,10 @@
         "status": "ok",
         "entries": 40,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 39
+          "older_than_window": 40
         }
       },
       {
@@ -50,12 +49,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 11,
+        "within_24h": 13,
         "within_window": 20,
-        "eligible": 9,
+        "eligible": 12,
         "rejected": {
-          "topic_author_or_category": 6,
-          "title_filter": 5
+          "title_filter": 3,
+          "topic_author_or_category": 5
         }
       },
       {
@@ -75,7 +74,7 @@
         "url": "https://apps.bea.gov/rss/rss.xml",
         "status": "ok",
         "entries": 48,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 1,
         "rejected": {
@@ -87,12 +86,12 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 2,
-        "within_window": 3,
+        "within_24h": 1,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 3,
-          "older_than_window": 22
+          "topic_author_or_category": 2,
+          "older_than_window": 23
         }
       },
       {
@@ -100,7 +99,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 3,
+        "within_24h": 1,
         "within_window": 4,
         "eligible": 0,
         "rejected": {
@@ -184,23 +183,36 @@
       }
     ],
     "eligible_by_source": {
+      "Cryptonews": 12,
       "NewsBTC": 2,
-      "Cryptonews": 9,
       "U.S. Bureau of Economic Analysis": 1
     },
     "unique_by_source": {
+      "Cryptonews": 12,
       "NewsBTC": 2,
-      "Cryptonews": 9,
       "U.S. Bureau of Economic Analysis": 1
     },
     "selected_by_source": {
-      "NewsBTC": 2,
       "Cryptonews": 9,
+      "NewsBTC": 2,
       "U.S. Bureau of Economic Analysis": 1
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "XRP News: XRPL $2.2B Tokenization Depends on Energy Token",
+      "link": "https://cryptonews.com/news/xrp-news-energy-token-tokenized-commodities-jmwh/",
+      "summary": "XRPL tokenized commodities are led by JMWH, but its $2.23B represented value does not prove deep liquidity, broad ownership or XRP demand.",
+      "source": "Cryptonews",
+      "date": "2026-10-07",
+      "date_human": "Oct 7, 2026",
+      "pub_ts": 1791378060,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "DSA White Paper Named Among the 2026 DC Fintech Week Winning Papers",
       "link": "https://www.newsbtc.com/news/dsa-white-paper-named-among-the-2026-dc-fintech-week-winning-papers/",
@@ -209,19 +221,6 @@
       "date": "2026-10-07",
       "date_human": "Oct 7, 2026",
       "pub_ts": 1791367374,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "DJ Khaled Crypto Involvement Deepens as Circle Posts the Rapper in a USDC-Branded Chelsea Shirt",
-      "link": "https://cryptonews.com/news/dj-khaled-crypto-usdc-post/",
-      "summary": "A DJ Khaled USDC post sparked backlash over his past SEC settlement, but the available evidence does not confirm a new Circle deal.",
-      "source": "Cryptonews",
-      "date": "2026-10-07",
-      "date_human": "Oct 7, 2026",
-      "pub_ts": 1791363434,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -241,6 +240,19 @@
       "image_local": null
     },
     {
+      "title": "Bitcoin Price Set for a Boost: Arthur Hayes Bets on an AI Boom Bust",
+      "link": "https://cryptonews.com/news/ai-credit-bubble-bitcoin-price-arthur-hayes/",
+      "summary": "The AI credit bubble could pressure Bitcoin first, as $403.58 million in long liquidations highlights leverage risk before any bailout.",
+      "source": "Cryptonews",
+      "date": "2026-10-07",
+      "date_human": "Oct 7, 2026",
+      "pub_ts": 1791371580,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Genius Group Restarts Bitcoin Buying With 10 BTC Purchase",
       "link": "https://www.newsbtc.com/news/bitcoin/genius-group-restarts-bitcoin-buying-with-10-btc-purchase/",
       "summary": "TL;DR Genius Group has restarted Bitcoin purchases, buying 10 BTC for approximately $854,000. The company paid an average of $85,364 per Bitcoin across purchases made between October 2 and October 5. The renewed buying follows the removal of a court injunction that had previously restricted the company’s ability to raise funds and purchase Bitcoin. Genius Group is buying Bitcoin again. The AI-powered education company said on October 6 that it acquired 10 BTC for about $854,000 between October 2 and October 5, paying an average price of $85,364 per coin. The purchase marks the resumption of a ",
@@ -248,6 +260,32 @@
       "date": "2026-10-06",
       "date_human": "Oct 6, 2026",
       "pub_ts": 1791302432,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "ZEC Gets a WINK as Winklevoss Files for Nasdaq ETF",
+      "link": "https://cryptonews.com/news/wink-zcash-etf-zec-exposure/",
+      "summary": "A proposed WINK ETF would hold ZEC directly, charge a 0.25% annual fee and await SEC effectiveness and Nasdaq listing before trading can begin.",
+      "source": "Cryptonews",
+      "date": "2026-10-07",
+      "date_human": "Oct 7, 2026",
+      "pub_ts": 1791370903,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "DJ Khaled Crypto Involvement Deepens as Circle Posts the Rapper in a USDC-Branded Chelsea Shirt",
+      "link": "https://cryptonews.com/news/dj-khaled-crypto-usdc-post/",
+      "summary": "A DJ Khaled USDC post sparked backlash over his past SEC settlement, but the available evidence does not confirm a new Circle deal.",
+      "source": "Cryptonews",
+      "date": "2026-10-07",
+      "date_human": "Oct 7, 2026",
+      "pub_ts": 1791363434,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -313,45 +351,6 @@
       "date": "2026-10-06",
       "date_human": "Oct 6, 2026",
       "pub_ts": 1791278100,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Solana News: DvP Targets Atomic Settlement",
-      "link": "https://cryptonews.com/news/solana-news-dvp-atomic-settlement/",
-      "summary": "Solana DvP is an open-source rail for atomic tokenized-asset settlement in seconds, while JPMorgan’s role remains advisory, not a deployment.",
-      "source": "Cryptonews",
-      "date": "2026-10-06",
-      "date_human": "Oct 6, 2026",
-      "pub_ts": 1791276000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Price Could Reverse Following Tech Stocks, Peter Schiff Says",
-      "link": "https://cryptonews.com/news/bitcoin-price-strategy-funding/",
-      "summary": "Strategy bought 334 BTC, but its $176.3 million STRC buyback leaves the Bitcoin price outlook tied to whether funding can sustain future purchases.",
-      "source": "Cryptonews",
-      "date": "2026-10-06",
-      "date_human": "Oct 6, 2026",
-      "pub_ts": 1791273668,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "TOKEN2049 Singapore Schedule Puts Institutional DeFi on the 2026 Agenda",
-      "link": "https://cryptonews.com/news/token2049-singapore-institutional-defi/",
-      "summary": "TOKEN2049 Singapore’s 2026 agenda pairs institutional finance with DeFi, on-chain trading and market structure—without confirming deals or launches.",
-      "source": "Cryptonews",
-      "date": "2026-10-06",
-      "date_human": "Oct 6, 2026",
-      "pub_ts": 1791272220,
       "image_candidates": [],
       "license_url": null,
       "image": null,
