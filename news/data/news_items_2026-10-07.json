@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-07",
-  "generated_at_utc": "2026-10-07 04:05:07 UTC",
+  "generated_at_utc": "2026-10-07 10:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-07T04:05:03.155413+00:00",
+    "collected_at": "2026-10-07T10:05:03.997500+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 1,
+        "eligible": 2,
         "rejected": {
-          "unreviewed_link": 8,
+          "unreviewed_link": 7,
           "title_filter": 1
         }
       },
@@ -50,12 +50,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 13,
+        "within_24h": 11,
         "within_window": 20,
-        "eligible": 10,
+        "eligible": 9,
         "rejected": {
-          "topic_author_or_category": 7,
-          "title_filter": 3
+          "topic_author_or_category": 6,
+          "title_filter": 5
         }
       },
       {
@@ -104,7 +104,8 @@
         "within_window": 4,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 4,
+          "topic_author_or_category": 1,
+          "unreviewed_link": 3,
           "older_than_window": 11
         }
       },
@@ -183,31 +184,57 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 10,
-      "NewsBTC": 1,
+      "NewsBTC": 2,
+      "Cryptonews": 9,
       "U.S. Bureau of Economic Analysis": 1
     },
     "unique_by_source": {
-      "Cryptonews": 10,
-      "NewsBTC": 1,
+      "NewsBTC": 2,
+      "Cryptonews": 9,
       "U.S. Bureau of Economic Analysis": 1
     },
     "selected_by_source": {
-      "Cryptonews": 10,
-      "NewsBTC": 1,
+      "NewsBTC": 2,
+      "Cryptonews": 9,
       "U.S. Bureau of Economic Analysis": 1
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "XRP Price Chasing Its Tail Despite 3 October Catalysts",
-      "link": "https://cryptonews.com/news/xrp-price-evernorth-xrpn-upgrades/",
-      "summary": "XRP price faces a test as Evernorth’s XRPN debut and two XRP Ledger upgrades approach, with $1.55 resistance and $1.45 downside in focus.",
+      "title": "DSA White Paper Named Among the 2026 DC Fintech Week Winning Papers",
+      "link": "https://www.newsbtc.com/news/dsa-white-paper-named-among-the-2026-dc-fintech-week-winning-papers/",
+      "summary": "Washington, D.C., October 7, 2026 — The Digital Sovereignty Alliance (DSA), a nonprofit organization dedicated to advancing clear and ethical public policy, research, and education related to emerging technologies, announced today that its white paper, “Modern Foundations of Personal Finance: Literacy and Infrastructure in the Digital Economy,” has been named one of five winning papers in DC Fintech Week’s 2026 Call for Papers and selected as 2026 Featured Research. The paper was written by DSA Senior Policy Advisor Molly Woodman as lead author, with contributions from Adrian Wall, Managing Di",
+      "source": "NewsBTC",
+      "date": "2026-10-07",
+      "date_human": "Oct 7, 2026",
+      "pub_ts": 1791367374,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "DJ Khaled Crypto Involvement Deepens as Circle Posts the Rapper in a USDC-Branded Chelsea Shirt",
+      "link": "https://cryptonews.com/news/dj-khaled-crypto-usdc-post/",
+      "summary": "A DJ Khaled USDC post sparked backlash over his past SEC settlement, but the available evidence does not confirm a new Circle deal.",
       "source": "Cryptonews",
+      "date": "2026-10-07",
+      "date_human": "Oct 7, 2026",
+      "pub_ts": 1791363434,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "U.S. International Trade in Goods and Services, August 2026",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
+      "summary": "The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in August, as imports increased more than exports. The goods deficit increased $12.8 billion in August to $136.6 billion. The services surplus increased less than $0.1 billion in August to $31.0 billion.",
+      "source": "U.S. Bureau of Economic Analysis",
       "date": "2026-10-06",
       "date_human": "Oct 6, 2026",
-      "pub_ts": 1791311220,
+      "pub_ts": 1791289800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -227,13 +254,39 @@
       "image_local": null
     },
     {
-      "title": "U.S. International Trade in Goods and Services, August 2026",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
-      "summary": "The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in August, as imports increased more than exports. The goods deficit increased $12.8 billion in August to $136.6 billion. The services surplus increased less than $0.1 billion in August to $31.0 billion.",
-      "source": "U.S. Bureau of Economic Analysis",
+      "title": "Cardano News: CIP-0113 Upgrade Could Change ADA Future",
+      "link": "https://cryptonews.com/news/cardano-news-cip-0113-regulated-token-controls/",
+      "summary": "CIP-0113 is now live on Cardano mainnet, adding identity, sanctions and transfer controls for regulated stablecoins, funds and bonds.",
+      "source": "Cryptonews",
+      "date": "2026-10-07",
+      "date_human": "Oct 7, 2026",
+      "pub_ts": 1791350600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Why is Crypto Down? Bitcoin Lost $2,000 in A Flash Crash",
+      "link": "https://cryptonews.com/news/why-is-crypto-down-bitcoin-price-hyperliquid-shorts/",
+      "summary": "Bitcoin price fell below $84,000 after four Hyperliquid wallets opened 40x BTC shorts, but timing alone does not prove causation or insider trading.",
+      "source": "Cryptonews",
+      "date": "2026-10-07",
+      "date_human": "Oct 7, 2026",
+      "pub_ts": 1791347227,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Price Chasing Its Tail Despite 3 October Catalysts",
+      "link": "https://cryptonews.com/news/xrp-price-evernorth-xrpn-upgrades/",
+      "summary": "XRP price faces a test as Evernorth’s XRPN debut and two XRP Ledger upgrades approach, with $1.55 resistance and $1.45 downside in focus.",
+      "source": "Cryptonews",
       "date": "2026-10-06",
       "date_human": "Oct 6, 2026",
-      "pub_ts": 1791289800,
+      "pub_ts": 1791311220,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -299,58 +352,6 @@
       "date": "2026-10-06",
       "date_human": "Oct 6, 2026",
       "pub_ts": 1791272220,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP Price and Open Interest Leave Room for Positioning as Range Holds",
-      "link": "https://cryptonews.com/news/xrp-price-range-breakout/",
-      "summary": "XRP price remains near $1.52 in a $1.45–$1.55 range, with $1.55 and $1.45 setting the next breakout or downside triggers for traders.",
-      "source": "Cryptonews",
-      "date": "2026-10-05",
-      "date_human": "Oct 5, 2026",
-      "pub_ts": 1791223980,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: Seoul Event Shows Ripple Reach",
-      "link": "https://cryptonews.com/news/xrp-news-seoul-institutional-ties/",
-      "summary": "Ripple’s Seoul showcase highlights institutional ties in South Korea, but disclosures do not confirm XRP settlement assets, volumes or demand.",
-      "source": "Cryptonews",
-      "date": "2026-10-05",
-      "date_human": "Oct 5, 2026",
-      "pub_ts": 1791214560,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Price Stays Out of the Red as This Bear Market Breaks a Historic Pattern",
-      "link": "https://cryptonews.com/news/bitcoin-price-never-red-this-bear-data/",
-      "summary": "Bitcoin avoided a key bear-market threshold this cycle as Realized Price held, while NUPL stayed positive despite significant investor stress.",
-      "source": "Cryptonews",
-      "date": "2026-10-05",
-      "date_human": "Oct 5, 2026",
-      "pub_ts": 1791205800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Near Protocol ETF Puts NEAR Back on Institutional Investors' Radar",
-      "link": "https://cryptonews.com/news/bitwise-near-protocol-etf/",
-      "summary": "The Bitwise NEAR ETF prospectus outlines NRR’s staking, custody, fees and risks, while noting the proposed NYSE Arca listing.",
-      "source": "Cryptonews",
-      "date": "2026-10-05",
-      "date_human": "Oct 5, 2026",
-      "pub_ts": 1791202623,
       "image_candidates": [],
       "license_url": null,
       "image": null,
