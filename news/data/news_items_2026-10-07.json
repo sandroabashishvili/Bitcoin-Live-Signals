@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-10-06",
-  "generated_at_utc": "2026-10-06 22:05:08 UTC",
+  "day_iso": "2026-10-07",
+  "generated_at_utc": "2026-10-07 04:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-06T22:05:03.590696+00:00",
+    "collected_at": "2026-10-07T04:05:03.155413+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -52,10 +52,10 @@
         "entries": 20,
         "within_24h": 13,
         "within_window": 20,
-        "eligible": 11,
+        "eligible": 10,
         "rejected": {
-          "topic_author_or_category": 5,
-          "title_filter": 4
+          "topic_author_or_category": 7,
+          "title_filter": 3
         }
       },
       {
@@ -183,12 +183,12 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 11,
+      "Cryptonews": 10,
       "NewsBTC": 1,
       "U.S. Bureau of Economic Analysis": 1
     },
     "unique_by_source": {
-      "Cryptonews": 11,
+      "Cryptonews": 10,
       "NewsBTC": 1,
       "U.S. Bureau of Economic Analysis": 1
     },
