@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-08",
-  "generated_at_utc": "2026-10-08 10:05:10 UTC",
+  "generated_at_utc": "2026-10-08 16:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-08T10:05:05.719501+00:00",
+    "collected_at": "2026-10-08T16:05:06.454017+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 6,
+        "eligible": 5,
         "rejected": {
-          "unreviewed_link": 4
+          "unreviewed_link": 5
         }
       },
       {
@@ -36,11 +36,12 @@
         "url": "https://www.nist.gov/news-events/news/rss.xml",
         "status": "ok",
         "entries": 40,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 2,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 40
+          "topic_author_or_category": 2,
+          "older_than_window": 38
         }
       },
       {
@@ -48,7 +49,7 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 14,
+        "within_24h": 13,
         "within_window": 20,
         "eligible": 11,
         "rejected": {
@@ -74,10 +75,10 @@
         "status": "ok",
         "entries": 48,
         "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 47
+          "older_than_window": 48
         }
       },
       {
@@ -86,11 +87,11 @@
         "status": "ok",
         "entries": 25,
         "within_24h": 0,
-        "within_window": 2,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 2,
-          "older_than_window": 23
+          "topic_author_or_category": 1,
+          "older_than_window": 24
         }
       },
       {
@@ -98,13 +99,13 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
-        "within_window": 4,
+        "within_24h": 2,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 3,
+          "unreviewed_link": 2,
           "topic_author_or_category": 1,
-          "older_than_window": 11
+          "older_than_window": 12
         }
       },
       {
@@ -184,30 +185,27 @@
     ],
     "eligible_by_source": {
       "Cryptonews": 11,
-      "NewsBTC": 6,
-      "U.S. Bureau of Economic Analysis": 1
+      "NewsBTC": 5
     },
     "unique_by_source": {
       "Cryptonews": 11,
-      "NewsBTC": 6,
-      "U.S. Bureau of Economic Analysis": 1
+      "NewsBTC": 5
     },
     "selected_by_source": {
-      "Cryptonews": 5,
-      "NewsBTC": 6,
-      "U.S. Bureau of Economic Analysis": 1
+      "Cryptonews": 7,
+      "NewsBTC": 5
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Glamsterdam Upgrade: Sepolia Blocks Leave Most of Ethereum's New Gas Capacity Unused",
-      "link": "https://cryptonews.com/news/ethereum-glamsterdam-sepolia-gas-limit-test/",
-      "summary": "Ethereum’s Sepolia gas limit test produced all scheduled blocks, but sampled usage stayed below half of the new capacity, leaving mainnet timing open.",
+      "title": "Bitcoin ETF Flows Flash Warning, but Broader Demand Stays Positive",
+      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-demand/",
+      "summary": "Bitcoin ETF outflows hit $484.9 million on October 7, but positive 30-day and three-month flows argue against a confirmed reversal in demand.",
       "source": "Cryptonews",
       "date": "2026-10-08",
       "date_human": "Oct 8, 2026",
-      "pub_ts": 1791452257,
+      "pub_ts": 1791466200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -227,26 +225,13 @@
       "image_local": null
     },
     {
-      "title": "U.S. International Trade in Goods and Services, August 2026",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-august-2026",
-      "summary": "The U.S. goods and services trade deficit increased in August 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit increased from $92.8 billion in July (revised) to $105.6 billion in August, as imports increased more than exports. The goods deficit increased $12.8 billion in August to $136.6 billion. The services surplus increased less than $0.1 billion in August to $31.0 billion.",
-      "source": "U.S. Bureau of Economic Analysis",
-      "date": "2026-10-06",
-      "date_human": "Oct 6, 2026",
-      "pub_ts": 1791289800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "USDC Transfers Are Coming to Samsung Wallet",
-      "link": "https://cryptonews.com/news/samsung-wallet-usdc-transfers/",
-      "summary": "Samsung Wallet plans USDC transfers for eligible U.S. users in October 2026, with crypto-wallet and bank payouts across more than 60 countries.",
+      "title": "Is the UK Becoming One of the World's Most Hostile Crypto Tax Jurisdictions?",
+      "link": "https://cryptonews.com/news/uk-crypto-tax-carf-reporting/",
+      "summary": "UK crypto tax reporting is set to widen through CARF, while proposed HMRC powers could increase domestic data access without being final law.",
       "source": "Cryptonews",
       "date": "2026-10-08",
       "date_human": "Oct 8, 2026",
-      "pub_ts": 1791447838,
+      "pub_ts": 1791459960,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -266,13 +251,13 @@
       "image_local": null
     },
     {
-      "title": "What is Crypto Bunker Mode? Ethereum's Justin Drake Warns of a Possible AI Break",
-      "link": "https://cryptonews.com/news/what-is-crypto-bunker-mode-drake-ethereum-warning/",
-      "summary": "Crypto Bunker is Justin Drake’s plan for gradual fund migration, not proof that AI has broken Bitcoin or Ethereum cryptography.",
+      "title": "Glamsterdam Upgrade: Sepolia Blocks Leave Most of Ethereum's New Gas Capacity Unused",
+      "link": "https://cryptonews.com/news/ethereum-glamsterdam-sepolia-gas-limit-test/",
+      "summary": "Ethereum’s Sepolia gas limit test produced all scheduled blocks, but sampled usage stayed below half of the new capacity, leaving mainnet timing open.",
       "source": "Cryptonews",
       "date": "2026-10-08",
       "date_human": "Oct 8, 2026",
-      "pub_ts": 1791444374,
+      "pub_ts": 1791452257,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -292,13 +277,13 @@
       "image_local": null
     },
     {
-      "title": "XRP News: Brevan Howard Deal Broadens Ripple's Scope",
-      "link": "https://cryptonews.com/news/ripple-prime-brevan-howard-services-xrp-news/",
-      "summary": "Ripple Prime will provide Brevan Howard funds with multi-asset brokerage, clearing and financing, but the announcement confirms no XRP use.",
+      "title": "USDC Transfers Are Coming to Samsung Wallet",
+      "link": "https://cryptonews.com/news/samsung-wallet-usdc-transfers/",
+      "summary": "Samsung Wallet plans USDC transfers for eligible U.S. users in October 2026, with crypto-wallet and bank payouts across more than 60 countries.",
       "source": "Cryptonews",
       "date": "2026-10-08",
       "date_human": "Oct 8, 2026",
-      "pub_ts": 1791443400,
+      "pub_ts": 1791447838,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -318,6 +303,32 @@
       "image_local": null
     },
     {
+      "title": "What is Crypto Bunker Mode? Ethereum's Justin Drake Warns of a Possible AI Break",
+      "link": "https://cryptonews.com/news/what-is-crypto-bunker-mode-drake-ethereum-warning/",
+      "summary": "Crypto Bunker is Justin Drake’s plan for gradual fund migration, not proof that AI has broken Bitcoin or Ethereum cryptography.",
+      "source": "Cryptonews",
+      "date": "2026-10-08",
+      "date_human": "Oct 8, 2026",
+      "pub_ts": 1791444374,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: Brevan Howard Deal Broadens Ripple's Scope",
+      "link": "https://cryptonews.com/news/ripple-prime-brevan-howard-services-xrp-news/",
+      "summary": "Ripple Prime will provide Brevan Howard funds with multi-asset brokerage, clearing and financing, but the announcement confirms no XRP use.",
+      "source": "Cryptonews",
+      "date": "2026-10-08",
+      "date_human": "Oct 8, 2026",
+      "pub_ts": 1791443400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Ethereum ETFs Lose $201.9 Million As Bitcoin Funds Return To Inflows",
       "link": "https://www.newsbtc.com/news/ethereum/ethereum-etfs-lose-201-9-million-as-bitcoin-funds-return-to-inflows/",
       "summary": "US spot Ethereum ETFs recorded $201.9 million in net outflows on October 6, according to Farside Investors. Bitcoin ETFs moved the other way with roughly $118.8 million of net inflows, creating a sharp one-day divergence between institutional flows into the two largest crypto assets.",
@@ -325,19 +336,6 @@
       "date": "2026-10-07",
       "date_human": "Oct 7, 2026",
       "pub_ts": 1791406800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Ethereum Tests 200 Million Gas Limit On Sepolia As Glamsterdam Moves Forward",
-      "link": "https://www.newsbtc.com/news/ethereum/ethereum-tests-200-million-gas-limit-on-sepolia-as-glamsterdam-moves/",
-      "summary": "Ethereum’s Sepolia testnet is testing a 200 million block gas limit as part of work around the Glamsterdam upgrade. The experiment is more than three times Sepolia’s previous 60 million target and is intended to show how clients and validators behave under much heavier Layer 1 execution loads.",
-      "source": "NewsBTC",
-      "date": "2026-10-07",
-      "date_human": "Oct 7, 2026",
-      "pub_ts": 1791403200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
