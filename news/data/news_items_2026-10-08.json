@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-10-07",
-  "generated_at_utc": "2026-10-07 22:05:10 UTC",
+  "day_iso": "2026-10-08",
+  "generated_at_utc": "2026-10-08 04:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-07T22:05:05.220384+00:00",
+    "collected_at": "2026-10-08T04:05:04.976994+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,12 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 7,
+        "within_24h": 10,
         "within_window": 10,
         "eligible": 3,
         "rejected": {
-          "unreviewed_link": 6,
-          "title_filter": 1
+          "unreviewed_link": 7
         }
       },
       {
@@ -51,10 +50,10 @@
         "entries": 20,
         "within_24h": 13,
         "within_window": 20,
-        "eligible": 12,
+        "eligible": 10,
         "rejected": {
-          "title_filter": 3,
-          "topic_author_or_category": 5
+          "topic_author_or_category": 7,
+          "title_filter": 3
         }
       },
       {
@@ -185,12 +184,12 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 3,
-      "Cryptonews": 12,
+      "Cryptonews": 10,
       "U.S. Bureau of Economic Analysis": 1
     },
     "unique_by_source": {
       "NewsBTC": 3,
-      "Cryptonews": 12,
+      "Cryptonews": 10,
       "U.S. Bureau of Economic Analysis": 1
     },
     "selected_by_source": {
@@ -202,13 +201,13 @@
   "count": 12,
   "items": [
     {
-      "title": "Ethereum ETFs Lose $201.9 Million As Bitcoin Funds Return To Inflows",
-      "link": "https://www.newsbtc.com/news/ethereum/ethereum-etfs-lose-201-9-million-as-bitcoin-funds-return-to-inflows/",
-      "summary": "US spot Ethereum ETFs recorded $201.9 million in net outflows on October 6, according to Farside Investors. Bitcoin ETFs moved the other way with roughly $118.8 million of net inflows, creating a sharp one-day divergence between institutional flows into the two largest crypto assets.",
+      "title": "Metaplanet Sold 10,000 Bitcoin, Then Bought 11,000 Back. Here's Why",
+      "link": "https://www.newsbtc.com/news/bitcoin/metaplanet-sold-10-000-bitcoin-then-bought-11-000-back-here-s-why/",
+      "summary": "Metaplanet disclosed that it sold 10,000 BTC during the third quarter for roughly $790 million before buying 11,000 BTC for around $950 million. The company says the exercise was designed to demonstrate that its Bitcoin treasury can provide liquidity when required, while leaving it with a net increase of 1,000 BTC.",
       "source": "NewsBTC",
-      "date": "2026-10-07",
-      "date_human": "Oct 7, 2026",
-      "pub_ts": 1791406800,
+      "date": "2026-10-08",
+      "date_human": "Oct 8, 2026",
+      "pub_ts": 1791417600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -241,13 +240,13 @@
       "image_local": null
     },
     {
-      "title": "Ethereum Tests 200 Million Gas Limit On Sepolia As Glamsterdam Moves Forward",
-      "link": "https://www.newsbtc.com/news/ethereum/ethereum-tests-200-million-gas-limit-on-sepolia-as-glamsterdam-moves/",
-      "summary": "Ethereum’s Sepolia testnet is testing a 200 million block gas limit as part of work around the Glamsterdam upgrade. The experiment is more than three times Sepolia’s previous 60 million target and is intended to show how clients and validators behave under much heavier Layer 1 execution loads.",
+      "title": "Ethereum ETFs Lose $201.9 Million As Bitcoin Funds Return To Inflows",
+      "link": "https://www.newsbtc.com/news/ethereum/ethereum-etfs-lose-201-9-million-as-bitcoin-funds-return-to-inflows/",
+      "summary": "US spot Ethereum ETFs recorded $201.9 million in net outflows on October 6, according to Farside Investors. Bitcoin ETFs moved the other way with roughly $118.8 million of net inflows, creating a sharp one-day divergence between institutional flows into the two largest crypto assets.",
       "source": "NewsBTC",
       "date": "2026-10-07",
       "date_human": "Oct 7, 2026",
-      "pub_ts": 1791403200,
+      "pub_ts": 1791406800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -267,13 +266,13 @@
       "image_local": null
     },
     {
-      "title": "DSA White Paper Named Among the 2026 DC Fintech Week Winning Papers",
-      "link": "https://www.newsbtc.com/news/dsa-white-paper-named-among-the-2026-dc-fintech-week-winning-papers/",
-      "summary": "Washington, D.C., October 7, 2026 — The Digital Sovereignty Alliance (DSA), a nonprofit organization dedicated to advancing clear and ethical public policy, research, and education related to emerging technologies, announced today that its white paper, “Modern Foundations of Personal Finance: Literacy and Infrastructure in the Digital Economy,” has been named one of five winning papers in DC Fintech Week’s 2026 Call for Papers and selected as 2026 Featured Research. The paper was written by DSA Senior Policy Advisor Molly Woodman as lead author, with contributions from Adrian Wall, Managing Di",
+      "title": "Ethereum Tests 200 Million Gas Limit On Sepolia As Glamsterdam Moves Forward",
+      "link": "https://www.newsbtc.com/news/ethereum/ethereum-tests-200-million-gas-limit-on-sepolia-as-glamsterdam-moves/",
+      "summary": "Ethereum’s Sepolia testnet is testing a 200 million block gas limit as part of work around the Glamsterdam upgrade. The experiment is more than three times Sepolia’s previous 60 million target and is intended to show how clients and validators behave under much heavier Layer 1 execution loads.",
       "source": "NewsBTC",
       "date": "2026-10-07",
       "date_human": "Oct 7, 2026",
-      "pub_ts": 1791367374,
+      "pub_ts": 1791403200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
