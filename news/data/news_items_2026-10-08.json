@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-08",
-  "generated_at_utc": "2026-10-08 04:05:09 UTC",
+  "generated_at_utc": "2026-10-08 10:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-08T04:05:04.976994+00:00",
+    "collected_at": "2026-10-08T10:05:05.719501+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 3,
+        "eligible": 6,
         "rejected": {
-          "unreviewed_link": 7
+          "unreviewed_link": 4
         }
       },
       {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 13,
+        "within_24h": 14,
         "within_window": 20,
-        "eligible": 10,
+        "eligible": 11,
         "rejected": {
-          "topic_author_or_category": 7,
-          "title_filter": 3
+          "title_filter": 5,
+          "topic_author_or_category": 4
         }
       },
       {
@@ -102,8 +102,8 @@
         "within_window": 4,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
           "unreviewed_link": 3,
+          "topic_author_or_category": 1,
           "older_than_window": 11
         }
       },
@@ -183,44 +183,44 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 10,
+      "Cryptonews": 11,
+      "NewsBTC": 6,
       "U.S. Bureau of Economic Analysis": 1
     },
     "unique_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 10,
+      "Cryptonews": 11,
+      "NewsBTC": 6,
       "U.S. Bureau of Economic Analysis": 1
     },
     "selected_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 8,
+      "Cryptonews": 5,
+      "NewsBTC": 6,
       "U.S. Bureau of Economic Analysis": 1
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Metaplanet Sold 10,000 Bitcoin, Then Bought 11,000 Back. Here's Why",
-      "link": "https://www.newsbtc.com/news/bitcoin/metaplanet-sold-10-000-bitcoin-then-bought-11-000-back-here-s-why/",
-      "summary": "Metaplanet disclosed that it sold 10,000 BTC during the third quarter for roughly $790 million before buying 11,000 BTC for around $950 million. The company says the exercise was designed to demonstrate that its Bitcoin treasury can provide liquidity when required, while leaving it with a net increase of 1,000 BTC.",
-      "source": "NewsBTC",
+      "title": "Glamsterdam Upgrade: Sepolia Blocks Leave Most of Ethereum's New Gas Capacity Unused",
+      "link": "https://cryptonews.com/news/ethereum-glamsterdam-sepolia-gas-limit-test/",
+      "summary": "Ethereum’s Sepolia gas limit test produced all scheduled blocks, but sampled usage stayed below half of the new capacity, leaving mainnet timing open.",
+      "source": "Cryptonews",
       "date": "2026-10-08",
       "date_human": "Oct 8, 2026",
-      "pub_ts": 1791417600,
+      "pub_ts": 1791452257,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "XRP Price Eyes New Catalyst as Ripple Partners With South Korea's Meritz",
-      "link": "https://cryptonews.com/news/ripple-meritz-korea-review-xrp-price-catalyst/",
-      "summary": "Ripple and Meritz Securities will assess custody and tokenization tools in South Korea, with no launch, XRP use or timetable confirmed.",
-      "source": "Cryptonews",
-      "date": "2026-10-07",
-      "date_human": "Oct 7, 2026",
-      "pub_ts": 1791389460,
+      "title": "Gate Partners with Visa to Launch Crypto-linked Card Across 40+ Countries and Territories",
+      "link": "https://www.newsbtc.com/news/gate-partners-with-visa-to-launch-crypto-linked-card-across-40-countries-and-territories/",
+      "summary": "Gate has announced a collaboration with Visa to launch a crypto-linked card, further expanding the use of digital assets in everyday spending and global commerce. The product is expected to launch across 40+ markets globally, allowing users to make payments with digital assets online and in-store wherever Visa is accepted and more conveniently connect their Gate accounts with real-world spending. When users make payments with the crypto-linked Visa card launched by Gate, the relevant crypto assets will be automatically converted into fiat currency at the point of sale, allowing digital assets ",
+      "source": "NewsBTC",
+      "date": "2026-10-08",
+      "date_human": "Oct 8, 2026",
+      "pub_ts": 1791451513,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -240,6 +240,84 @@
       "image_local": null
     },
     {
+      "title": "USDC Transfers Are Coming to Samsung Wallet",
+      "link": "https://cryptonews.com/news/samsung-wallet-usdc-transfers/",
+      "summary": "Samsung Wallet plans USDC transfers for eligible U.S. users in October 2026, with crypto-wallet and bank payouts across more than 60 countries.",
+      "source": "Cryptonews",
+      "date": "2026-10-08",
+      "date_human": "Oct 8, 2026",
+      "pub_ts": 1791447838,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "HTX Ventures Publishes New Report on the Convergence of CeFi, DeFi, and TradFi",
+      "link": "https://www.newsbtc.com/news/htx-ventures-publishes-new-report-on-the-convergence-of-cefi-defi-and-tradfi/",
+      "summary": "HTX Ventures, the global investment arm of HTX, has published a new report titled The Convergence of CeFi, DeFi, and TradFi in 2026: How Institutional-Grade Hybrid Architecture Is Taking Shape. The report examines how CeFi, DeFi, and TradFi are converging to form a new institutional digital-asset architecture. As custody, collateral, execution, yield, and risk management are unbundled from the traditional all-in-one platform model, each layer is increasingly being occupied by specialized market leaders: TradFi provides regulated, yield-bearing assets; centralized platforms and custodians manag",
+      "source": "NewsBTC",
+      "date": "2026-10-08",
+      "date_human": "Oct 8, 2026",
+      "pub_ts": 1791451184,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "What is Crypto Bunker Mode? Ethereum's Justin Drake Warns of a Possible AI Break",
+      "link": "https://cryptonews.com/news/what-is-crypto-bunker-mode-drake-ethereum-warning/",
+      "summary": "Crypto Bunker is Justin Drake’s plan for gradual fund migration, not proof that AI has broken Bitcoin or Ethereum cryptography.",
+      "source": "Cryptonews",
+      "date": "2026-10-08",
+      "date_human": "Oct 8, 2026",
+      "pub_ts": 1791444374,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Polygon Open Money Stack Expands to TRON, Extending Network Access to Regulated U.S. Payment Rails",
+      "link": "https://www.newsbtc.com/news/polygon-open-money-stack-expands-to-tron-extending-network-access-to-regulated-u-s-payment-rails/",
+      "summary": "Dubai, UAE – October 8, 2026 – Polygon Labs today announced that Polygon Open Money Stack now supports the TRON network, giving fintechs, remittance providers and payment platforms a way to connect bank funds directly into the world’s largest network for USDT (TRC-20). The expansion connects Polygon Open Money Stack to TRON’s stablecoin economy, which supports more than $94 billion in circulating USDT and over $30 trillion in total transfer volume. Businesses serving that economy have traditionally had to independently assemble licensing, sponsor banks, wallet providers, and cross-chain routin",
+      "source": "NewsBTC",
+      "date": "2026-10-08",
+      "date_human": "Oct 8, 2026",
+      "pub_ts": 1791450994,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: Brevan Howard Deal Broadens Ripple's Scope",
+      "link": "https://cryptonews.com/news/ripple-prime-brevan-howard-services-xrp-news/",
+      "summary": "Ripple Prime will provide Brevan Howard funds with multi-asset brokerage, clearing and financing, but the announcement confirms no XRP use.",
+      "source": "Cryptonews",
+      "date": "2026-10-08",
+      "date_human": "Oct 8, 2026",
+      "pub_ts": 1791443400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Metaplanet Sold 10,000 Bitcoin, Then Bought 11,000 Back. Here's Why",
+      "link": "https://www.newsbtc.com/news/bitcoin/metaplanet-sold-10-000-bitcoin-then-bought-11-000-back-here-s-why/",
+      "summary": "Metaplanet disclosed that it sold 10,000 BTC during the third quarter for roughly $790 million before buying 11,000 BTC for around $950 million. The company says the exercise was designed to demonstrate that its Bitcoin treasury can provide liquidity when required, while leaving it with a net increase of 1,000 BTC.",
+      "source": "NewsBTC",
+      "date": "2026-10-08",
+      "date_human": "Oct 8, 2026",
+      "pub_ts": 1791417600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Ethereum ETFs Lose $201.9 Million As Bitcoin Funds Return To Inflows",
       "link": "https://www.newsbtc.com/news/ethereum/ethereum-etfs-lose-201-9-million-as-bitcoin-funds-return-to-inflows/",
       "summary": "US spot Ethereum ETFs recorded $201.9 million in net outflows on October 6, according to Farside Investors. Bitcoin ETFs moved the other way with roughly $118.8 million of net inflows, creating a sharp one-day divergence between institutional flows into the two largest crypto assets.",
@@ -247,19 +325,6 @@
       "date": "2026-10-07",
       "date_human": "Oct 7, 2026",
       "pub_ts": 1791406800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: XRPL $2.2B Tokenization Depends on Energy Token",
-      "link": "https://cryptonews.com/news/xrp-news-energy-token-tokenized-commodities-jmwh/",
-      "summary": "XRPL tokenized commodities are led by JMWH, but its $2.23B represented value does not prove deep liquidity, broad ownership or XRP demand.",
-      "source": "Cryptonews",
-      "date": "2026-10-07",
-      "date_human": "Oct 7, 2026",
-      "pub_ts": 1791378060,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -279,78 +344,13 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin Price Set for a Boost: Arthur Hayes Bets on an AI Boom Bust",
-      "link": "https://cryptonews.com/news/ai-credit-bubble-bitcoin-price-arthur-hayes/",
-      "summary": "The AI credit bubble could pressure Bitcoin first, as $403.58 million in long liquidations highlights leverage risk before any bailout.",
+      "title": "XRP Price Eyes New Catalyst as Ripple Partners With South Korea's Meritz",
+      "link": "https://cryptonews.com/news/ripple-meritz-korea-review-xrp-price-catalyst/",
+      "summary": "Ripple and Meritz Securities will assess custody and tokenization tools in South Korea, with no launch, XRP use or timetable confirmed.",
       "source": "Cryptonews",
       "date": "2026-10-07",
       "date_human": "Oct 7, 2026",
-      "pub_ts": 1791371580,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "ZEC Gets a WINK as Winklevoss Files for Nasdaq ETF",
-      "link": "https://cryptonews.com/news/wink-zcash-etf-zec-exposure/",
-      "summary": "A proposed WINK ETF would hold ZEC directly, charge a 0.25% annual fee and await SEC effectiveness and Nasdaq listing before trading can begin.",
-      "source": "Cryptonews",
-      "date": "2026-10-07",
-      "date_human": "Oct 7, 2026",
-      "pub_ts": 1791370903,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "DJ Khaled Crypto Involvement Deepens as Circle Posts the Rapper in a USDC-Branded Chelsea Shirt",
-      "link": "https://cryptonews.com/news/dj-khaled-crypto-usdc-post/",
-      "summary": "A DJ Khaled USDC post sparked backlash over his past SEC settlement, but the available evidence does not confirm a new Circle deal.",
-      "source": "Cryptonews",
-      "date": "2026-10-07",
-      "date_human": "Oct 7, 2026",
-      "pub_ts": 1791363434,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Cardano News: CIP-0113 Upgrade Could Change ADA Future",
-      "link": "https://cryptonews.com/news/cardano-news-cip-0113-regulated-token-controls/",
-      "summary": "CIP-0113 is now live on Cardano mainnet, adding identity, sanctions and transfer controls for regulated stablecoins, funds and bonds.",
-      "source": "Cryptonews",
-      "date": "2026-10-07",
-      "date_human": "Oct 7, 2026",
-      "pub_ts": 1791350600,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Why is Crypto Down? Bitcoin Lost $2,000 in A Flash Crash",
-      "link": "https://cryptonews.com/news/why-is-crypto-down-bitcoin-price-hyperliquid-shorts/",
-      "summary": "Bitcoin price fell below $84,000 after four Hyperliquid wallets opened 40x BTC shorts, but timing alone does not prove causation or insider trading.",
-      "source": "Cryptonews",
-      "date": "2026-10-07",
-      "date_human": "Oct 7, 2026",
-      "pub_ts": 1791347227,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP Price Chasing Its Tail Despite 3 October Catalysts",
-      "link": "https://cryptonews.com/news/xrp-price-evernorth-xrpn-upgrades/",
-      "summary": "XRP price faces a test as Evernorth’s XRPN debut and two XRP Ledger upgrades approach, with $1.55 resistance and $1.45 downside in focus.",
-      "source": "Cryptonews",
-      "date": "2026-10-06",
-      "date_human": "Oct 6, 2026",
-      "pub_ts": 1791311220,
+      "pub_ts": 1791389460,
       "image_candidates": [],
       "license_url": null,
       "image": null,
