@@ -163,6 +163,8 @@ class FuturesHedgeOverviewRenderer:
         secondary_items = (
             ("Peak Capital", report.get("peak_equity_usdt"), "USDT", ""),
             ("Lowest Capital", report.get("lowest_equity_usdt"), "USDT", ""),
+            ("Max Drawdown from Peak", report.get("max_drawdown_pct"), "%", "hedge.capital.max_drawdown"),
+            ("Max Loss from Start", report.get("max_loss_from_start_pct"), "%", "hedge.capital.max_loss_from_start"),
             ("Current Mark Price", report.get("final_mark_price"), "USDT", ""),
             ("Entry Capacity", self._next_entry_capacity_label(decision), "", ""),
             ("Net Exposure", self._net_exposure_label(decision), "", ""),
@@ -437,7 +439,7 @@ class FuturesHedgeOverviewRenderer:
                 return "value-green"
             if number < 0:
                 return "value-red"
-        if "drawdown" in normalized_label:
+        if "drawdown" in normalized_label or normalized_label == "max loss from start":
             return "value-red"
         if "fee" in normalized_label and "cash" not in normalized_label:
             return "value-red"

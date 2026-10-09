@@ -64,10 +64,13 @@ vollständigen Quellcode.
 
 ## Stand
 
-Letzte inhaltliche Prüfung: **28. Juli 2026**
+Produktdokumentation lokal geprüft: **8. Oktober 2026**.
 
-Die Beschreibung wurde mit dem aktuellen öffentlichen Publish-Repository und
-der lokalen Futures-Architektur abgeglichen. Schnell veränderliche Werte wie
+Die Produktbeschreibung wurde mit lokaler Implementierung, Publish-Checkout
+und dem [Betriebshandbuch](../../operations/runbook.md) abgeglichen.
+Der Gründerkontext in `founder_profile.md` behält seinen eigenen Prüfstand;
+persönliche Angaben wurden bei dieser Produktprüfung nicht neu bestätigt.
+Schnell veränderliche Werte wie
 Schwellen, Positionslimits oder Risikoparameter werden nicht als dauerhaft
 gültige Produktversprechen behandelt.
 
@@ -77,4 +80,6 @@ Seit 21. September 2026 gehört dieser Pack zur SmartSignalHub-Dokumentation
 unter `platform_v2/docs/product/mr_b/`. Mr.B ist die öffentliche Projektvertretung;
 `/home/sandro/workspace_tools/ai_assistant` ist ein separates internes Werkzeug.
 Die Ablageänderung aktualisiert keine bereits hochgeladenen Custom-GPT-Dateien.
-Die fachlichen Angaben vom Juli sind vor einem erneuten Upload zu überprüfen.
+Ein Upload und ein Antwort-Abnahmetest wurden bei der lokalen Prüfung nicht
+durchgeführt. Den tatsächlich hochgeladenen Stand separat nach der
+[Upload-Anleitung](mr_b_upload_pack.md) dokumentieren.

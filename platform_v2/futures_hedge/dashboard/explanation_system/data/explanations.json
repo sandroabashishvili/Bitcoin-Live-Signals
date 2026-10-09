@@ -59,6 +59,27 @@
     ],
     "severity": "neutral"
   },
+  "hedge.capital.max_drawdown": {
+    "title": "Max Drawdown from Peak",
+    "summary": "Largest percentage decline from an earlier Hedge equity peak.",
+    "details": [
+      "The backend sorts market-timed equity snapshots chronologically and includes starting capital as the initial peak.",
+      "For 1000 → 1500 → 1200, maximum drawdown is 20%, even though equity is still above starting capital.",
+      "Missing or invalid observations are excluded; genuine zero or negative equity counts as a loss.",
+      "Without usable history or a versioned summary, this value is unavailable rather than inferred from an old metric."
+    ],
+    "severity": "neutral"
+  },
+  "hedge.capital.max_loss_from_start": {
+    "title": "Max Loss from Start",
+    "summary": "Largest recorded percentage loss below Hedge starting capital.",
+    "details": [
+      "This compares equity with starting capital, independently of any later peak.",
+      "For 1000 → 1500 → 1200, loss from start is 0%; for 1000 → 800, it is 20%.",
+      "Older unversioned summaries used the name max_drawdown_pct for this starting-capital loss."
+    ],
+    "severity": "neutral"
+  },
   "hedge.capital.net_exposure": {
     "title": "Net Exposure",
     "summary": "The notional difference between the LONG and SHORT Hedge baskets.",

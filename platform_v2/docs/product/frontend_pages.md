@@ -1,8 +1,11 @@
 # Frontend Pages
 
-Status: `active baseline - reviewed 2026-09-12`  
-Created: `2026-05-19`  
-Author: Codex  
+Status: `active baseline - source reviewed 2026-10-08; local Hedge refactor below`
+
+Created: `2026-05-19`
+
+Author: Codex
+
 Purpose: Current frontend page map and page responsibilities.
 
 ## Public Site
@@ -44,7 +47,10 @@ platform_v2/futures_hedge/dashboard/overview_hedge/
 
 ## Rule
 
-Pages display prepared metrics. They do not compute trading truth.
+The architectural rule is that pages display prepared metrics and do not
+compute trading truth. The Hedge builder now delegates report selection and
+equity statistics to a backend content service in the local checkout. The
+deployment boundary is recorded under **Hedge content ownership** below.
 
 ## Page Responsibilities
 
@@ -134,14 +140,17 @@ Futures Hedge currently has one Overview page, so it uses only global navigation
 
 ## Explanation System
 
-Spot and Futures have explanation systems:
+Spot, Futures and Hedge have explanation systems:
 
 ```text
 platform_v2/spot/dashboard/explanation_system/
 platform_v2/futures/dashboard/explanation_system/
+platform_v2/futures_hedge/dashboard/explanation_system/
 ```
 
-Futures Hedge still needs its own explanation-system pass modeled after the Futures explanation system.
+The Hedge renderer loads its explanation map and embeds the explanation
+payload, anchors and shared drawer host. Shared drawer assets live under
+`platform_v2/shared/frontend/explanation_system/`.
 
 Use this for page-specific terms such as:
 
@@ -193,7 +202,7 @@ Spot page ownership:
 | Portfolio | `platform_v2/spot/dashboard/portfolio/py/page_builder.py` | `PortfolioPageContentService`, grouped payload helpers | `metrics`, `positions`, `orders` |
 | Trade | `platform_v2/spot/dashboard/trade_outcomes/py/page_builder.py` | `StrategyPageContentService`, Spot strategy effectiveness services | `signals`, `metrics`, latest deduped `positions` |
 | Strategy | `platform_v2/spot/dashboard/strategy_edge/py/page_builder.py` | `StrategyPageContentService`, `StrategyActivityPageContentService` | `signals`, `denied_entries`, `metrics` |
-| Orderbook | `platform_v2/spot/dashboard/orderbook/py/page_builder.py` | `OrderbookPageContentService` | `orderflow/BTCUSDT/15m.json` |
+| Orderbook | `platform_v2/spot/dashboard/orderbook/py/page_builder.py` | `OrderbookPageContentService` | Market SQLite: Binance / crypto / spot / `orderflow` / BTCUSDT / 15m; compatibility reader fallback uses `orderflow/BTCUSDT/15m.json` |
 
 Futures page ownership:
 
@@ -203,13 +212,13 @@ Futures page ownership:
 | Portfolio | `platform_v2/futures/dashboard/portfolio_futures/py/page_builder.py` | `PortfolioPageContentService`, grouped payload helpers | `futures_metrics`, `futures_positions`, `futures_orders` |
 | Trade | `platform_v2/futures/dashboard/trade_outcomes_futures/py/page_builder.py` | `StrategyPageContentService`, grouped payload helpers | `futures_metrics`, `futures_signals`, `futures_position_events`, `futures_trade_gate_effectiveness_reports` |
 | Strategy | `platform_v2/futures/dashboard/strategy_edge_futures/py/page_builder.py` | `StrategyPageContentService`, `StrategyActivityPageContentService` | `futures_signals`, `futures_denied_entries`, `futures_metrics`, `futures_strategy_gate_effectiveness_reports` |
-| Orderbook | `platform_v2/futures/dashboard/orderbook_futures/py/page_builder.py` | `OrderbookPageContentService` | `orderflow_futures/BTCUSDT/orderflow_15m.json` |
+| Orderbook | `platform_v2/futures/dashboard/orderbook_futures/py/page_builder.py` | `OrderbookPageContentService` | Market SQLite: Binance / crypto / futures / `orderflow` / BTCUSDT / 15m; compatibility reader fallback uses `orderflow_futures/BTCUSDT/orderflow_15m.json` |
 
 Futures Hedge page ownership:
 
 | Page | Builder | Backend/content service | Runtime source |
 | --- | --- | --- | --- |
-| Overview | `platform_v2/futures_hedge/dashboard/overview_hedge/py/page_builder.py` | `FuturesHedgeReplayService`, basket portfolio services | Hedge families in `smartsignalhub_trading.sqlite3`, sourced from Futures `OPENED` position events |
+| Overview | `platform_v2/futures_hedge/dashboard/overview_hedge/py/page_builder.py` | `FuturesHedgeOverviewContentService`, backend replay fallback | Hedge families in `smartsignalhub_trading.sqlite3`, sourced from Futures `OPENED` position events |
 
 ## Ownership Rule
 
@@ -224,6 +233,48 @@ Do not add frontend-side calculations for:
 - win rate
 - gate effectiveness
 - theoretical TP/SL/open totals
+- equity risk/performance statistics such as drawdown
+
+## Hedge content ownership — local refactor 2026-10-08
+
+`futures_hedge/services/overview_content.py` owns ledger loading, latest summary
+selection, entry sorting, capital requirements, equity statistics and chart
+payload preparation. Missing summaries or summaries without both basket
+dictionaries delegate to `FuturesHedgeReplayService().build_report()` in this
+backend service. The page builder consumes `build_page_content()`, renders HTML
+and stores the page. It accepts an injected content service for isolated tests.
+
+At the responsibility-transfer checkpoint, payloads and calculations were
+preserved. Validation passed nine
+focused tests (eight new boundary/content tests and one existing replay test),
+ten complete payload comparisons against the pre-refactor builder and seven
+rendered HTML comparisons on isolated fixtures. No live database or generated
+dashboard was rebuilt during validation.
+
+The related Hedge runtime diagnostics, backend architecture checks and Futures
+cycle guards also passed: 16 tests total in the focused pytest run.
+
+The subsequent 2026-10-08 metric update defines `max_drawdown_pct` as the largest
+chronological decline from an earlier equity peak, including starting capital
+as the initial peak. `max_loss_from_start_pct` separately measures loss below
+starting capital. The shared Hedge backend helper in `services/equity_risk.py`
+is used by replay and legacy-summary reconstruction in overview content. A
+versioned replay summary is authoritative for the displayed risk values; the
+entry-time basket chart can be sparser than cycle equity history. Both values
+are displayed as **Max
+Drawdown from Peak** and **Max Loss from Start**, with explanation drawers.
+
+For equity 1000, 1500, 1200, the values are 20% and 0% respectively. Missing or
+nonfinite observations are excluded, while genuine zero/negative equity counts.
+Reports and new summaries carry `drawdown_definition = peak_to_trough_v1`.
+Without usable history, an old unversioned summary's `max_drawdown_pct` is read
+only as loss from start; peak drawdown remains unknown. Historical rows are not
+rewritten merely to change the name.
+
+A controlled pinned release containing only five changed Hedge Python files
+was activated on 2026-10-08. Spot/Futures source and configuration and the
+original research activation epoch were preserved. See the
+[operating guide](../operations/runbook.md) for deployment evidence.
 
 ## Publication identity
 

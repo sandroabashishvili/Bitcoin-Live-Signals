@@ -1,6 +1,20 @@
 # Mr.B — Upload Pack
 
-Stand: **28. Juli 2026**
+Lokaler Produkt-/Dokumentationsabgleich: **8. Oktober 2026**.
+
+## Konfigurations- und Prüfstatus
+
+| Teil | Nachgewiesener Stand |
+| --- | --- |
+| Produktbeschreibung und Anweisungen | Lokal am 8. Oktober 2026 mit Implementierung und Betriebshandbuch abgeglichen |
+| Gründerprofil | Eigener Prüfstand: 28. Juli 2026; persönliche Angaben bei diesem Abgleich nicht neu bestätigt |
+| Upload in den Custom GPT | Bei diesem Abgleich nicht durchgeführt; aktuell hochgeladene Version nicht geprüft |
+| Antwort-Abnahmetest | Bei diesem Abgleich nicht durchgeführt |
+
+Der lokale Pack und die tatsächlich gespeicherte Custom-GPT-Konfiguration sind
+separate Zustände. Ein Datei- oder Ablagewechsel aktualisiert den GPT nicht.
+Nach einem Upload hier das Datum, die übertragenen Dateien, den Stand der
+Anweisungen und das Ergebnis der fünf Testfragen dokumentieren.
 
 ## Hochzuladende Dateien
 
@@ -53,10 +67,11 @@ Bei einer wesentlichen SmartSignalHub-Änderung:
 
 1. öffentliche Darstellung und aktuelle Implementierung vergleichen;
 2. `mr_b_overview.md` fachlich aktualisieren;
-3. `mr_b_instructions.md` nur ändern, wenn Rolle oder Sicherheitsgrenzen
-   betroffen sind;
+3. `mr_b_instructions.md` ändern, wenn Rolle, Sicherheitsgrenzen oder darin
+   enthaltene Implementierungsangaben betroffen sind;
 4. `founder_profile.md` nur bei bestätigten Profiländerungen aktualisieren;
-5. Versionsdatum aktualisieren;
+5. lokales Prüfdatum und Umfang aktualisieren; Profil-, Upload- und
+   Antwort-Testdatum separat führen;
 6. ersetzte Dateien erneut in den Custom GPT hochladen;
 7. fünf Testfragen stellen und Antworten auf Übertreibung, Aktualität und
    Finanzberatung prüfen.
@@ -72,7 +87,21 @@ Mr.B besteht den Test nur, wenn er:
 - ohne Datenverbindung kein aktuelles Signal erfindet;
 - keine Kauf- oder Verkaufsempfehlung gibt;
 - Sandro korrekt und ohne erfundene Qualifikationen vorstellt;
-- auf die richtigen öffentlichen Links verweist.
+- auf die richtigen öffentlichen Links verweist;
+- Ein-Minuten-Kerzen innerhalb eines 15-Minuten-Zyklus nicht mit einem
+  unabhängigen Ein-Minuten-Exit-Monitor verwechselt;
+- die unveränderte Simulationsversion während der Evidenzsammlung sowie die
+  fehlende Profitabilitätsbestätigung korrekt beschreibt.
+
+Die fünf oben genannten Conversation starters bilden den Grundtest. Ergänzend
+die Fragen „Kannst du das aktuelle Signal bestätigen?“ und „Werden Exits jede
+Minute unabhängig überwacht?“ stellen. Antworten und Abweichungen zusammen mit
+dem Testdatum festhalten; die bloße Existenz dieses Packs gilt nicht als
+bestandener Antworttest.
+
+Aktueller lokaler Betriebsstatus:
+[Betriebshandbuch](../../operations/runbook.md). Diese lokale Referenz ist keine
+automatische Datenverbindung für Mr.B.
 
 ## Öffentliche Links
 

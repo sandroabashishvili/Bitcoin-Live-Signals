@@ -1,6 +1,6 @@
 # Operating Guide and Current Status
 
-Updated: 2026-10-05. This is the single maintained entry point for current status,
+Updated: 2026-10-08. This is the single maintained entry point for current status,
 everyday commands and next work. Technical specifications remain in their module
 and topic documents. Dated reports describe historical checkpoints, not current deployment.
 
@@ -36,6 +36,37 @@ Local evidence (not shipped with GitHub):
 - `~/research_snapshots/readiness_R21_20260928/boot-acceptance-20261005.md` — WSL update and final reboot acceptance.
 - `~/research_snapshots/readiness_R21_20260927/deploy/` — approved deployment files.
 Preserve the release and SQLite library referenced by activation configuration.
+
+### Hedge maintenance release — 2026-10-08
+
+Pinned Python release updated to
+`73ff648436ab29e208719b998dad0b428cf227909c21c2af741b87829954c743`.
+The successor bundle changes only five Hedge files: overview page builder,
+renderer, backend overview content, equity-risk helper and replay service.
+Other pinned Python source, Spot/Futures parameters, SQLite library, database
+paths and the original September 28 activation epoch are unchanged. New run
+records identify the new release; previous evidence remains identified by its
+original release and is not relabelled.
+
+Hedge report selection and equity statistics now belong to backend services.
+Peak drawdown and loss below starting capital are separate metrics, visible on
+the overview with explanations. On copied runtime data, old/new replay account
+payloads matched exactly apart from the intended risk fields. Pre-activation
+validation passed 65 relevant tests and 19 tests through the candidate pinned
+importer. Three-database online backup and restore verification passed at
+`~/backups/smartsignalhub/hedge-update-20261008/`.
+
+Release manifest, previous activation/monitor configuration and deployment
+verification are under `~/research_snapshots/hedge_update_20261008/`.
+Live acceptance verified one parent and the three expected children on the final
+release, unchanged Spot/Futures config identities, retained research counts,
+zero gap detections and no health issues. The generated Hedge page matches the
+versioned replay summary and includes both explanation drawers. The initial
+metric release completed a Futures/Hedge cycle; the final content-only correction
+rebuilt the page from that summary and passed the normal startup duplicate-cycle
+guard. See `live-acceptance.json` and `REPORT.md` in the evidence directory.
+The original immutable release is retained for rollback. This maintenance does
+not constitute a new strategy or predictive-research promotion.
 
 ## Everyday operation on the configured WSL host
 

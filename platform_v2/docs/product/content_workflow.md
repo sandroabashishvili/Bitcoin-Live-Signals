@@ -1,9 +1,13 @@
 # Content Workflow
 
-Status: `active baseline - artifact paths updated on 2026-06-02`  
-Created: `2026-05-19`  
-Updated: `2026-09-12`  
-Author: Codex  
+Status: `active baseline - implementation reviewed 2026-10-08`
+
+Created: `2026-05-19`
+
+Updated: `2026-10-08`
+
+Author: Codex
+
 Purpose: News, posts, reels, and public content workflow.
 
 ## Current Content Types
@@ -15,7 +19,9 @@ Purpose: News, posts, reels, and public content workflow.
 
 ## News Retention
 
-Public news keeps a rolling `10` day window.
+Local generated news keeps a rolling `10` calendar-day window, including the
+generation date. The configured limit is in
+`platform_v2/public_site/news/py/news_pipeline/config.py`.
 
 The retention rule applies to:
 
@@ -27,6 +33,27 @@ The pipeline keeps non-date files such as `archive/index.html`, `news/index.html
 
 Retention runs from the news generation pipeline after the latest daily page is built. The archive index is then rebuilt from the remaining dates.
 
+The publisher also mirrors deletions for generated news artifacts. It removes
+date-scoped archive HTML, daily JSON and news image files from the publication
+checkout when those files no longer exist in the local source. This cleanup
+runs even with incremental publishing; it requires a replacement local
+`news/index.html`. General site synchronization does not use `--delete` by
+default. See [SEO/publishing](seo_and_publishing.md).
+
+## News Source and Media Policy
+
+The news pipeline records normalized items in content SQLite and exports a
+render-ready daily JSON snapshot. Feed URLs and allowed article scopes are
+checked against `public_site/news/py/news_pipeline/source_policy.py`, including
+source-specific host/path, topic, category and attribution rules.
+
+The current default configuration enables the recorded publication review and
+summary reuse, subject to each source's policy. Publisher-image reuse and image
+downloads are disabled. Source review dates and permitted scope belong to the
+source policy; adding a feed URL alone does not establish permission to reuse
+its content. This document records the configured behavior, not a fresh review
+of external terms. Editorial media helpers are in the same news pipeline.
+
 ## Video Reels Example
 
 ```bash
@@ -36,7 +63,8 @@ python3 -m platform_v2.tools.video_reels \
   --date YYYY-MM-DD \
   --repo-root ~/SmartSignalHub/platform_v2 \
   --max-items 3 \
-  --news-indexes 3 7 11
+  --news-indexes 3 7 11 \
+  --export-srt
 ```
 
 If `--out` is omitted, reels are written under runtime artifacts:
@@ -45,13 +73,30 @@ If `--out` is omitted, reels are written under runtime artifacts:
 /home/sandro/SmartSignalHub/platform_v2/runtime/artifacts/video_reels/
 ```
 
-## To Verify
+## Reel Inputs and Outputs
 
-- current reel command options
-- output paths
-- news index source
-- subtitle generation
-- social text style
+Implementation checked: `tools/video_reels/app/cli.py` and
+`tools/video_reels/sources/news_source.py` on 2026-10-08.
+
+- Input: `public_site/news/data/news_items_YYYY-MM-DD.json` under `--repo-root`.
+- `--news-indexes` uses one-based indexes after invalid/no-title items are
+  filtered. Supplied indexes select those items in the requested order; without
+  indexes, `--max-items` selects the first items. Check the selected date's JSON
+  before reusing indexes because that day's batch can be regenerated.
+- `--out` selects the output directory. Relative paths resolve under
+  `--repo-root`; the default is the runtime artifact directory shown above.
+- The video filename is `Crypto News Highlights - <Month day, year>.mp4`.
+  Reusing the same date/output directory targets the same filename.
+- `--export-srt` writes a same-basename `.srt` beside the MP4.
+- `--preview` renders PNG frames without video encoding into
+  `preview-YYYY-MM-DD/`; with `--export-srt`, it writes `captions.srt` there.
+- `--story-overrides` reads a reviewed JSON object with a `stories` list.
+  Each override has a one-based `index`, an exact `expected_title`, and optional
+  `title`/`summary`. Duplicate or invalid indexes and changed source titles are
+  rejected. The source news JSON is not edited.
+- Resolution, duration, FPS, CRF, audio and caption reserve are CLI options.
+  Refer to the CLI for defaults and validation; visual review of a generated
+  reel remains separate from this source check.
 
 ## Social Post Style
 
@@ -71,4 +116,6 @@ News:
 
 The post should tease the video/news, not repeat every detail.
 
-Normalized items also live in content SQLite. The daily public JSON is a deliberate render-ready snapshot used by content/reel consumers. Local retention does not remove older public files during incremental publishing; see [SEO/publishing](seo_and_publishing.md).
+Use timestamps and the selected news batch when writing a social post. Check
+the generated reel and subtitles before publishing. The post format above is
+editorial guidance; it does not describe an automatic social upload.

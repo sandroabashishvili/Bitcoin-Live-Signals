@@ -49,9 +49,10 @@ weighted signal view uses six named components:
 - market structure.
 
 The primary decision timeframe is currently 15 minutes, with supporting
-context including 5-minute and 4-hour candles. Exit monitoring can use a
-different interval. These are implementation settings, not permanent product
-promises.
+context including 5-minute and 4-hour candles. The implementation can inspect
+one-minute candles for exits within the 15-minute cycle; the current operating
+guide records no independent one-minute exit monitor. These are implementation
+settings, not permanent product promises.
 
 The result may be LONG/BUY, SHORT/SELL or NO_SIGNAL. Component scores,
 thresholds and gate states help explain why.
@@ -129,6 +130,14 @@ The project is substantial and functional as a technical system, but it remains
 under active development. Signal quality, entry rules, risk logic, analytics,
 diagnostics and presentation are still being tested and refined.
 
+The current operating checkpoint records an identified simulation release and
+research-evidence collection beginning on 2026-09-28 at 06:00:10 UTC. Strategy
+behavior stays fixed during evidence accumulation; candidate changes belong to
+isolated research. Operational acceptance and successful tests do not establish
+strategy profitability. Refer to [the operating guide](../../operations/runbook.md)
+for current deployment status. Mr.B has no direct connection to that local
+service merely because this knowledge file describes it.
+
 Safe wording:
 
 > SmartSignalHub is an actively developed simulation and research platform,
@@ -146,4 +155,6 @@ Safe wording:
 - LinkedIn:
   <https://www.linkedin.com/in/aleksandre-abashishvili-03417617a/>
 
-Last reviewed: 28 July 2026.
+Product documentation reviewed: 8 October 2026 against local implementation and
+the operating guide. This date does not certify the currently uploaded Custom
+GPT configuration or a live response acceptance test.

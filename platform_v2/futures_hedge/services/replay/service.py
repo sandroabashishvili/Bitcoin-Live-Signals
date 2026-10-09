@@ -10,6 +10,7 @@ from platform_v2.shared.backend.persistence import read_market_series_safely
 from platform_v2.shared.backend.runtime_store.futures import load_family_rows_all as load_futures_family_rows_all
 from platform_v2.futures_hedge.config import FuturesHedgeProfile, default_profile
 from platform_v2.futures_hedge.config import settings
+from platform_v2.futures_hedge.services.equity_risk import equity_risk_metrics
 from platform_v2.shared.backend.runtime_store.hedge import (
     HEDGE_BASKET_SNAPSHOTS_FAMILY,
     HEDGE_DAILY_SUMMARIES_FAMILY,
@@ -152,10 +153,7 @@ class FuturesHedgeReplayService:
             "final_mark_price": round(latest_mark, 2),
             "decision_summary": decision_summary,
             "final_snapshot": final_snapshot,
-            "max_drawdown_pct": self._max_drawdown_pct(
-                points=performance_points,
-                starting_capital=self._profile.starting_capital_usdt,
-            ),
+            **equity_risk_metrics(performance_points, self._profile.starting_capital_usdt),
             "peak_equity_usdt": peak_equity,
             "lowest_equity_usdt": lowest_equity,
             "max_open_profit_usdt": max_open_profit,
@@ -211,6 +209,8 @@ class FuturesHedgeReplayService:
             "total_fees_usdt": final_snapshot.get("total_fees_usdt"),
             "final_mark_price": report.get("final_mark_price"),
             "max_drawdown_pct": report.get("max_drawdown_pct"),
+            "max_loss_from_start_pct": report.get("max_loss_from_start_pct"),
+            "drawdown_definition": report.get("drawdown_definition"),
             "peak_equity_usdt": report.get("peak_equity_usdt"),
             "lowest_equity_usdt": report.get("lowest_equity_usdt"),
             "max_open_profit_usdt": report.get("max_open_profit_usdt"),
@@ -433,17 +433,6 @@ class FuturesHedgeReplayService:
             symbol=settings.DEFAULT_SYMBOL,
             timeframe=settings.DEFAULT_TIMEFRAME,
         )
-
-    @staticmethod
-    def _max_drawdown_pct(*, points: list[dict[str, Any]], starting_capital: float) -> float:
-        if starting_capital <= 0:
-            return 0.0
-        max_drawdown = 0.0
-        for point in points:
-            equity = FuturesHedgeReplayService._as_float(point.get("equity_usdt"))
-            drawdown = max(0.0, (starting_capital - equity) / starting_capital * 100.0)
-            max_drawdown = max(max_drawdown, drawdown)
-        return round(max_drawdown, 4)
 
     @staticmethod
     def _peak_equity_usdt(points: list[dict[str, Any]]) -> float:
