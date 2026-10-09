@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-09",
-  "generated_at_utc": "2026-10-09 04:05:06 UTC",
+  "generated_at_utc": "2026-10-09 10:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-09T04:05:01.701865+00:00",
+    "collected_at": "2026-10-09T10:05:02.137372+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -53,8 +53,9 @@
         "within_window": 20,
         "eligible": 11,
         "rejected": {
-          "topic_author_or_category": 5,
-          "title_filter": 4
+          "unreviewed_link": 1,
+          "title_filter": 5,
+          "topic_author_or_category": 3
         }
       },
       {
@@ -98,13 +99,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 2,
-        "within_window": 3,
+        "within_24h": 1,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
           "unreviewed_link": 2,
-          "topic_author_or_category": 1,
-          "older_than_window": 12
+          "older_than_window": 13
         }
       },
       {
@@ -183,20 +183,33 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 11
+      "Cryptonews": 11,
+      "NewsBTC": 3
     },
     "unique_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 11
+      "Cryptonews": 11,
+      "NewsBTC": 3
     },
     "selected_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 9
+      "Cryptonews": 9,
+      "NewsBTC": 3
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "XRP News: Ripple Challenges Wall Street for a Slice of $256B ETF Market",
+      "link": "https://cryptonews.com/news/ripple-prime-etf-financing-xrp-news/",
+      "summary": "Ripple Prime is entering leveraged-ETF financing as total-return swaps bring fees and counterparty risks to a $256 billion U.S. market of 593 funds.",
+      "source": "Cryptonews",
+      "date": "2026-10-09",
+      "date_human": "Oct 9, 2026",
+      "pub_ts": 1791537060,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "PowerCompute Mines 8.1 Bitcoin In September After Using BTC To Slash Debt",
       "link": "https://www.newsbtc.com/news/bitcoin/powercompute-mines-8-1-bitcoin-in-september-after-using-btc-to-slash/",
@@ -211,13 +224,13 @@
       "image_local": null
     },
     {
-      "title": "XRP Price, Outflows, and Bitcoin Shorts Send Mixed Signals",
-      "link": "https://cryptonews.com/news/xrp-price-whales-exchange-outflows/",
-      "summary": "XRP whales drove 77% of reported exchange outflows, while four Hyperliquid wallets opened $12.5M Bitcoin shorts before BTC fell below $84,000.",
+      "title": "Bitcoin Price Briefly Reclaims $81,000 as Liquidations Top $1 Billion",
+      "link": "https://cryptonews.com/news/bitcoin-price-80000-support-liquidations/",
+      "summary": "Bitcoin price analysis weighs the $80,000 support after a brief dip below $82,000, with ETF outflows and $1 billion in liquidations.",
       "source": "Cryptonews",
-      "date": "2026-10-08",
-      "date_human": "Oct 8, 2026",
-      "pub_ts": 1791483660,
+      "date": "2026-10-09",
+      "date_human": "Oct 9, 2026",
+      "pub_ts": 1791536872,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -237,13 +250,13 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin ETF Flows Flash Warning, but Broader Demand Stays Positive",
-      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-demand/",
-      "summary": "Bitcoin ETF outflows hit $484.9 million on October 7, but positive 30-day and three-month flows argue against a confirmed reversal in demand.",
+      "title": "Greece Crypto Tax Proposal Would Exempt First €500 in Annual Gains",
+      "link": "https://cryptonews.com/news/greece-crypto-tax-draft/",
+      "summary": "Greece crypto tax plans point to a 10% capital-gains rate and €500 exemption, but consultation could still change the draft before Parliament.",
       "source": "Cryptonews",
-      "date": "2026-10-08",
-      "date_human": "Oct 8, 2026",
-      "pub_ts": 1791466200,
+      "date": "2026-10-09",
+      "date_human": "Oct 9, 2026",
+      "pub_ts": 1791529442,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -257,6 +270,45 @@
       "date": "2026-10-08",
       "date_human": "Oct 8, 2026",
       "pub_ts": 1791489600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Netflix Is Giving SBF Another Stage: What About His Victims?",
+      "link": "https://cryptonews.com/news/the-altruists-ftx-drama-sbf-netflix/",
+      "summary": "The Altruists puts Sam Bankman-Fried and Caroline Ellison’s relationship at the center of Netflix’s drama about FTX’s collapse and fraud.",
+      "source": "Cryptonews",
+      "date": "2026-10-09",
+      "date_human": "Oct 9, 2026",
+      "pub_ts": 1791526813,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Price, Outflows, and Bitcoin Shorts Send Mixed Signals",
+      "link": "https://cryptonews.com/news/xrp-price-whales-exchange-outflows/",
+      "summary": "XRP whales drove 77% of reported exchange outflows, while four Hyperliquid wallets opened $12.5M Bitcoin shorts before BTC fell below $84,000.",
+      "source": "Cryptonews",
+      "date": "2026-10-08",
+      "date_human": "Oct 8, 2026",
+      "pub_ts": 1791483660,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin ETF Flows Flash Warning, but Broader Demand Stays Positive",
+      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-demand/",
+      "summary": "Bitcoin ETF outflows hit $484.9 million on October 7, but positive 30-day and three-month flows argue against a confirmed reversal in demand.",
+      "source": "Cryptonews",
+      "date": "2026-10-08",
+      "date_human": "Oct 8, 2026",
+      "pub_ts": 1791466200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -296,58 +348,6 @@
       "date": "2026-10-08",
       "date_human": "Oct 8, 2026",
       "pub_ts": 1791447838,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "What is Crypto Bunker Mode? Ethereum's Justin Drake Warns of a Possible AI Break",
-      "link": "https://cryptonews.com/news/what-is-crypto-bunker-mode-drake-ethereum-warning/",
-      "summary": "Crypto Bunker is Justin Drake’s plan for gradual fund migration, not proof that AI has broken Bitcoin or Ethereum cryptography.",
-      "source": "Cryptonews",
-      "date": "2026-10-08",
-      "date_human": "Oct 8, 2026",
-      "pub_ts": 1791444374,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: Brevan Howard Deal Broadens Ripple's Scope",
-      "link": "https://cryptonews.com/news/ripple-prime-brevan-howard-services-xrp-news/",
-      "summary": "Ripple Prime will provide Brevan Howard funds with multi-asset brokerage, clearing and financing, but the announcement confirms no XRP use.",
-      "source": "Cryptonews",
-      "date": "2026-10-08",
-      "date_human": "Oct 8, 2026",
-      "pub_ts": 1791443400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP Price Eyes New Catalyst as Ripple Partners With South Korea's Meritz",
-      "link": "https://cryptonews.com/news/ripple-meritz-korea-review-xrp-price-catalyst/",
-      "summary": "Ripple and Meritz Securities will assess custody and tokenization tools in South Korea, with no launch, XRP use or timetable confirmed.",
-      "source": "Cryptonews",
-      "date": "2026-10-07",
-      "date_human": "Oct 7, 2026",
-      "pub_ts": 1791389460,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: XRPL $2.2B Tokenization Depends on Energy Token",
-      "link": "https://cryptonews.com/news/xrp-news-energy-token-tokenized-commodities-jmwh/",
-      "summary": "XRPL tokenized commodities are led by JMWH, but its $2.23B represented value does not prove deep liquidity, broad ownership or XRP demand.",
-      "source": "Cryptonews",
-      "date": "2026-10-07",
-      "date_human": "Oct 7, 2026",
-      "pub_ts": 1791378060,
       "image_candidates": [],
       "license_url": null,
       "image": null,
