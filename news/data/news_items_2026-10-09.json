@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-10-08",
-  "generated_at_utc": "2026-10-08 22:05:11 UTC",
+  "day_iso": "2026-10-09",
+  "generated_at_utc": "2026-10-09 04:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-08T22:05:07.004996+00:00",
+    "collected_at": "2026-10-09T04:05:01.701865+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 5,
+        "eligible": 3,
         "rejected": {
-          "unreviewed_link": 5
+          "unreviewed_link": 7
         }
       },
       {
@@ -49,12 +49,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 13,
+        "within_24h": 12,
         "within_window": 20,
-        "eligible": 12,
+        "eligible": 11,
         "rejected": {
-          "title_filter": 4,
-          "topic_author_or_category": 4
+          "topic_author_or_category": 5,
+          "title_filter": 4
         }
       },
       {
@@ -183,28 +183,28 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 5,
-      "Cryptonews": 12
+      "NewsBTC": 3,
+      "Cryptonews": 11
     },
     "unique_by_source": {
-      "NewsBTC": 5,
-      "Cryptonews": 12
+      "NewsBTC": 3,
+      "Cryptonews": 11
     },
     "selected_by_source": {
-      "NewsBTC": 5,
-      "Cryptonews": 7
+      "NewsBTC": 3,
+      "Cryptonews": 9
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Strategy Sets October 29 Date For Its Next Major Bitcoin Treasury Update",
-      "link": "https://www.newsbtc.com/news/bitcoin/strategy-sets-october-29-date-for-its-next-major-bitcoin-treasury/",
-      "summary": "Strategy will report third-quarter 2026 results after US markets close on October 29 and hold a live webinar at 5 p.m. Eastern Time. The update will give investors the next full financial snapshot of the world's largest corporate Bitcoin treasury.",
+      "title": "PowerCompute Mines 8.1 Bitcoin In September After Using BTC To Slash Debt",
+      "link": "https://www.newsbtc.com/news/bitcoin/powercompute-mines-8-1-bitcoin-in-september-after-using-btc-to-slash/",
+      "summary": "PowerCompute mined 8.1 BTC in September, up 37% from a year earlier. Its month-end Bitcoin holdings fell to 63.7 BTC after the company used 267.4 BTC to help retire a $22.45 million Bitcoin-backed credit facility, leaving most of its secured debt eliminated.",
       "source": "NewsBTC",
       "date": "2026-10-08",
       "date_human": "Oct 8, 2026",
-      "pub_ts": 1791496800,
+      "pub_ts": 1791500400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -224,13 +224,13 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin ETFs Bleed $484.9 Million As BlackRock Leads A Broad Day Of Outflows",
-      "link": "https://www.newsbtc.com/news/bitcoin/bitcoin-etfs-bleed-484-9-million-as-blackrock-leads-a-broad-day-of/",
-      "summary": "US spot Bitcoin ETFs recorded $484.9 million in net outflows on October 7, according to Farside Investors. BlackRock's IBIT led the withdrawals with $207.7 million leaving the fund, while Fidelity and ARK also posted nine-figure outflows.",
+      "title": "Strategy Sets October 29 Date For Its Next Major Bitcoin Treasury Update",
+      "link": "https://www.newsbtc.com/news/bitcoin/strategy-sets-october-29-date-for-its-next-major-bitcoin-treasury/",
+      "summary": "Strategy will report third-quarter 2026 results after US markets close on October 29 and hold a live webinar at 5 p.m. Eastern Time. The update will give investors the next full financial snapshot of the world's largest corporate Bitcoin treasury.",
       "source": "NewsBTC",
       "date": "2026-10-08",
       "date_human": "Oct 8, 2026",
-      "pub_ts": 1791489600,
+      "pub_ts": 1791496800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -250,13 +250,13 @@
       "image_local": null
     },
     {
-      "title": "Gate Partners with Visa to Launch Crypto-linked Card Across 40+ Countries and Territories",
-      "link": "https://www.newsbtc.com/news/gate-partners-with-visa-to-launch-crypto-linked-card-across-40-countries-and-territories/",
-      "summary": "Gate has announced a collaboration with Visa to launch a crypto-linked card, further expanding the use of digital assets in everyday spending and global commerce. The product is expected to launch across 40+ markets globally, allowing users to make payments with digital assets online and in-store wherever Visa is accepted and more conveniently connect their Gate accounts with real-world spending. When users make payments with the crypto-linked Visa card launched by Gate, the relevant crypto assets will be automatically converted into fiat currency at the point of sale, allowing digital assets ",
+      "title": "Bitcoin ETFs Bleed $484.9 Million As BlackRock Leads A Broad Day Of Outflows",
+      "link": "https://www.newsbtc.com/news/bitcoin/bitcoin-etfs-bleed-484-9-million-as-blackrock-leads-a-broad-day-of/",
+      "summary": "US spot Bitcoin ETFs recorded $484.9 million in net outflows on October 7, according to Farside Investors. BlackRock's IBIT led the withdrawals with $207.7 million leaving the fund, while Fidelity and ARK also posted nine-figure outflows.",
       "source": "NewsBTC",
       "date": "2026-10-08",
       "date_human": "Oct 8, 2026",
-      "pub_ts": 1791451513,
+      "pub_ts": 1791489600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -276,19 +276,6 @@
       "image_local": null
     },
     {
-      "title": "HTX Ventures Publishes New Report on the Convergence of CeFi, DeFi, and TradFi",
-      "link": "https://www.newsbtc.com/news/htx-ventures-publishes-new-report-on-the-convergence-of-cefi-defi-and-tradfi/",
-      "summary": "HTX Ventures, the global investment arm of HTX, has published a new report titled The Convergence of CeFi, DeFi, and TradFi in 2026: How Institutional-Grade Hybrid Architecture Is Taking Shape. The report examines how CeFi, DeFi, and TradFi are converging to form a new institutional digital-asset architecture. As custody, collateral, execution, yield, and risk management are unbundled from the traditional all-in-one platform model, each layer is increasingly being occupied by specialized market leaders: TradFi provides regulated, yield-bearing assets; centralized platforms and custodians manag",
-      "source": "NewsBTC",
-      "date": "2026-10-08",
-      "date_human": "Oct 8, 2026",
-      "pub_ts": 1791451184,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Glamsterdam Upgrade: Sepolia Blocks Leave Most of Ethereum's New Gas Capacity Unused",
       "link": "https://cryptonews.com/news/ethereum-glamsterdam-sepolia-gas-limit-test/",
       "summary": "Ethereum’s Sepolia gas limit test produced all scheduled blocks, but sampled usage stayed below half of the new capacity, leaving mainnet timing open.",
@@ -296,19 +283,6 @@
       "date": "2026-10-08",
       "date_human": "Oct 8, 2026",
       "pub_ts": 1791452257,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Polygon Open Money Stack Expands to TRON, Extending Network Access to Regulated U.S. Payment Rails",
-      "link": "https://www.newsbtc.com/news/polygon-open-money-stack-expands-to-tron-extending-network-access-to-regulated-u-s-payment-rails/",
-      "summary": "Dubai, UAE – October 8, 2026 – Polygon Labs today announced that Polygon Open Money Stack now supports the TRON network, giving fintechs, remittance providers and payment platforms a way to connect bank funds directly into the world’s largest network for USDT (TRC-20). The expansion connects Polygon Open Money Stack to TRON’s stablecoin economy, which supports more than $94 billion in circulating USDT and over $30 trillion in total transfer volume. Businesses serving that economy have traditionally had to independently assemble licensing, sponsor banks, wallet providers, and cross-chain routin",
-      "source": "NewsBTC",
-      "date": "2026-10-08",
-      "date_human": "Oct 8, 2026",
-      "pub_ts": 1791450994,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -348,6 +322,32 @@
       "date": "2026-10-08",
       "date_human": "Oct 8, 2026",
       "pub_ts": 1791443400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Price Eyes New Catalyst as Ripple Partners With South Korea's Meritz",
+      "link": "https://cryptonews.com/news/ripple-meritz-korea-review-xrp-price-catalyst/",
+      "summary": "Ripple and Meritz Securities will assess custody and tokenization tools in South Korea, with no launch, XRP use or timetable confirmed.",
+      "source": "Cryptonews",
+      "date": "2026-10-07",
+      "date_human": "Oct 7, 2026",
+      "pub_ts": 1791389460,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: XRPL $2.2B Tokenization Depends on Energy Token",
+      "link": "https://cryptonews.com/news/xrp-news-energy-token-tokenized-commodities-jmwh/",
+      "summary": "XRPL tokenized commodities are led by JMWH, but its $2.23B represented value does not prove deep liquidity, broad ownership or XRP demand.",
+      "source": "Cryptonews",
+      "date": "2026-10-07",
+      "date_human": "Oct 7, 2026",
+      "pub_ts": 1791378060,
       "image_candidates": [],
       "license_url": null,
       "image": null,
