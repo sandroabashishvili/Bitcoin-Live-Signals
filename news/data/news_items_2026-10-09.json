@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-09",
-  "generated_at_utc": "2026-10-09 10:05:08 UTC",
+  "generated_at_utc": "2026-10-09 16:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-09T10:05:02.137372+00:00",
+    "collected_at": "2026-10-09T16:05:01.472068+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 3,
+        "eligible": 4,
         "rejected": {
-          "unreviewed_link": 7
+          "unreviewed_link": 6
         }
       },
       {
@@ -36,7 +36,7 @@
         "url": "https://www.nist.gov/news-events/news/rss.xml",
         "status": "ok",
         "entries": 40,
-        "within_24h": 2,
+        "within_24h": 0,
         "within_window": 2,
         "eligible": 0,
         "rejected": {
@@ -49,13 +49,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 12,
+        "within_24h": 10,
         "within_window": 20,
         "eligible": 11,
         "rejected": {
+          "title_filter": 6,
           "unreviewed_link": 1,
-          "title_filter": 5,
-          "topic_author_or_category": 3
+          "topic_author_or_category": 2
         }
       },
       {
@@ -87,11 +87,12 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 25
+          "topic_author_or_category": 1,
+          "older_than_window": 24
         }
       },
       {
@@ -99,7 +100,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 2,
         "eligible": 0,
         "rejected": {
@@ -112,11 +113,11 @@
         "url": "https://bitcoinops.org/feed.xml",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 10
+          "older_than_window": 9
         }
       },
       {
@@ -173,30 +174,46 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
-        "within_window": 2,
+        "within_24h": 2,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 2,
-          "older_than_window": 18
+          "topic_author_or_category": 3,
+          "older_than_window": 17
         }
       }
     ],
     "eligible_by_source": {
+      "NewsBTC": 4,
       "Cryptonews": 11,
-      "NewsBTC": 3
+      "Bitcoin Optech": 1
     },
     "unique_by_source": {
+      "NewsBTC": 4,
       "Cryptonews": 11,
-      "NewsBTC": 3
+      "Bitcoin Optech": 1
     },
     "selected_by_source": {
-      "Cryptonews": 9,
-      "NewsBTC": 3
+      "NewsBTC": 4,
+      "Cryptonews": 7,
+      "Bitcoin Optech": 1
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "MEXC and Payward Highlight Collaboration as Crypto and TradFi Converge at TOKEN2049",
+      "link": "https://www.newsbtc.com/news/mexc-and-payward-highlight-collaboration-as-crypto-and-tradfi-converge-at-token2049/",
+      "summary": "October 9, 2026 – MEXC,a pioneer in 0-fee digital asset trading, and Payward, the parent company of Kraken, shared their perspectives on the convergence of crypto and traditional finance during a TOKEN2049 Singapore panel. MEXC CEO Vugar Usi Zade and Payward Co-CEO Arjun Sethi, discussed how broader market access, retail demand and collaboration between platforms could shape the future of global trading. Crypto and TradFi Move Closer Together An important theme was the shift toward more connected, always-on markets. Vugar said blockchain infrastructure is challenging traditional market structu",
+      "source": "NewsBTC",
+      "date": "2026-10-09",
+      "date_human": "Oct 9, 2026",
+      "pub_ts": 1791542044,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "XRP News: Ripple Challenges Wall Street for a Slice of $256B ETF Market",
       "link": "https://cryptonews.com/news/ripple-prime-etf-financing-xrp-news/",
@@ -207,6 +224,19 @@
       "pub_ts": 1791537060,
       "image_candidates": [],
       "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Optech Newsletter #426",
+      "link": "https://bitcoinops.org/en/newsletters/2026/10/09/",
+      "summary": "This week’s newsletter links to a draft BIP for letting peers choose their own one-byte message type IDs over the version 2 P2P transport, summarizes a discussion about whether BIPs should include their number in tagged hash tags, and describes a proposed metaprotocol for private onchain transfers that requires no consensus changes. Also included are our regular sections announcing new releases and release candidates and describing notable changes to popular Bitcoin infrastructure software.",
+      "source": "Bitcoin Optech",
+      "date": "2026-10-09",
+      "date_human": "Oct 9, 2026",
+      "pub_ts": 1791504000,
+      "image_candidates": [],
+      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
       "image": null,
       "image_local": null
     },
@@ -322,32 +352,6 @@
       "date": "2026-10-08",
       "date_human": "Oct 8, 2026",
       "pub_ts": 1791459960,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Glamsterdam Upgrade: Sepolia Blocks Leave Most of Ethereum's New Gas Capacity Unused",
-      "link": "https://cryptonews.com/news/ethereum-glamsterdam-sepolia-gas-limit-test/",
-      "summary": "Ethereum’s Sepolia gas limit test produced all scheduled blocks, but sampled usage stayed below half of the new capacity, leaving mainnet timing open.",
-      "source": "Cryptonews",
-      "date": "2026-10-08",
-      "date_human": "Oct 8, 2026",
-      "pub_ts": 1791452257,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "USDC Transfers Are Coming to Samsung Wallet",
-      "link": "https://cryptonews.com/news/samsung-wallet-usdc-transfers/",
-      "summary": "Samsung Wallet plans USDC transfers for eligible U.S. users in October 2026, with crypto-wallet and bank payouts across more than 60 countries.",
-      "source": "Cryptonews",
-      "date": "2026-10-08",
-      "date_human": "Oct 8, 2026",
-      "pub_ts": 1791447838,
       "image_candidates": [],
       "license_url": null,
       "image": null,
