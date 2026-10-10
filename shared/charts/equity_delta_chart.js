@@ -1,49 +1,8 @@
 import { buildGradient, mountChart } from "./common.js";
 
-function parseTs(value) {
-  if (!value) {
-    return NaN;
-  }
-  const ts = Date.parse(value);
-  return Number.isFinite(ts) ? ts : NaN;
-}
-
 function buildSeries() {
-  const rows = Array.isArray(window.__SSH_OVERVIEW_EQUITY__) ? window.__SSH_OVERVIEW_EQUITY__ : [];
-  if (!rows.length) {
-    return [];
-  }
-
-  const points = rows
-    .map((row) => {
-      const start = Number(row.starting_capital);
-      const equity = Number(row.equity);
-      const ts = parseTs(row.datetime || row.date || row.timestamp);
-      if (!Number.isFinite(start) || !Number.isFinite(equity) || !Number.isFinite(ts) || start === 0) {
-        return null;
-      }
-      const deltaPct = ((equity - start) / start) * 100;
-      const deltaAbs = equity - start;
-      return {
-        value: [ts, Number(deltaPct.toFixed(4)), equity, start, deltaAbs],
-      };
-    })
-    .filter(Boolean)
-    .sort((a, b) => a.value[0] - b.value[0]);
-
-  if (points.length) {
-    const first = points[0].value;
-    const firstTs = first[0];
-    const firstStart = first[3];
-    const firstDelta = first[1];
-    if (Number.isFinite(firstTs) && Number.isFinite(firstStart) && firstDelta !== 0) {
-      points.unshift({
-        value: [firstTs - 60000, 0, firstStart, firstStart, 0],
-      });
-    }
-  }
-
-  return points;
+  const rows = window.__SSH_OVERVIEW_EQUITY__?.rows || [];
+  return rows.map((row) => ({ value: row.chart_point }));
 }
 
 function formatAxisDate(value) {
@@ -75,17 +34,14 @@ function buildOption(E, theme) {
   const isUp = last[1] >= 0;
   const lineColor = isUp ? theme.green : theme.red;
 
-  const minDelta = Math.min(...data.map((point) => point.value[1]));
-  const maxDelta = Math.max(...data.map((point) => point.value[1]));
-  const maxAbsDelta = Math.max(Math.abs(minDelta), Math.abs(maxDelta));
-  const axisHalfRange = Math.max(Number((maxAbsDelta * 1.25).toFixed(4)), 0.1);
+  const payload = window.__SSH_OVERVIEW_EQUITY__;
   const markPoints = [];
 
-  if (maxDelta !== last[1]) {
-    markPoints.push({ type: "max", name: "Max" });
+  if (payload.max_point?.[1] !== last[1]) {
+    markPoints.push({ coord: payload.max_point, value: payload.max_point[1], name: "Max" });
   }
-  if (minDelta !== last[1]) {
-    markPoints.push({ type: "min", name: "Min" });
+  if (payload.min_point?.[1] !== last[1]) {
+    markPoints.push({ coord: payload.min_point, value: payload.min_point[1], name: "Min" });
   }
   markPoints.push({
     coord: last,
@@ -187,8 +143,8 @@ function buildOption(E, theme) {
     },
     yAxis: {
       type: "value",
-      min: -axisHalfRange,
-      max: axisHalfRange,
+      min: payload.axis_min,
+      max: payload.axis_max,
       axisLabel: {
         show: true,
         color: theme.muted,

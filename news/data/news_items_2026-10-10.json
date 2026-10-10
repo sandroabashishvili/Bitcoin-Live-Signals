@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-10",
-  "generated_at_utc": "2026-10-10 10:05:07 UTC",
+  "generated_at_utc": "2026-10-10 16:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-10T10:05:03.473687+00:00",
+    "collected_at": "2026-10-10T16:05:02.077873+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 10,
         "eligible": 4,
         "rejected": {
@@ -37,11 +37,10 @@
         "status": "ok",
         "entries": 40,
         "within_24h": 0,
-        "within_window": 2,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 2,
-          "older_than_window": 38
+          "older_than_window": 40
         }
       },
       {
@@ -49,14 +48,14 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 2,
-        "within_window": 14,
-        "eligible": 8,
+        "within_24h": 1,
+        "within_window": 11,
+        "eligible": 6,
         "rejected": {
-          "title_filter": 4,
+          "title_filter": 3,
           "unreviewed_link": 1,
           "topic_author_or_category": 1,
-          "older_than_window": 6
+          "older_than_window": 9
         }
       },
       {
@@ -88,7 +87,7 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -102,11 +101,10 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 1,
-          "older_than_window": 14
+          "older_than_window": 15
         }
       },
       {
@@ -174,7 +172,7 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 2,
         "eligible": 0,
         "rejected": {
@@ -184,22 +182,22 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 8,
+      "Cryptonews": 6,
       "NewsBTC": 4,
       "Bitcoin Optech": 1
     },
     "unique_by_source": {
-      "Cryptonews": 8,
+      "Cryptonews": 6,
       "NewsBTC": 4,
       "Bitcoin Optech": 1
     },
     "selected_by_source": {
-      "Cryptonews": 7,
+      "Cryptonews": 6,
       "NewsBTC": 4,
       "Bitcoin Optech": 1
     }
   },
-  "count": 12,
+  "count": 11,
   "items": [
     {
       "title": "XRP Price Could Be Gearing Up for a Rally to $1.70",
@@ -339,19 +337,6 @@
       "date": "2026-10-08",
       "date_human": "Oct 8, 2026",
       "pub_ts": 1791483660,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin ETF Flows Flash Warning, but Broader Demand Stays Positive",
-      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-demand/",
-      "summary": "Bitcoin ETF outflows hit $484.9 million on October 7, but positive 30-day and three-month flows argue against a confirmed reversal in demand.",
-      "source": "Cryptonews",
-      "date": "2026-10-08",
-      "date_human": "Oct 8, 2026",
-      "pub_ts": 1791466200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
