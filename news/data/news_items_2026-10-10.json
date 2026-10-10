@@ -1,6 +1,6 @@
 {
-  "day_iso": "2026-10-09",
-  "generated_at_utc": "2026-10-09 22:05:07 UTC",
+  "day_iso": "2026-10-10",
+  "generated_at_utc": "2026-10-10 04:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-09T22:05:02.919727+00:00",
+    "collected_at": "2026-10-10T04:05:03.166057+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 4,
+        "within_24h": 1,
         "within_window": 10,
         "eligible": 4,
         "rejected": {
@@ -49,7 +49,7 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 10,
+        "within_24h": 9,
         "within_window": 20,
         "eligible": 12,
         "rejected": {
@@ -113,7 +113,7 @@
         "url": "https://bitcoinops.org/feed.xml",
         "status": "ok",
         "entries": 10,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 1,
         "rejected": {
