@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-10",
-  "generated_at_utc": "2026-10-10 04:05:08 UTC",
+  "generated_at_utc": "2026-10-10 10:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-10T04:05:03.166057+00:00",
+    "collected_at": "2026-10-10T10:05:03.473687+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -49,13 +49,14 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
-        "within_window": 20,
-        "eligible": 12,
+        "within_24h": 2,
+        "within_window": 14,
+        "eligible": 8,
         "rejected": {
-          "title_filter": 5,
+          "title_filter": 4,
           "unreviewed_link": 1,
-          "topic_author_or_category": 2
+          "topic_author_or_category": 1,
+          "older_than_window": 6
         }
       },
       {
@@ -101,11 +102,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 2,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 2,
-          "older_than_window": 13
+          "unreviewed_link": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -183,12 +184,12 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 12,
+      "Cryptonews": 8,
       "NewsBTC": 4,
       "Bitcoin Optech": 1
     },
     "unique_by_source": {
-      "Cryptonews": 12,
+      "Cryptonews": 8,
       "NewsBTC": 4,
       "Bitcoin Optech": 1
     },
