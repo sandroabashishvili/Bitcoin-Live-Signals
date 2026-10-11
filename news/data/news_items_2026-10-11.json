@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-11",
-  "generated_at_utc": "2026-10-11 04:05:08 UTC",
+  "generated_at_utc": "2026-10-11 16:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-11T04:05:03.857461+00:00",
+    "collected_at": "2026-10-11T16:05:01.662606+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -25,10 +25,10 @@
         "status": "ok",
         "entries": 10,
         "within_24h": 1,
-        "within_window": 2,
-        "eligible": 2,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 8
+          "older_than_window": 9
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 0,
-        "within_window": 9,
-        "eligible": 5,
+        "within_24h": 2,
+        "within_window": 3,
+        "eligible": 1,
         "rejected": {
-          "title_filter": 3,
-          "unreviewed_link": 1,
-          "older_than_window": 11
+          "topic_author_or_category": 1,
+          "title_filter": 1,
+          "older_than_window": 17
         }
       },
       {
@@ -87,11 +87,10 @@
         "status": "ok",
         "entries": 25,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 24
+          "older_than_window": 25
         }
       },
       {
@@ -172,28 +171,27 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 19
+          "older_than_window": 20
         }
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 5
+      "NewsBTC": 1,
+      "Cryptonews": 1
     },
     "unique_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 5
+      "NewsBTC": 1,
+      "Cryptonews": 1
     },
     "selected_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 5
+      "NewsBTC": 1,
+      "Cryptonews": 1
     }
   },
-  "count": 7,
+  "count": 2,
   "items": [
     {
       "title": "Justin Sun Shares AI and Quantum Vision at TOKEN2049 Singapore and Blockworks DAS Asia",
@@ -216,71 +214,6 @@
       "date": "2026-10-09",
       "date_human": "Oct 9, 2026",
       "pub_ts": 1791568560,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "MEXC and Payward Highlight Collaboration as Crypto and TradFi Converge at TOKEN2049",
-      "link": "https://www.newsbtc.com/news/mexc-and-payward-highlight-collaboration-as-crypto-and-tradfi-converge-at-token2049/",
-      "summary": "October 9, 2026 – MEXC,a pioneer in 0-fee digital asset trading, and Payward, the parent company of Kraken, shared their perspectives on the convergence of crypto and traditional finance during a TOKEN2049 Singapore panel. MEXC CEO Vugar Usi Zade and Payward Co-CEO Arjun Sethi, discussed how broader market access, retail demand and collaboration between platforms could shape the future of global trading. Crypto and TradFi Move Closer Together An important theme was the shift toward more connected, always-on markets. Vugar said blockchain infrastructure is challenging traditional market structu",
-      "source": "NewsBTC",
-      "date": "2026-10-09",
-      "date_human": "Oct 9, 2026",
-      "pub_ts": 1791542044,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: Ripple Challenges Wall Street for a Slice of $256B ETF Market",
-      "link": "https://cryptonews.com/news/ripple-prime-etf-financing-xrp-news/",
-      "summary": "Ripple Prime is entering leveraged-ETF financing as total-return swaps bring fees and counterparty risks to a $256 billion U.S. market of 593 funds.",
-      "source": "Cryptonews",
-      "date": "2026-10-09",
-      "date_human": "Oct 9, 2026",
-      "pub_ts": 1791537060,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Price Briefly Reclaims $81,000 as Liquidations Top $1 Billion",
-      "link": "https://cryptonews.com/news/bitcoin-price-80000-support-liquidations/",
-      "summary": "Bitcoin price analysis weighs the $80,000 support after a brief dip below $82,000, with ETF outflows and $1 billion in liquidations.",
-      "source": "Cryptonews",
-      "date": "2026-10-09",
-      "date_human": "Oct 9, 2026",
-      "pub_ts": 1791536872,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Greece Crypto Tax Proposal Would Exempt First €500 in Annual Gains",
-      "link": "https://cryptonews.com/news/greece-crypto-tax-draft/",
-      "summary": "Greece crypto tax plans point to a 10% capital-gains rate and €500 exemption, but consultation could still change the draft before Parliament.",
-      "source": "Cryptonews",
-      "date": "2026-10-09",
-      "date_human": "Oct 9, 2026",
-      "pub_ts": 1791529442,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Netflix Is Giving SBF Another Stage: What About His Victims?",
-      "link": "https://cryptonews.com/news/the-altruists-ftx-drama-sbf-netflix/",
-      "summary": "The Altruists puts Sam Bankman-Fried and Caroline Ellison’s relationship at the center of Netflix’s drama about FTX’s collapse and fraud.",
-      "source": "Cryptonews",
-      "date": "2026-10-09",
-      "date_human": "Oct 9, 2026",
-      "pub_ts": 1791526813,
       "image_candidates": [],
       "license_url": null,
       "image": null,
