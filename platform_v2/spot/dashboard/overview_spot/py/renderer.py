@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 from typing import Any
+from platform_v2.shared.backend.chart_payloads import build_equity_chart_payload
 
 from platform_v2.spot.dashboard.explanation_system import render_explanation_host, render_explanation_payload
 from platform_v2.spot.dashboard.overview_spot.py.explanations import build_overview_explanations
@@ -29,7 +30,7 @@ class OverviewPageRenderer:
 
     def render(self, payload: dict[str, Any]) -> str:
         runtime_health = payload.get("runtime_health") or {}
-        metrics_history_json = json.dumps(payload.get("equity_chart_rows") or [], ensure_ascii=True).replace("</", "<\\/")
+        metrics_history_json = json.dumps(build_equity_chart_payload(payload.get("equity_chart_rows") or []), ensure_ascii=True).replace("</", "<\\/")
         explanation_payload = render_explanation_payload(build_overview_explanations(payload).as_dict())
         status_line = (
             f"Updated {self.escape(payload['generated_at'])} · "
@@ -94,7 +95,7 @@ class OverviewPageRenderer:
     {render_explanation_host(base_prefix="../")}
     <script>window.__SSH_OVERVIEW_EQUITY__ = {metrics_history_json};</script>
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
-    <script type="module" src="../../../shared/frontend/charts/equity_delta_chart.js"></script>
+    <script type="module" src="../../../shared/frontend/charts/equity_delta_chart.js?v=backend-v1"></script>
     {render_runtime_clock_script()}
   </body>
 </html>

@@ -5,6 +5,7 @@ from __future__ import annotations
 import html
 import json
 from typing import Any
+from platform_v2.shared.backend.chart_payloads import build_gate_chart_payload
 
 from platform_v2.futures.dashboard.explanation_system import (
     load_explanation_map,
@@ -26,7 +27,7 @@ class TradeOutcomesFuturesPageRenderer:
     """Render the Futures Trade Outcomes page from a prepared payload."""
 
     def render(self, payload: dict[str, Any]) -> str:
-        logic_evaluation = payload["logic_chart_payload"]
+        logic_evaluation = build_gate_chart_payload(payload["logic_chart_payload"], directional=True)
         logic_tables_section = payload["logic_tables_section"]
         strategy_outcome_items = payload["strategy_outcome_items"]
 
@@ -88,7 +89,7 @@ class TradeOutcomesFuturesPageRenderer:
     {render_explanation_host(base_prefix="../")}
     <script>window.__SSH_STRATEGY_LOGIC__ = {json.dumps(logic_evaluation, ensure_ascii=True).replace("</", "<\\/")};</script>
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
-    <script type="module" src="../../../shared/frontend/charts/strategy_logic_evaluation.js"></script>
+    <script type="module" src="../../../shared/frontend/charts/strategy_logic_evaluation.js?v=backend-v1"></script>
     {render_runtime_clock_script()}
   </body>
 </html>
@@ -302,7 +303,7 @@ class TradeOutcomesFuturesPageRenderer:
           <div class="strategy-logic-grid strategy-logic-paired-grid">
             <div class="strategy-logic-card">
               <div class="chart-shell strategy-donut-shell">
-                <div id="strategy-primary-donut" class="chart-canvas" aria-label="Primary gates donut"></div>
+                <div id="strategy-primary-donut" class="chart-canvas" aria-label="LONG gate participations donut"></div>
               </div>
               <section class="strategy-gate-direction-card">
                 <div class="strategy-gate-direction-head">
@@ -314,7 +315,7 @@ class TradeOutcomesFuturesPageRenderer:
             </div>
             <div class="strategy-logic-card">
               <div class="chart-shell strategy-donut-shell">
-                <div id="strategy-confirmation-donut" class="chart-canvas" aria-label="Confirmation gates donut"></div>
+                <div id="strategy-confirmation-donut" class="chart-canvas" aria-label="SHORT gate participations donut"></div>
               </div>
               <section class="strategy-gate-direction-card">
                 <div class="strategy-gate-direction-head">

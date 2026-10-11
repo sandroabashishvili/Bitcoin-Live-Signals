@@ -1,42 +1,24 @@
 import { buildGradient, mountChart } from "./common.js";
 
 function buildSeries() {
-  const rows = Array.isArray(window.__ORDERBOOK_ROWS__) ? window.__ORDERBOOK_ROWS__ : [];
+  const rows = Array.isArray(window.__ORDERBOOK_ROWS__) ? [...window.__ORDERBOOK_ROWS__].reverse() : [];
   if (!rows.length) {
     return { rows: [], delta: [], cumulative: [] };
   }
 
-  let cumulative = 0;
   const delta = [];
   const cumulativeSeries = [];
   const positiveArea = [];
   const negativeArea = [];
   const enrichedRows = [];
 
-  rows
-    .map((row) => {
-      const buyers = Number(row.buyers);
-      const sellers = Number(row.sellers);
-      const ts = Date.parse(`${String(row.timestamp_text).replace(" ", "T")}Z`);
-      if (!Number.isFinite(buyers) || !Number.isFinite(sellers) || !Number.isFinite(ts)) {
-        return null;
-      }
-      return { ...row, ts, rawDelta: buyers - sellers };
-    })
-    .filter(Boolean)
-    .sort((a, b) => a.ts - b.ts)
-    .forEach((row) => {
-      cumulative += row.rawDelta;
-      delta.push([row.ts, Number(row.rawDelta.toFixed(4))]);
-      const cumulativeValue = Number(cumulative.toFixed(4));
-      cumulativeSeries.push([row.ts, cumulativeValue]);
-      positiveArea.push([row.ts, cumulativeValue > 0 ? cumulativeValue : null]);
-      negativeArea.push([row.ts, cumulativeValue < 0 ? cumulativeValue : null]);
-      enrichedRows.push({
-        ...row,
-        cumulative_delta_live: cumulativeValue,
-      });
-    });
+  rows.forEach((row) => {
+    delta.push([row.timestamp_ms, row.delta_value]);
+    cumulativeSeries.push([row.timestamp_ms, row.cumulative_value]);
+    positiveArea.push([row.timestamp_ms, row.positive_cumulative]);
+    negativeArea.push([row.timestamp_ms, row.negative_cumulative]);
+    enrichedRows.push(row);
+  });
 
   return { rows: enrichedRows, delta, cumulative: cumulativeSeries, positiveArea, negativeArea };
 }
@@ -97,7 +79,7 @@ function buildOption(E, theme) {
         if (!point) return "";
         const row = series.rows[point.dataIndex];
         if (!row) return "";
-        const deltaColor = Number(row.rawDelta) >= 0 ? "#22c55e" : "#ef4444";
+        const deltaColor = row.delta_value >= 0 ? "#22c55e" : "#ef4444";
         const classColor = row.momentum_classification === "bullish"
           ? "#22c55e"
           : row.momentum_classification === "bearish"
@@ -109,8 +91,8 @@ function buildOption(E, theme) {
               ${row.timestamp_text}
             </div>
             <div>Buy / Sell: <b>${row.buyers}</b> / <b>${row.sellers}</b></div>
-            <div>Net Δ: <b style="color:${deltaColor};">${Number(row.rawDelta).toFixed(2)}</b></div>
-            <div>Cumulative Δ: <b>${Number(row.cumulative_delta_live).toFixed(2)}</b></div>
+            <div>Net Δ: <b style="color:${deltaColor};">${row.delta}</b></div>
+            <div>Cumulative Δ: <b>${row.cumulative_delta}</b></div>
             <div>Class: <b style="color:${classColor};">${row.momentum_classification}</b></div>
             <div>Imbalance: <b>${row.imbalance}</b> · Dominance: <b>${row.dominance_ratio}</b></div>
             <div>Trades: <b>${row.period_count}</b> · Source: <b>${row.source}</b></div>

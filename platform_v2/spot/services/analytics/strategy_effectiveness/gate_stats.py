@@ -182,7 +182,6 @@ def build_closed_trade_group_rows(
     total_force_close = 0
     total_lock = 0
     total_wins = 0
-    win_rate_values: list[float] = []
 
     for gate_name in gate_names:
         stats = gate_stats.get(
@@ -209,8 +208,6 @@ def build_closed_trade_group_rows(
         total_sl += sl
         total_force_close += force_close
         total_wins += wins
-        if participated:
-            win_rate_values.append(float(stats["win_rate"]))
         rows.append(
             {
                 "gate": gate_name.upper(),
@@ -223,7 +220,7 @@ def build_closed_trade_group_rows(
             }
         )
 
-    total_win_rate = sum(win_rate_values) / len(win_rate_values) if win_rate_values else 0.0
+    total_win_rate = total_wins / total_participated * 100.0 if total_participated else 0.0
     return rows, {
         "tp": total_tp,
         "sl": total_sl,

@@ -5,6 +5,7 @@ from __future__ import annotations
 import html
 import json
 from typing import Any
+from platform_v2.shared.backend.chart_payloads import build_orderflow_chart_rows
 
 from platform_v2.spot.dashboard.explanation_system import (
     load_explanation_map,
@@ -28,7 +29,7 @@ class OrderbookPageRenderer:
     def render(self, payload: dict[str, Any]) -> str:
         status_summary = payload.get("status_summary") or {}
         history_section = payload["orderflow_history_section"]
-        chart_rows_json = json.dumps(payload.get("orderflow_chart_rows") or [], ensure_ascii=True).replace("</", "<\\/")
+        chart_rows_json = json.dumps(build_orderflow_chart_rows(payload.get("orderflow_chart_rows") or []), ensure_ascii=True).replace("</", "<\\/")
         status_line = (
             f"Updated {self._escape(payload['generated_at'])} · "
             f"Timeframe {self._escape(payload['timeframe'])} · "
@@ -83,7 +84,7 @@ class OrderbookPageRenderer:
     {render_explanation_host(base_prefix="../")}
     <script>window.__ORDERBOOK_ROWS__ = {chart_rows_json};</script>
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
-    <script type="module" src="../../../shared/frontend/charts/orderflow_delta_chart.js"></script>
+    <script type="module" src="../../../shared/frontend/charts/orderflow_delta_chart.js?v=backend-v1"></script>
     {render_runtime_clock_script()}
     {self._render_table_script()}
   </body>

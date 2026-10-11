@@ -5,6 +5,7 @@ from __future__ import annotations
 import html
 import json
 from typing import Any
+from platform_v2.shared.backend.chart_payloads import build_equity_chart_payload
 
 from platform_v2.futures_hedge.dashboard.explanation_system import (
     load_explanation_map,
@@ -30,7 +31,7 @@ class FuturesHedgeOverviewRenderer:
         source = report.get("source") or {}
         counts = report.get("source_counts") or {}
         entries = list(report.get("entries") or [])
-        equity_history_json = json.dumps(report.get("equity_chart_rows") or [], ensure_ascii=True).replace("</", "<\\/")
+        equity_history_json = json.dumps(build_equity_chart_payload(report.get("equity_chart_rows") or []), ensure_ascii=True).replace("</", "<\\/")
         basket_history_json = json.dumps(
             report.get("basket_chart_rows") or report.get("basket_snapshots") or [],
             ensure_ascii=True,
@@ -106,7 +107,7 @@ class FuturesHedgeOverviewRenderer:
       window.__SSH_HEDGE_BASKETS__ = {basket_history_json};
     </script>
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
-    <script type="module" src="../../../shared/frontend/charts/equity_delta_chart.js"></script>
+    <script type="module" src="../../../shared/frontend/charts/equity_delta_chart.js?v=backend-v1"></script>
     <script type="module" src="./js/basket_pnl_charts.js"></script>
     {render_runtime_clock_script()}
     {self._render_table_script()}
