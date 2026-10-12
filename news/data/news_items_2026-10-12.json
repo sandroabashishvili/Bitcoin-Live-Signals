@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-12",
-  "generated_at_utc": "2026-10-12 10:05:06 UTC",
+  "generated_at_utc": "2026-10-12 16:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-12T10:05:01.601043+00:00",
+    "collected_at": "2026-10-12T16:05:01.916940+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 1,
-        "within_window": 2,
-        "eligible": 2,
+        "within_24h": 2,
+        "within_window": 3,
+        "eligible": 3,
         "rejected": {
-          "older_than_window": 8
+          "older_than_window": 7
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 11,
-        "within_window": 11,
-        "eligible": 3,
+        "within_24h": 12,
+        "within_window": 14,
+        "eligible": 5,
         "rejected": {
+          "title_filter": 5,
           "topic_author_or_category": 4,
-          "title_filter": 4,
-          "older_than_window": 9
+          "older_than_window": 6
         }
       },
       {
@@ -179,28 +179,54 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 3,
-      "NewsBTC": 2
+      "Cryptonews": 5,
+      "NewsBTC": 3
     },
     "unique_by_source": {
-      "Cryptonews": 3,
-      "NewsBTC": 2
+      "Cryptonews": 5,
+      "NewsBTC": 3
     },
     "selected_by_source": {
-      "Cryptonews": 3,
-      "NewsBTC": 2
+      "Cryptonews": 5,
+      "NewsBTC": 3
     }
   },
-  "count": 5,
+  "count": 8,
   "items": [
     {
-      "title": "China Crypto Strategy Expands as Beijing Backs National Blockchain Network",
-      "link": "https://cryptonews.com/news/china-crypto-blockchain-cfx-rally/",
-      "summary": "Conflux rose more than 26% after China outlined a national blockchain network, but the plan does not confirm CFX will be used or crypto rules will ease.",
+      "title": "Bab el-Mandeb Risk: Polymarket Houthi Prediction Odds Explained",
+      "link": "https://cryptonews.com/news/bab-el-mandeb-closure-risk-houthi-prediction-odds/",
+      "summary": "Polymarket puts Bab el-Mandeb closure odds at 16.5% by year-end; PortWatch data, not headlines, will determine the market outcome and crypto risk.",
       "source": "Cryptonews",
       "date": "2026-10-12",
       "date_human": "Oct 12, 2026",
-      "pub_ts": 1791799055,
+      "pub_ts": 1791814909,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "MEXC Brings AI, TradFi and the Future of Trading to Life at TOKEN2049 Singapore",
+      "link": "https://www.newsbtc.com/news/mexc-brings-ai-tradfi-and-the-future-of-trading-to-life-at-token2049-singapore/",
+      "summary": "Mutsamudu, Comoros, October 12, 2026 – MEXC, a pioneer in 0-fee digital asset trading, concluded its TOKEN2049 Singapore presence with a series of interactive experiences and industry discussions spanning TradFi access, AI-powered trading and the future evolution of global trading platforms. MEXC’s presence centered on three key areas: the MEXC Stage and a panel featuring MEXC CEO Vugar Usi Zade and Payward Co-CEO Arjun Sethi, hands-on AI experiences including the MEXC AI Trading Challenge powered by MEXC CLI and the AI Bond Test, and The NEXT Newspaper, an interactive experience that brought ",
+      "source": "NewsBTC",
+      "date": "2026-10-12",
+      "date_human": "Oct 12, 2026",
+      "pub_ts": 1791803200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: Emergency XRPL Patch Addresses 18T Risk",
+      "link": "https://cryptonews.com/news/xrp-news-ledger-emergency-patch/",
+      "summary": "An emergency XRP Ledger patch addressed a theoretical flaw that could have created 18.45 trillion XRP, with no evidence of public exploitation.",
+      "source": "Cryptonews",
+      "date": "2026-10-12",
+      "date_human": "Oct 12, 2026",
+      "pub_ts": 1791805320,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -220,13 +246,13 @@
       "image_local": null
     },
     {
-      "title": "FTX Bitcoin Bet Takes an Unexpected Turn as SWI Group Raises $900 Million",
-      "link": "https://cryptonews.com/news/swi-group-ai-infrastructure-ftx-bitcoin-miner/",
-      "summary": "SWI Group has raised €800 million at a €6.1 billion valuation to fund AI infrastructure, power projects and compute across Europe and the US.",
+      "title": "China Crypto Strategy Expands as Beijing Backs National Blockchain Network",
+      "link": "https://cryptonews.com/news/china-crypto-blockchain-cfx-rally/",
+      "summary": "Conflux rose more than 26% after China outlined a national blockchain network, but the plan does not confirm CFX will be used or crypto rules will ease.",
       "source": "Cryptonews",
       "date": "2026-10-12",
       "date_human": "Oct 12, 2026",
-      "pub_ts": 1791796716,
+      "pub_ts": 1791799055,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -240,6 +266,19 @@
       "date": "2026-10-10",
       "date_human": "Oct 10, 2026",
       "pub_ts": 1791655467,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "FTX Bitcoin Bet Takes an Unexpected Turn as SWI Group Raises $900 Million",
+      "link": "https://cryptonews.com/news/swi-group-ai-infrastructure-ftx-bitcoin-miner/",
+      "summary": "SWI Group has raised €800 million at a €6.1 billion valuation to fund AI infrastructure, power projects and compute across Europe and the US.",
+      "source": "Cryptonews",
+      "date": "2026-10-12",
+      "date_human": "Oct 12, 2026",
+      "pub_ts": 1791796716,
       "image_candidates": [],
       "license_url": null,
       "image": null,
