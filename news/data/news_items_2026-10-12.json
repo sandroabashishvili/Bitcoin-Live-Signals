@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-12",
-  "generated_at_utc": "2026-10-12 04:05:06 UTC",
+  "generated_at_utc": "2026-10-12 10:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-12T04:05:01.588241+00:00",
+    "collected_at": "2026-10-12T10:05:01.601043+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_24h": 1,
+        "within_window": 2,
+        "eligible": 2,
         "rejected": {
-          "older_than_window": 9
+          "older_than_window": 8
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 5,
-        "within_window": 5,
-        "eligible": 0,
+        "within_24h": 11,
+        "within_window": 11,
+        "eligible": 3,
         "rejected": {
-          "topic_author_or_category": 3,
-          "title_filter": 2,
-          "older_than_window": 15
+          "topic_author_or_category": 4,
+          "title_filter": 4,
+          "older_than_window": 9
         }
       },
       {
@@ -179,17 +179,59 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 1
+      "Cryptonews": 3,
+      "NewsBTC": 2
     },
     "unique_by_source": {
-      "NewsBTC": 1
+      "Cryptonews": 3,
+      "NewsBTC": 2
     },
     "selected_by_source": {
-      "NewsBTC": 1
+      "Cryptonews": 3,
+      "NewsBTC": 2
     }
   },
-  "count": 1,
+  "count": 5,
   "items": [
+    {
+      "title": "China Crypto Strategy Expands as Beijing Backs National Blockchain Network",
+      "link": "https://cryptonews.com/news/china-crypto-blockchain-cfx-rally/",
+      "summary": "Conflux rose more than 26% after China outlined a national blockchain network, but the plan does not confirm CFX will be used or crypto rules will ease.",
+      "source": "Cryptonews",
+      "date": "2026-10-12",
+      "date_human": "Oct 12, 2026",
+      "pub_ts": 1791799055,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "From TOKEN2049 to Ecosystem Co-Building: HTX Advances Its Multifaceted Engagement Across the Global Crypto Industry",
+      "link": "https://www.newsbtc.com/news/from-token2049-to-ecosystem-co-building-htx-advances-its-multifaceted-engagement-across-the-global-crypto-industry/",
+      "summary": "Singapore, October 12, 2026 – From October 6 to 8, the global crypto industry turned its attention to Singapore for TOKEN2049, a major international industry event. Taking advantage of the gathering, HTX pursued a multifaceted approach encompassing global industry engagement, ecosystem development, and brand awareness. HTX Ventures exhibited at TOKEN2049, where its booth welcomed a steady stream of visitors. HTX DAO hosted “Future Night” and “HTX DAO Reunion,” bringing together industry perspectives and community voices. Meanwhile, a private industry dinner provided an opportunity for invited ",
+      "source": "NewsBTC",
+      "date": "2026-10-12",
+      "date_human": "Oct 12, 2026",
+      "pub_ts": 1791792457,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "FTX Bitcoin Bet Takes an Unexpected Turn as SWI Group Raises $900 Million",
+      "link": "https://cryptonews.com/news/swi-group-ai-infrastructure-ftx-bitcoin-miner/",
+      "summary": "SWI Group has raised €800 million at a €6.1 billion valuation to fund AI infrastructure, power projects and compute across Europe and the US.",
+      "source": "Cryptonews",
+      "date": "2026-10-12",
+      "date_human": "Oct 12, 2026",
+      "pub_ts": 1791796716,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Justin Sun Shares AI and Quantum Vision at TOKEN2049 Singapore and Blockworks DAS Asia",
       "link": "https://www.newsbtc.com/news/justin-sun-shares-ai-and-quantum-vision-at-token2049-singapore-and-blockworks-das-asia/",
@@ -198,6 +240,19 @@
       "date": "2026-10-10",
       "date_human": "Oct 10, 2026",
       "pub_ts": 1791655467,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ledger Exploit Explained: What Ex Mt.Gox CEO Found, and How to Protect Your Crypto",
+      "link": "https://cryptonews.com/news/ledger-wallet-exploit-implant-cryptobilis-investigation/",
+      "summary": "A hardware implant was found in one device tied to CryptoBilis, as estimated losses reach $93 million across 311 wallets on five chains.",
+      "source": "Cryptonews",
+      "date": "2026-10-12",
+      "date_human": "Oct 12, 2026",
+      "pub_ts": 1791790439,
       "image_candidates": [],
       "license_url": null,
       "image": null,
