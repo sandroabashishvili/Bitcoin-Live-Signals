@@ -20,6 +20,36 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Safe SmartSignalHub research workspace tools.")
     commands = parser.add_subparsers(dest="command", required=True)
 
+    lab_create = commands.add_parser('signal-lab-create', help='Freeze SQLite databases and pinned source for signal research.')
+    lab_create.add_argument('workspace', type=Path)
+    lab_create.add_argument('--trading-db', type=Path, required=True)
+    lab_create.add_argument('--market-db', type=Path, required=True)
+    lab_create.add_argument('--release', type=Path, required=True)
+    lab_create.add_argument('--start-ms', type=int, required=True)
+    lab_create.add_argument('--end-ms', type=int, required=True)
+    lab_candidate = commands.add_parser('signal-lab-candidate', help='Create editable offline candidate files.')
+    lab_candidate.add_argument('workspace', type=Path)
+    lab_candidate.add_argument('name')
+    lab_run = commands.add_parser('signal-lab-run', help='Reconstruct historical signal decisions using frozen code.')
+    lab_run.add_argument('workspace', type=Path)
+    lab_run.add_argument('--name', default='baseline')
+    lab_run.add_argument('--component')
+    lab_run.add_argument('--limit', type=int, default=0)
+    lab_compare = commands.add_parser('signal-lab-compare', help='Compare fixed-horizon signal quality, without execution assumptions.')
+    lab_compare.add_argument('workspace', type=Path)
+    lab_compare.add_argument('name')
+    portfolio_run = commands.add_parser('portfolio-lab-run', help='Run the full frozen Futures simulator on captured history.')
+    portfolio_run.add_argument('workspace', type=Path)
+    portfolio_run.add_argument('--name', default='baseline')
+    portfolio_run.add_argument('--execution-model', choices=['observed', 'next-minute'], default='observed')
+    portfolio_run.add_argument('--component')
+    portfolio_run.add_argument('--limit', type=int, default=0)
+    portfolio_compare = commands.add_parser('portfolio-lab-compare', help='Compare complete candidate/baseline account evolution.')
+    portfolio_compare.add_argument('workspace', type=Path)
+    portfolio_compare.add_argument('name')
+    portfolio_verify = commands.add_parser('portfolio-lab-verify', help='Verify terminal account and trade events against the frozen archive.')
+    portfolio_verify.add_argument('workspace', type=Path)
+
     snapshot = commands.add_parser("snapshot", help="Export canonical SQLite data as hashed JSON for offline research.")
     snapshot.add_argument("--output-parent", type=Path, default=DEFAULT_SNAPSHOT_PARENT)
 
@@ -45,6 +75,30 @@ def main() -> int:
     )
 
     args = parser.parse_args()
+    if args.command.startswith('portfolio-lab-'):
+        from platform_v2.tools.research import signal_lab
+        if args.command == 'portfolio-lab-run':
+            result = signal_lab.portfolio_run(args.workspace, args.name, args.execution_model, args.limit, args.component)
+        elif args.command == 'portfolio-lab-compare':
+            result = signal_lab.portfolio_compare(args.workspace, args.name)
+        else:
+            result = signal_lab.portfolio_verify(args.workspace)
+        print('[OK]', result)
+        return 0
+    if args.command.startswith('signal-lab-'):
+        from platform_v2.tools.research import signal_lab
+        if args.command == 'signal-lab-create':
+            result = signal_lab.create(args.workspace, args.trading_db, args.market_db, args.release, args.start_ms, args.end_ms)
+        elif args.command == 'signal-lab-candidate':
+            result = signal_lab.candidate(args.workspace, args.name)
+        elif args.command == 'signal-lab-compare':
+            report = signal_lab.compare(args.workspace, args.name)
+            print('[OK] changed actions:', report['changed_actions'])
+            result = args.workspace.resolve() / 'runs' / args.name / 'comparison.json'
+        else:
+            result = signal_lab.run(args.workspace, args.name, args.limit, args.component)
+        print('[OK]', result)
+        return 0
     if args.command == "snapshot":
         path = create_snapshot(snapshot_parent=args.output_parent)
         errors = verify_snapshot(path)
