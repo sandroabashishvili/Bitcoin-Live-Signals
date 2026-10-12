@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-11",
-  "generated_at_utc": "2026-10-11 16:05:06 UTC",
+  "generated_at_utc": "2026-10-11 22:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-11T16:05:01.662606+00:00",
+    "collected_at": "2026-10-11T22:05:01.989859+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 1,
         "rejected": {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 2,
-        "within_window": 3,
-        "eligible": 1,
+        "within_24h": 5,
+        "within_window": 5,
+        "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "title_filter": 1,
-          "older_than_window": 17
+          "topic_author_or_category": 3,
+          "title_filter": 2,
+          "older_than_window": 15
         }
       },
       {
@@ -179,19 +179,16 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 1,
-      "Cryptonews": 1
+      "NewsBTC": 1
     },
     "unique_by_source": {
-      "NewsBTC": 1,
-      "Cryptonews": 1
+      "NewsBTC": 1
     },
     "selected_by_source": {
-      "NewsBTC": 1,
-      "Cryptonews": 1
+      "NewsBTC": 1
     }
   },
-  "count": 2,
+  "count": 1,
   "items": [
     {
       "title": "Justin Sun Shares AI and Quantum Vision at TOKEN2049 Singapore and Blockworks DAS Asia",
@@ -201,19 +198,6 @@
       "date": "2026-10-10",
       "date_human": "Oct 10, 2026",
       "pub_ts": 1791655467,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP Price Could Be Gearing Up for a Rally to $1.70",
-      "link": "https://cryptonews.com/news/xrp-price-analysis-key-levels-1-70/",
-      "summary": "XRP price analysis weighs $1.38 support against the $1.50–$1.53 reclaim zone, while RSI, MACD and OBV keep the outlook neutral for now.",
-      "source": "Cryptonews",
-      "date": "2026-10-09",
-      "date_human": "Oct 9, 2026",
-      "pub_ts": 1791568560,
       "image_candidates": [],
       "license_url": null,
       "image": null,
