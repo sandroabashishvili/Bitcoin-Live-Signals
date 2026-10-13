@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-13",
-  "generated_at_utc": "2026-10-13 04:05:07 UTC",
+  "generated_at_utc": "2026-10-13 10:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-13T04:05:03.525436+00:00",
+    "collected_at": "2026-10-13T10:05:04.022232+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 3,
+        "within_24h": 2,
         "within_window": 3,
         "eligible": 3,
         "rejected": {
@@ -48,13 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 12,
-        "within_window": 17,
-        "eligible": 6,
+        "within_24h": 11,
+        "within_window": 20,
+        "eligible": 9,
         "rejected": {
-          "topic_author_or_category": 6,
-          "title_filter": 5,
-          "older_than_window": 3
+          "title_filter": 6,
+          "topic_author_or_category": 5
         }
       },
       {
@@ -179,28 +178,28 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 6,
+      "Cryptonews": 9,
       "NewsBTC": 3
     },
     "unique_by_source": {
-      "Cryptonews": 6,
+      "Cryptonews": 9,
       "NewsBTC": 3
     },
     "selected_by_source": {
-      "Cryptonews": 6,
+      "Cryptonews": 9,
       "NewsBTC": 3
     }
   },
-  "count": 9,
+  "count": 12,
   "items": [
     {
-      "title": "XRP Price Slid as Bitwise Drives $11 Million ETF Inflows",
-      "link": "https://cryptonews.com/news/xrp-price-etf-inflows-support-test/",
-      "summary": "XRP ETF inflows reached $11.31 million from October 5-9, but Bitwise supplied most of the demand as XRP tested the $1.32-$1.38 support zone.",
+      "title": "Blur NFT Marketplace to Shut Down Next Month as Trading Slows",
+      "link": "https://cryptonews.com/news/blur-nft-volume-collapse-shut-down/",
+      "summary": "BLUR price fell more than 20% after Blur’s frontend closure announcement, as NFT volume dropped over 99.5% from its March 2023 peak.",
       "source": "Cryptonews",
-      "date": "2026-10-12",
-      "date_human": "Oct 12, 2026",
-      "pub_ts": 1791829080,
+      "date": "2026-10-13",
+      "date_human": "Oct 13, 2026",
+      "pub_ts": 1791883860,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -220,13 +219,13 @@
       "image_local": null
     },
     {
-      "title": "Bab el-Mandeb Risk: Polymarket Houthi Prediction Odds Explained",
-      "link": "https://cryptonews.com/news/bab-el-mandeb-closure-risk-houthi-prediction-odds/",
-      "summary": "Polymarket puts Bab el-Mandeb closure odds at 16.5% by year-end; PortWatch data, not headlines, will determine the market outcome and crypto risk.",
+      "title": "South Korea Exchange Ban Hits KuCoin, MEXC and 25 Other Platforms",
+      "link": "https://cryptonews.com/news/south-korea-crypto-regulation-exchange-ban/",
+      "summary": "South Korea crypto regulation expands as 27 exchange websites face access blocks, with users warned to withdraw assets before access becomes harder.",
       "source": "Cryptonews",
-      "date": "2026-10-12",
-      "date_human": "Oct 12, 2026",
-      "pub_ts": 1791814909,
+      "date": "2026-10-13",
+      "date_human": "Oct 13, 2026",
+      "pub_ts": 1791882119,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -246,13 +245,13 @@
       "image_local": null
     },
     {
-      "title": "XRP News: Emergency XRPL Patch Addresses 18T Risk",
-      "link": "https://cryptonews.com/news/xrp-news-ledger-emergency-patch/",
-      "summary": "An emergency XRP Ledger patch addressed a theoretical flaw that could have created 18.45 trillion XRP, with no evidence of public exploitation.",
+      "title": "Binance Pool Closure Requires Miners to Change Endpoints",
+      "link": "https://cryptonews.com/news/binance-pool-closure/",
+      "summary": "Binance Pool will close on Nov. 10, 2026, ending mining services and requiring miners to move equipment before connections are disabled.",
       "source": "Cryptonews",
-      "date": "2026-10-12",
-      "date_human": "Oct 12, 2026",
-      "pub_ts": 1791805320,
+      "date": "2026-10-13",
+      "date_human": "Oct 13, 2026",
+      "pub_ts": 1791877430,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -266,6 +265,45 @@
       "date": "2026-10-12",
       "date_human": "Oct 12, 2026",
       "pub_ts": 1791792457,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Price Slid as Bitwise Drives $11 Million ETF Inflows",
+      "link": "https://cryptonews.com/news/xrp-price-etf-inflows-support-test/",
+      "summary": "XRP ETF inflows reached $11.31 million from October 5-9, but Bitwise supplied most of the demand as XRP tested the $1.32-$1.38 support zone.",
+      "source": "Cryptonews",
+      "date": "2026-10-12",
+      "date_human": "Oct 12, 2026",
+      "pub_ts": 1791829080,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bab el-Mandeb Risk: Polymarket Houthi Prediction Odds Explained",
+      "link": "https://cryptonews.com/news/bab-el-mandeb-closure-risk-houthi-prediction-odds/",
+      "summary": "Polymarket puts Bab el-Mandeb closure odds at 16.5% by year-end; PortWatch data, not headlines, will determine the market outcome and crypto risk.",
+      "source": "Cryptonews",
+      "date": "2026-10-12",
+      "date_human": "Oct 12, 2026",
+      "pub_ts": 1791814909,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: Emergency XRPL Patch Addresses 18T Risk",
+      "link": "https://cryptonews.com/news/xrp-news-ledger-emergency-patch/",
+      "summary": "An emergency XRP Ledger patch addressed a theoretical flaw that could have created 18.45 trillion XRP, with no evidence of public exploitation.",
+      "source": "Cryptonews",
+      "date": "2026-10-12",
+      "date_human": "Oct 12, 2026",
+      "pub_ts": 1791805320,
       "image_candidates": [],
       "license_url": null,
       "image": null,
