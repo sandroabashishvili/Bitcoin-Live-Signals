@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-13",
-  "generated_at_utc": "2026-10-13 10:05:10 UTC",
+  "generated_at_utc": "2026-10-13 16:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-13T10:05:04.022232+00:00",
+    "collected_at": "2026-10-13T16:05:04.119047+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 2,
+        "within_24h": 1,
         "within_window": 3,
         "eligible": 3,
         "rejected": {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 11,
+        "within_24h": 15,
         "within_window": 20,
-        "eligible": 9,
+        "eligible": 11,
         "rejected": {
-          "title_filter": 6,
-          "topic_author_or_category": 5
+          "topic_author_or_category": 5,
+          "title_filter": 4
         }
       },
       {
@@ -178,11 +178,11 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 9,
+      "Cryptonews": 11,
       "NewsBTC": 3
     },
     "unique_by_source": {
-      "Cryptonews": 9,
+      "Cryptonews": 11,
       "NewsBTC": 3
     },
     "selected_by_source": {
@@ -193,13 +193,13 @@
   "count": 12,
   "items": [
     {
-      "title": "Blur NFT Marketplace to Shut Down Next Month as Trading Slows",
-      "link": "https://cryptonews.com/news/blur-nft-volume-collapse-shut-down/",
-      "summary": "BLUR price fell more than 20% after Blur’s frontend closure announcement, as NFT volume dropped over 99.5% from its March 2023 peak.",
+      "title": "Anthropic IPO Polymarket Odds: Valuation Bet Faces a 21.5% Bankruptcy Scenario",
+      "link": "https://cryptonews.com/news/anthropic-ipo-polymarket-valuation/",
+      "summary": "Polymarket prices the Anthropic IPO’s most likely bracket at 27.1%, while bankruptcy by 2029 is priced at 21.5%, exposing AI valuation risk.",
       "source": "Cryptonews",
       "date": "2026-10-13",
       "date_human": "Oct 13, 2026",
-      "pub_ts": 1791883860,
+      "pub_ts": 1791891808,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -219,13 +219,13 @@
       "image_local": null
     },
     {
-      "title": "South Korea Exchange Ban Hits KuCoin, MEXC and 25 Other Platforms",
-      "link": "https://cryptonews.com/news/south-korea-crypto-regulation-exchange-ban/",
-      "summary": "South Korea crypto regulation expands as 27 exchange websites face access blocks, with users warned to withdraw assets before access becomes harder.",
+      "title": "XRP News: Evernorth's Listing Exposes a $677M Gap",
+      "link": "https://cryptonews.com/news/evernorth-xrp-news-valuation-gap/",
+      "summary": "Evernorth’s Nasdaq debut offers brokerage access to XRP, but its $677 million treasury, thin float and dilution risks complicate XRPN for investors.",
       "source": "Cryptonews",
       "date": "2026-10-13",
       "date_human": "Oct 13, 2026",
-      "pub_ts": 1791882119,
+      "pub_ts": 1791890700,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -245,13 +245,13 @@
       "image_local": null
     },
     {
-      "title": "Binance Pool Closure Requires Miners to Change Endpoints",
-      "link": "https://cryptonews.com/news/binance-pool-closure/",
-      "summary": "Binance Pool will close on Nov. 10, 2026, ending mining services and requiring miners to move equipment before connections are disabled.",
+      "title": "Bitcoin ETF Outflows Reach $65 Million as BlackRock Bleeds Cash",
+      "link": "https://cryptonews.com/news/bitcoin-etf-ibit-outflow/",
+      "summary": "Bitcoin ETFs saw a $65.4 million outflow on October 12, all from IBIT, far below the $484.9 million sector outflow recorded on October 7.",
       "source": "Cryptonews",
       "date": "2026-10-13",
       "date_human": "Oct 13, 2026",
-      "pub_ts": 1791877430,
+      "pub_ts": 1791889161,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -265,6 +265,58 @@
       "date": "2026-10-12",
       "date_human": "Oct 12, 2026",
       "pub_ts": 1791792457,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Crypto Regulation: UK Lands £3.8Bn Bitcoin Seizure as Korea Blocks KuCoin and MEXC",
+      "link": "https://cryptonews.com/news/crypto-regulation-bitcoin-seizure-uk-court-chinese-victims/",
+      "summary": "A UK court has narrowed victims’ route to a £3.8bn Bitcoin seizure, while South Korea blocks 27 unregistered crypto platforms amid access risks.",
+      "source": "Cryptonews",
+      "date": "2026-10-13",
+      "date_human": "Oct 13, 2026",
+      "pub_ts": 1791887342,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Blur NFT Marketplace to Shut Down Next Month as Trading Slows",
+      "link": "https://cryptonews.com/news/blur-nft-volume-collapse-shut-down/",
+      "summary": "BLUR price fell more than 20% after Blur’s frontend closure announcement, as NFT volume dropped over 99.5% from its March 2023 peak.",
+      "source": "Cryptonews",
+      "date": "2026-10-13",
+      "date_human": "Oct 13, 2026",
+      "pub_ts": 1791883860,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "South Korea Exchange Ban Hits KuCoin, MEXC and 25 Other Platforms",
+      "link": "https://cryptonews.com/news/south-korea-crypto-regulation-exchange-ban/",
+      "summary": "South Korea crypto regulation expands as 27 exchange websites face access blocks, with users warned to withdraw assets before access becomes harder.",
+      "source": "Cryptonews",
+      "date": "2026-10-13",
+      "date_human": "Oct 13, 2026",
+      "pub_ts": 1791882119,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Binance Pool Closure Requires Miners to Change Endpoints",
+      "link": "https://cryptonews.com/news/binance-pool-closure/",
+      "summary": "Binance Pool will close on Nov. 10, 2026, ending mining services and requiring miners to move equipment before connections are disabled.",
+      "source": "Cryptonews",
+      "date": "2026-10-13",
+      "date_human": "Oct 13, 2026",
+      "pub_ts": 1791877430,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -291,58 +343,6 @@
       "date": "2026-10-12",
       "date_human": "Oct 12, 2026",
       "pub_ts": 1791814909,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: Emergency XRPL Patch Addresses 18T Risk",
-      "link": "https://cryptonews.com/news/xrp-news-ledger-emergency-patch/",
-      "summary": "An emergency XRP Ledger patch addressed a theoretical flaw that could have created 18.45 trillion XRP, with no evidence of public exploitation.",
-      "source": "Cryptonews",
-      "date": "2026-10-12",
-      "date_human": "Oct 12, 2026",
-      "pub_ts": 1791805320,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "China Crypto Strategy Expands as Beijing Backs National Blockchain Network",
-      "link": "https://cryptonews.com/news/china-crypto-blockchain-cfx-rally/",
-      "summary": "Conflux rose more than 26% after China outlined a national blockchain network, but the plan does not confirm CFX will be used or crypto rules will ease.",
-      "source": "Cryptonews",
-      "date": "2026-10-12",
-      "date_human": "Oct 12, 2026",
-      "pub_ts": 1791799055,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "FTX Bitcoin Bet Takes an Unexpected Turn as SWI Group Raises $900 Million",
-      "link": "https://cryptonews.com/news/swi-group-ai-infrastructure-ftx-bitcoin-miner/",
-      "summary": "SWI Group has raised €800 million at a €6.1 billion valuation to fund AI infrastructure, power projects and compute across Europe and the US.",
-      "source": "Cryptonews",
-      "date": "2026-10-12",
-      "date_human": "Oct 12, 2026",
-      "pub_ts": 1791796716,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Ledger Exploit Explained: What Ex Mt.Gox CEO Found, and How to Protect Your Crypto",
-      "link": "https://cryptonews.com/news/ledger-wallet-exploit-implant-cryptobilis-investigation/",
-      "summary": "A hardware implant was found in one device tied to CryptoBilis, as estimated losses reach $93 million across 311 wallets on five chains.",
-      "source": "Cryptonews",
-      "date": "2026-10-12",
-      "date_human": "Oct 12, 2026",
-      "pub_ts": 1791790439,
       "image_candidates": [],
       "license_url": null,
       "image": null,
