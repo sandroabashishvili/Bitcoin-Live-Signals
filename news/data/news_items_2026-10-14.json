@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-14",
-  "generated_at_utc": "2026-10-14 10:05:06 UTC",
+  "generated_at_utc": "2026-10-14 16:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-14T10:05:02.364502+00:00",
+    "collected_at": "2026-10-14T16:05:02.458650+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
+        "within_24h": 1,
         "within_window": 2,
         "eligible": 2,
         "rejected": {
@@ -48,12 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 13,
+        "within_24h": 14,
         "within_window": 20,
         "eligible": 10,
         "rejected": {
-          "title_filter": 5,
-          "topic_author_or_category": 5
+          "unreviewed_link": 2,
+          "title_filter": 4,
+          "topic_author_or_category": 4
         }
       },
       {
@@ -61,11 +62,11 @@
         "url": "https://www.bls.gov/feed/cpi.rss",
         "status": "ok",
         "entries": 12,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 12
+          "older_than_window": 11
         }
       },
       {
@@ -85,11 +86,12 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 25
+          "topic_author_or_category": 1,
+          "older_than_window": 24
         }
       },
       {
@@ -182,28 +184,57 @@
       }
     ],
     "eligible_by_source": {
+      "NewsBTC": 2,
       "Cryptonews": 10,
-      "NewsBTC": 2
+      "U.S. Bureau of Labor Statistics": 1
     },
     "unique_by_source": {
+      "NewsBTC": 2,
       "Cryptonews": 10,
-      "NewsBTC": 2
+      "U.S. Bureau of Labor Statistics": 1
     },
     "selected_by_source": {
-      "Cryptonews": 10,
-      "NewsBTC": 2
+      "NewsBTC": 2,
+      "Cryptonews": 9,
+      "U.S. Bureau of Labor Statistics": 1
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Standard Chartered Launched UAE Crypto Trading",
-      "link": "https://cryptonews.com/news/standard-chartered-uae-crypto/",
-      "summary": "Standard Chartered launches Bitcoin and Ether trading for eligible UAE Professional Investors through existing accounts under VARA approval.",
+      "title": "HTX Publishes Its Q3 2026 Scorecard: Cumulative TradFi Trading Volume Approaches $6B Amid 13th Anniversary Celebration",
+      "link": "https://www.newsbtc.com/news/htx-publishes-its-q3-2026-scorecard-cumulative-tradfi-trading-volume-approaches-6b-amid-13th-anniversary-celebration/",
+      "summary": "Apia, Samoa, October 14, 2026 – The crypto market saw a notable rally in the just-concluded third quarter. It was also the quarter in which HTX turned 13. Over the past 13 years, the industry has weathered multiple bull and bear cycles, and HTX has stood alongside users worldwide throughout them. Resilience in navigating market cycles has been a defining characteristic of HTX over the past 13 years. To mark its anniversary themed “Resilience Reveals the Future”, HTX launched the 13th-Anniversary Carnival and Trading Championship #3, among other celebratory events, in the third quarter, celebra",
+      "source": "NewsBTC",
+      "date": "2026-10-14",
+      "date_human": "Oct 14, 2026",
+      "pub_ts": 1791988805,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Price Faces Test Despite Improving Social Mood",
+      "link": "https://cryptonews.com/news/xrp-price-analysis-social-mood-santiment/",
+      "summary": "Latest XRP price analysis points to a $1.40 reclaim as social sentiment improves to 0.92, while Ethereum leads with a 2.05 bullish ratio.",
       "source": "Cryptonews",
       "date": "2026-10-14",
       "date_human": "Oct 14, 2026",
-      "pub_ts": 1791969443,
+      "pub_ts": 1791985440,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "CPI for all items increases 0.6% in September; gasoline rises",
+      "link": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "summary": "In September, the Consumer Price Index for All Urban Consumers rose 0.6 percent, seasonally adjusted (SA), and rose 3.7 percent over the year, not seasonally adjusted (NSA). The index for all items less food and energy rose 0.3 percent in September (SA), up 2.6 percent over the year (NSA).",
+      "source": "U.S. Bureau of Labor Statistics",
+      "date": "2026-10-14",
+      "date_human": "Oct 14, 2026",
+      "pub_ts": 1791978631,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -223,6 +254,58 @@
       "image_local": null
     },
     {
+      "title": "Coinbase Calls for Early Bitcoin Migration to Quantum Security",
+      "link": "https://cryptonews.com/news/post-quantum-cryptography-bitcoin/",
+      "summary": "Coinbase urges early Bitcoin preparation for post-quantum cryptography, while designs, migration rules and legacy coins remain unresolved.",
+      "source": "Cryptonews",
+      "date": "2026-10-14",
+      "date_human": "Oct 14, 2026",
+      "pub_ts": 1791981240,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Starknet Crypto Shadow Accounts Separate DeFi Identity From Activity",
+      "link": "https://cryptonews.com/news/starknet-crypto-shadow-accounts-defi-privacy/",
+      "summary": "Starknet’s Shadow Accounts separate DeFi identity from main wallets, but balances, transactions and positions remain visible onchain.",
+      "source": "Cryptonews",
+      "date": "2026-10-14",
+      "date_human": "Oct 14, 2026",
+      "pub_ts": 1791981000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Binance News: Miners Must Move Before Pool Closes on November 10",
+      "link": "https://cryptonews.com/news/binance-news-mining-pool-shutdown-november-10/",
+      "summary": "Binance Pool closes at 07:00 UTC on November 10. Miners must switch pools, close Pool Savings accounts and check records before November 24.",
+      "source": "Cryptonews",
+      "date": "2026-10-14",
+      "date_human": "Oct 14, 2026",
+      "pub_ts": 1791976080,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Standard Chartered Launched UAE Crypto Trading",
+      "link": "https://cryptonews.com/news/standard-chartered-uae-crypto/",
+      "summary": "Standard Chartered launches Bitcoin and Ether trading for eligible UAE Professional Investors through existing accounts under VARA approval.",
+      "source": "Cryptonews",
+      "date": "2026-10-14",
+      "date_human": "Oct 14, 2026",
+      "pub_ts": 1791969443,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Polymarket Token Airdrop? TOKEN2049 Talk Fuels Speculation",
       "link": "https://cryptonews.com/news/polymarket-token-airdrop-speculation/",
       "summary": "Shayne Coplan discussed a programmable on-chain asset at TOKEN2049, but Polymarket has confirmed no token launch, airdrop rules or timetable.",
@@ -230,19 +313,6 @@
       "date": "2026-10-14",
       "date_human": "Oct 14, 2026",
       "pub_ts": 1791962827,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "MEXC Brings AI, TradFi and the Future of Trading to Life at TOKEN2049 Singapore",
-      "link": "https://www.newsbtc.com/news/mexc-brings-ai-tradfi-and-the-future-of-trading-to-life-at-token2049-singapore/",
-      "summary": "Mutsamudu, Comoros, October 12, 2026 – MEXC, a pioneer in 0-fee digital asset trading, concluded its TOKEN2049 Singapore presence with a series of interactive experiences and industry discussions spanning TradFi access, AI-powered trading and the future evolution of global trading platforms. MEXC’s presence centered on three key areas: the MEXC Stage and a panel featuring MEXC CEO Vugar Usi Zade and Payward Co-CEO Arjun Sethi, hands-on AI experiences including the MEXC AI Trading Challenge powered by MEXC CLI and the AI Bond Test, and The NEXT Newspaper, an interactive experience that brought ",
-      "source": "NewsBTC",
-      "date": "2026-10-12",
-      "date_human": "Oct 12, 2026",
-      "pub_ts": 1791803200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -282,71 +352,6 @@
       "date": "2026-10-13",
       "date_human": "Oct 13, 2026",
       "pub_ts": 1791890700,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin ETF Outflows Reach $65 Million as BlackRock Bleeds Cash",
-      "link": "https://cryptonews.com/news/bitcoin-etf-ibit-outflow/",
-      "summary": "Bitcoin ETFs saw a $65.4 million outflow on October 12, all from IBIT, far below the $484.9 million sector outflow recorded on October 7.",
-      "source": "Cryptonews",
-      "date": "2026-10-13",
-      "date_human": "Oct 13, 2026",
-      "pub_ts": 1791889161,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Crypto Regulation: UK Lands £3.8Bn Bitcoin Seizure as Korea Blocks KuCoin and MEXC",
-      "link": "https://cryptonews.com/news/crypto-regulation-bitcoin-seizure-uk-court-chinese-victims/",
-      "summary": "A UK court has narrowed victims’ route to a £3.8bn Bitcoin seizure, while South Korea blocks 27 unregistered crypto platforms amid access risks.",
-      "source": "Cryptonews",
-      "date": "2026-10-13",
-      "date_human": "Oct 13, 2026",
-      "pub_ts": 1791887342,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Blur NFT Marketplace to Shut Down Next Month as Trading Slows",
-      "link": "https://cryptonews.com/news/blur-nft-volume-collapse-shut-down/",
-      "summary": "BLUR price fell more than 20% after Blur’s frontend closure announcement, as NFT volume dropped over 99.5% from its March 2023 peak.",
-      "source": "Cryptonews",
-      "date": "2026-10-13",
-      "date_human": "Oct 13, 2026",
-      "pub_ts": 1791883860,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "South Korea Exchange Ban Hits KuCoin, MEXC and 25 Other Platforms",
-      "link": "https://cryptonews.com/news/south-korea-crypto-regulation-exchange-ban/",
-      "summary": "South Korea crypto regulation expands as 27 exchange websites face access blocks, with users warned to withdraw assets before access becomes harder.",
-      "source": "Cryptonews",
-      "date": "2026-10-13",
-      "date_human": "Oct 13, 2026",
-      "pub_ts": 1791882119,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Binance Pool Closure Requires Miners to Change Endpoints",
-      "link": "https://cryptonews.com/news/binance-pool-closure/",
-      "summary": "Binance Pool will close on Nov. 10, 2026, ending mining services and requiring miners to move equipment before connections are disabled.",
-      "source": "Cryptonews",
-      "date": "2026-10-13",
-      "date_human": "Oct 13, 2026",
-      "pub_ts": 1791877430,
       "image_candidates": [],
       "license_url": null,
       "image": null,
