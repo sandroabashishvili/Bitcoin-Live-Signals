@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-13",
-  "generated_at_utc": "2026-10-13 16:05:08 UTC",
+  "generated_at_utc": "2026-10-13 22:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-13T16:05:04.119047+00:00",
+    "collected_at": "2026-10-13T22:05:05.064217+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 3,
         "eligible": 3,
         "rejected": {
@@ -48,11 +48,11 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 15,
+        "within_24h": 14,
         "within_window": 20,
-        "eligible": 11,
+        "eligible": 12,
         "rejected": {
-          "topic_author_or_category": 5,
+          "topic_author_or_category": 4,
           "title_filter": 4
         }
       },
@@ -97,11 +97,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 15
+          "unreviewed_link": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -121,11 +122,12 @@
         "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 15
+          "topic_author_or_category": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -169,20 +171,21 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 20
+          "topic_author_or_category": 1,
+          "older_than_window": 19
         }
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 11,
+      "Cryptonews": 12,
       "NewsBTC": 3
     },
     "unique_by_source": {
-      "Cryptonews": 11,
+      "Cryptonews": 12,
       "NewsBTC": 3
     },
     "selected_by_source": {
@@ -193,13 +196,13 @@
   "count": 12,
   "items": [
     {
-      "title": "Anthropic IPO Polymarket Odds: Valuation Bet Faces a 21.5% Bankruptcy Scenario",
-      "link": "https://cryptonews.com/news/anthropic-ipo-polymarket-valuation/",
-      "summary": "Polymarket prices the Anthropic IPO’s most likely bracket at 27.1%, while bankruptcy by 2029 is priced at 21.5%, exposing AI valuation risk.",
+      "title": "XRP Price $1.45 Resistance Is the Next Test for $5 Target",
+      "link": "https://cryptonews.com/news/xrp-price-prediction-5-dollar-target/",
+      "summary": "XRP price prediction hinges on a $1.36-$1.37 retest and $1.45 reclaim after XRP returns above the $1.40 point of control.",
       "source": "Cryptonews",
       "date": "2026-10-13",
       "date_human": "Oct 13, 2026",
-      "pub_ts": 1791891808,
+      "pub_ts": 1791917040,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -219,13 +222,13 @@
       "image_local": null
     },
     {
-      "title": "XRP News: Evernorth's Listing Exposes a $677M Gap",
-      "link": "https://cryptonews.com/news/evernorth-xrp-news-valuation-gap/",
-      "summary": "Evernorth’s Nasdaq debut offers brokerage access to XRP, but its $677 million treasury, thin float and dilution risks complicate XRPN for investors.",
+      "title": "Anthropic IPO Polymarket Odds: Valuation Bet Faces a 21.5% Bankruptcy Scenario",
+      "link": "https://cryptonews.com/news/anthropic-ipo-polymarket-valuation/",
+      "summary": "Polymarket prices the Anthropic IPO’s most likely bracket at 27.1%, while bankruptcy by 2029 is priced at 21.5%, exposing AI valuation risk.",
       "source": "Cryptonews",
       "date": "2026-10-13",
       "date_human": "Oct 13, 2026",
-      "pub_ts": 1791890700,
+      "pub_ts": 1791891808,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -245,13 +248,13 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin ETF Outflows Reach $65 Million as BlackRock Bleeds Cash",
-      "link": "https://cryptonews.com/news/bitcoin-etf-ibit-outflow/",
-      "summary": "Bitcoin ETFs saw a $65.4 million outflow on October 12, all from IBIT, far below the $484.9 million sector outflow recorded on October 7.",
+      "title": "XRP News: Evernorth's Listing Exposes a $677M Gap",
+      "link": "https://cryptonews.com/news/evernorth-xrp-news-valuation-gap/",
+      "summary": "Evernorth’s Nasdaq debut offers brokerage access to XRP, but its $677 million treasury, thin float and dilution risks complicate XRPN for investors.",
       "source": "Cryptonews",
       "date": "2026-10-13",
       "date_human": "Oct 13, 2026",
-      "pub_ts": 1791889161,
+      "pub_ts": 1791890700,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -265,6 +268,19 @@
       "date": "2026-10-12",
       "date_human": "Oct 12, 2026",
       "pub_ts": 1791792457,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin ETF Outflows Reach $65 Million as BlackRock Bleeds Cash",
+      "link": "https://cryptonews.com/news/bitcoin-etf-ibit-outflow/",
+      "summary": "Bitcoin ETFs saw a $65.4 million outflow on October 12, all from IBIT, far below the $484.9 million sector outflow recorded on October 7.",
+      "source": "Cryptonews",
+      "date": "2026-10-13",
+      "date_human": "Oct 13, 2026",
+      "pub_ts": 1791889161,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -330,19 +346,6 @@
       "date": "2026-10-12",
       "date_human": "Oct 12, 2026",
       "pub_ts": 1791829080,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bab el-Mandeb Risk: Polymarket Houthi Prediction Odds Explained",
-      "link": "https://cryptonews.com/news/bab-el-mandeb-closure-risk-houthi-prediction-odds/",
-      "summary": "Polymarket puts Bab el-Mandeb closure odds at 16.5% by year-end; PortWatch data, not headlines, will determine the market outcome and crypto risk.",
-      "source": "Cryptonews",
-      "date": "2026-10-12",
-      "date_human": "Oct 12, 2026",
-      "pub_ts": 1791814909,
       "image_candidates": [],
       "license_url": null,
       "image": null,
