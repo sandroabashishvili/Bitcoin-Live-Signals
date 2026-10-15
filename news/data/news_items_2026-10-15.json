@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-15",
-  "generated_at_utc": "2026-10-15 04:05:07 UTC",
+  "generated_at_utc": "2026-10-15 10:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-15T04:05:03.310724+00:00",
+    "collected_at": "2026-10-15T10:05:03.208449+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 15,
+        "within_24h": 18,
         "within_window": 20,
-        "eligible": 8,
+        "eligible": 10,
         "rejected": {
-          "topic_author_or_category": 6,
-          "unreviewed_link": 2,
-          "title_filter": 4
+          "unreviewed_link": 4,
+          "title_filter": 3,
+          "topic_author_or_category": 3
         }
       },
       {
@@ -171,43 +171,40 @@
       {
         "source": "Federal Reserve Board",
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-        "status": "ok",
-        "entries": 20,
+        "status": "failed",
+        "entries": 0,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
-        "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 19
-        }
+        "rejected": {}
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 8,
+      "Cryptonews": 10,
       "NewsBTC": 1,
       "U.S. Bureau of Labor Statistics": 1
     },
     "unique_by_source": {
-      "Cryptonews": 8,
+      "Cryptonews": 10,
       "NewsBTC": 1,
       "U.S. Bureau of Labor Statistics": 1
     },
     "selected_by_source": {
-      "Cryptonews": 8,
+      "Cryptonews": 10,
       "NewsBTC": 1,
       "U.S. Bureau of Labor Statistics": 1
     }
   },
-  "count": 10,
+  "count": 12,
   "items": [
     {
-      "title": "XRP Price Faces a Turning Point as ETFs Record 13 Weeks of Inflows",
-      "link": "https://cryptonews.com/news/xrp-price-etf-13-weeks-inflows/",
-      "summary": "XRP ETF products drew $11.31 million in weekly inflows, but $1.248 billion in rival outflows and resistance near $1.38 temper the signal.",
+      "title": "Machi Big Brother Turns $56K Into $12.25M, Then Loses Nearly Everything",
+      "link": "https://cryptonews.com/news/hyperliquid-liquidation-account-reversal/",
+      "summary": "The Hyperliquid liquidation saw Machi Big Brother’s reported account value fall from $12.25 million to about $21,800 amid a crypto selloff.",
       "source": "Cryptonews",
-      "date": "2026-10-14",
-      "date_human": "Oct 14, 2026",
-      "pub_ts": 1792001760,
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792056140,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -234,6 +231,45 @@
       "date": "2026-10-14",
       "date_human": "Oct 14, 2026",
       "pub_ts": 1791978631,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Why Is Crypto Down? Hotter CPI Fuels Fears of Delayed Fed Rate Cuts",
+      "link": "https://cryptonews.com/news/why-is-crypto-down-cpi-hot-rate-cut-fears/",
+      "summary": "Bitcoin price fell 3.6% to about $80,764 as hotter U.S. CPI lifted rate-hike bets and weighed on crypto and technology shares worldwide.",
+      "source": "Cryptonews",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792049289,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "VanEck Pulls Plug on Lido Staked ETH ETF After Yearlong Wait",
+      "link": "https://cryptonews.com/news/vaneck-lido-steth-etf-withdrawal-sec/",
+      "summary": "VanEck asked the SEC to withdraw its proposed Lido stETH ETF registration. The fund never launched, so no investor redemptions or forced sales follow.",
+      "source": "Cryptonews",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792047889,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Price Faces a Turning Point as ETFs Record 13 Weeks of Inflows",
+      "link": "https://cryptonews.com/news/xrp-price-etf-13-weeks-inflows/",
+      "summary": "XRP ETF products drew $11.31 million in weekly inflows, but $1.248 billion in rival outflows and resistance near $1.38 temper the signal.",
+      "source": "Cryptonews",
+      "date": "2026-10-14",
+      "date_human": "Oct 14, 2026",
+      "pub_ts": 1792001760,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -312,19 +348,6 @@
       "date": "2026-10-14",
       "date_human": "Oct 14, 2026",
       "pub_ts": 1791962827,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP Price $1.45 Resistance Is the Next Test for $5 Target",
-      "link": "https://cryptonews.com/news/xrp-price-prediction-5-dollar-target/",
-      "summary": "XRP price prediction hinges on a $1.36-$1.37 retest and $1.45 reclaim after XRP returns above the $1.40 point of control.",
-      "source": "Cryptonews",
-      "date": "2026-10-13",
-      "date_human": "Oct 13, 2026",
-      "pub_ts": 1791917040,
       "image_candidates": [],
       "license_url": null,
       "image": null,
