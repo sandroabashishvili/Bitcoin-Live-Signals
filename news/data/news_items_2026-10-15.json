@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-15",
-  "generated_at_utc": "2026-10-15 10:05:09 UTC",
+  "generated_at_utc": "2026-10-15 16:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-15T10:05:03.208449+00:00",
+    "collected_at": "2026-10-15T16:05:02.864261+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -25,10 +25,10 @@
         "status": "ok",
         "entries": 10,
         "within_24h": 1,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 2,
+        "eligible": 2,
         "rejected": {
-          "older_than_window": 9
+          "older_than_window": 8
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 18,
+        "within_24h": 17,
         "within_window": 20,
-        "eligible": 10,
+        "eligible": 11,
         "rejected": {
-          "unreviewed_link": 4,
+          "topic_author_or_category": 3,
           "title_filter": 3,
-          "topic_author_or_category": 3
+          "unreviewed_link": 3
         }
       },
       {
@@ -62,7 +62,7 @@
         "url": "https://www.bls.gov/feed/cpi.rss",
         "status": "ok",
         "entries": 12,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 1,
         "rejected": {
@@ -86,7 +86,7 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -137,11 +137,11 @@
         "url": "https://www.bls.gov/feed/ppi.rss",
         "status": "ok",
         "entries": 12,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 12
+          "older_than_window": 11
         }
       },
       {
@@ -171,40 +171,82 @@
       {
         "source": "Federal Reserve Board",
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-        "status": "failed",
-        "entries": 0,
+        "status": "ok",
+        "entries": 20,
         "within_24h": 0,
-        "within_window": 0,
+        "within_window": 1,
         "eligible": 0,
-        "rejected": {}
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 19
+        }
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 10,
-      "NewsBTC": 1,
-      "U.S. Bureau of Labor Statistics": 1
+      "Cryptonews": 11,
+      "NewsBTC": 2,
+      "U.S. Bureau of Labor Statistics": 2
     },
     "unique_by_source": {
-      "Cryptonews": 10,
-      "NewsBTC": 1,
-      "U.S. Bureau of Labor Statistics": 1
+      "Cryptonews": 11,
+      "NewsBTC": 2,
+      "U.S. Bureau of Labor Statistics": 2
     },
     "selected_by_source": {
-      "Cryptonews": 10,
-      "NewsBTC": 1,
-      "U.S. Bureau of Labor Statistics": 1
+      "Cryptonews": 8,
+      "NewsBTC": 2,
+      "U.S. Bureau of Labor Statistics": 2
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Machi Big Brother Turns $56K Into $12.25M, Then Loses Nearly Everything",
-      "link": "https://cryptonews.com/news/hyperliquid-liquidation-account-reversal/",
-      "summary": "The Hyperliquid liquidation saw Machi Big Brother’s reported account value fall from $12.25 million to about $21,800 amid a crypto selloff.",
+      "title": "XRP Price Drops, But ETF Defies Crypto Bloodbath as Bitcoin and Ethereum Funds Bleed",
+      "link": "https://cryptonews.com/news/xrp-price-etf-inflows-btc-eth/",
+      "summary": "XRP ETF inflows reached about $740,000 on October 14, extending a 13-week streak as hotter US inflation sent XRP down 5.11%.",
       "source": "Cryptonews",
       "date": "2026-10-15",
       "date_human": "Oct 15, 2026",
-      "pub_ts": 1792056140,
+      "pub_ts": 1792075440,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "BingX EU Secures MiCAR License, Advancing Regulated Crypto Services Across Europe",
+      "link": "https://www.newsbtc.com/news/bingx-eu-secures-micar-license-advancing-regulated-crypto-services-across-europe/",
+      "summary": "VIENNA, October 15, 2026 – BingX EU (MEGE zweite GmbH) has secured its Markets in Crypto-Assets Regulation (MiCA or MiCAR) license from Austria’s Financial Market Authority (FMA), that will enable the platform to offer regulated crypto services across 29 countries of the European Economic Area (EEA), subject to ongoing passporting arrangements. The authorization marks a significant milestone in BingX’s European expansion, providing EEA users with access to digital asset services under a unified regulatory framework built on transparency, security, and investor protection. The authorization ref",
+      "source": "NewsBTC",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792073034,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "PPI for final demand increases 1.3% in September; goods advance 2.6%, services rise 0.8%",
+      "link": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+      "summary": "The Producer Price Index for final demand increased 1.3 percent in September. Prices for final demand goods rose 2.6 percent, and the index for final demand services advanced 0.8 percent. Prices for final demand moved up 6.3 percent for the 12 months ended in September.",
+      "source": "U.S. Bureau of Labor Statistics",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792065051,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Crypto Regulation: Firms Face AI Controls Before Dedicated Rules Arrive",
+      "link": "https://cryptonews.com/news/crypto-regulation-compliance-ai-oversight/",
+      "summary": "Crypto compliance is shifting as supervisors demand human oversight, testing, data quality and risk controls for AI tools, and no crypto AI rule.",
+      "source": "Cryptonews",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792071479,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -237,6 +279,58 @@
       "image_local": null
     },
     {
+      "title": "Bitcoin ETF Records $260 Million Outflows, Led by Fidelity and BlackRock",
+      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-persist/",
+      "summary": "Bitcoin ETF outflows reached $261.4 million as price rebounded near $83,700, raising questions about whether withdrawals will persist.",
+      "source": "Cryptonews",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792069320,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Russia Crypto: Diesel Deal Falters as Zelensky Resumes Refinery Strikes, What Now for Oil Bitcoin?",
+      "link": "https://cryptonews.com/news/russia-crypto-bitcoin-price-analysis-diesel-strikes/",
+      "summary": "Bitcoin price analysis: Zelenskyy’s plan to resume refinery strikes tests a 300,000-tonne diesel deal, while oil and BTC moves remain unconfirmed.",
+      "source": "Cryptonews",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792069200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "SEC Crypto: What do the Coinbase and MARA Binary Options Mean?",
+      "link": "https://cryptonews.com/news/sec-crypto-binary-options-coinbase-mara/",
+      "summary": "SEC-approved binary options tied to Coinbase and MARA metrics offer crypto exposure without tokens, while Clarity Act questions remain unresolved.",
+      "source": "Cryptonews",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792061655,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Machi Big Brother Turns $56K Into $12.25M, Then Loses Nearly Everything",
+      "link": "https://cryptonews.com/news/hyperliquid-liquidation-account-reversal/",
+      "summary": "The Hyperliquid liquidation saw Machi Big Brother’s reported account value fall from $12.25 million to about $21,800 amid a crypto selloff.",
+      "source": "Cryptonews",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792056140,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Why Is Crypto Down? Hotter CPI Fuels Fears of Delayed Fed Rate Cuts",
       "link": "https://cryptonews.com/news/why-is-crypto-down-cpi-hot-rate-cut-fears/",
       "summary": "Bitcoin price fell 3.6% to about $80,764 as hotter U.S. CPI lifted rate-hike bets and weighed on crypto and technology shares worldwide.",
@@ -257,97 +351,6 @@
       "date": "2026-10-15",
       "date_human": "Oct 15, 2026",
       "pub_ts": 1792047889,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP Price Faces a Turning Point as ETFs Record 13 Weeks of Inflows",
-      "link": "https://cryptonews.com/news/xrp-price-etf-13-weeks-inflows/",
-      "summary": "XRP ETF products drew $11.31 million in weekly inflows, but $1.248 billion in rival outflows and resistance near $1.38 temper the signal.",
-      "source": "Cryptonews",
-      "date": "2026-10-14",
-      "date_human": "Oct 14, 2026",
-      "pub_ts": 1792001760,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP Price Faces Test Despite Improving Social Mood",
-      "link": "https://cryptonews.com/news/xrp-price-analysis-social-mood-santiment/",
-      "summary": "Latest XRP price analysis points to a $1.40 reclaim as social sentiment improves to 0.92, while Ethereum leads with a 2.05 bullish ratio.",
-      "source": "Cryptonews",
-      "date": "2026-10-14",
-      "date_human": "Oct 14, 2026",
-      "pub_ts": 1791985440,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Coinbase Calls for Early Bitcoin Migration to Quantum Security",
-      "link": "https://cryptonews.com/news/post-quantum-cryptography-bitcoin/",
-      "summary": "Coinbase urges early Bitcoin preparation for post-quantum cryptography, while designs, migration rules and legacy coins remain unresolved.",
-      "source": "Cryptonews",
-      "date": "2026-10-14",
-      "date_human": "Oct 14, 2026",
-      "pub_ts": 1791981240,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Starknet Crypto Shadow Accounts Separate DeFi Identity From Activity",
-      "link": "https://cryptonews.com/news/starknet-crypto-shadow-accounts-defi-privacy/",
-      "summary": "Starknet’s Shadow Accounts separate DeFi identity from main wallets, but balances, transactions and positions remain visible onchain.",
-      "source": "Cryptonews",
-      "date": "2026-10-14",
-      "date_human": "Oct 14, 2026",
-      "pub_ts": 1791981000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Binance News: Miners Must Move Before Pool Closes on November 10",
-      "link": "https://cryptonews.com/news/binance-news-mining-pool-shutdown-november-10/",
-      "summary": "Binance Pool closes at 07:00 UTC on November 10. Miners must switch pools, close Pool Savings accounts and check records before November 24.",
-      "source": "Cryptonews",
-      "date": "2026-10-14",
-      "date_human": "Oct 14, 2026",
-      "pub_ts": 1791976080,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Standard Chartered Launched UAE Crypto Trading",
-      "link": "https://cryptonews.com/news/standard-chartered-uae-crypto/",
-      "summary": "Standard Chartered launches Bitcoin and Ether trading for eligible UAE Professional Investors through existing accounts under VARA approval.",
-      "source": "Cryptonews",
-      "date": "2026-10-14",
-      "date_human": "Oct 14, 2026",
-      "pub_ts": 1791969443,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Polymarket Token Airdrop? TOKEN2049 Talk Fuels Speculation",
-      "link": "https://cryptonews.com/news/polymarket-token-airdrop-speculation/",
-      "summary": "Shayne Coplan discussed a programmable on-chain asset at TOKEN2049, but Polymarket has confirmed no token launch, airdrop rules or timetable.",
-      "source": "Cryptonews",
-      "date": "2026-10-14",
-      "date_human": "Oct 14, 2026",
-      "pub_ts": 1791962827,
       "image_candidates": [],
       "license_url": null,
       "image": null,
