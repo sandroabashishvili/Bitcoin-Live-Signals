@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-14",
-  "generated_at_utc": "2026-10-14 16:05:06 UTC",
+  "generated_at_utc": "2026-10-14 22:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-14T16:05:02.458650+00:00",
+    "collected_at": "2026-10-14T22:05:01.555177+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -25,10 +25,10 @@
         "status": "ok",
         "entries": 10,
         "within_24h": 1,
-        "within_window": 2,
-        "eligible": 2,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 8
+          "older_than_window": 9
         }
       },
       {
@@ -99,7 +99,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 2,
+        "within_24h": 1,
         "within_window": 2,
         "eligible": 0,
         "rejected": {
@@ -125,7 +125,7 @@
         "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -174,7 +174,7 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -184,23 +184,36 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 2,
       "Cryptonews": 10,
+      "NewsBTC": 1,
       "U.S. Bureau of Labor Statistics": 1
     },
     "unique_by_source": {
-      "NewsBTC": 2,
       "Cryptonews": 10,
+      "NewsBTC": 1,
       "U.S. Bureau of Labor Statistics": 1
     },
     "selected_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 9,
+      "Cryptonews": 10,
+      "NewsBTC": 1,
       "U.S. Bureau of Labor Statistics": 1
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "XRP Price Faces a Turning Point as ETFs Record 13 Weeks of Inflows",
+      "link": "https://cryptonews.com/news/xrp-price-etf-13-weeks-inflows/",
+      "summary": "XRP ETF products drew $11.31 million in weekly inflows, but $1.248 billion in rival outflows and resistance near $1.38 temper the signal.",
+      "source": "Cryptonews",
+      "date": "2026-10-14",
+      "date_human": "Oct 14, 2026",
+      "pub_ts": 1792001760,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "HTX Publishes Its Q3 2026 Scorecard: Cumulative TradFi Trading Volume Approaches $6B Amid 13th Anniversary Celebration",
       "link": "https://www.newsbtc.com/news/htx-publishes-its-q3-2026-scorecard-cumulative-tradfi-trading-volume-approaches-6b-amid-13th-anniversary-celebration/",
@@ -209,19 +222,6 @@
       "date": "2026-10-14",
       "date_human": "Oct 14, 2026",
       "pub_ts": 1791988805,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP Price Faces Test Despite Improving Social Mood",
-      "link": "https://cryptonews.com/news/xrp-price-analysis-social-mood-santiment/",
-      "summary": "Latest XRP price analysis points to a $1.40 reclaim as social sentiment improves to 0.92, while Ethereum leads with a 2.05 bullish ratio.",
-      "source": "Cryptonews",
-      "date": "2026-10-14",
-      "date_human": "Oct 14, 2026",
-      "pub_ts": 1791985440,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -241,13 +241,13 @@
       "image_local": null
     },
     {
-      "title": "State of TRON Q3 2026 Report Highlights $2.21 Trillion in Stablecoin Settlement Amid Network Activity Growth",
-      "link": "https://www.newsbtc.com/news/state-of-tron-q3-2026-report-highlights-2-21-trillion-in-stablecoin-settlement-amid-network-activity-growth/",
-      "summary": "Geneva, Switzerland, October 12, 2026 — TRON DAO, the community-governed DAO dedicated to accelerating the decentralization of the internet through blockchain technology and decentralized applications (dApps), today highlighted key findings from its State of TRON Q3 2026 ecosystem report. The report examines network activity, stablecoin settlement, liquidity, tokenomics, developer activity, decentralization, and protocol governance during the third quarter of 2026. TRON surpassed $30 trillion in cumulative transaction volume in Q3 2026, marking another milestone for a network used as infrastru",
-      "source": "NewsBTC",
-      "date": "2026-10-12",
-      "date_human": "Oct 12, 2026",
-      "pub_ts": 1791824881,
+      "title": "XRP Price Faces Test Despite Improving Social Mood",
+      "link": "https://cryptonews.com/news/xrp-price-analysis-social-mood-santiment/",
+      "summary": "Latest XRP price analysis points to a $1.40 reclaim as social sentiment improves to 0.92, while Ethereum leads with a 2.05 bullish ratio.",
+      "source": "Cryptonews",
+      "date": "2026-10-14",
+      "date_human": "Oct 14, 2026",
+      "pub_ts": 1791985440,
       "image_candidates": [],
       "license_url": null,
       "image": null,
