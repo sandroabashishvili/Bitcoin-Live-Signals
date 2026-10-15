@@ -79,6 +79,8 @@ class MarketContextService:
             symbol=symbol,
             timeframe=timeframe,
         )
+        if latest_orderbook is None or latest_orderbook.completeness != 'COMPLETE_CLOSED_WINDOW_V1' or latest_orderbook.window_end_ms != recent_candles[-1].close_time_ms:
+            raise RuntimeError('Spot orderflow is incomplete or belongs to another candle')
 
         timeframe_snapshots = {
             tf: self._indicator_snapshot_repository.get_latest_snapshot(symbol=symbol, timeframe=tf)

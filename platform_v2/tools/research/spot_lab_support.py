@@ -226,11 +226,14 @@ class SpotReplay:
                 if p:expected[p.position_id]=plain(p)
             terminal_match=self.latest()==list(expected.values());historical &= terminal_match
         if not self.baseline:
+            declaration=json.loads((self.output/'candidate_protocol.json').read_text())
+            allowed=set(declaration.get('components',['mtf']))
+            if not allowed or allowed-{'mtf','trend','regime','momentum','permission_proximity'}:raise ValueError('Unsupported component declaration')
             root=self.output.parent/'baseline-next-minute'
             base=json.loads((root/'portfolio.json').read_text())
             if self.initial!=base['initial_positions'] or [r['observation_id'] for r in self.cycles]!=[r['observation_id'] for r in base['cycles']]:raise ValueError('Candidate account/cohort differs')
             for a,b in zip(self.cycles,base['cycles']):
-                if any(v!=b['signal']['component_scores'][k] for k,v in a['signal']['component_scores'].items() if k!='mtf'):
+                if any(v!=b['signal']['component_scores'][k] for k,v in a['signal']['component_scores'].items() if k not in allowed):
                     raise ValueError('Undeclared Spot component changed')
         final=self.accounting()
         result={'passed':historical if self.baseline else True,'model':self.model,'limit':self.limit,

@@ -25,3 +25,9 @@ class OrderbookSnapshot:
     momentum_classification: str
     period_count: int
     source: str = "binance_aggtrades"
+    window_start_ms: int | None = None
+    window_end_ms: int | None = None
+    first_trade_ms: int | None = None
+    last_trade_ms: int | None = None
+    page_count: int = 0
+    completeness: str = "LEGACY_UNKNOWN"

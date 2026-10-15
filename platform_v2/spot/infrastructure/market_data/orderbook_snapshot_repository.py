@@ -72,6 +72,16 @@ class JsonOrderbookSnapshotRepository:
             return None
 
         try:
+            if row.get('completeness') != 'COMPLETE_CLOSED_WINDOW_V1':
+                raise ValueError('Legacy or incomplete orderflow cannot be treated as current')
+            start, end = int(row['window_start_ms']), int(row['window_end_ms'])
+            interval = int(timeframe[:-1]) * (60000 if timeframe.endswith('m') else 3600000)
+            count = int(row['period_count'])
+            first, last = row.get('first_trade_ms'), row.get('last_trade_ms')
+            if end-start+1 != interval or end % interval != interval-1 or count < 0:
+                raise ValueError('Invalid closed orderflow window')
+            if count and (first is None or last is None or not start <= int(first) <= int(last) <= end):
+                raise ValueError('Trade times outside orderflow window')
             return OrderbookSnapshot(
                 symbol=str(row.get("symbol") or symbol),
                 timeframe=str(row.get("timeframe") or timeframe),
@@ -85,8 +95,13 @@ class JsonOrderbookSnapshotRepository:
                 ),
                 period_count=int(row.get("period_count", 0) or 0),
                 source=str(row.get("source") or "binance_aggtrades"),
+                window_start_ms=start, window_end_ms=end,
+                first_trade_ms=None if first is None else int(first),
+                last_trade_ms=None if last is None else int(last),
+                page_count=int(row.get('page_count', 0)),
+                completeness=str(row['completeness']),
             )
-        except (TypeError, ValueError) as exc:
+        except (TypeError, ValueError, KeyError) as exc:
             warn_runtime_fallback(
                 scope="spot_orderbook_snapshot_repository",
                 operation="parse_latest_snapshot",

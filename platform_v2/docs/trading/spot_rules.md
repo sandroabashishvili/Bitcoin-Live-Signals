@@ -1,10 +1,19 @@
 # Spot Rules
 
-Updated: 2026-09-12. Active version: `spot-independent-direction-quality-v5`.
+Updated: 2026-10-14. Active scoring version: `spot-independent-direction-quality-v5`.
 
 Spot is a BUY-only simulation with its own Binance Spot candles, indicators, orderbook, signal history, permissions and positions. It does not wait for Futures signals or open events. Its scoring foundation was copied from Futures and is owned locally; later Futures edits do not automatically alter Spot.
 
 ## Direction and scoring
+
+ORDERBOOK consumes executed trade flow, not passive order-book depth. Since the
+2026-10-14 collector correction, Spot captures the exact latest closed 15-minute
+UTC candle using aggregate-trade ID pagination. The snapshot records its window,
+first/last trade times, page count and `COMPLETE_CLOSED_WINDOW_V1` status. Incomplete,
+legacy-unverified or wrong-candle input is rejected rather than reused. Historical
+snapshots are retained without relabelling; old replay results inherit their
+documented stale-input limitation. Component formulas and execution rules were
+not changed by this data-source repair.
 
 `services/signal/independent_long_signal_service.py` computes both LONG and SHORT scores from Spot context. SHORT is opposing context, never a Spot short position. LONG is selected when its score is at least 8.5 and at least the SHORT score. SHORT context wins only when at least 8.5 and strictly greater. A BUY also needs valid positive entry/SL/TP geometry; otherwise the result is NO_SIGNAL.
 

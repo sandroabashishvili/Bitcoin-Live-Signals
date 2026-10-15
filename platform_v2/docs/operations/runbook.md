@@ -1,6 +1,6 @@
 # Operating Guide and Current Status
 
-Updated: 2026-10-08. This is the single maintained entry point for current status,
+Updated: 2026-10-14. This is the single maintained entry point for current status,
 everyday commands and next work. Technical specifications remain in their module
 and topic documents. Dated reports describe historical checkpoints, not current deployment.
 
@@ -67,6 +67,34 @@ rebuilt the page from that summary and passed the normal startup duplicate-cycle
 guard. See `live-acceptance.json` and `REPORT.md` in the evidence directory.
 The original immutable release is retained for rollback. This maintenance does
 not constitute a new strategy or predictive-research promotion.
+
+### Spot trade-flow collector maintenance — 2026-10-14
+
+The selected pinned release is
+`41a68287bc792dd9a77189f039fd5829545a90a48896f40e5a1ecebf65599778`.
+It changes exactly five Spot input-path files from the previous release
+`ca9071e09ab28ac9a82c5a82bc4b80d0b345f13b7b8ec9758c22aefe6af3666b`.
+ORDERBOOK now receives the complete executed-trade flow for the exact closed
+15-minute candle, paginated by aggregate-trade ID, with explicit coverage metadata.
+Incomplete, legacy-unverified and mismatched-window context fails closed.
+Scoring formulas, configuration identities, Futures/Hedge code, position rules,
+SQLite library and original activation epoch are unchanged. Historical input
+rows are preserved; this is not a research candidate promotion.
+
+Validation: 286 Spot/research tests and 30 tests through the pinned importer passed.
+A public-market preflight collected 4,768 aggregate trades in five pages without
+writing live databases. Scoped online backups of the three runtime databases were
+restore-verified under `~/backups/smartsignalhub/orderflow-fix-20261014/`.
+Deployment files and acceptance evidence are under
+`~/research_snapshots/orderflow_fix_20261014/`; `live-acceptance.json` confirms the
+first committed cycle used 5,828 trades across six responses, matching captured
+raw quantities and retaining all 2,878 previous orderflow rows. The post-activation
+health check passed with only the unchanged historical gap-review flags; no open
+or failed attempts and no incomplete decision evidence were found. The service restarted at
+06:04:26 UTC and correctly skipped the already committed previous candle.
+The previous immutable release and deployment configuration are retained for
+rollback. Historical `GAP_HISTORY_REVIEW` flags (27 detections per system before
+this maintenance) are not cleared or represented as newly caused by this release.
 
 ## Everyday operation on the configured WSL host
 

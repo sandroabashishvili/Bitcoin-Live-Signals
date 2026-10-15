@@ -70,7 +70,8 @@ class MainCycleExecutionService:
         cycle_info: CycleKeyInfo,
         commit_callback=None,
     ) -> MainCycleResult:
-        fetched_orderbook_path = self._fetch_orderbook(symbol=symbol, timeframe=timeframe)
+        fetched_orderbook_path = self._fetch_orderbook(symbol=symbol, timeframe=timeframe,
+            close_time_ms=int(cycle_info.key.rsplit(':', 1)[1]))
         built_indicator_paths = self._build_indicators(symbol=symbol)
         updated_positions = self._update_positions(date_iso=date_iso)
         signal_result = self._run_signal_pipeline(
@@ -115,10 +116,11 @@ class MainCycleExecutionService:
             daily_summary_path=None,
         )
 
-    def _fetch_orderbook(self, *, symbol: str, timeframe: str) -> Path | None:
+    def _fetch_orderbook(self, *, symbol: str, timeframe: str, close_time_ms: int) -> Path | None:
         return self._orderbook_service.fetch_and_store(
             symbol=symbol,
             timeframe=timeframe,
+            close_time_ms=close_time_ms,
         )
 
     def _build_indicators(self, *, symbol: str) -> tuple[Path, ...]:

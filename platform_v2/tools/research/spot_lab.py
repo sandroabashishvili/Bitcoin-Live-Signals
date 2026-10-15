@@ -10,8 +10,15 @@ import sys
 from pathlib import Path
 from platform_v2.tools.research import signal_lab as lab
 from platform_v2.tools.research.mtf_symmetry_experiment import candidate_source
+from platform_v2.tools.research.spot_permission_audit import summarize as summarize_forward_returns
 
 MTF = 'platform_v2/spot/services/signal/mtf_context_service.py'
+COMPONENT = 'platform_v2/spot/services/signal/long_component_score_service.py'
+PERMISSION = 'platform_v2/spot/services/permission/permission_decision_service.py'
+NAMES = ('baseline','unchanged','symmetric_all','trend_mirror_v1','mtf_trend_mirror_v1','proximity_off_v1','mtf_proximity_off_v1')
+NAMES += ('trend_alignment_v1','mtf_trend_alignment_v1','trend_dmi_v1','mtf_trend_dmi_v1')
+NAMES += ('regime_monotonic_v1','mtf_regime_monotonic_v1','regime_strength_v1','mtf_regime_strength_v1')
+NAMES += ('momentum_rsi_direction_v1','mtf_momentum_rsi_direction_v1','momentum_macd_positive_v1','mtf_momentum_macd_positive_v1')
 
 
 def prepare(workspace):
@@ -32,7 +39,7 @@ def prepare(workspace):
 
 def run(workspace, name='baseline', model='observed', limit=0):
     root = lab.outside_live(workspace)
-    if model not in ('observed','next-minute') or name not in ('baseline','unchanged','symmetric_all') or limit < 0:
+    if model not in ('observed','next-minute') or name not in NAMES or limit < 0:
         raise ValueError('Unsupported Spot experiment')
     lab.verify(root)
     if model == 'next-minute':
@@ -55,7 +62,16 @@ def run(workspace, name='baseline', model='observed', limit=0):
     for module, destination in [('spot_lab_worker.py','worker.py'),('spot_lab_support.py','spot_lab_support.py')]:
         shutil.copyfile(Path(__file__).with_name(module), output / destination)
     if name != 'baseline':
-        shutil.copyfile(root / 'spot_candidates' / name / 'mtf.py', output / 'mtf.py')
+        candidate = root / 'spot_candidates' / name
+        declaration = json.loads((candidate/'protocol.json').read_text())
+        overlays = declaration.get('overlays', {MTF:{'file':'mtf.py','sha256':declaration.get('source_sha256')}})
+        if not overlays or set(overlays)-{MTF,COMPONENT,PERMISSION}:
+            raise ValueError('Undeclared Spot source overlay')
+        for path, entry in overlays.items():
+            if entry['file'] not in ('mtf.py','component.py','permission.py') or lab.digest(candidate/entry['file'])!=entry['sha256']:
+                raise ValueError('Candidate source hash mismatch')
+            shutil.copyfile(candidate/entry['file'],output/entry['file'])
+        lab.write(output/'candidate_protocol.json', declaration)
     lab.write(output / 'execution_protocol.json', {'model':model,'limit':limit,'market':'spot',
         'first_attempt': 'First LIVE_OBSERVED attempt; latest enrichment in that same attempt only',
         'initial_positions': 'First captured pre-batch position documents, loaded once',
@@ -69,10 +85,10 @@ def run(workspace, name='baseline', model='observed', limit=0):
     return output
 
 
-def compare(workspace):
+def compare(workspace, names=None, output_name='spot_comparison'):
     root=lab.outside_live(workspace);lab.verify(root)
     results={}
-    for name in ('baseline-next-minute','unchanged','symmetric_all'):
+    for name in names or ('baseline-next-minute','unchanged','symmetric_all'):
         folder=root/'spot_runs'/name;lab._verify_run(root,folder)
         results[name]=json.loads((folder/'portfolio.json').read_text())
     base=results['baseline-next-minute']
@@ -124,12 +140,73 @@ def compare(workspace):
                 'positive_pct':100*sum(v>0 for v in values)/len(values) if values else None,
                 'missing_label_cycles':missing}
         summaries[name]['BUY_forward_price_returns']=forwards
-    output=root/'spot_comparison';output.mkdir(exist_ok=True)
-    lab.write(output/'results.json',{'results':summaries,'limitations':base['limitations']+[
+    if output_name not in ('spot_comparison','spot_trend_comparison','spot_filter_comparison','spot_trend_rules_comparison','spot_regime_comparison','spot_momentum_comparison'):
+        raise ValueError('Unsupported report destination')
+    output=root/output_name;output.mkdir(exist_ok=True)
+    ablations={}
+    for reference,candidate in [('baseline-next-minute','trend_mirror_v1'),('symmetric_all','mtf_trend_mirror_v1')]:
+        if candidate not in results:continue
+        pairs=list(zip(results[reference]['cycles'],results[candidate]['cycles']))
+        changed=[b for a,b in pairs if a['signal']['evaluated_direction']!=b['signal']['evaluated_direction']]
+        ablations[candidate]={'reference':reference,
+            'changed_BUY_decisions':sum(a['signal']['side']!=b['signal']['side'] for a,b in pairs),
+            'changed_evaluated_directions':len(changed),
+            'changed_short_scores':sum(a['signal']['direction_scores']['short']!=b['signal']['direction_scores']['short'] for a,b in pairs),
+            'long_scores_and_gates_unchanged':all(a['signal']['direction_scores']['long']==b['signal']['direction_scores']['long'] and a['signal']['gates']==b['signal']['gates'] for a,b in pairs),
+            'account_and_position_paths_unchanged':all(a['account_after']==b['account_after'] and a['positions']==b['positions'] for a,b in pairs),
+            'max_long_score_on_changed_directions':max((r['signal']['direction_scores']['long'] for r in changed),default=None),
+            'changed_directions_all_below_BUY_threshold':all(r['signal']['direction_scores']['long']<r['signal']['threshold'] for r in changed)}
+    rule_ablations={}
+    for name in ('trend_alignment_v1','mtf_trend_alignment_v1','trend_dmi_v1','mtf_trend_dmi_v1'):
+        if name not in results:continue
+        reference='symmetric_all' if name.startswith('mtf_') else 'baseline-next-minute'
+        pairs=list(zip(results[reference]['cycles'],results[name]['cycles']))
+        rule_ablations[name]={'reference':reference,
+            'changed_BUY_decisions':sum(a['signal']['side']!=b['signal']['side'] for a,b in pairs),
+            'changed_trend_scores':sum(a['signal']['component_scores']['trend']!=b['signal']['component_scores']['trend'] for a,b in pairs),
+            'changed_trend_gates':sum(a['signal']['gates']['trend']!=b['signal']['gates']['trend'] for a,b in pairs),
+            'other_long_components_unchanged':all({k:v for k,v in a['signal']['component_scores'].items() if k!='trend'}=={k:v for k,v in b['signal']['component_scores'].items() if k!='trend'} for a,b in pairs),
+            'incremental_equity_USDT':round(results[name]['final_account']['equity']-results[reference]['final_account']['equity'],2),
+            'added_BUY_quality':summarize_forward_returns([b for a,b in pairs if a['signal']['side']!='BUY' and b['signal']['side']=='BUY'],prices,protocol['end_ms']),
+            'removed_BUY_quality':summarize_forward_returns([a for a,b in pairs if a['signal']['side']=='BUY' and b['signal']['side']!='BUY'],prices,protocol['end_ms'])}
+        if not rule_ablations[name]['other_long_components_unchanged']:raise ValueError('Unrelated rule component changed')
+    regime_ablations={}
+    for name in ('regime_monotonic_v1','mtf_regime_monotonic_v1','regime_strength_v1','mtf_regime_strength_v1'):
+        if name not in results:continue
+        reference='symmetric_all' if name.startswith('mtf_') else 'baseline-next-minute'
+        pairs=list(zip(results[reference]['cycles'],results[name]['cycles']))
+        regime_ablations[name]={'reference':reference,
+            'changed_BUY_decisions':sum(a['signal']['side']!=b['signal']['side'] for a,b in pairs),
+            'changed_regime_scores':sum(a['signal']['component_scores']['regime']!=b['signal']['component_scores']['regime'] for a,b in pairs),
+            'changed_regime_gates':sum(a['signal']['gates']['regime']!=b['signal']['gates']['regime'] for a,b in pairs),
+            'other_long_components_unchanged':all({k:v for k,v in a['signal']['component_scores'].items() if k!='regime'}=={k:v for k,v in b['signal']['component_scores'].items() if k!='regime'} for a,b in pairs),
+            'opposing_score_unchanged':all(a['signal']['direction_scores']['short']==b['signal']['direction_scores']['short'] for a,b in pairs),
+            'incremental_equity_USDT':round(results[name]['final_account']['equity']-results[reference]['final_account']['equity'],2),
+            'added_BUY_quality':summarize_forward_returns([b for a,b in pairs if a['signal']['side']!='BUY' and b['signal']['side']=='BUY'],prices,protocol['end_ms']),
+            'removed_BUY_quality':summarize_forward_returns([a for a,b in pairs if a['signal']['side']=='BUY' and b['signal']['side']!='BUY'],prices,protocol['end_ms'])}
+        if not regime_ablations[name]['other_long_components_unchanged'] or not regime_ablations[name]['opposing_score_unchanged']:
+            raise ValueError('Undeclared REGIME effect on other components/opposing score')
+    momentum_ablations={}
+    for name in ('momentum_rsi_direction_v1','mtf_momentum_rsi_direction_v1','momentum_macd_positive_v1','mtf_momentum_macd_positive_v1'):
+        if name not in results:continue
+        reference='symmetric_all' if name.startswith('mtf_') else 'baseline-next-minute'
+        pairs=list(zip(results[reference]['cycles'],results[name]['cycles']))
+        momentum_ablations[name]={'reference':reference,
+            'changed_BUY_decisions':sum(a['signal']['side']!=b['signal']['side'] for a,b in pairs),
+            'changed_momentum_scores':sum(a['signal']['component_scores']['momentum']!=b['signal']['component_scores']['momentum'] for a,b in pairs),
+            'changed_momentum_gates':sum(a['signal']['gates']['momentum']!=b['signal']['gates']['momentum'] for a,b in pairs),
+            'other_long_components_unchanged':all({k:v for k,v in a['signal']['component_scores'].items() if k!='momentum'}=={k:v for k,v in b['signal']['component_scores'].items() if k!='momentum'} for a,b in pairs),
+            'opposing_score_unchanged':all(a['signal']['direction_scores']['short']==b['signal']['direction_scores']['short'] for a,b in pairs),
+            'incremental_equity_USDT':round(results[name]['final_account']['equity']-results[reference]['final_account']['equity'],2),
+            'added_BUY_quality':summarize_forward_returns([b for a,b in pairs if a['signal']['side']!='BUY' and b['signal']['side']=='BUY'],prices,protocol['end_ms']),
+            'removed_BUY_quality':summarize_forward_returns([a for a,b in pairs if a['signal']['side']=='BUY' and b['signal']['side']!='BUY'],prices,protocol['end_ms'])}
+        if not momentum_ablations[name]['other_long_components_unchanged'] or not momentum_ablations[name]['opposing_score_unchanged']:
+            raise ValueError('Undeclared MOMENTUM effect')
+    lab.write(output/'results.json',{'results':summaries,'trend_ablations':ablations,'rule_ablations':rule_ablations,'regime_ablations':regime_ablations,'momentum_ablations':momentum_ablations,'limitations':base['limitations']+[
        'Earlier calendar overlaps the Futures candidate-selection period',
        'Later calendar is only about two days; not sufficient independent validation',
        'Chronological splits retain evolving positions, not independently reset accounts']})
-    lines=['# Spot full replay: MTF symmetry comparison','',
+    lines=['# Spot full replay: research ablation comparison','',
            '| Variant | BUY signals | New opens | Period net USDT | Final equity USDT | Equity difference | Cycle DD % |',
            '|---|---:|---:|---:|---:|---:|---:|']
     for name,r in summaries.items():
@@ -138,22 +215,85 @@ def compare(workspace):
               'The later approximately two-day segment is descriptive, not sufficient independent validation.',
               'The unchanged control must reproduce all semantic cycle paths; random paper order UUIDs are excluded.',
               'No automatic promotion or live changes. Full per-cycle, permission and private SQLite evidence is retained.']
+    if ablations:
+        lines += ['','## Isolated TREND effect','',
+            'Bearish TREND awards become 0.7/0.8/0.8/0.8 instead of 1/1/1/1; bullish awards and predicates stay unchanged.']
+        for name,r in ablations.items():
+            lines.append(f"- {name} versus {r['reference']}: {r['changed_short_scores']} changed opposing scores, {r['changed_evaluated_directions']} changed evaluated directions, {r['changed_BUY_decisions']} changed BUY decisions. Account/position paths unchanged: {r['account_and_position_paths_unchanged']}.")
+        lines += ['','This ablation alone provides no BUY-quality or portfolio improvement on this period.',
+            'Do not infer that TREND is sound or irrelevant: only directional point asymmetry was tested, not the indicator predicates or redundant evidence. No live promotion.']
+    if rule_ablations:
+        lines += ['','## TREND predicate ablations','',
+            'alignment: remove only price dependence from EMA50/EMA200 point award.',
+            'dmi: remove only ADX availability/strength dependence from DI point award.',
+            'Original point awards and all position-entry filters stay unchanged. No proximity-off variant is used here.','']
+        for name,r in rule_ablations.items():
+            lines.append(f"- {name} versus {r['reference']}: {r['changed_trend_scores']} changed TREND scores, {r['changed_trend_gates']} changed TREND gates, {r['changed_BUY_decisions']} changed BUY decisions; incremental equity {r['incremental_equity_USDT']:+.2f} USDT.")
+        lines += ['','### Added BUY signals (gross future prices, not trade PnL)','',
+            '| Variant | Added BUY n | Horizon min | Labeled | Mean % | Median % | Positive % |',
+            '|---|---:|---:|---:|---:|---:|---:|']
+        for name,r in rule_ablations.items():
+            for horizon,v in r['added_BUY_quality']['forward_returns'].items():
+                fmt=lambda value: 'n/a' if value is None else f'{value:.4f}'
+                lines.append(f"| {name} | {r['added_BUY_quality']['BUY_cycles']} | {horizon} | {v['labeled']} | {fmt(v['mean_pct'])} | {fmt(v['median_pct'])} | {fmt(v['positive_pct'])} |")
+    if regime_ablations:
+        lines += ['','## REGIME effects','',
+            'monotonic: change only LONG ADX base awards above 25 to the existing 20-25 award (1.6).',
+            'strength: replace whole LONG REGIME with existing shared ADX/spike helper; cannot attribute its effect to one removed term.',
+            'TREND and all permission filters, including proximity, remain original.','']
+        for name,r in regime_ablations.items():
+            lines.append(f"- {name} versus {r['reference']}: {r['changed_regime_scores']} changed REGIME scores, {r['changed_regime_gates']} changed gates, {r['changed_BUY_decisions']} changed BUY decisions; incremental equity {r['incremental_equity_USDT']:+.2f} USDT.")
+        lines += ['','### Added/removed BUY quality (gross price moves, not trade PnL)','',
+            '| Variant | Group | BUY n | Horizon min | Labeled | Mean % | Median % | Positive % |',
+            '|---|---|---:|---:|---:|---:|---:|---:|']
+        for name,r in regime_ablations.items():
+            for group in ('added_BUY_quality','removed_BUY_quality'):
+                for horizon,v in r[group]['forward_returns'].items():
+                    fmt=lambda value: 'n/a' if value is None else f'{value:.4f}'
+                    lines.append(f"| {name} | {group} | {r[group]['BUY_cycles']} | {horizon} | {v['labeled']} | {fmt(v['mean_pct'])} | {fmt(v['median_pct'])} | {fmt(v['positive_pct'])} |")
+    if momentum_ablations:
+        lines += ['','## MOMENTUM effects','',
+            'rsi_direction: only LONG RSI ladder becomes +1.4 above 50, without upper RSI ceiling.',
+            'macd_positive: only LONG MACD award requires MACD>0 in addition to its original condition.',
+            'Opposing MOMENTUM, TREND/REGIME, histogram disabled, weights/thresholds and all permissions remain original.','']
+        for name,r in momentum_ablations.items():
+            lines.append(f"- {name} versus {r['reference']}: {r['changed_momentum_scores']} changed MOMENTUM scores, {r['changed_momentum_gates']} changed gates, {r['changed_BUY_decisions']} changed BUY decisions; incremental equity {r['incremental_equity_USDT']:+.2f} USDT.")
+        lines += ['','### Added/removed BUY quality (gross price moves, not trade PnL)','',
+            '| Variant | Group | BUY n | Horizon min | Labeled | Mean % | Median % | Positive % |',
+            '|---|---|---:|---:|---:|---:|---:|---:|']
+        for name,r in momentum_ablations.items():
+            for group in ('added_BUY_quality','removed_BUY_quality'):
+                for horizon,v in r[group]['forward_returns'].items():
+                    fmt=lambda value: 'n/a' if value is None else f'{value:.4f}'
+                    lines.append(f"| {name} | {group} | {r[group]['BUY_cycles']} | {horizon} | {v['labeled']} | {fmt(v['mean_pct'])} | {fmt(v['median_pct'])} | {fmt(v['positive_pct'])} |")
     lines += ['','## BUY signal quality (forward open-price returns, not position win rate)','',
               '| Variant | Horizon min | BUY n | Mean % | Median % | Positive % |',
               '|---|---:|---:|---:|---:|---:|']
     for name,r in summaries.items():
         for horizon,v in r['BUY_forward_price_returns'].items():
-            lines.append(f"| {name} | {horizon} | {v['BUY_n']} | {v['mean_pct']:.4f} | {v['median_pct']:.4f} | {v['positive_pct']:.2f} |")
+            fmt=lambda value, digits: 'n/a' if value is None else f'{value:.{digits}f}'
+            lines.append(f"| {name} | {horizon} | {v['BUY_n']} | {fmt(v['mean_pct'],4)} | {fmt(v['median_pct'],4)} | {fmt(v['positive_pct'],2)} |")
     (output/'REPORT.md').write_text('\n'.join(lines)+'\n')
     return output/'REPORT.md'
 
 
 if __name__ == '__main__':
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('command',choices=['prepare','run','compare'])
+    p.add_argument('command',choices=['prepare','run','compare','compare-trend','compare-filters','compare-trend-rules','compare-regime','compare-momentum'])
     p.add_argument('workspace',type=Path)
     p.add_argument('--name',default='baseline')
     p.add_argument('--model',choices=['observed','next-minute'],default='observed')
     p.add_argument('--limit',type=int,default=0)
     a=p.parse_args()
-    print(prepare(a.workspace) if a.command=='prepare' else compare(a.workspace) if a.command=='compare' else run(a.workspace,a.name,a.model,a.limit))
+    if a.command=='compare-trend':
+        print(compare(a.workspace, ('baseline-next-minute','unchanged','symmetric_all','trend_mirror_v1','mtf_trend_mirror_v1'), 'spot_trend_comparison'))
+    elif a.command=='compare-filters':
+        print(compare(a.workspace, ('baseline-next-minute','unchanged','symmetric_all','proximity_off_v1','mtf_proximity_off_v1'), 'spot_filter_comparison'))
+    elif a.command=='compare-trend-rules':
+        print(compare(a.workspace, ('baseline-next-minute','unchanged','symmetric_all','trend_alignment_v1','mtf_trend_alignment_v1','trend_dmi_v1','mtf_trend_dmi_v1'), 'spot_trend_rules_comparison'))
+    elif a.command=='compare-regime':
+        print(compare(a.workspace, ('baseline-next-minute','unchanged','symmetric_all','regime_monotonic_v1','mtf_regime_monotonic_v1','regime_strength_v1','mtf_regime_strength_v1'), 'spot_regime_comparison'))
+    elif a.command=='compare-momentum':
+        print(compare(a.workspace, ('baseline-next-minute','unchanged','symmetric_all','momentum_rsi_direction_v1','mtf_momentum_rsi_direction_v1','momentum_macd_positive_v1','mtf_momentum_macd_positive_v1'), 'spot_momentum_comparison'))
+    else:
+        print(prepare(a.workspace) if a.command=='prepare' else compare(a.workspace) if a.command=='compare' else run(a.workspace,a.name,a.model,a.limit))
