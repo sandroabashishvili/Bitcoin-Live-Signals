@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-15",
-  "generated_at_utc": "2026-10-15 16:05:08 UTC",
+  "generated_at_utc": "2026-10-15 22:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-15T16:05:02.864261+00:00",
+    "collected_at": "2026-10-15T22:05:04.173738+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -100,11 +100,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 2,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 2,
-          "older_than_window": 13
+          "unreviewed_link": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -125,11 +125,10 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 14
+          "older_than_window": 15
         }
       },
       {
@@ -174,11 +173,10 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 19
+          "older_than_window": 20
         }
       }
     ],
@@ -201,13 +199,13 @@
   "count": 12,
   "items": [
     {
-      "title": "XRP Price Drops, But ETF Defies Crypto Bloodbath as Bitcoin and Ethereum Funds Bleed",
-      "link": "https://cryptonews.com/news/xrp-price-etf-inflows-btc-eth/",
-      "summary": "XRP ETF inflows reached about $740,000 on October 14, extending a 13-week streak as hotter US inflation sent XRP down 5.11%.",
+      "title": "XRP News: DriveWealth RLUSD Settlement Starting in Europe",
+      "link": "https://cryptonews.com/news/xrp-news-drivewealth-rlusd-settlement-europe/",
+      "summary": "DriveWealth plans RLUSD settlement in Europe before a U.S. expansion, with Ripple’s payments and custody work still at different stages.",
       "source": "Cryptonews",
       "date": "2026-10-15",
       "date_human": "Oct 15, 2026",
-      "pub_ts": 1792075440,
+      "pub_ts": 1792087680,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -240,13 +238,13 @@
       "image_local": null
     },
     {
-      "title": "Crypto Regulation: Firms Face AI Controls Before Dedicated Rules Arrive",
-      "link": "https://cryptonews.com/news/crypto-regulation-compliance-ai-oversight/",
-      "summary": "Crypto compliance is shifting as supervisors demand human oversight, testing, data quality and risk controls for AI tools, and no crypto AI rule.",
+      "title": "XRP Price Drops, But ETF Defies Crypto Bloodbath as Bitcoin and Ethereum Funds Bleed",
+      "link": "https://cryptonews.com/news/xrp-price-etf-inflows-btc-eth/",
+      "summary": "XRP ETF inflows reached about $740,000 on October 14, extending a 13-week streak as hotter US inflation sent XRP down 5.11%.",
       "source": "Cryptonews",
       "date": "2026-10-15",
       "date_human": "Oct 15, 2026",
-      "pub_ts": 1792071479,
+      "pub_ts": 1792075440,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -273,6 +271,19 @@
       "date": "2026-10-14",
       "date_human": "Oct 14, 2026",
       "pub_ts": 1791978631,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Crypto Regulation: Firms Face AI Controls Before Dedicated Rules Arrive",
+      "link": "https://cryptonews.com/news/crypto-regulation-compliance-ai-oversight/",
+      "summary": "Crypto compliance is shifting as supervisors demand human oversight, testing, data quality and risk controls for AI tools, and no crypto AI rule.",
+      "source": "Cryptonews",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792071479,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -338,19 +349,6 @@
       "date": "2026-10-15",
       "date_human": "Oct 15, 2026",
       "pub_ts": 1792049289,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "VanEck Pulls Plug on Lido Staked ETH ETF After Yearlong Wait",
-      "link": "https://cryptonews.com/news/vaneck-lido-steth-etf-withdrawal-sec/",
-      "summary": "VanEck asked the SEC to withdraw its proposed Lido stETH ETF registration. The fund never launched, so no investor redemptions or forced sales follow.",
-      "source": "Cryptonews",
-      "date": "2026-10-15",
-      "date_human": "Oct 15, 2026",
-      "pub_ts": 1792047889,
       "image_candidates": [],
       "license_url": null,
       "image": null,
