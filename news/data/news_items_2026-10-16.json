@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-16",
-  "generated_at_utc": "2026-10-16 10:05:11 UTC",
+  "generated_at_utc": "2026-10-16 16:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-16T10:05:05.376820+00:00",
+    "collected_at": "2026-10-16T16:05:05.144946+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 1,
-        "within_window": 2,
-        "eligible": 2,
+        "within_24h": 2,
+        "within_window": 3,
+        "eligible": 3,
         "rejected": {
-          "older_than_window": 8
+          "older_than_window": 7
         }
       },
       {
@@ -36,11 +36,12 @@
         "url": "https://www.nist.gov/news-events/news/rss.xml",
         "status": "ok",
         "entries": 40,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 40
+          "topic_author_or_category": 1,
+          "older_than_window": 39
         }
       },
       {
@@ -48,13 +49,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 15,
+        "within_24h": 11,
         "within_window": 20,
-        "eligible": 9,
+        "eligible": 11,
         "rejected": {
-          "title_filter": 6,
+          "title_filter": 5,
           "topic_author_or_category": 3,
-          "unreviewed_link": 2
+          "unreviewed_link": 1
         }
       },
       {
@@ -63,10 +64,10 @@
         "status": "ok",
         "entries": 12,
         "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 11
+          "older_than_window": 12
         }
       },
       {
@@ -87,11 +88,10 @@
         "status": "ok",
         "entries": 25,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 24
+          "older_than_window": 25
         }
       },
       {
@@ -135,7 +135,7 @@
         "url": "https://www.bls.gov/feed/ppi.rss",
         "status": "ok",
         "entries": 12,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 1,
         "rejected": {
@@ -171,43 +171,57 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 20
+          "topic_author_or_category": 1,
+          "older_than_window": 19
         }
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 9,
+      "Cryptonews": 11,
+      "NewsBTC": 3,
       "Bitcoin Optech": 1,
-      "NewsBTC": 2,
-      "U.S. Bureau of Labor Statistics": 2
+      "U.S. Bureau of Labor Statistics": 1
     },
     "unique_by_source": {
-      "Cryptonews": 9,
+      "Cryptonews": 11,
+      "NewsBTC": 3,
       "Bitcoin Optech": 1,
-      "NewsBTC": 2,
-      "U.S. Bureau of Labor Statistics": 2
+      "U.S. Bureau of Labor Statistics": 1
     },
     "selected_by_source": {
       "Cryptonews": 7,
+      "NewsBTC": 3,
       "Bitcoin Optech": 1,
-      "NewsBTC": 2,
-      "U.S. Bureau of Labor Statistics": 2
+      "U.S. Bureau of Labor Statistics": 1
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Solana Shanghai Event Halted After Police Visit, Raising China Fears",
-      "link": "https://cryptonews.com/news/solana-shanghai-event-cz-binance-postponed/",
-      "summary": "The Solana Shanghai event was postponed after attendees reported blocked venue access, but the foundation gave no replacement date yet.",
+      "title": "Polymarket Bitcoin and Rate Hike Odds Shift as CME Says No Change",
+      "link": "https://cryptonews.com/news/polymarket-bitcoin-rate-hike-odds-vs-cme/",
+      "summary": "Polymarket put an October Fed hike at 24% on Oct. 15, below CME FedWatch's 37%-44%. Bitcoin fell below $82,000 as traders weighed December risk.",
       "source": "Cryptonews",
       "date": "2026-10-16",
       "date_human": "Oct 16, 2026",
-      "pub_ts": 1792135740,
+      "pub_ts": 1792164900,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "MEXC Releases October 2026 Proof of Reserves, Reinforcing User Trust Through Verifiable Transparency",
+      "link": "https://www.newsbtc.com/news/mexc-releases-october-2026-proof-of-reserves-reinforcing-user-trust-through-verifiable-transparency/",
+      "summary": "Mutsamudu, Comoros, October 16, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its October 2026 Proof of Reserves (PoR) report. Independently audited by Hacken, the report confirms that the platform’s reserves continue to fully cover user holdings across all major reserve assets. As part of its commitment to putting users first, MEXC publishes monthly reserve data that users can independently verify, reinforcing user trust through transparency. According to the audit report, MEXC’s reserve ratios stand at 294% for BTC, 122% for USDT, 115% for USDC and 111% for ETH. All fou",
+      "source": "NewsBTC",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792146870,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -227,19 +241,6 @@
       "image_local": null
     },
     {
-      "title": "BingX EU Secures MiCAR License, Advancing Regulated Crypto Services Across Europe",
-      "link": "https://www.newsbtc.com/news/bingx-eu-secures-micar-license-advancing-regulated-crypto-services-across-europe/",
-      "summary": "VIENNA, October 15, 2026 – BingX EU (MEGE zweite GmbH) has secured its Markets in Crypto-Assets Regulation (MiCA or MiCAR) license from Austria’s Financial Market Authority (FMA), that will enable the platform to offer regulated crypto services across 29 countries of the European Economic Area (EEA), subject to ongoing passporting arrangements. The authorization marks a significant milestone in BingX’s European expansion, providing EEA users with access to digital asset services under a unified regulatory framework built on transparency, security, and investor protection. The authorization ref",
-      "source": "NewsBTC",
-      "date": "2026-10-15",
-      "date_human": "Oct 15, 2026",
-      "pub_ts": 1792073034,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "PPI for final demand increases 1.3% in September; goods advance 2.6%, services rise 0.8%",
       "link": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
       "summary": "The Producer Price Index for final demand increased 1.3 percent in September. Prices for final demand goods rose 2.6 percent, and the index for final demand services advanced 0.8 percent. Prices for final demand moved up 6.3 percent for the 12 months ended in September.",
@@ -253,6 +254,71 @@
       "image_local": null
     },
     {
+      "title": "XRP News: RLUSD Settlement Comes to Cross River Fintechs",
+      "link": "https://cryptonews.com/news/rlusd-cross-river-api-xrp-news/",
+      "summary": "RLUSD joins Cross River’s banking API as an added settlement rail for fintechs, but access is currently limited to some U.S. states.",
+      "source": "Cryptonews",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792158120,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "MEXC AI Trading Report Reveals 85% of Crypto Traders Use AI, But Most Limit Its Control Over Funds",
+      "link": "https://www.newsbtc.com/news/mexc-ai-trading-report-reveals-85-of-crypto-traders-use-ai-but-most-limit-its-control-over-funds/",
+      "summary": "Mutsamudu, Comoros, October 16, 2026 — MEXC, a global cryptocurrency exchange, released its AI Trading Report, based on a survey of 3,708 crypto traders. The report examines how respondents use AI, how much trading authority they would delegate, and what protective measures they expect from platforms. Blockchain security firm Hacken contributed technical analysis of risks associated with AI agent trading and the controls designed to address them. Key takeaways: 84.8% of surveyed crypto users have used AI for research or trading. While 58.3% report improved market research, 46% also report bett",
+      "source": "NewsBTC",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792146698,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Toobit Adds Five SmartK Indicators for More Structured Futures Analysis",
+      "link": "https://cryptonews.com/news/toobit-adds-five-smartk-indicators-for-more-structured-futures-analysis/",
+      "summary": "The award-winning global cryptocurrency exchange Toobit has added to its SmartK futures charting mode – bringing five proprietary indicators covering market direction, price structure, volume, momentum, and risk planning.The new system separates its tools into three main-chart indicators and two lower-panel indicators. Traders can display one from each group at the same time, creating a […]",
+      "source": "Cryptonews",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792152777,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "BingX EU Secures MiCAR License, Advancing Regulated Crypto Services Across Europe",
+      "link": "https://www.newsbtc.com/news/bingx-eu-secures-micar-license-advancing-regulated-crypto-services-across-europe/",
+      "summary": "VIENNA, October 15, 2026 – BingX EU (MEGE zweite GmbH) has secured its Markets in Crypto-Assets Regulation (MiCA or MiCAR) license from Austria’s Financial Market Authority (FMA), that will enable the platform to offer regulated crypto services across 29 countries of the European Economic Area (EEA), subject to ongoing passporting arrangements. The authorization marks a significant milestone in BingX’s European expansion, providing EEA users with access to digital asset services under a unified regulatory framework built on transparency, security, and investor protection. The authorization ref",
+      "source": "NewsBTC",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792073034,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Solana Shanghai Event Halted After Police Visit, Raising China Fears",
+      "link": "https://cryptonews.com/news/solana-shanghai-event-cz-binance-postponed/",
+      "summary": "The Solana Shanghai event was postponed after attendees reported blocked venue access, but the foundation gave no replacement date yet.",
+      "source": "Cryptonews",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792135740,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Google Quantum 40x Breakthrough Rekindles Fears of Q-Day",
       "link": "https://cryptonews.com/news/google-bitcoin-quantum-risk/",
       "summary": "Bitcoin quantum risk grows as Google reports 40-fold lower errors and 99.9% accuracy, but no machine is close to breaking Bitcoin’s signatures.",
@@ -260,32 +326,6 @@
       "date": "2026-10-16",
       "date_human": "Oct 16, 2026",
       "pub_ts": 1792130473,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "HTX Publishes Its Q3 2026 Scorecard: Cumulative TradFi Trading Volume Approaches $6B Amid 13th Anniversary Celebration",
-      "link": "https://www.newsbtc.com/news/htx-publishes-its-q3-2026-scorecard-cumulative-tradfi-trading-volume-approaches-6b-amid-13th-anniversary-celebration/",
-      "summary": "Apia, Samoa, October 14, 2026 – The crypto market saw a notable rally in the just-concluded third quarter. It was also the quarter in which HTX turned 13. Over the past 13 years, the industry has weathered multiple bull and bear cycles, and HTX has stood alongside users worldwide throughout them. Resilience in navigating market cycles has been a defining characteristic of HTX over the past 13 years. To mark its anniversary themed “Resilience Reveals the Future”, HTX launched the 13th-Anniversary Carnival and Trading Championship #3, among other celebratory events, in the third quarter, celebra",
-      "source": "NewsBTC",
-      "date": "2026-10-14",
-      "date_human": "Oct 14, 2026",
-      "pub_ts": 1791988805,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "CPI for all items increases 0.6% in September; gasoline rises",
-      "link": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
-      "summary": "In September, the Consumer Price Index for All Urban Consumers rose 0.6 percent, seasonally adjusted (SA), and rose 3.7 percent over the year, not seasonally adjusted (NSA). The index for all items less food and energy rose 0.3 percent in September (SA), up 2.6 percent over the year (NSA).",
-      "source": "U.S. Bureau of Labor Statistics",
-      "date": "2026-10-14",
-      "date_human": "Oct 14, 2026",
-      "pub_ts": 1791978631,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -312,45 +352,6 @@
       "date": "2026-10-15",
       "date_human": "Oct 15, 2026",
       "pub_ts": 1792075440,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Crypto Regulation: Firms Face AI Controls Before Dedicated Rules Arrive",
-      "link": "https://cryptonews.com/news/crypto-regulation-compliance-ai-oversight/",
-      "summary": "Crypto compliance is shifting as supervisors demand human oversight, testing, data quality and risk controls for AI tools, and no crypto AI rule.",
-      "source": "Cryptonews",
-      "date": "2026-10-15",
-      "date_human": "Oct 15, 2026",
-      "pub_ts": 1792071479,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin ETF Records $260 Million Outflows, Led by Fidelity and BlackRock",
-      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-persist/",
-      "summary": "Bitcoin ETF outflows reached $261.4 million as price rebounded near $83,700, raising questions about whether withdrawals will persist.",
-      "source": "Cryptonews",
-      "date": "2026-10-15",
-      "date_human": "Oct 15, 2026",
-      "pub_ts": 1792069320,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Russia Crypto: Diesel Deal Falters as Zelensky Resumes Refinery Strikes, What Now for Oil Bitcoin?",
-      "link": "https://cryptonews.com/news/russia-crypto-bitcoin-price-analysis-diesel-strikes/",
-      "summary": "Bitcoin price analysis: Zelenskyy’s plan to resume refinery strikes tests a 300,000-tonne diesel deal, while oil and BTC moves remain unconfirmed.",
-      "source": "Cryptonews",
-      "date": "2026-10-15",
-      "date_human": "Oct 15, 2026",
-      "pub_ts": 1792069200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
