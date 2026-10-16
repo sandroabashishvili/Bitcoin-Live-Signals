@@ -1,8 +1,9 @@
 import ast
-from pathlib import Path
 from platform_v2.tools.research.spot_filter_experiment import candidate_source
 
-SOURCE=Path(__file__).parents[3]/'spot/services/permission/permission_decision_service.py'
+from platform_v2.tools.research.tests.paths import PLATFORM_ROOT
+
+SOURCE = PLATFORM_ROOT / 'spot/services/permission/permission_decision_service.py'
 
 
 def test_only_proximity_method_body_changes():

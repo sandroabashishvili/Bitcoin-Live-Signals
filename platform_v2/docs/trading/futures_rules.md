@@ -1,10 +1,26 @@
 # Futures Rules
 
-Updated: 2026-09-12. Active version: `futures-short-zone-required-long-profit-lock-1m-v5`.
+Updated: 2026-10-15. Scoring version: `futures-short-zone-required-long-profit-lock-1m-v5`.
 
 Futures independently evaluates Binance Futures BTCUSDT context. Defaults: simulation, isolated x5, 100 USDT margin (500 USDT notional), 3,000 USDT starting balance. Current runtime confirms simulation; this document does not authorize live trading.
 
 ## Signals and gates
+
+ORDERBOOK measures executed Futures trade flow, not passive depth. The closed-window
+collector repair uses the exact decision candle and aggregate-ID pagination;
+same-millisecond trades are retained and subsequent requests do not mix fromId
+with time bounds. The main cycle supplies the actual candle close explicitly.
+Snapshots carry window bounds, first/last trade times, page count and
+`COMPLETE_CLOSED_WINDOW_V1` status. Legacy/unverified, incomplete or wrong-candle
+inputs are rejected rather than used as current data. API errors propagate and
+cannot become apparently valid zero-volume snapshots. Futures supports 1m/5m/15m/30m
+collection windows; longer windows are rejected rather than violating the API's
+less-than-one-hour bounded-query constraint. Production uses 15m.
+
+This repair changes the input, not component formulas, weights, thresholds or
+position rules. Historical rows remain unchanged; earlier replay and gate metrics
+inherit the documented stale-input limitation. Deployment and acceptance evidence:
+`/home/sandro/research_snapshots/futures_orderflow_fix_20261015/`.
 
 Both LONG and SHORT use an 8.5 action threshold. LONG wins a qualifying tie; SHORT must exceed LONG. The six weighted components are MTF 1.0, REGIME 0.8, TREND 1.3, MOMENTUM 1.0, ORDERBOOK 0.9 and STRUCTURE 0.9. No individual Gate, including the primary 15m MTF flag, is a mandatory signal veto. Scoring lives in `services/signal/`; operational settings live in `config/settings.py`.
 

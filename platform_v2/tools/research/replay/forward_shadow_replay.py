@@ -13,7 +13,7 @@ from platform_v2.tools.research.replay.portfolio_replay_report import write_repo
 from platform_v2.tools.research.replay.portfolio_state_replay import build_report
 
 
-DEFAULT_SPEC = Path(__file__).with_name("shadow_candidate_set_v2.json")
+DEFAULT_SPEC = Path(__file__).parent / "profiles" / "shadow_candidate_set_v2.json"
 
 
 def load_spec(path: Path) -> dict[str, Any]:

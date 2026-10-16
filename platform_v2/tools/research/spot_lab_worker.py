@@ -21,11 +21,11 @@ def main():
     if name!='baseline':
         declaration=json.loads((output/'candidate_protocol.json').read_text())
         mtf='platform_v2/spot/services/signal/mtf_context_service.py'
-        allowed={mtf,'platform_v2/spot/services/signal/long_component_score_service.py','platform_v2/spot/services/permission/permission_decision_service.py'}
+        allowed={mtf,'platform_v2/spot/services/signal/long_component_score_service.py','platform_v2/spot/services/permission/permission_decision_service.py','platform_v2/spot/services/signal/long_structure_score_service.py'}
         overlays=declaration.get('overlays',{mtf:{'file':'mtf.py','sha256':declaration.get('source_sha256')}})
         if not overlays or set(overlays)-allowed:raise ValueError('Unsupported source overlay')
         for path,entry in overlays.items():
-            if entry['file'] not in ('mtf.py','component.py','permission.py'):raise ValueError('Unsupported candidate file')
+            if entry['file'] not in ('mtf.py','component.py','permission.py','structure.py'):raise ValueError('Unsupported candidate file')
             candidate=(output/entry['file']).read_bytes()
             if hashlib.sha256(candidate).hexdigest()!=entry['sha256']:raise ValueError('Candidate hash mismatch')
             payload['files'][path]=candidate.decode()

@@ -254,7 +254,7 @@ range reached a level.
 Forward shadow evaluation uses a frozen candidate specification:
 
 ```text
-platform_v2/tools/research/replay/shadow_candidate_set_v1.json
+platform_v2/tools/research/replay/profiles/shadow_candidate_set_v1.json
 ```
 
 When a newer snapshot contains decisions after the frozen cutoff, evaluate

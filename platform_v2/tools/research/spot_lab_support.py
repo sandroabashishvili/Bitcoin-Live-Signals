@@ -228,7 +228,7 @@ class SpotReplay:
         if not self.baseline:
             declaration=json.loads((self.output/'candidate_protocol.json').read_text())
             allowed=set(declaration.get('components',['mtf']))
-            if not allowed or allowed-{'mtf','trend','regime','momentum','permission_proximity'}:raise ValueError('Unsupported component declaration')
+            if not allowed or allowed-{'mtf','trend','regime','momentum','orderbook','structure','permission_proximity'}:raise ValueError('Unsupported component declaration')
             root=self.output.parent/'baseline-next-minute'
             base=json.loads((root/'portfolio.json').read_text())
             if self.initial!=base['initial_positions'] or [r['observation_id'] for r in self.cycles]!=[r['observation_id'] for r in base['cycles']]:raise ValueError('Candidate account/cohort differs')

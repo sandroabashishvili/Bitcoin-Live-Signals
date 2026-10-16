@@ -1,6 +1,6 @@
 # Operating Guide and Current Status
 
-Updated: 2026-10-14. This is the single maintained entry point for current status,
+Updated: 2026-10-15. This is the single maintained entry point for current status,
 everyday commands and next work. Technical specifications remain in their module
 and topic documents. Dated reports describe historical checkpoints, not current deployment.
 
@@ -95,6 +95,33 @@ or failed attempts and no incomplete decision evidence were found. The service r
 The previous immutable release and deployment configuration are retained for
 rollback. Historical `GAP_HISTORY_REVIEW` flags (27 detections per system before
 this maintenance) are not cleared or represented as newly caused by this release.
+
+### Futures trade-flow collector maintenance — 2026-10-15
+
+Selected pinned release:
+`1f4295af7a8832beb669616243ad343e7e5491c34fd2e40a718be71ea0b40e3f`.
+Exactly five Futures input-path files changed from the preceding Spot-corrected
+release. Futures now fetches the exact closed decision candle using aggregate-ID
+pagination and rejects incomplete, legacy/unverified or wrong-candle flow. API
+errors propagate rather than becoming empty-volume snapshots. Supported collection
+windows are 1m/5m/15m/30m; production uses 15m. Component scoring, configuration
+identities, entry and position rules, Spot/Hedge code and the original activation
+epoch are unchanged. Historical evidence is not relabelled or erased.
+
+379 regression tests and 36 exact-pinned-importer tests passed. Public-market
+preflight captured 17,370 trades across 18 responses for one closed 15m candle
+without live database writes. Three-runtime-database online copies and restore
+verification passed under `~/backups/smartsignalhub/futures-orderflow-fix-20261015/`.
+The service restarted at 05:55:45 UTC and skipped the already committed old candle.
+Deployment/rollback files and verification scripts are under
+`~/research_snapshots/futures_orderflow_fix_20261015/`. Completed first-cycle and
+health acceptance require `live-acceptance.json`, `after-health.json` and
+`completion_manifest.json`; selection/restart alone does not establish acceptance.
+First-cycle input and commit acceptance passed: 30,620 trades across 31 responses
+for the closed 05:45–05:59:59.999 UTC candle, with raw response counts/quantities
+matching the consumed snapshot and all 2,977 old Futures orderflow rows preserved.
+The previous immutable release is retained. Existing historical gap-review flags
+are not cleared by a data-collector repair. This is not a strategy promotion.
 
 ## Everyday operation on the configured WSL host
 

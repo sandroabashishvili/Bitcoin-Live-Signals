@@ -82,7 +82,7 @@ must be replayed together.
 Versioned evidence and research-only candidates live in:
 
 ```text
-platform_v2/tools/research/replay/calibration_findings_v1.json
+platform_v2/tools/research/replay/profiles/calibration_findings_v1.json
 platform_v2/tools/research/replay/candidate_profiles.py
 ```
 
@@ -271,7 +271,7 @@ This is not evidence for real-money execution.
 The earlier combined replay candidate remains recorded in:
 
 ```text
-platform_v2/tools/research/replay/shadow_candidate_set_v1.json
+platform_v2/tools/research/replay/profiles/shadow_candidate_set_v1.json
 ```
 
 Rules:
@@ -451,7 +451,7 @@ Canonical report and frozen candidate set:
 
 ```text
 platform_v2/runtime/artifacts/research/replay/portfolio_state_replay_20260731_224517_357243.md
-platform_v2/tools/research/replay/shadow_candidate_set_v2.json
+platform_v2/tools/research/replay/profiles/shadow_candidate_set_v2.json
 ```
 
 The first technical forward-shadow checkpoint used verified snapshot
@@ -496,7 +496,7 @@ Post-integration replay reproduced the selected results exactly: baseline
 `45.08`. Promotion record:
 
 ```text
-platform_v2/tools/research/replay/futures_strategy_promotion_v2.json
+platform_v2/tools/research/replay/profiles/futures_strategy_promotion_v2.json
 ```
 
 ## Promotion Rule
@@ -545,7 +545,7 @@ Evidence:
 
 ```text
 platform_v2/runtime/artifacts/research/replay/portfolio_state_replay_20260801_102615_722579.md
-platform_v2/tools/research/replay/futures_strategy_promotion_v3.json
+platform_v2/tools/research/replay/profiles/futures_strategy_promotion_v3.json
 ```
 
 ### Rejected structure-room blocker
@@ -642,5 +642,5 @@ Evidence:
 ```text
 platform_v2/runtime/artifacts/research/replay/position_management_grid_20260801_195400_808818.json
 platform_v2/runtime/artifacts/research/replay/position_management_grid_20260801_200513_863236.json
-platform_v2/tools/research/replay/futures_strategy_promotion_v4.json
+platform_v2/tools/research/replay/profiles/futures_strategy_promotion_v4.json
 ```

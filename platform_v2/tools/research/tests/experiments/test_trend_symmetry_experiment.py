@@ -1,5 +1,4 @@
 import ast
-from pathlib import Path
 from types import SimpleNamespace
 
 import pytest
@@ -7,7 +6,9 @@ from platform_v2.tools.research.trend_symmetry_experiment import candidate_sourc
 from platform_v2.spot.services.signal.long_component_score_service import SpotLongComponentScoreService
 
 
-SOURCE = Path(__file__).parents[3]/'spot/services/signal/long_component_score_service.py'
+from platform_v2.tools.research.tests.paths import PLATFORM_ROOT
+
+SOURCE = PLATFORM_ROOT / 'spot/services/signal/long_component_score_service.py'
 
 
 def candidate():

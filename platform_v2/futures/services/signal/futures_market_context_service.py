@@ -52,6 +52,9 @@ class FuturesMarketContextService:
             return None
 
         latest_orderbook = self._orderbook_repository.get_latest_snapshot(symbol=symbol, timeframe=timeframe)
+        if (latest_orderbook is None or latest_orderbook.completeness != 'COMPLETE_CLOSED_WINDOW_V1'
+                or latest_orderbook.window_end_ms != primary_candles[-1].close_time_ms):
+            raise RuntimeError('Futures orderflow is incomplete or belongs to another candle')
         mtf_signals, mtf_direction = self._mtf_service.build_signals(
             timeframe_snapshots=timeframe_snapshots,
             primary_timeframe=timeframe,

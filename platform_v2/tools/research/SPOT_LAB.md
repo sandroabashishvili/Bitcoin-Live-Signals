@@ -1,5 +1,64 @@
 # Full Spot replay (research only)
 
+## STRUCTURE initial formula study — 2026-10-15
+
+Completed six predeclared replay variants on the same corrected-input 135-cycle
+cohort in `/home/sandro/research_snapshots/spot_orderbook_lab_20261015/`.
+Swing-low/high (20 trailing candles) and bounce flags (3-bar lookback plus current
+closed candle) matched captured closed-candle calculations in all 135 observations.
+ATR was present/positive throughout; 31 cycles triggered the unchanged ATR-spike
+block. No future candle was needed to reproduce these STRUCTURE fields.
+
+`structure_rules_experiment` changes LONG only: (1) room >=1.5 ATR gets the same
+0.8 credit as 1–1.5 ATR rather than 0.1; (2) the distance-from-low ladder favors
+1.5–2.5 ATR and tapers at 2.5–4 and 4–6 ATR; (3) both changes together. Each runs
+with current MTF and separately with experimental symmetric MTF. Opposing SHORT
+structure, ATR/missing guards, bounce bonus, score ceiling, weights, thresholds,
+other components, execution filters, sizing, fees and exit logic remain unchanged.
+Only research overlay allowlists were extended; production code/release was not edited.
+
+Current-MTF baseline had 0 BUY/0 new positions; room-only added one BUY, denied
+solely by `buy_entry_location`. Distance and combined had 0 BUY. With experimental
+MTF, baseline/room/distance had 10 BUY states, while combined had 11. Its extra
+BUY was denied by cooldown and proximity. Every experimental-MTF version opened
+the same two positions at identical times, both SL: -2.0983 USDT closed-new-position
+net. Period net -2.87 also includes -0.77 inherited-position closure. Do not confuse
+gate passes, evaluated BUY states, filled positions or inherited PnL.
+
+No scoring change is promoted. These plausible simplifications did not improve
+actual position results on this short exploratory cohort. All six components now
+have an initial research pass, not independent validation or a proven winning
+combination. Evidence: `spot_structure_comparison/FINDINGS.md`,
+`structure_details.json`, `completion_manifest.json` and `structure_input_validation.json`.
+342 Spot/research tests passed, including 33 formula boundary/isolation cases.
+
+## Corrected-input ORDERBOOK formula study — 2026-10-15
+
+Completed exploratory study in `/home/sandro/research_snapshots/spot_orderbook_lab_20261015/`.
+All 135 corrected Spot input snapshots (33.75h) matched their captured aggregate-ID
+pages, counts, time bounds and quantities. Observed full replay matched historical
+signals/permissions/terminal positions; unchanged modeled control matched too.
+`orderbook_rules_experiment` predeclares three two-sided ablations: remove only
+imbalance confirmation, replace repeated transforms with monotonic dominance, and
+zero ORDERBOOK contribution as a diagnostic control. Each runs with current MTF
+and separately with experimental symmetric MTF. No live formula/config was changed.
+
+With current MTF, all variants produced zero BUY states/new positions; -0.77 USDT
+period net was inherited-position closure, not a new trade. With experimental MTF,
+the original flow rule produced 10 BUY states/two SL exits (-2.0983 USDT new-trade
+net); removing imbalance produced 9 states with the same entries/results. Monotonic
+flow produced 7 states, and zero contribution 6; both opened the same two positions
+with two SL exits (-1.7852 USDT). The first entry shifted 90 minutes later relative
+to the MTF reference; the second entry time stayed unchanged. A 0.3131 USDT reduction
+in loss, shared by the disabled control, does not establish stronger signal quality.
+Two trades and a short, correlated period are insufficient independent validation.
+Keep the production formula. Futures formula ablations were not run in this Spot study.
+
+Detailed signal/position deltas, forward-price label coverage, input validation and
+hashed completion evidence are in `spot_orderbook_comparison/FINDINGS.md`,
+`orderbook_details.json` and `completion_manifest.json`. Tests: 309 Spot/research
+tests passed. Re-run the same predeclared protocol on more fresh data before promotion.
+
 ## ORDERBOOK input-quality finding (2026-10-14)
 
 `orderflow_input_audit WORKSPACE` verifies immutable first-attempt snapshots

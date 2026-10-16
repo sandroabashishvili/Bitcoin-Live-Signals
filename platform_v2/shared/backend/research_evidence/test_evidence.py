@@ -311,12 +311,12 @@ def test_first_view_excludes_reconstruction(ledger):
     assert len(first)==1 and json.loads(first[0][0])['record']=={'n':1}
 
 
-def test_futures_fallback_error_retained_without_changing_result(ledger):
+def test_futures_acquisition_error_retained_and_propagated(ledger):
     from platform_v2.futures.services.market.binance_futures_orderflow_service import BinanceFuturesOrderflowService
     target='platform_v2.futures.services.market.binance_futures_orderflow_service.urlopen'
     with active(ledger,'futures'),patch(target,side_effect=OSError('offline')):
-        result=BinanceFuturesOrderflowService()._request_aggtrades(symbol='BTCUSDT',start_time=0,end_time=1000,limit=1000)
-    assert result==[] # Existing behavior intentionally retained, acquisition says ERROR.
+        with pytest.raises(OSError, match='offline'):
+            BinanceFuturesOrderflowService()._request_aggtrades(symbol='BTCUSDT',start_time=0,end_time=1000,limit=1000)
     assert rows(ledger,'market_acquisition_events')[-1]['kind']=='ERROR'
 
 

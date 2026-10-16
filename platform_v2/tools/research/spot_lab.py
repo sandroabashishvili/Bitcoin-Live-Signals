@@ -15,10 +15,13 @@ from platform_v2.tools.research.spot_permission_audit import summarize as summar
 MTF = 'platform_v2/spot/services/signal/mtf_context_service.py'
 COMPONENT = 'platform_v2/spot/services/signal/long_component_score_service.py'
 PERMISSION = 'platform_v2/spot/services/permission/permission_decision_service.py'
+STRUCTURE = 'platform_v2/spot/services/signal/long_structure_score_service.py'
 NAMES = ('baseline','unchanged','symmetric_all','trend_mirror_v1','mtf_trend_mirror_v1','proximity_off_v1','mtf_proximity_off_v1')
 NAMES += ('trend_alignment_v1','mtf_trend_alignment_v1','trend_dmi_v1','mtf_trend_dmi_v1')
 NAMES += ('regime_monotonic_v1','mtf_regime_monotonic_v1','regime_strength_v1','mtf_regime_strength_v1')
 NAMES += ('momentum_rsi_direction_v1','mtf_momentum_rsi_direction_v1','momentum_macd_positive_v1','mtf_momentum_macd_positive_v1')
+NAMES += tuple(prefix+'orderbook_'+variant+'_v1' for variant in ('no_imbalance','monotonic','disabled') for prefix in ('','mtf_'))
+NAMES += tuple(prefix+'structure_'+variant+'_v1' for variant in ('room','distance','combined') for prefix in ('','mtf_'))
 
 
 def prepare(workspace):
@@ -65,10 +68,10 @@ def run(workspace, name='baseline', model='observed', limit=0):
         candidate = root / 'spot_candidates' / name
         declaration = json.loads((candidate/'protocol.json').read_text())
         overlays = declaration.get('overlays', {MTF:{'file':'mtf.py','sha256':declaration.get('source_sha256')}})
-        if not overlays or set(overlays)-{MTF,COMPONENT,PERMISSION}:
+        if not overlays or set(overlays)-{MTF,COMPONENT,PERMISSION,STRUCTURE}:
             raise ValueError('Undeclared Spot source overlay')
         for path, entry in overlays.items():
-            if entry['file'] not in ('mtf.py','component.py','permission.py') or lab.digest(candidate/entry['file'])!=entry['sha256']:
+            if entry['file'] not in ('mtf.py','component.py','permission.py','structure.py') or lab.digest(candidate/entry['file'])!=entry['sha256']:
                 raise ValueError('Candidate source hash mismatch')
             shutil.copyfile(candidate/entry['file'],output/entry['file'])
         lab.write(output/'candidate_protocol.json', declaration)
@@ -140,7 +143,7 @@ def compare(workspace, names=None, output_name='spot_comparison'):
                 'positive_pct':100*sum(v>0 for v in values)/len(values) if values else None,
                 'missing_label_cycles':missing}
         summaries[name]['BUY_forward_price_returns']=forwards
-    if output_name not in ('spot_comparison','spot_trend_comparison','spot_filter_comparison','spot_trend_rules_comparison','spot_regime_comparison','spot_momentum_comparison'):
+    if output_name not in ('spot_comparison','spot_trend_comparison','spot_filter_comparison','spot_trend_rules_comparison','spot_regime_comparison','spot_momentum_comparison','spot_orderbook_comparison','spot_structure_comparison'):
         raise ValueError('Unsupported report destination')
     output=root/output_name;output.mkdir(exist_ok=True)
     ablations={}

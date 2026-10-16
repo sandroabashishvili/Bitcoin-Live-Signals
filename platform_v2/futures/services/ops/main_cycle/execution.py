@@ -103,7 +103,7 @@ class MainCycleExecutionService:
             symbol=profile.symbol,
             timeframe=profile.timeframe,
             limit=1000,
-            lookback_hours=24,
+            close_time_ms=int(cycle_info.key.rsplit(':', 1)[1]),
         )
         self._market_plan_service.build_and_store(
             date_iso=date_iso,
