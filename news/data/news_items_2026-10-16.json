@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-16",
-  "generated_at_utc": "2026-10-16 04:05:10 UTC",
+  "generated_at_utc": "2026-10-16 10:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-16T04:05:04.776868+00:00",
+    "collected_at": "2026-10-16T10:05:05.376820+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 17,
+        "within_24h": 15,
         "within_window": 20,
-        "eligible": 10,
+        "eligible": 9,
         "rejected": {
-          "topic_author_or_category": 5,
-          "title_filter": 3,
+          "title_filter": 6,
+          "topic_author_or_category": 3,
           "unreviewed_link": 2
         }
       },
@@ -111,11 +111,11 @@
         "url": "https://bitcoinops.org/feed.xml",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 10
+          "older_than_window": 9
         }
       },
       {
@@ -180,17 +180,20 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 10,
+      "Cryptonews": 9,
+      "Bitcoin Optech": 1,
       "NewsBTC": 2,
       "U.S. Bureau of Labor Statistics": 2
     },
     "unique_by_source": {
-      "Cryptonews": 10,
+      "Cryptonews": 9,
+      "Bitcoin Optech": 1,
       "NewsBTC": 2,
       "U.S. Bureau of Labor Statistics": 2
     },
     "selected_by_source": {
-      "Cryptonews": 8,
+      "Cryptonews": 7,
+      "Bitcoin Optech": 1,
       "NewsBTC": 2,
       "U.S. Bureau of Labor Statistics": 2
     }
@@ -198,15 +201,28 @@
   "count": 12,
   "items": [
     {
-      "title": "XRP News: DriveWealth RLUSD Settlement Starting in Europe",
-      "link": "https://cryptonews.com/news/xrp-news-drivewealth-rlusd-settlement-europe/",
-      "summary": "DriveWealth plans RLUSD settlement in Europe before a U.S. expansion, with Ripple’s payments and custody work still at different stages.",
+      "title": "Solana Shanghai Event Halted After Police Visit, Raising China Fears",
+      "link": "https://cryptonews.com/news/solana-shanghai-event-cz-binance-postponed/",
+      "summary": "The Solana Shanghai event was postponed after attendees reported blocked venue access, but the foundation gave no replacement date yet.",
       "source": "Cryptonews",
-      "date": "2026-10-15",
-      "date_human": "Oct 15, 2026",
-      "pub_ts": 1792087680,
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792135740,
       "image_candidates": [],
       "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Optech Newsletter #427",
+      "link": "https://bitcoinops.org/en/newsletters/2026/10/16/",
+      "summary": "This week’s newsletter summarizes the disclosure of two denial-of-service vulnerabilities in older versions of Eclair and describes a proposed scheme for running complex multi-round contracts inside Lightning channels. Also included are our regular sections announcing new releases and release candidates and describing notable changes to popular Bitcoin infrastructure software.",
+      "source": "Bitcoin Optech",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792108800,
+      "image_candidates": [],
+      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
       "image": null,
       "image_local": null
     },
@@ -237,13 +253,13 @@
       "image_local": null
     },
     {
-      "title": "XRP Price Drops, But ETF Defies Crypto Bloodbath as Bitcoin and Ethereum Funds Bleed",
-      "link": "https://cryptonews.com/news/xrp-price-etf-inflows-btc-eth/",
-      "summary": "XRP ETF inflows reached about $740,000 on October 14, extending a 13-week streak as hotter US inflation sent XRP down 5.11%.",
+      "title": "Google Quantum 40x Breakthrough Rekindles Fears of Q-Day",
+      "link": "https://cryptonews.com/news/google-bitcoin-quantum-risk/",
+      "summary": "Bitcoin quantum risk grows as Google reports 40-fold lower errors and 99.9% accuracy, but no machine is close to breaking Bitcoin’s signatures.",
       "source": "Cryptonews",
-      "date": "2026-10-15",
-      "date_human": "Oct 15, 2026",
-      "pub_ts": 1792075440,
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792130473,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -270,6 +286,32 @@
       "date": "2026-10-14",
       "date_human": "Oct 14, 2026",
       "pub_ts": 1791978631,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: DriveWealth RLUSD Settlement Starting in Europe",
+      "link": "https://cryptonews.com/news/xrp-news-drivewealth-rlusd-settlement-europe/",
+      "summary": "DriveWealth plans RLUSD settlement in Europe before a U.S. expansion, with Ripple’s payments and custody work still at different stages.",
+      "source": "Cryptonews",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792087680,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Price Drops, But ETF Defies Crypto Bloodbath as Bitcoin and Ethereum Funds Bleed",
+      "link": "https://cryptonews.com/news/xrp-price-etf-inflows-btc-eth/",
+      "summary": "XRP ETF inflows reached about $740,000 on October 14, extending a 13-week streak as hotter US inflation sent XRP down 5.11%.",
+      "source": "Cryptonews",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792075440,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -309,45 +351,6 @@
       "date": "2026-10-15",
       "date_human": "Oct 15, 2026",
       "pub_ts": 1792069200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "SEC Crypto: What do the Coinbase and MARA Binary Options Mean?",
-      "link": "https://cryptonews.com/news/sec-crypto-binary-options-coinbase-mara/",
-      "summary": "SEC-approved binary options tied to Coinbase and MARA metrics offer crypto exposure without tokens, while Clarity Act questions remain unresolved.",
-      "source": "Cryptonews",
-      "date": "2026-10-15",
-      "date_human": "Oct 15, 2026",
-      "pub_ts": 1792061655,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Machi Big Brother Turns $56K Into $12.25M, Then Loses Nearly Everything",
-      "link": "https://cryptonews.com/news/hyperliquid-liquidation-account-reversal/",
-      "summary": "The Hyperliquid liquidation saw Machi Big Brother’s reported account value fall from $12.25 million to about $21,800 amid a crypto selloff.",
-      "source": "Cryptonews",
-      "date": "2026-10-15",
-      "date_human": "Oct 15, 2026",
-      "pub_ts": 1792056140,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Why Is Crypto Down? Hotter CPI Fuels Fears of Delayed Fed Rate Cuts",
-      "link": "https://cryptonews.com/news/why-is-crypto-down-cpi-hot-rate-cut-fears/",
-      "summary": "Bitcoin price fell 3.6% to about $80,764 as hotter U.S. CPI lifted rate-hike bets and weighed on crypto and technology shares worldwide.",
-      "source": "Cryptonews",
-      "date": "2026-10-15",
-      "date_human": "Oct 15, 2026",
-      "pub_ts": 1792049289,
       "image_candidates": [],
       "license_url": null,
       "image": null,
