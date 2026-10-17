@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-17",
-  "generated_at_utc": "2026-10-17 04:05:07 UTC",
+  "generated_at_utc": "2026-10-17 10:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-17T04:05:01.778923+00:00",
+    "collected_at": "2026-10-17T10:05:01.420279+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,12 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 2,
-        "within_window": 3,
+        "within_24h": 3,
+        "within_window": 4,
         "eligible": 3,
         "rejected": {
-          "older_than_window": 7
+          "unreviewed_link": 1,
+          "older_than_window": 6
         }
       },
       {
@@ -49,13 +50,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
-        "within_window": 20,
+        "within_24h": 4,
+        "within_window": 19,
         "eligible": 12,
         "rejected": {
           "title_filter": 4,
           "topic_author_or_category": 3,
-          "unreviewed_link": 1
+          "older_than_window": 1
         }
       },
       {
@@ -99,11 +100,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 15
+          "unreviewed_link": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -169,12 +171,15 @@
       {
         "source": "Federal Reserve Board",
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-        "status": "failed",
-        "entries": 0,
-        "within_24h": 0,
-        "within_window": 0,
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
-        "rejected": {}
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 19
+        }
       }
     ],
     "eligible_by_source": {
