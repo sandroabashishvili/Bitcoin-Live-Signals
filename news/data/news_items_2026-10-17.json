@@ -1,0 +1,358 @@
+{
+  "day_iso": "2026-10-17",
+  "generated_at_utc": "2026-10-17 04:05:07 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-10-17T04:05:01.778923+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 2,
+        "within_window": 3,
+        "eligible": 3,
+        "rejected": {
+          "older_than_window": 7
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 39
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 9,
+        "within_window": 20,
+        "eligible": 12,
+        "rejected": {
+          "title_filter": 4,
+          "topic_author_or_category": 3,
+          "unreviewed_link": 1
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 48,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 48
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 25
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 9
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 11
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "failed",
+        "entries": 0,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {}
+      }
+    ],
+    "eligible_by_source": {
+      "Cryptonews": 12,
+      "NewsBTC": 3,
+      "Bitcoin Optech": 1,
+      "U.S. Bureau of Labor Statistics": 1
+    },
+    "unique_by_source": {
+      "Cryptonews": 12,
+      "NewsBTC": 3,
+      "Bitcoin Optech": 1,
+      "U.S. Bureau of Labor Statistics": 1
+    },
+    "selected_by_source": {
+      "Cryptonews": 7,
+      "NewsBTC": 3,
+      "Bitcoin Optech": 1,
+      "U.S. Bureau of Labor Statistics": 1
+    }
+  },
+  "count": 12,
+  "items": [
+    {
+      "title": "XRP Price Could Surge 145% as 2023 Rally Pattern Returns",
+      "link": "https://cryptonews.com/news/xrp-price-2023-rally-pattern-145-percent-jump/",
+      "summary": "XRP price analysis: A move above the 200-day SMA near $1.37 must hold before the historical $3.20 scenario becomes technically relevant.",
+      "source": "Cryptonews",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792172700,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "MEXC Releases October 2026 Proof of Reserves, Reinforcing User Trust Through Verifiable Transparency",
+      "link": "https://www.newsbtc.com/news/mexc-releases-october-2026-proof-of-reserves-reinforcing-user-trust-through-verifiable-transparency/",
+      "summary": "Mutsamudu, Comoros, October 16, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its October 2026 Proof of Reserves (PoR) report. Independently audited by Hacken, the report confirms that the platform’s reserves continue to fully cover user holdings across all major reserve assets. As part of its commitment to putting users first, MEXC publishes monthly reserve data that users can independently verify, reinforcing user trust through transparency. According to the audit report, MEXC’s reserve ratios stand at 294% for BTC, 122% for USDT, 115% for USDC and 111% for ETH. All fou",
+      "source": "NewsBTC",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792146870,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Optech Newsletter #427",
+      "link": "https://bitcoinops.org/en/newsletters/2026/10/16/",
+      "summary": "This week’s newsletter summarizes the disclosure of two denial-of-service vulnerabilities in older versions of Eclair and describes a proposed scheme for running complex multi-round contracts inside Lightning channels. Also included are our regular sections announcing new releases and release candidates and describing notable changes to popular Bitcoin infrastructure software.",
+      "source": "Bitcoin Optech",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792108800,
+      "image_candidates": [],
+      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "PPI for final demand increases 1.3% in September; goods advance 2.6%, services rise 0.8%",
+      "link": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
+      "summary": "The Producer Price Index for final demand increased 1.3 percent in September. Prices for final demand goods rose 2.6 percent, and the index for final demand services advanced 0.8 percent. Prices for final demand moved up 6.3 percent for the 12 months ended in September.",
+      "source": "U.S. Bureau of Labor Statistics",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792065051,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Polymarket Bitcoin and Rate Hike Odds Shift as CME Says No Change",
+      "link": "https://cryptonews.com/news/polymarket-bitcoin-rate-hike-odds-vs-cme/",
+      "summary": "Polymarket put an October Fed hike at 24% on Oct. 15, below CME FedWatch's 37%-44%. Bitcoin fell below $82,000 as traders weighed December risk.",
+      "source": "Cryptonews",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792164900,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "MEXC AI Trading Report Reveals 85% of Crypto Traders Use AI, But Most Limit Its Control Over Funds",
+      "link": "https://www.newsbtc.com/news/mexc-ai-trading-report-reveals-85-of-crypto-traders-use-ai-but-most-limit-its-control-over-funds/",
+      "summary": "Mutsamudu, Comoros, October 16, 2026 — MEXC, a global cryptocurrency exchange, released its AI Trading Report, based on a survey of 3,708 crypto traders. The report examines how respondents use AI, how much trading authority they would delegate, and what protective measures they expect from platforms. Blockchain security firm Hacken contributed technical analysis of risks associated with AI agent trading and the controls designed to address them. Key takeaways: 84.8% of surveyed crypto users have used AI for research or trading. While 58.3% report improved market research, 46% also report bett",
+      "source": "NewsBTC",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792146698,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: RLUSD Settlement Comes to Cross River Fintechs",
+      "link": "https://cryptonews.com/news/rlusd-cross-river-api-xrp-news/",
+      "summary": "RLUSD joins Cross River’s banking API as an added settlement rail for fintechs, but access is currently limited to some U.S. states.",
+      "source": "Cryptonews",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792158120,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "BingX EU Secures MiCAR License, Advancing Regulated Crypto Services Across Europe",
+      "link": "https://www.newsbtc.com/news/bingx-eu-secures-micar-license-advancing-regulated-crypto-services-across-europe/",
+      "summary": "VIENNA, October 15, 2026 – BingX EU (MEGE zweite GmbH) has secured its Markets in Crypto-Assets Regulation (MiCA or MiCAR) license from Austria’s Financial Market Authority (FMA), that will enable the platform to offer regulated crypto services across 29 countries of the European Economic Area (EEA), subject to ongoing passporting arrangements. The authorization marks a significant milestone in BingX’s European expansion, providing EEA users with access to digital asset services under a unified regulatory framework built on transparency, security, and investor protection. The authorization ref",
+      "source": "NewsBTC",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792073034,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Toobit Adds Five SmartK Indicators for More Structured Futures Analysis",
+      "link": "https://cryptonews.com/news/toobit-adds-five-smartk-indicators-for-more-structured-futures-analysis/",
+      "summary": "The award-winning global cryptocurrency exchange Toobit has added to its SmartK futures charting mode – bringing five proprietary indicators covering market direction, price structure, volume, momentum, and risk planning.The new system separates its tools into three main-chart indicators and two lower-panel indicators. Traders can display one from each group at the same time, creating a […]",
+      "source": "Cryptonews",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792152777,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Solana Shanghai Event Halted After Police Visit, Raising China Fears",
+      "link": "https://cryptonews.com/news/solana-shanghai-event-cz-binance-postponed/",
+      "summary": "The Solana Shanghai event was postponed after attendees reported blocked venue access, but the foundation gave no replacement date yet.",
+      "source": "Cryptonews",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792135740,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Google Quantum 40x Breakthrough Rekindles Fears of Q-Day",
+      "link": "https://cryptonews.com/news/google-bitcoin-quantum-risk/",
+      "summary": "Bitcoin quantum risk grows as Google reports 40-fold lower errors and 99.9% accuracy, but no machine is close to breaking Bitcoin’s signatures.",
+      "source": "Cryptonews",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792130473,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: DriveWealth RLUSD Settlement Starting in Europe",
+      "link": "https://cryptonews.com/news/xrp-news-drivewealth-rlusd-settlement-europe/",
+      "summary": "DriveWealth plans RLUSD settlement in Europe before a U.S. expansion, with Ripple’s payments and custody work still at different stages.",
+      "source": "Cryptonews",
+      "date": "2026-10-15",
+      "date_human": "Oct 15, 2026",
+      "pub_ts": 1792087680,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}
