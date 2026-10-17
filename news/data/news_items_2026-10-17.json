@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-17",
-  "generated_at_utc": "2026-10-17 10:05:07 UTC",
+  "generated_at_utc": "2026-10-17 16:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-17T10:05:01.420279+00:00",
+    "collected_at": "2026-10-17T16:05:02.337262+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,12 +24,12 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 3,
-        "within_window": 4,
-        "eligible": 3,
+        "within_24h": 7,
+        "within_window": 9,
+        "eligible": 2,
         "rejected": {
-          "unreviewed_link": 1,
-          "older_than_window": 6
+          "unreviewed_link": 7,
+          "older_than_window": 1
         }
       },
       {
@@ -37,7 +37,7 @@
         "url": "https://www.nist.gov/news-events/news/rss.xml",
         "status": "ok",
         "entries": 40,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -50,13 +50,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 4,
-        "within_window": 19,
-        "eligible": 12,
+        "within_24h": 1,
+        "within_window": 12,
+        "eligible": 7,
         "rejected": {
-          "title_filter": 4,
-          "topic_author_or_category": 3,
-          "older_than_window": 1
+          "title_filter": 3,
+          "topic_author_or_category": 2,
+          "older_than_window": 8
         }
       },
       {
@@ -138,10 +138,10 @@
         "status": "ok",
         "entries": 12,
         "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 11
+          "older_than_window": 12
         }
       },
       {
@@ -173,7 +173,7 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -183,25 +183,22 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 12,
-      "NewsBTC": 3,
-      "Bitcoin Optech": 1,
-      "U.S. Bureau of Labor Statistics": 1
+      "Cryptonews": 7,
+      "NewsBTC": 2,
+      "Bitcoin Optech": 1
     },
     "unique_by_source": {
-      "Cryptonews": 12,
-      "NewsBTC": 3,
-      "Bitcoin Optech": 1,
-      "U.S. Bureau of Labor Statistics": 1
+      "Cryptonews": 7,
+      "NewsBTC": 2,
+      "Bitcoin Optech": 1
     },
     "selected_by_source": {
       "Cryptonews": 7,
-      "NewsBTC": 3,
-      "Bitcoin Optech": 1,
-      "U.S. Bureau of Labor Statistics": 1
+      "NewsBTC": 2,
+      "Bitcoin Optech": 1
     }
   },
-  "count": 12,
+  "count": 10,
   "items": [
     {
       "title": "XRP Price Could Surge 145% as 2023 Rally Pattern Returns",
@@ -243,19 +240,6 @@
       "image_local": null
     },
     {
-      "title": "PPI for final demand increases 1.3% in September; goods advance 2.6%, services rise 0.8%",
-      "link": "https://www.bls.gov/news.release/archives/ppi_10152026.htm",
-      "summary": "The Producer Price Index for final demand increased 1.3 percent in September. Prices for final demand goods rose 2.6 percent, and the index for final demand services advanced 0.8 percent. Prices for final demand moved up 6.3 percent for the 12 months ended in September.",
-      "source": "U.S. Bureau of Labor Statistics",
-      "date": "2026-10-15",
-      "date_human": "Oct 15, 2026",
-      "pub_ts": 1792065051,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Polymarket Bitcoin and Rate Hike Odds Shift as CME Says No Change",
       "link": "https://cryptonews.com/news/polymarket-bitcoin-rate-hike-odds-vs-cme/",
       "summary": "Polymarket put an October Fed hike at 24% on Oct. 15, below CME FedWatch's 37%-44%. Bitcoin fell below $82,000 as traders weighed December risk.",
@@ -289,19 +273,6 @@
       "date": "2026-10-16",
       "date_human": "Oct 16, 2026",
       "pub_ts": 1792158120,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "BingX EU Secures MiCAR License, Advancing Regulated Crypto Services Across Europe",
-      "link": "https://www.newsbtc.com/news/bingx-eu-secures-micar-license-advancing-regulated-crypto-services-across-europe/",
-      "summary": "VIENNA, October 15, 2026 – BingX EU (MEGE zweite GmbH) has secured its Markets in Crypto-Assets Regulation (MiCA or MiCAR) license from Austria’s Financial Market Authority (FMA), that will enable the platform to offer regulated crypto services across 29 countries of the European Economic Area (EEA), subject to ongoing passporting arrangements. The authorization marks a significant milestone in BingX’s European expansion, providing EEA users with access to digital asset services under a unified regulatory framework built on transparency, security, and investor protection. The authorization ref",
-      "source": "NewsBTC",
-      "date": "2026-10-15",
-      "date_human": "Oct 15, 2026",
-      "pub_ts": 1792073034,
       "image_candidates": [],
       "license_url": null,
       "image": null,
