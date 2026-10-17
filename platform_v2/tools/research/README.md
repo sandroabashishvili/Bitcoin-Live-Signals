@@ -5,6 +5,14 @@ database snapshots. File age alone is not a deletion criterion.
 
 ## Current frozen full-system laboratories
 
+- `spot_backtest/`: new raw-market backtest, recomputing indicators and current
+  Spot decisions from archived candles plus verified historical taker volumes.
+  See `spot_backtest/README.md`; this is not captured-decision parity replay.
+  First accepted baseline/control: `/home/sandro/research_snapshots/raw_spot_backtest_20261016/`.
+  7,244 eligible cycles, August 1–October 15, in two independent covered segments;
+  original archives/live ledgers remain unchanged. No scenario/voting candidate
+  was introduced by this infrastructure checkpoint.
+
 - `signal_lab.py`, `signal_lab_worker.py`, `portfolio_lab_support.py`:
   pinned-source signal/Futures portfolio experiments; see `SIGNAL_LAB.md`.
 - `spot_lab.py`, `spot_lab_worker.py`, `spot_lab_support.py`: full Spot replay;
