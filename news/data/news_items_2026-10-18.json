@@ -1,0 +1,274 @@
+{
+  "day_iso": "2026-10-18",
+  "generated_at_utc": "2026-10-18 04:05:09 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-10-18T04:05:03.892021+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 10
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 39
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 9,
+        "eligible": 6,
+        "rejected": {
+          "title_filter": 3,
+          "older_than_window": 11
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 48,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 48
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 25
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 1,
+          "older_than_window": 14
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 19
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "Cryptonews": 6
+    },
+    "unique_by_source": {
+      "Cryptonews": 6
+    },
+    "selected_by_source": {
+      "Cryptonews": 6
+    }
+  },
+  "count": 6,
+  "items": [
+    {
+      "title": "XRP Price Could Surge 145% as 2023 Rally Pattern Returns",
+      "link": "https://cryptonews.com/news/xrp-price-2023-rally-pattern-145-percent-jump/",
+      "summary": "XRP price analysis: A move above the 200-day SMA near $1.37 must hold before the historical $3.20 scenario becomes technically relevant.",
+      "source": "Cryptonews",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792172700,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Polymarket Bitcoin and Rate Hike Odds Shift as CME Says No Change",
+      "link": "https://cryptonews.com/news/polymarket-bitcoin-rate-hike-odds-vs-cme/",
+      "summary": "Polymarket put an October Fed hike at 24% on Oct. 15, below CME FedWatch's 37%-44%. Bitcoin fell below $82,000 as traders weighed December risk.",
+      "source": "Cryptonews",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792164900,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: RLUSD Settlement Comes to Cross River Fintechs",
+      "link": "https://cryptonews.com/news/rlusd-cross-river-api-xrp-news/",
+      "summary": "RLUSD joins Cross River’s banking API as an added settlement rail for fintechs, but access is currently limited to some U.S. states.",
+      "source": "Cryptonews",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792158120,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Toobit Adds Five SmartK Indicators for More Structured Futures Analysis",
+      "link": "https://cryptonews.com/news/toobit-adds-five-smartk-indicators-for-more-structured-futures-analysis/",
+      "summary": "The award-winning global cryptocurrency exchange Toobit has added to its SmartK futures charting mode – bringing five proprietary indicators covering market direction, price structure, volume, momentum, and risk planning.The new system separates its tools into three main-chart indicators and two lower-panel indicators. Traders can display one from each group at the same time, creating a […]",
+      "source": "Cryptonews",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792152777,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Solana Shanghai Event Halted After Police Visit, Raising China Fears",
+      "link": "https://cryptonews.com/news/solana-shanghai-event-cz-binance-postponed/",
+      "summary": "The Solana Shanghai event was postponed after attendees reported blocked venue access, but the foundation gave no replacement date yet.",
+      "source": "Cryptonews",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792135740,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Google Quantum 40x Breakthrough Rekindles Fears of Q-Day",
+      "link": "https://cryptonews.com/news/google-bitcoin-quantum-risk/",
+      "summary": "Bitcoin quantum risk grows as Google reports 40-fold lower errors and 99.9% accuracy, but no machine is close to breaking Bitcoin’s signatures.",
+      "source": "Cryptonews",
+      "date": "2026-10-16",
+      "date_human": "Oct 16, 2026",
+      "pub_ts": 1792130473,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}

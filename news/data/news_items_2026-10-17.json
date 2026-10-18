@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-17",
-  "generated_at_utc": "2026-10-17 16:05:08 UTC",
+  "generated_at_utc": "2026-10-17 22:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-17T16:05:02.337262+00:00",
+    "collected_at": "2026-10-17T22:05:03.377847+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,12 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 7,
-        "within_window": 9,
-        "eligible": 2,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 0,
         "rejected": {
-          "unreviewed_link": 7,
-          "older_than_window": 1
+          "unreviewed_link": 10
         }
       },
       {
@@ -50,13 +49,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
-        "within_window": 12,
-        "eligible": 7,
+        "within_24h": 0,
+        "within_window": 11,
+        "eligible": 6,
         "rejected": {
           "title_filter": 3,
           "topic_author_or_category": 2,
-          "older_than_window": 8
+          "older_than_window": 9
         }
       },
       {
@@ -183,22 +182,19 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 7,
-      "NewsBTC": 2,
+      "Cryptonews": 6,
       "Bitcoin Optech": 1
     },
     "unique_by_source": {
-      "Cryptonews": 7,
-      "NewsBTC": 2,
+      "Cryptonews": 6,
       "Bitcoin Optech": 1
     },
     "selected_by_source": {
-      "Cryptonews": 7,
-      "NewsBTC": 2,
+      "Cryptonews": 6,
       "Bitcoin Optech": 1
     }
   },
-  "count": 10,
+  "count": 7,
   "items": [
     {
       "title": "XRP Price Could Surge 145% as 2023 Rally Pattern Returns",
@@ -208,19 +204,6 @@
       "date": "2026-10-16",
       "date_human": "Oct 16, 2026",
       "pub_ts": 1792172700,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "MEXC Releases October 2026 Proof of Reserves, Reinforcing User Trust Through Verifiable Transparency",
-      "link": "https://www.newsbtc.com/news/mexc-releases-october-2026-proof-of-reserves-reinforcing-user-trust-through-verifiable-transparency/",
-      "summary": "Mutsamudu, Comoros, October 16, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its October 2026 Proof of Reserves (PoR) report. Independently audited by Hacken, the report confirms that the platform’s reserves continue to fully cover user holdings across all major reserve assets. As part of its commitment to putting users first, MEXC publishes monthly reserve data that users can independently verify, reinforcing user trust through transparency. According to the audit report, MEXC’s reserve ratios stand at 294% for BTC, 122% for USDT, 115% for USDC and 111% for ETH. All fou",
-      "source": "NewsBTC",
-      "date": "2026-10-16",
-      "date_human": "Oct 16, 2026",
-      "pub_ts": 1792146870,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -247,19 +230,6 @@
       "date": "2026-10-16",
       "date_human": "Oct 16, 2026",
       "pub_ts": 1792164900,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "MEXC AI Trading Report Reveals 85% of Crypto Traders Use AI, But Most Limit Its Control Over Funds",
-      "link": "https://www.newsbtc.com/news/mexc-ai-trading-report-reveals-85-of-crypto-traders-use-ai-but-most-limit-its-control-over-funds/",
-      "summary": "Mutsamudu, Comoros, October 16, 2026 — MEXC, a global cryptocurrency exchange, released its AI Trading Report, based on a survey of 3,708 crypto traders. The report examines how respondents use AI, how much trading authority they would delegate, and what protective measures they expect from platforms. Blockchain security firm Hacken contributed technical analysis of risks associated with AI agent trading and the controls designed to address them. Key takeaways: 84.8% of surveyed crypto users have used AI for research or trading. While 58.3% report improved market research, 46% also report bett",
-      "source": "NewsBTC",
-      "date": "2026-10-16",
-      "date_human": "Oct 16, 2026",
-      "pub_ts": 1792146698,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -312,19 +282,6 @@
       "date": "2026-10-16",
       "date_human": "Oct 16, 2026",
       "pub_ts": 1792130473,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: DriveWealth RLUSD Settlement Starting in Europe",
-      "link": "https://cryptonews.com/news/xrp-news-drivewealth-rlusd-settlement-europe/",
-      "summary": "DriveWealth plans RLUSD settlement in Europe before a U.S. expansion, with Ripple’s payments and custody work still at different stages.",
-      "source": "Cryptonews",
-      "date": "2026-10-15",
-      "date_human": "Oct 15, 2026",
-      "pub_ts": 1792087680,
       "image_candidates": [],
       "license_url": null,
       "image": null,
