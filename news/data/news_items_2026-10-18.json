@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-18",
-  "generated_at_utc": "2026-10-18 04:05:09 UTC",
+  "generated_at_utc": "2026-10-18 10:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-18T04:05:03.892021+00:00",
+    "collected_at": "2026-10-18T10:05:04.745179+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -50,11 +50,10 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 0,
-        "within_window": 9,
-        "eligible": 6,
+        "within_window": 4,
+        "eligible": 4,
         "rejected": {
-          "title_filter": 3,
-          "older_than_window": 11
+          "older_than_window": 16
         }
       },
       {
@@ -98,7 +97,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -181,16 +180,16 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 6
+      "Cryptonews": 4
     },
     "unique_by_source": {
-      "Cryptonews": 6
+      "Cryptonews": 4
     },
     "selected_by_source": {
-      "Cryptonews": 6
+      "Cryptonews": 4
     }
   },
-  "count": 6,
+  "count": 4,
   "items": [
     {
       "title": "XRP Price Could Surge 145% as 2023 Rally Pattern Returns",
@@ -239,32 +238,6 @@
       "date": "2026-10-16",
       "date_human": "Oct 16, 2026",
       "pub_ts": 1792152777,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Solana Shanghai Event Halted After Police Visit, Raising China Fears",
-      "link": "https://cryptonews.com/news/solana-shanghai-event-cz-binance-postponed/",
-      "summary": "The Solana Shanghai event was postponed after attendees reported blocked venue access, but the foundation gave no replacement date yet.",
-      "source": "Cryptonews",
-      "date": "2026-10-16",
-      "date_human": "Oct 16, 2026",
-      "pub_ts": 1792135740,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Google Quantum 40x Breakthrough Rekindles Fears of Q-Day",
-      "link": "https://cryptonews.com/news/google-bitcoin-quantum-risk/",
-      "summary": "Bitcoin quantum risk grows as Google reports 40-fold lower errors and 99.9% accuracy, but no machine is close to breaking Bitcoin’s signatures.",
-      "source": "Cryptonews",
-      "date": "2026-10-16",
-      "date_human": "Oct 16, 2026",
-      "pub_ts": 1792130473,
       "image_candidates": [],
       "license_url": null,
       "image": null,
