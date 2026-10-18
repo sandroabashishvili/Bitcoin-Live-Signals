@@ -84,12 +84,21 @@ def run(folder,name):
     for source,target in ((Path(__file__).with_name('worker.py'),'worker.py'),
         (Path(__file__).with_name('engine.py'),'engine.py'),(Path(__file__).with_name('candidates.py'),'candidates.py'),
         (Path(__file__).with_name('dataset.py'),'inputs.py'),
+        (Path(__file__).with_name('paired_support.py'),'paired_support.py'),
         (Path(__file__).parents[1]/'spot_lab_support.py','native_adapters.py')):shutil.copyfile(source,out/target)
     if name == 'pullback_audit_v1':
         for source,target in (('pullback_audit.py','pullback_audit.py'),('compare.py','comparison_helpers.py')):
             shutil.copyfile(Path(__file__).with_name(source),out/target)
     canonical = 'scenarios_votes_v1' if name == 'scenarios_control_v2' else name
     candidate_protocol = {'variant':canonical,'rules':PROTOCOL}
+    paired_path=folder/'paired_account_protocol.json'
+    if paired_path.exists():
+        paired=json.loads(paired_path.read_text())
+        if name not in paired['arms']:raise ValueError('Undeclared matched-account arm')
+        records=folder/'recorded_signals.json'
+        if lab.digest(records)!=paired['recorded_signals_sha256']:raise ValueError('Recorded signals changed')
+        candidate_protocol['paired_account']=paired|{'mode':paired['arms'][name]}
+        shutil.copyfile(records,out/'recorded_signals.json')
     experiment_path=folder/'continuous_experiment_protocol.json'
     if experiment_path.exists():
         experiment=json.loads(experiment_path.read_text())

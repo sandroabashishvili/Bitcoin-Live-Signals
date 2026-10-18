@@ -99,12 +99,28 @@ def run(root,output,variant='baseline'):
         reason=eligibility(stamp,flows,warm,closes['1m'],one_minute)
         if reason:skipped[reason]+=1;continue
         eligible.append(stamp)
+    declared=json.loads((output/'candidate_protocol.json').read_text())
+    paired=declared.get('paired_account');decision_stamps=None;recorded=None
+    if paired:
+        if candidate_mode:raise ValueError('Matched-account audit cannot test new strategy candidates')
+        if __package__:
+            from .paired_support import select_cohort,RecordedDecisions
+        else:
+            from paired_support import select_cohort,RecordedDecisions
+        records=json.loads((output/'recorded_signals.json').read_text())
+        eligible,decision_stamps=select_cohort(eligible,records,paired['start_ms'],paired['end_ms'])
+        if len(decision_stamps)!=paired['expected_common_cycles']:raise ValueError('Matched cycle count changed')
+        if paired['mode']=='recorded':recorded=RecordedDecisions(records)
+        elif paired['mode']!='recomputed':raise ValueError('Unknown matched-account mode')
     groups=segments(eligible,900000)
-    request=json.loads((output/'candidate_protocol.json').read_text()).get('continuous_experiment')
+    request=declared.get('continuous_experiment')
     validate_account_segments(groups,request)
     summaries=[];all_cycles=[]
     for number,group in enumerate(groups,1):
         account=NativeAccount(output);mtf=MultiTimeframeContextService()
+        if paired and account.settings.DEFAULT_STARTING_BALANCE!=paired['initial_balance_USDT']:
+            raise ValueError('Native starting capital differs from declared matched account')
+        if recorded is not None:account.signals._signal_decision_service=recorded
         candidate=CandidateSignalService(variant) if candidate_mode else None
         if candidate is not None:account.signals._signal_decision_service=candidate
         for stamp in group:
@@ -133,6 +149,11 @@ def run(root,output,variant='baseline'):
             quote=MarketQuote('BTCUSDT','spot',price,quote_time,'research_raw_next_1m_open')
             account.pipeline._resolve_execution_quote=lambda **kw:(quote,None)
             account.batch.run(date_iso=account.date)
+            if decision_stamps is not None and stamp not in decision_stamps:
+                # Both arms skip the unavailable decision, but exit management continues.
+                all_cycles.append({'segment':number,'timestamp_ms':stamp,'quote_ms':quote_time,
+                    'signal':None,'permission':None,'account':account.accounting(),'missing_recorded_decision':True})
+                continue
             result=account.pipeline.run_for_symbol(symbol='BTCUSDT',timeframe='15m',date_iso=account.date)
             all_cycles.append({'segment':number,'timestamp_ms':stamp,'quote_ms':quote_time,'signal':plain(result.signal),
                 'permission':plain(result.permission) if result.permission else None,'account':account.accounting()})
@@ -148,7 +169,7 @@ def run(root,output,variant='baseline'):
             'boundary':'Open positions remain open/marked at segment end; never silently carried across missing data or forced closed.'})
         print('Finished segment',number,'cycles',len(group),'positions',len(positions),flush=True)
     result={'format':'raw-spot-backtest-v1','cycles':len(all_cycles),'segments':summaries,'skipped':dict(skipped),
-        'actions':dict(Counter(r['signal']['side'] for r in all_cycles)),
+        'actions':dict(Counter(r['signal']['side'] for r in all_cycles if r['signal'] is not None)),
         'new_positions':sum(s['new_positions'] for s in summaries),'closed_positions':sum(s['closed_positions'] for s in summaries),
         'closed_net_USDT':round(sum(s['closed_net_USDT'] for s in summaries),4),
         'limitations':['Separate fresh accounts per covered segment; combined net is NOT a continuous-account return.',
@@ -162,6 +183,9 @@ def run(root,output,variant='baseline'):
     if candidate_mode:
         result['variant']=variant
         result['limitations'][-1]='Exploratory equal-vote candidate; no holdout. Native weighted confidence retained for adaptive setup/other native consumers, not for voting. Scenario trigger overlaps STRUCTURE vote.'
+    if paired:
+        result['paired_account']=paired
+        result['limitations'][-1]='Matched fresh-account diagnostic, NOT operational ledger reproduction. Both arms use reconstructed context and fixed modeled fills; recorded decisions are exogenous historical outputs, possibly known later than modeled execution. Their entry quality is recomputed from fresh history. Missing recorded decisions skip entry in BOTH arms, never fabricate NO_SIGNAL; exits continue. Differences are not solely causal ORDERBOOK effects.'
     (output/'results.json').write_text(json.dumps(result,indent=2,allow_nan=False)+'\n')
     with (output/'cycles.jsonl').open('w') as stream:
         for row in all_cycles:stream.write(json.dumps(row,sort_keys=True,allow_nan=False)+'\n')

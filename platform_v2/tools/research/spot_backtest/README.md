@@ -1,5 +1,25 @@
 # Raw-market Spot backtest
 
+## Matched fresh-account diagnostic
+
+`paired_accounts.py MARKET_ROOT EVIDENCE_ROOT NEW_OUTPUT` creates a separate
+frozen workspace from a verified baseline and a sealed `reconcile_live.py`
+snapshot. It runs recomputed decisions, recorded decisions and an exact
+recomputed control from the SAME first common candle and empty native 3,000
+USDT account. Warmup history is preserved outside the account window. Both
+arms use the same native permissions, fixed quotes and exit clock. Missing
+recorded decisions skip entry in BOTH accounts, without fabricating NO_SIGNAL
+or skipping exit management. Existing datasets/runs and live runtime stay intact.
+
+The recorded arm is a retrospective diagnostic, NOT a tradable causal backtest:
+original decisions may have been known after the modeled quote time. Original
+scores/confidence/theoretical setup are retained, execution quotes/timestamps
+are not; entry quality is recalculated against the fresh signal history.
+Reconstructed market context is used in both arms. This does not reproduce
+operational fills, prove complete production parity, or isolate ORDERBOOK as
+the sole cause of profit differences. The report and per-cycle evidence are
+sealed; the unchanged recomputed control must match exactly.
+
 This is different from the captured-decision replay in `../SPOT_LAB.md`: it
 recomputes indicators and current pinned decisions from historical market data.
 Old signals, positions, indicator snapshots and broken old flow are NOT imported.
@@ -220,3 +240,25 @@ venv/bin/python -m platform_v2.tools.research.spot_backtest.compare /home/sandro
 
 This creates `comparisons/continuous_round_v1/{REPORT.md,summary.json,manifest.json}`
 and a copy of the analysis source. Report directories cannot be overwritten.
+
+## Operational ledger reconciliation (diagnosis only)
+
+```bash
+venv/bin/python -m platform_v2.tools.research.spot_backtest.reconcile_live /home/sandro/research_snapshots/raw_spot_backtest_20261016_gap_recovered_v1 /home/sandro/research_snapshots/spot_live_reconciliation_20261017_v1
+```
+
+The destination must be new. Reads the live Spot SQLite through ONE read-only
+transaction, freezes selected ledger families, and joins exact candle closes to
+the raw baseline. Closures after the shared cutoff are not counted at the cutoff.
+Reports missing live cycles and different initial account histories explicitly.
+
+For BUY-related common cycles, original input evidence is selected only when its
+record matches the persisted signal. Blob hashes are checked; selected manifests
+and final relevant orderflow chunks are preserved. The SAME pinned orderbook
+formula evaluates captured vs recovered volumes; this is not a new hypothesis
+or optimization. The report joins actual/model positions and permission denials.
+
+An exact baseline/control repeat proves INTERNAL determinism, NOT equivalence to
+operational history. Corrected raw orderflow can legitimately produce different
+signals from old captured faulty inputs. Do not label modeled baseline profit as
+the actual operational account's profit. No live tables or rules are modified.
