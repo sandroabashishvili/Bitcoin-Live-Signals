@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-19",
-  "generated_at_utc": "2026-10-19 10:05:12 UTC",
+  "generated_at_utc": "2026-10-19 16:05:13 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-19T10:05:05.948654+00:00",
+    "collected_at": "2026-10-19T16:05:07.026817+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 4,
+        "eligible": 1,
         "rejected": {
-          "unreviewed_link": 6
+          "unreviewed_link": 9
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
-        "within_window": 9,
-        "eligible": 3,
+        "within_24h": 11,
+        "within_window": 13,
+        "eligible": 6,
         "rejected": {
-          "title_filter": 3,
+          "title_filter": 4,
           "topic_author_or_category": 3,
-          "older_than_window": 11
+          "older_than_window": 7
         }
       },
       {
@@ -180,28 +180,28 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 3,
-      "NewsBTC": 4
+      "Cryptonews": 6,
+      "NewsBTC": 1
     },
     "unique_by_source": {
-      "Cryptonews": 3,
-      "NewsBTC": 4
+      "Cryptonews": 6,
+      "NewsBTC": 1
     },
     "selected_by_source": {
-      "Cryptonews": 3,
-      "NewsBTC": 4
+      "Cryptonews": 6,
+      "NewsBTC": 1
     }
   },
   "count": 7,
   "items": [
     {
-      "title": "MARA Selling Bitcoin? Exchange Deposits Put 1,000 BTC Under Watch",
-      "link": "https://cryptonews.com/news/btc-exchange-deposits-mara-bitcoin-selling/",
-      "summary": "BTC exchange deposits linked to MARA moved 1,000 BTC worth $82.8 million, but on-chain data does not confirm a sale. Sale speculation persists.",
+      "title": "XRP News: Upbit Turnover Slips, XRP Keeps Top Spot",
+      "link": "https://cryptonews.com/news/xrp-news-upbit-trading/",
+      "summary": "XRP led Upbit trading as weekly turnover fell 15.5% to 8.35 trillion won, showing concentrated attention but no proof of net buying.",
       "source": "Cryptonews",
       "date": "2026-10-19",
       "date_human": "Oct 19, 2026",
-      "pub_ts": 1792403662,
+      "pub_ts": 1792417080,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -221,6 +221,45 @@
       "image_local": null
     },
     {
+      "title": "Richard Heart Fallout? HEX Tanks 60% as PulseX and PLS Suffer Heavy Losses",
+      "link": "https://cryptonews.com/news/richard-heart-token-fall-hex-plsx-pls-crypto/",
+      "summary": "Richard Heart’s reported detention in Istanbul sent HEX, PulseX and PLS sharply lower, highlighting founder risk without proving protocol failure.",
+      "source": "Cryptonews",
+      "date": "2026-10-19",
+      "date_human": "Oct 19, 2026",
+      "pub_ts": 1792414560,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Sam Altman's Worldcoin: How VanEck, MrBeast, and Wall Street Capitalize on Exploited Biometrics",
+      "link": "https://cryptonews.com/news/sam-altman-worldcoin-banks-exploitative/",
+      "summary": "Sam Altman Worldcoin targets banks after paying people to scan their eyes. Was the bargain ever fair to participants and token holders?",
+      "source": "Cryptonews",
+      "date": "2026-10-19",
+      "date_human": "Oct 19, 2026",
+      "pub_ts": 1792411200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "MARA Selling Bitcoin? Exchange Deposits Put 1,000 BTC Under Watch",
+      "link": "https://cryptonews.com/news/btc-exchange-deposits-mara-bitcoin-selling/",
+      "summary": "BTC exchange deposits linked to MARA moved 1,000 BTC worth $82.8 million, but on-chain data does not confirm a sale. Sale speculation persists.",
+      "source": "Cryptonews",
+      "date": "2026-10-19",
+      "date_human": "Oct 19, 2026",
+      "pub_ts": 1792403662,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Strategy MSCI Delisting Could Trigger Another Market Shock After Indonesia",
       "link": "https://cryptonews.com/news/bitcoin-msci-strategy-risk/",
       "summary": "Bitcoin trades near $82,883 as MSCI weighs Indonesia’s status and Strategy’s index eligibility. Key BTC levels and the potential crypto-market impact.",
@@ -234,19 +273,6 @@
       "image_local": null
     },
     {
-      "title": "JUST Completes 5th JST Buyback & Burn: Over 170M Tokens (~$23.53M) Burned Ahead of Major Deflationary Upgrade",
-      "link": "https://www.newsbtc.com/news/just-completes-5th-jst-buyback-burn-over-170m-tokens-23-53m-burned-ahead-of-major-deflationary-upgrade/",
-      "summary": "Over the past year, JUST has completed five consecutive large-scale buyback-and-burn rounds, permanently removing 1.88B JST tokens from circulation and pushing cumulative deflation toward 19%. Following this milestone, the buyback and burn mechanism is set to undergo a comprehensive upgrade. On October 17, JUST, the leading DeFi infrastructure in the TRON ecosystem, announced the completion of its fifth buyback and burn of its native token JST as scheduled. Over 170M JST were burned in this round (approx. 1.72% of total supply), backed by nearly $23.53M in capital deployed—all funded directly ",
-      "source": "NewsBTC",
-      "date": "2026-10-18",
-      "date_human": "Oct 18, 2026",
-      "pub_ts": 1792341966,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "FOMC Polymarket Odds: Fed Rate Hike Probability Falls to 14% Ahead of October Meeting",
       "link": "https://cryptonews.com/news/fomc-polymarket-odds-fed-rate-hike-probability-falls-to-14-ahead-of-october-meeting/",
       "summary": "FOMC Polymarket odds increasingly favor the Federal Reserve leaving interest rates unchanged at its October meeting, with the probability of another rate hike falling sharply despite persistent inflation concerns.According to the latest Polymarket figures, the odds of the Fed holding rates steady stand at 87%, while the probability of a 25-basis-point increase has dropped to […]",
@@ -254,32 +280,6 @@
       "date": "2026-10-18",
       "date_human": "Oct 18, 2026",
       "pub_ts": 1792348200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "DSA Joins Nacha Payments Innovation Alliance Fall Meeting to Discuss the Future of Digital Payments",
-      "link": "https://www.newsbtc.com/news/dsa-joins-nacha-payments-innovation-alliance-fall-meeting-to-discuss-the-future-of-digital-payments/",
-      "summary": "Washington, D.C., October 18, 2026 — The Digital Sovereignty Alliance (DSA), a nonprofit organization dedicated to advancing clear and ethical public policy, research, and education related to emerging technologies, participated in Nacha’s Payments Innovation Alliance Fall Meeting, where DSA Senior Policy Advisor Molly Woodman joined industry leaders to discuss emerging technologies, regulatory developments, and the future of domestic and global payments. Held October 14-16 at the InterContinental Chicago Magnificent Mile in Chicago, Illinois, the three-day meeting brought together stakeholder",
-      "source": "NewsBTC",
-      "date": "2026-10-18",
-      "date_human": "Oct 18, 2026",
-      "pub_ts": 1792341452,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin's Quantum Transition Won't Stop at Bitcoin",
-      "link": "https://www.newsbtc.com/news/bitcoins-quantum-transition-wont-stop-at-bitcoin/",
-      "summary": "HONG KONG, October 18, 2026 – As quantum computing advances, the challenge extends beyond Bitcoin’s cryptography to the financial infrastructure built around it. Quantum computing is emerging as one of Bitcoin’s long-term security challenges. A sufficiently powerful quantum computer could theoretically compromise the digital signatures protecting Bitcoin transactions, potentially exposing funds associated with vulnerable public keys. While no publicly demonstrated quantum computer is currently capable of such an attack at scale, the implications extend beyond Bitcoin itself. As Bitcoin becomes",
-      "source": "NewsBTC",
-      "date": "2026-10-18",
-      "date_human": "Oct 18, 2026",
-      "pub_ts": 1792341310,
       "image_candidates": [],
       "license_url": null,
       "image": null,
