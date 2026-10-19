@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-19",
-  "generated_at_utc": "2026-10-19 04:05:09 UTC",
+  "generated_at_utc": "2026-10-19 10:05:12 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-19T04:05:05.603720+00:00",
+    "collected_at": "2026-10-19T10:05:05.948654+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 5,
-        "within_window": 5,
-        "eligible": 1,
+        "within_24h": 9,
+        "within_window": 9,
+        "eligible": 3,
         "rejected": {
+          "title_filter": 3,
           "topic_author_or_category": 3,
-          "title_filter": 1,
-          "older_than_window": 15
+          "older_than_window": 11
         }
       },
       {
@@ -98,7 +98,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
+        "within_24h": 1,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -180,28 +180,28 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 1,
+      "Cryptonews": 3,
       "NewsBTC": 4
     },
     "unique_by_source": {
-      "Cryptonews": 1,
+      "Cryptonews": 3,
       "NewsBTC": 4
     },
     "selected_by_source": {
-      "Cryptonews": 1,
+      "Cryptonews": 3,
       "NewsBTC": 4
     }
   },
-  "count": 5,
+  "count": 7,
   "items": [
     {
-      "title": "FOMC Polymarket Odds: Fed Rate Hike Probability Falls to 14% Ahead of October Meeting",
-      "link": "https://cryptonews.com/news/fomc-polymarket-odds-fed-rate-hike-probability-falls-to-14-ahead-of-october-meeting/",
-      "summary": "FOMC Polymarket odds increasingly favor the Federal Reserve leaving interest rates unchanged at its October meeting, with the probability of another rate hike falling sharply despite persistent inflation concerns.According to the latest Polymarket figures, the odds of the Fed holding rates steady stand at 87%, while the probability of a 25-basis-point increase has dropped to […]",
+      "title": "MARA Selling Bitcoin? Exchange Deposits Put 1,000 BTC Under Watch",
+      "link": "https://cryptonews.com/news/btc-exchange-deposits-mara-bitcoin-selling/",
+      "summary": "BTC exchange deposits linked to MARA moved 1,000 BTC worth $82.8 million, but on-chain data does not confirm a sale. Sale speculation persists.",
       "source": "Cryptonews",
-      "date": "2026-10-18",
-      "date_human": "Oct 18, 2026",
-      "pub_ts": 1792348200,
+      "date": "2026-10-19",
+      "date_human": "Oct 19, 2026",
+      "pub_ts": 1792403662,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -221,6 +221,19 @@
       "image_local": null
     },
     {
+      "title": "Strategy MSCI Delisting Could Trigger Another Market Shock After Indonesia",
+      "link": "https://cryptonews.com/news/bitcoin-msci-strategy-risk/",
+      "summary": "Bitcoin trades near $82,883 as MSCI weighs Indonesia’s status and Strategy’s index eligibility. Key BTC levels and the potential crypto-market impact.",
+      "source": "Cryptonews",
+      "date": "2026-10-19",
+      "date_human": "Oct 19, 2026",
+      "pub_ts": 1792398240,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "JUST Completes 5th JST Buyback & Burn: Over 170M Tokens (~$23.53M) Burned Ahead of Major Deflationary Upgrade",
       "link": "https://www.newsbtc.com/news/just-completes-5th-jst-buyback-burn-over-170m-tokens-23-53m-burned-ahead-of-major-deflationary-upgrade/",
       "summary": "Over the past year, JUST has completed five consecutive large-scale buyback-and-burn rounds, permanently removing 1.88B JST tokens from circulation and pushing cumulative deflation toward 19%. Following this milestone, the buyback and burn mechanism is set to undergo a comprehensive upgrade. On October 17, JUST, the leading DeFi infrastructure in the TRON ecosystem, announced the completion of its fifth buyback and burn of its native token JST as scheduled. Over 170M JST were burned in this round (approx. 1.72% of total supply), backed by nearly $23.53M in capital deployed—all funded directly ",
@@ -228,6 +241,19 @@
       "date": "2026-10-18",
       "date_human": "Oct 18, 2026",
       "pub_ts": 1792341966,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "FOMC Polymarket Odds: Fed Rate Hike Probability Falls to 14% Ahead of October Meeting",
+      "link": "https://cryptonews.com/news/fomc-polymarket-odds-fed-rate-hike-probability-falls-to-14-ahead-of-october-meeting/",
+      "summary": "FOMC Polymarket odds increasingly favor the Federal Reserve leaving interest rates unchanged at its October meeting, with the probability of another rate hike falling sharply despite persistent inflation concerns.According to the latest Polymarket figures, the odds of the Fed holding rates steady stand at 87%, while the probability of a 25-basis-point increase has dropped to […]",
+      "source": "Cryptonews",
+      "date": "2026-10-18",
+      "date_human": "Oct 18, 2026",
+      "pub_ts": 1792348200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
