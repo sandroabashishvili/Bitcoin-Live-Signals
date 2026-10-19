@@ -1,0 +1,263 @@
+{
+  "day_iso": "2026-10-19",
+  "generated_at_utc": "2026-10-19 04:05:09 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-10-19T04:05:05.603720+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 4,
+        "rejected": {
+          "unreviewed_link": 6
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 5,
+        "within_window": 5,
+        "eligible": 1,
+        "rejected": {
+          "topic_author_or_category": 3,
+          "title_filter": 1,
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 48,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 48
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 25
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 1,
+          "older_than_window": 14
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 20
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "Cryptonews": 1,
+      "NewsBTC": 4
+    },
+    "unique_by_source": {
+      "Cryptonews": 1,
+      "NewsBTC": 4
+    },
+    "selected_by_source": {
+      "Cryptonews": 1,
+      "NewsBTC": 4
+    }
+  },
+  "count": 5,
+  "items": [
+    {
+      "title": "FOMC Polymarket Odds: Fed Rate Hike Probability Falls to 14% Ahead of October Meeting",
+      "link": "https://cryptonews.com/news/fomc-polymarket-odds-fed-rate-hike-probability-falls-to-14-ahead-of-october-meeting/",
+      "summary": "FOMC Polymarket odds increasingly favor the Federal Reserve leaving interest rates unchanged at its October meeting, with the probability of another rate hike falling sharply despite persistent inflation concerns.According to the latest Polymarket figures, the odds of the Fed holding rates steady stand at 87%, while the probability of a 25-basis-point increase has dropped to […]",
+      "source": "Cryptonews",
+      "date": "2026-10-18",
+      "date_human": "Oct 18, 2026",
+      "pub_ts": 1792348200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "BitTorrent Ushers in Next-Gen Web3 Infrastructure with Strategic Rebrand and Inaugural BTT Burn",
+      "link": "https://www.newsbtc.com/news/bittorrent-ushers-in-next-gen-web3-infrastructure-with-strategic-rebrand-and-inaugural-btt-burn/",
+      "summary": "The first round of BTT repurchased with decentralized service revenue has been completely burned, as BitTorrent leverages its reimagined architecture to pivot toward Web3 and AI infrastructure. BitTorrent, a cornerstone of decentralized infrastructure in the TRON ecosystem, entered a new phase of growth driven by dual engines: the rollout of its long-term BTT buyback-and-burn strategy and a comprehensive brand upgrade. Central to this strategic overhaul, the long-term BTT buyback-and-burn commitment has officially translated into tangible action. Following its announcement on July 6 and subseq",
+      "source": "NewsBTC",
+      "date": "2026-10-18",
+      "date_human": "Oct 18, 2026",
+      "pub_ts": 1792342388,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "JUST Completes 5th JST Buyback & Burn: Over 170M Tokens (~$23.53M) Burned Ahead of Major Deflationary Upgrade",
+      "link": "https://www.newsbtc.com/news/just-completes-5th-jst-buyback-burn-over-170m-tokens-23-53m-burned-ahead-of-major-deflationary-upgrade/",
+      "summary": "Over the past year, JUST has completed five consecutive large-scale buyback-and-burn rounds, permanently removing 1.88B JST tokens from circulation and pushing cumulative deflation toward 19%. Following this milestone, the buyback and burn mechanism is set to undergo a comprehensive upgrade. On October 17, JUST, the leading DeFi infrastructure in the TRON ecosystem, announced the completion of its fifth buyback and burn of its native token JST as scheduled. Over 170M JST were burned in this round (approx. 1.72% of total supply), backed by nearly $23.53M in capital deployed—all funded directly ",
+      "source": "NewsBTC",
+      "date": "2026-10-18",
+      "date_human": "Oct 18, 2026",
+      "pub_ts": 1792341966,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "DSA Joins Nacha Payments Innovation Alliance Fall Meeting to Discuss the Future of Digital Payments",
+      "link": "https://www.newsbtc.com/news/dsa-joins-nacha-payments-innovation-alliance-fall-meeting-to-discuss-the-future-of-digital-payments/",
+      "summary": "Washington, D.C., October 18, 2026 — The Digital Sovereignty Alliance (DSA), a nonprofit organization dedicated to advancing clear and ethical public policy, research, and education related to emerging technologies, participated in Nacha’s Payments Innovation Alliance Fall Meeting, where DSA Senior Policy Advisor Molly Woodman joined industry leaders to discuss emerging technologies, regulatory developments, and the future of domestic and global payments. Held October 14-16 at the InterContinental Chicago Magnificent Mile in Chicago, Illinois, the three-day meeting brought together stakeholder",
+      "source": "NewsBTC",
+      "date": "2026-10-18",
+      "date_human": "Oct 18, 2026",
+      "pub_ts": 1792341452,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin's Quantum Transition Won't Stop at Bitcoin",
+      "link": "https://www.newsbtc.com/news/bitcoins-quantum-transition-wont-stop-at-bitcoin/",
+      "summary": "HONG KONG, October 18, 2026 – As quantum computing advances, the challenge extends beyond Bitcoin’s cryptography to the financial infrastructure built around it. Quantum computing is emerging as one of Bitcoin’s long-term security challenges. A sufficiently powerful quantum computer could theoretically compromise the digital signatures protecting Bitcoin transactions, potentially exposing funds associated with vulnerable public keys. While no publicly demonstrated quantum computer is currently capable of such an attack at scale, the implications extend beyond Bitcoin itself. As Bitcoin becomes",
+      "source": "NewsBTC",
+      "date": "2026-10-18",
+      "date_human": "Oct 18, 2026",
+      "pub_ts": 1792341310,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}
