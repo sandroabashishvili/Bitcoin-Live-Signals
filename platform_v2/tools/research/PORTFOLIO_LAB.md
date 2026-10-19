@@ -1,5 +1,13 @@
 # Full Futures historical replay
 
+## Retention checkpoint — 2026-10-18
+
+The older frozen Futures input workspace was deliberately removed during
+user-approved cleanup. Redirected `retired_metadata` links contain reports only;
+they are not replay inputs. The replay CODE remains available, but a new Futures
+experiment must freeze new inputs. Current retained Spot data/results are indexed
+at `~/research_snapshots/SPOT_RESEARCH_RESULTS.md`.
+
 This extends the signal lab, using the **pinned production
 DirectionalFuturesSimulationService.run()**, not a second implementation of
 trading rules. Existing legacy 5m replay commands remain unchanged.
@@ -76,7 +84,7 @@ venv/bin/python -m platform_v2.tools.research portfolio-lab-compare WORKSPACE mt
 ```
 
 `WORKSPACE` is an absolute path, e.g.
-`/home/sandro/research_snapshots/futures_signal_lab_20261011`.
+`/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/futures_signal_lab_20261011`.
 
 Runs are retained in `portfolio_runs/`, separate from signal-only `runs/`.
 Each run preserves worker/adapters, exact candidate source, execution protocol,

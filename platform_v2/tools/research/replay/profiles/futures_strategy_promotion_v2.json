@@ -24,7 +24,8 @@
     "baseline_drawdown": 60.86,
     "candidate_drawdown": 45.08
   },
-  "post_integration_replay_report": "platform_v2/runtime/artifacts/research/replay/portfolio_state_replay_20260731_224517_357243.md",
+  "post_integration_replay_report": null,
+  "report_retention_note": "Historical replay output deliberately deleted during user-approved cleanup on 2026-10-18; this profile does not retain that evidence file.",
   "rollback_version": "futures-baseline-v1",
   "runtime_action": {
     "status": "completed",

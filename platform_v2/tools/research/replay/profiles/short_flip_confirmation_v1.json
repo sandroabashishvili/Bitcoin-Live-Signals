@@ -3,7 +3,8 @@
   "status": "promoted_as_part_of_futures_short_flip_stop_cap_v2",
   "reviewed_at_utc": "2026-07-31",
   "strategy_version": "research-futures-short-flip-confirmation-v1",
-  "training_snapshot": "/home/sandro/research_snapshots/smartsignalhub_20260731_153256",
+  "training_snapshot": null,
+  "input_retention_note": "Historical training dataset deliberately removed on 2026-10-18; old results are not reproducible from the retained thin metadata alone.",
   "rule": "Hold the first LONG-to-SHORT direction change for one closed 15-minute candle; allow the next consecutive SHORT to re-enter the complete permission pipeline.",
   "unchanged": [
     "position_size",

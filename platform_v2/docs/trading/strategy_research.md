@@ -1,5 +1,10 @@
 # Strategy Research And Calibration
 
+Retention update (2026-10-18): the old July/August output files marked
+`REMOVED_LEGACY_REPORT` below were deliberately deleted with user approval.
+These are historical provenance labels, NOT existing paths or reproducible
+evidence links. The separate frozen October Spot test workspace was retained.
+
 Status: `research evidence; current promotion status below`  
 Created: `2026-07-31`  
 Updated: `2026-08-01`  
@@ -10,7 +15,7 @@ Purpose: Current evidence, safety rules, and next steps for Spot/Futures strateg
 
 Active versions are Spot independent direction/quality v5 and Futures SHORT-zone-required / LONG-profit-lock / 1m-exit v5. The September 11 RSI/MACD/ADX/rejection candidate was rolled back after worse historical replay results; it is not deployed. The SHORT ORDERBOOK weight experiment is also not promoted. Full trailing exits and an independent one-minute monitor remain research/planning work.
 
-Evidence: `/home/sandro/research_snapshots/score_fix_20260911/RESULT.md`, `/home/sandro/research_snapshots/indicator_audit_20260911/REPORT.md` and per-experiment manifests. Preserve candidate inputs and baseline parity limits. Current equations reproducing saved indicators do not independently prove market logic is effective.
+Evidence: `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/score_fix_20260911/RESULT.md`, `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/indicator_audit_20260911/REPORT.md` and per-experiment manifests. Preserve candidate inputs and baseline parity limits. Current equations reproducing saved indicators do not independently prove market logic is effective.
 
 The sections below describe the **July 31 / August 1 research snapshot**, not the new post-reset period or current deployment status. Use [current operating status](../operations/runbook.md) and [current rules](futures_rules.md) for today's behavior.
 
@@ -34,7 +39,7 @@ components of one decision system. They are not six independent trading bots.
 Current input snapshot:
 
 ```text
-/home/sandro/research_snapshots/smartsignalhub_20260731_153256
+/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/smartsignalhub_20260731_153256
 ```
 
 The snapshot is hash-verified and contains approximately:
@@ -155,7 +160,7 @@ Current canonical research tool:
 
 ```bash
 python3 -m platform_v2.tools.research.replay.portfolio_state_replay \
-  /home/sandro/research_snapshots/smartsignalhub_20260731_153256
+  /home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/smartsignalhub_20260731_153256
 ```
 
 It models:
@@ -338,9 +343,9 @@ or forward validation, not refined indefinitely on the same data.
 Canonical report:
 
 ```text
-platform_v2/runtime/artifacts/research/replay/futures_weight_grid_short_20260731_202158_777472.md
-platform_v2/runtime/artifacts/research/replay/futures_weight_grid_short_20260731_202910_810078.md
-platform_v2/runtime/artifacts/research/replay/futures_weight_grid_short_20260731_202936_554862.md
+REMOVED_LEGACY_REPORT/futures_weight_grid_short_20260731_202158_777472.md
+REMOVED_LEGACY_REPORT/futures_weight_grid_short_20260731_202910_810078.md
+REMOVED_LEGACY_REPORT/futures_weight_grid_short_20260731_202936_554862.md
 ```
 
 RSI, MACD, ADX/DI, ATR, EMA/VWAP distance, Structure, and Orderbook entry bands
@@ -365,7 +370,7 @@ Orderbook candidate materially worsens total portfolio drawdown.
 Canonical report:
 
 ```text
-platform_v2/runtime/artifacts/research/replay/futures_weight_grid_long_20260731_211415_430161.md
+REMOVED_LEGACY_REPORT/futures_weight_grid_long_20260731_211415_430161.md
 ```
 
 ### Spot BUY weight grid
@@ -407,7 +412,7 @@ half worsens.
 Canonical report:
 
 ```text
-platform_v2/runtime/artifacts/research/replay/spot_weight_grid_20260731_215740_225257.md
+REMOVED_LEGACY_REPORT/spot_weight_grid_20260731_215740_225257.md
 ```
 
 ## Exit Geometry And Joint Replay
@@ -450,7 +455,7 @@ separate forward arms are required to preserve attribution.
 Canonical report and frozen candidate set:
 
 ```text
-platform_v2/runtime/artifacts/research/replay/portfolio_state_replay_20260731_224517_357243.md
+REMOVED_LEGACY_REPORT/portfolio_state_replay_20260731_224517_357243.md
 platform_v2/tools/research/replay/profiles/shadow_candidate_set_v2.json
 ```
 
@@ -544,7 +549,7 @@ explicit profit-lock exits. It is promoted only to simulation as
 Evidence:
 
 ```text
-platform_v2/runtime/artifacts/research/replay/portfolio_state_replay_20260801_102615_722579.md
+REMOVED_LEGACY_REPORT/portfolio_state_replay_20260801_102615_722579.md
 platform_v2/tools/research/replay/profiles/futures_strategy_promotion_v3.json
 ```
 
@@ -567,7 +572,7 @@ conditional TP/source-quality research, but the rejected policy code was
 removed after recording the evidence.
 
 ```text
-platform_v2/runtime/artifacts/research/replay/portfolio_state_replay_20260801_104512_638458.md
+REMOVED_LEGACY_REPORT/portfolio_state_replay_20260801_104512_638458.md
 ```
 
 ## TP Wick Fidelity Audit
@@ -609,7 +614,7 @@ candle closes back below TP.
 Canonical report:
 
 ```text
-platform_v2/runtime/artifacts/research/replay/tp_touch_fidelity_audit_20260801_091636_510296.md
+REMOVED_LEGACY_REPORT/tp_touch_fidelity_audit_20260801_091636_510296.md
 ```
 
 ## Position Management Grid And 1m Promotion
@@ -640,7 +645,7 @@ The promoted simulation version is
 Evidence:
 
 ```text
-platform_v2/runtime/artifacts/research/replay/position_management_grid_20260801_195400_808818.json
-platform_v2/runtime/artifacts/research/replay/position_management_grid_20260801_200513_863236.json
+REMOVED_LEGACY_REPORT/position_management_grid_20260801_195400_808818.json
+REMOVED_LEGACY_REPORT/position_management_grid_20260801_200513_863236.json
 platform_v2/tools/research/replay/profiles/futures_strategy_promotion_v4.json
 ```

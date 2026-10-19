@@ -1,6 +1,6 @@
 # Exploratory equal-vote/scenario comparison, 2026-10-16
 
-Evidence workspace: `/home/sandro/research_snapshots/raw_spot_backtest_20261016`.
+Evidence workspace: `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/raw_spot_backtest_20261016`.
 Verified comparison: `comparisons/votes_scenarios_v1/{REPORT.md,summary.json,manifest.json}`.
 Run inputs/rules were sealed before execution. Production was not changed.
 

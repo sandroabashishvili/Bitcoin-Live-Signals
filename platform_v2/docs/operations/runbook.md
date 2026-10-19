@@ -1,10 +1,31 @@
 # Operating Guide and Current Status
 
-Updated: 2026-10-15. This is the single maintained entry point for current status,
+Updated: 2026-10-18. This is the single maintained entry point for current status,
 everyday commands and next work. Technical specifications remain in their module
 and topic documents. Dated reports describe historical checkpoints, not current deployment.
 
-## Current checkpoint
+## 2026-10-18: new all-system trading collection epoch
+
+This dated checkpoint supersedes older references below to the unchanged September
+28 activation epoch. The approved strategy release and SQLite runtime are unchanged.
+Spot, Futures and Hedge paper accounts were reset to fresh 3,000 USDT accounts;
+market_data and content were preserved in place. Expected first candle close is
+2026-10-18 15:29:59.999 UTC; the successful process start was 15:43:17 UTC.
+Actual first observations/receipts are recorded, not backdated synthetic decisions.
+
+Verified archive and cutover report:
+`/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/REPORT.md`.
+Current retention/restore instructions:
+`/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/RETENTION.md`.
+After user-approved cleanup, only the verified self-contained `database/` backup
+set remains; `raw_trading/` and older trial/legacy-report archives were removed.
+Activation and monitor expectations now reference the new epoch. Initial bootstrap
+failure was corrected by explicitly initializing projection schema before startup;
+its FAILED/INTERRUPTED evidence was retained, so recent-failure health can warn
+temporarily. Both first subsequent cycles committed successfully. This is not a
+claim of full operational signoff, uninterrupted future collection, or profitability.
+
+## Earlier deployment checkpoint
 
 The local simulation service and research evidence collection are active. R2.1
 activation began 2026-09-28 06:00:10 UTC (08:00:10 Europe/Berlin); the first expected
@@ -31,9 +52,9 @@ installed. The monitor's `ready_for_signoff` field deliberately remains false by
 design; operational acceptance is recorded here and in the dated local evidence.
 
 Local evidence (not shipped with GitHub):
-- `~/research_snapshots/readiness_R21_20260928/REPORT.md` — activation checkpoint.
-- `~/research_snapshots/readiness_R21_20260928/user-bus-repair.md` — later boot finding.
-- `~/research_snapshots/readiness_R21_20260928/boot-acceptance-20261005.md` — WSL update and final reboot acceptance.
+- `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/readiness_R21_20260928/REPORT.md` — activation checkpoint.
+- `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/readiness_R21_20260928/user-bus-repair.md` — later boot finding.
+- `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/readiness_R21_20260928/boot-acceptance-20261005.md` — WSL update and final reboot acceptance.
 - `~/research_snapshots/readiness_R21_20260927/deploy/` — approved deployment files.
 Preserve the release and SQLite library referenced by activation configuration.
 
@@ -57,7 +78,7 @@ importer. Three-database online backup and restore verification passed at
 `~/backups/smartsignalhub/hedge-update-20261008/`.
 
 Release manifest, previous activation/monitor configuration and deployment
-verification are under `~/research_snapshots/hedge_update_20261008/`.
+verification are under `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/hedge_update_20261008/`.
 Live acceptance verified one parent and the three expected children on the final
 release, unchanged Spot/Futures config identities, retained research counts,
 zero gap detections and no health issues. The generated Hedge page matches the
@@ -86,7 +107,7 @@ A public-market preflight collected 4,768 aggregate trades in five pages without
 writing live databases. Scoped online backups of the three runtime databases were
 restore-verified under `~/backups/smartsignalhub/orderflow-fix-20261014/`.
 Deployment files and acceptance evidence are under
-`~/research_snapshots/orderflow_fix_20261014/`; `live-acceptance.json` confirms the
+`/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/orderflow_fix_20261014/`; `live-acceptance.json` confirms the
 first committed cycle used 5,828 trades across six responses, matching captured
 raw quantities and retaining all 2,878 previous orderflow rows. The post-activation
 health check passed with only the unchanged historical gap-review flags; no open
@@ -114,7 +135,7 @@ without live database writes. Three-runtime-database online copies and restore
 verification passed under `~/backups/smartsignalhub/futures-orderflow-fix-20261015/`.
 The service restarted at 05:55:45 UTC and skipped the already committed old candle.
 Deployment/rollback files and verification scripts are under
-`~/research_snapshots/futures_orderflow_fix_20261015/`. Completed first-cycle and
+`/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/futures_orderflow_fix_20261015/`. Completed first-cycle and
 health acceptance require `live-acceptance.json`, `after-health.json` and
 `completion_manifest.json`; selection/restart alone does not establish acceptance.
 First-cycle input and commit acceptance passed: 30,620 trades across 31 responses

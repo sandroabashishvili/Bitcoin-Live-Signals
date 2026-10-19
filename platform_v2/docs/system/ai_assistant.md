@@ -13,7 +13,7 @@ Mr.B's public knowledge pack remains in `../product/mr_b/` and is not this inter
 
 The launcher selects SmartSignalHub using `SMARTSIGNALHUB_ROOT` (default `~/SmartSignalHub`) and its Python environment, unless `WORKSPACE_PYTHON` overrides it. Project readers depend on SmartSignalHub's storage APIs, settings and public frontend.
 Canonical trading/market data stays in `platform_v2/runtime/database/`; readers use the project's runtime-store/persistence APIs. Reading reports must not rewrite trading records or open positions.
-Assistant conversation/research references use `platform_v2/runtime/artifacts/ai_assistant/`, `platform_v2/runtime/artifacts/research/replay/` and tool logs under `platform_v2/runtime/logs/tools/`. Moving these paths requires updating assistant readers too.
+Assistant conversation/research references use `platform_v2/runtime/artifacts/ai_assistant/`, newly generated research under `platform_v2/runtime/artifacts/research/replay/` and tool logs under `platform_v2/runtime/logs/tools/`. The old July/August research output set was deliberately deleted on 2026-10-18 with user approval; historical promotion-profile report fields are null rather than dangling paths. The separate frozen October Spot test workspace remains. Moving these paths requires updating assistant readers too.
 
 ## Action boundary
 

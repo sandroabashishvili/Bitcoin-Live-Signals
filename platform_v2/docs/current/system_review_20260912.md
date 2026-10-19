@@ -56,7 +56,7 @@
 
 ## მტკიცებულებები და აღდგენა
 
-ყველა მასალა: `/home/sandro/research_snapshots/system_review_20260912/`.
+ყველა მასალა: `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/system_review_20260912/`.
 
 - `runtime_audit.json`, `audit_runtime.py`, `candle_continuity.json`: მონაცემებისა და ისტორიის შემოწმება.
 - `seo_live.json`, `publication_preview/`, `preview_validation.json`: საჯარო აუდიტი და იზოლირებული შედეგი.

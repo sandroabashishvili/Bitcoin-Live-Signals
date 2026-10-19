@@ -1,6 +1,7 @@
 {
   "registry_version": "calibration-findings-v1",
-  "snapshot": "/home/sandro/research_snapshots/smartsignalhub_20260731_153256",
+  "snapshot": null,
+  "input_retention_note": "Historical smartsignalhub_20260731_153256 dataset deliberately removed on 2026-10-18; thin provenance is retained but original replay inputs are unavailable.",
   "status": "research_only",
   "live_strategy_changed": false,
   "confirmed_technical_bugs": [

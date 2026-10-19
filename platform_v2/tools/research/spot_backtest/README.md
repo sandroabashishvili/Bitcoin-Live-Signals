@@ -1,5 +1,12 @@
 # Raw-market Spot backtest
 
+Retention checkpoint, 2026-10-18: the retained current dataset is
+`/home/sandro/research_snapshots/raw_spot_backtest_20261016_gap_recovered_v1/`.
+Older segmented/captured input workspaces were deliberately removed. Their
+thin reports are not runnable workspaces. Commands using `NEW_RAW_SPOT_EXPERIMENT`
+are examples for a NEW preparation, not instructions to overwrite retained runs.
+Use `~/research_snapshots/SPOT_RESEARCH_RESULTS.md` for existing current evidence.
+
 ## Matched fresh-account diagnostic
 
 `paired_accounts.py MARKET_ROOT EVIDENCE_ROOT NEW_OUTPUT` creates a separate
@@ -31,13 +38,13 @@ From `/home/sandro/SmartSignalHub` with the configured private SQLite runtime:
 
 ```bash
 export LD_LIBRARY_PATH=/home/sandro/research_snapshots/readiness_R21_20260927/sqlite
-venv/bin/python -m platform_v2.tools.research.spot_backtest prepare /home/sandro/research_snapshots/raw_spot_backtest_20261016
-venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/raw_spot_backtest_20261016
-venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/raw_spot_backtest_20261016 --name unchanged
-venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/raw_spot_backtest_20261016 --name control_v2
-venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/raw_spot_backtest_20261016 --name votes_existing_v1
-venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/raw_spot_backtest_20261016 --name scenarios_votes_v1
-venv/bin/python -m platform_v2.tools.research.spot_backtest.compare /home/sandro/research_snapshots/raw_spot_backtest_20261016
+venv/bin/python -m platform_v2.tools.research.spot_backtest prepare /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT
+venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT
+venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT --name unchanged
+venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT --name control_v2
+venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT --name votes_existing_v1
+venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT --name scenarios_votes_v1
+venv/bin/python -m platform_v2.tools.research.spot_backtest.compare /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT
 ```
 
 Preparation and run directories must be new. Never reuse the example destination
@@ -144,13 +151,13 @@ account, so permissions and trades must be rerun, not copied out of the combined
 run. Every covered segment starts with its own empty native 3,000 USDT account.
 
 ```bash
-venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/raw_spot_backtest_20261016 --name scenarios_control_v2
-venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/raw_spot_backtest_20261016 --name scenario_pullback_v1
-venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/raw_spot_backtest_20261016 --name scenario_breakout_v1
-venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/raw_spot_backtest_20261016 --name scenario_reversal_v1
-venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/raw_spot_backtest_20261016 --name scenario_range_bounce_v1
-venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/raw_spot_backtest_20261016 --name scenario_failed_break_v1
-venv/bin/python -m platform_v2.tools.research.spot_backtest.isolate_compare /home/sandro/research_snapshots/raw_spot_backtest_20261016
+venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT --name scenarios_control_v2
+venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT --name scenario_pullback_v1
+venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT --name scenario_breakout_v1
+venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT --name scenario_reversal_v1
+venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT --name scenario_range_bounce_v1
+venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT --name scenario_failed_break_v1
+venv/bin/python -m platform_v2.tools.research.spot_backtest.isolate_compare /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT
 ```
 
 These directories must not already exist. The driver rejects rules differing
@@ -172,7 +179,7 @@ small positive sample on this already inspected history proves an improvement.
 ## Read-only pullback diagnosis
 
 ```bash
-venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/raw_spot_backtest_20261016 --name pullback_audit_v1
+venv/bin/python -m platform_v2.tools.research.spot_backtest run /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT --name pullback_audit_v1
 ```
 
 This is an audit, NOT another candidate. The source-pinned, offline worker verifies
@@ -194,7 +201,7 @@ They identify hypotheses, not causal gate benefits or holdout validation.
 ## Official recovery of the known missing minutes
 
 ```bash
-venv/bin/python -m platform_v2.tools.research.spot_backtest.recover_gap /home/sandro/research_snapshots/raw_spot_backtest_20261016 /home/sandro/research_snapshots/raw_spot_backtest_20261016_gap_recovered_v1
+venv/bin/python -m platform_v2.tools.research.spot_backtest.recover_gap /home/sandro/research_snapshots/NEW_RAW_SPOT_EXPERIMENT /home/sandro/research_snapshots/raw_spot_backtest_20261016_gap_recovered_v1
 ```
 
 The target MUST be new and separate. Fetches the official BTCUSDT Spot 1m daily

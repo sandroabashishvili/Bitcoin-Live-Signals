@@ -20,7 +20,7 @@ less-than-one-hour bounded-query constraint. Production uses 15m.
 This repair changes the input, not component formulas, weights, thresholds or
 position rules. Historical rows remain unchanged; earlier replay and gate metrics
 inherit the documented stale-input limitation. Deployment and acceptance evidence:
-`/home/sandro/research_snapshots/futures_orderflow_fix_20261015/`.
+`/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/futures_orderflow_fix_20261015/`.
 
 Both LONG and SHORT use an 8.5 action threshold. LONG wins a qualifying tie; SHORT must exceed LONG. The six weighted components are MTF 1.0, REGIME 0.8, TREND 1.3, MOMENTUM 1.0, ORDERBOOK 0.9 and STRUCTURE 0.9. No individual Gate, including the primary 15m MTF flag, is a mandatory signal veto. Scoring lives in `services/signal/`; operational settings live in `config/settings.py`.
 

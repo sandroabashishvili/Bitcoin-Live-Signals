@@ -32,4 +32,4 @@ Start with the [Operating Guide and Current Status](operations/runbook.md). Veri
 - [trading/spot_rules.md](trading/spot_rules.md)
 - [trading/strategy_research.md](trading/strategy_research.md)
 
-Previous document versions from this pass are preserved under `/home/sandro/research_snapshots/system_review_20260912/before/`. Research and runtime archives remain outside the project.
+Previous document versions from this pass are preserved under `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/system_review_20260912/before/`. Research and runtime archives remain outside the project.

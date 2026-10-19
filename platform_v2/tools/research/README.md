@@ -8,10 +8,12 @@ database snapshots. File age alone is not a deletion criterion.
 - `spot_backtest/`: new raw-market backtest, recomputing indicators and current
   Spot decisions from archived candles plus verified historical taker volumes.
   See `spot_backtest/README.md`; this is not captured-decision parity replay.
-  First accepted baseline/control: `/home/sandro/research_snapshots/raw_spot_backtest_20261016/`.
-  7,244 eligible cycles, August 1–October 15, in two independent covered segments;
-  original archives/live ledgers remain unchanged. No scenario/voting candidate
-  was introduced by this infrastructure checkpoint.
+  Current retained workspace: `/home/sandro/research_snapshots/raw_spot_backtest_20261016_gap_recovered_v1/`.
+  7,247 eligible cycles, August 1–October 15, in one continuous account per variant.
+  The older segmented baseline and large captured-decision labs were deliberately
+  removed during 2026-10-18 cleanup. Thin reports/provenance remain beside the last
+  verified runtime backup; those are not runnable input datasets. Current controls,
+  candidates and diagnostics are indexed by `~/research_snapshots/SPOT_RESEARCH_RESULTS.md`.
 
 - `signal_lab.py`, `signal_lab_worker.py`, `portfolio_lab_support.py`:
   pinned-source signal/Futures portfolio experiments; see `SIGNAL_LAB.md`.

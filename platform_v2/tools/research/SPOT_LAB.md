@@ -1,9 +1,17 @@
 # Full Spot replay (research only)
 
+## Retention checkpoint — 2026-10-18
+
+The old captured-decision input databases described below were deliberately
+deleted during user-approved cleanup. Links redirected to `retired_metadata`
+contain thin reports only, not runnable datasets. Historical command examples
+must not use those metadata folders as inputs. For the retained current raw-market
+Spot workspace and latest parity diagnosis see `~/research_snapshots/SPOT_RESEARCH_RESULTS.md`.
+
 ## STRUCTURE initial formula study — 2026-10-15
 
 Completed six predeclared replay variants on the same corrected-input 135-cycle
-cohort in `/home/sandro/research_snapshots/spot_orderbook_lab_20261015/`.
+cohort in `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/spot_orderbook_lab_20261015/`.
 Swing-low/high (20 trailing candles) and bounce flags (3-bar lookback plus current
 closed candle) matched captured closed-candle calculations in all 135 observations.
 ATR was present/positive throughout; 31 cycles triggered the unchanged ATR-spike
@@ -34,7 +42,7 @@ combination. Evidence: `spot_structure_comparison/FINDINGS.md`,
 
 ## Corrected-input ORDERBOOK formula study — 2026-10-15
 
-Completed exploratory study in `/home/sandro/research_snapshots/spot_orderbook_lab_20261015/`.
+Completed exploratory study in `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/spot_orderbook_lab_20261015/`.
 All 135 corrected Spot input snapshots (33.75h) matched their captured aggregate-ID
 pages, counts, time bounds and quantities. Observed full replay matched historical
 signals/permissions/terminal positions; unchanged modeled control matched too.
@@ -80,7 +88,7 @@ old pipeline but include this input-quality limitation. They are not erased or
 promoted. Preserve archived evidence; do not silently substitute later-fetched
 data as original historical decision inputs. Any live collector correction
 requires a separate authorized pinned-release operation. Full evidence is under
-`/home/sandro/research_snapshots/spot_signal_lab_20261012/orderflow_input_audit/`.
+`/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/spot_signal_lab_20261012/orderflow_input_audit/`.
 
 The authorized collector repair was activated on 2026-10-14 in pinned release
 `41a68287bc792dd9a77189f039fd5829545a90a48896f40e5a1ecebf65599778`.
@@ -89,7 +97,7 @@ pagination and explicit completeness metadata. Legacy/unverified and wrong-windo
 input cannot silently enter current context. Old frozen workspaces remain unchanged;
 the repair cannot manufacture trustworthy historical orderflow coverage. Collect
 new verified inputs before drawing ORDERBOOK score-ablation conclusions. Deployment
-and first-cycle acceptance evidence: `/home/sandro/research_snapshots/orderflow_fix_20261014/`.
+and first-cycle acceptance evidence: `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/orderflow_fix_20261014/`.
 
 The Spot laboratory uses the same frozen SQLite/source workspace contract as
 the Futures laboratory, but executes **Spot-owned** production services:
@@ -295,7 +303,7 @@ venv/bin/python -m platform_v2.tools.research.spot_lab run WORKSPACE --model nex
 venv/bin/python -m platform_v2.tools.research.spot_lab compare WORKSPACE
 ```
 
-Example workspace: `/home/sandro/research_snapshots/spot_signal_lab_20261012`.
+Example workspace: `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/spot_signal_lab_20261012`.
 Each run has its own `spot_runs/` directory, worker/adapters, protocol, console log,
 portfolio.json, replay.sqlite3 and hash manifest. Existing run folders are never
 overwritten. `--limit N` is a smoke check; full historical validation requires the

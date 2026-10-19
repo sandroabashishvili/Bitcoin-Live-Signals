@@ -27,9 +27,10 @@
     "rate_limit_behavior": "Bounded retry honors Retry-After for HTTP 429/418 and backs off on temporary server/network failures.",
     "api_key_required": false
   },
+  "report_retention_note": "Historical replay outputs deliberately deleted during user-approved cleanup on 2026-10-18; report references are unavailable.",
   "replay_reports": {
-    "5m": "platform_v2/runtime/artifacts/research/replay/position_management_grid_20260801_195400_808818.json",
-    "1m": "platform_v2/runtime/artifacts/research/replay/position_management_grid_20260801_200513_863236.json"
+    "5m": null,
+    "1m": null
   },
   "rollback_version": "futures-short-flip-stop-cap-long-profit-lock-v3"
 }
