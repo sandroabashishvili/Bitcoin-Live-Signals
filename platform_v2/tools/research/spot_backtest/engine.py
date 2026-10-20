@@ -5,10 +5,10 @@ from datetime import datetime,timezone
 from types import SimpleNamespace
 if __package__:
     from .dataset import INTERVALS,segments
-    from ..spot_lab_support import SpotReplay,SpotStore,plain
+    from .native_adapters import NativeAccountAdapter,SpotStore,plain
 else:
     from inputs import INTERVALS,segments
-    from native_adapters import SpotReplay,SpotStore,plain
+    from native_adapters import NativeAccountAdapter,SpotStore,plain
 
 
 def contiguous_tail(stamps,end,interval,count):
@@ -34,7 +34,7 @@ def validate_account_segments(groups,request):
         raise ValueError('Continuous experiment must have exactly one fully covered account segment and declared cycle count')
 
 
-class NativeAccount(SpotReplay):
+class NativeAccount(NativeAccountAdapter):
     def __init__(self,output):
         from platform_v2.spot.services.account.position_state_service import PositionStateService
         from platform_v2.spot.services.account.portfolio_state_service import PortfolioStateService

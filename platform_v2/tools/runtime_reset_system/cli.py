@@ -18,7 +18,7 @@ SPOT_RUNTIME_ROOT = spot_runtime_root()
 FUTURES_RUNTIME_ROOT = futures_settings.RUNTIME_ROOT
 HEDGE_RUNTIME_ROOT = hedge_settings.RUNTIME_ROOT
 WORKSPACE_ROOT = Path(__file__).resolve().parents[3]
-ARCHIVE_ROOT = WORKSPACE_ROOT.parent / "runtime_archives"
+ARCHIVE_ROOT = WORKSPACE_ROOT.parent / "backups" / "runtime_resets"
 
 
 def _build_parser() -> argparse.ArgumentParser:

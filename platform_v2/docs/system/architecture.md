@@ -148,11 +148,9 @@ platform_v2/runtime/logs/tools/
 
 ## Archive Source
 
-Older architecture notes are archived at:
-
-```text
-/home/sandro/SmartSignalHub/docs_archive_platform_v2/
-```
+The retired external technical-document archive was removed on 2026-10-20.
+Current architecture documentation is maintained here. Four personal planning
+notes were moved, not copied or deleted, to `/home/sandro/docs/personal_notes/`.
 
 ## September 12 clarification
 

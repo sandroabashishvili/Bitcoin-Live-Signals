@@ -10,7 +10,7 @@ import shutil
 import sqlite3
 import sys
 
-from platform_v2.tools.research import signal_lab as lab
+from . import common as lab
 from . import dataset
 
 DAY='2026-08-24'

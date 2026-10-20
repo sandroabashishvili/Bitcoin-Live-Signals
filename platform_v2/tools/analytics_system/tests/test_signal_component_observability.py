@@ -12,7 +12,7 @@ from platform_v2.futures.services.signal.futures_signal_decision_service import 
 )
 from platform_v2.futures.config import settings as futures_settings
 from platform_v2.spot.config import settings as spot_settings
-from platform_v2.tools.research.replay.legacy_spot_signal import (
+from platform_v2.spot.services.signal.signal_decision_service import (
     SignalDecisionService as SpotSignalDecisionService,
 )
 
@@ -45,9 +45,8 @@ def _context() -> SimpleNamespace:
 
 
 class _SpotProbe(SpotSignalDecisionService):
-    @staticmethod
-    def _build_buy_component_scores(context: object) -> dict[str, float]:
-        return dict(COMPONENTS)
+    def __init__(self):
+        super().__init__(component_service=_FuturesComponents())
 
 
 class _FuturesComponents:
@@ -68,10 +67,10 @@ def test_spot_decision_keeps_raw_component_scores() -> None:
     decision = _SpotProbe().build_signal(_context())
 
     assert decision.component_scores == COMPONENTS
-    assert decision.strategy_version == "spot-legacy-score-baseline"
+    assert decision.strategy_version == spot_settings.STRATEGY_VERSION
     assert decision.component_weights == spot_settings.SIGNAL_COMPONENT_WEIGHTS
     persisted = asdict(decision)
-    assert persisted["strategy_version"] == "spot-legacy-score-baseline"
+    assert persisted["strategy_version"] == spot_settings.STRATEGY_VERSION
     assert persisted["component_weights"] == spot_settings.SIGNAL_COMPONENT_WEIGHTS
 
 

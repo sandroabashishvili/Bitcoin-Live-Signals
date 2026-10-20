@@ -1,0 +1,19 @@
+[Unit]
+Description=SmartSignalHub Spot Futures Hedge runtime
+StartLimitIntervalSec=600
+StartLimitBurst=3
+
+[Service]
+Type=simple
+WorkingDirectory=/home/sandro/SmartSignalHub
+EnvironmentFile=/home/sandro/SmartSignalHub/platform_v2/tools/runtime_start_system/service.env
+ExecStart=/home/sandro/SmartSignalHub/venv/bin/python -m platform_v2.tools.runtime_start_system
+Restart=always
+RestartSec=60
+KillMode=mixed
+TimeoutStopSec=45
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

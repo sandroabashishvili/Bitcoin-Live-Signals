@@ -285,7 +285,7 @@ def top_level_structure_findings() -> list[FileFinding]:
             findings,
             str(misplaced_archive_dir.relative_to(V2_ROOT.parent)),
             "misplaced_runtime_artifact",
-            "runtime reset archives belong in /home/sandro/runtime_archives",
+            "runtime reset archives belong in /home/sandro/backups/runtime_resets",
             "medium",
         )
 

@@ -5,7 +5,7 @@ Date: 2026-09-25. No signal edge analysis, live runtime start, reset, strategy t
 ## Changes
 
 - `tools/tools_system.md`: corrected backup/publishing/assistant workspace ownership.
-- `tools/research/replay/replay_research_tools.md` and `tools/research/__main__.py`: documented SQLite-first snapshot export and historical JSON compatibility.
+- Historical September 25 snapshot/replay tooling was retired on October 20. Current research uses only `tools/research/spot_backtest/`; the deleted replay paths are not executable instructions.
 - `docs/system/ai_assistant.md`: retained project integration contract. Full internal design notes preserved in `/home/sandro/workspace_tools/ai_assistant/docs/internal_design.md`; workspace assistant README links to them. No new public link depends on that local-only document.
 - `tools/research/recorded_run.py`: new opt-in recorder for five snapshot-based replay CLIs, with their default options. Replay implementations, candidate profiles, thresholds and existing tests were not edited.
 - `tools/research/test_recorded_run.py`: synthetic provenance/boundary tests.

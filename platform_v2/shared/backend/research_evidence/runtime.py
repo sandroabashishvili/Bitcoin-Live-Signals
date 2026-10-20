@@ -216,6 +216,7 @@ def initialize_run(system):
             'loaded_code_sha256':hashlib.sha256(canonical(captured['loaded_code_objects']).encode()).hexdigest(),
             'release_verified':verified,'release_source_ref':release_ref,
             'release_sha256':pinned['sha256'] if verified else None,
+            'source_mode':'PINNED' if verified else 'WORKING_TREE',
             'python':sys.version,'executable':sys.executable,
             'sqlite_version':sqlite3.sqlite_version,'sqlite_source_id':sqlite_source_id,
             'dependencies':sorted((d.metadata['Name'],d.version) for d in importlib.metadata.distributions() if d.metadata['Name']),

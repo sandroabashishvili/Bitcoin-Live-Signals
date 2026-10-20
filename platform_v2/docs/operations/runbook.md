@@ -1,17 +1,43 @@
 # Operating Guide and Current Status
 
-Updated: 2026-10-19. This is the single maintained entry point for current status,
+Updated: 2026-10-20. This is the single maintained entry point for current status,
 everyday commands and next work. Technical specifications remain in their module
 and topic documents. Dated reports describe historical checkpoints, not current deployment.
 
-## 2026-10-19: operational deployment relocated inside platform_v2
+## 2026-10-20: normal project runs directly, without deployment snapshots
+
+Later October 20 cleanup: the separate `/home/sandro/runtime_archives/` recovery
+set was deleted at the user's explicit request. Backups remain under
+`/home/sandro/backups/`; the monitor now checks only that backup location.
+Historical archive paths below are dated records, not available recovery files.
+No exact duplicate of the deleted October 18 state is asserted. The live trading
+databases and the one historical Spot market dataset are unaffected.
+
+The owning user service now executes `venv/bin/python -m
+platform_v2.tools.runtime_start_system` directly from the normal checkout.
+The `deployment/` directory and operational source bundles have been removed.
+Startup configuration, the service template, Windows session script and health
+monitor are in `platform_v2/tools/runtime_start_system/`. Native SQLite is in
+`platform_v2/shared/native/sqlite/`. Code changes need a service restart, not a
+release build or code-copy promotion. The single-owner lock is in the normal
+launcher. Trading formulas, config identities, databases, positions and the
+October 18 epoch are preserved. Source mode is truthfully recorded as WORKING_TREE;
+no immutable-release guarantee is claimed. Historical code/experiment outputs
+and one-time relocation/epoch-cutover tools were retired, not silently redeployed.
+Maintained regression tests and the market-history dataset remain intact;
+backup retention is governed by the later October 20 cleanup note above.
+
+## Historical: 2026-10-19 relocation (superseded October 20)
 
 The active deployment now lives at
 `/home/sandro/SmartSignalHub/platform_v2/deployment/`, with configuration in
 `deploy/`, one selected code snapshot in `releases/`, and its native library in
 `sqlite/`. The user service, installed health-monitor cron entry and Windows
 `SmartSignalHub-WSL` sign-in task now target this location. The former research
-deployment is retained only for rollback; it is not the active launch location.
+deployment was removed on October 20 after dependency and health checks. The
+current verified source and SQLite library remain in this operational directory.
+Migration before-files are historical evidence, not directly restorable launch
+configuration: their old paths no longer exist.
 
 This is a path relocation, not a strategy promotion or trading reset. The code
 hash remains `1f4295af7a8832beb669616243ad343e7e5491c34fd2e40a718be71ea0b40e3f`;
@@ -71,7 +97,7 @@ Local evidence (not shipped with GitHub):
 - `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/readiness_R21_20260928/REPORT.md` — activation checkpoint.
 - `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/readiness_R21_20260928/user-bus-repair.md` — later boot finding.
 - `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/readiness_R21_20260928/boot-acceptance-20261005.md` — WSL update and final reboot acceptance.
-- `/home/sandro/SmartSignalHub/platform_v2/deployment/deploy/` — current operational deployment files (relocated October 19).
+- `/home/sandro/SmartSignalHub/platform_v2/tools/runtime_start_system/` — current operational startup and monitoring configuration.
 Preserve the release and SQLite library referenced by activation configuration.
 
 ### Hedge maintenance release — 2026-10-08

@@ -110,19 +110,8 @@ def should_skip_dead_candidate(item: TopLevelDef) -> bool:
         return True
     if "domain/models/" in str(item.path.relative_to(V2_ROOT)):
         return True
-    if _is_research_replay_entrypoint(item):
-        return True
     return False
 
 
 def _is_test_path(path: Path) -> bool:
     return path.name.startswith("test_") or "tests" in path.parts
-
-
-def _is_research_replay_entrypoint(item: TopLevelDef) -> bool:
-    rel = item.path.relative_to(V2_ROOT).as_posix()
-    if not rel.startswith("tools/research/replay/"):
-        return False
-    if item.path.name.endswith("_what_if.py") and item.name in ENTRYPOINT_DEF_NAMES:
-        return True
-    return item.path.name in {"execution_replay.py", "signal_only_replay.py"} and item.name in ENTRYPOINT_DEF_NAMES

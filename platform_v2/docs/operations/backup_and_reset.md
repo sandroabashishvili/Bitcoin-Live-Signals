@@ -1,6 +1,6 @@
 # Backup and Reset Semantics
 
-Updated: 2026-09-28. Everyday backup commands, destinations and current deployment
+Updated: 2026-10-20. Everyday backup commands, destinations and current startup
 are maintained in the [operating guide](runbook.md). Implementation belongs to
 `~/workspace_tools/backup`; there is no project-local backup launcher.
 
@@ -26,69 +26,24 @@ cd ~/SmartSignalHub
 venv/bin/python -m platform_v2.tools.runtime_reset_system --dry-run
 ```
 
-A full reset archives runtime roots/databases under `~/runtime_archives/` and
+A full reset archives runtime roots/databases under `~/backups/runtime_resets/` and
 rebuilds empty dashboards. It clears trading and market history in the active
 storage. Spot-only reset has a narrower scope. Consult the tool help for flags.
 Do not delete WAL/SHM companions independently. Public HTML/news JSON can remain
 outside reset roots; they are not proof that a new content database has those rows.
 Historical content-only recovery scripts are not general restoration commands.
 
-## Prospective trading-only epoch preparation
+## Trading-only collection epochs
 
-To prepare an ALL-system Spot/Futures/Hedge new-cohort plan without touching
-production, use a new destination:
+The one-time October 18 epoch preparation/cutover scripts were retired on October
+20. Their old commands are not supported. The existing full reset is NOT a
+replacement: it also removes active market history. A future trading-only reset
+requires a new reviewed plan, stopped writers, verified SQLite online backups,
+and coordinated `tools/runtime_start_system/service.env` and `expectations.json`
+epoch changes, followed by fresh-account and first-cycle acceptance.
 
-```bash
-venv/bin/python -m platform_v2.tools.runtime_reset_system.epoch_plan /home/sandro/research_snapshots/trading_epoch_preflight_NEW
-```
-
-This read-only preflight records database boundaries, current release/monitor
-identities, recent orderflow window completeness, market coverage counts and
-remaining cutover gates. It copies deployment configuration into the report,
-not database contents: this is NOT a backup or authorization to reset. The
-destination must not exist or overlap live runtime/deployment. Coverage counts
-do not prove gap-free history. The current service is not stopped or restarted.
-
-`runtime_reset_system/trading_archive.py` provides an isolated, tested archive
-primitive for a reviewed cutover: with the owning service explicitly stopped,
-the supervisor lock held and same-user manual writers absent, first create and
-verify self-contained SQLite backups of all three DBs, then rotate only the
-trading DB and its sidecars. Market/content remain in place. Legacy filesystem
-engine state causes refusal pending separate archival. Append-only evidence is
-archived whole, not deleted in place. Pre-activation failure attempts rollback
-without overwriting newly appeared files; retained journal/backups support recovery.
-
-The primitive intentionally has NO executable CLI and does not rotate the
-activation epoch, rebuild dashboards or restart production. A coordinated
-activation/monitoring configuration transition and post-start acceptance are
-still required before actually beginning a fresh epoch. Do not substitute the
-existing full reset or bare start command for that procedure. Research candidate
-strategy changes are not implicitly approved by starting a new collection epoch.
-
-### Reviewed all-system cutover
-
-`python -m platform_v2.tools.runtime_reset_system.epoch_cutover PLAN_DIR NEW_ARCHIVE`
-validates a sealed preflight and deployment drift without stopping/resetting.
-Adding `--apply` is an explicitly authorized ALL-system paper-account reset:
-wait for current atomic attempts to finish, stop the owning user service, acquire
-the supervisor lock, verify archived databases, rotate trading only, coordinate
-activation/monitoring epoch configuration and restart the owning service once.
-The latest closed 15m candle at the end of archival becomes the expected epoch;
-actual first observed decisions must still be checked after startup. This does
-not synthesize signals missed during downtime or alter the approved strategy.
-
-If the writer guard rejects the operation before rotation, the original DB/config
-are intact: restore the original owning service while diagnosing the guard.
-If failure occurs after rotation/config update, leave the service stopped and
-review `transition.json`, `deployment_before/`, `raw_trading/` and the verified
-`database/` copies together. Never restart on mixed old/new configuration.
-No automatic rollback may overwrite a newly created DB. Post-start health,
-configuration identity, first-cycle receipts and fresh-account acceptance are
-required before declaring the cutover complete.
-
-After successful cutover, user-approved retention may remove `raw_trading/`
-ONLY after the self-contained `database/` backups have passed an actual SQLite
-restore/integrity/foreign-key/table-count check. Retain deployment configuration
-and verification evidence beside that single backup set. In such a compacted
-archive, restore from `database/`, not the intentionally removed raw files; never
-overwrite the new epoch's active DB without first preserving it separately.
+Backups are retained under `/home/sandro/backups/`. The separate October 18
+`runtime_archives` recovery set was deleted at the user's request on October 20;
+its exact state is not claimed to exist in another backup. Choose and verify an
+actual backup before restoring, first preserve current live data and coordinate
+configuration using current paths, not deleted deployment/release paths.

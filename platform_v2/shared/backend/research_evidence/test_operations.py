@@ -46,3 +46,18 @@ def test_monitor_failure_is_visible_and_does_not_touch_db(tmp_path):
     assert not (tmp_path/'db').exists()
     result=json.loads((output/'latest.json').read_text())
     assert result['issues']==['MONITOR_FAILURE']
+
+
+def test_explicit_working_tree_mode_is_not_mislabelled_as_pinned(tmp_path):
+    ledger=Ledger(tmp_path/'db')
+    expectations={'systems':{}}
+    for system in ('spot','futures'):
+        expected={'source_mode':'WORKING_TREE','release_sha256':None,
+                  'config_sha256':'same','activation_close_ms':'899999','backfill':True}
+        expectations['systems'][system]=expected
+        ledger.append('research_runs',run_id=system,system=system,kind='STARTED',
+            payload={**expected,'release_verified':False,'atomic_simulation':True})
+    result=inspect(ledger.path,expectations=expectations)
+    assert not any('UNPINNED' in issue or 'UNEXPECTED' in issue for issue in result['issues'])
+    # Without an explicit direct-source expectation the old safety warning stays.
+    assert 'spot:UNPINNED_RELEASE' in inspect(ledger.path)['issues']

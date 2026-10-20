@@ -1,6 +1,9 @@
 from __future__ import annotations
 
 import argparse
+import fcntl
+import os
+from pathlib import Path
 import signal
 import subprocess
 import sys
@@ -66,6 +69,15 @@ def _terminate_children(children: dict[str, subprocess.Popen[bytes]]) -> None:
 
 def main() -> int:
     args = _build_parser().parse_args()
+    # One owner for terminal and systemd launches alike; no release-copy wrapper.
+    lock_path = Path(__file__).resolve().parents[2] / "runtime/research-supervisor.lock"
+    lock_path.parent.mkdir(parents=True, exist_ok=True)
+    lock = lock_path.open("a+b")
+    try:
+        fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        raise SystemExit("SmartSignalHub is already running; refusing a second writer.")
+    os.set_inheritable(lock.fileno(), False)
     targets = _selected_targets(args)
     # The normal launcher is intentionally the single source of truth: the
     # inbound Telegram listener must run with the trading loops so commands
@@ -82,10 +94,6 @@ def main() -> int:
     signal.signal(signal.SIGTERM, _request_stop)
 
     for name, command in targets:
-        pinned = getattr(sys, "_ssh_release_launch", None)
-        if pinned is not None:
-            command = [sys.executable, pinned["runner"], "--release", pinned["source"],
-                       "--sha256", pinned["sha256"], "--module", command[2], "--", *command[3:]]
         print_process_start(name=name, command=command)
         children[name] = subprocess.Popen(command)
 

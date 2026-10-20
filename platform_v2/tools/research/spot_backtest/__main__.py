@@ -3,7 +3,7 @@ import argparse,hashlib,json,shutil,sqlite3,subprocess,sys
 from datetime import datetime,timedelta,timezone
 from pathlib import Path
 from urllib.error import HTTPError,URLError
-from platform_v2.tools.research import signal_lab as lab
+from . import common as lab
 from . import dataset
 from .candidates import PROTOCOL, ISOLATED_VARIANTS
 from .pullback_audit import AUDIT_PROTOCOL
@@ -12,17 +12,20 @@ RUNS = ('baseline', 'unchanged', 'control_v2', 'votes_existing_v1', 'scenarios_v
         'scenarios_control_v2', 'pullback_audit_v1', *ISOLATED_VARIANTS)
 
 ROOT=Path('/home/sandro/SmartSignalHub')
-DEPLOY=Path(__file__).resolve().parents[3]/'deployment/deploy/activation.json'
 
 
 def prepare(folder):
     folder=lab.outside_live(folder);folder.mkdir(parents=True,exist_ok=False)
-    active=json.loads(DEPLOY.read_text());release=Path(active['release'])
-    (folder/'source').mkdir()
-    for name in ('run.py','source.json.gz','sha256.txt'):shutil.copyfile(release/name,folder/'source'/name)
+    # An explicit offline experiment may capture its input code on demand.
+    # Live trading never selects or imports this research-only capture.
+    from platform_v2.shared.backend.research_evidence.release import build
+    release, source_sha256 = build(ROOT, folder/'capture')
+    release.chmod(0o755)
+    release.rename(folder/'source')
+    (folder/'source').chmod(0o555)
+    (folder/'capture').rmdir()
     end=int(datetime.now(timezone.utc).replace(hour=0,minute=0,second=0,microsecond=0).timestamp()*1000)
     sources=[ROOT/'platform_v2/runtime/database/smartsignalhub_market_data.sqlite3']
-    sources+=sorted(Path('/home/sandro/runtime_archives').glob('reset_*/database/smartsignalhub_market_data.sqlite3'),reverse=True)
     public=[]
     with sqlite3.connect(folder/'market.sqlite3') as db:
         dataset.create_schema(db)
@@ -53,7 +56,7 @@ def prepare(folder):
         crosscheck=dataset.crosscheck_flow(db,sources[0])
         lab.write(folder/'flow_crosscheck.json',crosscheck)
     protocol={'format':'raw-spot-backtest-v1','created_utc':datetime.now(timezone.utc).isoformat(),
-        'source_sha256':active['release_sha256'],'cutoff_ms':end,'coverage':coverage,
+        'source_sha256':source_sha256,'cutoff_ms':end,'coverage':coverage,
         'flow_candles':flow[0],'flow_first_close_ms':flow[1],'flow_last_close_ms':flow[2],
         'overlap_conflicts':conflicts,'source_priority':'Live market SQLite first; archived market SQLite newest to oldest; conflicts counted, never silently overwritten.',
         'public_imports':public,'market_sha256':lab.digest(folder/'market.sqlite3'),
@@ -85,7 +88,7 @@ def run(folder,name):
         (Path(__file__).with_name('engine.py'),'engine.py'),(Path(__file__).with_name('candidates.py'),'candidates.py'),
         (Path(__file__).with_name('dataset.py'),'inputs.py'),
         (Path(__file__).with_name('paired_support.py'),'paired_support.py'),
-        (Path(__file__).parents[1]/'spot_lab_support.py','native_adapters.py')):shutil.copyfile(source,out/target)
+        (Path(__file__).with_name('native_adapters.py'),'native_adapters.py')):shutil.copyfile(source,out/target)
     if name == 'pullback_audit_v1':
         for source,target in (('pullback_audit.py','pullback_audit.py'),('compare.py','comparison_helpers.py')):
             shutil.copyfile(Path(__file__).with_name(source),out/target)
@@ -124,9 +127,13 @@ def run(folder,name):
     print(out)
 
 
-if __name__=='__main__':
+def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command',choices=['prepare','run']);parser.add_argument('workspace',type=Path)
     parser.add_argument('--name',choices=RUNS,default='baseline')
     args=parser.parse_args()
     prepare(args.workspace) if args.command=='prepare' else run(args.workspace,args.name)
+
+
+if __name__=='__main__':
+    main()

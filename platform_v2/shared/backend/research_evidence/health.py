@@ -62,7 +62,11 @@ def inspect(path: Path, *, stale_after_ms=1200000, backup_manifest: Path | None=
                     result['issues'].append(system+':UNEXPECTED_BACKFILL_FLAG')
                 if 'sqlite_source_id' in expected and run.get('sqlite_source_id')!=expected['sqlite_source_id']:
                     result['issues'].append(system+':UNEXPECTED_SQLITE_SOURCE')
-            if not run.get('release_verified'):
+            expected_mode = (expectations or {}).get('systems', {}).get(system, {}).get('source_mode')
+            direct_expected = expected_mode == 'WORKING_TREE'
+            if direct_expected and run.get('source_mode') != 'WORKING_TREE':
+                result['issues'].append(system+':UNEXPECTED_SOURCE_MODE')
+            if not run.get('release_verified') and not (direct_expected and run.get('source_mode') == 'WORKING_TREE'):
                 result['issues'].append(system+':UNPINNED_RELEASE')
             if not run.get('atomic_simulation'):
                 result['issues'].append(system+':ATOMIC_SIMULATION_DISABLED')
@@ -73,6 +77,7 @@ def inspect(path: Path, *, stale_after_ms=1200000, backup_manifest: Path | None=
                 'last_decision_ms':latest_decision,'stale_open_attempts':stale_open,
                 'recent_failed_attempts':recent_failed,
                 'release_sha256':run.get('release_sha256'),'config_sha256':run.get('config_sha256'),
+                'source_mode':run.get('source_mode'),'loaded_code_sha256':run.get('loaded_code_sha256'),
                 'gap_detections':gaps,'incomplete_decision_evidence':bad,'attempts_with_recorder_errors':errors,
                 'run_config_identities':len(config_refs)}
             if latest is None or now-latest>stale_after_ms:

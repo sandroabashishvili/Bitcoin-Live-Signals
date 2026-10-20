@@ -1,50 +1,16 @@
-# Research tooling
+# კვლევის ერთი სისტემა
 
-This directory contains executable research code and its tests, not disposable
-database snapshots. File age alone is not a deletion criterion.
+აქ დარჩენილია ერთი გზა: `spot_backtest/` — ისტორიულ სანთლებზე მოქმედი Spot
+ინდიკატორების, სიგნალებისა და პოზიციების სრული ხელახალი სიმულაცია.
 
-## Current frozen full-system laboratories
+- `spot_backtest/` — ძრავა, მონაცემების მომზადება, ანგარიშის ადაპტერი და შედარება.
+- `tests/` — მხოლოდ დარჩენილი ძრავისა და მოქმედი წესების შემოწმებები.
+- `__main__.py` — იმავე ბექტესტის მოკლე შესასვლელი, არა მეორე სისტემა.
 
-- `spot_backtest/`: new raw-market backtest, recomputing indicators and current
-  Spot decisions from archived candles plus verified historical taker volumes.
-  See `spot_backtest/README.md`; this is not captured-decision parity replay.
-  Current retained workspace: `/home/sandro/research_snapshots/raw_spot_backtest_20261016_gap_recovered_v1/`.
-  7,247 eligible cycles, August 1–October 15, in one continuous account per variant.
-  The older segmented baseline and large captured-decision labs were deliberately
-  removed during 2026-10-18 cleanup. Thin reports/provenance remain beside the last
-  verified runtime backup; those are not runnable input datasets. Current controls,
-  candidates and diagnostics are indexed by `~/research_snapshots/SPOT_RESEARCH_RESULTS.md`.
+ძველი `replay/`, ცალკეული `*_experiment.py`, signal/portfolio/spot labs,
+ძველი snapshot/recorded-run გზები და მათი ტესტები მოცილებულია.
+მოქმედი სავაჭრო პროგრამა ამ კვლევას არ უშვებს და მის კოდს არ იყენებს.
 
-- `signal_lab.py`, `signal_lab_worker.py`, `portfolio_lab_support.py`:
-  pinned-source signal/Futures portfolio experiments; see `SIGNAL_LAB.md`.
-- `spot_lab.py`, `spot_lab_worker.py`, `spot_lab_support.py`: full Spot replay;
-  see `SPOT_LAB.md`. No automatic promotion or live database writes.
-- `*_rules_experiment.py`, `*_symmetry_experiment.py`: declared offline candidates,
-  not automatically active production formulas.
-- `snapshot.py`, `historical_indicators.py`, `paths.py`: input export and history
-  preparation, with SQLite-first sources and historical JSON compatibility.
-
-## Historical replay engines
-
-`replay/` contains earlier snapshot-based engines and their shared policies. Many
-July/August modules are still imported by one another, the recorded-run tooling
-and regression tests. They are not all unused, nor are they the current pinned
-full-system laboratory. Public Python module paths are retained deliberately.
-Historical JSON profiles/decisions now live in `replay/profiles/`; see its README.
-
-## Tests
-
-`tests/` is grouped by responsibility: data export, frozen laboratories, formula
-experiments, historical replay and runtime-policy parity. See `tests/README.md`.
-The misplaced legacy regime test was moved from `replay/` into `tests/replay/`.
-
-## Data and operating boundaries
-
-Research SQLite copies and generated reports belong outside the source checkout,
-normally under `/home/sandro/research_snapshots`. Some older operational releases
-also live there and are referenced by systemd: do not delete or relocate them as
-ordinary research output. Cleanup never authorizes production strategy changes.
-
-2026-10-15 organization: historical profiles grouped, tests relocated without
-dropping test coverage, common source path calculation centralized. The full
-research suite passed 300 tests both before and after organization.
+გამოყენება და შეზღუდვები: [spot_backtest/README.md](spot_backtest/README.md).
+ისტორიული ბაზა ინახება `/home/sandro/research_snapshots/`-ში; ძველი ანგარიშები
+და კოდის ასლები იქ აღარ არის. მონაცემები და ბექაფები ამ გაწმენდით არ წაშლილა.

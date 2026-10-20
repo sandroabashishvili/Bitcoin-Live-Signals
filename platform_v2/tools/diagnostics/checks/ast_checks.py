@@ -76,9 +76,7 @@ def orphan_module_findings(paths: list[Path], module_index: dict[str, Path], inb
         "platform_v2.spot.app.commands.position_updates",
         "platform_v2.spot.app.commands.signal_pipeline",
         "platform_v2.futures.app.run_loop",
-        "platform_v2.tools.research.replay.execution_replay",
-        "platform_v2.tools.research.replay.futures_entry_quality_what_if",
-        "platform_v2.tools.research.replay.signal_only_replay",
+        "platform_v2.tools.research.spot_backtest",
     }
     for module_name, path in module_index.items():
         if path.name.startswith("test_") or "tests" in path.parts:

@@ -8,7 +8,7 @@ from platform_v2.shared.backend.market.candle import Candle as SpotCandle
 from platform_v2.spot.services.analytics.indicator_snapshot_builder import (
     IndicatorSnapshotBuilder as SpotSnapshotBuilder,
 )
-from platform_v2.tools.research.replay.legacy_spot_signal import SignalDecisionService
+from platform_v2.spot.services.signal.mtf_context_service import MultiTimeframeContextService
 
 
 def _candles(model: type[SpotCandle] | type[FuturesCandle]):
@@ -54,4 +54,4 @@ def test_futures_snapshot_persists_three_point_macd_histogram() -> None:
 def test_repaired_histogram_is_not_live_rewarded_before_promotion() -> None:
     snapshot = type("Snapshot", (), {"extras": {"macd_histogram": [1.0, 2.0, 3.0]}})()
 
-    assert SignalDecisionService._has_rising_macd_histogram(snapshot) is False
+    assert MultiTimeframeContextService._has_rising_macd_histogram(snapshot) is False

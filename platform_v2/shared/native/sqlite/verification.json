@@ -1,0 +1,8 @@
+{
+  "url": "https://sqlite.org/2026/sqlite-amalgamation-3510300.zip",
+  "sqlite3_c_sha3_256": "32d5424f97e0a7fc5ed2f6335afbb58be4e0298bd7117a34e39d345ff13d859e",
+  "matched_official_release_hash": true,
+  "library_sha256": "e06f265aa3327d901334586acf28ddc90851e1d15be6248fd51b506849a1d461",
+  "sqlite_source_id": "2026-03-13 10:38:09 737ae4a34738ffa0c3ff7f9bb18df914dd1cad163f28fd6b6e114a344fe6d618",
+  "build_command": "gcc -O2 -fPIC -shared -DSQLITE_THREADSAFE=1 -DSQLITE_ENABLE_FTS5 -DSQLITE_ENABLE_RTREE -Wl,-soname,libsqlite3.so.0 sqlite3.c -o libsqlite3.so.0 -lm -ldl -pthread"
+}

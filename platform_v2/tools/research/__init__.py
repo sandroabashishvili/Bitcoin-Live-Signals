@@ -1,2 +1,2 @@
-"""Research tools for V2 runtime and V1/V2 comparative analysis."""
+"""One offline Spot backtest; never imported by the live trading loops."""
 

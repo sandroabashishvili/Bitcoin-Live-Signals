@@ -88,8 +88,6 @@ def low_risk_silent_fallback_reason(path: Path, node: ast.ExceptHandler) -> str:
         return f"local read/load fallback in {function_name}"
     if path_str.startswith("tools/ai_assistant/") and function_name not in {"do_POST"}:
         return f"assistant read/format boundary fallback in {function_name}"
-    if path_str.startswith("tools/research/replay/") and function_name.startswith("_safe_"):
-        return f"research replay coercion fallback in {function_name}"
     if path_str.startswith("tools/telegram_bot_system/runtime_snapshot.py"):
         return f"telegram runtime snapshot coercion fallback in {function_name}"
     if path_str.endswith("/logging_utils.py") and function_name == "_fd_target":
