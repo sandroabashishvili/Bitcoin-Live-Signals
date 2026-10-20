@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-20",
-  "generated_at_utc": "2026-10-20 10:05:07 UTC",
+  "generated_at_utc": "2026-10-20 16:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-20T10:05:01.519746+00:00",
+    "collected_at": "2026-10-20T16:05:02.325854+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -49,12 +49,11 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 10,
-        "within_window": 19,
-        "eligible": 11,
+        "within_window": 20,
+        "eligible": 13,
         "rejected": {
-          "title_filter": 5,
-          "topic_author_or_category": 3,
-          "older_than_window": 1
+          "topic_author_or_category": 2,
+          "title_filter": 5
         }
       },
       {
@@ -86,12 +85,12 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 1,
-        "within_window": 1,
+        "within_24h": 3,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 24
+          "topic_author_or_category": 3,
+          "older_than_window": 22
         }
       },
       {
@@ -181,17 +180,43 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 11
+      "Cryptonews": 13
     },
     "unique_by_source": {
-      "Cryptonews": 11
+      "Cryptonews": 13
     },
     "selected_by_source": {
-      "Cryptonews": 11
+      "Cryptonews": 12
     }
   },
-  "count": 11,
+  "count": 12,
   "items": [
+    {
+      "title": "XRP Price Warning: Leverage Resets as $11.8B in Reserves Loom",
+      "link": "https://cryptonews.com/news/xrp-price-vs-exchange-reserves-leverage/",
+      "summary": "XRP exchange reserves reach 11.81 billion tokens as $1.25 support faces pressure, while lighter leverage leaves supply concerns unresolved.",
+      "source": "Cryptonews",
+      "date": "2026-10-20",
+      "date_human": "Oct 20, 2026",
+      "pub_ts": 1792508160,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Börse Stuttgart Wins EU Blockchain Trading License: But Is Europe Too Late to the Crypto Game?",
+      "link": "https://cryptonews.com/news/borse-stuttgart-seturion-liquidity-test/",
+      "summary": "Seturion is authorized to trade and settle tokenized securities in Europe. Thin liquidity and fragmented blockchain networks remain the test.",
+      "source": "Cryptonews",
+      "date": "2026-10-20",
+      "date_human": "Oct 20, 2026",
+      "pub_ts": 1792493316,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "XRP News: Lending Awaits Votes, Cleanup Nears Activation",
       "link": "https://cryptonews.com/news/xrp-news-xrpl-lending-validator-votes/",
@@ -317,19 +342,6 @@
       "date": "2026-10-19",
       "date_human": "Oct 19, 2026",
       "pub_ts": 1792398240,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "FOMC Polymarket Odds: Fed Rate Hike Probability Falls to 14% Ahead of October Meeting",
-      "link": "https://cryptonews.com/news/fomc-polymarket-odds-fed-rate-hike-probability-falls-to-14-ahead-of-october-meeting/",
-      "summary": "FOMC Polymarket odds increasingly favor the Federal Reserve leaving interest rates unchanged at its October meeting, with the probability of another rate hike falling sharply despite persistent inflation concerns.According to the latest Polymarket figures, the odds of the Fed holding rates steady stand at 87%, while the probability of a 25-basis-point increase has dropped to […]",
-      "source": "Cryptonews",
-      "date": "2026-10-18",
-      "date_human": "Oct 18, 2026",
-      "pub_ts": 1792348200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
