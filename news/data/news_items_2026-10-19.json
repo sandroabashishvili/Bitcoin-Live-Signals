@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-19",
-  "generated_at_utc": "2026-10-19 16:05:13 UTC",
+  "generated_at_utc": "2026-10-19 22:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-19T16:05:07.026817+00:00",
+    "collected_at": "2026-10-19T22:05:03.706017+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 1,
+        "eligible": 0,
         "rejected": {
-          "unreviewed_link": 9
+          "unreviewed_link": 10
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 11,
-        "within_window": 13,
-        "eligible": 6,
+        "within_24h": 9,
+        "within_window": 14,
+        "eligible": 7,
         "rejected": {
           "title_filter": 4,
           "topic_author_or_category": 3,
-          "older_than_window": 7
+          "older_than_window": 6
         }
       },
       {
@@ -86,11 +86,12 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 25
+          "topic_author_or_category": 1,
+          "older_than_window": 24
         }
       },
       {
@@ -180,20 +181,30 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 6,
-      "NewsBTC": 1
+      "Cryptonews": 7
     },
     "unique_by_source": {
-      "Cryptonews": 6,
-      "NewsBTC": 1
+      "Cryptonews": 7
     },
     "selected_by_source": {
-      "Cryptonews": 6,
-      "NewsBTC": 1
+      "Cryptonews": 7
     }
   },
   "count": 7,
   "items": [
+    {
+      "title": "The Math Behind the $210 XRP Price Target",
+      "link": "https://cryptonews.com/news/xrp-price-210-target/",
+      "summary": "The XRP price prediction of $210 implies a $13.26 trillion market cap, but Ripple’s growth does not prove institutions will buy XRP.",
+      "source": "Cryptonews",
+      "date": "2026-10-19",
+      "date_human": "Oct 19, 2026",
+      "pub_ts": 1792433760,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "XRP News: Upbit Turnover Slips, XRP Keeps Top Spot",
       "link": "https://cryptonews.com/news/xrp-news-upbit-trading/",
@@ -202,19 +213,6 @@
       "date": "2026-10-19",
       "date_human": "Oct 19, 2026",
       "pub_ts": 1792417080,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "BitTorrent Ushers in Next-Gen Web3 Infrastructure with Strategic Rebrand and Inaugural BTT Burn",
-      "link": "https://www.newsbtc.com/news/bittorrent-ushers-in-next-gen-web3-infrastructure-with-strategic-rebrand-and-inaugural-btt-burn/",
-      "summary": "The first round of BTT repurchased with decentralized service revenue has been completely burned, as BitTorrent leverages its reimagined architecture to pivot toward Web3 and AI infrastructure. BitTorrent, a cornerstone of decentralized infrastructure in the TRON ecosystem, entered a new phase of growth driven by dual engines: the rollout of its long-term BTT buyback-and-burn strategy and a comprehensive brand upgrade. Central to this strategic overhaul, the long-term BTT buyback-and-burn commitment has officially translated into tangible action. Following its announcement on July 6 and subseq",
-      "source": "NewsBTC",
-      "date": "2026-10-18",
-      "date_human": "Oct 18, 2026",
-      "pub_ts": 1792342388,
       "image_candidates": [],
       "license_url": null,
       "image": null,
