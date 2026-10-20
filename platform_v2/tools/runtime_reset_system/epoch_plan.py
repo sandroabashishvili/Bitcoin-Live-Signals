@@ -18,7 +18,7 @@ from platform_v2.shared.backend.persistence.database_paths import (
     DATABASE_ROOT, TRADING_DATABASE_PATH, MARKET_DATA_DATABASE_PATH, CONTENT_DATABASE_PATH,
 )
 
-DEPLOY = Path('/home/sandro/research_snapshots/readiness_R21_20260927/deploy')
+DEPLOY = Path(__file__).resolve().parents[2] / 'deployment' / 'deploy'
 SYSTEMS = ('spot', 'futures', 'hedge')
 
 

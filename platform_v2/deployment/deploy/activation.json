@@ -1,0 +1,10 @@
+{
+  "approved": true,
+  "activation_close_ms": 1792337399999,
+  "release": "/home/sandro/SmartSignalHub/platform_v2/deployment/releases/1f4295af7a8832beb669616243ad343e7e5491c34fd2e40a718be71ea0b40e3f",
+  "release_sha256": "1f4295af7a8832beb669616243ad343e7e5491c34fd2e40a718be71ea0b40e3f",
+  "sqlite_library": "/home/sandro/SmartSignalHub/platform_v2/deployment/sqlite/libsqlite3.so.0",
+  "sqlite_library_sha256": "e06f265aa3327d901334586acf28ddc90851e1d15be6248fd51b506849a1d461",
+  "sqlite_source_id": "2026-03-13 10:38:09 737ae4a34738ffa0c3ff7f9bb18df914dd1cad163f28fd6b6e114a344fe6d618",
+  "activation_requested_utc": "2026-10-18T15:41:42.727911+00:00"
+}

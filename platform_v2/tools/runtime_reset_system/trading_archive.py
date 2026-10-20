@@ -30,7 +30,8 @@ def runtime_processes(project_root, proc_root=Path('/proc')):
             # Conservatively reject these modules even from a different cwd.
             if any(arg in (b'platform_v2.tools.runtime_start_system',b'platform_v2.spot.app.run_loop',
                            b'platform_v2.futures.app.run_loop',
-                           b'/home/sandro/research_snapshots/readiness_R21_20260927/deploy/start.py')
+                           b'/home/sandro/research_snapshots/readiness_R21_20260927/deploy/start.py',
+                           str(project_root/'platform_v2/deployment/deploy/start.py').encode())
                    or arg.startswith(b'platform_v2.futures_hedge.app.') for arg in args):
                 found.append(proc.name)
         except (FileNotFoundError,ProcessLookupError):continue

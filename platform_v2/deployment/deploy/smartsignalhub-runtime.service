@@ -1,0 +1,22 @@
+# Prepared user service; NOT installed or enabled.
+[Unit]
+Description=SmartSignalHub pinned simulation and research collection
+ConditionPathExists=/home/sandro/SmartSignalHub/platform_v2/deployment/deploy/activation.json
+StartLimitIntervalSec=600
+StartLimitBurst=3
+
+[Service]
+Type=simple
+WorkingDirectory=/home/sandro/SmartSignalHub
+Environment=LD_LIBRARY_PATH=/home/sandro/SmartSignalHub/platform_v2/deployment/sqlite
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/home/sandro/SmartSignalHub/venv/bin/python /home/sandro/SmartSignalHub/platform_v2/deployment/deploy/start.py
+Restart=always
+RestartSec=60
+KillMode=mixed
+TimeoutStopSec=45
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

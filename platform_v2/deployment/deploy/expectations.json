@@ -1,0 +1,18 @@
+{
+  "systems": {
+    "spot": {
+      "release_sha256": "1f4295af7a8832beb669616243ad343e7e5491c34fd2e40a718be71ea0b40e3f",
+      "config_sha256": "601dd519519388b019a5c983f3f11147f5fd98191bf06c7d48dce731b0fbee8a",
+      "activation_close_ms": "1792337399999",
+      "backfill": true,
+      "sqlite_source_id": "2026-03-13 10:38:09 737ae4a34738ffa0c3ff7f9bb18df914dd1cad163f28fd6b6e114a344fe6d618"
+    },
+    "futures": {
+      "release_sha256": "1f4295af7a8832beb669616243ad343e7e5491c34fd2e40a718be71ea0b40e3f",
+      "config_sha256": "9ba6e50ba362bfbc962785a76124921296a6b39571491fc8edf001a59b597c69",
+      "activation_close_ms": "1792337399999",
+      "backfill": true,
+      "sqlite_source_id": "2026-03-13 10:38:09 737ae4a34738ffa0c3ff7f9bb18df914dd1cad163f28fd6b6e114a344fe6d618"
+    }
+  }
+}

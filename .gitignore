@@ -21,6 +21,10 @@ platform_v2/.codex
 docs_archive_platform_v2/
 
 # Local logs/backups/artifacts
+# Operational snapshots, native runtime and local migration evidence
+/platform_v2/deployment/releases/
+/platform_v2/deployment/sqlite/
+/platform_v2/deployment/migration/
 logs/
 backups/
 *.log

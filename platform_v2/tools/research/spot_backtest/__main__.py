@@ -12,7 +12,7 @@ RUNS = ('baseline', 'unchanged', 'control_v2', 'votes_existing_v1', 'scenarios_v
         'scenarios_control_v2', 'pullback_audit_v1', *ISOLATED_VARIANTS)
 
 ROOT=Path('/home/sandro/SmartSignalHub')
-DEPLOY=Path('/home/sandro/research_snapshots/readiness_R21_20260927/deploy/activation.json')
+DEPLOY=Path(__file__).resolve().parents[3]/'deployment/deploy/activation.json'
 
 
 def prepare(folder):

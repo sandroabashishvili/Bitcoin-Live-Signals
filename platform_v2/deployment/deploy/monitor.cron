@@ -1,0 +1,2 @@
+# Installed: every 15 minutes; selects latest backup manifest with complete DB coverage
+5,20,35,50 * * * * /usr/bin/flock -n /home/sandro/SmartSignalHub/platform_v2/runtime/research-monitor.lock /home/sandro/SmartSignalHub/venv/bin/python /home/sandro/SmartSignalHub/platform_v2/deployment/deploy/check-health.py

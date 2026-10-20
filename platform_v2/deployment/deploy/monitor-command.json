@@ -1,0 +1,21 @@
+[
+  "env",
+  "LD_LIBRARY_PATH=/home/sandro/SmartSignalHub/platform_v2/deployment/sqlite",
+  "/home/sandro/SmartSignalHub/venv/bin/python",
+  "/home/sandro/SmartSignalHub/platform_v2/deployment/releases/1f4295af7a8832beb669616243ad343e7e5491c34fd2e40a718be71ea0b40e3f/run.py",
+  "--release",
+  "/home/sandro/SmartSignalHub/platform_v2/deployment/releases/1f4295af7a8832beb669616243ad343e7e5491c34fd2e40a718be71ea0b40e3f/source.json.gz",
+  "--sha256",
+  "1f4295af7a8832beb669616243ad343e7e5491c34fd2e40a718be71ea0b40e3f",
+  "--module",
+  "platform_v2.shared.backend.research_evidence.monitor",
+  "--",
+  "--database",
+  "/home/sandro/SmartSignalHub/platform_v2/runtime/database/smartsignalhub_trading.sqlite3",
+  "--expectations",
+  "/home/sandro/SmartSignalHub/platform_v2/deployment/deploy/expectations.json",
+  "--backup-manifest",
+  "/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/manifest.json",
+  "--output",
+  "/home/sandro/SmartSignalHub/platform_v2/runtime/research_health"
+]

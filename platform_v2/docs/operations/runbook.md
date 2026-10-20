@@ -1,8 +1,24 @@
 # Operating Guide and Current Status
 
-Updated: 2026-10-18. This is the single maintained entry point for current status,
+Updated: 2026-10-19. This is the single maintained entry point for current status,
 everyday commands and next work. Technical specifications remain in their module
 and topic documents. Dated reports describe historical checkpoints, not current deployment.
+
+## 2026-10-19: operational deployment relocated inside platform_v2
+
+The active deployment now lives at
+`/home/sandro/SmartSignalHub/platform_v2/deployment/`, with configuration in
+`deploy/`, one selected code snapshot in `releases/`, and its native library in
+`sqlite/`. The user service, installed health-monitor cron entry and Windows
+`SmartSignalHub-WSL` sign-in task now target this location. The former research
+deployment is retained only for rollback; it is not the active launch location.
+
+This is a path relocation, not a strategy promotion or trading reset. The code
+hash remains `1f4295af7a8832beb669616243ad343e7e5491c34fd2e40a718be71ea0b40e3f`;
+the October 18 activation epoch, strategy configuration and live databases are
+preserved. Working-tree changes still require explicit promotion into the selected
+snapshot; restarting alone does not promote code. Local before/after migration
+evidence is under `platform_v2/deployment/migration/`.
 
 ## 2026-10-18: new all-system trading collection epoch
 
@@ -55,7 +71,7 @@ Local evidence (not shipped with GitHub):
 - `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/readiness_R21_20260928/REPORT.md` — activation checkpoint.
 - `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/readiness_R21_20260928/user-bus-repair.md` — later boot finding.
 - `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/readiness_R21_20260928/boot-acceptance-20261005.md` — WSL update and final reboot acceptance.
-- `~/research_snapshots/readiness_R21_20260927/deploy/` — approved deployment files.
+- `/home/sandro/SmartSignalHub/platform_v2/deployment/deploy/` — current operational deployment files (relocated October 19).
 Preserve the release and SQLite library referenced by activation configuration.
 
 ### Hedge maintenance release — 2026-10-08
