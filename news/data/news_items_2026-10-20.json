@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-20",
-  "generated_at_utc": "2026-10-20 04:05:07 UTC",
+  "generated_at_utc": "2026-10-20 10:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-20T04:05:02.385216+00:00",
+    "collected_at": "2026-10-20T10:05:01.519746+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
-        "within_window": 14,
-        "eligible": 7,
+        "within_24h": 10,
+        "within_window": 19,
+        "eligible": 11,
         "rejected": {
-          "title_filter": 4,
+          "title_filter": 5,
           "topic_author_or_category": 3,
-          "older_than_window": 6
+          "older_than_window": 1
         }
       },
       {
@@ -100,11 +100,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 1,
-        "within_window": 1,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 1,
-          "older_than_window": 14
+          "unreviewed_link": 2,
+          "older_than_window": 13
         }
       },
       {
@@ -181,17 +181,69 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 7
+      "Cryptonews": 11
     },
     "unique_by_source": {
-      "Cryptonews": 7
+      "Cryptonews": 11
     },
     "selected_by_source": {
-      "Cryptonews": 7
+      "Cryptonews": 11
     }
   },
-  "count": 7,
+  "count": 11,
   "items": [
+    {
+      "title": "XRP News: Lending Awaits Votes, Cleanup Nears Activation",
+      "link": "https://cryptonews.com/news/xrp-news-xrpl-lending-validator-votes/",
+      "summary": "XRPL lending remains unavailable as two amendments sit 10 votes short, while a separate cleanup package could activate on October 23 if support holds.",
+      "source": "Cryptonews",
+      "date": "2026-10-20",
+      "date_human": "Oct 20, 2026",
+      "pub_ts": 1792489140,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Tether Iran Dispute: Ardoino Pushes Back Against Senate",
+      "link": "https://cryptonews.com/news/tether-iran-wallet-freezes/",
+      "summary": "Tether faces Senate scrutiny after a report questioned Iran-linked wallet freezes and referrals raised potential sanctions and banking-law violations.",
+      "source": "Cryptonews",
+      "date": "2026-10-20",
+      "date_human": "Oct 20, 2026",
+      "pub_ts": 1792486500,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "BlackRock Tokenization Push Gathers Pace as Wall Street Races to Tokenize Assets",
+      "link": "https://cryptonews.com/news/blackrock-tokenization-push-funds-buidl-collateral/",
+      "summary": "BlackRock’s tokenised funds are already collateral in digital-asset markets, but Wall Street use depends on legal and institutional acceptance.",
+      "source": "Cryptonews",
+      "date": "2026-10-20",
+      "date_human": "Oct 20, 2026",
+      "pub_ts": 1792485248,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "JPMorgan Bitcoin Forecast Gives BTC a Major Edge Over US Stocks",
+      "link": "https://cryptonews.com/news/bitcoin-forecast-jpmorgan/",
+      "summary": "JPMorgan's Bitcoin forecast models a 10% annual compounded return, but 55% volatility keeps it outside the bank's main allocation models.",
+      "source": "Cryptonews",
+      "date": "2026-10-20",
+      "date_human": "Oct 20, 2026",
+      "pub_ts": 1792480966,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "The Math Behind the $210 XRP Price Target",
       "link": "https://cryptonews.com/news/xrp-price-210-target/",
