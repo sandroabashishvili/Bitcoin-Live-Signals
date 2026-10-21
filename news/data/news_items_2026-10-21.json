@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-21",
-  "generated_at_utc": "2026-10-21 04:05:09 UTC",
+  "generated_at_utc": "2026-10-21 10:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-21T04:05:04.059023+00:00",
+    "collected_at": "2026-10-21T10:05:03.887128+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 10,
+        "within_24h": 9,
         "within_window": 10,
         "eligible": 0,
         "rejected": {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 13,
+        "within_24h": 10,
         "within_window": 20,
-        "eligible": 12,
+        "eligible": 13,
         "rejected": {
           "topic_author_or_category": 3,
-          "title_filter": 5
+          "title_filter": 4
         }
       },
       {
@@ -98,12 +98,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
-        "within_window": 2,
+        "within_24h": 2,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 2,
-          "older_than_window": 13
+          "unreviewed_link": 3,
+          "older_than_window": 12
         }
       },
       {
@@ -181,10 +181,10 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 12
+      "Cryptonews": 13
     },
     "unique_by_source": {
-      "Cryptonews": 12
+      "Cryptonews": 13
     },
     "selected_by_source": {
       "Cryptonews": 12
@@ -192,6 +192,32 @@
   },
   "count": 12,
   "items": [
+    {
+      "title": "Switzerland Bitcoin ETF and Cameroon's Paul Biya: A Financial Haven Debate",
+      "link": "https://cryptonews.com/news/switzerland-bitcoin-etf-and-cameroon-paul-biya-a-financial-haven-debate/",
+      "summary": "Switzerland launches a Bitcoin ETF as Paul Biya and Cameroon ties revive questions about the country’s role as a financial haven.",
+      "source": "Cryptonews",
+      "date": "2026-10-21",
+      "date_human": "Oct 21, 2026",
+      "pub_ts": 1792569270,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Revolut Outage Hits Crypto Access as Google Cloud Failure Disrupts Banking Services",
+      "link": "https://cryptonews.com/news/revolut-outage-crypto-access-google-cloud-failure/",
+      "summary": "Your crypto may be safe, but can you access it? The Revolut outage highlights the risks of centralized platforms.",
+      "source": "Cryptonews",
+      "date": "2026-10-21",
+      "date_human": "Oct 21, 2026",
+      "pub_ts": 1792566859,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Websites Offering GTA 6 Early Access for Crypto Payments",
       "link": "https://cryptonews.com/news/gta-6-crypto-scams/",
@@ -317,32 +343,6 @@
       "date": "2026-10-19",
       "date_human": "Oct 19, 2026",
       "pub_ts": 1792414560,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Sam Altman's Worldcoin: How VanEck, MrBeast, and Wall Street Capitalize on Exploited Biometrics",
-      "link": "https://cryptonews.com/news/sam-altman-worldcoin-banks-exploitative/",
-      "summary": "Sam Altman Worldcoin targets banks after paying people to scan their eyes. Was the bargain ever fair to participants and token holders?",
-      "source": "Cryptonews",
-      "date": "2026-10-19",
-      "date_human": "Oct 19, 2026",
-      "pub_ts": 1792411200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "MARA Selling Bitcoin? Exchange Deposits Put 1,000 BTC Under Watch",
-      "link": "https://cryptonews.com/news/btc-exchange-deposits-mara-bitcoin-selling/",
-      "summary": "BTC exchange deposits linked to MARA moved 1,000 BTC worth $82.8 million, but on-chain data does not confirm a sale. Sale speculation persists.",
-      "source": "Cryptonews",
-      "date": "2026-10-19",
-      "date_human": "Oct 19, 2026",
-      "pub_ts": 1792403662,
       "image_candidates": [],
       "license_url": null,
       "image": null,
