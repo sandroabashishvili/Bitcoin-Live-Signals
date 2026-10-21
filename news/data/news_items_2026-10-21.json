@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-21",
-  "generated_at_utc": "2026-10-21 10:05:09 UTC",
+  "generated_at_utc": "2026-10-21 16:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-21T10:05:03.887128+00:00",
+    "collected_at": "2026-10-21T16:05:04.600905+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 9,
+        "within_24h": 3,
         "within_window": 10,
-        "eligible": 0,
+        "eligible": 1,
         "rejected": {
-          "unreviewed_link": 10
+          "unreviewed_link": 9
         }
       },
       {
@@ -52,8 +52,8 @@
         "within_window": 20,
         "eligible": 13,
         "rejected": {
-          "topic_author_or_category": 3,
-          "title_filter": 4
+          "topic_author_or_category": 4,
+          "title_filter": 3
         }
       },
       {
@@ -85,7 +85,7 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 2,
+        "within_24h": 0,
         "within_window": 3,
         "eligible": 0,
         "rejected": {
@@ -181,17 +181,72 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 13
+      "Cryptonews": 13,
+      "NewsBTC": 1
     },
     "unique_by_source": {
-      "Cryptonews": 13
+      "Cryptonews": 13,
+      "NewsBTC": 1
     },
     "selected_by_source": {
-      "Cryptonews": 12
+      "Cryptonews": 11,
+      "NewsBTC": 1
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "XRP Rallies on Ripple SEC Push as ETF Outflows Cloud Evernorth Debut",
+      "link": "https://cryptonews.com/news/xrp-news-rallies-on-ripple-sec-push-as-etf-outflows-cloud-evernorth-debut/",
+      "summary": "Ripple backs the SEC’s crypto rules as XRP ETF outflows return and Evernorth debuts on Nasdaq. Can this progress revive institutional demand?",
+      "source": "Cryptonews",
+      "date": "2026-10-21",
+      "date_human": "Oct 21, 2026",
+      "pub_ts": 1792589520,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Probly Wraps Up TOKEN2049 Singapore and WHALE3RA, Strengthening Its Presence in On-Chain Prediction Markets",
+      "link": "https://www.newsbtc.com/news/probly-wraps-up-token2049-singapore-and-whale3ra-strengthening-its-presence-in-on-chain-prediction-markets/",
+      "summary": "The British Virgin Islands, Road Town, October 2026 — Probly, an on-chain prediction market for sports, politics, crypto, finance, and global events, has concluded its participation as a Gold Sponsor of TOKEN2049 Singapore and co-host of the WHALE3RA Afterparty alongside BloFin, TxFlow, and other ecosystem partners. Across TOKEN2049 week, Probly connected with traders, builders, infrastructure teams, partners, and Web3 communities around the growing role of prediction markets as a way to express views on real-world events. The week also gave Probly an opportunity to introduce its approach to p",
+      "source": "NewsBTC",
+      "date": "2026-10-21",
+      "date_human": "Oct 21, 2026",
+      "pub_ts": 1792580398,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum Price Disappoints: Bitmine Fails to Offset ETF Exodus",
+      "link": "https://cryptonews.com/news/ethereum-price-disappoints-as-bitmine-buying-fails-to-offset-389m-etf-exodus/",
+      "summary": "ETH rebounds toward $2,500 as Bitmine nears 5% of supply, while U.S. Ethereum ETFs record $389M in five-session outflows.",
+      "source": "Cryptonews",
+      "date": "2026-10-21",
+      "date_human": "Oct 21, 2026",
+      "pub_ts": 1792584095,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Pearl Crypto Price Explodes: Coinbase Buzz Fuels Mystery Rally",
+      "link": "https://cryptonews.com/news/pearl-crypto-price-explodes-coinbase-buzz-fuels-mystery-rally/",
+      "summary": "Pearl Crypto jumps 80% in a week as Coinbase buzz fuels a mystery rally. Can PEARL break higher as AI hype builds?",
+      "source": "Cryptonews",
+      "date": "2026-10-21",
+      "date_human": "Oct 21, 2026",
+      "pub_ts": 1792577193,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Switzerland Bitcoin ETF and Cameroon's Paul Biya: A Financial Haven Debate",
       "link": "https://cryptonews.com/news/switzerland-bitcoin-etf-and-cameroon-paul-biya-a-financial-haven-debate/",
@@ -291,58 +346,6 @@
       "date": "2026-10-20",
       "date_human": "Oct 20, 2026",
       "pub_ts": 1792485248,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "JPMorgan Bitcoin Forecast Gives BTC a Major Edge Over US Stocks",
-      "link": "https://cryptonews.com/news/bitcoin-forecast-jpmorgan/",
-      "summary": "JPMorgan's Bitcoin forecast models a 10% annual compounded return, but 55% volatility keeps it outside the bank's main allocation models.",
-      "source": "Cryptonews",
-      "date": "2026-10-20",
-      "date_human": "Oct 20, 2026",
-      "pub_ts": 1792480966,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "The Math Behind the $210 XRP Price Target",
-      "link": "https://cryptonews.com/news/xrp-price-210-target/",
-      "summary": "The XRP price prediction of $210 implies a $13.26 trillion market cap, but Ripple’s growth does not prove institutions will buy XRP.",
-      "source": "Cryptonews",
-      "date": "2026-10-19",
-      "date_human": "Oct 19, 2026",
-      "pub_ts": 1792433760,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: Upbit Turnover Slips, XRP Keeps Top Spot",
-      "link": "https://cryptonews.com/news/xrp-news-upbit-trading/",
-      "summary": "XRP led Upbit trading as weekly turnover fell 15.5% to 8.35 trillion won, showing concentrated attention but no proof of net buying.",
-      "source": "Cryptonews",
-      "date": "2026-10-19",
-      "date_human": "Oct 19, 2026",
-      "pub_ts": 1792417080,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Richard Heart Fallout? HEX Tanks 60% as PulseX and PLS Suffer Heavy Losses",
-      "link": "https://cryptonews.com/news/richard-heart-token-fall-hex-plsx-pls-crypto/",
-      "summary": "Richard Heart’s reported detention in Istanbul sent HEX, PulseX and PLS sharply lower, highlighting founder risk without proving protocol failure.",
-      "source": "Cryptonews",
-      "date": "2026-10-19",
-      "date_human": "Oct 19, 2026",
-      "pub_ts": 1792414560,
       "image_candidates": [],
       "license_url": null,
       "image": null,
