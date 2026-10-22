@@ -1,0 +1,354 @@
+{
+  "day_iso": "2026-10-22",
+  "generated_at_utc": "2026-10-22 04:05:11 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-10-22T04:05:05.637610+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 1,
+        "within_window": 10,
+        "eligible": 1,
+        "rejected": {
+          "unreviewed_link": 9
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 9,
+        "within_window": 20,
+        "eligible": 11,
+        "rejected": {
+          "topic_author_or_category": 7,
+          "title_filter": 2
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 48,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 48
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 2,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 2,
+          "older_than_window": 23
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 2,
+        "within_window": 3,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 3,
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 20
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "Cryptonews": 11,
+      "NewsBTC": 1
+    },
+    "unique_by_source": {
+      "Cryptonews": 11,
+      "NewsBTC": 1
+    },
+    "selected_by_source": {
+      "Cryptonews": 11,
+      "NewsBTC": 1
+    }
+  },
+  "count": 12,
+  "items": [
+    {
+      "title": "XRP Rallies on Ripple SEC Push as ETF Outflows Cloud Evernorth Debut",
+      "link": "https://cryptonews.com/news/xrp-news-rallies-on-ripple-sec-push-as-etf-outflows-cloud-evernorth-debut/",
+      "summary": "Ripple backs the SEC’s crypto rules as XRP ETF outflows return and Evernorth debuts on Nasdaq. Can this progress revive institutional demand?",
+      "source": "Cryptonews",
+      "date": "2026-10-21",
+      "date_human": "Oct 21, 2026",
+      "pub_ts": 1792589520,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Probly Wraps Up TOKEN2049 Singapore and WHALE3RA, Strengthening Its Presence in On-Chain Prediction Markets",
+      "link": "https://www.newsbtc.com/news/probly-wraps-up-token2049-singapore-and-whale3ra-strengthening-its-presence-in-on-chain-prediction-markets/",
+      "summary": "The British Virgin Islands, Road Town, October 2026 — Probly, an on-chain prediction market for sports, politics, crypto, finance, and global events, has concluded its participation as a Gold Sponsor of TOKEN2049 Singapore and co-host of the WHALE3RA Afterparty alongside BloFin, TxFlow, and other ecosystem partners. Across TOKEN2049 week, Probly connected with traders, builders, infrastructure teams, partners, and Web3 communities around the growing role of prediction markets as a way to express views on real-world events. The week also gave Probly an opportunity to introduce its approach to p",
+      "source": "NewsBTC",
+      "date": "2026-10-21",
+      "date_human": "Oct 21, 2026",
+      "pub_ts": 1792580398,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum Price Disappoints: Bitmine Fails to Offset ETF Exodus",
+      "link": "https://cryptonews.com/news/ethereum-price-disappoints-as-bitmine-buying-fails-to-offset-389m-etf-exodus/",
+      "summary": "ETH rebounds toward $2,500 as Bitmine nears 5% of supply, while U.S. Ethereum ETFs record $389M in five-session outflows.",
+      "source": "Cryptonews",
+      "date": "2026-10-21",
+      "date_human": "Oct 21, 2026",
+      "pub_ts": 1792584095,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Pearl Crypto Price Explodes: Coinbase Buzz Fuels Mystery Rally",
+      "link": "https://cryptonews.com/news/pearl-crypto-price-explodes-coinbase-buzz-fuels-mystery-rally/",
+      "summary": "Pearl Crypto jumps 80% in a week as Coinbase buzz fuels a mystery rally. Can PEARL break higher as AI hype builds?",
+      "source": "Cryptonews",
+      "date": "2026-10-21",
+      "date_human": "Oct 21, 2026",
+      "pub_ts": 1792577193,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Switzerland Bitcoin ETF and Cameroon's Paul Biya: A Financial Haven Debate",
+      "link": "https://cryptonews.com/news/switzerland-bitcoin-etf-and-cameroon-paul-biya-a-financial-haven-debate/",
+      "summary": "Switzerland launches a Bitcoin ETF as Paul Biya and Cameroon ties revive questions about the country’s role as a financial haven.",
+      "source": "Cryptonews",
+      "date": "2026-10-21",
+      "date_human": "Oct 21, 2026",
+      "pub_ts": 1792569270,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Revolut Outage Hits Crypto Access as Google Cloud Failure Disrupts Banking Services",
+      "link": "https://cryptonews.com/news/revolut-outage-crypto-access-google-cloud-failure/",
+      "summary": "Your crypto may be safe, but can you access it? The Revolut outage highlights the risks of centralized platforms.",
+      "source": "Cryptonews",
+      "date": "2026-10-21",
+      "date_human": "Oct 21, 2026",
+      "pub_ts": 1792566859,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Websites Offering GTA 6 Early Access for Crypto Payments",
+      "link": "https://cryptonews.com/news/gta-6-crypto-scams/",
+      "summary": "GTA VI crypto scams are offering fake early access for crypto or up to $1,000 before November 19, 2026, risking money, data and devices.",
+      "source": "Cryptonews",
+      "date": "2026-10-20",
+      "date_human": "Oct 20, 2026",
+      "pub_ts": 1792522140,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Price Warning: Leverage Resets as $11.8B in Reserves Loom",
+      "link": "https://cryptonews.com/news/xrp-price-vs-exchange-reserves-leverage/",
+      "summary": "XRP exchange reserves reach 11.81 billion tokens as $1.25 support faces pressure, while lighter leverage leaves supply concerns unresolved.",
+      "source": "Cryptonews",
+      "date": "2026-10-20",
+      "date_human": "Oct 20, 2026",
+      "pub_ts": 1792508160,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Börse Stuttgart Wins EU Blockchain Trading License: But Is Europe Too Late to the Crypto Game?",
+      "link": "https://cryptonews.com/news/borse-stuttgart-seturion-liquidity-test/",
+      "summary": "Seturion is authorized to trade and settle tokenized securities in Europe. Thin liquidity and fragmented blockchain networks remain the test.",
+      "source": "Cryptonews",
+      "date": "2026-10-20",
+      "date_human": "Oct 20, 2026",
+      "pub_ts": 1792493316,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: Lending Awaits Votes, Cleanup Nears Activation",
+      "link": "https://cryptonews.com/news/xrp-news-xrpl-lending-validator-votes/",
+      "summary": "XRPL lending remains unavailable as two amendments sit 10 votes short, while a separate cleanup package could activate on October 23 if support holds.",
+      "source": "Cryptonews",
+      "date": "2026-10-20",
+      "date_human": "Oct 20, 2026",
+      "pub_ts": 1792489140,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Tether Iran Dispute: Ardoino Pushes Back Against Senate",
+      "link": "https://cryptonews.com/news/tether-iran-wallet-freezes/",
+      "summary": "Tether faces Senate scrutiny after a report questioned Iran-linked wallet freezes and referrals raised potential sanctions and banking-law violations.",
+      "source": "Cryptonews",
+      "date": "2026-10-20",
+      "date_human": "Oct 20, 2026",
+      "pub_ts": 1792486500,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "BlackRock Tokenization Push Gathers Pace as Wall Street Races to Tokenize Assets",
+      "link": "https://cryptonews.com/news/blackrock-tokenization-push-funds-buidl-collateral/",
+      "summary": "BlackRock’s tokenised funds are already collateral in digital-asset markets, but Wall Street use depends on legal and institutional acceptance.",
+      "source": "Cryptonews",
+      "date": "2026-10-20",
+      "date_human": "Oct 20, 2026",
+      "pub_ts": 1792485248,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}
