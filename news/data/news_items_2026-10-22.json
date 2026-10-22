@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-22",
-  "generated_at_utc": "2026-10-22 04:05:11 UTC",
+  "generated_at_utc": "2026-10-22 10:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-22T04:05:05.637610+00:00",
+    "collected_at": "2026-10-22T10:05:05.337507+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 1,
+        "within_24h": 2,
         "within_window": 10,
-        "eligible": 1,
+        "eligible": 2,
         "rejected": {
-          "unreviewed_link": 9
+          "unreviewed_link": 8
         }
       },
       {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
+        "within_24h": 12,
         "within_window": 20,
-        "eligible": 11,
+        "eligible": 12,
         "rejected": {
           "topic_author_or_category": 7,
-          "title_filter": 2
+          "title_filter": 1
         }
       },
       {
@@ -98,12 +98,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 2,
-        "within_window": 3,
+        "within_24h": 0,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 3,
-          "older_than_window": 12
+          "unreviewed_link": 2,
+          "older_than_window": 13
         }
       },
       {
@@ -180,28 +180,54 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 11,
-      "NewsBTC": 1
+      "Cryptonews": 12,
+      "NewsBTC": 2
     },
     "unique_by_source": {
-      "Cryptonews": 11,
-      "NewsBTC": 1
+      "Cryptonews": 12,
+      "NewsBTC": 2
     },
     "selected_by_source": {
-      "Cryptonews": 11,
-      "NewsBTC": 1
+      "Cryptonews": 10,
+      "NewsBTC": 2
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "XRP Rallies on Ripple SEC Push as ETF Outflows Cloud Evernorth Debut",
-      "link": "https://cryptonews.com/news/xrp-news-rallies-on-ripple-sec-push-as-etf-outflows-cloud-evernorth-debut/",
-      "summary": "Ripple backs the SEC’s crypto rules as XRP ETF outflows return and Evernorth debuts on Nasdaq. Can this progress revive institutional demand?",
+      "title": "ETH to XMR: How to Swap Ethereum to Monero Without an Account as XMR Outpaces Ether",
+      "link": "https://cryptonews.com/news/eth-to-xmr-how-to-swap-ethereum-to-monero-without-an-account-as-xmr-outpaces-ether/",
+      "summary": "One Ether (ETH) now swaps for about 3.7 Monero (XMR), down from almost 13 a year ago. On October 22, 2025, ETH traded near $3,866 and XMR near $305, according to CoinGecko. On October 22, 2026, ETH is worth around $2,400 and XMR around $645: Monero has more than doubled over the year, while Ether […]",
       "source": "Cryptonews",
-      "date": "2026-10-21",
-      "date_human": "Oct 21, 2026",
-      "pub_ts": 1792589520,
+      "date": "2026-10-22",
+      "date_human": "Oct 22, 2026",
+      "pub_ts": 1792660282,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "GRVT Burns 1.1 Million Tokens as Countdown to Grvt 2.0 Begins",
+      "link": "https://www.newsbtc.com/news/grvt-burns-1-1-million-tokens-as-countdown-to-grvt-2-0-begins/",
+      "summary": "The discretionary buyback represents close to 1% of circulating supply and precedes four planned product milestones culminating in Grvt 2.0. Road Town, British Virgin Islands, October 22, 2026 – Grvt, a self-custodial trading platform built on its own zero-knowledge (ZK) chain, announced that the Foundation’s token issuer has completed its first GRVT token buyback, purchasing and burning 1.1 million GRVT tokens on the open market. The transaction permanently removed close to 1% of GRVT’s circulating supply at the time of purchase. It marks the first of five milestones ahead of the planned laun",
+      "source": "NewsBTC",
+      "date": "2026-10-22",
+      "date_human": "Oct 22, 2026",
+      "pub_ts": 1792656054,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin ETFs Pull In $1.07B as Irish Drug Trafficker-Linked Wallet Moves $41M",
+      "link": "https://cryptonews.com/news/bitcoin-etf-pull-in-1-07b-as-irish-drug-trafficker-linked-wallet-moves-41m/",
+      "summary": "Bitcoin ETF pulled $1.07 billion in three days as a wallet linked to Irish drug trafficker Clifton Collins moved 500 BTC to Coinbase Prime.",
+      "source": "Cryptonews",
+      "date": "2026-10-22",
+      "date_human": "Oct 22, 2026",
+      "pub_ts": 1792660213,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -215,6 +241,58 @@
       "date": "2026-10-21",
       "date_human": "Oct 21, 2026",
       "pub_ts": 1792580398,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Dogecoin Expands Utility as Robinhood Memecoin Boom Reveals Crypto's Biggest Adoption Engine",
+      "link": "https://cryptonews.com/news/dogecoin-expands-utility-as-robinhood-memecoin-boom-reveals-cryptos-biggest-adoption-engine/",
+      "summary": "Dogecoin, Shiba Inu and Robinhood once again highlight how memecoins could drive on-chain adoption and bring more users into crypto.",
+      "source": "Cryptonews",
+      "date": "2026-10-22",
+      "date_human": "Oct 22, 2026",
+      "pub_ts": 1792657761,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "GENIUS Act Rules Are Reshaping the USDC vs. USDT Battle",
+      "link": "https://cryptonews.com/news/genius-act-rules-are-reshaping-the-usdc-vs-usdt-battle/",
+      "summary": "New GENIUS Act rules put Circle and Tether on different paths as USDC and USDT compete for US adoption and global stablecoin dominance.",
+      "source": "Cryptonews",
+      "date": "2026-10-22",
+      "date_human": "Oct 22, 2026",
+      "pub_ts": 1792655136,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "PHP Attack Threatens Crypto Safety: Should You Cash Out or Pull Funds From Exchanges?",
+      "link": "https://cryptonews.com/news/php-attack-threatens-crypto-safety-should-you-cash-out-or-pull-funds-from-exchanges/",
+      "summary": "Should you cash out? The PHP attack raises crypto safety concerns as experts urge vulnerable servers to patch critical flaws.",
+      "source": "Cryptonews",
+      "date": "2026-10-22",
+      "date_human": "Oct 22, 2026",
+      "pub_ts": 1792652651,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Rallies on Ripple SEC Push as ETF Outflows Cloud Evernorth Debut",
+      "link": "https://cryptonews.com/news/xrp-news-rallies-on-ripple-sec-push-as-etf-outflows-cloud-evernorth-debut/",
+      "summary": "Ripple backs the SEC’s crypto rules as XRP ETF outflows return and Evernorth debuts on Nasdaq. Can this progress revive institutional demand?",
+      "source": "Cryptonews",
+      "date": "2026-10-21",
+      "date_human": "Oct 21, 2026",
+      "pub_ts": 1792589520,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -267,84 +345,6 @@
       "date": "2026-10-21",
       "date_human": "Oct 21, 2026",
       "pub_ts": 1792566859,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Websites Offering GTA 6 Early Access for Crypto Payments",
-      "link": "https://cryptonews.com/news/gta-6-crypto-scams/",
-      "summary": "GTA VI crypto scams are offering fake early access for crypto or up to $1,000 before November 19, 2026, risking money, data and devices.",
-      "source": "Cryptonews",
-      "date": "2026-10-20",
-      "date_human": "Oct 20, 2026",
-      "pub_ts": 1792522140,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP Price Warning: Leverage Resets as $11.8B in Reserves Loom",
-      "link": "https://cryptonews.com/news/xrp-price-vs-exchange-reserves-leverage/",
-      "summary": "XRP exchange reserves reach 11.81 billion tokens as $1.25 support faces pressure, while lighter leverage leaves supply concerns unresolved.",
-      "source": "Cryptonews",
-      "date": "2026-10-20",
-      "date_human": "Oct 20, 2026",
-      "pub_ts": 1792508160,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Börse Stuttgart Wins EU Blockchain Trading License: But Is Europe Too Late to the Crypto Game?",
-      "link": "https://cryptonews.com/news/borse-stuttgart-seturion-liquidity-test/",
-      "summary": "Seturion is authorized to trade and settle tokenized securities in Europe. Thin liquidity and fragmented blockchain networks remain the test.",
-      "source": "Cryptonews",
-      "date": "2026-10-20",
-      "date_human": "Oct 20, 2026",
-      "pub_ts": 1792493316,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP News: Lending Awaits Votes, Cleanup Nears Activation",
-      "link": "https://cryptonews.com/news/xrp-news-xrpl-lending-validator-votes/",
-      "summary": "XRPL lending remains unavailable as two amendments sit 10 votes short, while a separate cleanup package could activate on October 23 if support holds.",
-      "source": "Cryptonews",
-      "date": "2026-10-20",
-      "date_human": "Oct 20, 2026",
-      "pub_ts": 1792489140,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Tether Iran Dispute: Ardoino Pushes Back Against Senate",
-      "link": "https://cryptonews.com/news/tether-iran-wallet-freezes/",
-      "summary": "Tether faces Senate scrutiny after a report questioned Iran-linked wallet freezes and referrals raised potential sanctions and banking-law violations.",
-      "source": "Cryptonews",
-      "date": "2026-10-20",
-      "date_human": "Oct 20, 2026",
-      "pub_ts": 1792486500,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "BlackRock Tokenization Push Gathers Pace as Wall Street Races to Tokenize Assets",
-      "link": "https://cryptonews.com/news/blackrock-tokenization-push-funds-buidl-collateral/",
-      "summary": "BlackRock’s tokenised funds are already collateral in digital-asset markets, but Wall Street use depends on legal and institutional acceptance.",
-      "source": "Cryptonews",
-      "date": "2026-10-20",
-      "date_human": "Oct 20, 2026",
-      "pub_ts": 1792485248,
       "image_candidates": [],
       "license_url": null,
       "image": null,
