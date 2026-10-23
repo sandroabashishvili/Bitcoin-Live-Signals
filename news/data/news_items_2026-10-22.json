@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-22",
-  "generated_at_utc": "2026-10-22 16:05:11 UTC",
+  "generated_at_utc": "2026-10-22 22:05:12 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-22T16:05:06.393532+00:00",
+    "collected_at": "2026-10-22T22:05:06.599328+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,12 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 6,
-        "within_window": 9,
-        "eligible": 4,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 3,
         "rejected": {
-          "unreviewed_link": 5,
-          "older_than_window": 1
+          "unreviewed_link": 7
         }
       },
       {
@@ -50,11 +49,11 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 10,
-        "within_window": 20,
-        "eligible": 12,
+        "within_window": 19,
+        "eligible": 11,
         "rejected": {
-          "topic_author_or_category": 7,
-          "title_filter": 1
+          "topic_author_or_category": 8,
+          "older_than_window": 1
         }
       },
       {
@@ -180,20 +179,33 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 12,
-      "NewsBTC": 4
+      "NewsBTC": 3,
+      "Cryptonews": 11
     },
     "unique_by_source": {
-      "Cryptonews": 12,
-      "NewsBTC": 4
+      "NewsBTC": 3,
+      "Cryptonews": 11
     },
     "selected_by_source": {
-      "Cryptonews": 8,
-      "NewsBTC": 4
+      "NewsBTC": 3,
+      "Cryptonews": 9
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "TRON Settles $2.2T in Q3, Captures 73% of All Stablecoin Volume as First TRX ETF Launches: CoinDesk and Nansen",
+      "link": "https://www.newsbtc.com/news/tron-settles-2-2t-in-q3-captures-73-of-all-stablecoin-volume-as-first-trx-etf-launches-coindesk-and-nansen/",
+      "summary": "Geneva, Switzerland, October 22, 2026 — TRON reinforced its position as a leading blockchain network for stablecoin settlement in the third quarter of 2026, with trillions in transaction volume, record USDT supply, growing payment card adoption, and the debut of the first U.S. spot staked TRX exchange-traded fund (ETF), according to independent research reports from CoinDesk Data and Nansen. CoinDesk CoinDesk’s TRON Network Quarterly Report: Q3 2026 provides a technical assessment of the TRON network from July to September 2026. The findings span network and ecosystem developments, core on-cha",
+      "source": "NewsBTC",
+      "date": "2026-10-22",
+      "date_human": "Oct 22, 2026",
+      "pub_ts": 1792693655,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "XRP Price Falls as Crypto Longs Get Wiped Out and XRPL Upgrade Delayed",
       "link": "https://cryptonews.com/news/xrp-price-falls-crypto-longs-wiped-out-xrpl-upgrade-delayed/",
@@ -208,13 +220,13 @@
       "image_local": null
     },
     {
-      "title": "U.S. Earnings Season Heats Up as MEXC TSLA Stock Futures Weekly Volume Jumps 101%",
-      "link": "https://www.newsbtc.com/news/u-s-earnings-season-heats-up-as-mexc-tsla-stock-futures-weekly-volume-jumps-101/",
-      "summary": "Mutsamudu, Comoros, October 22, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released the latest trading data for TSLA Stock Futures. Trading volume reached approximately 137 million USDT during October 12–18, more than doubling from approximately 67.84 million USDT the previous week. The surge coincided with Tesla’s unveiling of its next-generation Roadster on October 15, ahead of SpaceX’s and Tesla’s quarterly earnings announcements. MEXC TSLA Futures Volume Doubles Ahead of Earnings Trading activity in MEXC TSLA Stock Futures picked up sharply in the second half of October 12–",
+      "title": "Dogecoin Labs Brings MyDoge And DogeOS Together In Commercial Reset",
+      "link": "https://www.newsbtc.com/news/dogecoin/dogecoin-labs-mydoge-dogeos-house-of-doge/",
+      "summary": "Dogecoin Labs is bringing wallet, payment and application teams into one organization. House of Doge says it will contribute operations for an equity stake while retaining rights tied to investment products.",
       "source": "NewsBTC",
       "date": "2026-10-22",
       "date_human": "Oct 22, 2026",
-      "pub_ts": 1792665775,
+      "pub_ts": 1792691400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -234,13 +246,13 @@
       "image_local": null
     },
     {
-      "title": "MEXC's New-Token Trading Volume Rises 77% in September as Stock-Related Trading Expands Into On-Chain New-Token Markets",
-      "link": "https://www.newsbtc.com/news/mexcs-new-token-trading-volume-rises-77-in-september-as-stock-related-trading-expands-into-on-chain-new-token-markets/",
-      "summary": "Mutsamudu, Comoros, October 22, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its September trading data. New-token and TradFi spot trading volumes rose 77% and 78% month over month, respectively, while tokenized U.S. stock trading volume increased 81%. Stock Meme projects also took the top two spots by new-token spot trading volume, as stock-related trading expanded into on-chain new-token markets. In September, the number of newly listed tokens on MEXC increased 15% month over month, while the number of users trading new tokens grew 27%. Seven of the top 10 new tokens b",
+      "title": "Solana Activates Alpenglow As Anza Targets Millisecond Finality",
+      "link": "https://www.newsbtc.com/news/solana/solana-alpenglow-mainnet-finality-october-21/",
+      "summary": "Anza says Alpenglow activated on Solana mainnet-beta on October 21. The consensus change targets roughly 150-millisecond finality; further networking and post-quantum improvements remain planned work.",
       "source": "NewsBTC",
       "date": "2026-10-22",
       "date_human": "Oct 22, 2026",
-      "pub_ts": 1792664476,
+      "pub_ts": 1792686600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -260,19 +272,6 @@
       "image_local": null
     },
     {
-      "title": "GRVT Burns 1.1 Million Tokens as Countdown to Grvt 2.0 Begins",
-      "link": "https://www.newsbtc.com/news/grvt-burns-1-1-million-tokens-as-countdown-to-grvt-2-0-begins/",
-      "summary": "The discretionary buyback represents close to 1% of circulating supply and precedes four planned product milestones culminating in Grvt 2.0. Road Town, British Virgin Islands, October 22, 2026 – Grvt, a self-custodial trading platform built on its own zero-knowledge (ZK) chain, announced that the Foundation’s token issuer has completed its first GRVT token buyback, purchasing and burning 1.1 million GRVT tokens on the open market. The transaction permanently removed close to 1% of GRVT’s circulating supply at the time of purchase. It marks the first of five milestones ahead of the planned laun",
-      "source": "NewsBTC",
-      "date": "2026-10-22",
-      "date_human": "Oct 22, 2026",
-      "pub_ts": 1792656054,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Dogecoin Expands Utility as Robinhood Memecoin Boom Reveals Crypto's Biggest Adoption Engine",
       "link": "https://cryptonews.com/news/dogecoin-expands-utility-as-robinhood-memecoin-boom-reveals-cryptos-biggest-adoption-engine/",
       "summary": "Dogecoin, Shiba Inu and Robinhood once again highlight how memecoins could drive on-chain adoption and bring more users into crypto.",
@@ -280,19 +279,6 @@
       "date": "2026-10-22",
       "date_human": "Oct 22, 2026",
       "pub_ts": 1792657761,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Probly Wraps Up TOKEN2049 Singapore and WHALE3RA, Strengthening Its Presence in On-Chain Prediction Markets",
-      "link": "https://www.newsbtc.com/news/probly-wraps-up-token2049-singapore-and-whale3ra-strengthening-its-presence-in-on-chain-prediction-markets/",
-      "summary": "The British Virgin Islands, Road Town, October 2026 — Probly, an on-chain prediction market for sports, politics, crypto, finance, and global events, has concluded its participation as a Gold Sponsor of TOKEN2049 Singapore and co-host of the WHALE3RA Afterparty alongside BloFin, TxFlow, and other ecosystem partners. Across TOKEN2049 week, Probly connected with traders, builders, infrastructure teams, partners, and Web3 communities around the growing role of prediction markets as a way to express views on real-world events. The week also gave Probly an opportunity to introduce its approach to p",
-      "source": "NewsBTC",
-      "date": "2026-10-21",
-      "date_human": "Oct 21, 2026",
-      "pub_ts": 1792580398,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -345,6 +331,19 @@
       "date": "2026-10-21",
       "date_human": "Oct 21, 2026",
       "pub_ts": 1792584095,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Pearl Crypto Price Explodes: Coinbase Buzz Fuels Mystery Rally",
+      "link": "https://cryptonews.com/news/pearl-crypto-price-explodes-coinbase-buzz-fuels-mystery-rally/",
+      "summary": "Pearl Crypto jumps 80% in a week as Coinbase buzz fuels a mystery rally. Can PEARL break higher as AI hype builds?",
+      "source": "Cryptonews",
+      "date": "2026-10-21",
+      "date_human": "Oct 21, 2026",
+      "pub_ts": 1792577193,
       "image_candidates": [],
       "license_url": null,
       "image": null,
