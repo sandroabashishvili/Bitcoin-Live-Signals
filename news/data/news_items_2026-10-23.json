@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-23",
-  "generated_at_utc": "2026-10-23 10:05:08 UTC",
+  "generated_at_utc": "2026-10-23 16:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-23T10:05:02.359844+00:00",
+    "collected_at": "2026-10-23T16:05:01.450881+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 0,
+        "eligible": 3,
         "rejected": {
-          "unreviewed_link": 10
+          "unreviewed_link": 7
         }
       },
       {
@@ -52,7 +52,8 @@
         "within_window": 20,
         "eligible": 10,
         "rejected": {
-          "topic_author_or_category": 10
+          "unreviewed_link": 1,
+          "topic_author_or_category": 9
         }
       },
       {
@@ -84,11 +85,12 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 25
+          "topic_author_or_category": 1,
+          "older_than_window": 24
         }
       },
       {
@@ -108,11 +110,11 @@
         "url": "https://bitcoinops.org/feed.xml",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 10
+          "older_than_window": 9
         }
       },
       {
@@ -177,20 +179,91 @@
       }
     ],
     "eligible_by_source": {
+      "NewsBTC": 3,
       "Cryptonews": 10,
-      "European Central Bank": 1
+      "European Central Bank": 1,
+      "Bitcoin Optech": 1
     },
     "unique_by_source": {
+      "NewsBTC": 3,
       "Cryptonews": 10,
-      "European Central Bank": 1
+      "European Central Bank": 1,
+      "Bitcoin Optech": 1
     },
     "selected_by_source": {
-      "Cryptonews": 10,
-      "European Central Bank": 1
+      "NewsBTC": 3,
+      "Cryptonews": 7,
+      "European Central Bank": 1,
+      "Bitcoin Optech": 1
     }
   },
-  "count": 11,
+  "count": 12,
   "items": [
+    {
+      "title": "Uniswap Starts Routing External DEX Liquidity Through V4 Aggregator Hooks",
+      "link": "https://www.newsbtc.com/news/defi/uniswap-aggregator-hooks-live-external-liquidity-v4/",
+      "summary": "Uniswap has switched on Aggregator Hooks in its web app and API across Ethereum, Base and Robinhood Chain, bringing outside liquidity sources into the v4 routing system.",
+      "source": "NewsBTC",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792768500,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum Glamsterdam Upgrade Delayed Over Smart Contract Security Risks",
+      "link": "https://cryptonews.com/news/ethereum-glamsterdam-upgrade-delayed-over-smart-contract-security-risks/",
+      "summary": "Ethereum delays the Glamsterdam upgrade after smart contract security concerns, pushing Hoodi testnet activation off schedule.",
+      "source": "Cryptonews",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792751310,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "ECB Consumer Expectations Survey results – September 2026",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
+      "summary": "ECB Consumer Expectations Survey results – September 2026",
+      "source": "European Central Bank",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792742400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Optech Newsletter #428",
+      "link": "https://bitcoinops.org/en/newsletters/2026/10/23/",
+      "summary": "This week’s newsletter describes a design for a single-issuer layer 2 whose users can redeem their bitcoin onchain without the issuer’s cooperation and summarizes a proposal for including hash preimages in output script descriptors. Also included are our regular sections describing recent changes to services and client software, announcing new releases and release candidates, and describing notable changes to popular Bitcoin infrastructure software.",
+      "source": "Bitcoin Optech",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792713600,
+      "image_candidates": [],
+      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Paybis Adds iDEAL, BLIK, Multibanco and EPS for Buying Crypto in Europe",
+      "link": "https://www.newsbtc.com/news/paybis-adds-ideal-blik-multibanco-and-eps-for-buying-crypto-in-europe/",
+      "summary": "Customers in the Netherlands, Poland, Portugal and Austria can now buy crypto on Paybis through a banking app or a payment reference, with no card details needed. The four methods are the first wave of 13 local payment methods Paybis is adding. Riga, Latvia October 23, 2026 — Paybis, a global crypto exchange and payment infrastructure provider, today added four local payment methods for buying crypto in Europe. Customers can now pay with iDEAL in the Netherlands, BLIK in Poland, Multibanco in Portugal and EPS in Austria. Cards and bank transfers remain available, but they are no longer the onl",
+      "source": "NewsBTC",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792755009,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "JPMorgan Solana Push Brings MONY and JLTXX Into Tokenized Finance",
       "link": "https://cryptonews.com/news/jpmorgan-solana-push-brings-mony-and-jltxx-into-tokenized-finance/",
@@ -205,13 +278,13 @@
       "image_local": null
     },
     {
-      "title": "ECB Consumer Expectations Survey results – September 2026",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
-      "summary": "ECB Consumer Expectations Survey results – September 2026",
-      "source": "European Central Bank",
+      "title": "HTX Research Publishes Crypto Market Outlook Ahead of the 2026 U.S. Midterm Elections",
+      "link": "https://www.newsbtc.com/news/htx-research-publishes-crypto-market-outlook-ahead-of-the-2026-u-s-midterm-elections/",
+      "summary": "HTX Research, the dedicated research arm of HTX, has published a new report titled Crypto Market Outlook Before and After the 2026 U.S. Midterm Elections. The report finds that while the midterm elections may reshape policy expectations for the next two years, short-term crypto pricing remains governed by inflation, financing costs, and capital flows. Its base case for the period before and immediately after the vote is one of elevated volatility, repeated repricing, and divergence across assets, rather than a sustained rally driven by a single political narrative. The report examines how the ",
+      "source": "NewsBTC",
       "date": "2026-10-23",
       "date_human": "Oct 23, 2026",
-      "pub_ts": 1792742400,
+      "pub_ts": 1792753923,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -277,58 +350,6 @@
       "date": "2026-10-22",
       "date_human": "Oct 22, 2026",
       "pub_ts": 1792660213,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Dogecoin Expands Utility as Robinhood Memecoin Boom Reveals Crypto's Biggest Adoption Engine",
-      "link": "https://cryptonews.com/news/dogecoin-expands-utility-as-robinhood-memecoin-boom-reveals-cryptos-biggest-adoption-engine/",
-      "summary": "Dogecoin, Shiba Inu and Robinhood once again highlight how memecoins could drive on-chain adoption and bring more users into crypto.",
-      "source": "Cryptonews",
-      "date": "2026-10-22",
-      "date_human": "Oct 22, 2026",
-      "pub_ts": 1792657761,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "GENIUS Act Rules Are Reshaping the USDC vs. USDT Battle",
-      "link": "https://cryptonews.com/news/genius-act-rules-are-reshaping-the-usdc-vs-usdt-battle/",
-      "summary": "New GENIUS Act rules put Circle and Tether on different paths as USDC and USDT compete for US adoption and global stablecoin dominance.",
-      "source": "Cryptonews",
-      "date": "2026-10-22",
-      "date_human": "Oct 22, 2026",
-      "pub_ts": 1792655136,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "PHP Attack Threatens Crypto Safety: Should You Cash Out or Pull Funds From Exchanges?",
-      "link": "https://cryptonews.com/news/php-attack-threatens-crypto-safety-should-you-cash-out-or-pull-funds-from-exchanges/",
-      "summary": "Should you cash out? The PHP attack raises crypto safety concerns as experts urge vulnerable servers to patch critical flaws.",
-      "source": "Cryptonews",
-      "date": "2026-10-22",
-      "date_human": "Oct 22, 2026",
-      "pub_ts": 1792652651,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP Rallies on Ripple SEC Push as ETF Outflows Cloud Evernorth Debut",
-      "link": "https://cryptonews.com/news/xrp-news-rallies-on-ripple-sec-push-as-etf-outflows-cloud-evernorth-debut/",
-      "summary": "Ripple backs the SEC’s crypto rules as XRP ETF outflows return and Evernorth debuts on Nasdaq. Can this progress revive institutional demand?",
-      "source": "Cryptonews",
-      "date": "2026-10-21",
-      "date_human": "Oct 21, 2026",
-      "pub_ts": 1792589520,
       "image_candidates": [],
       "license_url": null,
       "image": null,
