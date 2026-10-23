@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-23",
-  "generated_at_utc": "2026-10-23 04:05:13 UTC",
+  "generated_at_utc": "2026-10-23 10:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-23T04:05:02.284703+00:00",
+    "collected_at": "2026-10-23T10:05:02.359844+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 3,
+        "eligible": 0,
         "rejected": {
-          "unreviewed_link": 7
+          "unreviewed_link": 10
         }
       },
       {
@@ -49,11 +49,10 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 10,
-        "within_window": 19,
-        "eligible": 11,
+        "within_window": 20,
+        "eligible": 10,
         "rejected": {
-          "topic_author_or_category": 8,
-          "older_than_window": 1
+          "topic_author_or_category": 10
         }
       },
       {
@@ -97,12 +96,11 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 2,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "unreviewed_link": 2,
-          "older_than_window": 13
+          "older_than_window": 14
         }
       },
       {
@@ -179,28 +177,67 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 11
+      "Cryptonews": 10,
+      "European Central Bank": 1
     },
     "unique_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 11
+      "Cryptonews": 10,
+      "European Central Bank": 1
     },
     "selected_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 9
+      "Cryptonews": 10,
+      "European Central Bank": 1
     }
   },
-  "count": 12,
+  "count": 11,
   "items": [
     {
-      "title": "TRON Settles $2.2T in Q3, Captures 73% of All Stablecoin Volume as First TRX ETF Launches: CoinDesk and Nansen",
-      "link": "https://www.newsbtc.com/news/tron-settles-2-2t-in-q3-captures-73-of-all-stablecoin-volume-as-first-trx-etf-launches-coindesk-and-nansen/",
-      "summary": "Geneva, Switzerland, October 22, 2026 — TRON reinforced its position as a leading blockchain network for stablecoin settlement in the third quarter of 2026, with trillions in transaction volume, record USDT supply, growing payment card adoption, and the debut of the first U.S. spot staked TRX exchange-traded fund (ETF), according to independent research reports from CoinDesk Data and Nansen. CoinDesk CoinDesk’s TRON Network Quarterly Report: Q3 2026 provides a technical assessment of the TRON network from July to September 2026. The findings span network and ecosystem developments, core on-cha",
-      "source": "NewsBTC",
-      "date": "2026-10-22",
-      "date_human": "Oct 22, 2026",
-      "pub_ts": 1792693655,
+      "title": "JPMorgan Solana Push Brings MONY and JLTXX Into Tokenized Finance",
+      "link": "https://cryptonews.com/news/jpmorgan-solana-push-brings-mony-and-jltxx-into-tokenized-finance/",
+      "summary": "JPMorgan Solana expansion brings MONY and JLTXX to the blockchain as SOL price forecasts point to potential upside amid growing institutional adoption.",
+      "source": "Cryptonews",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792749137,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "ECB Consumer Expectations Survey results – September 2026",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
+      "summary": "ECB Consumer Expectations Survey results – September 2026",
+      "source": "European Central Bank",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792742400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Is Monero Traceable? What the FCMP++ Upgrade Changes, and When",
+      "link": "https://cryptonews.com/news/is-monero-traceable-what-the-fcmp-upgrade-changes-and-when/",
+      "summary": "Monero (XMR) is built so that an outside observer cannot see who paid whom, or how much. Every transaction hides its sender, its receiver, and its amount by default, and there is no way to send a transparent Monero payment by mistake. That is why the question “Is Monero traceable?” usually gets a short answer: […]",
+      "source": "Cryptonews",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792744825,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Is Busier Than Ever, but Bitcoin Mining Isn't Getting Paid More",
+      "link": "https://cryptonews.com/news/bitcoin-busier-than-ever-mining-not-getting-paid/",
+      "summary": "Bitcoin transaction activity is rising, but miner fee revenue remains weak. What the data means for Bitcoin and mining-pool concentration.",
+      "source": "Cryptonews",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792738085,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -220,19 +257,6 @@
       "image_local": null
     },
     {
-      "title": "Dogecoin Labs Brings MyDoge And DogeOS Together In Commercial Reset",
-      "link": "https://www.newsbtc.com/news/dogecoin/dogecoin-labs-mydoge-dogeos-house-of-doge/",
-      "summary": "Dogecoin Labs is bringing wallet, payment and application teams into one organization. House of Doge says it will contribute operations for an equity stake while retaining rights tied to investment products.",
-      "source": "NewsBTC",
-      "date": "2026-10-22",
-      "date_human": "Oct 22, 2026",
-      "pub_ts": 1792691400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "ETH to XMR: How to Swap Ethereum to Monero Without an Account as XMR Outpaces Ether",
       "link": "https://cryptonews.com/news/eth-to-xmr-how-to-swap-ethereum-to-monero-without-an-account-as-xmr-outpaces-ether/",
       "summary": "One Ether (ETH) now swaps for about 3.7 Monero (XMR), down from almost 13 a year ago. On October 22, 2025, ETH traded near $3,866 and XMR near $305, according to CoinGecko. On October 22, 2026, ETH is worth around $2,400 and XMR around $645: Monero has more than doubled over the year, while Ether […]",
@@ -240,19 +264,6 @@
       "date": "2026-10-22",
       "date_human": "Oct 22, 2026",
       "pub_ts": 1792660282,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Solana Activates Alpenglow As Anza Targets Millisecond Finality",
-      "link": "https://www.newsbtc.com/news/solana/solana-alpenglow-mainnet-finality-october-21/",
-      "summary": "Anza says Alpenglow activated on Solana mainnet-beta on October 21. The consensus change targets roughly 150-millisecond finality; further networking and post-quantum improvements remain planned work.",
-      "source": "NewsBTC",
-      "date": "2026-10-22",
-      "date_human": "Oct 22, 2026",
-      "pub_ts": 1792686600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -318,32 +329,6 @@
       "date": "2026-10-21",
       "date_human": "Oct 21, 2026",
       "pub_ts": 1792589520,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Ethereum Price Disappoints: Bitmine Fails to Offset ETF Exodus",
-      "link": "https://cryptonews.com/news/ethereum-price-disappoints-as-bitmine-buying-fails-to-offset-389m-etf-exodus/",
-      "summary": "ETH rebounds toward $2,500 as Bitmine nears 5% of supply, while U.S. Ethereum ETFs record $389M in five-session outflows.",
-      "source": "Cryptonews",
-      "date": "2026-10-21",
-      "date_human": "Oct 21, 2026",
-      "pub_ts": 1792584095,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Pearl Crypto Price Explodes: Coinbase Buzz Fuels Mystery Rally",
-      "link": "https://cryptonews.com/news/pearl-crypto-price-explodes-coinbase-buzz-fuels-mystery-rally/",
-      "summary": "Pearl Crypto jumps 80% in a week as Coinbase buzz fuels a mystery rally. Can PEARL break higher as AI hype builds?",
-      "source": "Cryptonews",
-      "date": "2026-10-21",
-      "date_human": "Oct 21, 2026",
-      "pub_ts": 1792577193,
       "image_candidates": [],
       "license_url": null,
       "image": null,
