@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-24",
-  "generated_at_utc": "2026-10-24 04:05:09 UTC",
+  "generated_at_utc": "2026-10-24 10:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-24T04:05:02.931348+00:00",
+    "collected_at": "2026-10-24T10:05:04.551679+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 1,
+        "eligible": 0,
         "rejected": {
-          "unreviewed_link": 9
+          "unreviewed_link": 10
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 7,
-        "within_window": 17,
-        "eligible": 10,
+        "within_24h": 2,
+        "within_window": 12,
+        "eligible": 5,
         "rejected": {
           "unreviewed_link": 1,
           "topic_author_or_category": 6,
-          "older_than_window": 3
+          "older_than_window": 8
         }
       },
       {
@@ -100,10 +100,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 1,
-        "within_window": 1,
+        "within_window": 2,
         "eligible": 1,
         "rejected": {
-          "older_than_window": 14
+          "unreviewed_link": 1,
+          "older_than_window": 13
         }
       },
       {
@@ -180,39 +181,23 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 1,
-      "Cryptonews": 10,
+      "Cryptonews": 5,
       "European Central Bank": 1,
       "Bitcoin Optech": 1
     },
     "unique_by_source": {
-      "NewsBTC": 1,
-      "Cryptonews": 10,
+      "Cryptonews": 5,
       "European Central Bank": 1,
       "Bitcoin Optech": 1
     },
     "selected_by_source": {
-      "NewsBTC": 1,
-      "Cryptonews": 9,
+      "Cryptonews": 5,
       "European Central Bank": 1,
       "Bitcoin Optech": 1
     }
   },
-  "count": 12,
+  "count": 7,
   "items": [
-    {
-      "title": "Uniswap Starts Routing External DEX Liquidity Through V4 Aggregator Hooks",
-      "link": "https://www.newsbtc.com/news/defi/uniswap-aggregator-hooks-live-external-liquidity-v4/",
-      "summary": "Uniswap has switched on Aggregator Hooks in its web app and API across Ethereum, Base and Robinhood Chain, bringing outside liquidity sources into the v4 routing system.",
-      "source": "NewsBTC",
-      "date": "2026-10-23",
-      "date_human": "Oct 23, 2026",
-      "pub_ts": 1792768500,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
     {
       "title": "Ethereum Glamsterdam Upgrade Delayed Over Smart Contract Security Risks",
       "link": "https://cryptonews.com/news/ethereum-glamsterdam-upgrade-delayed-over-smart-contract-security-risks/",
@@ -299,58 +284,6 @@
       "date": "2026-10-22",
       "date_human": "Oct 22, 2026",
       "pub_ts": 1792675680,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "ETH to XMR: How to Swap Ethereum to Monero Without an Account as XMR Outpaces Ether",
-      "link": "https://cryptonews.com/news/eth-to-xmr-how-to-swap-ethereum-to-monero-without-an-account-as-xmr-outpaces-ether/",
-      "summary": "One Ether (ETH) now swaps for about 3.7 Monero (XMR), down from almost 13 a year ago. On October 22, 2025, ETH traded near $3,866 and XMR near $305, according to CoinGecko. On October 22, 2026, ETH is worth around $2,400 and XMR around $645: Monero has more than doubled over the year, while Ether […]",
-      "source": "Cryptonews",
-      "date": "2026-10-22",
-      "date_human": "Oct 22, 2026",
-      "pub_ts": 1792660282,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin ETFs Pull In $1.07B as Irish Drug Trafficker-Linked Wallet Moves $41M",
-      "link": "https://cryptonews.com/news/bitcoin-etf-pull-in-1-07b-as-irish-drug-trafficker-linked-wallet-moves-41m/",
-      "summary": "Bitcoin ETF pulled $1.07 billion in three days as a wallet linked to Irish drug trafficker Clifton Collins moved 500 BTC to Coinbase Prime.",
-      "source": "Cryptonews",
-      "date": "2026-10-22",
-      "date_human": "Oct 22, 2026",
-      "pub_ts": 1792660213,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Dogecoin Expands Utility as Robinhood Memecoin Boom Reveals Crypto's Biggest Adoption Engine",
-      "link": "https://cryptonews.com/news/dogecoin-expands-utility-as-robinhood-memecoin-boom-reveals-cryptos-biggest-adoption-engine/",
-      "summary": "Dogecoin, Shiba Inu and Robinhood once again highlight how memecoins could drive on-chain adoption and bring more users into crypto.",
-      "source": "Cryptonews",
-      "date": "2026-10-22",
-      "date_human": "Oct 22, 2026",
-      "pub_ts": 1792657761,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "GENIUS Act Rules Are Reshaping the USDC vs. USDT Battle",
-      "link": "https://cryptonews.com/news/genius-act-rules-are-reshaping-the-usdc-vs-usdt-battle/",
-      "summary": "New GENIUS Act rules put Circle and Tether on different paths as USDC and USDT compete for US adoption and global stablecoin dominance.",
-      "source": "Cryptonews",
-      "date": "2026-10-22",
-      "date_human": "Oct 22, 2026",
-      "pub_ts": 1792655136,
       "image_candidates": [],
       "license_url": null,
       "image": null,
