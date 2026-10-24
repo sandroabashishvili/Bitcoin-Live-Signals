@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-24",
-  "generated_at_utc": "2026-10-24 10:05:11 UTC",
+  "generated_at_utc": "2026-10-24 16:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-24T10:05:04.551679+00:00",
+    "collected_at": "2026-10-24T16:05:04.163278+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 0,
+        "eligible": 1,
         "rejected": {
-          "unreviewed_link": 10
+          "unreviewed_link": 9
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 2,
-        "within_window": 12,
-        "eligible": 5,
+        "within_24h": 0,
+        "within_window": 10,
+        "eligible": 4,
         "rejected": {
           "unreviewed_link": 1,
-          "topic_author_or_category": 6,
-          "older_than_window": 8
+          "topic_author_or_category": 5,
+          "older_than_window": 10
         }
       },
       {
@@ -86,7 +86,7 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -181,23 +181,39 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 5,
+      "NewsBTC": 1,
+      "Cryptonews": 4,
       "European Central Bank": 1,
       "Bitcoin Optech": 1
     },
     "unique_by_source": {
-      "Cryptonews": 5,
+      "NewsBTC": 1,
+      "Cryptonews": 4,
       "European Central Bank": 1,
       "Bitcoin Optech": 1
     },
     "selected_by_source": {
-      "Cryptonews": 5,
+      "NewsBTC": 1,
+      "Cryptonews": 4,
       "European Central Bank": 1,
       "Bitcoin Optech": 1
     }
   },
   "count": 7,
   "items": [
+    {
+      "title": "JST Buyback & Burn Upgrade: GasFree Revenue and $20.34M Surplus Injected as JUST's Ecosystem Trio Solidifies JST Token Value",
+      "link": "https://www.newsbtc.com/news/jst-buyback-burn-upgrade-gasfree-revenue-and-20-34m-surplus-injected-as-justs-ecosystem-trio-solidifies-jst-token-value/",
+      "summary": "Summary: The upgraded JST Buyback and Burn program features the following highlights: $50M Treasury Reserve Cushion: Establishes a safety buffer for sustainable ecosystem operations. Expanded Funding Sources: Integrates GasFree revenue alongside JustLend and USDD to cover 100% of JUST core products. ~$20.34M Capital Injection: Unlocks legacy surplus funds to be released in phases for future buybacks. JUST DAO Execution: Complete on-chain execution with full transparency and open-source verification. Following its recent brand refresh on October 23, JUST—the flagship on-chain DeFi infrastructur",
+      "source": "NewsBTC",
+      "date": "2026-10-24",
+      "date_human": "Oct 24, 2026",
+      "pub_ts": 1792844835,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Ethereum Glamsterdam Upgrade Delayed Over Smart Contract Security Risks",
       "link": "https://cryptonews.com/news/ethereum-glamsterdam-upgrade-delayed-over-smart-contract-security-risks/",
@@ -271,19 +287,6 @@
       "date": "2026-10-23",
       "date_human": "Oct 23, 2026",
       "pub_ts": 1792738085,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP Price Falls as Crypto Longs Get Wiped Out and XRPL Upgrade Delayed",
-      "link": "https://cryptonews.com/news/xrp-price-falls-crypto-longs-wiped-out-xrpl-upgrade-delayed/",
-      "summary": "XRP Price falls toward $1.33 as crypto liquidations top $220 million. The XRPL upgrade is delayed to November 4 after validator support dips.",
-      "source": "Cryptonews",
-      "date": "2026-10-22",
-      "date_human": "Oct 22, 2026",
-      "pub_ts": 1792675680,
       "image_candidates": [],
       "license_url": null,
       "image": null,
