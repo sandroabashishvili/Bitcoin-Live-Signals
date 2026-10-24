@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-23",
-  "generated_at_utc": "2026-10-23 16:05:07 UTC",
+  "generated_at_utc": "2026-10-23 22:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-23T16:05:01.450881+00:00",
+    "collected_at": "2026-10-23T22:05:03.736711+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 3,
+        "eligible": 1,
         "rejected": {
-          "unreviewed_link": 7
+          "unreviewed_link": 9
         }
       },
       {
@@ -48,12 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 10,
-        "within_window": 20,
+        "within_24h": 8,
+        "within_window": 18,
         "eligible": 10,
         "rejected": {
           "unreviewed_link": 1,
-          "topic_author_or_category": 9
+          "topic_author_or_category": 7,
+          "older_than_window": 2
         }
       },
       {
@@ -179,20 +180,20 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 3,
+      "NewsBTC": 1,
       "Cryptonews": 10,
       "European Central Bank": 1,
       "Bitcoin Optech": 1
     },
     "unique_by_source": {
-      "NewsBTC": 3,
+      "NewsBTC": 1,
       "Cryptonews": 10,
       "European Central Bank": 1,
       "Bitcoin Optech": 1
     },
     "selected_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 7,
+      "NewsBTC": 1,
+      "Cryptonews": 9,
       "European Central Bank": 1,
       "Bitcoin Optech": 1
     }
@@ -252,19 +253,6 @@
       "image_local": null
     },
     {
-      "title": "Paybis Adds iDEAL, BLIK, Multibanco and EPS for Buying Crypto in Europe",
-      "link": "https://www.newsbtc.com/news/paybis-adds-ideal-blik-multibanco-and-eps-for-buying-crypto-in-europe/",
-      "summary": "Customers in the Netherlands, Poland, Portugal and Austria can now buy crypto on Paybis through a banking app or a payment reference, with no card details needed. The four methods are the first wave of 13 local payment methods Paybis is adding. Riga, Latvia October 23, 2026 — Paybis, a global crypto exchange and payment infrastructure provider, today added four local payment methods for buying crypto in Europe. Customers can now pay with iDEAL in the Netherlands, BLIK in Poland, Multibanco in Portugal and EPS in Austria. Cards and bank transfers remain available, but they are no longer the onl",
-      "source": "NewsBTC",
-      "date": "2026-10-23",
-      "date_human": "Oct 23, 2026",
-      "pub_ts": 1792755009,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "JPMorgan Solana Push Brings MONY and JLTXX Into Tokenized Finance",
       "link": "https://cryptonews.com/news/jpmorgan-solana-push-brings-mony-and-jltxx-into-tokenized-finance/",
       "summary": "JPMorgan Solana expansion brings MONY and JLTXX to the blockchain as SOL price forecasts point to potential upside amid growing institutional adoption.",
@@ -272,19 +260,6 @@
       "date": "2026-10-23",
       "date_human": "Oct 23, 2026",
       "pub_ts": 1792749137,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "HTX Research Publishes Crypto Market Outlook Ahead of the 2026 U.S. Midterm Elections",
-      "link": "https://www.newsbtc.com/news/htx-research-publishes-crypto-market-outlook-ahead-of-the-2026-u-s-midterm-elections/",
-      "summary": "HTX Research, the dedicated research arm of HTX, has published a new report titled Crypto Market Outlook Before and After the 2026 U.S. Midterm Elections. The report finds that while the midterm elections may reshape policy expectations for the next two years, short-term crypto pricing remains governed by inflation, financing costs, and capital flows. Its base case for the period before and immediately after the vote is one of elevated volatility, repeated repricing, and divergence across assets, rather than a sustained rally driven by a single political narrative. The report examines how the ",
-      "source": "NewsBTC",
-      "date": "2026-10-23",
-      "date_human": "Oct 23, 2026",
-      "pub_ts": 1792753923,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -350,6 +325,32 @@
       "date": "2026-10-22",
       "date_human": "Oct 22, 2026",
       "pub_ts": 1792660213,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Dogecoin Expands Utility as Robinhood Memecoin Boom Reveals Crypto's Biggest Adoption Engine",
+      "link": "https://cryptonews.com/news/dogecoin-expands-utility-as-robinhood-memecoin-boom-reveals-cryptos-biggest-adoption-engine/",
+      "summary": "Dogecoin, Shiba Inu and Robinhood once again highlight how memecoins could drive on-chain adoption and bring more users into crypto.",
+      "source": "Cryptonews",
+      "date": "2026-10-22",
+      "date_human": "Oct 22, 2026",
+      "pub_ts": 1792657761,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "GENIUS Act Rules Are Reshaping the USDC vs. USDT Battle",
+      "link": "https://cryptonews.com/news/genius-act-rules-are-reshaping-the-usdc-vs-usdt-battle/",
+      "summary": "New GENIUS Act rules put Circle and Tether on different paths as USDC and USDT compete for US adoption and global stablecoin dominance.",
+      "source": "Cryptonews",
+      "date": "2026-10-22",
+      "date_human": "Oct 22, 2026",
+      "pub_ts": 1792655136,
       "image_candidates": [],
       "license_url": null,
       "image": null,

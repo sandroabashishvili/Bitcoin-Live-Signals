@@ -1,0 +1,360 @@
+{
+  "day_iso": "2026-10-24",
+  "generated_at_utc": "2026-10-24 04:05:09 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-10-24T04:05:02.931348+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 1,
+        "rejected": {
+          "unreviewed_link": 9
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 7,
+        "within_window": 17,
+        "eligible": 10,
+        "rejected": {
+          "unreviewed_link": 1,
+          "topic_author_or_category": 6,
+          "older_than_window": 3
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 48,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 48
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 24
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 14
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 9
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 20
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 1,
+      "Cryptonews": 10,
+      "European Central Bank": 1,
+      "Bitcoin Optech": 1
+    },
+    "unique_by_source": {
+      "NewsBTC": 1,
+      "Cryptonews": 10,
+      "European Central Bank": 1,
+      "Bitcoin Optech": 1
+    },
+    "selected_by_source": {
+      "NewsBTC": 1,
+      "Cryptonews": 9,
+      "European Central Bank": 1,
+      "Bitcoin Optech": 1
+    }
+  },
+  "count": 12,
+  "items": [
+    {
+      "title": "Uniswap Starts Routing External DEX Liquidity Through V4 Aggregator Hooks",
+      "link": "https://www.newsbtc.com/news/defi/uniswap-aggregator-hooks-live-external-liquidity-v4/",
+      "summary": "Uniswap has switched on Aggregator Hooks in its web app and API across Ethereum, Base and Robinhood Chain, bringing outside liquidity sources into the v4 routing system.",
+      "source": "NewsBTC",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792768500,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum Glamsterdam Upgrade Delayed Over Smart Contract Security Risks",
+      "link": "https://cryptonews.com/news/ethereum-glamsterdam-upgrade-delayed-over-smart-contract-security-risks/",
+      "summary": "Ethereum delays the Glamsterdam upgrade after smart contract security concerns, pushing Hoodi testnet activation off schedule.",
+      "source": "Cryptonews",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792751310,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "ECB Consumer Expectations Survey results – September 2026",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
+      "summary": "ECB Consumer Expectations Survey results – September 2026",
+      "source": "European Central Bank",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792742400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Optech Newsletter #428",
+      "link": "https://bitcoinops.org/en/newsletters/2026/10/23/",
+      "summary": "This week’s newsletter describes a design for a single-issuer layer 2 whose users can redeem their bitcoin onchain without the issuer’s cooperation and summarizes a proposal for including hash preimages in output script descriptors. Also included are our regular sections describing recent changes to services and client software, announcing new releases and release candidates, and describing notable changes to popular Bitcoin infrastructure software.",
+      "source": "Bitcoin Optech",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792713600,
+      "image_candidates": [],
+      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "JPMorgan Solana Push Brings MONY and JLTXX Into Tokenized Finance",
+      "link": "https://cryptonews.com/news/jpmorgan-solana-push-brings-mony-and-jltxx-into-tokenized-finance/",
+      "summary": "JPMorgan Solana expansion brings MONY and JLTXX to the blockchain as SOL price forecasts point to potential upside amid growing institutional adoption.",
+      "source": "Cryptonews",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792749137,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Is Monero Traceable? What the FCMP++ Upgrade Changes, and When",
+      "link": "https://cryptonews.com/news/is-monero-traceable-what-the-fcmp-upgrade-changes-and-when/",
+      "summary": "Monero (XMR) is built so that an outside observer cannot see who paid whom, or how much. Every transaction hides its sender, its receiver, and its amount by default, and there is no way to send a transparent Monero payment by mistake. That is why the question “Is Monero traceable?” usually gets a short answer: […]",
+      "source": "Cryptonews",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792744825,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Is Busier Than Ever, but Bitcoin Mining Isn't Getting Paid More",
+      "link": "https://cryptonews.com/news/bitcoin-busier-than-ever-mining-not-getting-paid/",
+      "summary": "Bitcoin transaction activity is rising, but miner fee revenue remains weak. What the data means for Bitcoin and mining-pool concentration.",
+      "source": "Cryptonews",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792738085,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Price Falls as Crypto Longs Get Wiped Out and XRPL Upgrade Delayed",
+      "link": "https://cryptonews.com/news/xrp-price-falls-crypto-longs-wiped-out-xrpl-upgrade-delayed/",
+      "summary": "XRP Price falls toward $1.33 as crypto liquidations top $220 million. The XRPL upgrade is delayed to November 4 after validator support dips.",
+      "source": "Cryptonews",
+      "date": "2026-10-22",
+      "date_human": "Oct 22, 2026",
+      "pub_ts": 1792675680,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "ETH to XMR: How to Swap Ethereum to Monero Without an Account as XMR Outpaces Ether",
+      "link": "https://cryptonews.com/news/eth-to-xmr-how-to-swap-ethereum-to-monero-without-an-account-as-xmr-outpaces-ether/",
+      "summary": "One Ether (ETH) now swaps for about 3.7 Monero (XMR), down from almost 13 a year ago. On October 22, 2025, ETH traded near $3,866 and XMR near $305, according to CoinGecko. On October 22, 2026, ETH is worth around $2,400 and XMR around $645: Monero has more than doubled over the year, while Ether […]",
+      "source": "Cryptonews",
+      "date": "2026-10-22",
+      "date_human": "Oct 22, 2026",
+      "pub_ts": 1792660282,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin ETFs Pull In $1.07B as Irish Drug Trafficker-Linked Wallet Moves $41M",
+      "link": "https://cryptonews.com/news/bitcoin-etf-pull-in-1-07b-as-irish-drug-trafficker-linked-wallet-moves-41m/",
+      "summary": "Bitcoin ETF pulled $1.07 billion in three days as a wallet linked to Irish drug trafficker Clifton Collins moved 500 BTC to Coinbase Prime.",
+      "source": "Cryptonews",
+      "date": "2026-10-22",
+      "date_human": "Oct 22, 2026",
+      "pub_ts": 1792660213,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Dogecoin Expands Utility as Robinhood Memecoin Boom Reveals Crypto's Biggest Adoption Engine",
+      "link": "https://cryptonews.com/news/dogecoin-expands-utility-as-robinhood-memecoin-boom-reveals-cryptos-biggest-adoption-engine/",
+      "summary": "Dogecoin, Shiba Inu and Robinhood once again highlight how memecoins could drive on-chain adoption and bring more users into crypto.",
+      "source": "Cryptonews",
+      "date": "2026-10-22",
+      "date_human": "Oct 22, 2026",
+      "pub_ts": 1792657761,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "GENIUS Act Rules Are Reshaping the USDC vs. USDT Battle",
+      "link": "https://cryptonews.com/news/genius-act-rules-are-reshaping-the-usdc-vs-usdt-battle/",
+      "summary": "New GENIUS Act rules put Circle and Tether on different paths as USDC and USDT compete for US adoption and global stablecoin dominance.",
+      "source": "Cryptonews",
+      "date": "2026-10-22",
+      "date_human": "Oct 22, 2026",
+      "pub_ts": 1792655136,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}
