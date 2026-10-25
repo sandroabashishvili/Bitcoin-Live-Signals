@@ -1,0 +1,293 @@
+{
+  "day_iso": "2026-10-25",
+  "generated_at_utc": "2026-10-25 05:05:10 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-10-25T05:05:05.308404+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 2,
+        "rejected": {
+          "unreviewed_link": 8
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 7,
+        "eligible": 4,
+        "rejected": {
+          "unreviewed_link": 1,
+          "topic_author_or_category": 2,
+          "older_than_window": 13
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 48,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 48
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 24
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 1,
+        "within_window": 2,
+        "eligible": 1,
+        "rejected": {
+          "unreviewed_link": 1,
+          "older_than_window": 13
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 20
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 2,
+      "Cryptonews": 4,
+      "European Central Bank": 1
+    },
+    "unique_by_source": {
+      "NewsBTC": 2,
+      "Cryptonews": 4,
+      "European Central Bank": 1
+    },
+    "selected_by_source": {
+      "NewsBTC": 2,
+      "Cryptonews": 4,
+      "European Central Bank": 1
+    }
+  },
+  "count": 7,
+  "items": [
+    {
+      "title": "Aave Says V3.8 Security Proposal Preserves Flash-Loan Liquidations",
+      "link": "https://www.newsbtc.com/news/defi/aave-v3-8-flash-loan-liquidation-guard-proposal/",
+      "summary": "Aave’s V3.8 clarification addresses how its proposed security guard would interact with flash-loan integrations and liquidations.",
+      "source": "NewsBTC",
+      "date": "2026-10-25",
+      "date_human": "Oct 25, 2026",
+      "pub_ts": 1792893600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum Glamsterdam Upgrade Delayed Over Smart Contract Security Risks",
+      "link": "https://cryptonews.com/news/ethereum-glamsterdam-upgrade-delayed-over-smart-contract-security-risks/",
+      "summary": "Ethereum delays the Glamsterdam upgrade after smart contract security concerns, pushing Hoodi testnet activation off schedule.",
+      "source": "Cryptonews",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792751310,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "ECB Consumer Expectations Survey results – September 2026",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
+      "summary": "ECB Consumer Expectations Survey results – September 2026",
+      "source": "European Central Bank",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792742400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Aave Opens Its First Externally Curated V4 Markets With Sentora",
+      "link": "https://www.newsbtc.com/news/defi/aave-v4-sentora-externally-curated-markets/",
+      "summary": "Sentora is managing Aave V4’s first externally curated markets, bringing a new division of lending strategy, liquidity and governance controls to Ethereum.",
+      "source": "NewsBTC",
+      "date": "2026-10-25",
+      "date_human": "Oct 25, 2026",
+      "pub_ts": 1792890000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "JPMorgan Solana Push Brings MONY and JLTXX Into Tokenized Finance",
+      "link": "https://cryptonews.com/news/jpmorgan-solana-push-brings-mony-and-jltxx-into-tokenized-finance/",
+      "summary": "JPMorgan Solana expansion brings MONY and JLTXX to the blockchain as SOL price forecasts point to potential upside amid growing institutional adoption.",
+      "source": "Cryptonews",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792749137,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Is Monero Traceable? What the FCMP++ Upgrade Changes, and When",
+      "link": "https://cryptonews.com/news/is-monero-traceable-what-the-fcmp-upgrade-changes-and-when/",
+      "summary": "Monero (XMR) is built so that an outside observer cannot see who paid whom, or how much. Every transaction hides its sender, its receiver, and its amount by default, and there is no way to send a transparent Monero payment by mistake. That is why the question “Is Monero traceable?” usually gets a short answer: […]",
+      "source": "Cryptonews",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792744825,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Is Busier Than Ever, but Bitcoin Mining Isn't Getting Paid More",
+      "link": "https://cryptonews.com/news/bitcoin-busier-than-ever-mining-not-getting-paid/",
+      "summary": "Bitcoin transaction activity is rising, but miner fee revenue remains weak. What the data means for Bitcoin and mining-pool concentration.",
+      "source": "Cryptonews",
+      "date": "2026-10-23",
+      "date_human": "Oct 23, 2026",
+      "pub_ts": 1792738085,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}
