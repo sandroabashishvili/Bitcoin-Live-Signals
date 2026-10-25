@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-25",
-  "generated_at_utc": "2026-10-25 11:05:09 UTC",
+  "generated_at_utc": "2026-10-25 17:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-25T11:05:03.736275+00:00",
+    "collected_at": "2026-10-25T17:05:06.509666+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 2,
+        "eligible": 3,
         "rejected": {
-          "unreviewed_link": 8
+          "unreviewed_link": 7
         }
       },
       {
@@ -49,11 +49,10 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 1,
-          "older_than_window": 19
+          "older_than_window": 20
         }
       },
       {
@@ -86,11 +85,10 @@
         "status": "ok",
         "entries": 25,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 24
+          "older_than_window": 25
         }
       },
       {
@@ -169,49 +167,60 @@
       {
         "source": "Federal Reserve Board",
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-        "status": "ok",
-        "entries": 20,
+        "status": "failed",
+        "entries": 0,
         "within_24h": 0,
         "within_window": 0,
         "eligible": 0,
-        "rejected": {
-          "older_than_window": 20
-        }
+        "rejected": {}
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 2
+      "NewsBTC": 3
     },
     "unique_by_source": {
-      "NewsBTC": 2
+      "NewsBTC": 3
     },
     "selected_by_source": {
-      "NewsBTC": 2
+      "NewsBTC": 3
     }
   },
-  "count": 2,
+  "count": 3,
   "items": [
     {
-      "title": "Aave Says V3.8 Security Proposal Preserves Flash-Loan Liquidations",
-      "link": "https://www.newsbtc.com/news/defi/aave-v3-8-flash-loan-liquidation-guard-proposal/",
-      "summary": "Aave’s V3.8 clarification addresses how its proposed security guard would interact with flash-loan integrations and liquidations.",
+      "title": "Cardano Leios Plan Makes Higher Throughput A Series Of Votes And Tests",
+      "link": "https://www.newsbtc.com/news/cardano/cardano-leios-staged-throughput-governance-roadmap/",
+      "summary": "Cardano's Leios scaling plan has a launch sequence that extends well beyond the hard fork. Input Output's October 20 roadmap describes a gradual increase in capacity, with operator preparation and live-network evidence between the major steps.",
       "source": "NewsBTC",
       "date": "2026-10-25",
       "date_human": "Oct 25, 2026",
-      "pub_ts": 1792893600,
+      "pub_ts": 1792944000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Aave Opens Its First Externally Curated V4 Markets With Sentora",
-      "link": "https://www.newsbtc.com/news/defi/aave-v4-sentora-externally-curated-markets/",
-      "summary": "Sentora is managing Aave V4’s first externally curated markets, bringing a new division of lending strategy, liquidity and governance controls to Ethereum.",
+      "title": "Hydra Test Replays Midnight Claims And Finds A Smaller, More Useful Speed Gain",
+      "link": "https://www.newsbtc.com/news/cardano/cardano-hydra-v2-midnight-claims-benchmark/",
+      "summary": "A new Cardano scaling test has an unusually useful feature: it explains why its headline speed gain is smaller than the biggest numbers attached to the technology. Input Output's October 22 Hydra report replays a real application workload and measures what changed.",
       "source": "NewsBTC",
       "date": "2026-10-25",
       "date_human": "Oct 25, 2026",
-      "pub_ts": 1792890000,
+      "pub_ts": 1792936800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Cardano Opens Dijkstra Testnet While The Upgrade Itself Awaits Its Next Step",
+      "link": "https://www.newsbtc.com/news/cardano/cardano-dijkstra-public-testnet-conway-upgrade-step/",
+      "summary": "Cardano developers now have a public environment for preparing the Dijkstra upgrade, but its name needs careful reading. The test network is available; the transition to Dijkstra's new protocol rules is still a separate step.",
+      "source": "NewsBTC",
+      "date": "2026-10-25",
+      "date_human": "Oct 25, 2026",
+      "pub_ts": 1792933200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
