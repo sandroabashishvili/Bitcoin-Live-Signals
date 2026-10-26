@@ -111,7 +111,7 @@ def test_request_cursor_does_not_send_conflicting_time_parameters(monkeypatch):
         def __exit__(self,*a):pass
         def read(self):return b'[]'
     urls=[]
-    monkeypatch.setattr(module,'urlopen',lambda url,**kw:urls.append(url) or Response())
+    monkeypatch.setattr(module,'urlopen',lambda request,**kw:urls.append(request.full_url) or Response())
     BinanceFuturesOrderflowService()._request_aggtrades(symbol='BTCUSDT',from_id=123,limit=1000)
     assert parse_qs(urlparse(urls[0]).query)=={'symbol':['BTCUSDT'],'fromId':['123'],'limit':['1000']}
 

@@ -8,7 +8,6 @@ Purpose: Collect complete closed-window Binance Futures executed trade flow.
 
 from __future__ import annotations
 
-import json
 import math
 import time
 from dataclasses import asdict
@@ -16,6 +15,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlencode
 from urllib.request import urlopen
+
+from platform_v2.shared.backend.market import BinancePublicHttpClient
 
 from platform_v2.futures.domain.models.orderbook_snapshot import OrderbookSnapshot
 from platform_v2.futures.storage import orderflow_file_path
@@ -74,7 +75,7 @@ class BinanceFuturesOrderflowService:
         return int(timeframe[:-1]) * (60000 if timeframe.endswith('m') else 3600000)
 
     def _collect_window(self, symbol, start, end, limit, max_pages, deadline_seconds):
-        if not 1 <= limit <= 1000 or max_pages < 1 or deadline_seconds <= 0:
+        if not 1 <= limit <= 1000 or max_pages < 1 or not math.isfinite(deadline_seconds) or deadline_seconds <= 0:
             raise ValueError('Invalid orderflow request budget')
         deadline = time.monotonic() + deadline_seconds
         cursor = None
@@ -82,9 +83,11 @@ class BinanceFuturesOrderflowService:
         collected = []
         for pages in range(1, max_pages + 1):
             if time.monotonic() >= deadline:
-                raise RuntimeError('Orderflow pagination deadline exceeded; no snapshot published')
+                raise TimeoutError('Orderflow pagination deadline exceeded; no snapshot published')
             page = self._request_aggtrades(symbol=symbol, start_time=start if cursor is None else None,
-                end_time=end if cursor is None else None, from_id=cursor, limit=limit)
+                end_time=end if cursor is None else None, from_id=cursor, limit=limit, deadline=deadline)
+            if time.monotonic() >= deadline:
+                raise TimeoutError('Orderflow pagination deadline exceeded; no snapshot published')
             if not isinstance(page, list) or len(page) > limit:
                 raise ValueError('Invalid aggregate-trade page')
             previous_id = previous_time = None
@@ -125,6 +128,7 @@ class BinanceFuturesOrderflowService:
         end_time: int | None = None,
         limit: int,
         from_id: int | None = None,
+        deadline: float | None = None,
     ) -> list[dict]:
         """Fetch raw aggTrades payload from Binance."""
 
@@ -135,11 +139,7 @@ class BinanceFuturesOrderflowService:
             values['fromId'] = from_id
         params = urlencode(values)
         url = f"{self.base_url}?{params}"
-        from platform_v2.shared.backend.research_evidence.runtime import observe_acquisition
-        def request():
-            with urlopen(url, timeout=15) as response:
-                return json.loads(response.read().decode("utf-8"))
-        payload = observe_acquisition(url, request)
+        payload = BinancePublicHttpClient(opener=urlopen).get_json(url, deadline=deadline)
         if not isinstance(payload, list):raise ValueError('Non-list aggregate-trade API response')
         return payload
 
