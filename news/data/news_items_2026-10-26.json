@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-26",
-  "generated_at_utc": "2026-10-26 11:05:08 UTC",
+  "generated_at_utc": "2026-10-26 17:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-26T11:05:02.159604+00:00",
+    "collected_at": "2026-10-26T17:05:01.478163+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 1,
+        "eligible": 2,
         "rejected": {
-          "unreviewed_link": 9
+          "unreviewed_link": 8
         }
       },
       {
@@ -48,11 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
-        "within_window": 1,
-        "eligible": 1,
+        "within_24h": 5,
+        "within_window": 5,
+        "eligible": 3,
         "rejected": {
-          "older_than_window": 19
+          "topic_author_or_category": 2,
+          "older_than_window": 15
         }
       },
       {
@@ -179,28 +180,41 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 1,
-      "NewsBTC": 1
+      "NewsBTC": 2,
+      "Cryptonews": 3
     },
     "unique_by_source": {
-      "Cryptonews": 1,
-      "NewsBTC": 1
+      "NewsBTC": 2,
+      "Cryptonews": 3
     },
     "selected_by_source": {
-      "Cryptonews": 1,
-      "NewsBTC": 1
+      "NewsBTC": 2,
+      "Cryptonews": 3
     }
   },
-  "count": 2,
+  "count": 5,
   "items": [
     {
-      "title": "BNB New Layer 1 Puts CZ's Ecosystem Strategy in Focus as ASTER Builds Its Own Chain",
-      "link": "https://cryptonews.com/news/bnb-new-layer-1-cz-ecosystem-strategy-aster/",
-      "summary": "BNB New L1 and ASTER reveal different sides of CZ’s ecosystem strategy as specialized blockchains compete for on-chain trading activity.",
+      "title": "Justin Sun Prize Partners With MathDB, Led by Caltech Professor Tony Yue Yu, on 50-Problem Pilot",
+      "link": "https://www.newsbtc.com/news/justin-sun-prize-partners-with-mathdb-led-by-caltech-professor-tony-yue-yu-on-50-problem-pilot/",
+      "summary": "Geneva, Switzerland — October 26, 2026 — The Office of Justin Sun today announced a pilot program for the Justin Sun Prize in collaboration with MathDB, a mathematical research platform developed by Caltech Professor Tony Yue Yu and his team. The Justin Sun Prize was established to become the “Nobel Prize of the AI Era,” responding to the profound transformation of scientific research and incentives in the new era in a more decentralized, formalized and machine-driven way. Problem-level awards can reach $1 million, subject to the applicable award terms and eligibility requirements. The collabo",
+      "source": "NewsBTC",
+      "date": "2026-10-26",
+      "date_human": "Oct 26, 2026",
+      "pub_ts": 1793032356,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Rebounds Again, Peter Schiff Repeats His Crash Warnings",
+      "link": "https://cryptonews.com/news/bitcoin-price-rebounds-again-peter-schiff-repeats-his-crash-warnings/",
+      "summary": "Bitcoin price rebounds after Peter Schiff calls $75K, but renewed selling keeps his crash warning in focus as BTC struggles to hold $80,000.",
       "source": "Cryptonews",
       "date": "2026-10-26",
       "date_human": "Oct 26, 2026",
-      "pub_ts": 1793010750,
+      "pub_ts": 1793015896,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -214,6 +228,32 @@
       "date": "2026-10-26",
       "date_human": "Oct 26, 2026",
       "pub_ts": 1792990800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Sony Soneium Coin: PlayStation and GTA 6 Crypto Twist?",
+      "link": "https://cryptonews.com/news/sony-soneium-coin-playstation-and-gta-6-crypto-twist/",
+      "summary": "Sony Soneium Coin is coming and targeting tokenized entertainment IP. Could PlayStation and GTA 6 be next in gaming's crypto race?",
+      "source": "Cryptonews",
+      "date": "2026-10-26",
+      "date_human": "Oct 26, 2026",
+      "pub_ts": 1793012816,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "BNB New Layer 1 Puts CZ's Ecosystem Strategy in Focus as ASTER Builds Its Own Chain",
+      "link": "https://cryptonews.com/news/bnb-new-layer-1-cz-ecosystem-strategy-aster/",
+      "summary": "BNB New L1 and ASTER reveal different sides of CZ’s ecosystem strategy as specialized blockchains compete for on-chain trading activity.",
+      "source": "Cryptonews",
+      "date": "2026-10-26",
+      "date_human": "Oct 26, 2026",
+      "pub_ts": 1793010750,
       "image_candidates": [],
       "license_url": null,
       "image": null,
