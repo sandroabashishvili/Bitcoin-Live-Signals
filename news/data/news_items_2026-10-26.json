@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-26",
-  "generated_at_utc": "2026-10-26 05:05:08 UTC",
+  "generated_at_utc": "2026-10-26 11:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-26T05:05:02.120418+00:00",
+    "collected_at": "2026-10-26T11:05:02.159604+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,11 +48,11 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 20
+          "older_than_window": 19
         }
       },
       {
@@ -96,11 +96,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
+        "within_24h": 2,
         "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 2,
+          "topic_author_or_category": 1,
+          "unreviewed_link": 1,
           "older_than_window": 13
         }
       },
@@ -178,17 +179,33 @@
       }
     ],
     "eligible_by_source": {
+      "Cryptonews": 1,
       "NewsBTC": 1
     },
     "unique_by_source": {
+      "Cryptonews": 1,
       "NewsBTC": 1
     },
     "selected_by_source": {
+      "Cryptonews": 1,
       "NewsBTC": 1
     }
   },
-  "count": 1,
+  "count": 2,
   "items": [
+    {
+      "title": "BNB New Layer 1 Puts CZ's Ecosystem Strategy in Focus as ASTER Builds Its Own Chain",
+      "link": "https://cryptonews.com/news/bnb-new-layer-1-cz-ecosystem-strategy-aster/",
+      "summary": "BNB New L1 and ASTER reveal different sides of CZ’s ecosystem strategy as specialized blockchains compete for on-chain trading activity.",
+      "source": "Cryptonews",
+      "date": "2026-10-26",
+      "date_human": "Oct 26, 2026",
+      "pub_ts": 1793010750,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Reflect Makes Branded Token Issuance Easier While Leaving The Collateral In Charge",
       "link": "https://www.newsbtc.com/news/defi/reflect-create-solana-branded-tokens-collateral-yield/",
