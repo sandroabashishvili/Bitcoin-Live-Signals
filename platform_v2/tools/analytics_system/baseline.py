@@ -7,6 +7,10 @@ from datetime import UTC, datetime
 import json
 from pathlib import Path
 from typing import Any
+from math import isfinite
+
+from platform_v2.shared.backend.persistence.sqlite_document_queries import list_documents
+from platform_v2.shared.backend.persistence import DEFAULT_DATABASE_PATH
 
 from platform_v2.shared.backend.runtime_store.futures import (
     METRICS_FAMILY as FUTURES_METRICS_FAMILY,
@@ -62,6 +66,8 @@ def build_baseline(roots: BaselineDataRoots) -> dict[str, Any]:
         futures_audits = _unique_by(load_futures_rows_all(TRADE_ENTRY_AUDITS_FAMILY), "position_id")
         hedge_entries = _unique_by(load_hedge_rows_all(HEDGE_ENTRIES_FAMILY), "hedge_entry_id")
         hedge_resets = _unique_by(load_hedge_rows_all(HEDGE_RESET_EVENTS_FAMILY), "reset_id")
+        spot_positions = load_spot_rows_all("positions")
+        futures_positions = load_futures_rows_all("futures_position_events")
     else:
         spot_metrics = _latest_dict(roots.spot / "metrics")
         futures_metrics = _latest_dict(roots.futures / "futures_metrics")
@@ -70,6 +76,8 @@ def build_baseline(roots: BaselineDataRoots) -> dict[str, Any]:
         futures_audits = _unique_by(_load_rows(roots.futures / "futures_trade_entry_audits"), "position_id")
         hedge_entries = _unique_by(_load_rows(roots.hedge / "hedge_entries"), "hedge_entry_id")
         hedge_resets = _unique_by(_load_rows(roots.hedge / "hedge_reset_events"), "reset_id")
+        spot_positions = _load_rows(roots.spot / "positions")
+        futures_positions = _load_rows(roots.futures / "futures_position_events")
     hedge_summary = max(
         hedge_summaries,
         key=lambda row: str(row.get("generated_at") or row.get("date") or ""),
@@ -80,10 +88,20 @@ def build_baseline(roots: BaselineDataRoots) -> dict[str, Any]:
     report: dict[str, Any] = {
         "generated_at": datetime.now(tz=UTC).strftime("%Y-%m-%d %H:%M:%SZ"),
         "input_mode": "read_only",
+        "storage_mode": "sqlite" if roots.database_primary else "json",
+        "source_database": str(DEFAULT_DATABASE_PATH) if roots.database_primary else None,
+        "report_version": 2,
+        "purpose": "Descriptive results only; run diagnostics for integrity checks. Not a backtest.",
+        "data_available": {"spot": bool(spot_metrics), "futures": bool(futures_metrics), "hedge": bool(hedge_summary)},
         "source_roots": {
             "spot": str(roots.spot),
             "futures": str(roots.futures),
             "hedge": str(roots.hedge),
+        },
+        "source_timestamps": {
+            "spot": spot_metrics.get("datetime") or spot_metrics.get("date"),
+            "futures": futures_metrics.get("datetime") or futures_metrics.get("date"),
+            "hedge": hedge_summary.get("generated_at") or hedge_summary.get("date"),
         },
         "date_range": _combined_date_range(roots),
         "spot": _standard_metrics(spot_metrics),
@@ -111,15 +129,16 @@ def build_baseline(roots: BaselineDataRoots) -> dict[str, Any]:
             "hedge_reset_rows": len(hedge_resets),
         },
     }
-    report["consistency_checks"] = _consistency_checks(
-        spot_metrics=spot_metrics,
-        spot_force_closes=spot_force_closes,
-        futures_metrics=futures_metrics,
-        futures_audits=futures_audits,
-        hedge_summary=hedge_summary,
-        hedge_entries=hedge_entries,
-        hedge_resets=hedge_resets,
-    )
+    report["performance"] = {
+        "spot": _performance_summary(spot_positions),
+        "futures": _performance_summary(futures_positions),
+    }
+    report["limitations"] = [
+        "Observed retained history, not evidence that a strategy will remain profitable.",
+        "Spot/Futures trade outcomes use latest state per position ID; Hedge basket resets are not individual trade outcomes.",
+        "Missing/non-finite net PnL is excluded and counted; zero losses make profit factor undefined, not infinite.",
+        "Live metrics and history are read sequentially and can span a running cycle; diagnostics owns snapshot-consistent accounting checks.",
+    ]
     return report
 
 
@@ -163,58 +182,33 @@ def _standard_metrics(metrics: dict[str, Any]) -> dict[str, Any]:
     return {key: metrics.get(key) for key in keys if key in metrics}
 
 
-def _consistency_checks(
-    *,
-    spot_metrics: dict[str, Any],
-    spot_force_closes: list[dict[str, Any]],
-    futures_metrics: dict[str, Any],
-    futures_audits: dict[str, dict[str, Any]],
-    hedge_summary: dict[str, Any],
-    hedge_entries: dict[str, dict[str, Any]],
-    hedge_resets: dict[str, dict[str, Any]],
-) -> list[dict[str, Any]]:
-    checks = [
-        _equality_check(
-            "spot_force_close_count",
-            spot_metrics.get("force_close_events"),
-            len(spot_force_closes),
-            "Spot metrics versus force-close ledger rows.",
-        ),
-        _equality_check(
-            "futures_closed_trade_count",
-            futures_metrics.get("closed_positions"),
-            len(futures_audits),
-            "Futures metrics versus unique closed-trade audits.",
-        ),
-        _equality_check(
-            "futures_to_hedge_entries",
-            futures_metrics.get("trades_opened_since_start"),
-            len(hedge_entries),
-            "Every Futures entry should feed one Hedge entry in the current replay.",
-        ),
-        _equality_check(
-            "hedge_summary_entry_count",
-            hedge_summary.get("hedge_entries_accepted"),
-            len(hedge_entries),
-            "Hedge summary versus unique Hedge entry rows.",
-        ),
-        _equality_check(
-            "hedge_summary_reset_count",
-            hedge_summary.get("reset_count"),
-            len(hedge_resets),
-            "Hedge summary versus unique reset rows.",
-        ),
-    ]
-    return checks
+def _performance_summary(history: list[dict[str, Any]]) -> dict[str, Any]:
+    latest = list(_unique_by(history, "position_id").values())
+    closed = [row for row in latest if row.get("status") == "CLOSED"]
 
+    def outcomes(rows):
+        values = [_number(row.get("net_pnl")) for row in rows]
+        valid = [value for value in values if value is not None]
+        positive = sum(value for value in valid if value > 0)
+        negative = -sum(value for value in valid if value < 0)
+        return {
+            "closed_positions": len(rows), "valid_net_outcomes": len(valid),
+            "missing_net_outcomes": len(rows) - len(valid),
+            "wins": sum(value > 0 for value in valid),
+            "losses": sum(value < 0 for value in valid),
+            "breakeven": sum(value == 0 for value in valid),
+            "net_pnl": round(sum(valid), 6) if valid else None,
+            "win_rate_pct": round(sum(value > 0 for value in valid) / len(valid) * 100, 4) if valid else None,
+            "average_net_pnl": round(sum(valid) / len(valid), 6) if valid else None,
+            "profit_factor": round(positive / negative, 6) if negative else None,
+        }
 
-def _equality_check(name: str, reported: Any, observed: Any, detail: str) -> dict[str, Any]:
     return {
-        "name": name,
-        "status": "pass" if _number(reported) == _number(observed) else "mismatch",
-        "reported": reported,
-        "observed": observed,
-        "detail": detail,
+        **outcomes(closed), "total_positions": len(latest),
+        "open_positions": sum(row.get("status") == "OPEN" for row in latest),
+        "rows_without_position_id": sum(not row.get("position_id") for row in history),
+        "by_side": {side: outcomes([row for row in closed if str(row.get("side") or "UNKNOWN") == side])
+                    for side in sorted({str(row.get("side") or "UNKNOWN") for row in closed})},
     }
 
 
@@ -247,6 +241,13 @@ def _unique_by(rows: list[dict[str, Any]], key: str) -> dict[str, dict[str, Any]
 
 def _combined_date_range(roots: BaselineDataRoots) -> dict[str, str | None]:
     dates: set[str] = set()
+    if roots.database_primary:
+        dates = {
+            str(document["date_iso"])
+            for document in list_documents()
+            if document["system"] in {"spot", "futures", "hedge"} and document.get("date_iso")
+        }
+        return {"start": min(dates) if dates else None, "end": max(dates) if dates else None}
     for root in (roots.spot, roots.futures, roots.hedge):
         if not root.exists():
             continue
@@ -267,11 +268,12 @@ def _load_json(path: Path) -> Any:
         return None
 
 
-def _number(value: Any) -> float:
+def _number(value: Any) -> float | None:
     try:
-        return float(value)
+        number = float(value)
+        return number if isfinite(number) and not isinstance(value, bool) else None
     except (TypeError, ValueError):
-        return 0.0
+        return None
 
 
 def _markdown(report: dict[str, Any]) -> str:
@@ -280,6 +282,8 @@ def _markdown(report: dict[str, Any]) -> str:
         "",
         f"Generated: {report['generated_at']}",
         f"Range: {report['date_range']['start']} – {report['date_range']['end']}",
+        f"Storage: {report['storage_mode']}; source database: {report['source_database']}",
+        "Purpose: descriptive results, not integrity verification or historical replay.",
         "",
     ]
     for name in ("spot", "futures", "hedge"):
@@ -288,6 +292,7 @@ def _markdown(report: dict[str, Any]) -> str:
             [
                 f"## {name.title()}",
                 "",
+                f"- Source available: {report['data_available'][name]}; timestamp: {report['source_timestamps'][name]}",
                 f"- Equity: {values.get('equity')}",
                 f"- Net/realized PnL: {values.get('total_net_pnl', values.get('realized_pnl'))}",
                 f"- Entries/positions: {values.get('total_positions', values.get('entries'))}",
@@ -295,10 +300,10 @@ def _markdown(report: dict[str, Any]) -> str:
                 "",
             ]
         )
-    lines.extend(["## Consistency checks", ""])
-    for check in report["consistency_checks"]:
-        lines.append(
-            f"- **{check['status'].upper()}** `{check['name']}`: "
-            f"reported={check['reported']} observed={check['observed']}"
-        )
+    lines.extend(["## Closed-trade outcomes", "", "Win rate uses finite net PnL (fees included). Breakeven outcomes count in the denominator.", ""])
+    for system, summary in report["performance"].items():
+        lines.append(f"### {system.title()}")
+        for side, values in {"ALL": summary, **summary["by_side"]}.items():
+            lines.append(f"- {side}: closed={values['closed_positions']}, wins={values['wins']}, losses={values['losses']}, breakeven={values['breakeven']}, net={values['net_pnl']}, win_rate={values['win_rate_pct']}, profit_factor={values['profit_factor']}, missing_net={values['missing_net_outcomes']}")
+    lines.extend(["", "## Limits", "", *[f"- {item}" for item in report["limitations"]]])
     return "\n".join(lines) + "\n"

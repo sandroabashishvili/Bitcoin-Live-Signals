@@ -12,6 +12,8 @@ from platform_v2.tools.diagnostics.checks.html_hook_checks import unused_html_ho
 from platform_v2.tools.diagnostics.checks.seo_checks import seo_findings
 from platform_v2.tools.diagnostics.checks.semantic_ownership_checks import semantic_ownership_findings
 from platform_v2.tools.diagnostics.checks.sqlite_runtime_checks import sqlite_runtime_parity_findings
+from platform_v2.tools.diagnostics.checks.sqlite_accounting_checks import sqlite_accounting_findings
+from platform_v2.tools.diagnostics.checks.dashboard_data_checks import dashboard_data_findings
 from platform_v2.tools.diagnostics.checks.runtime_layout_checks import runtime_layout_findings
 from platform_v2.tools.diagnostics.checks.runtime_duplication_checks import runtime_cross_family_duplication_findings
 from platform_v2.tools.diagnostics.checks.futures_runtime_checks import (
@@ -111,6 +113,8 @@ def run(*, profile: str = DEFAULT_PROFILE) -> int:
     findings.extend(seo_findings())
     findings.extend(semantic_ownership_findings())
     findings.extend(sqlite_runtime_parity_findings())
+    findings.extend(sqlite_accounting_findings())
+    findings.extend(dashboard_data_findings())
     findings = _filter_for_profile(findings, profile=active_profile)
 
     severity_order = {"high": 0, "medium": 1, "low": 2}
@@ -122,4 +126,4 @@ def run(*, profile: str = DEFAULT_PROFILE) -> int:
     print(f"[OK] JSON report: {json_path.relative_to(json_path.parents[4])}")
     print(f"[OK] Markdown report: {md_path.relative_to(md_path.parents[4])}")
     print(f"[OK] Findings: {summary['findings_total']}")
-    return 0
+    return 1 if any(item.severity == "high" for item in findings) else 0

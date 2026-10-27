@@ -2,7 +2,7 @@
 
 Status: `active`
 Created: `2026-05-19`
-Updated: `2026-09-12`
+Updated: `2026-10-26`
 Author: Codex
 Purpose: Operational and full-profile diagnostics for SmartSignalHub code/runtime/frontend checks.
 
@@ -40,6 +40,55 @@ python3 -m platform_v2.tools.diagnostics --profile full
   - config, models, report writing, shared helpers
 
 ## What It Checks
+
+SQLite-primary checks require all three runtime databases (trading, market data,
+content), run `quick_check`, and validate stored trading rows against the existing
+Spot/Futures family registries without requiring JSON exports. Hedge rows are
+checked for valid JSON objects; Hedge has no equivalent required-key registry.
+Legacy JSON checks remain for explicit exports and parity comparisons.
+
+Exit status is `1` when the selected profile contains high-severity findings,
+otherwise `0`. A successful report write is not a clean-health certificate.
+
+### SQLite ledger relationships and accounting
+
+`sqlite_accounting_checks.py` reads trading rows and Futures engine state within
+one read-only SQLite transaction. It checks:
+
+- Unique signal decisions by system, symbol, timeframe, and candle timestamp.
+- Duplicate same-day Spot position records and duplicate Futures lifecycle events;
+  repeated position snapshots on different days and distinct updates are allowed.
+- FILLED orders linked to exactly one position and reverse position/order links.
+  Futures uses position IDs; Spot uses recorded fill time plus symbol because its
+  order payload does not store a position ID.
+- OPEN/CLOSED exit-field consistency and position counts versus latest metrics.
+- Closed net/gross PnL, Futures recorded entry/exit fees, and account equity identities.
+  Futures aggregate fees describe closed trades; open entry fees are read separately
+  from engine state. No historical fee rate is hard-coded.
+- Hedge entry/reset identities, source Futures positions, summary counts, fee totals,
+  realized PnL, equity and available-capital identities.
+- Spot force-close ledger counts, unique Futures closed-trade audit identities and
+  counts, and Futures-to-Hedge entry totals (moved out of analytics baseline).
+
+Diagnostics owns integrity verdicts. Analytics owns descriptive result reports;
+diagnostics does not regenerate indicator/analytics snapshots or run a backtest.
+
+These checks assume retained history covers the current trading epoch. Imported
+partial histories can produce missing-link/accounting findings; investigate rather
+than silently ignoring them. Monetary comparisons allow 0.021 USDT for rounding.
+
+### Generated dashboard data
+
+`dashboard_data_checks.py` validates embedded Overview equity chart values against
+the backend chart contract and compares Spot/Futures/Hedge equity series to their
+current backend source builders. A two-minute generation grace avoids flagging a
+freshly written page mid-update. Source differences are medium-severity out-of-sync
+warnings, not proof of accounting corruption.
+
+Dashboard JavaScript reductions referencing financial fields are medium-severity
+manual-review candidates. This intentionally conservative source heuristic does not
+prove all JavaScript is calculation-free. These checks do not replace browser tests
+or verify every table cell, chart type, published remote copy, or DOM mutation.
 
 სისტემა ახლა ამოწმებს ამ ფენებს:
 - `app`

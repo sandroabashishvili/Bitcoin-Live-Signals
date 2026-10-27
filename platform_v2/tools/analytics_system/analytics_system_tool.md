@@ -2,36 +2,52 @@
 
 Status: `active`
 Created: `2026-06-03`
-Updated: `2026-07-30`
+Updated: `2026-10-26`
 Author: Codex
 Purpose: Safe CLI wrapper for report-generating Spot/Futures analytics services.
 
 ## Cross-system baseline
 
-The baseline command reads Spot, Futures, and Hedge data without changing
+The baseline command defaults to the live trading SQLite database and reads Spot, Futures, and Hedge data without changing
 execution state and writes one comparable report under runtime artifacts:
 
 ```bash
 python3 -m platform_v2.tools.analytics_system baseline
 ```
 
-It checks the accounting boundary between metrics and raw ledgers, including:
+It describes retained trading results: current account metrics and timestamps,
+latest-state-deduplicated Spot/Futures closed outcomes, wins/losses/breakeven,
+net PnL, average net PnL, win rate, profit factor and direction breakdown.
+Hedge remains a separate basket/reset account and is not presented as a collection
+of independent closed trades.
 
-- Spot force-close counts
-- Futures closed trades and trade-audit rows
-- Futures entries and Hedge entries
-- Hedge entry/reset summary totals
+The report identifies its storage mode and derives the date range from SQLite
+document metadata. Missing or non-finite net outcomes are excluded and counted,
+not treated as zero or wins. Explicit JSON exports remain supported only
+when all three `--spot-data`, `--futures-data`, and `--hedge-data` directories are
+provided together; they never silently mix with the live database.
+Baseline exits with status `1` for missing subsystem metric inputs, `0` when
+all three inputs are present. This is report availability, not a health verdict.
+Reports are written in either case; profit or loss does not change the exit code.
 
-For strategy research, prefer a frozen snapshot:
+Report schema version 2 removes `consistency_checks`. Their responsibility now
+belongs to diagnostics: force-close counts, Futures trade-audit coverage,
+Futures-to-Hedge links and Hedge summary totals. No integrity checker is imported
+from analytics and no diagnostic writes analytics snapshots.
 
-```bash
-python3 -m platform_v2.tools.research snapshot
-python3 -m platform_v2.tools.research baseline /home/sandro/research_snapshots/<snapshot>
-```
+Net win rate uses finite closed net outcomes, including breakeven in its denominator.
+Profit factor is positive net PnL divided by absolute negative net PnL; without
+losses it is undefined (`null`), not infinity. These descriptive statistics are
+neither a backtest nor a deployment recommendation. Live inputs may span a cycle;
+diagnostics uses a single SQLite snapshot for ledger comparisons.
+
+Historical strategy testing is a separate tool; see `../research/README.md`.
 
 ## Boundary
 
-This tool generates analytics snapshots/reports only. It does not open, close, reset, or publish trading runtime state.
+This tool does not open, close, reset, or publish positions. Baseline only writes
+its reports. Other commands persist generated analytics and indicator snapshots
+through the normal runtime stores; they are not all read-only database operations.
 
 ## Commands
 

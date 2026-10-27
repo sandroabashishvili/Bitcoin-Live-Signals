@@ -9,6 +9,7 @@ Purpose: Safe CLI wrapper for report-generating Spot/Futures analytics services.
 from __future__ import annotations
 
 import argparse
+from datetime import date
 from pathlib import Path
 
 from platform_v2.futures.services.analytics import (
@@ -67,18 +68,19 @@ def build_parser() -> argparse.ArgumentParser:
         "baseline",
         help="Build one read-only Spot/Futures/Hedge comparison baseline.",
     )
-    live_roots = BaselineDataRoots.live()
-    baseline.add_argument("--spot-data", type=Path, default=live_roots.spot)
-    baseline.add_argument("--futures-data", type=Path, default=live_roots.futures)
-    baseline.add_argument("--hedge-data", type=Path, default=live_roots.hedge)
+    baseline.add_argument("--spot-data", type=Path, help="Explicit legacy JSON input directory (all three required).")
+    baseline.add_argument("--futures-data", type=Path)
+    baseline.add_argument("--hedge-data", type=Path)
     baseline.add_argument("--output-root", type=Path, default=DEFAULT_OUTPUT_ROOT)
 
     return parser
 
 
 def main() -> int:
-    args = build_parser().parse_args()
+    parser = build_parser()
+    args = parser.parse_args()
     paths: list[Path] = []
+    exit_code = 0
 
     if args.command == "futures-gates":
         paths.extend(FuturesGateEffectivenessReportService().build_and_store(date_iso=args.date))
@@ -107,19 +109,26 @@ def main() -> int:
     elif args.command == "futures-audit-suite":
         paths.extend(_run_futures_audit_suite(date_iso=args.date, symbol=args.symbol, timeframes=args.timeframes))
     elif args.command == "baseline":
-        report = build_baseline(
-            BaselineDataRoots(
+        custom_roots = (args.spot_data, args.futures_data, args.hedge_data)
+        if any(custom_roots) and not all(custom_roots):
+            parser.error("JSON input requires --spot-data, --futures-data and --hedge-data together")
+        roots = BaselineDataRoots.live()
+        if all(custom_roots):
+            roots = BaselineDataRoots(
                 spot=args.spot_data.expanduser().resolve(),
                 futures=args.futures_data.expanduser().resolve(),
                 hedge=args.hedge_data.expanduser().resolve(),
             )
-        )
+        report = build_baseline(roots)
         paths.extend(write_baseline(report, args.output_root.expanduser().resolve()))
+        exit_code = int(not all(report.get("data_available", {}).values()))
+        if exit_code:
+            print("[WARNING] Report inputs are incomplete; inspect data_available. Run diagnostics for integrity checks.")
     else:
         raise ValueError(f"unsupported analytics command: {args.command}")
 
-    _print_result(command=args.command, paths=paths)
-    return 0
+    _print_result(command=args.command, paths=paths, complete=not exit_code)
+    return exit_code
 
 
 def _add_date_command(
@@ -128,8 +137,18 @@ def _add_date_command(
     help_text: str,
 ) -> argparse.ArgumentParser:
     parser = subparsers.add_parser(name, help=help_text)
-    parser.add_argument("--date", required=True, help="Report date in YYYY-MM-DD format.")
+    parser.add_argument("--date", required=True, type=_date_iso, help="Report date in YYYY-MM-DD format.")
     return parser
+
+
+def _date_iso(value: str) -> str:
+    try:
+        parsed = date.fromisoformat(value)
+        if parsed.isoformat() != value:
+            raise ValueError(value)
+    except ValueError as exc:
+        raise argparse.ArgumentTypeError("expected a valid date in YYYY-MM-DD format") from exc
+    return value
 
 
 def _run_futures_audit_suite(*, date_iso: str, symbol: str, timeframes: list[str]) -> list[Path]:
@@ -147,8 +166,8 @@ def _run_futures_audit_suite(*, date_iso: str, symbol: str, timeframes: list[str
     return paths
 
 
-def _print_result(*, command: str, paths: list[Path]) -> None:
-    print(f"[OK] analytics command: {command}")
+def _print_result(*, command: str, paths: list[Path], complete: bool = True) -> None:
+    print(f"[{'OK' if complete else 'WARNING'}] analytics command: {command}")
     if not paths:
         print("[OK] no files written")
         return

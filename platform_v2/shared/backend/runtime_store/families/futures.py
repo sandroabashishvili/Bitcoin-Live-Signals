@@ -177,7 +177,7 @@ ALL_FAMILY_SPECS: tuple[RuntimeFamilySpec, ...] = (
         writer_owner="futures.services.ops",
         reader_owner="diagnostics / runtime health",
         retention="hot 14d, archive 90d",
-        required_keys=("timestamp_ms", "system", "state"),
+        required_keys=("date", "datetime", "cycle_key", "cycle_state", "status"),
         frontend_used=True,
         description="Futures cycle-level observability rows.",
     ),

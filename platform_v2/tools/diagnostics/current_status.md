@@ -1,13 +1,13 @@
 # Diagnostics Current Status
 
-Updated: 2026-09-12.
+Updated: 2026-10-26.
 
-After the maintenance fixes, operational diagnostics reports **0 findings** on the local tree. The full profile reports **383 findings**, severity counts `{'high': 20, 'medium': 211, 'low': 152}`. Its 20 high findings are size/complexity flags; this does not establish trading corruption. Full diagnostics remains a maintenance backlog, not a clean code certificate.
+Operational diagnostics now requires all three SQLite databases, runs `quick_check`, and validates stored trading rows without requiring JSON exports. Required Spot/Futures keys use the existing family registries, updated to match current cycle, order, and denied-entry writers. Hedge rows are checked for valid JSON objects, not a complete domain schema.
 
-Resolved this pass: seven missing content batches restored from retained public snapshots after backup; local sitemap custom-domain coverage regenerated; four Spot canonical identities fixed in renderers and local publication HTML; two unused helpers and confirmed unused imports removed. Published canonical coverage is now checked explicitly.
+High-severity findings produce exit status 1. Full-profile complexity/size findings remain maintenance signals, not proof of trading corruption.
 
-The isolated publication preview passes internal-link, sitemap, canonical and analytics-ID checks. Remote publishing has not been performed by this audit, so local clean diagnostics does not prove the public site has received the fix.
+SQLite ledger checks now cover decision duplicates, order/position links, exit fields, position counts, PnL/fee/capital identities and Hedge source relationships. Overview equity payloads are checked against backend contracts and source series. Legacy JSON checks remain for exports/parity; this is not complete coverage of every historical check or every dashboard cell. The periodic runtime-health monitor remains responsible for freshness and cycle-gap checks.
 
-Retention update, 2026-10-18: the historical September 12 diagnostic output files were deliberately deleted with user approval. The counts above describe the dated audit, not a newly verified current result. Separate evidence/change backups remain at `/home/sandro/runtime_archives/trading_epoch_2026-10-18_v1/retired_metadata/research_snapshots_2026-10-18/system_review_20260912/`. Fresh diagnostics still use the normal runtime artifact output directory.
+Run `python3 -m platform_v2.tools.diagnostics` for current results. Reports use `platform_v2/runtime/artifacts/diagnostics/`. Old September counts and references to deleted research archives have been removed because they do not describe the current runtime.
 
-Two SnapshotFormat imports are intentional re-exports, and the Spot signal-decision alias is referenced by assistant code lookup. These were retained. Similar independently owned Spot/Futures functions were not merged solely to silence duplication findings.
+No strategy rules, execution state, or historical records are changed by these checks.
