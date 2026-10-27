@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-27",
-  "generated_at_utc": "2026-10-27 11:05:10 UTC",
+  "generated_at_utc": "2026-10-27 17:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-27T11:05:04.033255+00:00",
+    "collected_at": "2026-10-27T17:05:04.866474+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 2,
+        "eligible": 5,
         "rejected": {
-          "unreviewed_link": 8
+          "unreviewed_link": 5
         }
       },
       {
@@ -36,11 +36,11 @@
         "url": "https://www.nist.gov/news-events/news/rss.xml",
         "status": "ok",
         "entries": 40,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 40
+          "older_than_window": 39
         }
       },
       {
@@ -49,11 +49,11 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 11,
-        "within_window": 12,
+        "within_window": 16,
         "eligible": 5,
         "rejected": {
-          "topic_author_or_category": 7,
-          "older_than_window": 8
+          "topic_author_or_category": 11,
+          "older_than_window": 4
         }
       },
       {
@@ -180,28 +180,44 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 2,
+      "NewsBTC": 5,
+      "NIST": 1,
       "Cryptonews": 5
     },
     "unique_by_source": {
-      "NewsBTC": 2,
+      "NewsBTC": 5,
+      "NIST": 1,
       "Cryptonews": 5
     },
     "selected_by_source": {
-      "NewsBTC": 2,
+      "NewsBTC": 5,
+      "NIST": 1,
       "Cryptonews": 5
     }
   },
-  "count": 7,
+  "count": 11,
   "items": [
     {
-      "title": "Solana's Delivery-Versus-Payment Tool Tries to Remove Settlement's Weakest Link",
-      "link": "https://www.newsbtc.com/news/solana/solana-s-delivery-versus-payment-tool-tries-to-remove-settlement-s-weakest/",
-      "summary": "Solana DvP offers an open-source route to atomic securities settlement, with JPMorgan providing input on institutional requirements.",
+      "title": "Ripple Opens 24/7 Returns Feature to Eligible Corporate Treasury Clients",
+      "link": "https://www.newsbtc.com/news/ripple-opens-24-7-returns-feature-to-eligible-corporate-treasury-clients/",
+      "summary": "Ripple unveiled additional Ripple Treasury capabilities at Swell 2026 on October 26, presenting a platform intended to connect cash forecasting,.",
       "source": "NewsBTC",
       "date": "2026-10-27",
       "date_human": "Oct 27, 2026",
-      "pub_ts": 1793088000,
+      "pub_ts": 1793120400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
+      "link": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+      "summary": "This report describes the timelines and migration activities for federal agencies, and it can serve as a key resource for technology providers and organizations that are developing their quantum-readiness road maps.",
+      "source": "NIST",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793102400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -221,13 +237,13 @@
       "image_local": null
     },
     {
-      "title": "Samsung Wallet's Solana USDC Rollout Faces Its First Real User Test",
-      "link": "https://www.newsbtc.com/news/solana/samsung-wallet-s-solana-usdc-rollout-faces-its-first-real-user-test/",
-      "summary": "Samsung's planned USDC remittance feature is due to begin rolling out to eligible US Galaxy users in the final week of October.",
+      "title": "Aviva Tokenises Part of £22 Billion Sterling Fund on XRP Ledger",
+      "link": "https://www.newsbtc.com/news/aviva-tokenises-part-of-22-billion-sterling-fund-on-xrp-ledger/",
+      "summary": "Aviva Investors and Ripple announced a tokenised share class for the Aviva Investors Sterling Liquidity Fund on October 26. The existing sterling fund has.",
       "source": "NewsBTC",
       "date": "2026-10-27",
       "date_human": "Oct 27, 2026",
-      "pub_ts": 1793084400,
+      "pub_ts": 1793116800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -247,6 +263,19 @@
       "image_local": null
     },
     {
+      "title": "Ripple Receives Final OCC Trust Bank Approval as RLUSD Expands",
+      "link": "https://www.newsbtc.com/news/ripple-receives-final-occ-trust-bank-approval-as-rlusd-expands/",
+      "summary": "Ripple said on October 26 that the Office of the Comptroller of the Currency had granted final approval to charter Ripple National Trust Bank. The.",
+      "source": "NewsBTC",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793113200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Bitcoin Price Rebounds Again, Peter Schiff Repeats His Crash Warnings",
       "link": "https://cryptonews.com/news/bitcoin-price-rebounds-again-peter-schiff-repeats-his-crash-warnings/",
       "summary": "Bitcoin price rebounds after Peter Schiff calls $75K, but renewed selling keeps his crash warning in focus as BTC struggles to hold $80,000.",
@@ -260,6 +289,19 @@
       "image_local": null
     },
     {
+      "title": "Solana's Delivery-Versus-Payment Tool Tries to Remove Settlement's Weakest Link",
+      "link": "https://www.newsbtc.com/news/solana/solana-s-delivery-versus-payment-tool-tries-to-remove-settlement-s-weakest/",
+      "summary": "Solana DvP offers an open-source route to atomic securities settlement, with JPMorgan providing input on institutional requirements.",
+      "source": "NewsBTC",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793088000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Sony Soneium Coin: PlayStation and GTA 6 Crypto Twist?",
       "link": "https://cryptonews.com/news/sony-soneium-coin-playstation-and-gta-6-crypto-twist/",
       "summary": "Sony Soneium Coin is coming and targeting tokenized entertainment IP. Could PlayStation and GTA 6 be next in gaming's crypto race?",
@@ -267,6 +309,19 @@
       "date": "2026-10-26",
       "date_human": "Oct 26, 2026",
       "pub_ts": 1793012816,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Samsung Wallet's Solana USDC Rollout Faces Its First Real User Test",
+      "link": "https://www.newsbtc.com/news/solana/samsung-wallet-s-solana-usdc-rollout-faces-its-first-real-user-test/",
+      "summary": "Samsung's planned USDC remittance feature is due to begin rolling out to eligible US Galaxy users in the final week of October.",
+      "source": "NewsBTC",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793084400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
