@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-26",
-  "generated_at_utc": "2026-10-26 17:05:07 UTC",
+  "generated_at_utc": "2026-10-26 23:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-26T17:05:01.478163+00:00",
+    "collected_at": "2026-10-26T23:05:03.223475+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 2,
+        "eligible": 4,
         "rejected": {
-          "unreviewed_link": 8
+          "unreviewed_link": 6
         }
       },
       {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 5,
-        "within_window": 5,
+        "within_24h": 9,
+        "within_window": 9,
         "eligible": 3,
         "rejected": {
-          "topic_author_or_category": 2,
-          "older_than_window": 15
+          "topic_author_or_category": 6,
+          "older_than_window": 11
         }
       },
       {
@@ -180,28 +180,28 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 2,
+      "NewsBTC": 4,
       "Cryptonews": 3
     },
     "unique_by_source": {
-      "NewsBTC": 2,
+      "NewsBTC": 4,
       "Cryptonews": 3
     },
     "selected_by_source": {
-      "NewsBTC": 2,
+      "NewsBTC": 4,
       "Cryptonews": 3
     }
   },
-  "count": 5,
+  "count": 7,
   "items": [
     {
-      "title": "Justin Sun Prize Partners With MathDB, Led by Caltech Professor Tony Yue Yu, on 50-Problem Pilot",
-      "link": "https://www.newsbtc.com/news/justin-sun-prize-partners-with-mathdb-led-by-caltech-professor-tony-yue-yu-on-50-problem-pilot/",
-      "summary": "Geneva, Switzerland — October 26, 2026 — The Office of Justin Sun today announced a pilot program for the Justin Sun Prize in collaboration with MathDB, a mathematical research platform developed by Caltech Professor Tony Yue Yu and his team. The Justin Sun Prize was established to become the “Nobel Prize of the AI Era,” responding to the profound transformation of scientific research and incentives in the new era in a more decentralized, formalized and machine-driven way. Problem-level awards can reach $1 million, subject to the applicable award terms and eligibility requirements. The collabo",
+      "title": "Solana Web3.js 3.1 Targets a Less Fragmented Developer Stack",
+      "link": "https://www.newsbtc.com/news/solana/solana-web3-js-3-1-targets-a-less-fragmented-developer-stack/",
+      "summary": "Solana's October 16 changelog confirms Web3.js v3.1 alongside validator-client releases and developer tooling updates.",
       "source": "NewsBTC",
       "date": "2026-10-26",
       "date_human": "Oct 26, 2026",
-      "pub_ts": 1793032356,
+      "pub_ts": 1793048400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -221,13 +221,13 @@
       "image_local": null
     },
     {
-      "title": "Reflect Makes Branded Token Issuance Easier While Leaving The Collateral In Charge",
-      "link": "https://www.newsbtc.com/news/defi/reflect-create-solana-branded-tokens-collateral-yield/",
-      "summary": "Reflect's Create launch, promoted by Solana on October 22, offers a fast route to issuing a branded yield-bearing token. The interface can simplify issuance, but the economics still come from the collateral behind the token and the way its interest is shared.",
+      "title": "Solana's Next Latency Idea Has a Geographic Trade-Off Validators Cannot Ignore",
+      "link": "https://www.newsbtc.com/news/solana/solana-s-next-latency-idea-has-a-geographic-trade-off-validators-cannot-ign/",
+      "summary": "Research into a geo-aware leader schedule suggests quicker validator handovers, but also warns that grouping leaders by location introduces security trade-",
       "source": "NewsBTC",
       "date": "2026-10-26",
       "date_human": "Oct 26, 2026",
-      "pub_ts": 1792990800,
+      "pub_ts": 1793044800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -247,6 +247,19 @@
       "image_local": null
     },
     {
+      "title": "Justin Sun Prize Partners With MathDB, Led by Caltech Professor Tony Yue Yu, on 50-Problem Pilot",
+      "link": "https://www.newsbtc.com/news/justin-sun-prize-partners-with-mathdb-led-by-caltech-professor-tony-yue-yu-on-50-problem-pilot/",
+      "summary": "Geneva, Switzerland — October 26, 2026 — The Office of Justin Sun today announced a pilot program for the Justin Sun Prize in collaboration with MathDB, a mathematical research platform developed by Caltech Professor Tony Yue Yu and his team. The Justin Sun Prize was established to become the “Nobel Prize of the AI Era,” responding to the profound transformation of scientific research and incentives in the new era in a more decentralized, formalized and machine-driven way. Problem-level awards can reach $1 million, subject to the applicable award terms and eligibility requirements. The collabo",
+      "source": "NewsBTC",
+      "date": "2026-10-26",
+      "date_human": "Oct 26, 2026",
+      "pub_ts": 1793032356,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "BNB New Layer 1 Puts CZ's Ecosystem Strategy in Focus as ASTER Builds Its Own Chain",
       "link": "https://cryptonews.com/news/bnb-new-layer-1-cz-ecosystem-strategy-aster/",
       "summary": "BNB New L1 and ASTER reveal different sides of CZ’s ecosystem strategy as specialized blockchains compete for on-chain trading activity.",
@@ -254,6 +267,19 @@
       "date": "2026-10-26",
       "date_human": "Oct 26, 2026",
       "pub_ts": 1793010750,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Reflect Makes Branded Token Issuance Easier While Leaving The Collateral In Charge",
+      "link": "https://www.newsbtc.com/news/defi/reflect-create-solana-branded-tokens-collateral-yield/",
+      "summary": "Reflect's Create launch, promoted by Solana on October 22, offers a fast route to issuing a branded yield-bearing token. The interface can simplify issuance, but the economics still come from the collateral behind the token and the way its interest is shared.",
+      "source": "NewsBTC",
+      "date": "2026-10-26",
+      "date_human": "Oct 26, 2026",
+      "pub_ts": 1792990800,
       "image_candidates": [],
       "license_url": null,
       "image": null,

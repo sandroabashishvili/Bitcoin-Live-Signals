@@ -1,0 +1,263 @@
+{
+  "day_iso": "2026-10-27",
+  "generated_at_utc": "2026-10-27 05:05:10 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-10-27T05:05:04.116172+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 2,
+        "rejected": {
+          "unreviewed_link": 8
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 9,
+        "within_window": 9,
+        "eligible": 3,
+        "rejected": {
+          "topic_author_or_category": 6,
+          "older_than_window": 11
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 48,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 48
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 25
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 1,
+        "within_window": 2,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "unreviewed_link": 1,
+          "older_than_window": 13
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 20
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 2,
+      "Cryptonews": 3
+    },
+    "unique_by_source": {
+      "NewsBTC": 2,
+      "Cryptonews": 3
+    },
+    "selected_by_source": {
+      "NewsBTC": 2,
+      "Cryptonews": 3
+    }
+  },
+  "count": 5,
+  "items": [
+    {
+      "title": "Solana Web3.js 3.1 Targets a Less Fragmented Developer Stack",
+      "link": "https://www.newsbtc.com/news/solana/solana-web3-js-3-1-targets-a-less-fragmented-developer-stack/",
+      "summary": "Solana's October 16 changelog confirms Web3.js v3.1 alongside validator-client releases and developer tooling updates.",
+      "source": "NewsBTC",
+      "date": "2026-10-26",
+      "date_human": "Oct 26, 2026",
+      "pub_ts": 1793048400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Rebounds Again, Peter Schiff Repeats His Crash Warnings",
+      "link": "https://cryptonews.com/news/bitcoin-price-rebounds-again-peter-schiff-repeats-his-crash-warnings/",
+      "summary": "Bitcoin price rebounds after Peter Schiff calls $75K, but renewed selling keeps his crash warning in focus as BTC struggles to hold $80,000.",
+      "source": "Cryptonews",
+      "date": "2026-10-26",
+      "date_human": "Oct 26, 2026",
+      "pub_ts": 1793015896,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Solana's Next Latency Idea Has a Geographic Trade-Off Validators Cannot Ignore",
+      "link": "https://www.newsbtc.com/news/solana/solana-s-next-latency-idea-has-a-geographic-trade-off-validators-cannot-ign/",
+      "summary": "Research into a geo-aware leader schedule suggests quicker validator handovers, but also warns that grouping leaders by location introduces security trade-",
+      "source": "NewsBTC",
+      "date": "2026-10-26",
+      "date_human": "Oct 26, 2026",
+      "pub_ts": 1793044800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Sony Soneium Coin: PlayStation and GTA 6 Crypto Twist?",
+      "link": "https://cryptonews.com/news/sony-soneium-coin-playstation-and-gta-6-crypto-twist/",
+      "summary": "Sony Soneium Coin is coming and targeting tokenized entertainment IP. Could PlayStation and GTA 6 be next in gaming's crypto race?",
+      "source": "Cryptonews",
+      "date": "2026-10-26",
+      "date_human": "Oct 26, 2026",
+      "pub_ts": 1793012816,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "BNB New Layer 1 Puts CZ's Ecosystem Strategy in Focus as ASTER Builds Its Own Chain",
+      "link": "https://cryptonews.com/news/bnb-new-layer-1-cz-ecosystem-strategy-aster/",
+      "summary": "BNB New L1 and ASTER reveal different sides of CZ’s ecosystem strategy as specialized blockchains compete for on-chain trading activity.",
+      "source": "Cryptonews",
+      "date": "2026-10-26",
+      "date_human": "Oct 26, 2026",
+      "pub_ts": 1793010750,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}
