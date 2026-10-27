@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-27",
-  "generated_at_utc": "2026-10-27 05:05:10 UTC",
+  "generated_at_utc": "2026-10-27 11:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-27T05:05:04.116172+00:00",
+    "collected_at": "2026-10-27T11:05:04.033255+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
-        "within_window": 9,
-        "eligible": 3,
+        "within_24h": 11,
+        "within_window": 12,
+        "eligible": 5,
         "rejected": {
-          "topic_author_or_category": 6,
-          "older_than_window": 11
+          "topic_author_or_category": 7,
+          "older_than_window": 8
         }
       },
       {
@@ -98,12 +98,12 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 1,
-        "within_window": 2,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
+          "topic_author_or_category": 2,
           "unreviewed_link": 1,
-          "older_than_window": 13
+          "older_than_window": 12
         }
       },
       {
@@ -181,27 +181,66 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 2,
-      "Cryptonews": 3
+      "Cryptonews": 5
     },
     "unique_by_source": {
       "NewsBTC": 2,
-      "Cryptonews": 3
+      "Cryptonews": 5
     },
     "selected_by_source": {
       "NewsBTC": 2,
-      "Cryptonews": 3
+      "Cryptonews": 5
     }
   },
-  "count": 5,
+  "count": 7,
   "items": [
     {
-      "title": "Solana Web3.js 3.1 Targets a Less Fragmented Developer Stack",
-      "link": "https://www.newsbtc.com/news/solana/solana-web3-js-3-1-targets-a-less-fragmented-developer-stack/",
-      "summary": "Solana's October 16 changelog confirms Web3.js v3.1 alongside validator-client releases and developer tooling updates.",
+      "title": "Solana's Delivery-Versus-Payment Tool Tries to Remove Settlement's Weakest Link",
+      "link": "https://www.newsbtc.com/news/solana/solana-s-delivery-versus-payment-tool-tries-to-remove-settlement-s-weakest/",
+      "summary": "Solana DvP offers an open-source route to atomic securities settlement, with JPMorgan providing input on institutional requirements.",
       "source": "NewsBTC",
-      "date": "2026-10-26",
-      "date_human": "Oct 26, 2026",
-      "pub_ts": 1793048400,
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793088000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Is Heading for Another Red October, but Galaxy Says the Worst Is Over",
+      "link": "https://cryptonews.com/news/bitcoin-price-is-heading-for-another-red-october-but-galaxy-says-the-worst-is-over/",
+      "summary": "Bitcoin faces a second red October, but Galaxy says the bear market is over as it holds above its 50-week moving average.",
+      "source": "Cryptonews",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793087666,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Samsung Wallet's Solana USDC Rollout Faces Its First Real User Test",
+      "link": "https://www.newsbtc.com/news/solana/samsung-wallet-s-solana-usdc-rollout-faces-its-first-real-user-test/",
+      "summary": "Samsung's planned USDC remittance feature is due to begin rolling out to eligible US Galaxy users in the final week of October.",
+      "source": "NewsBTC",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793084400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Eyes $15 as Ripple Wins Final Bank Approval Ahead of Swell",
+      "link": "https://cryptonews.com/news/xrp-eyes-15-as-ripple-wins-final-bank-approval-ahead-of-swell/",
+      "summary": "XRP could be gearing up for a huge rally as Ripple secures final bank approval and Swell 2026 brings fresh catalysts back.",
+      "source": "Cryptonews",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793082511,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -215,19 +254,6 @@
       "date": "2026-10-26",
       "date_human": "Oct 26, 2026",
       "pub_ts": 1793015896,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Solana's Next Latency Idea Has a Geographic Trade-Off Validators Cannot Ignore",
-      "link": "https://www.newsbtc.com/news/solana/solana-s-next-latency-idea-has-a-geographic-trade-off-validators-cannot-ign/",
-      "summary": "Research into a geo-aware leader schedule suggests quicker validator handovers, but also warns that grouping leaders by location introduces security trade-",
-      "source": "NewsBTC",
-      "date": "2026-10-26",
-      "date_human": "Oct 26, 2026",
-      "pub_ts": 1793044800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
