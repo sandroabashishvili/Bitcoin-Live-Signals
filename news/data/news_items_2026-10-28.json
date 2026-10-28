@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-28",
-  "generated_at_utc": "2026-10-28 05:05:11 UTC",
+  "generated_at_utc": "2026-10-28 11:05:12 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-28T05:05:05.364307+00:00",
+    "collected_at": "2026-10-28T11:05:06.164279+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -49,11 +49,11 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 7,
-        "within_window": 16,
-        "eligible": 5,
+        "within_window": 18,
+        "eligible": 6,
         "rejected": {
-          "topic_author_or_category": 11,
-          "older_than_window": 4
+          "topic_author_or_category": 12,
+          "older_than_window": 2
         }
       },
       {
@@ -98,11 +98,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 2,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 2,
-          "older_than_window": 13
+          "topic_author_or_category": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -180,30 +180,43 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 9,
-      "NIST": 1,
-      "Cryptonews": 5
+      "Cryptonews": 6,
+      "NIST": 1
     },
     "unique_by_source": {
       "NewsBTC": 9,
-      "NIST": 1,
-      "Cryptonews": 5
+      "Cryptonews": 6,
+      "NIST": 1
     },
     "selected_by_source": {
       "NewsBTC": 7,
-      "NIST": 1,
-      "Cryptonews": 4
+      "Cryptonews": 4,
+      "NIST": 1
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Coinbase and Thunes Tie Stablecoins to Local Bank and Wallet Payouts",
-      "link": "https://www.newsbtc.com/news/coinbase-and-thunes-tie-stablecoins-to-local-bank-and-wallet-payouts/",
-      "summary": "Coinbase announced a collaboration with global payment network Thunes to connect stablecoin infrastructure with local bank-account and mobile-wallet.",
+      "title": "Ripple and Robinhood Expand RLUSD Across Trading and Treasury Services",
+      "link": "https://www.newsbtc.com/news/ripple-and-robinhood-expand-rlusd-across-trading-and-treasury-services/",
+      "summary": "Ripple and Robinhood have announced a strategic partnership covering RLUSD, treasury management and institutional financing, rather than a single-token listing.",
       "source": "NewsBTC",
       "date": "2026-10-28",
       "date_human": "Oct 28, 2026",
-      "pub_ts": 1793160000,
+      "pub_ts": 1793185200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Bounces as Nasdaq Soars, KOSPI Rebounds, and FOMC Hike Fears Persist",
+      "link": "https://cryptonews.com/news/bitcoin-price-bounces-nasdaq-kospi-soars-fomc-hike-fears/",
+      "summary": "Bitcoin price rebounds toward $81,000 as Nasdaq and KOSPI rally, while FOMC hike fears and rate expectations shape crypto's next move.",
+      "source": "Cryptonews",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793176567,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -223,6 +236,45 @@
       "image_local": null
     },
     {
+      "title": "SUN.io Completes 52nd Buyback and Burn: Total SUN Burned Surpasses 685M as SunSwap Accelerates Ecosystem Integrations",
+      "link": "https://www.newsbtc.com/news/sun-io-completes-52nd-buyback-and-burn-total-sun-burned-surpasses-685m-as-sunswap-accelerates-ecosystem-integrations/",
+      "summary": "Through its recurring buyback and burn program, SUN.io continues to channel protocol revenue from SunSwap, SunPump, and SunX into SUN token value accrual, while accelerating SunSwap’s cross-platform integrations to reinforce decentralized liquidity. SUN.io, the core DeFi liquidity infrastructure on the TRON network, has successfully executed its 52nd SUN token buyback and burn on October 27, removing more than 7.23 million SUN from circulation. This round marks the platform’s 52nd consecutive burn, bringing the cumulative total to over 685 million SUN tokens, valued at more than $11 million. T",
+      "source": "NewsBTC",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793183321,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ripple's RLUSD Wins Moody's Rating as XRP Faces a Bigger Question: Who Captures the Value?",
+      "link": "https://cryptonews.com/news/ripples-rlusd-moodys-rating-xrp-faces-bigger-question/",
+      "summary": "RLUSD earns Moody’s A2 rating as Ripple secures OCC trust-bank approval. Can XRP benefit from stablecoin growth like BNB did?",
+      "source": "Cryptonews",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793170942,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Tokenised Stock Plans Meet Resistance From Listed Companies",
+      "link": "https://www.newsbtc.com/news/tokenised-stock-plans-meet-resistance-from-listed-companies/",
+      "summary": "US tokenised-stock infrastructure is facing a practical constraint: an issuer can object to its shares being represented on certain proposed venues..",
+      "source": "NewsBTC",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793181600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Bitcoin Price Is Heading for Another Red October, but Galaxy Says the Worst Is Over",
       "link": "https://cryptonews.com/news/bitcoin-price-is-heading-for-another-red-october-but-galaxy-says-the-worst-is-over/",
       "summary": "Bitcoin faces a second red October, but Galaxy says the bear market is over as it holds above its 50-week moving average.",
@@ -236,13 +288,13 @@
       "image_local": null
     },
     {
-      "title": "Coinbase Ireland Hit With €3.25 Million Regulatory Penalty",
-      "link": "https://www.newsbtc.com/news/coinbase-ireland-hit-with-3-25-million-regulatory-penalty/",
-      "summary": "The Central Bank of Ireland announced on October 22 that it had fined Coinbase Ireland Limited €3,252,618 for breaches of safeguarding and outsourcing.",
+      "title": "Coinbase Flags BLAST Network Shutdown and Customer Access Risk",
+      "link": "https://www.newsbtc.com/news/coinbase-flags-blast-network-shutdown-and-customer-access-risk/",
+      "summary": "Coinbase's published status information identified an October 26 deadline linked to the Blast network shutdown and warned that BLAST assets not moved from.",
       "source": "NewsBTC",
       "date": "2026-10-28",
       "date_human": "Oct 28, 2026",
-      "pub_ts": 1793156400,
+      "pub_ts": 1793178000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -262,91 +314,39 @@
       "image_local": null
     },
     {
-      "title": "HashKey Launches First hToken Linked to Investment Fund Units",
-      "link": "https://www.newsbtc.com/news/hashkey-launches-first-htoken-linked-to-investment-fund-units/",
-      "summary": "HashKey RWA announced on October 26 that it had launched the first product in its hToken series, linked to Class A units of HashKey Fintech Opportunities.",
+      "title": "Bitcoin Hovers Around $80,000 as Fed Decision Draws Closer",
+      "link": "https://www.newsbtc.com/news/bitcoin-hovers-around-80-000-as-fed-decision-draws-closer/",
+      "summary": "Bitcoin market participants entered October 27 focused on the Federal Reserve's policy discussion and the upcoming interest-rate decision. Contemporary.",
       "source": "NewsBTC",
       "date": "2026-10-28",
       "date_human": "Oct 28, 2026",
-      "pub_ts": 1793152800,
+      "pub_ts": 1793174400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Bitcoin Price Rebounds Again, Peter Schiff Repeats His Crash Warnings",
-      "link": "https://cryptonews.com/news/bitcoin-price-rebounds-again-peter-schiff-repeats-his-crash-warnings/",
-      "summary": "Bitcoin price rebounds after Peter Schiff calls $75K, but renewed selling keeps his crash warning in focus as BTC struggles to hold $80,000.",
-      "source": "Cryptonews",
-      "date": "2026-10-26",
-      "date_human": "Oct 26, 2026",
-      "pub_ts": 1793015896,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Hong Kong Opens 24/7 Trading for Two Tokenised Money-Market Funds",
-      "link": "https://www.newsbtc.com/news/hong-kong-opens-24-7-trading-for-two-tokenised-money-market-funds/",
-      "summary": "Hong Kong's Securities and Futures Commission announced on October 26 that it had approved secondary trading for two existing authorised tokenised.",
+      "title": "JPM Coin Expands to Ethereum for Approved Institutional Clients",
+      "link": "https://www.newsbtc.com/news/jpm-coin-expands-to-ethereum-for-approved-institutional-clients/",
+      "summary": "J.P. Morgan said on October 19 that its JPM Coin deposit token, ticker JPMD, had been brought to Ethereum. The bank describes the service as available to.",
       "source": "NewsBTC",
       "date": "2026-10-28",
       "date_human": "Oct 28, 2026",
-      "pub_ts": 1793145600,
+      "pub_ts": 1793170800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Sony Soneium Coin: PlayStation and GTA 6 Crypto Twist?",
-      "link": "https://cryptonews.com/news/sony-soneium-coin-playstation-and-gta-6-crypto-twist/",
-      "summary": "Sony Soneium Coin is coming and targeting tokenized entertainment IP. Could PlayStation and GTA 6 be next in gaming's crypto race?",
-      "source": "Cryptonews",
-      "date": "2026-10-26",
-      "date_human": "Oct 26, 2026",
-      "pub_ts": 1793012816,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitmine Says ETH Treasury Exceeds Six Million Coins",
-      "link": "https://www.newsbtc.com/news/bitmine-says-eth-treasury-exceeds-six-million-coins/",
-      "summary": "Bitmine Immersion Technologies filed an October 26 update with the SEC and said its Ethereum holdings had reached approximately 6.05 million ETH. Its.",
+      "title": "BlackRock and SBI Explore Yen Stablecoin Link for Tokenised Funds",
+      "link": "https://www.newsbtc.com/news/blackrock-and-sbi-explore-yen-stablecoin-link-for-tokenised-funds/",
+      "summary": "SBI Holdings and Startale announced on October 27 that they signed a memorandum of understanding with BlackRock Financial Management and BlackRock Japan.",
       "source": "NewsBTC",
-      "date": "2026-10-27",
-      "date_human": "Oct 27, 2026",
-      "pub_ts": 1793142000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Strive Adds 6,182 Bitcoin as Holdings Reach 43,000 BTC",
-      "link": "https://www.newsbtc.com/news/strive-adds-6-182-bitcoin-as-holdings-reach-43-000-btc/",
-      "summary": "Strive disclosed in an October 26 filing with the US Securities and Exchange Commission that it had bought 6,182 bitcoin between October 17 and October.",
-      "source": "NewsBTC",
-      "date": "2026-10-27",
-      "date_human": "Oct 27, 2026",
-      "pub_ts": 1793138400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Stellar Bell Upgrade Sets November Votes for Protocol 30",
-      "link": "https://www.newsbtc.com/news/stellar-bell-upgrade-sets-november-votes-for-protocol-30/",
-      "summary": "The Stellar Development Foundation has outlined Bell, the proposed Protocol 30 network upgrade, and set out a testnet vote for November 3, 2026 and a.",
-      "source": "NewsBTC",
-      "date": "2026-10-27",
-      "date_human": "Oct 27, 2026",
-      "pub_ts": 1793134800,
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793167200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
