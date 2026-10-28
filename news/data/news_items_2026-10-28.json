@@ -1,0 +1,356 @@
+{
+  "day_iso": "2026-10-28",
+  "generated_at_utc": "2026-10-28 05:05:11 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-10-28T05:05:05.364307+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 9,
+        "rejected": {
+          "title_filter": 1
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 39
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 7,
+        "within_window": 16,
+        "eligible": 5,
+        "rejected": {
+          "topic_author_or_category": 11,
+          "older_than_window": 4
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 48,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 48
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 25
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 2,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 2,
+          "older_than_window": 13
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 20
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 9,
+      "NIST": 1,
+      "Cryptonews": 5
+    },
+    "unique_by_source": {
+      "NewsBTC": 9,
+      "NIST": 1,
+      "Cryptonews": 5
+    },
+    "selected_by_source": {
+      "NewsBTC": 7,
+      "NIST": 1,
+      "Cryptonews": 4
+    }
+  },
+  "count": 12,
+  "items": [
+    {
+      "title": "Coinbase and Thunes Tie Stablecoins to Local Bank and Wallet Payouts",
+      "link": "https://www.newsbtc.com/news/coinbase-and-thunes-tie-stablecoins-to-local-bank-and-wallet-payouts/",
+      "summary": "Coinbase announced a collaboration with global payment network Thunes to connect stablecoin infrastructure with local bank-account and mobile-wallet.",
+      "source": "NewsBTC",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793160000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
+      "link": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+      "summary": "This report describes the timelines and migration activities for federal agencies, and it can serve as a key resource for technology providers and organizations that are developing their quantum-readiness road maps.",
+      "source": "NIST",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793102400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Is Heading for Another Red October, but Galaxy Says the Worst Is Over",
+      "link": "https://cryptonews.com/news/bitcoin-price-is-heading-for-another-red-october-but-galaxy-says-the-worst-is-over/",
+      "summary": "Bitcoin faces a second red October, but Galaxy says the bear market is over as it holds above its 50-week moving average.",
+      "source": "Cryptonews",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793087666,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Coinbase Ireland Hit With €3.25 Million Regulatory Penalty",
+      "link": "https://www.newsbtc.com/news/coinbase-ireland-hit-with-3-25-million-regulatory-penalty/",
+      "summary": "The Central Bank of Ireland announced on October 22 that it had fined Coinbase Ireland Limited €3,252,618 for breaches of safeguarding and outsourcing.",
+      "source": "NewsBTC",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793156400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Eyes $15 as Ripple Wins Final Bank Approval Ahead of Swell",
+      "link": "https://cryptonews.com/news/xrp-eyes-15-as-ripple-wins-final-bank-approval-ahead-of-swell/",
+      "summary": "XRP could be gearing up for a huge rally as Ripple secures final bank approval and Swell 2026 brings fresh catalysts back.",
+      "source": "Cryptonews",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793082511,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "HashKey Launches First hToken Linked to Investment Fund Units",
+      "link": "https://www.newsbtc.com/news/hashkey-launches-first-htoken-linked-to-investment-fund-units/",
+      "summary": "HashKey RWA announced on October 26 that it had launched the first product in its hToken series, linked to Class A units of HashKey Fintech Opportunities.",
+      "source": "NewsBTC",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793152800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Rebounds Again, Peter Schiff Repeats His Crash Warnings",
+      "link": "https://cryptonews.com/news/bitcoin-price-rebounds-again-peter-schiff-repeats-his-crash-warnings/",
+      "summary": "Bitcoin price rebounds after Peter Schiff calls $75K, but renewed selling keeps his crash warning in focus as BTC struggles to hold $80,000.",
+      "source": "Cryptonews",
+      "date": "2026-10-26",
+      "date_human": "Oct 26, 2026",
+      "pub_ts": 1793015896,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Hong Kong Opens 24/7 Trading for Two Tokenised Money-Market Funds",
+      "link": "https://www.newsbtc.com/news/hong-kong-opens-24-7-trading-for-two-tokenised-money-market-funds/",
+      "summary": "Hong Kong's Securities and Futures Commission announced on October 26 that it had approved secondary trading for two existing authorised tokenised.",
+      "source": "NewsBTC",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793145600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Sony Soneium Coin: PlayStation and GTA 6 Crypto Twist?",
+      "link": "https://cryptonews.com/news/sony-soneium-coin-playstation-and-gta-6-crypto-twist/",
+      "summary": "Sony Soneium Coin is coming and targeting tokenized entertainment IP. Could PlayStation and GTA 6 be next in gaming's crypto race?",
+      "source": "Cryptonews",
+      "date": "2026-10-26",
+      "date_human": "Oct 26, 2026",
+      "pub_ts": 1793012816,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitmine Says ETH Treasury Exceeds Six Million Coins",
+      "link": "https://www.newsbtc.com/news/bitmine-says-eth-treasury-exceeds-six-million-coins/",
+      "summary": "Bitmine Immersion Technologies filed an October 26 update with the SEC and said its Ethereum holdings had reached approximately 6.05 million ETH. Its.",
+      "source": "NewsBTC",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793142000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Strive Adds 6,182 Bitcoin as Holdings Reach 43,000 BTC",
+      "link": "https://www.newsbtc.com/news/strive-adds-6-182-bitcoin-as-holdings-reach-43-000-btc/",
+      "summary": "Strive disclosed in an October 26 filing with the US Securities and Exchange Commission that it had bought 6,182 bitcoin between October 17 and October.",
+      "source": "NewsBTC",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793138400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Stellar Bell Upgrade Sets November Votes for Protocol 30",
+      "link": "https://www.newsbtc.com/news/stellar-bell-upgrade-sets-november-votes-for-protocol-30/",
+      "summary": "The Stellar Development Foundation has outlined Bell, the proposed Protocol 30 network upgrade, and set out a testnet vote for November 3, 2026 and a.",
+      "source": "NewsBTC",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793134800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}

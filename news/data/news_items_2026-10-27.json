@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-27",
-  "generated_at_utc": "2026-10-27 17:05:10 UTC",
+  "generated_at_utc": "2026-10-27 23:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-27T17:05:04.866474+00:00",
+    "collected_at": "2026-10-27T23:05:05.530561+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 5,
+        "eligible": 9,
         "rejected": {
-          "unreviewed_link": 5
+          "unreviewed_link": 1
         }
       },
       {
@@ -48,7 +48,7 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 11,
+        "within_24h": 7,
         "within_window": 16,
         "eligible": 5,
         "rejected": {
@@ -180,31 +180,31 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 5,
+      "NewsBTC": 9,
       "NIST": 1,
       "Cryptonews": 5
     },
     "unique_by_source": {
-      "NewsBTC": 5,
+      "NewsBTC": 9,
       "NIST": 1,
       "Cryptonews": 5
     },
     "selected_by_source": {
-      "NewsBTC": 5,
+      "NewsBTC": 7,
       "NIST": 1,
-      "Cryptonews": 5
+      "Cryptonews": 4
     }
   },
-  "count": 11,
+  "count": 12,
   "items": [
     {
-      "title": "Ripple Opens 24/7 Returns Feature to Eligible Corporate Treasury Clients",
-      "link": "https://www.newsbtc.com/news/ripple-opens-24-7-returns-feature-to-eligible-corporate-treasury-clients/",
-      "summary": "Ripple unveiled additional Ripple Treasury capabilities at Swell 2026 on October 26, presenting a platform intended to connect cash forecasting,.",
+      "title": "Bitmine Says ETH Treasury Exceeds Six Million Coins",
+      "link": "https://www.newsbtc.com/news/bitmine-says-eth-treasury-exceeds-six-million-coins/",
+      "summary": "Bitmine Immersion Technologies filed an October 26 update with the SEC and said its Ethereum holdings had reached approximately 6.05 million ETH. Its.",
       "source": "NewsBTC",
       "date": "2026-10-27",
       "date_human": "Oct 27, 2026",
-      "pub_ts": 1793120400,
+      "pub_ts": 1793142000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -237,13 +237,13 @@
       "image_local": null
     },
     {
-      "title": "Aviva Tokenises Part of £22 Billion Sterling Fund on XRP Ledger",
-      "link": "https://www.newsbtc.com/news/aviva-tokenises-part-of-22-billion-sterling-fund-on-xrp-ledger/",
-      "summary": "Aviva Investors and Ripple announced a tokenised share class for the Aviva Investors Sterling Liquidity Fund on October 26. The existing sterling fund has.",
+      "title": "Strive Adds 6,182 Bitcoin as Holdings Reach 43,000 BTC",
+      "link": "https://www.newsbtc.com/news/strive-adds-6-182-bitcoin-as-holdings-reach-43-000-btc/",
+      "summary": "Strive disclosed in an October 26 filing with the US Securities and Exchange Commission that it had bought 6,182 bitcoin between October 17 and October.",
       "source": "NewsBTC",
       "date": "2026-10-27",
       "date_human": "Oct 27, 2026",
-      "pub_ts": 1793116800,
+      "pub_ts": 1793138400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -263,13 +263,13 @@
       "image_local": null
     },
     {
-      "title": "Ripple Receives Final OCC Trust Bank Approval as RLUSD Expands",
-      "link": "https://www.newsbtc.com/news/ripple-receives-final-occ-trust-bank-approval-as-rlusd-expands/",
-      "summary": "Ripple said on October 26 that the Office of the Comptroller of the Currency had granted final approval to charter Ripple National Trust Bank. The.",
+      "title": "Stellar Bell Upgrade Sets November Votes for Protocol 30",
+      "link": "https://www.newsbtc.com/news/stellar-bell-upgrade-sets-november-votes-for-protocol-30/",
+      "summary": "The Stellar Development Foundation has outlined Bell, the proposed Protocol 30 network upgrade, and set out a testnet vote for November 3, 2026 and a.",
       "source": "NewsBTC",
       "date": "2026-10-27",
       "date_human": "Oct 27, 2026",
-      "pub_ts": 1793113200,
+      "pub_ts": 1793134800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -289,13 +289,13 @@
       "image_local": null
     },
     {
-      "title": "Solana's Delivery-Versus-Payment Tool Tries to Remove Settlement's Weakest Link",
-      "link": "https://www.newsbtc.com/news/solana/solana-s-delivery-versus-payment-tool-tries-to-remove-settlement-s-weakest/",
-      "summary": "Solana DvP offers an open-source route to atomic securities settlement, with JPMorgan providing input on institutional requirements.",
+      "title": "Stellar Repo Test Executes 72 Hourly Rolls Using Sovereign Debt",
+      "link": "https://www.newsbtc.com/news/stellar-repo-test-executes-72-hourly-rolls-using-sovereign-debt/",
+      "summary": "Ascend and M1X Global announced on October 23 that they had completed an institutional repurchase transaction using the Stellar blockchain and an onchain.",
       "source": "NewsBTC",
       "date": "2026-10-27",
       "date_human": "Oct 27, 2026",
-      "pub_ts": 1793088000,
+      "pub_ts": 1793131200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -315,26 +315,39 @@
       "image_local": null
     },
     {
-      "title": "Samsung Wallet's Solana USDC Rollout Faces Its First Real User Test",
-      "link": "https://www.newsbtc.com/news/solana/samsung-wallet-s-solana-usdc-rollout-faces-its-first-real-user-test/",
-      "summary": "Samsung's planned USDC remittance feature is due to begin rolling out to eligible US Galaxy users in the final week of October.",
+      "title": "EDX Markets Signs Apex Fintech Deal to Broaden Crypto Trading Access",
+      "link": "https://www.newsbtc.com/news/edx-markets-signs-apex-fintech-deal-to-broaden-crypto-trading-access/",
+      "summary": "EDX Markets and Apex Fintech Solutions announced a strategic relationship on October 26 to connect institutional digital-asset trading and clearing.",
       "source": "NewsBTC",
       "date": "2026-10-27",
       "date_human": "Oct 27, 2026",
-      "pub_ts": 1793084400,
+      "pub_ts": 1793127600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "BNB New Layer 1 Puts CZ's Ecosystem Strategy in Focus as ASTER Builds Its Own Chain",
-      "link": "https://cryptonews.com/news/bnb-new-layer-1-cz-ecosystem-strategy-aster/",
-      "summary": "BNB New L1 and ASTER reveal different sides of CZ’s ecosystem strategy as specialized blockchains compete for on-chain trading activity.",
-      "source": "Cryptonews",
-      "date": "2026-10-26",
-      "date_human": "Oct 26, 2026",
-      "pub_ts": 1793010750,
+      "title": "Monad Wins a Stablecoin Card Infrastructure Deal With Reap and Meru",
+      "link": "https://www.newsbtc.com/news/monad-wins-a-stablecoin-card-infrastructure-deal-with-reap-and-meru/",
+      "summary": "Reap announced on October 26 that it would add the Monad blockchain to its stablecoin-linked card infrastructure, with Latin American finance application.",
+      "source": "NewsBTC",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793124000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ripple Opens 24/7 Returns Feature to Eligible Corporate Treasury Clients",
+      "link": "https://www.newsbtc.com/news/ripple-opens-24-7-returns-feature-to-eligible-corporate-treasury-clients/",
+      "summary": "Ripple unveiled additional Ripple Treasury capabilities at Swell 2026 on October 26, presenting a platform intended to connect cash forecasting,.",
+      "source": "NewsBTC",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793120400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
