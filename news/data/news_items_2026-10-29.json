@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-29",
-  "generated_at_utc": "2026-10-29 05:05:07 UTC",
+  "generated_at_utc": "2026-10-29 11:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-29T05:05:01.729087+00:00",
+    "collected_at": "2026-10-29T11:05:02.386325+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -46,12 +46,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
-        "within_window": 16,
+        "within_24h": 10,
+        "within_window": 17,
         "eligible": 6,
         "rejected": {
-          "topic_author_or_category": 10,
-          "older_than_window": 4
+          "topic_author_or_category": 11,
+          "older_than_window": 3
         }
       },
       {
@@ -95,11 +95,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 15
+          "topic_author_or_category": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -177,33 +178,46 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 10,
-      "Federal Reserve Board": 2,
       "Cryptonews": 6,
+      "Federal Reserve Board": 2,
       "NIST": 1
     },
     "unique_by_source": {
       "NewsBTC": 10,
-      "Federal Reserve Board": 1,
       "Cryptonews": 6,
+      "Federal Reserve Board": 1,
       "NIST": 1
     },
     "selected_by_source": {
       "NewsBTC": 6,
-      "Federal Reserve Board": 1,
       "Cryptonews": 4,
+      "Federal Reserve Board": 1,
       "NIST": 1
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "BitGo Plans In-Platform Access to WisdomTree Tokenized Treasury Fund",
-      "link": "https://www.newsbtc.com/news/bitgo-plans-in-platform-access-to-wisdomtree-tokenized-treasury-fund/",
-      "summary": "BitGo says eligible institutional clients will be able to mint, redeem and custody WisdomTree’s WTGXX tokenized Treasury money-market fund within its regulated digital-asset environment.",
+      "title": "MEXC Reports 88% Growth in AI-Related Tokenized U.S. Stock and ETF Trading Volume in September, With Four Infrastructure Sectors Up Over 90%",
+      "link": "https://www.newsbtc.com/news/mexc-reports-88-growth-in-ai-related-tokenized-u-s-stock-and-etf-trading-volume-in-september-with-four-infrastructure-sectors-up-over-90/",
+      "summary": "Mutsamudu, Comoros, October 29, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its September TradFi trading data. Tokenized U.S. stock spot trading volume rose 81% month over month, while trading volume for AI-related assets grew 88%. Semiconductor- and memory-related assets accounted for 77% of trading volume among the top 10 Stock and Index Futures, while Pre-IPO Futures trading volume increased 60%. AI Trading Expands Beyond Chips Into Optical Communications and Power, With Four Sectors Each Growing Over 90% In September, trading volume for AI-related assets within MEXC",
       "source": "NewsBTC",
       "date": "2026-10-29",
       "date_human": "Oct 29, 2026",
-      "pub_ts": 1793250000,
+      "pub_ts": 1793268696,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Faces $11B Options Expiry After FOMC Uncertainty Clears",
+      "link": "https://cryptonews.com/news/bitcoin-price-11b-options-expiry-fomc-uncertainty/",
+      "summary": "Bitcoin price faces an $11B option expiry after the FOMC decision, with call-heavy positioning shaping the next potential rally.",
+      "source": "Cryptonews",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793257225,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -223,19 +237,6 @@
       "image_local": null
     },
     {
-      "title": "Google MPC Could Reshape Crypto Custody: Fireblocks Security Flaw Draws Attention",
-      "link": "https://cryptonews.com/news/google-mpc-crypto-custody-fireblocks-security-flaw/",
-      "summary": "Google MPC targets institutional crypto custody as a Fireblocks MPC vulnerability highlights the risks facing digital asset security systems.",
-      "source": "Cryptonews",
-      "date": "2026-10-28",
-      "date_human": "Oct 28, 2026",
-      "pub_ts": 1793188670,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
       "link": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
       "summary": "This report describes the timelines and migration activities for federal agencies, and it can serve as a key resource for technology providers and organizations that are developing their quantum-readiness road maps.",
@@ -243,6 +244,58 @@
       "date": "2026-10-27",
       "date_human": "Oct 27, 2026",
       "pub_ts": 1793102400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "TRX Options Launch on Blockchain.com, Expanding Global Access to the TRON Ecosystem",
+      "link": "https://www.newsbtc.com/news/trx-options-launch-on-blockchain-com-expanding-global-access-to-the-tron-ecosystem/",
+      "summary": "TRON DAO, the community-governed DAO dedicated to accelerating the decentralization of the internet through blockchain technology and decentralized applications (dApps), welcomes the launch of TRX options on Blockchain.com, a global leader in crypto services for retail and institutional users. Available through the Blockchain.com Trading Account in eligible jurisdictions, the launch provides simplified access to TRX, the native utility token of the TRON network. Blockchain.com is bringing access to TRX options into its consumer app, simplifying the user experience around a product category tha",
+      "source": "NewsBTC",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793266398,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Sony Sonenium Incubation Program Targets PlayStation Games and Anime",
+      "link": "https://cryptonews.com/news/sony-soneium-playstation-games-anime/",
+      "summary": "Sony Soneium launches a new incubation program targeting PlayStation games, anime, digital collectibles and fan communities.",
+      "source": "Cryptonews",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793255717,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "BitGo Plans In-Platform Access to WisdomTree Tokenized Treasury Fund",
+      "link": "https://www.newsbtc.com/news/bitgo-plans-in-platform-access-to-wisdomtree-tokenized-treasury-fund/",
+      "summary": "BitGo says eligible institutional clients will be able to mint, redeem and custody WisdomTree’s WTGXX tokenized Treasury money-market fund within its regulated digital-asset environment.",
+      "source": "NewsBTC",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793250000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Google MPC Could Reshape Crypto Custody: Fireblocks Security Flaw Draws Attention",
+      "link": "https://cryptonews.com/news/google-mpc-crypto-custody-fireblocks-security-flaw/",
+      "summary": "Google MPC targets institutional crypto custody as a Fireblocks MPC vulnerability highlights the risks facing digital asset security systems.",
+      "source": "Cryptonews",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793188670,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -288,19 +341,6 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin Price Bounces as Nasdaq Soars, KOSPI Rebounds, and FOMC Hike Fears Persist",
-      "link": "https://cryptonews.com/news/bitcoin-price-bounces-nasdaq-kospi-soars-fomc-hike-fears/",
-      "summary": "Bitcoin price rebounds toward $81,000 as Nasdaq and KOSPI rally, while FOMC hike fears and rate expectations shape crypto's next move.",
-      "source": "Cryptonews",
-      "date": "2026-10-28",
-      "date_human": "Oct 28, 2026",
-      "pub_ts": 1793176567,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Ripple and DriveWealth Link Stablecoin Settlement to Global Brokerage",
       "link": "https://www.newsbtc.com/news/ripple-and-drivewealth-link-stablecoin-settlement-to-global-brokerage/",
       "summary": "Brokerage infrastructure provider DriveWealth is working with Ripple to incorporate stablecoin settlement and digital-asset capabilities across its global business.",
@@ -308,45 +348,6 @@
       "date": "2026-10-29",
       "date_human": "Oct 29, 2026",
       "pub_ts": 1793239200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Ripple's RLUSD Wins Moody's Rating as XRP Faces a Bigger Question: Who Captures the Value?",
-      "link": "https://cryptonews.com/news/ripples-rlusd-moodys-rating-xrp-faces-bigger-question/",
-      "summary": "RLUSD earns Moody’s A2 rating as Ripple secures OCC trust-bank approval. Can XRP benefit from stablecoin growth like BNB did?",
-      "source": "Cryptonews",
-      "date": "2026-10-28",
-      "date_human": "Oct 28, 2026",
-      "pub_ts": 1793170942,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "SEC Crypto Custody Proposal Could Expand Options for Advisers and Funds",
-      "link": "https://www.newsbtc.com/news/sec-crypto-custody-proposal-could-expand-options-for-advisers-and-funds/",
-      "summary": "The SEC has proposed a tailored custody framework for investment advisers and registered funds that handle crypto assets.",
-      "source": "NewsBTC",
-      "date": "2026-10-29",
-      "date_human": "Oct 29, 2026",
-      "pub_ts": 1793235600,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "SEC Flags Tokenization and Market Infrastructure in 2027 Exam Priorities",
-      "link": "https://www.newsbtc.com/news/sec-flags-tokenization-and-market-infrastructure-in-2027-exam-priorities/",
-      "summary": "The US Securities and Exchange Commission has identified tokenization and evolving market infrastructure among risks for its fiscal 2027 examination programme.",
-      "source": "NewsBTC",
-      "date": "2026-10-29",
-      "date_human": "Oct 29, 2026",
-      "pub_ts": 1793232000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
