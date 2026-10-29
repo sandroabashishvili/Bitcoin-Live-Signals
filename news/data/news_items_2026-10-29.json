@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-29",
-  "generated_at_utc": "2026-10-29 11:05:08 UTC",
+  "generated_at_utc": "2026-10-29 17:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-29T11:05:02.386325+00:00",
+    "collected_at": "2026-10-29T17:05:02.216788+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -35,10 +35,10 @@
         "status": "ok",
         "entries": 40,
         "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 39
+          "older_than_window": 40
         }
       },
       {
@@ -47,11 +47,11 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 10,
-        "within_window": 17,
-        "eligible": 6,
+        "within_window": 15,
+        "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 11,
-          "older_than_window": 3
+          "topic_author_or_category": 8,
+          "older_than_window": 5
         }
       },
       {
@@ -70,12 +70,12 @@
         "source": "U.S. Bureau of Economic Analysis",
         "url": "https://apps.bea.gov/rss/rss.xml",
         "status": "ok",
-        "entries": 48,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "entries": 49,
+        "within_24h": 2,
+        "within_window": 2,
+        "eligible": 2,
         "rejected": {
-          "older_than_window": 48
+          "older_than_window": 47
         }
       },
       {
@@ -95,12 +95,14 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
-        "within_window": 1,
+        "within_24h": 4,
+        "within_window": 4,
         "eligible": 0,
         "rejected": {
+          "unreviewed_link": 2,
+          "title_filter": 1,
           "topic_author_or_category": 1,
-          "older_than_window": 14
+          "older_than_window": 11
         }
       },
       {
@@ -178,46 +180,59 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 6,
-      "Federal Reserve Board": 2,
-      "NIST": 1
+      "Cryptonews": 7,
+      "U.S. Bureau of Economic Analysis": 2,
+      "Federal Reserve Board": 2
     },
     "unique_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 6,
-      "Federal Reserve Board": 1,
-      "NIST": 1
+      "Cryptonews": 7,
+      "U.S. Bureau of Economic Analysis": 2,
+      "Federal Reserve Board": 1
     },
     "selected_by_source": {
-      "NewsBTC": 6,
+      "NewsBTC": 5,
       "Cryptonews": 4,
-      "Federal Reserve Board": 1,
-      "NIST": 1
+      "U.S. Bureau of Economic Analysis": 2,
+      "Federal Reserve Board": 1
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "MEXC Reports 88% Growth in AI-Related Tokenized U.S. Stock and ETF Trading Volume in September, With Four Infrastructure Sectors Up Over 90%",
-      "link": "https://www.newsbtc.com/news/mexc-reports-88-growth-in-ai-related-tokenized-u-s-stock-and-etf-trading-volume-in-september-with-four-infrastructure-sectors-up-over-90/",
-      "summary": "Mutsamudu, Comoros, October 29, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its September TradFi trading data. Tokenized U.S. stock spot trading volume rose 81% month over month, while trading volume for AI-related assets grew 88%. Semiconductor- and memory-related assets accounted for 77% of trading volume among the top 10 Stock and Index Futures, while Pre-IPO Futures trading volume increased 60%. AI Trading Expands Beyond Chips Into Optical Communications and Power, With Four Sectors Each Growing Over 90% In September, trading volume for AI-related assets within MEXC",
+      "title": "Securitize Plans Stellar Integration as Tokenized Asset Platforms Expand",
+      "link": "https://www.newsbtc.com/news/securitize-plans-stellar-integration-as-tokenized-asset-platforms-expand/",
+      "summary": "Tokenization platform Securitize announced plans on October 28 to integrate the Stellar network into the infrastructure it offers institutional asset.",
       "source": "NewsBTC",
       "date": "2026-10-29",
       "date_human": "Oct 29, 2026",
-      "pub_ts": 1793268696,
+      "pub_ts": 1793293200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Bitcoin Price Faces $11B Options Expiry After FOMC Uncertainty Clears",
-      "link": "https://cryptonews.com/news/bitcoin-price-11b-options-expiry-fomc-uncertainty/",
-      "summary": "Bitcoin price faces an $11B option expiry after the FOMC decision, with call-heavy positioning shaping the next potential rally.",
+      "title": "Ripple Closes to $1B Revenue as $63T BNY Adds XRP Custody",
+      "link": "https://cryptonews.com/news/ripple-nears-1b-revenue-bny-xrp-custody/",
+      "summary": "Ripple approaches $1B in annualized revenue as BNY expands XRP custody, raising questions about institutional adoption and token demand.",
       "source": "Cryptonews",
       "date": "2026-10-29",
       "date_human": "Oct 29, 2026",
-      "pub_ts": 1793257225,
+      "pub_ts": 1793288040,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "GDP (Advance Estimate), 3rd Quarter 2026",
+      "link": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 2026 (July, August, and September), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a subtraction in the calculation of GDP, increased.",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793277000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -237,26 +252,52 @@
       "image_local": null
     },
     {
-      "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
-      "link": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
-      "summary": "This report describes the timelines and migration activities for federal agencies, and it can serve as a key resource for technology providers and organizations that are developing their quantum-readiness road maps.",
-      "source": "NIST",
-      "date": "2026-10-27",
-      "date_human": "Oct 27, 2026",
-      "pub_ts": 1793102400,
+      "title": "Ripple Projects Nearly $900M Annual Product Revenue Run Rate Amid Banking Push",
+      "link": "https://www.newsbtc.com/news/ripple-projects-nearly-900m-annual-product-revenue-run-rate-amid-banking-push/",
+      "summary": "At its Swell conference, Ripple said it was approaching a $900 million annualized product-revenue run rate as it heads toward the end of 2026. For.",
+      "source": "NewsBTC",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793289600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "TRX Options Launch on Blockchain.com, Expanding Global Access to the TRON Ecosystem",
-      "link": "https://www.newsbtc.com/news/trx-options-launch-on-blockchain-com-expanding-global-access-to-the-tron-ecosystem/",
-      "summary": "TRON DAO, the community-governed DAO dedicated to accelerating the decentralization of the internet through blockchain technology and decentralized applications (dApps), welcomes the launch of TRX options on Blockchain.com, a global leader in crypto services for retail and institutional users. Available through the Blockchain.com Trading Account in eligible jurisdictions, the launch provides simplified access to TRX, the native utility token of the TRON network. Blockchain.com is bringing access to TRX options into its consumer app, simplifying the user experience around a product category tha",
+      "title": "Bitcoin Price Faces $11B Options Expiry After FOMC Uncertainty Clears",
+      "link": "https://cryptonews.com/news/bitcoin-price-11b-options-expiry-fomc-uncertainty/",
+      "summary": "Bitcoin price faces an $11B option expiry after the FOMC decision, with call-heavy positioning shaping the next potential rally.",
+      "source": "Cryptonews",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793257225,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Personal Income and Outlays, September 2026",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+      "summary": "Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $52.7 billion (0.2 percent), and personal consumption expenditures (PCE) increased $113.1 billion (0.5 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $113.0 billion in September. Personal saving was $911.1 billion, and the personal saving rate–personal saving as a perc",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793277000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ripple USD Reaches Coinbase as RLUSD Expands Across Three Blockchains",
+      "link": "https://www.newsbtc.com/news/ripple-usd-reaches-coinbase-as-rlusd-expands-across-three-blockchains/",
+      "summary": "Coinbase confirmed on October 28 that Ripple USD, or RLUSD, is available to eligible users on Coinbase Prime, Coinbase Exchange and the consumer.",
       "source": "NewsBTC",
       "date": "2026-10-29",
       "date_human": "Oct 29, 2026",
-      "pub_ts": 1793266398,
+      "pub_ts": 1793286000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -276,13 +317,13 @@
       "image_local": null
     },
     {
-      "title": "BitGo Plans In-Platform Access to WisdomTree Tokenized Treasury Fund",
-      "link": "https://www.newsbtc.com/news/bitgo-plans-in-platform-access-to-wisdomtree-tokenized-treasury-fund/",
-      "summary": "BitGo says eligible institutional clients will be able to mint, redeem and custody WisdomTree’s WTGXX tokenized Treasury money-market fund within its regulated digital-asset environment.",
+      "title": "Bitcoin Faces a Hawkish Fed Pause as Two Officials Seek Higher Rates",
+      "link": "https://www.newsbtc.com/news/bitcoin-faces-a-hawkish-fed-pause-as-two-officials-seek-higher-rates/",
+      "summary": "The Federal Reserve held the federal funds target range at 3.75% to 4.00% on October 28. For Bitcoin, a key market question is whether the latest policy.",
       "source": "NewsBTC",
       "date": "2026-10-29",
       "date_human": "Oct 29, 2026",
-      "pub_ts": 1793250000,
+      "pub_ts": 1793282400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -302,52 +343,13 @@
       "image_local": null
     },
     {
-      "title": "CF Benchmarks Debuts Onchain Oracle for Institutional Crypto Price Indices",
-      "link": "https://www.newsbtc.com/news/cf-benchmarks-debuts-onchain-oracle-for-institutional-crypto-price-indices/",
-      "summary": "CF Benchmarks has launched CFB Oracle, delivering cryptographically signed index information to applications on Ethereum mainnet, HyperEVM and Robinhood Chain.",
+      "title": "DTCC Launches Tokenized Securities Service as Wall Street Tests New Settlement Rails",
+      "link": "https://www.newsbtc.com/news/dtcc-launches-tokenized-securities-service-as-wall-street-tests-new-settlement-rails/",
+      "summary": "The Depository Trust Company, part of DTCC, launched its tokenization service on October 28, moving a particularly important part of institutional.",
       "source": "NewsBTC",
       "date": "2026-10-29",
       "date_human": "Oct 29, 2026",
-      "pub_ts": 1793246400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Coinbase Data Breach Shows Why Crypto Security Goes Beyond Self-Custody",
-      "link": "https://cryptonews.com/news/coinbase-data-breach-self-custody-bank/",
-      "summary": "The Coinbase data breach and Ledger incidents show why crypto security extends beyond self-custody, with banks facing similar risks.",
-      "source": "Cryptonews",
-      "date": "2026-10-28",
-      "date_human": "Oct 28, 2026",
-      "pub_ts": 1793185950,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Janus Henderson Launches Tokenized Nasdaq-100 Fund JQQQ on Stellar",
-      "link": "https://www.newsbtc.com/news/janus-henderson-launches-tokenized-nasdaq-100-fund-jqqq-on-stellar/",
-      "summary": "Janus Henderson and Centrifuge have launched JQQQ, an issuer-sponsored blockchain-native fund seeking exposure to the Nasdaq-100 Index through the Stellar network.",
-      "source": "NewsBTC",
-      "date": "2026-10-29",
-      "date_human": "Oct 29, 2026",
-      "pub_ts": 1793242800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Ripple and DriveWealth Link Stablecoin Settlement to Global Brokerage",
-      "link": "https://www.newsbtc.com/news/ripple-and-drivewealth-link-stablecoin-settlement-to-global-brokerage/",
-      "summary": "Brokerage infrastructure provider DriveWealth is working with Ripple to incorporate stablecoin settlement and digital-asset capabilities across its global business.",
-      "source": "NewsBTC",
-      "date": "2026-10-29",
-      "date_human": "Oct 29, 2026",
-      "pub_ts": 1793239200,
+      "pub_ts": 1793278800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
