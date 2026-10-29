@@ -1,0 +1,356 @@
+{
+  "day_iso": "2026-10-29",
+  "generated_at_utc": "2026-10-29 05:05:07 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-10-29T05:05:01.729087+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 10,
+        "rejected": {}
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 39
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 9,
+        "within_window": 16,
+        "eligible": 6,
+        "rejected": {
+          "topic_author_or_category": 10,
+          "older_than_window": 4
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 48,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 48
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 25
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 14
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 19
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 10,
+      "Federal Reserve Board": 2,
+      "Cryptonews": 6,
+      "NIST": 1
+    },
+    "unique_by_source": {
+      "NewsBTC": 10,
+      "Federal Reserve Board": 1,
+      "Cryptonews": 6,
+      "NIST": 1
+    },
+    "selected_by_source": {
+      "NewsBTC": 6,
+      "Federal Reserve Board": 1,
+      "Cryptonews": 4,
+      "NIST": 1
+    }
+  },
+  "count": 12,
+  "items": [
+    {
+      "title": "BitGo Plans In-Platform Access to WisdomTree Tokenized Treasury Fund",
+      "link": "https://www.newsbtc.com/news/bitgo-plans-in-platform-access-to-wisdomtree-tokenized-treasury-fund/",
+      "summary": "BitGo says eligible institutional clients will be able to mint, redeem and custody WisdomTree’s WTGXX tokenized Treasury money-market fund within its regulated digital-asset environment.",
+      "source": "NewsBTC",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793250000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "summary": "Federal Reserve issues FOMC statement",
+      "source": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793210400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Google MPC Could Reshape Crypto Custody: Fireblocks Security Flaw Draws Attention",
+      "link": "https://cryptonews.com/news/google-mpc-crypto-custody-fireblocks-security-flaw/",
+      "summary": "Google MPC targets institutional crypto custody as a Fireblocks MPC vulnerability highlights the risks facing digital asset security systems.",
+      "source": "Cryptonews",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793188670,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "NIST Report Provides Guidelines for Transition to Post-Quantum Cryptography Standards",
+      "link": "https://www.nist.gov/news-events/news/2026/10/nist-report-provides-guidelines-transition-post-quantum-cryptography",
+      "summary": "This report describes the timelines and migration activities for federal agencies, and it can serve as a key resource for technology providers and organizations that are developing their quantum-readiness road maps.",
+      "source": "NIST",
+      "date": "2026-10-27",
+      "date_human": "Oct 27, 2026",
+      "pub_ts": 1793102400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "CF Benchmarks Debuts Onchain Oracle for Institutional Crypto Price Indices",
+      "link": "https://www.newsbtc.com/news/cf-benchmarks-debuts-onchain-oracle-for-institutional-crypto-price-indices/",
+      "summary": "CF Benchmarks has launched CFB Oracle, delivering cryptographically signed index information to applications on Ethereum mainnet, HyperEVM and Robinhood Chain.",
+      "source": "NewsBTC",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793246400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Coinbase Data Breach Shows Why Crypto Security Goes Beyond Self-Custody",
+      "link": "https://cryptonews.com/news/coinbase-data-breach-self-custody-bank/",
+      "summary": "The Coinbase data breach and Ledger incidents show why crypto security extends beyond self-custody, with banks facing similar risks.",
+      "source": "Cryptonews",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793185950,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Janus Henderson Launches Tokenized Nasdaq-100 Fund JQQQ on Stellar",
+      "link": "https://www.newsbtc.com/news/janus-henderson-launches-tokenized-nasdaq-100-fund-jqqq-on-stellar/",
+      "summary": "Janus Henderson and Centrifuge have launched JQQQ, an issuer-sponsored blockchain-native fund seeking exposure to the Nasdaq-100 Index through the Stellar network.",
+      "source": "NewsBTC",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793242800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Bounces as Nasdaq Soars, KOSPI Rebounds, and FOMC Hike Fears Persist",
+      "link": "https://cryptonews.com/news/bitcoin-price-bounces-nasdaq-kospi-soars-fomc-hike-fears/",
+      "summary": "Bitcoin price rebounds toward $81,000 as Nasdaq and KOSPI rally, while FOMC hike fears and rate expectations shape crypto's next move.",
+      "source": "Cryptonews",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793176567,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ripple and DriveWealth Link Stablecoin Settlement to Global Brokerage",
+      "link": "https://www.newsbtc.com/news/ripple-and-drivewealth-link-stablecoin-settlement-to-global-brokerage/",
+      "summary": "Brokerage infrastructure provider DriveWealth is working with Ripple to incorporate stablecoin settlement and digital-asset capabilities across its global business.",
+      "source": "NewsBTC",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793239200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ripple's RLUSD Wins Moody's Rating as XRP Faces a Bigger Question: Who Captures the Value?",
+      "link": "https://cryptonews.com/news/ripples-rlusd-moodys-rating-xrp-faces-bigger-question/",
+      "summary": "RLUSD earns Moody’s A2 rating as Ripple secures OCC trust-bank approval. Can XRP benefit from stablecoin growth like BNB did?",
+      "source": "Cryptonews",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793170942,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "SEC Crypto Custody Proposal Could Expand Options for Advisers and Funds",
+      "link": "https://www.newsbtc.com/news/sec-crypto-custody-proposal-could-expand-options-for-advisers-and-funds/",
+      "summary": "The SEC has proposed a tailored custody framework for investment advisers and registered funds that handle crypto assets.",
+      "source": "NewsBTC",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793235600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "SEC Flags Tokenization and Market Infrastructure in 2027 Exam Priorities",
+      "link": "https://www.newsbtc.com/news/sec-flags-tokenization-and-market-infrastructure-in-2027-exam-priorities/",
+      "summary": "The US Securities and Exchange Commission has identified tokenization and evolving market infrastructure among risks for its fiscal 2027 examination programme.",
+      "source": "NewsBTC",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793232000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}

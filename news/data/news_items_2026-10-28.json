@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-28",
-  "generated_at_utc": "2026-10-28 17:05:10 UTC",
+  "generated_at_utc": "2026-10-28 23:05:12 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-28T17:05:03.682444+00:00",
+    "collected_at": "2026-10-28T23:05:06.970025+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,10 +26,8 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 9,
-        "rejected": {
-          "title_filter": 1
-        }
+        "eligible": 10,
+        "rejected": {}
       },
       {
         "source": "NIST",
@@ -48,12 +46,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 5,
-        "within_window": 16,
+        "within_24h": 8,
+        "within_window": 15,
         "eligible": 6,
         "rejected": {
-          "topic_author_or_category": 10,
-          "older_than_window": 4
+          "topic_author_or_category": 9,
+          "older_than_window": 5
         }
       },
       {
@@ -111,10 +109,11 @@
         "status": "ok",
         "entries": 10,
         "within_24h": 0,
-        "within_window": 0,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 10
+          "unreviewed_link": 1,
+          "older_than_window": 9
         }
       },
       {
@@ -122,11 +121,11 @@
         "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 15
+          "older_than_window": 14
         }
       },
       {
@@ -170,26 +169,29 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 20
+          "older_than_window": 19
         }
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 9,
+      "NewsBTC": 10,
+      "Federal Reserve Board": 2,
       "Cryptonews": 6,
       "NIST": 1
     },
     "unique_by_source": {
-      "NewsBTC": 9,
+      "NewsBTC": 10,
+      "Federal Reserve Board": 1,
       "Cryptonews": 6,
       "NIST": 1
     },
     "selected_by_source": {
-      "NewsBTC": 7,
+      "NewsBTC": 6,
+      "Federal Reserve Board": 1,
       "Cryptonews": 4,
       "NIST": 1
     }
@@ -197,13 +199,26 @@
   "count": 12,
   "items": [
     {
-      "title": "Solana Alpenglow Goes Live, Targeting 150-Millisecond Finality",
-      "link": "https://www.newsbtc.com/news/solana-alpenglow-goes-live-targeting-150-millisecond-finality/",
-      "summary": "Solana activated the Alpenglow consensus protocol on mainnet on October 21, marking a substantial change in how its validators reach finality.",
+      "title": "Swiss FINMA Approves First Domestic Retail Bitcoin ETF",
+      "link": "https://www.newsbtc.com/news/swiss-finma-approves-first-domestic-retail-bitcoin-etf/",
+      "summary": "Switzerland’s FINMA has approved its first Swiss-law retail exchange-traded fund that invests directly in Bitcoin.",
       "source": "NewsBTC",
       "date": "2026-10-28",
       "date_human": "Oct 28, 2026",
-      "pub_ts": 1793206800,
+      "pub_ts": 1793228400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "summary": "Federal Reserve issues FOMC statement",
+      "source": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793210400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -236,13 +251,13 @@
       "image_local": null
     },
     {
-      "title": "OCC Proposes Weekly and Quarterly Reporting Forms for Stablecoin Issuers",
-      "link": "https://www.newsbtc.com/news/occ-proposes-weekly-and-quarterly-reporting-forms-for-stablecoin-issuers/",
-      "summary": "The OCC has published revised reporting forms intended to let supervisors monitor the financial condition and activity of permitted payment-stablecoin issuers.",
+      "title": "Ethereum Researchers Explore Transaction Assertions to Reduce Signing Risks",
+      "link": "https://www.newsbtc.com/news/ethereum-researchers-explore-transaction-assertions-to-reduce-signing-risks/",
+      "summary": "Ethereum Foundation researchers are examining native transaction assertions that could make transaction safety depend on the final state as well as the signed instructions.",
       "source": "NewsBTC",
       "date": "2026-10-28",
       "date_human": "Oct 28, 2026",
-      "pub_ts": 1793203200,
+      "pub_ts": 1793224800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -262,13 +277,13 @@
       "image_local": null
     },
     {
-      "title": "OCC Finalizes US Stablecoin Rule With January 18 Effective Date",
-      "link": "https://www.newsbtc.com/news/occ-finalizes-us-stablecoin-rule-with-january-18-effective-date/",
-      "summary": "The Office of the Comptroller of the Currency has issued a final rule implementing key portions of the GENIUS Act for stablecoin issuers under its jurisdiction.",
+      "title": "Ethereum Developers Delay Glamsterdam Hoodi Upgrade Without New Date",
+      "link": "https://www.newsbtc.com/news/ethereum-developers-delay-glamsterdam-hoodi-upgrade-without-new-date/",
+      "summary": "Ethereum developers postponed the Glamsterdam upgrade previously planned for the Hoodi testnet on October 26, with no revised activation date set.",
       "source": "NewsBTC",
       "date": "2026-10-28",
       "date_human": "Oct 28, 2026",
-      "pub_ts": 1793199600,
+      "pub_ts": 1793221200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -288,13 +303,13 @@
       "image_local": null
     },
     {
-      "title": "Coinbase Sets October 30 Deadline for Restricted Stablecoins in EEA",
-      "link": "https://www.newsbtc.com/news/coinbase-sets-october-30-deadline-for-restricted-stablecoins-in-eea/",
-      "summary": "Coinbase has warned retail users in the European Economic Area to withdraw affected non-MiCA-compliant stablecoins by October 30, 2026.",
+      "title": "Samsung Wallet Prepares USDC Transfers on Solana for US Galaxy Users",
+      "link": "https://www.newsbtc.com/news/samsung-wallet-prepares-usdc-transfers-on-solana-for-us-galaxy-users/",
+      "summary": "Samsung and Solana announced plans to bring cross-border USDC transfers into Samsung Wallet during the final week of October 2026.",
       "source": "NewsBTC",
       "date": "2026-10-28",
       "date_human": "Oct 28, 2026",
-      "pub_ts": 1793196000,
+      "pub_ts": 1793217600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -314,39 +329,26 @@
       "image_local": null
     },
     {
-      "title": "Confidential ZEC trading goes live on Shield",
-      "link": "https://www.newsbtc.com/news/confidential-zec-trading-goes-live-on-shield/",
-      "summary": "Traders can now buy, sell, and provide liquidity for ZEC while keeping their identity, portfolio, and trading strategies confidential. Shield has launched the first confidential onchain trading pair for ZEC, allowing users to manage their Zcash alongside other assets in its non-custodial wallet. The new pair gives ZEC holders access to a confidential, non-custodial AMM where they can buy, sell, and provide liquidity without publishing their wallet activity to the market. The launch expands Shield’s supported markets through its concentrated-liquidity AMM on Aleo. With this launch, Shield adds ",
+      "title": "Solana Breakpoint London Adds Revolut Chair and Former UK Leaders",
+      "link": "https://www.newsbtc.com/news/solana-breakpoint-london-adds-revolut-chair-and-former-uk-leaders/",
+      "summary": "Solana has expanded the speaker lineup for its November Breakpoint event in London with political and financial-services figures.",
       "source": "NewsBTC",
       "date": "2026-10-28",
       "date_human": "Oct 28, 2026",
-      "pub_ts": 1793193848,
+      "pub_ts": 1793214000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "C2FO and Ripple Bring Instant-Pay Settlement Plans to XRP Ledger",
-      "link": "https://www.newsbtc.com/news/c2fo-and-ripple-bring-instant-pay-settlement-plans-to-xrp-ledger/",
-      "summary": "C2FO and Ripple say their Instant Pay initiative will use the XRP Ledger and RLUSD to settle financing associated with approved supplier invoices.",
+      "title": "Solana Ships New Validator and SDK Releases After Alpenglow Upgrade",
+      "link": "https://www.newsbtc.com/news/solana-ships-new-validator-and-sdk-releases-after-alpenglow-upgrade/",
+      "summary": "The Solana Foundation’s latest engineering roundup lists new validator and developer-tool releases alongside work prompted by Alpenglow activation.",
       "source": "NewsBTC",
       "date": "2026-10-28",
       "date_human": "Oct 28, 2026",
-      "pub_ts": 1793192400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "BNY Adds XRP and RLUSD Custody Support as Ripple Partnership Expands",
-      "link": "https://www.newsbtc.com/news/bny-adds-xrp-and-rlusd-custody-support-as-ripple-partnership-expands/",
-      "summary": "BNY and Ripple are extending an established reserve-custody relationship into wider digital-asset servicing and possible tokenized trade-finance applications.",
-      "source": "NewsBTC",
-      "date": "2026-10-28",
-      "date_human": "Oct 28, 2026",
-      "pub_ts": 1793188800,
+      "pub_ts": 1793210400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
