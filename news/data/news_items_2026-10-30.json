@@ -1,0 +1,361 @@
+{
+  "day_iso": "2026-10-30",
+  "generated_at_utc": "2026-10-30 05:05:09 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-10-30T05:05:03.705356+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 10,
+        "rejected": {}
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 7,
+        "within_window": 16,
+        "eligible": 7,
+        "rejected": {
+          "topic_author_or_category": 9,
+          "older_than_window": 4
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 49,
+        "within_24h": 2,
+        "within_window": 2,
+        "eligible": 2,
+        "rejected": {
+          "older_than_window": 47
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 24
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 4,
+        "within_window": 4,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 2,
+          "title_filter": 1,
+          "topic_author_or_category": 1,
+          "older_than_window": 11
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 14
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 1,
+        "within_window": 2,
+        "eligible": 1,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 18
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 10,
+      "Cryptonews": 7,
+      "U.S. Bureau of Economic Analysis": 2,
+      "Federal Reserve Board": 2
+    },
+    "unique_by_source": {
+      "NewsBTC": 10,
+      "Cryptonews": 7,
+      "U.S. Bureau of Economic Analysis": 2,
+      "Federal Reserve Board": 1
+    },
+    "selected_by_source": {
+      "NewsBTC": 5,
+      "Cryptonews": 4,
+      "U.S. Bureau of Economic Analysis": 2,
+      "Federal Reserve Board": 1
+    }
+  },
+  "count": 12,
+  "items": [
+    {
+      "title": "Kamino Opens Solana Lending Market for Backpack Tokenized Equity Collateral",
+      "link": "https://www.newsbtc.com/news/kamino-opens-solana-lending-market-for-backpack-tokenized-equity-collateral/",
+      "summary": "Kamino has launched a dedicated Backpack Market on Solana allowing eligible users to post selected Backpack Securities tokenized equities as collateral for.",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793332800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ripple Closes to $1B Revenue as $63T BNY Adds XRP Custody",
+      "link": "https://cryptonews.com/news/ripple-nears-1b-revenue-bny-xrp-custody/",
+      "summary": "Ripple approaches $1B in annualized revenue as BNY expands XRP custody, raising questions about institutional adoption and token demand.",
+      "source": "Cryptonews",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793288040,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "GDP (Advance Estimate), 3rd Quarter 2026",
+      "link": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 2026 (July, August, and September), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a subtraction in the calculation of GDP, increased.",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793277000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Federal Reserve issues FOMC statement",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "summary": "Federal Reserve issues FOMC statement",
+      "source": "Federal Reserve Board",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793210400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Stellar Unveils Thruput With Multi-Million-Transaction Execution Benchmarks",
+      "link": "https://www.newsbtc.com/news/stellar-unveils-thruput-with-multi-million-transaction-execution-benchmarks/",
+      "summary": "The Stellar Development Foundation introduced Project Thruput on October 28 as a technology preview that changes how a blockchain execution engine can.",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793329200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Faces $11B Options Expiry After FOMC Uncertainty Clears",
+      "link": "https://cryptonews.com/news/bitcoin-price-11b-options-expiry-fomc-uncertainty/",
+      "summary": "Bitcoin price faces an $11B option expiry after the FOMC decision, with call-heavy positioning shaping the next potential rally.",
+      "source": "Cryptonews",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793257225,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Personal Income and Outlays, September 2026",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+      "summary": "Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $52.7 billion (0.2 percent), and personal consumption expenditures (PCE) increased $113.1 billion (0.5 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $113.0 billion in September. Personal saving was $911.1 billion, and the personal saving rate–personal saving as a perc",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793277000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Google Cloud Previews Institutional Crypto Key-Security Service as Custody Risks Grow",
+      "link": "https://www.newsbtc.com/news/google-cloud-previews-institutional-crypto-key-security-service-as-custody-risks-grow/",
+      "summary": "Google Cloud has documented a Multi-party Compute service for institutional digital-asset custody, describing threshold signing, transaction policy.",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793325600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Sony Sonenium Incubation Program Targets PlayStation Games and Anime",
+      "link": "https://cryptonews.com/news/sony-soneium-playstation-games-anime/",
+      "summary": "Sony Soneium launches a new incubation program targeting PlayStation games, anime, digital collectibles and fan communities.",
+      "source": "Cryptonews",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793255717,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Robinhood Crypto Revenue Falls 55% as Prediction Markets Support Growth",
+      "link": "https://www.newsbtc.com/news/robinhood-crypto-revenue-falls-55-as-prediction-markets-support-growth/",
+      "summary": "Robinhood reported third-quarter 2026 results on October 27, with total net revenue of about $1.42 billion, up 12% from the comparable period a year.",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793322000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Google MPC Could Reshape Crypto Custody: Fireblocks Security Flaw Draws Attention",
+      "link": "https://cryptonews.com/news/google-mpc-crypto-custody-fireblocks-security-flaw/",
+      "summary": "Google MPC targets institutional crypto custody as a Fireblocks MPC vulnerability highlights the risks facing digital asset security systems.",
+      "source": "Cryptonews",
+      "date": "2026-10-28",
+      "date_human": "Oct 28, 2026",
+      "pub_ts": 1793188670,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Circle and ACI Bring USDC Settlement Into Latin American Payment Operations",
+      "link": "https://www.newsbtc.com/news/circle-and-aci-bring-usdc-settlement-into-latin-american-payment-operations/",
+      "summary": "ACI Worldwide and Circle announced a collaboration on October 27 to demonstrate how USDC settlement can fit into payment systems that banks already.",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793318400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-29",
-  "generated_at_utc": "2026-10-29 17:05:08 UTC",
+  "generated_at_utc": "2026-10-29 23:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-29T17:05:02.216788+00:00",
+    "collected_at": "2026-10-29T23:05:03.005944+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -46,12 +46,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 10,
-        "within_window": 15,
+        "within_24h": 8,
+        "within_window": 16,
         "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 8,
-          "older_than_window": 5
+          "topic_author_or_category": 9,
+          "older_than_window": 4
         }
       },
       {
@@ -83,11 +83,12 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 25
+          "topic_author_or_category": 1,
+          "older_than_window": 24
         }
       },
       {
@@ -122,7 +123,7 @@
         "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 1,
         "rejected": {
@@ -171,10 +172,11 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 1,
-        "within_window": 1,
+        "within_window": 2,
         "eligible": 1,
         "rejected": {
-          "older_than_window": 19
+          "topic_author_or_category": 1,
+          "older_than_window": 18
         }
       }
     ],
@@ -200,13 +202,13 @@
   "count": 12,
   "items": [
     {
-      "title": "Securitize Plans Stellar Integration as Tokenized Asset Platforms Expand",
-      "link": "https://www.newsbtc.com/news/securitize-plans-stellar-integration-as-tokenized-asset-platforms-expand/",
-      "summary": "Tokenization platform Securitize announced plans on October 28 to integrate the Stellar network into the infrastructure it offers institutional asset.",
+      "title": "DBS Survey Finds 88% of Businesses Testing or Using Tokenized Money",
+      "link": "https://www.newsbtc.com/news/dbs-survey-finds-88-of-businesses-testing-or-using-tokenized-money/",
+      "summary": "A DBS survey published October 28 found that 88% of businesses in its sample were deploying or piloting tokenized-money use cases. Crypto traders sometimes.",
       "source": "NewsBTC",
       "date": "2026-10-29",
       "date_human": "Oct 29, 2026",
-      "pub_ts": 1793293200,
+      "pub_ts": 1793314800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -252,13 +254,13 @@
       "image_local": null
     },
     {
-      "title": "Ripple Projects Nearly $900M Annual Product Revenue Run Rate Amid Banking Push",
-      "link": "https://www.newsbtc.com/news/ripple-projects-nearly-900m-annual-product-revenue-run-rate-amid-banking-push/",
-      "summary": "At its Swell conference, Ripple said it was approaching a $900 million annualized product-revenue run rate as it heads toward the end of 2026. For.",
+      "title": "Hedera Ecosystem Adds Bron Self-Custody Platform Through Industry Association",
+      "link": "https://www.newsbtc.com/news/hedera-ecosystem-adds-bron-self-custody-platform-through-industry-association/",
+      "summary": "Self-custody platform Bron announced on October 28 that it had joined the Hashgraph Association’s Global Membership Program. The news touches Hedera’s.",
       "source": "NewsBTC",
       "date": "2026-10-29",
       "date_human": "Oct 29, 2026",
-      "pub_ts": 1793289600,
+      "pub_ts": 1793311200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -291,13 +293,13 @@
       "image_local": null
     },
     {
-      "title": "Ripple USD Reaches Coinbase as RLUSD Expands Across Three Blockchains",
-      "link": "https://www.newsbtc.com/news/ripple-usd-reaches-coinbase-as-rlusd-expands-across-three-blockchains/",
-      "summary": "Coinbase confirmed on October 28 that Ripple USD, or RLUSD, is available to eligible users on Coinbase Prime, Coinbase Exchange and the consumer.",
+      "title": "FalconX Backs $250M Credit Facility for Ibis as Crypto Lending Infrastructure Evolves",
+      "link": "https://www.newsbtc.com/news/falconx-backs-250m-credit-facility-for-ibis-as-crypto-lending-infrastructure-evolves/",
+      "summary": "Onchain credit company Ibis emerged from stealth on October 28, announcing a $250 million credit facility with FalconX and a pre-seed funding round. For a.",
       "source": "NewsBTC",
       "date": "2026-10-29",
       "date_human": "Oct 29, 2026",
-      "pub_ts": 1793286000,
+      "pub_ts": 1793307600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -317,13 +319,13 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin Faces a Hawkish Fed Pause as Two Officials Seek Higher Rates",
-      "link": "https://www.newsbtc.com/news/bitcoin-faces-a-hawkish-fed-pause-as-two-officials-seek-higher-rates/",
-      "summary": "The Federal Reserve held the federal funds target range at 3.75% to 4.00% on October 28. For Bitcoin, a key market question is whether the latest policy.",
+      "title": "Bitwise Sees Bitcoin at $1.6 Million by 2036, but the Forecast Has Big Assumptions",
+      "link": "https://www.newsbtc.com/news/bitwise-sees-bitcoin-at-1-6-million-by-2036-but-the-forecast-has-big-assumptions/",
+      "summary": "Bitwise Asset Management has raised its long-range Bitcoin price projection to $1.6 million by 2036 in its 2027 capital-market assumptions. The headline.",
       "source": "NewsBTC",
       "date": "2026-10-29",
       "date_human": "Oct 29, 2026",
-      "pub_ts": 1793282400,
+      "pub_ts": 1793304000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -343,13 +345,13 @@
       "image_local": null
     },
     {
-      "title": "DTCC Launches Tokenized Securities Service as Wall Street Tests New Settlement Rails",
-      "link": "https://www.newsbtc.com/news/dtcc-launches-tokenized-securities-service-as-wall-street-tests-new-settlement-rails/",
-      "summary": "The Depository Trust Company, part of DTCC, launched its tokenization service on October 28, moving a particularly important part of institutional.",
+      "title": "Stellar Gains USDC Payment Corridor as Movantis Targets US–El Salvador Transfers",
+      "link": "https://www.newsbtc.com/news/stellar-gains-usdc-payment-corridor-as-movantis-targets-usel-salvador-transfers/",
+      "summary": "Movantis and the Stellar Development Foundation announced on October 29 that Stellar will become a settlement option in the payments company’s multi-rail.",
       "source": "NewsBTC",
       "date": "2026-10-29",
       "date_human": "Oct 29, 2026",
-      "pub_ts": 1793278800,
+      "pub_ts": 1793300400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
