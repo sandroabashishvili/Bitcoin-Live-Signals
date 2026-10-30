@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-30",
-  "generated_at_utc": "2026-10-30 11:05:10 UTC",
+  "generated_at_utc": "2026-10-30 17:05:23 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-30T11:05:04.137172+00:00",
+    "collected_at": "2026-10-30T17:05:04.337857+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,30 +48,29 @@
         "entries": 20,
         "within_24h": 6,
         "within_window": 16,
-        "eligible": 5,
+        "eligible": 3,
         "rejected": {
-          "topic_author_or_category": 11,
+          "unreviewed_link": 1,
+          "topic_author_or_category": 12,
           "older_than_window": 4
         }
       },
       {
         "source": "U.S. Bureau of Labor Statistics",
         "url": "https://www.bls.gov/feed/cpi.rss",
-        "status": "ok",
-        "entries": 12,
+        "status": "failed",
+        "entries": 0,
         "within_24h": 0,
         "within_window": 0,
         "eligible": 0,
-        "rejected": {
-          "older_than_window": 12
-        }
+        "rejected": {}
       },
       {
         "source": "U.S. Bureau of Economic Analysis",
         "url": "https://apps.bea.gov/rss/rss.xml",
         "status": "ok",
         "entries": 49,
-        "within_24h": 2,
+        "within_24h": 0,
         "within_window": 2,
         "eligible": 2,
         "rejected": {
@@ -83,7 +82,7 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -96,14 +95,14 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 4,
-        "within_window": 5,
+        "within_24h": 3,
+        "within_window": 7,
         "eligible": 0,
         "rejected": {
+          "unreviewed_link": 4,
           "topic_author_or_category": 2,
-          "unreviewed_link": 2,
           "title_filter": 1,
-          "older_than_window": 10
+          "older_than_window": 8
         }
       },
       {
@@ -169,32 +168,35 @@
       {
         "source": "Federal Reserve Board",
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-        "status": "failed",
-        "entries": 0,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
-        "rejected": {}
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 1,
+        "within_window": 2,
+        "eligible": 1,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 18
+        }
       }
     ],
     "eligible_by_source": {
       "NewsBTC": 10,
       "Bitcoin Optech": 1,
-      "Cryptonews": 5,
+      "Cryptonews": 3,
       "U.S. Bureau of Economic Analysis": 2,
-      "Federal Reserve Board": 1
+      "Federal Reserve Board": 2
     },
     "unique_by_source": {
       "NewsBTC": 10,
       "Bitcoin Optech": 1,
-      "Cryptonews": 5,
+      "Cryptonews": 3,
       "U.S. Bureau of Economic Analysis": 2,
       "Federal Reserve Board": 1
     },
     "selected_by_source": {
-      "NewsBTC": 4,
+      "NewsBTC": 5,
       "Bitcoin Optech": 1,
-      "Cryptonews": 4,
+      "Cryptonews": 3,
       "U.S. Bureau of Economic Analysis": 2,
       "Federal Reserve Board": 1
     }
@@ -345,13 +347,13 @@
       "image_local": null
     },
     {
-      "title": "Google MPC Could Reshape Crypto Custody: Fireblocks Security Flaw Draws Attention",
-      "link": "https://cryptonews.com/news/google-mpc-crypto-custody-fireblocks-security-flaw/",
-      "summary": "Google MPC targets institutional crypto custody as a Fireblocks MPC vulnerability highlights the risks facing digital asset security systems.",
-      "source": "Cryptonews",
-      "date": "2026-10-28",
-      "date_human": "Oct 28, 2026",
-      "pub_ts": 1793188670,
+      "title": "Ethereum Client Updates Address Certificate Risk in Teku and Besu",
+      "link": "https://www.newsbtc.com/news/ethereum-client-updates-address-certificate-risk-in-teku-and-besu/",
+      "summary": "Ethereum software teams have published updates addressing trust-store exposure tied to compromised certificate-authority keys from eMudhra. For ETH.",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793340000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
