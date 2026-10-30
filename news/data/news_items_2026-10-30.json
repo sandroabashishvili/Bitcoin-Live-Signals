@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-30",
-  "generated_at_utc": "2026-10-30 05:05:09 UTC",
+  "generated_at_utc": "2026-10-30 11:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-30T05:05:03.705356+00:00",
+    "collected_at": "2026-10-30T11:05:04.137172+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -46,11 +46,11 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 7,
+        "within_24h": 6,
         "within_window": 16,
-        "eligible": 7,
+        "eligible": 5,
         "rejected": {
-          "topic_author_or_category": 9,
+          "topic_author_or_category": 11,
           "older_than_window": 4
         }
       },
@@ -97,13 +97,13 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 4,
-        "within_window": 4,
+        "within_window": 5,
         "eligible": 0,
         "rejected": {
+          "topic_author_or_category": 2,
           "unreviewed_link": 2,
           "title_filter": 1,
-          "topic_author_or_category": 1,
-          "older_than_window": 11
+          "older_than_window": 10
         }
       },
       {
@@ -111,11 +111,11 @@
         "url": "https://bitcoinops.org/feed.xml",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 10
+          "older_than_window": 9
         }
       },
       {
@@ -169,31 +169,31 @@
       {
         "source": "Federal Reserve Board",
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-        "status": "ok",
-        "entries": 20,
-        "within_24h": 1,
-        "within_window": 2,
-        "eligible": 1,
-        "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 18
-        }
+        "status": "failed",
+        "entries": 0,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {}
       }
     ],
     "eligible_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 7,
+      "Bitcoin Optech": 1,
+      "Cryptonews": 5,
       "U.S. Bureau of Economic Analysis": 2,
-      "Federal Reserve Board": 2
+      "Federal Reserve Board": 1
     },
     "unique_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 7,
+      "Bitcoin Optech": 1,
+      "Cryptonews": 5,
       "U.S. Bureau of Economic Analysis": 2,
       "Federal Reserve Board": 1
     },
     "selected_by_source": {
-      "NewsBTC": 5,
+      "NewsBTC": 4,
+      "Bitcoin Optech": 1,
       "Cryptonews": 4,
       "U.S. Bureau of Economic Analysis": 2,
       "Federal Reserve Board": 1
@@ -202,15 +202,28 @@
   "count": 12,
   "items": [
     {
-      "title": "Kamino Opens Solana Lending Market for Backpack Tokenized Equity Collateral",
-      "link": "https://www.newsbtc.com/news/kamino-opens-solana-lending-market-for-backpack-tokenized-equity-collateral/",
-      "summary": "Kamino has launched a dedicated Backpack Market on Solana allowing eligible users to post selected Backpack Securities tokenized equities as collateral for.",
+      "title": "MEXC Launches Canton 0-Fee Carnival with $1M Prize Pool",
+      "link": "https://www.newsbtc.com/news/mexc-launches-canton-0-fee-carnival-with-1m-prize-pool/",
+      "summary": "Mutsamudu, Comoros, October 30, 2026 – MEXC, a pioneer in 0-fee digital asset trading, announced the launch of the Canton 0-Fee Carnival together with Canton. From 10:00 UTC on October 30 to 10:00 UTC on November 30, 2026, users can trade CC spot and futures pairs with 0 fees and share a $1M prize pool through a series of events, including Welcome Power Reward, Treasure Lever Frenzy, and Canton Trading Rush. As traditional finance and digital assets continue to converge, Canton Network has emerged as a notable project in this space. Its privacy-enabled blockchain infrastructure is designed for",
       "source": "NewsBTC",
       "date": "2026-10-30",
       "date_human": "Oct 30, 2026",
-      "pub_ts": 1793332800,
+      "pub_ts": 1793354508,
       "image_candidates": [],
       "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Optech Newsletter #429",
+      "link": "https://bitcoinops.org/en/newsletters/2026/10/30/",
+      "summary": "This week’s newsletter describes a protocol for creating silent payment transactions from multiparty wallets, summarizes the responsible disclosure of a denial-of-service vulnerability that affected older versions of Core Lightning, and explains Bitcoin Core’s updated security policy for easily discoverable vulnerabilities. Also included are our regular sections with selected questions and answers from the Bitcoin Stack Exchange, announcements of new releases and release candidates, and descriptions of notable changes to popular Bitcoin infrastructure software.",
+      "source": "Bitcoin Optech",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793318400,
+      "image_candidates": [],
+      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
       "image": null,
       "image_local": null
     },
@@ -254,13 +267,13 @@
       "image_local": null
     },
     {
-      "title": "Stellar Unveils Thruput With Multi-Million-Transaction Execution Benchmarks",
-      "link": "https://www.newsbtc.com/news/stellar-unveils-thruput-with-multi-million-transaction-execution-benchmarks/",
-      "summary": "The Stellar Development Foundation introduced Project Thruput on October 28 as a technology preview that changes how a blockchain execution engine can.",
+      "title": "USDD Reports Strong Treasury Performance, Growth in Key Metrics, and Ecosystem Expansion",
+      "link": "https://www.newsbtc.com/news/usdd-reports-strong-treasury-performance-growth-in-key-metrics-and-ecosystem-expansion/",
+      "summary": "30 October 2026 — British Virgin Islands — USDD has reported strong treasury performance in Q3 2026, alongside continued growth in key metrics, including circulating supply and total value locked (TVL). These latest milestones reflect the protocol’s expanding ecosystem, with growing multichain adoption, new DeFi integrations, and broader opportunities for users to earn, transfer, and deploy USDD. As a decentralized, overcollateralized stablecoin, USDD is focused on combining stability with practical utility. Let’s take a closer look at the key developments behind USDD’s recent growth. USDD’s G",
       "source": "NewsBTC",
       "date": "2026-10-30",
       "date_human": "Oct 30, 2026",
-      "pub_ts": 1793329200,
+      "pub_ts": 1793353213,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -293,13 +306,13 @@
       "image_local": null
     },
     {
-      "title": "Google Cloud Previews Institutional Crypto Key-Security Service as Custody Risks Grow",
-      "link": "https://www.newsbtc.com/news/google-cloud-previews-institutional-crypto-key-security-service-as-custody-risks-grow/",
-      "summary": "Google Cloud has documented a Multi-party Compute service for institutional digital-asset custody, describing threshold signing, transaction policy.",
+      "title": "Coinbase Says Customer Funds Safe After Analytics Vendor Contact-Data Incident",
+      "link": "https://www.newsbtc.com/news/coinbase-says-customer-funds-safe-after-analytics-vendor-contact-data-incident/",
+      "summary": "Coinbase said an incident involving analytics provider Amplitude affected contact information associated with a small subset of Coinbase customers. For.",
       "source": "NewsBTC",
       "date": "2026-10-30",
       "date_human": "Oct 30, 2026",
-      "pub_ts": 1793325600,
+      "pub_ts": 1793347200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -319,13 +332,13 @@
       "image_local": null
     },
     {
-      "title": "Robinhood Crypto Revenue Falls 55% as Prediction Markets Support Growth",
-      "link": "https://www.newsbtc.com/news/robinhood-crypto-revenue-falls-55-as-prediction-markets-support-growth/",
-      "summary": "Robinhood reported third-quarter 2026 results on October 27, with total net revenue of about $1.42 billion, up 12% from the comparable period a year.",
+      "title": "Bitcoin Slips Below $80,000 After Fed Holds Rates and Tech Shares Weaken",
+      "link": "https://www.newsbtc.com/news/bitcoin-slips-below-80-000-after-fed-holds-rates-and-tech-shares-weaken/",
+      "summary": "Bitcoin slipped below $80,000 in early October 29 trading as markets digested the Federal Reserve’s decision to leave rates unchanged and the accompanying.",
       "source": "NewsBTC",
       "date": "2026-10-30",
       "date_human": "Oct 30, 2026",
-      "pub_ts": 1793322000,
+      "pub_ts": 1793343600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -339,19 +352,6 @@
       "date": "2026-10-28",
       "date_human": "Oct 28, 2026",
       "pub_ts": 1793188670,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Circle and ACI Bring USDC Settlement Into Latin American Payment Operations",
-      "link": "https://www.newsbtc.com/news/circle-and-aci-bring-usdc-settlement-into-latin-american-payment-operations/",
-      "summary": "ACI Worldwide and Circle announced a collaboration on October 27 to demonstrate how USDC settlement can fit into payment systems that banks already.",
-      "source": "NewsBTC",
-      "date": "2026-10-30",
-      "date_human": "Oct 30, 2026",
-      "pub_ts": 1793318400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
