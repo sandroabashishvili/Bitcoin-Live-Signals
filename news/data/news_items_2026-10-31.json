@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-31",
-  "generated_at_utc": "2026-10-31 05:05:11 UTC",
+  "generated_at_utc": "2026-10-31 11:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-31T05:05:05.360840+00:00",
+    "collected_at": "2026-10-31T11:05:05.206887+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 5,
+        "within_24h": 0,
         "within_window": 10,
         "eligible": 10,
         "rejected": {}
@@ -46,13 +46,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 5,
-        "within_window": 12,
-        "eligible": 3,
+        "within_24h": 2,
+        "within_window": 8,
+        "eligible": 1,
         "rejected": {
           "unreviewed_link": 1,
-          "topic_author_or_category": 8,
-          "older_than_window": 8
+          "topic_author_or_category": 6,
+          "older_than_window": 12
         }
       },
       {
@@ -97,14 +97,14 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 3,
-        "within_window": 7,
+        "within_24h": 2,
+        "within_window": 6,
         "eligible": 0,
         "rejected": {
           "unreviewed_link": 4,
-          "topic_author_or_category": 2,
+          "topic_author_or_category": 1,
           "title_filter": 1,
-          "older_than_window": 8
+          "older_than_window": 9
         }
       },
       {
@@ -184,19 +184,19 @@
     "eligible_by_source": {
       "NewsBTC": 10,
       "Bitcoin Optech": 1,
-      "Cryptonews": 3,
+      "Cryptonews": 1,
       "U.S. Bureau of Economic Analysis": 2
     },
     "unique_by_source": {
       "NewsBTC": 10,
       "Bitcoin Optech": 1,
-      "Cryptonews": 3,
+      "Cryptonews": 1,
       "U.S. Bureau of Economic Analysis": 2
     },
     "selected_by_source": {
-      "NewsBTC": 6,
+      "NewsBTC": 8,
       "Bitcoin Optech": 1,
-      "Cryptonews": 3,
+      "Cryptonews": 1,
       "U.S. Bureau of Economic Analysis": 2
     }
   },
@@ -268,19 +268,6 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin Price Faces $11B Options Expiry After FOMC Uncertainty Clears",
-      "link": "https://cryptonews.com/news/bitcoin-price-11b-options-expiry-fomc-uncertainty/",
-      "summary": "Bitcoin price faces an $11B option expiry after the FOMC decision, with call-heavy positioning shaping the next potential rally.",
-      "source": "Cryptonews",
-      "date": "2026-10-29",
-      "date_human": "Oct 29, 2026",
-      "pub_ts": 1793257225,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Personal Income and Outlays, September 2026",
       "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
       "summary": "Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $52.7 billion (0.2 percent), and personal consumption expenditures (PCE) increased $113.1 billion (0.5 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $113.0 billion in September. Personal saving was $911.1 billion, and the personal saving rate–personal saving as a perc",
@@ -301,19 +288,6 @@
       "date": "2026-10-30",
       "date_human": "Oct 30, 2026",
       "pub_ts": 1793347200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Sony Sonenium Incubation Program Targets PlayStation Games and Anime",
-      "link": "https://cryptonews.com/news/sony-soneium-playstation-games-anime/",
-      "summary": "Sony Soneium launches a new incubation program targeting PlayStation games, anime, digital collectibles and fan communities.",
-      "source": "Cryptonews",
-      "date": "2026-10-29",
-      "date_human": "Oct 29, 2026",
-      "pub_ts": 1793255717,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -353,6 +327,32 @@
       "date": "2026-10-30",
       "date_human": "Oct 30, 2026",
       "pub_ts": 1793336400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Kamino Opens Solana Lending Market for Backpack Tokenized Equity Collateral",
+      "link": "https://www.newsbtc.com/news/kamino-opens-solana-lending-market-for-backpack-tokenized-equity-collateral/",
+      "summary": "Kamino has launched a dedicated Backpack Market on Solana allowing eligible users to post selected Backpack Securities tokenized equities as collateral for.",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793332800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Stellar Unveils Thruput With Multi-Million-Transaction Execution Benchmarks",
+      "link": "https://www.newsbtc.com/news/stellar-unveils-thruput-with-multi-million-transaction-execution-benchmarks/",
+      "summary": "The Stellar Development Foundation introduced Project Thruput on October 28 as a technology preview that changes how a blockchain execution engine can.",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793329200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
