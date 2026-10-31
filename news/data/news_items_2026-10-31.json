@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-31",
-  "generated_at_utc": "2026-10-31 11:05:11 UTC",
+  "generated_at_utc": "2026-10-31 17:05:12 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-31T11:05:05.206887+00:00",
+    "collected_at": "2026-10-31T17:05:06.006966+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
+        "within_24h": 2,
         "within_window": 10,
         "eligible": 10,
         "rejected": {}
@@ -46,13 +46,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 2,
-        "within_window": 8,
-        "eligible": 1,
+        "within_24h": 0,
+        "within_window": 6,
+        "eligible": 0,
         "rejected": {
           "unreviewed_link": 1,
-          "topic_author_or_category": 6,
-          "older_than_window": 12
+          "topic_author_or_category": 5,
+          "older_than_window": 14
         }
       },
       {
@@ -73,10 +73,10 @@
         "status": "ok",
         "entries": 49,
         "within_24h": 0,
-        "within_window": 2,
-        "eligible": 2,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 47
+          "older_than_window": 49
         }
       },
       {
@@ -85,11 +85,11 @@
         "status": "ok",
         "entries": 25,
         "within_24h": 1,
-        "within_window": 2,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 2,
-          "older_than_window": 23
+          "topic_author_or_category": 1,
+          "older_than_window": 24
         }
       },
       {
@@ -97,14 +97,13 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 2,
-        "within_window": 6,
+        "within_24h": 0,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 4,
+          "unreviewed_link": 2,
           "topic_author_or_category": 1,
-          "title_filter": 1,
-          "older_than_window": 9
+          "older_than_window": 12
         }
       },
       {
@@ -183,33 +182,27 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 10,
-      "Bitcoin Optech": 1,
-      "Cryptonews": 1,
-      "U.S. Bureau of Economic Analysis": 2
+      "Bitcoin Optech": 1
     },
     "unique_by_source": {
       "NewsBTC": 10,
-      "Bitcoin Optech": 1,
-      "Cryptonews": 1,
-      "U.S. Bureau of Economic Analysis": 2
+      "Bitcoin Optech": 1
     },
     "selected_by_source": {
-      "NewsBTC": 8,
-      "Bitcoin Optech": 1,
-      "Cryptonews": 1,
-      "U.S. Bureau of Economic Analysis": 2
+      "NewsBTC": 10,
+      "Bitcoin Optech": 1
     }
   },
-  "count": 12,
+  "count": 11,
   "items": [
     {
-      "title": "MEXC Launches Canton 0-Fee Carnival with $1M Prize Pool",
-      "link": "https://www.newsbtc.com/news/mexc-launches-canton-0-fee-carnival-with-1m-prize-pool/",
-      "summary": "Mutsamudu, Comoros, October 30, 2026 – MEXC, a pioneer in 0-fee digital asset trading, announced the launch of the Canton 0-Fee Carnival together with Canton. From 10:00 UTC on October 30 to 10:00 UTC on November 30, 2026, users can trade CC spot and futures pairs with 0 fees and share a $1M prize pool through a series of events, including Welcome Power Reward, Treasure Lever Frenzy, and Canton Trading Rush. As traditional finance and digital assets continue to converge, Canton Network has emerged as a notable project in this space. Its privacy-enabled blockchain infrastructure is designed for",
+      "title": "Polygon Extends Open Money Stack to Solana for Stablecoin Payment Flows",
+      "link": "https://www.newsbtc.com/news/polygon-extends-open-money-stack-to-solana-for-stablecoin-payment-flows/",
+      "summary": "The company said customers can fund accounts through bank transfers, cards, cash or digital assets, then route supported tokens between Solana,",
       "source": "NewsBTC",
-      "date": "2026-10-30",
-      "date_human": "Oct 30, 2026",
-      "pub_ts": 1793354508,
+      "date": "2026-10-31",
+      "date_human": "Oct 31, 2026",
+      "pub_ts": 1793466000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -229,26 +222,26 @@
       "image_local": null
     },
     {
-      "title": "Ripple Closes to $1B Revenue as $63T BNY Adds XRP Custody",
-      "link": "https://cryptonews.com/news/ripple-nears-1b-revenue-bny-xrp-custody/",
-      "summary": "Ripple approaches $1B in annualized revenue as BNY expands XRP custody, raising questions about institutional adoption and token demand.",
-      "source": "Cryptonews",
-      "date": "2026-10-29",
-      "date_human": "Oct 29, 2026",
-      "pub_ts": 1793288040,
+      "title": "Binance Details $6.3B Hot-Wallet Breach as Exchange Pledges to Cover Losses",
+      "link": "https://www.newsbtc.com/news/binance-details-6-3b-hot-wallet-breach-as-exchange-pledges-to-cover-losses/",
+      "summary": "The company reported approximately $3 billion of affected assets frozen on-chain through coordination with issuers, investigators and other industry",
+      "source": "NewsBTC",
+      "date": "2026-10-31",
+      "date_human": "Oct 31, 2026",
+      "pub_ts": 1793458800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "GDP (Advance Estimate), 3rd Quarter 2026",
-      "link": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
-      "summary": "Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 2026 (July, August, and September), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a subtraction in the calculation of GDP, increased.",
-      "source": "U.S. Bureau of Economic Analysis",
-      "date": "2026-10-29",
-      "date_human": "Oct 29, 2026",
-      "pub_ts": 1793277000,
+      "title": "MEXC Launches Canton 0-Fee Carnival with $1M Prize Pool",
+      "link": "https://www.newsbtc.com/news/mexc-launches-canton-0-fee-carnival-with-1m-prize-pool/",
+      "summary": "Mutsamudu, Comoros, October 30, 2026 – MEXC, a pioneer in 0-fee digital asset trading, announced the launch of the Canton 0-Fee Carnival together with Canton. From 10:00 UTC on October 30 to 10:00 UTC on November 30, 2026, users can trade CC spot and futures pairs with 0 fees and share a $1M prize pool through a series of events, including Welcome Power Reward, Treasure Lever Frenzy, and Canton Trading Rush. As traditional finance and digital assets continue to converge, Canton Network has emerged as a notable project in this space. Its privacy-enabled blockchain infrastructure is designed for",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793354508,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -262,19 +255,6 @@
       "date": "2026-10-30",
       "date_human": "Oct 30, 2026",
       "pub_ts": 1793353213,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Personal Income and Outlays, September 2026",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
-      "summary": "Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $52.7 billion (0.2 percent), and personal consumption expenditures (PCE) increased $113.1 billion (0.5 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $113.0 billion in September. Personal saving was $911.1 billion, and the personal saving rate–personal saving as a perc",
-      "source": "U.S. Bureau of Economic Analysis",
-      "date": "2026-10-29",
-      "date_human": "Oct 29, 2026",
-      "pub_ts": 1793277000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
