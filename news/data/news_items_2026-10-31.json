@@ -1,0 +1,362 @@
+{
+  "day_iso": "2026-10-31",
+  "generated_at_utc": "2026-10-31 05:05:11 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-10-31T05:05:05.360840+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 5,
+        "within_window": 10,
+        "eligible": 10,
+        "rejected": {}
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 5,
+        "within_window": 12,
+        "eligible": 3,
+        "rejected": {
+          "unreviewed_link": 1,
+          "topic_author_or_category": 8,
+          "older_than_window": 8
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 49,
+        "within_24h": 0,
+        "within_window": 2,
+        "eligible": 2,
+        "rejected": {
+          "older_than_window": 47
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 1,
+        "within_window": 2,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 2,
+          "older_than_window": 23
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 3,
+        "within_window": 7,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 4,
+          "topic_author_or_category": 2,
+          "title_filter": 1,
+          "older_than_window": 8
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 9
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 19
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 10,
+      "Bitcoin Optech": 1,
+      "Cryptonews": 3,
+      "U.S. Bureau of Economic Analysis": 2
+    },
+    "unique_by_source": {
+      "NewsBTC": 10,
+      "Bitcoin Optech": 1,
+      "Cryptonews": 3,
+      "U.S. Bureau of Economic Analysis": 2
+    },
+    "selected_by_source": {
+      "NewsBTC": 6,
+      "Bitcoin Optech": 1,
+      "Cryptonews": 3,
+      "U.S. Bureau of Economic Analysis": 2
+    }
+  },
+  "count": 12,
+  "items": [
+    {
+      "title": "MEXC Launches Canton 0-Fee Carnival with $1M Prize Pool",
+      "link": "https://www.newsbtc.com/news/mexc-launches-canton-0-fee-carnival-with-1m-prize-pool/",
+      "summary": "Mutsamudu, Comoros, October 30, 2026 – MEXC, a pioneer in 0-fee digital asset trading, announced the launch of the Canton 0-Fee Carnival together with Canton. From 10:00 UTC on October 30 to 10:00 UTC on November 30, 2026, users can trade CC spot and futures pairs with 0 fees and share a $1M prize pool through a series of events, including Welcome Power Reward, Treasure Lever Frenzy, and Canton Trading Rush. As traditional finance and digital assets continue to converge, Canton Network has emerged as a notable project in this space. Its privacy-enabled blockchain infrastructure is designed for",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793354508,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Optech Newsletter #429",
+      "link": "https://bitcoinops.org/en/newsletters/2026/10/30/",
+      "summary": "This week’s newsletter describes a protocol for creating silent payment transactions from multiparty wallets, summarizes the responsible disclosure of a denial-of-service vulnerability that affected older versions of Core Lightning, and explains Bitcoin Core’s updated security policy for easily discoverable vulnerabilities. Also included are our regular sections with selected questions and answers from the Bitcoin Stack Exchange, announcements of new releases and release candidates, and descriptions of notable changes to popular Bitcoin infrastructure software.",
+      "source": "Bitcoin Optech",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793318400,
+      "image_candidates": [],
+      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ripple Closes to $1B Revenue as $63T BNY Adds XRP Custody",
+      "link": "https://cryptonews.com/news/ripple-nears-1b-revenue-bny-xrp-custody/",
+      "summary": "Ripple approaches $1B in annualized revenue as BNY expands XRP custody, raising questions about institutional adoption and token demand.",
+      "source": "Cryptonews",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793288040,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "GDP (Advance Estimate), 3rd Quarter 2026",
+      "link": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 3.4 percent in the third quarter of 2026 (July, August, and September), according to the advance estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a subtraction in the calculation of GDP, increased.",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793277000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "USDD Reports Strong Treasury Performance, Growth in Key Metrics, and Ecosystem Expansion",
+      "link": "https://www.newsbtc.com/news/usdd-reports-strong-treasury-performance-growth-in-key-metrics-and-ecosystem-expansion/",
+      "summary": "30 October 2026 — British Virgin Islands — USDD has reported strong treasury performance in Q3 2026, alongside continued growth in key metrics, including circulating supply and total value locked (TVL). These latest milestones reflect the protocol’s expanding ecosystem, with growing multichain adoption, new DeFi integrations, and broader opportunities for users to earn, transfer, and deploy USDD. As a decentralized, overcollateralized stablecoin, USDD is focused on combining stability with practical utility. Let’s take a closer look at the key developments behind USDD’s recent growth. USDD’s G",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793353213,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Faces $11B Options Expiry After FOMC Uncertainty Clears",
+      "link": "https://cryptonews.com/news/bitcoin-price-11b-options-expiry-fomc-uncertainty/",
+      "summary": "Bitcoin price faces an $11B option expiry after the FOMC decision, with call-heavy positioning shaping the next potential rally.",
+      "source": "Cryptonews",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793257225,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Personal Income and Outlays, September 2026",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026",
+      "summary": "Personal income increased $54.5 billion (0.2 percent at a monthly rate) in September, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $52.7 billion (0.2 percent), and personal consumption expenditures (PCE) increased $113.1 billion (0.5 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $113.0 billion in September. Personal saving was $911.1 billion, and the personal saving rate–personal saving as a perc",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793277000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Coinbase Says Customer Funds Safe After Analytics Vendor Contact-Data Incident",
+      "link": "https://www.newsbtc.com/news/coinbase-says-customer-funds-safe-after-analytics-vendor-contact-data-incident/",
+      "summary": "Coinbase said an incident involving analytics provider Amplitude affected contact information associated with a small subset of Coinbase customers. For.",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793347200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Sony Sonenium Incubation Program Targets PlayStation Games and Anime",
+      "link": "https://cryptonews.com/news/sony-soneium-playstation-games-anime/",
+      "summary": "Sony Soneium launches a new incubation program targeting PlayStation games, anime, digital collectibles and fan communities.",
+      "source": "Cryptonews",
+      "date": "2026-10-29",
+      "date_human": "Oct 29, 2026",
+      "pub_ts": 1793255717,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Slips Below $80,000 After Fed Holds Rates and Tech Shares Weaken",
+      "link": "https://www.newsbtc.com/news/bitcoin-slips-below-80-000-after-fed-holds-rates-and-tech-shares-weaken/",
+      "summary": "Bitcoin slipped below $80,000 in early October 29 trading as markets digested the Federal Reserve’s decision to leave rates unchanged and the accompanying.",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793343600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum Client Updates Address Certificate Risk in Teku and Besu",
+      "link": "https://www.newsbtc.com/news/ethereum-client-updates-address-certificate-risk-in-teku-and-besu/",
+      "summary": "Ethereum software teams have published updates addressing trust-store exposure tied to compromised certificate-authority keys from eMudhra. For ETH.",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793340000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Mirae Asset Issues Tokenized Dollar Notes on Solana for Professional Investors",
+      "link": "https://www.newsbtc.com/news/mirae-asset-issues-tokenized-dollar-notes-on-solana-for-professional-investors/",
+      "summary": "Mirae Asset Securities’ Hong Kong unit announced the completion of a tokenized funding-note issuance on Solana for eligible institutional investors. For.",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793336400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}

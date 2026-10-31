@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-30",
-  "generated_at_utc": "2026-10-30 17:05:23 UTC",
+  "generated_at_utc": "2026-10-30 23:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-30T17:05:04.337857+00:00",
+    "collected_at": "2026-10-30T23:05:05.049978+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -46,24 +46,26 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 6,
-        "within_window": 16,
+        "within_24h": 5,
+        "within_window": 13,
         "eligible": 3,
         "rejected": {
           "unreviewed_link": 1,
-          "topic_author_or_category": 12,
-          "older_than_window": 4
+          "topic_author_or_category": 9,
+          "older_than_window": 7
         }
       },
       {
         "source": "U.S. Bureau of Labor Statistics",
         "url": "https://www.bls.gov/feed/cpi.rss",
-        "status": "failed",
-        "entries": 0,
+        "status": "ok",
+        "entries": 12,
         "within_24h": 0,
         "within_window": 0,
         "eligible": 0,
-        "rejected": {}
+        "rejected": {
+          "older_than_window": 12
+        }
       },
       {
         "source": "U.S. Bureau of Economic Analysis",
@@ -82,12 +84,12 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 0,
-        "within_window": 1,
+        "within_24h": 1,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 24
+          "topic_author_or_category": 2,
+          "older_than_window": 23
         }
       },
       {
@@ -123,10 +125,10 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 14
+          "older_than_window": 15
         }
       },
       {
@@ -170,12 +172,12 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
-        "within_window": 2,
-        "eligible": 1,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
         "rejected": {
           "topic_author_or_category": 1,
-          "older_than_window": 18
+          "older_than_window": 19
         }
       }
     ],
@@ -183,22 +185,19 @@
       "NewsBTC": 10,
       "Bitcoin Optech": 1,
       "Cryptonews": 3,
-      "U.S. Bureau of Economic Analysis": 2,
-      "Federal Reserve Board": 2
+      "U.S. Bureau of Economic Analysis": 2
     },
     "unique_by_source": {
       "NewsBTC": 10,
       "Bitcoin Optech": 1,
       "Cryptonews": 3,
-      "U.S. Bureau of Economic Analysis": 2,
-      "Federal Reserve Board": 1
+      "U.S. Bureau of Economic Analysis": 2
     },
     "selected_by_source": {
-      "NewsBTC": 5,
+      "NewsBTC": 6,
       "Bitcoin Optech": 1,
       "Cryptonews": 3,
-      "U.S. Bureau of Economic Analysis": 2,
-      "Federal Reserve Board": 1
+      "U.S. Bureau of Economic Analysis": 2
     }
   },
   "count": 12,
@@ -250,19 +249,6 @@
       "date": "2026-10-29",
       "date_human": "Oct 29, 2026",
       "pub_ts": 1793277000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Federal Reserve issues FOMC statement",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-      "summary": "Federal Reserve issues FOMC statement",
-      "source": "Federal Reserve Board",
-      "date": "2026-10-28",
-      "date_human": "Oct 28, 2026",
-      "pub_ts": 1793210400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -354,6 +340,19 @@
       "date": "2026-10-30",
       "date_human": "Oct 30, 2026",
       "pub_ts": 1793340000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Mirae Asset Issues Tokenized Dollar Notes on Solana for Professional Investors",
+      "link": "https://www.newsbtc.com/news/mirae-asset-issues-tokenized-dollar-notes-on-solana-for-professional-investors/",
+      "summary": "Mirae Asset Securities’ Hong Kong unit announced the completion of a tokenized funding-note issuance on Solana for eligible institutional investors. For.",
+      "source": "NewsBTC",
+      "date": "2026-10-30",
+      "date_human": "Oct 30, 2026",
+      "pub_ts": 1793336400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
