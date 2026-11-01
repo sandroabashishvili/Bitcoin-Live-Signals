@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-01",
-  "generated_at_utc": "2026-11-01 05:05:07 UTC",
+  "generated_at_utc": "2026-11-01 11:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-01T05:05:01.950740+00:00",
+    "collected_at": "2026-11-01T11:05:02.061202+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -46,13 +46,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 0,
-        "within_window": 5,
+        "within_24h": 1,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
+          "topic_author_or_category": 2,
           "unreviewed_link": 1,
-          "topic_author_or_category": 4,
-          "older_than_window": 15
+          "older_than_window": 17
         }
       },
       {
@@ -98,12 +98,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 3,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
           "unreviewed_link": 2,
-          "topic_author_or_category": 1,
-          "older_than_window": 12
+          "older_than_window": 13
         }
       },
       {
@@ -192,6 +191,45 @@
   "count": 10,
   "items": [
     {
+      "title": "Circle Details CCTP Path for Non-USDC Tokens Across Supported Chains",
+      "link": "https://www.newsbtc.com/news/circle-details-cctp-path-for-non-usdc-tokens-across-supported-chains/",
+      "summary": "Circle published technical guidance for issuer-controlled ERC-20 transfers using CCTP infrastructure beyond USDC. Its Arc demonstration is a testnet",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "date_human": "Nov 1, 2026",
+      "pub_ts": 1793523600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Curve Launches First Native Non-EVM StableSwap Deployment on Stellar",
+      "link": "https://www.newsbtc.com/news/curve-launches-first-native-non-evm-stableswap-deployment-on-stellar/",
+      "summary": "Curve launched native StableSwap functionality on Stellar mainnet, adding permissionless pools and swaps for compatible assets. The separately discussed",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "date_human": "Nov 1, 2026",
+      "pub_ts": 1793520000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ondo Brings Seven Tokenized Investment Portfolios to Solana",
+      "link": "https://www.newsbtc.com/news/ondo-brings-seven-tokenized-investment-portfolios-to-solana/",
+      "summary": "Ondo launched seven investment-portfolio tokens on Solana for eligible non-US investors. Its reported $45 million in earlier portfolio TVL refers to",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "date_human": "Nov 1, 2026",
+      "pub_ts": 1793516400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Aave Expands Stock-Backed USDC Loans on Base for Eligible Investors",
       "link": "https://www.newsbtc.com/news/aave-expands-stock-backed-usdc-loans-on-base-for-eligible-investors/",
       "summary": "The case study listed seven stocks accepted as collateral at the time and said the market supports continuous borrowing and repayment. Geographic",
@@ -277,45 +315,6 @@
       "date": "2026-10-31",
       "date_human": "Oct 31, 2026",
       "pub_ts": 1793484000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Shopify's Base USDC Checkout Puts Stablecoins Into Mainstream E-Commerce",
-      "link": "https://www.newsbtc.com/news/shopify-s-base-usdc-checkout-puts-stablecoins-into-mainstream-e-commerce/",
-      "summary": "The case study referenced more than $42 million of net settled payments and over 448,000 payments on the underlying Commerce Payments Protocol",
-      "source": "NewsBTC",
-      "date": "2026-10-31",
-      "date_human": "Oct 31, 2026",
-      "pub_ts": 1793480400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Hanwha Chooses Chainlink Data and CCIP for Global Tokenization Platform",
-      "link": "https://www.newsbtc.com/news/hanwha-chooses-chainlink-data-and-ccip-for-global-tokenization-platform/",
-      "summary": "The proposal covers more than representing an asset with an on-chain token. A strategic partnership does not establish that the platform is fully",
-      "source": "NewsBTC",
-      "date": "2026-10-31",
-      "date_human": "Oct 31, 2026",
-      "pub_ts": 1793476800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Chainlink Unveils 24/7 Pricing for Tokenized Assets as Aave Adopts Feeds",
-      "link": "https://www.newsbtc.com/news/chainlink-unveils-24-7-pricing-for-tokenized-assets-as-aave-adopts-feeds/",
-      "summary": "The service extends a prior 24/5 equity-data product into weekends and holidays. An oracle feed is not a guarantee of a redeemable cash-market price,",
-      "source": "NewsBTC",
-      "date": "2026-10-31",
-      "date_human": "Oct 31, 2026",
-      "pub_ts": 1793473200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
