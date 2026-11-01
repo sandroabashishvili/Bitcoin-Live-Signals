@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-10-31",
-  "generated_at_utc": "2026-10-31 17:05:12 UTC",
+  "generated_at_utc": "2026-10-31 23:05:12 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-10-31T17:05:06.006966+00:00",
+    "collected_at": "2026-10-31T23:05:04.280157+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 2,
+        "within_24h": 8,
         "within_window": 10,
         "eligible": 10,
         "rejected": {}
@@ -47,12 +47,12 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 0,
-        "within_window": 6,
+        "within_window": 5,
         "eligible": 0,
         "rejected": {
           "unreviewed_link": 1,
-          "topic_author_or_category": 5,
-          "older_than_window": 14
+          "topic_author_or_category": 4,
+          "older_than_window": 15
         }
       },
       {
@@ -84,7 +84,7 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -172,11 +172,10 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 19
+          "older_than_window": 20
         }
       }
     ],
@@ -196,13 +195,13 @@
   "count": 11,
   "items": [
     {
-      "title": "Polygon Extends Open Money Stack to Solana for Stablecoin Payment Flows",
-      "link": "https://www.newsbtc.com/news/polygon-extends-open-money-stack-to-solana-for-stablecoin-payment-flows/",
-      "summary": "The company said customers can fund accounts through bank transfers, cards, cash or digital assets, then route supported tokens between Solana,",
+      "title": "Tether-Backed FASE Foundation Targets Scams and Stablecoin Aid",
+      "link": "https://www.newsbtc.com/news/tether-backed-fase-foundation-targets-scams-and-stablecoin-aid/",
+      "summary": "Named founding stakeholders include Anchorage Digital, Bybit, Chainalysis, Payward, Opera and the Solana Foundation; the United Nations Office on",
       "source": "NewsBTC",
       "date": "2026-10-31",
       "date_human": "Oct 31, 2026",
-      "pub_ts": 1793466000,
+      "pub_ts": 1793487600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -218,6 +217,84 @@
       "pub_ts": 1793318400,
       "image_candidates": [],
       "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Uniswap Adds Developer Analytics as Swap API Usage Crosses $2B",
+      "link": "https://www.newsbtc.com/news/uniswap-adds-developer-analytics-as-swap-api-usage-crosses-2b/",
+      "summary": "Users of the developer dashboard can examine requests by endpoint, error counts, settled swaps, network-level activity and average trade size. A",
+      "source": "NewsBTC",
+      "date": "2026-10-31",
+      "date_human": "Oct 31, 2026",
+      "pub_ts": 1793484000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Shopify's Base USDC Checkout Puts Stablecoins Into Mainstream E-Commerce",
+      "link": "https://www.newsbtc.com/news/shopify-s-base-usdc-checkout-puts-stablecoins-into-mainstream-e-commerce/",
+      "summary": "The case study referenced more than $42 million of net settled payments and over 448,000 payments on the underlying Commerce Payments Protocol",
+      "source": "NewsBTC",
+      "date": "2026-10-31",
+      "date_human": "Oct 31, 2026",
+      "pub_ts": 1793480400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Hanwha Chooses Chainlink Data and CCIP for Global Tokenization Platform",
+      "link": "https://www.newsbtc.com/news/hanwha-chooses-chainlink-data-and-ccip-for-global-tokenization-platform/",
+      "summary": "The proposal covers more than representing an asset with an on-chain token. A strategic partnership does not establish that the platform is fully",
+      "source": "NewsBTC",
+      "date": "2026-10-31",
+      "date_human": "Oct 31, 2026",
+      "pub_ts": 1793476800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Chainlink Unveils 24/7 Pricing for Tokenized Assets as Aave Adopts Feeds",
+      "link": "https://www.newsbtc.com/news/chainlink-unveils-24-7-pricing-for-tokenized-assets-as-aave-adopts-feeds/",
+      "summary": "The service extends a prior 24/5 equity-data product into weekends and holidays. An oracle feed is not a guarantee of a redeemable cash-market price,",
+      "source": "NewsBTC",
+      "date": "2026-10-31",
+      "date_human": "Oct 31, 2026",
+      "pub_ts": 1793473200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Uniswap Opens TJAR Fee Conversion Beyond Protocol as Robinhood Joins",
+      "link": "https://www.newsbtc.com/news/uniswap-opens-tjar-fee-conversion-beyond-protocol-as-robinhood-joins/",
+      "summary": "Searchers compete to exchange the chosen payout token for assets accumulated in the jar. Open searcher competition does not eliminate execution costs",
+      "source": "NewsBTC",
+      "date": "2026-10-31",
+      "date_human": "Oct 31, 2026",
+      "pub_ts": 1793469600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Polygon Extends Open Money Stack to Solana for Stablecoin Payment Flows",
+      "link": "https://www.newsbtc.com/news/polygon-extends-open-money-stack-to-solana-for-stablecoin-payment-flows/",
+      "summary": "The company said customers can fund accounts through bank transfers, cards, cash or digital assets, then route supported tokens between Solana,",
+      "source": "NewsBTC",
+      "date": "2026-10-31",
+      "date_human": "Oct 31, 2026",
+      "pub_ts": 1793466000,
+      "image_candidates": [],
+      "license_url": null,
       "image": null,
       "image_local": null
     },
@@ -255,84 +332,6 @@
       "date": "2026-10-30",
       "date_human": "Oct 30, 2026",
       "pub_ts": 1793353213,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Coinbase Says Customer Funds Safe After Analytics Vendor Contact-Data Incident",
-      "link": "https://www.newsbtc.com/news/coinbase-says-customer-funds-safe-after-analytics-vendor-contact-data-incident/",
-      "summary": "Coinbase said an incident involving analytics provider Amplitude affected contact information associated with a small subset of Coinbase customers. For.",
-      "source": "NewsBTC",
-      "date": "2026-10-30",
-      "date_human": "Oct 30, 2026",
-      "pub_ts": 1793347200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Slips Below $80,000 After Fed Holds Rates and Tech Shares Weaken",
-      "link": "https://www.newsbtc.com/news/bitcoin-slips-below-80-000-after-fed-holds-rates-and-tech-shares-weaken/",
-      "summary": "Bitcoin slipped below $80,000 in early October 29 trading as markets digested the Federal Reserve’s decision to leave rates unchanged and the accompanying.",
-      "source": "NewsBTC",
-      "date": "2026-10-30",
-      "date_human": "Oct 30, 2026",
-      "pub_ts": 1793343600,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Ethereum Client Updates Address Certificate Risk in Teku and Besu",
-      "link": "https://www.newsbtc.com/news/ethereum-client-updates-address-certificate-risk-in-teku-and-besu/",
-      "summary": "Ethereum software teams have published updates addressing trust-store exposure tied to compromised certificate-authority keys from eMudhra. For ETH.",
-      "source": "NewsBTC",
-      "date": "2026-10-30",
-      "date_human": "Oct 30, 2026",
-      "pub_ts": 1793340000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Mirae Asset Issues Tokenized Dollar Notes on Solana for Professional Investors",
-      "link": "https://www.newsbtc.com/news/mirae-asset-issues-tokenized-dollar-notes-on-solana-for-professional-investors/",
-      "summary": "Mirae Asset Securities’ Hong Kong unit announced the completion of a tokenized funding-note issuance on Solana for eligible institutional investors. For.",
-      "source": "NewsBTC",
-      "date": "2026-10-30",
-      "date_human": "Oct 30, 2026",
-      "pub_ts": 1793336400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Kamino Opens Solana Lending Market for Backpack Tokenized Equity Collateral",
-      "link": "https://www.newsbtc.com/news/kamino-opens-solana-lending-market-for-backpack-tokenized-equity-collateral/",
-      "summary": "Kamino has launched a dedicated Backpack Market on Solana allowing eligible users to post selected Backpack Securities tokenized equities as collateral for.",
-      "source": "NewsBTC",
-      "date": "2026-10-30",
-      "date_human": "Oct 30, 2026",
-      "pub_ts": 1793332800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Stellar Unveils Thruput With Multi-Million-Transaction Execution Benchmarks",
-      "link": "https://www.newsbtc.com/news/stellar-unveils-thruput-with-multi-million-transaction-execution-benchmarks/",
-      "summary": "The Stellar Development Foundation introduced Project Thruput on October 28 as a technology preview that changes how a blockchain execution engine can.",
-      "source": "NewsBTC",
-      "date": "2026-10-30",
-      "date_human": "Oct 30, 2026",
-      "pub_ts": 1793329200,
       "image_candidates": [],
       "license_url": null,
       "image": null,

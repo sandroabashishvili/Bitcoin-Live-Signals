@@ -1,0 +1,325 @@
+{
+  "day_iso": "2026-11-01",
+  "generated_at_utc": "2026-11-01 05:05:07 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-11-01T05:05:01.950740+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 10,
+        "rejected": {}
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 5,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 1,
+          "topic_author_or_category": 4,
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 49,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 49
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 24
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 3,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 2,
+          "topic_author_or_category": 1,
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 20
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 10
+    },
+    "unique_by_source": {
+      "NewsBTC": 10
+    },
+    "selected_by_source": {
+      "NewsBTC": 10
+    }
+  },
+  "count": 10,
+  "items": [
+    {
+      "title": "Aave Expands Stock-Backed USDC Loans on Base for Eligible Investors",
+      "link": "https://www.newsbtc.com/news/aave-expands-stock-backed-usdc-loans-on-base-for-eligible-investors/",
+      "summary": "The case study listed seven stocks accepted as collateral at the time and said the market supports continuous borrowing and repayment. Geographic",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "date_human": "Nov 1, 2026",
+      "pub_ts": 1793505600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Polygon Adds Agent Payment Limits to Open Money Stack",
+      "link": "https://www.newsbtc.com/news/polygon-adds-agent-payment-limits-to-open-money-stack/",
+      "summary": "Polygon described use cases such as software agents buying API calls, compute capacity or digital services without seeking a fresh human signature",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "date_human": "Nov 1, 2026",
+      "pub_ts": 1793502000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Chainalysis Finds $443B MENA Crypto Economy as UAE Growth Outpaces Region",
+      "link": "https://www.newsbtc.com/news/chainalysis-finds-443b-mena-crypto-economy-as-uae-growth-outpaces-region/",
+      "summary": "The United Arab Emirates was reported to have grown 32% to about $104.8 billion, while Türkiye remained larger at around $144.5 billion. The",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "date_human": "Nov 1, 2026",
+      "pub_ts": 1793498400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Further Asset Management Taps Chainlink ACE for Abu Dhabi Compliance Platform",
+      "link": "https://www.newsbtc.com/news/further-asset-management-taps-chainlink-ace-for-abu-dhabi-compliance-platform/",
+      "summary": "The company described jurisdiction-specific rules that can be encoded into workflows so institutions can assess requirements before a tokenized asset",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "date_human": "Nov 1, 2026",
+      "pub_ts": 1793494800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Chainlink Launches CustodySync With Anchorage to Link Custody and DeFi Loans",
+      "link": "https://www.newsbtc.com/news/chainlink-launches-custodysync-with-anchorage-to-link-custody-and-defi-loans/",
+      "summary": "Chainlink describes a workflow spanning collateral deposit, borrowing, repayment and liquidation. Keeping assets in custody does not automatically",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "date_human": "Nov 1, 2026",
+      "pub_ts": 1793491200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Tether-Backed FASE Foundation Targets Scams and Stablecoin Aid",
+      "link": "https://www.newsbtc.com/news/tether-backed-fase-foundation-targets-scams-and-stablecoin-aid/",
+      "summary": "Named founding stakeholders include Anchorage Digital, Bybit, Chainalysis, Payward, Opera and the Solana Foundation; the United Nations Office on",
+      "source": "NewsBTC",
+      "date": "2026-10-31",
+      "date_human": "Oct 31, 2026",
+      "pub_ts": 1793487600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Uniswap Adds Developer Analytics as Swap API Usage Crosses $2B",
+      "link": "https://www.newsbtc.com/news/uniswap-adds-developer-analytics-as-swap-api-usage-crosses-2b/",
+      "summary": "Users of the developer dashboard can examine requests by endpoint, error counts, settled swaps, network-level activity and average trade size. A",
+      "source": "NewsBTC",
+      "date": "2026-10-31",
+      "date_human": "Oct 31, 2026",
+      "pub_ts": 1793484000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Shopify's Base USDC Checkout Puts Stablecoins Into Mainstream E-Commerce",
+      "link": "https://www.newsbtc.com/news/shopify-s-base-usdc-checkout-puts-stablecoins-into-mainstream-e-commerce/",
+      "summary": "The case study referenced more than $42 million of net settled payments and over 448,000 payments on the underlying Commerce Payments Protocol",
+      "source": "NewsBTC",
+      "date": "2026-10-31",
+      "date_human": "Oct 31, 2026",
+      "pub_ts": 1793480400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Hanwha Chooses Chainlink Data and CCIP for Global Tokenization Platform",
+      "link": "https://www.newsbtc.com/news/hanwha-chooses-chainlink-data-and-ccip-for-global-tokenization-platform/",
+      "summary": "The proposal covers more than representing an asset with an on-chain token. A strategic partnership does not establish that the platform is fully",
+      "source": "NewsBTC",
+      "date": "2026-10-31",
+      "date_human": "Oct 31, 2026",
+      "pub_ts": 1793476800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Chainlink Unveils 24/7 Pricing for Tokenized Assets as Aave Adopts Feeds",
+      "link": "https://www.newsbtc.com/news/chainlink-unveils-24-7-pricing-for-tokenized-assets-as-aave-adopts-feeds/",
+      "summary": "The service extends a prior 24/5 equity-data product into weekends and holidays. An oracle feed is not a guarantee of a redeemable cash-market price,",
+      "source": "NewsBTC",
+      "date": "2026-10-31",
+      "date_human": "Oct 31, 2026",
+      "pub_ts": 1793473200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}
