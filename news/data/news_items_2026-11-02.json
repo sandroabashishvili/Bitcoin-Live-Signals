@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-02",
-  "generated_at_utc": "2026-11-02 05:05:09 UTC",
+  "generated_at_utc": "2026-11-02 11:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-02T05:05:04.003829+00:00",
+    "collected_at": "2026-11-02T11:05:04.387806+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,10 +26,8 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 9,
-        "rejected": {
-          "title_filter": 1
-        }
+        "eligible": 10,
+        "rejected": {}
       },
       {
         "source": "NIST",
@@ -48,12 +46,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 2,
-        "within_window": 2,
-        "eligible": 0,
+        "within_24h": 4,
+        "within_window": 5,
+        "eligible": 2,
         "rejected": {
-          "topic_author_or_category": 2,
-          "older_than_window": 18
+          "topic_author_or_category": 3,
+          "older_than_window": 15
         }
       },
       {
@@ -97,11 +95,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 15
+          "unreviewed_link": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -178,17 +177,150 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 9
+      "NewsBTC": 10,
+      "Cryptonews": 2
     },
     "unique_by_source": {
-      "NewsBTC": 9
+      "NewsBTC": 10,
+      "Cryptonews": 2
     },
     "selected_by_source": {
-      "NewsBTC": 9
+      "NewsBTC": 10,
+      "Cryptonews": 2
     }
   },
-  "count": 9,
+  "count": 12,
   "items": [
+    {
+      "title": "Bitcoin White Paper Turns 18 With Payment Verification Still at Its Core",
+      "link": "https://www.newsbtc.com/news/bitcoin-white-paper-turns-18-with-payment-verification-still-at-its-core/",
+      "summary": "Satoshi Nakamoto introduced the Bitcoin paper on October 31, 2008. Eighteen years later, its central contribution remains a way to verify payment history without a central transaction ledger.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793617200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum Whale Buys $63 Million in ETH: Smart Money Calling a Bottom?",
+      "link": "https://cryptonews.com/news/ethereum-whale-buys-63-million-eth-price-bottom/",
+      "summary": "An Ethereum whale buys $63 million in ETH at $2,286 average. Is smart money accumulating as ETH searches for a market bottom?",
+      "source": "Cryptonews",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793613355,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "One Paper, Infinite Markets: MEXC Marks 18 Years of the Bitcoin Whitepaper by Looking Beyond Bitcoin",
+      "link": "https://www.newsbtc.com/news/one-paper-infinite-markets-mexc-marks-18-years-of-the-bitcoin-whitepaper-by-looking-beyond-bitcoin/",
+      "summary": "Mutsamudu, Comoros, November 2, 2026 – MEXC, a pioneer in 0-fee digital asset trading, launched its Bitcoin Whitepaper Day 2026 campaign under the theme “One Paper. Infinite Markets.” to mark the 18th anniversary of the Bitcoin whitepaper. Since its publication in 2008, the Bitcoin whitepaper has had an impact far beyond Bitcoin itself, reflecting broader shifts in how value moves, when markets operate, who can participate, and how assets are issued, held, and traded. As crypto and traditional finance converge, MEXC aims to spark community dialogue and explore new opportunities across evolving",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793615586,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Binance Withdrawals Top FTX Levels in November, but Crypto Liquidity Defies Panic",
+      "link": "https://cryptonews.com/news/binance-withdrawals-ftx-november-crypto-liquidity/",
+      "summary": "Binance withdrawals hit FTX levels in November, but $171B in assets, hack coverage and Bitcoin's resilience point to a stronger crypto market.",
+      "source": "Cryptonews",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793605438,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "TokenInsight Q3 Report: MEXC Ranks No. 2 in Commodity Perpetuals with 17.43% Market Share",
+      "link": "https://www.newsbtc.com/news/tokeninsight-q3-report-mexc-ranks-no-2-in-commodity-perpetuals-with-17-43-market-share/",
+      "summary": "Mutsamudu, Comoros, November 2, 2026 – MEXC, a pioneer in 0-fee digital asset trading, ranked second in commodity perpetuals trading volume in Q3 2026, capturing a 17.43% market share, according to TokenInsight’s Crypto Exchange Report. TradFi perpetuals accounted for 17.38% of MEXC’s derivatives trading volume, the third-highest proportion among the nine exchanges tracked. The report examined 20 exchanges, including 11 selected for in-depth analysis based on market share, trading volume, and open interest. In Q3, MEXC recorded $1.069 trillion in total trading volume, ranking fourth among the ",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793614796,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Sui Puts Enforced Spending Limits at the Center of Its AI-Agent Design",
+      "link": "https://www.newsbtc.com/news/sui-puts-enforced-spending-limits-at-the-center-of-its-ai-agent-design/",
+      "summary": "A Sui design note argues that agents need permissions enforced by the systems they use. Onchain transactions can support those controls, but cannot establish that an agent’s objective is correct.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793613600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "NEAR Enters Bitwise Large-Cap Indexes in October Rebalance",
+      "link": "https://www.newsbtc.com/news/near-enters-bitwise-large-cap-indexes-in-october-rebalance/",
+      "summary": "Bitwise’s October 30 rebalance brings NEAR into several indexes, replacing UNI or AVAX depending on the benchmark. Index membership alone does not establish a guaranteed price effect.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793610000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethena Pay Adds Earn+ Through Aave V4 Lending on Avalanche",
+      "link": "https://www.newsbtc.com/news/ethena-pay-adds-earn-through-aave-v4-lending-on-avalanche/",
+      "summary": "Ethena Pay’s Earn+ routes deposits into an Upshift vault curated by Steakhouse and using Aave V4 on Avalanche. The layered structure matters when assessing rewards and withdrawals.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793606400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Circle Asks SEC to Clarify Cash Treatment for Qualifying Payment Stablecoins",
+      "link": "https://www.newsbtc.com/news/circle-asks-sec-to-clarify-cash-treatment-for-qualifying-payment-stablecoins/",
+      "summary": "Circle’s comment letter asks the SEC to align its crypto-asset proposal with payment-stablecoin rules. The company’s requested treatment remains a policy position, not a Commission decision.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793602800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Cosmos Prepares ATOM Tokenomics Review With Separate Governance Proposals",
+      "link": "https://www.newsbtc.com/news/cosmos-prepares-atom-tokenomics-review-with-separate-governance-proposals/",
+      "summary": "Cosmos contributors say tokenomics research has reached the preparation stage for public review. Proposed changes will be discussed individually, rather than treated as an already approved redesign.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793599200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Ambire Ice Puts Safe Owner Changes and Approval Thresholds on the Signing Screen",
       "link": "https://www.newsbtc.com/news/ambire-ice-puts-safe-owner-changes-and-approval-thresholds-on-the-signing-screen/",
@@ -210,97 +342,6 @@
       "date": "2026-11-02",
       "date_human": "Nov 2, 2026",
       "pub_ts": 1793592000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Core 32.1 Arrives With Privacy Fixes and New Compatibility Checks",
-      "link": "https://www.newsbtc.com/news/bitcoin-core-32-1-arrives-with-privacy-fixes-and-new-compatibility-checks/",
-      "summary": "Bitcoin Core 32.1 introduces network, privacy and interface changes, while 31.2 and 30.4 provide maintenance updates. Operators need to check integrations as well as version numbers.",
-      "source": "NewsBTC",
-      "date": "2026-11-02",
-      "date_human": "Nov 2, 2026",
-      "pub_ts": 1793588400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Mercado Bitcoin Plans Sui Asset Access in Brazil With Lending and Tokenization Links",
-      "link": "https://www.newsbtc.com/news/mercado-bitcoin-plans-sui-asset-access-in-brazil-with-lending-and-tokenization-links/",
-      "summary": "Mercado Bitcoin and Sui have outlined access to SUI and stablecoins, with USDsui collateral and tokenized assets in scope. A potential Hashi integration remains exploratory.",
-      "source": "NewsBTC",
-      "date": "2026-11-02",
-      "date_human": "Nov 2, 2026",
-      "pub_ts": 1793584800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP Ledger Reviews Two Token-Authorization Fixes Ahead of Any Validator Vote",
-      "link": "https://www.newsbtc.com/news/xrp-ledger-reviews-two-token-authorization-fixes-ahead-of-any-validator-vote/",
-      "summary": "Two open XRP Ledger proposals address authorization checks for liquidity-pool tokens and existing trust-line balances. The changes remain under review and are not active network rules.",
-      "source": "NewsBTC",
-      "date": "2026-11-02",
-      "date_human": "Nov 2, 2026",
-      "pub_ts": 1793581200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Polymarket Sets $3.9M Refund Plan After Third-Party Script Compromise",
-      "link": "https://www.newsbtc.com/news/polymarket-sets-3-9m-refund-plan-after-third-party-script-compromise/",
-      "summary": "Polymarket says its October 29 incident involved a compromised monitoring script. Its October 30 update put total refunds at $3.9 million, including losses linked to the trading pause.",
-      "source": "NewsBTC",
-      "date": "2026-11-02",
-      "date_human": "Nov 2, 2026",
-      "pub_ts": 1793577600,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "KuCoin Announces Russia and Belarus Exit With Individual Account Deadlines",
-      "link": "https://www.newsbtc.com/news/kucoin-announces-russia-and-belarus-exit-with-individual-account-deadlines/",
-      "summary": "KuCoin says it is discontinuing all services for users in Russia and Belarus. Affected accounts will receive their own deadlines for closing positions and withdrawing assets.",
-      "source": "NewsBTC",
-      "date": "2026-11-01",
-      "date_human": "Nov 1, 2026",
-      "pub_ts": 1793574000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "SEC Charges BG Wealth and DSJ Exchange Over Alleged $130M Crypto Scheme",
-      "link": "https://www.newsbtc.com/news/sec-charges-bg-wealth-and-dsj-exchange-over-alleged-130m-crypto-scheme/",
-      "summary": "The SEC alleges BG Wealth and DSJ Exchange raised more than $130 million using false filings and trading claims. The civil complaint is an allegation, not a final judgment.",
-      "source": "NewsBTC",
-      "date": "2026-11-01",
-      "date_human": "Nov 1, 2026",
-      "pub_ts": 1793566800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Strategy Reports 848,517 Bitcoin as Q3 Gains Put Cash Coverage in Focus",
-      "link": "https://www.newsbtc.com/news/strategy-reports-848-517-bitcoin-as-q3-gains-put-cash-coverage-in-focus/",
-      "summary": "Strategy reported 848,517 BTC as of October 25 and large third-quarter digital-asset gains. Cash coverage and financing obligations remain central to assessing the results.",
-      "source": "NewsBTC",
-      "date": "2026-11-01",
-      "date_human": "Nov 1, 2026",
-      "pub_ts": 1793563200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
