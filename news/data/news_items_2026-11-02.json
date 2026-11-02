@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-02",
-  "generated_at_utc": "2026-11-02 11:05:10 UTC",
+  "generated_at_utc": "2026-11-02 17:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-02T11:05:04.387806+00:00",
+    "collected_at": "2026-11-02T17:05:03.661275+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -34,11 +34,12 @@
         "url": "https://www.nist.gov/news-events/news/rss.xml",
         "status": "ok",
         "entries": 40,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 40
+          "topic_author_or_category": 1,
+          "older_than_window": 39
         }
       },
       {
@@ -46,12 +47,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 4,
-        "within_window": 5,
-        "eligible": 2,
+        "within_24h": 7,
+        "within_window": 8,
+        "eligible": 3,
         "rejected": {
-          "topic_author_or_category": 3,
-          "older_than_window": 15
+          "topic_author_or_category": 4,
+          "title_filter": 1,
+          "older_than_window": 12
         }
       },
       {
@@ -178,27 +180,53 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 2
+      "Cryptonews": 3
     },
     "unique_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 2
+      "Cryptonews": 3
     },
     "selected_by_source": {
-      "NewsBTC": 10,
-      "Cryptonews": 2
+      "NewsBTC": 9,
+      "Cryptonews": 3
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Bitcoin White Paper Turns 18 With Payment Verification Still at Its Core",
-      "link": "https://www.newsbtc.com/news/bitcoin-white-paper-turns-18-with-payment-verification-still-at-its-core/",
-      "summary": "Satoshi Nakamoto introduced the Bitcoin paper on October 31, 2008. Eighteen years later, its central contribution remains a way to verify payment history without a central transaction ledger.",
+      "title": "Onlend Unveils No-Code Infrastructure to Launch Custom Onchain Lending Apps",
+      "link": "https://www.newsbtc.com/news/onlend-unveils-no-code-infrastructure-to-launch-custom-onchain-lending-apps/",
+      "summary": "Built by a team with experience scaling a leading DeFi lending protocol, Onlend aims to make it easier for fintechs, asset managers, curators, and asset issuers to build and operate their own lending products. Onlend has publicly unveiled its decentralised infrastructure platform designed to let anyone create, launch, and operate their own onchain lending applications without building the underlying technology from scratch. The project is entering a market with considerable room for expansion. Global debt surpassed $350 trillion in early 2026, according to the Institute of International Financ",
       "source": "NewsBTC",
       "date": "2026-11-02",
       "date_human": "Nov 2, 2026",
-      "pub_ts": 1793617200,
+      "pub_ts": 1793637392,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Midterm Election Pattern: Will BTC Repeat Its Post-Election Rally?",
+      "link": "https://cryptonews.com/news/bitcoin-midterm-election-post-election-rally/",
+      "summary": "Bitcoin gained 54% after the last three U.S. midterm election. Could the 2026 U.S. midterms spark another post-election rally?",
+      "source": "Cryptonews",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793627040,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Anchorpoint Plans Native HKDAP on Solana as Hong Kong Dollar Access Expands",
+      "link": "https://www.newsbtc.com/news/anchorpoint-plans-native-hkdap-on-solana-as-hong-kong-dollar-access-expands/",
+      "summary": "Anchorpoint and Solana Foundation are exploring native HKDAP issuance, while the stablecoin remains in an institutional beta on Ethereum.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793635200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -218,13 +246,13 @@
       "image_local": null
     },
     {
-      "title": "One Paper, Infinite Markets: MEXC Marks 18 Years of the Bitcoin Whitepaper by Looking Beyond Bitcoin",
-      "link": "https://www.newsbtc.com/news/one-paper-infinite-markets-mexc-marks-18-years-of-the-bitcoin-whitepaper-by-looking-beyond-bitcoin/",
-      "summary": "Mutsamudu, Comoros, November 2, 2026 – MEXC, a pioneer in 0-fee digital asset trading, launched its Bitcoin Whitepaper Day 2026 campaign under the theme “One Paper. Infinite Markets.” to mark the 18th anniversary of the Bitcoin whitepaper. Since its publication in 2008, the Bitcoin whitepaper has had an impact far beyond Bitcoin itself, reflecting broader shifts in how value moves, when markets operate, who can participate, and how assets are issued, held, and traded. As crypto and traditional finance converge, MEXC aims to spark community dialogue and explore new opportunities across evolving",
+      "title": "Animoca Announces ADGM Fund-Management Permission for Institutional Expansion",
+      "link": "https://www.newsbtc.com/news/animoca-announces-adgm-fund-management-permission-for-institutional-expansion/",
+      "summary": "Animoca says its Abu Dhabi subsidiary has permission to manage collective investment funds, adding a new regulated route for institutional capital.",
       "source": "NewsBTC",
       "date": "2026-11-02",
       "date_human": "Nov 2, 2026",
-      "pub_ts": 1793615586,
+      "pub_ts": 1793631600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -244,104 +272,78 @@
       "image_local": null
     },
     {
-      "title": "TokenInsight Q3 Report: MEXC Ranks No. 2 in Commodity Perpetuals with 17.43% Market Share",
-      "link": "https://www.newsbtc.com/news/tokeninsight-q3-report-mexc-ranks-no-2-in-commodity-perpetuals-with-17-43-market-share/",
-      "summary": "Mutsamudu, Comoros, November 2, 2026 – MEXC, a pioneer in 0-fee digital asset trading, ranked second in commodity perpetuals trading volume in Q3 2026, capturing a 17.43% market share, according to TokenInsight’s Crypto Exchange Report. TradFi perpetuals accounted for 17.38% of MEXC’s derivatives trading volume, the third-highest proportion among the nine exchanges tracked. The report examined 20 exchanges, including 11 selected for in-depth analysis based on market share, trading volume, and open interest. In Q3, MEXC recorded $1.069 trillion in total trading volume, ranking fourth among the ",
+      "title": "Bitbase Launches Bitbase 2.0, Moving from Trading Platform to Value Platform",
+      "link": "https://www.newsbtc.com/news/bitbase-launches-bitbase-2-0-moving-from-trading-platform-to-value-platform/",
+      "summary": "The upgrade opens with a new brand identity and mascot, BENIE, and will extend to the product experience and user engagement in the stages that follow. November 2, 2026 — Bitbase, a digital asset exchange serving users worldwide, today announced the launch of Bitbase 2.0, a brand-led upgrade under the statement “MARKET FLOWS. WE FOCUS.” The exchange’s new logo and visual identity are now live across the Bitbase app, website and official social channels, together with BENIE, its new mascot. Built on the foundations of Bitbase 1.0 Since launch, Bitbase has operated under the promise “Trust Throu",
       "source": "NewsBTC",
       "date": "2026-11-02",
       "date_human": "Nov 2, 2026",
-      "pub_ts": 1793614796,
+      "pub_ts": 1793628508,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Sui Puts Enforced Spending Limits at the Center of Its AI-Agent Design",
-      "link": "https://www.newsbtc.com/news/sui-puts-enforced-spending-limits-at-the-center-of-its-ai-agent-design/",
-      "summary": "A Sui design note argues that agents need permissions enforced by the systems they use. Onchain transactions can support those controls, but cannot establish that an agent’s objective is correct.",
+      "title": "Hong Kong Advances EnsembleTX to 24/7 Settlement and Plans Stablecoin Trials",
+      "link": "https://www.newsbtc.com/news/hong-kong-advances-ensembletx-to-24-7-settlement-and-plans-stablecoin-trials/",
+      "summary": "HKMA says EnsembleTX now supports round-the-clock real-value transactions, with regulated stablecoins next in its tokenization trials.",
       "source": "NewsBTC",
       "date": "2026-11-02",
       "date_human": "Nov 2, 2026",
-      "pub_ts": 1793613600,
+      "pub_ts": 1793628000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "NEAR Enters Bitwise Large-Cap Indexes in October Rebalance",
-      "link": "https://www.newsbtc.com/news/near-enters-bitwise-large-cap-indexes-in-october-rebalance/",
-      "summary": "Bitwise’s October 30 rebalance brings NEAR into several indexes, replacing UNI or AVAX depending on the benchmark. Index membership alone does not establish a guaranteed price effect.",
+      "title": "Kraken Prop Adds Commodity Signals With Lower Non-Crypto Commissions",
+      "link": "https://www.newsbtc.com/news/kraken-prop-adds-commodity-signals-with-lower-non-crypto-commissions/",
+      "summary": "Kraken Prop has added six commodity markets and reduced non-crypto commissions on most plans. Participants submit simulated trade signals; they do not own the underlying commodity positions.",
       "source": "NewsBTC",
       "date": "2026-11-02",
       "date_human": "Nov 2, 2026",
-      "pub_ts": 1793610000,
+      "pub_ts": 1793624400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Ethena Pay Adds Earn+ Through Aave V4 Lending on Avalanche",
-      "link": "https://www.newsbtc.com/news/ethena-pay-adds-earn-through-aave-v4-lending-on-avalanche/",
-      "summary": "Ethena Pay’s Earn+ routes deposits into an Upshift vault curated by Steakhouse and using Aave V4 on Avalanche. The layered structure matters when assessing rewards and withdrawals.",
+      "title": "Noble USDC Holders Face New Migration Phase as CCTP Limits Start Winding Down",
+      "link": "https://www.newsbtc.com/news/noble-usdc-holders-face-new-migration-phase-as-cctp-limits-start-winding-down/",
+      "summary": "Circle’s published schedule begins reducing legacy CCTP burn limits from October 31. Noble has a separate January 2027 pause, so holders and integrators need to distinguish the deadlines.",
       "source": "NewsBTC",
       "date": "2026-11-02",
       "date_human": "Nov 2, 2026",
-      "pub_ts": 1793606400,
+      "pub_ts": 1793620800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Circle Asks SEC to Clarify Cash Treatment for Qualifying Payment Stablecoins",
-      "link": "https://www.newsbtc.com/news/circle-asks-sec-to-clarify-cash-treatment-for-qualifying-payment-stablecoins/",
-      "summary": "Circle’s comment letter asks the SEC to align its crypto-asset proposal with payment-stablecoin rules. The company’s requested treatment remains a policy position, not a Commission decision.",
+      "title": "Bitcoin White Paper Turns 18 With Payment Verification Still at Its Core",
+      "link": "https://www.newsbtc.com/news/bitcoin-white-paper-turns-18-with-payment-verification-still-at-its-core/",
+      "summary": "Satoshi Nakamoto introduced the Bitcoin paper on October 31, 2008. Eighteen years later, its central contribution remains a way to verify payment history without a central transaction ledger.",
       "source": "NewsBTC",
       "date": "2026-11-02",
       "date_human": "Nov 2, 2026",
-      "pub_ts": 1793602800,
+      "pub_ts": 1793617200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Cosmos Prepares ATOM Tokenomics Review With Separate Governance Proposals",
-      "link": "https://www.newsbtc.com/news/cosmos-prepares-atom-tokenomics-review-with-separate-governance-proposals/",
-      "summary": "Cosmos contributors say tokenomics research has reached the preparation stage for public review. Proposed changes will be discussed individually, rather than treated as an already approved redesign.",
+      "title": "One Paper, Infinite Markets: MEXC Marks 18 Years of the Bitcoin Whitepaper by Looking Beyond Bitcoin",
+      "link": "https://www.newsbtc.com/news/one-paper-infinite-markets-mexc-marks-18-years-of-the-bitcoin-whitepaper-by-looking-beyond-bitcoin/",
+      "summary": "Mutsamudu, Comoros, November 2, 2026 – MEXC, a pioneer in 0-fee digital asset trading, launched its Bitcoin Whitepaper Day 2026 campaign under the theme “One Paper. Infinite Markets.” to mark the 18th anniversary of the Bitcoin whitepaper. Since its publication in 2008, the Bitcoin whitepaper has had an impact far beyond Bitcoin itself, reflecting broader shifts in how value moves, when markets operate, who can participate, and how assets are issued, held, and traded. As crypto and traditional finance converge, MEXC aims to spark community dialogue and explore new opportunities across evolving",
       "source": "NewsBTC",
       "date": "2026-11-02",
       "date_human": "Nov 2, 2026",
-      "pub_ts": 1793599200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Ambire Ice Puts Safe Owner Changes and Approval Thresholds on the Signing Screen",
-      "link": "https://www.newsbtc.com/news/ambire-ice-puts-safe-owner-changes-and-approval-thresholds-on-the-signing-screen/",
-      "summary": "Ambire says its Ice hardware wallet will decode Safe transactions and flag changes to account control. The design targets the decisions signers make before authorizing an action.",
-      "source": "NewsBTC",
-      "date": "2026-11-02",
-      "date_human": "Nov 2, 2026",
-      "pub_ts": 1793595600,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "ECB Picks Digital Euro Network Providers as Pilot Infrastructure Takes Shape",
-      "link": "https://www.newsbtc.com/news/ecb-picks-digital-euro-network-providers-as-pilot-infrastructure-takes-shape/",
-      "summary": "The ECB has selected two provider groups for digital euro connectivity. The contracts support pilot preparation and possible future issuance, without deciding whether the currency will launch.",
-      "source": "NewsBTC",
-      "date": "2026-11-02",
-      "date_human": "Nov 2, 2026",
-      "pub_ts": 1793592000,
+      "pub_ts": 1793615586,
       "image_candidates": [],
       "license_url": null,
       "image": null,
