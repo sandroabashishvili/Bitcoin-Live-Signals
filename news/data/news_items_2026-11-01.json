@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-01",
-  "generated_at_utc": "2026-11-01 17:05:08 UTC",
+  "generated_at_utc": "2026-11-01 23:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-01T17:05:02.168260+00:00",
+    "collected_at": "2026-11-01T23:05:01.995444+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,8 +26,10 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 10,
-        "rejected": {}
+        "eligible": 9,
+        "rejected": {
+          "title_filter": 1
+        }
       },
       {
         "source": "NIST",
@@ -46,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
-        "within_window": 1,
+        "within_24h": 2,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 19
+          "topic_author_or_category": 2,
+          "older_than_window": 18
         }
       },
       {
@@ -84,11 +86,10 @@
         "status": "ok",
         "entries": 25,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 24
+          "older_than_window": 25
         }
       },
       {
@@ -177,17 +178,69 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 10
+      "NewsBTC": 9
     },
     "unique_by_source": {
-      "NewsBTC": 10
+      "NewsBTC": 9
     },
     "selected_by_source": {
-      "NewsBTC": 10
+      "NewsBTC": 9
     }
   },
-  "count": 10,
+  "count": 9,
   "items": [
+    {
+      "title": "SEC Charges BG Wealth and DSJ Exchange Over Alleged $130M Crypto Scheme",
+      "link": "https://www.newsbtc.com/news/sec-charges-bg-wealth-and-dsj-exchange-over-alleged-130m-crypto-scheme/",
+      "summary": "The SEC alleges BG Wealth and DSJ Exchange raised more than $130 million using false filings and trading claims. The civil complaint is an allegation, not a final judgment.",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "date_human": "Nov 1, 2026",
+      "pub_ts": 1793566800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Strategy Reports 848,517 Bitcoin as Q3 Gains Put Cash Coverage in Focus",
+      "link": "https://www.newsbtc.com/news/strategy-reports-848-517-bitcoin-as-q3-gains-put-cash-coverage-in-focus/",
+      "summary": "Strategy reported 848,517 BTC as of October 25 and large third-quarter digital-asset gains. Cash coverage and financing obligations remain central to assessing the results.",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "date_human": "Nov 1, 2026",
+      "pub_ts": 1793563200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Next Technology Authorizes Sale or Pledge of 5,833 Bitcoin After Risk Review",
+      "link": "https://www.newsbtc.com/news/next-technology-authorizes-sale-or-pledge-of-5-833-bitcoin-after-risk-review/",
+      "summary": "Next Technology has authorized selling or pledging its reported 5,833 BTC. The decision creates flexibility; it does not confirm that a transaction has occurred.",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "date_human": "Nov 1, 2026",
+      "pub_ts": 1793559600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Binance Sets Phased Withdrawal Restart as Asset Replenishment Reaches 95%",
+      "link": "https://www.newsbtc.com/news/binance-sets-phased-withdrawal-restart-as-asset-replenishment-reaches-95/",
+      "summary": "Binance has set out a phased withdrawal restart and says it has replaced 95% of affected assets. Availability still depends on the individual asset and network.",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "date_human": "Nov 1, 2026",
+      "pub_ts": 1793556000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Circle Details CCTP Path for Non-USDC Tokens Across Supported Chains",
       "link": "https://www.newsbtc.com/news/circle-details-cctp-path-for-non-usdc-tokens-across-supported-chains/",
@@ -248,71 +301,6 @@
       "date": "2026-11-01",
       "date_human": "Nov 1, 2026",
       "pub_ts": 1793502000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Chainalysis Finds $443B MENA Crypto Economy as UAE Growth Outpaces Region",
-      "link": "https://www.newsbtc.com/news/chainalysis-finds-443b-mena-crypto-economy-as-uae-growth-outpaces-region/",
-      "summary": "The United Arab Emirates was reported to have grown 32% to about $104.8 billion, while Türkiye remained larger at around $144.5 billion. The",
-      "source": "NewsBTC",
-      "date": "2026-11-01",
-      "date_human": "Nov 1, 2026",
-      "pub_ts": 1793498400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Further Asset Management Taps Chainlink ACE for Abu Dhabi Compliance Platform",
-      "link": "https://www.newsbtc.com/news/further-asset-management-taps-chainlink-ace-for-abu-dhabi-compliance-platform/",
-      "summary": "The company described jurisdiction-specific rules that can be encoded into workflows so institutions can assess requirements before a tokenized asset",
-      "source": "NewsBTC",
-      "date": "2026-11-01",
-      "date_human": "Nov 1, 2026",
-      "pub_ts": 1793494800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Chainlink Launches CustodySync With Anchorage to Link Custody and DeFi Loans",
-      "link": "https://www.newsbtc.com/news/chainlink-launches-custodysync-with-anchorage-to-link-custody-and-defi-loans/",
-      "summary": "Chainlink describes a workflow spanning collateral deposit, borrowing, repayment and liquidation. Keeping assets in custody does not automatically",
-      "source": "NewsBTC",
-      "date": "2026-11-01",
-      "date_human": "Nov 1, 2026",
-      "pub_ts": 1793491200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Tether-Backed FASE Foundation Targets Scams and Stablecoin Aid",
-      "link": "https://www.newsbtc.com/news/tether-backed-fase-foundation-targets-scams-and-stablecoin-aid/",
-      "summary": "Named founding stakeholders include Anchorage Digital, Bybit, Chainalysis, Payward, Opera and the Solana Foundation; the United Nations Office on",
-      "source": "NewsBTC",
-      "date": "2026-10-31",
-      "date_human": "Oct 31, 2026",
-      "pub_ts": 1793487600,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Uniswap Adds Developer Analytics as Swap API Usage Crosses $2B",
-      "link": "https://www.newsbtc.com/news/uniswap-adds-developer-analytics-as-swap-api-usage-crosses-2b/",
-      "summary": "Users of the developer dashboard can examine requests by endpoint, error counts, settled swaps, network-level activity and average trade size. A",
-      "source": "NewsBTC",
-      "date": "2026-10-31",
-      "date_human": "Oct 31, 2026",
-      "pub_ts": 1793484000,
       "image_candidates": [],
       "license_url": null,
       "image": null,

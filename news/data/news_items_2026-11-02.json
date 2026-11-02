@@ -1,0 +1,310 @@
+{
+  "day_iso": "2026-11-02",
+  "generated_at_utc": "2026-11-02 05:05:09 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-11-02T05:05:04.003829+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 9,
+        "rejected": {
+          "title_filter": 1
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 2,
+        "within_window": 2,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 2,
+          "older_than_window": 18
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 49,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 49
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 25
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 20
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 9
+    },
+    "unique_by_source": {
+      "NewsBTC": 9
+    },
+    "selected_by_source": {
+      "NewsBTC": 9
+    }
+  },
+  "count": 9,
+  "items": [
+    {
+      "title": "Ambire Ice Puts Safe Owner Changes and Approval Thresholds on the Signing Screen",
+      "link": "https://www.newsbtc.com/news/ambire-ice-puts-safe-owner-changes-and-approval-thresholds-on-the-signing-screen/",
+      "summary": "Ambire says its Ice hardware wallet will decode Safe transactions and flag changes to account control. The design targets the decisions signers make before authorizing an action.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793595600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "ECB Picks Digital Euro Network Providers as Pilot Infrastructure Takes Shape",
+      "link": "https://www.newsbtc.com/news/ecb-picks-digital-euro-network-providers-as-pilot-infrastructure-takes-shape/",
+      "summary": "The ECB has selected two provider groups for digital euro connectivity. The contracts support pilot preparation and possible future issuance, without deciding whether the currency will launch.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793592000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Core 32.1 Arrives With Privacy Fixes and New Compatibility Checks",
+      "link": "https://www.newsbtc.com/news/bitcoin-core-32-1-arrives-with-privacy-fixes-and-new-compatibility-checks/",
+      "summary": "Bitcoin Core 32.1 introduces network, privacy and interface changes, while 31.2 and 30.4 provide maintenance updates. Operators need to check integrations as well as version numbers.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793588400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Mercado Bitcoin Plans Sui Asset Access in Brazil With Lending and Tokenization Links",
+      "link": "https://www.newsbtc.com/news/mercado-bitcoin-plans-sui-asset-access-in-brazil-with-lending-and-tokenization-links/",
+      "summary": "Mercado Bitcoin and Sui have outlined access to SUI and stablecoins, with USDsui collateral and tokenized assets in scope. A potential Hashi integration remains exploratory.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793584800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP Ledger Reviews Two Token-Authorization Fixes Ahead of Any Validator Vote",
+      "link": "https://www.newsbtc.com/news/xrp-ledger-reviews-two-token-authorization-fixes-ahead-of-any-validator-vote/",
+      "summary": "Two open XRP Ledger proposals address authorization checks for liquidity-pool tokens and existing trust-line balances. The changes remain under review and are not active network rules.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793581200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Polymarket Sets $3.9M Refund Plan After Third-Party Script Compromise",
+      "link": "https://www.newsbtc.com/news/polymarket-sets-3-9m-refund-plan-after-third-party-script-compromise/",
+      "summary": "Polymarket says its October 29 incident involved a compromised monitoring script. Its October 30 update put total refunds at $3.9 million, including losses linked to the trading pause.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793577600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "KuCoin Announces Russia and Belarus Exit With Individual Account Deadlines",
+      "link": "https://www.newsbtc.com/news/kucoin-announces-russia-and-belarus-exit-with-individual-account-deadlines/",
+      "summary": "KuCoin says it is discontinuing all services for users in Russia and Belarus. Affected accounts will receive their own deadlines for closing positions and withdrawing assets.",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "date_human": "Nov 1, 2026",
+      "pub_ts": 1793574000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "SEC Charges BG Wealth and DSJ Exchange Over Alleged $130M Crypto Scheme",
+      "link": "https://www.newsbtc.com/news/sec-charges-bg-wealth-and-dsj-exchange-over-alleged-130m-crypto-scheme/",
+      "summary": "The SEC alleges BG Wealth and DSJ Exchange raised more than $130 million using false filings and trading claims. The civil complaint is an allegation, not a final judgment.",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "date_human": "Nov 1, 2026",
+      "pub_ts": 1793566800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Strategy Reports 848,517 Bitcoin as Q3 Gains Put Cash Coverage in Focus",
+      "link": "https://www.newsbtc.com/news/strategy-reports-848-517-bitcoin-as-q3-gains-put-cash-coverage-in-focus/",
+      "summary": "Strategy reported 848,517 BTC as of October 25 and large third-quarter digital-asset gains. Cash coverage and financing obligations remain central to assessing the results.",
+      "source": "NewsBTC",
+      "date": "2026-11-01",
+      "date_human": "Nov 1, 2026",
+      "pub_ts": 1793563200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}
