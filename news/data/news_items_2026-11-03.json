@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-03",
-  "generated_at_utc": "2026-11-03 05:05:11 UTC",
+  "generated_at_utc": "2026-11-03 11:05:12 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-03T05:05:05.587367+00:00",
+    "collected_at": "2026-11-03T11:05:06.203010+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -47,13 +47,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
-        "within_window": 11,
-        "eligible": 3,
+        "within_24h": 10,
+        "within_window": 14,
+        "eligible": 6,
         "rejected": {
           "topic_author_or_category": 7,
           "title_filter": 1,
-          "older_than_window": 9
+          "older_than_window": 6
         }
       },
       {
@@ -97,7 +97,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -180,27 +180,105 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 3
+      "Cryptonews": 6
     },
     "unique_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 3
+      "Cryptonews": 6
     },
     "selected_by_source": {
-      "NewsBTC": 9,
-      "Cryptonews": 3
+      "NewsBTC": 8,
+      "Cryptonews": 4
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "SAT Japan Adds USDT and USDC Payments With Dollar Settlement Through Triple-A",
-      "link": "https://www.newsbtc.com/news/sat-japan-adds-usdt-and-usdc-payments-with-dollar-settlement-through-triple-a/",
-      "summary": "SAT Japan’s Triple-A partnership lets eligible overseas vehicle buyers pay in stablecoins while the exporter receives US dollars.",
+      "title": "ZeroBeta and Lynq Connect Tokenized Treasury Collateral to Lending and Margin",
+      "link": "https://www.newsbtc.com/news/zerobeta-and-lynq-connect-tokenized-treasury-collateral-to-lending-and-margin/",
+      "summary": "ZeroBeta’s integration with Lynq lets institutions pledge tokenized assets while interest continues to accrue, putting collateral control at the centre of the workflow.",
       "source": "NewsBTC",
       "date": "2026-11-03",
       "date_human": "Nov 3, 2026",
-      "pub_ts": 1793671200,
+      "pub_ts": 1793696400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Vitalik Devcon Cosplay Steals the Show as Bitmine Loads Up on More Ethereum",
+      "link": "https://cryptonews.com/news/vitalik-devcon-cosplay-bitmine-buys-ethereum-eth/",
+      "summary": "Vitalik Devcon cosplay steals the spotlight as Bitmine buys more Ethereum. Bullish staking metrics and ETH price predictions.",
+      "source": "Cryptonews",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793695839,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Tria Lets AI Agents Trade Perpetuals With Restricted Keys",
+      "link": "https://www.newsbtc.com/news/tria-lets-ai-agents-trade-perpetuals-with-restricted-keys/",
+      "summary": "Tria’s new agentic trading feature separates withdrawal authority from trading access, while its documentation makes clear that connected trades use real markets.",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793692800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Crypto and Midterm Election: 3 Risks From Trump's $5,000 Stimulus to Iran",
+      "link": "https://cryptonews.com/news/crypto-midterm-election-bitcoin-trump-stimulus-iran/",
+      "summary": "Crypto midterm election, Trump’s $5,000 stimulus, and risks of stalled crypto legislation, CLARITY Act, and Iran tensions.",
+      "source": "Cryptonews",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793694228,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "DMG Says Client Assets Are Secure and Highlights Layered Transaction Controls",
+      "link": "https://www.newsbtc.com/news/dmg-says-client-assets-are-secure-and-highlights-layered-transaction-controls/",
+      "summary": "DMG’s October 31 statement separates its reported asset safety from the wider question of how approval controls limit a compromised device’s authority.",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793689200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Bitcoin Price Crashes as Iran Strike and Crypto Hack Spree Shake Markets",
+      "link": "https://cryptonews.com/news/bitcoin-price-iran-strike-crypto-hacks-selloff/",
+      "summary": "Bitcoin price bleeds as Iran strike fears and a wave of crypto hacks shake markets, raising concerns over confidence and another sell-off.",
+      "source": "Cryptonews",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793689874,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Kraken Adds Native USDG Transfers on Arbitrum One",
+      "link": "https://www.newsbtc.com/news/kraken-adds-native-usdg-transfers-on-arbitrum-one/",
+      "summary": "Kraken added USDG deposits and withdrawals on Arbitrum One on October 29, extending funding access for the stablecoin already traded on the exchange.",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793685600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -220,130 +298,52 @@
       "image_local": null
     },
     {
-      "title": "Ripple and Water.org Expand Stablecoin Work as Aid Payments Move Faster",
-      "link": "https://www.newsbtc.com/news/ripple-and-water-org-expand-stablecoin-work-as-aid-payments-move-faster/",
-      "summary": "Ripple and Water.org are expanding payments, RLUSD and custody work, with the central test being how efficiently funding reaches local lenders.",
+      "title": "Bitcoin Faces a U.S. Jobs Data Week With November 6 Payrolls in Focus",
+      "link": "https://www.newsbtc.com/news/bitcoin-faces-a-u-s-jobs-data-week-with-november-6-payrolls-in-focus/",
+      "summary": "U.S. labor releases on November 3 and 6 will test the rates outlook. For Bitcoin, the details and market reaction matter more than one headline.",
       "source": "NewsBTC",
       "date": "2026-11-03",
       "date_human": "Nov 3, 2026",
-      "pub_ts": 1793667600,
+      "pub_ts": 1793682000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Ethereum Whale Buys $63 Million in ETH: Smart Money Calling a Bottom?",
-      "link": "https://cryptonews.com/news/ethereum-whale-buys-63-million-eth-price-bottom/",
-      "summary": "An Ethereum whale buys $63 million in ETH at $2,286 average. Is smart money accumulating as ETH searches for a market bottom?",
-      "source": "Cryptonews",
-      "date": "2026-11-02",
-      "date_human": "Nov 2, 2026",
-      "pub_ts": 1793613355,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Taurus Adds Stellar Smart-Contract Assets to Institutional Custody and Issuance",
-      "link": "https://www.newsbtc.com/news/taurus-adds-stellar-smart-contract-assets-to-institutional-custody-and-issuance/",
-      "summary": "Taurus says its Stellar integration now supports smart-contract assets, extending the tasks institutions can perform through existing custody controls.",
+      "title": "Circle's November 4 Results Will Put USDC Growth and Reserve Economics in Focus",
+      "link": "https://www.newsbtc.com/news/circle-s-november-4-results-will-put-usdc-growth-and-reserve-economics-in-focus/",
+      "summary": "Circle reports Q3 results on November 4. Average balances, reserve returns and distribution costs will be central to interpreting the numbers.",
       "source": "NewsBTC",
       "date": "2026-11-03",
       "date_human": "Nov 3, 2026",
-      "pub_ts": 1793664000,
+      "pub_ts": 1793678400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Binance Withdrawals Top FTX Levels in November, but Crypto Liquidity Defies Panic",
-      "link": "https://cryptonews.com/news/binance-withdrawals-ftx-november-crypto-liquidity/",
-      "summary": "Binance withdrawals hit FTX levels in November, but $171B in assets, hack coverage and Bitcoin's resilience point to a stronger crypto market.",
-      "source": "Cryptonews",
-      "date": "2026-11-02",
-      "date_human": "Nov 2, 2026",
-      "pub_ts": 1793605438,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Airtm and BVNK Plan Wallet Payments for Merchants in Emerging Markets",
-      "link": "https://www.newsbtc.com/news/airtm-and-bvnk-plan-wallet-payments-for-merchants-in-emerging-markets/",
-      "summary": "Airtm’s planned BVNK integration connects wallet balances to merchant payments, testing whether digital dollars can move beyond storage and transfers.",
+      "title": "Spiko Reports $2.38B in SAFO as Tokenized Cash Funds Reach Business Treasuries",
+      "link": "https://www.newsbtc.com/news/spiko-reports-2-38b-in-safo-as-tokenized-cash-funds-reach-business-treasuries/",
+      "summary": "Spiko’s October update puts SAFO at $2.38 billion. The more useful question is how tokenized shares fit companies’ everyday cash needs.",
       "source": "NewsBTC",
-      "date": "2026-11-02",
-      "date_human": "Nov 2, 2026",
-      "pub_ts": 1793660400,
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793674800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "WalletConnect Adds Stellar Payments as Bermuda Ticketing Rollout Targets 2027",
-      "link": "https://www.newsbtc.com/news/walletconnect-adds-stellar-payments-as-bermuda-ticketing-rollout-targets-2027/",
-      "summary": "WalletConnect Pay now supports Stellar, while its planned Bermuda ticketing integration is expected in the second quarter of 2027.",
+      "title": "SAT Japan Adds USDT and USDC Payments With Dollar Settlement Through Triple-A",
+      "link": "https://www.newsbtc.com/news/sat-japan-adds-usdt-and-usdc-payments-with-dollar-settlement-through-triple-a/",
+      "summary": "SAT Japan’s Triple-A partnership lets eligible overseas vehicle buyers pay in stablecoins while the exporter receives US dollars.",
       "source": "NewsBTC",
-      "date": "2026-11-02",
-      "date_human": "Nov 2, 2026",
-      "pub_ts": 1793656800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Hashdex Adds Jane Street to Crypto Index ETF Authorized Participants",
-      "link": "https://www.newsbtc.com/news/hashdex-adds-jane-street-to-crypto-index-etf-authorized-participants/",
-      "summary": "An October 30 prospectus supplement adds Jane Street Capital to Hashdex’s authorized participants, expanding its listed creation-and-redemption network.",
-      "source": "NewsBTC",
-      "date": "2026-11-02",
-      "date_human": "Nov 2, 2026",
-      "pub_ts": 1793653200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Solmate Discloses 1.26M SOL Custody Positions and Says It Has No Binance Exposure",
-      "link": "https://www.newsbtc.com/news/solmate-discloses-1-26m-sol-custody-positions-and-says-it-has-no-binance-exposure/",
-      "summary": "Solmate says its 1.26 million SOL were held with Kraken, Anchorage Digital or BitGo, offering a dated snapshot of treasury custody.",
-      "source": "NewsBTC",
-      "date": "2026-11-02",
-      "date_human": "Nov 2, 2026",
-      "pub_ts": 1793649600,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Devcon Opens in Mumbai This Week With Ethereum Builders Facing a Delivery Test",
-      "link": "https://www.newsbtc.com/news/devcon-opens-in-mumbai-this-week-with-ethereum-builders-facing-a-delivery-test/",
-      "summary": "Devcon runs November 3–6 in Mumbai. The useful signal will be which research and product ideas become testable work after the event.",
-      "source": "NewsBTC",
-      "date": "2026-11-02",
-      "date_human": "Nov 2, 2026",
-      "pub_ts": 1793646000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Horizen Holders Face November 4 Bridge Cutoff Before L3 Wind-Down",
-      "link": "https://www.newsbtc.com/news/horizen-holders-face-november-4-bridge-cutoff-before-l3-wind-down/",
-      "summary": "Horizen has set a November 4 bridge cutoff. Its recovery plan treats ZEN, ETH and bridged USDC differently as the ecosystem moves to Base.",
-      "source": "NewsBTC",
-      "date": "2026-11-02",
-      "date_human": "Nov 2, 2026",
-      "pub_ts": 1793642400,
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793671200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
