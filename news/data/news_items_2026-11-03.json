@@ -1,0 +1,353 @@
+{
+  "day_iso": "2026-11-03",
+  "generated_at_utc": "2026-11-03 05:05:11 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-11-03T05:05:05.587367+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 10,
+        "rejected": {}
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 39
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 9,
+        "within_window": 11,
+        "eligible": 3,
+        "rejected": {
+          "topic_author_or_category": 7,
+          "title_filter": 1,
+          "older_than_window": 9
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 49,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 49
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 25
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 1,
+          "older_than_window": 14
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 20
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 10,
+      "Cryptonews": 3
+    },
+    "unique_by_source": {
+      "NewsBTC": 10,
+      "Cryptonews": 3
+    },
+    "selected_by_source": {
+      "NewsBTC": 9,
+      "Cryptonews": 3
+    }
+  },
+  "count": 12,
+  "items": [
+    {
+      "title": "SAT Japan Adds USDT and USDC Payments With Dollar Settlement Through Triple-A",
+      "link": "https://www.newsbtc.com/news/sat-japan-adds-usdt-and-usdc-payments-with-dollar-settlement-through-triple-a/",
+      "summary": "SAT Japan’s Triple-A partnership lets eligible overseas vehicle buyers pay in stablecoins while the exporter receives US dollars.",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793671200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Midterm Election Pattern: Will BTC Repeat Its Post-Election Rally?",
+      "link": "https://cryptonews.com/news/bitcoin-midterm-election-post-election-rally/",
+      "summary": "Bitcoin gained 54% after the last three U.S. midterm election. Could the 2026 U.S. midterms spark another post-election rally?",
+      "source": "Cryptonews",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793627040,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ripple and Water.org Expand Stablecoin Work as Aid Payments Move Faster",
+      "link": "https://www.newsbtc.com/news/ripple-and-water-org-expand-stablecoin-work-as-aid-payments-move-faster/",
+      "summary": "Ripple and Water.org are expanding payments, RLUSD and custody work, with the central test being how efficiently funding reaches local lenders.",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793667600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum Whale Buys $63 Million in ETH: Smart Money Calling a Bottom?",
+      "link": "https://cryptonews.com/news/ethereum-whale-buys-63-million-eth-price-bottom/",
+      "summary": "An Ethereum whale buys $63 million in ETH at $2,286 average. Is smart money accumulating as ETH searches for a market bottom?",
+      "source": "Cryptonews",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793613355,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Taurus Adds Stellar Smart-Contract Assets to Institutional Custody and Issuance",
+      "link": "https://www.newsbtc.com/news/taurus-adds-stellar-smart-contract-assets-to-institutional-custody-and-issuance/",
+      "summary": "Taurus says its Stellar integration now supports smart-contract assets, extending the tasks institutions can perform through existing custody controls.",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793664000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Binance Withdrawals Top FTX Levels in November, but Crypto Liquidity Defies Panic",
+      "link": "https://cryptonews.com/news/binance-withdrawals-ftx-november-crypto-liquidity/",
+      "summary": "Binance withdrawals hit FTX levels in November, but $171B in assets, hack coverage and Bitcoin's resilience point to a stronger crypto market.",
+      "source": "Cryptonews",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793605438,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Airtm and BVNK Plan Wallet Payments for Merchants in Emerging Markets",
+      "link": "https://www.newsbtc.com/news/airtm-and-bvnk-plan-wallet-payments-for-merchants-in-emerging-markets/",
+      "summary": "Airtm’s planned BVNK integration connects wallet balances to merchant payments, testing whether digital dollars can move beyond storage and transfers.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793660400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "WalletConnect Adds Stellar Payments as Bermuda Ticketing Rollout Targets 2027",
+      "link": "https://www.newsbtc.com/news/walletconnect-adds-stellar-payments-as-bermuda-ticketing-rollout-targets-2027/",
+      "summary": "WalletConnect Pay now supports Stellar, while its planned Bermuda ticketing integration is expected in the second quarter of 2027.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793656800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Hashdex Adds Jane Street to Crypto Index ETF Authorized Participants",
+      "link": "https://www.newsbtc.com/news/hashdex-adds-jane-street-to-crypto-index-etf-authorized-participants/",
+      "summary": "An October 30 prospectus supplement adds Jane Street Capital to Hashdex’s authorized participants, expanding its listed creation-and-redemption network.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793653200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Solmate Discloses 1.26M SOL Custody Positions and Says It Has No Binance Exposure",
+      "link": "https://www.newsbtc.com/news/solmate-discloses-1-26m-sol-custody-positions-and-says-it-has-no-binance-exposure/",
+      "summary": "Solmate says its 1.26 million SOL were held with Kraken, Anchorage Digital or BitGo, offering a dated snapshot of treasury custody.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793649600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Devcon Opens in Mumbai This Week With Ethereum Builders Facing a Delivery Test",
+      "link": "https://www.newsbtc.com/news/devcon-opens-in-mumbai-this-week-with-ethereum-builders-facing-a-delivery-test/",
+      "summary": "Devcon runs November 3–6 in Mumbai. The useful signal will be which research and product ideas become testable work after the event.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793646000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Horizen Holders Face November 4 Bridge Cutoff Before L3 Wind-Down",
+      "link": "https://www.newsbtc.com/news/horizen-holders-face-november-4-bridge-cutoff-before-l3-wind-down/",
+      "summary": "Horizen has set a November 4 bridge cutoff. Its recovery plan treats ZEN, ETH and bridged USDC differently as the ecosystem moves to Base.",
+      "source": "NewsBTC",
+      "date": "2026-11-02",
+      "date_human": "Nov 2, 2026",
+      "pub_ts": 1793642400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}
