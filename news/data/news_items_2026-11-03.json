@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-03",
-  "generated_at_utc": "2026-11-03 11:05:12 UTC",
+  "generated_at_utc": "2026-11-03 17:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-03T11:05:06.203010+00:00",
+    "collected_at": "2026-11-03T17:05:05.949338+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -34,7 +34,7 @@
         "url": "https://www.nist.gov/news-events/news/rss.xml",
         "status": "ok",
         "entries": 40,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -47,13 +47,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 10,
-        "within_window": 14,
-        "eligible": 6,
+        "within_24h": 9,
+        "within_window": 16,
+        "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 7,
+          "topic_author_or_category": 8,
           "title_filter": 1,
-          "older_than_window": 6
+          "older_than_window": 4
         }
       },
       {
@@ -158,11 +158,11 @@
         "url": "https://www.bls.gov/feed/jolts.rss",
         "status": "ok",
         "entries": 12,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 12
+          "older_than_window": 11
         }
       },
       {
@@ -180,27 +180,69 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 6
+      "U.S. Bureau of Labor Statistics": 1,
+      "Cryptonews": 7
     },
     "unique_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 6
+      "U.S. Bureau of Labor Statistics": 1,
+      "Cryptonews": 7
     },
     "selected_by_source": {
-      "NewsBTC": 8,
+      "NewsBTC": 7,
+      "U.S. Bureau of Labor Statistics": 1,
       "Cryptonews": 4
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "ZeroBeta and Lynq Connect Tokenized Treasury Collateral to Lending and Margin",
-      "link": "https://www.newsbtc.com/news/zerobeta-and-lynq-connect-tokenized-treasury-collateral-to-lending-and-margin/",
-      "summary": "ZeroBeta’s integration with Lynq lets institutions pledge tokenized assets while interest continues to accrue, putting collateral control at the centre of the workflow.",
+      "title": "Onlend Unveils No-Code Infrastructure to Launch Custom Onchain Lending Apps",
+      "link": "https://www.newsbtc.com/news/onlend-unveils-no-code-infrastructure-to-launch-custom-onchain-lending-apps/",
+      "summary": "Built by a team with experience scaling a leading DeFi lending protocol, Onlend aims to make it easier for fintechs, asset managers, curators, and asset issuers to build and operate their own lending products. Onlend has publicly unveiled its decentralised infrastructure platform designed to let anyone create, launch, and operate their own onchain lending applications without building the underlying technology from scratch. The project is entering a market with considerable room for expansion. Global debt surpassed $350 trillion in early 2026, according to the Institute of International Financ",
       "source": "NewsBTC",
       "date": "2026-11-03",
       "date_human": "Nov 3, 2026",
-      "pub_ts": 1793696400,
+      "pub_ts": 1793722093,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "September job openings, hires, and total separations change little; quits increase",
+      "link": "https://www.bls.gov/news.release/archives/jolts_11032026.htm",
+      "summary": "The number of job openings was little changed at 7.5 million in September. Hires and total separations changed little at 5.4 million and 5.3 million, respectively. Quits increased to 3.4 million, while layoffs and discharges changed little at 1.6 million.",
+      "source": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793715635,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Tether Bitcoin Holdings Rival Corporate Treasury Giants",
+      "link": "https://cryptonews.com/news/tether-bitcoin-holdings-corporate-treasuries/",
+      "summary": "Tether Bitcoin holdings are approaching $12 billion as USDT profits fuel the stablecoin giant growing treasury among major corporate holders.",
+      "source": "Cryptonews",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793710858,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ether ETFs Shed $139.7M on November 2, Extending a Difficult Run for Fund Flows",
+      "link": "https://www.newsbtc.com/news/ether-etfs-shed-139-7m-on-november-2-extending-a-difficult-run-for-fund-flows/",
+      "summary": "US spot Ether ETFs saw approximately $139.7 million in net outflows on November 2, Farside Investors’ daily data show.",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793721600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -220,13 +262,13 @@
       "image_local": null
     },
     {
-      "title": "Tria Lets AI Agents Trade Perpetuals With Restricted Keys",
-      "link": "https://www.newsbtc.com/news/tria-lets-ai-agents-trade-perpetuals-with-restricted-keys/",
-      "summary": "Tria’s new agentic trading feature separates withdrawal authority from trading access, while its documentation makes clear that connected trades use real markets.",
+      "title": "Bitcoin ETF Outflows Hit $398.6M on November 2 as BlackRock Leads Redemptions",
+      "link": "https://www.newsbtc.com/news/bitcoin-etf-outflows-hit-398-6m-on-november-2-as-blackrock-leads-redemptions/",
+      "summary": "US-listed spot Bitcoin exchange-traded funds recorded a combined $398.6 million net outflow on November 2, according to Farside Investors’ daily fund table.",
       "source": "NewsBTC",
       "date": "2026-11-03",
       "date_human": "Nov 3, 2026",
-      "pub_ts": 1793692800,
+      "pub_ts": 1793718000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -246,13 +288,13 @@
       "image_local": null
     },
     {
-      "title": "DMG Says Client Assets Are Secure and Highlights Layered Transaction Controls",
-      "link": "https://www.newsbtc.com/news/dmg-says-client-assets-are-secure-and-highlights-layered-transaction-controls/",
-      "summary": "DMG’s October 31 statement separates its reported asset safety from the wider question of how approval controls limit a compromised device’s authority.",
+      "title": "MEXC Upgrades Futures Earn to Empower Retail Traders With a Clearer, More Intuitive Experience",
+      "link": "https://www.newsbtc.com/news/mexc-upgrades-futures-earn-to-empower-retail-traders-with-a-clearer-more-intuitive-experience/",
+      "summary": "Mutsamudu, Comoros, November 3, 2026 – MEXC, a pioneer in 0-fee digital asset trading, announced an upgrade to Futures Earn. This product helps retail traders use their capital more efficiently by allowing eligible futures account balances to earn interest while users continue trading. The upgrade is designed to improve the overall user experience and make the product easier to understand and use. Futures Earn Upgrade Highlights Futures Earn involves several aspects, including interest calculation rules and reward calculation. To help users better understand and navigate Futures Earn throughou",
       "source": "NewsBTC",
       "date": "2026-11-03",
       "date_human": "Nov 3, 2026",
-      "pub_ts": 1793689200,
+      "pub_ts": 1793705632,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -272,78 +314,39 @@
       "image_local": null
     },
     {
-      "title": "Kraken Adds Native USDG Transfers on Arbitrum One",
-      "link": "https://www.newsbtc.com/news/kraken-adds-native-usdg-transfers-on-arbitrum-one/",
-      "summary": "Kraken added USDG deposits and withdrawals on Arbitrum One on October 29, extending funding access for the stablecoin already traded on the exchange.",
+      "title": "ZeroBeta and Lynq Connect Tokenized Treasury Collateral to Lending and Margin",
+      "link": "https://www.newsbtc.com/news/zerobeta-and-lynq-connect-tokenized-treasury-collateral-to-lending-and-margin/",
+      "summary": "ZeroBeta’s integration with Lynq lets institutions pledge tokenized assets while interest continues to accrue, putting collateral control at the centre of the workflow.",
       "source": "NewsBTC",
       "date": "2026-11-03",
       "date_human": "Nov 3, 2026",
-      "pub_ts": 1793685600,
+      "pub_ts": 1793696400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Bitcoin Midterm Election Pattern: Will BTC Repeat Its Post-Election Rally?",
-      "link": "https://cryptonews.com/news/bitcoin-midterm-election-post-election-rally/",
-      "summary": "Bitcoin gained 54% after the last three U.S. midterm election. Could the 2026 U.S. midterms spark another post-election rally?",
-      "source": "Cryptonews",
-      "date": "2026-11-02",
-      "date_human": "Nov 2, 2026",
-      "pub_ts": 1793627040,
+      "title": "Tria Lets AI Agents Trade Perpetuals With Restricted Keys",
+      "link": "https://www.newsbtc.com/news/tria-lets-ai-agents-trade-perpetuals-with-restricted-keys/",
+      "summary": "Tria’s new agentic trading feature separates withdrawal authority from trading access, while its documentation makes clear that connected trades use real markets.",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793692800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Bitcoin Faces a U.S. Jobs Data Week With November 6 Payrolls in Focus",
-      "link": "https://www.newsbtc.com/news/bitcoin-faces-a-u-s-jobs-data-week-with-november-6-payrolls-in-focus/",
-      "summary": "U.S. labor releases on November 3 and 6 will test the rates outlook. For Bitcoin, the details and market reaction matter more than one headline.",
+      "title": "DMG Says Client Assets Are Secure and Highlights Layered Transaction Controls",
+      "link": "https://www.newsbtc.com/news/dmg-says-client-assets-are-secure-and-highlights-layered-transaction-controls/",
+      "summary": "DMG’s October 31 statement separates its reported asset safety from the wider question of how approval controls limit a compromised device’s authority.",
       "source": "NewsBTC",
       "date": "2026-11-03",
       "date_human": "Nov 3, 2026",
-      "pub_ts": 1793682000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Circle's November 4 Results Will Put USDC Growth and Reserve Economics in Focus",
-      "link": "https://www.newsbtc.com/news/circle-s-november-4-results-will-put-usdc-growth-and-reserve-economics-in-focus/",
-      "summary": "Circle reports Q3 results on November 4. Average balances, reserve returns and distribution costs will be central to interpreting the numbers.",
-      "source": "NewsBTC",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793678400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Spiko Reports $2.38B in SAFO as Tokenized Cash Funds Reach Business Treasuries",
-      "link": "https://www.newsbtc.com/news/spiko-reports-2-38b-in-safo-as-tokenized-cash-funds-reach-business-treasuries/",
-      "summary": "Spiko’s October update puts SAFO at $2.38 billion. The more useful question is how tokenized shares fit companies’ everyday cash needs.",
-      "source": "NewsBTC",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793674800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "SAT Japan Adds USDT and USDC Payments With Dollar Settlement Through Triple-A",
-      "link": "https://www.newsbtc.com/news/sat-japan-adds-usdt-and-usdc-payments-with-dollar-settlement-through-triple-a/",
-      "summary": "SAT Japan’s Triple-A partnership lets eligible overseas vehicle buyers pay in stablecoins while the exporter receives US dollars.",
-      "source": "NewsBTC",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793671200,
+      "pub_ts": 1793689200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
