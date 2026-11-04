@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-04",
-  "generated_at_utc": "2026-11-04 05:05:07 UTC",
+  "generated_at_utc": "2026-11-04 11:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-04T05:05:01.649186+00:00",
+    "collected_at": "2026-11-04T11:05:02.060296+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -47,13 +47,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
-        "within_window": 18,
-        "eligible": 7,
+        "within_24h": 11,
+        "within_window": 20,
+        "eligible": 8,
         "rejected": {
-          "topic_author_or_category": 10,
-          "title_filter": 1,
-          "older_than_window": 2
+          "unreviewed_link": 1,
+          "topic_author_or_category": 11
         }
       },
       {
@@ -97,11 +96,11 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
+        "within_24h": 1,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 1,
+          "topic_author_or_category": 1,
           "older_than_window": 14
         }
       },
@@ -180,30 +179,43 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 10,
-      "U.S. Bureau of Labor Statistics": 1,
-      "Cryptonews": 7
+      "Cryptonews": 8,
+      "U.S. Bureau of Labor Statistics": 1
     },
     "unique_by_source": {
       "NewsBTC": 10,
-      "U.S. Bureau of Labor Statistics": 1,
-      "Cryptonews": 7
+      "Cryptonews": 8,
+      "U.S. Bureau of Labor Statistics": 1
     },
     "selected_by_source": {
       "NewsBTC": 7,
-      "U.S. Bureau of Labor Statistics": 1,
-      "Cryptonews": 4
+      "Cryptonews": 4,
+      "U.S. Bureau of Labor Statistics": 1
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Chainalysis Describes Recovery Efforts After Mercado Bitcoin Security Incident",
-      "link": "https://www.newsbtc.com/news/chainalysis-describes-recovery-efforts-after-mercado-bitcoin-security-incident/",
-      "summary": "Chainalysis said on November 2 that it had supported tracing and containment efforts following a security incident involving Mercado Bitcoin.",
+      "title": "MEXC Expands Stock Futures Coverage to Six Global Markets in Q3 as 0808 Stock Season Trading Volume Tops $50B",
+      "link": "https://www.newsbtc.com/news/mexc-expands-stock-futures-coverage-to-six-global-markets-in-q3-as-0808-stock-season-trading-volume-tops-50b/",
+      "summary": "Mutsamudu, Comoros, November 4, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released the “MEXC Ecosystem & Growth Report Q3 2026.” Building on the launch of RealStocks and the expansion of its stock product offering in Q2, MEXC broadened its market coverage and attracted greater user participation in Q3 The number of RealStocks traders in July-August increased by 608% compared with May–June. By the end of September, the platform offered more than 460 Stock, Index, and ETF Futures contracts across six global markets. During the quarter, MEXC expanded the global reach of its Stock",
       "source": "NewsBTC",
       "date": "2026-11-04",
       "date_human": "Nov 4, 2026",
-      "pub_ts": 1793764800,
+      "pub_ts": 1793787379,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Block DOJ Settlement: Jack Dorsey's Company Faces $764M Deal as Bitcoin Profit Plunges 50%",
+      "link": "https://cryptonews.com/news/block-doj-settlement-jack-dorsey-bitcoin-profit/",
+      "summary": "Block DOJ settlement could cost Jack Dorsey company $764 million as Bitcoin gross profit plunges 50% in Q3.",
+      "source": "Cryptonews",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793786974,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -223,6 +235,71 @@
       "image_local": null
     },
     {
+      "title": "Solana Microscope Offers Open-Source Monitoring for Complex On-Chain Operations",
+      "link": "https://www.newsbtc.com/news/solana-microscope-offers-open-source-monitoring-for-complex-on-chain-operations/",
+      "summary": "The Solana Foundation has described Microscope, an open-source monitoring approach for teams managing on-chain programmes and infrastructure.",
+      "source": "NewsBTC",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793779200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Trump Crypto Empire Faces Fresh Heat: Justin Sun Seeks WLFI Sanctions",
+      "link": "https://cryptonews.com/news/trump-crypto-justin-sun-wlfi-sanctions/",
+      "summary": "Trump crypto ventures faces fresh scrutiny after midterm as Justin Sun seeks WLFI sanctions over alleged UAE ownership disclosure failures.",
+      "source": "Cryptonews",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793777148,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "SEC Updates Crypto-Asset FAQs as Firms Seek Clarity on Federal Securities Rules",
+      "link": "https://www.newsbtc.com/news/sec-updates-crypto-asset-faqs-as-firms-seek-clarity-on-federal-securities-rules/",
+      "summary": "The SEC Division of Corporation Finance added questions 1.4, 1.5 and 1.6 to its crypto-assets FAQ on November 2, 2026.",
+      "source": "NewsBTC",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793775600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Bitcoin Price Slides, Washington's Political Balance Shifts, Trump's Crypto Agenda at Risk",
+      "link": "https://cryptonews.com/news/bitcoin-price-washington-political-shift-trump-crypto-agenda/",
+      "summary": "Bitcoin price slides as Democrats take the Senate, shifting Washington's political balance and raising fresh risks for Trump's crypto agenda.",
+      "source": "Cryptonews",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793774616,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "ECB Links Europe's T+1 Securities Transition to a Broader Settlement Overhaul",
+      "link": "https://www.newsbtc.com/news/ecb-links-europes-t-1-securities-transition-to-a-broader-settlement-overhaul/",
+      "summary": "European Central Bank officials have discussed the planned move to T+1 securities settlement in October 2027 alongside longer-term work on tokenized…",
+      "source": "NewsBTC",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793772000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Tether Bitcoin Holdings Rival Corporate Treasury Giants",
       "link": "https://cryptonews.com/news/tether-bitcoin-holdings-corporate-treasuries/",
       "summary": "Tether Bitcoin holdings are approaching $12 billion as USDT profits fuel the stablecoin giant growing treasury among major corporate holders.",
@@ -236,6 +313,32 @@
       "image_local": null
     },
     {
+      "title": "Chainalysis Discloses Separate October 30 Security Incident Involving User Data",
+      "link": "https://www.newsbtc.com/news/chainalysis-discloses-separate-october-30-security-incident-involving-user-data/",
+      "summary": "Chainalysis disclosed a security incident on October 30 affecting a subset of customer-related information, including names, email addresses and certain…",
+      "source": "NewsBTC",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793768400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Chainalysis Describes Recovery Efforts After Mercado Bitcoin Security Incident",
+      "link": "https://www.newsbtc.com/news/chainalysis-describes-recovery-efforts-after-mercado-bitcoin-security-incident/",
+      "summary": "Chainalysis said on November 2 that it had supported tracing and containment efforts following a security incident involving Mercado Bitcoin.",
+      "source": "NewsBTC",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793764800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Coinbase Explains Multi-User Architecture as Crypto Accounts Become More Complex",
       "link": "https://www.newsbtc.com/news/coinbase-explains-multi-user-architecture-as-crypto-accounts-become-more-complex/",
       "summary": "Coinbase published an engineering account of its move toward multi-user infrastructure on October 29, describing how one account or organisation can…",
@@ -243,110 +346,6 @@
       "date": "2026-11-04",
       "date_human": "Nov 4, 2026",
       "pub_ts": 1793761200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Vitalik Devcon Cosplay Steals the Show as Bitmine Loads Up on More Ethereum",
-      "link": "https://cryptonews.com/news/vitalik-devcon-cosplay-bitmine-buys-ethereum-eth/",
-      "summary": "Vitalik Devcon cosplay steals the spotlight as Bitmine buys more Ethereum. Bullish staking metrics and ETH price predictions.",
-      "source": "Cryptonews",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793695839,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Hong Kong Launches Post-Quantum Preparation Toolkit for Banks",
-      "link": "https://www.newsbtc.com/news/hong-kong-launches-post-quantum-preparation-toolkit-for-banks/",
-      "summary": "The Hong Kong Monetary Authority and the Hong Kong University of Science and Technology announced a post-quantum cryptography assessment toolkit on November 2.",
-      "source": "NewsBTC",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793757600,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Crypto and Midterm Election: 3 Risks From Trump's $5,000 Stimulus to Iran",
-      "link": "https://cryptonews.com/news/crypto-midterm-election-bitcoin-trump-stimulus-iran/",
-      "summary": "Crypto midterm election, Trump’s $5,000 stimulus, and risks of stalled crypto legislation, CLARITY Act, and Iran tensions.",
-      "source": "Cryptonews",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793694228,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "NYSE Adds Four Transfer Agents to Planned Tokenized Securities Venue",
-      "link": "https://www.newsbtc.com/news/nyse-adds-four-transfer-agents-to-planned-tokenized-securities-venue/",
-      "summary": "The New York Stock Exchange said on November 2 that Broadridge, Computershare, Equiniti and Superstate had joined the network supporting its proposed…",
-      "source": "NewsBTC",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793754000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Price Crashes as Iran Strike and Crypto Hack Spree Shake Markets",
-      "link": "https://cryptonews.com/news/bitcoin-price-iran-strike-crypto-hacks-selloff/",
-      "summary": "Bitcoin price bleeds as Iran strike fears and a wave of crypto hacks shake markets, raising concerns over confidence and another sell-off.",
-      "source": "Cryptonews",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793689874,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "BTCPay Server 2.4.7 Security Release Adds Urgency for Self-Hosted Merchants",
-      "link": "https://www.newsbtc.com/news/btcpay-server-2-4-7-security-release-adds-urgency-for-self-hosted-merchants/",
-      "summary": "BTCPay Server’s 2.4.7 release published in late October includes security fixes following a broad review of reported issues.",
-      "source": "NewsBTC",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793750400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Aave Freezes New tBTC Supply and Borrowing After Mint-and-Redeem Pause",
-      "link": "https://www.newsbtc.com/news/aave-freezes-new-tbtc-supply-and-borrowing-after-mint-and-redeem-pause/",
-      "summary": "Aave contributors said the protocol had frozen additional tBTC supply and borrowing in its Ethereum Core market after Threshold’s temporary pause of the…",
-      "source": "NewsBTC",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793746800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "BitMine Reports 6.06M ETH Holdings, With More Than 5.22M Staked",
-      "link": "https://www.newsbtc.com/news/bitmine-reports-6-06m-eth-holdings-with-more-than-5-22m-staked/",
-      "summary": "BitMine Immersion Technologies reported holdings of 6,060,506 ETH as of November 1 in a November 2 filing exhibit.",
-      "source": "NewsBTC",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793743200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
