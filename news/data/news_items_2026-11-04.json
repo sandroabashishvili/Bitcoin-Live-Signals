@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-04",
-  "generated_at_utc": "2026-11-04 11:05:08 UTC",
+  "generated_at_utc": "2026-11-04 17:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-04T11:05:02.060296+00:00",
+    "collected_at": "2026-11-04T17:05:02.027017+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -35,11 +35,10 @@
         "status": "ok",
         "entries": 40,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 39
+          "older_than_window": 40
         }
       },
       {
@@ -51,8 +50,8 @@
         "within_window": 20,
         "eligible": 8,
         "rejected": {
-          "unreviewed_link": 1,
-          "topic_author_or_category": 11
+          "topic_author_or_category": 11,
+          "unreviewed_link": 1
         }
       },
       {
@@ -72,11 +71,11 @@
         "url": "https://apps.bea.gov/rss/rss.xml",
         "status": "ok",
         "entries": 49,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 49
+          "older_than_window": 48
         }
       },
       {
@@ -84,11 +83,12 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 25
+          "topic_author_or_category": 1,
+          "older_than_window": 24
         }
       },
       {
@@ -110,10 +110,11 @@
         "status": "ok",
         "entries": 10,
         "within_24h": 0,
-        "within_window": 0,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 10
+          "unreviewed_link": 1,
+          "older_than_window": 9
         }
       },
       {
@@ -157,7 +158,7 @@
         "url": "https://www.bls.gov/feed/jolts.rss",
         "status": "ok",
         "entries": 12,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 1,
         "rejected": {
@@ -179,16 +180,19 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 10,
+      "U.S. Bureau of Economic Analysis": 1,
       "Cryptonews": 8,
       "U.S. Bureau of Labor Statistics": 1
     },
     "unique_by_source": {
       "NewsBTC": 10,
+      "U.S. Bureau of Economic Analysis": 1,
       "Cryptonews": 8,
       "U.S. Bureau of Labor Statistics": 1
     },
     "selected_by_source": {
-      "NewsBTC": 7,
+      "NewsBTC": 6,
+      "U.S. Bureau of Economic Analysis": 1,
       "Cryptonews": 4,
       "U.S. Bureau of Labor Statistics": 1
     }
@@ -196,26 +200,39 @@
   "count": 12,
   "items": [
     {
-      "title": "MEXC Expands Stock Futures Coverage to Six Global Markets in Q3 as 0808 Stock Season Trading Volume Tops $50B",
-      "link": "https://www.newsbtc.com/news/mexc-expands-stock-futures-coverage-to-six-global-markets-in-q3-as-0808-stock-season-trading-volume-tops-50b/",
-      "summary": "Mutsamudu, Comoros, November 4, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released the “MEXC Ecosystem & Growth Report Q3 2026.” Building on the launch of RealStocks and the expansion of its stock product offering in Q2, MEXC broadened its market coverage and attracted greater user participation in Q3 The number of RealStocks traders in July-August increased by 608% compared with May–June. By the end of September, the platform offered more than 460 Stock, Index, and ETF Futures contracts across six global markets. During the quarter, MEXC expanded the global reach of its Stock",
+      "title": "Bitbase Launches ORIGIN, a Points Season That Rewards Consistency",
+      "link": "https://www.newsbtc.com/news/bitbase-launches-origin-a-points-season-that-rewards-consistency/",
+      "summary": "PANAMA CITY, November 4, 2026 — Bitbase today launched ORIGIN, the first season of its Bitbase Points program, which is designed to reward sustained participation over time. Over the 26-week season, which ends on May 4, 2027, Bitbase will distribute 1,000,000 points each week, allocated daily according to each participant’s contribution. Four sources of contribution Each participant’s contribution is drawn from four sources: trading, assets held on Bitbase, consistent activity and referrals. Consistent activity is counted as a separate source, so continued participation from day to day adds to",
       "source": "NewsBTC",
       "date": "2026-11-04",
       "date_human": "Nov 4, 2026",
-      "pub_ts": 1793787379,
+      "pub_ts": 1793803102,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Block DOJ Settlement: Jack Dorsey's Company Faces $764M Deal as Bitcoin Profit Plunges 50%",
-      "link": "https://cryptonews.com/news/block-doj-settlement-jack-dorsey-bitcoin-profit/",
-      "summary": "Block DOJ settlement could cost Jack Dorsey company $764 million as Bitcoin gross profit plunges 50% in Q3.",
+      "title": "U.S. International Trade in Goods and Services, September 2026",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026",
+      "summary": "The U.S. goods and services trade deficit decreased in September 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $105.7 billion in August (revised) to $105.0 billion in September, as exports increased more than imports. The goods deficit decreased $0.7 billion in September to $135.9 billion. The services surplus decreased less than $0.1 billion in September to $30.9 billion.",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793799000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Bounces Back From 6-Week Low Despite $1B ETF Exodus",
+      "link": "https://cryptonews.com/news/bitcoin-bounces-back-six-week-low-etf-outflows/",
+      "summary": "Bitcoin rebounds from a six-week low above $78,000 as Bitcoin ETF outflows exceed $1.15 billion, with institutional selling slowing.",
       "source": "Cryptonews",
       "date": "2026-11-04",
       "date_human": "Nov 4, 2026",
-      "pub_ts": 1793786974,
+      "pub_ts": 1793793288,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -235,13 +252,39 @@
       "image_local": null
     },
     {
-      "title": "Solana Microscope Offers Open-Source Monitoring for Complex On-Chain Operations",
-      "link": "https://www.newsbtc.com/news/solana-microscope-offers-open-source-monitoring-for-complex-on-chain-operations/",
-      "summary": "The Solana Foundation has described Microscope, an open-source monitoring approach for teams managing on-chain programmes and infrastructure.",
+      "title": "Bitbase launches ORIGIN, distributing 1M points every week",
+      "link": "https://www.newsbtc.com/news/bitbase-launches-origin-distributing-1m-points-every-week/",
+      "summary": "Panama City, November 4, 2026 — Bitbase today launched ORIGIN, the first season of its new Bitbase Points program. Ahead of the launch, the digital asset exchange credited points to eligible users who had been trading on the platform, so their past activity counts from day one. The season runs for 26 weeks, until May 4, 2027, with 1,000,000 points distributed each week. Part of Bitbase 2.0 ORIGIN is also the first part of Bitbase 2.0 to reach users directly. Bitbase unveiled 2.0 on November 2, with an upgraded app and website and a new brand identity built around the statement “Market Flows. W",
       "source": "NewsBTC",
       "date": "2026-11-04",
       "date_human": "Nov 4, 2026",
-      "pub_ts": 1793779200,
+      "pub_ts": 1793802955,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Block DOJ Settlement: Jack Dorsey's Company Faces $764M Deal as Bitcoin Profit Plunges 50%",
+      "link": "https://cryptonews.com/news/block-doj-settlement-jack-dorsey-bitcoin-profit/",
+      "summary": "Block DOJ settlement could cost Jack Dorsey company $764 million as Bitcoin gross profit plunges 50% in Q3.",
+      "source": "Cryptonews",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793786974,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "MEXC Expands Stock Futures Coverage to Six Global Markets in Q3 as 0808 Stock Season Trading Volume Tops $50B",
+      "link": "https://www.newsbtc.com/news/mexc-expands-stock-futures-coverage-to-six-global-markets-in-q3-as-0808-stock-season-trading-volume-tops-50b/",
+      "summary": "Mutsamudu, Comoros, November 4, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released the “MEXC Ecosystem & Growth Report Q3 2026.” Building on the launch of RealStocks and the expansion of its stock product offering in Q2, MEXC broadened its market coverage and attracted greater user participation in Q3 The number of RealStocks traders in July-August increased by 608% compared with May–June. By the end of September, the platform offered more than 460 Stock, Index, and ETF Futures contracts across six global markets. During the quarter, MEXC expanded the global reach of its Stock",
+      "source": "NewsBTC",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793787379,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -261,13 +304,13 @@
       "image_local": null
     },
     {
-      "title": "SEC Updates Crypto-Asset FAQs as Firms Seek Clarity on Federal Securities Rules",
-      "link": "https://www.newsbtc.com/news/sec-updates-crypto-asset-faqs-as-firms-seek-clarity-on-federal-securities-rules/",
-      "summary": "The SEC Division of Corporation Finance added questions 1.4, 1.5 and 1.6 to its crypto-assets FAQ on November 2, 2026.",
+      "title": "Solana Microscope Offers Open-Source Monitoring for Complex On-Chain Operations",
+      "link": "https://www.newsbtc.com/news/solana-microscope-offers-open-source-monitoring-for-complex-on-chain-operations/",
+      "summary": "The Solana Foundation has described Microscope, an open-source monitoring approach for teams managing on-chain programmes and infrastructure.",
       "source": "NewsBTC",
       "date": "2026-11-04",
       "date_human": "Nov 4, 2026",
-      "pub_ts": 1793775600,
+      "pub_ts": 1793779200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -287,6 +330,19 @@
       "image_local": null
     },
     {
+      "title": "SEC Updates Crypto-Asset FAQs as Firms Seek Clarity on Federal Securities Rules",
+      "link": "https://www.newsbtc.com/news/sec-updates-crypto-asset-faqs-as-firms-seek-clarity-on-federal-securities-rules/",
+      "summary": "The SEC Division of Corporation Finance added questions 1.4, 1.5 and 1.6 to its crypto-assets FAQ on November 2, 2026.",
+      "source": "NewsBTC",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793775600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "ECB Links Europe's T+1 Securities Transition to a Broader Settlement Overhaul",
       "link": "https://www.newsbtc.com/news/ecb-links-europes-t-1-securities-transition-to-a-broader-settlement-overhaul/",
       "summary": "European Central Bank officials have discussed the planned move to T+1 securities settlement in October 2027 alongside longer-term work on tokenized…",
@@ -294,58 +350,6 @@
       "date": "2026-11-04",
       "date_human": "Nov 4, 2026",
       "pub_ts": 1793772000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Tether Bitcoin Holdings Rival Corporate Treasury Giants",
-      "link": "https://cryptonews.com/news/tether-bitcoin-holdings-corporate-treasuries/",
-      "summary": "Tether Bitcoin holdings are approaching $12 billion as USDT profits fuel the stablecoin giant growing treasury among major corporate holders.",
-      "source": "Cryptonews",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793710858,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Chainalysis Discloses Separate October 30 Security Incident Involving User Data",
-      "link": "https://www.newsbtc.com/news/chainalysis-discloses-separate-october-30-security-incident-involving-user-data/",
-      "summary": "Chainalysis disclosed a security incident on October 30 affecting a subset of customer-related information, including names, email addresses and certain…",
-      "source": "NewsBTC",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793768400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Chainalysis Describes Recovery Efforts After Mercado Bitcoin Security Incident",
-      "link": "https://www.newsbtc.com/news/chainalysis-describes-recovery-efforts-after-mercado-bitcoin-security-incident/",
-      "summary": "Chainalysis said on November 2 that it had supported tracing and containment efforts following a security incident involving Mercado Bitcoin.",
-      "source": "NewsBTC",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793764800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Coinbase Explains Multi-User Architecture as Crypto Accounts Become More Complex",
-      "link": "https://www.newsbtc.com/news/coinbase-explains-multi-user-architecture-as-crypto-accounts-become-more-complex/",
-      "summary": "Coinbase published an engineering account of its move toward multi-user infrastructure on October 29, describing how one account or organisation can…",
-      "source": "NewsBTC",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793761200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
