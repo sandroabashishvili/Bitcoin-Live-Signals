@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-03",
-  "generated_at_utc": "2026-11-03 17:05:11 UTC",
+  "generated_at_utc": "2026-11-03 23:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-03T17:05:05.949338+00:00",
+    "collected_at": "2026-11-03T23:05:06.855480+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -45,16 +45,12 @@
       {
         "source": "Cryptonews",
         "url": "https://cryptonews.com/feed/",
-        "status": "ok",
-        "entries": 20,
-        "within_24h": 9,
-        "within_window": 16,
-        "eligible": 7,
-        "rejected": {
-          "topic_author_or_category": 8,
-          "title_filter": 1,
-          "older_than_window": 4
-        }
+        "status": "failed",
+        "entries": 0,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {}
       },
       {
         "source": "U.S. Bureau of Labor Statistics",
@@ -180,30 +176,27 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 10,
-      "U.S. Bureau of Labor Statistics": 1,
-      "Cryptonews": 7
+      "U.S. Bureau of Labor Statistics": 1
     },
     "unique_by_source": {
       "NewsBTC": 10,
-      "U.S. Bureau of Labor Statistics": 1,
-      "Cryptonews": 7
+      "U.S. Bureau of Labor Statistics": 1
     },
     "selected_by_source": {
-      "NewsBTC": 7,
-      "U.S. Bureau of Labor Statistics": 1,
-      "Cryptonews": 4
+      "NewsBTC": 10,
+      "U.S. Bureau of Labor Statistics": 1
     }
   },
-  "count": 12,
+  "count": 11,
   "items": [
     {
-      "title": "Onlend Unveils No-Code Infrastructure to Launch Custom Onchain Lending Apps",
-      "link": "https://www.newsbtc.com/news/onlend-unveils-no-code-infrastructure-to-launch-custom-onchain-lending-apps/",
-      "summary": "Built by a team with experience scaling a leading DeFi lending protocol, Onlend aims to make it easier for fintechs, asset managers, curators, and asset issuers to build and operate their own lending products. Onlend has publicly unveiled its decentralised infrastructure platform designed to let anyone create, launch, and operate their own onchain lending applications without building the underlying technology from scratch. The project is entering a market with considerable room for expansion. Global debt surpassed $350 trillion in early 2026, according to the Institute of International Financ",
+      "title": "Aave Freezes New tBTC Supply and Borrowing After Mint-and-Redeem Pause",
+      "link": "https://www.newsbtc.com/news/aave-freezes-new-tbtc-supply-and-borrowing-after-mint-and-redeem-pause/",
+      "summary": "Aave contributors said the protocol had frozen additional tBTC supply and borrowing in its Ethereum Core market after Threshold’s temporary pause of the…",
       "source": "NewsBTC",
       "date": "2026-11-03",
       "date_human": "Nov 3, 2026",
-      "pub_ts": 1793722093,
+      "pub_ts": 1793746800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -223,13 +216,91 @@
       "image_local": null
     },
     {
-      "title": "Tether Bitcoin Holdings Rival Corporate Treasury Giants",
-      "link": "https://cryptonews.com/news/tether-bitcoin-holdings-corporate-treasuries/",
-      "summary": "Tether Bitcoin holdings are approaching $12 billion as USDT profits fuel the stablecoin giant growing treasury among major corporate holders.",
-      "source": "Cryptonews",
+      "title": "BitMine Reports 6.06M ETH Holdings, With More Than 5.22M Staked",
+      "link": "https://www.newsbtc.com/news/bitmine-reports-6-06m-eth-holdings-with-more-than-5-22m-staked/",
+      "summary": "BitMine Immersion Technologies reported holdings of 6,060,506 ETH as of November 1 in a November 2 filing exhibit.",
+      "source": "NewsBTC",
       "date": "2026-11-03",
       "date_human": "Nov 3, 2026",
-      "pub_ts": 1793710858,
+      "pub_ts": 1793743200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Strategy Adds 811 Bitcoin and Repurchases $208.2M of STRC Shares",
+      "link": "https://www.newsbtc.com/news/strategy-adds-811-bitcoin-and-repurchases-208-2m-of-strc-shares/",
+      "summary": "Strategy announced on November 2 that it had acquired another 811 Bitcoin for roughly $65.5 million and repurchased approximately $208.2 million of its…",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793739600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Tether Says It Froze More Than $1.5B Linked to the Binance Theft",
+      "link": "https://www.newsbtc.com/news/tether-says-it-froze-more-than-1-5b-linked-to-the-binance-theft/",
+      "summary": "Tether said on November 2 that it froze more than $1.5 billion in USDT linked to the late-October Binance attack, working with investigators and…",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793736000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "FBI Attributes Binance Heist to TraderTraitor and Urges Crypto Infrastructure Vigilance",
+      "link": "https://www.newsbtc.com/news/fbi-attributes-binance-heist-to-tradertraitor-and-urges-crypto-infrastructure-vigilance/",
+      "summary": "The FBI said on October 31 that North Korean actors associated with the TraderTraitor operation were responsible for the theft of more than $6 billion…",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793732400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Binance Publishes New Proof-of-Reserves Snapshot Following October Attack",
+      "link": "https://www.newsbtc.com/news/binance-publishes-new-proof-of-reserves-snapshot-following-october-attack/",
+      "summary": "Binance said on November 2 that it had completed a zero-knowledge proof-of-reserves procedure for a snapshot taken October 31, following the exchange’s…",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793728800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Binance Adds More Withdrawal Routes on November 3 After Security Checks",
+      "link": "https://www.newsbtc.com/news/binance-adds-more-withdrawal-routes-on-november-3-after-security-checks/",
+      "summary": "Binance’s November 3 security-recovery notice set out a wider withdrawal restart for additional tokens and networks beginning around 04:00 UTC.",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793725200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Onlend Unveils No-Code Infrastructure to Launch Custom Onchain Lending Apps",
+      "link": "https://www.newsbtc.com/news/onlend-unveils-no-code-infrastructure-to-launch-custom-onchain-lending-apps/",
+      "summary": "Built by a team with experience scaling a leading DeFi lending protocol, Onlend aims to make it easier for fintechs, asset managers, curators, and asset issuers to build and operate their own lending products. Onlend has publicly unveiled its decentralised infrastructure platform designed to let anyone create, launch, and operate their own onchain lending applications without building the underlying technology from scratch. The project is entering a market with considerable room for expansion. Global debt surpassed $350 trillion in early 2026, according to the Institute of International Financ",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793722093,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -249,19 +320,6 @@
       "image_local": null
     },
     {
-      "title": "Vitalik Devcon Cosplay Steals the Show as Bitmine Loads Up on More Ethereum",
-      "link": "https://cryptonews.com/news/vitalik-devcon-cosplay-bitmine-buys-ethereum-eth/",
-      "summary": "Vitalik Devcon cosplay steals the spotlight as Bitmine buys more Ethereum. Bullish staking metrics and ETH price predictions.",
-      "source": "Cryptonews",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793695839,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Bitcoin ETF Outflows Hit $398.6M on November 2 as BlackRock Leads Redemptions",
       "link": "https://www.newsbtc.com/news/bitcoin-etf-outflows-hit-398-6m-on-november-2-as-blackrock-leads-redemptions/",
       "summary": "US-listed spot Bitcoin exchange-traded funds recorded a combined $398.6 million net outflow on November 2, according to Farside Investors’ daily fund table.",
@@ -269,84 +327,6 @@
       "date": "2026-11-03",
       "date_human": "Nov 3, 2026",
       "pub_ts": 1793718000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Crypto and Midterm Election: 3 Risks From Trump's $5,000 Stimulus to Iran",
-      "link": "https://cryptonews.com/news/crypto-midterm-election-bitcoin-trump-stimulus-iran/",
-      "summary": "Crypto midterm election, Trump’s $5,000 stimulus, and risks of stalled crypto legislation, CLARITY Act, and Iran tensions.",
-      "source": "Cryptonews",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793694228,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "MEXC Upgrades Futures Earn to Empower Retail Traders With a Clearer, More Intuitive Experience",
-      "link": "https://www.newsbtc.com/news/mexc-upgrades-futures-earn-to-empower-retail-traders-with-a-clearer-more-intuitive-experience/",
-      "summary": "Mutsamudu, Comoros, November 3, 2026 – MEXC, a pioneer in 0-fee digital asset trading, announced an upgrade to Futures Earn. This product helps retail traders use their capital more efficiently by allowing eligible futures account balances to earn interest while users continue trading. The upgrade is designed to improve the overall user experience and make the product easier to understand and use. Futures Earn Upgrade Highlights Futures Earn involves several aspects, including interest calculation rules and reward calculation. To help users better understand and navigate Futures Earn throughou",
-      "source": "NewsBTC",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793705632,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "LIVE – Bitcoin Price Crashes as Iran Strike and Crypto Hack Spree Shake Markets",
-      "link": "https://cryptonews.com/news/bitcoin-price-iran-strike-crypto-hacks-selloff/",
-      "summary": "Bitcoin price bleeds as Iran strike fears and a wave of crypto hacks shake markets, raising concerns over confidence and another sell-off.",
-      "source": "Cryptonews",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793689874,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "ZeroBeta and Lynq Connect Tokenized Treasury Collateral to Lending and Margin",
-      "link": "https://www.newsbtc.com/news/zerobeta-and-lynq-connect-tokenized-treasury-collateral-to-lending-and-margin/",
-      "summary": "ZeroBeta’s integration with Lynq lets institutions pledge tokenized assets while interest continues to accrue, putting collateral control at the centre of the workflow.",
-      "source": "NewsBTC",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793696400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Tria Lets AI Agents Trade Perpetuals With Restricted Keys",
-      "link": "https://www.newsbtc.com/news/tria-lets-ai-agents-trade-perpetuals-with-restricted-keys/",
-      "summary": "Tria’s new agentic trading feature separates withdrawal authority from trading access, while its documentation makes clear that connected trades use real markets.",
-      "source": "NewsBTC",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793692800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "DMG Says Client Assets Are Secure and Highlights Layered Transaction Controls",
-      "link": "https://www.newsbtc.com/news/dmg-says-client-assets-are-secure-and-highlights-layered-transaction-controls/",
-      "summary": "DMG’s October 31 statement separates its reported asset safety from the wider question of how approval controls limit a compromised device’s authority.",
-      "source": "NewsBTC",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793689200,
       "image_candidates": [],
       "license_url": null,
       "image": null,

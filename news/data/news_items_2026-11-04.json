@@ -1,0 +1,356 @@
+{
+  "day_iso": "2026-11-04",
+  "generated_at_utc": "2026-11-04 05:05:07 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-11-04T05:05:01.649186+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 10,
+        "rejected": {}
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 39
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 9,
+        "within_window": 18,
+        "eligible": 7,
+        "rejected": {
+          "topic_author_or_category": 10,
+          "title_filter": 1,
+          "older_than_window": 2
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 49,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 49
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 25
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 1,
+          "older_than_window": 14
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 11
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 20
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 10,
+      "U.S. Bureau of Labor Statistics": 1,
+      "Cryptonews": 7
+    },
+    "unique_by_source": {
+      "NewsBTC": 10,
+      "U.S. Bureau of Labor Statistics": 1,
+      "Cryptonews": 7
+    },
+    "selected_by_source": {
+      "NewsBTC": 7,
+      "U.S. Bureau of Labor Statistics": 1,
+      "Cryptonews": 4
+    }
+  },
+  "count": 12,
+  "items": [
+    {
+      "title": "Chainalysis Describes Recovery Efforts After Mercado Bitcoin Security Incident",
+      "link": "https://www.newsbtc.com/news/chainalysis-describes-recovery-efforts-after-mercado-bitcoin-security-incident/",
+      "summary": "Chainalysis said on November 2 that it had supported tracing and containment efforts following a security incident involving Mercado Bitcoin.",
+      "source": "NewsBTC",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793764800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "September job openings, hires, and total separations change little; quits increase",
+      "link": "https://www.bls.gov/news.release/archives/jolts_11032026.htm",
+      "summary": "The number of job openings was little changed at 7.5 million in September. Hires and total separations changed little at 5.4 million and 5.3 million, respectively. Quits increased to 3.4 million, while layoffs and discharges changed little at 1.6 million.",
+      "source": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793715635,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Tether Bitcoin Holdings Rival Corporate Treasury Giants",
+      "link": "https://cryptonews.com/news/tether-bitcoin-holdings-corporate-treasuries/",
+      "summary": "Tether Bitcoin holdings are approaching $12 billion as USDT profits fuel the stablecoin giant growing treasury among major corporate holders.",
+      "source": "Cryptonews",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793710858,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Coinbase Explains Multi-User Architecture as Crypto Accounts Become More Complex",
+      "link": "https://www.newsbtc.com/news/coinbase-explains-multi-user-architecture-as-crypto-accounts-become-more-complex/",
+      "summary": "Coinbase published an engineering account of its move toward multi-user infrastructure on October 29, describing how one account or organisation can…",
+      "source": "NewsBTC",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793761200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Vitalik Devcon Cosplay Steals the Show as Bitmine Loads Up on More Ethereum",
+      "link": "https://cryptonews.com/news/vitalik-devcon-cosplay-bitmine-buys-ethereum-eth/",
+      "summary": "Vitalik Devcon cosplay steals the spotlight as Bitmine buys more Ethereum. Bullish staking metrics and ETH price predictions.",
+      "source": "Cryptonews",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793695839,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Hong Kong Launches Post-Quantum Preparation Toolkit for Banks",
+      "link": "https://www.newsbtc.com/news/hong-kong-launches-post-quantum-preparation-toolkit-for-banks/",
+      "summary": "The Hong Kong Monetary Authority and the Hong Kong University of Science and Technology announced a post-quantum cryptography assessment toolkit on November 2.",
+      "source": "NewsBTC",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793757600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Crypto and Midterm Election: 3 Risks From Trump's $5,000 Stimulus to Iran",
+      "link": "https://cryptonews.com/news/crypto-midterm-election-bitcoin-trump-stimulus-iran/",
+      "summary": "Crypto midterm election, Trump’s $5,000 stimulus, and risks of stalled crypto legislation, CLARITY Act, and Iran tensions.",
+      "source": "Cryptonews",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793694228,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "NYSE Adds Four Transfer Agents to Planned Tokenized Securities Venue",
+      "link": "https://www.newsbtc.com/news/nyse-adds-four-transfer-agents-to-planned-tokenized-securities-venue/",
+      "summary": "The New York Stock Exchange said on November 2 that Broadridge, Computershare, Equiniti and Superstate had joined the network supporting its proposed…",
+      "source": "NewsBTC",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793754000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Crashes as Iran Strike and Crypto Hack Spree Shake Markets",
+      "link": "https://cryptonews.com/news/bitcoin-price-iran-strike-crypto-hacks-selloff/",
+      "summary": "Bitcoin price bleeds as Iran strike fears and a wave of crypto hacks shake markets, raising concerns over confidence and another sell-off.",
+      "source": "Cryptonews",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793689874,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "BTCPay Server 2.4.7 Security Release Adds Urgency for Self-Hosted Merchants",
+      "link": "https://www.newsbtc.com/news/btcpay-server-2-4-7-security-release-adds-urgency-for-self-hosted-merchants/",
+      "summary": "BTCPay Server’s 2.4.7 release published in late October includes security fixes following a broad review of reported issues.",
+      "source": "NewsBTC",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793750400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Aave Freezes New tBTC Supply and Borrowing After Mint-and-Redeem Pause",
+      "link": "https://www.newsbtc.com/news/aave-freezes-new-tbtc-supply-and-borrowing-after-mint-and-redeem-pause/",
+      "summary": "Aave contributors said the protocol had frozen additional tBTC supply and borrowing in its Ethereum Core market after Threshold’s temporary pause of the…",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793746800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "BitMine Reports 6.06M ETH Holdings, With More Than 5.22M Staked",
+      "link": "https://www.newsbtc.com/news/bitmine-reports-6-06m-eth-holdings-with-more-than-5-22m-staked/",
+      "summary": "BitMine Immersion Technologies reported holdings of 6,060,506 ETH as of November 1 in a November 2 filing exhibit.",
+      "source": "NewsBTC",
+      "date": "2026-11-03",
+      "date_human": "Nov 3, 2026",
+      "pub_ts": 1793743200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}
