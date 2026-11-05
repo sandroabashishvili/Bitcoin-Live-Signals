@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-05",
-  "generated_at_utc": "2026-11-05 05:05:09 UTC",
+  "generated_at_utc": "2026-11-05 11:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-05T05:05:02.566814+00:00",
+    "collected_at": "2026-11-05T11:05:02.889185+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 6,
+        "within_24h": 2,
         "within_window": 10,
         "eligible": 10,
         "rejected": {}
@@ -46,11 +46,11 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 12,
+        "within_24h": 11,
         "within_window": 20,
-        "eligible": 7,
+        "eligible": 6,
         "rejected": {
-          "topic_author_or_category": 12,
+          "topic_author_or_category": 13,
           "unreviewed_link": 1
         }
       },
@@ -96,12 +96,13 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 1,
+        "within_24h": 2,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
+          "unreviewed_link": 2,
           "topic_author_or_category": 1,
-          "older_than_window": 14
+          "older_than_window": 12
         }
       },
       {
@@ -178,26 +179,39 @@
       }
     ],
     "eligible_by_source": {
+      "Cryptonews": 6,
       "NewsBTC": 10,
       "U.S. Bureau of Economic Analysis": 1,
-      "Cryptonews": 7,
       "U.S. Bureau of Labor Statistics": 1
     },
     "unique_by_source": {
+      "Cryptonews": 6,
       "NewsBTC": 10,
       "U.S. Bureau of Economic Analysis": 1,
-      "Cryptonews": 7,
       "U.S. Bureau of Labor Statistics": 1
     },
     "selected_by_source": {
-      "NewsBTC": 6,
+      "Cryptonews": 5,
+      "NewsBTC": 5,
       "U.S. Bureau of Economic Analysis": 1,
-      "Cryptonews": 4,
       "U.S. Bureau of Labor Statistics": 1
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "CZ Pardon Faces New Democrats Scrutiny A Week After $6.3B Binance Hack",
+      "link": "https://cryptonews.com/news/cz-pardon-democrats-binance-hack/",
+      "summary": "Democrats revisit CZ pardon after Binance experienced a major hack, putting the founder’s influence and exchange security under scrutiny.",
+      "source": "Cryptonews",
+      "date": "2026-11-05",
+      "date_human": "Nov 5, 2026",
+      "pub_ts": 1793872620,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Bitbase Launches ORIGIN, a Points Season That Rewards Consistency",
       "link": "https://www.newsbtc.com/news/bitbase-launches-origin-a-points-season-that-rewards-consistency/",
@@ -225,19 +239,6 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin Bounces Back From 6-Week Low Despite $1B ETF Exodus",
-      "link": "https://cryptonews.com/news/bitcoin-bounces-back-six-week-low-etf-outflows/",
-      "summary": "Bitcoin rebounds from a six-week low above $78,000 as Bitcoin ETF outflows exceed $1.15 billion, with institutional selling slowing.",
-      "source": "Cryptonews",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793793288,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "September job openings, hires, and total separations change little; quits increase",
       "link": "https://www.bls.gov/news.release/archives/jolts_11032026.htm",
       "summary": "The number of job openings was little changed at 7.5 million in September. Hires and total separations changed little at 5.4 million and 5.3 million, respectively. Quits increased to 3.4 million, while layoffs and discharges changed little at 1.6 million.",
@@ -245,6 +246,19 @@
       "date": "2026-11-03",
       "date_human": "Nov 3, 2026",
       "pub_ts": 1793715635,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Live – Is Trump Media Selling Bitcoin? Democrats Prepare Crypto Probe",
+      "link": "https://cryptonews.com/news/trump-media-bitcoin-transfer-democrats-crypto-probe/",
+      "summary": "Trump Media selling its Bitcoin? The Trump linked compant moved $343 million in Bitcoin to Crypto.com as Democrats prepare investigations.",
+      "source": "Cryptonews",
+      "date": "2026-11-05",
+      "date_human": "Nov 5, 2026",
+      "pub_ts": 1793865628,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -264,13 +278,13 @@
       "image_local": null
     },
     {
-      "title": "Block DOJ Settlement: Jack Dorsey's Company Faces $764M Deal as Bitcoin Profit Plunges 50%",
-      "link": "https://cryptonews.com/news/block-doj-settlement-jack-dorsey-bitcoin-profit/",
-      "summary": "Block DOJ settlement could cost Jack Dorsey company $764 million as Bitcoin gross profit plunges 50% in Q3.",
+      "title": "Bitcoin Bounces Back From 6-Week Low Despite $1B ETF Exodus",
+      "link": "https://cryptonews.com/news/bitcoin-bounces-back-six-week-low-etf-outflows/",
+      "summary": "Bitcoin rebounds from a six-week low above $78,000 as Bitcoin ETF outflows exceed $1.15 billion, with institutional selling slowing.",
       "source": "Cryptonews",
       "date": "2026-11-04",
       "date_human": "Nov 4, 2026",
-      "pub_ts": 1793786974,
+      "pub_ts": 1793793288,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -290,13 +304,13 @@
       "image_local": null
     },
     {
-      "title": "Trump Crypto Empire Faces Fresh Heat: Justin Sun Seeks WLFI Sanctions",
-      "link": "https://cryptonews.com/news/trump-crypto-justin-sun-wlfi-sanctions/",
-      "summary": "Trump crypto ventures faces fresh scrutiny after midterm as Justin Sun seeks WLFI sanctions over alleged UAE ownership disclosure failures.",
+      "title": "Block DOJ Settlement: Jack Dorsey's Company Faces $764M Deal as Bitcoin Profit Plunges 50%",
+      "link": "https://cryptonews.com/news/block-doj-settlement-jack-dorsey-bitcoin-profit/",
+      "summary": "Block DOJ settlement could cost Jack Dorsey company $764 million as Bitcoin gross profit plunges 50% in Q3.",
       "source": "Cryptonews",
       "date": "2026-11-04",
       "date_human": "Nov 4, 2026",
-      "pub_ts": 1793777148,
+      "pub_ts": 1793786974,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -316,13 +330,13 @@
       "image_local": null
     },
     {
-      "title": "LIVE – Bitcoin Price Slides, Washington's Political Balance Shifts, Trump's Crypto Agenda at Risk",
-      "link": "https://cryptonews.com/news/bitcoin-price-washington-political-shift-trump-crypto-agenda/",
-      "summary": "Bitcoin price slides as Democrats take the Senate, shifting Washington's political balance and raising fresh risks for Trump's crypto agenda.",
+      "title": "Trump Crypto Empire Faces Fresh Heat: Justin Sun Seeks WLFI Sanctions",
+      "link": "https://cryptonews.com/news/trump-crypto-justin-sun-wlfi-sanctions/",
+      "summary": "Trump crypto ventures faces fresh scrutiny after midterm as Justin Sun seeks WLFI sanctions over alleged UAE ownership disclosure failures.",
       "source": "Cryptonews",
       "date": "2026-11-04",
       "date_human": "Nov 4, 2026",
-      "pub_ts": 1793774616,
+      "pub_ts": 1793777148,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -336,19 +350,6 @@
       "date": "2026-11-04",
       "date_human": "Nov 4, 2026",
       "pub_ts": 1793775600,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "ECB Links Europe's T+1 Securities Transition to a Broader Settlement Overhaul",
-      "link": "https://www.newsbtc.com/news/ecb-links-europes-t-1-securities-transition-to-a-broader-settlement-overhaul/",
-      "summary": "European Central Bank officials have discussed the planned move to T+1 securities settlement in October 2027 alongside longer-term work on tokenized…",
-      "source": "NewsBTC",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793772000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
