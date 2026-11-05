@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-05",
-  "generated_at_utc": "2026-11-05 11:05:10 UTC",
+  "generated_at_utc": "2026-11-05 17:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-05T11:05:02.889185+00:00",
+    "collected_at": "2026-11-05T17:05:04.315838+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 2,
+        "within_24h": 1,
         "within_window": 10,
         "eligible": 10,
         "rejected": {}
@@ -48,9 +48,10 @@
         "entries": 20,
         "within_24h": 11,
         "within_window": 20,
-        "eligible": 6,
+        "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 13,
+          "title_filter": 1,
+          "topic_author_or_category": 11,
           "unreviewed_link": 1
         }
       },
@@ -71,7 +72,7 @@
         "url": "https://apps.bea.gov/rss/rss.xml",
         "status": "ok",
         "entries": 49,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 1,
         "rejected": {
@@ -83,7 +84,7 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -159,10 +160,10 @@
         "status": "ok",
         "entries": 12,
         "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 11
+          "older_than_window": 12
         }
       },
       {
@@ -170,35 +171,72 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 20
+          "topic_author_or_category": 1,
+          "older_than_window": 19
         }
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 6,
+      "Cryptonews": 7,
       "NewsBTC": 10,
-      "U.S. Bureau of Economic Analysis": 1,
-      "U.S. Bureau of Labor Statistics": 1
+      "U.S. Bureau of Economic Analysis": 1
     },
     "unique_by_source": {
-      "Cryptonews": 6,
+      "Cryptonews": 7,
       "NewsBTC": 10,
-      "U.S. Bureau of Economic Analysis": 1,
-      "U.S. Bureau of Labor Statistics": 1
+      "U.S. Bureau of Economic Analysis": 1
     },
     "selected_by_source": {
-      "Cryptonews": 5,
+      "Cryptonews": 6,
       "NewsBTC": 5,
-      "U.S. Bureau of Economic Analysis": 1,
-      "U.S. Bureau of Labor Statistics": 1
+      "U.S. Bureau of Economic Analysis": 1
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "Bitcoin ETF Attracts $75M as Goldman Sachs Calls December Fed Rate Cut",
+      "link": "https://cryptonews.com/news/bitcoin-etf-attracts-75m-as-goldman-sachs-calls-december-fed-rate-cut/",
+      "summary": "Bitcoin ETF funds attracted $74.6 million as Goldman Sachs delayed expected Fed rate cuts to December 2026 and March 2027.",
+      "source": "Cryptonews",
+      "date": "2026-11-05",
+      "date_human": "Nov 5, 2026",
+      "pub_ts": 1793884602,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "HTX Earn Winter Campaign: Enjoy APY Boosts on 7 Assets, With a Quota Limit of Up to $14 Million per User",
+      "link": "https://www.newsbtc.com/news/htx-earn-winter-campaign-enjoy-apy-boosts-on-7-assets-with-a-quota-limit-of-up-to-14-million-per-user/",
+      "summary": "Since the start of Q4, crypto markets have remained volatile and continued to weaken, with major assets retreating from their highs and market participants becoming more cautious. Against this backdrop, HTX Earn recently launched an APY Boost Promotion as part of the HTX Winter Campaign. The promotion offers APY boosts on 7-day Fixed products available on HTX Earn for seven assets, with APYs of up to 10%. It aims to provide users with a relatively stable way to earn returns amid a market downturn. Event details: https://www.htx.net.ht/en-us/support/85047689167878/ APY Boosts Available on Both ",
+      "source": "NewsBTC",
+      "date": "2026-11-05",
+      "date_human": "Nov 5, 2026",
+      "pub_ts": 1793878841,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "U.S. International Trade in Goods and Services, September 2026",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026",
+      "summary": "The U.S. goods and services trade deficit decreased in September 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $105.7 billion in August (revised) to $105.0 billion in September, as exports increased more than imports. The goods deficit decreased $0.7 billion in September to $135.9 billion. The services surplus decreased less than $0.1 billion in September to $30.9 billion.",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793799000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "CZ Pardon Faces New Democrats Scrutiny A Week After $6.3B Binance Hack",
       "link": "https://cryptonews.com/news/cz-pardon-democrats-binance-hack/",
@@ -220,32 +258,6 @@
       "date": "2026-11-04",
       "date_human": "Nov 4, 2026",
       "pub_ts": 1793803102,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "U.S. International Trade in Goods and Services, September 2026",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026",
-      "summary": "The U.S. goods and services trade deficit decreased in September 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $105.7 billion in August (revised) to $105.0 billion in September, as exports increased more than imports. The goods deficit decreased $0.7 billion in September to $135.9 billion. The services surplus decreased less than $0.1 billion in September to $30.9 billion.",
-      "source": "U.S. Bureau of Economic Analysis",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793799000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "September job openings, hires, and total separations change little; quits increase",
-      "link": "https://www.bls.gov/news.release/archives/jolts_11032026.htm",
-      "summary": "The number of job openings was little changed at 7.5 million in September. Hires and total separations changed little at 5.4 million and 5.3 million, respectively. Quits increased to 3.4 million, while layoffs and discharges changed little at 1.6 million.",
-      "source": "U.S. Bureau of Labor Statistics",
-      "date": "2026-11-03",
-      "date_human": "Nov 3, 2026",
-      "pub_ts": 1793715635,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -337,19 +349,6 @@
       "date": "2026-11-04",
       "date_human": "Nov 4, 2026",
       "pub_ts": 1793777148,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "SEC Updates Crypto-Asset FAQs as Firms Seek Clarity on Federal Securities Rules",
-      "link": "https://www.newsbtc.com/news/sec-updates-crypto-asset-faqs-as-firms-seek-clarity-on-federal-securities-rules/",
-      "summary": "The SEC Division of Corporation Finance added questions 1.4, 1.5 and 1.6 to its crypto-assets FAQ on November 2, 2026.",
-      "source": "NewsBTC",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793775600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
