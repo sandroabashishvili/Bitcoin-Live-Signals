@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-06",
-  "generated_at_utc": "2026-11-06 05:05:10 UTC",
+  "generated_at_utc": "2026-11-06 11:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-06T05:05:04.980723+00:00",
+    "collected_at": "2026-11-06T11:05:05.691569+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 2,
-        "within_window": 8,
-        "eligible": 8,
+        "within_24h": 3,
+        "within_window": 5,
+        "eligible": 5,
         "rejected": {
-          "older_than_window": 2
+          "older_than_window": 5
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
-        "within_window": 20,
+        "within_24h": 6,
+        "within_window": 17,
         "eligible": 6,
         "rejected": {
-          "topic_author_or_category": 12,
+          "topic_author_or_category": 10,
           "title_filter": 1,
-          "unreviewed_link": 1
+          "older_than_window": 3
         }
       },
       {
@@ -99,12 +99,13 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 2,
-        "within_window": 2,
+        "within_24h": 1,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
+          "topic_author_or_category": 1,
           "unreviewed_link": 2,
-          "older_than_window": 13
+          "older_than_window": 12
         }
       },
       {
@@ -182,23 +183,75 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 8,
       "Cryptonews": 6,
+      "NewsBTC": 5,
       "U.S. Bureau of Economic Analysis": 1
     },
     "unique_by_source": {
-      "NewsBTC": 8,
       "Cryptonews": 6,
+      "NewsBTC": 5,
       "U.S. Bureau of Economic Analysis": 1
     },
     "selected_by_source": {
-      "NewsBTC": 6,
-      "Cryptonews": 5,
+      "Cryptonews": 6,
+      "NewsBTC": 5,
       "U.S. Bureau of Economic Analysis": 1
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "Bitcoin ETF Outflows Hit $430M as Hong Kong Expands Its BTC Market",
+      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-hong-kong-btc-market/",
+      "summary": "Bitcoin ETF outflows reached $430M as Hong Kong expanded its spot BTC market and wealth managers increased cryptocurrency exposure.",
+      "source": "Cryptonews",
+      "date": "2026-11-06",
+      "date_human": "Nov 6, 2026",
+      "pub_ts": 1793956626,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "StockFi: Connecting U.S. Stock with the On-Chain Ecosystem to Reshape Asset Circulation",
+      "link": "https://www.newsbtc.com/news/stockfi-connecting-u-s-stock-with-the-on-chain-ecosystem-to-reshape-asset-circulation/",
+      "summary": "Start with one stock. Connect two capital worlds. 6 November — Singapore — StockFi is advancing the connection between traditional equities and the on-chain ecosystem through U.S. stock tokenization. Built on BSC, the platform brings stock tokens and the meme ecosystem into its development strategy, exploring new ways to serve on-chain users worldwide through asset issuance, on-chain circulation and product applications. StockFi’s approach connects the underlying value of equities, the utility of on-chain products and the reach of communities. Starting with its first stock offering, the platfo",
+      "source": "NewsBTC",
+      "date": "2026-11-06",
+      "date_human": "Nov 6, 2026",
+      "pub_ts": 1793956277,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "U.S. International Trade in Goods and Services, September 2026",
+      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026",
+      "summary": "The U.S. goods and services trade deficit decreased in September 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $105.7 billion in August (revised) to $105.0 billion in September, as exports increased more than imports. The goods deficit decreased $0.7 billion in September to $135.9 billion. The services surplus decreased less than $0.1 billion in September to $30.9 billion.",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-11-04",
+      "date_human": "Nov 4, 2026",
+      "pub_ts": 1793799000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE- Wall Street Power Grab? Anti-Crypto Elizabeth Warren Could Put Day Trading in the Crosshairs",
+      "link": "https://cryptonews.com/news/elizabeth-warren-day-trading-senate-banking/",
+      "summary": "Elizabeth Warren is poised to lead Senate Banking as Wall Street, crypto, and day trading face tougher scrutiny under a Democratic Congress.",
+      "source": "Cryptonews",
+      "date": "2026-11-06",
+      "date_human": "Nov 6, 2026",
+      "pub_ts": 1793951152,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Gate Pioneers Proof of Security (PoSEC), Achieving 104.58% Cold Storage Coverage to Solidify Asset Security",
       "link": "https://www.newsbtc.com/news/gate-pioneers-proof-of-security-posec-achieving-104-58-cold-storage-coverage-to-solidify-asset-security/",
@@ -220,19 +273,6 @@
       "date": "2026-11-05",
       "date_human": "Nov 5, 2026",
       "pub_ts": 1793884602,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "U.S. International Trade in Goods and Services, September 2026",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026",
-      "summary": "The U.S. goods and services trade deficit decreased in September 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $105.7 billion in August (revised) to $105.0 billion in September, as exports increased more than imports. The goods deficit decreased $0.7 billion in September to $135.9 billion. The services surplus decreased less than $0.1 billion in September to $30.9 billion.",
-      "source": "U.S. Bureau of Economic Analysis",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793799000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -278,7 +318,7 @@
       "image_local": null
     },
     {
-      "title": "Live – Is Trump Media Selling Bitcoin? Democrats Prepare Crypto Probe",
+      "title": "Is Trump Media Selling Bitcoin? Democrats Prepare Crypto Probe",
       "link": "https://cryptonews.com/news/trump-media-bitcoin-transfer-democrats-crypto-probe/",
       "summary": "Trump Media selling its Bitcoin? The Trump linked compant moved $343 million in Bitcoin to Crypto.com as Democrats prepare investigations.",
       "source": "Cryptonews",
@@ -311,45 +351,6 @@
       "date": "2026-11-04",
       "date_human": "Nov 4, 2026",
       "pub_ts": 1793793288,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "MEXC Expands Stock Futures Coverage to Six Global Markets in Q3 as 0808 Stock Season Trading Volume Tops $50B",
-      "link": "https://www.newsbtc.com/news/mexc-expands-stock-futures-coverage-to-six-global-markets-in-q3-as-0808-stock-season-trading-volume-tops-50b/",
-      "summary": "Mutsamudu, Comoros, November 4, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released the “MEXC Ecosystem & Growth Report Q3 2026.” Building on the launch of RealStocks and the expansion of its stock product offering in Q2, MEXC broadened its market coverage and attracted greater user participation in Q3 The number of RealStocks traders in July-August increased by 608% compared with May–June. By the end of September, the platform offered more than 460 Stock, Index, and ETF Futures contracts across six global markets. During the quarter, MEXC expanded the global reach of its Stock",
-      "source": "NewsBTC",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793787379,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Block DOJ Settlement: Jack Dorsey's Company Faces $764M Deal as Bitcoin Profit Plunges 50%",
-      "link": "https://cryptonews.com/news/block-doj-settlement-jack-dorsey-bitcoin-profit/",
-      "summary": "Block DOJ settlement could cost Jack Dorsey company $764 million as Bitcoin gross profit plunges 50% in Q3.",
-      "source": "Cryptonews",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793786974,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Solana Microscope Offers Open-Source Monitoring for Complex On-Chain Operations",
-      "link": "https://www.newsbtc.com/news/solana-microscope-offers-open-source-monitoring-for-complex-on-chain-operations/",
-      "summary": "The Solana Foundation has described Microscope, an open-source monitoring approach for teams managing on-chain programmes and infrastructure.",
-      "source": "NewsBTC",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793779200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
