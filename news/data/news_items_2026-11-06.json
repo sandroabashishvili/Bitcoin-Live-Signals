@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-06",
-  "generated_at_utc": "2026-11-06 11:05:11 UTC",
+  "generated_at_utc": "2026-11-06 17:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-06T11:05:05.691569+00:00",
+    "collected_at": "2026-11-06T17:05:06.065312+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -25,10 +25,10 @@
         "status": "ok",
         "entries": 10,
         "within_24h": 3,
-        "within_window": 5,
-        "eligible": 5,
+        "within_window": 4,
+        "eligible": 4,
         "rejected": {
-          "older_than_window": 5
+          "older_than_window": 6
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 6,
-        "within_window": 17,
-        "eligible": 6,
+        "within_24h": 9,
+        "within_window": 20,
+        "eligible": 8,
         "rejected": {
-          "topic_author_or_category": 10,
-          "title_filter": 1,
-          "older_than_window": 3
+          "title_filter": 2,
+          "unreviewed_link": 1,
+          "topic_author_or_category": 9
         }
       },
       {
@@ -75,10 +75,10 @@
         "status": "ok",
         "entries": 49,
         "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 48
+          "older_than_window": 49
         }
       },
       {
@@ -87,11 +87,10 @@
         "status": "ok",
         "entries": 25,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 24
+          "older_than_window": 25
         }
       },
       {
@@ -113,11 +112,11 @@
         "url": "https://bitcoinops.org/feed.xml",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 10
+          "older_than_window": 9
         }
       },
       {
@@ -149,11 +148,11 @@
         "url": "https://www.bls.gov/feed/empsit.rss",
         "status": "ok",
         "entries": 12,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 12
+          "older_than_window": 11
         }
       },
       {
@@ -173,7 +172,7 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -183,31 +182,86 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 6,
-      "NewsBTC": 5,
-      "U.S. Bureau of Economic Analysis": 1
+      "Cryptonews": 8,
+      "U.S. Bureau of Labor Statistics": 1,
+      "NewsBTC": 4,
+      "Bitcoin Optech": 1
     },
     "unique_by_source": {
-      "Cryptonews": 6,
-      "NewsBTC": 5,
-      "U.S. Bureau of Economic Analysis": 1
+      "Cryptonews": 8,
+      "U.S. Bureau of Labor Statistics": 1,
+      "NewsBTC": 4,
+      "Bitcoin Optech": 1
     },
     "selected_by_source": {
       "Cryptonews": 6,
-      "NewsBTC": 5,
-      "U.S. Bureau of Economic Analysis": 1
+      "U.S. Bureau of Labor Statistics": 1,
+      "NewsBTC": 4,
+      "Bitcoin Optech": 1
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Bitcoin ETF Outflows Hit $430M as Hong Kong Expands Its BTC Market",
-      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-hong-kong-btc-market/",
-      "summary": "Bitcoin ETF outflows reached $430M as Hong Kong expanded its spot BTC market and wealth managers increased cryptocurrency exposure.",
+      "title": "Hollywood Prediction Market Faces Insider Scare: James Bond Casting Bets Shift",
+      "link": "https://cryptonews.com/news/hollywood-prediction-market-james-bond-casting/",
+      "summary": "Hollywood prediction market scrutiny grows after suspicious James Bond cast bets trigger employee betting restrictions.",
       "source": "Cryptonews",
       "date": "2026-11-06",
       "date_human": "Nov 6, 2026",
-      "pub_ts": 1793956626,
+      "pub_ts": 1793972055,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Payroll employment rises by 165,000 in October; unemployment rate changes little at 4.1%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+      "summary": "Total nonfarm payroll employment rose by 165,000 in October, and the unemployment rate changed little at 4.1 percent. Employment increased in professional and business services, in health care, and in transportation and warehousing.",
+      "source": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-06",
+      "date_human": "Nov 6, 2026",
+      "pub_ts": 1793969431,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "DSA's Adrian Wall and Former CFTC Chair Chris Giancarlo Discuss Future of U.S. Crypto Regulation at Strobe Summit",
+      "link": "https://www.newsbtc.com/news/dsas-adrian-wall-and-former-cftc-chair-chris-giancarlo-discuss-future-of-u-s-crypto-regulation-at-strobe-summit/",
+      "summary": "Washington, D.C., November 6, 2026 — The Digital Sovereignty Alliance (DSA), a nonprofit organization dedicated to advancing clear and ethical public policy, research, and education related to emerging technologies, participated in the Strobe Summit, where DSA Managing Director Adrian Wall moderated a fireside chat with former Commodity Futures Trading Commission (CFTC) Chair Christiopher Giancarlo on the evolving regulatory landscape for digital assets and the future of financial markets. Titled “Crypto at a Crossroads: Regulation, Institutional Adoption, and the Future of Financial Markets,”",
+      "source": "NewsBTC",
+      "date": "2026-11-06",
+      "date_human": "Nov 6, 2026",
+      "pub_ts": 1793965588,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Optech Newsletter #430",
+      "link": "https://bitcoinops.org/en/newsletters/2026/11/06/",
+      "summary": "This week’s newsletter summarizes continued discussion about using TCP hole punching to make nodes behind home routers reachable and describes a draft BIP for standardizing the spending policies that co-signers enforce when emulating covenants. Also included are our regular sections summarizing proposals and discussion about changing Bitcoin’s consensus rules, announcing new releases and release candidates, and describing notable changes to popular Bitcoin infrastructure software.",
+      "source": "Bitcoin Optech",
+      "date": "2026-11-06",
+      "date_human": "Nov 6, 2026",
+      "pub_ts": 1793923200,
+      "image_candidates": [],
+      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Paraguay Bank Collapse Shows Why Bitcoin Was Created as USDT Hits Premium",
+      "link": "https://cryptonews.com/news/paraguay-bank-collapse-usdt-premium-bitcoin-purpose/",
+      "summary": "Paraguay's bank crisis pushes USDT P2P prices higher, reviving Bitcoin's original purpose as an alternative to traditional banking.",
+      "source": "Cryptonews",
+      "date": "2026-11-06",
+      "date_human": "Nov 6, 2026",
+      "pub_ts": 1793968059,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -227,26 +281,13 @@
       "image_local": null
     },
     {
-      "title": "U.S. International Trade in Goods and Services, September 2026",
-      "link": "https://www.bea.gov/news/2026/us-international-trade-goods-and-services-september-2026",
-      "summary": "The U.S. goods and services trade deficit decreased in September 2026 according to the U.S. Bureau of Economic Analysis and the U.S. Census Bureau. The deficit decreased from $105.7 billion in August (revised) to $105.0 billion in September, as exports increased more than imports. The goods deficit decreased $0.7 billion in September to $135.9 billion. The services surplus decreased less than $0.1 billion in September to $30.9 billion.",
-      "source": "U.S. Bureau of Economic Analysis",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793799000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "LIVE- Wall Street Power Grab? Anti-Crypto Elizabeth Warren Could Put Day Trading in the Crosshairs",
-      "link": "https://cryptonews.com/news/elizabeth-warren-day-trading-senate-banking/",
-      "summary": "Elizabeth Warren is poised to lead Senate Banking as Wall Street, crypto, and day trading face tougher scrutiny under a Democratic Congress.",
+      "title": "Elon Musk's Tesla and SpaceX Join 67 Firms Rejecting OKXICE Tokenised Stocks",
+      "link": "https://cryptonews.com/news/elon-musk-tesla-spacex-okxice-tokenized-stocks/",
+      "summary": "Elon Musk's Tesla and SpaceX join 67 companies rejecting OKXICE tokenized stocks as his Hyperliquid reaction adds another twist.",
       "source": "Cryptonews",
       "date": "2026-11-06",
       "date_human": "Nov 6, 2026",
-      "pub_ts": 1793951152,
+      "pub_ts": 1793964853,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -266,13 +307,13 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin ETF Attracts $75M as Goldman Sachs Calls December Fed Rate Cut",
-      "link": "https://cryptonews.com/news/bitcoin-etf-attracts-75m-as-goldman-sachs-calls-december-fed-rate-cut/",
-      "summary": "Bitcoin ETF funds attracted $74.6 million as Goldman Sachs delayed expected Fed rate cuts to December 2026 and March 2027.",
+      "title": "Bitcoin ETF Outflows Hit $430M as Hong Kong Expands Its BTC Market",
+      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-hong-kong-btc-market/",
+      "summary": "Bitcoin ETF outflows reached $430M as Hong Kong expanded its spot BTC market and wealth managers increased cryptocurrency exposure.",
       "source": "Cryptonews",
-      "date": "2026-11-05",
-      "date_human": "Nov 5, 2026",
-      "pub_ts": 1793884602,
+      "date": "2026-11-06",
+      "date_human": "Nov 6, 2026",
+      "pub_ts": 1793956626,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -292,65 +333,26 @@
       "image_local": null
     },
     {
-      "title": "CZ Pardon Faces New Democrats Scrutiny A Week After $6.3B Binance Hack",
-      "link": "https://cryptonews.com/news/cz-pardon-democrats-binance-hack/",
-      "summary": "Democrats revisit CZ pardon after Binance experienced a major hack, putting the founder’s influence and exchange security under scrutiny.",
+      "title": "LIVE- Wall Street Power Grab? Anti-Crypto Elizabeth Warren Could Put Day Trading in the Crosshairs",
+      "link": "https://cryptonews.com/news/elizabeth-warren-day-trading-senate-banking/",
+      "summary": "Elizabeth Warren is poised to lead Senate Banking as Wall Street, crypto, and day trading face tougher scrutiny under a Democratic Congress.",
+      "source": "Cryptonews",
+      "date": "2026-11-06",
+      "date_human": "Nov 6, 2026",
+      "pub_ts": 1793951152,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin ETF Attracts $75M as Goldman Sachs Calls December Fed Rate Cut",
+      "link": "https://cryptonews.com/news/bitcoin-etf-attracts-75m-as-goldman-sachs-calls-december-fed-rate-cut/",
+      "summary": "Bitcoin ETF funds attracted $74.6 million as Goldman Sachs delayed expected Fed rate cuts to December 2026 and March 2027.",
       "source": "Cryptonews",
       "date": "2026-11-05",
       "date_human": "Nov 5, 2026",
-      "pub_ts": 1793872620,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitbase Launches ORIGIN, a Points Season That Rewards Consistency",
-      "link": "https://www.newsbtc.com/news/bitbase-launches-origin-a-points-season-that-rewards-consistency/",
-      "summary": "PANAMA CITY, November 4, 2026 — Bitbase today launched ORIGIN, the first season of its Bitbase Points program, which is designed to reward sustained participation over time. Over the 26-week season, which ends on May 4, 2027, Bitbase will distribute 1,000,000 points each week, allocated daily according to each participant’s contribution. Four sources of contribution Each participant’s contribution is drawn from four sources: trading, assets held on Bitbase, consistent activity and referrals. Consistent activity is counted as a separate source, so continued participation from day to day adds to",
-      "source": "NewsBTC",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793803102,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Is Trump Media Selling Bitcoin? Democrats Prepare Crypto Probe",
-      "link": "https://cryptonews.com/news/trump-media-bitcoin-transfer-democrats-crypto-probe/",
-      "summary": "Trump Media selling its Bitcoin? The Trump linked compant moved $343 million in Bitcoin to Crypto.com as Democrats prepare investigations.",
-      "source": "Cryptonews",
-      "date": "2026-11-05",
-      "date_human": "Nov 5, 2026",
-      "pub_ts": 1793865628,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitbase launches ORIGIN, distributing 1M points every week",
-      "link": "https://www.newsbtc.com/news/bitbase-launches-origin-distributing-1m-points-every-week/",
-      "summary": "Panama City, November 4, 2026 — Bitbase today launched ORIGIN, the first season of its new Bitbase Points program. Ahead of the launch, the digital asset exchange credited points to eligible users who had been trading on the platform, so their past activity counts from day one. The season runs for 26 weeks, until May 4, 2027, with 1,000,000 points distributed each week. Part of Bitbase 2.0 ORIGIN is also the first part of Bitbase 2.0 to reach users directly. Bitbase unveiled 2.0 on November 2, with an upgraded app and website and a new brand identity built around the statement “Market Flows. W",
-      "source": "NewsBTC",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793802955,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Bounces Back From 6-Week Low Despite $1B ETF Exodus",
-      "link": "https://cryptonews.com/news/bitcoin-bounces-back-six-week-low-etf-outflows/",
-      "summary": "Bitcoin rebounds from a six-week low above $78,000 as Bitcoin ETF outflows exceed $1.15 billion, with institutional selling slowing.",
-      "source": "Cryptonews",
-      "date": "2026-11-04",
-      "date_human": "Nov 4, 2026",
-      "pub_ts": 1793793288,
+      "pub_ts": 1793884602,
       "image_candidates": [],
       "license_url": null,
       "image": null,
