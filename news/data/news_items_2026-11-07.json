@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-07",
-  "generated_at_utc": "2026-11-07 11:05:08 UTC",
+  "generated_at_utc": "2026-11-07 17:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-07T11:05:02.102920+00:00",
+    "collected_at": "2026-11-07T17:05:02.334883+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 1,
-        "within_window": 4,
-        "eligible": 4,
+        "within_24h": 6,
+        "within_window": 9,
+        "eligible": 9,
         "rejected": {
-          "older_than_window": 6
+          "older_than_window": 1
         }
       },
       {
@@ -48,14 +48,14 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 6,
-        "within_window": 11,
-        "eligible": 6,
+        "within_24h": 1,
+        "within_window": 9,
+        "eligible": 5,
         "rejected": {
-          "title_filter": 2,
+          "title_filter": 1,
           "unreviewed_link": 1,
           "topic_author_or_category": 2,
-          "older_than_window": 9
+          "older_than_window": 11
         }
       },
       {
@@ -99,12 +99,13 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 1,
+        "within_24h": 1,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
+          "unreviewed_link": 1,
           "topic_author_or_category": 1,
-          "older_than_window": 14
+          "older_than_window": 13
         }
       },
       {
@@ -148,7 +149,7 @@
         "url": "https://www.bls.gov/feed/empsit.rss",
         "status": "ok",
         "entries": 12,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 1,
         "rejected": {
@@ -173,35 +174,47 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 19
+          "older_than_window": 20
         }
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 6,
+      "NewsBTC": 9,
+      "Cryptonews": 5,
       "U.S. Bureau of Labor Statistics": 1,
-      "NewsBTC": 4,
       "Bitcoin Optech": 1
     },
     "unique_by_source": {
-      "Cryptonews": 6,
+      "NewsBTC": 9,
+      "Cryptonews": 5,
       "U.S. Bureau of Labor Statistics": 1,
-      "NewsBTC": 4,
       "Bitcoin Optech": 1
     },
     "selected_by_source": {
-      "Cryptonews": 6,
+      "NewsBTC": 6,
+      "Cryptonews": 4,
       "U.S. Bureau of Labor Statistics": 1,
-      "NewsBTC": 4,
       "Bitcoin Optech": 1
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "Samsung Wallet's USDC on Solana Is Live — Here's What the Rollout Actually Covers",
+      "link": "https://www.newsbtc.com/news/solana/samsung-wallet-s-usdc-on-solana-is-live-here-s-what-the-rollout-actually-covers/",
+      "summary": "A Solana Foundation update dated November 5 confirms that Samsung Wallet's stablecoin account went live on November 2 for eligible US Galaxy owners. USDC…",
+      "source": "NewsBTC",
+      "date": "2026-11-07",
+      "date_human": "Nov 7, 2026",
+      "pub_ts": 1794070800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Wall Street Power Grab? Anti-Crypto Elizabeth Warren Could Put Day Trading in the Crosshairs",
       "link": "https://cryptonews.com/news/elizabeth-warren-day-trading-senate-banking/",
@@ -229,19 +242,6 @@
       "image_local": null
     },
     {
-      "title": "DSA's Adrian Wall and Former CFTC Chair Chris Giancarlo Discuss Future of U.S. Crypto Regulation at Strobe Summit",
-      "link": "https://www.newsbtc.com/news/dsas-adrian-wall-and-former-cftc-chair-chris-giancarlo-discuss-future-of-u-s-crypto-regulation-at-strobe-summit/",
-      "summary": "Washington, D.C., November 6, 2026 — The Digital Sovereignty Alliance (DSA), a nonprofit organization dedicated to advancing clear and ethical public policy, research, and education related to emerging technologies, participated in the Strobe Summit, where DSA Managing Director Adrian Wall moderated a fireside chat with former Commodity Futures Trading Commission (CFTC) Chair Christiopher Giancarlo on the evolving regulatory landscape for digital assets and the future of financial markets. Titled “Crypto at a Crossroads: Regulation, Institutional Adoption, and the Future of Financial Markets,”",
-      "source": "NewsBTC",
-      "date": "2026-11-06",
-      "date_human": "Nov 6, 2026",
-      "pub_ts": 1793965588,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Bitcoin Optech Newsletter #430",
       "link": "https://bitcoinops.org/en/newsletters/2026/11/06/",
       "summary": "This week’s newsletter summarizes continued discussion about using TCP hole punching to make nodes behind home routers reachable and describes a draft BIP for standardizing the spending policies that co-signers enforce when emulating covenants. Also included are our regular sections summarizing proposals and discussion about changing Bitcoin’s consensus rules, announcing new releases and release candidates, and describing notable changes to popular Bitcoin infrastructure software.",
@@ -251,6 +251,19 @@
       "pub_ts": 1793923200,
       "image_candidates": [],
       "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum Delays Glamsterdam Testnet Step Over Gas-Accounting Risks",
+      "link": "https://www.newsbtc.com/news/ethereum/ethereum-delays-glamsterdam-testnet-step-over-gas-accounting-risks/",
+      "summary": "Ethereum developers have postponed the next Glamsterdam hard-fork step on the Hoodi testnet after researchers identified applications that may depend on…",
+      "source": "NewsBTC",
+      "date": "2026-11-07",
+      "date_human": "Nov 7, 2026",
+      "pub_ts": 1794067200,
+      "image_candidates": [],
+      "license_url": null,
       "image": null,
       "image_local": null
     },
@@ -268,13 +281,13 @@
       "image_local": null
     },
     {
-      "title": "StockFi: Connecting U.S. Stock with the On-Chain Ecosystem to Reshape Asset Circulation",
-      "link": "https://www.newsbtc.com/news/stockfi-connecting-u-s-stock-with-the-on-chain-ecosystem-to-reshape-asset-circulation/",
-      "summary": "Start with one stock. Connect two capital worlds. 6 November — Singapore — StockFi is advancing the connection between traditional equities and the on-chain ecosystem through U.S. stock tokenization. Built on BSC, the platform brings stock tokens and the meme ecosystem into its development strategy, exploring new ways to serve on-chain users worldwide through asset issuance, on-chain circulation and product applications. StockFi’s approach connects the underlying value of equities, the utility of on-chain products and the reach of communities. Starting with its first stock offering, the platfo",
+      "title": "BitFuFu's October Bitcoin Mining Output Falls Despite Steady Hashrate",
+      "link": "https://www.newsbtc.com/news/bitcoin/bitfufu-s-october-bitcoin-mining-output-falls-despite-steady-hashrate/",
+      "summary": "BitFuFu produced 137 BTC in October, down from 167 in September, while managed hashrate stayed close to 19.5 EH/s. The miner attributed the decline partly to…",
       "source": "NewsBTC",
-      "date": "2026-11-06",
-      "date_human": "Nov 6, 2026",
-      "pub_ts": 1793956277,
+      "date": "2026-11-07",
+      "date_human": "Nov 7, 2026",
+      "pub_ts": 1794063600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -294,13 +307,13 @@
       "image_local": null
     },
     {
-      "title": "Gate Pioneers Proof of Security (PoSEC), Achieving 104.58% Cold Storage Coverage to Solidify Asset Security",
-      "link": "https://www.newsbtc.com/news/gate-pioneers-proof-of-security-posec-achieving-104-58-cold-storage-coverage-to-solidify-asset-security/",
-      "summary": "Gate has officially introduced Proof of Security (PoSEC), a new asset security verification framework, becoming the first digital asset trading platform in the industry to launch a PoSEC security verification system. Since its founding in 2013, Gate has consistently placed user asset security at the forefront of its priorities. With the introduction of PoSEC, Gate extends security verification beyond reserve adequacy to include asset storage structures and risk coverage capabilities, further solidifying safeguards for user assets and providing a new practical approach to advancing industry sec",
+      "title": "Strive Reports $509M Quarterly Profit as Bitcoin Buying Accelerates",
+      "link": "https://www.newsbtc.com/news/bitcoin/strive-reports-509m-quarterly-profit-as-bitcoin-buying-accelerates/",
+      "summary": "Strive reported $509 million in third-quarter GAAP net income and said it purchased 8,136 BTC during the quarter, followed by another 15,124 BTC between…",
       "source": "NewsBTC",
-      "date": "2026-11-05",
-      "date_human": "Nov 5, 2026",
-      "pub_ts": 1793913060,
+      "date": "2026-11-07",
+      "date_human": "Nov 7, 2026",
+      "pub_ts": 1794060000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -320,39 +333,26 @@
       "image_local": null
     },
     {
-      "title": "HTX Earn Winter Campaign: Enjoy APY Boosts on 7 Assets, With a Quota Limit of Up to $14 Million per User",
-      "link": "https://www.newsbtc.com/news/htx-earn-winter-campaign-enjoy-apy-boosts-on-7-assets-with-a-quota-limit-of-up-to-14-million-per-user/",
-      "summary": "Since the start of Q4, crypto markets have remained volatile and continued to weaken, with major assets retreating from their highs and market participants becoming more cautious. Against this backdrop, HTX Earn recently launched an APY Boost Promotion as part of the HTX Winter Campaign. The promotion offers APY boosts on 7-day Fixed products available on HTX Earn for seven assets, with APYs of up to 10%. It aims to provide users with a relatively stable way to earn returns amid a market downturn. Event details: https://www.htx.net.ht/en-us/support/85047689167878/ APY Boosts Available on Both ",
+      "title": "Ether ETFs Face Another $99.9M Outflow as Demand Stays Uneven",
+      "link": "https://www.newsbtc.com/news/ethereum/ether-etfs-face-another-99-9m-outflow-as-demand-stays-uneven/",
+      "summary": "US spot Ether ETFs posted a $99.9 million net outflow on November 5, Farside data show, following an $85.3 million outflow on November 3 and a temporary…",
       "source": "NewsBTC",
-      "date": "2026-11-05",
-      "date_human": "Nov 5, 2026",
-      "pub_ts": 1793878841,
+      "date": "2026-11-07",
+      "date_human": "Nov 7, 2026",
+      "pub_ts": 1794056400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Bitcoin ETF Outflows Hit $430M as Hong Kong Expands Its BTC Market",
-      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-hong-kong-btc-market/",
-      "summary": "Bitcoin ETF outflows reached $430M as Hong Kong expanded its spot BTC market and wealth managers increased cryptocurrency exposure.",
-      "source": "Cryptonews",
-      "date": "2026-11-06",
-      "date_human": "Nov 6, 2026",
-      "pub_ts": 1793956626,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin ETF Attracts $75M as Goldman Sachs Calls December Fed Rate Cut",
-      "link": "https://cryptonews.com/news/bitcoin-etf-attracts-75m-as-goldman-sachs-calls-december-fed-rate-cut/",
-      "summary": "Bitcoin ETF funds attracted $74.6 million as Goldman Sachs delayed expected Fed rate cuts to December 2026 and March 2027.",
-      "source": "Cryptonews",
-      "date": "2026-11-05",
-      "date_human": "Nov 5, 2026",
-      "pub_ts": 1793884602,
+      "title": "Bitcoin ETFs Lose $411.9M on Friday as BlackRock Drives the Selling",
+      "link": "https://www.newsbtc.com/news/bitcoin/bitcoin-etfs-lose-411-9m-on-friday-as-blackrock-drives-the-selling/",
+      "summary": "US spot Bitcoin ETFs recorded a net $411.9 million outflow on November 6, according to Farside Investors. BlackRock's IBIT accounted for $403 million in…",
+      "source": "NewsBTC",
+      "date": "2026-11-07",
+      "date_human": "Nov 7, 2026",
+      "pub_ts": 1794052800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
