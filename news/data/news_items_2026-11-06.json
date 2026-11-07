@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-06",
-  "generated_at_utc": "2026-11-06 17:05:09 UTC",
+  "generated_at_utc": "2026-11-06 23:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-06T17:05:06.065312+00:00",
+    "collected_at": "2026-11-06T23:05:05.876733+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 3,
+        "within_24h": 2,
         "within_window": 4,
         "eligible": 4,
         "rejected": {
@@ -48,13 +48,14 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
-        "within_window": 20,
+        "within_24h": 8,
+        "within_window": 16,
         "eligible": 8,
         "rejected": {
           "title_filter": 2,
           "unreviewed_link": 1,
-          "topic_author_or_category": 9
+          "topic_author_or_category": 5,
+          "older_than_window": 4
         }
       },
       {
@@ -203,13 +204,13 @@
   "count": 12,
   "items": [
     {
-      "title": "Hollywood Prediction Market Faces Insider Scare: James Bond Casting Bets Shift",
-      "link": "https://cryptonews.com/news/hollywood-prediction-market-james-bond-casting/",
-      "summary": "Hollywood prediction market scrutiny grows after suspicious James Bond cast bets trigger employee betting restrictions.",
+      "title": "Wall Street Power Grab? Anti-Crypto Elizabeth Warren Could Put Day Trading in the Crosshairs",
+      "link": "https://cryptonews.com/news/elizabeth-warren-day-trading-senate-banking/",
+      "summary": "Elizabeth Warren is poised to lead Senate Banking as Wall Street, crypto, and day trading face tougher scrutiny under a Democratic Congress.",
       "source": "Cryptonews",
       "date": "2026-11-06",
       "date_human": "Nov 6, 2026",
-      "pub_ts": 1793972055,
+      "pub_ts": 1793987700,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -255,13 +256,13 @@
       "image_local": null
     },
     {
-      "title": "Paraguay Bank Collapse Shows Why Bitcoin Was Created as USDT Hits Premium",
-      "link": "https://cryptonews.com/news/paraguay-bank-collapse-usdt-premium-bitcoin-purpose/",
-      "summary": "Paraguay's bank crisis pushes USDT P2P prices higher, reviving Bitcoin's original purpose as an alternative to traditional banking.",
+      "title": "Hollywood Prediction Market Faces Insider Scare: James Bond Casting Bets Shift",
+      "link": "https://cryptonews.com/news/hollywood-prediction-market-james-bond-casting/",
+      "summary": "Hollywood prediction market scrutiny grows after suspicious James Bond cast bets trigger employee betting restrictions.",
       "source": "Cryptonews",
       "date": "2026-11-06",
       "date_human": "Nov 6, 2026",
-      "pub_ts": 1793968059,
+      "pub_ts": 1793972055,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -281,13 +282,13 @@
       "image_local": null
     },
     {
-      "title": "Elon Musk's Tesla and SpaceX Join 67 Firms Rejecting OKXICE Tokenised Stocks",
-      "link": "https://cryptonews.com/news/elon-musk-tesla-spacex-okxice-tokenized-stocks/",
-      "summary": "Elon Musk's Tesla and SpaceX join 67 companies rejecting OKXICE tokenized stocks as his Hyperliquid reaction adds another twist.",
+      "title": "Paraguay Bank Collapse Shows Why Bitcoin Was Created as USDT Hits Premium",
+      "link": "https://cryptonews.com/news/paraguay-bank-collapse-usdt-premium-bitcoin-purpose/",
+      "summary": "Paraguay's bank crisis pushes USDT P2P prices higher, reviving Bitcoin's original purpose as an alternative to traditional banking.",
       "source": "Cryptonews",
       "date": "2026-11-06",
       "date_human": "Nov 6, 2026",
-      "pub_ts": 1793964853,
+      "pub_ts": 1793968059,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -307,13 +308,13 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin ETF Outflows Hit $430M as Hong Kong Expands Its BTC Market",
-      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-hong-kong-btc-market/",
-      "summary": "Bitcoin ETF outflows reached $430M as Hong Kong expanded its spot BTC market and wealth managers increased cryptocurrency exposure.",
+      "title": "Elon Musk's Tesla and SpaceX Join 67 Firms Rejecting OKXICE Tokenised Stocks",
+      "link": "https://cryptonews.com/news/elon-musk-tesla-spacex-okxice-tokenized-stocks/",
+      "summary": "Elon Musk's Tesla and SpaceX join 67 companies rejecting OKXICE tokenized stocks as his Hyperliquid reaction adds another twist.",
       "source": "Cryptonews",
       "date": "2026-11-06",
       "date_human": "Nov 6, 2026",
-      "pub_ts": 1793956626,
+      "pub_ts": 1793964853,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -333,13 +334,13 @@
       "image_local": null
     },
     {
-      "title": "LIVE- Wall Street Power Grab? Anti-Crypto Elizabeth Warren Could Put Day Trading in the Crosshairs",
-      "link": "https://cryptonews.com/news/elizabeth-warren-day-trading-senate-banking/",
-      "summary": "Elizabeth Warren is poised to lead Senate Banking as Wall Street, crypto, and day trading face tougher scrutiny under a Democratic Congress.",
+      "title": "Bitcoin ETF Outflows Hit $430M as Hong Kong Expands Its BTC Market",
+      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-hong-kong-btc-market/",
+      "summary": "Bitcoin ETF outflows reached $430M as Hong Kong expanded its spot BTC market and wealth managers increased cryptocurrency exposure.",
       "source": "Cryptonews",
       "date": "2026-11-06",
       "date_human": "Nov 6, 2026",
-      "pub_ts": 1793951152,
+      "pub_ts": 1793956626,
       "image_candidates": [],
       "license_url": null,
       "image": null,
