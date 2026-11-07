@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-07",
-  "generated_at_utc": "2026-11-07 05:05:08 UTC",
+  "generated_at_utc": "2026-11-07 11:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-07T05:05:01.886426+00:00",
+    "collected_at": "2026-11-07T11:05:02.102920+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 2,
+        "within_24h": 1,
         "within_window": 4,
         "eligible": 4,
         "rejected": {
@@ -48,14 +48,14 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 7,
-        "within_window": 16,
-        "eligible": 8,
+        "within_24h": 6,
+        "within_window": 11,
+        "eligible": 6,
         "rejected": {
           "title_filter": 2,
           "unreviewed_link": 1,
-          "topic_author_or_category": 5,
-          "older_than_window": 4
+          "topic_author_or_category": 2,
+          "older_than_window": 9
         }
       },
       {
@@ -99,13 +99,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
-        "within_window": 3,
+        "within_24h": 0,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
           "topic_author_or_category": 1,
-          "unreviewed_link": 2,
-          "older_than_window": 12
+          "older_than_window": 14
         }
       },
       {
@@ -183,13 +182,13 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 8,
+      "Cryptonews": 6,
       "U.S. Bureau of Labor Statistics": 1,
       "NewsBTC": 4,
       "Bitcoin Optech": 1
     },
     "unique_by_source": {
-      "Cryptonews": 8,
+      "Cryptonews": 6,
       "U.S. Bureau of Labor Statistics": 1,
       "NewsBTC": 4,
       "Bitcoin Optech": 1
