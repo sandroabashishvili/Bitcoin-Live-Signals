@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-08",
-  "generated_at_utc": "2026-11-08 11:05:09 UTC",
+  "generated_at_utc": "2026-11-08 17:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-08T11:05:03.582407+00:00",
+    "collected_at": "2026-11-08T17:05:04.880208+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,13 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 0,
-        "within_window": 6,
-        "eligible": 4,
+        "within_24h": 1,
+        "within_window": 2,
+        "eligible": 1,
         "rejected": {
-          "title_filter": 1,
-          "unreviewed_link": 1,
-          "older_than_window": 14
+          "topic_author_or_category": 1,
+          "older_than_window": 18
         }
       },
       {
@@ -98,7 +97,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -148,10 +147,10 @@
         "status": "ok",
         "entries": 12,
         "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 11
+          "older_than_window": 12
         }
       },
       {
@@ -181,21 +180,18 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 4,
-      "Cryptonews": 4,
-      "U.S. Bureau of Labor Statistics": 1
+      "Cryptonews": 1
     },
     "unique_by_source": {
       "NewsBTC": 4,
-      "Cryptonews": 4,
-      "U.S. Bureau of Labor Statistics": 1
+      "Cryptonews": 1
     },
     "selected_by_source": {
       "NewsBTC": 4,
-      "Cryptonews": 4,
-      "U.S. Bureau of Labor Statistics": 1
+      "Cryptonews": 1
     }
   },
-  "count": 9,
+  "count": 5,
   "items": [
     {
       "title": "Kraken Parent Payward Takes AAVE Stake as Institutions Look Deeper Into DeFi",
@@ -224,19 +220,6 @@
       "image_local": null
     },
     {
-      "title": "Payroll employment rises by 165,000 in October; unemployment rate changes little at 4.1%",
-      "link": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
-      "summary": "Total nonfarm payroll employment rose by 165,000 in October, and the unemployment rate changed little at 4.1 percent. Employment increased in professional and business services, in health care, and in transportation and warehousing.",
-      "source": "U.S. Bureau of Labor Statistics",
-      "date": "2026-11-06",
-      "date_human": "Nov 6, 2026",
-      "pub_ts": 1793969431,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Solana Labs-Backed Leap Launches Beta App for Tokenized Stocks and Crypto",
       "link": "https://www.newsbtc.com/news/solana/solana-labs-backed-leap-launches-beta-app-for-tokenized-stocks-and-crypto/",
       "summary": "Leap, described by Solana Labs as a mobile trading app for tokenised stocks, ETFs, metals, currencies and crypto, launched in early-access beta on iOS on…",
@@ -244,19 +227,6 @@
       "date": "2026-11-08",
       "date_human": "Nov 8, 2026",
       "pub_ts": 1794117600,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Hollywood Prediction Market Faces Insider Scare: James Bond Casting Bets Shift",
-      "link": "https://cryptonews.com/news/hollywood-prediction-market-james-bond-casting/",
-      "summary": "Hollywood prediction market scrutiny grows after suspicious James Bond cast bets trigger employee betting restrictions.",
-      "source": "Cryptonews",
-      "date": "2026-11-06",
-      "date_human": "Nov 6, 2026",
-      "pub_ts": 1793972055,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -276,19 +246,6 @@
       "image_local": null
     },
     {
-      "title": "Paraguay Bank Collapse Shows Why Bitcoin Was Created as USDT Hits Premium",
-      "link": "https://cryptonews.com/news/paraguay-bank-collapse-usdt-premium-bitcoin-purpose/",
-      "summary": "Paraguay's bank crisis pushes USDT P2P prices higher, reviving Bitcoin's original purpose as an alternative to traditional banking.",
-      "source": "Cryptonews",
-      "date": "2026-11-06",
-      "date_human": "Nov 6, 2026",
-      "pub_ts": 1793968059,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Amundi Puts a European Equity Fund Share Class on Ethereum",
       "link": "https://www.newsbtc.com/news/ethereum/amundi-puts-a-european-equity-fund-share-class-on-ethereum/",
       "summary": "Amundi has launched a tokenised share class of its Core STOXX Europe 600 equity index fund on public Ethereum, working with CACEIS. It is a real fund…",
@@ -296,19 +253,6 @@
       "date": "2026-11-08",
       "date_human": "Nov 8, 2026",
       "pub_ts": 1794103200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Elon Musk's Tesla and SpaceX Join 67 Firms Rejecting OKXICE Tokenised Stocks",
-      "link": "https://cryptonews.com/news/elon-musk-tesla-spacex-okxice-tokenized-stocks/",
-      "summary": "Elon Musk's Tesla and SpaceX join 67 companies rejecting OKXICE tokenized stocks as his Hyperliquid reaction adds another twist.",
-      "source": "Cryptonews",
-      "date": "2026-11-06",
-      "date_human": "Nov 6, 2026",
-      "pub_ts": 1793964853,
       "image_candidates": [],
       "license_url": null,
       "image": null,
