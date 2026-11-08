@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-07",
-  "generated_at_utc": "2026-11-07 17:05:08 UTC",
+  "generated_at_utc": "2026-11-07 23:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-07T17:05:02.334883+00:00",
+    "collected_at": "2026-11-07T23:05:02.688239+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 6,
-        "within_window": 9,
-        "eligible": 9,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 8,
         "rejected": {
-          "older_than_window": 1
+          "unreviewed_link": 2
         }
       },
       {
@@ -48,14 +48,14 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
-        "within_window": 9,
+        "within_24h": 0,
+        "within_window": 8,
         "eligible": 5,
         "rejected": {
           "title_filter": 1,
           "unreviewed_link": 1,
-          "topic_author_or_category": 2,
-          "older_than_window": 11
+          "topic_author_or_category": 1,
+          "older_than_window": 12
         }
       },
       {
@@ -182,13 +182,13 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 9,
+      "NewsBTC": 8,
       "Cryptonews": 5,
       "U.S. Bureau of Labor Statistics": 1,
       "Bitcoin Optech": 1
     },
     "unique_by_source": {
-      "NewsBTC": 9,
+      "NewsBTC": 8,
       "Cryptonews": 5,
       "U.S. Bureau of Labor Statistics": 1,
       "Bitcoin Optech": 1
@@ -203,13 +203,13 @@
   "count": 12,
   "items": [
     {
-      "title": "Samsung Wallet's USDC on Solana Is Live — Here's What the Rollout Actually Covers",
-      "link": "https://www.newsbtc.com/news/solana/samsung-wallet-s-usdc-on-solana-is-live-here-s-what-the-rollout-actually-covers/",
-      "summary": "A Solana Foundation update dated November 5 confirms that Samsung Wallet's stablecoin account went live on November 2 for eligible US Galaxy owners. USDC…",
+      "title": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
+      "link": "https://www.newsbtc.com/news/bitcoin/us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed/",
+      "summary": "The US economy added 165,000 payroll jobs in October while unemployment stood at 4.1%, according to the Bureau of Labor Statistics' November 6 release. The…",
       "source": "NewsBTC",
       "date": "2026-11-07",
       "date_human": "Nov 7, 2026",
-      "pub_ts": 1794070800,
+      "pub_ts": 1794085200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -255,13 +255,13 @@
       "image_local": null
     },
     {
-      "title": "Ethereum Delays Glamsterdam Testnet Step Over Gas-Accounting Risks",
-      "link": "https://www.newsbtc.com/news/ethereum/ethereum-delays-glamsterdam-testnet-step-over-gas-accounting-risks/",
-      "summary": "Ethereum developers have postponed the next Glamsterdam hard-fork step on the Hoodi testnet after researchers identified applications that may depend on…",
+      "title": "IREN's Bitcoin Mining Revenue Falls as AI Cloud Sales Nearly Triple",
+      "link": "https://www.newsbtc.com/news/bitcoin/iren-s-bitcoin-mining-revenue-falls-as-ai-cloud-sales-nearly-triple/",
+      "summary": "IREN reported $200 million in quarterly AI Cloud revenue, up from $71 million the previous quarter, while Bitcoin mining revenue fell from $67 million to $28…",
       "source": "NewsBTC",
       "date": "2026-11-07",
       "date_human": "Nov 7, 2026",
-      "pub_ts": 1794067200,
+      "pub_ts": 1794081600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -281,13 +281,13 @@
       "image_local": null
     },
     {
-      "title": "BitFuFu's October Bitcoin Mining Output Falls Despite Steady Hashrate",
-      "link": "https://www.newsbtc.com/news/bitcoin/bitfufu-s-october-bitcoin-mining-output-falls-despite-steady-hashrate/",
-      "summary": "BitFuFu produced 137 BTC in October, down from 167 in September, while managed hashrate stayed close to 19.5 EH/s. The miner attributed the decline partly to…",
+      "title": "TeraWulf Says AI Leasing Now Generates 83% of Revenue as Bitcoin Mining Recedes",
+      "link": "https://www.newsbtc.com/news/bitcoin/terawulf-says-ai-leasing-now-generates-83-of-revenue-as-bitcoin-mining-recedes/",
+      "summary": "TeraWulf's November 6 earnings release shows $63 million in third-quarter high-performance-computing lease revenue, around 83% of its $76.2 million total.…",
       "source": "NewsBTC",
       "date": "2026-11-07",
       "date_human": "Nov 7, 2026",
-      "pub_ts": 1794063600,
+      "pub_ts": 1794078000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -307,13 +307,13 @@
       "image_local": null
     },
     {
-      "title": "Strive Reports $509M Quarterly Profit as Bitcoin Buying Accelerates",
-      "link": "https://www.newsbtc.com/news/bitcoin/strive-reports-509m-quarterly-profit-as-bitcoin-buying-accelerates/",
-      "summary": "Strive reported $509 million in third-quarter GAAP net income and said it purchased 8,136 BTC during the quarter, followed by another 15,124 BTC between…",
+      "title": "Solana's October Upgrade Review Puts 200ms Slots and $5B in Tokenized Assets in Focus",
+      "link": "https://www.newsbtc.com/news/solana/solana-s-october-upgrade-review-puts-200ms-slots-and-5b-in-tokenized-assets-in-focus/",
+      "summary": "Solana Foundation's November 6 ecosystem review says two protocol changes went live in October: a reduction in target slot time to 200 milliseconds and…",
       "source": "NewsBTC",
       "date": "2026-11-07",
       "date_human": "Nov 7, 2026",
-      "pub_ts": 1794060000,
+      "pub_ts": 1794074400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -333,26 +333,26 @@
       "image_local": null
     },
     {
-      "title": "Ether ETFs Face Another $99.9M Outflow as Demand Stays Uneven",
-      "link": "https://www.newsbtc.com/news/ethereum/ether-etfs-face-another-99-9m-outflow-as-demand-stays-uneven/",
-      "summary": "US spot Ether ETFs posted a $99.9 million net outflow on November 5, Farside data show, following an $85.3 million outflow on November 3 and a temporary…",
+      "title": "Samsung Wallet's USDC on Solana Is Live — Here's What the Rollout Actually Covers",
+      "link": "https://www.newsbtc.com/news/solana/samsung-wallet-s-usdc-on-solana-is-live-here-s-what-the-rollout-actually-covers/",
+      "summary": "A Solana Foundation update dated November 5 confirms that Samsung Wallet's stablecoin account went live on November 2 for eligible US Galaxy owners. USDC…",
       "source": "NewsBTC",
       "date": "2026-11-07",
       "date_human": "Nov 7, 2026",
-      "pub_ts": 1794056400,
+      "pub_ts": 1794070800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Bitcoin ETFs Lose $411.9M on Friday as BlackRock Drives the Selling",
-      "link": "https://www.newsbtc.com/news/bitcoin/bitcoin-etfs-lose-411-9m-on-friday-as-blackrock-drives-the-selling/",
-      "summary": "US spot Bitcoin ETFs recorded a net $411.9 million outflow on November 6, according to Farside Investors. BlackRock's IBIT accounted for $403 million in…",
+      "title": "Ethereum Delays Glamsterdam Testnet Step Over Gas-Accounting Risks",
+      "link": "https://www.newsbtc.com/news/ethereum/ethereum-delays-glamsterdam-testnet-step-over-gas-accounting-risks/",
+      "summary": "Ethereum developers have postponed the next Glamsterdam hard-fork step on the Hoodi testnet after researchers identified applications that may depend on…",
       "source": "NewsBTC",
       "date": "2026-11-07",
       "date_human": "Nov 7, 2026",
-      "pub_ts": 1794052800,
+      "pub_ts": 1794067200,
       "image_candidates": [],
       "license_url": null,
       "image": null,

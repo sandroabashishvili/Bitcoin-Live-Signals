@@ -1,0 +1,332 @@
+{
+  "day_iso": "2026-11-08",
+  "generated_at_utc": "2026-11-08 05:05:11 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-11-08T05:05:04.070182+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 4,
+        "rejected": {
+          "unreviewed_link": 6
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 7,
+        "eligible": 5,
+        "rejected": {
+          "title_filter": 1,
+          "unreviewed_link": 1,
+          "older_than_window": 13
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 49,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 49
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 25
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 1,
+        "within_window": 2,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 1,
+          "topic_author_or_category": 1,
+          "older_than_window": 13
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 11
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 20
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 4,
+      "Cryptonews": 5,
+      "U.S. Bureau of Labor Statistics": 1
+    },
+    "unique_by_source": {
+      "NewsBTC": 4,
+      "Cryptonews": 5,
+      "U.S. Bureau of Labor Statistics": 1
+    },
+    "selected_by_source": {
+      "NewsBTC": 4,
+      "Cryptonews": 5,
+      "U.S. Bureau of Labor Statistics": 1
+    }
+  },
+  "count": 10,
+  "items": [
+    {
+      "title": "Aave Buys Avon Team to Bring More Fixed-Rate Lending Onchain",
+      "link": "https://www.newsbtc.com/news/defi/aave-buys-avon-team-to-bring-more-fixed-rate-lending-onchain/",
+      "summary": "Aave Labs said November 6 it had acquired Avon's team and technology, including fixed- and floating-rate lending systems and an onchain order book. The move…",
+      "source": "NewsBTC",
+      "date": "2026-11-08",
+      "date_human": "Nov 8, 2026",
+      "pub_ts": 1794114000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Wall Street Power Grab? Anti-Crypto Elizabeth Warren Could Put Day Trading in the Crosshairs",
+      "link": "https://cryptonews.com/news/elizabeth-warren-day-trading-senate-banking/",
+      "summary": "Elizabeth Warren is poised to lead Senate Banking as Wall Street, crypto, and day trading face tougher scrutiny under a Democratic Congress.",
+      "source": "Cryptonews",
+      "date": "2026-11-06",
+      "date_human": "Nov 6, 2026",
+      "pub_ts": 1793987700,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Payroll employment rises by 165,000 in October; unemployment rate changes little at 4.1%",
+      "link": "https://www.bls.gov/news.release/archives/empsit_11062026.htm",
+      "summary": "Total nonfarm payroll employment rose by 165,000 in October, and the unemployment rate changed little at 4.1 percent. Employment increased in professional and business services, in health care, and in transportation and warehousing.",
+      "source": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-06",
+      "date_human": "Nov 6, 2026",
+      "pub_ts": 1793969431,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Amundi Puts a European Equity Fund Share Class on Ethereum",
+      "link": "https://www.newsbtc.com/news/ethereum/amundi-puts-a-european-equity-fund-share-class-on-ethereum/",
+      "summary": "Amundi has launched a tokenised share class of its Core STOXX Europe 600 equity index fund on public Ethereum, working with CACEIS. It is a real fund…",
+      "source": "NewsBTC",
+      "date": "2026-11-08",
+      "date_human": "Nov 8, 2026",
+      "pub_ts": 1794103200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Hollywood Prediction Market Faces Insider Scare: James Bond Casting Bets Shift",
+      "link": "https://cryptonews.com/news/hollywood-prediction-market-james-bond-casting/",
+      "summary": "Hollywood prediction market scrutiny grows after suspicious James Bond cast bets trigger employee betting restrictions.",
+      "source": "Cryptonews",
+      "date": "2026-11-06",
+      "date_human": "Nov 6, 2026",
+      "pub_ts": 1793972055,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
+      "link": "https://www.newsbtc.com/news/bitcoin/us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed/",
+      "summary": "The US economy added 165,000 payroll jobs in October while unemployment stood at 4.1%, according to the Bureau of Labor Statistics' November 6 release. The…",
+      "source": "NewsBTC",
+      "date": "2026-11-07",
+      "date_human": "Nov 7, 2026",
+      "pub_ts": 1794085200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Paraguay Bank Collapse Shows Why Bitcoin Was Created as USDT Hits Premium",
+      "link": "https://cryptonews.com/news/paraguay-bank-collapse-usdt-premium-bitcoin-purpose/",
+      "summary": "Paraguay's bank crisis pushes USDT P2P prices higher, reviving Bitcoin's original purpose as an alternative to traditional banking.",
+      "source": "Cryptonews",
+      "date": "2026-11-06",
+      "date_human": "Nov 6, 2026",
+      "pub_ts": 1793968059,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "IREN's Bitcoin Mining Revenue Falls as AI Cloud Sales Nearly Triple",
+      "link": "https://www.newsbtc.com/news/bitcoin/iren-s-bitcoin-mining-revenue-falls-as-ai-cloud-sales-nearly-triple/",
+      "summary": "IREN reported $200 million in quarterly AI Cloud revenue, up from $71 million the previous quarter, while Bitcoin mining revenue fell from $67 million to $28…",
+      "source": "NewsBTC",
+      "date": "2026-11-07",
+      "date_human": "Nov 7, 2026",
+      "pub_ts": 1794081600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Elon Musk's Tesla and SpaceX Join 67 Firms Rejecting OKXICE Tokenised Stocks",
+      "link": "https://cryptonews.com/news/elon-musk-tesla-spacex-okxice-tokenized-stocks/",
+      "summary": "Elon Musk's Tesla and SpaceX join 67 companies rejecting OKXICE tokenized stocks as his Hyperliquid reaction adds another twist.",
+      "source": "Cryptonews",
+      "date": "2026-11-06",
+      "date_human": "Nov 6, 2026",
+      "pub_ts": 1793964853,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin ETF Outflows Hit $430M as Hong Kong Expands Its BTC Market",
+      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-hong-kong-btc-market/",
+      "summary": "Bitcoin ETF outflows reached $430M as Hong Kong expanded its spot BTC market and wealth managers increased cryptocurrency exposure.",
+      "source": "Cryptonews",
+      "date": "2026-11-06",
+      "date_human": "Nov 6, 2026",
+      "pub_ts": 1793956626,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}
