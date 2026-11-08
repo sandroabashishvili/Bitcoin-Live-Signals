@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-08",
-  "generated_at_utc": "2026-11-08 05:05:11 UTC",
+  "generated_at_utc": "2026-11-08 11:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-08T05:05:04.070182+00:00",
+    "collected_at": "2026-11-08T11:05:03.582407+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -49,12 +49,12 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 0,
-        "within_window": 7,
-        "eligible": 5,
+        "within_window": 6,
+        "eligible": 4,
         "rejected": {
           "title_filter": 1,
           "unreviewed_link": 1,
-          "older_than_window": 13
+          "older_than_window": 14
         }
       },
       {
@@ -99,12 +99,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 1,
-        "within_window": 2,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
           "unreviewed_link": 1,
-          "topic_author_or_category": 1,
-          "older_than_window": 13
+          "older_than_window": 14
         }
       },
       {
@@ -182,30 +181,30 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 4,
-      "Cryptonews": 5,
+      "Cryptonews": 4,
       "U.S. Bureau of Labor Statistics": 1
     },
     "unique_by_source": {
       "NewsBTC": 4,
-      "Cryptonews": 5,
+      "Cryptonews": 4,
       "U.S. Bureau of Labor Statistics": 1
     },
     "selected_by_source": {
       "NewsBTC": 4,
-      "Cryptonews": 5,
+      "Cryptonews": 4,
       "U.S. Bureau of Labor Statistics": 1
     }
   },
-  "count": 10,
+  "count": 9,
   "items": [
     {
-      "title": "Aave Buys Avon Team to Bring More Fixed-Rate Lending Onchain",
-      "link": "https://www.newsbtc.com/news/defi/aave-buys-avon-team-to-bring-more-fixed-rate-lending-onchain/",
-      "summary": "Aave Labs said November 6 it had acquired Avon's team and technology, including fixed- and floating-rate lending systems and an onchain order book. The move…",
+      "title": "Kraken Parent Payward Takes AAVE Stake as Institutions Look Deeper Into DeFi",
+      "link": "https://www.newsbtc.com/news/defi/kraken-parent-payward-takes-aave-stake-as-institutions-look-deeper-into-defi/",
+      "summary": "Payward, the infrastructure company behind Kraken, said November 5 that an affiliated fund and its clients had acquired an undisclosed amount of AAVE through…",
       "source": "NewsBTC",
       "date": "2026-11-08",
       "date_human": "Nov 8, 2026",
-      "pub_ts": 1794114000,
+      "pub_ts": 1794121200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -238,13 +237,13 @@
       "image_local": null
     },
     {
-      "title": "Amundi Puts a European Equity Fund Share Class on Ethereum",
-      "link": "https://www.newsbtc.com/news/ethereum/amundi-puts-a-european-equity-fund-share-class-on-ethereum/",
-      "summary": "Amundi has launched a tokenised share class of its Core STOXX Europe 600 equity index fund on public Ethereum, working with CACEIS. It is a real fund…",
+      "title": "Solana Labs-Backed Leap Launches Beta App for Tokenized Stocks and Crypto",
+      "link": "https://www.newsbtc.com/news/solana/solana-labs-backed-leap-launches-beta-app-for-tokenized-stocks-and-crypto/",
+      "summary": "Leap, described by Solana Labs as a mobile trading app for tokenised stocks, ETFs, metals, currencies and crypto, launched in early-access beta on iOS on…",
       "source": "NewsBTC",
       "date": "2026-11-08",
       "date_human": "Nov 8, 2026",
-      "pub_ts": 1794103200,
+      "pub_ts": 1794117600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -264,13 +263,13 @@
       "image_local": null
     },
     {
-      "title": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
-      "link": "https://www.newsbtc.com/news/bitcoin/us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed/",
-      "summary": "The US economy added 165,000 payroll jobs in October while unemployment stood at 4.1%, according to the Bureau of Labor Statistics' November 6 release. The…",
+      "title": "Aave Buys Avon Team to Bring More Fixed-Rate Lending Onchain",
+      "link": "https://www.newsbtc.com/news/defi/aave-buys-avon-team-to-bring-more-fixed-rate-lending-onchain/",
+      "summary": "Aave Labs said November 6 it had acquired Avon's team and technology, including fixed- and floating-rate lending systems and an onchain order book. The move…",
       "source": "NewsBTC",
-      "date": "2026-11-07",
-      "date_human": "Nov 7, 2026",
-      "pub_ts": 1794085200,
+      "date": "2026-11-08",
+      "date_human": "Nov 8, 2026",
+      "pub_ts": 1794114000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -290,13 +289,13 @@
       "image_local": null
     },
     {
-      "title": "IREN's Bitcoin Mining Revenue Falls as AI Cloud Sales Nearly Triple",
-      "link": "https://www.newsbtc.com/news/bitcoin/iren-s-bitcoin-mining-revenue-falls-as-ai-cloud-sales-nearly-triple/",
-      "summary": "IREN reported $200 million in quarterly AI Cloud revenue, up from $71 million the previous quarter, while Bitcoin mining revenue fell from $67 million to $28…",
+      "title": "Amundi Puts a European Equity Fund Share Class on Ethereum",
+      "link": "https://www.newsbtc.com/news/ethereum/amundi-puts-a-european-equity-fund-share-class-on-ethereum/",
+      "summary": "Amundi has launched a tokenised share class of its Core STOXX Europe 600 equity index fund on public Ethereum, working with CACEIS. It is a real fund…",
       "source": "NewsBTC",
-      "date": "2026-11-07",
-      "date_human": "Nov 7, 2026",
-      "pub_ts": 1794081600,
+      "date": "2026-11-08",
+      "date_human": "Nov 8, 2026",
+      "pub_ts": 1794103200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -310,19 +309,6 @@
       "date": "2026-11-06",
       "date_human": "Nov 6, 2026",
       "pub_ts": 1793964853,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin ETF Outflows Hit $430M as Hong Kong Expands Its BTC Market",
-      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-hong-kong-btc-market/",
-      "summary": "Bitcoin ETF outflows reached $430M as Hong Kong expanded its spot BTC market and wealth managers increased cryptocurrency exposure.",
-      "source": "Cryptonews",
-      "date": "2026-11-06",
-      "date_human": "Nov 6, 2026",
-      "pub_ts": 1793956626,
       "image_candidates": [],
       "license_url": null,
       "image": null,
