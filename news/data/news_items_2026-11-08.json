@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-08",
-  "generated_at_utc": "2026-11-08 17:05:11 UTC",
+  "generated_at_utc": "2026-11-08 23:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-08T17:05:04.880208+00:00",
+    "collected_at": "2026-11-08T23:05:04.729300+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
-        "within_window": 2,
-        "eligible": 1,
+        "within_24h": 4,
+        "within_window": 4,
+        "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 18
+          "topic_author_or_category": 4,
+          "older_than_window": 16
         }
       },
       {
@@ -179,19 +179,16 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 4,
-      "Cryptonews": 1
+      "NewsBTC": 4
     },
     "unique_by_source": {
-      "NewsBTC": 4,
-      "Cryptonews": 1
+      "NewsBTC": 4
     },
     "selected_by_source": {
-      "NewsBTC": 4,
-      "Cryptonews": 1
+      "NewsBTC": 4
     }
   },
-  "count": 5,
+  "count": 4,
   "items": [
     {
       "title": "Kraken Parent Payward Takes AAVE Stake as Institutions Look Deeper Into DeFi",
@@ -201,19 +198,6 @@
       "date": "2026-11-08",
       "date_human": "Nov 8, 2026",
       "pub_ts": 1794121200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Wall Street Power Grab? Anti-Crypto Elizabeth Warren Could Put Day Trading in the Crosshairs",
-      "link": "https://cryptonews.com/news/elizabeth-warren-day-trading-senate-banking/",
-      "summary": "Elizabeth Warren is poised to lead Senate Banking as Wall Street, crypto, and day trading face tougher scrutiny under a Democratic Congress.",
-      "source": "Cryptonews",
-      "date": "2026-11-06",
-      "date_human": "Nov 6, 2026",
-      "pub_ts": 1793987700,
       "image_candidates": [],
       "license_url": null,
       "image": null,

@@ -1,0 +1,262 @@
+{
+  "day_iso": "2026-11-09",
+  "generated_at_utc": "2026-11-09 05:05:10 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-11-09T05:05:05.387933+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 4,
+        "rejected": {
+          "unreviewed_link": 6
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 5,
+        "within_window": 5,
+        "eligible": 1,
+        "rejected": {
+          "topic_author_or_category": 4,
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 49,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 49
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 25
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 1,
+          "older_than_window": 14
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 20
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 4,
+      "Cryptonews": 1
+    },
+    "unique_by_source": {
+      "NewsBTC": 4,
+      "Cryptonews": 1
+    },
+    "selected_by_source": {
+      "NewsBTC": 4,
+      "Cryptonews": 1
+    }
+  },
+  "count": 5,
+  "items": [
+    {
+      "title": "Cipher Digital Starts Booking HPC Lease Revenue as $9.1B Contract Takes Shape",
+      "link": "https://www.newsbtc.com/news/bitcoin/cipher-digital-starts-booking-hpc-lease-revenue-as-9-1b-contract-takes-shape/",
+      "summary": "Cipher Digital says it recognised its first high-performance-computing lease revenue in the third quarter of 2026 and extended its Barber Lake lease to 20…",
+      "source": "NewsBTC",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794193200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Why Is Crypto Down? Jensen Huang Chinese Spy Scandal Sends AI Stocks Into Chaos",
+      "link": "https://cryptonews.com/news/why-is-crypto-down-jensen-huang-ai-stocks/",
+      "summary": "Why is crypto down? Bitcoin slide as AI stocks crash and Nvidia CEO Jensen Huang faces an investigation over alleged Chinese spy links.",
+      "source": "Cryptonews",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794191972,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Core Scientific's AI Colocation Revenue Jumps to $215M as Mining Role Shrinks",
+      "link": "https://www.newsbtc.com/news/bitcoin/core-scientific-s-ai-colocation-revenue-jumps-to-215m-as-mining-role-shrinks/",
+      "summary": "Core Scientific reported $215.4 million in third-quarter colocation revenue, nearly 60% above the prior quarter, while billing 485 MW of capacity. Its…",
+      "source": "NewsBTC",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794189600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Hut 8 Expands AI Campus Commitments While Funding Buybacks With Bitcoin Sales",
+      "link": "https://www.newsbtc.com/news/bitcoin/hut-8-expands-ai-campus-commitments-while-funding-buybacks-with-bitcoin-sales/",
+      "summary": "Hut 8 says it fully commercialised its Beacon Point AI campus with a second 352 MW lease, taking expected aggregate base-term contract value across its AI…",
+      "source": "NewsBTC",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794186000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Riot Sells More Than 20,000 Bitcoin as AI Data-Centre Contracts Reach $38B",
+      "link": "https://www.newsbtc.com/news/bitcoin/riot-sells-more-than-20-000-bitcoin-as-ai-data-centre-contracts-reach-38b/",
+      "summary": "Riot Platforms says it sold 20,264 BTC in the first nine months of 2026, raising about $1.5 billion primarily for data-centre development. Its latest…",
+      "source": "NewsBTC",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794182400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}
