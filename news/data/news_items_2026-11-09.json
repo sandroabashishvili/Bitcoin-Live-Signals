@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-09",
-  "generated_at_utc": "2026-11-09 05:05:10 UTC",
+  "generated_at_utc": "2026-11-09 11:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-09T05:05:05.387933+00:00",
+    "collected_at": "2026-11-09T11:05:05.734803+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 4,
+        "eligible": 3,
         "rejected": {
-          "unreviewed_link": 6
+          "unreviewed_link": 7
         }
       },
       {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 5,
-        "within_window": 5,
-        "eligible": 1,
+        "within_24h": 7,
+        "within_window": 7,
+        "eligible": 2,
         "rejected": {
-          "topic_author_or_category": 4,
-          "older_than_window": 15
+          "topic_author_or_category": 5,
+          "older_than_window": 13
         }
       },
       {
@@ -179,20 +179,46 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 4,
-      "Cryptonews": 1
+      "NewsBTC": 3,
+      "Cryptonews": 2
     },
     "unique_by_source": {
-      "NewsBTC": 4,
-      "Cryptonews": 1
+      "NewsBTC": 3,
+      "Cryptonews": 2
     },
     "selected_by_source": {
-      "NewsBTC": 4,
-      "Cryptonews": 1
+      "NewsBTC": 3,
+      "Cryptonews": 2
     }
   },
   "count": 5,
   "items": [
+    {
+      "title": "Ethereum Foundation Highlights Bhutan Digital ID and Privacy-Focused Aid Experiments",
+      "link": "https://www.newsbtc.com/news/ethereum/ethereum-foundation-highlights-bhutan-digital-id-and-privacy-focused-aid-experiments/",
+      "summary": "The Ethereum Foundation has launched a public-infrastructure initiative explaining how open blockchain systems may support digital identity and cooperation…",
+      "source": "NewsBTC",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794222000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Blumenthal Investigation Targets Binance, Tether and Trump Crypto Firms as Senate Sets January Deadline",
+      "link": "https://cryptonews.com/news/blumenthal-investigation-binance-tether-trump-crypto/",
+      "summary": "Blumenthal Investigation targets Binance, Tether and Trump crypto firms as the Senate demands records ahead of a January 4 deadline.",
+      "source": "Cryptonews",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794205889,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Cipher Digital Starts Booking HPC Lease Revenue as $9.1B Contract Takes Shape",
       "link": "https://www.newsbtc.com/news/bitcoin/cipher-digital-starts-booking-hpc-lease-revenue-as-9-1b-contract-takes-shape/",
@@ -227,32 +253,6 @@
       "date": "2026-11-09",
       "date_human": "Nov 9, 2026",
       "pub_ts": 1794189600,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Hut 8 Expands AI Campus Commitments While Funding Buybacks With Bitcoin Sales",
-      "link": "https://www.newsbtc.com/news/bitcoin/hut-8-expands-ai-campus-commitments-while-funding-buybacks-with-bitcoin-sales/",
-      "summary": "Hut 8 says it fully commercialised its Beacon Point AI campus with a second 352 MW lease, taking expected aggregate base-term contract value across its AI…",
-      "source": "NewsBTC",
-      "date": "2026-11-09",
-      "date_human": "Nov 9, 2026",
-      "pub_ts": 1794186000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Riot Sells More Than 20,000 Bitcoin as AI Data-Centre Contracts Reach $38B",
-      "link": "https://www.newsbtc.com/news/bitcoin/riot-sells-more-than-20-000-bitcoin-as-ai-data-centre-contracts-reach-38b/",
-      "summary": "Riot Platforms says it sold 20,264 BTC in the first nine months of 2026, raising about $1.5 billion primarily for data-centre development. Its latest…",
-      "source": "NewsBTC",
-      "date": "2026-11-09",
-      "date_human": "Nov 9, 2026",
-      "pub_ts": 1794182400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
