@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-09",
-  "generated_at_utc": "2026-11-09 11:05:11 UTC",
+  "generated_at_utc": "2026-11-09 17:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-09T11:05:05.734803+00:00",
+    "collected_at": "2026-11-09T17:05:05.836031+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 3,
+        "eligible": 5,
         "rejected": {
-          "unreviewed_link": 7
+          "unreviewed_link": 5
         }
       },
       {
@@ -48,12 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 7,
-        "within_window": 7,
-        "eligible": 2,
+        "within_24h": 9,
+        "within_window": 10,
+        "eligible": 4,
         "rejected": {
+          "unreviewed_link": 1,
           "topic_author_or_category": 5,
-          "older_than_window": 13
+          "older_than_window": 10
         }
       },
       {
@@ -98,11 +99,10 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 1,
-          "older_than_window": 14
+          "older_than_window": 15
         }
       },
       {
@@ -179,28 +179,80 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 2
+      "NewsBTC": 5,
+      "Cryptonews": 4
     },
     "unique_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 2
+      "NewsBTC": 5,
+      "Cryptonews": 4
     },
     "selected_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 2
+      "NewsBTC": 5,
+      "Cryptonews": 4
     }
   },
-  "count": 5,
+  "count": 9,
   "items": [
     {
-      "title": "Ethereum Foundation Highlights Bhutan Digital ID and Privacy-Focused Aid Experiments",
-      "link": "https://www.newsbtc.com/news/ethereum/ethereum-foundation-highlights-bhutan-digital-id-and-privacy-focused-aid-experiments/",
-      "summary": "The Ethereum Foundation has launched a public-infrastructure initiative explaining how open blockchain systems may support digital identity and cooperation…",
+      "title": "US Sanctions Eight Canadian Money Services Firms Over Iranian Crypto Transfer Allegations",
+      "link": "https://www.newsbtc.com/news/us-sanctions-eight-canadian-money-services-firms-over-iranian-crypto-transfer-allegations/",
+      "summary": "The US Treasury has added eight Canada-based money services businesses to its sanctions list, alleging that they helped move value for the Iranian regime and sanctioned actors. The November 6 action explicitly focuses on exchanges between local…",
       "source": "NewsBTC",
       "date": "2026-11-09",
       "date_human": "Nov 9, 2026",
-      "pub_ts": 1794222000,
+      "pub_ts": 1794243600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Strategy Buys $82M in Bitcoin as STRC Tokenized Stock Adds New Twist to Saylor's BTC",
+      "link": "https://cryptonews.com/news/strategy-bitcoin-holdings-btc-strc-tokenization/",
+      "summary": "Strategy buys 1,036 Bitcoin for $82 million as Michael Saylor expands holdings, repurchases $188M in STRC, and faces ETF outflows.",
+      "source": "Cryptonews",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794235654,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "TRON Network Integrates with Backpack Wallet, Expanding Access to Its Multichain Ecosystem",
+      "link": "https://www.newsbtc.com/news/tron-network-integrates-with-backpack-wallet-expanding-access-to-its-multichain-ecosystem/",
+      "summary": "Geneva, Switzerland, November 9, 2026 — TRON DAO, the community-governed DAO dedicated to accelerating the decentralization of the internet through blockchain technology and decentralized applications (dApps), today announced the integration of the TRON network with Backpack Wallet. The integration brings TRON’s blockchain ecosystem directly to Backpack users, enabling them to send, receive, bridge, and manage TRON-based digital assets through Backpack’s mobile app and browser extension, all while maintaining full self-custody. Through the integration, Backpack users will be able to send, rece",
+      "source": "NewsBTC",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794230841,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Coinbase Bank Gets Full OCC Approval as Ripple Leads Crypto Banking Push",
+      "link": "https://cryptonews.com/news/coinbase-bank-occ-approval-ripple/",
+      "summary": "Coinbase Bank secures full OCC approval, following Ripple as crypto companies expand into federally supervised US banking infrastructure.",
+      "source": "Cryptonews",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794223946,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Trade Tokenized US Stocks on HTX! HTX Launches Tokenized US Stocks for Spot Trading, with Zero Fees to Kick Off the Trading Carnival",
+      "link": "https://www.newsbtc.com/news/trade-tokenized-us-stocks-on-htx-htx-launches-tokenized-us-stocks-for-spot-trading-with-zero-fees-to-kick-off-the-trading-carnival/",
+      "summary": "Apia, Samoa, November 9, 2026 – As traditional finance and blockchain become increasingly interconnected and barriers between asset classes break down, the ability to offer users one-stop access to both crypto and US stock trading is becoming an essential capability for trading platforms. On November 9, HTX officially launched spot trading for bStocks (tokenized US stocks and ETFs), with 20 popular assets, including NVDA, TSLA, GOOGL, MSTR, CRCL, and QQQ, available in USDT trading pairs. The launch also kicks off the tokenized US stocks trading carnival event, featuring zero trading fees on de",
+      "source": "NewsBTC",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794230686,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -220,13 +272,13 @@
       "image_local": null
     },
     {
-      "title": "Cipher Digital Starts Booking HPC Lease Revenue as $9.1B Contract Takes Shape",
-      "link": "https://www.newsbtc.com/news/bitcoin/cipher-digital-starts-booking-hpc-lease-revenue-as-9-1b-contract-takes-shape/",
-      "summary": "Cipher Digital says it recognised its first high-performance-computing lease revenue in the third quarter of 2026 and extended its Barber Lake lease to 20…",
+      "title": "World Liberty Financial Proposes WLFI Buybacks as Governance Token Comes Under Pressure",
+      "link": "https://www.newsbtc.com/news/defi/world-liberty-financial-proposes-wlfi-buybacks-as-governance-token-comes-under-pressure/",
+      "summary": "World Liberty Financial announced a buyback programme for its WLFI governance token on November 5, with initial funding that may include income from…",
       "source": "NewsBTC",
       "date": "2026-11-09",
       "date_human": "Nov 9, 2026",
-      "pub_ts": 1794193200,
+      "pub_ts": 1794229200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -246,13 +298,13 @@
       "image_local": null
     },
     {
-      "title": "Core Scientific's AI Colocation Revenue Jumps to $215M as Mining Role Shrinks",
-      "link": "https://www.newsbtc.com/news/bitcoin/core-scientific-s-ai-colocation-revenue-jumps-to-215m-as-mining-role-shrinks/",
-      "summary": "Core Scientific reported $215.4 million in third-quarter colocation revenue, nearly 60% above the prior quarter, while billing 485 MW of capacity. Its…",
+      "title": "Ethereum Foundation Highlights Bhutan Digital ID and Privacy-Focused Aid Experiments",
+      "link": "https://www.newsbtc.com/news/ethereum/ethereum-foundation-highlights-bhutan-digital-id-and-privacy-focused-aid-experiments/",
+      "summary": "The Ethereum Foundation has launched a public-infrastructure initiative explaining how open blockchain systems may support digital identity and cooperation…",
       "source": "NewsBTC",
       "date": "2026-11-09",
       "date_human": "Nov 9, 2026",
-      "pub_ts": 1794189600,
+      "pub_ts": 1794222000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
