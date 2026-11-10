@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-09",
-  "generated_at_utc": "2026-11-09 17:05:11 UTC",
+  "generated_at_utc": "2026-11-09 23:05:12 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-09T17:05:05.836031+00:00",
+    "collected_at": "2026-11-09T23:05:05.960089+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 5,
+        "eligible": 7,
         "rejected": {
-          "unreviewed_link": 5
+          "unreviewed_link": 3
         }
       },
       {
@@ -49,12 +49,12 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 9,
-        "within_window": 10,
+        "within_window": 13,
         "eligible": 4,
         "rejected": {
+          "topic_author_or_category": 8,
           "unreviewed_link": 1,
-          "topic_author_or_category": 5,
-          "older_than_window": 10
+          "older_than_window": 7
         }
       },
       {
@@ -168,39 +168,37 @@
       {
         "source": "Federal Reserve Board",
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-        "status": "ok",
-        "entries": 20,
+        "status": "failed",
+        "entries": 0,
         "within_24h": 0,
         "within_window": 0,
         "eligible": 0,
-        "rejected": {
-          "older_than_window": 20
-        }
+        "rejected": {}
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 5,
+      "NewsBTC": 7,
       "Cryptonews": 4
     },
     "unique_by_source": {
-      "NewsBTC": 5,
+      "NewsBTC": 7,
       "Cryptonews": 4
     },
     "selected_by_source": {
-      "NewsBTC": 5,
+      "NewsBTC": 7,
       "Cryptonews": 4
     }
   },
-  "count": 9,
+  "count": 11,
   "items": [
     {
-      "title": "US Sanctions Eight Canadian Money Services Firms Over Iranian Crypto Transfer Allegations",
-      "link": "https://www.newsbtc.com/news/us-sanctions-eight-canadian-money-services-firms-over-iranian-crypto-transfer-allegations/",
-      "summary": "The US Treasury has added eight Canada-based money services businesses to its sanctions list, alleging that they helped move value for the Iranian regime and sanctioned actors. The November 6 action explicitly focuses on exchanges between local…",
+      "title": "Dinari Adds Broadridge Voting Rails to Tokenized US Shares",
+      "link": "https://www.newsbtc.com/news/dinari-adds-broadridge-voting-rails-to-tokenized-us-shares/",
+      "summary": "Tokenized stocks have often promised easier access and faster settlement, but a less glamorous question keeps surfacing: can the holder vote? Broadridge and Dinari announced an integration on November 5 that aims to connect eligible holders of…",
       "source": "NewsBTC",
       "date": "2026-11-09",
       "date_human": "Nov 9, 2026",
-      "pub_ts": 1794243600,
+      "pub_ts": 1794265200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -220,13 +218,13 @@
       "image_local": null
     },
     {
-      "title": "TRON Network Integrates with Backpack Wallet, Expanding Access to Its Multichain Ecosystem",
-      "link": "https://www.newsbtc.com/news/tron-network-integrates-with-backpack-wallet-expanding-access-to-its-multichain-ecosystem/",
-      "summary": "Geneva, Switzerland, November 9, 2026 — TRON DAO, the community-governed DAO dedicated to accelerating the decentralization of the internet through blockchain technology and decentralized applications (dApps), today announced the integration of the TRON network with Backpack Wallet. The integration brings TRON’s blockchain ecosystem directly to Backpack users, enabling them to send, receive, bridge, and manage TRON-based digital assets through Backpack’s mobile app and browser extension, all while maintaining full self-custody. Through the integration, Backpack users will be able to send, rece",
+      "title": "Broadridge Says Blockchain Repo Platform Processed $7.6T in October",
+      "link": "https://www.newsbtc.com/news/broadridge-says-blockchain-repo-platform-processed-7-6t-in-october/",
+      "summary": "Broadridge says its Distributed Ledger Repo service processed $7.6 trillion in repurchase agreement transactions during October, averaging $345 billion a day. The November 6 disclosure is a striking reminder that some of blockchain's largest…",
       "source": "NewsBTC",
       "date": "2026-11-09",
       "date_human": "Nov 9, 2026",
-      "pub_ts": 1794230841,
+      "pub_ts": 1794261600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -246,13 +244,13 @@
       "image_local": null
     },
     {
-      "title": "Trade Tokenized US Stocks on HTX! HTX Launches Tokenized US Stocks for Spot Trading, with Zero Fees to Kick Off the Trading Carnival",
-      "link": "https://www.newsbtc.com/news/trade-tokenized-us-stocks-on-htx-htx-launches-tokenized-us-stocks-for-spot-trading-with-zero-fees-to-kick-off-the-trading-carnival/",
-      "summary": "Apia, Samoa, November 9, 2026 – As traditional finance and blockchain become increasingly interconnected and barriers between asset classes break down, the ability to offer users one-stop access to both crypto and US stock trading is becoming an essential capability for trading platforms. On November 9, HTX officially launched spot trading for bStocks (tokenized US stocks and ETFs), with 20 popular assets, including NVDA, TSLA, GOOGL, MSTR, CRCL, and QQQ, available in USDT trading pairs. The launch also kicks off the tokenized US stocks trading carnival event, featuring zero trading fees on de",
+      "title": "Canton Hosts Tokenized US Share Trade Under SEC Innovation Exemption",
+      "link": "https://www.newsbtc.com/news/canton-hosts-tokenized-us-share-trade-under-sec-innovation-exemption/",
+      "summary": "A tokenized share transaction involving a Nasdaq-listed company has taken place on Canton under a US regulatory exemption, according to an announcement from venue operator TSV. The November 4 transaction involved shares of Canton Strategic Holdings…",
       "source": "NewsBTC",
       "date": "2026-11-09",
       "date_human": "Nov 9, 2026",
-      "pub_ts": 1794230686,
+      "pub_ts": 1794258000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -272,13 +270,13 @@
       "image_local": null
     },
     {
-      "title": "World Liberty Financial Proposes WLFI Buybacks as Governance Token Comes Under Pressure",
-      "link": "https://www.newsbtc.com/news/defi/world-liberty-financial-proposes-wlfi-buybacks-as-governance-token-comes-under-pressure/",
-      "summary": "World Liberty Financial announced a buyback programme for its WLFI governance token on November 5, with initial funding that may include income from…",
+      "title": "SEC Staff Gives Canton Coin No-Action Relief, but the Conditions Matter",
+      "link": "https://www.newsbtc.com/news/sec-staff-gives-canton-coin-no-action-relief-but-the-conditions-matter/",
+      "summary": "Canton Coin received an important piece of US regulatory clarity on November 3 when staff in the Securities and Exchange Commission's Division of Corporation Finance issued a no-action response. The staff said, based on representations made to it,…",
       "source": "NewsBTC",
       "date": "2026-11-09",
       "date_human": "Nov 9, 2026",
-      "pub_ts": 1794229200,
+      "pub_ts": 1794254400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -298,13 +296,39 @@
       "image_local": null
     },
     {
-      "title": "Ethereum Foundation Highlights Bhutan Digital ID and Privacy-Focused Aid Experiments",
-      "link": "https://www.newsbtc.com/news/ethereum/ethereum-foundation-highlights-bhutan-digital-id-and-privacy-focused-aid-experiments/",
-      "summary": "The Ethereum Foundation has launched a public-infrastructure initiative explaining how open blockchain systems may support digital identity and cooperation…",
+      "title": "US Sanctions More Prince Group-Linked Companies as Crypto Scam Network Crackdown Widens",
+      "link": "https://www.newsbtc.com/news/us-sanctions-more-prince-group-linked-companies-as-crypto-scam-network-crackdown-widens/",
+      "summary": "US officials are pursuing the corporate structures behind online investment scams, not merely the wallets receiving stolen funds. On November 5, Treasury sanctioned four individuals and 41 entities it says supported the Prince Group transnational…",
       "source": "NewsBTC",
       "date": "2026-11-09",
       "date_human": "Nov 9, 2026",
-      "pub_ts": 1794222000,
+      "pub_ts": 1794250800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "FATF Plans Closer Scrutiny of Countries With Weak Virtual Asset Controls",
+      "link": "https://www.newsbtc.com/news/fatf-plans-closer-scrutiny-of-countries-with-weak-virtual-asset-controls/",
+      "summary": "Global crypto compliance rules may face a tougher practical test after the Financial Action Task Force agreed to review jurisdictions with longstanding shortcomings in virtual asset oversight. In a November 6 readout, the US Treasury said the…",
+      "source": "NewsBTC",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794247200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "US Sanctions Eight Canadian Money Services Firms Over Iranian Crypto Transfer Allegations",
+      "link": "https://www.newsbtc.com/news/us-sanctions-eight-canadian-money-services-firms-over-iranian-crypto-transfer-allegations/",
+      "summary": "The US Treasury has added eight Canada-based money services businesses to its sanctions list, alleging that they helped move value for the Iranian regime and sanctioned actors. The November 6 action explicitly focuses on exchanges between local…",
+      "source": "NewsBTC",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794243600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
