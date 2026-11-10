@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-10",
-  "generated_at_utc": "2026-11-10 11:05:08 UTC",
+  "generated_at_utc": "2026-11-10 17:05:06 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-10T11:05:01.800750+00:00",
+    "collected_at": "2026-11-10T17:05:00.395411+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -46,13 +46,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 12,
-        "within_window": 19,
-        "eligible": 6,
+        "within_24h": 11,
+        "within_window": 20,
+        "eligible": 7,
         "rejected": {
           "topic_author_or_category": 11,
-          "unreviewed_link": 2,
-          "older_than_window": 1
+          "unreviewed_link": 2
         }
       },
       {
@@ -60,11 +59,11 @@
         "url": "https://www.bls.gov/feed/cpi.rss",
         "status": "ok",
         "entries": 12,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 12
+          "older_than_window": 11
         }
       },
       {
@@ -96,11 +95,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 2,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 15
+          "unreviewed_link": 2,
+          "older_than_window": 13
         }
       },
       {
@@ -179,27 +179,69 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 6
+      "U.S. Bureau of Labor Statistics": 1,
+      "Cryptonews": 7
     },
     "unique_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 6
+      "U.S. Bureau of Labor Statistics": 1,
+      "Cryptonews": 7
     },
     "selected_by_source": {
-      "NewsBTC": 8,
+      "NewsBTC": 7,
+      "U.S. Bureau of Labor Statistics": 1,
       "Cryptonews": 4
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "American Bitcoin Says Q3 Net Income Reached $126M as BTC Reserve Grew",
-      "link": "https://www.newsbtc.com/news/american-bitcoin-says-q3-net-income-reached-126m-as-btc-reserve-grew/",
-      "summary": "American Bitcoin reported approximately $126 million in third-quarter net income and said its Bitcoin reserve increased through mining rather than new spot purchases during the period. The November 4 release also cites about $221 million in…",
+      "title": "Valour Lists Eight New Crypto ETPs Including Canton, Morpho and Raydium",
+      "link": "https://www.newsbtc.com/news/valour-lists-eight-new-crypto-etps-including-canton-morpho-and-raydium/",
+      "summary": "Valour, a subsidiary of DeFi Technologies, says it has added eight digital asset exchange-traded products to Sweden's Spotlight Stock Market. The November 5 announcement expands the issuer's range beyond the most established cryptocurrencies into a…",
       "source": "NewsBTC",
       "date": "2026-11-10",
       "date_human": "Nov 10, 2026",
-      "pub_ts": 1794304800,
+      "pub_ts": 1794322800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "CPI for all items increases 0.4% in October; shelter rises",
+      "link": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
+      "summary": "In October, the Consumer Price Index for All Urban Consumers rose 0.4 percent, seasonally adjusted (SA). The index for all items less food and energy rose 0.3 percent in October (SA).",
+      "source": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794315347,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Your iPhone Duo Under Attack? Binance Flags Dangerous iOS Security Flaw",
+      "link": "https://cryptonews.com/news/binance-ios-worse-query-iphone-duo-18pro-security-flaw/",
+      "summary": "Binance warns iPhone users that an iOS flaw could expose crypto seed phrases, private keys, and login credentials through malicious apps.",
+      "source": "Cryptonews",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794312152,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Circle Makes the Case for AI Agent Payments, With Spending Controls at the Center",
+      "link": "https://www.newsbtc.com/news/circle-makes-the-case-for-ai-agent-payments-with-spending-controls-at-the-center/",
+      "summary": "Circle is arguing that stablecoins could become a useful payment layer for AI agents that buy software, access services or settle transactions on behalf of people and businesses. A November 4 explainer from the USDC issuer sets out what it calls…",
+      "source": "NewsBTC",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794319200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -219,13 +261,13 @@
       "image_local": null
     },
     {
-      "title": "Hyperliquid Strategies Reports 38.5M HYPE Treasury After $802M Deployment",
-      "link": "https://www.newsbtc.com/news/hyperliquid-strategies-reports-38-5m-hype-treasury-after-802m-deployment/",
-      "summary": "Hyperliquid Strategies says its HYPE token treasury reached 38.5 million tokens at September 30 after a quarter in which it deployed $802 million. The Nasdaq-listed company reported the figures on November 5 alongside plans to pursue futures…",
+      "title": "Solana Changelog Puts Faster Web3.js Builds and Validator Work in Focus",
+      "link": "https://www.newsbtc.com/news/solana-changelog-puts-faster-web3-js-builds-and-validator-work-in-focus/",
+      "summary": "Solana's November 5 developer changelog highlights a collection of tooling and validator improvements rather than one headline-grabbing network upgrade. Among them are faster builds for JavaScript applications, changes affecting validator…",
       "source": "NewsBTC",
       "date": "2026-11-10",
       "date_human": "Nov 10, 2026",
-      "pub_ts": 1794301200,
+      "pub_ts": 1794315600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -245,13 +287,13 @@
       "image_local": null
     },
     {
-      "title": "Alchemy Pay Says Mississippi Licence Expands US Money Transmission Coverage to 20 States",
-      "link": "https://www.newsbtc.com/news/alchemy-pay-says-mississippi-licence-expands-us-money-transmission-coverage-to-20-states/",
-      "summary": "Alchemy Pay says it has secured a money transmitter licence in Mississippi, taking the number of US states where it holds such authorizations to 20. The November 5 disclosure is another example of crypto payment providers building a state-by-state…",
+      "title": "Bybit Says $17.3B Proof of Reserves Covers 50 Assets, but the Audit Has Limits",
+      "link": "https://www.newsbtc.com/news/bybit-says-17-3b-proof-of-reserves-covers-50-assets-but-the-audit-has-limits/",
+      "summary": "Bybit says the latest snapshot of its proof-of-reserves system covered $17.3 billion in customer assets across 50 cryptocurrencies. The exchange's November 3 announcement describes its 41st report, with figures independently checked by security…",
       "source": "NewsBTC",
       "date": "2026-11-10",
       "date_human": "Nov 10, 2026",
-      "pub_ts": 1794297600,
+      "pub_ts": 1794312000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -271,78 +313,39 @@
       "image_local": null
     },
     {
-      "title": "Lombard Systems Raises $4M to Make Tokenized Assets Easier to Borrow Against",
-      "link": "https://www.newsbtc.com/news/lombard-systems-raises-4m-to-make-tokenized-assets-easier-to-borrow-against/",
-      "summary": "Tokenizing an asset is only the beginning; financing it is another problem entirely. Lombard Systems announced $4 million in pre-seed and seed funding on November 5 to expand a standard it calls Delivery-versus-Lock, or DvL. The company wants…",
+      "title": "Re Protocol Tops $400M in Deposits as Onchain Reinsurance Yield Attracts Capital",
+      "link": "https://www.newsbtc.com/news/re-protocol-tops-400m-in-deposits-as-onchain-reinsurance-yield-attracts-capital/",
+      "summary": "Re Protocol says deposits across its reUSD and reUSDe products have exceeded $400 million, putting a relatively unfamiliar type of real-world asset exposure into the spotlight: insurance and reinsurance. Its November 4 announcement says the latest…",
       "source": "NewsBTC",
       "date": "2026-11-10",
       "date_human": "Nov 10, 2026",
-      "pub_ts": 1794294000,
+      "pub_ts": 1794308400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Coinbase Bank Gets Full OCC Approval as Ripple Leads Crypto Banking Push",
-      "link": "https://cryptonews.com/news/coinbase-bank-occ-approval-ripple/",
-      "summary": "Coinbase Bank secures full OCC approval, following Ripple as crypto companies expand into federally supervised US banking infrastructure.",
-      "source": "Cryptonews",
-      "date": "2026-11-09",
-      "date_human": "Nov 9, 2026",
-      "pub_ts": 1794223946,
+      "title": "American Bitcoin Says Q3 Net Income Reached $126M as BTC Reserve Grew",
+      "link": "https://www.newsbtc.com/news/american-bitcoin-says-q3-net-income-reached-126m-as-btc-reserve-grew/",
+      "summary": "American Bitcoin reported approximately $126 million in third-quarter net income and said its Bitcoin reserve increased through mining rather than new spot purchases during the period. The November 4 release also cites about $221 million in…",
+      "source": "NewsBTC",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794304800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Blockchain.com Adds Trading API for Institutional Crypto Execution",
-      "link": "https://www.newsbtc.com/news/blockchain-com-adds-trading-api-for-institutional-crypto-execution/",
-      "summary": "Blockchain.com has introduced a trading API intended to give institutions automated access to its principal liquidity across digital assets. The company announced the service on November 5 as an extension of its prime brokerage offering,…",
+      "title": "Hyperliquid Strategies Reports 38.5M HYPE Treasury After $802M Deployment",
+      "link": "https://www.newsbtc.com/news/hyperliquid-strategies-reports-38-5m-hype-treasury-after-802m-deployment/",
+      "summary": "Hyperliquid Strategies says its HYPE token treasury reached 38.5 million tokens at September 30 after a quarter in which it deployed $802 million. The Nasdaq-listed company reported the figures on November 5 alongside plans to pursue futures…",
       "source": "NewsBTC",
       "date": "2026-11-10",
       "date_human": "Nov 10, 2026",
-      "pub_ts": 1794290400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "BitPay Brings Apple Pay and Google Pay Checkout to Crypto Purchases",
-      "link": "https://www.newsbtc.com/news/bitpay-brings-apple-pay-and-google-pay-checkout-to-crypto-purchases/",
-      "summary": "BitPay is trying to make buying cryptocurrency look more like an ordinary mobile checkout. On November 5, the company introduced an in-wallet purchase flow powered by MoonPay that supports Apple Pay, Google Pay, cards and SEPA in eligible European…",
-      "source": "NewsBTC",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794286800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitso Business Says Stablecoin Payment Volume Now Runs Above $150B Annualized",
-      "link": "https://www.newsbtc.com/news/bitso-business-says-stablecoin-payment-volume-now-runs-above-150b-annualized/",
-      "summary": "Bitso Business says the payment flows passing through its infrastructure have reached an annualized rate above $150 billion, up 83% from $82 billion a year earlier. The November 4 disclosure puts Latin American cross-border payments back in focus…",
-      "source": "NewsBTC",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794283200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "EDX Markets Adds Bitcoin-Backed CBTC Trading for Canton Institutions",
-      "link": "https://www.newsbtc.com/news/edx-markets-adds-bitcoin-backed-cbtc-trading-for-canton-institutions/",
-      "summary": "EDX Markets says it has partnered with BitSafe to introduce spot trading in CBTC, a Bitcoin-backed asset built for the Canton Network. The November 5 announcement describes the token's first centralized-exchange listing and an institutional…",
-      "source": "NewsBTC",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794279600,
+      "pub_ts": 1794301200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
