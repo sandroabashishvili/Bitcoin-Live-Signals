@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-10",
-  "generated_at_utc": "2026-11-10 05:05:08 UTC",
+  "generated_at_utc": "2026-11-10 11:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-10T05:05:02.161096+00:00",
+    "collected_at": "2026-11-10T11:05:01.800750+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -46,13 +46,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 10,
-        "within_window": 15,
-        "eligible": 4,
+        "within_24h": 12,
+        "within_window": 19,
+        "eligible": 6,
         "rejected": {
-          "topic_author_or_category": 10,
-          "unreviewed_link": 1,
-          "older_than_window": 5
+          "topic_author_or_category": 11,
+          "unreviewed_link": 2,
+          "older_than_window": 1
         }
       },
       {
@@ -179,11 +179,11 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 4
+      "Cryptonews": 6
     },
     "unique_by_source": {
       "NewsBTC": 10,
-      "Cryptonews": 4
+      "Cryptonews": 6
     },
     "selected_by_source": {
       "NewsBTC": 8,
@@ -193,13 +193,65 @@
   "count": 12,
   "items": [
     {
-      "title": "BitPay Brings Apple Pay and Google Pay Checkout to Crypto Purchases",
-      "link": "https://www.newsbtc.com/news/bitpay-brings-apple-pay-and-google-pay-checkout-to-crypto-purchases/",
-      "summary": "BitPay is trying to make buying cryptocurrency look more like an ordinary mobile checkout. On November 5, the company introduced an in-wallet purchase flow powered by MoonPay that supports Apple Pay, Google Pay, cards and SEPA in eligible European…",
+      "title": "American Bitcoin Says Q3 Net Income Reached $126M as BTC Reserve Grew",
+      "link": "https://www.newsbtc.com/news/american-bitcoin-says-q3-net-income-reached-126m-as-btc-reserve-grew/",
+      "summary": "American Bitcoin reported approximately $126 million in third-quarter net income and said its Bitcoin reserve increased through mining rather than new spot purchases during the period. The November 4 release also cites about $221 million in…",
       "source": "NewsBTC",
       "date": "2026-11-10",
       "date_human": "Nov 10, 2026",
-      "pub_ts": 1794286800,
+      "pub_ts": 1794304800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "AVAX NYSE Deal Sparks 10% Rally: Avalanche Wins Tokenized Stock Role",
+      "link": "https://cryptonews.com/news/avax-nyse-deal-tokenized-stock-trading/",
+      "summary": "AVAX NYSE partnership ignites a 10% rally as Avalanche wins a major role in the exchange's planned 24/7 tokenized stock trading platform.",
+      "source": "Cryptonews",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794297982,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Hyperliquid Strategies Reports 38.5M HYPE Treasury After $802M Deployment",
+      "link": "https://www.newsbtc.com/news/hyperliquid-strategies-reports-38-5m-hype-treasury-after-802m-deployment/",
+      "summary": "Hyperliquid Strategies says its HYPE token treasury reached 38.5 million tokens at September 30 after a quarter in which it deployed $802 million. The Nasdaq-listed company reported the figures on November 5 alongside plans to pursue futures…",
+      "source": "NewsBTC",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794301200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Will CPI Cause a Sell-Off? Asian Stocks and Bitcoin Face Fresh Test as NVIDIA Anxiety Grows",
+      "link": "https://cryptonews.com/news/will-cpi-cause-sell-off-asian-stocks-bitcoin-kospi/",
+      "summary": "Will CPI cause a sell-off? KOSPI, Hang Seng and Singapore markets brace for US inflation as Jensen Huang of NVIDIA faces a lawsuit.",
+      "source": "Cryptonews",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794294420,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Alchemy Pay Says Mississippi Licence Expands US Money Transmission Coverage to 20 States",
+      "link": "https://www.newsbtc.com/news/alchemy-pay-says-mississippi-licence-expands-us-money-transmission-coverage-to-20-states/",
+      "summary": "Alchemy Pay says it has secured a money transmitter licence in Mississippi, taking the number of US states where it holds such authorizations to 20. The November 5 disclosure is another example of crypto payment providers building a state-by-state…",
+      "source": "NewsBTC",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794297600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -219,13 +271,13 @@
       "image_local": null
     },
     {
-      "title": "Bitso Business Says Stablecoin Payment Volume Now Runs Above $150B Annualized",
-      "link": "https://www.newsbtc.com/news/bitso-business-says-stablecoin-payment-volume-now-runs-above-150b-annualized/",
-      "summary": "Bitso Business says the payment flows passing through its infrastructure have reached an annualized rate above $150 billion, up 83% from $82 billion a year earlier. The November 4 disclosure puts Latin American cross-border payments back in focus…",
+      "title": "Lombard Systems Raises $4M to Make Tokenized Assets Easier to Borrow Against",
+      "link": "https://www.newsbtc.com/news/lombard-systems-raises-4m-to-make-tokenized-assets-easier-to-borrow-against/",
+      "summary": "Tokenizing an asset is only the beginning; financing it is another problem entirely. Lombard Systems announced $4 million in pre-seed and seed funding on November 5 to expand a standard it calls Delivery-versus-Lock, or DvL. The company wants…",
       "source": "NewsBTC",
       "date": "2026-11-10",
       "date_human": "Nov 10, 2026",
-      "pub_ts": 1794283200,
+      "pub_ts": 1794294000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -245,6 +297,45 @@
       "image_local": null
     },
     {
+      "title": "Blockchain.com Adds Trading API for Institutional Crypto Execution",
+      "link": "https://www.newsbtc.com/news/blockchain-com-adds-trading-api-for-institutional-crypto-execution/",
+      "summary": "Blockchain.com has introduced a trading API intended to give institutions automated access to its principal liquidity across digital assets. The company announced the service on November 5 as an extension of its prime brokerage offering,…",
+      "source": "NewsBTC",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794290400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "BitPay Brings Apple Pay and Google Pay Checkout to Crypto Purchases",
+      "link": "https://www.newsbtc.com/news/bitpay-brings-apple-pay-and-google-pay-checkout-to-crypto-purchases/",
+      "summary": "BitPay is trying to make buying cryptocurrency look more like an ordinary mobile checkout. On November 5, the company introduced an in-wallet purchase flow powered by MoonPay that supports Apple Pay, Google Pay, cards and SEPA in eligible European…",
+      "source": "NewsBTC",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794286800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitso Business Says Stablecoin Payment Volume Now Runs Above $150B Annualized",
+      "link": "https://www.newsbtc.com/news/bitso-business-says-stablecoin-payment-volume-now-runs-above-150b-annualized/",
+      "summary": "Bitso Business says the payment flows passing through its infrastructure have reached an annualized rate above $150 billion, up 83% from $82 billion a year earlier. The November 4 disclosure puts Latin American cross-border payments back in focus…",
+      "source": "NewsBTC",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794283200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "EDX Markets Adds Bitcoin-Backed CBTC Trading for Canton Institutions",
       "link": "https://www.newsbtc.com/news/edx-markets-adds-bitcoin-backed-cbtc-trading-for-canton-institutions/",
       "summary": "EDX Markets says it has partnered with BitSafe to introduce spot trading in CBTC, a Bitcoin-backed asset built for the Canton Network. The November 5 announcement describes the token's first centralized-exchange listing and an institutional…",
@@ -252,97 +343,6 @@
       "date": "2026-11-10",
       "date_human": "Nov 10, 2026",
       "pub_ts": 1794279600,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Blumenthal Investigation Targets Binance, Tether and Trump Crypto Firms as Senate Sets January Deadline",
-      "link": "https://cryptonews.com/news/blumenthal-investigation-binance-tether-trump-crypto/",
-      "summary": "Blumenthal Investigation targets Binance, Tether and Trump crypto firms as the Senate demands records ahead of a January 4 deadline.",
-      "source": "Cryptonews",
-      "date": "2026-11-09",
-      "date_human": "Nov 9, 2026",
-      "pub_ts": 1794205889,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "21X and LayerZero Report 10,000 Onchain Order Matches Per Second in Pilot",
-      "link": "https://www.newsbtc.com/news/21x-and-layerzero-report-10-000-onchain-order-matches-per-second-in-pilot/",
-      "summary": "European trading venue 21X and LayerZero say a private, permissioned deployment of Zero handled 10,000 order matches per second in a month-long technical pilot. The companies disclosed the result on November 4, reporting a 45-fold performance…",
-      "source": "NewsBTC",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794276000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "LIVE – Why Is Crypto Down? Jensen Huang Chinese Spy Scandal Sends AI Stocks Into Chaos",
-      "link": "https://cryptonews.com/news/why-is-crypto-down-jensen-huang-ai-stocks/",
-      "summary": "Why is crypto down? Bitcoin slide as AI stocks crash and Nvidia CEO Jensen Huang faces an investigation over alleged Chinese spy links.",
-      "source": "Cryptonews",
-      "date": "2026-11-09",
-      "date_human": "Nov 9, 2026",
-      "pub_ts": 1794191972,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Schroders Emerging-Market Bond Strategy Moves Onto Solana Through Centrifuge",
-      "link": "https://www.newsbtc.com/news/schroders-emerging-market-bond-strategy-moves-onto-solana-through-centrifuge/",
-      "summary": "Schroders is bringing an emerging-market bond strategy into the tokenized fund market through Centrifuge on Solana. The November 4 announcement concerns the Schroder International Selection Fund Emerging Market Bond strategy, with Centrifuge…",
-      "source": "NewsBTC",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794272400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Ondo Claims $4B in Tokenized Assets as RWA Market Gains Institutional Depth",
-      "link": "https://www.newsbtc.com/news/ondo-claims-4b-in-tokenized-assets-as-rwa-market-gains-institutional-depth/",
-      "summary": "Ondo Finance says its tokenized real-world-asset products have crossed $4 billion in value, with 484 distinct assets and more than 565,000 onchain holders. The figures appear in a corrected November 5 company announcement citing RWA.xyz data. They…",
-      "source": "NewsBTC",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794268800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Dinari Adds Broadridge Voting Rails to Tokenized US Shares",
-      "link": "https://www.newsbtc.com/news/dinari-adds-broadridge-voting-rails-to-tokenized-us-shares/",
-      "summary": "Tokenized stocks have often promised easier access and faster settlement, but a less glamorous question keeps surfacing: can the holder vote? Broadridge and Dinari announced an integration on November 5 that aims to connect eligible holders of…",
-      "source": "NewsBTC",
-      "date": "2026-11-09",
-      "date_human": "Nov 9, 2026",
-      "pub_ts": 1794265200,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Broadridge Says Blockchain Repo Platform Processed $7.6T in October",
-      "link": "https://www.newsbtc.com/news/broadridge-says-blockchain-repo-platform-processed-7-6t-in-october/",
-      "summary": "Broadridge says its Distributed Ledger Repo service processed $7.6 trillion in repurchase agreement transactions during October, averaging $345 billion a day. The November 6 disclosure is a striking reminder that some of blockchain's largest…",
-      "source": "NewsBTC",
-      "date": "2026-11-09",
-      "date_human": "Nov 9, 2026",
-      "pub_ts": 1794261600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
