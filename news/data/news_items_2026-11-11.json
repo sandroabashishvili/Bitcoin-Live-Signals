@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-11",
-  "generated_at_utc": "2026-11-11 11:05:08 UTC",
+  "generated_at_utc": "2026-11-11 17:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-11T11:05:02.285377+00:00",
+    "collected_at": "2026-11-11T17:05:02.323905+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
+        "within_24h": 10,
         "within_window": 20,
         "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 9,
-          "title_filter": 2,
-          "unreviewed_link": 2
+          "title_filter": 3,
+          "unreviewed_link": 2,
+          "topic_author_or_category": 8
         }
       },
       {
@@ -62,7 +62,7 @@
         "url": "https://www.bls.gov/feed/cpi.rss",
         "status": "ok",
         "entries": 12,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 1,
         "rejected": {
@@ -86,7 +86,7 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -99,7 +99,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 2,
+        "within_24h": 0,
         "within_window": 2,
         "eligible": 0,
         "rejected": {
@@ -201,26 +201,26 @@
   "count": 11,
   "items": [
     {
-      "title": "HTX Releases October Performance Report: Spot Liquidity Significantly Enhanced, APY Boosts Help Users Through a Warm Winter",
-      "link": "https://www.newsbtc.com/news/htx-releases-october-performance-report-spot-liquidity-significantly-enhanced-apy-boosts-help-users-through-a-warm-winter/",
-      "summary": "Since the start of Q4, the crypto market has continued to weaken amid volatility. Major asset prices have pulled back from their highs, and market participants have become more cautious. As the market cools, HTX has focused its efforts on solidifying its trading fundamentals and offering diverse yield generation pathways. In October, HTX saw a significant overall improvement in the market depth of its core spot trading pairs, with the 0.05% depth for the BTC/USDT pair increasing by 78%. Meanwhile, the platform’s total count of stock trading assets grew to 307, with cumulative TradFi trading vo",
+      "title": "Former Cointelegraph CEO Joins Phase as Co-Founder and CEO",
+      "link": "https://www.newsbtc.com/news/former-cointelegraph-ceo-joins-phase-as-co-founder-and-ceo/",
+      "summary": "The appointment follows the launch of Phase’s Layer 1 blockchain mainnet and AI agent services, backed by $45 million in founder funding. SAN FRANCISCO, November 11, 2026 — Phase, a technology company building the operating layer for the AI agent economy, today announced that Yana Prikhodchenko, former CEO of Cointelegraph, has joined the company as co-founder and CEO. She will lead strategy, global expansion and commercial development, working alongside founder Kirill Eves, as Phase scales its decentralized infrastructure for autonomous AI agents. Prikhodchenko joins Phase after nearly five y",
       "source": "NewsBTC",
       "date": "2026-11-11",
       "date_human": "Nov 11, 2026",
-      "pub_ts": 1794389456,
+      "pub_ts": 1794408180,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Why Bitcoin, Nasdaq, AI Stocks, and Chips Move Together? The Liquidity Machine Explained",
-      "link": "https://cryptonews.com/news/bitcoin-nasdaq-ai-stocks-chips-liquidity/",
-      "summary": "Bitcoin, Nasdaq, AI stocks and chipmakers move together. But why? Discover how Fed policy, Wall Street and global liquidity connect them.",
+      "title": "Strategy MSCI Verdict Nears as Anthropic IPO Puts Billions on the Line",
+      "link": "https://cryptonews.com/news/strategy-msci-anthropic-ipo-wall-street/",
+      "summary": "Strategy MSCI decision arrives within hours as Anthropic IPO targets $64.4 billion, putting Wall Street's appetite to the test.",
       "source": "Cryptonews",
       "date": "2026-11-11",
       "date_human": "Nov 11, 2026",
-      "pub_ts": 1794385545,
+      "pub_ts": 1794400232,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -240,13 +240,39 @@
       "image_local": null
     },
     {
-      "title": "Securitize Plans River One Acquisition to Connect Stablecoin Capital With Asset-Backed Finance",
-      "link": "https://www.newsbtc.com/news/defi/securitize-river-one-acquisition-stablecoin-asset-backed-finance/",
-      "summary": "Securitize has announced an agreement to acquire River One as it looks to connect tokenized capital with traditional asset-backed financing. The cited…",
+      "title": "Arca Opens to Everyone, Paying People for the AI Sessions They'd Otherwise Throw Away",
+      "link": "https://www.newsbtc.com/news/arca-opens-to-everyone-paying-people-for-the-ai-sessions-theyd-otherwise-throw-away/",
+      "summary": "After invite-only early access, the desktop app from the team behind Brevis is now open to anyone on Mac and Windows. HONG KONG, November 11, 2026: Arca, a new desktop app from the team behind Brevis, opened to the public today. Arca pays people for the AI sessions they’d otherwise throw away. It finds the session history their AI tools already keep on their computer, lets them choose which sessions to submit, strips sensitive details on the device before anything is uploaded, and pays for the sessions that are approved. Starting today, anyone can sign up with an email address, with no invite ",
       "source": "NewsBTC",
       "date": "2026-11-11",
       "date_human": "Nov 11, 2026",
-      "pub_ts": 1794373200,
+      "pub_ts": 1794398953,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Why Bitcoin, Nasdaq, AI Stocks, and Chips Move Together? The Liquidity Machine Explained",
+      "link": "https://cryptonews.com/news/bitcoin-nasdaq-ai-stocks-chips-liquidity/",
+      "summary": "Bitcoin, Nasdaq, AI stocks and chipmakers move together. But why? Discover how Fed policy, Wall Street and global liquidity connect them.",
+      "source": "Cryptonews",
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794385545,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "HTX Releases October Performance Report: Spot Liquidity Significantly Enhanced, APY Boosts Help Users Through a Warm Winter",
+      "link": "https://www.newsbtc.com/news/htx-releases-october-performance-report-spot-liquidity-significantly-enhanced-apy-boosts-help-users-through-a-warm-winter/",
+      "summary": "Since the start of Q4, the crypto market has continued to weaken amid volatility. Major asset prices have pulled back from their highs, and market participants have become more cautious. As the market cools, HTX has focused its efforts on solidifying its trading fundamentals and offering diverse yield generation pathways. In October, HTX saw a significant overall improvement in the market depth of its core spot trading pairs, with the 0.05% depth for the BTC/USDT pair increasing by 78%. Meanwhile, the platform’s total count of stock trading assets grew to 307, with cumulative TradFi trading vo",
+      "source": "NewsBTC",
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794389456,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -260,19 +286,6 @@
       "date": "2026-11-11",
       "date_human": "Nov 11, 2026",
       "pub_ts": 1794381136,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "EU Seeks Experts to Help Set Tokenisation Standards as Financial Markets Move Onchain",
-      "link": "https://www.newsbtc.com/news/blockchain/eu-tokenisation-standards-group-esma-nominations/",
-      "summary": "European authorities are inviting nominations for a new Tokenisation Standards Group, with applications due on November 27. The effort is about…",
-      "source": "NewsBTC",
-      "date": "2026-11-11",
-      "date_human": "Nov 11, 2026",
-      "pub_ts": 1794369600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -325,19 +338,6 @@
       "date": "2026-11-10",
       "date_human": "Nov 10, 2026",
       "pub_ts": 1794294420,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Strategy Buys $82M in Bitcoin as STRC Tokenized Stock Adds New Twist to Saylor's BTC",
-      "link": "https://cryptonews.com/news/strategy-bitcoin-holdings-btc-strc-tokenization/",
-      "summary": "Strategy buys 1,036 Bitcoin for $82 million as Michael Saylor expands holdings, repurchases $188M in STRC, and faces ETF outflows.",
-      "source": "Cryptonews",
-      "date": "2026-11-09",
-      "date_human": "Nov 9, 2026",
-      "pub_ts": 1794235654,
       "image_candidates": [],
       "license_url": null,
       "image": null,
