@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-11",
-  "generated_at_utc": "2026-11-11 05:05:07 UTC",
+  "generated_at_utc": "2026-11-11 11:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-11T05:05:01.139185+00:00",
+    "collected_at": "2026-11-11T11:05:02.285377+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 10,
+        "within_24h": 9,
         "within_window": 20,
         "eligible": 7,
         "rejected": {
-          "title_filter": 2,
           "topic_author_or_category": 9,
+          "title_filter": 2,
           "unreviewed_link": 2
         }
       },
@@ -201,26 +201,26 @@
   "count": 11,
   "items": [
     {
-      "title": "Securitize Plans River One Acquisition to Connect Stablecoin Capital With Asset-Backed Finance",
-      "link": "https://www.newsbtc.com/news/defi/securitize-river-one-acquisition-stablecoin-asset-backed-finance/",
-      "summary": "Securitize has announced an agreement to acquire River One as it looks to connect tokenized capital with traditional asset-backed financing. The cited…",
+      "title": "HTX Releases October Performance Report: Spot Liquidity Significantly Enhanced, APY Boosts Help Users Through a Warm Winter",
+      "link": "https://www.newsbtc.com/news/htx-releases-october-performance-report-spot-liquidity-significantly-enhanced-apy-boosts-help-users-through-a-warm-winter/",
+      "summary": "Since the start of Q4, the crypto market has continued to weaken amid volatility. Major asset prices have pulled back from their highs, and market participants have become more cautious. As the market cools, HTX has focused its efforts on solidifying its trading fundamentals and offering diverse yield generation pathways. In October, HTX saw a significant overall improvement in the market depth of its core spot trading pairs, with the 0.05% depth for the BTC/USDT pair increasing by 78%. Meanwhile, the platform’s total count of stock trading assets grew to 307, with cumulative TradFi trading vo",
       "source": "NewsBTC",
       "date": "2026-11-11",
       "date_human": "Nov 11, 2026",
-      "pub_ts": 1794373200,
+      "pub_ts": 1794389456,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Think Bigger!! Schwartz Calls for Higher XRP Price as 37 European Banks Embrace Ripple",
-      "link": "https://cryptonews.com/news/xrp-price-schwartz-higher-prices-37-european-banks-ripple/",
-      "summary": "XRP price under pressure, but Schwartz sees higher valuations benefiting the network as 37 European banks expand Ripple's footprint.",
+      "title": "Why Bitcoin, Nasdaq, AI Stocks, and Chips Move Together? The Liquidity Machine Explained",
+      "link": "https://cryptonews.com/news/bitcoin-nasdaq-ai-stocks-chips-liquidity/",
+      "summary": "Bitcoin, Nasdaq, AI stocks and chipmakers move together. But why? Discover how Fed policy, Wall Street and global liquidity connect them.",
       "source": "Cryptonews",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794331320,
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794385545,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -240,6 +240,32 @@
       "image_local": null
     },
     {
+      "title": "Securitize Plans River One Acquisition to Connect Stablecoin Capital With Asset-Backed Finance",
+      "link": "https://www.newsbtc.com/news/defi/securitize-river-one-acquisition-stablecoin-asset-backed-finance/",
+      "summary": "Securitize has announced an agreement to acquire River One as it looks to connect tokenized capital with traditional asset-backed financing. The cited…",
+      "source": "NewsBTC",
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794373200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Bitcoin Price Cooked? Gensler 2.0 Fears as Fed Blocks Crypto Bank",
+      "link": "https://cryptonews.com/news/bitcoin-price-gensler-2-fears-fed-crypto-bank/",
+      "summary": "Bitcoin price slips below $73K as $732M is liquidated. Gensler 2.0 fears and Fed banking accusations shake crypto markets. Is crypto cooked?",
+      "source": "Cryptonews",
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794381136,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "EU Seeks Experts to Help Set Tokenisation Standards as Financial Markets Move Onchain",
       "link": "https://www.newsbtc.com/news/blockchain/eu-tokenisation-standards-group-esma-nominations/",
       "summary": "European authorities are inviting nominations for a new Tokenisation Standards Group, with applications due on November 27. The effort is about…",
@@ -247,6 +273,19 @@
       "date": "2026-11-11",
       "date_human": "Nov 11, 2026",
       "pub_ts": 1794369600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Think Bigger!! Schwartz Calls for Higher XRP Price as 37 European Banks Embrace Ripple",
+      "link": "https://cryptonews.com/news/xrp-price-schwartz-higher-prices-37-european-banks-ripple/",
+      "summary": "XRP price under pressure, but Schwartz sees higher valuations benefiting the network as 37 European banks expand Ripple's footprint.",
+      "source": "Cryptonews",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794331320,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -266,19 +305,6 @@
       "image_local": null
     },
     {
-      "title": "Ether ETFs Shed $184.6M in a Day as BlackRock Leads Redemptions",
-      "link": "https://www.newsbtc.com/news/ethereum/ether-etfs-1846m-outflow-november-9/",
-      "summary": "US spot Ether ETFs lost $184.6 million on November 9. BlackRock's ETHA recorded $119.3 million in outflows, with additional withdrawals from several…",
-      "source": "NewsBTC",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794340800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "AVAX NYSE Deal Sparks 10% Rally: Avalanche Wins Tokenized Stock Role",
       "link": "https://cryptonews.com/news/avax-nyse-deal-tokenized-stock-trading/",
       "summary": "AVAX NYSE partnership ignites a 10% rally as Avalanche wins a major role in the exchange's planned 24/7 tokenized stock trading platform.",
@@ -292,7 +318,7 @@
       "image_local": null
     },
     {
-      "title": "LIVE – Will CPI Cause a Sell-Off? Asian Stocks and Bitcoin Face Fresh Test as NVIDIA Anxiety Grows",
+      "title": "Will CPI Cause a Sell-Off? Asian Stocks and Bitcoin Face Fresh Test as NVIDIA Anxiety Grows",
       "link": "https://cryptonews.com/news/will-cpi-cause-sell-off-asian-stocks-bitcoin-kospi/",
       "summary": "Will CPI cause a sell-off? KOSPI, Hang Seng and Singapore markets brace for US inflation as Jensen Huang of NVIDIA faces a lawsuit.",
       "source": "Cryptonews",
@@ -312,32 +338,6 @@
       "date": "2026-11-09",
       "date_human": "Nov 9, 2026",
       "pub_ts": 1794235654,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Coinbase Bank Gets Full OCC Approval as Ripple Leads Crypto Banking Push",
-      "link": "https://cryptonews.com/news/coinbase-bank-occ-approval-ripple/",
-      "summary": "Coinbase Bank secures full OCC approval, following Ripple as crypto companies expand into federally supervised US banking infrastructure.",
-      "source": "Cryptonews",
-      "date": "2026-11-09",
-      "date_human": "Nov 9, 2026",
-      "pub_ts": 1794223946,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Blumenthal Investigation Targets Binance, Tether and Trump Crypto Firms as Senate Sets January Deadline",
-      "link": "https://cryptonews.com/news/blumenthal-investigation-binance-tether-trump-crypto/",
-      "summary": "Blumenthal Investigation targets Binance, Tether and Trump crypto firms as the Senate demands records ahead of a January 4 deadline.",
-      "source": "Cryptonews",
-      "date": "2026-11-09",
-      "date_human": "Nov 9, 2026",
-      "pub_ts": 1794205889,
       "image_candidates": [],
       "license_url": null,
       "image": null,
