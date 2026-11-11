@@ -1,0 +1,347 @@
+{
+  "day_iso": "2026-11-11",
+  "generated_at_utc": "2026-11-11 05:05:07 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-11-11T05:05:01.139185+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 3,
+        "rejected": {
+          "unreviewed_link": 7
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 10,
+        "within_window": 20,
+        "eligible": 7,
+        "rejected": {
+          "title_filter": 2,
+          "topic_author_or_category": 9,
+          "unreviewed_link": 2
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 11
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 49,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 49
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 24
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 2,
+        "within_window": 2,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 2,
+          "older_than_window": 13
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 1,
+          "older_than_window": 9
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 19
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 3,
+      "Cryptonews": 7,
+      "U.S. Bureau of Labor Statistics": 1
+    },
+    "unique_by_source": {
+      "NewsBTC": 3,
+      "Cryptonews": 7,
+      "U.S. Bureau of Labor Statistics": 1
+    },
+    "selected_by_source": {
+      "NewsBTC": 3,
+      "Cryptonews": 7,
+      "U.S. Bureau of Labor Statistics": 1
+    }
+  },
+  "count": 11,
+  "items": [
+    {
+      "title": "Securitize Plans River One Acquisition to Connect Stablecoin Capital With Asset-Backed Finance",
+      "link": "https://www.newsbtc.com/news/defi/securitize-river-one-acquisition-stablecoin-asset-backed-finance/",
+      "summary": "Securitize has announced an agreement to acquire River One as it looks to connect tokenized capital with traditional asset-backed financing. The cited…",
+      "source": "NewsBTC",
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794373200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Think Bigger!! Schwartz Calls for Higher XRP Price as 37 European Banks Embrace Ripple",
+      "link": "https://cryptonews.com/news/xrp-price-schwartz-higher-prices-37-european-banks-ripple/",
+      "summary": "XRP price under pressure, but Schwartz sees higher valuations benefiting the network as 37 European banks expand Ripple's footprint.",
+      "source": "Cryptonews",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794331320,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "CPI for all items increases 0.4% in October; shelter rises",
+      "link": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
+      "summary": "In October, the Consumer Price Index for All Urban Consumers rose 0.4 percent, seasonally adjusted (SA). The index for all items less food and energy rose 0.3 percent in October (SA).",
+      "source": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794315347,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "EU Seeks Experts to Help Set Tokenisation Standards as Financial Markets Move Onchain",
+      "link": "https://www.newsbtc.com/news/blockchain/eu-tokenisation-standards-group-esma-nominations/",
+      "summary": "European authorities are inviting nominations for a new Tokenisation Standards Group, with applications due on November 27. The effort is about…",
+      "source": "NewsBTC",
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794369600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Your iPhone Duo Under Attack? Binance Flags Dangerous iOS Security Flaw",
+      "link": "https://cryptonews.com/news/binance-ios-worse-query-iphone-duo-18pro-security-flaw/",
+      "summary": "Binance warns iPhone users that an iOS flaw could expose crypto seed phrases, private keys, and login credentials through malicious apps.",
+      "source": "Cryptonews",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794312152,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ether ETFs Shed $184.6M in a Day as BlackRock Leads Redemptions",
+      "link": "https://www.newsbtc.com/news/ethereum/ether-etfs-1846m-outflow-november-9/",
+      "summary": "US spot Ether ETFs lost $184.6 million on November 9. BlackRock's ETHA recorded $119.3 million in outflows, with additional withdrawals from several…",
+      "source": "NewsBTC",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794340800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "AVAX NYSE Deal Sparks 10% Rally: Avalanche Wins Tokenized Stock Role",
+      "link": "https://cryptonews.com/news/avax-nyse-deal-tokenized-stock-trading/",
+      "summary": "AVAX NYSE partnership ignites a 10% rally as Avalanche wins a major role in the exchange's planned 24/7 tokenized stock trading platform.",
+      "source": "Cryptonews",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794297982,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Will CPI Cause a Sell-Off? Asian Stocks and Bitcoin Face Fresh Test as NVIDIA Anxiety Grows",
+      "link": "https://cryptonews.com/news/will-cpi-cause-sell-off-asian-stocks-bitcoin-kospi/",
+      "summary": "Will CPI cause a sell-off? KOSPI, Hang Seng and Singapore markets brace for US inflation as Jensen Huang of NVIDIA faces a lawsuit.",
+      "source": "Cryptonews",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794294420,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Strategy Buys $82M in Bitcoin as STRC Tokenized Stock Adds New Twist to Saylor's BTC",
+      "link": "https://cryptonews.com/news/strategy-bitcoin-holdings-btc-strc-tokenization/",
+      "summary": "Strategy buys 1,036 Bitcoin for $82 million as Michael Saylor expands holdings, repurchases $188M in STRC, and faces ETF outflows.",
+      "source": "Cryptonews",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794235654,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Coinbase Bank Gets Full OCC Approval as Ripple Leads Crypto Banking Push",
+      "link": "https://cryptonews.com/news/coinbase-bank-occ-approval-ripple/",
+      "summary": "Coinbase Bank secures full OCC approval, following Ripple as crypto companies expand into federally supervised US banking infrastructure.",
+      "source": "Cryptonews",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794223946,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Blumenthal Investigation Targets Binance, Tether and Trump Crypto Firms as Senate Sets January Deadline",
+      "link": "https://cryptonews.com/news/blumenthal-investigation-binance-tether-trump-crypto/",
+      "summary": "Blumenthal Investigation targets Binance, Tether and Trump crypto firms as the Senate demands records ahead of a January 4 deadline.",
+      "source": "Cryptonews",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794205889,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}

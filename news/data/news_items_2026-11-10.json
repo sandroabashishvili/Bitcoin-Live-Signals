@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-10",
-  "generated_at_utc": "2026-11-10 17:05:06 UTC",
+  "generated_at_utc": "2026-11-10 23:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-10T17:05:00.395411+00:00",
+    "collected_at": "2026-11-10T23:05:02.295521+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,8 +26,10 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 10,
-        "rejected": {}
+        "eligible": 5,
+        "rejected": {
+          "unreviewed_link": 5
+        }
       },
       {
         "source": "NIST",
@@ -46,11 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 11,
+        "within_24h": 12,
         "within_window": 20,
         "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 11,
+          "title_filter": 2,
+          "topic_author_or_category": 9,
           "unreviewed_link": 2
         }
       },
@@ -83,11 +86,12 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 25
+          "topic_author_or_category": 1,
+          "older_than_window": 24
         }
       },
       {
@@ -108,11 +112,12 @@
         "url": "https://bitcoinops.org/feed.xml",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 10
+          "unreviewed_link": 1,
+          "older_than_window": 9
         }
       },
       {
@@ -168,7 +173,7 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -178,31 +183,44 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 10,
-      "U.S. Bureau of Labor Statistics": 1,
-      "Cryptonews": 7
+      "NewsBTC": 5,
+      "Cryptonews": 7,
+      "U.S. Bureau of Labor Statistics": 1
     },
     "unique_by_source": {
-      "NewsBTC": 10,
-      "U.S. Bureau of Labor Statistics": 1,
-      "Cryptonews": 7
+      "NewsBTC": 5,
+      "Cryptonews": 7,
+      "U.S. Bureau of Labor Statistics": 1
     },
     "selected_by_source": {
-      "NewsBTC": 7,
-      "U.S. Bureau of Labor Statistics": 1,
-      "Cryptonews": 4
+      "NewsBTC": 5,
+      "Cryptonews": 6,
+      "U.S. Bureau of Labor Statistics": 1
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Valour Lists Eight New Crypto ETPs Including Canton, Morpho and Raydium",
-      "link": "https://www.newsbtc.com/news/valour-lists-eight-new-crypto-etps-including-canton-morpho-and-raydium/",
-      "summary": "Valour, a subsidiary of DeFi Technologies, says it has added eight digital asset exchange-traded products to Sweden's Spotlight Stock Market. The November 5 announcement expands the issuer's range beyond the most established cryptocurrencies into a…",
+      "title": "Ether ETFs Shed $184.6M in a Day as BlackRock Leads Redemptions",
+      "link": "https://www.newsbtc.com/news/ethereum/ether-etfs-1846m-outflow-november-9/",
+      "summary": "US spot Ether ETFs lost $184.6 million on November 9. BlackRock's ETHA recorded $119.3 million in outflows, with additional withdrawals from several…",
       "source": "NewsBTC",
       "date": "2026-11-10",
       "date_human": "Nov 10, 2026",
-      "pub_ts": 1794322800,
+      "pub_ts": 1794340800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Think Bigger!! Schwartz Calls for Higher XRP Price as 37 European Banks Embrace Ripple",
+      "link": "https://cryptonews.com/news/xrp-price-schwartz-higher-prices-37-european-banks-ripple/",
+      "summary": "XRP price under pressure, but Schwartz sees higher valuations benefiting the network as 37 European banks expand Ripple's footprint.",
+      "source": "Cryptonews",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794331320,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -216,6 +234,19 @@
       "date": "2026-11-10",
       "date_human": "Nov 10, 2026",
       "pub_ts": 1794315347,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Valour Lists Eight New Crypto ETPs Including Canton, Morpho and Raydium",
+      "link": "https://www.newsbtc.com/news/valour-lists-eight-new-crypto-etps-including-canton-morpho-and-raydium/",
+      "summary": "Valour, a subsidiary of DeFi Technologies, says it has added eight digital asset exchange-traded products to Sweden's Spotlight Stock Market. The November 5 announcement expands the issuer's range beyond the most established cryptocurrencies into a…",
+      "source": "NewsBTC",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794322800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -313,39 +344,13 @@
       "image_local": null
     },
     {
-      "title": "Re Protocol Tops $400M in Deposits as Onchain Reinsurance Yield Attracts Capital",
-      "link": "https://www.newsbtc.com/news/re-protocol-tops-400m-in-deposits-as-onchain-reinsurance-yield-attracts-capital/",
-      "summary": "Re Protocol says deposits across its reUSD and reUSDe products have exceeded $400 million, putting a relatively unfamiliar type of real-world asset exposure into the spotlight: insurance and reinsurance. Its November 4 announcement says the latest…",
-      "source": "NewsBTC",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794308400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "American Bitcoin Says Q3 Net Income Reached $126M as BTC Reserve Grew",
-      "link": "https://www.newsbtc.com/news/american-bitcoin-says-q3-net-income-reached-126m-as-btc-reserve-grew/",
-      "summary": "American Bitcoin reported approximately $126 million in third-quarter net income and said its Bitcoin reserve increased through mining rather than new spot purchases during the period. The November 4 release also cites about $221 million in…",
-      "source": "NewsBTC",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794304800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Hyperliquid Strategies Reports 38.5M HYPE Treasury After $802M Deployment",
-      "link": "https://www.newsbtc.com/news/hyperliquid-strategies-reports-38-5m-hype-treasury-after-802m-deployment/",
-      "summary": "Hyperliquid Strategies says its HYPE token treasury reached 38.5 million tokens at September 30 after a quarter in which it deployed $802 million. The Nasdaq-listed company reported the figures on November 5 alongside plans to pursue futures…",
-      "source": "NewsBTC",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794301200,
+      "title": "Coinbase Bank Gets Full OCC Approval as Ripple Leads Crypto Banking Push",
+      "link": "https://cryptonews.com/news/coinbase-bank-occ-approval-ripple/",
+      "summary": "Coinbase Bank secures full OCC approval, following Ripple as crypto companies expand into federally supervised US banking infrastructure.",
+      "source": "Cryptonews",
+      "date": "2026-11-09",
+      "date_human": "Nov 9, 2026",
+      "pub_ts": 1794223946,
       "image_candidates": [],
       "license_url": null,
       "image": null,
