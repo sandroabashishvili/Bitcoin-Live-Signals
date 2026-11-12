@@ -1,0 +1,332 @@
+{
+  "day_iso": "2026-11-12",
+  "generated_at_utc": "2026-11-12 05:05:09 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-11-12T05:05:01.900190+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 3,
+        "rejected": {
+          "unreviewed_link": 7
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 11,
+        "within_window": 20,
+        "eligible": 6,
+        "rejected": {
+          "title_filter": 5,
+          "topic_author_or_category": 7,
+          "unreviewed_link": 2
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 11
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 49,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 49
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 24
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 2,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 2,
+          "older_than_window": 13
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 20
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 3,
+      "Cryptonews": 6,
+      "U.S. Bureau of Labor Statistics": 1
+    },
+    "unique_by_source": {
+      "NewsBTC": 3,
+      "Cryptonews": 6,
+      "U.S. Bureau of Labor Statistics": 1
+    },
+    "selected_by_source": {
+      "NewsBTC": 3,
+      "Cryptonews": 6,
+      "U.S. Bureau of Labor Statistics": 1
+    }
+  },
+  "count": 10,
+  "items": [
+    {
+      "title": "Former Cointelegraph CEO Joins Phase as Co-Founder and CEO",
+      "link": "https://www.newsbtc.com/news/former-cointelegraph-ceo-joins-phase-as-co-founder-and-ceo/",
+      "summary": "The appointment follows the launch of Phase’s Layer 1 blockchain mainnet and AI agent services, backed by $45 million in founder funding. SAN FRANCISCO, November 11, 2026 — Phase, a technology company building the operating layer for the AI agent economy, today announced that Yana Prikhodchenko, former CEO of Cointelegraph, has joined the company as co-founder and CEO. She will lead strategy, global expansion and commercial development, working alongside founder Kirill Eves, as Phase scales its decentralized infrastructure for autonomous AI agents. Prikhodchenko joins Phase after nearly five y",
+      "source": "NewsBTC",
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794408180,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Strategy MSCI Verdict Nears as Anthropic IPO Puts Billions on the Line",
+      "link": "https://cryptonews.com/news/strategy-msci-anthropic-ipo-wall-street/",
+      "summary": "Strategy MSCI decision arrives within hours as Anthropic IPO targets $64.4 billion, putting Wall Street's appetite to the test.",
+      "source": "Cryptonews",
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794400232,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "CPI for all items increases 0.4% in October; shelter rises",
+      "link": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
+      "summary": "In October, the Consumer Price Index for All Urban Consumers rose 0.4 percent, seasonally adjusted (SA). The index for all items less food and energy rose 0.3 percent in October (SA).",
+      "source": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794315347,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Arca Opens to Everyone, Paying People for the AI Sessions They'd Otherwise Throw Away",
+      "link": "https://www.newsbtc.com/news/arca-opens-to-everyone-paying-people-for-the-ai-sessions-theyd-otherwise-throw-away/",
+      "summary": "After invite-only early access, the desktop app from the team behind Brevis is now open to anyone on Mac and Windows. HONG KONG, November 11, 2026: Arca, a new desktop app from the team behind Brevis, opened to the public today. Arca pays people for the AI sessions they’d otherwise throw away. It finds the session history their AI tools already keep on their computer, lets them choose which sessions to submit, strips sensitive details on the device before anything is uploaded, and pays for the sessions that are approved. Starting today, anyone can sign up with an email address, with no invite ",
+      "source": "NewsBTC",
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794398953,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Why Bitcoin, Nasdaq, AI Stocks, and Chips Move Together? The Liquidity Machine Explained",
+      "link": "https://cryptonews.com/news/bitcoin-nasdaq-ai-stocks-chips-liquidity/",
+      "summary": "Bitcoin, Nasdaq, AI stocks and chipmakers move together. But why? Discover how Fed policy, Wall Street and global liquidity connect them.",
+      "source": "Cryptonews",
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794385545,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "HTX Releases October Performance Report: Spot Liquidity Significantly Enhanced, APY Boosts Help Users Through a Warm Winter",
+      "link": "https://www.newsbtc.com/news/htx-releases-october-performance-report-spot-liquidity-significantly-enhanced-apy-boosts-help-users-through-a-warm-winter/",
+      "summary": "Since the start of Q4, the crypto market has continued to weaken amid volatility. Major asset prices have pulled back from their highs, and market participants have become more cautious. As the market cools, HTX has focused its efforts on solidifying its trading fundamentals and offering diverse yield generation pathways. In October, HTX saw a significant overall improvement in the market depth of its core spot trading pairs, with the 0.05% depth for the BTC/USDT pair increasing by 78%. Meanwhile, the platform’s total count of stock trading assets grew to 307, with cumulative TradFi trading vo",
+      "source": "NewsBTC",
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794389456,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Bitcoin Price Cooked? Gensler 2.0 Fears as Fed Blocks Crypto Bank",
+      "link": "https://cryptonews.com/news/bitcoin-price-gensler-2-fears-fed-crypto-bank/",
+      "summary": "Bitcoin price slips below $73K as $732M is liquidated. Gensler 2.0 fears and Fed banking accusations shake crypto markets. Is crypto cooked?",
+      "source": "Cryptonews",
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794381136,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Think Bigger!! Schwartz Calls for Higher XRP Price as 37 European Banks Embrace Ripple",
+      "link": "https://cryptonews.com/news/xrp-price-schwartz-higher-prices-37-european-banks-ripple/",
+      "summary": "XRP price under pressure, but Schwartz sees higher valuations benefiting the network as 37 European banks expand Ripple's footprint.",
+      "source": "Cryptonews",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794331320,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Your iPhone Duo Under Attack? Binance Flags Dangerous iOS Security Flaw",
+      "link": "https://cryptonews.com/news/binance-ios-worse-query-iphone-duo-18pro-security-flaw/",
+      "summary": "Binance warns iPhone users that an iOS flaw could expose crypto seed phrases, private keys, and login credentials through malicious apps.",
+      "source": "Cryptonews",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794312152,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "AVAX NYSE Deal Sparks 10% Rally: Avalanche Wins Tokenized Stock Role",
+      "link": "https://cryptonews.com/news/avax-nyse-deal-tokenized-stock-trading/",
+      "summary": "AVAX NYSE partnership ignites a 10% rally as Avalanche wins a major role in the exchange's planned 24/7 tokenized stock trading platform.",
+      "source": "Cryptonews",
+      "date": "2026-11-10",
+      "date_human": "Nov 10, 2026",
+      "pub_ts": 1794297982,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-11",
-  "generated_at_utc": "2026-11-11 17:05:08 UTC",
+  "generated_at_utc": "2026-11-11 23:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-11T17:05:02.323905+00:00",
+    "collected_at": "2026-11-11T23:05:02.168280+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 10,
+        "within_24h": 11,
         "within_window": 20,
-        "eligible": 7,
+        "eligible": 6,
         "rejected": {
-          "title_filter": 3,
-          "unreviewed_link": 2,
-          "topic_author_or_category": 8
+          "title_filter": 5,
+          "topic_author_or_category": 7,
+          "unreviewed_link": 2
         }
       },
       {
@@ -174,31 +174,30 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 19
+          "older_than_window": 20
         }
       }
     ],
     "eligible_by_source": {
       "NewsBTC": 3,
-      "Cryptonews": 7,
+      "Cryptonews": 6,
       "U.S. Bureau of Labor Statistics": 1
     },
     "unique_by_source": {
       "NewsBTC": 3,
-      "Cryptonews": 7,
+      "Cryptonews": 6,
       "U.S. Bureau of Labor Statistics": 1
     },
     "selected_by_source": {
       "NewsBTC": 3,
-      "Cryptonews": 7,
+      "Cryptonews": 6,
       "U.S. Bureau of Labor Statistics": 1
     }
   },
-  "count": 11,
+  "count": 10,
   "items": [
     {
       "title": "Former Cointelegraph CEO Joins Phase as Co-Founder and CEO",
@@ -325,19 +324,6 @@
       "date": "2026-11-10",
       "date_human": "Nov 10, 2026",
       "pub_ts": 1794297982,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Will CPI Cause a Sell-Off? Asian Stocks and Bitcoin Face Fresh Test as NVIDIA Anxiety Grows",
-      "link": "https://cryptonews.com/news/will-cpi-cause-sell-off-asian-stocks-bitcoin-kospi/",
-      "summary": "Will CPI cause a sell-off? KOSPI, Hang Seng and Singapore markets brace for US inflation as Jensen Huang of NVIDIA faces a lawsuit.",
-      "source": "Cryptonews",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794294420,
       "image_candidates": [],
       "license_url": null,
       "image": null,
