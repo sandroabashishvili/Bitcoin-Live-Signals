@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-12",
-  "generated_at_utc": "2026-11-12 05:05:09 UTC",
+  "generated_at_utc": "2026-11-12 11:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-12T05:05:01.900190+00:00",
+    "collected_at": "2026-11-12T11:05:02.144675+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 10,
+        "within_24h": 4,
         "within_window": 10,
         "eligible": 3,
         "rejected": {
@@ -50,11 +50,11 @@
         "entries": 20,
         "within_24h": 11,
         "within_window": 20,
-        "eligible": 6,
+        "eligible": 7,
         "rejected": {
-          "title_filter": 5,
           "topic_author_or_category": 7,
-          "unreviewed_link": 2
+          "title_filter": 5,
+          "unreviewed_link": 1
         }
       },
       {
@@ -181,23 +181,36 @@
       }
     ],
     "eligible_by_source": {
+      "Cryptonews": 7,
       "NewsBTC": 3,
-      "Cryptonews": 6,
       "U.S. Bureau of Labor Statistics": 1
     },
     "unique_by_source": {
+      "Cryptonews": 7,
       "NewsBTC": 3,
-      "Cryptonews": 6,
       "U.S. Bureau of Labor Statistics": 1
     },
     "selected_by_source": {
+      "Cryptonews": 7,
       "NewsBTC": 3,
-      "Cryptonews": 6,
       "U.S. Bureau of Labor Statistics": 1
     }
   },
-  "count": 10,
+  "count": 11,
   "items": [
+    {
+      "title": "Is the Crypto Market Walking Into a Bull Trap? Bitcoin ETF Records Five Straight Days of Outflow",
+      "link": "https://cryptonews.com/news/bitcoin-etf-outflow-crypto-bull-trap/",
+      "summary": "Bitcoin ETF Outflow reaches $1.44 billion in five days as BTC struggles below $75,000. Is the crypto market walking into a bull trap?",
+      "source": "Cryptonews",
+      "date": "2026-11-12",
+      "date_human": "Nov 12, 2026",
+      "pub_ts": 1794473311,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Former Cointelegraph CEO Joins Phase as Co-Founder and CEO",
       "link": "https://www.newsbtc.com/news/former-cointelegraph-ceo-joins-phase-as-co-founder-and-ceo/",
@@ -206,19 +219,6 @@
       "date": "2026-11-11",
       "date_human": "Nov 11, 2026",
       "pub_ts": 1794408180,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Strategy MSCI Verdict Nears as Anthropic IPO Puts Billions on the Line",
-      "link": "https://cryptonews.com/news/strategy-msci-anthropic-ipo-wall-street/",
-      "summary": "Strategy MSCI decision arrives within hours as Anthropic IPO targets $64.4 billion, putting Wall Street's appetite to the test.",
-      "source": "Cryptonews",
-      "date": "2026-11-11",
-      "date_human": "Nov 11, 2026",
-      "pub_ts": 1794400232,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -238,6 +238,19 @@
       "image_local": null
     },
     {
+      "title": "LIVE – Bitcoin Price Rebounds Despite Quantum Threat as Nvidia's Jensen Huang Faces Ouster After Two Affairs",
+      "link": "https://cryptonews.com/news/bitcoin-price-quantum-threat-nvidia-jensen-huang-ouster/",
+      "summary": "Bitcoin price rebounds as Glassnode flags $500B in quantum-exposed BTC and Nvidia weighs removing CEO Jensen Huang. What's next?",
+      "source": "Cryptonews",
+      "date": "2026-11-12",
+      "date_human": "Nov 12, 2026",
+      "pub_ts": 1794465903,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Arca Opens to Everyone, Paying People for the AI Sessions They'd Otherwise Throw Away",
       "link": "https://www.newsbtc.com/news/arca-opens-to-everyone-paying-people-for-the-ai-sessions-theyd-otherwise-throw-away/",
       "summary": "After invite-only early access, the desktop app from the team behind Brevis is now open to anyone on Mac and Windows. HONG KONG, November 11, 2026: Arca, a new desktop app from the team behind Brevis, opened to the public today. Arca pays people for the AI sessions they’d otherwise throw away. It finds the session history their AI tools already keep on their computer, lets them choose which sessions to submit, strips sensitive details on the device before anything is uploaded, and pays for the sessions that are approved. Starting today, anyone can sign up with an email address, with no invite ",
@@ -251,13 +264,13 @@
       "image_local": null
     },
     {
-      "title": "Why Bitcoin, Nasdaq, AI Stocks, and Chips Move Together? The Liquidity Machine Explained",
-      "link": "https://cryptonews.com/news/bitcoin-nasdaq-ai-stocks-chips-liquidity/",
-      "summary": "Bitcoin, Nasdaq, AI stocks and chipmakers move together. But why? Discover how Fed policy, Wall Street and global liquidity connect them.",
+      "title": "Strategy MSCI Verdict Nears as Anthropic IPO Puts Billions on the Line",
+      "link": "https://cryptonews.com/news/strategy-msci-anthropic-ipo-wall-street/",
+      "summary": "Strategy MSCI decision arrives within hours as Anthropic IPO targets $64.4 billion, putting Wall Street's appetite to the test.",
       "source": "Cryptonews",
       "date": "2026-11-11",
       "date_human": "Nov 11, 2026",
-      "pub_ts": 1794385545,
+      "pub_ts": 1794400232,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -277,7 +290,20 @@
       "image_local": null
     },
     {
-      "title": "LIVE – Bitcoin Price Cooked? Gensler 2.0 Fears as Fed Blocks Crypto Bank",
+      "title": "Why Bitcoin, Nasdaq, AI Stocks, and Chips Move Together? The Liquidity Machine Explained",
+      "link": "https://cryptonews.com/news/bitcoin-nasdaq-ai-stocks-chips-liquidity/",
+      "summary": "Bitcoin, Nasdaq, AI stocks and chipmakers move together. But why? Discover how Fed policy, Wall Street and global liquidity connect them.",
+      "source": "Cryptonews",
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794385545,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Cooked? Gensler 2.0 Fears as Fed Blocks Crypto Bank",
       "link": "https://cryptonews.com/news/bitcoin-price-gensler-2-fears-fed-crypto-bank/",
       "summary": "Bitcoin price slips below $73K as $732M is liquidated. Gensler 2.0 fears and Fed banking accusations shake crypto markets. Is crypto cooked?",
       "source": "Cryptonews",
@@ -310,19 +336,6 @@
       "date": "2026-11-10",
       "date_human": "Nov 10, 2026",
       "pub_ts": 1794312152,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "AVAX NYSE Deal Sparks 10% Rally: Avalanche Wins Tokenized Stock Role",
-      "link": "https://cryptonews.com/news/avax-nyse-deal-tokenized-stock-trading/",
-      "summary": "AVAX NYSE partnership ignites a 10% rally as Avalanche wins a major role in the exchange's planned 24/7 tokenized stock trading platform.",
-      "source": "Cryptonews",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794297982,
       "image_candidates": [],
       "license_url": null,
       "image": null,
