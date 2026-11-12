@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-12",
-  "generated_at_utc": "2026-11-12 11:05:08 UTC",
+  "generated_at_utc": "2026-11-12 17:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-12T11:05:02.144675+00:00",
+    "collected_at": "2026-11-12T17:05:03.263372+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 4,
+        "within_24h": 2,
         "within_window": 10,
         "eligible": 3,
         "rejected": {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 11,
+        "within_24h": 12,
         "within_window": 20,
         "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 7,
           "title_filter": 5,
-          "unreviewed_link": 1
+          "topic_author_or_category": 6,
+          "unreviewed_link": 2
         }
       },
       {
@@ -63,10 +63,10 @@
         "status": "ok",
         "entries": 12,
         "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 11
+          "older_than_window": 12
         }
       },
       {
@@ -87,11 +87,10 @@
         "status": "ok",
         "entries": 25,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 24
+          "older_than_window": 25
         }
       },
       {
@@ -100,11 +99,10 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 2,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 2,
-          "older_than_window": 13
+          "older_than_window": 15
         }
       },
       {
@@ -172,40 +170,38 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 20
+          "topic_author_or_category": 1,
+          "older_than_window": 19
         }
       }
     ],
     "eligible_by_source": {
       "Cryptonews": 7,
-      "NewsBTC": 3,
-      "U.S. Bureau of Labor Statistics": 1
+      "NewsBTC": 3
     },
     "unique_by_source": {
       "Cryptonews": 7,
-      "NewsBTC": 3,
-      "U.S. Bureau of Labor Statistics": 1
+      "NewsBTC": 3
     },
     "selected_by_source": {
       "Cryptonews": 7,
-      "NewsBTC": 3,
-      "U.S. Bureau of Labor Statistics": 1
+      "NewsBTC": 3
     }
   },
-  "count": 11,
+  "count": 10,
   "items": [
     {
-      "title": "Is the Crypto Market Walking Into a Bull Trap? Bitcoin ETF Records Five Straight Days of Outflow",
-      "link": "https://cryptonews.com/news/bitcoin-etf-outflow-crypto-bull-trap/",
-      "summary": "Bitcoin ETF Outflow reaches $1.44 billion in five days as BTC struggles below $75,000. Is the crypto market walking into a bull trap?",
+      "title": "Jensen Huang Resigns: NVDA Crashes, Sending Shockwaves to The Crypto Market",
+      "link": "https://cryptonews.com/news/jensen-huang-resigns-nvda-bitcoin-below-72k/",
+      "summary": "Jensen Huang resigns as Nvidia CEO, sending NVDA plunging nearly 10%. Bitcoin falls below $72K as Nvidia perpetual futures tumble.",
       "source": "Cryptonews",
       "date": "2026-11-12",
       "date_human": "Nov 12, 2026",
-      "pub_ts": 1794473311,
+      "pub_ts": 1794494580,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -225,26 +221,13 @@
       "image_local": null
     },
     {
-      "title": "CPI for all items increases 0.4% in October; shelter rises",
-      "link": "https://www.bls.gov/news.release/archives/cpi_11102026.htm",
-      "summary": "In October, the Consumer Price Index for All Urban Consumers rose 0.4 percent, seasonally adjusted (SA). The index for all items less food and energy rose 0.3 percent in October (SA).",
-      "source": "U.S. Bureau of Labor Statistics",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794315347,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "LIVE – Bitcoin Price Rebounds Despite Quantum Threat as Nvidia's Jensen Huang Faces Ouster After Two Affairs",
-      "link": "https://cryptonews.com/news/bitcoin-price-quantum-threat-nvidia-jensen-huang-ouster/",
-      "summary": "Bitcoin price rebounds as Glassnode flags $500B in quantum-exposed BTC and Nvidia weighs removing CEO Jensen Huang. What's next?",
+      "title": "Zcash Price Fate: ZEC Crypto to Bounce or Fall Further From Critical $1,000 Support?",
+      "link": "https://cryptonews.com/news/zcash-price-1000-support-bounce-fall-further/",
+      "summary": "Zcash price falls below $1K as selling pressure builds. Can ZEC defend its 0.5 Fibonacci level and stage a recovery? Here are the scenarios.",
       "source": "Cryptonews",
       "date": "2026-11-12",
       "date_human": "Nov 12, 2026",
-      "pub_ts": 1794465903,
+      "pub_ts": 1794488263,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -264,13 +247,13 @@
       "image_local": null
     },
     {
-      "title": "Strategy MSCI Verdict Nears as Anthropic IPO Puts Billions on the Line",
-      "link": "https://cryptonews.com/news/strategy-msci-anthropic-ipo-wall-street/",
-      "summary": "Strategy MSCI decision arrives within hours as Anthropic IPO targets $64.4 billion, putting Wall Street's appetite to the test.",
+      "title": "Is the Crypto Market Walking Into a Bull Trap? Bitcoin ETF Records Five Straight Days of Outflow",
+      "link": "https://cryptonews.com/news/bitcoin-etf-outflow-crypto-bull-trap/",
+      "summary": "Bitcoin ETF Outflow reaches $1.44 billion in five days as BTC struggles below $75,000. Is the crypto market walking into a bull trap?",
       "source": "Cryptonews",
-      "date": "2026-11-11",
-      "date_human": "Nov 11, 2026",
-      "pub_ts": 1794400232,
+      "date": "2026-11-12",
+      "date_human": "Nov 12, 2026",
+      "pub_ts": 1794473311,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -284,6 +267,32 @@
       "date": "2026-11-11",
       "date_human": "Nov 11, 2026",
       "pub_ts": 1794389456,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Bitcoin Price Rebounds Despite Quantum Threat as Nvidia's Jensen Huang Faces Ouster After Two Affairs",
+      "link": "https://cryptonews.com/news/bitcoin-price-quantum-threat-nvidia-jensen-huang-ouster/",
+      "summary": "Bitcoin price rebounds as Glassnode flags $500B in quantum-exposed BTC and Nvidia weighs removing CEO Jensen Huang. What's next?",
+      "source": "Cryptonews",
+      "date": "2026-11-12",
+      "date_human": "Nov 12, 2026",
+      "pub_ts": 1794465903,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Strategy MSCI Verdict Nears as Anthropic IPO Puts Billions on the Line",
+      "link": "https://cryptonews.com/news/strategy-msci-anthropic-ipo-wall-street/",
+      "summary": "Strategy MSCI decision arrives within hours as Anthropic IPO targets $64.4 billion, putting Wall Street's appetite to the test.",
+      "source": "Cryptonews",
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794400232,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -310,32 +319,6 @@
       "date": "2026-11-11",
       "date_human": "Nov 11, 2026",
       "pub_ts": 1794381136,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Think Bigger!! Schwartz Calls for Higher XRP Price as 37 European Banks Embrace Ripple",
-      "link": "https://cryptonews.com/news/xrp-price-schwartz-higher-prices-37-european-banks-ripple/",
-      "summary": "XRP price under pressure, but Schwartz sees higher valuations benefiting the network as 37 European banks expand Ripple's footprint.",
-      "source": "Cryptonews",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794331320,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Your iPhone Duo Under Attack? Binance Flags Dangerous iOS Security Flaw",
-      "link": "https://cryptonews.com/news/binance-ios-worse-query-iphone-duo-18pro-security-flaw/",
-      "summary": "Binance warns iPhone users that an iOS flaw could expose crypto seed phrases, private keys, and login credentials through malicious apps.",
-      "source": "Cryptonews",
-      "date": "2026-11-10",
-      "date_human": "Nov 10, 2026",
-      "pub_ts": 1794312152,
       "image_candidates": [],
       "license_url": null,
       "image": null,
