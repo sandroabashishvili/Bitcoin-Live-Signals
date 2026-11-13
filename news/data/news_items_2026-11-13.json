@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-13",
-  "generated_at_utc": "2026-11-13 05:05:10 UTC",
+  "generated_at_utc": "2026-11-13 11:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-13T05:05:02.557713+00:00",
+    "collected_at": "2026-11-13T11:05:04.733630+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 2,
+        "eligible": 6,
         "rejected": {
-          "unreviewed_link": 8
+          "unreviewed_link": 4
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 11,
+        "within_24h": 10,
         "within_window": 20,
-        "eligible": 6,
+        "eligible": 7,
         "rejected": {
           "topic_author_or_category": 8,
           "title_filter": 4,
-          "unreviewed_link": 2
+          "unreviewed_link": 1
         }
       },
       {
@@ -98,11 +98,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 15
+          "unreviewed_link": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -181,44 +182,44 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 6,
+      "Cryptonews": 7,
+      "NewsBTC": 6,
       "Federal Reserve Board": 1
     },
     "unique_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 6,
+      "Cryptonews": 7,
+      "NewsBTC": 6,
       "Federal Reserve Board": 1
     },
     "selected_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 6,
+      "Cryptonews": 5,
+      "NewsBTC": 6,
       "Federal Reserve Board": 1
     }
   },
-  "count": 9,
+  "count": 12,
   "items": [
     {
-      "title": "Ethlabs Calls for Ethereum Quantum Protection in 2027 as Upgrade Priorities Shift",
-      "link": "https://www.newsbtc.com/news/ethereum/ethlabs-ethereum-quantum-protection-2027-upgrade-priorities/",
-      "summary": "Ethlabs wants Ethereum to prioritise quantum protection in 2027, opening a debate over the scope of its next upgrades.",
-      "source": "NewsBTC",
+      "title": "Bitcoin Holiday? Thailand Opens the Door to Nationwide Crypto Payments for Tourists",
+      "link": "https://cryptonews.com/news/bitcoin-holiday-thailand-opens-the-door-to-nationwide-crypto-payments-for-tourists/",
+      "summary": "Thailand crypto payments are expanding as WORPT lets foreign tourists convert USDT and USDC into baht and pay through QR codes nationwide.",
+      "source": "Cryptonews",
       "date": "2026-11-13",
       "date_human": "Nov 13, 2026",
-      "pub_ts": 1794538800,
+      "pub_ts": 1794563510,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Meta AI Predicts DOGE Vs. PEPE: Which Goes Higher in 2027?",
-      "link": "https://cryptonews.com/news/meta-ai-predicts-doge-pepe-which-goes-higher/",
-      "summary": "DOGE vs PEPE: Which Meme Coin Will Deliver Bigger Gains in 2027? As 2026 winds down, Dogecoin (DOGE) and Pepe (PEPE) remain two of the most closely watched meme coins, and Meta AI predicts which will come out on top in 2027.Both have suffered significant drawdowns from prior cycle highs, yet they continue to attract […]",
-      "source": "Cryptonews",
-      "date": "2026-11-12",
-      "date_human": "Nov 12, 2026",
-      "pub_ts": 1794525300,
+      "title": "Sygnum Launches ETH Fund Targeting 8–10% Returns in Ether",
+      "link": "https://www.newsbtc.com/news/ethereum/sygnum-eth-alpha-fund-targets-8-10-percent-ether-returns/",
+      "summary": "Sygnum's new ETH Alpha Fund combines staking with trading strategies. Its return target is measured in ETH, leaving investors exposed to the token's dollar price.",
+      "source": "NewsBTC",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794560400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -238,13 +239,52 @@
       "image_local": null
     },
     {
-      "title": "Circle and Global Citizen Plan USDC Vendor Payments for Move Afrika in 2027",
-      "link": "https://www.newsbtc.com/news/circle-global-citizen-usdc-move-afrika-rwanda-2027/",
-      "summary": "Circle and Global Citizen plan to introduce USDC payments for participating Move Afrika vendors in Rwanda in 2027, alongside practical financial education.",
+      "title": "LIVE – Why Is Crypto Down? $14.2B Stablecoin Drain Turns a Bad Morning Into a Market-Wide Rout",
+      "link": "https://cryptonews.com/news/why-is-crypto-down-bitcoin-market-crash-liquidity-drain/",
+      "summary": "Why is crypto down today? A $14.2 billion stablecoin contraction, Bitcoin ETF outflows, and mass liquidations are draining market liquidity.",
+      "source": "Cryptonews",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794555153,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Chainlink and Moody's Complete Testnet Pilot for Cross-Chain Credit Ratings",
+      "link": "https://www.newsbtc.com/news/chainlink/chainlink-moodys-testnet-pilot-cross-chain-credit-ratings/",
+      "summary": "Chainlink and Moody's tested distribution of credit-rating information across blockchains using representative data, with production deployment still separate.",
       "source": "NewsBTC",
       "date": "2026-11-13",
       "date_human": "Nov 13, 2026",
-      "pub_ts": 1794528000,
+      "pub_ts": 1794556800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Meta AI Predicts DOGE Vs. PEPE: Which Goes Higher in 2027?",
+      "link": "https://cryptonews.com/news/meta-ai-predicts-doge-pepe-which-goes-higher/",
+      "summary": "DOGE vs PEPE: Which Meme Coin Will Deliver Bigger Gains in 2027? As 2026 winds down, Dogecoin (DOGE) and Pepe (PEPE) remain two of the most closely watched meme coins, and Meta AI predicts which will come out on top in 2027.Both have suffered significant drawdowns from prior cycle highs, yet they continue to attract […]",
+      "source": "Cryptonews",
+      "date": "2026-11-12",
+      "date_human": "Nov 12, 2026",
+      "pub_ts": 1794525300,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Helius Launches Solana Privacy Rings With Confidential Balances and Transfers",
+      "link": "https://www.newsbtc.com/news/solana/helius-solana-privacy-rings-confidential-balances-transfers/",
+      "summary": "Helius has launched Solana Privacy Rings on mainnet, introducing confidential transfers while leaving addresses visible in the default ring.",
+      "source": "NewsBTC",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794553200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -264,6 +304,45 @@
       "image_local": null
     },
     {
+      "title": "Aave Proposal Targets $3.5M in Added Annual Revenue Through Reserve-Factor Changes",
+      "link": "https://www.newsbtc.com/news/defi/aave-reserve-factor-proposal-3-5m-annual-revenue/",
+      "summary": "TokenLogic proposes reserve-factor changes across Aave markets, with an estimated $3.5 million annual revenue increase at a fixed snapshot.",
+      "source": "NewsBTC",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794549600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Solana Company Reports $3.4M Quarterly Revenue as Staking Business Expands",
+      "link": "https://www.newsbtc.com/news/solana/solana-company-q3-2026-revenue-staking-expands/",
+      "summary": "Solana Company reported $3.4 million in third-quarter revenue as its treasury staking and Asia-Pacific validator infrastructure developed.",
+      "source": "NewsBTC",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794546000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethlabs Calls for Ethereum Quantum Protection in 2027 as Upgrade Priorities Shift",
+      "link": "https://www.newsbtc.com/news/ethereum/ethlabs-ethereum-quantum-protection-2027-upgrade-priorities/",
+      "summary": "Ethlabs wants Ethereum to prioritise quantum protection in 2027, opening a debate over the scope of its next upgrades.",
+      "source": "NewsBTC",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794538800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Zcash Price Fate: ZEC Crypto to Bounce or Fall Further From Critical $1,000 Support?",
       "link": "https://cryptonews.com/news/zcash-price-1000-support-bounce-fall-further/",
       "summary": "Zcash price falls below $1K as selling pressure builds. Can ZEC defend its 0.5 Fibonacci level and stage a recovery? Here are the scenarios.",
@@ -271,45 +350,6 @@
       "date": "2026-11-12",
       "date_human": "Nov 12, 2026",
       "pub_ts": 1794488263,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Is the Crypto Market Walking Into a Bull Trap? Bitcoin ETF Records Five Straight Days of Outflow",
-      "link": "https://cryptonews.com/news/bitcoin-etf-outflow-crypto-bull-trap/",
-      "summary": "Bitcoin ETF Outflow reaches $1.44 billion in five days as BTC struggles below $75,000. Is the crypto market walking into a bull trap?",
-      "source": "Cryptonews",
-      "date": "2026-11-12",
-      "date_human": "Nov 12, 2026",
-      "pub_ts": 1794473311,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "LIVE – Bitcoin Price Rebounds Despite Quantum Threat as Nvidia's Jensen Huang Faces Ouster After Two Affairs",
-      "link": "https://cryptonews.com/news/bitcoin-price-quantum-threat-nvidia-jensen-huang-ouster/",
-      "summary": "Bitcoin price rebounds as Glassnode flags $500B in quantum-exposed BTC and Nvidia weighs removing CEO Jensen Huang. What's next?",
-      "source": "Cryptonews",
-      "date": "2026-11-12",
-      "date_human": "Nov 12, 2026",
-      "pub_ts": 1794465903,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Strategy MSCI Verdict Nears as Anthropic IPO Puts Billions on the Line",
-      "link": "https://cryptonews.com/news/strategy-msci-anthropic-ipo-wall-street/",
-      "summary": "Strategy MSCI decision arrives within hours as Anthropic IPO targets $64.4 billion, putting Wall Street's appetite to the test.",
-      "source": "Cryptonews",
-      "date": "2026-11-11",
-      "date_human": "Nov 11, 2026",
-      "pub_ts": 1794400232,
       "image_candidates": [],
       "license_url": null,
       "image": null,
