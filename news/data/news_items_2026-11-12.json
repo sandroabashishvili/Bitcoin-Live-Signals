@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-12",
-  "generated_at_utc": "2026-11-12 17:05:09 UTC",
+  "generated_at_utc": "2026-11-12 23:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-12T17:05:03.263372+00:00",
+    "collected_at": "2026-11-12T23:05:03.889569+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 2,
+        "within_24h": 9,
         "within_window": 10,
-        "eligible": 3,
+        "eligible": 1,
         "rejected": {
-          "unreviewed_link": 7
+          "unreviewed_link": 9
         }
       },
       {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 12,
+        "within_24h": 10,
         "within_window": 20,
-        "eligible": 7,
+        "eligible": 6,
         "rejected": {
-          "title_filter": 5,
-          "topic_author_or_category": 6,
+          "topic_author_or_category": 8,
+          "title_filter": 4,
           "unreviewed_link": 2
         }
       },
@@ -122,11 +122,12 @@
         "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 15
+          "topic_author_or_category": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -170,30 +171,46 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
-        "within_window": 1,
-        "eligible": 0,
+        "within_24h": 3,
+        "within_window": 3,
+        "eligible": 1,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 19
+          "topic_author_or_category": 2,
+          "older_than_window": 17
         }
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 7,
-      "NewsBTC": 3
+      "Federal Reserve Board": 1,
+      "Cryptonews": 6,
+      "NewsBTC": 1
     },
     "unique_by_source": {
-      "Cryptonews": 7,
-      "NewsBTC": 3
+      "Federal Reserve Board": 1,
+      "Cryptonews": 6,
+      "NewsBTC": 1
     },
     "selected_by_source": {
-      "Cryptonews": 7,
-      "NewsBTC": 3
+      "Federal Reserve Board": 1,
+      "Cryptonews": 6,
+      "NewsBTC": 1
     }
   },
-  "count": 10,
+  "count": 8,
   "items": [
+    {
+      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
+      "summary": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "source": "Federal Reserve Board",
+      "date": "2026-11-12",
+      "date_human": "Nov 12, 2026",
+      "pub_ts": 1794508200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Jensen Huang Resigns: NVDA Crashes, Sending Shockwaves to The Crypto Market",
       "link": "https://cryptonews.com/news/jensen-huang-resigns-nvda-bitcoin-below-72k/",
@@ -234,19 +251,6 @@
       "image_local": null
     },
     {
-      "title": "Arca Opens to Everyone, Paying People for the AI Sessions They'd Otherwise Throw Away",
-      "link": "https://www.newsbtc.com/news/arca-opens-to-everyone-paying-people-for-the-ai-sessions-theyd-otherwise-throw-away/",
-      "summary": "After invite-only early access, the desktop app from the team behind Brevis is now open to anyone on Mac and Windows. HONG KONG, November 11, 2026: Arca, a new desktop app from the team behind Brevis, opened to the public today. Arca pays people for the AI sessions they’d otherwise throw away. It finds the session history their AI tools already keep on their computer, lets them choose which sessions to submit, strips sensitive details on the device before anything is uploaded, and pays for the sessions that are approved. Starting today, anyone can sign up with an email address, with no invite ",
-      "source": "NewsBTC",
-      "date": "2026-11-11",
-      "date_human": "Nov 11, 2026",
-      "pub_ts": 1794398953,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Is the Crypto Market Walking Into a Bull Trap? Bitcoin ETF Records Five Straight Days of Outflow",
       "link": "https://cryptonews.com/news/bitcoin-etf-outflow-crypto-bull-trap/",
       "summary": "Bitcoin ETF Outflow reaches $1.44 billion in five days as BTC struggles below $75,000. Is the crypto market walking into a bull trap?",
@@ -254,19 +258,6 @@
       "date": "2026-11-12",
       "date_human": "Nov 12, 2026",
       "pub_ts": 1794473311,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "HTX Releases October Performance Report: Spot Liquidity Significantly Enhanced, APY Boosts Help Users Through a Warm Winter",
-      "link": "https://www.newsbtc.com/news/htx-releases-october-performance-report-spot-liquidity-significantly-enhanced-apy-boosts-help-users-through-a-warm-winter/",
-      "summary": "Since the start of Q4, the crypto market has continued to weaken amid volatility. Major asset prices have pulled back from their highs, and market participants have become more cautious. As the market cools, HTX has focused its efforts on solidifying its trading fundamentals and offering diverse yield generation pathways. In October, HTX saw a significant overall improvement in the market depth of its core spot trading pairs, with the 0.05% depth for the BTC/USDT pair increasing by 78%. Meanwhile, the platform’s total count of stock trading assets grew to 307, with cumulative TradFi trading vo",
-      "source": "NewsBTC",
-      "date": "2026-11-11",
-      "date_human": "Nov 11, 2026",
-      "pub_ts": 1794389456,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -306,19 +297,6 @@
       "date": "2026-11-11",
       "date_human": "Nov 11, 2026",
       "pub_ts": 1794385545,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Price Cooked? Gensler 2.0 Fears as Fed Blocks Crypto Bank",
-      "link": "https://cryptonews.com/news/bitcoin-price-gensler-2-fears-fed-crypto-bank/",
-      "summary": "Bitcoin price slips below $73K as $732M is liquidated. Gensler 2.0 fears and Fed banking accusations shake crypto markets. Is crypto cooked?",
-      "source": "Cryptonews",
-      "date": "2026-11-11",
-      "date_human": "Nov 11, 2026",
-      "pub_ts": 1794381136,
       "image_candidates": [],
       "license_url": null,
       "image": null,

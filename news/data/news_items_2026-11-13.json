@@ -1,0 +1,319 @@
+{
+  "day_iso": "2026-11-13",
+  "generated_at_utc": "2026-11-13 05:05:10 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-11-13T05:05:02.557713+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 2,
+        "rejected": {
+          "unreviewed_link": 8
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 11,
+        "within_window": 20,
+        "eligible": 6,
+        "rejected": {
+          "topic_author_or_category": 8,
+          "title_filter": 4,
+          "unreviewed_link": 2
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 49,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 49
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 25
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 14
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 3,
+        "within_window": 3,
+        "eligible": 1,
+        "rejected": {
+          "topic_author_or_category": 2,
+          "older_than_window": 17
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 2,
+      "Cryptonews": 6,
+      "Federal Reserve Board": 1
+    },
+    "unique_by_source": {
+      "NewsBTC": 2,
+      "Cryptonews": 6,
+      "Federal Reserve Board": 1
+    },
+    "selected_by_source": {
+      "NewsBTC": 2,
+      "Cryptonews": 6,
+      "Federal Reserve Board": 1
+    }
+  },
+  "count": 9,
+  "items": [
+    {
+      "title": "Ethlabs Calls for Ethereum Quantum Protection in 2027 as Upgrade Priorities Shift",
+      "link": "https://www.newsbtc.com/news/ethereum/ethlabs-ethereum-quantum-protection-2027-upgrade-priorities/",
+      "summary": "Ethlabs wants Ethereum to prioritise quantum protection in 2027, opening a debate over the scope of its next upgrades.",
+      "source": "NewsBTC",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794538800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Meta AI Predicts DOGE Vs. PEPE: Which Goes Higher in 2027?",
+      "link": "https://cryptonews.com/news/meta-ai-predicts-doge-pepe-which-goes-higher/",
+      "summary": "DOGE vs PEPE: Which Meme Coin Will Deliver Bigger Gains in 2027? As 2026 winds down, Dogecoin (DOGE) and Pepe (PEPE) remain two of the most closely watched meme coins, and Meta AI predicts which will come out on top in 2027.Both have suffered significant drawdowns from prior cycle highs, yet they continue to attract […]",
+      "source": "Cryptonews",
+      "date": "2026-11-12",
+      "date_human": "Nov 12, 2026",
+      "pub_ts": 1794525300,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
+      "summary": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "source": "Federal Reserve Board",
+      "date": "2026-11-12",
+      "date_human": "Nov 12, 2026",
+      "pub_ts": 1794508200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Circle and Global Citizen Plan USDC Vendor Payments for Move Afrika in 2027",
+      "link": "https://www.newsbtc.com/news/circle-global-citizen-usdc-move-afrika-rwanda-2027/",
+      "summary": "Circle and Global Citizen plan to introduce USDC payments for participating Move Afrika vendors in Rwanda in 2027, alongside practical financial education.",
+      "source": "NewsBTC",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794528000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Jensen Huang Resigns: NVDA Crashes, Sending Shockwaves to The Crypto Market",
+      "link": "https://cryptonews.com/news/jensen-huang-resigns-nvda-bitcoin-below-72k/",
+      "summary": "Jensen Huang resigns as Nvidia CEO, sending NVDA plunging nearly 10%. Bitcoin falls below $72K as Nvidia perpetual futures tumble.",
+      "source": "Cryptonews",
+      "date": "2026-11-12",
+      "date_human": "Nov 12, 2026",
+      "pub_ts": 1794494580,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Zcash Price Fate: ZEC Crypto to Bounce or Fall Further From Critical $1,000 Support?",
+      "link": "https://cryptonews.com/news/zcash-price-1000-support-bounce-fall-further/",
+      "summary": "Zcash price falls below $1K as selling pressure builds. Can ZEC defend its 0.5 Fibonacci level and stage a recovery? Here are the scenarios.",
+      "source": "Cryptonews",
+      "date": "2026-11-12",
+      "date_human": "Nov 12, 2026",
+      "pub_ts": 1794488263,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Is the Crypto Market Walking Into a Bull Trap? Bitcoin ETF Records Five Straight Days of Outflow",
+      "link": "https://cryptonews.com/news/bitcoin-etf-outflow-crypto-bull-trap/",
+      "summary": "Bitcoin ETF Outflow reaches $1.44 billion in five days as BTC struggles below $75,000. Is the crypto market walking into a bull trap?",
+      "source": "Cryptonews",
+      "date": "2026-11-12",
+      "date_human": "Nov 12, 2026",
+      "pub_ts": 1794473311,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Bitcoin Price Rebounds Despite Quantum Threat as Nvidia's Jensen Huang Faces Ouster After Two Affairs",
+      "link": "https://cryptonews.com/news/bitcoin-price-quantum-threat-nvidia-jensen-huang-ouster/",
+      "summary": "Bitcoin price rebounds as Glassnode flags $500B in quantum-exposed BTC and Nvidia weighs removing CEO Jensen Huang. What's next?",
+      "source": "Cryptonews",
+      "date": "2026-11-12",
+      "date_human": "Nov 12, 2026",
+      "pub_ts": 1794465903,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Strategy MSCI Verdict Nears as Anthropic IPO Puts Billions on the Line",
+      "link": "https://cryptonews.com/news/strategy-msci-anthropic-ipo-wall-street/",
+      "summary": "Strategy MSCI decision arrives within hours as Anthropic IPO targets $64.4 billion, putting Wall Street's appetite to the test.",
+      "source": "Cryptonews",
+      "date": "2026-11-11",
+      "date_human": "Nov 11, 2026",
+      "pub_ts": 1794400232,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}
