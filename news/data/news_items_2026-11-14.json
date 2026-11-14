@@ -1,0 +1,367 @@
+{
+  "day_iso": "2026-11-14",
+  "generated_at_utc": "2026-11-14 05:05:10 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-11-14T05:05:04.960514+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 7,
+        "within_window": 10,
+        "eligible": 8,
+        "rejected": {
+          "unreviewed_link": 2
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 6,
+        "within_window": 17,
+        "eligible": 9,
+        "rejected": {
+          "topic_author_or_category": 6,
+          "title_filter": 1,
+          "unreviewed_link": 1,
+          "older_than_window": 3
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 49,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 49
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 24
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 1,
+          "older_than_window": 14
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 9
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 14
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 11
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 1,
+        "within_window": 4,
+        "eligible": 1,
+        "rejected": {
+          "topic_author_or_category": 3,
+          "older_than_window": 16
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 8,
+      "Cryptonews": 9,
+      "U.S. Bureau of Labor Statistics": 1,
+      "Bitcoin Optech": 1,
+      "Federal Reserve Board": 1
+    },
+    "unique_by_source": {
+      "NewsBTC": 8,
+      "Cryptonews": 9,
+      "U.S. Bureau of Labor Statistics": 1,
+      "Bitcoin Optech": 1,
+      "Federal Reserve Board": 1
+    },
+    "selected_by_source": {
+      "NewsBTC": 5,
+      "Cryptonews": 4,
+      "U.S. Bureau of Labor Statistics": 1,
+      "Bitcoin Optech": 1,
+      "Federal Reserve Board": 1
+    }
+  },
+  "count": 12,
+  "items": [
+    {
+      "title": "Hyperscalers List GPUs at Nearly 2× the GPU-Cloud Price, Fluence Research Finds",
+      "link": "https://www.newsbtc.com/news/hyperscalers-list-gpus-at-nearly-2x-the-gpu-cloud-price-fluence-research-finds/",
+      "summary": "The AI Compute Race report prices GPU compute outside the biggest buyers: a three-year commitment cuts the median price by 48%, while 17 of 22 tracked GPU models rose in price over the past year DALLAS, Texas – November 13, 2026 – Fluence has published The AI Compute Race, a report that prices GPU cloud compute for every company that is not a frontier lab or a hyperscaler. It was produced with research partners NEAR AI, io.net, Boundless, Phala, Gensyn, Fortytwo, Theta, Compute Labs and GAIB. Its central finding: where a company buys a GPU-hour sets the price. Across H100, H200 and B200 models",
+      "source": "NewsBTC",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794590648,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum Dancing on Two Fronts as Quantum Upgrade Advances and Treasury Leverage Bites",
+      "link": "https://cryptonews.com/news/ethereum-quantum-upgrade-btcs-aave-debt/",
+      "summary": "Ethereum quantum upgrade plans target 2027 as BTCS sells ETH below cost while managing $64.1 million in Aave debt.",
+      "source": "Cryptonews",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794578378,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "PPI for final demand increases 0.3% in October; goods advance 0.5%, services rise 0.2%",
+      "link": "https://www.bls.gov/news.release/archives/ppi_11132026.htm",
+      "summary": "The Producer Price Index for final demand rose 0.3 percent in October. Prices for final demand goods increased 0.5 percent, and the index for final demand services moved up 0.2 percent. Prices for final demand advanced 6.5 percent for the 12 months ended in October.",
+      "source": "U.S. Bureau of Labor Statistics",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794574234,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Optech Newsletter #431",
+      "link": "https://bitcoinops.org/en/newsletters/2026/11/13/",
+      "summary": "This week’s newsletter links to draft BIPs for exfiltration-resistant signing, summarizes the disclosure of three vulnerabilities affecting older versions of Bitcoin Core, announces a plan for mining the testnet5 genesis block, and describes an investigation into degraded compact block reconstruction. Also included are our regular sections announcing new releases and release candidates and describing notable changes to popular Bitcoin infrastructure software.",
+      "source": "Bitcoin Optech",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794528000,
+      "image_candidates": [],
+      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
+      "summary": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "source": "Federal Reserve Board",
+      "date": "2026-11-12",
+      "date_human": "Nov 12, 2026",
+      "pub_ts": 1794508200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Solo Brings Human Verification to Venmo Co-Founder's JellyJelly App as AI Agents Beat CAPTCHA",
+      "link": "https://www.newsbtc.com/news/solo-brings-human-verification-to-venmo-co-founders-jellyjelly-app-as-ai-agents-beat-captcha/",
+      "summary": "Solo’s SDK confirms that each JellyJelly account belongs to a real, unique person, after a Solo AI agent passed CAPTCHA on 50+ Discord servers. San Francisco, United States, November 13th, 2026 – Solo, a privacy-preserving proof-of-humanity company, is bringing its human verification software development kit (SDK) to JellyJelly. The social video app runs on Solana and was co-founded by Venmo co-founder Iqram Magdon-Ismail. The integration lets JellyJelly confirm that every account belongs to a real, unique person, with no government ID and no puzzles to solve. Magdon-Ismail is co-founder and C",
+      "source": "NewsBTC",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794585631,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "JPMorgan Buys More Strategy and Bitcoin ETF Despite MSCI Saylor Blow",
+      "link": "https://cryptonews.com/news/jpmorgan-bitcoin-strategy-etf-ibit-msci/",
+      "summary": "JPMorgan increases Strategy and Bitcoin ETF holdings as crypto crashes, while MSCI delivers another blow to Michael Saylor.",
+      "source": "Cryptonews",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794571601,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Sygnum Launches ETH Fund Targeting 8–10% Returns in Ether",
+      "link": "https://www.newsbtc.com/news/ethereum/sygnum-eth-alpha-fund-targets-8-10-percent-ether-returns/",
+      "summary": "Sygnum's new ETH Alpha Fund combines staking with trading strategies. Its return target is measured in ETH, leaving investors exposed to the token's dollar price.",
+      "source": "NewsBTC",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794560400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Holiday? Thailand Opens the Door to Nationwide Crypto Payments for Tourists",
+      "link": "https://cryptonews.com/news/bitcoin-holiday-thailand-opens-the-door-to-nationwide-crypto-payments-for-tourists/",
+      "summary": "Thailand crypto payments are expanding as WORPT lets foreign tourists convert USDT and USDC into baht and pay through QR codes nationwide.",
+      "source": "Cryptonews",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794563510,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Chainlink and Moody's Complete Testnet Pilot for Cross-Chain Credit Ratings",
+      "link": "https://www.newsbtc.com/news/chainlink/chainlink-moodys-testnet-pilot-cross-chain-credit-ratings/",
+      "summary": "Chainlink and Moody's tested distribution of credit-rating information across blockchains using representative data, with production deployment still separate.",
+      "source": "NewsBTC",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794556800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Why Is Crypto Down? $14.2B Stablecoin Drain Turns a Bad Morning Into a Market-Wide Rout",
+      "link": "https://cryptonews.com/news/why-is-crypto-down-bitcoin-market-crash-liquidity-drain/",
+      "summary": "Why is crypto down today? A $14.2 billion stablecoin contraction, Bitcoin ETF outflows, and mass liquidations are draining market liquidity.",
+      "source": "Cryptonews",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794555153,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Helius Launches Solana Privacy Rings With Confidential Balances and Transfers",
+      "link": "https://www.newsbtc.com/news/solana/helius-solana-privacy-rings-confidential-balances-transfers/",
+      "summary": "Helius has launched Solana Privacy Rings on mainnet, introducing confidential transfers while leaving addresses visible in the default ring.",
+      "source": "NewsBTC",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794553200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}
