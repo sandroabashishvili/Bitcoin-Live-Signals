@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-14",
-  "generated_at_utc": "2026-11-14 05:05:10 UTC",
+  "generated_at_utc": "2026-11-14 11:05:12 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-14T05:05:04.960514+00:00",
+    "collected_at": "2026-11-14T11:05:06.018782+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 7,
+        "within_24h": 2,
         "within_window": 10,
         "eligible": 8,
         "rejected": {
@@ -48,14 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 6,
-        "within_window": 17,
-        "eligible": 9,
+        "within_24h": 3,
+        "within_window": 13,
+        "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 6,
+          "topic_author_or_category": 5,
           "title_filter": 1,
-          "unreviewed_link": 1,
-          "older_than_window": 3
+          "older_than_window": 7
         }
       },
       {
@@ -100,7 +99,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -185,14 +184,14 @@
     ],
     "eligible_by_source": {
       "NewsBTC": 8,
-      "Cryptonews": 9,
+      "Cryptonews": 7,
       "U.S. Bureau of Labor Statistics": 1,
       "Bitcoin Optech": 1,
       "Federal Reserve Board": 1
     },
     "unique_by_source": {
       "NewsBTC": 8,
-      "Cryptonews": 9,
+      "Cryptonews": 7,
       "U.S. Bureau of Labor Statistics": 1,
       "Bitcoin Optech": 1,
       "Federal Reserve Board": 1
