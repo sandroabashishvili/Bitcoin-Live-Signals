@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-15",
-  "generated_at_utc": "2026-11-15 11:05:08 UTC",
+  "generated_at_utc": "2026-11-15 17:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-15T11:05:02.155744+00:00",
+    "collected_at": "2026-11-15T17:05:01.436510+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,10 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
+        "within_24h": 1,
         "within_window": 2,
-        "eligible": 2,
+        "eligible": 1,
         "rejected": {
+          "unreviewed_link": 1,
           "older_than_window": 8
         }
       },
@@ -49,11 +50,11 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 0,
-        "within_window": 3,
-        "eligible": 2,
+        "within_window": 1,
+        "eligible": 0,
         "rejected": {
           "topic_author_or_category": 1,
-          "older_than_window": 17
+          "older_than_window": 19
         }
       },
       {
@@ -86,11 +87,10 @@
         "status": "ok",
         "entries": 25,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 24
+          "older_than_window": 25
         }
       },
       {
@@ -135,10 +135,10 @@
         "status": "ok",
         "entries": 12,
         "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 11
+          "older_than_window": 12
         }
       },
       {
@@ -180,22 +180,16 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 2,
-      "U.S. Bureau of Labor Statistics": 1
+      "NewsBTC": 1
     },
     "unique_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 2,
-      "U.S. Bureau of Labor Statistics": 1
+      "NewsBTC": 1
     },
     "selected_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 2,
-      "U.S. Bureau of Labor Statistics": 1
+      "NewsBTC": 1
     }
   },
-  "count": 5,
+  "count": 1,
   "items": [
     {
       "title": "Hyperscalers List GPUs at Nearly 2× the GPU-Cloud Price, Fluence Research Finds",
@@ -205,58 +199,6 @@
       "date": "2026-11-13",
       "date_human": "Nov 13, 2026",
       "pub_ts": 1794590648,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Ethereum Dancing on Two Fronts as Quantum Upgrade Advances and Treasury Leverage Bites",
-      "link": "https://cryptonews.com/news/ethereum-quantum-upgrade-btcs-aave-debt/",
-      "summary": "Ethereum quantum upgrade plans target 2027 as BTCS sells ETH below cost while managing $64.1 million in Aave debt.",
-      "source": "Cryptonews",
-      "date": "2026-11-13",
-      "date_human": "Nov 13, 2026",
-      "pub_ts": 1794578378,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "PPI for final demand increases 0.3% in October; goods advance 0.5%, services rise 0.2%",
-      "link": "https://www.bls.gov/news.release/archives/ppi_11132026.htm",
-      "summary": "The Producer Price Index for final demand rose 0.3 percent in October. Prices for final demand goods increased 0.5 percent, and the index for final demand services moved up 0.2 percent. Prices for final demand advanced 6.5 percent for the 12 months ended in October.",
-      "source": "U.S. Bureau of Labor Statistics",
-      "date": "2026-11-13",
-      "date_human": "Nov 13, 2026",
-      "pub_ts": 1794574234,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Solo Brings Human Verification to Venmo Co-Founder's JellyJelly App as AI Agents Beat CAPTCHA",
-      "link": "https://www.newsbtc.com/news/solo-brings-human-verification-to-venmo-co-founders-jellyjelly-app-as-ai-agents-beat-captcha/",
-      "summary": "Solo’s SDK confirms that each JellyJelly account belongs to a real, unique person, after a Solo AI agent passed CAPTCHA on 50+ Discord servers. San Francisco, United States, November 13th, 2026 – Solo, a privacy-preserving proof-of-humanity company, is bringing its human verification software development kit (SDK) to JellyJelly. The social video app runs on Solana and was co-founded by Venmo co-founder Iqram Magdon-Ismail. The integration lets JellyJelly confirm that every account belongs to a real, unique person, with no government ID and no puzzles to solve. Magdon-Ismail is co-founder and C",
-      "source": "NewsBTC",
-      "date": "2026-11-13",
-      "date_human": "Nov 13, 2026",
-      "pub_ts": 1794585631,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "JPMorgan Buys More Strategy and Bitcoin ETF Despite MSCI Saylor Blow",
-      "link": "https://cryptonews.com/news/jpmorgan-bitcoin-strategy-etf-ibit-msci/",
-      "summary": "JPMorgan increases Strategy and Bitcoin ETF holdings as crypto crashes, while MSCI delivers another blow to Michael Saylor.",
-      "source": "Cryptonews",
-      "date": "2026-11-13",
-      "date_human": "Nov 13, 2026",
-      "pub_ts": 1794571601,
       "image_candidates": [],
       "license_url": null,
       "image": null,
