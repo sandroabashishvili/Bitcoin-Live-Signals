@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-14",
-  "generated_at_utc": "2026-11-14 17:05:12 UTC",
+  "generated_at_utc": "2026-11-14 23:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-14T17:05:06.252435+00:00",
+    "collected_at": "2026-11-14T23:05:05.296870+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 10,
         "eligible": 8,
         "rejected": {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
-        "within_window": 10,
+        "within_24h": 0,
+        "within_window": 7,
         "eligible": 5,
         "rejected": {
-          "topic_author_or_category": 5,
-          "older_than_window": 10
+          "topic_author_or_category": 2,
+          "older_than_window": 13
         }
       },
       {
@@ -124,11 +124,10 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 14
+          "older_than_window": 15
         }
       },
       {
@@ -172,12 +171,12 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
-        "within_window": 3,
-        "eligible": 1,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 2,
-          "older_than_window": 17
+          "topic_author_or_category": 1,
+          "older_than_window": 19
         }
       }
     ],
@@ -185,22 +184,19 @@
       "NewsBTC": 8,
       "Cryptonews": 5,
       "U.S. Bureau of Labor Statistics": 1,
-      "Bitcoin Optech": 1,
-      "Federal Reserve Board": 1
+      "Bitcoin Optech": 1
     },
     "unique_by_source": {
       "NewsBTC": 8,
       "Cryptonews": 5,
       "U.S. Bureau of Labor Statistics": 1,
-      "Bitcoin Optech": 1,
-      "Federal Reserve Board": 1
+      "Bitcoin Optech": 1
     },
     "selected_by_source": {
-      "NewsBTC": 5,
+      "NewsBTC": 6,
       "Cryptonews": 4,
       "U.S. Bureau of Labor Statistics": 1,
-      "Bitcoin Optech": 1,
-      "Federal Reserve Board": 1
+      "Bitcoin Optech": 1
     }
   },
   "count": 12,
@@ -254,19 +250,6 @@
       "pub_ts": 1794528000,
       "image_candidates": [],
       "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
-      "link": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
-      "summary": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
-      "source": "Federal Reserve Board",
-      "date": "2026-11-12",
-      "date_human": "Nov 12, 2026",
-      "pub_ts": 1794508200,
-      "image_candidates": [],
-      "license_url": null,
       "image": null,
       "image_local": null
     },
@@ -356,6 +339,19 @@
       "date": "2026-11-13",
       "date_human": "Nov 13, 2026",
       "pub_ts": 1794553200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Aave Proposal Targets $3.5M in Added Annual Revenue Through Reserve-Factor Changes",
+      "link": "https://www.newsbtc.com/news/defi/aave-reserve-factor-proposal-3-5m-annual-revenue/",
+      "summary": "TokenLogic proposes reserve-factor changes across Aave markets, with an estimated $3.5 million annual revenue increase at a fixed snapshot.",
+      "source": "NewsBTC",
+      "date": "2026-11-13",
+      "date_human": "Nov 13, 2026",
+      "pub_ts": 1794549600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
