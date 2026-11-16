@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-16",
-  "generated_at_utc": "2026-11-16 11:05:10 UTC",
+  "generated_at_utc": "2026-11-16 17:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-16T11:05:03.038140+00:00",
+    "collected_at": "2026-11-16T17:05:04.407876+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 2,
+        "eligible": 3,
         "rejected": {
-          "unreviewed_link": 8
+          "unreviewed_link": 7
         }
       },
       {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 5,
-        "within_window": 5,
-        "eligible": 2,
+        "within_24h": 9,
+        "within_window": 9,
+        "eligible": 4,
         "rejected": {
-          "topic_author_or_category": 3,
-          "older_than_window": 15
+          "topic_author_or_category": 5,
+          "older_than_window": 11
         }
       },
       {
@@ -97,12 +97,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
-        "within_window": 1,
+        "within_24h": 2,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 1,
-          "older_than_window": 14
+          "unreviewed_link": 2,
+          "older_than_window": 13
         }
       },
       {
@@ -168,29 +168,57 @@
       {
         "source": "Federal Reserve Board",
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-        "status": "failed",
-        "entries": 0,
+        "status": "ok",
+        "entries": 20,
         "within_24h": 0,
         "within_window": 0,
         "eligible": 0,
-        "rejected": {}
+        "rejected": {
+          "older_than_window": 20
+        }
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 2
+      "NewsBTC": 3,
+      "Cryptonews": 4
     },
     "unique_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 2
+      "NewsBTC": 3,
+      "Cryptonews": 4
     },
     "selected_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 2
+      "NewsBTC": 3,
+      "Cryptonews": 4
     }
   },
-  "count": 4,
+  "count": 7,
   "items": [
+    {
+      "title": "Clearpool's CPOOL-to-CLEAR Swap Approaches as Exchanges Begin Transfer Restrictions",
+      "link": "https://www.newsbtc.com/news/defi/clearpool-cpool-clear-swap-exchange-transfer-restrictions/",
+      "summary": "Clearpool's one-for-one migration opens November 17, but exchange restrictions begin earlier. Holders face venue-specific timing and eligibility rules.",
+      "source": "NewsBTC",
+      "date": "2026-11-16",
+      "date_human": "Nov 16, 2026",
+      "pub_ts": 1794848400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Strategy Bitcoin vs. BitMine Ethereum: Which Crypto Treasury Is Better Positioned for a Market Recovery?",
+      "link": "https://cryptonews.com/news/strategy-bitcoin-vs-bitmine-ethereum-treasury/",
+      "summary": "Strategy Bitcoin holdings hit 850,849 BTC as Tom Lee's BitMine accumulates 6 million ETH. Which crypto treasury is better positioned to win?",
+      "source": "Cryptonews",
+      "date": "2026-11-16",
+      "date_human": "Nov 16, 2026",
+      "pub_ts": 1794839388,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "WBTC Expands Into Confidential DeFi, STRK Rewards and Institutional Lending",
       "link": "https://www.newsbtc.com/news/wbtc-expands-into-confidential-defi-strk-rewards-and-institutional-lending/",
@@ -205,13 +233,13 @@
       "image_local": null
     },
     {
-      "title": "CZ Fires Back at Binance Dump Claims as Vitalik Bullish on Ethereum Quantum Upgrade",
-      "link": "https://cryptonews.com/news/cz-binance-vitalik-ethereum-quantum-upgrade/",
-      "summary": "CZ Binance denies selling crypto during the market crash as Vitalik backs a faster Ethereum quantum-resistant upgrade through EIP-8288.",
+      "title": "Bitcoin Bottom? Is the Market Preparing for a Reversal or One Final Crash?",
+      "link": "https://cryptonews.com/news/bitcoin-bottom-market-reversal-final-crash/",
+      "summary": "Is the Bitcoin bottom in? BTC rebounds from $62,000 as ETF outflows and shrinking stablecoin liquidity threaten another market crash.",
       "source": "Cryptonews",
       "date": "2026-11-16",
       "date_human": "Nov 16, 2026",
-      "pub_ts": 1794826484,
+      "pub_ts": 1794834119,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -225,6 +253,19 @@
       "date": "2026-11-16",
       "date_human": "Nov 16, 2026",
       "pub_ts": 1794812400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "CZ Fires Back at Binance Dump Claims as Vitalik Bullish on Ethereum Quantum Upgrade",
+      "link": "https://cryptonews.com/news/cz-binance-vitalik-ethereum-quantum-upgrade/",
+      "summary": "CZ Binance denies selling crypto during the market crash as Vitalik backs a faster Ethereum quantum-resistant upgrade through EIP-8288.",
+      "source": "Cryptonews",
+      "date": "2026-11-16",
+      "date_human": "Nov 16, 2026",
+      "pub_ts": 1794826484,
       "image_candidates": [],
       "license_url": null,
       "image": null,
