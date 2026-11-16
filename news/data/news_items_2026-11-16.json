@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-16",
-  "generated_at_utc": "2026-11-16 05:05:09 UTC",
+  "generated_at_utc": "2026-11-16 11:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-16T05:05:02.950816+00:00",
+    "collected_at": "2026-11-16T11:05:03.038140+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 3,
+        "eligible": 2,
         "rejected": {
-          "unreviewed_link": 7
+          "unreviewed_link": 8
         }
       },
       {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 3,
-        "within_window": 3,
-        "eligible": 0,
+        "within_24h": 5,
+        "within_window": 5,
+        "eligible": 2,
         "rejected": {
           "topic_author_or_category": 3,
-          "older_than_window": 17
+          "older_than_window": 15
         }
       },
       {
@@ -97,11 +97,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 15
+          "unreviewed_link": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -167,62 +168,76 @@
       {
         "source": "Federal Reserve Board",
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-        "status": "ok",
-        "entries": 20,
+        "status": "failed",
+        "entries": 0,
         "within_24h": 0,
         "within_window": 0,
         "eligible": 0,
-        "rejected": {
-          "older_than_window": 20
-        }
+        "rejected": {}
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 3
+      "NewsBTC": 2,
+      "Cryptonews": 2
     },
     "unique_by_source": {
-      "NewsBTC": 3
+      "NewsBTC": 2,
+      "Cryptonews": 2
     },
     "selected_by_source": {
-      "NewsBTC": 3
+      "NewsBTC": 2,
+      "Cryptonews": 2
     }
   },
-  "count": 3,
+  "count": 4,
   "items": [
     {
-      "title": "Three Central Banks Test a Bridge Between Traditional FX and Tokenized Settlement",
-      "link": "https://www.newsbtc.com/news/blockchain/central-banks-meridian-fx-apac-tokenized-settlement-test/",
-      "summary": "The Bank of England, Monetary Authority of Singapore and Bank of Thailand have completed a cross-border foreign-exchange settlement experiment designed to connect existing payment infrastructure with tokenised systems. The project might sound technical, but it addresses a familiar financial problem: two…",
+      "title": "WBTC Expands Into Confidential DeFi, STRK Rewards and Institutional Lending",
+      "link": "https://www.newsbtc.com/news/wbtc-expands-into-confidential-defi-strk-rewards-and-institutional-lending/",
+      "summary": "WBTC is expanding its presence across confidential DeFi, STRK reward opportunities and institutional lending through integrations with Zama, Twinstake and Two Prime. These developments illustrate applications of WBTC across privacy-focused DeFi, protocol staking and institutional lending.. Together, they illustrate the range of financial applications being built around Bitcoin liquidity on-chain. Bringing Confidentiality to WBTC With Zama Zama brings Fully Homomorphic Encryption (FHE) to public blockchains, enabling smart contracts to process encrypted data while supporting publicly verifiable",
       "source": "NewsBTC",
       "date": "2026-11-16",
       "date_human": "Nov 16, 2026",
-      "pub_ts": 1794790800,
+      "pub_ts": 1794826489,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Kazakhstan Targets Tokenized Government Bonds After $22 Million Note Sale",
-      "link": "https://www.newsbtc.com/news/blockchain/kazakhstan-tokenized-government-bonds-q1-2027-notes/",
-      "summary": "Kazakhstan wants to move from experiments with tokenised central-bank notes to government bonds recorded using blockchain infrastructure. Officials are targeting the first quarter of 2027 for a sovereign-debt issuance, following a transaction this month that placed about $22 million of central-bank notes…",
-      "source": "NewsBTC",
+      "title": "CZ Fires Back at Binance Dump Claims as Vitalik Bullish on Ethereum Quantum Upgrade",
+      "link": "https://cryptonews.com/news/cz-binance-vitalik-ethereum-quantum-upgrade/",
+      "summary": "CZ Binance denies selling crypto during the market crash as Vitalik backs a faster Ethereum quantum-resistant upgrade through EIP-8288.",
+      "source": "Cryptonews",
       "date": "2026-11-16",
       "date_human": "Nov 16, 2026",
-      "pub_ts": 1794787200,
+      "pub_ts": 1794826484,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "Kava Lend Exploit Exposes a Dangerous Gap in DeFi Collateral Accounting",
-      "link": "https://www.newsbtc.com/news/defi/kava-lend-exploit-collateral-busd-market-55-million/",
-      "summary": "An exploit at Kava Lend has drained roughly 55 million KAVA tokens from the lending protocol, highlighting a class of DeFi vulnerability that can remain dormant until unusual market conditions make it dangerous. The incident did not involve an attacker magically creating unlimited tokens. Instead,…",
+      "title": "Hyperliquid Open Interest Surges as Perpetuals Rival Large Exchanges",
+      "link": "https://www.newsbtc.com/news/defi/hyperliquid-q3-2026-open-interest-16-billion-perpetuals/",
+      "summary": "Hyperliquid's derivatives business has grown large enough to challenge some familiar centralised exchange names on a key measure: open interest. A third-quarter research report put positions open on the platform at approximately $16.8 billion at the end of September, a major increase over the previous…",
       "source": "NewsBTC",
-      "date": "2026-11-15",
-      "date_human": "Nov 15, 2026",
-      "pub_ts": 1794780000,
+      "date": "2026-11-16",
+      "date_human": "Nov 16, 2026",
+      "pub_ts": 1794812400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Bitcoin Price at a Turning Point: Nvidia Earnings, Anthropic IPO, and Trump-Xi-Putin Diplomacy Shake Markets",
+      "link": "https://cryptonews.com/news/bitcoin-price-anthropic-ipo-nvidia-earnings-trump-xi-putin/",
+      "summary": "Bitcoin price in a pivotal week as Anthropic IPO, Nvidia earnings, and Trump-Xi-Putin diplomacy stage catalysts for a market rebound.",
+      "source": "Cryptonews",
+      "date": "2026-11-16",
+      "date_human": "Nov 16, 2026",
+      "pub_ts": 1794817055,
       "image_candidates": [],
       "license_url": null,
       "image": null,
