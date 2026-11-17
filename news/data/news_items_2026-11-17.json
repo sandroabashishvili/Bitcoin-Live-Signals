@@ -1,0 +1,263 @@
+{
+  "day_iso": "2026-11-17",
+  "generated_at_utc": "2026-11-17 05:05:11 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-11-17T05:05:05.257876+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 10,
+        "within_window": 10,
+        "eligible": 1,
+        "rejected": {
+          "unreviewed_link": 9
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 10,
+        "within_window": 13,
+        "eligible": 4,
+        "rejected": {
+          "topic_author_or_category": 8,
+          "title_filter": 1,
+          "older_than_window": 7
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 49,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 49
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 25
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 2,
+        "within_window": 2,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 2,
+          "older_than_window": 13
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 15
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 20
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 1,
+      "Cryptonews": 4
+    },
+    "unique_by_source": {
+      "NewsBTC": 1,
+      "Cryptonews": 4
+    },
+    "selected_by_source": {
+      "NewsBTC": 1,
+      "Cryptonews": 4
+    }
+  },
+  "count": 5,
+  "items": [
+    {
+      "title": "Singapore and Germany Test CBDC Settlement Without Joining Their Ledgers",
+      "link": "https://www.newsbtc.com/news/blockchain/singapore-germany-simbolon-cbdc-zero-knowledge-settlement/",
+      "summary": "Project Simbolon uses cryptographic proofs to coordinate euro and Singapore-dollar settlement while keeping central-bank test ledgers independent.",
+      "source": "NewsBTC",
+      "date": "2026-11-16",
+      "date_human": "Nov 16, 2026",
+      "pub_ts": 1794859200,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Strategy Bitcoin vs. BitMine Ethereum: Which Crypto Treasury Is Better Positioned for a Market Recovery?",
+      "link": "https://cryptonews.com/news/strategy-bitcoin-vs-bitmine-ethereum-treasury/",
+      "summary": "Strategy Bitcoin holdings hit 850,849 BTC as Tom Lee's BitMine accumulates 6 million ETH. Which crypto treasury is better positioned to win?",
+      "source": "Cryptonews",
+      "date": "2026-11-16",
+      "date_human": "Nov 16, 2026",
+      "pub_ts": 1794839388,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Bottom? Is the Market Preparing for a Reversal or One Final Crash?",
+      "link": "https://cryptonews.com/news/bitcoin-bottom-market-reversal-final-crash/",
+      "summary": "Is the Bitcoin bottom in? BTC rebounds from $62,000 as ETF outflows and shrinking stablecoin liquidity threaten another market crash.",
+      "source": "Cryptonews",
+      "date": "2026-11-16",
+      "date_human": "Nov 16, 2026",
+      "pub_ts": 1794834119,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "CZ Fires Back at Binance Dump Claims as Vitalik Bullish on Ethereum Quantum Upgrade",
+      "link": "https://cryptonews.com/news/cz-binance-vitalik-ethereum-quantum-upgrade/",
+      "summary": "CZ Binance denies selling crypto during the market crash as Vitalik backs a faster Ethereum quantum-resistant upgrade through EIP-8288.",
+      "source": "Cryptonews",
+      "date": "2026-11-16",
+      "date_human": "Nov 16, 2026",
+      "pub_ts": 1794826484,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Bitcoin Price at a Turning Point: Nvidia Earnings, Anthropic IPO, and Trump-Xi-Putin Diplomacy Shake Markets",
+      "link": "https://cryptonews.com/news/bitcoin-price-anthropic-ipo-nvidia-earnings-trump-xi-putin/",
+      "summary": "Bitcoin price in a pivotal week as Anthropic IPO, Nvidia earnings, and Trump-Xi-Putin diplomacy stage catalysts for a market rebound.",
+      "source": "Cryptonews",
+      "date": "2026-11-16",
+      "date_human": "Nov 16, 2026",
+      "pub_ts": 1794817055,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}

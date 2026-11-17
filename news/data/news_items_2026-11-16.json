@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-16",
-  "generated_at_utc": "2026-11-16 17:05:08 UTC",
+  "generated_at_utc": "2026-11-16 23:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-16T17:05:04.407876+00:00",
+    "collected_at": "2026-11-16T23:05:04.477357+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 3,
+        "eligible": 4,
         "rejected": {
-          "unreviewed_link": 7
+          "unreviewed_link": 6
         }
       },
       {
@@ -48,12 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
-        "within_window": 9,
+        "within_24h": 10,
+        "within_window": 13,
         "eligible": 4,
         "rejected": {
-          "topic_author_or_category": 5,
-          "older_than_window": 11
+          "topic_author_or_category": 8,
+          "title_filter": 1,
+          "older_than_window": 7
         }
       },
       {
@@ -179,28 +180,28 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 3,
+      "NewsBTC": 4,
       "Cryptonews": 4
     },
     "unique_by_source": {
-      "NewsBTC": 3,
+      "NewsBTC": 4,
       "Cryptonews": 4
     },
     "selected_by_source": {
-      "NewsBTC": 3,
+      "NewsBTC": 4,
       "Cryptonews": 4
     }
   },
-  "count": 7,
+  "count": 8,
   "items": [
     {
-      "title": "Clearpool's CPOOL-to-CLEAR Swap Approaches as Exchanges Begin Transfer Restrictions",
-      "link": "https://www.newsbtc.com/news/defi/clearpool-cpool-clear-swap-exchange-transfer-restrictions/",
-      "summary": "Clearpool's one-for-one migration opens November 17, but exchange restrictions begin earlier. Holders face venue-specific timing and eligibility rules.",
+      "title": "Singapore and Germany Test CBDC Settlement Without Joining Their Ledgers",
+      "link": "https://www.newsbtc.com/news/blockchain/singapore-germany-simbolon-cbdc-zero-knowledge-settlement/",
+      "summary": "Project Simbolon uses cryptographic proofs to coordinate euro and Singapore-dollar settlement while keeping central-bank test ledgers independent.",
       "source": "NewsBTC",
       "date": "2026-11-16",
       "date_human": "Nov 16, 2026",
-      "pub_ts": 1794848400,
+      "pub_ts": 1794859200,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -220,13 +221,13 @@
       "image_local": null
     },
     {
-      "title": "WBTC Expands Into Confidential DeFi, STRK Rewards and Institutional Lending",
-      "link": "https://www.newsbtc.com/news/wbtc-expands-into-confidential-defi-strk-rewards-and-institutional-lending/",
-      "summary": "WBTC is expanding its presence across confidential DeFi, STRK reward opportunities and institutional lending through integrations with Zama, Twinstake and Two Prime. These developments illustrate applications of WBTC across privacy-focused DeFi, protocol staking and institutional lending.. Together, they illustrate the range of financial applications being built around Bitcoin liquidity on-chain. Bringing Confidentiality to WBTC With Zama Zama brings Fully Homomorphic Encryption (FHE) to public blockchains, enabling smart contracts to process encrypted data while supporting publicly verifiable",
+      "title": "DBS and JPMorgan Launch 24/7 Tokenized Dollar Transfers Across Borders",
+      "link": "https://www.newsbtc.com/news/blockchain/dbs-jpmorgan-tokenized-deposits-us-singapore-launch/",
+      "summary": "A live link between DBS and Kinexys brings institutional dollar transfers across US and Singapore accounts, with a defined weekend caveat.",
       "source": "NewsBTC",
       "date": "2026-11-16",
       "date_human": "Nov 16, 2026",
-      "pub_ts": 1794826489,
+      "pub_ts": 1794855600,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -246,13 +247,13 @@
       "image_local": null
     },
     {
-      "title": "Hyperliquid Open Interest Surges as Perpetuals Rival Large Exchanges",
-      "link": "https://www.newsbtc.com/news/defi/hyperliquid-q3-2026-open-interest-16-billion-perpetuals/",
-      "summary": "Hyperliquid's derivatives business has grown large enough to challenge some familiar centralised exchange names on a key measure: open interest. A third-quarter research report put positions open on the platform at approximately $16.8 billion at the end of September, a major increase over the previous…",
+      "title": "Clearpool's CPOOL-to-CLEAR Swap Approaches as Exchanges Begin Transfer Restrictions",
+      "link": "https://www.newsbtc.com/news/defi/clearpool-cpool-clear-swap-exchange-transfer-restrictions/",
+      "summary": "Clearpool's one-for-one migration opens November 17, but exchange restrictions begin earlier. Holders face venue-specific timing and eligibility rules.",
       "source": "NewsBTC",
       "date": "2026-11-16",
       "date_human": "Nov 16, 2026",
-      "pub_ts": 1794812400,
+      "pub_ts": 1794848400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -266,6 +267,19 @@
       "date": "2026-11-16",
       "date_human": "Nov 16, 2026",
       "pub_ts": 1794826484,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "WBTC Expands Into Confidential DeFi, STRK Rewards and Institutional Lending",
+      "link": "https://www.newsbtc.com/news/wbtc-expands-into-confidential-defi-strk-rewards-and-institutional-lending/",
+      "summary": "WBTC is expanding its presence across confidential DeFi, STRK reward opportunities and institutional lending through integrations with Zama, Twinstake and Two Prime. These developments illustrate applications of WBTC across privacy-focused DeFi, protocol staking and institutional lending.. Together, they illustrate the range of financial applications being built around Bitcoin liquidity on-chain. Bringing Confidentiality to WBTC With Zama Zama brings Fully Homomorphic Encryption (FHE) to public blockchains, enabling smart contracts to process encrypted data while supporting publicly verifiable",
+      "source": "NewsBTC",
+      "date": "2026-11-16",
+      "date_human": "Nov 16, 2026",
+      "pub_ts": 1794826489,
       "image_candidates": [],
       "license_url": null,
       "image": null,
