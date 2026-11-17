@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-17",
-  "generated_at_utc": "2026-11-17 05:05:11 UTC",
+  "generated_at_utc": "2026-11-17 11:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-17T05:05:05.257876+00:00",
+    "collected_at": "2026-11-17T11:05:05.231706+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 10,
-        "within_window": 13,
-        "eligible": 4,
+        "within_24h": 12,
+        "within_window": 17,
+        "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 8,
+          "topic_author_or_category": 9,
           "title_filter": 1,
-          "older_than_window": 7
+          "older_than_window": 3
         }
       },
       {
@@ -98,7 +98,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 2,
+        "within_24h": 1,
         "within_window": 2,
         "eligible": 0,
         "rejected": {
@@ -180,28 +180,67 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 1,
-      "Cryptonews": 4
+      "Cryptonews": 7,
+      "NewsBTC": 1
     },
     "unique_by_source": {
-      "NewsBTC": 1,
-      "Cryptonews": 4
+      "Cryptonews": 7,
+      "NewsBTC": 1
     },
     "selected_by_source": {
-      "NewsBTC": 1,
-      "Cryptonews": 4
+      "Cryptonews": 7,
+      "NewsBTC": 1
     }
   },
-  "count": 5,
+  "count": 8,
   "items": [
     {
-      "title": "Singapore and Germany Test CBDC Settlement Without Joining Their Ledgers",
-      "link": "https://www.newsbtc.com/news/blockchain/singapore-germany-simbolon-cbdc-zero-knowledge-settlement/",
-      "summary": "Project Simbolon uses cryptographic proofs to coordinate euro and Singapore-dollar settlement while keeping central-bank test ledgers independent.",
+      "title": "Ethereum Price and $1.16B Selling Threat: North Korea's Binance Hacker Moves $137M",
+      "link": "https://cryptonews.com/news/ethereum-price-north-korea-binance-hacker-137m/",
+      "summary": "Ethereum price battles pressure as North Korea's Binance hacker moves $137M in ETH, leaving another $1.16B potentially awaiting liquidation.",
+      "source": "Cryptonews",
+      "date": "2026-11-17",
+      "date_human": "Nov 17, 2026",
+      "pub_ts": 1794912692,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "stUSDT Begins Wind-Down as JustLend Plans to Remove Its Wrapped Token Market",
+      "link": "https://www.newsbtc.com/news/defi/stusdt-wind-down-justlend-wrapped-token-market/",
+      "summary": "stUSDT has begun a redemption period and ended rewards, while JustLend plans a phased removal of its wstUSDT lending market.",
       "source": "NewsBTC",
-      "date": "2026-11-16",
-      "date_human": "Nov 16, 2026",
-      "pub_ts": 1794859200,
+      "date": "2026-11-17",
+      "date_human": "Nov 17, 2026",
+      "pub_ts": 1794909600,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Hackers Hijack 178 Major Websites, Including BBC, Zoom, CNN, HSBC, and Ledger",
+      "link": "https://cryptonews.com/news/hackers-hijack-178-websites-crypto-malware/",
+      "summary": "Hackers hijack websites used by BBC, Zoom, HSBC and Ledger, deploying crypto-stealing malware that has already drained $7,000.",
+      "source": "Cryptonews",
+      "date": "2026-11-17",
+      "date_human": "Nov 17, 2026",
+      "pub_ts": 1794902461,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Bitcoin Price Holds $64K Ahead of Nvidia Earnings: AI Bubble Finally Pops?",
+      "link": "https://cryptonews.com/news/bitcoin-price-michael-burry-ai-bubble-nvidia-earnings/",
+      "summary": "Bitcoin holds near $64K as Michael Burry bets against tech stocks. Could Nvidia earnings expose an AI bubble and trigger another sell-off?",
+      "source": "Cryptonews",
+      "date": "2026-11-17",
+      "date_human": "Nov 17, 2026",
+      "pub_ts": 1794899713,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -247,7 +286,7 @@
       "image_local": null
     },
     {
-      "title": "LIVE – Bitcoin Price at a Turning Point: Nvidia Earnings, Anthropic IPO, and Trump-Xi-Putin Diplomacy Shake Markets",
+      "title": "Bitcoin Price at a Turning Point: Nvidia Earnings, Anthropic IPO, and Trump-Xi-Putin Diplomacy Shake Markets",
       "link": "https://cryptonews.com/news/bitcoin-price-anthropic-ipo-nvidia-earnings-trump-xi-putin/",
       "summary": "Bitcoin price in a pivotal week as Anthropic IPO, Nvidia earnings, and Trump-Xi-Putin diplomacy stage catalysts for a market rebound.",
       "source": "Cryptonews",
