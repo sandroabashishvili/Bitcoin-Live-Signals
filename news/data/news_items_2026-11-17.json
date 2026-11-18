@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-17",
-  "generated_at_utc": "2026-11-17 17:05:12 UTC",
+  "generated_at_utc": "2026-11-17 23:05:13 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-17T17:05:06.221847+00:00",
+    "collected_at": "2026-11-17T23:05:04.517318+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 1,
+        "eligible": 3,
         "rejected": {
-          "unreviewed_link": 9
+          "unreviewed_link": 7
         }
       },
       {
@@ -48,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
+        "within_24h": 8,
         "within_window": 18,
         "eligible": 7,
         "rejected": {
-          "title_filter": 2,
           "topic_author_or_category": 9,
+          "title_filter": 2,
           "older_than_window": 2
         }
       },
@@ -98,12 +98,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 2,
+        "within_24h": 1,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 2,
-          "older_than_window": 13
+          "unreviewed_link": 3,
+          "older_than_window": 12
         }
       },
       {
@@ -111,11 +111,12 @@
         "url": "https://bitcoinops.org/feed.xml",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 10
+          "unreviewed_link": 1,
+          "older_than_window": 9
         }
       },
       {
@@ -180,20 +181,33 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 7,
-      "NewsBTC": 1
+      "NewsBTC": 3,
+      "Cryptonews": 7
     },
     "unique_by_source": {
-      "Cryptonews": 7,
-      "NewsBTC": 1
+      "NewsBTC": 3,
+      "Cryptonews": 7
     },
     "selected_by_source": {
-      "Cryptonews": 7,
-      "NewsBTC": 1
+      "NewsBTC": 3,
+      "Cryptonews": 7
     }
   },
-  "count": 8,
+  "count": 10,
   "items": [
+    {
+      "title": "Bitwise Maps Solana to $80, $385 or $1,100 by 2031 in Scenario-Based Research",
+      "link": "https://www.newsbtc.com/news/solana/bitwise-maps-solana-to-80-385-or-1-100-by-2031-in-scenario-based-research/",
+      "summary": "Bitwise has published a five-year framework for Solana that includes very different possible outcomes for SOL’s price. The range extends from an $80 bear case to a $385.",
+      "source": "NewsBTC",
+      "date": "2026-11-17",
+      "date_human": "Nov 17, 2026",
+      "pub_ts": 1794956400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Ethereum Price and $1.16B Selling Threat: North Korea's Binance Hacker Moves $137M",
       "link": "https://cryptonews.com/news/ethereum-price-north-korea-binance-hacker-137m/",
@@ -208,13 +222,13 @@
       "image_local": null
     },
     {
-      "title": "stUSDT Begins Wind-Down as JustLend Plans to Remove Its Wrapped Token Market",
-      "link": "https://www.newsbtc.com/news/defi/stusdt-wind-down-justlend-wrapped-token-market/",
-      "summary": "stUSDT has begun a redemption period and ended rewards, while JustLend plans a phased removal of its wstUSDT lending market.",
+      "title": "CoW Swap Adds Native Solana Trading With Solver Auctions and a One-Year Volume-Fee Waiver",
+      "link": "https://www.newsbtc.com/news/solana/cow-swap-adds-native-solana-trading-with-solver-auctions-and-a-one-year-volume-fee-waiver/",
+      "summary": "CoW Swap has launched an alpha that allows traders to start and finish asset swaps on Solana, extending an intent-based model previously associated with Ethereum. The.",
       "source": "NewsBTC",
       "date": "2026-11-17",
       "date_human": "Nov 17, 2026",
-      "pub_ts": 1794909600,
+      "pub_ts": 1794952800,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -228,6 +242,19 @@
       "date": "2026-11-17",
       "date_human": "Nov 17, 2026",
       "pub_ts": 1794902461,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Solana Drops “Mainnet Beta” Label as Foundation Introduces Protocol Version 1.0",
+      "link": "https://www.newsbtc.com/news/solana/solana-drops-mainnet-beta-label-as-foundation-introduces-protocol-version-1-0/",
+      "summary": "Solana is retiring a label that has accompanied the blockchain since its launch: “mainnet beta.” In a November 16 announcement, the Solana Foundation introduced protocol.",
+      "source": "NewsBTC",
+      "date": "2026-11-17",
+      "date_human": "Nov 17, 2026",
+      "pub_ts": 1794938400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
