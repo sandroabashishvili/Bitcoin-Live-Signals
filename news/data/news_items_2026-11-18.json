@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-18",
-  "generated_at_utc": "2026-11-18 05:05:07 UTC",
+  "generated_at_utc": "2026-11-18 11:05:07 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-18T05:05:01.337512+00:00",
+    "collected_at": "2026-11-18T11:05:01.286051+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 3,
+        "eligible": 2,
         "rejected": {
-          "unreviewed_link": 7
+          "unreviewed_link": 8
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 8,
-        "within_window": 18,
+        "within_24h": 7,
+        "within_window": 19,
         "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 9,
+          "topic_author_or_category": 10,
           "title_filter": 2,
-          "older_than_window": 2
+          "older_than_window": 1
         }
       },
       {
@@ -98,12 +98,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
-        "within_window": 3,
-        "eligible": 0,
+        "within_24h": 3,
+        "within_window": 4,
+        "eligible": 1,
         "rejected": {
           "unreviewed_link": 3,
-          "older_than_window": 12
+          "older_than_window": 11
         }
       },
       {
@@ -181,20 +181,75 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 7
+      "Cryptonews": 7,
+      "European Central Bank": 1,
+      "NewsBTC": 2
     },
     "unique_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 7
+      "Cryptonews": 7,
+      "European Central Bank": 1,
+      "NewsBTC": 2
     },
     "selected_by_source": {
-      "NewsBTC": 3,
-      "Cryptonews": 7
+      "Cryptonews": 7,
+      "European Central Bank": 1,
+      "NewsBTC": 2
     }
   },
   "count": 10,
   "items": [
+    {
+      "title": "Vitalik Buterin Wants Crypto to Have Housing's Stability, But Can Ethereum Deliver?",
+      "link": "https://cryptonews.com/news/vitalik-buterin-ethereum-housing-stability/",
+      "summary": "Vitalik Buterin wants digital assets to offer housing-like stability, but can Ethereum roadmap help ETH become a long-term investment?",
+      "source": "Cryptonews",
+      "date": "2026-11-18",
+      "date_human": "Nov 18, 2026",
+      "pub_ts": 1794996498,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
+      "summary": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+      "source": "European Central Bank",
+      "date": "2026-11-18",
+      "date_human": "Nov 18, 2026",
+      "pub_ts": 1794992400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Aave App Launches on TRON, Bringing USDT Deposits to Mobile Users on Android and iOS",
+      "link": "https://www.newsbtc.com/news/aave-app-launches-on-tron-bringing-usdt-deposits-to-mobile-users-on-android-and-ios/",
+      "summary": "Geneva, Switzerland – TRON DAO, the community-governed DAO dedicated to accelerating the decentralization of the internet through blockchain technology and decentralized applications (dApps), today announced that the Aave App, a high-yield savings mobile app developed and managed by Aave Labs, will add support for USDT (TRC-20) deposits on the TRON network as it expands to Android following its initial launch on iOS. The launch combines Android’s global reach with TRON’s leading role in the stablecoin ecosystem, expanding mobile access to onchain savings opportunities that are not accessible o",
+      "source": "NewsBTC",
+      "date": "2026-11-18",
+      "date_human": "Nov 18, 2026",
+      "pub_ts": 1794991149,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Anthropic Price Explodes as Bitcoin Risks Losing Another $60B to AI Stocks After Nvidia Earnings Beat",
+      "link": "https://cryptonews.com/news/anthropic-price-bitcoin-65b-ai-ipo-nvidia/",
+      "summary": "Anthropic Price could break $78 as Nvidia beats earnings expectations, putting Bitcoin under pressure ahead of a massive AI IPO.",
+      "source": "Cryptonews",
+      "date": "2026-11-18",
+      "date_human": "Nov 18, 2026",
+      "pub_ts": 1794986063,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "DeFi Development Adds 9,482 SOL as Treasury Grows for Tenth Straight Week",
       "link": "https://www.newsbtc.com/news/solana/defi-development-adds-9-482-sol-as-treasury-grows-for-tenth-straight-week/",
@@ -222,19 +277,6 @@
       "image_local": null
     },
     {
-      "title": "Bitwise Maps Solana to $80, $385 or $1,100 by 2031 in Scenario-Based Research",
-      "link": "https://www.newsbtc.com/news/solana/bitwise-maps-solana-to-80-385-or-1-100-by-2031-in-scenario-based-research/",
-      "summary": "Bitwise has published a five-year framework for Solana that includes very different possible outcomes for SOL’s price. The range extends from an $80 bear case to a $385.",
-      "source": "NewsBTC",
-      "date": "2026-11-17",
-      "date_human": "Nov 17, 2026",
-      "pub_ts": 1794956400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Hackers Hijack 178 Major Websites, Including BBC, Zoom, CNN, HSBC, and Ledger",
       "link": "https://cryptonews.com/news/hackers-hijack-178-websites-crypto-malware/",
       "summary": "Hackers hijack websites used by BBC, Zoom, HSBC and Ledger, deploying crypto-stealing malware that has already drained $7,000.",
@@ -248,20 +290,7 @@
       "image_local": null
     },
     {
-      "title": "CoW Swap Adds Native Solana Trading With Solver Auctions and a One-Year Volume-Fee Waiver",
-      "link": "https://www.newsbtc.com/news/solana/cow-swap-adds-native-solana-trading-with-solver-auctions-and-a-one-year-volume-fee-waiver/",
-      "summary": "CoW Swap has launched an alpha that allows traders to start and finish asset swaps on Solana, extending an intent-based model previously associated with Ethereum. The.",
-      "source": "NewsBTC",
-      "date": "2026-11-17",
-      "date_human": "Nov 17, 2026",
-      "pub_ts": 1794952800,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "LIVE – Bitcoin Price Holds $64K Ahead of Nvidia Earnings: AI Bubble Finally Pops?",
+      "title": "Bitcoin Price Holds $64K Ahead of Nvidia Earnings: AI Bubble Finally Pops?",
       "link": "https://cryptonews.com/news/bitcoin-price-michael-burry-ai-bubble-nvidia-earnings/",
       "summary": "Bitcoin holds near $64K as Michael Burry bets against tech stocks. Could Nvidia earnings expose an AI bubble and trigger another sell-off?",
       "source": "Cryptonews",
@@ -294,32 +323,6 @@
       "date": "2026-11-16",
       "date_human": "Nov 16, 2026",
       "pub_ts": 1794834119,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "CZ Fires Back at Binance Dump Claims as Vitalik Bullish on Ethereum Quantum Upgrade",
-      "link": "https://cryptonews.com/news/cz-binance-vitalik-ethereum-quantum-upgrade/",
-      "summary": "CZ Binance denies selling crypto during the market crash as Vitalik backs a faster Ethereum quantum-resistant upgrade through EIP-8288.",
-      "source": "Cryptonews",
-      "date": "2026-11-16",
-      "date_human": "Nov 16, 2026",
-      "pub_ts": 1794826484,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Price at a Turning Point: Nvidia Earnings, Anthropic IPO, and Trump-Xi-Putin Diplomacy Shake Markets",
-      "link": "https://cryptonews.com/news/bitcoin-price-anthropic-ipo-nvidia-earnings-trump-xi-putin/",
-      "summary": "Bitcoin price in a pivotal week as Anthropic IPO, Nvidia earnings, and Trump-Xi-Putin diplomacy stage catalysts for a market rebound.",
-      "source": "Cryptonews",
-      "date": "2026-11-16",
-      "date_human": "Nov 16, 2026",
-      "pub_ts": 1794817055,
       "image_candidates": [],
       "license_url": null,
       "image": null,
