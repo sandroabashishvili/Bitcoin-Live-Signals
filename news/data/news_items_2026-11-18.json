@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-18",
-  "generated_at_utc": "2026-11-18 11:05:07 UTC",
+  "generated_at_utc": "2026-11-18 17:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-18T11:05:01.286051+00:00",
+    "collected_at": "2026-11-18T17:05:02.196236+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -26,9 +26,9 @@
         "entries": 10,
         "within_24h": 10,
         "within_window": 10,
-        "eligible": 2,
+        "eligible": 3,
         "rejected": {
-          "unreviewed_link": 8
+          "unreviewed_link": 7
         }
       },
       {
@@ -36,11 +36,12 @@
         "url": "https://www.nist.gov/news-events/news/rss.xml",
         "status": "ok",
         "entries": 40,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 40
+          "topic_author_or_category": 1,
+          "older_than_window": 39
         }
       },
       {
@@ -48,13 +49,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 7,
-        "within_window": 19,
+        "within_24h": 8,
+        "within_window": 17,
         "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 10,
+          "topic_author_or_category": 8,
           "title_filter": 2,
-          "older_than_window": 1
+          "older_than_window": 3
         }
       },
       {
@@ -74,11 +75,11 @@
         "url": "https://apps.bea.gov/rss/rss.xml",
         "status": "ok",
         "entries": 49,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 49
+          "older_than_window": 48
         }
       },
       {
@@ -99,11 +100,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 3,
-        "within_window": 4,
+        "within_window": 3,
         "eligible": 1,
         "rejected": {
-          "unreviewed_link": 3,
-          "older_than_window": 11
+          "unreviewed_link": 2,
+          "older_than_window": 12
         }
       },
       {
@@ -181,31 +182,60 @@
       }
     ],
     "eligible_by_source": {
+      "NewsBTC": 3,
+      "U.S. Bureau of Economic Analysis": 1,
       "Cryptonews": 7,
-      "European Central Bank": 1,
-      "NewsBTC": 2
+      "European Central Bank": 1
     },
     "unique_by_source": {
+      "NewsBTC": 3,
+      "U.S. Bureau of Economic Analysis": 1,
       "Cryptonews": 7,
-      "European Central Bank": 1,
-      "NewsBTC": 2
+      "European Central Bank": 1
     },
     "selected_by_source": {
+      "NewsBTC": 3,
+      "U.S. Bureau of Economic Analysis": 1,
       "Cryptonews": 7,
-      "European Central Bank": 1,
-      "NewsBTC": 2
+      "European Central Bank": 1
     }
   },
-  "count": 10,
+  "count": 12,
   "items": [
     {
-      "title": "Vitalik Buterin Wants Crypto to Have Housing's Stability, But Can Ethereum Deliver?",
-      "link": "https://cryptonews.com/news/vitalik-buterin-ethereum-housing-stability/",
-      "summary": "Vitalik Buterin wants digital assets to offer housing-like stability, but can Ethereum roadmap help ETH become a long-term investment?",
+      "title": "WSDT introduces prop trading for crypto and tokenized US stocks",
+      "link": "https://www.newsbtc.com/news/wsdt-introduces-prop-trading-for-crypto-and-tokenized-us-stocks/",
+      "summary": "One-step challenges start at $19, with a free demo and weekly competitions available in the same trading terminal DUBAI, UAE, November 18, 2026 – WSDT is introducing its prop trading platform for cryptocurrency perpetual futures, gold and tokenized US stocks. Traders can access these markets through a single simulated account, with one-step evaluations starting at a one-time fee of $19 for a $1,500 account. The platform combines crypto perpetual futures, including Bitcoin and Ethereum, with xStocks instruments tracking companies such as Apple, NVIDIA and Tesla, alongside stock-index ETFs. Perp",
+      "source": "NewsBTC",
+      "date": "2026-11-18",
+      "date_human": "Nov 18, 2026",
+      "pub_ts": 1795016479,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Outdoor Recreation Economic Statistics, U.S. and States, 2025",
+      "link": "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2025",
+      "summary": "The value added of the outdoor recreation economy accounted for 2.3 percent ($704.2 billion) of current-dollar gross domestic product (GDP) for the nation in 2025. Across states and the District of Columbia, value added for outdoor recreation as a share of state GDP ranged from 6.1 percent in Hawaii to 1.0 percent in the District of Columbia.",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-11-18",
+      "date_human": "Nov 18, 2026",
+      "pub_ts": 1795014000,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Etherscan Hacked? Crypto Users Have Had Enough as Support Security Scare Sparks Alarm",
+      "link": "https://cryptonews.com/news/etherscan-hacked-crypto-security-attacks-banking/",
+      "summary": "Etherscan hacked? Freshworks, Optimizely, and major banking security incidents raise questions about crypto and traditional finance security.",
       "source": "Cryptonews",
       "date": "2026-11-18",
       "date_human": "Nov 18, 2026",
-      "pub_ts": 1794996498,
+      "pub_ts": 1795009622,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -238,13 +268,13 @@
       "image_local": null
     },
     {
-      "title": "LIVE – Anthropic Price Explodes as Bitcoin Risks Losing Another $60B to AI Stocks After Nvidia Earnings Beat",
-      "link": "https://cryptonews.com/news/anthropic-price-bitcoin-65b-ai-ipo-nvidia/",
-      "summary": "Anthropic Price could break $78 as Nvidia beats earnings expectations, putting Bitcoin under pressure ahead of a massive AI IPO.",
+      "title": "Coinbase Brings ChatGPT Into Crypto Trading as Pancake Rebrand Signals Binance Rivalry",
+      "link": "https://cryptonews.com/news/coinbase-chatgpt-trading-pancake-rebrand-binance/",
+      "summary": "Coinbase brings crypto trading to ChatGPT as Pancake drops Swap from its name, raising the stakes in the race against Binance DeFi ecosystem.",
       "source": "Cryptonews",
       "date": "2026-11-18",
       "date_human": "Nov 18, 2026",
-      "pub_ts": 1794986063,
+      "pub_ts": 1795000705,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -258,6 +288,32 @@
       "date": "2026-11-18",
       "date_human": "Nov 18, 2026",
       "pub_ts": 1794974400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Vitalik Buterin Wants Crypto to Have Housing's Stability, But Can Ethereum Deliver?",
+      "link": "https://cryptonews.com/news/vitalik-buterin-ethereum-housing-stability/",
+      "summary": "Vitalik Buterin wants digital assets to offer housing-like stability, but can Ethereum roadmap help ETH become a long-term investment?",
+      "source": "Cryptonews",
+      "date": "2026-11-18",
+      "date_human": "Nov 18, 2026",
+      "pub_ts": 1794996498,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Anthropic Price Explodes as Bitcoin Risks Losing Another $60B to AI Stocks After Nvidia Earnings Beat",
+      "link": "https://cryptonews.com/news/anthropic-price-bitcoin-65b-ai-ipo-nvidia/",
+      "summary": "Anthropic Price could break $78 as Nvidia beats earnings expectations, putting Bitcoin under pressure ahead of a massive AI IPO.",
+      "source": "Cryptonews",
+      "date": "2026-11-18",
+      "date_human": "Nov 18, 2026",
+      "pub_ts": 1794986063,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -297,32 +353,6 @@
       "date": "2026-11-17",
       "date_human": "Nov 17, 2026",
       "pub_ts": 1794899713,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Strategy Bitcoin vs. BitMine Ethereum: Which Crypto Treasury Is Better Positioned for a Market Recovery?",
-      "link": "https://cryptonews.com/news/strategy-bitcoin-vs-bitmine-ethereum-treasury/",
-      "summary": "Strategy Bitcoin holdings hit 850,849 BTC as Tom Lee's BitMine accumulates 6 million ETH. Which crypto treasury is better positioned to win?",
-      "source": "Cryptonews",
-      "date": "2026-11-16",
-      "date_human": "Nov 16, 2026",
-      "pub_ts": 1794839388,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Bottom? Is the Market Preparing for a Reversal or One Final Crash?",
-      "link": "https://cryptonews.com/news/bitcoin-bottom-market-reversal-final-crash/",
-      "summary": "Is the Bitcoin bottom in? BTC rebounds from $62,000 as ETF outflows and shrinking stablecoin liquidity threaten another market crash.",
-      "source": "Cryptonews",
-      "date": "2026-11-16",
-      "date_human": "Nov 16, 2026",
-      "pub_ts": 1794834119,
       "image_candidates": [],
       "license_url": null,
       "image": null,
