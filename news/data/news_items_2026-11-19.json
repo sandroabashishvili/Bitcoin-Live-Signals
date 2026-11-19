@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-19",
-  "generated_at_utc": "2026-11-19 11:05:11 UTC",
+  "generated_at_utc": "2026-11-19 17:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-19T11:05:04.938418+00:00",
+    "collected_at": "2026-11-19T17:05:04.720213+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 3,
+        "within_24h": 4,
         "within_window": 10,
-        "eligible": 5,
+        "eligible": 6,
         "rejected": {
-          "unreviewed_link": 5
+          "unreviewed_link": 4
         }
       },
       {
@@ -37,11 +37,11 @@
         "status": "ok",
         "entries": 40,
         "within_24h": 1,
-        "within_window": 1,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 39
+          "topic_author_or_category": 2,
+          "older_than_window": 38
         }
       },
       {
@@ -49,13 +49,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 6,
-        "within_window": 13,
-        "eligible": 7,
+        "within_24h": 7,
+        "within_window": 15,
+        "eligible": 9,
         "rejected": {
-          "topic_author_or_category": 5,
-          "title_filter": 1,
-          "older_than_window": 7
+          "topic_author_or_category": 6,
+          "older_than_window": 5
         }
       },
       {
@@ -75,7 +74,7 @@
         "url": "https://apps.bea.gov/rss/rss.xml",
         "status": "ok",
         "entries": 49,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 1,
         "rejected": {
@@ -87,11 +86,11 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 25
+          "older_than_window": 24
         }
       },
       {
@@ -173,30 +172,33 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
-        "within_window": 1,
+        "within_24h": 2,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 19
+          "topic_author_or_category": 2,
+          "older_than_window": 18
         }
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 5,
-      "Cryptonews": 7,
+      "NewsBTC": 6,
+      "SEC": 1,
+      "Cryptonews": 9,
       "U.S. Bureau of Economic Analysis": 1,
       "European Central Bank": 1
     },
     "unique_by_source": {
-      "NewsBTC": 5,
-      "Cryptonews": 7,
+      "NewsBTC": 6,
+      "SEC": 1,
+      "Cryptonews": 9,
       "U.S. Bureau of Economic Analysis": 1,
       "European Central Bank": 1
     },
     "selected_by_source": {
       "NewsBTC": 4,
-      "Cryptonews": 6,
+      "SEC": 1,
+      "Cryptonews": 5,
       "U.S. Bureau of Economic Analysis": 1,
       "European Central Bank": 1
     }
@@ -204,26 +206,39 @@
   "count": 12,
   "items": [
     {
-      "title": "OmenX announces $2 million in funding from Informed Ventures and launches on-demand 30-second Bitcoin predictions",
-      "link": "https://www.newsbtc.com/news/omenx-announces-2-million-in-funding-from-informed-ventures-and-launches-on-demand-30-second-bitcoin-predictions/",
-      "summary": "The Base-native leveraged prediction market platform expands its offering across crypto, global financial assets, sports and esports. Toronto, November 19, 2026 – OmenX, a Base-native leveraged prediction market platform, today announced $2 million in funding from Informed Ventures alongside the launch of its on-demand, 30-second Bitcoin price prediction product. The new product lets users predict whether Bitcoin’s price will rise or fall over the next 30 seconds, with each trade starting its own prediction window. A position opened at 10:00:12 runs until 10:00:42. Users can act when their vie",
+      "title": "BingX Adds Anthropic Spot and Perpetual Futures Trading Following Nasdaq Debut",
+      "link": "https://www.newsbtc.com/news/bingx-adds-anthropic-spot-and-perpetual-futures-trading-following-nasdaq-debut/",
+      "summary": "PANAMA CITY, November 19, 2026 – BingX, the world’s leading multi-asset trading platform, today announced that Anthropic (Nasdaq: ANT) is available for trading on its platform following the company’s highly anticipated initial public offering. Eligible users can trade ANT/USDT on BingX Spot or take long and short positions through USDT-margined ANTUS(ANTHROPIC) Perpetual Futures. The launch extends BingX’s Anthropic trading offering from pre-IPO exposure to markets linked to its publicly listed stock. Anthropic’s public listing marks a major milestone for the developer of Claude and brings one",
       "source": "NewsBTC",
       "date": "2026-11-19",
       "date_human": "Nov 19, 2026",
-      "pub_ts": 1795084145,
+      "pub_ts": 1795105370,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "GTA 6 Flu Is Here: The Impact on Crypto Markets",
-      "link": "https://cryptonews.com/news/gta-6-flu-impact-crypto-markets/",
-      "summary": "GTA 6 is taking over workplaces and social media as crypto markets go quiet. Could the gaming frenzy pull retail traders away from crypto?",
+      "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
+      "link": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
+      "summary": "The Securities and Exchange Commission today charged eight Colorado-based entities, likely operated by individuals located overseas, for defrauding U.S. investors out of more than $37 million. The defendants allegedly lured investors to believe they were…",
+      "source": "SEC",
+      "date": "2026-11-19",
+      "date_human": "Nov 19, 2026",
+      "pub_ts": 1795099142,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Rene Haas to Take Over Nvidia? What Will Happen to Crypto?",
+      "link": "https://cryptonews.com/news/rene-haas-nvidia-crypto-market/",
+      "summary": "Rene Haas could take over Nvidia after leading Arm's AI expansion. Here's what his appointment could mean for Bitcoin and crypto markets.",
       "source": "Cryptonews",
       "date": "2026-11-19",
       "date_human": "Nov 19, 2026",
-      "pub_ts": 1795083799,
+      "pub_ts": 1795095382,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -256,6 +271,58 @@
       "image_local": null
     },
     {
+      "title": "Pulsar Enables USDT Deposits on TRON, Expanding Access to Everyday Stablecoin Payments",
+      "link": "https://www.newsbtc.com/news/pulsar-enables-usdt-deposits-on-tron-expanding-access-to-everyday-stablecoin-payments/",
+      "summary": "Geneva, Switzerland, November 19, 2026 — Pulsar Money today announced support for USDT deposits on the TRON network, allowing users to fund their Pulsar accounts with USDT (TRC-20) and access everyday payment features through the app. With this integration, users can deposit USDT on TRON and use their balances for online purchases, subscriptions, and other everyday expenses through the Pulsar virtual card. Pulsar charges no fees for supported stablecoin deposits across its plans, although network and third-party fees may apply. The integration connects TRON’s widely adopted stablecoin infrastr",
+      "source": "NewsBTC",
+      "date": "2026-11-19",
+      "date_human": "Nov 19, 2026",
+      "pub_ts": 1795104824,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Stablecoin Market Loses Billions: Where Is Crypto's Liquidity Going?",
+      "link": "https://cryptonews.com/news/stablecoin-market-loses-billions-crypto-liquidity/",
+      "summary": "The stablecoin market lost $16 billion in 30 days as USDT and USDC supply shrank. How does it compare with the 2022 crypto crash?",
+      "source": "Cryptonews",
+      "date": "2026-11-19",
+      "date_human": "Nov 19, 2026",
+      "pub_ts": 1795091454,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "OmenX announces $2 million in funding from Informed Ventures and launches on-demand 30-second Bitcoin predictions",
+      "link": "https://www.newsbtc.com/news/omenx-announces-2-million-in-funding-from-informed-ventures-and-launches-on-demand-30-second-bitcoin-predictions/",
+      "summary": "The Base-native leveraged prediction market platform expands its offering across crypto, global financial assets, sports and esports. Toronto, November 19, 2026 – OmenX, a Base-native leveraged prediction market platform, today announced $2 million in funding from Informed Ventures alongside the launch of its on-demand, 30-second Bitcoin price prediction product. The new product lets users predict whether Bitcoin’s price will rise or fall over the next 30 seconds, with each trade starting its own prediction window. A position opened at 10:00:12 runs until 10:00:42. Users can act when their vie",
+      "source": "NewsBTC",
+      "date": "2026-11-19",
+      "date_human": "Nov 19, 2026",
+      "pub_ts": 1795084145,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "GTA 6 Flu Is Here: The Impact on Crypto Markets",
+      "link": "https://cryptonews.com/news/gta-6-flu-impact-crypto-markets/",
+      "summary": "GTA 6 is taking over workplaces and social media as crypto markets go quiet. Could the gaming frenzy pull retail traders away from crypto?",
+      "source": "Cryptonews",
+      "date": "2026-11-19",
+      "date_human": "Nov 19, 2026",
+      "pub_ts": 1795083799,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "MEXC's Hacken-Audited November 2026 Proof of Reserves Shows Reserve Ratios Above 100% Across Major Assets",
       "link": "https://www.newsbtc.com/news/mexcs-hacken-audited-november-2026-proof-of-reserves-shows-reserve-ratios-above-100-across-major-assets/",
       "summary": "Mutsamudu, Comoros, November 19, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its November 2026 Proof of Reserves (PoR) report, independently audited by Hacken. The report shows MEXC’s solid reserve position, with user assets in every major asset backed by reserves above 1:1, demonstrating MEXC’s ongoing commitment to safeguarding user assets. Spanning Proof of Liabilities, Proof of Ownership, Reserves Calculation, and Merkle Tree verification, Hacken’s November 2026 audit confirms substantial over-collateralisation across core holdings, standing at 318% for BTC, 122% fo",
@@ -282,19 +349,6 @@
       "image_local": null
     },
     {
-      "title": "WSDT introduces prop trading for crypto and tokenized US stocks",
-      "link": "https://www.newsbtc.com/news/wsdt-introduces-prop-trading-for-crypto-and-tokenized-us-stocks/",
-      "summary": "One-step challenges start at $19, with a free demo and weekly competitions available in the same trading terminal DUBAI, UAE, November 18, 2026 – WSDT is introducing its prop trading platform for cryptocurrency perpetual futures, gold and tokenized US stocks. Traders can access these markets through a single simulated account, with one-step evaluations starting at a one-time fee of $19 for a $1,500 account. The platform combines crypto perpetual futures, including Bitcoin and Ethereum, with xStocks instruments tracking companies such as Apple, NVIDIA and Tesla, alongside stock-index ETFs. Perp",
-      "source": "NewsBTC",
-      "date": "2026-11-18",
-      "date_human": "Nov 18, 2026",
-      "pub_ts": 1795016479,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "XRP Price Was Worth Less Than a Penny When GTA 5 Launched: Could GTA 6 See It Hit $100?",
       "link": "https://cryptonews.com/news/xrp-price-gta-5-launched-gta-6-100/",
       "summary": "XRP was trading below a cent when GTA5 arrived. Thirteen years later, GTA6 is going to be released while XRP has became a financial giant.",
@@ -302,58 +356,6 @@
       "date": "2026-11-18",
       "date_human": "Nov 18, 2026",
       "pub_ts": 1795024620,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Aave App Launches on TRON, Bringing USDT Deposits to Mobile Users on Android and iOS",
-      "link": "https://www.newsbtc.com/news/aave-app-launches-on-tron-bringing-usdt-deposits-to-mobile-users-on-android-and-ios/",
-      "summary": "Geneva, Switzerland – TRON DAO, the community-governed DAO dedicated to accelerating the decentralization of the internet through blockchain technology and decentralized applications (dApps), today announced that the Aave App, a high-yield savings mobile app developed and managed by Aave Labs, will add support for USDT (TRC-20) deposits on the TRON network as it expands to Android following its initial launch on iOS. The launch combines Android’s global reach with TRON’s leading role in the stablecoin ecosystem, expanding mobile access to onchain savings opportunities that are not accessible o",
-      "source": "NewsBTC",
-      "date": "2026-11-18",
-      "date_human": "Nov 18, 2026",
-      "pub_ts": 1794991149,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Etherscan Warns of Support System Access Attempts as Security Scares Hit Crypto and Banks",
-      "link": "https://cryptonews.com/news/etherscan-hacked-crypto-security-attacks-banking/",
-      "summary": "Etherscan warns of attempts to access its support systems as Freshworks, Optimizely and major banking security incidents raise questions about crypto and traditional finance security.",
-      "source": "Cryptonews",
-      "date": "2026-11-18",
-      "date_human": "Nov 18, 2026",
-      "pub_ts": 1795009622,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Coinbase Brings ChatGPT Into Crypto Trading as Pancake Rebrand Signals Binance Rivalry",
-      "link": "https://cryptonews.com/news/coinbase-chatgpt-trading-pancake-rebrand-binance/",
-      "summary": "Coinbase brings crypto trading to ChatGPT as Pancake drops Swap from its name, raising the stakes in the race against Binance DeFi ecosystem.",
-      "source": "Cryptonews",
-      "date": "2026-11-18",
-      "date_human": "Nov 18, 2026",
-      "pub_ts": 1795000705,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Vitalik Buterin Wants Crypto to Have Housing's Stability, But Can Ethereum Deliver?",
-      "link": "https://cryptonews.com/news/vitalik-buterin-ethereum-housing-stability/",
-      "summary": "Vitalik Buterin wants digital assets to offer housing-like stability, but can Ethereum roadmap help ETH become a long-term investment?",
-      "source": "Cryptonews",
-      "date": "2026-11-18",
-      "date_human": "Nov 18, 2026",
-      "pub_ts": 1794996498,
       "image_candidates": [],
       "license_url": null,
       "image": null,
