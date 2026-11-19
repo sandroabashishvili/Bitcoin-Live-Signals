@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-18",
-  "generated_at_utc": "2026-11-18 17:05:08 UTC",
+  "generated_at_utc": "2026-11-18 23:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-18T17:05:02.196236+00:00",
+    "collected_at": "2026-11-18T23:05:02.321029+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -49,13 +49,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 8,
-        "within_window": 17,
-        "eligible": 7,
+        "within_24h": 6,
+        "within_window": 14,
+        "eligible": 8,
         "rejected": {
-          "topic_author_or_category": 8,
-          "title_filter": 2,
-          "older_than_window": 3
+          "topic_author_or_category": 5,
+          "title_filter": 1,
+          "older_than_window": 6
         }
       },
       {
@@ -99,7 +99,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 3,
+        "within_24h": 2,
         "within_window": 3,
         "eligible": 1,
         "rejected": {
@@ -125,11 +125,12 @@
         "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 15
+          "topic_author_or_category": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -173,35 +174,49 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 20
+          "topic_author_or_category": 1,
+          "older_than_window": 19
         }
       }
     ],
     "eligible_by_source": {
+      "Cryptonews": 8,
       "NewsBTC": 3,
       "U.S. Bureau of Economic Analysis": 1,
-      "Cryptonews": 7,
       "European Central Bank": 1
     },
     "unique_by_source": {
+      "Cryptonews": 8,
       "NewsBTC": 3,
       "U.S. Bureau of Economic Analysis": 1,
-      "Cryptonews": 7,
       "European Central Bank": 1
     },
     "selected_by_source": {
+      "Cryptonews": 7,
       "NewsBTC": 3,
       "U.S. Bureau of Economic Analysis": 1,
-      "Cryptonews": 7,
       "European Central Bank": 1
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "XRP Price Was Worth Less Than a Penny When GTA 5 Launched: Could GTA 6 See It Hit $100?",
+      "link": "https://cryptonews.com/news/xrp-price-gta-5-launched-gta-6-100/",
+      "summary": "XRP was trading below a cent when GTA5 arrived. Thirteen years later, GTA6 is going to be released while XRP has became a financial giant.",
+      "source": "Cryptonews",
+      "date": "2026-11-18",
+      "date_human": "Nov 18, 2026",
+      "pub_ts": 1795024620,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "WSDT introduces prop trading for crypto and tokenized US stocks",
       "link": "https://www.newsbtc.com/news/wsdt-introduces-prop-trading-for-crypto-and-tokenized-us-stocks/",
@@ -229,19 +244,6 @@
       "image_local": null
     },
     {
-      "title": "Etherscan Hacked? Crypto Users Have Had Enough as Support Security Scare Sparks Alarm",
-      "link": "https://cryptonews.com/news/etherscan-hacked-crypto-security-attacks-banking/",
-      "summary": "Etherscan hacked? Freshworks, Optimizely, and major banking security incidents raise questions about crypto and traditional finance security.",
-      "source": "Cryptonews",
-      "date": "2026-11-18",
-      "date_human": "Nov 18, 2026",
-      "pub_ts": 1795009622,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
       "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
       "summary": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
@@ -249,6 +251,19 @@
       "date": "2026-11-18",
       "date_human": "Nov 18, 2026",
       "pub_ts": 1794992400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Etherscan Hacked? Crypto Users Have Had Enough as Support Security Scare Sparks Alarm",
+      "link": "https://cryptonews.com/news/etherscan-hacked-crypto-security-attacks-banking/",
+      "summary": "Etherscan hacked? Freshworks, Optimizely, and major banking security incidents raise questions about crypto and traditional finance security.",
+      "source": "Cryptonews",
+      "date": "2026-11-18",
+      "date_human": "Nov 18, 2026",
+      "pub_ts": 1795009622,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -340,19 +355,6 @@
       "date": "2026-11-17",
       "date_human": "Nov 17, 2026",
       "pub_ts": 1794902461,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Price Holds $64K Ahead of Nvidia Earnings: AI Bubble Finally Pops?",
-      "link": "https://cryptonews.com/news/bitcoin-price-michael-burry-ai-bubble-nvidia-earnings/",
-      "summary": "Bitcoin holds near $64K as Michael Burry bets against tech stocks. Could Nvidia earnings expose an AI bubble and trigger another sell-off?",
-      "source": "Cryptonews",
-      "date": "2026-11-17",
-      "date_human": "Nov 17, 2026",
-      "pub_ts": 1794899713,
       "image_candidates": [],
       "license_url": null,
       "image": null,
