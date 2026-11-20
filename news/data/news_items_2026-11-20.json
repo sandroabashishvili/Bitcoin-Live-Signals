@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-20",
-  "generated_at_utc": "2026-11-20 05:05:11 UTC",
+  "generated_at_utc": "2026-11-20 11:05:12 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-20T05:05:03.312087+00:00",
+    "collected_at": "2026-11-20T11:05:06.696519+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,12 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 4,
-        "within_window": 9,
-        "eligible": 6,
+        "within_24h": 2,
+        "within_window": 5,
+        "eligible": 5,
         "rejected": {
-          "unreviewed_link": 3,
-          "older_than_window": 1
+          "older_than_window": 5
         }
       },
       {
@@ -99,12 +98,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 2,
-        "eligible": 1,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 0,
         "rejected": {
           "unreviewed_link": 1,
-          "older_than_window": 13
+          "older_than_window": 14
         }
       },
       {
@@ -184,36 +183,33 @@
     ],
     "eligible_by_source": {
       "Cryptonews": 10,
-      "NewsBTC": 6,
+      "NewsBTC": 5,
       "SEC": 1,
-      "U.S. Bureau of Economic Analysis": 1,
-      "European Central Bank": 1
+      "U.S. Bureau of Economic Analysis": 1
     },
     "unique_by_source": {
       "Cryptonews": 10,
-      "NewsBTC": 6,
+      "NewsBTC": 5,
       "SEC": 1,
-      "U.S. Bureau of Economic Analysis": 1,
-      "European Central Bank": 1
+      "U.S. Bureau of Economic Analysis": 1
     },
     "selected_by_source": {
-      "Cryptonews": 5,
+      "Cryptonews": 6,
       "NewsBTC": 4,
       "SEC": 1,
-      "U.S. Bureau of Economic Analysis": 1,
-      "European Central Bank": 1
+      "U.S. Bureau of Economic Analysis": 1
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Gemini AI Predicts Which Privacy Coin Goes to the Moon in 2027? XMR Vs. Zcash",
-      "link": "https://cryptonews.com/news/gemini-ai-predicts-privacy-coin-goes-to-the-moon-in-2027-xmr-vs-zcash/",
-      "summary": "Privacy coins are poised to be among the biggest cryptocurrency stories of 2027, driven by growing concerns over financial surveillance, institutional adoption, and the future of digital privacy. This creates a compelling investment narrative. Google Gemini AI predicts that two projects, Monero (XMR) and Zcash (ZEC), will stand out, and it aims to forecast which […]",
+      "title": "Trump Memecoin Dinner? Investors Wait for a Miracle",
+      "link": "https://cryptonews.com/news/trump-hosts-memecoin-dinner-as-investors-wait-for-a-miracle/",
+      "summary": "Trump memecoin dinner back on the table as holders face 99% losses, MELANIA slides and WLFI struggles to regain investor confidence.",
       "source": "Cryptonews",
-      "date": "2026-11-19",
-      "date_human": "Nov 19, 2026",
-      "pub_ts": 1795125420,
+      "date": "2026-11-20",
+      "date_human": "Nov 20, 2026",
+      "pub_ts": 1795163868,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -259,26 +255,13 @@
       "image_local": null
     },
     {
-      "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html",
-      "summary": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
-      "source": "European Central Bank",
-      "date": "2026-11-18",
-      "date_human": "Nov 18, 2026",
-      "pub_ts": 1794992400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Rene Haas to Take Over Nvidia? What Will Happen to Crypto?",
-      "link": "https://cryptonews.com/news/rene-haas-nvidia-crypto-market/",
-      "summary": "Rene Haas could take over Nvidia after leading Arm's AI expansion. Here's what his appointment could mean for Bitcoin and crypto markets.",
+      "title": "LIVE – Bitcoin ETF Bleeds: Anthropic's Record-Breaking IPO Fails to Save the Market",
+      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-anthropic-ipo-ai-stock-crash/",
+      "summary": "Bitcoin ETF outflows deepen as Nvidia slides, Anthropic's IPO fails to lift Wall Street, and Asian semiconductor stocks suffer heavy losses.",
       "source": "Cryptonews",
-      "date": "2026-11-19",
-      "date_human": "Nov 19, 2026",
-      "pub_ts": 1795095382,
+      "date": "2026-11-20",
+      "date_human": "Nov 20, 2026",
+      "pub_ts": 1795161380,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -298,13 +281,13 @@
       "image_local": null
     },
     {
-      "title": "Stablecoin Market Loses Billions: Where Is Crypto's Liquidity Going?",
-      "link": "https://cryptonews.com/news/stablecoin-market-loses-billions-crypto-liquidity/",
-      "summary": "The stablecoin market lost $16 billion in 30 days as USDT and USDC supply shrank. How does it compare with the 2022 crypto crash?",
+      "title": "Gemini AI Predicts Which Privacy Coin Goes to the Moon in 2027? XMR Vs. Zcash",
+      "link": "https://cryptonews.com/news/gemini-ai-predicts-privacy-coin-goes-to-the-moon-in-2027-xmr-vs-zcash/",
+      "summary": "Privacy coins are poised to be among the biggest cryptocurrency stories of 2027, driven by growing concerns over financial surveillance, institutional adoption, and the future of digital privacy. This creates a compelling investment narrative. Google Gemini AI predicts that two projects, Monero (XMR) and Zcash (ZEC), will stand out, and it aims to forecast which […]",
       "source": "Cryptonews",
       "date": "2026-11-19",
       "date_human": "Nov 19, 2026",
-      "pub_ts": 1795091454,
+      "pub_ts": 1795125420,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -324,13 +307,13 @@
       "image_local": null
     },
     {
-      "title": "GTA 6 Flu Is Here: The Impact on Crypto Markets",
-      "link": "https://cryptonews.com/news/gta-6-flu-impact-crypto-markets/",
-      "summary": "GTA 6 is taking over workplaces and social media as crypto markets go quiet. Could the gaming frenzy pull retail traders away from crypto?",
+      "title": "Rene Haas to Take Over Nvidia? What Will Happen to Crypto?",
+      "link": "https://cryptonews.com/news/rene-haas-nvidia-crypto-market/",
+      "summary": "Rene Haas could take over Nvidia after leading Arm's AI expansion. Here's what his appointment could mean for Bitcoin and crypto markets.",
       "source": "Cryptonews",
       "date": "2026-11-19",
       "date_human": "Nov 19, 2026",
-      "pub_ts": 1795083799,
+      "pub_ts": 1795095382,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -350,13 +333,26 @@
       "image_local": null
     },
     {
-      "title": "LIVE – Bitcoin Price, Gold and Oil Fall: Should the US Repeat Its $2.2T 2020 Rescue?",
-      "link": "https://cryptonews.com/news/bitcoin-price-gold-oil-us-2020-rescue/",
-      "summary": "Bitcoin price, gold and oil fall as hawkish Fed minutes fuel rate hike fears. Should Washington repeat its $2.2T rescue from 2020?",
+      "title": "Stablecoin Market Loses Billions: Where Is Crypto's Liquidity Going?",
+      "link": "https://cryptonews.com/news/stablecoin-market-loses-billions-crypto-liquidity/",
+      "summary": "The stablecoin market lost $16 billion in 30 days as USDT and USDC supply shrank. How does it compare with the 2022 crypto crash?",
       "source": "Cryptonews",
       "date": "2026-11-19",
       "date_human": "Nov 19, 2026",
-      "pub_ts": 1795075180,
+      "pub_ts": 1795091454,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "GTA 6 Flu Is Here: The Impact on Crypto Markets",
+      "link": "https://cryptonews.com/news/gta-6-flu-impact-crypto-markets/",
+      "summary": "GTA 6 is taking over workplaces and social media as crypto markets go quiet. Could the gaming frenzy pull retail traders away from crypto?",
+      "source": "Cryptonews",
+      "date": "2026-11-19",
+      "date_human": "Nov 19, 2026",
+      "pub_ts": 1795083799,
       "image_candidates": [],
       "license_url": null,
       "image": null,
