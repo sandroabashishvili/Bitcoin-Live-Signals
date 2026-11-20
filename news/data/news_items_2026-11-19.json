@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-19",
-  "generated_at_utc": "2026-11-19 17:05:10 UTC",
+  "generated_at_utc": "2026-11-19 23:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-19T17:05:04.720213+00:00",
+    "collected_at": "2026-11-19T23:05:03.533643+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -50,11 +50,11 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 7,
-        "within_window": 15,
-        "eligible": 9,
+        "within_window": 13,
+        "eligible": 10,
         "rejected": {
-          "topic_author_or_category": 6,
-          "older_than_window": 5
+          "topic_author_or_category": 3,
+          "older_than_window": 7
         }
       },
       {
@@ -99,11 +99,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 3,
+        "within_window": 2,
         "eligible": 1,
         "rejected": {
-          "unreviewed_link": 2,
-          "older_than_window": 12
+          "unreviewed_link": 1,
+          "older_than_window": 13
         }
       },
       {
@@ -123,7 +123,7 @@
         "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -172,7 +172,7 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 2,
+        "within_24h": 1,
         "within_window": 2,
         "eligible": 0,
         "rejected": {
@@ -182,29 +182,42 @@
       }
     ],
     "eligible_by_source": {
+      "Cryptonews": 10,
       "NewsBTC": 6,
       "SEC": 1,
-      "Cryptonews": 9,
       "U.S. Bureau of Economic Analysis": 1,
       "European Central Bank": 1
     },
     "unique_by_source": {
+      "Cryptonews": 10,
       "NewsBTC": 6,
       "SEC": 1,
-      "Cryptonews": 9,
       "U.S. Bureau of Economic Analysis": 1,
       "European Central Bank": 1
     },
     "selected_by_source": {
+      "Cryptonews": 5,
       "NewsBTC": 4,
       "SEC": 1,
-      "Cryptonews": 5,
       "U.S. Bureau of Economic Analysis": 1,
       "European Central Bank": 1
     }
   },
   "count": 12,
   "items": [
+    {
+      "title": "Gemini AI Predicts Which Privacy Coin Goes to the Moon in 2027? XMR Vs. Zcash",
+      "link": "https://cryptonews.com/news/gemini-ai-predicts-privacy-coin-goes-to-the-moon-in-2027-xmr-vs-zcash/",
+      "summary": "Privacy coins are poised to be among the biggest cryptocurrency stories of 2027, driven by growing concerns over financial surveillance, institutional adoption, and the future of digital privacy. This creates a compelling investment narrative. Google Gemini AI predicts that two projects, Monero (XMR) and Zcash (ZEC), will stand out, and it aims to forecast which […]",
+      "source": "Cryptonews",
+      "date": "2026-11-19",
+      "date_human": "Nov 19, 2026",
+      "pub_ts": 1795125420,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "BingX Adds Anthropic Spot and Perpetual Futures Trading Following Nasdaq Debut",
       "link": "https://www.newsbtc.com/news/bingx-adds-anthropic-spot-and-perpetual-futures-trading-following-nasdaq-debut/",
@@ -232,19 +245,6 @@
       "image_local": null
     },
     {
-      "title": "Rene Haas to Take Over Nvidia? What Will Happen to Crypto?",
-      "link": "https://cryptonews.com/news/rene-haas-nvidia-crypto-market/",
-      "summary": "Rene Haas could take over Nvidia after leading Arm's AI expansion. Here's what his appointment could mean for Bitcoin and crypto markets.",
-      "source": "Cryptonews",
-      "date": "2026-11-19",
-      "date_human": "Nov 19, 2026",
-      "pub_ts": 1795095382,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Outdoor Recreation Economic Statistics, U.S. and States, 2025",
       "link": "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2025",
       "summary": "The value added of the outdoor recreation economy accounted for 2.3 percent ($704.2 billion) of current-dollar gross domestic product (GDP) for the nation in 2025. Across states and the District of Columbia, value added for outdoor recreation as a share of state GDP ranged from 6.1 percent in Hawaii to 1.0 percent in the District of Columbia.",
@@ -265,6 +265,19 @@
       "date": "2026-11-18",
       "date_human": "Nov 18, 2026",
       "pub_ts": 1794992400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Rene Haas to Take Over Nvidia? What Will Happen to Crypto?",
+      "link": "https://cryptonews.com/news/rene-haas-nvidia-crypto-market/",
+      "summary": "Rene Haas could take over Nvidia after leading Arm's AI expansion. Here's what his appointment could mean for Bitcoin and crypto markets.",
+      "source": "Cryptonews",
+      "date": "2026-11-19",
+      "date_human": "Nov 19, 2026",
+      "pub_ts": 1795095382,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -343,19 +356,6 @@
       "date": "2026-11-19",
       "date_human": "Nov 19, 2026",
       "pub_ts": 1795075180,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "XRP Price Was Worth Less Than a Penny When GTA 5 Launched: Could GTA 6 See It Hit $100?",
-      "link": "https://cryptonews.com/news/xrp-price-gta-5-launched-gta-6-100/",
-      "summary": "XRP was trading below a cent when GTA5 arrived. Thirteen years later, GTA6 is going to be released while XRP has became a financial giant.",
-      "source": "Cryptonews",
-      "date": "2026-11-18",
-      "date_human": "Nov 18, 2026",
-      "pub_ts": 1795024620,
       "image_candidates": [],
       "license_url": null,
       "image": null,
