@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-20",
-  "generated_at_utc": "2026-11-20 11:05:12 UTC",
+  "generated_at_utc": "2026-11-20 17:05:12 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-20T11:05:06.696519+00:00",
+    "collected_at": "2026-11-20T17:05:06.983981+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -25,10 +25,10 @@
         "status": "ok",
         "entries": 10,
         "within_24h": 2,
-        "within_window": 5,
-        "eligible": 5,
+        "within_window": 6,
+        "eligible": 6,
         "rejected": {
-          "older_than_window": 5
+          "older_than_window": 4
         }
       },
       {
@@ -36,12 +36,12 @@
         "url": "https://www.nist.gov/news-events/news/rss.xml",
         "status": "ok",
         "entries": 40,
-        "within_24h": 1,
-        "within_window": 2,
+        "within_24h": 0,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 2,
-          "older_than_window": 38
+          "topic_author_or_category": 1,
+          "older_than_window": 39
         }
       },
       {
@@ -50,11 +50,12 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 7,
-        "within_window": 13,
+        "within_window": 14,
         "eligible": 10,
         "rejected": {
+          "unreviewed_link": 1,
           "topic_author_or_category": 3,
-          "older_than_window": 7
+          "older_than_window": 6
         }
       },
       {
@@ -74,10 +75,11 @@
         "url": "https://apps.bea.gov/rss/rss.xml",
         "status": "ok",
         "entries": 49,
-        "within_24h": 0,
+        "within_24h": 1,
         "within_window": 1,
-        "eligible": 1,
+        "eligible": 0,
         "rejected": {
+          "topic_author_or_category": 1,
           "older_than_window": 48
         }
       },
@@ -87,10 +89,11 @@
         "status": "ok",
         "entries": 25,
         "within_24h": 1,
-        "within_window": 1,
+        "within_window": 2,
         "eligible": 1,
         "rejected": {
-          "older_than_window": 24
+          "topic_author_or_category": 1,
+          "older_than_window": 23
         }
       },
       {
@@ -111,11 +114,11 @@
         "url": "https://bitcoinops.org/feed.xml",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 10
+          "older_than_window": 9
         }
       },
       {
@@ -173,43 +176,108 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 1,
-        "within_window": 2,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 2,
-          "older_than_window": 18
+          "topic_author_or_category": 3,
+          "older_than_window": 17
         }
       }
     ],
     "eligible_by_source": {
+      "NewsBTC": 6,
       "Cryptonews": 10,
-      "NewsBTC": 5,
-      "SEC": 1,
-      "U.S. Bureau of Economic Analysis": 1
+      "Bitcoin Optech": 1,
+      "SEC": 1
     },
     "unique_by_source": {
+      "NewsBTC": 6,
       "Cryptonews": 10,
-      "NewsBTC": 5,
-      "SEC": 1,
-      "U.S. Bureau of Economic Analysis": 1
+      "Bitcoin Optech": 1,
+      "SEC": 1
     },
     "selected_by_source": {
-      "Cryptonews": 6,
       "NewsBTC": 4,
-      "SEC": 1,
-      "U.S. Bureau of Economic Analysis": 1
+      "Cryptonews": 6,
+      "Bitcoin Optech": 1,
+      "SEC": 1
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Trump Memecoin Dinner? Investors Wait for a Miracle",
-      "link": "https://cryptonews.com/news/trump-hosts-memecoin-dinner-as-investors-wait-for-a-miracle/",
-      "summary": "Trump memecoin dinner back on the table as holders face 99% losses, MELANIA slides and WLFI struggles to regain investor confidence.",
+      "title": "HTX Research Publishes Six-Month Outlook for Bitcoin and Crypto Markets",
+      "link": "https://www.newsbtc.com/news/htx-research-publishes-six-month-outlook-for-bitcoin-and-crypto-markets/",
+      "summary": "Apia, Samoa, November 20, 2026 – HTX Research, the dedicated research arm of HTX, has published a new report titled From a Price Rebound to a Recovery in Capital Flows: A Six-Month Outlook for Bitcoin and Crypto Markets. The report addresses a central question for the months ahead: after a significant amount of leverage has been liquidated, who has the capital to absorb the remaining selling pressure? Its base case is that selling pressure will ease and BTC will attempt to stabilize first, with the durability of any recovery depending on whether sustained inflows return. The report covers the ",
+      "source": "NewsBTC",
+      "date": "2026-11-20",
+      "date_human": "Nov 20, 2026",
+      "pub_ts": 1795192754,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Crashes Below $62K: What Should You Do?",
+      "link": "https://cryptonews.com/news/bitcoin-price-crashes-below-62000-etf/",
+      "summary": "Bitcoin price falls below $62K, ETF outflows hit $582M, and liquidations mount. Can BTC defend $60K, or is another crash toward $53K coming?",
       "source": "Cryptonews",
       "date": "2026-11-20",
       "date_human": "Nov 20, 2026",
-      "pub_ts": 1795163868,
+      "pub_ts": 1795181881,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Optech Newsletter #432",
+      "link": "https://bitcoinops.org/en/newsletters/2026/11/20/",
+      "summary": "This week’s newsletter summarizes an analysis of decentralized mining pool payouts, describes the disclosure of a fixed denial-of-service vulnerability in Eclair, and links to continued discussion about whether stale tip relay should include block data. Also included are our regular sections describing recent changes to services and client software, announcing new releases and release candidates, and describing notable changes to popular Bitcoin infrastructure software.",
+      "source": "Bitcoin Optech",
+      "date": "2026-11-20",
+      "date_human": "Nov 20, 2026",
+      "pub_ts": 1795132800,
+      "image_candidates": [],
+      "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
+      "link": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
+      "summary": "The Securities and Exchange Commission today charged eight Colorado-based entities, likely operated by individuals located overseas, for defrauding U.S. investors out of more than $37 million. The defendants allegedly lured investors to believe they were…",
+      "source": "SEC",
+      "date": "2026-11-19",
+      "date_human": "Nov 19, 2026",
+      "pub_ts": 1795099142,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "As traditional giants rush into digital dollars, USDD's Yvonne Chia explains why 24/7 access, self-custody, and transparent yield give decentralized stablecoins an edge banks can't replicate. 20 November – Road Town, Totorla, British Virgin Islands – Decentralized stablecoin protocol USDD is accelerating its multichain utility across TRON, Ethereum, and BNB Chain—combining automated sUSDD yield via its Smart Allocator with GasFree zero-TRX transfers—as traditional financial giants race to build competing stablecoin rails. In a recent industry interview with instant exchange partner ChangeNOW, USDD Head of Communications Yvonne Chia outlined why self-custody, 24/7 settlement, and transparent onchain reserves give decentralized digital dollars a structural advantage over bank-issued alternatives. 1. Permissionless Access vs. Gatekept Accounts For billions of people globally, opening and maintaining a traditional bank account still involves paperwork, minimum balance requirements, geographic restrictions, and approval delays. Even when banks integrate stablecoin rails behind the scenes, those services remain gated behind legacy compliance walls and intermediary control. Crypto-native stablecoins flip that model on its head. As Yvonne Chia highlighted during the interview: “Compare this to a stablecoin like USDD, where all you need is a phone, a working internet connection, you can immediately start a wallet and you have access to your funds right away.” With USDD, users can access and manage their digital dollars directly through their own wallets, without depending on traditional financial intermediaries. This represents a fundamental shift in financial access: users are no longer limited to the services, operating hours, or account structures of a single institution. Instead, they have the freedom to hold, manage, and transfer their assets on their own terms. Self-custody also gives users greater autonomy over their financial decisions. They can choose which wallets to use, where to transfer their assets, and which supported decentralized applications to interact with, without needing to route every transaction through a centralized financial institution. With USDD, users' digital dollars can move with them across an open blockchain ecosystem, rather than remaining tied to a particular bank or service provider. 2. 24/7 Global Settlement vs. “Banking Hours” Legacy payment networks still operate on decades-old schedules: weekend cutoffs, bank holidays, and multi-day cross-border settlement delays accompanied by hefty wire fees. Blockchain networks never close. Whether it is a Sunday night or a public holiday, USDD moves globally without depending on traditional banking operating hours or settlement windows. “We are able to have transfers 24/7 and we're not limited to any traditional banking hours. So I think that in some ways, stablecoins are not just becoming banks, but exceeding what traditional banks can offer to users.” To make everyday transfers even smoother than fintech apps, USDD introduced GasFree integration on TRON, allowing users on supported wallets to pay network fees directly in USDD without needing to hold TRX. This removes another practical barrier to stablecoin adoption: having to acquire and maintain a separate gas token just to transfer digital dollars. With GasFree, eligible users can pay approximately 0.5 USDD per transaction, compared with around 1.5 USDT for a standard USDT transfer under the referenced fee conditions. These improvements matter because the usefulness of a stablecoin is not determined by its peg alone. Low-cost transfers, straightforward wallet experiences, and around-the-clock availability are what make digital dollars practical for everyday payments and global value transfers. 3. Passing Yield Back to Users vs. Bank Spreads Perhaps the sharpest contrast between banks and decentralized stablecoins lies in how yield is distributed. In traditional banking, institutions take customer deposits, deploy them into yield-generating markets, and retain a significant portion of the returns. Everyday depositors may receive relatively low interest rates, while higher-yielding products often come with eligibility requirements, minimum deposits, or fixed maturity periods. Stablecoins introduce another way to participate in digital-dollar opportunities. Rather than keeping capital entirely within a traditional deposit account, users can access onchain yield opportunities through decentralized protocols and transparent investment mechanisms. USDD was built to return that value directly to holders. Through USDD Earn, users can deposit USDD to receive sUSDD, earning automated, competitive yield powered by our Smart Allocator system, with no fixed lock-up periods restricting access to their capital. For users, the distinction is important: USDD Earn provides access to a productive stablecoin while maintaining flexibility, rather than requiring users to commit their capital to a conventional fixed-term product. 4. Onchain Verification vs. Institutional Trust Traditional banks ask customers to trust closed-door balance sheets and periodic regulatory filings—until a crisis proves otherwise. USDD takes a different approach through its “Don't trust, verify” ethos, emphasizing publicly accessible onchain information and independent verification. Onchain Transparency: Smart contract addresses, collateral reserves, and Smart Allocator deployments are publicly viewable, allowing users to examine relevant information directly on the blockchain. Structured Disclosures: Quarterly Treasury Reports provide additional information about reserve positions, financial performance, and operational developments. Independent Security Reviews: USDD undergoes third-party security audits to assess its smart contracts and identify potential vulnerabilities. Transparency does not eliminate financial or technical risks, but it changes how users can evaluate them. Instead of relying exclusively on an institution's assurances, users have access to information that can be independently examined and verified. 5. Beyond a Single Network: An Open, Multichain Financial Ecosystem Financial freedom is not just about holding digital dollars. It is also about being able to use them wherever opportunities and applications exist. A stablecoin confined to a single network or limited use case cannot fully realize the potential of open blockchain finance. Following its January 2025 protocol upgrade, USDD expanded natively from TRON onto Ethereum and BNB Chain, extending its reach across multiple blockchain ecosystems. This multichain presence allows USDD to connect with different communities, liquidity environments, and decentralized applications. Its sUSDD product has also expanded into DeFi integrations, including Pendle and Morpho, giving users additional ways to access yield strategies across supported ecosystems. The bigger picture is an interconnected financial ecosystem in which users can move between holding, transferring, exchanging, and deploying their stablecoins according to their own needs. These are not isolated functions. Together, they make stablecoins more useful as everyday financial infrastructure. The Future: Interconnected, Open, and Multichain Banks will undoubtedly continue using stablecoin rails to modernize their back-end settlement. However, true financial freedom comes from open networks where assets flow freely across protocols without intermediaries. For USDD, the opportunity goes beyond offering a dollar-pegged asset. It is about making digital dollars accessible, transferable, and productive across an interconnected financial ecosystem. From self-custody and 24/7 transfers to flexible yield opportunities and multichain DeFi access, these capabilities give users more ways to put their money to work. Banks may be bringing stablecoins into traditional finance. Crypto-native protocols are showing what stablecoins can make possible beyond it.",
+      "link": "https://www.newsbtc.com/news/as-traditional-giants-rush-into-digital-dollars-usdds-yvonne-chia-explains-why-24-7-access-self-custody-and-transparent-yield-give-decentralized-stablecoins-an-edge-banks-cant-rep/",
+      "summary": "As traditional giants rush into digital dollars, USDD’s Yvonne Chia explains why 24/7 access, self-custody, and transparent yield give decentralized stablecoins an edge banks can’t replicate. 20 November – Road Town, Totorla, British Virgin Islands – Decentralized stablecoin protocol USDD is accelerating its multichain utility across TRON, Ethereum, and BNB Chain—combining automated sUSDD yield via its Smart Allocator with GasFree zero-TRX transfers—as traditional financial giants race to build competing stablecoin rails. In a recent industry interview with instant exchange partner ChangeNOW, ",
+      "source": "NewsBTC",
+      "date": "2026-11-20",
+      "date_human": "Nov 20, 2026",
+      "pub_ts": 1795192575,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Hyperliquid Monero Crashes? Wagyu-Linked XMR1 Collapses, $13.2M Flows Into Ethereum",
+      "link": "https://cryptonews.com/news/hyperliquid-monero-wagyu-exploit-xmr1-crash-ethereum/",
+      "summary": "Wagyu XMR1 Monero crashes 99% in Hyperliquid, 5.2 million tokens move from its deployer account, with $13.2 million converted into ETH.",
+      "source": "Cryptonews",
+      "date": "2026-11-20",
+      "date_human": "Nov 20, 2026",
+      "pub_ts": 1795177602,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -229,39 +297,13 @@
       "image_local": null
     },
     {
-      "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
-      "link": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
-      "summary": "The Securities and Exchange Commission today charged eight Colorado-based entities, likely operated by individuals located overseas, for defrauding U.S. investors out of more than $37 million. The defendants allegedly lured investors to believe they were…",
-      "source": "SEC",
-      "date": "2026-11-19",
-      "date_human": "Nov 19, 2026",
-      "pub_ts": 1795099142,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Outdoor Recreation Economic Statistics, U.S. and States, 2025",
-      "link": "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2025",
-      "summary": "The value added of the outdoor recreation economy accounted for 2.3 percent ($704.2 billion) of current-dollar gross domestic product (GDP) for the nation in 2025. Across states and the District of Columbia, value added for outdoor recreation as a share of state GDP ranged from 6.1 percent in Hawaii to 1.0 percent in the District of Columbia.",
-      "source": "U.S. Bureau of Economic Analysis",
-      "date": "2026-11-18",
-      "date_human": "Nov 18, 2026",
-      "pub_ts": 1795014000,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "LIVE – Bitcoin ETF Bleeds: Anthropic's Record-Breaking IPO Fails to Save the Market",
-      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-anthropic-ipo-ai-stock-crash/",
-      "summary": "Bitcoin ETF outflows deepen as Nvidia slides, Anthropic's IPO fails to lift Wall Street, and Asian semiconductor stocks suffer heavy losses.",
+      "title": "Trump Memecoin Dinner? Investors Wait for a Miracle",
+      "link": "https://cryptonews.com/news/trump-hosts-memecoin-dinner-as-investors-wait-for-a-miracle/",
+      "summary": "Trump memecoin dinner back on the table as holders face 99% losses, MELANIA slides and WLFI struggles to regain investor confidence.",
       "source": "Cryptonews",
       "date": "2026-11-20",
       "date_human": "Nov 20, 2026",
-      "pub_ts": 1795161380,
+      "pub_ts": 1795163868,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -281,6 +323,19 @@
       "image_local": null
     },
     {
+      "title": "LIVE – Bitcoin ETF Bleeds: Anthropic's Record-Breaking IPO Fails to Save the Market",
+      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-anthropic-ipo-ai-stock-crash/",
+      "summary": "Bitcoin ETF outflows deepen as Nvidia slides, Anthropic's IPO fails to lift Wall Street, and Asian semiconductor stocks suffer heavy losses.",
+      "source": "Cryptonews",
+      "date": "2026-11-20",
+      "date_human": "Nov 20, 2026",
+      "pub_ts": 1795161380,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Gemini AI Predicts Which Privacy Coin Goes to the Moon in 2027? XMR Vs. Zcash",
       "link": "https://cryptonews.com/news/gemini-ai-predicts-privacy-coin-goes-to-the-moon-in-2027-xmr-vs-zcash/",
       "summary": "Privacy coins are poised to be among the biggest cryptocurrency stories of 2027, driven by growing concerns over financial surveillance, institutional adoption, and the future of digital privacy. This creates a compelling investment narrative. Google Gemini AI predicts that two projects, Monero (XMR) and Zcash (ZEC), will stand out, and it aims to forecast which […]",
@@ -294,19 +349,6 @@
       "image_local": null
     },
     {
-      "title": "OmenX announces $2 million in funding from Informed Ventures and launches on-demand 30-second Bitcoin predictions",
-      "link": "https://www.newsbtc.com/news/omenx-announces-2-million-in-funding-from-informed-ventures-and-launches-on-demand-30-second-bitcoin-predictions/",
-      "summary": "The Base-native leveraged prediction market platform expands its offering across crypto, global financial assets, sports and esports. Toronto, November 19, 2026 – OmenX, a Base-native leveraged prediction market platform, today announced $2 million in funding from Informed Ventures alongside the launch of its on-demand, 30-second Bitcoin price prediction product. The new product lets users predict whether Bitcoin’s price will rise or fall over the next 30 seconds, with each trade starting its own prediction window. A position opened at 10:00:12 runs until 10:00:42. Users can act when their vie",
-      "source": "NewsBTC",
-      "date": "2026-11-19",
-      "date_human": "Nov 19, 2026",
-      "pub_ts": 1795084145,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Rene Haas to Take Over Nvidia? What Will Happen to Crypto?",
       "link": "https://cryptonews.com/news/rene-haas-nvidia-crypto-market/",
       "summary": "Rene Haas could take over Nvidia after leading Arm's AI expansion. Here's what his appointment could mean for Bitcoin and crypto markets.",
@@ -314,45 +356,6 @@
       "date": "2026-11-19",
       "date_human": "Nov 19, 2026",
       "pub_ts": 1795095382,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "MEXC's Hacken-Audited November 2026 Proof of Reserves Shows Reserve Ratios Above 100% Across Major Assets",
-      "link": "https://www.newsbtc.com/news/mexcs-hacken-audited-november-2026-proof-of-reserves-shows-reserve-ratios-above-100-across-major-assets/",
-      "summary": "Mutsamudu, Comoros, November 19, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its November 2026 Proof of Reserves (PoR) report, independently audited by Hacken. The report shows MEXC’s solid reserve position, with user assets in every major asset backed by reserves above 1:1, demonstrating MEXC’s ongoing commitment to safeguarding user assets. Spanning Proof of Liabilities, Proof of Ownership, Reserves Calculation, and Merkle Tree verification, Hacken’s November 2026 audit confirms substantial over-collateralisation across core holdings, standing at 318% for BTC, 122% fo",
-      "source": "NewsBTC",
-      "date": "2026-11-19",
-      "date_human": "Nov 19, 2026",
-      "pub_ts": 1795083819,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Stablecoin Market Loses Billions: Where Is Crypto's Liquidity Going?",
-      "link": "https://cryptonews.com/news/stablecoin-market-loses-billions-crypto-liquidity/",
-      "summary": "The stablecoin market lost $16 billion in 30 days as USDT and USDC supply shrank. How does it compare with the 2022 crypto crash?",
-      "source": "Cryptonews",
-      "date": "2026-11-19",
-      "date_human": "Nov 19, 2026",
-      "pub_ts": 1795091454,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "GTA 6 Flu Is Here: The Impact on Crypto Markets",
-      "link": "https://cryptonews.com/news/gta-6-flu-impact-crypto-markets/",
-      "summary": "GTA 6 is taking over workplaces and social media as crypto markets go quiet. Could the gaming frenzy pull retail traders away from crypto?",
-      "source": "Cryptonews",
-      "date": "2026-11-19",
-      "date_human": "Nov 19, 2026",
-      "pub_ts": 1795083799,
       "image_candidates": [],
       "license_url": null,
       "image": null,
