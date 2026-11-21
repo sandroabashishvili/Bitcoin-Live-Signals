@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-21",
-  "generated_at_utc": "2026-11-21 11:05:08 UTC",
+  "generated_at_utc": "2026-11-21 17:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-21T11:05:02.296443+00:00",
+    "collected_at": "2026-11-21T17:05:02.505787+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 2,
-        "within_window": 4,
-        "eligible": 4,
+        "within_24h": 0,
+        "within_window": 2,
+        "eligible": 2,
         "rejected": {
-          "older_than_window": 6
+          "older_than_window": 8
         }
       },
       {
@@ -37,11 +37,10 @@
         "status": "ok",
         "entries": 40,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 39
+          "older_than_window": 40
         }
       },
       {
@@ -49,14 +48,14 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 5,
-        "within_window": 12,
-        "eligible": 8,
+        "within_24h": 2,
+        "within_window": 9,
+        "eligible": 6,
         "rejected": {
           "title_filter": 1,
           "unreviewed_link": 1,
-          "topic_author_or_category": 2,
-          "older_than_window": 8
+          "topic_author_or_category": 1,
+          "older_than_window": 11
         }
       },
       {
@@ -76,7 +75,7 @@
         "url": "https://apps.bea.gov/rss/rss.xml",
         "status": "ok",
         "entries": 49,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -89,12 +88,12 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 2,
-        "within_window": 3,
-        "eligible": 1,
+        "within_24h": 1,
+        "within_window": 2,
+        "eligible": 0,
         "rejected": {
           "topic_author_or_category": 2,
-          "older_than_window": 22
+          "older_than_window": 23
         }
       },
       {
@@ -175,35 +174,32 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 2,
-        "within_window": 3,
+        "within_24h": 1,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 3,
-          "older_than_window": 17
+          "topic_author_or_category": 2,
+          "older_than_window": 18
         }
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 8,
-      "NewsBTC": 4,
-      "Bitcoin Optech": 1,
-      "SEC": 1
+      "Cryptonews": 6,
+      "NewsBTC": 2,
+      "Bitcoin Optech": 1
     },
     "unique_by_source": {
-      "Cryptonews": 8,
-      "NewsBTC": 4,
-      "Bitcoin Optech": 1,
-      "SEC": 1
+      "Cryptonews": 6,
+      "NewsBTC": 2,
+      "Bitcoin Optech": 1
     },
     "selected_by_source": {
       "Cryptonews": 6,
-      "NewsBTC": 4,
-      "Bitcoin Optech": 1,
-      "SEC": 1
+      "NewsBTC": 2,
+      "Bitcoin Optech": 1
     }
   },
-  "count": 12,
+  "count": 9,
   "items": [
     {
       "title": "Mark Zuckerberg's Meta AI Predicts the Flippening: How Does ADA Flip XRP?",
@@ -241,19 +237,6 @@
       "pub_ts": 1795132800,
       "image_candidates": [],
       "license_url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/news/licenses/bitcoin-optech-MIT.txt",
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "SEC: Eight Entities Used Fake Crypto Asset Trading Platforms to Steal More Than $37 Million From U.S. Investors",
-      "link": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors",
-      "summary": "The Securities and Exchange Commission today charged eight Colorado-based entities, likely operated by individuals located overseas, for defrauding U.S. investors out of more than $37 million. The defendants allegedly lured investors to believe they were…",
-      "source": "SEC",
-      "date": "2026-11-19",
-      "date_human": "Nov 19, 2026",
-      "pub_ts": 1795099142,
-      "image_candidates": [],
-      "license_url": null,
       "image": null,
       "image_local": null
     },
@@ -297,19 +280,6 @@
       "image_local": null
     },
     {
-      "title": "BingX Adds Anthropic Spot and Perpetual Futures Trading Following Nasdaq Debut",
-      "link": "https://www.newsbtc.com/news/bingx-adds-anthropic-spot-and-perpetual-futures-trading-following-nasdaq-debut/",
-      "summary": "PANAMA CITY, November 19, 2026 – BingX, the world’s leading multi-asset trading platform, today announced that Anthropic (Nasdaq: ANT) is available for trading on its platform following the company’s highly anticipated initial public offering. Eligible users can trade ANT/USDT on BingX Spot or take long and short positions through USDT-margined ANTUS(ANTHROPIC) Perpetual Futures. The launch extends BingX’s Anthropic trading offering from pre-IPO exposure to markets linked to its publicly listed stock. Anthropic’s public listing marks a major milestone for the developer of Claude and brings one",
-      "source": "NewsBTC",
-      "date": "2026-11-19",
-      "date_human": "Nov 19, 2026",
-      "pub_ts": 1795105370,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Trump Memecoin Dinner? Investors Wait for a Miracle",
       "link": "https://cryptonews.com/news/trump-hosts-memecoin-dinner-as-investors-wait-for-a-miracle/",
       "summary": "Trump memecoin dinner back on the table as holders face 99% losses, MELANIA slides and WLFI struggles to regain investor confidence.",
@@ -317,19 +287,6 @@
       "date": "2026-11-20",
       "date_human": "Nov 20, 2026",
       "pub_ts": 1795163868,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Pulsar Enables USDT Deposits on TRON, Expanding Access to Everyday Stablecoin Payments",
-      "link": "https://www.newsbtc.com/news/pulsar-enables-usdt-deposits-on-tron-expanding-access-to-everyday-stablecoin-payments/",
-      "summary": "Geneva, Switzerland, November 19, 2026 — Pulsar Money today announced support for USDT deposits on the TRON network, allowing users to fund their Pulsar accounts with USDT (TRC-20) and access everyday payment features through the app. With this integration, users can deposit USDT on TRON and use their balances for online purchases, subscriptions, and other everyday expenses through the Pulsar virtual card. Pulsar charges no fees for supported stablecoin deposits across its plans, although network and third-party fees may apply. The integration connects TRON’s widely adopted stablecoin infrastr",
-      "source": "NewsBTC",
-      "date": "2026-11-19",
-      "date_human": "Nov 19, 2026",
-      "pub_ts": 1795104824,
       "image_candidates": [],
       "license_url": null,
       "image": null,
