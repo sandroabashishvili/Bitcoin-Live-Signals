@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-22",
-  "generated_at_utc": "2026-11-22 11:05:08 UTC",
+  "generated_at_utc": "2026-11-22 17:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-22T11:05:01.995951+00:00",
+    "collected_at": "2026-11-22T17:05:02.019970+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -25,10 +25,10 @@
         "status": "ok",
         "entries": 10,
         "within_24h": 0,
-        "within_window": 2,
-        "eligible": 2,
+        "within_window": 0,
+        "eligible": 0,
         "rejected": {
-          "older_than_window": 8
+          "older_than_window": 10
         }
       },
       {
@@ -49,12 +49,11 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 1,
-        "within_window": 6,
-        "eligible": 4,
+        "within_window": 3,
+        "eligible": 2,
         "rejected": {
           "title_filter": 1,
-          "unreviewed_link": 1,
-          "older_than_window": 14
+          "older_than_window": 17
         }
       },
       {
@@ -75,11 +74,10 @@
         "status": "ok",
         "entries": 49,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 48
+          "older_than_window": 49
         }
       },
       {
@@ -88,11 +86,11 @@
         "status": "ok",
         "entries": 25,
         "within_24h": 0,
-        "within_window": 2,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 2,
-          "older_than_window": 23
+          "topic_author_or_category": 1,
+          "older_than_window": 24
         }
       },
       {
@@ -173,28 +171,25 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 0,
-        "within_window": 2,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 2,
-          "older_than_window": 18
+          "topic_author_or_category": 1,
+          "older_than_window": 19
         }
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 4,
-      "NewsBTC": 2
+      "Cryptonews": 2
     },
     "unique_by_source": {
-      "Cryptonews": 4,
-      "NewsBTC": 2
+      "Cryptonews": 2
     },
     "selected_by_source": {
-      "Cryptonews": 4,
-      "NewsBTC": 2
+      "Cryptonews": 2
     }
   },
-  "count": 6,
+  "count": 2,
   "items": [
     {
       "title": "Elon Musk's Grok AI Predicts ETH Vs SOL For 2027: Who Wins?",
@@ -210,19 +205,6 @@
       "image_local": null
     },
     {
-      "title": "HTX Research Publishes Six-Month Outlook for Bitcoin and Crypto Markets",
-      "link": "https://www.newsbtc.com/news/htx-research-publishes-six-month-outlook-for-bitcoin-and-crypto-markets/",
-      "summary": "Apia, Samoa, November 20, 2026 – HTX Research, the dedicated research arm of HTX, has published a new report titled From a Price Rebound to a Recovery in Capital Flows: A Six-Month Outlook for Bitcoin and Crypto Markets. The report addresses a central question for the months ahead: after a significant amount of leverage has been liquidated, who has the capital to absorb the remaining selling pressure? Its base case is that selling pressure will ease and BTC will attempt to stabilize first, with the durability of any recovery depending on whether sustained inflows return. The report covers the ",
-      "source": "NewsBTC",
-      "date": "2026-11-20",
-      "date_human": "Nov 20, 2026",
-      "pub_ts": 1795192754,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Mark Zuckerberg's Meta AI Predicts the Flippening: How Does ADA Flip XRP?",
       "link": "https://cryptonews.com/news/mark-zuckerbergs-meta-ai-predicts-the-flippening-how-does-ada-flip-xrp/",
       "summary": "Could 2027 finally be the year Cardano (ADA) overtakes Ripple (XRP) in the cryptocurrency rankings? Mark Zuckerberg’s Meta AI predicts that, despite XRP’s established position among the industry’s largest digital assets, network upgrades, renewed institutional interest, and a shift in investor sentiment could make it more likely than it first appears.Both cryptocurrencies have spent years […]",
@@ -230,45 +212,6 @@
       "date": "2026-11-20",
       "date_human": "Nov 20, 2026",
       "pub_ts": 1795208580,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Banks Are Adopting Stablecoins: Here Is Why Crypto-Native Dollars Still Win on User Freedom",
-      "link": "https://www.newsbtc.com/news/banks-are-adopting-stablecoins-here-is-why-crypto-native-dollars-still-win-on-user-freedom/",
-      "summary": "As traditional giants rush into digital dollars, USDD’s Yvonne Chia explains why 24/7 access, self-custody, and transparent yield give decentralized stablecoins an edge banks can’t replicate. 20 November – Road Town, Totorla, British Virgin Islands – Decentralized stablecoin protocol USDD is accelerating its multichain utility across TRON, Ethereum, and BNB Chain—combining automated sUSDD yield via its Smart Allocator with GasFree zero-TRX transfers—as traditional financial giants race to build competing stablecoin rails. In a recent industry interview with instant exchange partner ChangeNOW, ",
-      "source": "NewsBTC",
-      "date": "2026-11-20",
-      "date_human": "Nov 20, 2026",
-      "pub_ts": 1795192575,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin Price Crashes Below $62K: What Should You Do?",
-      "link": "https://cryptonews.com/news/bitcoin-price-crashes-below-62000-etf/",
-      "summary": "Bitcoin price falls below $62K, ETF outflows hit $582M, and liquidations mount. Can BTC defend $60K, or is another crash toward $53K coming?",
-      "source": "Cryptonews",
-      "date": "2026-11-20",
-      "date_human": "Nov 20, 2026",
-      "pub_ts": 1795181881,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Hyperliquid Monero Crashes? Wagyu-Linked XMR1 Collapses, $13.2M Flows Into Ethereum",
-      "link": "https://cryptonews.com/news/hyperliquid-monero-wagyu-exploit-xmr1-crash-ethereum/",
-      "summary": "Wagyu XMR1 Monero crashes 99% in Hyperliquid, 5.2 million tokens move from its deployer account, with $13.2 million converted into ETH.",
-      "source": "Cryptonews",
-      "date": "2026-11-20",
-      "date_human": "Nov 20, 2026",
-      "pub_ts": 1795177602,
       "image_candidates": [],
       "license_url": null,
       "image": null,
