@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-21",
-  "generated_at_utc": "2026-11-21 17:05:08 UTC",
+  "generated_at_utc": "2026-11-21 23:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-21T17:05:02.505787+00:00",
+    "collected_at": "2026-11-21T23:05:02.243820+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,7 +48,7 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 2,
+        "within_24h": 1,
         "within_window": 9,
         "eligible": 6,
         "rejected": {
@@ -88,7 +88,7 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 2,
         "eligible": 0,
         "rejected": {
@@ -174,7 +174,7 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 2,
         "eligible": 0,
         "rejected": {
@@ -202,13 +202,13 @@
   "count": 9,
   "items": [
     {
-      "title": "Mark Zuckerberg's Meta AI Predicts the Flippening: How Does ADA Flip XRP?",
-      "link": "https://cryptonews.com/news/mark-zuckerbergs-meta-ai-predicts-the-flippening-how-does-ada-flip-xrp/",
-      "summary": "Could 2027 finally be the year Cardano (ADA) overtakes Ripple (XRP) in the cryptocurrency rankings? Mark Zuckerberg’s Meta AI predicts that, despite XRP’s established position among the industry’s largest digital assets, network upgrades, renewed institutional interest, and a shift in investor sentiment could make it more likely than it first appears.Both cryptocurrencies have spent years […]",
+      "title": "Elon Musk's Grok AI Predicts ETH Vs SOL For 2027: Who Wins?",
+      "link": "https://cryptonews.com/news/grok-ai-predicts-eth-vs-sol-which-will-see-better-returns-in-2027/",
+      "summary": "Ethereum vs. Solana in 2027: Elon Musk’s Grok AI predicts which is positioned for bigger gains at the end of this article. As of mid-November 2026, Ethereum (ETH) trades near $1,780–$1,880 with a market cap of about $210–$230Bn, while Solana (SOL) trades near $65–$80 with a market cap of roughly $35-45Bn. Both have endured sharp […]",
       "source": "Cryptonews",
-      "date": "2026-11-20",
-      "date_human": "Nov 20, 2026",
-      "pub_ts": 1795208580,
+      "date": "2026-11-21",
+      "date_human": "Nov 21, 2026",
+      "pub_ts": 1795291620,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -241,13 +241,13 @@
       "image_local": null
     },
     {
-      "title": "Bitcoin Price Crashes Below $62K: What Should You Do?",
-      "link": "https://cryptonews.com/news/bitcoin-price-crashes-below-62000-etf/",
-      "summary": "Bitcoin price falls below $62K, ETF outflows hit $582M, and liquidations mount. Can BTC defend $60K, or is another crash toward $53K coming?",
+      "title": "Mark Zuckerberg's Meta AI Predicts the Flippening: How Does ADA Flip XRP?",
+      "link": "https://cryptonews.com/news/mark-zuckerbergs-meta-ai-predicts-the-flippening-how-does-ada-flip-xrp/",
+      "summary": "Could 2027 finally be the year Cardano (ADA) overtakes Ripple (XRP) in the cryptocurrency rankings? Mark Zuckerberg’s Meta AI predicts that, despite XRP’s established position among the industry’s largest digital assets, network upgrades, renewed institutional interest, and a shift in investor sentiment could make it more likely than it first appears.Both cryptocurrencies have spent years […]",
       "source": "Cryptonews",
       "date": "2026-11-20",
       "date_human": "Nov 20, 2026",
-      "pub_ts": 1795181881,
+      "pub_ts": 1795208580,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -261,6 +261,19 @@
       "date": "2026-11-20",
       "date_human": "Nov 20, 2026",
       "pub_ts": 1795192575,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin Price Crashes Below $62K: What Should You Do?",
+      "link": "https://cryptonews.com/news/bitcoin-price-crashes-below-62000-etf/",
+      "summary": "Bitcoin price falls below $62K, ETF outflows hit $582M, and liquidations mount. Can BTC defend $60K, or is another crash toward $53K coming?",
+      "source": "Cryptonews",
+      "date": "2026-11-20",
+      "date_human": "Nov 20, 2026",
+      "pub_ts": 1795181881,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -300,19 +313,6 @@
       "date": "2026-11-20",
       "date_human": "Nov 20, 2026",
       "pub_ts": 1795161380,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Gemini AI Predicts Which Privacy Coin Goes to the Moon in 2027? XMR Vs. Zcash",
-      "link": "https://cryptonews.com/news/gemini-ai-predicts-privacy-coin-goes-to-the-moon-in-2027-xmr-vs-zcash/",
-      "summary": "Privacy coins are poised to be among the biggest cryptocurrency stories of 2027, driven by growing concerns over financial surveillance, institutional adoption, and the future of digital privacy. This creates a compelling investment narrative. Google Gemini AI predicts that two projects, Monero (XMR) and Zcash (ZEC), will stand out, and it aims to forecast which […]",
-      "source": "Cryptonews",
-      "date": "2026-11-19",
-      "date_human": "Nov 19, 2026",
-      "pub_ts": 1795125420,
       "image_candidates": [],
       "license_url": null,
       "image": null,
