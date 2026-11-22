@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-22",
-  "generated_at_utc": "2026-11-22 05:05:08 UTC",
+  "generated_at_utc": "2026-11-22 11:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-22T05:05:01.736428+00:00",
+    "collected_at": "2026-11-22T11:05:01.995951+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -49,13 +49,12 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 1,
-        "within_window": 9,
-        "eligible": 6,
+        "within_window": 6,
+        "eligible": 4,
         "rejected": {
           "title_filter": 1,
           "unreviewed_link": 1,
-          "topic_author_or_category": 1,
-          "older_than_window": 11
+          "older_than_window": 14
         }
       },
       {
@@ -102,11 +101,10 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 1,
-          "older_than_window": 14
+          "older_than_window": 15
         }
       },
       {
@@ -184,19 +182,19 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 6,
+      "Cryptonews": 4,
       "NewsBTC": 2
     },
     "unique_by_source": {
-      "Cryptonews": 6,
+      "Cryptonews": 4,
       "NewsBTC": 2
     },
     "selected_by_source": {
-      "Cryptonews": 6,
+      "Cryptonews": 4,
       "NewsBTC": 2
     }
   },
-  "count": 8,
+  "count": 6,
   "items": [
     {
       "title": "Elon Musk's Grok AI Predicts ETH Vs SOL For 2027: Who Wins?",
@@ -271,32 +269,6 @@
       "date": "2026-11-20",
       "date_human": "Nov 20, 2026",
       "pub_ts": 1795177602,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Trump Memecoin Dinner? Investors Wait for a Miracle",
-      "link": "https://cryptonews.com/news/trump-hosts-memecoin-dinner-as-investors-wait-for-a-miracle/",
-      "summary": "Trump memecoin dinner back on the table as holders face 99% losses, MELANIA slides and WLFI struggles to regain investor confidence.",
-      "source": "Cryptonews",
-      "date": "2026-11-20",
-      "date_human": "Nov 20, 2026",
-      "pub_ts": 1795163868,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "LIVE – Bitcoin ETF Bleeds: Anthropic's Record-Breaking IPO Fails to Save the Market",
-      "link": "https://cryptonews.com/news/bitcoin-etf-outflows-anthropic-ipo-ai-stock-crash/",
-      "summary": "Bitcoin ETF outflows deepen as Nvidia slides, Anthropic's IPO fails to lift Wall Street, and Asian semiconductor stocks suffer heavy losses.",
-      "source": "Cryptonews",
-      "date": "2026-11-20",
-      "date_human": "Nov 20, 2026",
-      "pub_ts": 1795161380,
       "image_candidates": [],
       "license_url": null,
       "image": null,
