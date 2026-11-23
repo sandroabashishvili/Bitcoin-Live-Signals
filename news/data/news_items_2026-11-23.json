@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-23",
-  "generated_at_utc": "2026-11-23 05:05:10 UTC",
+  "generated_at_utc": "2026-11-23 11:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-23T05:05:03.918208+00:00",
+    "collected_at": "2026-11-23T11:05:04.154396+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,13 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 3,
+        "within_window": 3,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 10
+          "title_filter": 1,
+          "unreviewed_link": 1,
+          "older_than_window": 7
         }
       },
       {
@@ -48,11 +50,11 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 0,
-        "within_window": 1,
-        "eligible": 1,
+        "within_24h": 2,
+        "within_window": 3,
+        "eligible": 3,
         "rejected": {
-          "older_than_window": 19
+          "older_than_window": 17
         }
       },
       {
@@ -96,11 +98,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 15
+          "topic_author_or_category": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -166,26 +169,70 @@
       {
         "source": "Federal Reserve Board",
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-        "status": "failed",
-        "entries": 0,
+        "status": "ok",
+        "entries": 20,
         "within_24h": 0,
         "within_window": 0,
         "eligible": 0,
-        "rejected": {}
+        "rejected": {
+          "older_than_window": 20
+        }
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 1
+      "Cryptonews": 3,
+      "NewsBTC": 1
     },
     "unique_by_source": {
-      "Cryptonews": 1
+      "Cryptonews": 3,
+      "NewsBTC": 1
     },
     "selected_by_source": {
-      "Cryptonews": 1
+      "Cryptonews": 3,
+      "NewsBTC": 1
     }
   },
-  "count": 1,
+  "count": 4,
   "items": [
+    {
+      "title": "Ripple News: XRP Eyes Recovery as $0.90 Support Could Set Up a Rebound",
+      "link": "https://cryptonews.com/news/ripple-news-xrp-90-support-recovery/",
+      "summary": "In ripple news today, XRP rebounds near $0.93 after touching $0.86. Can $0.90 support hold and open the door toward $1.10?",
+      "source": "Cryptonews",
+      "date": "2026-11-23",
+      "date_human": "Nov 23, 2026",
+      "pub_ts": 1795421426,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Fusionist ACE Bridge Exploit: $5.7M Loss Estimate, Bithumb Freezes Trading",
+      "link": "https://www.newsbtc.com/news/fusionist-ace-bridge-exploit-5-7m-loss-estimate-bithumb-freezes-trading/",
+      "summary": "Key takeaways The Fusionist ACE bridge exploit is estimated at $5.7 million across two stages, according to SlowMist, which is not an audited final total. About $1.87 million in proceeds was traced to the attacker, while 53.7 million genuine ACE tokens, valued near $3.7 million, were reportedly withdrawn through the bridge. Bithumb halted ACE trading on November 23 after finding signs that abnormally issued ACE had entered exchanges. In the material reviewed, Fusionist has not published a reconciled loss figure or a technical post-mortem. The Fusionist ACE bridge exploit has produced an estima",
+      "source": "NewsBTC",
+      "date": "2026-11-23",
+      "date_human": "Nov 23, 2026",
+      "pub_ts": 1795416019,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE Crypto News – Bitcoin and Ethereum Bounce Back: Market Finally Turning?",
+      "link": "https://cryptonews.com/news/crypto-news-bitcoin-ethereum-recovery/",
+      "summary": "Crypto turns bullish as Bitcoin rebounds, but stocks, oil, gold, and geopolitical news could determine if the recovery lasts.",
+      "source": "Cryptonews",
+      "date": "2026-11-23",
+      "date_human": "Nov 23, 2026",
+      "pub_ts": 1795417968,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Elon Musk's Grok AI Predicts ETH Vs SOL For 2027: Who Wins?",
       "link": "https://cryptonews.com/news/grok-ai-predicts-eth-vs-sol-which-will-see-better-returns-in-2027/",
