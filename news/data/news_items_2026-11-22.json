@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-22",
-  "generated_at_utc": "2026-11-22 17:05:08 UTC",
+  "generated_at_utc": "2026-11-22 23:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-22T17:05:02.019970+00:00",
+    "collected_at": "2026-11-22T23:05:03.603584+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -48,12 +48,11 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
-        "within_window": 3,
-        "eligible": 2,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "title_filter": 1,
-          "older_than_window": 17
+          "older_than_window": 19
         }
       },
       {
@@ -86,11 +85,10 @@
         "status": "ok",
         "entries": 25,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 24
+          "older_than_window": 25
         }
       },
       {
@@ -171,25 +169,24 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 19
+          "older_than_window": 20
         }
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 2
+      "Cryptonews": 1
     },
     "unique_by_source": {
-      "Cryptonews": 2
+      "Cryptonews": 1
     },
     "selected_by_source": {
-      "Cryptonews": 2
+      "Cryptonews": 1
     }
   },
-  "count": 2,
+  "count": 1,
   "items": [
     {
       "title": "Elon Musk's Grok AI Predicts ETH Vs SOL For 2027: Who Wins?",
@@ -199,19 +196,6 @@
       "date": "2026-11-21",
       "date_human": "Nov 21, 2026",
       "pub_ts": 1795291620,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Mark Zuckerberg's Meta AI Predicts the Flippening: How Does ADA Flip XRP?",
-      "link": "https://cryptonews.com/news/mark-zuckerbergs-meta-ai-predicts-the-flippening-how-does-ada-flip-xrp/",
-      "summary": "Could 2027 finally be the year Cardano (ADA) overtakes Ripple (XRP) in the cryptocurrency rankings? Mark Zuckerberg’s Meta AI predicts that, despite XRP’s established position among the industry’s largest digital assets, network upgrades, renewed institutional interest, and a shift in investor sentiment could make it more likely than it first appears.Both cryptocurrencies have spent years […]",
-      "source": "Cryptonews",
-      "date": "2026-11-20",
-      "date_human": "Nov 20, 2026",
-      "pub_ts": 1795208580,
       "image_candidates": [],
       "license_url": null,
       "image": null,
