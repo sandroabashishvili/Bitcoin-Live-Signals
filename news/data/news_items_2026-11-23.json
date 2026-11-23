@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-23",
-  "generated_at_utc": "2026-11-23 11:05:10 UTC",
+  "generated_at_utc": "2026-11-23 17:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-23T11:05:04.154396+00:00",
+    "collected_at": "2026-11-23T17:05:03.711014+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -50,11 +50,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 2,
-        "within_window": 3,
-        "eligible": 3,
+        "within_24h": 5,
+        "within_window": 6,
+        "eligible": 5,
         "rejected": {
-          "older_than_window": 17
+          "topic_author_or_category": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -98,12 +99,13 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
-        "within_window": 1,
+        "within_24h": 2,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
+          "unreviewed_link": 1,
           "topic_author_or_category": 1,
-          "older_than_window": 14
+          "older_than_window": 13
         }
       },
       {
@@ -180,28 +182,28 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 3,
+      "Cryptonews": 5,
       "NewsBTC": 1
     },
     "unique_by_source": {
-      "Cryptonews": 3,
+      "Cryptonews": 5,
       "NewsBTC": 1
     },
     "selected_by_source": {
-      "Cryptonews": 3,
+      "Cryptonews": 5,
       "NewsBTC": 1
     }
   },
-  "count": 4,
+  "count": 6,
   "items": [
     {
-      "title": "Ripple News: XRP Eyes Recovery as $0.90 Support Could Set Up a Rebound",
-      "link": "https://cryptonews.com/news/ripple-news-xrp-90-support-recovery/",
-      "summary": "In ripple news today, XRP rebounds near $0.93 after touching $0.86. Can $0.90 support hold and open the door toward $1.10?",
+      "title": "BTC Price Explodes by $8k: Jensen Huang Is Back!",
+      "link": "https://cryptonews.com/news/jensen-huang-back-btc-price-explodes-8k/",
+      "summary": "BTC price rebounds sharply as Jensen Huang returns to Nvidia, triggering a massive rally across tech stocks and crypto markets.",
       "source": "Cryptonews",
       "date": "2026-11-23",
       "date_human": "Nov 23, 2026",
-      "pub_ts": 1795421426,
+      "pub_ts": 1795448065,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -215,6 +217,32 @@
       "date": "2026-11-23",
       "date_human": "Nov 23, 2026",
       "pub_ts": 1795416019,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "HYPE and ENA Catch the Bid, but ZEC Misses Crypto Bounce",
+      "link": "https://cryptonews.com/news/hype-ena-rally-zec-lags-crypto-bounce/",
+      "summary": "HYPE and ENA surge nearly 6% as Zcash lags the crypto rebound. We analyze for a potential bottom in HYPE and ZEC.",
+      "source": "Cryptonews",
+      "date": "2026-11-23",
+      "date_human": "Nov 23, 2026",
+      "pub_ts": 1795432527,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ripple News: XRP Eyes Recovery as $0.90 Support Could Set Up a Rebound",
+      "link": "https://cryptonews.com/news/ripple-news-xrp-90-support-recovery/",
+      "summary": "In ripple news today, XRP rebounds near $0.93 after touching $0.86. Can $0.90 support hold and open the door toward $1.10?",
+      "source": "Cryptonews",
+      "date": "2026-11-23",
+      "date_human": "Nov 23, 2026",
+      "pub_ts": 1795421426,
       "image_candidates": [],
       "license_url": null,
       "image": null,
