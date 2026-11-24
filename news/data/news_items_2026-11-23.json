@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-23",
-  "generated_at_utc": "2026-11-23 17:05:10 UTC",
+  "generated_at_utc": "2026-11-23 23:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-23T17:05:03.711014+00:00",
+    "collected_at": "2026-11-23T23:05:04.012117+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -50,12 +50,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 5,
-        "within_window": 6,
-        "eligible": 5,
+        "within_24h": 7,
+        "within_window": 7,
+        "eligible": 4,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 14
+          "topic_author_or_category": 3,
+          "older_than_window": 13
         }
       },
       {
@@ -182,19 +182,19 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 5,
+      "Cryptonews": 4,
       "NewsBTC": 1
     },
     "unique_by_source": {
-      "Cryptonews": 5,
+      "Cryptonews": 4,
       "NewsBTC": 1
     },
     "selected_by_source": {
-      "Cryptonews": 5,
+      "Cryptonews": 4,
       "NewsBTC": 1
     }
   },
-  "count": 6,
+  "count": 5,
   "items": [
     {
       "title": "BTC Price Explodes by $8k: Jensen Huang Is Back!",
@@ -256,19 +256,6 @@
       "date": "2026-11-23",
       "date_human": "Nov 23, 2026",
       "pub_ts": 1795417968,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Elon Musk's Grok AI Predicts ETH Vs SOL For 2027: Who Wins?",
-      "link": "https://cryptonews.com/news/grok-ai-predicts-eth-vs-sol-which-will-see-better-returns-in-2027/",
-      "summary": "Ethereum vs. Solana in 2027: Elon Musk’s Grok AI predicts which is positioned for bigger gains at the end of this article. As of mid-November 2026, Ethereum (ETH) trades near $1,780–$1,880 with a market cap of about $210–$230Bn, while Solana (SOL) trades near $65–$80 with a market cap of roughly $35-45Bn. Both have endured sharp […]",
-      "source": "Cryptonews",
-      "date": "2026-11-21",
-      "date_human": "Nov 21, 2026",
-      "pub_ts": 1795291620,
       "image_candidates": [],
       "license_url": null,
       "image": null,
