@@ -10,7 +10,7 @@ function formatAxisDate(value) {
   if (Number.isNaN(date.getTime())) {
     return "";
   }
-  return date.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+  return date.toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
 }
 
 function buildOption(E, theme) {
@@ -98,7 +98,14 @@ function buildOption(E, theme) {
         if (!Array.isArray(point)) {
           return "";
         }
-        const dt = new Date(point[0]).toLocaleString();
+        const dt = new Date(point[0]).toLocaleString("en-US", {
+          month: "short",
+          day: "numeric",
+          hour: "2-digit",
+          minute: "2-digit",
+          hour12: false,
+          timeZone: "UTC",
+        }) + " UTC";
         const delta = Number(point[1]).toFixed(2);
         const equity = Number(point[2]).toLocaleString(undefined, {
           minimumFractionDigits: 2,
