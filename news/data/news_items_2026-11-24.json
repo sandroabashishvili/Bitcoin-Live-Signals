@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-24",
-  "generated_at_utc": "2026-11-24 11:05:11 UTC",
+  "generated_at_utc": "2026-11-24 17:05:12 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-24T11:05:05.347880+00:00",
+    "collected_at": "2026-11-24T17:05:05.897511+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,13 +24,12 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 4,
-        "within_window": 7,
+        "within_24h": 7,
+        "within_window": 10,
         "eligible": 2,
         "rejected": {
-          "unreviewed_link": 3,
-          "title_filter": 2,
-          "older_than_window": 3
+          "unreviewed_link": 6,
+          "title_filter": 2
         }
       },
       {
@@ -51,11 +50,11 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 9,
-        "within_window": 11,
-        "eligible": 7,
+        "within_window": 14,
+        "eligible": 8,
         "rejected": {
-          "topic_author_or_category": 4,
-          "older_than_window": 9
+          "topic_author_or_category": 6,
+          "older_than_window": 6
         }
       },
       {
@@ -99,7 +98,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 2,
+        "within_24h": 1,
         "within_window": 3,
         "eligible": 0,
         "rejected": {
@@ -182,28 +181,28 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 7,
+      "Cryptonews": 8,
       "NewsBTC": 2
     },
     "unique_by_source": {
-      "Cryptonews": 7,
+      "Cryptonews": 8,
       "NewsBTC": 2
     },
     "selected_by_source": {
-      "Cryptonews": 7,
+      "Cryptonews": 8,
       "NewsBTC": 2
     }
   },
-  "count": 9,
+  "count": 10,
   "items": [
     {
-      "title": "Bitcoin ETF Loses $570M: More Than Half of BTC Supply Falls Out of Profit",
-      "link": "https://cryptonews.com/news/bitcoin-price-etf-outflows-supply-losses/",
-      "summary": "Bitcoin price is under pressure yet again as ETFs lose $569M, and only 47.3% of BTC holders remain in profit. What's next?",
+      "title": "Bitcoin News: CFTC Decision to Push BTC Toward $80K?",
+      "link": "https://cryptonews.com/news/bitcoin-news-cftc-decision-btc-80000/",
+      "summary": "Bitcoin may have another path toward $80K with news that the CFTC eased crypto collateral rules for key firms. $80K next?",
       "source": "Cryptonews",
       "date": "2026-11-24",
       "date_human": "Nov 24, 2026",
-      "pub_ts": 1795516271,
+      "pub_ts": 1795531291,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -223,13 +222,13 @@
       "image_local": null
     },
     {
-      "title": "Ethereum Security Overhaul Since the Merge Is Coming",
-      "link": "https://cryptonews.com/news/ethereum-security-overhaul-since-merge/",
-      "summary": "Ethereum is doubling its protocol security team for a major cryptographic overhaul targeting AI and quantum threats, with a 2028 deadline.",
+      "title": "Bitcoin ETF Loses $570M: More Than Half of BTC Supply Falls Out of Profit",
+      "link": "https://cryptonews.com/news/bitcoin-price-etf-outflows-supply-losses/",
+      "summary": "Bitcoin price is under pressure yet again as ETFs lose $569M, and only 47.3% of BTC holders remain in profit. What's next?",
       "source": "Cryptonews",
       "date": "2026-11-24",
       "date_human": "Nov 24, 2026",
-      "pub_ts": 1795505763,
+      "pub_ts": 1795516271,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -243,6 +242,19 @@
       "date": "2026-11-23",
       "date_human": "Nov 23, 2026",
       "pub_ts": 1795416019,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum Security Overhaul Since the Merge Is Coming",
+      "link": "https://cryptonews.com/news/ethereum-security-overhaul-since-merge/",
+      "summary": "Ethereum is doubling its protocol security team for a major cryptographic overhaul targeting AI and quantum threats, with a 2028 deadline.",
+      "source": "Cryptonews",
+      "date": "2026-11-24",
+      "date_human": "Nov 24, 2026",
+      "pub_ts": 1795505763,
       "image_candidates": [],
       "license_url": null,
       "image": null,
