@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-24",
-  "generated_at_utc": "2026-11-24 05:05:11 UTC",
+  "generated_at_utc": "2026-11-24 11:05:11 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-24T05:05:05.493181+00:00",
+    "collected_at": "2026-11-24T11:05:05.347880+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -25,12 +25,12 @@
         "status": "ok",
         "entries": 10,
         "within_24h": 4,
-        "within_window": 4,
-        "eligible": 1,
+        "within_window": 7,
+        "eligible": 2,
         "rejected": {
+          "unreviewed_link": 3,
           "title_filter": 2,
-          "unreviewed_link": 1,
-          "older_than_window": 6
+          "older_than_window": 3
         }
       },
       {
@@ -50,12 +50,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 7,
-        "within_window": 7,
-        "eligible": 4,
+        "within_24h": 9,
+        "within_window": 11,
+        "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 3,
-          "older_than_window": 13
+          "topic_author_or_category": 4,
+          "older_than_window": 9
         }
       },
       {
@@ -100,12 +100,12 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 2,
-        "within_window": 2,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
-          "unreviewed_link": 1,
+          "unreviewed_link": 2,
           "topic_author_or_category": 1,
-          "older_than_window": 13
+          "older_than_window": 12
         }
       },
       {
@@ -182,28 +182,54 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 4,
-      "NewsBTC": 1
+      "Cryptonews": 7,
+      "NewsBTC": 2
     },
     "unique_by_source": {
-      "Cryptonews": 4,
-      "NewsBTC": 1
+      "Cryptonews": 7,
+      "NewsBTC": 2
     },
     "selected_by_source": {
-      "Cryptonews": 4,
-      "NewsBTC": 1
+      "Cryptonews": 7,
+      "NewsBTC": 2
     }
   },
-  "count": 5,
+  "count": 9,
   "items": [
     {
-      "title": "BTC Price Explodes by $8k: Jensen Huang Is Back!",
-      "link": "https://cryptonews.com/news/jensen-huang-back-btc-price-explodes-8k/",
-      "summary": "BTC price rebounds sharply as Jensen Huang returns to Nvidia, triggering a massive rally across tech stocks and crypto markets.",
+      "title": "Bitcoin ETF Loses $570M: More Than Half of BTC Supply Falls Out of Profit",
+      "link": "https://cryptonews.com/news/bitcoin-price-etf-outflows-supply-losses/",
+      "summary": "Bitcoin price is under pressure yet again as ETFs lose $569M, and only 47.3% of BTC holders remain in profit. What's next?",
       "source": "Cryptonews",
-      "date": "2026-11-23",
-      "date_human": "Nov 23, 2026",
-      "pub_ts": 1795448065,
+      "date": "2026-11-24",
+      "date_human": "Nov 24, 2026",
+      "pub_ts": 1795516271,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "MEXC Releases September–October Security Report: Guardian Fund Adds 1,000 BTC, Reserve Ratios Exceed 100%",
+      "link": "https://www.newsbtc.com/news/mexc-releases-september-october-security-report-guardian-fund-adds-1000-btc-reserve-ratios-exceed-100/",
+      "summary": "Mutsamudu, Comoros, November 24, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its September–October 2026 security report. The report shows that the MEXC Guardian Fund increased its BTC holdings to 2,000 BTC, while reserve ratios for four major assets—BTC, ETH, USDT, and USDC—remained above 100%. The crypto industry faces security challenges across multiple points of exposure. The report recorded 196 security incidents in September–October, with total asset losses exceeding $7.3 billion. Several large-scale incidents involved breaches of exchange wallets and transaction s",
+      "source": "NewsBTC",
+      "date": "2026-11-24",
+      "date_human": "Nov 24, 2026",
+      "pub_ts": 1795514711,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum Security Overhaul Since the Merge Is Coming",
+      "link": "https://cryptonews.com/news/ethereum-security-overhaul-since-merge/",
+      "summary": "Ethereum is doubling its protocol security team for a major cryptographic overhaul targeting AI and quantum threats, with a 2028 deadline.",
+      "source": "Cryptonews",
+      "date": "2026-11-24",
+      "date_human": "Nov 24, 2026",
+      "pub_ts": 1795505763,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -217,6 +243,32 @@
       "date": "2026-11-23",
       "date_human": "Nov 23, 2026",
       "pub_ts": 1795416019,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Bitcoin Overnight Rally Roundtripped: Saylor and Strategy Didn't Flinch",
+      "link": "https://cryptonews.com/news/bitcoin-rally-roundtrip-saylor-strategy-buying-crypto-news/",
+      "summary": "Bitcoin's overnight rally above $64K reversed as Strategy bought another 457 BTC, putting Saylor under the crypto news spotlight.",
+      "source": "Cryptonews",
+      "date": "2026-11-24",
+      "date_human": "Nov 24, 2026",
+      "pub_ts": 1795503259,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "BTC Price Explodes by $8k: Jensen Huang Is Back!",
+      "link": "https://cryptonews.com/news/jensen-huang-back-btc-price-explodes-8k/",
+      "summary": "BTC price rebounds sharply as Jensen Huang returns to Nvidia, triggering a massive rally across tech stocks and crypto markets.",
+      "source": "Cryptonews",
+      "date": "2026-11-23",
+      "date_human": "Nov 23, 2026",
+      "pub_ts": 1795448065,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -249,7 +301,7 @@
       "image_local": null
     },
     {
-      "title": "LIVE Crypto News – Bitcoin and Ethereum Bounce Back: Market Finally Turning?",
+      "title": "Bitcoin and Ethereum Bounce Back: Market Finally Turning?",
       "link": "https://cryptonews.com/news/crypto-news-bitcoin-ethereum-recovery/",
       "summary": "Crypto turns bullish as Bitcoin rebounds, but stocks, oil, gold, and geopolitical news could determine if the recovery lasts.",
       "source": "Cryptonews",
