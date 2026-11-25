@@ -1,0 +1,332 @@
+{
+  "day_iso": "2026-11-25",
+  "generated_at_utc": "2026-11-25 05:05:09 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-11-25T05:05:02.428177+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 8,
+        "within_window": 10,
+        "eligible": 2,
+        "rejected": {
+          "unreviewed_link": 6,
+          "title_filter": 2
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 10,
+        "within_window": 17,
+        "eligible": 8,
+        "rejected": {
+          "topic_author_or_category": 9,
+          "older_than_window": 3
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 49,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 49
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 25
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 1,
+        "within_window": 3,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 2,
+          "topic_author_or_category": 1,
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "unreviewed_link": 1,
+          "older_than_window": 9
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 14
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 19
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "NewsBTC": 2,
+      "Cryptonews": 8
+    },
+    "unique_by_source": {
+      "NewsBTC": 2,
+      "Cryptonews": 8
+    },
+    "selected_by_source": {
+      "NewsBTC": 2,
+      "Cryptonews": 8
+    }
+  },
+  "count": 10,
+  "items": [
+    {
+      "title": "Global Digital Asset and Structured Finance Platform OpenVault Completes $2 Million Seed Round at $20 Million Post-Money Valuation",
+      "link": "https://www.newsbtc.com/news/global-digital-asset-and-structured-finance-platform-openvault-completes-2-million-seed-round-at-20-million-post-money-valuation/",
+      "summary": "Round led by HorizonArc Ventures; proceeds to fund AI technology, product expansion, compliance and global growth Global digital asset and structured finance platform OpenVault today announced the completion of a $2 million seed round led by HorizonArc Ventures, with a post-money valuation of $20 million. The proceeds will be primarily used for AI technology development, product portfolio expansion, compliance infrastructure, and global market growth. A One-Stop Gateway for Digital Asset Yield OpenVault is an innovative financial platform focused on digital asset yield management, RWA (real-wo",
+      "source": "NewsBTC",
+      "date": "2026-11-25",
+      "date_human": "Nov 25, 2026",
+      "pub_ts": 1795582095,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin News: CFTC Decision to Push BTC Toward $80K?",
+      "link": "https://cryptonews.com/news/bitcoin-news-cftc-decision-btc-80000/",
+      "summary": "Bitcoin may have another path toward $80K with news that the CFTC eased crypto collateral rules for key firms. $80K next?",
+      "source": "Cryptonews",
+      "date": "2026-11-24",
+      "date_human": "Nov 24, 2026",
+      "pub_ts": 1795531291,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "MEXC Releases September–October Security Report: Guardian Fund Adds 1,000 BTC, Reserve Ratios Exceed 100%",
+      "link": "https://www.newsbtc.com/news/mexc-releases-september-october-security-report-guardian-fund-adds-1000-btc-reserve-ratios-exceed-100/",
+      "summary": "Mutsamudu, Comoros, November 24, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its September–October 2026 security report. The report shows that the MEXC Guardian Fund increased its BTC holdings to 2,000 BTC, while reserve ratios for four major assets—BTC, ETH, USDT, and USDC—remained above 100%. The crypto industry faces security challenges across multiple points of exposure. The report recorded 196 security incidents in September–October, with total asset losses exceeding $7.3 billion. Several large-scale incidents involved breaches of exchange wallets and transaction s",
+      "source": "NewsBTC",
+      "date": "2026-11-24",
+      "date_human": "Nov 24, 2026",
+      "pub_ts": 1795514711,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin ETF Loses $570M: More Than Half of BTC Supply Falls Out of Profit",
+      "link": "https://cryptonews.com/news/bitcoin-price-etf-outflows-supply-losses/",
+      "summary": "Bitcoin price is under pressure yet again as ETFs lose $569M, and only 47.3% of BTC holders remain in profit. What's next?",
+      "source": "Cryptonews",
+      "date": "2026-11-24",
+      "date_human": "Nov 24, 2026",
+      "pub_ts": 1795516271,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum Security Overhaul Since the Merge Is Coming",
+      "link": "https://cryptonews.com/news/ethereum-security-overhaul-since-merge/",
+      "summary": "Ethereum is doubling its protocol security team for a major cryptographic overhaul targeting AI and quantum threats, with a 2028 deadline.",
+      "source": "Cryptonews",
+      "date": "2026-11-24",
+      "date_human": "Nov 24, 2026",
+      "pub_ts": 1795505763,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Bitcoin Overnight Rally Roundtripped: Saylor and Strategy Didn't Flinch",
+      "link": "https://cryptonews.com/news/bitcoin-rally-roundtrip-saylor-strategy-buying-crypto-news/",
+      "summary": "Bitcoin's overnight rally above $64K reversed as Strategy bought another 457 BTC, putting Saylor under the crypto news spotlight.",
+      "source": "Cryptonews",
+      "date": "2026-11-24",
+      "date_human": "Nov 24, 2026",
+      "pub_ts": 1795503259,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "BTC Price Explodes by $8k: Jensen Huang Is Back!",
+      "link": "https://cryptonews.com/news/jensen-huang-back-btc-price-explodes-8k/",
+      "summary": "BTC price rebounds sharply as Jensen Huang returns to Nvidia, triggering a massive rally across tech stocks and crypto markets.",
+      "source": "Cryptonews",
+      "date": "2026-11-23",
+      "date_human": "Nov 23, 2026",
+      "pub_ts": 1795448065,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "HYPE and ENA Catch the Bid, but ZEC Misses Crypto Bounce",
+      "link": "https://cryptonews.com/news/hype-ena-rally-zec-lags-crypto-bounce/",
+      "summary": "HYPE and ENA surge nearly 6% as Zcash lags the crypto rebound. We analyze for a potential bottom in HYPE and ZEC.",
+      "source": "Cryptonews",
+      "date": "2026-11-23",
+      "date_human": "Nov 23, 2026",
+      "pub_ts": 1795432527,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ripple News: XRP Eyes Recovery as $0.90 Support Could Set Up a Rebound",
+      "link": "https://cryptonews.com/news/ripple-news-xrp-90-support-recovery/",
+      "summary": "In ripple news today, XRP rebounds near $0.93 after touching $0.86. Can $0.90 support hold and open the door toward $1.10?",
+      "source": "Cryptonews",
+      "date": "2026-11-23",
+      "date_human": "Nov 23, 2026",
+      "pub_ts": 1795421426,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin and Ethereum Bounce Back: Market Finally Turning?",
+      "link": "https://cryptonews.com/news/crypto-news-bitcoin-ethereum-recovery/",
+      "summary": "Crypto turns bullish as Bitcoin rebounds, but stocks, oil, gold, and geopolitical news could determine if the recovery lasts.",
+      "source": "Cryptonews",
+      "date": "2026-11-23",
+      "date_human": "Nov 23, 2026",
+      "pub_ts": 1795417968,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}

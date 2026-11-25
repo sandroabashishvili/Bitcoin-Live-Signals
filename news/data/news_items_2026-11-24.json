@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-24",
-  "generated_at_utc": "2026-11-24 17:05:12 UTC",
+  "generated_at_utc": "2026-11-24 23:05:15 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-24T17:05:05.897511+00:00",
+    "collected_at": "2026-11-24T23:05:06.597123+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 7,
+        "within_24h": 8,
         "within_window": 10,
-        "eligible": 2,
+        "eligible": 1,
         "rejected": {
-          "unreviewed_link": 6,
+          "unreviewed_link": 7,
           "title_filter": 2
         }
       },
@@ -49,12 +49,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
-        "within_window": 14,
+        "within_24h": 10,
+        "within_window": 17,
         "eligible": 8,
         "rejected": {
-          "topic_author_or_category": 6,
-          "older_than_window": 6
+          "topic_author_or_category": 9,
+          "older_than_window": 3
         }
       },
       {
@@ -112,11 +112,12 @@
         "url": "https://bitcoinops.org/feed.xml",
         "status": "ok",
         "entries": 10,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 10
+          "unreviewed_link": 1,
+          "older_than_window": 9
         }
       },
       {
@@ -124,11 +125,12 @@
         "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
         "status": "ok",
         "entries": 15,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 15
+          "topic_author_or_category": 1,
+          "older_than_window": 14
         }
       },
       {
@@ -172,28 +174,29 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 0,
-        "within_window": 0,
+        "within_24h": 1,
+        "within_window": 1,
         "eligible": 0,
         "rejected": {
-          "older_than_window": 20
+          "topic_author_or_category": 1,
+          "older_than_window": 19
         }
       }
     ],
     "eligible_by_source": {
       "Cryptonews": 8,
-      "NewsBTC": 2
+      "NewsBTC": 1
     },
     "unique_by_source": {
       "Cryptonews": 8,
-      "NewsBTC": 2
+      "NewsBTC": 1
     },
     "selected_by_source": {
       "Cryptonews": 8,
-      "NewsBTC": 2
+      "NewsBTC": 1
     }
   },
-  "count": 10,
+  "count": 9,
   "items": [
     {
       "title": "Bitcoin News: CFTC Decision to Push BTC Toward $80K?",
@@ -229,19 +232,6 @@
       "date": "2026-11-24",
       "date_human": "Nov 24, 2026",
       "pub_ts": 1795516271,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Fusionist ACE Bridge Exploit: $5.7M Loss Estimate, Bithumb Freezes Trading",
-      "link": "https://www.newsbtc.com/news/fusionist-ace-bridge-exploit-5-7m-loss-estimate-bithumb-freezes-trading/",
-      "summary": "Key takeaways The Fusionist ACE bridge exploit is estimated at $5.7 million across two stages, according to SlowMist, which is not an audited final total. About $1.87 million in proceeds was traced to the attacker, while 53.7 million genuine ACE tokens, valued near $3.7 million, were reportedly withdrawn through the bridge. Bithumb halted ACE trading on November 23 after finding signs that abnormally issued ACE had entered exchanges. In the material reviewed, Fusionist has not published a reconciled loss figure or a technical post-mortem. The Fusionist ACE bridge exploit has produced an estima",
-      "source": "NewsBTC",
-      "date": "2026-11-23",
-      "date_human": "Nov 23, 2026",
-      "pub_ts": 1795416019,
       "image_candidates": [],
       "license_url": null,
       "image": null,
