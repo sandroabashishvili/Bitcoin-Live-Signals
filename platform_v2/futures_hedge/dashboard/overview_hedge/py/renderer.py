@@ -42,8 +42,8 @@ class FuturesHedgeOverviewRenderer:
 <html lang="en">
   <head>
 {render_page_head(
-    title="Futures Hedge | SmartSignalHub",
-    description="Independent Futures Hedge paper replay with LONG and SHORT basket accounting.",
+    title="Bitcoin Futures Hedge Strategy & Basket PnL | SmartSignalHub",
+    description="Independent Bitcoin Futures Hedge simulation with LONG and SHORT basket accounting, drawdown risk metrics, and equity delta history.",
     canonical_path="/futures_hedge/dashboard/overview_hedge/index.html",
     css_href="./css/styles.css",
     extra_css_hrefs=(
@@ -51,6 +51,31 @@ class FuturesHedgeOverviewRenderer:
         "../../../shared/frontend/explanation_system/css/drawer.css",
     ),
     favicon_prefix="../../../public_site/",
+    schema_json_ld="""      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/#organization",
+            "name": "SmartSignalHub",
+            "url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/",
+            "description": "Bitcoin signal tracking system with live market context, simulated Spot, Futures and Hedge strategies, and transparent runtime tracking."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/futures_hedge/dashboard/overview_hedge/#webpage",
+            "url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/futures_hedge/dashboard/overview_hedge/",
+            "name": "Bitcoin Futures Hedge Strategy & Basket PnL | SmartSignalHub",
+            "description": "Independent Bitcoin Futures Hedge simulation with LONG and SHORT basket accounting, drawdown risk metrics, and equity delta history.",
+            "isPartOf": {
+              "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/#website"
+            },
+            "about": {
+              "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/#organization"
+            }
+          }
+        ]
+      }""",
 )}
   </head>
   <body>

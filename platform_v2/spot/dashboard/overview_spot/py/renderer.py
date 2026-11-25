@@ -43,8 +43,8 @@ class OverviewPageRenderer:
 <html lang="en">
   <head>
 {render_page_head(
-    title="Bitcoin Live Signals | SmartSignalHub",
-    description="Bitcoin Live Signals by SmartSignalHub with live signal context, multi-timeframe analysis, daily runtime summary, and portfolio snapshot.",
+    title="Bitcoin Spot Signals, Entry/TP/SL & Portfolio | SmartSignalHub",
+    description="Live Bitcoin Spot signals by SmartSignalHub with multi-timeframe context, Entry/TP/SL plans, daily runtime summary, and simulated portfolio tracking.",
     canonical_path="/spot/dashboard/overview_spot/index.html",
     css_href="./css/styles.css",
     favicon_prefix="../../../public_site/",
@@ -52,8 +52,8 @@ class OverviewPageRenderer:
         "../../../shared/frontend/charts/charts.css",
         "../../../shared/frontend/explanation_system/css/drawer.css",
     ),
-    og_description="Real-time Bitcoin trade signals with TP/SL, multi-timeframe context, and transparent performance tracking.",
-    twitter_description="Real-time Bitcoin trade signals with TP/SL, multi-timeframe context, and transparent performance tracking.",
+    og_description="Live Bitcoin Spot signals with TP/SL plans, multi-timeframe context, and transparent simulated performance tracking.",
+    twitter_description="Live Bitcoin Spot signals with TP/SL plans, multi-timeframe context, and transparent simulated performance tracking.",
     schema_json_ld="""      {
         "@context": "https://schema.org",
         "@graph": [
@@ -61,17 +61,17 @@ class OverviewPageRenderer:
             "@type": "Organization",
             "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/#organization",
             "name": "SmartSignalHub",
-            "url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/spot/dashboard/overview_spot/",
-            "description": "Bitcoin signal tracking system with live signal context, spot-only execution, TP/SL planning, and transparent runtime tracking."
+            "url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/",
+            "description": "Bitcoin signal tracking system with live market context, simulated Spot, Futures and Hedge strategies, and transparent runtime tracking."
           },
           {
             "@type": "WebPage",
             "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/spot/dashboard/overview_spot/#webpage",
             "url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/spot/dashboard/overview_spot/",
-            "name": "Bitcoin Live Signals | SmartSignalHub",
-            "description": "Bitcoin Live Signals by SmartSignalHub with live signal context, multi-timeframe analysis, daily runtime summary, and portfolio snapshot.",
+            "name": "Bitcoin Spot Signals, Entry/TP/SL & Portfolio | SmartSignalHub",
+            "description": "Live Bitcoin Spot signals by SmartSignalHub with multi-timeframe context, Entry/TP/SL plans, daily runtime summary, and simulated portfolio tracking.",
             "isPartOf": {
-              "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/#organization"
+              "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/#website"
             },
             "about": {
               "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/#organization"

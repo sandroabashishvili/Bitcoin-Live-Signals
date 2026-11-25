@@ -26,6 +26,14 @@ def _sleep_until_next_boundary() -> None:
     time.sleep(sleep_for)
 
 
+def _is_recoverable_orderflow_error(exc: RuntimeError) -> bool:
+    message = str(exc)
+    return (
+        "Orderflow page budget exhausted" in message
+        or "Orderflow pagination made no progress" in message
+    )
+
+
 def _run_one_cycle() -> None:
     profile = load_execution_profile()
     date_iso = datetime.now(tz=UTC).date().isoformat()
@@ -34,6 +42,11 @@ def _run_one_cycle() -> None:
     try:
         result = cycle_service.run(profile=profile, date_iso=date_iso, fetch_limit=500)
     except (TimeoutError, URLError) as exc:
+        print_network_skip(scope="futures", error=exc)
+        return
+    except RuntimeError as exc:
+        if not _is_recoverable_orderflow_error(exc):
+            raise
         print_network_skip(scope="futures", error=exc)
         return
     if result.skipped or result.summary is None:

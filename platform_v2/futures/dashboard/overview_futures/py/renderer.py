@@ -37,8 +37,8 @@ class OverviewFuturesPageRenderer:
 <html lang="en">
   <head>
 {render_page_head(
-    title="Overview Futures | SmartSignalHub",
-    description="Bitcoin futures overview with primary signal, timeframe context, snapshot metrics, and equity drift history.",
+    title="Bitcoin Futures Long/Short Signals & Execution | SmartSignalHub",
+    description="Live Bitcoin Futures LONG/SHORT signals with multi-timeframe context, Entry/TP/SL gates, simulated execution metrics, and equity history.",
     canonical_path="/futures/dashboard/overview_futures/index.html",
     css_href="./css/styles.css",
     extra_css_hrefs=(
@@ -46,6 +46,31 @@ class OverviewFuturesPageRenderer:
         "../../../shared/frontend/explanation_system/css/drawer.css",
     ),
     favicon_prefix="../../../public_site/",
+    schema_json_ld="""      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/#organization",
+            "name": "SmartSignalHub",
+            "url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/",
+            "description": "Bitcoin signal tracking system with live market context, simulated Spot, Futures and Hedge strategies, and transparent runtime tracking."
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/futures/dashboard/overview_futures/#webpage",
+            "url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/futures/dashboard/overview_futures/",
+            "name": "Bitcoin Futures Long/Short Signals & Execution | SmartSignalHub",
+            "description": "Live Bitcoin Futures LONG/SHORT signals with multi-timeframe context, Entry/TP/SL gates, simulated execution metrics, and equity history.",
+            "isPartOf": {
+              "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/#website"
+            },
+            "about": {
+              "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/#organization"
+            }
+          }
+        ]
+      }""",
 )}
   </head>
   <body>
