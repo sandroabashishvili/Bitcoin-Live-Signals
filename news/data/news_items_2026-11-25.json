@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-25",
-  "generated_at_utc": "2026-11-25 17:05:08 UTC",
+  "generated_at_utc": "2026-11-25 19:52:52 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-25T17:05:01.894588+00:00",
+    "collected_at": "2026-11-25T19:52:44.653679+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -49,7 +49,7 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 7,
+        "within_24h": 6,
         "within_window": 16,
         "eligible": 5,
         "rejected": {
@@ -98,12 +98,13 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
-        "within_window": 2,
+        "within_24h": 2,
+        "within_window": 3,
         "eligible": 1,
         "rejected": {
+          "topic_author_or_category": 1,
           "unreviewed_link": 1,
-          "older_than_window": 13
+          "older_than_window": 12
         }
       },
       {
@@ -124,7 +125,7 @@
         "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {
@@ -173,7 +174,7 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 1,
+        "within_24h": 0,
         "within_window": 1,
         "eligible": 0,
         "rejected": {

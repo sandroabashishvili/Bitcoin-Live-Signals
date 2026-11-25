@@ -150,9 +150,10 @@
   display: none;
 }
 
-.global-nav-menu:hover .global-nav-menu-panel,
-.global-nav-menu:focus-within .global-nav-menu-panel {
-  display: grid;
+@media (hover: hover) and (pointer: fine) and (min-width: 761px) {
+  .global-nav-menu:hover .global-nav-menu-panel {
+    display: grid;
+  }
 }
 
 .global-nav-menu-panel .global-nav-menu-link {

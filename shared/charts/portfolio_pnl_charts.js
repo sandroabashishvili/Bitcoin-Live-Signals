@@ -116,7 +116,11 @@ function buildPerTradeOption(E, theme) {
         const point = params?.[0];
         if (!point) return "";
         const row = rows[point.dataIndex];
-        const net = Number(row.net).toFixed(2);
+        const netNum = Number(row.net);
+        const netText = `${netNum >= 0 ? "+" : "-"}$${Math.abs(netNum).toLocaleString("en-US", {
+          minimumFractionDigits: 2,
+          maximumFractionDigits: 2,
+        })}`;
         const reason = row.wasForceClosed ? `${row.exitReason} · force` : row.exitReason;
         const pnlColor = row.net >= 0 ? theme.green : theme.red;
         const boxWidth = isMobile ? 164 : 260;
@@ -132,7 +136,7 @@ function buildPerTradeOption(E, theme) {
             <div style="margin-bottom:1px;">Closed: <b style="color:${theme.tooltipTitle};">${row.closedAt}</b></div>
             <div style="margin-bottom:1px;">Entry / Exit: <b style="color:${theme.tooltipTitle};">${row.entryPrice}</b> → <b style="color:${theme.tooltipTitle};">${row.exitPrice}</b></div>
             <div>Duration: <b style="color:${theme.tooltipTitle};">${row.duration}</b> · R:R <b style="color:${theme.tooltipTitle};">${row.rrRatio}</b></div>
-            <div style="margin-top: 4px;">Net PnL: <b style="color:${pnlColor};">$${net}</b> <b style="color:${pnlColor};">(${row.netPct})</b></div>
+            <div style="margin-top: 4px;">Net PnL: <b style="color:${pnlColor};">${netText}</b> <b style="color:${pnlColor};">(${row.netPct})</b></div>
           </div>
         `;
       },

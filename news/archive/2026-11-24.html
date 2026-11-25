@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!-- ssh-generator: news.py.news_pipeline.daily_page_builder.v2026-03-29a -->
 <html lang="en">
   <head>
@@ -64,7 +64,16 @@
       <script>
         (() => {
           const menus = document.querySelectorAll(".global-nav-menu");
-          const hoverCapable = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+          const isHoverDesktop = () =>
+            window.matchMedia("(hover: hover) and (pointer: fine)").matches &&
+            window.matchMedia("(min-width: 761px)").matches;
+          const closeAll = (exceptMenu = null) => {
+            menus.forEach((otherMenu) => {
+              if (otherMenu === exceptMenu) return;
+              otherMenu.open = false;
+              otherMenu.querySelector("summary")?.setAttribute("aria-expanded", "false");
+            });
+          };
           menus.forEach((menu) => {
             const summary = menu.querySelector("summary");
             if (!summary) return;
@@ -83,26 +92,25 @@
                 setOpen(false);
               }, 180);
             };
-            if (hoverCapable) {
-              summary.addEventListener("click", (event) => event.preventDefault());
-              menu.addEventListener("mouseenter", openMenu);
-              menu.addEventListener("mouseleave", closeMenu);
-            } else {
-              summary.addEventListener("click", (event) => {
-                event.preventDefault();
-                const shouldOpen = !menu.open;
-                menus.forEach((otherMenu) => {
-                  if (otherMenu === menu) return;
-                  otherMenu.open = false;
-                  otherMenu.querySelector("summary")?.setAttribute("aria-expanded", "false");
-                });
-                setOpen(shouldOpen);
-              });
-            }
-            menu.addEventListener("focusin", openMenu);
+            summary.addEventListener("click", (event) => {
+              event.preventDefault();
+              if (isHoverDesktop()) {
+                openMenu();
+                return;
+              }
+              const shouldOpen = !menu.open;
+              closeAll(menu);
+              setOpen(shouldOpen);
+            });
+            menu.addEventListener("mouseenter", () => {
+              if (isHoverDesktop()) openMenu();
+            });
+            menu.addEventListener("mouseleave", () => {
+              if (isHoverDesktop()) closeMenu();
+            });
             menu.addEventListener("focusout", () => {
               window.setTimeout(() => {
-                if (!menu.contains(document.activeElement)) menu.open = false;
+                if (!menu.contains(document.activeElement)) setOpen(false);
               }, 0);
             });
           });
@@ -115,10 +123,7 @@
           });
           document.addEventListener("keydown", (event) => {
             if (event.key !== "Escape") return;
-            menus.forEach((menu) => {
-              menu.open = false;
-              menu.querySelector("summary")?.setAttribute("aria-expanded", "false");
-            });
+            closeAll();
           });
         })();
       </script>
@@ -133,7 +138,7 @@
 <svg viewBox="0 0 640 240" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" opacity=".16"><rect x="38" y="55" width="125" height="125" rx="32"/><circle cx="548" cy="108" r="65"/></g><g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><path d="M320 42V181M225 78H415M245 78L210 140H280ZM395 78L360 140H430ZM273 192H367"/><circle cx="320" cy="62" r="12"/></g></svg>
 <div class="news-editorial-caption"><span>POLICY & REGULATION</span><span>ILLUSTRATION</span></div></div></a>
   <div class="news-card-body">
-    <p class="news-card-meta">Nov 24, 2026 · Cryptonews</p>
+    <p class="news-card-meta">Nov 24, 2026 Â· Cryptonews</p>
     <h3 class="news-card-title">
       <a href="https://cryptonews.com/news/bitcoin-news-cftc-decision-btc-80000/" target="_blank" rel="noopener">Bitcoin News: CFTC Decision to Push BTC Toward $80K?</a>
     </h3>
@@ -141,13 +146,13 @@
   </div>
 </article>
 <article class="news-card">
-  <a class="news-card-illustration-link" href="https://www.newsbtc.com/news/mexc-releases-september-october-security-report-guardian-fund-adds-1000-btc-reserve-ratios-exceed-100/" target="_blank" rel="noopener" aria-label="Read at NewsBTC: MEXC Releases September–October Security Report: Guardian Fund Adds 1,000 BTC, Reserve Ratios Exceed 100% (opens in a new tab)"><div class="news-editorial news-editorial-security" style="color:#ffa6b9;background:#301c30">
+  <a class="news-card-illustration-link" href="https://www.newsbtc.com/news/mexc-releases-september-october-security-report-guardian-fund-adds-1000-btc-reserve-ratios-exceed-100/" target="_blank" rel="noopener" aria-label="Read at NewsBTC: MEXC Releases Septemberâ€“October Security Report: Guardian Fund Adds 1,000 BTC, Reserve Ratios Exceed 100% (opens in a new tab)"><div class="news-editorial news-editorial-security" style="color:#ffa6b9;background:#301c30">
 <svg viewBox="0 0 640 240" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" opacity=".16"><rect x="38" y="55" width="125" height="125" rx="32"/><circle cx="548" cy="108" r="65"/></g><g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><path d="M320 40L400 72V123Q400 170 320 202Q240 170 240 123V72Z"/><rect x="285" y="104" width="70" height="52" rx="9"/><path d="M300 104V89a20 20 0 0 1 40 0v15M320 123v15"/></g></svg>
 <div class="news-editorial-caption"><span>SECURITY & TRUST</span><span>ILLUSTRATION</span></div></div></a>
   <div class="news-card-body">
-    <p class="news-card-meta">Nov 24, 2026 · NewsBTC</p>
+    <p class="news-card-meta">Nov 24, 2026 Â· NewsBTC</p>
     <h3 class="news-card-title">
-      <a href="https://www.newsbtc.com/news/mexc-releases-september-october-security-report-guardian-fund-adds-1000-btc-reserve-ratios-exceed-100/" target="_blank" rel="noopener">MEXC Releases September–October Security Report: Guardian Fund Adds 1,000 BTC, Reserve Ratios Exceed 100%</a>
+      <a href="https://www.newsbtc.com/news/mexc-releases-september-october-security-report-guardian-fund-adds-1000-btc-reserve-ratios-exceed-100/" target="_blank" rel="noopener">MEXC Releases Septemberâ€“October Security Report: Guardian Fund Adds 1,000 BTC, Reserve Ratios Exceed 100%</a>
     </h3>
 
   </div>
@@ -157,7 +162,7 @@
 <svg viewBox="0 0 640 240" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" opacity=".16"><rect x="38" y="55" width="125" height="125" rx="32"/><circle cx="548" cy="108" r="65"/></g><g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><rect x="235" y="77" width="170" height="112" rx="14"/><path d="M283 77V50H357V77M235 114H405M305 110V130H335V110"/><circle cx="442" cy="157" r="30"/><path d="M442 140V174M430 157H454"/></g></svg>
 <div class="news-editorial-caption"><span>FUNDS & INSTITUTIONS</span><span>ILLUSTRATION</span></div></div></a>
   <div class="news-card-body">
-    <p class="news-card-meta">Nov 24, 2026 · Cryptonews</p>
+    <p class="news-card-meta">Nov 24, 2026 Â· Cryptonews</p>
     <h3 class="news-card-title">
       <a href="https://cryptonews.com/news/bitcoin-price-etf-outflows-supply-losses/" target="_blank" rel="noopener">Bitcoin ETF Loses $570M: More Than Half of BTC Supply Falls Out of Profit</a>
     </h3>
@@ -169,7 +174,7 @@
 <svg viewBox="0 0 640 240" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" opacity=".16"><rect x="38" y="55" width="125" height="125" rx="32"/><circle cx="548" cy="108" r="65"/></g><g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><path d="M320 40L400 72V123Q400 170 320 202Q240 170 240 123V72Z"/><rect x="285" y="104" width="70" height="52" rx="9"/><path d="M300 104V89a20 20 0 0 1 40 0v15M320 123v15"/></g></svg>
 <div class="news-editorial-caption"><span>SECURITY & TRUST</span><span>ILLUSTRATION</span></div></div></a>
   <div class="news-card-body">
-    <p class="news-card-meta">Nov 24, 2026 · Cryptonews</p>
+    <p class="news-card-meta">Nov 24, 2026 Â· Cryptonews</p>
     <h3 class="news-card-title">
       <a href="https://cryptonews.com/news/ethereum-security-overhaul-since-merge/" target="_blank" rel="noopener">Ethereum Security Overhaul Since the Merge Is Coming</a>
     </h3>
@@ -177,13 +182,13 @@
   </div>
 </article>
 <article class="news-card">
-  <a class="news-card-illustration-link" href="https://cryptonews.com/news/bitcoin-rally-roundtrip-saylor-strategy-buying-crypto-news/" target="_blank" rel="noopener" aria-label="Read at Cryptonews: LIVE – Bitcoin Overnight Rally Roundtripped: Saylor and Strategy Didn&#x27;t Flinch (opens in a new tab)"><div class="news-editorial news-editorial-markets" style="color:#f4ab7b;background:#3a231f">
+  <a class="news-card-illustration-link" href="https://cryptonews.com/news/bitcoin-rally-roundtrip-saylor-strategy-buying-crypto-news/" target="_blank" rel="noopener" aria-label="Read at Cryptonews: LIVE â€“ Bitcoin Overnight Rally Roundtripped: Saylor and Strategy Didn&#x27;t Flinch (opens in a new tab)"><div class="news-editorial news-editorial-markets" style="color:#f4ab7b;background:#3a231f">
 <svg viewBox="0 0 640 240" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" opacity=".16"><rect x="38" y="55" width="125" height="125" rx="32"/><circle cx="548" cy="108" r="65"/></g><g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><circle cx="320" cy="120" r="78"/><ellipse cx="320" cy="120" rx="37" ry="78"/><path d="M242 120H398M254 82H386M254 158H386"/><path d="M207 62L180 95L212 95M433 177L460 144L428 144"/></g></svg>
 <div class="news-editorial-caption"><span>CRYPTO MARKETS</span><span>ILLUSTRATION</span></div></div></a>
   <div class="news-card-body">
-    <p class="news-card-meta">Nov 24, 2026 · Cryptonews</p>
+    <p class="news-card-meta">Nov 24, 2026 Â· Cryptonews</p>
     <h3 class="news-card-title">
-      <a href="https://cryptonews.com/news/bitcoin-rally-roundtrip-saylor-strategy-buying-crypto-news/" target="_blank" rel="noopener">LIVE – Bitcoin Overnight Rally Roundtripped: Saylor and Strategy Didn&#x27;t Flinch</a>
+      <a href="https://cryptonews.com/news/bitcoin-rally-roundtrip-saylor-strategy-buying-crypto-news/" target="_blank" rel="noopener">LIVE â€“ Bitcoin Overnight Rally Roundtripped: Saylor and Strategy Didn&#x27;t Flinch</a>
     </h3>
 
   </div>
@@ -193,7 +198,7 @@
 <svg viewBox="0 0 640 240" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" opacity=".16"><path d="M0 0L180 240M65 0L245 240M410 0L590 240M475 0L655 240"/></g><g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><circle cx="320" cy="120" r="78"/><ellipse cx="320" cy="120" rx="37" ry="78"/><path d="M242 120H398M254 82H386M254 158H386"/><path d="M207 62L180 95L212 95M433 177L460 144L428 144"/></g></svg>
 <div class="news-editorial-caption"><span>CRYPTO MARKETS</span><span>ILLUSTRATION</span></div></div></a>
   <div class="news-card-body">
-    <p class="news-card-meta">Nov 23, 2026 · Cryptonews</p>
+    <p class="news-card-meta">Nov 23, 2026 Â· Cryptonews</p>
     <h3 class="news-card-title">
       <a href="https://cryptonews.com/news/jensen-huang-back-btc-price-explodes-8k/" target="_blank" rel="noopener">BTC Price Explodes by $8k: Jensen Huang Is Back!</a>
     </h3>
@@ -205,7 +210,7 @@
 <svg viewBox="0 0 640 240" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" opacity=".16"><circle cx="80" cy="30" r="100"/><circle cx="580" cy="215" r="105"/></g><g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><circle cx="320" cy="120" r="78"/><ellipse cx="320" cy="120" rx="37" ry="78"/><path d="M242 120H398M254 82H386M254 158H386"/><path d="M207 62L180 95L212 95M433 177L460 144L428 144"/></g></svg>
 <div class="news-editorial-caption"><span>CRYPTO MARKETS</span><span>ILLUSTRATION</span></div></div></a>
   <div class="news-card-body">
-    <p class="news-card-meta">Nov 23, 2026 · Cryptonews</p>
+    <p class="news-card-meta">Nov 23, 2026 Â· Cryptonews</p>
     <h3 class="news-card-title">
       <a href="https://cryptonews.com/news/hype-ena-rally-zec-lags-crypto-bounce/" target="_blank" rel="noopener">HYPE and ENA Catch the Bid, but ZEC Misses Crypto Bounce</a>
     </h3>
@@ -217,7 +222,7 @@
 <svg viewBox="0 0 640 240" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" opacity=".16"><rect x="38" y="55" width="125" height="125" rx="32"/><circle cx="548" cy="108" r="65"/></g><g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><circle cx="320" cy="120" r="78"/><ellipse cx="320" cy="120" rx="37" ry="78"/><path d="M242 120H398M254 82H386M254 158H386"/><path d="M207 62L180 95L212 95M433 177L460 144L428 144"/></g></svg>
 <div class="news-editorial-caption"><span>CRYPTO MARKETS</span><span>ILLUSTRATION</span></div></div></a>
   <div class="news-card-body">
-    <p class="news-card-meta">Nov 23, 2026 · Cryptonews</p>
+    <p class="news-card-meta">Nov 23, 2026 Â· Cryptonews</p>
     <h3 class="news-card-title">
       <a href="https://cryptonews.com/news/ripple-news-xrp-90-support-recovery/" target="_blank" rel="noopener">Ripple News: XRP Eyes Recovery as $0.90 Support Could Set Up a Rebound</a>
     </h3>
@@ -229,7 +234,7 @@
 <svg viewBox="0 0 640 240" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="2" opacity=".16"><path d="M0 0L180 240M65 0L245 240M410 0L590 240M475 0L655 240"/></g><g fill="none" stroke="currentColor" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"><circle cx="320" cy="120" r="78"/><ellipse cx="320" cy="120" rx="37" ry="78"/><path d="M242 120H398M254 82H386M254 158H386"/><path d="M207 62L180 95L212 95M433 177L460 144L428 144"/></g></svg>
 <div class="news-editorial-caption"><span>CRYPTO MARKETS</span><span>ILLUSTRATION</span></div></div></a>
   <div class="news-card-body">
-    <p class="news-card-meta">Nov 23, 2026 · Cryptonews</p>
+    <p class="news-card-meta">Nov 23, 2026 Â· Cryptonews</p>
     <h3 class="news-card-title">
       <a href="https://cryptonews.com/news/crypto-news-bitcoin-ethereum-recovery/" target="_blank" rel="noopener">Bitcoin and Ethereum Bounce Back: Market Finally Turning?</a>
     </h3>
@@ -252,7 +257,7 @@
           <a class="social-telegram" href="https://t.me/bitcoin_live_signals_bot" target="_blank" rel="noopener noreferrer" aria-label="Telegram">Telegram</a>
           <a class="social-youtube" href="https://youtube.com/@cryptonewsgeorgia?si=7yyT10A9UzRlBY6E" target="_blank" rel="noopener noreferrer" aria-label="YouTube">YouTube</a>
         </div>
-        <p class="footer-copy">© 2026 Smart Signal Hub • Educational use only. Not financial advice.</p>
+        <p class="footer-copy">Â© 2026 Smart Signal Hub â€¢ Educational use only. Not financial advice.</p>
         <nav class="footer-legal" aria-label="Legal links">
           <a href="../../legal/impressum.html">Impressum</a>
           <a href="../../legal/datenschutz.html">Datenschutz</a>

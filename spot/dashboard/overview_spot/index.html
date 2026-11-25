@@ -4,14 +4,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bitcoin Live Signals | SmartSignalHub</title>
-    <meta name="description" content="Bitcoin Live Signals by SmartSignalHub with live signal context, multi-timeframe analysis, daily runtime summary, and portfolio snapshot." />
+    <title>Bitcoin Spot Signals, Entry/TP/SL &amp; Portfolio | SmartSignalHub</title>
+    <meta name="description" content="Live Bitcoin Spot signals by SmartSignalHub with multi-timeframe context, Entry/TP/SL plans, daily runtime summary, and simulated portfolio tracking." />
     <meta name="robots" content="index,follow,max-image-preview:large" />
     <link rel="canonical" href="https://sandro-abashishvili.de/Bitcoin-Live-Signals/spot/dashboard/overview_spot/" />
     <meta name="theme-color" content="#09111a" />
     <meta property="og:site_name" content="SmartSignalHub" />
-    <meta property="og:title" content="Bitcoin Live Signals | SmartSignalHub" />
-    <meta property="og:description" content="Real-time Bitcoin trade signals with TP/SL, multi-timeframe context, and transparent performance tracking." />
+    <meta property="og:title" content="Bitcoin Spot Signals, Entry/TP/SL &amp; Portfolio | SmartSignalHub" />
+    <meta property="og:description" content="Live Bitcoin Spot signals with TP/SL plans, multi-timeframe context, and transparent simulated performance tracking." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sandro-abashishvili.de/Bitcoin-Live-Signals/spot/dashboard/overview_spot/" />
     <meta property="og:image" content="https://sandro-abashishvili.de/Bitcoin-Live-Signals/assets/site-social-og.png" />
@@ -21,8 +21,8 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Bitcoin Live Signals | SmartSignalHub" />
-    <meta name="twitter:description" content="Real-time Bitcoin trade signals with TP/SL, multi-timeframe context, and transparent performance tracking." />
+    <meta name="twitter:title" content="Bitcoin Spot Signals, Entry/TP/SL &amp; Portfolio | SmartSignalHub" />
+    <meta name="twitter:description" content="Live Bitcoin Spot signals with TP/SL plans, multi-timeframe context, and transparent simulated performance tracking." />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -31,17 +31,17 @@
             "@type": "Organization",
             "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/#organization",
             "name": "SmartSignalHub",
-            "url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/spot/dashboard/overview_spot/",
-            "description": "Bitcoin signal tracking system with live signal context, spot-only execution, TP/SL planning, and transparent runtime tracking."
+            "url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/",
+            "description": "Bitcoin signal tracking system with live market context, simulated Spot, Futures and Hedge strategies, and transparent runtime tracking."
           },
           {
             "@type": "WebPage",
             "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/spot/dashboard/overview_spot/#webpage",
             "url": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/spot/dashboard/overview_spot/",
-            "name": "Bitcoin Live Signals | SmartSignalHub",
-            "description": "Bitcoin Live Signals by SmartSignalHub with live signal context, multi-timeframe analysis, daily runtime summary, and portfolio snapshot.",
+            "name": "Bitcoin Spot Signals, Entry/TP/SL & Portfolio | SmartSignalHub",
+            "description": "Live Bitcoin Spot signals by SmartSignalHub with multi-timeframe context, Entry/TP/SL plans, daily runtime summary, and simulated portfolio tracking.",
             "isPartOf": {
-              "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/#organization"
+              "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/#website"
             },
             "about": {
               "@id": "https://sandro-abashishvili.de/Bitcoin-Live-Signals/#organization"
@@ -105,7 +105,7 @@
                   </span>
                   <span class="hero-runtime-meta-item">
                     <span class="hero-runtime-meta-label">Elapsed</span>
-                    <strong class="hero-runtime-meta-value">38 days, 01:47</strong>
+                    <strong class="hero-runtime-meta-value">38 days, 06:47</strong>
                   </span>
                 </div>
                 </div>
@@ -124,7 +124,16 @@
       <script>
         (() => {
           const menus = document.querySelectorAll(".global-nav-menu");
-          const hoverCapable = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+          const isHoverDesktop = () =>
+            window.matchMedia("(hover: hover) and (pointer: fine)").matches &&
+            window.matchMedia("(min-width: 761px)").matches;
+          const closeAll = (exceptMenu = null) => {
+            menus.forEach((otherMenu) => {
+              if (otherMenu === exceptMenu) return;
+              otherMenu.open = false;
+              otherMenu.querySelector("summary")?.setAttribute("aria-expanded", "false");
+            });
+          };
           menus.forEach((menu) => {
             const summary = menu.querySelector("summary");
             if (!summary) return;
@@ -143,26 +152,25 @@
                 setOpen(false);
               }, 180);
             };
-            if (hoverCapable) {
-              summary.addEventListener("click", (event) => event.preventDefault());
-              menu.addEventListener("mouseenter", openMenu);
-              menu.addEventListener("mouseleave", closeMenu);
-            } else {
-              summary.addEventListener("click", (event) => {
-                event.preventDefault();
-                const shouldOpen = !menu.open;
-                menus.forEach((otherMenu) => {
-                  if (otherMenu === menu) return;
-                  otherMenu.open = false;
-                  otherMenu.querySelector("summary")?.setAttribute("aria-expanded", "false");
-                });
-                setOpen(shouldOpen);
-              });
-            }
-            menu.addEventListener("focusin", openMenu);
+            summary.addEventListener("click", (event) => {
+              event.preventDefault();
+              if (isHoverDesktop()) {
+                openMenu();
+                return;
+              }
+              const shouldOpen = !menu.open;
+              closeAll(menu);
+              setOpen(shouldOpen);
+            });
+            menu.addEventListener("mouseenter", () => {
+              if (isHoverDesktop()) openMenu();
+            });
+            menu.addEventListener("mouseleave", () => {
+              if (isHoverDesktop()) closeMenu();
+            });
             menu.addEventListener("focusout", () => {
               window.setTimeout(() => {
-                if (!menu.contains(document.activeElement)) menu.open = false;
+                if (!menu.contains(document.activeElement)) setOpen(false);
               }, 0);
             });
           });
@@ -175,10 +183,7 @@
           });
           document.addEventListener("keydown", (event) => {
             if (event.key !== "Escape") return;
-            menus.forEach((menu) => {
-              menu.open = false;
-              menu.querySelector("summary")?.setAttribute("aria-expanded", "false");
-            });
+            closeAll();
           });
         })();
       </script>
@@ -259,7 +264,7 @@
           </div>
           <p class="panel-intro">Current Bitcoin signal, price, and trade readiness.</p>
           <div id="primary-signal-grid" class="metric-grid overview-metric-grid">
-            <div class="metric-card"><span>Signal</span><strong class="value-muted">NO_SIGNAL</strong></div><div class="metric-card"><span>Signal Close</span><strong>2026-11-25 17:14:59</strong></div><div class="metric-card"><span>Signal Price</span><strong>59255.27</strong></div><div class="metric-card"><span>Decision</span><strong>2026-11-25 17:16:57</strong></div><div class="metric-card"><span>Position Opened</span><strong>—</strong></div><div class="metric-card"><span>Execution Entry</span><strong>—</strong></div><div class="metric-card"><span>TP</span><strong class="value-green">—</strong></div><div class="metric-card"><span>SL</span><strong class="value-red">—</strong></div><div class="metric-card metric-card-entry-status"><span class="metric-label-with-action"><span>Entry Status</span><span class="explanation-anchor explanation-anchor-default" data-expl-key="overview.primary_signal.entry_status" data-expl-mode="drawer" data-expl-trigger="click"></span></span><strong>Blocked by Logic</strong></div>
+            <div class="metric-card"><span>Signal</span><strong class="value-muted">NO_SIGNAL</strong></div><div class="metric-card"><span>Signal Close</span><strong>2026-11-25 22:14:59</strong></div><div class="metric-card"><span>Signal Price</span><strong>60114.01</strong></div><div class="metric-card"><span>Decision</span><strong>2026-11-25 22:17:08</strong></div><div class="metric-card"><span>Position Opened</span><strong>—</strong></div><div class="metric-card"><span>Execution Entry</span><strong>—</strong></div><div class="metric-card"><span>TP</span><strong class="value-green">—</strong></div><div class="metric-card"><span>SL</span><strong class="value-red">—</strong></div><div class="metric-card metric-card-entry-status"><span class="metric-label-with-action"><span>Entry Status</span><span class="explanation-anchor explanation-anchor-default" data-expl-key="overview.primary_signal.entry_status" data-expl-mode="drawer" data-expl-trigger="click"></span></span><strong>Blocked by Logic</strong></div>
           </div>
           <p class="panel-note">See <a class="panel-note-link" href="../portfolio/">Portfolio</a> for open positions, closed trades, and portfolio outcomes.</p>
         </article>
@@ -274,10 +279,10 @@
                 <article class="timeframe-card">
                   <div class="timeframe-card-head">
                     <span>5m Direction</span>
-                    <h3 class="value-muted">NO_SIGNAL</h3>
+                    <h3 class="value-red">SELL</h3>
                   </div>
                   <p class="timeframe-role">Fast momentum and short-term pressure.</p>
-                  <div class="timeframe-stats"><div><span>Close</span><strong class="value-amber">59255.27</strong></div><div><span>Change</span><strong class="value-green">0.03%</strong></div><div><span>Volume</span><strong class="value-amber">93.75</strong></div></div>
+                  <div class="timeframe-stats"><div><span>Close</span><strong class="value-amber">60114.01</strong></div><div><span>Change</span><strong class="value-red">-0.13%</strong></div><div><span>Volume</span><strong class="value-amber">65.64</strong></div></div>
                 </article>
                 
                 <article class="timeframe-card">
@@ -286,7 +291,7 @@
                     <h3 class="value-muted">NO_SIGNAL</h3>
                   </div>
                   <p class="timeframe-role">Primary timeframe used for the signal decision.</p>
-                  <div class="timeframe-stats"><div><span>Close</span><strong class="value-amber">59255.27</strong></div><div><span>Change</span><strong class="value-green">1.11%</strong></div><div><span>Volume</span><strong class="value-amber">419.41</strong></div></div>
+                  <div class="timeframe-stats"><div><span>Close</span><strong class="value-amber">60114.01</strong></div><div><span>Change</span><strong class="value-red">-0.21%</strong></div><div><span>Volume</span><strong class="value-amber">160.99</strong></div></div>
                 </article>
                 
                 <article class="timeframe-card">
@@ -295,7 +300,7 @@
                     <h3 class="value-red">SELL</h3>
                   </div>
                   <p class="timeframe-role">Broader trend and market backdrop.</p>
-                  <div class="timeframe-stats"><div><span>Close</span><strong class="value-amber">58344.01</strong></div><div><span>Change</span><strong class="value-red">-0.51%</strong></div><div><span>Volume</span><strong class="value-amber">6294.99</strong></div></div>
+                  <div class="timeframe-stats"><div><span>Close</span><strong class="value-amber">59879.23</strong></div><div><span>Change</span><strong class="value-green">2.63%</strong></div><div><span>Volume</span><strong class="value-amber">5681.57</strong></div></div>
                 </article>
                 
           </div>
@@ -307,7 +312,7 @@
           </div>
           <p class="panel-intro">Equity, return pace, net return, and open exposure.</p>
           <div class="metric-grid overview-metric-grid">
-            <div class="metric-card"><span>Starting Capital</span><strong>$ 3000.00</strong></div><div class="metric-card"><span>Equity</span><strong class="value-red">$ 2988.59</strong></div><div class="metric-card"><span>Available Balance</span><strong>$ 2988.59</strong></div><div class="metric-card"><span>Reserved Capital</span><strong>$ 0.00</strong></div><div class="metric-card"><span>Unrealized PnL</span><strong class="value-muted">$ 0.00</strong></div><div class="metric-card"><span>Gross PnL</span><strong class="value-red">$ -6.71</strong></div><div class="metric-card"><span>Fees Paid</span><strong class="value-red">$ 4.70</strong></div><div class="metric-card"><span>Total Net PnL</span><strong class="value-red">$ -11.41</strong></div><div class="metric-card"><span>Net Return %</span><strong class="value-red">-0.38%</strong></div><div class="metric-card"><span>Annualized Return</span><strong class="value-red">-3.59%</strong></div><div class="metric-card"><span>Peak Capital</span><strong class="value-green">$ 3001.38</strong></div><div class="metric-card"><span>Lowest Capital</span><strong class="value-red">$ 2982.65</strong></div>
+            <div class="metric-card"><span>Starting Capital</span><strong>$ 3000.00</strong></div><div class="metric-card"><span>Equity</span><strong class="value-red">$ 2988.53</strong></div><div class="metric-card"><span>Available Balance</span><strong>$ 2888.54</strong></div><div class="metric-card"><span>Reserved Capital</span><strong>$ 100.00</strong></div><div class="metric-card"><span>Unrealized PnL</span><strong class="value-red">$ -0.01</strong></div><div class="metric-card"><span>Gross PnL</span><strong class="value-red">$ -6.71</strong></div><div class="metric-card"><span>Fees Paid</span><strong class="value-red">$ 4.75</strong></div><div class="metric-card"><span>Total Net PnL</span><strong class="value-red">$ -11.41</strong></div><div class="metric-card"><span>Net Return %</span><strong class="value-red">-0.38%</strong></div><div class="metric-card"><span>Annualized Return</span><strong class="value-red">-3.59%</strong></div><div class="metric-card"><span>Peak Capital</span><strong class="value-green">$ 3001.38</strong></div><div class="metric-card"><span>Lowest Capital</span><strong class="value-red">$ 2982.65</strong></div>
           </div>
         </article>
 
@@ -317,7 +322,7 @@
           </div>
           <p class="panel-intro">Closed-trade totals, hit distribution, and force-close activity.</p>
           <div class="metric-grid overview-metric-grid">
-            <div class="metric-card"><span>Total Positions</span><strong>47</strong></div><div class="metric-card"><span>Open Positions</span><strong>0</strong></div><div class="metric-card"><span>Closed Positions</span><strong>47</strong></div><div class="metric-card"><span>TP Hits</span><strong class="value-green">10</strong></div><div class="metric-card"><span>SL Hits</span><strong class="value-red">31</strong></div><div class="metric-card"><span>Profit Lock Hits</span><strong class="value-green">6</strong></div><div class="metric-card"><span>Win Rate</span><strong class="value-red">34.04%</strong></div><div class="metric-card"><span class="metric-label-with-action"><span>Force Close</span><span class="explanation-anchor explanation-anchor-default" data-expl-key="overview.trade_outcomes_snapshot.force_close" data-expl-mode="drawer" data-expl-trigger="click"></span></span><strong class="value-red">0</strong></div><div class="metric-card"><span>Avg Net / Trade</span><strong class="value-red">$ -0.24</strong></div><div class="metric-card"><span>Gross PnL</span><strong class="value-red">$ -6.71</strong></div><div class="metric-card"><span>Fees Paid</span><strong class="value-red">$ 4.70</strong></div><div class="metric-card"><span>Best Trade</span><strong class="value-green">$ 3.97</strong></div><div class="metric-card"><span>Worst Trade</span><strong class="value-red">$ -1.66</strong></div>
+            <div class="metric-card"><span>Total Positions</span><strong>48</strong></div><div class="metric-card"><span>Open Positions</span><strong>1</strong></div><div class="metric-card"><span>Closed Positions</span><strong>47</strong></div><div class="metric-card"><span>TP Hits</span><strong class="value-green">10</strong></div><div class="metric-card"><span>SL Hits</span><strong class="value-red">31</strong></div><div class="metric-card"><span>Profit Lock Hits</span><strong class="value-green">6</strong></div><div class="metric-card"><span>Win Rate</span><strong class="value-red">34.04%</strong></div><div class="metric-card"><span class="metric-label-with-action"><span>Force Close</span><span class="explanation-anchor explanation-anchor-default" data-expl-key="overview.trade_outcomes_snapshot.force_close" data-expl-mode="drawer" data-expl-trigger="click"></span></span><strong class="value-red">0</strong></div><div class="metric-card"><span>Avg Net / Trade</span><strong class="value-red">$ -0.24</strong></div><div class="metric-card"><span>Gross PnL</span><strong class="value-red">$ -6.71</strong></div><div class="metric-card"><span>Fees Paid</span><strong class="value-red">$ 4.75</strong></div><div class="metric-card"><span>Best Trade</span><strong class="value-green">$ 3.97</strong></div><div class="metric-card"><span>Worst Trade</span><strong class="value-red">$ -1.66</strong></div>
           </div>
         </article>
 
@@ -327,7 +332,7 @@
           </div>
           <p class="panel-intro">Full-history signal mix and conversion, aligned with Strategy Edge.</p>
           <div class="metric-grid overview-metric-grid">
-            <div class="metric-card"><span>Total Signals</span><strong>3507</strong></div><div class="metric-card"><span>BUY Signals</span><strong class="value-green">202</strong></div><div class="metric-card"><span>No Signal</span><strong class="value-amber">3305</strong></div><div class="metric-card"><span>Theoretical TP</span><strong class="value-green">66</strong></div><div class="metric-card"><span>Theoretical SL</span><strong class="value-red">136</strong></div><div class="metric-card"><span>Theoretical Open</span><strong class="value-amber">0</strong></div><div class="metric-card"><span>Signal Win Rate</span><strong class="value-red">32.67%</strong></div>
+            <div class="metric-card"><span>Total Signals</span><strong>3527</strong></div><div class="metric-card"><span>BUY Signals</span><strong class="value-green">205</strong></div><div class="metric-card"><span>No Signal</span><strong class="value-amber">3322</strong></div><div class="metric-card"><span>Theoretical TP</span><strong class="value-green">66</strong></div><div class="metric-card"><span>Theoretical SL</span><strong class="value-red">136</strong></div><div class="metric-card"><span>Theoretical Open</span><strong class="value-amber">3</strong></div><div class="metric-card"><span>Signal Win Rate</span><strong class="value-red">32.67%</strong></div>
           </div>
           <p class="panel-note">See <a class="panel-note-link" href="../strategy_edge/">Strategy Edge</a> for full signal-side diagnostics.</p>
         </article>

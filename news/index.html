@@ -95,7 +95,16 @@
       <script>
         (() => {
           const menus = document.querySelectorAll(".global-nav-menu");
-          const hoverCapable = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+          const isHoverDesktop = () =>
+            window.matchMedia("(hover: hover) and (pointer: fine)").matches &&
+            window.matchMedia("(min-width: 761px)").matches;
+          const closeAll = (exceptMenu = null) => {
+            menus.forEach((otherMenu) => {
+              if (otherMenu === exceptMenu) return;
+              otherMenu.open = false;
+              otherMenu.querySelector("summary")?.setAttribute("aria-expanded", "false");
+            });
+          };
           menus.forEach((menu) => {
             const summary = menu.querySelector("summary");
             if (!summary) return;
@@ -114,26 +123,25 @@
                 setOpen(false);
               }, 180);
             };
-            if (hoverCapable) {
-              summary.addEventListener("click", (event) => event.preventDefault());
-              menu.addEventListener("mouseenter", openMenu);
-              menu.addEventListener("mouseleave", closeMenu);
-            } else {
-              summary.addEventListener("click", (event) => {
-                event.preventDefault();
-                const shouldOpen = !menu.open;
-                menus.forEach((otherMenu) => {
-                  if (otherMenu === menu) return;
-                  otherMenu.open = false;
-                  otherMenu.querySelector("summary")?.setAttribute("aria-expanded", "false");
-                });
-                setOpen(shouldOpen);
-              });
-            }
-            menu.addEventListener("focusin", openMenu);
+            summary.addEventListener("click", (event) => {
+              event.preventDefault();
+              if (isHoverDesktop()) {
+                openMenu();
+                return;
+              }
+              const shouldOpen = !menu.open;
+              closeAll(menu);
+              setOpen(shouldOpen);
+            });
+            menu.addEventListener("mouseenter", () => {
+              if (isHoverDesktop()) openMenu();
+            });
+            menu.addEventListener("mouseleave", () => {
+              if (isHoverDesktop()) closeMenu();
+            });
             menu.addEventListener("focusout", () => {
               window.setTimeout(() => {
-                if (!menu.contains(document.activeElement)) menu.open = false;
+                if (!menu.contains(document.activeElement)) setOpen(false);
               }, 0);
             });
           });
@@ -146,10 +154,7 @@
           });
           document.addEventListener("keydown", (event) => {
             if (event.key !== "Escape") return;
-            menus.forEach((menu) => {
-              menu.open = false;
-              menu.querySelector("summary")?.setAttribute("aria-expanded", "false");
-            });
+            closeAll();
           });
         })();
       </script>
@@ -158,7 +163,7 @@
       <section class="content-grid">
 
         <article class="panel panel-wide news-latest-panel">
-          <p class="panel-intro">Updated: 2026-11-25 17:05:08 UTC</p>
+          <p class="panel-intro">Updated: 2026-11-25 19:52:52 UTC</p>
           <div class="news-grid">
             <article class="news-card news-card-compact">
   <a class="news-card-illustration-link" href="https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting" target="_blank" rel="noopener" aria-label="Read at SEC: SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting (opens in a new tab)"><div class="news-editorial news-editorial-regulation" style="color:#c3b2ff;background:#251d43">
