@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-25",
-  "generated_at_utc": "2026-11-25 11:05:09 UTC",
+  "generated_at_utc": "2026-11-25 17:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-25T11:05:01.944763+00:00",
+    "collected_at": "2026-11-25T17:05:01.894588+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,13 +24,12 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 5,
-        "within_window": 9,
-        "eligible": 2,
+        "within_24h": 3,
+        "within_window": 10,
+        "eligible": 3,
         "rejected": {
           "unreviewed_link": 6,
-          "title_filter": 1,
-          "older_than_window": 1
+          "title_filter": 1
         }
       },
       {
@@ -52,9 +51,9 @@
         "entries": 20,
         "within_24h": 7,
         "within_window": 16,
-        "eligible": 7,
+        "eligible": 5,
         "rejected": {
-          "topic_author_or_category": 9,
+          "topic_author_or_category": 11,
           "older_than_window": 4
         }
       },
@@ -74,12 +73,12 @@
         "source": "U.S. Bureau of Economic Analysis",
         "url": "https://apps.bea.gov/rss/rss.xml",
         "status": "ok",
-        "entries": 49,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "entries": 50,
+        "within_24h": 2,
+        "within_window": 2,
+        "eligible": 2,
         "rejected": {
-          "older_than_window": 49
+          "older_than_window": 48
         }
       },
       {
@@ -87,11 +86,11 @@
         "url": "https://www.sec.gov/news/pressreleases.rss",
         "status": "ok",
         "entries": 25,
-        "within_24h": 0,
-        "within_window": 0,
-        "eligible": 0,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
         "rejected": {
-          "older_than_window": 25
+          "older_than_window": 24
         }
       },
       {
@@ -100,11 +99,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 1,
-        "within_window": 3,
+        "within_window": 2,
         "eligible": 1,
         "rejected": {
-          "unreviewed_link": 2,
-          "older_than_window": 12
+          "unreviewed_link": 1,
+          "older_than_window": 13
         }
       },
       {
@@ -184,23 +183,68 @@
       }
     ],
     "eligible_by_source": {
+      "SEC": 1,
+      "U.S. Bureau of Economic Analysis": 2,
+      "NewsBTC": 3,
       "European Central Bank": 1,
-      "Cryptonews": 7,
-      "NewsBTC": 2
+      "Cryptonews": 5
     },
     "unique_by_source": {
+      "SEC": 1,
+      "U.S. Bureau of Economic Analysis": 2,
+      "NewsBTC": 3,
       "European Central Bank": 1,
-      "Cryptonews": 7,
-      "NewsBTC": 2
+      "Cryptonews": 5
     },
     "selected_by_source": {
+      "SEC": 1,
+      "U.S. Bureau of Economic Analysis": 2,
+      "NewsBTC": 3,
       "European Central Bank": 1,
-      "Cryptonews": 7,
-      "NewsBTC": 2
+      "Cryptonews": 5
     }
   },
-  "count": 10,
+  "count": 12,
   "items": [
+    {
+      "title": "SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting",
+      "link": "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting",
+      "summary": "The Securities and Exchange Commission’s Investor Advisory Committee will hold a virtual public meeting on Dec. 3, at 9:30 a.m. ET to discuss the trading of tokenized securities, bankruptcy, and accounting oversight. The meeting will be webcast…",
+      "source": "SEC",
+      "date": "2026-11-25",
+      "date_human": "Nov 25, 2026",
+      "pub_ts": 1795615824,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "GDP, (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
+      "link": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 4.3 percent in the third quarter of 2026 (July, August, and September), according to the second estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a subtraction in the calculation of GDP, increased.",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-11-25",
+      "date_human": "Nov 25, 2026",
+      "pub_ts": 1795613400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "HyroTrader Adds Hyro Core From $9 and No-Evaluation Hyro Instant to Rebuilt Crypto Prop Platform",
+      "link": "https://www.newsbtc.com/news/hyrotrader-adds-hyro-core-from-9-and-no-evaluation-hyro-instant-to-rebuilt-crypto-prop-platform-2/",
+      "summary": "The new accounts follow an October overhaul that brought the firm’s own trading terminal, AI-agent trading, BloFin and static loss limits on every challenge DUBAI, UAE, November 2026: HyroTrader, a crypto proprietary trading firm, has launched two new ways to get a funded trading account. Hyro Core is a one-phase challenge from $9, and Hyro Instant skips the challenge altogether. Both went on sale on 4 November 2026. They are the second step of a rebuild that began in October. That month HyroTrader launched its own trading terminal with stock and index contracts and opened accounts on it to AI",
+      "source": "NewsBTC",
+      "date": "2026-11-25",
+      "date_human": "Nov 25, 2026",
+      "pub_ts": 1795609870,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Card payments edge past cash in shops; euro area consumers want both",
       "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html",
@@ -222,6 +266,19 @@
       "date": "2026-11-25",
       "date_human": "Nov 25, 2026",
       "pub_ts": 1795593923,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Personal Income and Outlays, October 2026",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+      "summary": "Personal income increased $201.8 billion (0.7 percent at a monthly rate) in October, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $200.5 billion (0.8 percent), and personal consumption expenditures (PCE) increased $63.8 billion (0.3 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $69.3 billion in October. Personal saving was $1.00 trillion, and the personal saving rate–personal saving as a percenta",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-11-25",
+      "date_human": "Nov 25, 2026",
+      "pub_ts": 1795613400,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -300,32 +357,6 @@
       "date": "2026-11-24",
       "date_human": "Nov 24, 2026",
       "pub_ts": 1795503259,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "BTC Price Explodes by $8k: Jensen Huang Is Back!",
-      "link": "https://cryptonews.com/news/jensen-huang-back-btc-price-explodes-8k/",
-      "summary": "BTC price rebounds sharply as Jensen Huang returns to Nvidia, triggering a massive rally across tech stocks and crypto markets.",
-      "source": "Cryptonews",
-      "date": "2026-11-23",
-      "date_human": "Nov 23, 2026",
-      "pub_ts": 1795448065,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "HYPE and ENA Catch the Bid, but ZEC Misses Crypto Bounce",
-      "link": "https://cryptonews.com/news/hype-ena-rally-zec-lags-crypto-bounce/",
-      "summary": "HYPE and ENA surge nearly 6% as Zcash lags the crypto rebound. We analyze for a potential bottom in HYPE and ZEC.",
-      "source": "Cryptonews",
-      "date": "2026-11-23",
-      "date_human": "Nov 23, 2026",
-      "pub_ts": 1795432527,
       "image_candidates": [],
       "license_url": null,
       "image": null,
