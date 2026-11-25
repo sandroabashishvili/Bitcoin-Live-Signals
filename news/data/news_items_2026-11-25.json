@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-25",
-  "generated_at_utc": "2026-11-25 05:05:09 UTC",
+  "generated_at_utc": "2026-11-25 11:05:09 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-25T05:05:02.428177+00:00",
+    "collected_at": "2026-11-25T11:05:01.944763+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,12 +24,13 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 8,
-        "within_window": 10,
+        "within_24h": 5,
+        "within_window": 9,
         "eligible": 2,
         "rejected": {
           "unreviewed_link": 6,
-          "title_filter": 2
+          "title_filter": 1,
+          "older_than_window": 1
         }
       },
       {
@@ -49,12 +50,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 10,
-        "within_window": 17,
-        "eligible": 8,
+        "within_24h": 7,
+        "within_window": 16,
+        "eligible": 7,
         "rejected": {
           "topic_author_or_category": 9,
-          "older_than_window": 3
+          "older_than_window": 4
         }
       },
       {
@@ -100,10 +101,9 @@
         "entries": 15,
         "within_24h": 1,
         "within_window": 3,
-        "eligible": 0,
+        "eligible": 1,
         "rejected": {
           "unreviewed_link": 2,
-          "topic_author_or_category": 1,
           "older_than_window": 12
         }
       },
@@ -184,20 +184,49 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 8
+      "European Central Bank": 1,
+      "Cryptonews": 7,
+      "NewsBTC": 2
     },
     "unique_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 8
+      "European Central Bank": 1,
+      "Cryptonews": 7,
+      "NewsBTC": 2
     },
     "selected_by_source": {
-      "NewsBTC": 2,
-      "Cryptonews": 8
+      "European Central Bank": 1,
+      "Cryptonews": 7,
+      "NewsBTC": 2
     }
   },
   "count": 10,
   "items": [
+    {
+      "title": "Card payments edge past cash in shops; euro area consumers want both",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html",
+      "summary": "Card payments edge past cash in shops; euro area consumers want both",
+      "source": "European Central Bank",
+      "date": "2026-11-25",
+      "date_human": "Nov 25, 2026",
+      "pub_ts": 1795600800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "LIVE – Crypto News Today: Bitcoin Hit by Trump Tariff Threat and US Treasury Cyberattack as IBIT Bleeds Billions",
+      "link": "https://cryptonews.com/news/crypto-news-bitcoin-trump-tariffs-ibit-etf-outflows/",
+      "summary": "Crypto turns bearish as Trump's tariff threat news rattles markets, the Treasury faces a cyberattack, and Bitcoin ETF outflows close at $5B.",
+      "source": "Cryptonews",
+      "date": "2026-11-25",
+      "date_human": "Nov 25, 2026",
+      "pub_ts": 1795593923,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
     {
       "title": "Global Digital Asset and Structured Finance Platform OpenVault Completes $2 Million Seed Round at $20 Million Post-Money Valuation",
       "link": "https://www.newsbtc.com/news/global-digital-asset-and-structured-finance-platform-openvault-completes-2-million-seed-round-at-20-million-post-money-valuation/",
@@ -264,7 +293,7 @@
       "image_local": null
     },
     {
-      "title": "LIVE – Bitcoin Overnight Rally Roundtripped: Saylor and Strategy Didn't Flinch",
+      "title": "Bitcoin Overnight Rally Roundtripped: Saylor and Strategy Didn't Flinch",
       "link": "https://cryptonews.com/news/bitcoin-rally-roundtrip-saylor-strategy-buying-crypto-news/",
       "summary": "Bitcoin's overnight rally above $64K reversed as Strategy bought another 457 BTC, putting Saylor under the crypto news spotlight.",
       "source": "Cryptonews",
@@ -297,32 +326,6 @@
       "date": "2026-11-23",
       "date_human": "Nov 23, 2026",
       "pub_ts": 1795432527,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Ripple News: XRP Eyes Recovery as $0.90 Support Could Set Up a Rebound",
-      "link": "https://cryptonews.com/news/ripple-news-xrp-90-support-recovery/",
-      "summary": "In ripple news today, XRP rebounds near $0.93 after touching $0.86. Can $0.90 support hold and open the door toward $1.10?",
-      "source": "Cryptonews",
-      "date": "2026-11-23",
-      "date_human": "Nov 23, 2026",
-      "pub_ts": 1795421426,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin and Ethereum Bounce Back: Market Finally Turning?",
-      "link": "https://cryptonews.com/news/crypto-news-bitcoin-ethereum-recovery/",
-      "summary": "Crypto turns bullish as Bitcoin rebounds, but stocks, oil, gold, and geopolitical news could determine if the recovery lasts.",
-      "source": "Cryptonews",
-      "date": "2026-11-23",
-      "date_human": "Nov 23, 2026",
-      "pub_ts": 1795417968,
       "image_candidates": [],
       "license_url": null,
       "image": null,
