@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-25",
-  "generated_at_utc": "2026-11-25 19:52:52 UTC",
+  "generated_at_utc": "2026-11-25 23:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-25T19:52:44.653679+00:00",
+    "collected_at": "2026-11-25T23:05:03.128770+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,7 +24,7 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 3,
+        "within_24h": 2,
         "within_window": 10,
         "eligible": 3,
         "rejected": {
@@ -174,12 +174,12 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 0,
-        "within_window": 1,
+        "within_24h": 2,
+        "within_window": 3,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 19
+          "topic_author_or_category": 3,
+          "older_than_window": 17
         }
       }
     ],

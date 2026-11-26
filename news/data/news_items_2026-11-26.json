@@ -1,0 +1,365 @@
+{
+  "day_iso": "2026-11-26",
+  "generated_at_utc": "2026-11-26 05:05:10 UTC",
+  "source_names": [
+    "NewsBTC",
+    "NIST",
+    "Cryptonews",
+    "U.S. Bureau of Labor Statistics",
+    "U.S. Bureau of Economic Analysis",
+    "SEC",
+    "European Central Bank",
+    "Bitcoin Optech",
+    "Federal Reserve Board"
+  ],
+  "lookback_hours": [
+    48
+  ],
+  "collection_diagnostics": {
+    "collected_at": "2026-11-26T05:05:04.088941+00:00",
+    "window_hours": 48,
+    "feeds": [
+      {
+        "source": "NewsBTC",
+        "url": "https://www.newsbtc.com/feed/",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 2,
+        "within_window": 10,
+        "eligible": 3,
+        "rejected": {
+          "unreviewed_link": 7
+        }
+      },
+      {
+        "source": "NIST",
+        "url": "https://www.nist.gov/news-events/news/rss.xml",
+        "status": "ok",
+        "entries": 40,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 40
+        }
+      },
+      {
+        "source": "Cryptonews",
+        "url": "https://cryptonews.com/feed/",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 7,
+        "within_window": 17,
+        "eligible": 6,
+        "rejected": {
+          "topic_author_or_category": 11,
+          "older_than_window": 3
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/cpi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Economic Analysis",
+        "url": "https://apps.bea.gov/rss/rss.xml",
+        "status": "ok",
+        "entries": 50,
+        "within_24h": 2,
+        "within_window": 2,
+        "eligible": 2,
+        "rejected": {
+          "older_than_window": 48
+        }
+      },
+      {
+        "source": "SEC",
+        "url": "https://www.sec.gov/news/pressreleases.rss",
+        "status": "ok",
+        "entries": 25,
+        "within_24h": 1,
+        "within_window": 1,
+        "eligible": 1,
+        "rejected": {
+          "older_than_window": 24
+        }
+      },
+      {
+        "source": "European Central Bank",
+        "url": "https://www.ecb.europa.eu/rss/press.html",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 2,
+        "within_window": 3,
+        "eligible": 1,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "unreviewed_link": 1,
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Bitcoin Optech",
+        "url": "https://bitcoinops.org/feed.xml",
+        "status": "ok",
+        "entries": 10,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 10
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "status": "ok",
+        "entries": 15,
+        "within_24h": 0,
+        "within_window": 1,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 1,
+          "older_than_window": 14
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/ppi.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/empsit.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/feed/jolts.rss",
+        "status": "ok",
+        "entries": 12,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {
+          "older_than_window": 12
+        }
+      },
+      {
+        "source": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "status": "ok",
+        "entries": 20,
+        "within_24h": 2,
+        "within_window": 3,
+        "eligible": 0,
+        "rejected": {
+          "topic_author_or_category": 3,
+          "older_than_window": 17
+        }
+      }
+    ],
+    "eligible_by_source": {
+      "Cryptonews": 6,
+      "SEC": 1,
+      "U.S. Bureau of Economic Analysis": 2,
+      "NewsBTC": 3,
+      "European Central Bank": 1
+    },
+    "unique_by_source": {
+      "Cryptonews": 6,
+      "SEC": 1,
+      "U.S. Bureau of Economic Analysis": 2,
+      "NewsBTC": 3,
+      "European Central Bank": 1
+    },
+    "selected_by_source": {
+      "Cryptonews": 5,
+      "SEC": 1,
+      "U.S. Bureau of Economic Analysis": 2,
+      "NewsBTC": 3,
+      "European Central Bank": 1
+    }
+  },
+  "count": 12,
+  "items": [
+    {
+      "title": "LIVE – Crypto News Today: Is Bitcoin Bottoming Out? BTC Bounces Back After PCE Shock",
+      "link": "https://cryptonews.com/news/bitcoin-crypto-news-btc-bottom-pce-rebound/",
+      "summary": "Bitcoin rebounds toward $60,000 after inflation shock and series of bad crypto news. Is the crypto market finally finding a bottom?",
+      "source": "Cryptonews",
+      "date": "2026-11-26",
+      "date_human": "Nov 26, 2026",
+      "pub_ts": 1795669064,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "SEC Investor Advisory Committee to Host Dec. 3 Virtual Meeting",
+      "link": "https://www.sec.gov/newsroom/press-releases/2026-118-sec-investor-advisory-committee-host-dec-3-virtual-meeting",
+      "summary": "The Securities and Exchange Commission’s Investor Advisory Committee will hold a virtual public meeting on Dec. 3, at 9:30 a.m. ET to discuss the trading of tokenized securities, bankruptcy, and accounting oversight. The meeting will be webcast…",
+      "source": "SEC",
+      "date": "2026-11-25",
+      "date_human": "Nov 25, 2026",
+      "pub_ts": 1795615824,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "GDP, (Second Estimate) and Corporate Profits, 3rd Quarter 2026",
+      "link": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+      "summary": "Real gross domestic product (GDP) increased at an annual rate of 4.3 percent in the third quarter of 2026 (July, August, and September), according to the second estimate released today by the U.S. Bureau of Economic Analysis (BEA). In the second quarter, real GDP increased 2.2 percent. The contributors to the increase in real GDP in the third quarter were increases in investment, consumer spending, and government spending that were partly offset by a decrease in exports. Imports, which are a subtraction in the calculation of GDP, increased.",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-11-25",
+      "date_human": "Nov 25, 2026",
+      "pub_ts": 1795613400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "HyroTrader Adds Hyro Core From $9 and No-Evaluation Hyro Instant to Rebuilt Crypto Prop Platform",
+      "link": "https://www.newsbtc.com/news/hyrotrader-adds-hyro-core-from-9-and-no-evaluation-hyro-instant-to-rebuilt-crypto-prop-platform-2/",
+      "summary": "The new accounts follow an October overhaul that brought the firm’s own trading terminal, AI-agent trading, BloFin and static loss limits on every challenge DUBAI, UAE, November 2026: HyroTrader, a crypto proprietary trading firm, has launched two new ways to get a funded trading account. Hyro Core is a one-phase challenge from $9, and Hyro Instant skips the challenge altogether. Both went on sale on 4 November 2026. They are the second step of a rebuild that began in October. That month HyroTrader launched its own trading terminal with stock and index contracts and opened accounts on it to AI",
+      "source": "NewsBTC",
+      "date": "2026-11-25",
+      "date_human": "Nov 25, 2026",
+      "pub_ts": 1795609870,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Card payments edge past cash in shops; euro area consumers want both",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html",
+      "summary": "Card payments edge past cash in shops; euro area consumers want both",
+      "source": "European Central Bank",
+      "date": "2026-11-25",
+      "date_human": "Nov 25, 2026",
+      "pub_ts": 1795600800,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Crypto News Today: Bitcoin Hit by Trump Tariff Threat and US Treasury Cyberattack as IBIT Bleeds Billions",
+      "link": "https://cryptonews.com/news/crypto-news-bitcoin-trump-tariffs-ibit-etf-outflows/",
+      "summary": "Crypto turns bearish as Trump's tariff threat news rattles markets, the Treasury faces a cyberattack, and Bitcoin ETF outflows close at $5B.",
+      "source": "Cryptonews",
+      "date": "2026-11-25",
+      "date_human": "Nov 25, 2026",
+      "pub_ts": 1795593923,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Personal Income and Outlays, October 2026",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+      "summary": "Personal income increased $201.8 billion (0.7 percent at a monthly rate) in October, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $200.5 billion (0.8 percent), and personal consumption expenditures (PCE) increased $63.8 billion (0.3 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $69.3 billion in October. Personal saving was $1.00 trillion, and the personal saving rate–personal saving as a percenta",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-11-25",
+      "date_human": "Nov 25, 2026",
+      "pub_ts": 1795613400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Global Digital Asset and Structured Finance Platform OpenVault Completes $2 Million Seed Round at $20 Million Post-Money Valuation",
+      "link": "https://www.newsbtc.com/news/global-digital-asset-and-structured-finance-platform-openvault-completes-2-million-seed-round-at-20-million-post-money-valuation/",
+      "summary": "Round led by HorizonArc Ventures; proceeds to fund AI technology, product expansion, compliance and global growth Global digital asset and structured finance platform OpenVault today announced the completion of a $2 million seed round led by HorizonArc Ventures, with a post-money valuation of $20 million. The proceeds will be primarily used for AI technology development, product portfolio expansion, compliance infrastructure, and global market growth. A One-Stop Gateway for Digital Asset Yield OpenVault is an innovative financial platform focused on digital asset yield management, RWA (real-wo",
+      "source": "NewsBTC",
+      "date": "2026-11-25",
+      "date_human": "Nov 25, 2026",
+      "pub_ts": 1795582095,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin News: CFTC Decision to Push BTC Toward $80K?",
+      "link": "https://cryptonews.com/news/bitcoin-news-cftc-decision-btc-80000/",
+      "summary": "Bitcoin may have another path toward $80K with news that the CFTC eased crypto collateral rules for key firms. $80K next?",
+      "source": "Cryptonews",
+      "date": "2026-11-24",
+      "date_human": "Nov 24, 2026",
+      "pub_ts": 1795531291,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "MEXC Releases September–October Security Report: Guardian Fund Adds 1,000 BTC, Reserve Ratios Exceed 100%",
+      "link": "https://www.newsbtc.com/news/mexc-releases-september-october-security-report-guardian-fund-adds-1000-btc-reserve-ratios-exceed-100/",
+      "summary": "Mutsamudu, Comoros, November 24, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its September–October 2026 security report. The report shows that the MEXC Guardian Fund increased its BTC holdings to 2,000 BTC, while reserve ratios for four major assets—BTC, ETH, USDT, and USDC—remained above 100%. The crypto industry faces security challenges across multiple points of exposure. The report recorded 196 security incidents in September–October, with total asset losses exceeding $7.3 billion. Several large-scale incidents involved breaches of exchange wallets and transaction s",
+      "source": "NewsBTC",
+      "date": "2026-11-24",
+      "date_human": "Nov 24, 2026",
+      "pub_ts": 1795514711,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Bitcoin ETF Loses $570M: More Than Half of BTC Supply Falls Out of Profit",
+      "link": "https://cryptonews.com/news/bitcoin-price-etf-outflows-supply-losses/",
+      "summary": "Bitcoin price is under pressure yet again as ETFs lose $569M, and only 47.3% of BTC holders remain in profit. What's next?",
+      "source": "Cryptonews",
+      "date": "2026-11-24",
+      "date_human": "Nov 24, 2026",
+      "pub_ts": 1795516271,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum Security Overhaul Since the Merge Is Coming",
+      "link": "https://cryptonews.com/news/ethereum-security-overhaul-since-merge/",
+      "summary": "Ethereum is doubling its protocol security team for a major cryptographic overhaul targeting AI and quantum threats, with a 2028 deadline.",
+      "source": "Cryptonews",
+      "date": "2026-11-24",
+      "date_human": "Nov 24, 2026",
+      "pub_ts": 1795505763,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    }
+  ]
+}
