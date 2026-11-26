@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-26",
-  "generated_at_utc": "2026-11-26 05:05:10 UTC",
+  "generated_at_utc": "2026-11-26 11:05:23 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,20 +16,18 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-26T05:05:04.088941+00:00",
+    "collected_at": "2026-11-26T11:05:04.607020+00:00",
     "window_hours": 48,
     "feeds": [
       {
         "source": "NewsBTC",
         "url": "https://www.newsbtc.com/feed/",
-        "status": "ok",
-        "entries": 10,
-        "within_24h": 2,
-        "within_window": 10,
-        "eligible": 3,
-        "rejected": {
-          "unreviewed_link": 7
-        }
+        "status": "failed",
+        "entries": 0,
+        "within_24h": 0,
+        "within_window": 0,
+        "eligible": 0,
+        "rejected": {}
       },
       {
         "source": "NIST",
@@ -48,12 +46,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 7,
-        "within_window": 17,
-        "eligible": 6,
+        "within_24h": 8,
+        "within_window": 15,
+        "eligible": 4,
         "rejected": {
           "topic_author_or_category": 11,
-          "older_than_window": 3
+          "older_than_window": 5
         }
       },
       {
@@ -97,13 +95,12 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 2,
-        "within_window": 3,
+        "within_24h": 1,
+        "within_window": 2,
         "eligible": 1,
         "rejected": {
           "topic_author_or_category": 1,
-          "unreviewed_link": 1,
-          "older_than_window": 12
+          "older_than_window": 13
         }
       },
       {
@@ -182,37 +179,34 @@
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 6,
+      "Cryptonews": 4,
       "SEC": 1,
       "U.S. Bureau of Economic Analysis": 2,
-      "NewsBTC": 3,
       "European Central Bank": 1
     },
     "unique_by_source": {
-      "Cryptonews": 6,
+      "Cryptonews": 4,
       "SEC": 1,
       "U.S. Bureau of Economic Analysis": 2,
-      "NewsBTC": 3,
       "European Central Bank": 1
     },
     "selected_by_source": {
-      "Cryptonews": 5,
+      "Cryptonews": 4,
       "SEC": 1,
       "U.S. Bureau of Economic Analysis": 2,
-      "NewsBTC": 3,
       "European Central Bank": 1
     }
   },
-  "count": 12,
+  "count": 8,
   "items": [
     {
-      "title": "LIVE – Crypto News Today: Is Bitcoin Bottoming Out? BTC Bounces Back After PCE Shock",
-      "link": "https://cryptonews.com/news/bitcoin-crypto-news-btc-bottom-pce-rebound/",
-      "summary": "Bitcoin rebounds toward $60,000 after inflation shock and series of bad crypto news. Is the crypto market finally finding a bottom?",
+      "title": "Why Is Crypto Up Today? BTC Back Above $60K – is the Bull Market Back?",
+      "link": "https://cryptonews.com/news/why-is-crypto-up-today-btc-back-above-60k-bull-market-back/",
+      "summary": "Why Is Crypto Up Today? This is the question every trader is asking after the cryptocurrency market staged a clear rebound on Thursday, November 26, 2026, snapping a multi-day losing streak and giving battered traders some relief. After sliding to multi-week lows earlier in the week, major tokens climbed as buyers stepped in at discounted […]",
       "source": "Cryptonews",
       "date": "2026-11-26",
       "date_human": "Nov 26, 2026",
-      "pub_ts": 1795669064,
+      "pub_ts": 1795687882,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -245,19 +239,6 @@
       "image_local": null
     },
     {
-      "title": "HyroTrader Adds Hyro Core From $9 and No-Evaluation Hyro Instant to Rebuilt Crypto Prop Platform",
-      "link": "https://www.newsbtc.com/news/hyrotrader-adds-hyro-core-from-9-and-no-evaluation-hyro-instant-to-rebuilt-crypto-prop-platform-2/",
-      "summary": "The new accounts follow an October overhaul that brought the firm’s own trading terminal, AI-agent trading, BloFin and static loss limits on every challenge DUBAI, UAE, November 2026: HyroTrader, a crypto proprietary trading firm, has launched two new ways to get a funded trading account. Hyro Core is a one-phase challenge from $9, and Hyro Instant skips the challenge altogether. Both went on sale on 4 November 2026. They are the second step of a rebuild that began in October. That month HyroTrader launched its own trading terminal with stock and index contracts and opened accounts on it to AI",
-      "source": "NewsBTC",
-      "date": "2026-11-25",
-      "date_human": "Nov 25, 2026",
-      "pub_ts": 1795609870,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Card payments edge past cash in shops; euro area consumers want both",
       "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html",
       "summary": "Card payments edge past cash in shops; euro area consumers want both",
@@ -271,13 +252,13 @@
       "image_local": null
     },
     {
-      "title": "Crypto News Today: Bitcoin Hit by Trump Tariff Threat and US Treasury Cyberattack as IBIT Bleeds Billions",
-      "link": "https://cryptonews.com/news/crypto-news-bitcoin-trump-tariffs-ibit-etf-outflows/",
-      "summary": "Crypto turns bearish as Trump's tariff threat news rattles markets, the Treasury faces a cyberattack, and Bitcoin ETF outflows close at $5B.",
+      "title": "LIVE – Crypto News Today: Is Bitcoin Bottoming Out? BTC Bounces Back After PCE Shock",
+      "link": "https://cryptonews.com/news/bitcoin-crypto-news-btc-bottom-pce-rebound/",
+      "summary": "Bitcoin rebounds toward $60,000 after inflation shock and series of bad crypto news. Is the crypto market finally finding a bottom?",
       "source": "Cryptonews",
-      "date": "2026-11-25",
-      "date_human": "Nov 25, 2026",
-      "pub_ts": 1795593923,
+      "date": "2026-11-26",
+      "date_human": "Nov 26, 2026",
+      "pub_ts": 1795669064,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -297,13 +278,13 @@
       "image_local": null
     },
     {
-      "title": "Global Digital Asset and Structured Finance Platform OpenVault Completes $2 Million Seed Round at $20 Million Post-Money Valuation",
-      "link": "https://www.newsbtc.com/news/global-digital-asset-and-structured-finance-platform-openvault-completes-2-million-seed-round-at-20-million-post-money-valuation/",
-      "summary": "Round led by HorizonArc Ventures; proceeds to fund AI technology, product expansion, compliance and global growth Global digital asset and structured finance platform OpenVault today announced the completion of a $2 million seed round led by HorizonArc Ventures, with a post-money valuation of $20 million. The proceeds will be primarily used for AI technology development, product portfolio expansion, compliance infrastructure, and global market growth. A One-Stop Gateway for Digital Asset Yield OpenVault is an innovative financial platform focused on digital asset yield management, RWA (real-wo",
-      "source": "NewsBTC",
+      "title": "Crypto News Today: Bitcoin Hit by Trump Tariff Threat and US Treasury Cyberattack as IBIT Bleeds Billions",
+      "link": "https://cryptonews.com/news/crypto-news-bitcoin-trump-tariffs-ibit-etf-outflows/",
+      "summary": "Crypto turns bearish as Trump's tariff threat news rattles markets, the Treasury faces a cyberattack, and Bitcoin ETF outflows close at $5B.",
+      "source": "Cryptonews",
       "date": "2026-11-25",
       "date_human": "Nov 25, 2026",
-      "pub_ts": 1795582095,
+      "pub_ts": 1795593923,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -317,45 +298,6 @@
       "date": "2026-11-24",
       "date_human": "Nov 24, 2026",
       "pub_ts": 1795531291,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "MEXC Releases September–October Security Report: Guardian Fund Adds 1,000 BTC, Reserve Ratios Exceed 100%",
-      "link": "https://www.newsbtc.com/news/mexc-releases-september-october-security-report-guardian-fund-adds-1000-btc-reserve-ratios-exceed-100/",
-      "summary": "Mutsamudu, Comoros, November 24, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released its September–October 2026 security report. The report shows that the MEXC Guardian Fund increased its BTC holdings to 2,000 BTC, while reserve ratios for four major assets—BTC, ETH, USDT, and USDC—remained above 100%. The crypto industry faces security challenges across multiple points of exposure. The report recorded 196 security incidents in September–October, with total asset losses exceeding $7.3 billion. Several large-scale incidents involved breaches of exchange wallets and transaction s",
-      "source": "NewsBTC",
-      "date": "2026-11-24",
-      "date_human": "Nov 24, 2026",
-      "pub_ts": 1795514711,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Bitcoin ETF Loses $570M: More Than Half of BTC Supply Falls Out of Profit",
-      "link": "https://cryptonews.com/news/bitcoin-price-etf-outflows-supply-losses/",
-      "summary": "Bitcoin price is under pressure yet again as ETFs lose $569M, and only 47.3% of BTC holders remain in profit. What's next?",
-      "source": "Cryptonews",
-      "date": "2026-11-24",
-      "date_human": "Nov 24, 2026",
-      "pub_ts": 1795516271,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Ethereum Security Overhaul Since the Merge Is Coming",
-      "link": "https://cryptonews.com/news/ethereum-security-overhaul-since-merge/",
-      "summary": "Ethereum is doubling its protocol security team for a major cryptographic overhaul targeting AI and quantum threats, with a 2028 deadline.",
-      "source": "Cryptonews",
-      "date": "2026-11-24",
-      "date_human": "Nov 24, 2026",
-      "pub_ts": 1795505763,
       "image_candidates": [],
       "license_url": null,
       "image": null,
