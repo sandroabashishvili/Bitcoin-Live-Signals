@@ -102,7 +102,7 @@ function buildOption(E, theme) {
         color: theme.muted,
         formatter(value) {
           const d = new Date(value);
-          return `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}\n${String(d.getDate()).padStart(2, "0")}.${String(d.getMonth() + 1).padStart(2, "0")}`;
+          return `${String(d.getUTCHours()).padStart(2, "0")}:${String(d.getUTCMinutes()).padStart(2, "0")}\n${String(d.getUTCDate()).padStart(2, "0")}.${String(d.getUTCMonth() + 1).padStart(2, "0")}`;
         },
       },
       axisLine: { lineStyle: { color: "rgba(255,255,255,0.14)" } },

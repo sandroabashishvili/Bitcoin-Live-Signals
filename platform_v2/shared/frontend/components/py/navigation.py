@@ -122,7 +122,16 @@ def render_site_navigation(*, active_page: str, base_prefix: str = "..") -> str:
       <script>
         (() => {{
           const menus = document.querySelectorAll(".global-nav-menu");
-          const hoverCapable = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+          const isHoverDesktop = () =>
+            window.matchMedia("(hover: hover) and (pointer: fine)").matches &&
+            window.matchMedia("(min-width: 761px)").matches;
+          const closeAll = (exceptMenu = null) => {{
+            menus.forEach((otherMenu) => {{
+              if (otherMenu === exceptMenu) return;
+              otherMenu.open = false;
+              otherMenu.querySelector("summary")?.setAttribute("aria-expanded", "false");
+            }});
+          }};
           menus.forEach((menu) => {{
             const summary = menu.querySelector("summary");
             if (!summary) return;
@@ -141,26 +150,25 @@ def render_site_navigation(*, active_page: str, base_prefix: str = "..") -> str:
                 setOpen(false);
               }}, 180);
             }};
-            if (hoverCapable) {{
-              summary.addEventListener("click", (event) => event.preventDefault());
-              menu.addEventListener("mouseenter", openMenu);
-              menu.addEventListener("mouseleave", closeMenu);
-            }} else {{
-              summary.addEventListener("click", (event) => {{
-                event.preventDefault();
-                const shouldOpen = !menu.open;
-                menus.forEach((otherMenu) => {{
-                  if (otherMenu === menu) return;
-                  otherMenu.open = false;
-                  otherMenu.querySelector("summary")?.setAttribute("aria-expanded", "false");
-                }});
-                setOpen(shouldOpen);
-              }});
-            }}
-            menu.addEventListener("focusin", openMenu);
+            summary.addEventListener("click", (event) => {{
+              event.preventDefault();
+              if (isHoverDesktop()) {{
+                openMenu();
+                return;
+              }}
+              const shouldOpen = !menu.open;
+              closeAll(menu);
+              setOpen(shouldOpen);
+            }});
+            menu.addEventListener("mouseenter", () => {{
+              if (isHoverDesktop()) openMenu();
+            }});
+            menu.addEventListener("mouseleave", () => {{
+              if (isHoverDesktop()) closeMenu();
+            }});
             menu.addEventListener("focusout", () => {{
               window.setTimeout(() => {{
-                if (!menu.contains(document.activeElement)) menu.open = false;
+                if (!menu.contains(document.activeElement)) setOpen(false);
               }}, 0);
             }});
           }});
@@ -173,10 +181,7 @@ def render_site_navigation(*, active_page: str, base_prefix: str = "..") -> str:
           }});
           document.addEventListener("keydown", (event) => {{
             if (event.key !== "Escape") return;
-            menus.forEach((menu) => {{
-              menu.open = false;
-              menu.querySelector("summary")?.setAttribute("aria-expanded", "false");
-            }});
+            closeAll();
           }});
         }})();
       </script>

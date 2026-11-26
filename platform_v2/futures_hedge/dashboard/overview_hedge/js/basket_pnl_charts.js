@@ -1,8 +1,24 @@
-import { buildGradient, mountChart } from "../../../../shared/frontend/charts/common.js";
+import { mountChart } from "../../../../shared/frontend/charts/common.js";
 
 function asNumber(value) {
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : 0;
+}
+
+function niceSymmetricBound(maxAbs) {
+  const padded = Math.max(maxAbs * 1.12, 10);
+  const magnitude = Math.pow(10, Math.floor(Math.log10(padded)));
+  const normalized = padded / magnitude;
+  const step = normalized <= 1.2 ? 1.2 : normalized <= 1.5 ? 1.5 : normalized <= 2 ? 2 : normalized <= 2.5 ? 2.5 : normalized <= 3 ? 3 : normalized <= 4 ? 4 : normalized <= 5 ? 5 : normalized <= 6 ? 6 : normalized <= 8 ? 8 : 10;
+  return Math.ceil(step * magnitude);
+}
+
+function formatAxisDate(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return "";
+  }
+  return date.toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
 }
 
 function timestampOf(row) {
@@ -38,9 +54,6 @@ function basketPoints(side) {
 function buildOption(side) {
   return (E, theme) => {
     const points = basketPoints(side);
-    const positiveColor = side === "LONG" ? theme.green : theme.red;
-    const latestPnl = points.length ? Number(points[points.length - 1][1]) : 0;
-    const lineColor = latestPnl >= 0 ? positiveColor : theme.red;
     const isMobile = window.matchMedia("(max-width: 640px)").matches;
 
     if (!points.length) {
@@ -55,9 +68,22 @@ function buildOption(side) {
       };
     }
 
+    const maxAbs = points.reduce((acc, point) => Math.max(acc, Math.abs(Number(point[1]) || 0)), 0);
+    const bound = niceSymmetricBound(maxAbs);
+
     return {
       animationDuration: 420,
       grid: { left: isMobile ? 48 : 54, right: 18, top: 18, bottom: 34 },
+      visualMap: {
+        show: false,
+        type: "piecewise",
+        dimension: 1,
+        seriesIndex: 0,
+        pieces: [
+          { gte: 0, lte: bound, color: theme.green },
+          { gte: -bound, lt: 0, color: theme.red },
+        ],
+      },
       tooltip: {
         trigger: "axis",
         confine: true,
@@ -68,22 +94,39 @@ function buildOption(side) {
         formatter(params) {
           const point = params?.[0]?.value;
           if (!Array.isArray(point)) return "";
-          const time = new Date(point[0]).toLocaleString();
-          const pnl = Number(point[1]).toFixed(2);
+          const time =
+            new Date(point[0]).toLocaleString("en-US", {
+              month: "short",
+              day: "numeric",
+              hour: "2-digit",
+              minute: "2-digit",
+              hour12: false,
+              timeZone: "UTC",
+            }) + " UTC";
+          const pnlNum = Number(point[1]);
+          const pnl = `${pnlNum >= 0 ? "+" : ""}${pnlNum.toFixed(2)}`;
+          const pnlColor = pnlNum >= 0 ? theme.green : theme.red;
           const margin = Number(point[2]).toFixed(2);
           const entries = Number(point[3]);
-          return `<strong>${side} Basket</strong><br>${time}<br>PnL: <b>${pnl} USDT</b><br>Margin: ${margin} USDT<br>Entries: ${entries}`;
+          return `<strong>${side} Basket</strong><br>${time}<br>PnL: <b style="color:${pnlColor};">${pnl} USDT</b><br>Margin: ${margin} USDT<br>Entries: ${entries}`;
         },
       },
       xAxis: {
         type: "time",
-        axisLabel: { color: theme.muted, fontSize: 10, hideOverlap: true },
+        axisLabel: {
+          color: theme.muted,
+          fontSize: 10,
+          hideOverlap: true,
+          formatter: formatAxisDate,
+        },
         axisLine: { lineStyle: { color: theme.line } },
         axisTick: { show: false },
         splitLine: { show: false },
       },
       yAxis: {
         type: "value",
+        min: -bound,
+        max: bound,
         axisLabel: {
           color: theme.muted,
           fontSize: 10,
@@ -103,14 +146,13 @@ function buildOption(side) {
           smooth: 0.22,
           showSymbol: points.length < 8,
           symbolSize: 6,
-          lineStyle: { width: 2.2, color: lineColor },
-          itemStyle: { color: lineColor },
-          areaStyle: { color: buildGradient(E, lineColor), opacity: 0.28 },
+          lineStyle: { width: 2.2 },
+          areaStyle: { origin: "auto", opacity: 0.18 },
           markLine: {
             symbol: "none",
             silent: true,
             label: { show: false },
-            lineStyle: { color: "rgba(255,255,255,0.24)", type: "dashed" },
+            lineStyle: { color: "rgba(255,255,255,0.34)", type: "dashed" },
             data: [{ yAxis: 0 }],
           },
         },

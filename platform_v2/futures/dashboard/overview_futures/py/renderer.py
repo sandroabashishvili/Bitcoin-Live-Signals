@@ -138,7 +138,7 @@ class OverviewFuturesPageRenderer:
     {render_explanation_host(base_prefix="../")}
     <script>window.__SSH_OVERVIEW_EQUITY__ = {metrics_history_json};</script>
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
-    <script type="module" src="../../../shared/frontend/charts/equity_delta_chart.js?v=backend-v1"></script>
+    <script type="module" src="../../../shared/frontend/charts/equity_delta_chart.js?v=20261125-2"></script>
     {render_runtime_clock_script()}
   </body>
 </html>

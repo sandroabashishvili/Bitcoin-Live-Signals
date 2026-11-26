@@ -62,46 +62,80 @@
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png" />
     <link rel="manifest" href="./manifest.webmanifest" />
     <script src="/Bitcoin-Live-Signals/shared/components/js/analytics-consent.js" defer data-measurement-id="G-BMKYWEPNHB"></script>
-    <link rel="stylesheet" href="../shared/frontend/components/css/navigation.css?v=20260809-2" />
-    <link rel="stylesheet" href="./home/css/styles.css?v=20260809-2" />
+    <link rel="stylesheet" href="../shared/frontend/components/css/navigation.css?v=20261125-1" />
+    <link rel="stylesheet" href="./home/css/styles.css?v=20261125-1" />
   </head>
   <body>
     <main class="page">
       <div class="global-nav-shell">
         <nav class="global-nav" aria-label="Primary navigation">
           <a class="global-brand" href="./">SmartSignalHub</a>
-          <div class="global-nav-links"><a class="active" href="./">Home</a><details class="global-nav-menu"><summary>Strategies</summary><div class="global-nav-menu-panel"><a class="global-nav-menu-link" href="../spot/dashboard/overview_spot/">Spot</a><a class="global-nav-menu-link" href="../futures/dashboard/overview_futures/">Futures</a><a class="global-nav-menu-link" href="../futures_hedge/dashboard/overview_hedge/">Hedge</a></div></details><a href="./news/">News</a><a href="./resources/">Resources</a></div>
+          <div class="global-nav-links"><a class="active" href="./">Home</a><details class="global-nav-menu"><summary aria-haspopup="true" aria-expanded="false">Strategies</summary><div class="global-nav-menu-panel"><a class="global-nav-menu-link" href="../spot/dashboard/overview_spot/">Spot</a><a class="global-nav-menu-link" href="../futures/dashboard/overview_futures/">Futures</a><a class="global-nav-menu-link" href="../futures_hedge/dashboard/overview_hedge/">Hedge</a></div></details><a href="./news/">News</a><a href="./resources/">Resources</a></div>
         </nav>
       </div>
       <script>
         (() => {
           const menus = document.querySelectorAll(".global-nav-menu");
-          const hoverCapable = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+          const isHoverDesktop = () =>
+            window.matchMedia("(hover: hover) and (pointer: fine)").matches &&
+            window.matchMedia("(min-width: 761px)").matches;
+          const closeAll = (exceptMenu = null) => {
+            menus.forEach((otherMenu) => {
+              if (otherMenu === exceptMenu) return;
+              otherMenu.open = false;
+              otherMenu.querySelector("summary")?.setAttribute("aria-expanded", "false");
+            });
+          };
           menus.forEach((menu) => {
             const summary = menu.querySelector("summary");
             if (!summary) return;
             let closeTimer = 0;
+            const setOpen = (open) => {
+              menu.open = open;
+              summary.setAttribute("aria-expanded", open ? "true" : "false");
+            };
             const openMenu = () => {
               window.clearTimeout(closeTimer);
-              menu.open = true;
+              setOpen(true);
             };
             const closeMenu = () => {
               window.clearTimeout(closeTimer);
               closeTimer = window.setTimeout(() => {
-                menu.open = false;
+                setOpen(false);
               }, 180);
             };
-            if (hoverCapable) {
-              summary.addEventListener("click", (event) => event.preventDefault());
-              menu.addEventListener("mouseenter", openMenu);
-              menu.addEventListener("mouseleave", closeMenu);
-            }
-            menu.addEventListener("focusin", openMenu);
+            summary.addEventListener("click", (event) => {
+              event.preventDefault();
+              if (isHoverDesktop()) {
+                openMenu();
+                return;
+              }
+              const shouldOpen = !menu.open;
+              closeAll(menu);
+              setOpen(shouldOpen);
+            });
+            menu.addEventListener("mouseenter", () => {
+              if (isHoverDesktop()) openMenu();
+            });
+            menu.addEventListener("mouseleave", () => {
+              if (isHoverDesktop()) closeMenu();
+            });
             menu.addEventListener("focusout", () => {
               window.setTimeout(() => {
-                if (!menu.contains(document.activeElement)) menu.open = false;
+                if (!menu.contains(document.activeElement)) setOpen(false);
               }, 0);
             });
+          });
+          document.addEventListener("click", (event) => {
+            menus.forEach((menu) => {
+              if (menu.contains(event.target)) return;
+              menu.open = false;
+              menu.querySelector("summary")?.setAttribute("aria-expanded", "false");
+            });
+          });
+          document.addEventListener("keydown", (event) => {
+            if (event.key !== "Escape") return;
+            closeAll();
           });
         })();
       </script>
