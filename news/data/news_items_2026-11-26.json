@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-26",
-  "generated_at_utc": "2026-11-26 17:05:09 UTC",
+  "generated_at_utc": "2026-11-26 23:05:10 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-26T17:05:04.431375+00:00",
+    "collected_at": "2026-11-26T23:05:04.626929+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,12 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 6,
-        "within_window": 9,
+        "within_24h": 9,
+        "within_window": 10,
         "eligible": 4,
         "rejected": {
-          "unreviewed_link": 5,
-          "older_than_window": 1
+          "unreviewed_link": 6
         }
       },
       {
@@ -49,12 +48,12 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 7,
-        "within_window": 14,
-        "eligible": 5,
+        "within_24h": 9,
+        "within_window": 15,
+        "eligible": 6,
         "rejected": {
           "topic_author_or_category": 9,
-          "older_than_window": 6
+          "older_than_window": 5
         }
       },
       {
@@ -98,7 +97,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 2,
+        "within_24h": 1,
         "within_window": 3,
         "eligible": 1,
         "rejected": {
@@ -125,11 +124,10 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 0,
-        "within_window": 1,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 1,
-          "older_than_window": 14
+          "older_than_window": 15
         }
       },
       {
@@ -173,24 +171,24 @@
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
         "status": "ok",
         "entries": 20,
-        "within_24h": 2,
-        "within_window": 3,
+        "within_24h": 0,
+        "within_window": 2,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 3,
-          "older_than_window": 17
+          "topic_author_or_category": 2,
+          "older_than_window": 18
         }
       }
     ],
     "eligible_by_source": {
-      "Cryptonews": 5,
+      "Cryptonews": 6,
       "NewsBTC": 4,
       "SEC": 1,
       "U.S. Bureau of Economic Analysis": 2,
       "European Central Bank": 1
     },
     "unique_by_source": {
-      "Cryptonews": 5,
+      "Cryptonews": 6,
       "NewsBTC": 4,
       "SEC": 1,
       "U.S. Bureau of Economic Analysis": 2,
@@ -207,26 +205,26 @@
   "count": 12,
   "items": [
     {
-      "title": "Bitcoin News: Swiss ETF Debut Meets $7B Options Expiry and US Strategic Reserve Push",
-      "link": "https://cryptonews.com/news/bitcoin-news-7b-options-expiry-swiss-etf-reserve-bill/",
-      "summary": "Bitcoin watch Friday's $7B options expiry, Switzerland's first spot Bitcoin ETF, and news on the US Strategic Bitcoin Reserve.",
+      "title": "XRP News: Thanksgiving Rally or December 1 Supply Shock?",
+      "link": "https://cryptonews.com/news/xrp-news-thanksgiving-rally-december-1-unlock/",
+      "summary": "XRP heads into Thanksgiving with $1 in sight, as crypto news turns to past holiday rallies and Ripple's December escrow unlock.",
       "source": "Cryptonews",
       "date": "2026-11-26",
       "date_human": "Nov 26, 2026",
-      "pub_ts": 1795707512,
+      "pub_ts": 1795718040,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "AI Projects Lead Trading in MEXC's October Listings; Top 10 Gainers Average 1,168% at Their Peaks",
-      "link": "https://www.newsbtc.com/news/ai-projects-lead-trading-in-mexcs-october-listings-top-10-gainers-average-1168-at-their-peaks/",
-      "summary": "Mutsamudu, Comoros, November 26, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released trading data for its October listings. Three of the five new tokens with the highest Spot trading volume were AI projects. Among the 10 new tokens with the largest price gains, the average peak gain was 1,168%. The gainers spanned sectors including GameFi, AI, infrastructure, and memecoins. October’s Spot trading volumes show how interest in AI translated into trading activity. AXIS, CLAUDIA, and DNA ranked first, second, and fourth, respectively, among the month’s new listings by Spot volume. ",
+      "title": "Monero's Delisting Nightmare Continues: XMR Price Plunges 15%",
+      "link": "https://www.newsbtc.com/news/monero-xmr/monero-xmr-price-crash-kucoin-delisting/",
+      "summary": "Key takeaways Monero fell about 15% on Thursday, from $525.36 to $446.54 per BitInfoCharts, after KuCoin announced it will delist XMR. KuCoin will end all four XMR spot pairs on November 30 at 08:00 UTC; deposits are already suspended and withdrawals stay open until December 31. XMR will also stop being accepted as collateral for VIP loans, so borrowers may need to add other collateral to avoid liquidation. KuCoin is the most active XMR venue (about $62.6 million in 24-hour volume on XMR/USDT per CoinGecko), following MEXC, Binance and Kraken EEA exits. The network does not depend on KuCoin, b",
       "source": "NewsBTC",
       "date": "2026-11-26",
       "date_human": "Nov 26, 2026",
-      "pub_ts": 1795687814,
+      "pub_ts": 1795716831,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -272,6 +270,45 @@
       "image_local": null
     },
     {
+      "title": "Bitcoin News: Swiss ETF Debut Meets $7B Options Expiry and US Strategic Reserve Push",
+      "link": "https://cryptonews.com/news/bitcoin-news-7b-options-expiry-swiss-etf-reserve-bill/",
+      "summary": "Bitcoin watch Friday's $7B options expiry, Switzerland's first spot Bitcoin ETF, and news on the US Strategic Bitcoin Reserve.",
+      "source": "Cryptonews",
+      "date": "2026-11-26",
+      "date_human": "Nov 26, 2026",
+      "pub_ts": 1795707512,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "AI Projects Lead Trading in MEXC's October Listings; Top 10 Gainers Average 1,168% at Their Peaks",
+      "link": "https://www.newsbtc.com/news/ai-projects-lead-trading-in-mexcs-october-listings-top-10-gainers-average-1168-at-their-peaks/",
+      "summary": "Mutsamudu, Comoros, November 26, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released trading data for its October listings. Three of the five new tokens with the highest Spot trading volume were AI projects. Among the 10 new tokens with the largest price gains, the average peak gain was 1,168%. The gainers spanned sectors including GameFi, AI, infrastructure, and memecoins. October’s Spot trading volumes show how interest in AI translated into trading activity. AXIS, CLAUDIA, and DNA ranked first, second, and fourth, respectively, among the month’s new listings by Spot volume. ",
+      "source": "NewsBTC",
+      "date": "2026-11-26",
+      "date_human": "Nov 26, 2026",
+      "pub_ts": 1795687814,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Personal Income and Outlays, October 2026",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+      "summary": "Personal income increased $201.8 billion (0.7 percent at a monthly rate) in October, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $200.5 billion (0.8 percent), and personal consumption expenditures (PCE) increased $63.8 billion (0.3 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $69.3 billion in October. Personal saving was $1.00 trillion, and the personal saving rate–personal saving as a percenta",
+      "source": "U.S. Bureau of Economic Analysis",
+      "date": "2026-11-25",
+      "date_human": "Nov 25, 2026",
+      "pub_ts": 1795613400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "Vitalik Buterin Is Designing Chips: Could Ethereum Become a Hardware Company and Overtake Nvidia?",
       "link": "https://cryptonews.com/news/vitalik-ethereum-hardware-chip-design-nvidia/",
       "summary": "Vitalik is exploring open-source chip design. Could Ethereum hardware become a new frontier and challenge Nvidia's dominance?",
@@ -298,19 +335,6 @@
       "image_local": null
     },
     {
-      "title": "Personal Income and Outlays, October 2026",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
-      "summary": "Personal income increased $201.8 billion (0.7 percent at a monthly rate) in October, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $200.5 billion (0.8 percent), and personal consumption expenditures (PCE) increased $63.8 billion (0.3 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $69.3 billion in October. Personal saving was $1.00 trillion, and the personal saving rate–personal saving as a percenta",
-      "source": "U.S. Bureau of Economic Analysis",
-      "date": "2026-11-25",
-      "date_human": "Nov 25, 2026",
-      "pub_ts": 1795613400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "Why Is Crypto Up Today? BTC Back Above $60K – is the Bull Market Back?",
       "link": "https://cryptonews.com/news/why-is-crypto-up-today-btc-back-above-60k-bull-market-back/",
       "summary": "Why Is Crypto Up Today? This is the question every trader is asking after the cryptocurrency market staged a clear rebound on Thursday, November 26, 2026, snapping a multi-day losing streak and giving battered traders some relief. After sliding to multi-week lows earlier in the week, major tokens climbed as buyers stepped in at discounted […]",
@@ -331,32 +355,6 @@
       "date": "2026-11-25",
       "date_human": "Nov 25, 2026",
       "pub_ts": 1795609870,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "LIVE – Crypto News Today: Is Bitcoin Bottoming Out? BTC Bounces Back After PCE Shock",
-      "link": "https://cryptonews.com/news/bitcoin-crypto-news-btc-bottom-pce-rebound/",
-      "summary": "Bitcoin rebounds toward $60,000 after inflation shock and series of bad crypto news. Is the crypto market finally finding a bottom?",
-      "source": "Cryptonews",
-      "date": "2026-11-26",
-      "date_human": "Nov 26, 2026",
-      "pub_ts": 1795669064,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Global Digital Asset and Structured Finance Platform OpenVault Completes $2 Million Seed Round at $20 Million Post-Money Valuation",
-      "link": "https://www.newsbtc.com/news/global-digital-asset-and-structured-finance-platform-openvault-completes-2-million-seed-round-at-20-million-post-money-valuation/",
-      "summary": "Round led by HorizonArc Ventures; proceeds to fund AI technology, product expansion, compliance and global growth Global digital asset and structured finance platform OpenVault today announced the completion of a $2 million seed round led by HorizonArc Ventures, with a post-money valuation of $20 million. The proceeds will be primarily used for AI technology development, product portfolio expansion, compliance infrastructure, and global market growth. A One-Stop Gateway for Digital Asset Yield OpenVault is an innovative financial platform focused on digital asset yield management, RWA (real-wo",
-      "source": "NewsBTC",
-      "date": "2026-11-25",
-      "date_human": "Nov 25, 2026",
-      "pub_ts": 1795582095,
       "image_candidates": [],
       "license_url": null,
       "image": null,
