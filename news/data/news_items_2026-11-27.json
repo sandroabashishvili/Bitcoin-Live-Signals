@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-27",
-  "generated_at_utc": "2026-11-27 05:05:11 UTC",
+  "generated_at_utc": "2026-11-27 11:05:12 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-27T05:05:05.398177+00:00",
+    "collected_at": "2026-11-27T11:05:04.099172+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 9,
+        "within_24h": 7,
         "within_window": 10,
-        "eligible": 4,
+        "eligible": 5,
         "rejected": {
-          "unreviewed_link": 6
+          "unreviewed_link": 5
         }
       },
       {
@@ -48,12 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 8,
-        "within_window": 15,
-        "eligible": 6,
+        "within_24h": 10,
+        "within_window": 18,
+        "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 9,
-          "older_than_window": 5
+          "topic_author_or_category": 10,
+          "unreviewed_link": 1,
+          "older_than_window": 2
         }
       },
       {
@@ -97,7 +98,7 @@
         "url": "https://www.ecb.europa.eu/rss/press.html",
         "status": "ok",
         "entries": 15,
-        "within_24h": 1,
+        "within_24h": 2,
         "within_window": 3,
         "eligible": 1,
         "rejected": {
@@ -181,50 +182,63 @@
       }
     ],
     "eligible_by_source": {
-      "NewsBTC": 4,
-      "Cryptonews": 6,
+      "Cryptonews": 7,
+      "NewsBTC": 5,
+      "European Central Bank": 1,
       "SEC": 1,
-      "U.S. Bureau of Economic Analysis": 2,
-      "European Central Bank": 1
+      "U.S. Bureau of Economic Analysis": 2
     },
     "unique_by_source": {
-      "NewsBTC": 4,
-      "Cryptonews": 6,
+      "Cryptonews": 7,
+      "NewsBTC": 5,
+      "European Central Bank": 1,
       "SEC": 1,
-      "U.S. Bureau of Economic Analysis": 2,
-      "European Central Bank": 1
+      "U.S. Bureau of Economic Analysis": 2
     },
     "selected_by_source": {
-      "NewsBTC": 4,
       "Cryptonews": 4,
+      "NewsBTC": 4,
+      "European Central Bank": 1,
       "SEC": 1,
-      "U.S. Bureau of Economic Analysis": 2,
-      "European Central Bank": 1
+      "U.S. Bureau of Economic Analysis": 2
     }
   },
   "count": 12,
   "items": [
     {
-      "title": "Ethereum's Co-Founder Takes On Crypto's Next Security Threat. Who Is Vitalik Buterin?",
-      "link": "https://www.newsbtc.com/news/ethereum/who-is-vitalik-buterin/",
-      "summary": "Key takeaways Vitalik Buterin’s November 26 essay argues that crypto security must extend to the physical chips inside devices, summed up as “Not your silicon, not your keys.” He wants manufacturers to publish physical chip layouts (GDS files) so investigators can compare real hardware against the design. Researcher Andrew Huang’s infrared inspection technique (IRIS) can examine chips without removing them, but it has resolution limits and is not a universal fix. The essay is a proposal, not a claim that existing hardware wallets are compromised, and publishing it does not give Buterin power t",
-      "source": "NewsBTC",
+      "title": "Swiss Bitcoin ETF: Bitcoin Wasn't the Problem, Institutional Rules Were – BIT CEO",
+      "link": "https://cryptonews.com/news/swiss-bitcoin-etf-bit-ceo-exclusive/",
+      "summary": "Swiss Bitcoin ETF launches with $20M as BIT CEO tells CryptoNews why fund structures could unlock institutional BTC demand.",
+      "source": "Cryptonews",
       "date": "2026-11-27",
       "date_human": "Nov 27, 2026",
-      "pub_ts": 1795752788,
+      "pub_ts": 1795774548,
       "image_candidates": [],
       "license_url": null,
       "image": null,
       "image_local": null
     },
     {
-      "title": "XRP News: Thanksgiving Rally or December 1 Supply Shock?",
-      "link": "https://cryptonews.com/news/xrp-news-thanksgiving-rally-december-1-unlock/",
-      "summary": "XRP heads into Thanksgiving with $1 in sight, as crypto news turns to past holiday rallies and Ripple's December escrow unlock.",
-      "source": "Cryptonews",
-      "date": "2026-11-26",
-      "date_human": "Nov 26, 2026",
-      "pub_ts": 1795718040,
+      "title": "MEXC Launches Golden Gratitude Gala With a 10M USDT Prize Pool, Including a Gold Bar and BTC",
+      "link": "https://www.newsbtc.com/news/mexc-launches-golden-gratitude-gala-with-a-10m-usdt-prize-pool-including-a-gold-bar-and-btc/",
+      "summary": "Mutsamudu, Comoros, November 27, 2026 – MEXC, a pioneer in 0-fee digital asset trading, announced the launch of the Golden Gratitude Gala. In appreciation of users’ support over the past year, the event features MEXC’s largest prize pool of the year, with up to 10 million USDT in prizes, including a 40-ounce gold bar and BTC. The Golden Gratitude Gala is a flagship event of MEXC’s inaugural Global Blue Friday Initiative, an annual user appreciation day that MEXC plans to hold on the Friday after Thanksgiving. The initiative is an opportunity to thank users for their support, feedback, and enga",
+      "source": "NewsBTC",
+      "date": "2026-11-27",
+      "date_human": "Nov 27, 2026",
+      "pub_ts": 1795773824,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "ECB Consumer Expectations Survey results – October 2026",
+      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261127~2e53af695e.en.html",
+      "summary": "ECB Consumer Expectations Survey results – October 2026",
+      "source": "European Central Bank",
+      "date": "2026-11-27",
+      "date_human": "Nov 27, 2026",
+      "pub_ts": 1795770000,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -257,13 +271,52 @@
       "image_local": null
     },
     {
-      "title": "Card payments edge past cash in shops; euro area consumers want both",
-      "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html",
-      "summary": "Card payments edge past cash in shops; euro area consumers want both",
-      "source": "European Central Bank",
+      "title": "LIVE – Crypto News Today: Why Is Bitcoin Up? Gold and Wall Street Rally Fuel BTC Bounce",
+      "link": "https://cryptonews.com/news/bitcoin-rises-from-grave-black-friday-crypto-news/",
+      "summary": "Bitcoin is clawing its way back this Black Friday as global markets rally, offering crypto a glimmer of hope after weeks of bad news.",
+      "source": "Cryptonews",
+      "date": "2026-11-27",
+      "date_human": "Nov 27, 2026",
+      "pub_ts": 1795763914,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Ethereum's Co-Founder Takes On Crypto's Next Security Threat. Who Is Vitalik Buterin?",
+      "link": "https://www.newsbtc.com/news/ethereum/who-is-vitalik-buterin/",
+      "summary": "Key takeaways Vitalik Buterin’s November 26 essay argues that crypto security must extend to the physical chips inside devices, summed up as “Not your silicon, not your keys.” He wants manufacturers to publish physical chip layouts (GDS files) so investigators can compare real hardware against the design. Researcher Andrew Huang’s infrared inspection technique (IRIS) can examine chips without removing them, but it has resolution limits and is not a universal fix. The essay is a proposal, not a claim that existing hardware wallets are compromised, and publishing it does not give Buterin power t",
+      "source": "NewsBTC",
+      "date": "2026-11-27",
+      "date_human": "Nov 27, 2026",
+      "pub_ts": 1795752788,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "Personal Income and Outlays, October 2026",
+      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+      "summary": "Personal income increased $201.8 billion (0.7 percent at a monthly rate) in October, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $200.5 billion (0.8 percent), and personal consumption expenditures (PCE) increased $63.8 billion (0.3 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $69.3 billion in October. Personal saving was $1.00 trillion, and the personal saving rate–personal saving as a percenta",
+      "source": "U.S. Bureau of Economic Analysis",
       "date": "2026-11-25",
       "date_human": "Nov 25, 2026",
-      "pub_ts": 1795600800,
+      "pub_ts": 1795613400,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
+      "title": "XRP News: Thanksgiving Rally or December 1 Supply Shock?",
+      "link": "https://cryptonews.com/news/xrp-news-thanksgiving-rally-december-1-unlock/",
+      "summary": "XRP heads into Thanksgiving with $1 in sight, as crypto news turns to past holiday rallies and Ripple's December escrow unlock.",
+      "source": "Cryptonews",
+      "date": "2026-11-26",
+      "date_human": "Nov 26, 2026",
+      "pub_ts": 1795718040,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -296,19 +349,6 @@
       "image_local": null
     },
     {
-      "title": "Personal Income and Outlays, October 2026",
-      "link": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
-      "summary": "Personal income increased $201.8 billion (0.7 percent at a monthly rate) in October, according to estimates released today by the U.S. Bureau of Economic Analysis (BEA). Disposable personal income (DPI)–personal income less personal current taxes–increased $200.5 billion (0.8 percent), and personal consumption expenditures (PCE) increased $63.8 billion (0.3 percent). Personal outlays–the sum of PCE, personal interest payments, and personal current transfer payments–increased $69.3 billion in October. Personal saving was $1.00 trillion, and the personal saving rate–personal saving as a percenta",
-      "source": "U.S. Bureau of Economic Analysis",
-      "date": "2026-11-25",
-      "date_human": "Nov 25, 2026",
-      "pub_ts": 1795613400,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
       "title": "AI Projects Lead Trading in MEXC's October Listings; Top 10 Gainers Average 1,168% at Their Peaks",
       "link": "https://www.newsbtc.com/news/ai-projects-lead-trading-in-mexcs-october-listings-top-10-gainers-average-1168-at-their-peaks/",
       "summary": "Mutsamudu, Comoros, November 26, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released trading data for its October listings. Three of the five new tokens with the highest Spot trading volume were AI projects. Among the 10 new tokens with the largest price gains, the average peak gain was 1,168%. The gainers spanned sectors including GameFi, AI, infrastructure, and memecoins. October’s Spot trading volumes show how interest in AI translated into trading activity. AXIS, CLAUDIA, and DNA ranked first, second, and fourth, respectively, among the month’s new listings by Spot volume. ",
@@ -316,45 +356,6 @@
       "date": "2026-11-26",
       "date_human": "Nov 26, 2026",
       "pub_ts": 1795687814,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Vitalik Buterin Is Designing Chips: Could Ethereum Become a Hardware Company and Overtake Nvidia?",
-      "link": "https://cryptonews.com/news/vitalik-ethereum-hardware-chip-design-nvidia/",
-      "summary": "Vitalik is exploring open-source chip design. Could Ethereum hardware become a new frontier and challenge Nvidia's dominance?",
-      "source": "Cryptonews",
-      "date": "2026-11-26",
-      "date_human": "Nov 26, 2026",
-      "pub_ts": 1795699205,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "MEXC Launches Inaugural Global Blue Friday Initiative to Celebrate Users with $200,000 in Rewards",
-      "link": "https://www.newsbtc.com/news/mexc-launches-inaugural-global-blue-friday-initiative-to-celebrate-users-with-200000-in-rewards/",
-      "summary": "Mutsamudu, Comoros, November 26, 2026 — MEXC, a pioneer in 0-fee digital asset trading, announced the launch of its inaugural Global Blue Friday Initiative, featuring VVIP-exclusive rewards, Futures Earn, and limited-time Earn Plus offers, inviting users worldwide to participate. Under the theme “Better Is Built — Through Change, Toward Better,” the initiative thanks users for their continued support through open communication, community engagement, and tangible rewards. As the cryptocurrency industry evolves, more users are participating in digital asset trading, bringing increasingly diverse",
-      "source": "NewsBTC",
-      "date": "2026-11-26",
-      "date_human": "Nov 26, 2026",
-      "pub_ts": 1795687555,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "Why Is Crypto Up Today? BTC Back Above $60K – is the Bull Market Back?",
-      "link": "https://cryptonews.com/news/why-is-crypto-up-today-btc-back-above-60k-bull-market-back/",
-      "summary": "Why Is Crypto Up Today? This is the question every trader is asking after the cryptocurrency market staged a clear rebound on Thursday, November 26, 2026, snapping a multi-day losing streak and giving battered traders some relief. After sliding to multi-week lows earlier in the week, major tokens climbed as buyers stepped in at discounted […]",
-      "source": "Cryptonews",
-      "date": "2026-11-26",
-      "date_human": "Nov 26, 2026",
-      "pub_ts": 1795687882,
       "image_candidates": [],
       "license_url": null,
       "image": null,
