@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-27",
-  "generated_at_utc": "2026-11-27 17:05:10 UTC",
+  "generated_at_utc": "2026-11-27 23:05:12 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-27T17:05:06.481249+00:00",
+    "collected_at": "2026-11-27T23:05:06.676115+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 7,
+        "within_24h": 5,
         "within_window": 10,
-        "eligible": 5,
+        "eligible": 4,
         "rejected": {
-          "unreviewed_link": 5
+          "unreviewed_link": 6
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 9,
-        "within_window": 16,
+        "within_24h": 5,
+        "within_window": 14,
         "eligible": 8,
         "rejected": {
-          "topic_author_or_category": 7,
+          "topic_author_or_category": 5,
           "unreviewed_link": 1,
-          "older_than_window": 4
+          "older_than_window": 6
         }
       },
       {
@@ -99,12 +99,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 2,
-        "within_window": 4,
+        "within_window": 3,
         "eligible": 1,
         "rejected": {
           "unreviewed_link": 2,
-          "topic_author_or_category": 1,
-          "older_than_window": 11
+          "older_than_window": 12
         }
       },
       {
@@ -173,23 +172,22 @@
         "status": "ok",
         "entries": 20,
         "within_24h": 0,
-        "within_window": 2,
+        "within_window": 0,
         "eligible": 0,
         "rejected": {
-          "topic_author_or_category": 2,
-          "older_than_window": 18
+          "older_than_window": 20
         }
       }
     ],
     "eligible_by_source": {
       "Cryptonews": 8,
-      "NewsBTC": 5,
+      "NewsBTC": 4,
       "European Central Bank": 1,
       "Bitcoin Optech": 1
     },
     "unique_by_source": {
       "Cryptonews": 8,
-      "NewsBTC": 5,
+      "NewsBTC": 4,
       "European Central Bank": 1,
       "Bitcoin Optech": 1
     },
