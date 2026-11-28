@@ -1,6 +1,6 @@
 {
   "day_iso": "2026-11-28",
-  "generated_at_utc": "2026-11-28 05:05:08 UTC",
+  "generated_at_utc": "2026-11-28 11:05:08 UTC",
   "source_names": [
     "NewsBTC",
     "NIST",
@@ -16,7 +16,7 @@
     48
   ],
   "collection_diagnostics": {
-    "collected_at": "2026-11-28T05:05:02.086455+00:00",
+    "collected_at": "2026-11-28T11:05:02.043688+00:00",
     "window_hours": 48,
     "feeds": [
       {
@@ -24,11 +24,11 @@
         "url": "https://www.newsbtc.com/feed/",
         "status": "ok",
         "entries": 10,
-        "within_24h": 4,
+        "within_24h": 5,
         "within_window": 10,
-        "eligible": 4,
+        "eligible": 3,
         "rejected": {
-          "unreviewed_link": 6
+          "unreviewed_link": 7
         }
       },
       {
@@ -48,13 +48,13 @@
         "url": "https://cryptonews.com/feed/",
         "status": "ok",
         "entries": 20,
-        "within_24h": 5,
-        "within_window": 13,
+        "within_24h": 2,
+        "within_window": 12,
         "eligible": 7,
         "rejected": {
-          "topic_author_or_category": 5,
+          "topic_author_or_category": 4,
           "unreviewed_link": 1,
-          "older_than_window": 7
+          "older_than_window": 8
         }
       },
       {
@@ -99,11 +99,11 @@
         "status": "ok",
         "entries": 15,
         "within_24h": 2,
-        "within_window": 3,
+        "within_window": 4,
         "eligible": 1,
         "rejected": {
-          "unreviewed_link": 2,
-          "older_than_window": 12
+          "unreviewed_link": 3,
+          "older_than_window": 11
         }
       },
       {
@@ -181,19 +181,19 @@
     ],
     "eligible_by_source": {
       "Cryptonews": 7,
-      "NewsBTC": 4,
+      "NewsBTC": 3,
       "European Central Bank": 1,
       "Bitcoin Optech": 1
     },
     "unique_by_source": {
       "Cryptonews": 7,
-      "NewsBTC": 4,
+      "NewsBTC": 3,
       "European Central Bank": 1,
       "Bitcoin Optech": 1
     },
     "selected_by_source": {
-      "Cryptonews": 6,
-      "NewsBTC": 4,
+      "Cryptonews": 7,
+      "NewsBTC": 3,
       "European Central Bank": 1,
       "Bitcoin Optech": 1
     }
@@ -201,13 +201,13 @@
   "count": 12,
   "items": [
     {
-      "title": "How to Claim Bitcoin Hyper Tokens Ahead of BTC Layer 2 Mainnet Debut",
-      "link": "https://cryptonews.com/news/how-to-claim-bitcoin-hyper-tokens-ahead-of-btc-layer-2-mainnet-debut/",
-      "summary": "The crypto markets have shown early signs of stabilization today, even as sentiment sits in extreme fear territory. Bitcoin has climbed back above $61,500 after a 1.9% gain over the past 24 hours, while the total market capitalization has reached $2.11 trillion with a 1.31% advance. The recovery has tracked gains in tech futures and […]",
+      "title": "China finalizes blockchain digital identity rules, effective March 1, 2027",
+      "link": "https://cryptonews.com/news/china-blockchain-identity-regulations-march-2027/",
+      "summary": "China finalized blockchain-based digital identity rules on November 27, 2026, signed by 11 departments including the People's Bank of China and effective March 1, 2027.",
       "source": "Cryptonews",
-      "date": "2026-11-27",
-      "date_human": "Nov 27, 2026",
-      "pub_ts": 1795779341,
+      "date": "2026-11-28",
+      "date_human": "Nov 28, 2026",
+      "pub_ts": 1795856493,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -253,13 +253,13 @@
       "image_local": null
     },
     {
-      "title": "Swiss Bitcoin ETF: Bitcoin Wasn't the Problem, Institutional Rules Were – BIT CEO",
-      "link": "https://cryptonews.com/news/swiss-bitcoin-etf-bit-ceo-exclusive/",
-      "summary": "Swiss Bitcoin ETF launches with $20M as BIT CEO tells CryptoNews why fund structures could unlock institutional BTC demand.",
+      "title": "How to Claim Bitcoin Hyper Tokens Ahead of BTC Layer 2 Mainnet Debut",
+      "link": "https://cryptonews.com/news/how-to-claim-bitcoin-hyper-tokens-ahead-of-btc-layer-2-mainnet-debut/",
+      "summary": "The crypto markets have shown early signs of stabilization today, even as sentiment sits in extreme fear territory. Bitcoin has climbed back above $61,500 after a 1.9% gain over the past 24 hours, while the total market capitalization has reached $2.11 trillion with a 1.31% advance. The recovery has tracked gains in tech futures and […]",
       "source": "Cryptonews",
       "date": "2026-11-27",
       "date_human": "Nov 27, 2026",
-      "pub_ts": 1795774548,
+      "pub_ts": 1795779341,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -279,13 +279,13 @@
       "image_local": null
     },
     {
-      "title": "LIVE – Crypto News Today: Why Is Bitcoin Up? Gold and Wall Street Rally Fuel BTC Bounce",
-      "link": "https://cryptonews.com/news/bitcoin-rises-from-grave-black-friday-crypto-news/",
-      "summary": "Bitcoin is clawing its way back this Black Friday as global markets rally, offering crypto a glimmer of hope after weeks of bad news.",
+      "title": "Swiss Bitcoin ETF: Bitcoin Wasn't the Problem, Institutional Rules Were – BIT CEO",
+      "link": "https://cryptonews.com/news/swiss-bitcoin-etf-bit-ceo-exclusive/",
+      "summary": "Swiss Bitcoin ETF launches with $20M as BIT CEO tells CryptoNews why fund structures could unlock institutional BTC demand.",
       "source": "Cryptonews",
       "date": "2026-11-27",
       "date_human": "Nov 27, 2026",
-      "pub_ts": 1795763914,
+      "pub_ts": 1795774548,
       "image_candidates": [],
       "license_url": null,
       "image": null,
@@ -305,6 +305,19 @@
       "image_local": null
     },
     {
+      "title": "LIVE – Crypto News Today: Why Is Bitcoin Up? Gold and Wall Street Rally Fuel BTC Bounce",
+      "link": "https://cryptonews.com/news/bitcoin-rises-from-grave-black-friday-crypto-news/",
+      "summary": "Bitcoin is clawing its way back this Black Friday as global markets rally, offering crypto a glimmer of hope after weeks of bad news.",
+      "source": "Cryptonews",
+      "date": "2026-11-27",
+      "date_human": "Nov 27, 2026",
+      "pub_ts": 1795763914,
+      "image_candidates": [],
+      "license_url": null,
+      "image": null,
+      "image_local": null
+    },
+    {
       "title": "XRP News: Thanksgiving Rally or December 1 Supply Shock?",
       "link": "https://cryptonews.com/news/xrp-news-thanksgiving-rally-december-1-unlock/",
       "summary": "XRP heads into Thanksgiving with $1 in sight, as crypto news turns to past holiday rallies and Ripple's December escrow unlock.",
@@ -312,19 +325,6 @@
       "date": "2026-11-26",
       "date_human": "Nov 26, 2026",
       "pub_ts": 1795718040,
-      "image_candidates": [],
-      "license_url": null,
-      "image": null,
-      "image_local": null
-    },
-    {
-      "title": "AI Projects Lead Trading in MEXC's October Listings; Top 10 Gainers Average 1,168% at Their Peaks",
-      "link": "https://www.newsbtc.com/news/ai-projects-lead-trading-in-mexcs-october-listings-top-10-gainers-average-1168-at-their-peaks/",
-      "summary": "Mutsamudu, Comoros, November 26, 2026 – MEXC, a pioneer in 0-fee digital asset trading, has released trading data for its October listings. Three of the five new tokens with the highest Spot trading volume were AI projects. Among the 10 new tokens with the largest price gains, the average peak gain was 1,168%. The gainers spanned sectors including GameFi, AI, infrastructure, and memecoins. October’s Spot trading volumes show how interest in AI translated into trading activity. AXIS, CLAUDIA, and DNA ranked first, second, and fourth, respectively, among the month’s new listings by Spot volume. ",
-      "source": "NewsBTC",
-      "date": "2026-11-26",
-      "date_human": "Nov 26, 2026",
-      "pub_ts": 1795687814,
       "image_candidates": [],
       "license_url": null,
       "image": null,
